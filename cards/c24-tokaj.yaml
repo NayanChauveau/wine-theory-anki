@@ -2,4 +2,1106 @@
 # source: C24 (import/inbox/c24-tokaj.yaml)
 # deck: Hungary::Tokaj
 
-cards: []
+cards:
+  - id: tokaj-location-001
+    type: mcq
+    deck: Hungary::Tokaj
+    tags: [hungary, tokaj]
+    status: reviewed
+    source_id: c24-0001
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Where do Tokaj’s vineyards sit in Hungary?
+      choices:
+        - { text: "On the Great Plain only, far from any border", correct: false }
+        - { text: "In the Carpathian foothills of the far north-east, near Slovakia", correct: true }
+        - { text: "On the Lake Balaton shore", correct: false }
+        - { text: "In Villány, on the Croatian border", correct: false }
+      explanation: |
+        **In the Carpathian foothills of the far north-east, near
+        Slovakia.** The town of Tokaj sits where the Bodrog meets
+        the Tisza.
+
+  - id: tokaj-climate-001
+    type: mcq
+    deck: Hungary::Tokaj
+    tags: [hungary, tokaj, climate]
+    status: reviewed
+    source_id: c24-0002
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which climate label fits Tokaj?
+      choices:
+        - { text: "Cool maritime, like England", correct: false }
+        - { text: "Moderate continental", correct: true }
+        - { text: "Hot Mediterranean", correct: false }
+        - { text: "Equatorial rainforest", correct: false }
+      explanation: |
+        **Moderate continental.** Warm summers, cold winters; autumn
+        mist from the rivers is the botrytis extra.
+
+  - id: tokaj-best-sites-001
+    type: mcq
+    deck: Hungary::Tokaj
+    tags: [hungary, tokaj]
+    status: reviewed
+    source_id: c24-0003
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which landform and aspect usually carry Tokaj’s finest parcels?
+      choices:
+        - { text: "On a flat, frost-pocket valley floor only", correct: false }
+        - { text: "On hillside slopes with a southerly aspect", correct: true }
+        - { text: "On north-facing alpine cliffs", correct: false }
+        - { text: "In indoor glasshouses", correct: false }
+      explanation: |
+        **On hillside slopes with a southerly aspect.** Height and
+        sun finish Furmint; the rivers supply the mist.
+
+  - id: tokaj-botrytis-rivers-001
+    type: mcq
+    deck: Hungary::Tokaj
+    tags: [hungary, tokaj, climate]
+    status: reviewed
+    source_id: c24-0004
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What supplies the autumn humidity Tokaj needs for noble rot?
+      choices:
+        - { text: "The Atlantic Gulf Stream only", correct: false }
+        - { text: "The Bodrog and the Tisza, with their tributaries", correct: true }
+        - { text: "Irrigation sprinklers on a desert", correct: false }
+        - { text: "A legal ban on dry weather", correct: false }
+      explanation: |
+        **The Bodrog and the Tisza, with their tributaries.** Autumn
+        morning mist, then drier afternoons, lets Botrytis cinerea
+        shrivel berries instead of wrecking them.
+
+  - id: tokaj-three-grapes-001
+    type: mcq
+    deck: Hungary::Tokaj
+    tags: [hungary, tokaj, grapes]
+    status: reviewed
+    source_id: c24-0005
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Tokaji’s legal core is which three white grapes?
+      choices:
+        - { text: "Cabernet Sauvignon, Merlot and Syrah", correct: false }
+        - { text: "Furmint, Hárslevelű and Sárgamuskotály", correct: true }
+        - { text: "Riesling, Silvaner and Müller-Thurgau", correct: false }
+        - { text: "Kadarka only", correct: false }
+      explanation: |
+        **Furmint, Hárslevelű and Sárgamuskotály.** Furmint leads;
+        the other two add perfume.
+
+  - id: tokaj-furmint-planted-001
+    type: mcq
+    deck: Hungary::Tokaj
+    tags: [hungary, tokaj, grapes]
+    status: reviewed
+    source_id: c24-0006
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which variety covers the most Tokaj hectares?
+      choices:
+        - { text: "Hárslevelű", correct: false }
+        - { text: "Furmint", correct: true }
+        - { text: "Sárgamuskotály", correct: false }
+        - { text: "Kadarka", correct: false }
+      explanation: |
+        **Furmint.** It is the workhorse for both dry wine and Aszú.
+
+  - id: tokaj-furmint-profile-001
+    type: mcq
+    deck: Hungary::Tokaj
+    tags: [hungary, tokaj, grapes]
+    status: reviewed
+    source_id: c24-0007
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What is typical Tokaji Furmint like from youth into age?
+      choices:
+        - { text: "Low acid, jammy and pale", correct: false }
+        - { text: "Concentrated and high-acid, apple when young, nuts and honey with age", correct: true }
+        - { text: "A black grape only", correct: false }
+        - { text: "Always sparkling Muscat", correct: false }
+      explanation: |
+        **Concentrated and high-acid, apple when young, nuts and
+        honey with age.** The acid is why sweet Aszú stays fresh.
+
+  - id: tokaj-aszu-grape-001
+    type: mcq
+    deck: Hungary::Tokaj
+    tags: [hungary, tokaj, grapes, aszu]
+    status: reviewed
+    source_id: c24-0008
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which grape usually leads a Tokaji Aszú?
+      choices:
+        - { text: "Pinot Gris", correct: false }
+        - { text: "Furmint", correct: true }
+        - { text: "Chardonnay", correct: false }
+        - { text: "Kadarka", correct: false }
+      explanation: |
+        **Furmint.** Hárslevelű and Sárgamuskotály may join; Furmint
+        is the Aszú core.
+
+  - id: tokaj-furmint-botrytis-001
+    type: mcq
+    deck: Hungary::Tokaj
+    tags: [hungary, tokaj, grapes, aszu]
+    status: reviewed
+    source_id: c24-0009
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What two ripening traits make Furmint the classic Aszú grape?
+      choices:
+        - { text: "Dry Furmint is illegal in Tokaj", correct: false }
+        - { text: "It ripens late and is prone to botrytis", correct: true }
+        - { text: "It never ripens at all", correct: false }
+        - { text: "It has no acidity", correct: false }
+      explanation: |
+        **It ripens late and is prone to botrytis.** Dry Furmint
+        still exists and has grown in importance; Aszú is the older
+        fame.
+
+  - id: tokaj-harslevelu-perfume-001
+    type: mcq
+    deck: Hungary::Tokaj
+    tags: [hungary, tokaj, grapes]
+    status: reviewed
+    source_id: c24-0010
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: In a Furmint-led blend, Hárslevelű is valued for which quality?
+      choices:
+        - { text: "Deep red colour", correct: false }
+        - { text: "Perfume", correct: true }
+        - { text: "Sparkling gas", correct: false }
+        - { text: "Residual salt", correct: false }
+      explanation: |
+        **Perfume.** Linden-blossom is the usual Hárslevelű register.
+
+  - id: tokaj-harslevelu-late-001
+    type: mcq
+    deck: Hungary::Tokaj
+    tags: [hungary, tokaj, grapes]
+    status: reviewed
+    source_id: c24-0010
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Where does Hárslevelű sit on Tokaj’s ripening calendar?
+      choices:
+        - { text: "Early, like Chasselas", correct: false }
+        - { text: "Late-ripening", correct: true }
+        - { text: "It is picked in June only", correct: false }
+        - { text: "It never ripens", correct: false }
+      explanation: |
+        **Late-ripening.** That hang-time is why it can take noble
+        rot with Furmint.
+
+  - id: tokaj-sargamuskotaly-synonym-001
+    type: mcq
+    deck: Hungary::Tokaj
+    tags: [hungary, tokaj, grapes]
+    status: reviewed
+    source_id: c24-0011
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Sárgamuskotály is the Hungarian name for which grape?
+      choices:
+        - { text: "Cabernet Sauvignon", correct: false }
+        - { text: "Muscat Blanc à Petits Grains", correct: true }
+        - { text: "Riesling", correct: false }
+        - { text: "Palomino", correct: false }
+      explanation: |
+        **Muscat Blanc à Petits Grains.** Same grape, local name.
+
+  - id: tokaj-sargamuskotaly-blend-001
+    type: mcq
+    deck: Hungary::Tokaj
+    tags: [hungary, tokaj, grapes]
+    status: reviewed
+    source_id: c24-0012
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Why do Tokaj blends keep a little Sárgamuskotály?
+      choices:
+        - { text: "For deep colour and tannin", correct: false }
+        - { text: "For its aromatic lift", correct: true }
+        - { text: "Law requires 80 percent of the blend", correct: false }
+        - { text: "To make a red wine", correct: false }
+      explanation: |
+        **For its aromatic lift.** A Muscat seasoning, not the lead
+        grape.
+
+  - id: tokaj-styles-001
+    type: mcq
+    deck: Hungary::Tokaj
+    tags: [hungary, tokaj]
+    status: reviewed
+    source_id: c24-0013
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which two style families does Tokaji cover?
+      choices:
+        - { text: "Only sparkling red", correct: false }
+        - { text: "Dry wines and sweet wines", correct: true }
+        - { text: "Only fortified Muscat", correct: false }
+        - { text: "Only ice wine", correct: false }
+      explanation: |
+        **Dry wines and sweet wines.** Dry Furmint is a real Tokaji
+        style, not a side note to Aszú.
+
+  - id: tokaj-bottle-size-001
+    type: mcq
+    deck: Hungary::Tokaj
+    tags: [hungary, tokaj]
+    status: reviewed
+    source_id: c24-0014
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How do finished Tokaji bottle sizes usually split by style?
+      choices:
+        - { text: "Every wine must be 18.7 cl", correct: false }
+        - { text: "Sweet wines in 50 cl; dry wines in 75 cl", correct: true }
+        - { text: "Sweet wines only in magnum", correct: false }
+        - { text: "Dry wines only in 37.5 cl", correct: false }
+      explanation: |
+        **Sweet wines in 50 cl; dry wines in 75 cl.** Aszú and
+        Eszencia are the classic 50 cl bottles.
+
+  - id: tokaj-vintage-styles-001
+    type: mcq
+    deck: Hungary::Tokaj
+    tags: [hungary, tokaj]
+    status: reviewed
+    source_id: c24-0015
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: In an ordinary Tokaj vintage, what does a producer often bottle?
+      choices:
+        - { text: "Only Eszencia", correct: false }
+        - { text: "Several styles, depending on how much noble rot set", correct: true }
+        - { text: "Only red wine", correct: false }
+        - { text: "Nothing until a perfect year", correct: false }
+      explanation: |
+        **Several styles, depending on how much noble rot set.**
+        Dry Furmint, Szamorodni and Aszú can come from one harvest.
+
+  - id: tokaj-harvest-sort-001
+    type: mcq
+    deck: Hungary::Tokaj
+    tags: [hungary, tokaj]
+    status: reviewed
+    source_id: c24-0016
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How do Tokaj growers sort fruit so more than one style is possible?
+      choices:
+        - { text: "They pick everything in one pass into one tank", correct: false }
+        - { text: "They split the harvest into three lots by how much noble rot is on the grapes", correct: true }
+        - { text: "They buy only imported must", correct: false }
+        - { text: "They freeze the entire crop", correct: false }
+      explanation: |
+        **They split the harvest into three lots by how much noble
+        rot is on the grapes.** Healthy fruit, part-rotted bunches,
+        and individual aszú berries.
+
+  - id: tokaj-aszu-berries-001
+    type: mcq
+    deck: Hungary::Tokaj
+    tags: [hungary, tokaj, aszu]
+    status: reviewed
+    source_id: c24-0017
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What does aszú name in Tokaj?
+      choices:
+        - { text: "A dry sparkling wine", correct: false }
+        - { text: "Nobly rotten berries", correct: true }
+        - { text: "A black grape", correct: false }
+        - { text: "A river", correct: false }
+      explanation: |
+        **Nobly rotten berries.** Aszú the wine is built from those
+        individually picked berries.
+
+  - id: tokaj-aszu-picking-001
+    type: mcq
+    deck: Hungary::Tokaj
+    tags: [hungary, tokaj, aszu]
+    status: reviewed
+    source_id: c24-0018
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How are aszú berries taken off the vine in Tokaj?
+      choices:
+        - { text: "Machine harvest at night only", correct: false }
+        - { text: "Pickers walk the rows several times and cut berries one by one; the rest of the crop is picked separately", correct: true }
+        - { text: "One pass of whole bunches, never sorted", correct: false }
+        - { text: "The fruit is left until spring", correct: false }
+      explanation: |
+        **Pickers walk the rows several times and cut berries one by
+        one; the rest of the crop is picked separately.** That
+        remainder can become dry wine, a base wine, or Szamorodni.
+
+  - id: tokaj-szamorodni-meaning-001
+    type: mcq
+    deck: Hungary::Tokaj
+    tags: [hungary, tokaj, szamorodni]
+    status: reviewed
+    source_id: c24-0019
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Szamorodni’s Polish-origin name is usually rendered in English as what?
+      choices:
+        - { text: "Twice fermented", correct: false }
+        - { text: "As it comes", correct: true }
+        - { text: "Free-run only", correct: false }
+        - { text: "Fortified", correct: false }
+      explanation: |
+        **As it comes.** Whole bunches, not berry-by-berry aszú
+        selection.
+
+  - id: tokaj-szamorodni-fruit-001
+    type: mcq
+    deck: Hungary::Tokaj
+    tags: [hungary, tokaj, szamorodni]
+    status: reviewed
+    source_id: c24-0020
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What fruit goes into Tokaji Szamorodni?
+      choices:
+        - { text: "Only healthy, fully dry grapes", correct: false }
+        - { text: "Whole bunches that are only partly touched by noble rot", correct: true }
+        - { text: "Only hand-picked aszú berries", correct: false }
+        - { text: "Only red grapes", correct: false }
+      explanation: |
+        **Whole bunches that are only partly touched by noble rot.**
+        The wine may finish dry or sweet.
+
+  - id: tokaj-dry-role-001
+    type: mcq
+    deck: Hungary::Tokaj
+    tags: [hungary, tokaj]
+    status: reviewed
+    source_id: c24-0021
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Why have dry Tokaji wines with no botrytis become more useful to producers?
+      choices:
+        - { text: "Aszú is now illegal", correct: false }
+        - { text: "They give a wine to sell when noble rot is scarce", correct: true }
+        - { text: "Dry wine is illegal in Tokaj", correct: false }
+        - { text: "They replace Eszencia by law", correct: false }
+      explanation: |
+        **They give a wine to sell when noble rot is scarce.** Dry
+        Furmint is also a style in its own right, not only a fallback.
+
+  - id: tokaj-dry-range-001
+    type: mcq
+    deck: Hungary::Tokaj
+    tags: [hungary, tokaj]
+    status: reviewed
+    source_id: c24-0022
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How wide is the dry Tokaji range?
+      choices:
+        - { text: "Only sparkling", correct: false }
+        - { text: "From simple, unoaked, early bottles to richer, age-worthy wines often fermented and raised in new oak", correct: true }
+        - { text: "Only sweet", correct: false }
+        - { text: "Only fortified", correct: false }
+      explanation: |
+        **From simple, unoaked, early bottles to richer, age-worthy
+        wines often fermented and raised in new oak.** Steel or
+        barrique, depending on the house.
+
+  - id: tokaj-dry-furmint-001
+    type: mcq
+    deck: Hungary::Tokaj
+    tags: [hungary, tokaj, grapes]
+    status: reviewed
+    source_id: c24-0023
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: A dry Tokaji labelled as a varietal white is usually which grape?
+      choices:
+        - { text: "Kadarka", correct: false }
+        - { text: "Furmint", correct: true }
+        - { text: "Pinot Noir", correct: false }
+        - { text: "Trebbiano", correct: false }
+      explanation: |
+        **Furmint.** Dry Furmint is a standard Tokaji bottling, not
+        a rumour.
+
+  - id: tokaj-szaraz-001
+    type: mcq
+    deck: Hungary::Tokaj
+    tags: [hungary, tokaj]
+    status: reviewed
+    source_id: c24-0024
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What does száraz mean on a Tokaji label?
+      choices:
+        - { text: "Sweet", correct: false }
+        - { text: "Dry", correct: true }
+        - { text: "Sparkling", correct: false }
+        - { text: "Fortified", correct: false }
+      explanation: |
+        **Dry.** Szamorodni száraz is the dry reading.
+
+  - id: tokaj-edes-001
+    type: mcq
+    deck: Hungary::Tokaj
+    tags: [hungary, tokaj]
+    status: reviewed
+    source_id: c24-0024
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What does édes mean on a Tokaji label?
+      choices:
+        - { text: "Dry", correct: false }
+        - { text: "Sweet", correct: true }
+        - { text: "Rosé", correct: false }
+        - { text: "Sparkling", correct: false }
+      explanation: |
+        **Sweet.** Szamorodni édes is the sweet reading.
+
+  - id: tokaj-dry-szamorodni-rot-001
+    type: mcq
+    deck: Hungary::Tokaj
+    tags: [hungary, tokaj, szamorodni]
+    status: reviewed
+    source_id: c24-0025
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What extra character does a dry Szamorodni still show?
+      choices:
+        - { text: "Only green-apple fruit and no rot", correct: false }
+        - { text: "Noble-rot notes", correct: true }
+        - { text: "Red-wine tannin", correct: false }
+        - { text: "Sparkling foam", correct: false }
+      explanation: |
+        **Noble-rot notes.** The bunches were partly aszú even if
+        the wine ferments dry.
+
+  - id: tokaj-szamorodni-ageing-001
+    type: mcq
+    deck: Hungary::Tokaj
+    tags: [hungary, tokaj, szamorodni]
+    status: reviewed
+    source_id: c24-0026
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What is the legal ageing bar for Tokaji Szamorodni?
+      choices:
+        - { text: "Six weeks in steel only", correct: false }
+        - { text: "At least one year in cask, and two years old before release", correct: true }
+        - { text: "Ten years in bottle, no cask", correct: false }
+        - { text: "No wait at all", correct: false }
+      explanation: |
+        **At least one year in cask, and two years old before
+        release.** Wood time, then a second year before it may leave.
+
+  - id: tokaj-szamorodni-flor-001
+    type: mcq
+    deck: Hungary::Tokaj
+    tags: [hungary, tokaj, szamorodni]
+    status: reviewed
+    source_id: c24-0026
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Why are dry Szamorodni casks often left not quite full?
+      choices:
+        - { text: "To speed boiling", correct: false }
+        - { text: "So a flor film can grow on the wine", correct: true }
+        - { text: "Ullage is illegal in Tokaj", correct: false }
+        - { text: "To force malolactic overnight", correct: false }
+      explanation: |
+        **So a flor film can grow on the wine.** That film is the
+        dry-Szamorodni signature; sweet Szamorodni is not the flor
+        wine.
+
+  - id: tokaj-szamorodni-fino-001
+    type: mcq
+    deck: Hungary::Tokaj
+    tags: [hungary, tokaj, szamorodni]
+    status: reviewed
+    source_id: c24-0027
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which famous wine is dry Szamorodni often likened to?
+      choices:
+        - { text: "Vintage Port", correct: false }
+        - { text: "Fino Sherry", correct: true }
+        - { text: "Red Burgundy", correct: false }
+        - { text: "Champagne", correct: false }
+      explanation: |
+        **Fino Sherry.** Both sit under a flor film; Szamorodni is
+        not fortified.
+
+  - id: tokaj-flor-which-001
+    type: mcq
+    deck: Hungary::Tokaj
+    tags: [hungary, tokaj, szamorodni]
+    status: reviewed
+    source_id: c24-0028
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: A flor veil in Tokaj belongs to which style, not Aszú?
+      choices:
+        - { text: "Aszú", correct: false }
+        - { text: "Dry Szamorodni", correct: true }
+        - { text: "Eszencia", correct: false }
+        - { text: "Late Harvest only", correct: false }
+      explanation: |
+        **Dry Szamorodni.** Sweet Szamorodni, Aszú and Eszencia are
+        not flor wines.
+
+  - id: tokaj-sweet-oxidative-001
+    type: mcq
+    deck: Hungary::Tokaj
+    tags: [hungary, tokaj, aszu]
+    status: reviewed
+    source_id: c24-0029
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: If a sweet Tokaji is raised without flor, what character can it pick up?
+      choices:
+        - { text: "Sparkling foam", correct: false }
+        - { text: "An oxidative note", correct: true }
+        - { text: "Red colour", correct: false }
+        - { text: "Zero sugar", correct: false }
+      explanation: |
+        **An oxidative note.** No flor veil, plus ullage, lets air
+        mark the wine.
+
+  - id: tokaj-fill-casks-001
+    type: mcq
+    deck: Hungary::Tokaj
+    tags: [hungary, tokaj, aszu]
+    status: reviewed
+    source_id: c24-0030
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How do many cellars now treat sweet Tokaji casks to keep oxidation down?
+      choices:
+        - { text: "They leave a large ullage on purpose", correct: false }
+        - { text: "They fill the casks", correct: true }
+        - { text: "They boil the wine", correct: false }
+        - { text: "They ban oak", correct: false }
+      explanation: |
+        **They fill the casks.** A full barrel is the modern, fresher
+        sweet-Tokaji habit.
+
+  - id: tokaj-aszu-method-001
+    type: mcq
+    deck: Hungary::Tokaj
+    tags: [hungary, tokaj, aszu]
+    status: reviewed
+    source_id: c24-0031
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How does Tokaji Aszú begin in the cellar?
+      choices:
+        - { text: "Only free-run aszú juice, never a base wine", correct: false }
+        - { text: "A base wine from healthy grapes, then aszú berries macerated in that wine before, during or after the ferment", correct: true }
+        - { text: "The grapes are boiled", correct: false }
+        - { text: "Red grapes are carbonic-macerated", correct: false }
+      explanation: |
+        **A base wine from healthy grapes, then aszú berries
+        macerated in that wine before, during or after the ferment.**
+        The mix is pressed and then raised in oak. Eszencia is the
+        free-run aszú juice, not this soak.
+
+  - id: tokaj-aszu-maceration-001
+    type: mcq
+    deck: Hungary::Tokaj
+    tags: [hungary, tokaj, aszu]
+    status: reviewed
+    source_id: c24-0032
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How long do aszú berries usually soak in the Tokaji base wine?
+      choices:
+        - { text: "Twelve months", correct: false }
+        - { text: "12 to 60 hours", correct: true }
+        - { text: "Six minutes", correct: false }
+        - { text: "Five years", correct: false }
+      explanation: |
+        **12 to 60 hours.** A short soak, then press.
+
+  - id: tokaj-aszu-paste-001
+    type: mcq
+    deck: Hungary::Tokaj
+    tags: [hungary, tokaj, aszu]
+    status: reviewed
+    source_id: c24-0033
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Before modern whole-berry work, aszú fruit went into the base wine as what?
+      choices:
+        - { text: "Left as whole frozen clusters", correct: false }
+        - { text: "Crushed to a paste", correct: true }
+        - { text: "Distilled first", correct: false }
+        - { text: "Dried on mats in the sun only", correct: false }
+      explanation: |
+        **Crushed to a paste.** The old aszú dough went into the
+        base wine.
+
+  - id: tokaj-aszu-whole-001
+    type: mcq
+    deck: Hungary::Tokaj
+    tags: [hungary, tokaj, aszu]
+    status: reviewed
+    source_id: c24-0033
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Why do many Tokaj cellars now soak aszú berries uncrushed?
+      choices:
+        - { text: "To add more colour", correct: false }
+        - { text: "To avoid pulling bitter flavours", correct: true }
+        - { text: "Law requires a paste", correct: false }
+        - { text: "To make a dry red", correct: false }
+      explanation: |
+        **To avoid pulling bitter flavours.** Whole berries, shorter
+        harshness.
+
+  - id: tokaj-aszu-sweetness-001
+    type: mcq
+    deck: Hungary::Tokaj
+    tags: [hungary, tokaj, aszu]
+    status: reviewed
+    source_id: c24-0034
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What mainly sets how sweet a Tokaji Aszú will be?
+      choices:
+        - { text: "The colour of the bottle", correct: false }
+        - { text: "How many aszú berries go into the base wine", correct: true }
+        - { text: "Chaptalisation after bottling", correct: false }
+        - { text: "Adding grape must only at service", correct: false }
+      explanation: |
+        **How many aszú berries go into the base wine.** Today’s
+        label is a residual-sugar band; the dose of aszú is still
+        what built that sugar.
+
+  - id: tokaj-puttony-001
+    type: mcq
+    deck: Hungary::Tokaj
+    tags: [hungary, tokaj, aszu]
+    status: reviewed
+    source_id: c24-0035
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What is the historic Hungarian unit for Aszú sweetness?
+      choices:
+        - { text: "The amphora", correct: false }
+        - { text: "The puttony", correct: true }
+        - { text: "The pipe", correct: false }
+        - { text: "The barrique only", correct: false }
+      explanation: |
+        **The puttony.** Once a hod of aszú tipped into a Gönc
+        cask; the word remains on the 5 and 6 puttonyos labels.
+
+  - id: tokaj-aszu-profile-001
+    type: mcq
+    deck: Hungary::Tokaj
+    tags: [hungary, tokaj, aszu]
+    status: reviewed
+    source_id: c24-0036
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What does classic Tokaji Aszú look and taste like?
+      choices:
+        - { text: "Pale, low-acid, and only green apple", correct: false }
+        - { text: "Deep amber, high acid, orange peel, apricot and honey", correct: true }
+        - { text: "Inky, tannic and black-fruited", correct: false }
+        - { text: "Always sparkling and dry", correct: false }
+      explanation: |
+        **Deep amber, high acid, orange peel, apricot and honey.**
+        The acid is what carries the sugar.
+
+  - id: tokaj-aszu-concentration-001
+    type: mcq
+    deck: Hungary::Tokaj
+    tags: [hungary, tokaj, aszu]
+    status: reviewed
+    source_id: c24-0037
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What happens to Tokaji Aszú as the sweetness band rises?
+      choices:
+        - { text: "The wine becomes drier and paler", correct: false }
+        - { text: "The wine becomes more concentrated and intense", correct: true }
+        - { text: "Alcohol is legally capped at 5 percent", correct: false }
+        - { text: "Colour is stripped out", correct: false }
+      explanation: |
+        **The wine becomes more concentrated and intense.** Six
+        puttonyos is denser than five.
+
+  - id: tokaj-eszencia-rarity-001
+    type: mcq
+    deck: Hungary::Tokaj
+    tags: [hungary, tokaj, eszencia]
+    status: reviewed
+    source_id: c24-0038
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What is Tokaji Eszencia, in the market sense?
+      choices:
+        - { text: "The everyday dry house white", correct: false }
+        - { text: "A very rare sweet wine, seldom seen outside Tokaj", correct: true }
+        - { text: "A cheap sparkling red", correct: false }
+        - { text: "A fortified Muscat from the Great Plain", correct: false }
+      explanation: |
+        **A very rare sweet wine, seldom seen outside Tokaj.** It is
+        not a dry white.
+
+  - id: tokaj-eszencia-freerun-001
+    type: mcq
+    deck: Hungary::Tokaj
+    tags: [hungary, tokaj, eszencia]
+    status: reviewed
+    source_id: c24-0039
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What liquid is Tokaji Eszencia made from?
+      choices:
+        - { text: "A dry Furmint fermented in steel", correct: false }
+        - { text: "The free-run juice of aszú berries", correct: true }
+        - { text: "Red Kadarka skins", correct: false }
+        - { text: "Distilled aszú paste", correct: false }
+      explanation: |
+        **The free-run juice of aszú berries.** Gravity only — not
+        the Aszú soak in a base wine, and not a dry white.
+
+  - id: tokaj-eszencia-ferment-001
+    type: mcq
+    deck: Hungary::Tokaj
+    tags: [hungary, tokaj, eszencia]
+    status: reviewed
+    source_id: c24-0039
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Why can a Tokaji Eszencia ferment for years and still sit under 5% alcohol?
+      choices:
+        - { text: "Law caps every Eszencia at 15%", correct: false }
+        - { text: "The must is so sweet that yeast barely works", correct: true }
+        - { text: "It is diluted with water", correct: false }
+        - { text: "It is a dry wine", correct: false }
+      explanation: |
+        **The must is so sweet that yeast barely works.** Years of
+        ferment, and the wine may still be under 5% abv.
+
+  - id: tokaj-eszencia-sugar-001
+    type: mcq
+    deck: Hungary::Tokaj
+    tags: [hungary, tokaj, eszencia]
+    status: reviewed
+    source_id: c24-0040
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What legal minimum attaches to Tokaji Eszencia?
+      choices:
+        - { text: "450 g/L of alcohol", correct: false }
+        - { text: "450 g/L residual sugar", correct: true }
+        - { text: "12% alcohol by law", correct: false }
+        - { text: "60 g/L sugar, like old 3 puttonyos Aszú", correct: false }
+      explanation: |
+        **450 g/L residual sugar.** That number is sugar, not
+        alcohol; Eszencia often stays well under 5% abv.
+
+  - id: tokaj-eszencia-style-001
+    type: mcq
+    deck: Hungary::Tokaj
+    tags: [hungary, tokaj, eszencia]
+    status: reviewed
+    source_id: c24-0041
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How does Tokaji Eszencia stay drinkable despite huge sweetness?
+      choices:
+        - { text: "By adding soda", correct: false }
+        - { text: "Very high acidity, and it can keep that freshness for a century or more", correct: true }
+        - { text: "By being served warm", correct: false }
+        - { text: "It has no acid", correct: false }
+      explanation: |
+        **Very high acidity, and it can keep that freshness for a
+        century or more.** Concentration plus acid, not dilution.
+
+  - id: tokaj-late-harvest-fruit-001
+    type: mcq
+    deck: Hungary::Tokaj
+    tags: [hungary, tokaj]
+    status: reviewed
+    source_id: c24-0042
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How are Tokaj’s modern sweet wines, besides Aszú, usually grown?
+      choices:
+        - { text: "From red grapes only", correct: false }
+        - { text: "From grapes left a long time on the vine, sometimes with botrytis", correct: true }
+        - { text: "Only from ice-wine presses in January", correct: false }
+        - { text: "By adding sugar to dry Furmint", correct: false }
+      explanation: |
+        **From grapes left a long time on the vine, sometimes with
+        botrytis.** Hang-time first; rot is optional.
+
+  - id: tokaj-late-harvest-ferment-001
+    type: mcq
+    deck: Hungary::Tokaj
+    tags: [hungary, tokaj]
+    status: reviewed
+    source_id: c24-0043
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: When a Tokaj Late Harvest wine uses botrytis fruit, how does the cellar work differ from Aszú?
+      choices:
+        - { text: "They must use the aszú soak in a base wine", correct: false }
+        - { text: "The botrytised grapes are fermented as fruit, not soaked as aszú berries in a base wine", correct: true }
+        - { text: "They are always fortified", correct: false }
+        - { text: "They are distilled", correct: false }
+      explanation: |
+        **The botrytised grapes are fermented as fruit, not soaked
+        as aszú berries in a base wine.** No aszú maceration.
+
+  - id: tokaj-late-harvest-age-001
+    type: mcq
+    deck: Hungary::Tokaj
+    tags: [hungary, tokaj]
+    status: reviewed
+    source_id: c24-0044
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How does the ageing of Tokaj Late Harvest often compare with Aszú?
+      choices:
+        - { text: "They must wait ten years", correct: false }
+        - { text: "They may be matured for less time", correct: true }
+        - { text: "They are released only after a century", correct: false }
+        - { text: "Oak is banned", correct: false }
+      explanation: |
+        **They may be matured for less time.** Earlier to bottle
+        than Aszú.
+
+  - id: tokaj-late-harvest-label-001
+    type: mcq
+    deck: Hungary::Tokaj
+    tags: [hungary, tokaj]
+    status: reviewed
+    source_id: c24-0045
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What English words usually label Tokaj’s modern sweet wines that are not Aszú?
+      choices:
+        - { text: "Premier Cru", correct: false }
+        - { text: "Late Harvest", correct: true }
+        - { text: "Icewine only", correct: false }
+        - { text: "Cream Sherry", correct: false }
+      explanation: |
+        **Late Harvest.** Not Aszú, not Eszencia.
+
+  - id: tokaj-rules-2013-001
+    type: mcq
+    deck: Hungary::Tokaj
+    tags: [hungary, tokaj]
+    status: reviewed
+    source_id: c24-0046
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: The rewrite that dropped 3- and 4-puttonyos Aszú took effect in which year?
+      choices:
+        - { text: "1855", correct: false }
+        - { text: "2013", correct: true }
+        - { text: "1970", correct: false }
+        - { text: "2020", correct: false }
+      explanation: |
+        **2013.** That rewrite is why Aszú now wears only 5 and 6
+        puttonyos.
+
+  - id: tokaj-old-bottles-001
+    type: mcq
+    deck: Hungary::Tokaj
+    tags: [hungary, tokaj, aszu]
+    status: reviewed
+    source_id: c24-0047
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Why can a Tokaji Aszú bottle still show 3 or 4 puttonyos?
+      choices:
+        - { text: "Current law still prints 3 and 4 on new Aszú", correct: false }
+        - { text: "It was made under the pre-2013 rules, and older vintages remain in circulation", correct: true }
+        - { text: "Those numbers mean dry wine", correct: false }
+        - { text: "Puttonyos were invented in 2020", correct: false }
+      explanation: |
+        **It was made under the pre-2013 rules, and older vintages
+        remain in circulation.** New Aszú is 5 or 6 puttonyos only.
+
+  - id: tokaj-aszu-old-sugar-001
+    type: mcq
+    deck: Hungary::Tokaj
+    tags: [hungary, tokaj, aszu]
+    status: reviewed
+    source_id: c24-0048
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What residual-sugar floor did Tokaji Aszú need before the 2013 rewrite?
+      choices:
+        - { text: "450 g/L", correct: false }
+        - { text: "60 g/L", correct: true }
+        - { text: "12 g/L", correct: false }
+        - { text: "No sugar was allowed", correct: false }
+      explanation: |
+        **60 g/L.** That was the old 3-puttonyos floor. Current Aszú
+        starts much sweeter.
+
+  - id: tokaj-puttonyos-current-001
+    type: mcq
+    deck: Hungary::Tokaj
+    tags: [hungary, tokaj, aszu]
+    status: reviewed
+    source_id: c24-0049
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which puttonyos bands may a current Tokaji Aszú legally carry?
+      choices:
+        - { text: "Any number from 3 to 6", correct: false }
+        - { text: "5 and 6 puttonyos only", correct: true }
+        - { text: "1 and 2 only", correct: false }
+        - { text: "Puttonyos are banned", correct: false }
+      explanation: |
+        **5 and 6 puttonyos only.** The 3–6 scale is the pre-2013
+        label; new Aszú cannot wear 3 or 4.
+
+  - id: tokaj-aszu-old-ageing-001
+    type: mcq
+    deck: Hungary::Tokaj
+    tags: [hungary, tokaj, aszu]
+    status: reviewed
+    source_id: c24-0050
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What oak-and-release clock applied to Aszú before the 2013 rewrite?
+      choices:
+        - { text: "Six weeks in steel", correct: false }
+        - { text: "24 months in oak, and no release before January of the fourth year after harvest", correct: true }
+        - { text: "18 months in bottle only, with no oak", correct: false }
+        - { text: "No ageing at all", correct: false }
+      explanation: |
+        **24 months in oak, and no release before January of the
+        fourth year after harvest.** That was the old Aszú clock.
