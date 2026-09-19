@@ -46,3 +46,1281 @@ cards:
         planted. The seedling is genetically new — **Pinot × Gouais blanc** gave
         Chardonnay, Gamay and a crowd of other Burgundian children. A graft is
         still the same variety on a different root.
+
+  - id: vine-growth-warmth-001
+    type: mcq
+    deck: The Vine
+    tags: [vine, climate]
+    status: reviewed
+    source_id: c03-0001
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Around what air temperature does a grapevine usually need warmth before growth and photosynthesis get going?
+      choices:
+        - { text: "Well below freezing is already enough", correct: false }
+        - { text: "Around 10 °C and warmer", correct: true }
+        - { text: "Only once the air passes 40 °C", correct: false }
+        - { text: "Air temperature does not affect growth", correct: false }
+      explanation: |
+        **Around 10 °C and warmer.** Growers treat that band as the start of
+        useful warmth — it is also the usual base for growing-degree-day
+        counts. It is a working threshold, not a claim that every cell
+        switches off the moment the thermometer dips.
+
+  - id: vine-heat-respiration-001
+    type: mcq
+    deck: The Vine
+    tags: [vine, climate, physiology]
+    status: draft
+    source_id: c03-0002
+    review:
+      fact_check: unsure
+      sources: [known-fact]
+    en:
+      question: Once vineyard heat climbs past the low twenties Celsius, what can happen to the vine's sugar balance?
+      choices:
+        - { text: "Photosynthesis suddenly doubles and sugar floods every berry", correct: false }
+        - { text: "Respiration starts to burn more sugar than the leaves replace", correct: true }
+        - { text: "The vine freezes and stores extra sugar in the wood", correct: false }
+        - { text: "All water use stops until night", correct: false }
+      explanation: |
+        **Respiration starts to burn more sugar than the leaves replace.**
+        Warmth speeds the vine's own metabolism; in strong heat the canopy
+        may not keep up. The exact crossover is variety- and
+        weather-dependent — do not treat one thermometer reading as a
+        hard physiological switch.
+
+  - id: vine-cycle-heat-001
+    type: mcq
+    deck: The Vine
+    tags: [vine, climate, growth-cycle]
+    status: reviewed
+    source_id: c03-0003
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which climate factor most strongly sets the timing of each stage in the vine's annual cycle?
+      choices:
+        - { text: "Rainfall", correct: false }
+        - { text: "Temperature", correct: true }
+        - { text: "Light intensity alone", correct: false }
+        - { text: "Wind speed", correct: false }
+      explanation: |
+        **Temperature** paces budburst, flowering, véraison and the rest.
+        A cool spring delays the whole calendar; a warm one compresses it.
+        Light, water and nutrients still matter, but heat is the clock.
+
+  - id: vine-budburst-cool-001
+    type: mcq
+    deck: The Vine
+    tags: [vine, climate, growth-cycle]
+    status: reviewed
+    source_id: c03-0004
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: In a cooler region, how does budburst usually compare with a warmer site?
+      choices:
+        - { text: "Buds open earlier than in the warm site", correct: false }
+        - { text: "Budburst happens later", correct: true }
+        - { text: "Buds never open at all", correct: false }
+        - { text: "Budburst date is fixed by variety alone", correct: false }
+      explanation: |
+        **Budburst happens later** where spring warmth arrives slowly.
+        Chablis and the Mosel typically break after a warmer Mediterranean
+        site of the same variety. Variety still shifts the date, but
+        climate sets the delay.
+
+  - id: vine-cycle-early-001
+    type: cloze
+    deck: The Vine
+    tags: [vine, growth-cycle]
+    status: reviewed
+    source_id: c03-0005
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      text: |
+        After winter rest, the vine's growing season opens in this order:
+        {{c1::budburst}}, then {{c2::early shoot and leaf growth}}, then
+        {{c3::flowering and fruit set}}.
+      extra: |
+        Those three steps come first. Véraison, harvest and winter
+        dormancy follow later in the same annual cycle.
+
+  - id: vine-cycle-late-001
+    type: cloze
+    deck: The Vine
+    tags: [vine, growth-cycle]
+    status: reviewed
+    source_id: c03-0005
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      text: |
+        After flowering and fruit set, the vine's year finishes in this
+        order: {{c1::véraison / berry ripening}}, then {{c2::harvest}},
+        then {{c3::winter dormancy}}.
+      extra: |
+        Budburst, early shoot growth, then flowering and fruit set have
+        already happened. Véraison starts the ripening run that ends at
+        pick and the winter rest.
+
+  - id: vine-latitude-cool-001
+    type: mcq
+    deck: The Vine
+    tags: [vine, climate, latitude]
+    status: reviewed
+    source_id: c03-0006
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: All else equal, how does moving a vineyard farther from the equator change typical temperature?
+      choices:
+        - { text: "The site is hotter on average", correct: false }
+        - { text: "The site is cooler on average", correct: true }
+        - { text: "Latitude never changes temperature", correct: false }
+        - { text: "The vine's heat requirement itself drops to zero", correct: false }
+      explanation: |
+        **The site is cooler on average.** Less overhead sun and a
+        stronger winter–summer swing come with higher latitude. The vine
+        still wants similar warmth; the climate just supplies less of it.
+        Altitude and ocean currents can override the rule.
+
+  - id: vine-four-inputs-001
+    type: mcq
+    deck: The Vine
+    tags: [vine, physiology]
+    status: reviewed
+    source_id: c03-0007
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which four resources does a grapevine need in order to grow and ripen fruit?
+      choices:
+        - { text: "Only oak chips, SO2, tartaric acid and sugar", correct: false }
+        - { text: "Heat, sunlight, water and nutrients", correct: true }
+        - { text: "Salt fog, moonlight, gravel dust and copper", correct: false }
+        - { text: "Heat alone, with no light, water or minerals", correct: false }
+      explanation: |
+        **Heat, sunlight, water and nutrients.** Warmth and light drive
+        the season and photosynthesis; water keeps the canopy working;
+        minerals come from soil and any feed the grower adds. Cellar
+        additions are not vineyard inputs.
+
+  - id: vine-heat-sources-001
+    type: mcq
+    deck: The Vine
+    tags: [vine, climate]
+    status: reviewed
+    source_id: c03-0008
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Where does a vineyard vine get its heat from?
+      choices:
+        - { text: "Only from fermentation in the cellar", correct: false }
+        - { text: "From sunlight and from the soil", correct: true }
+        - { text: "Only from irrigation water", correct: false }
+        - { text: "Only from the rootstock number", correct: false }
+      explanation: |
+        **From sunlight and from the soil.** The sun warms air and
+        canopy; dark or stony ground stores that energy and gives it
+        back at night. Mosel slate and Mediterranean galets are the
+        usual named heat-banks — helpers, not a separate climate class.
+
+  - id: vine-light-reflect-001
+    type: mcq
+    deck: The Vine
+    tags: [vine, climate]
+    status: reviewed
+    source_id: c03-0009
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Besides direct sunshine, where else can a vine pick up useful light?
+      choices:
+        - { text: "Only from cellar lamps at night", correct: false }
+        - { text: "Reflection from the soil surface", correct: true }
+        - { text: "Only from the moon", correct: false }
+        - { text: "From nutrients dissolved in drip water", correct: false }
+      explanation: |
+        **Reflection from the soil surface.** Pale stones and water
+        bounce extra light into the canopy. Châteauneuf-du-Pape's
+        galets and Mosel slate are the checkable examples; they add
+        reflected light, they do not replace the sun.
+
+  - id: vine-water-sources-001
+    type: mcq
+    deck: The Vine
+    tags: [vine, water]
+    status: reviewed
+    source_id: c03-0010
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How does a grapevine obtain the water it uses?
+      choices:
+        - { text: "Only by absorbing rain through the leaves", correct: false }
+        - { text: "Rainfall, irrigation, and water stored in soil or bedrock", correct: true }
+        - { text: "Only from the humidity inside a bottle", correct: false }
+        - { text: "Vines do not take up water at all", correct: false }
+      explanation: |
+        **Rainfall, irrigation, and water stored in soil or bedrock.**
+        Roots tap whatever the profile holds; a grower may add water
+        where the law and the climate allow. Leaves do not drink the
+        season's rain the way roots do.
+
+  - id: vine-nutrient-sources-001
+    type: mcq
+    deck: The Vine
+    tags: [vine, nutrients]
+    status: reviewed
+    source_id: c03-0011
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Where can a vine obtain the mineral nutrients it needs?
+      choices:
+        - { text: "Only from oak barrels in the cellar", correct: false }
+        - { text: "Soil minerals, weathering bedrock, humus and fertiliser", correct: true }
+        - { text: "Only from carbon dioxide in the air", correct: false }
+        - { text: "Only from the wax on a graft union", correct: false }
+      explanation: |
+        **Soil minerals, weathering bedrock, humus and fertiliser.**
+        Roots take up what the profile and any added feed supply.
+        Carbon dioxide feeds photosynthesis; it is not a soil nutrient.
+
+  - id: vine-freeze-union-001
+    type: mcq
+    deck: The Vine
+    tags: [vine, climate, grafting]
+    status: reviewed
+    source_id: c03-0012
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which part of a grafted vine is usually most at risk in a hard winter freeze?
+      choices:
+        - { text: "The ripe berries already in the press", correct: false }
+        - { text: "The graft union (the callus where scion meets rootstock)", correct: true }
+        - { text: "Only the root tips a metre down", correct: false }
+        - { text: "The capsule on a finished bottle", correct: false }
+      explanation: |
+        **The graft union (the callus where scion meets rootstock).**
+        That join is more cold-tender than buried roots. If the union
+        dies, the fruiting variety is lost even if the rootstock
+        resprouts. Finger Lakes and Champagne winters make the point.
+
+  - id: vine-freeze-hilling-001
+    type: mcq
+    deck: The Vine
+    tags: [vine, climate, grafting]
+    status: reviewed
+    source_id: c03-0013
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How do growers usually shield a graft union from winter freeze?
+      choices:
+        - { text: "By painting the union with copper sulphate only", correct: false }
+        - { text: "By banking soil over the union, and sometimes the whole vine", correct: true }
+        - { text: "By flooding the row until ice covers the canopy", correct: false }
+        - { text: "By removing the rootstock before the first frost", correct: false }
+      explanation: |
+        **By banking soil over the union, and sometimes the whole vine.**
+        Hilling uses the ground as insulation; the mound is pulled back
+        in spring so the scion does not root. New York, Niagara and
+        Champagne are the usual named places that still do this.
+
+  - id: vine-spring-frost-001
+    type: mcq
+    deck: The Vine
+    tags: [vine, climate, growth-cycle]
+    status: reviewed
+    source_id: c03-0014
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What does a spring frost do to a vine that has already burst?
+      choices:
+        - { text: "It only sweetens the previous year's wine", correct: false }
+        - { text: "It can kill newly opened buds and young shoots", correct: true }
+        - { text: "It forces an extra crop in the same week", correct: false }
+        - { text: "It hardens the graft union against phylloxera", correct: false }
+      explanation: |
+        **It can kill newly opened buds and young shoots.** Soft green
+        tissue has no winter hardiness. Chablis and Champagne lose
+        whole shoots this way; a second-generation bud may grow later,
+        but the first crop is already damaged.
+
+  - id: vine-mild-winter-dormancy-001
+    type: mcq
+    deck: The Vine
+    tags: [vine, climate, growth-cycle]
+    status: reviewed
+    source_id: c03-0015
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What can a too-mild winter do to the next season’s budburst?
+      choices:
+        - { text: "It guarantees a single, even budburst", correct: false }
+        - { text: "Budburst can be uneven", correct: true }
+        - { text: "It turns every vine into a hybrid rootstock", correct: false }
+        - { text: "It freezes the graft union on purpose", correct: false }
+      explanation: |
+        **Budburst can be uneven.** Grapevines use a real chill to
+        shut down and reset. In a frost-free or very mild winter
+        that rest is messy or missing, so buds break irregularly.
+        A slightly soft January in Burgundy is not the same problem.
+
+  - id: vine-tropical-double-crop-001
+    type: mcq
+    deck: The Vine
+    tags: [vine, climate, growth-cycle]
+    status: reviewed
+    source_id: c03-0015
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: In a hot region with no real winter, what can growers force that usually shortens vine life and hurts quality?
+      choices:
+        - { text: "A single harvest every third year only", correct: false }
+        - { text: "More than one crop in the same year", correct: true }
+        - { text: "Permanent winter freeze on the graft union", correct: false }
+        - { text: "A ban on irrigation and pruning", correct: false }
+      explanation: |
+        **More than one crop in the same year.** The São Francisco
+        Valley in Brazil is the named case: pruning and irrigation
+        push two (sometimes more) cycles because the vine never truly
+        rests. Extra crops wear the plant and rarely match a
+        single-season temperate vintage.
+
+  - id: vine-summer-heat-ripening-001
+    type: mcq
+    deck: The Vine
+    tags: [vine, climate]
+    status: reviewed
+    source_id: c03-0016
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What do very high summer temperatures usually do to ripening and the resulting wine style?
+      choices:
+        - { text: "They freeze the berries and raise acidity", correct: false }
+        - { text: "They speed ripening and change grape composition, so the wine style shifts", correct: true }
+        - { text: "They stop sugar from forming at all", correct: false }
+        - { text: "They have no effect if the variety is red", correct: false }
+      explanation: |
+        **They speed ripening and change grape composition, so the wine
+        style shifts.** Sugar races, acid drops, and aromatics move
+        toward cooked or jammy notes. Europe's 2003 heat is the named
+        vintage; water supply is a separate question.
+
+  - id: vine-drought-collapse-001
+    type: mcq
+    deck: The Vine
+    tags: [vine, water, climate]
+    status: reviewed
+    source_id: c03-0016
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: If a hot summer also leaves the vine short of water, what can happen in the vineyard?
+      choices:
+        - { text: "Berries always finish riper and healthier", correct: false }
+        - { text: "Ripening can stall; the vine may drop leaves and can die", correct: true }
+        - { text: "The vine switches to taking water from the air only", correct: false }
+        - { text: "Winter dormancy starts the same afternoon", correct: false }
+      explanation: |
+        **Ripening can stall; the vine may drop leaves and can die.**
+        Without water the canopy shuts down, so sugar and flavour stop
+        moving into the fruit. A mild deficit is a separate, useful
+        squeeze; this is severe drought.
+
+  - id: vine-photosynthesis-light-001
+    type: mcq
+    deck: The Vine
+    tags: [vine, physiology]
+    status: reviewed
+    source_id: c03-0017
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: In a shaded or cloudy canopy, what most often limits how fast photosynthesis can run?
+      choices:
+        - { text: "The brand of trellis post", correct: false }
+        - { text: "How much light reaches the leaves", correct: true }
+        - { text: "Only the colour of the grapes after harvest", correct: false }
+        - { text: "The amount of SO2 in the picking bin", correct: false }
+      explanation: |
+        **How much light reaches the leaves.** Carbon-fixing rate
+        climbs with light until the leaf saturates. Heat, water and
+        carbon dioxide also constrain the process; light is the usual
+        first brake inside a dense or overcast canopy.
+
+  - id: vine-habitat-woodland-001
+    type: mcq
+    deck: The Vine
+    tags: [vine, physiology]
+    status: reviewed
+    source_id: c03-0018
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Wild Vitis climbs and fruits in which kind of landscape?
+      choices:
+        - { text: "Open desert with no trees", correct: false }
+        - { text: "Woodland", correct: true }
+        - { text: "Deep ocean", correct: false }
+        - { text: "Permanent ice fields", correct: false }
+      explanation: |
+        **Woodland.** Wild *Vitis* is a climbing liana that uses trees
+        as a scaffold. Vineyards are a managed version of that habit,
+        not a desert or alpine plant.
+
+  - id: vine-habitat-canopy-001
+    type: mcq
+    deck: The Vine
+    tags: [vine, physiology]
+    status: reviewed
+    source_id: c03-0018
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: In woodland, when does a wild grapevine usually flower and fruit?
+      choices:
+        - { text: "Only while the shoot is still on the forest floor", correct: false }
+        - { text: "Once the vine has broken through the tree canopy", correct: true }
+        - { text: "Only in complete darkness underground", correct: false }
+        - { text: "Never; wild vines do not fruit", correct: false }
+      explanation: |
+        **Once the vine has broken through the tree canopy.** The
+        liana spends its energy climbing; flower and fruit wait until
+        the shoot is up in the sun.
+
+  - id: vine-habitat-dispersal-001
+    type: mcq
+    deck: The Vine
+    tags: [vine, physiology]
+    status: reviewed
+    source_id: c03-0019
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Why does fruiting only after a wild vine reaches the woodland canopy help the species spread?
+      choices:
+        - { text: "The fruit is hidden from every animal", correct: false }
+        - { text: "The berries sit in the light, easier for animals to find and then sow the seeds", correct: true }
+        - { text: "Birds cannot see colour at canopy height", correct: false }
+        - { text: "Seeds only germinate in total darkness", correct: false }
+      explanation: |
+        **The berries sit in the light, easier for animals to find and
+        then sow the seeds.** Ripe bunches at the treetop are a signal
+        to birds and mammals. Light for ripening is a bonus; seed
+        movement is the reason the timing helps the species.
+
+  - id: vine-water-jobs-001
+    type: mcq
+    deck: The Vine
+    tags: [vine, water]
+    status: reviewed
+    source_id: c03-0020
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which three jobs does water do for a grapevine in the growing season?
+      choices:
+        - { text: "It only dissolves oak flavour in the barrel", correct: false }
+        - { text: "It stiffens shoots and leaves, helps cool the vine, and swells the berries", correct: true }
+        - { text: "It replaces photosynthesis entirely", correct: false }
+        - { text: "It is used only to wash the graft union", correct: false }
+      explanation: |
+        **It stiffens shoots and leaves, helps cool the vine, and
+        swells the berries.** Turgor keeps the canopy upright;
+        evaporative loss dumps heat; berries fill with water as they
+        grow. Water is also a photosynthesis ingredient — that is an
+        extra use, not a fourth member of that list.
+
+  - id: vine-transpiration-001
+    type: mcq
+    deck: The Vine
+    tags: [vine, water, physiology]
+    status: reviewed
+    source_id: c03-0021
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What is transpiration in a grapevine?
+      choices:
+        - { text: "The root's active pumping of minerals with no water movement", correct: false }
+        - { text: "Water vapour leaving the leaves, which pulls more water up from the roots", correct: true }
+        - { text: "Sugar moving from berry to root in winter only", correct: false }
+        - { text: "The join of scion and rootstock at the callus", correct: false }
+      explanation: |
+        **Water vapour leaving the leaves, which pulls more water up
+        from the roots.** Loss through the stomata creates the
+        transpiration stream; roots do not push the column by
+        themselves. That is the opposite of calling transpiration
+        "how the vine drinks."
+
+  - id: vine-water-use-heat-001
+    type: mcq
+    deck: The Vine
+    tags: [vine, water, climate]
+    status: reviewed
+    source_id: c03-0022
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which climate factor most increases how much water a vine transpires, all else equal?
+      choices:
+        - { text: "Colder nights in winter dormancy", correct: false }
+        - { text: "Higher temperature", correct: true }
+        - { text: "The variety's clone number alone", correct: false }
+        - { text: "How dark the bottle glass is", correct: false }
+      explanation: |
+        **Higher temperature.** Heat raises the air's demand for water,
+        so more vapour leaves the leaves. Wind, humidity and leaf area
+        also matter; temperature is the usual first driver in a hot
+        spell.
+
+  - id: vine-mild-deficit-001
+    type: mcq
+    deck: The Vine
+    tags: [vine, water]
+    status: reviewed
+    source_id: c03-0023
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Why can a mild water deficit help grape ripening?
+      choices:
+        - { text: "The vine stops photosynthesis completely and lives on tannin", correct: false }
+        - { text: "The vine still photosynthesises, but steers sugar from shoot growth into the berries", correct: true }
+        - { text: "Every leaf drops on the first dry day, which concentrates flavour", correct: false }
+        - { text: "Mild drought turns the vine into a new hybrid", correct: false }
+      explanation: |
+        **The vine still photosynthesises, but steers sugar from shoot
+        growth into the berries.** A moderate squeeze after the canopy
+        is built slows laterals so fruit is the sink. Severe drought is
+        the opposite — ripening stalls.
+
+  - id: vine-rain-flowering-001
+    type: mcq
+    deck: The Vine
+    tags: [vine, water, growth-cycle]
+    status: reviewed
+    source_id: c03-0024
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which two stages of the vine year does rain most often disrupt?
+      choices:
+        - { text: "Only winter dormancy and barrel ageing", correct: false }
+        - { text: "Flowering and fruit set", correct: true }
+        - { text: "Only the grafting of the rootstock in the nursery", correct: false }
+        - { text: "Only the moment the cork is inserted", correct: false }
+      explanation: |
+        **Flowering and fruit set.** Wet, cold bloom washes or chills
+        pollen, so fewer flowers become berries (coulure, millerandage).
+        Rain at harvest is a later rot risk, not the same disruption.
+
+  - id: vine-drip-define-001
+    type: mcq
+    deck: The Vine
+    tags: [vine, water]
+    status: reviewed
+    source_id: c03-0025
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What is drip irrigation in a vineyard?
+      choices:
+        - { text: "Flooding the whole block from an open canal", correct: false }
+        - { text: "A small emitter at each vine that meters water to the root zone", correct: true }
+        - { text: "Spraying the canopy only to wash dust off leaves", correct: false }
+        - { text: "Relying on dew and never adding water", correct: false }
+      explanation: |
+        **A small emitter at each vine that meters water to the root
+        zone.** Drip is precise compared with furrow or flood. It is
+        usually costlier to install; "most expensive of all methods"
+        is not a fact you can defend for every site.
+
+  - id: vine-drip-metering-001
+    type: mcq
+    deck: The Vine
+    tags: [vine, water]
+    status: reviewed
+    source_id: c03-0025
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What extra control can a drip system give the grower?
+      choices:
+        - { text: "It can only run as one on/off tap for the whole appellation", correct: false }
+        - { text: "Each vine's emitter can be timed or computer-set so the dose stays even", correct: true }
+        - { text: "It replaces the need for any soil at all", correct: false }
+        - { text: "It forces every vine onto a hybrid fruiting variety", correct: false }
+      explanation: |
+        **Each vine's emitter can be timed or computer-set so the dose
+        stays even.** That is the point of drip — matching water to
+        the vine, not to the lowest point in the row. Computer control
+        is common, not mandatory.
+
+  - id: vine-drought-stomata-001
+    type: mcq
+    deck: The Vine
+    tags: [vine, water, physiology]
+    status: reviewed
+    source_id: c03-0026
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What can a vine do in a short dry spell to hold onto water?
+      choices:
+        - { text: "It opens every stoma and transpires faster", correct: false }
+        - { text: "It can shut stomata and sharply cut transpiration for a time", correct: true }
+        - { text: "It converts leaves into roots overnight", correct: false }
+        - { text: "It starts a second crop from the graft union", correct: false }
+      explanation: |
+        **It can shut stomata and sharply cut transpiration for a
+        time.** Closing the pores saves water and also slows
+        photosynthesis. It is a pause, not a cure — a long drought
+        still stalls ripening.
+
+  - id: vine-excess-water-vigour-001
+    type: mcq
+    deck: The Vine
+    tags: [vine, water]
+    status: reviewed
+    source_id: c03-0027
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: A wet growing season typically pushes a vine toward which kind of growth?
+      choices:
+        - { text: "Shoot growth that stops at budburst", correct: false }
+        - { text: "Excessive leafy, vegetative growth", correct: true }
+        - { text: "A dried-out canopy with no leaves", correct: false }
+        - { text: "Berries that cannot swell at all", correct: false }
+      explanation: |
+        **Excessive leafy, vegetative growth.** Plenty of water
+        (and enough nitrogen) feeds laterals and a jungle canopy.
+        Fruit then competes with shoots for sugar.
+
+  - id: vine-vigour-sugar-001
+    type: mcq
+    deck: The Vine
+    tags: [vine, water, physiology]
+    status: reviewed
+    source_id: c03-0028
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: If a vine is vegetatively overactive, where do the sugars go instead of the ripening grapes?
+      choices:
+        - { text: "They vanish; the vine cannot make sugar at all", correct: false }
+        - { text: "They are diverted into extra shoot and leaf growth", correct: true }
+        - { text: "They move only into the rootstock and never the scion", correct: false }
+        - { text: "They are stored only in the finished bottle", correct: false }
+      explanation: |
+        **They are diverted into extra shoot and leaf growth.** A
+        vigorous canopy is a competing sink. The bunches stay greener
+        for longer even if the weather is warm.
+
+  - id: vine-vigour-shade-001
+    type: mcq
+    deck: The Vine
+    tags: [vine, water]
+    status: reviewed
+    source_id: c03-0028
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Besides stealing sugar, how does a jungle of extra shoots and leaves hurt the crop?
+      choices:
+        - { text: "It always raises the vine's winter hardiness", correct: false }
+        - { text: "The extra canopy shades the fruit and inner leaves", correct: true }
+        - { text: "It stops phylloxera on every American rootstock", correct: false }
+        - { text: "It prevents any rainfall from reaching the soil", correct: false }
+      explanation: |
+        **The extra canopy shades the fruit and inner leaves.** Shade
+        delays ripening, keeps bunches wet after rain, and invites
+        rot. Opening the leaf wall is the usual fix.
+
+  - id: vine-hail-001
+    type: mcq
+    deck: The Vine
+    tags: [vine, climate]
+    status: reviewed
+    source_id: c03-0029
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: A midsummer hailstorm typically threatens a vineyard how?
+      choices:
+        - { text: "It only polishes the berries and never breaks skin", correct: false }
+        - { text: "It can bruise or split grapes and even wreck the vine, sometimes the whole crop", correct: true }
+        - { text: "It is useful because it starts winter dormancy", correct: false }
+        - { text: "It only ever falls in the cellar, not on vines", correct: false }
+      explanation: |
+        **It can bruise or split grapes and even wreck the vine,
+        sometimes the whole crop.** Mendoza, Burgundy and Champagne
+        all lose vintage to hail; nets are the named defence, not a
+        guarantee.
+
+  - id: vine-maritime-rain-001
+    type: mcq
+    deck: The Vine
+    tags: [vine, climate]
+    status: reviewed
+    source_id: c03-0030
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What is the main weather hazard of a maritime vineyard climate?
+      choices:
+        - { text: "Winter freeze that kills every graft union each year", correct: false }
+        - { text: "Spring and summer rain that threatens flowering, fruit set and grape health at harvest", correct: true }
+        - { text: "A total absence of cloud and rain", correct: false }
+        - { text: "Air so dry that drip irrigation is banned", correct: false }
+      explanation: |
+        **Spring and summer rain that threatens flowering, fruit set
+        and grape health at harvest.** Bordeaux and Rías Baixas live
+        with Atlantic wet. Continental frost is a different hazard.
+
+  - id: vine-soil-ideal-001
+    type: mcq
+    deck: The Vine
+    tags: [vine, soil, water]
+    status: reviewed
+    source_id: c03-0031
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What soil pattern usually suits a wine grapevine best?
+      choices:
+        - { text: "A swamp of standing water and heavy nitrogen", correct: false }
+        - { text: "Modest nutrients, free drainage, and still enough stored water for the season", correct: true }
+        - { text: "Solid rock with no water-holding at all", correct: false }
+        - { text: "Pure fertiliser with no mineral particles", correct: false }
+      explanation: |
+        **Modest nutrients, free drainage, and still enough stored
+        water for the season.** Low fertility keeps vigour in check;
+        drainage stops wet feet; a reserve (clay, deep stone, a water
+        table) carries the vine through summer. "Ideal" is a target,
+        not one named soil type.
+
+  - id: vine-water-season-001
+    type: mcq
+    deck: The Vine
+    tags: [vine, water, growth-cycle]
+    status: reviewed
+    source_id: c03-0032
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: A mild water squeeze is most useful after which stage of the vine’s year?
+      choices:
+        - { text: "Budburst", correct: false }
+        - { text: "Véraison", correct: true }
+        - { text: "Flowering", correct: false }
+        - { text: "Winter dormancy", correct: false }
+      explanation: |
+        **Véraison.** Early water feeds shoots and fruit set; a
+        mild squeeze after véraison steers sugar into the berries.
+        Drought at budburst or flowering is a problem, not a tool.
+
+  - id: vine-nutrient-vigour-001
+    type: mcq
+    deck: The Vine
+    tags: [vine, nutrients]
+    status: reviewed
+    source_id: c03-0033
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Surplus vineyard nutrients typically push the vine toward what?
+      choices:
+        - { text: "Shoot growth always stops and the vine starves", correct: false }
+        - { text: "It grows too vigorously", correct: true }
+        - { text: "Chlorosis appears from a lack of chlorophyll only", correct: false }
+        - { text: "The vine becomes a different species", correct: false }
+      explanation: |
+        **It grows too vigorously.** Surplus nitrogen in particular
+        builds leaf at the expense of fruit. Chlorosis is a shortage
+        story, not an excess one.
+
+  - id: vine-chlorosis-define-001
+    type: mcq
+    deck: The Vine
+    tags: [vine, nutrients]
+    status: reviewed
+    source_id: c03-0034
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What is chlorosis on a grapevine?
+      choices:
+        - { text: "Berries turning purple only after oak ageing", correct: false }
+        - { text: "Leaves turning yellow because they lose chlorophyll", correct: true }
+        - { text: "A graft union that failed to callus", correct: false }
+        - { text: "A clone selected for extra tannin", correct: false }
+      explanation: |
+        **Leaves turning yellow because they lose chlorophyll.** The
+        green pigment is what captures light. Yellowing is the symptom;
+        failed iron uptake on limestone is the usual vineyard cause.
+
+  - id: vine-chlorosis-yield-001
+    type: mcq
+    deck: The Vine
+    tags: [vine, nutrients]
+    status: reviewed
+    source_id: c03-0034
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What does chlorosis typically do to the crop?
+      choices:
+        - { text: "Yields and quality always climb", correct: false }
+        - { text: "Yield and quality suffer", correct: true }
+        - { text: "The vine immediately becomes phylloxera-proof", correct: false }
+        - { text: "Only the rootstock berries are affected", correct: false }
+      explanation: |
+        **Yield and quality suffer.** Yellow leaves feed the bunches
+        poorly, so sugar and ripeness fall short. The yellowing
+        itself is not a flavour.
+
+  - id: vine-chlorosis-iron-001
+    type: mcq
+    deck: The Vine
+    tags: [vine, nutrients]
+    status: reviewed
+    source_id: c03-0035
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What is the most common nutritional cause of chlorosis in the vineyard?
+      choices:
+        - { text: "Too much iron in every drip emitter", correct: false }
+        - { text: "The vine cannot take up enough iron from the soil", correct: true }
+        - { text: "A surplus of chlorophyll in young leaves", correct: false }
+        - { text: "Only a lack of oak chips at harvest", correct: false }
+      explanation: |
+        **The vine cannot take up enough iron from the soil.** Iron is
+        needed to build chlorophyll. The soil may contain iron that
+        the roots still cannot use — the limestone card is the usual
+        reason.
+
+  - id: vine-chlorosis-limestone-001
+    type: mcq
+    deck: The Vine
+    tags: [vine, nutrients, soil]
+    status: reviewed
+    source_id: c03-0035
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which soils most often trigger iron chlorosis?
+      choices:
+        - { text: "Pure peat with no mineral particles", correct: false }
+        - { text: "High-limestone, calcareous soils", correct: true }
+        - { text: "Only beach sand with no carbonate", correct: false }
+        - { text: "Any soil that has never seen rain", correct: false }
+      explanation: |
+        **High-limestone, calcareous soils.** High pH locks iron in a
+        form roots struggle to take up (lime-induced chlorosis).
+        Champagne chalk and other lime belts are the named sites;
+        lime-tolerant rootstocks (41 B, Fercal) are the usual fix.
+
+  - id: vine-species-pair-001
+    type: mcq
+    deck: The Vine
+    tags: [vine, species]
+    status: reviewed
+    source_id: c03-0036
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which two groups of *Vitis* matter most in a modern vineyard?
+      choices:
+        - { text: "Only wild kiwifruit and hops", correct: false }
+        - { text: "Vitis vinifera for the fruit, and American Vitis species for rootstocks", correct: true }
+        - { text: "Only Muscadinia, never vinifera", correct: false }
+        - { text: "Oak and pine, grafted together as one vine", correct: false }
+      explanation: |
+        **Vitis vinifera for the fruit, and American Vitis species for
+        rootstocks.** Almost every wine grape is vinifera. *V. riparia*,
+        *V. rupestris* and *V. berlandieri* (and their crosses) supply
+        the roots that survive phylloxera.
+
+  - id: vine-vinifera-wine-001
+    type: mcq
+    deck: The Vine
+    tags: [vine, species]
+    status: reviewed
+    source_id: c03-0037
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Almost every wine grape belongs to which Vitis species?
+      choices:
+        - { text: "Vitis labrusca alone", correct: false }
+        - { text: "Vitis vinifera", correct: true }
+        - { text: "Only Vitis riparia fruiting varieties", correct: false }
+        - { text: "Malus domestica", correct: false }
+      explanation: |
+        **Vitis vinifera.** Chardonnay, Cabernet Sauvignon, Riesling
+        and almost every other wine grape belong to that one species.
+        American species matter as roots, or as a few hybrid wine
+        grapes, not as the main fruiting species.
+
+  - id: vine-american-phylloxera-001
+    type: mcq
+    deck: The Vine
+    tags: [vine, species, grafting]
+    status: reviewed
+    source_id: c03-0038
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Why do American grapevine species matter in today's vineyards?
+      choices:
+        - { text: "They have replaced vinifera as the only wine grape", correct: false }
+        - { text: "They resist phylloxera, so they are used as rootstocks under a vinifera scion", correct: true }
+        - { text: "They are used only to breed new oak trees", correct: false }
+        - { text: "They cannot be grafted and must be grown from seed", correct: false }
+      explanation: |
+        **They resist phylloxera, so they are used as rootstocks under
+        a vinifera scion.** The 19th-century louse made own-rooted
+        vinifera a gamble in most soils. Grafting is a join, not a
+        new variety and not a hybrid seedling.
+
+  - id: vine-cutting-001
+    type: mcq
+    deck: The Vine
+    tags: [vine, breeding]
+    status: reviewed
+    source_id: c03-0039
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What is a vine cutting?
+      choices:
+        - { text: "A seed from a controlled cross, grown as a new variety", correct: false }
+        - { text: "A piece of shoot planted so it grows into a new plant of the same vine", correct: true }
+        - { text: "The callus where a scion is joined to a rootstock", correct: false }
+        - { text: "A hybrid whose parents are two different species", correct: false }
+      explanation: |
+        **A piece of shoot planted so it grows into a new plant of the
+        same vine.** Cuttings are vegetative copies. A seed is a new
+        genotype; a graft is two plants joined; a clone is the named
+        line you are copying.
+
+  - id: vine-variety-name-001
+    type: mcq
+    deck: The Vine
+    tags: [vine, breeding]
+    status: reviewed
+    source_id: c03-0040
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: In vineyard language, “grape variety” names which level of identity?
+      choices:
+        - { text: "A numbered clone line", correct: false }
+        - { text: "The cultivar", correct: true }
+        - { text: "The species", correct: false }
+        - { text: "The graft union", correct: false }
+      explanation: |
+        **The cultivar.** Chardonnay or Merlot is the variety.
+        A clone sits inside that cultivar; *Vitis vinifera* is
+        the species; a graft is plumbing.
+
+  - id: vine-clone-001
+    type: mcq
+    deck: The Vine
+    tags: [vine, breeding]
+    status: reviewed
+    source_id: c03-0041
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What is a grapevine clone?
+      choices:
+        - { text: "A new variety grown from a seeded cross of two parents", correct: false }
+        - { text: "The vegetatively propagated line of one mother vine, kept for a stable set of traits", correct: true }
+        - { text: "Any single vine in a row, regardless of origin", correct: false }
+        - { text: "A hybrid whose parents come from two species", correct: false }
+      explanation: |
+        **The vegetatively propagated line of one mother vine, kept
+        for a stable set of traits.** Pinot Noir Dijon 115 is a clone,
+        still Pinot Noir. One random vine in a mixed block is not
+        "a clone." A seed-grown seedling is a new genotype.
+
+  - id: vine-hybrid-001
+    type: mcq
+    deck: The Vine
+    tags: [vine, breeding]
+    status: reviewed
+    source_id: c03-0042
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What is a grapevine hybrid?
+      choices:
+        - { text: "A vinifera × vinifera cross such as Cabernet Sauvignon", correct: false }
+        - { text: "A vine whose parents come from two different vine species", correct: true }
+        - { text: "A cutting taken from one mother vine", correct: false }
+        - { text: "A vinifera scion grafted onto an American rootstock", correct: false }
+      explanation: |
+        **A vine whose parents come from two different vine species.**
+        Vidal and Seyval are named hybrids. Cabernet Sauvignon is a
+        vinifera **cross** (Cabernet Franc × Sauvignon Blanc), not a
+        hybrid. A graft is still two plants, not a seedling.
+
+  - id: vine-hybrid-rootstock-001
+    type: mcq
+    deck: The Vine
+    tags: [vine, breeding, grafting]
+    status: reviewed
+    source_id: c03-0043
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Hybrids and American-species crosses are most often planted as what in the vineyard?
+      choices:
+        - { text: "The only legal fruiting varieties in every European AOC", correct: false }
+        - { text: "Rootstocks", correct: true }
+        - { text: "Oak alternatives in the cellar", correct: false }
+        - { text: "Replacing drip emitters", correct: false }
+      explanation: |
+        **Rootstocks.** Most commercial roots are American species or
+        interspecific crosses (1103 Paulsen, SO4, 3309). A few hybrids
+        are still grown for fruit — Vidal in Canada is the named
+        exception — but that is not their main job.
+
+  - id: vine-rootstock-nematode-001
+    type: mcq
+    deck: The Vine
+    tags: [vine, grafting]
+    status: reviewed
+    source_id: c03-0044
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Besides phylloxera resistance, what pest problem can some rootstocks also help with?
+      choices:
+        - { text: "Only birds eating ripe berries", correct: false }
+        - { text: "Nematodes in the soil", correct: true }
+        - { text: "Cork taint in bottle", correct: false }
+        - { text: "Spring frost on burst shoots", correct: false }
+      explanation: |
+        **Nematodes in the soil.** Some American-based stocks tolerate
+        root-knot or dagger nematodes that would wreck own-rooted
+        vinifera. Phylloxera is still the first reason to graft.
+
+  - id: vine-rootstock-drought-001
+    type: mcq
+    deck: The Vine
+    tags: [vine, grafting, water]
+    status: reviewed
+    source_id: c03-0044
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Besides phylloxera resistance, what climate stress can some rootstocks also help a vine survive?
+      choices:
+        - { text: "A legal cap on sunshine hours", correct: false }
+        - { text: "Drought", correct: true }
+        - { text: "Bottle shock after bottling", correct: false }
+        - { text: "Coulure caused by rain at flowering", correct: false }
+      explanation: |
+        **Drought.** Deep or efficient roots (110 Richter, 1103
+        Paulsen) keep a vine going on a dry site. They do not remove
+        the need for water; they improve the vine's reach.
+
+  - id: vine-grafting-define-001
+    type: mcq
+    deck: The Vine
+    tags: [vine, grafting]
+    status: reviewed
+    source_id: c03-0045
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What is grafting on a grapevine?
+      choices:
+        - { text: "Growing a new variety from a seeded cross", correct: false }
+        - { text: "Joining a fruiting scion, usually vinifera, onto a rootstock", correct: true }
+        - { text: "Selecting a clone by taking cuttings from one mother vine", correct: false }
+        - { text: "Crossing two different vine species to make a hybrid", correct: false }
+      explanation: |
+        **Joining a fruiting scion, usually vinifera, onto a
+        rootstock.** The top remains the wine grape; the roots are
+        usually American or a hybrid stock. Grafting copies nothing
+        new and breeds nothing new.
+
+  - id: vine-bench-graft-001
+    type: mcq
+    deck: The Vine
+    tags: [vine, grafting]
+    status: reviewed
+    source_id: c03-0046
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which grafting method do nurseries use most often today?
+      choices:
+        - { text: "Head grafting an old trunk in the field", correct: false }
+        - { text: "Bench grafting", correct: true }
+        - { text: "Sowing seeds of the scion onto the rootstock", correct: false }
+        - { text: "Tying two live vines together and waiting for a hybrid", correct: false }
+      explanation: |
+        **Bench grafting.** The join is made indoors on the nursery
+        bench, then the plants are callused and sold. Head grafting
+        is the field method for changing an established vineyard.
+
+  - id: vine-bench-graft-how-001
+    type: mcq
+    deck: The Vine
+    tags: [vine, grafting]
+    status: reviewed
+    source_id: c03-0047
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How is bench grafting carried out?
+      choices:
+        - { text: "A whole mature vine is planted on top of another in the row", correct: false }
+        - { text: "Short cane pieces of scion and rootstock are machine-joined, then kept warm so the join fuses", correct: true }
+        - { text: "Pollen from one species is brushed onto another and the seed is sown", correct: false }
+        - { text: "Only the leaves of two vines are pinned together", correct: false }
+      explanation: |
+        **Short cane pieces of scion and rootstock are machine-joined,
+        then kept warm so the join fuses.** The warm, humid callusing
+        room grows the callus. That is still two genotypes sharing
+        one plant, not a cross.
+
+  - id: vine-head-graft-001
+    type: mcq
+    deck: The Vine
+    tags: [vine, grafting]
+    status: reviewed
+    source_id: c03-0048
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which grafting method puts a new scion onto an established trunk in the vineyard?
+      choices:
+        - { text: "Bench grafting in a nursery callusing room", correct: false }
+        - { text: "Head grafting", correct: true }
+        - { text: "Crossing two vinifera parents for seed", correct: false }
+        - { text: "Massal selection of cuttings only", correct: false }
+      explanation: |
+        **Head grafting.** Also called top-working: the existing vine
+        stays in place and a new scion is put on the trunk. Nurseries
+        prefer bench grafting for new plants.
+
+  - id: vine-head-graft-when-001
+    type: mcq
+    deck: The Vine
+    tags: [vine, grafting]
+    status: reviewed
+    source_id: c03-0049
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: When does a grower usually choose head grafting?
+      choices:
+        - { text: "When raising brand-new plants on the nursery bench", correct: false }
+        - { text: "When an established vineyard must change variety from one season to the next", correct: true }
+        - { text: "When breeding a hybrid from two species", correct: false }
+        - { text: "When the vine is still a rooted cutting in the pot", correct: false }
+      explanation: |
+        **When an established vineyard must change variety from one
+        season to the next.** Pulling vines and replanting costs years
+        of crop. Head grafting keeps the old roots and puts a new
+        fruiting variety on top.
+
+  - id: vine-head-graft-how-001
+    type: mcq
+    deck: The Vine
+    tags: [vine, grafting]
+    status: reviewed
+    source_id: c03-0050
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How is head grafting done on an established vine?
+      choices:
+        - { text: "The whole vine is pulled and a seedling is sown in its place", correct: false }
+        - { text: "The vine is cut back to the trunk, then a bud or cutting of the new variety is grafted onto that trunk", correct: true }
+        - { text: "Pollen of the new variety is dusted on the old flowers", correct: false }
+        - { text: "Only the rootstock is replaced; the old canopy stays", correct: false }
+      explanation: |
+        **The vine is cut back to the trunk, then a bud or cutting of
+        the new variety is grafted onto that trunk.** Next season's
+        shoots are the new cultivar on the old roots. That is a field
+        join, not a nursery bench graft and not a seed-grown cross.
