@@ -2,4 +2,1130 @@
 # source: C33 (import/inbox/c33-california.yaml)
 # deck: USA::California
 
-cards: []
+cards:
+  - id: calif-length-001
+    type: mcq
+    deck: USA::California
+    tags: [usa, california]
+    status: reviewed
+    source_id: c33-0001
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: About how far does California run from north to south?
+      choices:
+        - { text: "About 200 kilometres, like Alsace", correct: false }
+        - { text: "About 1,100 kilometres", correct: true }
+        - { text: "About 5,000 kilometres", correct: false }
+        - { text: "A few dozen kilometres, like Napa Valley alone", correct: false }
+      explanation: |
+        **About 1,100 kilometres.** Oregon to Mexico is a long
+        north–south strip; latitude still matters less than the
+        Pacific and the mountains.
+
+  - id: calif-latitude-001
+    type: mcq
+    deck: USA::California
+    tags: [usa, california, climate]
+    status: reviewed
+    source_id: c33-0002
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How strongly does latitude set vineyard climate in California?
+      choices:
+        - { text: "It is the only control that matters", correct: false }
+        - { text: "Only a modest role beside ocean, fog and mountains", correct: true }
+        - { text: "Latitude makes every site alpine", correct: false }
+        - { text: "Latitude bans vines south of San Francisco", correct: false }
+      explanation: |
+        **Only a modest role beside ocean, fog and mountains.**
+        Coastal current and gaps do more than the degree of latitude.
+
+  - id: calif-current-001
+    type: mcq
+    deck: USA::California
+    tags: [usa, california, climate]
+    status: reviewed
+    source_id: c33-0003
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which Pacific current feeds the fogs and breezes that cool California vines?
+      choices:
+        - { text: "The warm Gulf Stream", correct: false }
+        - { text: "The cold California Current in the Pacific", correct: true }
+        - { text: "The Humboldt Current off Chile", correct: false }
+        - { text: "A legal cap on sunshine hours", correct: false }
+      explanation: |
+        **The cold California Current in the Pacific.** Cold water
+        feeds the fogs and breezes that reach the coast.
+
+  - id: calif-north-of-la-001
+    type: mcq
+    deck: USA::California
+    tags: [usa, california]
+    status: reviewed
+    source_id: c33-0004
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Relative to Los Angeles, where do most California vineyards sit?
+      choices:
+        - { text: "Almost only in Baja California", correct: false }
+        - { text: "North of Los Angeles", correct: true }
+        - { text: "Only on the Mexican border", correct: false }
+        - { text: "Only inside the city of San Diego", correct: false }
+      explanation: |
+        **North of Los Angeles.** North Coast, Central Coast and
+        Central Valley hold the plantings; Temecula is a small
+        southern extra.
+
+  - id: calif-coast-mountains-001
+    type: mcq
+    deck: USA::California
+    tags: [usa, california, climate]
+    status: reviewed
+    source_id: c33-0005
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How does California’s coastline change north of Los Angeles?
+      choices:
+        - { text: "It becomes a flat desert with no hills", correct: false }
+        - { text: "It is more mountainous", correct: true }
+        - { text: "The Pacific disappears", correct: false }
+        - { text: "It is only sandy barrier islands", correct: false }
+      explanation: |
+        **It is more mountainous.** The Coast Ranges wall much of
+        the shore north of Los Angeles.
+
+  - id: calif-range-shield-001
+    type: mcq
+    deck: USA::California
+    tags: [usa, california, climate]
+    status: reviewed
+    source_id: c33-0006
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What do California’s coastal mountains do to vineyard climate inland?
+      choices:
+        - { text: "They force rain every afternoon in summer", correct: false }
+        - { text: "They block much of the state from ocean cooling", correct: true }
+        - { text: "They ban fog on every coastal bench", correct: false }
+        - { text: "They make the Central Valley colder than the shore", correct: false }
+      explanation: |
+        **They block much of the state from ocean cooling.** Gaps
+        and river mouths are the exceptions the fog uses.
+
+  - id: calif-evening-fog-001
+    type: mcq
+    deck: USA::California
+    tags: [usa, california, climate]
+    status: reviewed
+    source_id: c33-0007
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What evening weather often cools California coastal vineyards?
+      choices:
+        - { text: "Hot Santa Ana winds that raise night temperatures", correct: false }
+        - { text: "Cold ocean air, often with fog, drawn inland and cutting night heat", correct: true }
+        - { text: "Tropical rain that soaks every harvest", correct: false }
+        - { text: "A legal dusk curfew on picking", correct: false }
+      explanation: |
+        **Cold ocean air, often with fog, drawn inland and cutting
+        night heat.** Diurnal range stays wide on those sites.
+
+  - id: calif-fog-burnoff-001
+    type: mcq
+    deck: USA::California
+    tags: [usa, california, climate]
+    status: reviewed
+    source_id: c33-0008
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: When does Pacific fog usually lift off California vineyards?
+      choices:
+        - { text: "It never lifts until winter", correct: false }
+        - { text: "After sunrise, when the sun burns it off", correct: true }
+        - { text: "Only at midnight, by law", correct: false }
+        - { text: "It is blown away by the Gulf Stream", correct: false }
+      explanation: |
+        **After sunrise, when the sun burns it off.** Clearance is
+        gradual, not instant.
+
+  - id: calif-fog-daytime-001
+    type: mcq
+    deck: USA::California
+    tags: [usa, california, climate]
+    status: reviewed
+    source_id: c33-0008
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How does slow morning fog-burn change a California vineyard day?
+      choices:
+        - { text: "It has no effect once the sun is up", correct: false }
+        - { text: "The cooling lasts well into daylight", correct: true }
+        - { text: "It forces a tropical wet season at noon", correct: false }
+        - { text: "It heats the Central Valley more than the coast", correct: false }
+      explanation: |
+        **The cooling lasts well into daylight.** Hours of shade and
+        haze keep sugars from racing.
+
+  - id: calif-fog-unripe-001
+    type: mcq
+    deck: USA::California
+    tags: [usa, california, climate]
+    status: reviewed
+    source_id: c33-0009
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: In a heavy-fog California vintage, what can happen to ripening?
+      choices:
+        - { text: "Every berry overripens in a week", correct: false }
+        - { text: "Grapes can fail to ripen fully", correct: true }
+        - { text: "Fog bans Pinot Noir on the coast", correct: false }
+        - { text: "Sugar always hits 16% potential alcohol", correct: false }
+      explanation: |
+        **Grapes can fail to ripen fully.** Cool pockets such as
+        western Sonoma and Santa Barbara feel that drag first.
+
+  - id: calif-fog-gaps-001
+    type: mcq
+    deck: USA::California
+    tags: [usa, california, climate]
+    status: reviewed
+    source_id: c33-0010
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Fog reaches inland California vineyards mainly through what breaks in the ranges?
+      choices:
+        - { text: "Only over the highest Sierra peaks", correct: false }
+        - { text: "Through gaps in the coastal mountains", correct: true }
+        - { text: "Never past the first beach dune", correct: false }
+        - { text: "Only down the Colorado River", correct: false }
+      explanation: |
+        **Through gaps in the coastal mountains.** Golden Gate,
+        Petaluma Gap and east–west valleys are the usual doors.
+
+  - id: calif-funnel-counties-001
+    type: mcq
+    deck: USA::California
+    tags: [usa, california, climate]
+    status: reviewed
+    source_id: c33-0011
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which two California counties are classic funnels for cold Pacific air?
+      choices:
+        - { text: "Inyo and Imperial only", correct: false }
+        - { text: "Monterey and Santa Barbara", correct: true }
+        - { text: "Nevada and Plumas only", correct: false }
+        - { text: "Hawaii County and Maui", correct: false }
+      explanation: |
+        **Monterey and Santa Barbara.** Salinas and the Santa
+        Barbara valleys open toward the ocean.
+
+  - id: calif-funnel-aspect-001
+    type: mcq
+    deck: USA::California
+    tags: [usa, california, climate]
+    status: reviewed
+    source_id: c33-0011
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Why do Monterey and Santa Barbara counties pull cold ocean air inland?
+      choices:
+        - { text: "Their valleys run only parallel to the Sierra crest", correct: false }
+        - { text: "Their valleys sit at right angles to the Pacific", correct: true }
+        - { text: "A legal wind tunnel is built at each winery", correct: false }
+        - { text: "They have no valleys at all", correct: false }
+      explanation: |
+        **Their valleys sit at right angles to the Pacific.**
+        East–west alignment is the funnel, not a north–south wall.
+
+  - id: calif-inland-heat-001
+    type: mcq
+    deck: USA::California
+    tags: [usa, california, climate]
+    status: reviewed
+    source_id: c33-0012
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Once the coastal ranges cut off the Pacific, what word fits the climate?
+      choices:
+        - { text: "Cool and foggy every afternoon", correct: false }
+        - { text: "Hot", correct: true }
+        - { text: "Permanently frozen", correct: false }
+        - { text: "Maritime like the Loire estuary", correct: false }
+      explanation: |
+        **Hot.** Once the ranges cut off the current and the fog,
+        summer heat dominates.
+
+  - id: calif-central-valley-hot-001
+    type: mcq
+    deck: USA::California
+    tags: [usa, california, climate]
+    status: reviewed
+    source_id: c33-0012
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which large California wine area is the usual hot, ocean-blocked example?
+      choices:
+        - { text: "Los Carneros on San Pablo Bay", correct: false }
+        - { text: "The Central Valley", correct: true }
+        - { text: "The true Sonoma Coast benches", correct: false }
+        - { text: "Sta. Rita Hills", correct: false }
+      explanation: |
+        **The Central Valley.** Volume country: heat, irrigation,
+        and little marine air except at Lodi’s delta edge.
+
+  - id: calif-dry-summer-001
+    type: mcq
+    deck: USA::California
+    tags: [usa, california, climate]
+    status: reviewed
+    source_id: c33-0013
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What dry-season trait links California’s wine regions in the ripening months?
+      choices:
+        - { text: "Daily harvest-time thunderstorms", correct: false }
+        - { text: "Little or no rain while grapes ripen", correct: true }
+        - { text: "Mandatory flood irrigation from the sky", correct: false }
+        - { text: "A monsoon that starts in July", correct: false }
+      explanation: |
+        **Little or no rain while grapes ripen.** Mediterranean
+        summers leave water to the irrigator, not the cloud.
+
+  - id: calif-drip-001
+    type: mcq
+    deck: USA::California
+    tags: [usa, california, viticulture]
+    status: reviewed
+    source_id: c33-0014
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How do California growers usually replace missing ripening-season rain?
+      choices:
+        - { text: "By banning irrigation statewide", correct: false }
+        - { text: "With drip irrigation", correct: true }
+        - { text: "By flooding every row from open canals only", correct: false }
+        - { text: "By moving harvest to the rainy winter", correct: false }
+      explanation: |
+        **With drip irrigation.** Dry summers make controlled water
+        the default, not a rarity.
+
+  - id: calif-hang-time-001
+    type: mcq
+    deck: USA::California
+    tags: [usa, california, viticulture]
+    status: reviewed
+    source_id: c33-0015
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What has a dry California autumn allowed growers to do with fruit?
+      choices:
+        - { text: "Pick only in June, before any sugar forms", correct: false }
+        - { text: "Leave bunches on the vine late into the season", correct: true }
+        - { text: "Forbid late hanging by federal law", correct: false }
+        - { text: "Rely on botrytis every year", correct: false }
+      explanation: |
+        **Leave bunches on the vine late into the season.** Low
+        autumn rain cuts rot risk that would force an early pick
+        in wetter places.
+
+  - id: calif-high-sugar-001
+    type: mcq
+    deck: USA::California
+    tags: [usa, california, grapes]
+    status: reviewed
+    source_id: c33-0016
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What does a long California hang time typically do to the grapes?
+      choices:
+        - { text: "It strips flavour and leaves only high acid", correct: false }
+        - { text: "Flavours concentrate and sugars climb very high", correct: true }
+        - { text: "It forces residual sugar to zero by law", correct: false }
+        - { text: "It turns every variety into Riesling", correct: false }
+      explanation: |
+        **Flavours concentrate and sugars climb very high.** That
+        is the ripe, high-alcohol California imprint.
+
+  - id: calif-earlier-pick-001
+    type: mcq
+    deck: USA::California
+    tags: [usa, california]
+    status: reviewed
+    source_id: c33-0017
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What recent shift have many California growers made at harvest?
+      choices:
+        - { text: "They now pick only after raisins form", correct: false }
+        - { text: "They pick a little earlier, chasing freshness", correct: true }
+        - { text: "They have banned acidity in red wines", correct: false }
+        - { text: "They harvest only in January", correct: false }
+      explanation: |
+        **They pick a little earlier, chasing freshness.** The
+        late-hang, high-alcohol habit is no longer the only model.
+
+  - id: calif-cab-black-001
+    type: mcq
+    deck: USA::California
+    tags: [usa, california, grapes]
+    status: reviewed
+    source_id: c33-0018
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which black grape leads California plantings?
+      choices:
+        - { text: "Pinotage", correct: false }
+        - { text: "Cabernet Sauvignon", correct: true }
+        - { text: "Nebbiolo", correct: false }
+        - { text: "Corvina", correct: false }
+      explanation: |
+        **Cabernet Sauvignon.** It is the leading black grape —
+        and, with Chardonnay, one of the two varieties that
+        dominate the state’s vineyard.
+
+  - id: calif-cab-prime-001
+    type: mcq
+    deck: USA::California
+    tags: [usa, california, grapes]
+    status: reviewed
+    source_id: c33-0019
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What quality can Cabernet Sauvignon reach on California’s best sites?
+      choices:
+        - { text: "Only thin rosé, never a red", correct: false }
+        - { text: "Highly expressive reds that can match the world’s best", correct: true }
+        - { text: "It is illegal on Napa labels", correct: false }
+        - { text: "Only sparkling wine from the Central Valley", correct: false }
+      explanation: |
+        **Highly expressive reds that can match the world’s best.**
+        Napa Valley floor AVAs are the usual prestige address;
+        an AVA name is still a place, not an AOC rulebook.
+
+  - id: calif-cab-profile-001
+    type: mcq
+    deck: USA::California
+    tags: [usa, california, grapes]
+    status: reviewed
+    source_id: c33-0020
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What profile do California’s best Cabernet Sauvignons usually show?
+      choices:
+        - { text: "Pale, low-alcohol, no oak", correct: false }
+        - { text: "Full body, ripe cassis, new-oak spice; some are leaner with fresher blackcurrant", correct: true }
+        - { text: "Only green bell pepper and zero fruit", correct: false }
+        - { text: "Mandatory residual sugar like White Zinfandel", correct: false }
+      explanation: |
+        **Full body, ripe cassis, new-oak spice; some are leaner
+        with fresher blackcurrant.** Prestige Napa bottles sit at
+        the rich pole; cooler picks keep more snap.
+
+  - id: calif-zin-heritage-001
+    type: mcq
+    deck: USA::California
+    tags: [usa, california, grapes]
+    status: reviewed
+    source_id: c33-0021
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which black grape is treated as California’s heritage variety?
+      choices:
+        - { text: "Chardonnay", correct: false }
+        - { text: "Zinfandel", correct: true }
+        - { text: "Riesling", correct: false }
+        - { text: "Pinot Gris", correct: false }
+      explanation: |
+        **Zinfandel.** A black grape — same family as Primitivo
+        (Carole Meredith’s 1990s DNA work; Crljenak Kaštelanski
+        in Croatia). White Zinfandel is a rosé label, not a white
+        vine.
+
+  - id: calif-zin-range-001
+    type: mcq
+    deck: USA::California
+    tags: [usa, california, grapes]
+    status: reviewed
+    source_id: c33-0022
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which California black grape is bottled as pale pink, juicy red, and high-alcohol old-vine wine?
+      choices:
+        - { text: "Pinot Noir only", correct: false }
+        - { text: "Zinfandel", correct: true }
+        - { text: "Riesling", correct: false }
+        - { text: "Albariño", correct: false }
+      explanation: |
+        **Zinfandel.** Pale pink, juicy reds, and high-alcohol
+        old-vine bottles all sit under the name.
+
+  - id: calif-zin-uneven-001
+    type: mcq
+    deck: USA::California
+    tags: [usa, california, grapes, viticulture]
+    status: reviewed
+    source_id: c33-0023
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Why can a single Zinfandel cluster be both raisined and still green?
+      choices:
+        - { text: "It never sets fruit", correct: false }
+        - { text: "Bunches ripen unevenly, so picks mix raisins and green berries", correct: true }
+        - { text: "It ripens only in January", correct: false }
+        - { text: "It is legally a white grape", correct: false }
+      explanation: |
+        **Bunches ripen unevenly, so picks mix raisins and green
+        berries.** One cluster can hold both at once.
+
+  - id: calif-zin-raisin-001
+    type: mcq
+    deck: USA::California
+    tags: [usa, california, grapes]
+    status: reviewed
+    source_id: c33-0024
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What kind of red does raisined California Zinfandel usually make?
+      choices:
+        - { text: "Pale, low-alcohol, no fruit", correct: false }
+        - { text: "Concentrated, full-bodied, high alcohol, sometimes a little residual sugar", correct: true }
+        - { text: "Only a sparkling blanc de blancs", correct: false }
+        - { text: "A tannic Nebbiolo copy with tar and roses", correct: false }
+      explanation: |
+        **Concentrated, full-bodied, high alcohol, sometimes a
+        little residual sugar.** Red and black fruit, dried berry
+        and liquorice; a green note can sneak in from lagging
+        berries.
+
+  - id: calif-zin-rose-001
+    type: mcq
+    deck: USA::California
+    tags: [usa, california, grapes]
+    status: reviewed
+    source_id: c33-0025
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Before Zin berries raisin, early picks often go into which high-volume style?
+      choices:
+        - { text: "Only long-aged Napa Cabernet blends", correct: false }
+        - { text: "Large volumes of rosé", correct: true }
+        - { text: "Icewine from the Sierra snowpack", correct: false }
+        - { text: "Sherry-style flor wines only", correct: false }
+      explanation: |
+        **Large volumes of rosé.** Picking before the raisins
+        appear keeps alcohol down and fruit bright.
+
+  - id: calif-white-zin-name-001
+    type: mcq
+    deck: USA::California
+    tags: [usa, california, grapes]
+    status: reviewed
+    source_id: c33-0026
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What label do California’s high-volume Zinfandel rosés usually wear?
+      choices:
+        - { text: "White Cabernet", correct: false }
+        - { text: "White Zinfandel", correct: true }
+        - { text: "Blanc de Pinot Noir only", correct: false }
+        - { text: "Vin Jaune", correct: false }
+      explanation: |
+        **White Zinfandel.** Still a black-grape rosé. Sutter
+        Home’s 1970s stuck ferment made the pale, sweet style
+        famous; the name is not a white variety.
+
+  - id: calif-white-zin-style-001
+    type: mcq
+    deck: USA::California
+    tags: [usa, california, grapes]
+    status: reviewed
+    source_id: c33-0027
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What is the usual style of White Zinfandel?
+      choices:
+        - { text: "Deep, dry, high-tannin red", correct: false }
+        - { text: "Pale, fruity, medium-sweet and low in alcohol", correct: true }
+        - { text: "Oxidative, like Oloroso", correct: false }
+        - { text: "Bone-dry sparkling from only Chardonnay", correct: false }
+      explanation: |
+        **Pale, fruity, medium-sweet and low in alcohol.** Not a
+        dry Napa red and not a white grape.
+
+  - id: calif-merlot-scale-001
+    type: mcq
+    deck: USA::California
+    tags: [usa, california, grapes]
+    status: reviewed
+    source_id: c33-0028
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Besides Cabernet Sauvignon, which Bordeaux black grape is planted at scale in California?
+      choices:
+        - { text: "Palomino", correct: false }
+        - { text: "Merlot", correct: true }
+        - { text: "Trebbiano", correct: false }
+        - { text: "Albariño", correct: false }
+      explanation: |
+        **Merlot.** Still a major black grape. Pinot Noir and
+        Zinfandel now sit ahead of it on acreage, so “third
+        variety in the state” is no longer a safe claim.
+
+  - id: calif-merlot-easy-001
+    type: mcq
+    deck: USA::California
+    tags: [usa, california, grapes]
+    status: reviewed
+    source_id: c33-0029
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What is the usual profile of everyday California Merlot?
+      choices:
+        - { text: "Austere, high-acid, unripe green tannin", correct: false }
+        - { text: "Approachable, with soft tannins and ripe black fruit", correct: true }
+        - { text: "Only a sweet white", correct: false }
+        - { text: "Mandatory flor ageing", correct: false }
+      explanation: |
+        **Approachable, with soft tannins and ripe black fruit.**
+        The volume style is easy, not structured like left-bank
+        Cabernet.
+
+  - id: calif-merlot-joaquin-001
+    type: mcq
+    deck: USA::California
+    tags: [usa, california, grapes]
+    status: reviewed
+    source_id: c33-0030
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Where is much of California’s inexpensive Merlot grown?
+      choices:
+        - { text: "Only on the true Sonoma Coast ridges", correct: false }
+        - { text: "San Joaquin Valley in the Central Valley", correct: true }
+        - { text: "Only in the Willamette Valley", correct: false }
+        - { text: "Sta. Rita Hills alone", correct: false }
+      explanation: |
+        **San Joaquin Valley in the Central Valley.** Heat and
+        irrigation feed the cheap Merlot tank, not coastal Pinot
+        country.
+
+  - id: calif-merlot-cheap-001
+    type: mcq
+    deck: USA::California
+    tags: [usa, california, grapes]
+    status: reviewed
+    source_id: c33-0031
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Hot, irrigated San Joaquin Merlot is typically which kind of bottle?
+      choices:
+        - { text: "The state’s most expensive cult Cabernets", correct: false }
+        - { text: "Simple and inexpensive", correct: true }
+        - { text: "Cool-climate sparkling only", correct: false }
+        - { text: "Long-lived, high-acid Riesling", correct: false }
+      explanation: |
+        **Simple and inexpensive.** Volume fruit from a hot,
+        irrigated floor.
+
+  - id: calif-merlot-better-001
+    type: mcq
+    deck: USA::California
+    tags: [usa, california, grapes]
+    status: reviewed
+    source_id: c33-0032
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Where do California’s better Merlots usually come from?
+      choices:
+        - { text: "Only the hottest San Joaquin flats", correct: false }
+        - { text: "Monterey and the North Coast, especially Napa and Sonoma", correct: true }
+        - { text: "Death Valley floor vineyards", correct: false }
+        - { text: "Only the Columbia Valley in Washington", correct: false }
+      explanation: |
+        **Monterey and the North Coast, especially Napa and
+        Sonoma.** Cooler than the Central Valley, so Merlot keeps
+        more flesh and definition.
+
+  - id: calif-merlot-cooler-001
+    type: mcq
+    deck: USA::California
+    tags: [usa, california, grapes, climate]
+    status: reviewed
+    source_id: c33-0032
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What do Monterey and North Coast Merlot sites in California share?
+      choices:
+        - { text: "They are hotter than the Central Valley", correct: false }
+        - { text: "They are cooler sites", correct: true }
+        - { text: "They ban Merlot by county law", correct: false }
+        - { text: "They are deserts with no Pacific air", correct: false }
+      explanation: |
+        **They are cooler sites.** Fog, bay breezes or Monterey’s
+        wind take the heat off.
+
+  - id: calif-merlot-lush-001
+    type: mcq
+    deck: USA::California
+    tags: [usa, california, grapes]
+    status: reviewed
+    source_id: c33-0033
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What do better California Merlots usually taste and feel like?
+      choices:
+        - { text: "Thin, pale, no fruit and no alcohol", correct: false }
+        - { text: "Lush body, deep colour, soft velvety tannin, high alcohol, blackberry and plum", correct: true }
+        - { text: "Only green herb and zero ripeness", correct: false }
+        - { text: "A sweet pink wine labelled White Merlot by law", correct: false }
+      explanation: |
+        **Lush body, deep colour, soft velvety tannin, high
+        alcohol, blackberry and plum.** Cooler sites give that
+        plush profile without Central Valley thinness.
+
+  - id: calif-pinot-sites-001
+    type: mcq
+    deck: USA::California
+    tags: [usa, california, grapes]
+    status: reviewed
+    source_id: c33-0034
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which trio of moderate-climate AVAs is the usual home of premium California Pinot?
+      choices:
+        - { text: "The hottest Central Valley floor only", correct: false }
+        - { text: "Russian River Valley, Los Carneros and Santa Maria Valley", correct: true }
+        - { text: "Only Calistoga’s warmest benches", correct: false }
+        - { text: "Death Valley and Imperial Valley", correct: false }
+      explanation: |
+        **Russian River Valley, Los Carneros and Santa Maria
+        Valley.** Coastal fog and breeze keep Pinot in its window;
+        hot inland floors do not.
+
+  - id: calif-pinot-site-driven-001
+    type: mcq
+    deck: USA::California
+    tags: [usa, california, grapes]
+    status: reviewed
+    source_id: c33-0035
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Why do two California Pinots from neighbouring AVAs often taste unlike each other?
+      choices:
+        - { text: "One legal recipe for every county", correct: false }
+        - { text: "It varies widely with vineyard site and winemaking", correct: true }
+        - { text: "It must copy Central Valley Cabernet", correct: false }
+        - { text: "Pinot Noir may only be white", correct: false }
+      explanation: |
+        **It varies widely with vineyard site and winemaking.**
+        Foggy coastal AVAs and richer, oakier bottlings are not
+        the same wine.
+
+  - id: calif-pinot-range-001
+    type: mcq
+    deck: USA::California
+    tags: [usa, california, grapes]
+    status: reviewed
+    source_id: c33-0036
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What flavour range do California Pinot Noirs usually cover?
+      choices:
+        - { text: "Only blackcurrant and cedar, like Napa Cabernet", correct: false }
+        - { text: "Some are pale with game and vegetal notes; most show ripe red cherry and strawberry plus sweet oak spice", correct: true }
+        - { text: "Only oxidative flor and walnut", correct: false }
+        - { text: "Only residual sugar and no red fruit", correct: false }
+      explanation: |
+        **Some are pale with game and vegetal notes; most show
+        ripe red cherry and strawberry plus sweet oak spice.**
+        Site and oak use set which pole you taste.
+
+  - id: calif-syrah-role-001
+    type: mcq
+    deck: USA::California
+    tags: [usa, california, grapes]
+    status: reviewed
+    source_id: c33-0037
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which Rhône black grape is a regular California planting, though well behind Cabernet and Pinot Noir?
+      choices:
+        - { text: "Chardonnay", correct: false }
+        - { text: "Syrah", correct: true }
+        - { text: "Muscadelle", correct: false }
+        - { text: "Vermentino", correct: false }
+      explanation: |
+        **Syrah.** An important black grape, not a safe “fifth
+        most planted” rank — Petite Sirah and others scramble
+        that ladder.
+
+  - id: calif-syrah-statewide-001
+    type: mcq
+    deck: USA::California
+    tags: [usa, california, grapes]
+    status: reviewed
+    source_id: c33-0038
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How widely is Syrah planted in California?
+      choices:
+        - { text: "Only in one Napa vineyard, by law", correct: false }
+        - { text: "Across the state", correct: true }
+        - { text: "Nowhere; it is banned", correct: false }
+        - { text: "Only in Canada’s Okanagan", correct: false }
+      explanation: |
+        **Across the state.** Hot inland sites and cooler coastal
+        pockets both have it.
+
+  - id: calif-syrah-rich-001
+    type: mcq
+    deck: USA::California
+    tags: [usa, california, grapes]
+    status: reviewed
+    source_id: c33-0039
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Warm-site California Syrah usually sits in which body-and-weight class?
+      choices:
+        - { text: "Thin, pale, no body", correct: false }
+        - { text: "Full-bodied and rich", correct: true }
+        - { text: "Only a sweet white", correct: false }
+        - { text: "Mandatory carbonic Gamay copies", correct: false }
+      explanation: |
+        **Full-bodied and rich.** Warm sites push ripe fruit and
+        alcohol; that is the default California Syrah.
+
+  - id: calif-syrah-pepper-001
+    type: mcq
+    deck: USA::California
+    tags: [usa, california, grapes]
+    status: reviewed
+    source_id: c33-0040
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Cooler sites and earlier picks can push California Syrah toward which register instead of jam?
+      choices:
+        - { text: "Only icewine from frozen Syrah", correct: false }
+        - { text: "Leaner, more peppery wines", correct: true }
+        - { text: "A ban on any spice note", correct: false }
+        - { text: "Flor-aged Syrah like Fino", correct: false }
+      explanation: |
+        **Leaner, more peppery wines.** Cooler sites and earlier
+        picks keep the Northern-Rhône pepper instead of jam.
+
+  - id: calif-chard-white-001
+    type: mcq
+    deck: USA::California
+    tags: [usa, california, grapes]
+    status: reviewed
+    source_id: c33-0041
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which white grape leads California plantings?
+      choices:
+        - { text: "Furmint", correct: false }
+        - { text: "Chardonnay", correct: true }
+        - { text: "Assyrtiko", correct: false }
+        - { text: "Grüner Veltliner", correct: false }
+      explanation: |
+        **Chardonnay.** The leading white, and with Cabernet
+        Sauvignon one of the two grapes that dominate the
+        vineyard. Cabernet now edges it as the single most
+        planted variety, so “number one overall” is stale.
+
+  - id: calif-chard-volume-style-001
+    type: mcq
+    deck: USA::California
+    tags: [usa, california, grapes]
+    status: reviewed
+    source_id: c33-0042
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What is the usual style of inexpensive, high-volume California Chardonnay?
+      choices:
+        - { text: "High-acid, unripe, no fruit", correct: false }
+        - { text: "Fruity, low to medium acidity, sometimes toast from staves or chips", correct: true }
+        - { text: "Only long-lees Champagne from Épernay", correct: false }
+        - { text: "Oxidative, like Vin Jaune", correct: false }
+      explanation: |
+        **Fruity, low to medium acidity, sometimes toast from
+        staves or chips.** Tank fruit plus cheap oak flavour, not
+        barrel-fermented prestige wine.
+
+  - id: calif-chard-volume-where-001
+    type: mcq
+    deck: USA::California
+    tags: [usa, california, grapes]
+    status: reviewed
+    source_id: c33-0042
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Where is most inexpensive, high-volume California Chardonnay made?
+      choices:
+        - { text: "Only Los Carneros sparkling houses", correct: false }
+        - { text: "The Central Valley", correct: true }
+        - { text: "Only the true Sonoma Coast ridges", correct: false }
+        - { text: "Chablis in France", correct: false }
+      explanation: |
+        **The Central Valley.** Heat and yield, not coastal fog,
+        drive the cheap Chardonnay tank.
+
+  - id: calif-chard-oaky-001
+    type: mcq
+    deck: USA::California
+    tags: [usa, california, grapes]
+    status: reviewed
+    source_id: c33-0043
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What reputation did high-quality California Chardonnay first build?
+      choices:
+        - { text: "Bone-dry, steely, no oak and no fruit", correct: false }
+        - { text: "Very full, high alcohol, low acidity, peach and banana, obvious oak, hazelnut and butter", correct: true }
+        - { text: "Only pale, sweet White Zinfandel", correct: false }
+        - { text: "A tannic red aged in amphora only", correct: false }
+      explanation: |
+        **Very full, high alcohol, low acidity, peach and banana,
+        obvious oak, hazelnut and butter.** That rich, malolactic,
+        barrel-led model is the old prestige picture.
+
+  - id: calif-chard-cool-001
+    type: mcq
+    deck: USA::California
+    tags: [usa, california, grapes]
+    status: reviewed
+    source_id: c33-0044
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which two fog-cooled AVAs are the usual addresses for leaner, less oaky California Chardonnay?
+      choices:
+        - { text: "Only the hottest San Joaquin floor", correct: false }
+        - { text: "Los Carneros and Russian River Valley", correct: true }
+        - { text: "Death Valley irrigation blocks", correct: false }
+        - { text: "Only the Maremma in Tuscany", correct: false }
+      explanation: |
+        **Los Carneros and Russian River Valley.** Bay and river
+        fog keep alcohol and oak in check.
+
+  - id: calif-sb-white-001
+    type: mcq
+    deck: USA::California
+    tags: [usa, california, grapes]
+    status: reviewed
+    source_id: c33-0045
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: After Chardonnay, which white grape is California’s main second variety?
+      choices:
+        - { text: "Furmint", correct: false }
+        - { text: "Sauvignon Blanc", correct: true }
+        - { text: "Pedro Ximénez", correct: false }
+        - { text: "Rkatsiteli", correct: false }
+      explanation: |
+        **Sauvignon Blanc.** Still the usual number-two white
+        after Chardonnay.
+
+  - id: calif-sb-coast-001
+    type: mcq
+    deck: USA::California
+    tags: [usa, california, grapes]
+    status: reviewed
+    source_id: c33-0046
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Quality California Sauvignon Blanc is usually grown on which flank of the Coast Ranges?
+      choices:
+        - { text: "The inland Central Valley flank", correct: false }
+        - { text: "The Pacific flank", correct: true }
+        - { text: "The Sierra-east flank", correct: false }
+        - { text: "The Oregon flank", correct: false }
+      explanation: |
+        **The Pacific flank.** Ocean air keeps acidity that inland
+        heat would cook off.
+
+  - id: calif-sb-citrus-001
+    type: mcq
+    deck: USA::California
+    tags: [usa, california, grapes]
+    status: reviewed
+    source_id: c33-0047
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What do California’s best Sauvignon Blancs usually show?
+      choices:
+        - { text: "Low acidity and baked banana only", correct: false }
+        - { text: "High acidity and ripe citrus", correct: true }
+        - { text: "Heavy new-oak Cabernet spice and no fruit", correct: false }
+        - { text: "Mandatory residual sugar like White Zinfandel", correct: false }
+      explanation: |
+        **High acidity and ripe citrus.** Cooler coastal fruit,
+        not Central Valley softness.
+
+  - id: calif-sb-valley-001
+    type: mcq
+    deck: USA::California
+    tags: [usa, california, grapes]
+    status: reviewed
+    source_id: c33-0048
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Ripe, simple California Sauvignon Blanc is typically grown in which region?
+      choices:
+        - { text: "Sonoma Coast", correct: false }
+        - { text: "The Central Valley", correct: true }
+        - { text: "Los Carneros", correct: false }
+        - { text: "Sta. Rita Hills", correct: false }
+      explanation: |
+        **The Central Valley.** Warm-basin fruit for the everyday
+        bottle, opposite the Pacific-flank wines.
+
+  - id: calif-fume-blanc-001
+    type: mcq
+    deck: USA::California
+    tags: [usa, california, grapes]
+    status: reviewed
+    source_id: c33-0049
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What can Fumé Blanc mean on a California label?
+      choices:
+        - { text: "A legal synonym for Pinot Noir only", correct: false }
+        - { text: "Often an oaked Sauvignon Blanc, though some estates use it on unoaked wine", correct: true }
+        - { text: "A mandatory sweet red from Zinfandel", correct: false }
+        - { text: "A federal ban on Sauvignon Blanc", correct: false }
+      explanation: |
+        **Often an oaked Sauvignon Blanc, though some estates use
+        it on unoaked wine.** Robert Mondavi pushed the name in
+        the late 1960s for barrel-aged Sauvignon; it is not a
+        tight AVA rule.
+
+  - id: calif-volume-valley-001
+    type: mcq
+    deck: USA::California
+    tags: [usa, california]
+    status: reviewed
+    source_id: c33-0050
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Most California litres come from which hot, irrigated inland trough, not Napa?
+      choices:
+        - { text: "Only Napa Valley floor AVAs", correct: false }
+        - { text: "The Central Valley", correct: true }
+        - { text: "Only the true Sonoma Coast", correct: false }
+        - { text: "Sta. Rita Hills alone", correct: false }
+      explanation: |
+        **The Central Valley.** Volume, not prestige: heat,
+        irrigation and high yields. Napa and coastal AVAs are
+        the quality map, not the litre count.
