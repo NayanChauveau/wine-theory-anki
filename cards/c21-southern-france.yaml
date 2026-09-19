@@ -2,4 +2,1255 @@
 # source: C21 (import/inbox/c21-southern-france.yaml)
 # deck: France::Southern France
 
-cards: []
+cards:
+  - id: sfrance-climate-001
+    type: mcq
+    deck: France::Southern France
+    tags: [france, southern-france, climate]
+    status: reviewed
+    source_id: c21-0001
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which climate description fits Southern France?
+      choices:
+        - { text: "Cool maritime, like Muscadet", correct: false }
+        - { text: "Warm Mediterranean — summers often over 30°C, mild winters, low rainfall", correct: true }
+        - { text: "High alpine only", correct: false }
+        - { text: "Moderate continental, like Beaujolais", correct: false }
+      explanation: |
+        **Warm Mediterranean.** That is why Grenache and Carignan ripen
+        here and why drought, not frost, is the usual worry.
+
+  - id: sfrance-terrain-001
+    type: mcq
+    deck: France::Southern France
+    tags: [france, southern-france]
+    status: reviewed
+    source_id: c21-0002
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which two landscapes divide Southern France’s vineyards?
+      choices:
+        - { text: "Only steep northern-Rhône walls", correct: false }
+        - { text: "Mountain foothills and coastal plains", correct: true }
+        - { text: "A cliffed fjord", correct: false }
+        - { text: "Inland chalk only, like Champagne", correct: false }
+      explanation: |
+        **Foothills and coastal plains.** The hills are the better
+        sites; the plain is the volume.
+
+  - id: sfrance-foothills-001
+    type: mcq
+    deck: France::Southern France
+    tags: [france, southern-france]
+    status: reviewed
+    source_id: c21-0003
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How do foothill vineyards sit next to the Southern France coastal plain?
+      choices:
+        - { text: "Hotter, wetter, and more fertile", correct: false }
+        - { text: "Noticeably cooler, less fertile, and better drained", correct: true }
+        - { text: "Below sea level only", correct: false }
+        - { text: "Permanently iced", correct: false }
+      explanation: |
+        **Cooler, poorer, better drained.** That is why Pic Saint-Loup
+        and inland Corbières outrun the Béziers flats.
+
+  - id: sfrance-wind-hazard-001
+    type: mcq
+    deck: France::Southern France
+    tags: [france, southern-france, climate]
+    status: reviewed
+    source_id: c21-0004
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Besides drought, which extra climatic problem hits Southern France vines?
+      choices:
+        - { text: "Permanent ice", correct: false }
+        - { text: "Strong winds", correct: true }
+        - { text: "A monsoon", correct: false }
+        - { text: "No wind at all", correct: false }
+      explanation: |
+        **Strong winds** — the mistral and the tramontane. They dry the
+        fruit and can snap shoots.
+
+  - id: sfrance-mistral-001
+    type: mcq
+    deck: France::Southern France
+    tags: [france, southern-france, climate]
+    status: reviewed
+    source_id: c21-0005
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which cool north wind reaches Southern France down the Rhône corridor?
+      choices:
+        - { text: "The foehn only", correct: false }
+        - { text: "The mistral", correct: true }
+        - { text: "A sea breeze from Brittany", correct: false }
+        - { text: "There is no north wind", correct: false }
+      explanation: |
+        **The mistral.** Same Rhône blast as at Châteauneuf, still
+        felt on the Languedoc plain.
+
+  - id: sfrance-tramontane-001
+    type: mcq
+    deck: France::Southern France
+    tags: [france, southern-france, climate]
+    status: reviewed
+    source_id: c21-0005
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which wind funnels between the Pyrenees and the Massif Central?
+      choices:
+        - { text: "The mistral only", correct: false }
+        - { text: "The tramontane", correct: true }
+        - { text: "A Breton sea breeze", correct: false }
+        - { text: "There is no wind in Roussillon", correct: false }
+      explanation: |
+        **The tramontane.** Corbières and Fitou sit in that gap; the
+        rows feel it.
+
+  - id: sfrance-drought-001
+    type: mcq
+    deck: France::Southern France
+    tags: [france, southern-france, climate]
+    status: reviewed
+    source_id: c21-0006
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which water stress most limits Southern France growers?
+      choices:
+        - { text: "Spring frost every year", correct: false }
+        - { text: "Drought", correct: true }
+        - { text: "Too much summer rain", correct: false }
+        - { text: "A legal ban on irrigation talk", correct: false }
+      explanation: |
+        **Drought.** Warm, dry summers plus wind. Irrigation is
+        controlled, not a free tap.
+
+  - id: sfrance-floods-001
+    type: mcq
+    deck: France::Southern France
+    tags: [france, southern-france, climate]
+    status: reviewed
+    source_id: c21-0007
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Despite the usual drought, what wet shock can Southern France still get?
+      choices:
+        - { text: "Permanent glacier melt only", correct: false }
+        - { text: "Summer floods", correct: true }
+        - { text: "A Breton monsoon every week", correct: false }
+        - { text: "No rain ever reaches the vines", correct: false }
+      explanation: |
+        **Summer floods.** Mediterranean storms can dump a season’s
+        rain in a day on the Aude or the Hérault.
+
+  - id: sfrance-black-majority-001
+    type: mcq
+    deck: France::Southern France
+    tags: [france, southern-france, grapes]
+    status: reviewed
+    source_id: c21-0008
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which colour of grape covers most Southern France vineyard?
+      choices:
+        - { text: "White only", correct: false }
+        - { text: "Black", correct: true }
+        - { text: "Only grey Pinot", correct: false }
+        - { text: "No vines are black", correct: false }
+      explanation: |
+        **Black.** Red and rosé own the volume; white is the minority.
+
+  - id: sfrance-local-intl-001
+    type: mcq
+    deck: France::Southern France
+    tags: [france, southern-france, grapes]
+    status: reviewed
+    source_id: c21-0009
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which two families of grape does Southern France plant?
+      choices:
+        - { text: "Only Riesling clones", correct: false }
+        - { text: "Local and international varieties", correct: true }
+        - { text: "Only hybrid table grapes", correct: false }
+        - { text: "No Vitis vinifera", correct: false }
+      explanation: |
+        **Local and international.** Grenache sits next to Merlot on
+        the same IGP map.
+
+  - id: sfrance-local-pair-001
+    type: mcq
+    deck: France::Southern France
+    tags: [france, southern-france, grapes]
+    status: reviewed
+    source_id: c21-0010
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which pair of local black grapes leads Southern France blends?
+      choices:
+        - { text: "Pinot Noir and Gamay", correct: false }
+        - { text: "Grenache and Syrah", correct: true }
+        - { text: "Melon and Chenin", correct: false }
+        - { text: "Riesling and Pinot Gris", correct: false }
+      explanation: |
+        **Grenache and Syrah.** Carignan is third by hectares; those
+        two still lead the serious blends.
+
+  - id: sfrance-syrah-sites-001
+    type: mcq
+    deck: France::Southern France
+    tags: [france, southern-france, grapes]
+    status: reviewed
+    source_id: c21-0011
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Where in Southern France is Syrah usually at its best?
+      choices:
+        - { text: "The hottest, driest coastal flats", correct: false }
+        - { text: "The cooler sites", correct: true }
+        - { text: "Only under glass", correct: false }
+        - { text: "It is banned south of Valence", correct: false }
+      explanation: |
+        **Cooler sites** — inland hills, altitude, Pic Saint-Loup.
+        Bake it on the plain and it jams.
+
+  - id: sfrance-grenache-sites-001
+    type: mcq
+    deck: France::Southern France
+    tags: [france, southern-france, grapes]
+    status: reviewed
+    source_id: c21-0011
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Where in Southern France is Grenache usually at its best?
+      choices:
+        - { text: "The coolest, wettest Atlantic slopes", correct: false }
+        - { text: "The warmer, drier sites", correct: true }
+        - { text: "Only in Champagne", correct: false }
+        - { text: "It cannot ripen south of Lyon", correct: false }
+      explanation: |
+        **Warmer, drier sites.** Late-ripening Grenache needs the
+        Mediterranean heat Carignan also likes.
+
+  - id: sfrance-carignan-rank-001
+    type: mcq
+    deck: France::Southern France
+    tags: [france, southern-france, grapes]
+    status: reviewed
+    source_id: c21-0012
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: After Grenache and Syrah, which local black grape still covers the next-largest area?
+      choices:
+        - { text: "Pinot Noir", correct: false }
+        - { text: "Carignan", correct: true }
+        - { text: "Melon", correct: false }
+        - { text: "Riesling", correct: false }
+      explanation: |
+        **Carignan.** Still huge, even after decades of grubbing-up.
+
+  - id: sfrance-carignan-profile-001
+    type: mcq
+    deck: France::Southern France
+    tags: [france, southern-france, grapes]
+    status: reviewed
+    source_id: c21-0013
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What is young-vine, high-crop Carignan usually like?
+      choices:
+        - { text: "Pale, low tannin, and floral only", correct: false }
+        - { text: "High tannin, high acid, deep colour, and often short of fruit or finesse", correct: true }
+        - { text: "Oily, low acid, lychee", correct: false }
+        - { text: "A light Gamay picnic wine", correct: false }
+      explanation: |
+        **High tannin, high acid, deep colour, little fruit.** That is
+        the cheap-blend problem, not old-vine Fitou.
+
+  - id: sfrance-carignan-old-001
+    type: mcq
+    deck: France::Southern France
+    tags: [france, southern-france, grapes]
+    status: reviewed
+    source_id: c21-0014
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: When can Carignan make a serious Southern France red?
+      choices:
+        - { text: "Only as a 20-tonne coastal crop", correct: false }
+        - { text: "Old vines on poor soils", correct: true }
+        - { text: "Only in Champagne", correct: false }
+        - { text: "It never makes quality wine", correct: false }
+      explanation: |
+        **Old vines on poor soils.** Fitou and Corbières still have
+        those bush vines.
+
+  - id: sfrance-carignan-yield-001
+    type: mcq
+    deck: France::Southern France
+    tags: [france, southern-france, grapes]
+    status: reviewed
+    source_id: c21-0015
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Why was Carignan planted so widely in Southern France?
+      choices:
+        - { text: "It cannot yield at all", correct: false }
+        - { text: "It can produce very high yields", correct: true }
+        - { text: "INAO banned every other grape", correct: false }
+        - { text: "It is a cool-climate white", correct: false }
+      explanation: |
+        **Very high yields.** That is the vin de table story, not the
+        old-vine one.
+
+  - id: sfrance-carignan-grub-001
+    type: mcq
+    deck: France::Southern France
+    tags: [france, southern-france, grapes]
+    status: reviewed
+    source_id: c21-0016
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What has cut Carignan’s old volume role in Southern France?
+      choices:
+        - { text: "A legal ban on the grape in every AOC", correct: false }
+        - { text: "Significantly reduced plantings", correct: true }
+        - { text: "A switch to only Riesling", correct: false }
+        - { text: "Nothing — hectares keep rising", correct: false }
+      explanation: |
+        **Significantly reduced plantings.** EU grubbing-up pulled a
+        lot of high-crop Carignan out.
+
+  - id: sfrance-carignan-legal-001
+    type: mcq
+    deck: France::Southern France
+    tags: [france, southern-france, grapes]
+    status: reviewed
+    source_id: c21-0017
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which local black grape is still widely legal in Southern France red AOCs?
+      choices:
+        - { text: "Pinot Noir only", correct: false }
+        - { text: "Carignan", correct: true }
+        - { text: "Riesling", correct: false }
+        - { text: "Melon", correct: false }
+      explanation: |
+        **Carignan.** It is not legal in every Southern France AOC
+        (Picpoul de Pinet is white-only); it is the default in the red
+        ones.
+
+  - id: sfrance-cinsault-001
+    type: mcq
+    deck: France::Southern France
+    tags: [france, southern-france, grapes]
+    status: reviewed
+    source_id: c21-0018
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How do Southern France cellars usually use Cinsault?
+      choices:
+        - { text: "100% new-oak Hermitage lookalikes", correct: false }
+        - { text: "Rosé, or red-fruit lift in a red blend", correct: true }
+        - { text: "Icewine only", correct: false }
+        - { text: "Fortified red only", correct: false }
+      explanation: |
+        **Rosé, or red fruit in a blend.** Provence pink and Languedoc
+        red both use it that way.
+
+  - id: sfrance-mourvedre-blend-001
+    type: mcq
+    deck: France::Southern France
+    tags: [france, southern-france, grapes]
+    status: reviewed
+    source_id: c21-0019
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which late-ripening local gives Southern France reds extra richness, colour and complexity?
+      choices:
+        - { text: "Melon", correct: false }
+        - { text: "Mourvèdre", correct: true }
+        - { text: "Riesling", correct: false }
+        - { text: "Pinot Blanc", correct: false }
+      explanation: |
+        **Mourvèdre.** Bandol is the named extreme; Languedoc uses it
+        the same way in smaller doses.
+
+  - id: sfrance-igp-bordeaux-001
+    type: mcq
+    deck: France::Southern France
+    tags: [france, southern-france, grapes]
+    status: reviewed
+    source_id: c21-0020
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which two grapes do a lot of the work in Southern France IGP reds?
+      choices:
+        - { text: "Riesling and Pinot Gris", correct: false }
+        - { text: "Merlot and Cabernet Sauvignon", correct: true }
+        - { text: "Melon and Chenin", correct: false }
+        - { text: "Only Carignan, by law", correct: false }
+      explanation: |
+        **Merlot and Cabernet Sauvignon.** Pays d’Oc is full of them;
+        they are not the AOC story.
+
+  - id: sfrance-modern-cellar-001
+    type: mcq
+    deck: France::Southern France
+    tags: [france, southern-france]
+    status: reviewed
+    source_id: c21-0021
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What changed most in Southern France cellars over recent decades?
+      choices:
+        - { text: "A return to only open-air dirt floors", correct: false }
+        - { text: "Modern kit, cleaner cellars, temperature control, oxygen management, and more careful oak", correct: true }
+        - { text: "A ban on any temperature control", correct: false }
+        - { text: "Only amphorae are legal", correct: false }
+      explanation: |
+        **Modern, clean, temperature-controlled cellars.** The 1970s
+        bulk tank is not the current default.
+
+  - id: sfrance-semicarbonic-001
+    type: mcq
+    deck: France::Southern France
+    tags: [france, southern-france]
+    status: reviewed
+    source_id: c21-0022
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which extra ferment style do some Southern France producers still use?
+      choices:
+        - { text: "Icewine only", correct: false }
+        - { text: "Semi-carbonic maceration", correct: true }
+        - { text: "Boiling the must", correct: false }
+        - { text: "No skins at all, by law", correct: false }
+      explanation: |
+        **Semi-carbonic maceration.** Not Beaujolais-only; Languedoc
+        uses it on Carignan.
+
+  - id: sfrance-semicarbonic-why-001
+    type: mcq
+    deck: France::Southern France
+    tags: [france, southern-france]
+    status: reviewed
+    source_id: c21-0023
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Why do some Southern France cellars use semi-carbonic maceration?
+      choices:
+        - { text: "To raise tannin in Pinot Noir", correct: false }
+        - { text: "To soften Carignan’s tannins", correct: true }
+        - { text: "To make icewine", correct: false }
+        - { text: "It is illegal on Carignan", correct: false }
+      explanation: |
+        **To soften Carignan’s tannins.** Whole-berry ferment gives
+        fruit and less harsh frame.
+
+  - id: sfrance-white-intl-001
+    type: mcq
+    deck: France::Southern France
+    tags: [france, southern-france, grapes]
+    status: reviewed
+    source_id: c21-0024
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which two international whites cover the most Southern France hectares?
+      choices:
+        - { text: "Riesling and Pinot Gris", correct: false }
+        - { text: "Chardonnay and Sauvignon Blanc", correct: true }
+        - { text: "Melon and Chenin", correct: false }
+        - { text: "Only Picpoul, by law", correct: false }
+      explanation: |
+        **Chardonnay and Sauvignon Blanc.** IGP Pays d’Oc volume, not
+        the Picpoul de Pinet story.
+
+  - id: sfrance-viognier-001
+    type: mcq
+    deck: France::Southern France
+    tags: [france, southern-france, grapes]
+    status: reviewed
+    source_id: c21-0025
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: After Chardonnay and Sauvignon Blanc, which white still ranks next in Southern France?
+      choices:
+        - { text: "Riesling", correct: false }
+        - { text: "Viognier", correct: true }
+        - { text: "Melon", correct: false }
+        - { text: "Aligoté", correct: false }
+      explanation: |
+        **Viognier.** After Chardonnay and Sauvignon in the IGP mix.
+
+  - id: sfrance-local-whites-001
+    type: mcq
+    deck: France::Southern France
+    tags: [france, southern-france, grapes]
+    status: reviewed
+    source_id: c21-0026
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which local whites are the most planted in Southern France?
+      choices:
+        - { text: "Riesling and Pinot Gris", correct: false }
+        - { text: "Muscat and Grenache Blanc", correct: true }
+        - { text: "Melon and Chenin", correct: false }
+        - { text: "Only Aligoté", correct: false }
+      explanation: |
+        **Muscat and Grenache Blanc.** The international whites are
+        bigger overall; these two lead the locals.
+
+  - id: sfrance-muscat-vdn-001
+    type: mcq
+    deck: France::Southern France
+    tags: [france, southern-france, grapes]
+    status: reviewed
+    source_id: c21-0027
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What is Muscat’s traditional Southern France job?
+      choices:
+        - { text: "100% new-oak red", correct: false }
+        - { text: "Sweet fortified wine", correct: true }
+        - { text: "Icewine only", correct: false }
+        - { text: "Sparkling Chenin", correct: false }
+      explanation: |
+        **Sweet fortified wine** — Muscat de Rivesaltes, Frontignan,
+        Saint-Jean-de-Minervois.
+
+  - id: sfrance-muscat-dry-001
+    type: mcq
+    deck: France::Southern France
+    tags: [france, southern-france, grapes]
+    status: reviewed
+    source_id: c21-0027
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Besides VDN, what dry style is Muscat also used for in Southern France?
+      choices:
+        - { text: "Tannic red only", correct: false }
+        - { text: "Dry wines with aromatic, grapey aromas", correct: true }
+        - { text: "Icewine only", correct: false }
+        - { text: "It cannot be bottled dry", correct: false }
+      explanation: |
+        **Dry, aromatic, grapey wines.** A smaller line than the
+        fortified Muscats.
+
+  - id: sfrance-gb-profile-001
+    type: mcq
+    deck: France::Southern France
+    tags: [france, southern-france, grapes]
+    status: reviewed
+    source_id: c21-0028
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What is typical dry Grenache Blanc like in Southern France?
+      choices:
+        - { text: "Light, high-acid, and 11%", correct: false }
+        - { text: "Dry, soft peach fruit, full body, low acid, and quick to oxidise", correct: true }
+        - { text: "Sparkling and bone-dry only", correct: false }
+        - { text: "Tannic red", correct: false }
+      explanation: |
+        **Full, peachy, low acid, oxidises easily.** Blend or drink
+        young; it is not Picpoul.
+
+  - id: sfrance-picpoul-where-001
+    type: mcq
+    deck: France::Southern France
+    tags: [france, southern-france, grapes]
+    status: reviewed
+    source_id: c21-0029
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Where is Picpoul most prized in Southern France?
+      choices:
+        - { text: "Bandol", correct: false }
+        - { text: "Pinet", correct: true }
+        - { text: "Côte-Rôtie", correct: false }
+        - { text: "Vouvray", correct: false }
+      explanation: |
+        **Pinet** — Picpoul de Pinet, by the Thau lagoon.
+
+  - id: sfrance-mauzac-where-001
+    type: mcq
+    deck: France::Southern France
+    tags: [france, southern-france, grapes]
+    status: reviewed
+    source_id: c21-0029
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Where is Mauzac most prized in Southern France?
+      choices:
+        - { text: "Tavel", correct: false }
+        - { text: "Limoux", correct: true }
+        - { text: "Châteauneuf-du-Pape", correct: false }
+        - { text: "Muscadet", correct: false }
+      explanation: |
+        **Limoux** — Blanquette and the traditional local sparkling
+        grape.
+
+  - id: sfrance-macabeu-where-001
+    type: mcq
+    deck: France::Southern France
+    tags: [france, southern-france, grapes]
+    status: reviewed
+    source_id: c21-0029
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Where is Macabeu most prized in Southern France?
+      choices:
+        - { text: "Chablis", correct: false }
+        - { text: "Roussillon", correct: true }
+        - { text: "Sancerre", correct: false }
+        - { text: "Côte-Rôtie", correct: false }
+      explanation: |
+        **Roussillon.** Same grape as Catalan Macabeo; still and VDN
+        both use it.
+
+  - id: sfrance-rolle-where-001
+    type: mcq
+    deck: France::Southern France
+    tags: [france, southern-france, grapes]
+    status: reviewed
+    source_id: c21-0029
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Where is Rolle most prized in Southern France?
+      choices:
+        - { text: "Côte-Rôtie", correct: false }
+        - { text: "Provence", correct: true }
+        - { text: "Muscadet", correct: false }
+        - { text: "Champagne", correct: false }
+      explanation: |
+        **Provence.** Rolle is Vermentino; it leads many Provençal
+        whites.
+
+  - id: sfrance-clairette-where-001
+    type: mcq
+    deck: France::Southern France
+    tags: [france, southern-france, grapes]
+    status: reviewed
+    source_id: c21-0029
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Where is Clairette most prized in Southern France?
+      choices:
+        - { text: "Only in Alsace", correct: false }
+        - { text: "Languedoc and Provence", correct: true }
+        - { text: "Muscadet only", correct: false }
+        - { text: "Champagne only", correct: false }
+      explanation: |
+        **Languedoc and Provence.** Clairette du Languedoc is the
+        named AOC; Provence blends it too.
+
+  - id: sfrance-picpoul-profile-001
+    type: mcq
+    deck: France::Southern France
+    tags: [france, southern-france, grapes]
+    status: reviewed
+    source_id: c21-0030
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What does Picpoul de Pinet usually taste like?
+      choices:
+        - { text: "Full, oxidative, and peachy, like Grenache Blanc", correct: false }
+        - { text: "Refreshing, high acid, green and citrus fruit", correct: true }
+        - { text: "Tannic and gamey", correct: false }
+        - { text: "Sweet fortified only", correct: false }
+      explanation: |
+        **Refreshing, high acid, green and citrus.** Sea-breeze
+        Picpoul, not a Rhône blanc.
+
+  - id: sfrance-languedoc-depts-001
+    type: mcq
+    deck: France::Southern France
+    tags: [france, southern-france]
+    status: reviewed
+    source_id: c21-0031
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Languedoc sits in which three French départements?
+      choices:
+        - { text: "Gironde, Dordogne and Lot", correct: false }
+        - { text: "Aude, Hérault and Gard", correct: true }
+        - { text: "Marne, Aube and Aisne", correct: false }
+        - { text: "Rhône, Loire and Ain", correct: false }
+      explanation: |
+        **Aude, Hérault and Gard.** Pyrénées-Orientales is Roussillon,
+        not Languedoc.
+
+  - id: sfrance-roussillon-dept-001
+    type: mcq
+    deck: France::Southern France
+    tags: [france, southern-france]
+    status: reviewed
+    source_id: c21-0032
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Roussillon is which French département?
+      choices:
+        - { text: "Hérault", correct: false }
+        - { text: "Pyrénées-Orientales", correct: true }
+        - { text: "Gironde", correct: false }
+        - { text: "Marne", correct: false }
+      explanation: |
+        **Pyrénées-Orientales** — Perpignan to the Spanish border.
+
+  - id: sfrance-volume-languedoc-001
+    type: mcq
+    deck: France::Southern France
+    tags: [france, southern-france]
+    status: reviewed
+    source_id: c21-0033
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which half of the map supplies most Southern France volume?
+      choices:
+        - { text: "Bandol only", correct: false }
+        - { text: "Languedoc", correct: true }
+        - { text: "Côte-Rôtie", correct: false }
+        - { text: "Muscadet", correct: false }
+      explanation: |
+        **Languedoc.** Roussillon and Provence are smaller in volume.
+
+  - id: sfrance-lr-terrain-001
+    type: mcq
+    deck: France::Southern France
+    tags: [france, southern-france]
+    status: reviewed
+    source_id: c21-0034
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How does Languedoc–Roussillon terrain change as you leave the coast?
+      choices:
+        - { text: "It becomes a flat lagoon all the way to Spain", correct: false }
+        - { text: "A large coastal plain between Béziers and Montpellier, then hillier, more rugged land inland and toward Spain", correct: true }
+        - { text: "Only alpine snowfields", correct: false }
+        - { text: "A cliffed fjord", correct: false }
+      explanation: |
+        **Coastal plain, then hills inland and toward Spain.** The
+        plain is IGP country; the hills hold the named AOCs.
+
+  - id: sfrance-languedoc-aoc-span-001
+    type: mcq
+    deck: France::Southern France
+    tags: [france, southern-france]
+    status: reviewed
+    source_id: c21-0035
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How far does the regional Languedoc AOC stretch?
+      choices:
+        - { text: "Only the Médoc peninsula", correct: false }
+        - { text: "From the Spanish border to Nîmes", correct: true }
+        - { text: "Only inside Lyon’s walls", correct: false }
+        - { text: "The Loire estuary only", correct: false }
+      explanation: |
+        **Spanish border to Nîmes.** It is a wrapper AOC, not a single
+        hillside.
+
+  - id: sfrance-named-zone-001
+    type: mcq
+    deck: France::Southern France
+    tags: [france, southern-france]
+    status: reviewed
+    source_id: c21-0036
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What can a stronger Languedoc zone add to a generic Languedoc label?
+      choices:
+        - { text: "Nothing — only IGP is legal", correct: false }
+        - { text: "Its own geographic name", correct: true }
+        - { text: "Premier Cru, as in the Côte d’Or", correct: false }
+        - { text: "Grand Cru Classé, as in 1855", correct: false }
+      explanation: |
+        **Its own geographic name.** Some of those zones later became
+        standalone AOCs — **Pic Saint-Loup** in 2017.
+
+  - id: sfrance-own-aoc-001
+    type: mcq
+    deck: France::Southern France
+    tags: [france, southern-france]
+    status: reviewed
+    source_id: c21-0037
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Why can Minervois or Côtes du Roussillon skip the word Languedoc on the label?
+      choices:
+        - { text: "They are only IGP", correct: false }
+        - { text: "They have their own AOC rules", correct: true }
+        - { text: "They are in Bordeaux", correct: false }
+        - { text: "INAO bans any place name", correct: false }
+      explanation: |
+        **They have their own AOC rules.** More specific geography,
+        their own yield and grape bars.
+
+  - id: sfrance-subregional-001
+    type: mcq
+    deck: France::Southern France
+    tags: [france, southern-france]
+    status: reviewed
+    source_id: c21-0038
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Below Minervois or Corbières, what is the finest official AOC step?
+      choices:
+        - { text: "The regional Languedoc wrapper only", correct: false }
+        - { text: "A sub-regional AOC such as Minervois-La Livinière", correct: true }
+        - { text: "A village climat, as in Burgundy", correct: false }
+        - { text: "There are no smaller names", correct: false }
+      explanation: |
+        **Sub-regional AOCs** — **Minervois-La Livinière**,
+        **Corbières-Boutenac**. Finer than Minervois or Corbières.
+
+  - id: sfrance-aoc-evolve-001
+    type: mcq
+    deck: France::Southern France
+    tags: [france, southern-france]
+    status: reviewed
+    source_id: c21-0039
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What keeps changing in the Languedoc AOC map?
+      choices:
+        - { text: "All names are frozen in 1936", correct: false }
+        - { text: "Sub-regions keep applying for full AOC status", correct: true }
+        - { text: "Every AOC has been abolished", correct: false }
+        - { text: "Only IGP may exist", correct: false }
+      explanation: |
+        **Sub-regions keep applying for AOC.** Pic Saint-Loup and
+        Terrasses du Larzac walked that path.
+
+  - id: sfrance-languedoc-colours-001
+    type: mcq
+    deck: France::Southern France
+    tags: [france, southern-france]
+    status: reviewed
+    source_id: c21-0040
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which still, dry colours do most Languedoc AOCs allow?
+      choices:
+        - { text: "Red only", correct: false }
+        - { text: "Red, white, and rosé", correct: true }
+        - { text: "Sparkling only", correct: false }
+        - { text: "Orange only", correct: false }
+      explanation: |
+        **Red, white, and rosé** in most names. Red is still the bulk.
+
+  - id: sfrance-languedoc-red-001
+    type: mcq
+    deck: France::Southern France
+    tags: [france, southern-france]
+    status: reviewed
+    source_id: c21-0041
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: By colour, what fills most Languedoc tanks?
+      choices:
+        - { text: "Sweet white", correct: false }
+        - { text: "Red", correct: true }
+        - { text: "Sparkling only", correct: false }
+        - { text: "Fortified Muscat only", correct: false }
+      explanation: |
+        **Red.** White and rosé exist; they are not the volume.
+
+  - id: sfrance-languedoc-grapes-001
+    type: mcq
+    deck: France::Southern France
+    tags: [france, southern-france, grapes]
+    status: reviewed
+    source_id: c21-0041
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which grapes make most Languedoc red?
+      choices:
+        - { text: "Pinot Noir and Gamay only", correct: false }
+        - { text: "Carignan, Grenache, Syrah, and some Mourvèdre", correct: true }
+        - { text: "Riesling and Pinot Gris", correct: false }
+        - { text: "Melon only", correct: false }
+      explanation: |
+        **Carignan, Grenache, Syrah, some Mourvèdre.** The local GSM+C
+        mix, not a Bordeaux recipe.
+
+  - id: sfrance-languedoc-hard-001
+    type: mcq
+    deck: France::Southern France
+    tags: [france, southern-france]
+    status: reviewed
+    source_id: c21-0042
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Why is there no single “Languedoc taste”?
+      choices:
+        - { text: "INAO assigns one recipe to every tank", correct: false }
+        - { text: "Blends and large AOCs span many climates and soils", correct: true }
+        - { text: "Only one grape and one soil exist", correct: false }
+        - { text: "All wine must be 100% Syrah", correct: false }
+      explanation: |
+        **Many blends, many climates, many soils.** A coastal Fitou
+        and a Pic Saint-Loup are not the same drink.
+
+  - id: sfrance-cool-syrah-001
+    type: mcq
+    deck: France::Southern France
+    tags: [france, southern-france]
+    status: reviewed
+    source_id: c21-0043
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: In cooler Languedoc sites, which grape is usually at its best?
+      choices:
+        - { text: "Mourvèdre", correct: false }
+        - { text: "Syrah", correct: true }
+        - { text: "Melon", correct: false }
+        - { text: "Riesling", correct: false }
+      explanation: |
+        **Syrah** — more finesse, lighter tannin. Pic Saint-Loup is
+        the named cool-ish address.
+
+  - id: sfrance-warm-mourvedre-001
+    type: mcq
+    deck: France::Southern France
+    tags: [france, southern-france]
+    status: reviewed
+    source_id: c21-0043
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: In warmer Languedoc sites, which grape is usually at its best?
+      choices:
+        - { text: "Syrah", correct: false }
+        - { text: "Mourvèdre", correct: true }
+        - { text: "Riesling", correct: false }
+        - { text: "Melon", correct: false }
+      explanation: |
+        **Mourvèdre** — gamey, meaty, more body. Big AOCs can blend
+        that with cooler-site Syrah lots.
+
+  - id: sfrance-large-aoc-best-001
+    type: mcq
+    deck: France::Southern France
+    tags: [france, southern-france]
+    status: reviewed
+    source_id: c21-0044
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What are the best reds from the large Languedoc AOCs usually like?
+      choices:
+        - { text: "Light, high-acid, and 11%", correct: false }
+        - { text: "Full, spicy, concentrated red fruit, often with oak", correct: true }
+        - { text: "Always a sweet white", correct: false }
+        - { text: "Sparkling only", correct: false }
+      explanation: |
+        **Full, spicy, concentrated red fruit, often oaked.** Corbières
+        and Minervois at the top of the range.
+
+  - id: sfrance-rose-soft-001
+    type: mcq
+    deck: France::Southern France
+    tags: [france, southern-france]
+    status: reviewed
+    source_id: c21-0045
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What are typical Southern France rosés like?
+      choices:
+        - { text: "Tannic, gamey, and built like Bandol rouge", correct: false }
+        - { text: "Soft and fruity", correct: true }
+        - { text: "Always a sweet VDN", correct: false }
+        - { text: "Sparkling Chenin only", correct: false }
+      explanation: |
+        **Soft and fruity.** Provence pale and Languedoc pink both sit
+        there; Tavel is the fuller exception, taught with the Rhône.
+
+  - id: sfrance-cdr-name-001
+    type: mcq
+    deck: France::Southern France
+    tags: [france, southern-france]
+    status: reviewed
+    source_id: c21-0046
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: At the Pyrenean end of the Languedoc wrapper, which AOC is the most rugged?
+      choices:
+        - { text: "Picpoul de Pinet", correct: false }
+        - { text: "Côtes du Roussillon", correct: true }
+        - { text: "Muscadet", correct: false }
+        - { text: "Tavel", correct: false }
+      explanation: |
+        **Côtes du Roussillon** — the Pyrenean end of the map, not the
+        Béziers flats.
+
+  - id: sfrance-cdr-climate-001
+    type: mcq
+    deck: France::Southern France
+    tags: [france, southern-france]
+    status: reviewed
+    source_id: c21-0046
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What climate and wine shape does Côtes du Roussillon usually have?
+      choices:
+        - { text: "Cool, wet, and always light", correct: false }
+        - { text: "Bright sun, low rain, strong wind, and concentrated wines", correct: true }
+        - { text: "A Breton monsoon", correct: false }
+        - { text: "Permanent ice", correct: false }
+      explanation: |
+        **Sun, drought, wind, concentrated wine.** The tramontane is
+        part of that.
+
+  - id: sfrance-cdr-villages-001
+    type: mcq
+    deck: France::Southern France
+    tags: [france, southern-france]
+    status: reviewed
+    source_id: c21-0047
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Côtes du Roussillon Villages covers which part of the parent AOC?
+      choices:
+        - { text: "The entire coastal plain of the Hérault", correct: false }
+        - { text: "The best vineyards in the north of Côtes du Roussillon", correct: true }
+        - { text: "A Bordeaux cru classé", correct: false }
+        - { text: "A sparkling-only AOC", correct: false }
+      explanation: |
+        **The best northern sites of Côtes du Roussillon.** Red only,
+        tighter rules than the generic name.
+
+  - id: sfrance-fitou-where-001
+    type: mcq
+    deck: France::Southern France
+    tags: [france, southern-france]
+    status: reviewed
+    source_id: c21-0048
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which AOC sits just north of Côtes du Roussillon Villages?
+      choices:
+        - { text: "Bandol", correct: false }
+        - { text: "Fitou", correct: true }
+        - { text: "Côte-Rôtie", correct: false }
+        - { text: "Vouvray", correct: false }
+      explanation: |
+        **Fitou.** Two patches, one coastal and one inland, both north
+        of the Villages zone.
+
+  - id: sfrance-fitou-split-001
+    type: mcq
+    deck: France::Southern France
+    tags: [france, southern-france]
+    status: reviewed
+    source_id: c21-0048
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How is Fitou’s vineyard map divided?
+      choices:
+        - { text: "One uniform plateau", correct: false }
+        - { text: "A warm coastal strip and a cooler inland zone at altitude", correct: true }
+        - { text: "Only a river island", correct: false }
+        - { text: "White-only parcels, like Picpoul", correct: false }
+      explanation: |
+        **Warm coast, cooler inland hills.** Same AOC name, two
+        climates — the coast is fuller, the hills lighter.
+
+  - id: sfrance-corbieres-where-001
+    type: mcq
+    deck: France::Southern France
+    tags: [france, southern-france]
+    status: reviewed
+    source_id: c21-0049
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which large AOC sits just north of Fitou?
+      choices:
+        - { text: "Bandol", correct: false }
+        - { text: "Corbières", correct: true }
+        - { text: "Côte-Rôtie", correct: false }
+        - { text: "Muscadet", correct: false }
+      explanation: |
+        **Corbières.** The big, broken Aude appellation above Fitou.
+
+  - id: sfrance-corbieres-climate-001
+    type: mcq
+    deck: France::Southern France
+    tags: [france, southern-france]
+    status: reviewed
+    source_id: c21-0049
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How does Corbières climate sit from the coast inland?
+      choices:
+        - { text: "Uniform heat everywhere", correct: false }
+        - { text: "Warm coastal sites and cooler, higher vineyards cooled by the tramontane", correct: true }
+        - { text: "Permanent ice", correct: false }
+        - { text: "A Breton monsoon only", correct: false }
+      explanation: |
+        **Warm coast, cooler altitude, tramontane.** That is why one
+        AOC can taste like two.
+
+  - id: sfrance-corbieres-count-001
+    type: mcq
+    deck: France::Southern France
+    tags: [france, southern-france]
+    status: reviewed
+    source_id: c21-0050
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: About how many named terroirs is Corbières divided into?
+      choices:
+        - { text: "Two, like Bordeaux banks", correct: false }
+        - { text: "Eleven", correct: true }
+        - { text: "One only", correct: false }
+        - { text: "A hundred climats", correct: false }
+      explanation: |
+        **Eleven** named zones in the usual teaching. **Boutenac** is
+        the one that became its own AOC.
+
+  - id: sfrance-boutenac-001
+    type: mcq
+    deck: France::Southern France
+    tags: [france, southern-france]
+    status: reviewed
+    source_id: c21-0050
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which Corbières terroir is singled out as the best, with its own AOC?
+      choices:
+        - { text: "Picpoul de Pinet", correct: false }
+        - { text: "Boutenac", correct: true }
+        - { text: "Tavel", correct: false }
+        - { text: "Cornas", correct: false }
+      explanation: |
+        **Boutenac** — Corbières-Boutenac, its own AOC. Old Carignan
+        is part of that story.
