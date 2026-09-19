@@ -1,5 +1,507 @@
 # yaml-language-server: $schema=../schema/cards.schema.json
 # source: C04 (import/inbox/c04-growing-environment.yaml)
 # deck: The Growing Environment
+# Also receives the latitude note misfiled in inbox/c01-sat.yaml.
 
-cards: []
+cards:
+  - id: climate-latitude-band-001
+    type: mcq
+    deck: The Growing Environment
+    tags: [climate, latitude]
+    status: reviewed
+    source_id: c01-0004
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Roughly which latitudes hold most of the world’s wine vineyards — and why?
+      choices:
+        - { text: "0–10°, because vines need a tropical wet season", correct: false }
+        - { text: "About 30–50°, which gives a warm season plus a real winter rest", correct: true }
+        - { text: "70–80°, where the polar night ripens thick skins", correct: false }
+        - { text: "Any latitude is equal if you irrigate", correct: false }
+      explanation: |
+        Between about **30° and 50°** the vine gets enough summer warmth to ripen
+        and a **winter dormancy** to reset. The equator is too even and often too
+        wet; the high Arctic has no ripening season. Chile, Bordeaux, Barossa and
+        the Mosel all sit in that band.
+
+  - id: climate-definition-001
+    type: mcq
+    deck: The Growing Environment
+    tags: [climate]
+    status: reviewed
+    source_id: c04-0001
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What is a region’s climate, in vineyard terms?
+      choices:
+        - { text: "This week’s forecast for Saturday’s picking", correct: false }
+        - { text: "The long-run pattern of temperature, sunlight and rainfall", correct: true }
+        - { text: "Only the soil type under the vines", correct: false }
+        - { text: "The brand of weather station in the cellar", correct: false }
+      explanation: |
+        **Climate** is the **multi-year average** of heat, light and rain. One
+        stormy harvest is **weather**, not a change of climate.
+
+  - id: weather-definition-001
+    type: mcq
+    deck: The Growing Environment
+    tags: [climate, weather]
+    status: reviewed
+    source_id: c04-0002
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How is weather different from climate?
+      choices:
+        - { text: "They are the same word in viticulture", correct: false }
+        - { text: "Weather is the year-to-year swing around that climatic average", correct: true }
+        - { text: "Weather is only soil temperature at 2 m depth", correct: false }
+        - { text: "Climate changes every afternoon; weather never does", correct: false }
+      explanation: |
+        **Weather** is this vintage’s frost, heatwave or rain versus the usual
+        pattern. 2003 in Europe was weather on a continental climate, not a new
+        climate class.
+
+  - id: temperature-factors-001
+    type: mcq
+    deck: The Growing Environment
+    tags: [climate, temperature]
+    status: reviewed
+    source_id: c04-0003
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which set of factors most shapes a vineyard’s typical temperature?
+      choices:
+        - { text: "Capsule colour, cork brand and label font", correct: false }
+        - { text: "Latitude, altitude, ocean currents, fog, soil and aspect", correct: true }
+        - { text: "Only the winemaker’s fermentation temperature", correct: false }
+        - { text: "Moon phase and the day of the week", correct: false }
+      explanation: |
+        Heat at the vine is a stack: **how far from the poles**, **how high**,
+        **what water and fog do**, **how the soil stores heat**, and **which way
+        the slope faces**. Tank temperature is winemaking, not site climate.
+
+  - id: altitude-lapse-001
+    type: mcq
+    deck: The Growing Environment
+    tags: [climate, altitude]
+    status: reviewed
+    source_id: c04-0004
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: About how fast does temperature fall as you climb?
+      choices:
+        - { text: "10 °C for every extra metre", correct: false }
+        - { text: "About 0.6 °C for every 100 m of altitude", correct: true }
+        - { text: "Temperature always rises with height", correct: false }
+        - { text: "Altitude has no effect inside 2 000 m", correct: false }
+      explanation: |
+        The standard lapse rate is roughly **0.6 °C / 100 m**. That is why
+        Mendoza’s Uco Valley and Etna’s high slopes stay cooler than the valley
+        floor. It is an average, not a law for every inversion night.
+
+  - id: ocean-currents-001
+    type: mcq
+    deck: The Growing Environment
+    tags: [climate, ocean]
+    status: reviewed
+    source_id: c04-0005
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How do ocean currents change a coastal vineyard climate?
+      choices:
+        - { text: "They only affect fish, never air temperature", correct: false }
+        - { text: "They warm or cool the air that sits over and beside the water", correct: true }
+        - { text: "They set the legal maximum alcohol", correct: false }
+        - { text: "They replace the need for any rainfall", correct: false }
+      explanation: |
+        Cold streams (Humboldt off Chile, California Current) chill the air;
+        the Gulf Stream keeps western Europe milder than its latitude suggests.
+        The current works through the **air**, not by watering the vines.
+
+  - id: fog-cooling-001
+    type: mcq
+    deck: The Growing Environment
+    tags: [climate, fog]
+    status: reviewed
+    source_id: c04-0006
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What does regular fog usually do to a vineyard?
+      choices:
+        - { text: "It raises daily maxima by several degrees", correct: false }
+        - { text: "It cools the site and stretches the ripening season", correct: true }
+        - { text: "It is only a tasting-note for Sauvignon Blanc", correct: false }
+        - { text: "It forbids any vine from setting fruit", correct: false }
+      explanation: |
+        Fog is a **sunshade and an air-conditioner**. Carneros, the Petaluma Gap
+        and Casablanca live on it. Too much wet fog can also invite rot — the
+        cooling is the exam point.
+
+  - id: fog-examples-001
+    type: mcq
+    deck: The Growing Environment
+    tags: [climate, fog]
+    status: reviewed
+    source_id: c04-0006
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which pair is the usual textbook example of fog-cooled wine coasts?
+      choices:
+        - { text: "Chablis and the Mosel terraces", correct: false }
+        - { text: "Coastal California and Casablanca in Chile", correct: true }
+        - { text: "Central Otago and Tokaj", correct: false }
+        - { text: "Cognac and Champagne only", correct: false }
+      explanation: |
+        The **Pacific** fog bank shapes many California AVAs and Chile’s
+        **Casablanca**. Chablis and the Mosel are cool for latitude and aspect,
+        not Pacific fog.
+
+  - id: aspect-equator-001
+    type: mcq
+    deck: The Growing Environment
+    tags: [climate, aspect]
+    status: reviewed
+    source_id: c04-0007
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How does aspect change ripening?
+      choices:
+        - { text: "The pole-facing side always ripens first", correct: false }
+        - { text: "The equator-facing slope gets more sun and heat", correct: true }
+        - { text: "Aspect only matters below sea level", correct: false }
+        - { text: "North and south faces are identical at every latitude", correct: false }
+      explanation: |
+        Face the **equator** (south in Europe, north in the southern hemisphere)
+        and the vine sees more hours of useful sun. A pole-facing bank stays
+        greener and later.
+
+  - id: aspect-mosel-001
+    type: mcq
+    deck: The Growing Environment
+    tags: [climate, aspect]
+    status: reviewed
+    source_id: c04-0007
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which cool region is the stock example of living off a good aspect?
+      choices:
+        - { text: "The flat sands of the Landes", correct: false }
+        - { text: "The Mosel Valley", correct: true }
+        - { text: "The floor of Death Valley", correct: false }
+        - { text: "The Netherlands polders", correct: false }
+      explanation: |
+        **Mosel** Riesling hangs on **steep, south-facing slate**. Without that
+        aspect the latitude would barely ripen. The river also reflects light —
+        a named helper, not the whole story.
+
+  - id: continentality-define-001
+    type: mcq
+    deck: The Growing Environment
+    tags: [climate, continentality]
+    status: reviewed
+    source_id: c04-0008
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What does continentality measure?
+      choices:
+        - { text: "How far a cellar is from the nearest city", correct: false }
+        - { text: "The gap between winter and summer temperatures", correct: true }
+        - { text: "Only annual rainfall in millimetres", correct: false }
+        - { text: "The number of AOCs in a country", correct: false }
+      explanation: |
+        **Continentality** is the **winter–summer swing**. Inland Mendoza or
+        Washington can be fiercely continental; an island like Rías Baixas is
+        not.
+
+  - id: continentality-water-001
+    type: mcq
+    deck: The Growing Environment
+    tags: [climate, continentality]
+    status: reviewed
+    source_id: c04-0009
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What is the main brake on continentality, and why?
+      choices:
+        - { text: "Nearby cities, because tarmac stores no heat", correct: false }
+        - { text: "Large bodies of water, which heat and cool more slowly than land", correct: true }
+        - { text: "Only the colour of the cellar door", correct: false }
+        - { text: "A legal cap on winter temperatures", correct: false }
+      explanation: |
+        **Seas and big lakes** are thermal batteries. They flatten the annual
+        range, which is why maritime Bordeaux is milder in winter and cooler in
+        high summer than an inland plateau at the same latitude.
+
+  - id: sunlight-factors-001
+    type: mcq
+    deck: The Growing Environment
+    tags: [climate, sunlight]
+    status: reviewed
+    source_id: c04-0010
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which three site factors most change how much sunlight a vineyard sees?
+      choices:
+        - { text: "Cork grade, capsule and case wood", correct: false }
+        - { text: "Seas or lakes, latitude, and aspect", correct: true }
+        - { text: "Only the yeast strain", correct: false }
+        - { text: "Bottle shape and punt depth", correct: false }
+      explanation: |
+        **Water** reflects and cools, **latitude** sets day length, **aspect**
+        aims the slope at the sun. Yeast is a cellar choice.
+
+  - id: latitude-daylength-001
+    type: mcq
+    deck: The Growing Environment
+    tags: [climate, latitude]
+    status: reviewed
+    source_id: c04-0011
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How does higher latitude change summer sunlight?
+      choices:
+        - { text: "Summer days get shorter as you leave the equator", correct: false }
+        - { text: "Summer day length stretches the farther you are from the equator", correct: true }
+        - { text: "Latitude never changes day length", correct: false }
+        - { text: "The poles have 12-hour days all year", correct: false }
+      explanation: |
+        High-latitude summers have **long days** — extra photosynthetic hours
+        even when the sun is weaker. That is how German Riesling and Washington
+        Cabernet still ripen.
+
+  - id: latitude-daylength-examples-001
+    type: mcq
+    deck: The Growing Environment
+    tags: [climate, latitude]
+    status: reviewed
+    source_id: c04-0011
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which pair is cited for using those long high-latitude summer days?
+      choices:
+        - { text: "Equatorial Uganda and coastal Ecuador", correct: false }
+        - { text: "Germany (Riesling) and Washington State (Cabernet)", correct: true }
+        - { text: "Singapore and northern Brazil", correct: false }
+        - { text: "Only vineyards inside the Arctic Circle", correct: false }
+      explanation: |
+        **Mosel / Rheingau Riesling** and **Washington Cabernet** are the usual
+        pair: cool or continental sites that still see long June–July days.
+
+  - id: aspect-steep-equator-001
+    type: mcq
+    deck: The Growing Environment
+    tags: [climate, aspect]
+    status: reviewed
+    source_id: c04-0012
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which aspect details help grapes ripen in a cool place?
+      choices:
+        - { text: "Flat land facing the pole, in permanent shade", correct: false }
+        - { text: "Steeper slopes that face toward the equator", correct: true }
+        - { text: "Any slope, as long as it faces due west at the equator", correct: false }
+        - { text: "A north face in Germany and a south face in New Zealand, both equally warm", correct: false }
+      explanation: |
+        **Steep + equator-facing** stacks more energy per hectare. A gentle
+        pole-facing bank in the Mosel would struggle; a matching north face in
+        Central Otago is the warm one.
+
+  - id: fungal-damp-001
+    type: mcq
+    deck: The Growing Environment
+    tags: [climate, disease]
+    status: reviewed
+    source_id: c04-0013
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What weather most encourages fungal disease in the vineyard?
+      choices:
+        - { text: "A long run of dry wind after rain has already drained", correct: false }
+        - { text: "Damp, still conditions after rainfall", correct: true }
+        - { text: "Only snow in January", correct: false }
+        - { text: "Desert heat with no humidity at all", correct: false }
+      explanation: |
+        **Wet leaves and still air** after rain are a gift to downy mildew,
+        botrytis and the rest. Wind and a quick dry-out cut the risk. Dry heat
+        is a different problem (sunburn, water stress).
+
+  - id: irrigation-when-001
+    type: mcq
+    deck: The Growing Environment
+    tags: [climate, water]
+    status: reviewed
+    source_id: c04-0014
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What do growers use when rainfall is not enough?
+      choices:
+        - { text: "They must abandon the vineyard", correct: false }
+        - { text: "Irrigation", correct: true }
+        - { text: "Only extra sulphur dust, which replaces water", correct: false }
+        - { text: "A legal ban on any water in the EU", correct: false }
+      explanation: |
+        **Irrigation** (drip in most New World deserts, sometimes regulated in
+        Europe) stands in for missing rain. It is a tool, not a flavouring.
+
+  - id: sprinkler-tradeoff-001
+    type: mcq
+    deck: The Growing Environment
+    tags: [climate, irrigation]
+    status: reviewed
+    source_id: c04-0015
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What is the usual trade-off of overhead sprinklers versus drip?
+      choices:
+        - { text: "Sprinklers are always illegal and never cheaper", correct: false }
+        - { text: "They cost less to install but waste water and wet the canopy, raising disease risk", correct: true }
+        - { text: "They use no water and never wet the leaves", correct: false }
+        - { text: "They are identical to drip in every way", correct: false }
+      explanation: |
+        **Sprinklers** are cheap kit and useful against frost, but they throw
+        water on leaves like rain. **Drip** is stingier and keeps the canopy
+        drier. That is the exam contrast.
+
+  - id: continental-autumn-drop-001
+    type: mcq
+    deck: The Growing Environment
+    tags: [climate, continental]
+    status: reviewed
+    source_id: c04-0016
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: When does temperature often fall away fast in a continental climate?
+      choices:
+        - { text: "Only in midsummer", correct: false }
+        - { text: "In autumn", correct: true }
+        - { text: "Never — continental sites stay tropical all year", correct: false }
+        - { text: "Only at the winter solstice on the equator", correct: false }
+      explanation: |
+        Inland air has no sea to buffer it. **Autumn** can crash from warm days
+        to frost risk — a problem for late varieties in places like Tokaj or
+        parts of Austria.
+
+  - id: continental-cool-varieties-001
+    type: mcq
+    deck: The Growing Environment
+    tags: [climate, continental]
+    status: reviewed
+    source_id: c04-0017
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which ripening habit fits a cool continental site best?
+      choices:
+        - { text: "Buds very early and hangs until December", correct: false }
+        - { text: "Buds late (misses spring frost) and ripens early (beats the autumn crash)", correct: true }
+        - { text: "Needs a six-month hang like late Cabernet in a cool valley", correct: false }
+        - { text: "Only tropical varieties with no dormancy", correct: false }
+      explanation: |
+        **Late budbreak + early ripening** dodges spring frost and finishes
+        before the continental autumn collapse. Grüner Veltliner and some
+        Riesling sites play that game; late Cabernet in a cool inland valley
+        often does not.
+
+  - id: continental-dry-summer-001
+    type: mcq
+    deck: The Growing Environment
+    tags: [climate, continental]
+    status: reviewed
+    source_id: c04-0018
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which climate type is most associated with very dry summers?
+      choices:
+        - { text: "Maritime, raining every month alike", correct: false }
+        - { text: "Continental", correct: true }
+        - { text: "Equatorial rainforest", correct: false }
+        - { text: "Always Mediterranean with winter drought only", correct: false }
+      explanation: |
+        **Continental** interiors often have a **dry summer** and weather that
+        arrives as storms, not a drizzle every week. Maritime zones leak rain
+        through the year. Mediterranean is the winter-rain / summer-dry pattern
+        — related but not the same word.
+
+  - id: maritime-rain-year-001
+    type: mcq
+    deck: The Growing Environment
+    tags: [climate, maritime]
+    status: reviewed
+    source_id: c04-0019
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: When does a maritime climate usually get its rain?
+      choices:
+        - { text: "Only in a two-week monsoon", correct: false }
+        - { text: "Fairly evenly through the year", correct: true }
+        - { text: "Never — maritime means desert", correct: false }
+        - { text: "Only as snow in July", correct: false }
+      explanation: |
+        **Maritime** rain is **spread out** — Bordeaux in a wet June, England
+        most months. That is why rot and dilution are standing threats there.
+
+  - id: maritime-moderate-001
+    type: mcq
+    deck: The Growing Environment
+    tags: [climate, maritime]
+    status: reviewed
+    source_id: c04-0020
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What does that year-round maritime rain do to sunlight and temperature?
+      choices:
+        - { text: "It makes both more extreme than in the desert", correct: false }
+        - { text: "It moderates them — cloud and water flatten the highs and lows", correct: true }
+        - { text: "It has no effect on either", correct: false }
+        - { text: "It raises every summer above 40 °C", correct: false }
+      explanation: |
+        Cloud and a nearby ocean **clip heat spikes and deep chills**. The same
+        moisture that risks rot also stops Bordeaux feeling like Mendoza in
+        January or July.
