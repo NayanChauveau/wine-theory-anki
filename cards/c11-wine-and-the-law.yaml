@@ -243,3 +243,247 @@ cards:
         **Rudy Kurniawan** and fake DRC bottles are the grim anecdote: the
         more the name is worth, the more someone will print it on the wrong
         wine.
+
+  - id: law-gi-multi-jurisdiction-001
+    type: mcq
+    deck: Wine and the Law
+    tags: [law, gi]
+    status: reviewed
+    source_id: c11-0013
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Why does GI law get messy so fast?
+      choices:
+        - { text: "Only one country ever makes or sells wine", correct: false }
+        - { text: "Grapes, bottling and sale can sit under more than one country’s rules", correct: true }
+        - { text: "GIs are unwritten and never enforced", correct: false }
+        - { text: "The WTO banned all place names", correct: false }
+      explanation: |
+        Bulk Chilean wine bottled in the UK, or a US brand using a French
+        word, crosses **two legal systems**. That is why a single local AOC
+        text is not enough.
+
+  - id: law-wto-gi-001
+    type: mcq
+    deck: Wine and the Law
+    tags: [law, gi]
+    status: reviewed
+    source_id: c11-0014
+    review:
+      fact_check: pass
+      sources: [spec]
+    en:
+      question: What shared GI frame do the big producing countries work under?
+      choices:
+        - { text: "A private tasting club with no legal force", correct: false }
+        - { text: "The WTO’s GI system (TRIPS), which they have signed up to", correct: true }
+        - { text: "Only municipal parking rules", correct: false }
+        - { text: "A ban on any international agreement", correct: false }
+      explanation: |
+        **TRIPS** at the **WTO** is the treaty that makes “Champagne” more
+        than a French hobby-horse. Members agree to respect each other’s GIs.
+
+  - id: law-australia-chablis-001
+    type: mcq
+    deck: Wine and the Law
+    tags: [law, gi]
+    status: reviewed
+    source_id: c11-0015
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which labelling change is the usual example of those WTO GI deals?
+      choices:
+        - { text: "Australia may still call any white wine Chablis", correct: false }
+        - { text: "Australians dropped EU names such as Chablis from their wines", correct: true }
+        - { text: "The EU must now call all white wine Hunter Chardonnay", correct: false }
+        - { text: "GIs were abolished worldwide in 1995", correct: false }
+      explanation: |
+        The **1994 EU–Australia** wine deal (and later WTO pressure) retired
+        **Chablis, Burgundy, Champagne** as Australian generic words. Hunter
+        and Adelaide Hills took their place.
+
+  - id: law-gi-85-001
+    type: mcq
+    deck: Wine and the Law
+    tags: [law, gi]
+    status: reviewed
+    source_id: c11-0016
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: If a label states a GI, how much of the wine usually has to come from there?
+      choices:
+        - { text: "Always 1%, worldwide", correct: false }
+        - { text: "Often about 85% — but that figure is not a single world standard", correct: true }
+        - { text: "Always 100% for every PGI and AVA alike", correct: false }
+        - { text: "GIs never require any local grapes", correct: false }
+      explanation: |
+        **85%** is the usual WTO / New World floor. The EU **PDO** is tighter
+        (all the grapes). Treat 85% as a habit, not a universal law.
+
+  - id: law-pdo-100-001
+    type: mcq
+    deck: Wine and the Law
+    tags: [law, gi]
+    status: reviewed
+    source_id: c11-0017
+    review:
+      fact_check: pass
+      sources: [spec]
+    en:
+      question: How does an EU PDO treat the origin of the grapes?
+      choices:
+        - { text: "Half the fruit may come from another continent", correct: false }
+        - { text: "All of the grapes must come from the named area", correct: true }
+        - { text: "No grapes are required at all", correct: false }
+        - { text: "PDO is only a tax, never a map", correct: false }
+      explanation: |
+        **PDO = 100% from the place**. That is the fraud-prevention bite the
+        inbox was aiming at, and it is stricter than a typical AVA or PGI.
+
+  - id: law-eu-two-tiers-001
+    type: mcq
+    deck: Wine and the Law
+    tags: [law, gi]
+    status: reviewed
+    source_id: c11-0018
+    review:
+      fact_check: pass
+      sources: [spec]
+    en:
+      question: How many GI quality rungs does the EU use, and what are they?
+      choices:
+        - { text: "One — Vin de France only", correct: false }
+        - { text: "Two — PDO and PGI", correct: true }
+        - { text: "Five Prädikat steps only", correct: false }
+        - { text: "None — the EU banned GIs", correct: false }
+      explanation: |
+        **PDO** and **PGI** are the two boxes. Vin de France sits **outside**
+        the GI pair.
+
+  - id: law-pdo-vs-pgi-001
+    type: mcq
+    deck: Wine and the Law
+    tags: [law, gi]
+    status: reviewed
+    source_id: c11-0019
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Broadly, how does a PDO differ from a PGI?
+      choices:
+        - { text: "PDOs are always larger and have no rules", correct: false }
+        - { text: "PDOs are smaller maps with tighter production rules", correct: true }
+        - { text: "PGIs require 100% local grapes and PDOs require 50%", correct: false }
+        - { text: "They are identical words", correct: false }
+      explanation: |
+        **Chablis** (PDO) is a tight script; **Pays d’Oc** (PGI) is a wide
+        canvas. Size and rulebook both shrink as you climb toward PDO.
+
+  - id: law-france-ac-001
+    type: mcq
+    deck: Wine and the Law
+    tags: [law, france]
+    status: reviewed
+    source_id: c11-0020
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which letters still stand in for PDO on most French bottles?
+      choices:
+        - { text: "IGT", correct: false }
+        - { text: "AC / AOC — appellation d'origine contrôlée", correct: true }
+        - { text: "AVA", correct: false }
+        - { text: "QbA", correct: false }
+      explanation: |
+        **AOC** (sometimes AC) is the everyday French PDO word. AOP is the EU
+        synonym; it has not won the label.
+
+  - id: law-france-aop-001
+    type: mcq
+    deck: Wine and the Law
+    tags: [law, france]
+    status: reviewed
+    source_id: c11-0021
+    review:
+      fact_check: pass
+      sources: [spec]
+    en:
+      question: What is the official French EU term for PDO?
+      choices:
+        - { text: "Vin de France", correct: false }
+        - { text: "Appellation d'origine protégée (AOP)", correct: true }
+        - { text: "DOCG", correct: false }
+        - { text: "Ward", correct: false }
+      explanation: |
+        **AOP** is PDO in French. You still see **AOC** more often on the
+        neck. Same legal box, two spellings.
+
+  - id: law-france-igp-vdp-001
+    type: mcq
+    deck: Wine and the Law
+    tags: [law, france]
+    status: reviewed
+    source_id: c11-0022
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What is replacing Vin de Pays on French PGI labels?
+      choices:
+        - { text: "Grand Cru Classé", correct: false }
+        - { text: "IGP (indication géographique protégée)", correct: true }
+        - { text: "DOCG", correct: false }
+        - { text: "A ban on any geography", correct: false }
+      explanation: |
+        **IGP** is the EU PGI name. **Vin de Pays** still appears beside it
+        (Pays d’Oc) but IGP is the modern line.
+
+  - id: law-eu-gi-methods-001
+    type: mcq
+    deck: Wine and the Law
+    tags: [law, gi]
+    status: reviewed
+    source_id: c11-0023
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What extra do European GIs usually police, beyond a map?
+      choices:
+        - { text: "Only the colour of the truck that hauls the grapes", correct: false }
+        - { text: "Which grapes may be grown and how they may be grown and made", correct: true }
+        - { text: "A ban on naming any grape", correct: false }
+        - { text: "Nothing — EU GIs are place names with no rulebook", correct: false }
+      explanation: |
+        An EU PDO/PGI is a **recipe plus a map**: varieties, yields, sometimes
+        ageing. A US AVA is mostly the map.
+
+  - id: law-eu-identity-001
+    type: mcq
+    deck: Wine and the Law
+    tags: [law, gi]
+    status: reviewed
+    source_id: c11-0024
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What is that European rulebook trying to protect in theory?
+      choices:
+        - { text: "A right to plant any grape, anywhere, at any yield", correct: false }
+        - { text: "The local identity of wines that made the region’s name", correct: true }
+        - { text: "A single global flavour for all PDO wine", correct: false }
+        - { text: "The abolition of place names", correct: false }
+      explanation: |
+        Lock the grapes and methods that **built the reputation**, so Chablis
+        still tastes like Chablis. That is the theory; critics say it also
+        freezes change.
+
