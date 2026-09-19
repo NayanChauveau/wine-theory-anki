@@ -2,4 +2,150 @@
 # source: C26 (import/inbox/c26-italy-introduction.yaml)
 # deck: Italy
 
-cards: []
+cards:
+  - id: italy-dop-001
+    type: mcq
+    deck: Italy
+    tags: [italy, law]
+    status: reviewed
+    source_id: c26-0001
+    review:
+      fact_check: pass
+      sources: [spec]
+    en:
+      question: What is the Italian legal term that matches the EU’s PDO?
+      choices:
+        - { text: "Indicazione geografica tipica", correct: false }
+        - { text: "Denominazione di origine protetta (DOP)", correct: true }
+        - { text: "Vino da tavola", correct: false }
+        - { text: "Appellation d'origine protégée", correct: false }
+      explanation: |
+        EU **PDO** is **DOP** in Italian. On bottles you still meet **DOC** and
+        **DOCG**, the two domestic PDO rungs. IGT is the PGI side; AOP is French.
+
+  - id: italy-doc-docg-001
+    type: mcq
+    deck: Italy
+    tags: [italy, law]
+    status: reviewed
+    source_id: c26-0002
+    review:
+      fact_check: pass
+      sources: [spec]
+    en:
+      question: What are Italy’s two PDO rungs below the EU DOP umbrella?
+      choices:
+        - { text: "IGT and Vino da tavola only", correct: false }
+        - { text: "DOC and DOCG", correct: true }
+        - { text: "AOC and VDQS", correct: false }
+        - { text: "AVA and county", correct: false }
+      explanation: |
+        **DOC** (*denominazione di origine controllata*) and **DOCG** (*… e
+        garantita*) are the two Italian PDO levels. IGT is PGI. The 1963 law
+        created DOC; DOCG arrived later as the tighter “guaranteed” tier
+        (Barolo, Brunello, and so on).
+
+  - id: italy-doc-rules-001
+    type: mcq
+    deck: Italy
+    tags: [italy, law]
+    status: reviewed
+    source_id: c26-0003
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What does a DOC mainly police?
+      choices:
+        - { text: "Only the colour of the capsule", correct: false }
+        - { text: "Place of origin plus allowed grapes and how the wine is made", correct: true }
+        - { text: "A ministry tasting in Rome for every bottle, and nothing else", correct: false }
+        - { text: "A ban on any named grape variety", correct: false }
+      explanation: |
+        A **DOC** draws a map and then limits **varieties, yields and methods**.
+        The extra ministry tasting and in-zone bottling are the **DOCG** add-ons,
+        not the base DOC idea.
+
+  - id: italy-docg-extra-001
+    type: mcq
+    deck: Italy
+    tags: [italy, law]
+    status: reviewed
+    source_id: c26-0004
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What extra duties sit on a DOCG compared with a DOC?
+      choices:
+        - { text: "None — the words are interchangeable", correct: false }
+        - { text: "Bottling in the production zone and a Ministry of Agriculture tasting", correct: true }
+        - { text: "Compulsory fortification with grape spirit", correct: false }
+        - { text: "A ban on any ageing in wood", correct: false }
+      explanation: |
+        **DOCG** keeps the DOC rulebook and adds **in-zone bottling** plus an
+        official **tasting**. The pink DOCG seal on the neck is the visible
+        token. It is not a Port or a barrique ban.
+
+  - id: italy-igp-igt-001
+    type: mcq
+    deck: Italy
+    tags: [italy, law]
+    status: reviewed
+    source_id: c26-0005
+    review:
+      fact_check: pass
+      sources: [spec]
+    en:
+      question: Which pair of terms marks an Italian PGI wine?
+      choices:
+        - { text: "DOC and DOCG", correct: false }
+        - { text: "IGP and IGT", correct: true }
+        - { text: "AOP and AOC", correct: false }
+        - { text: "AVA and VdP", correct: false }
+      explanation: |
+        **IGP** is the EU PGI label; **IGT** (*indicazione geografica tipica*)
+        is the older Italian name still on Super-Tuscans and other freer blends.
+        DOC/DOCG are PDO.
+
+  - id: italy-classico-001
+    type: mcq
+    deck: Italy
+    tags: [italy, law]
+    status: reviewed
+    source_id: c26-0006
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What does Classico mean on an Italian label?
+      choices:
+        - { text: "The wine is sparkling", correct: false }
+        - { text: "The grapes come only from the original, historic core of the appellation", correct: true }
+        - { text: "The wine is a first vintage from a new cellar", correct: false }
+        - { text: "The wine was aged under flor", correct: false }
+      explanation: |
+        **Classico** is geography: Chianti Classico is the old hill zone, Soave
+        Classico the original basalt slopes, Valpolicella Classico the historic
+        communes — not a fizz or a flor style.
+
+  - id: italy-riserva-001
+    type: mcq
+    deck: Italy
+    tags: [italy, law]
+    status: reviewed
+    source_id: c26-0007
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What does Riserva usually add, compared with the base DOC/DOCG?
+      choices:
+        - { text: "A sweeter residual-sugar band only", correct: false }
+        - { text: "Higher minimum alcohol and a longer ageing period", correct: true }
+        - { text: "A legal ban on the named grape", correct: false }
+        - { text: "Compulsory carbonic maceration", correct: false }
+      explanation: |
+        **Riserva** is extra time and usually a touch more alcohol — Chianti
+        Classico Riserva, Barolo Riserva, and so on. Exact months are written
+        into each disciplinare. It is not a sweetness or carbonic term.

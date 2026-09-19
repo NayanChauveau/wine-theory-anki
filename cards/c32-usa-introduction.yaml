@@ -2,4 +2,130 @@
 # source: C32 (import/inbox/c32-usa-introduction.yaml)
 # deck: USA
 
-cards: []
+cards:
+  - id: usa-ava-001
+    type: mcq
+    deck: USA
+    tags: [usa, law]
+    status: reviewed
+    source_id: c32-0001
+    review:
+      fact_check: pass
+      sources: [spec]
+    en:
+      question: What is the federal building block of US wine geography?
+      choices:
+        - { text: "Appellation d'origine contrôlée", correct: false }
+        - { text: "American Viticultural Area (AVA)", correct: true }
+        - { text: "Denominazione di origine controllata", correct: false }
+        - { text: "Qualitätswein", correct: false }
+      explanation: |
+        The TTB draws **AVAs**. They are place names, not a quality ladder like
+        AOC or DOCG. Napa Valley is an AVA; so is the huge Upper Mississippi
+        River Valley.
+
+  - id: usa-ava-size-001
+    type: mcq
+    deck: USA
+    tags: [usa, law]
+    status: reviewed
+    source_id: c32-0002
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How large is an AVA?
+      choices:
+        - { text: "Always 100 hectares, like a Burgundy climat", correct: false }
+        - { text: "There is no standard size — they range from tiny to multi-state", correct: true }
+        - { text: "Always an entire US state and nothing smaller", correct: false }
+        - { text: "Always a single vineyard, by federal law", correct: false }
+      explanation: |
+        Cole Ranch in Mendocino is a few dozen hectares; the Upper Mississippi
+        River Valley covers parts of four states. An AVA is a **named growing
+        area**, not a fixed acreage.
+
+  - id: usa-federal-label-001
+    type: mcq
+    deck: USA
+    tags: [usa, law]
+    status: reviewed
+    source_id: c32-0003
+    review:
+      fact_check: pass
+      sources: [spec]
+    en:
+      question: What do federal US wine laws mainly fix for labels?
+      choices:
+        - { text: "Which oak forest the barrels must come from", correct: false }
+        - { text: "Minimum percentages of grapes for a variety, vintage or AVA name", correct: true }
+        - { text: "A ban on stating any grape variety", correct: false }
+        - { text: "Compulsory residual sugar for every red", correct: false }
+      explanation: |
+        TTB rules are **percentage gates**: typically **75%** for a varietal
+        name (some states tighter), **85%** from the named AVA, **95%** of the
+        vintage if an AVA is also claimed. They do not pick your cooperage.
+
+  - id: usa-state-law-001
+    type: mcq
+    deck: USA
+    tags: [usa, law]
+    status: reviewed
+    source_id: c32-0004
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Besides federal TTB rules, what else can police US wine?
+      choices:
+        - { text: "Only EU PDO law", correct: false }
+        - { text: "State laws, which may be stricter than the federal minima", correct: true }
+        - { text: "Only municipal parking ordinances", correct: false }
+        - { text: "Nothing — federal law is the only text that exists", correct: false }
+      explanation: |
+        **Oregon** asks **90%** of the named variety for most grapes (Pinot
+        Noir included). Washington and others add their own twists. The state
+        can tighten the federal floor; it cannot ignore it.
+
+  - id: usa-state-county-label-001
+    type: mcq
+    deck: USA
+    tags: [usa, law]
+    status: reviewed
+    source_id: c32-0005
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How can a US wine be placed if it does not claim an AVA?
+      choices:
+        - { text: "It must be sold as Vin de France", correct: false }
+        - { text: "With a state or county name", correct: true }
+        - { text: "Only as an anonymous spirit", correct: false }
+        - { text: "It is illegal to sell", correct: false }
+      explanation: |
+        “**California**”, “**Oregon**”, or a **county** (Sonoma County) are
+        legal geographic claims when the wine is not in an AVA — or when the
+        blender does not want the tighter AVA percentage.
+
+  - id: usa-non-ava-lenient-001
+    type: mcq
+    deck: USA
+    tags: [usa, law]
+    status: reviewed
+    source_id: c32-0006
+    review:
+      fact_check: pass
+      sources: [spec]
+    en:
+      question: How do vintage and origin rules compare for non-AVA US wines versus AVA wines?
+      choices:
+        - { text: "They are stricter than AVA rules in every state", correct: false }
+        - { text: "They are more lenient than the AVA set", correct: true }
+        - { text: "Vintage dating is banned on any state-labelled wine", correct: false }
+        - { text: "A county wine must be 100% from a single vineyard", correct: false }
+      explanation: |
+        A **state** or **county** vintage claim usually needs only **85%** of
+        that year, not the **95%** asked when an AVA is on the label. Place
+        percentages are also looser than the AVA 85% rule. That is why big
+        “California” brands can blend more freely.

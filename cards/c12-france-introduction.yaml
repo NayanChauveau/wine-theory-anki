@@ -2,4 +2,171 @@
 # source: C12 (import/inbox/c12-france-introduction.yaml)
 # deck: France
 
-cards: []
+cards:
+  - id: france-aop-001
+    type: mcq
+    deck: France
+    tags: [france, law]
+    status: reviewed
+    source_id: c12-0001
+    review:
+      fact_check: pass
+      sources: [spec]
+    en:
+      question: What is the French legal term that matches the EU’s PDO?
+      choices:
+        - { text: "Vin de France", correct: false }
+        - { text: "Appellation d'origine protégée (AOP)", correct: true }
+        - { text: "Vin de Pays", correct: false }
+        - { text: "Indication géographique protégée (IGP)", correct: false }
+      explanation: |
+        EU **PDO** is **AOP** in French — *appellation d'origine protégée*. IGP is the
+        PGI tier; Vin de France has no GI. On the bottle you still more often see the
+        older **AOC** wording.
+
+  - id: france-aoc-term-001
+    type: mcq
+    deck: France
+    tags: [france, law]
+    status: reviewed
+    source_id: c12-0002
+    review:
+      fact_check: pass
+      sources: [spec]
+    en:
+      question: What older French name still stands in for AOP on most wine labels?
+      choices:
+        - { text: "Vin délimité de qualité supérieure (VDQS)", correct: false }
+        - { text: "Appellation d'origine contrôlée (AC / AOC)", correct: true }
+        - { text: "Denominazione di origine controllata", correct: false }
+        - { text: "Qualitätswein bestimmter Anbaugebiete", correct: false }
+      explanation: |
+        France folded AOC into the EU **AOP** box but kept the familiar
+        **appellation d'origine contrôlée** (AC / AOC) on labels. VDQS was abolished.
+        DOC and QbA are Italian and German words.
+
+  - id: france-aoc-common-001
+    type: mcq
+    deck: France
+    tags: [france, law]
+    status: reviewed
+    source_id: c12-0003
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which PDO wording do you actually see on most French bottles?
+      choices:
+        - { text: "AOP, almost never AOC", correct: false }
+        - { text: "AC / AOC", correct: true }
+        - { text: "DOCG", correct: false }
+        - { text: "AVA", correct: false }
+      explanation: |
+        Producers and the INAO still print **AOC** (or AC). AOP is the EU synonym;
+        it has not replaced the word on the neck label. DOCG and AVA are other
+        countries.
+
+  - id: france-nested-aoc-001
+    type: mcq
+    deck: France
+    tags: [france, law]
+    status: reviewed
+    source_id: c12-0004
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Why can one French vineyard sit under more than one appellation?
+      choices:
+        - { text: "France allows only a single nationwide AOC called Vin de France", correct: false }
+        - { text: "A smaller, more precise AOC is often nested inside a broader one", correct: true }
+        - { text: "Every plot must also be a German Prädikat", correct: false }
+        - { text: "Nested AOCs are illegal after 2008", correct: false }
+      explanation: |
+        A Côte de Nuits village, a Bourgogne Rouge and sometimes a regional Bourgogne
+        can cover the **same rows**. The producer picks the name that fits the wine
+        and the vintage.
+
+  - id: france-nested-choice-001
+    type: mcq
+    deck: France
+    tags: [france, law]
+    status: reviewed
+    source_id: c12-0004
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How can a grower use that nested-appellation stack in a weak year?
+      choices:
+        - { text: "They must still bottle the most famous name, even if the wine is thin", correct: false }
+        - { text: "They can drop to the broader, less prestigious AOC", correct: true }
+        - { text: "They must declassify everything to Vin de France", correct: false }
+        - { text: "They are required to chaptalise to keep the village name", correct: false }
+      explanation: |
+        In a poor vintage (or from a lesser parcel) the same fruit can go out as
+        **Bourgogne** instead of the village or premier cru. That protects the
+        famous name. It is a choice, not an automatic crash to Vin de France.
+
+  - id: france-igp-term-001
+    type: mcq
+    deck: France
+    tags: [france, law]
+    status: reviewed
+    source_id: c12-0005
+    review:
+      fact_check: pass
+      sources: [spec]
+    en:
+      question: What is the French term for a PGI wine?
+      choices:
+        - { text: "Appellation d'origine contrôlée", correct: false }
+        - { text: "Indication géographique protégée (IGP)", correct: true }
+        - { text: "Vin de France", correct: false }
+        - { text: "Denominación de origen", correct: false }
+      explanation: |
+        EU **PGI** is **IGP** in France. AOC/AOP is the tighter PDO tier; Vin de
+        France has no geography. Pays d’Oc is the volume example.
+
+  - id: france-vin-de-pays-001
+    type: mcq
+    deck: France
+    tags: [france, law]
+    status: reviewed
+    source_id: c12-0005
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which older French phrase still appears as a synonym for IGP?
+      choices:
+        - { text: "Vin délimité de qualité supérieure", correct: false }
+        - { text: "Vin de Pays (VdP)", correct: true }
+        - { text: "Vin de table", correct: false }
+        - { text: "Grand vin de château", correct: false }
+      explanation: |
+        **Vin de Pays** was the pre-2008 PGI name. Many labels still say it beside
+        IGP (Pays d’Oc, Côtes de Gascogne). Vin de table became Vin de France;
+        VDQS is gone.
+
+  - id: france-vin-de-france-001
+    type: mcq
+    deck: France
+    tags: [france, law]
+    status: reviewed
+    source_id: c12-0006
+    review:
+      fact_check: pass
+      sources: [spec]
+    en:
+      question: What is France’s term for a wine with no geographical indication?
+      choices:
+        - { text: "AOC", correct: false }
+        - { text: "Vin de France", correct: true }
+        - { text: "IGP", correct: false }
+        - { text: "Cru bourgeois", correct: false }
+      explanation: |
+        **Vin de France** replaced vin de table: grapes from anywhere in the
+        country, variety and vintage allowed on the label, but no AOC or IGP
+        place name. Super-Tuscans are the Italian cousin of this idea, not the
+        French term.
