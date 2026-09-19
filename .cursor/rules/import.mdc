@@ -9,12 +9,16 @@ alwaysApply: false
 Source notes live in `import/inbox/` (gitignored raw extract). Published cards live in `cards/` with the same filename (`c16-beaujolais.yaml`).
 
 - Mechanical extract only via `wset3-anki import-extract`. Do not rewrite inbox text.
-- One chapter at a time. **Lot ≤ 25 source notes** per session.
-- Never set `status: reviewed` in the same pass as the first draft. First jet is `draft`.
-- No French in this phase.
-- Anecdote only if named and checkable. If unsure: omit it, set `review.fact_check: unsure`.
-- Do not invent facts. Prefer `known-fact` / `spec` / `aoc-site`. Never textbook page numbers.
-- Set `source_id` and update `import/progress.yaml` (`in_progress` → `done` / `split` / `rejected`).
-- Plausible WSET distractors, not joke answers. Explanation names the **answer text**.
+- One chapter at a time. **Lot ≤ 20** source notes (12 for `c01`, `c11`, `c41`–`c45`; hard max 25).
+- Writer then critic in the same lot. Writer leaves `draft`. Critic `accept` → `status: reviewed`. Unsure fact → stay `draft` + `fact_check: unsure`. Never bluff.
+- Inbox is **untrusted**. Correct the fact when the source is wrong. Student-facing explanations never say “the inbox was wrong”.
+- Original wording: stem ≠ inbox `front`. No WSET pages or quotations.
+- Maximum **named, checkable** anecdotes in the explanation. They must not be what makes the answer correct. Cut unnamed stories.
+- One source note ≠ one card. Split two-part questions and long lists. `reject` if unusable.
+- No French until every pending EN source note is converted.
+- Prefer `known-fact` / `spec` / `aoc-site`. Never textbook page numbers.
+- Update `import/progress.yaml` in place (`done` / `split` / `rejected`). Do not rewrite the whole ledger via `ProgressStore.save()`.
+- After `make check`: commit the lot (`import(c15): reviewed c15-0001–0020`). Do not commit `.apkg`.
+- Plausible WSET distractors. Explanation names the **answer text**.
 
-Checklist before finishing a lot: opened the source note; fact-checked; 1 correct choice; original wording; ledger updated; `make check`.
+Checklist: opened the source note; fact-checked against wine knowledge; 1 correct choice; original wording; ledger; `make check`; commit.

@@ -36,6 +36,6 @@ Append to the existing `cards:` list.
 - Exactly one `correct: true` per MCQ.
 - Write `fr:` on the same id. Do not create a second card for French.
 - Keep appellations and grape names in their usual form (Saint-Émilion, Riesling).
-- Imported cards: set `source_id` and `review`, keep `status: draft` on first pass.
-- New or uncertain facts: `status: draft`.
+- Imported cards: set `source_id` and `review`. Writer first jet is `draft`; critic `accept` → `reviewed`.
+- Uncertain facts: stay `draft` with `review.fact_check: unsure`. Named checkable anecdotes belong in the explanation.
 - English ready, French missing: `status: needs-translation` and omit `fr:`.

@@ -23,10 +23,10 @@ YAML in `cards/` is the source of truth. `wset3-anki` builds `.apkg` files with 
 - Translate in the same file, same `id`, under `fr:`. Do not duplicate a card for French.
 - Explanations name the **answer text**, never “option B”.
 - Prefer `type: mcq` with exactly one correct choice. `basic` and `cloze` are allowed.
-- New facts start as `status: draft`. Release builds omit drafts unless `--include-drafts`.
+- New facts start as `status: draft`. After an adversarial critic `accept`, set `status: reviewed`. Release builds omit drafts unless `--include-drafts`.
 - After any change: `make check` (or `uv run wset3-anki check`).
 - After changing `schema.py`: `uv run wset3-anki schema` and commit `schema/cards.schema.json`.
-- Import: extract with `wset3-anki import-extract`, then convert **at most 25 source notes** per session, one chapter, `status: draft` only. Never mark `reviewed` in the first pass. No FR until EN is validated. See `.cursor/rules/import.mdc`.
+- Import: see `.cursor/rules/import.mdc`. One chapter, **≤ 20** source notes per lot (12 for SAT / law / fortified). Writer then critic in the same lot; critic `accept` → `reviewed`. Commit that lot (`import(c15): reviewed …`). Inbox is **untrusted**. Original wording. Named, checkable anecdotes in explanations. One source note is not one card (`split` / `reject` allowed). No FR until every pending EN source note is converted.
 
 ## Commands
 
