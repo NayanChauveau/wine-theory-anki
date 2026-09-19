@@ -2072,6 +2072,228 @@ cards:
         **Premier cru**, then **grand cru**. Pouilly-Fuissé now has
         premiers crus (2020) — still no grand cru in the Mâconnais.
 
+  - id: burgundy-cru-meaning-001
+    type: mcq
+    deck: France::Burgundy
+    tags: [france, burgundy]
+    status: reviewed
+    source_id: c15-0101
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What is a Burgundy cru, in the premier / grand cru sense?
+      choices:
+        - { text: "Any négociant brand name", correct: false }
+        - { text: "A classified climat with a long record of superior wine", correct: true }
+        - { text: "A legal synonym for Bourgogne Rouge", correct: false }
+        - { text: "A sparkling-only category", correct: false }
+      explanation: |
+        A **named, ranked site**. “Cru” on a Beaujolais bottle is a
+        different village-level idea — do not mix the two.
+
+  - id: burgundy-monopole-001
+    type: mcq
+    deck: France::Burgundy
+    tags: [france, burgundy]
+    status: reviewed
+    source_id: c15-0102
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: If a climat is a monopole, how many domaines own it?
+      choices:
+        - { text: "Eighty, like Clos de Vougeot", correct: false }
+        - { text: "One", correct: true }
+        - { text: "The wine must be sold only in Dijon", correct: false }
+        - { text: "Oak is banned", correct: false }
+      explanation: |
+        **La Tâche**, **La Romanée**, **Romanée-Conti**, **Clos de Tart**
+        — one owner. Clos de Vougeot is the opposite story.
+
+  - id: burgundy-parcelles-001
+    type: mcq
+    deck: France::Burgundy
+    tags: [france, burgundy]
+    status: reviewed
+    source_id: c15-0103
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How is a typical Côte d’Or climat owned, unlike a Bordeaux château?
+      choices:
+        - { text: "One estate owns the whole hill by law", correct: false }
+        - { text: "It is split into many parcels under different domaines", correct: true }
+        - { text: "Only the Church may own vines", correct: false }
+        - { text: "Ownership is forbidden", correct: false }
+      explanation: |
+        **Clos de Vougeot** has dozens of owners inside one wall. That
+        is why two “Clos de Vougeot” bottles can taste like strangers.
+
+  - id: burgundy-premier-count-001
+    type: mcq
+    deck: France::Burgundy
+    tags: [france, burgundy]
+    status: reviewed
+    source_id: c15-0104
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Are Burgundy’s premier-cru climats a handful, or hundreds?
+      choices:
+        - { text: "Exactly four, forever", correct: false }
+        - { text: "More than 600", correct: true }
+        - { text: "Two, and only in Pomerol", correct: false }
+        - { text: "None — only grands crus exist", correct: false }
+      explanation: |
+        A **forest of 1ers** — over six hundred. Do not memorise a
+        single integer that moves when INAO redraws a line.
+
+  - id: burgundy-premier-share-001
+    type: mcq
+    deck: France::Burgundy
+    tags: [france, burgundy]
+    status: reviewed
+    source_id: c15-0105
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: About what share of Burgundy’s crop is premier cru?
+      choices:
+        - { text: "Half the region, like generic Mâcon", correct: false }
+        - { text: "About a tenth", correct: true }
+        - { text: "Exactly 90%", correct: false }
+        - { text: "Premier cru is illegal", correct: false }
+      explanation: |
+        **Around 10%**. Village wine is a bigger slice; grand cru is a
+        sliver. That share is Chablis + Côte + Chalonnaise together,
+        not a separate AOC.
+
+  - id: burgundy-premier-name-001
+    type: mcq
+    deck: France::Burgundy
+    tags: [france, burgundy]
+    status: reviewed
+    source_id: c15-0106
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: When may a premier-cru label add the climat name as well as “Premier Cru”?
+      choices:
+        - { text: "Never — only the village word is legal", correct: false }
+        - { text: "When the wine comes from that single premier-cru climat", correct: true }
+        - { text: "Only on a Bordeaux bottle", correct: false }
+        - { text: "Only if it is sparkling", correct: false }
+      explanation: |
+        **Gevrey-Chambertin Clos Saint-Jacques 1er Cru**. If several
+        1ers are blended, the climat name drops.
+
+  - id: burgundy-premier-blend-001
+    type: mcq
+    deck: France::Burgundy
+    tags: [france, burgundy]
+    status: reviewed
+    source_id: c15-0107
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: A bottle reads “Volnay Premier Cru” and names no climat — what happened?
+      choices:
+        - { text: "INAO forbids climat names on every 1er wine", correct: false }
+        - { text: "Juice from more than one Volnay 1er site was assembled, so no single climat can be named", correct: true }
+        - { text: "The wine was declassified to Bourgogne Rouge", correct: false }
+        - { text: "Only grands crus may print a climat", correct: false }
+      explanation: |
+        **Volnay Premier Cru** with no climat: a village 1er blend.
+        Still premier cru — just not a single-climat wine.
+
+  - id: burgundy-gc-top-001
+    type: mcq
+    deck: France::Burgundy
+    tags: [france, burgundy]
+    status: reviewed
+    source_id: c15-0108
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Is there a Burgundy rank above premier cru?
+      choices:
+        - { text: "Cru Bourgeois Exceptionnel", correct: false }
+        - { text: "Grand cru", correct: true }
+        - { text: "Vin de France", correct: false }
+        - { text: "IGP only", correct: false }
+      explanation: |
+        **Grand cru**. There is no rank above it. Volume is tiny.
+
+  - id: burgundy-gc-share-001
+    type: mcq
+    deck: France::Burgundy
+    tags: [france, burgundy]
+    status: reviewed
+    source_id: c15-0109
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Roughly what share of Burgundy’s production is grand cru?
+      choices:
+        - { text: "About half", correct: false }
+        - { text: "A little over 1%", correct: true }
+        - { text: "Exactly 33%", correct: false }
+        - { text: "Grand cru is the majority", correct: false }
+      explanation: |
+        **Barely more than 1%**. That is why the bottles cost what they
+        cost — scarcity plus the name.
+
+  - id: burgundy-gc-count-001
+    type: mcq
+    deck: France::Burgundy
+    tags: [france, burgundy]
+    status: reviewed
+    source_id: c15-0110
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: The figure “33 grands crus” counts which set?
+      choices:
+        - { text: "Two, and only in the Mâconnais", correct: false }
+        - { text: "The Côte d’Or only — Chablis is a separate seven-climat grand-cru AOC", correct: true }
+        - { text: "Exactly 33 including Chablis as one of the 33", correct: false }
+        - { text: "None — Burgundy banned grands crus", correct: false }
+      explanation: |
+        The **33** is the Côte d’Or list. **Chablis Grand Cru** is a
+        separate AOC with **seven** named climats (Les Clos, Valmur,
+        …). Do not swallow “33 in Côte d’Or and Chablis” as one pile.
+
+  - id: burgundy-gc-label-001
+    type: mcq
+    deck: France::Burgundy
+    tags: [france, burgundy]
+    status: reviewed
+    source_id: c15-0111
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Besides Grand Cru, what usually appears on a Côte d’Or grand-cru label?
+      choices:
+        - { text: "The village name only, with no cru mention", correct: false }
+        - { text: "The climat name, usually without the village", correct: true }
+        - { text: "Only the négociant’s first name", correct: false }
+        - { text: "The 1855 rank", correct: false }
+      explanation: |
+        **Musigny Grand Cru** — no “Chambolle” required. **Chablis Grand
+        Cru** keeps the word Chablis; that is the northern exception.
+
+
 
 
 
