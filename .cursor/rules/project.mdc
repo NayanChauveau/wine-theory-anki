@@ -15,5 +15,5 @@ Follow `AGENTS.md`. Card policy lives in `CONTENT_GUIDELINES.md`.
 - Do not rename released `id`s or regenerate model/deck IDs.
 - After any change: `make check`.
 - After `schema.py` edits: `uv run wset3-anki schema` and commit the JSON Schema.
-- Import lots: max 20 source notes (12 for SAT / law / fortified), one chapter. Writer then critic; `accept` → `reviewed`. Commit that lot. Do not rewrite `import/inbox/`.
+- Import lots: max 50 source notes, one chapter. Writer then critic; `accept` → `reviewed`. Commit that lot. Do not rewrite `import/inbox/`.
 - Keep changes scoped. Do not commit `.apkg` files (`dist/` is gitignored).
