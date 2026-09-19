@@ -1,5 +1,608 @@
 # yaml-language-server: $schema=../schema/cards.schema.json
 # source: C14 (import/inbox/c14-south-west.yaml)
 # deck: France::South West
+# Writer + critic test lot. Inbox treated as untrusted.
 
-cards: []
+cards:
+  - id: dordogne-east-of-e2m-001
+    type: mcq
+    deck: France::South West
+    tags: [france, south-west, dordogne]
+    status: reviewed
+    source_id: c14-0001
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which vineyard district sits immediately east of Entre-Deux-Mers?
+      choices:
+        - { text: "The Médoc", correct: false }
+        - { text: "The Dordogne (Bergerac country)", correct: true }
+        - { text: "The Méditerranée coast around Bandol", correct: false }
+        - { text: "The Côte de Nuits", correct: false }
+      explanation: |
+        Cross the eastern edge of **Entre-Deux-Mers** and you are in the **Dordogne**,
+        with Bergerac as the main AOC. The Médoc is west of the Gironde, not east of
+        Entre-Deux-Mers.
+
+  - id: dordogne-climate-001
+    type: mcq
+    deck: France::South West
+    tags: [france, south-west, dordogne, climate]
+    status: reviewed
+    source_id: c14-0002
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How does the Dordogne climate compare with Bordeaux?
+      choices:
+        - { text: "Much cooler and wetter, like the Mosel", correct: false }
+        - { text: "In the same family as Bordeaux, but with less Atlantic moderation", correct: true }
+        - { text: "Hot desert, like inland Alentejo", correct: false }
+        - { text: "High-alpine, with snow through flowering", correct: false }
+      explanation: |
+        Same **maritime-meets-continental** idea as Bordeaux, but the ocean’s cooling and
+        wetting hand is **weaker** this far inland. Summers run a bit warmer, winters a
+        bit colder — useful for both dry Bergerac and botrytis at Monbazillac.
+
+  - id: bergerac-main-aoc-001
+    type: mcq
+    deck: France::South West
+    tags: [france, south-west, bergerac]
+    status: reviewed
+    source_id: c14-0003
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What is the principal appellation of the Dordogne vineyard?
+      choices:
+        - { text: "Cahors", correct: false }
+        - { text: "Bergerac", correct: true }
+        - { text: "Madiran", correct: false }
+        - { text: "Jurançon", correct: false }
+      explanation: |
+        **Bergerac** is the Dordogne’s volume AOC — red, white and rosé on Bordeaux
+        varieties. Cahors sits on the Lot, Madiran and Jurançon much further south
+        toward the Pyrenees.
+
+  - id: bergerac-varieties-001
+    type: mcq
+    deck: France::South West
+    tags: [france, south-west, bergerac]
+    status: reviewed
+    source_id: c14-0004
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What is typically grown and bottled in Bergerac?
+      choices:
+        - { text: "Only Tannat, as in Madiran", correct: false }
+        - { text: "Reds and whites from the same grape set as Bordeaux", correct: true }
+        - { text: "Only Petit Manseng, late-harvested on the vine", correct: false }
+        - { text: "Only Pinot Noir and Chardonnay", correct: false }
+      explanation: |
+        Bergerac is **Bordeaux’s inland cousin**: Merlot, the Cabernets, Malbec for reds;
+        Sémillon, Sauvignon Blanc and Muscadelle for whites. It is not a Tannat or
+        Manseng appellation.
+
+  - id: monbazillac-sweet-aoc-001
+    type: mcq
+    deck: France::South West
+    tags: [france, south-west, monbazillac]
+    status: reviewed
+    source_id: c14-0005
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which Dordogne AOC is dedicated to sweet white wine?
+      choices:
+        - { text: "Pécharmant", correct: false }
+        - { text: "Monbazillac", correct: true }
+        - { text: "Madiran", correct: false }
+        - { text: "Côtes de Gascogne", correct: false }
+      explanation: |
+        **Monbazillac** is the Dordogne **sweet specialist** inside Bergerac country,
+        not a second generic red AOC. Pécharmant is the local structured red; Madiran
+        and Gascogne are further south.
+
+  - id: monbazillac-botrytis-001
+    type: mcq
+    deck: France::South West
+    tags: [france, south-west, monbazillac]
+    status: reviewed
+    source_id: c14-0006
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What kind of wine is Monbazillac known for?
+      choices:
+        - { text: "Bone-dry Tannat, aged in new barriques only", correct: false }
+        - { text: "Botrytis-affected sweet whites from Sémillon and Sauvignon Blanc", correct: true }
+        - { text: "Sparkling wine from Ugni Blanc", correct: false }
+        - { text: "Pale Provençal rosé from Cinsault", correct: false }
+      explanation: |
+        **Noble rot** on **Sémillon** (with Sauvignon Blanc, and often a little
+        Muscadelle) gives honeyed sweet wine — the same family as Sauternes, usually
+        sold at a friendlier price. It is not a dry Tannat red.
+
+  - id: southwest-core-names-001
+    type: mcq
+    deck: France::South West
+    tags: [france, south-west]
+    status: reviewed
+    source_id: c14-0007
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Beyond the Dordogne, which four names are the usual South West study set?
+      choices:
+        - { text: "Chablis, Sancerre, Pouilly-Fumé and Muscadet", correct: false }
+        - { text: "Cahors, Côtes de Gascogne, Madiran and Jurançon", correct: true }
+        - { text: "Barolo, Barbaresco, Brunello and Chianti Classico", correct: false }
+        - { text: "Priorat, Rioja, Rías Baixas and Ribera del Duero", correct: false }
+      explanation: |
+        The inland South West cluster to learn is **Cahors**, **Côtes de Gascogne**,
+        **Madiran** and **Jurançon**. Gaillac and Irouléguy exist, but they are not
+        this chapter’s four. One of the four is an IGP, not an AOC.
+
+  - id: gascogne-is-igp-001
+    type: mcq
+    deck: France::South West
+    tags: [france, south-west, gascogne]
+    status: reviewed
+    source_id: c14-0007
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which name in the usual South West set is an IGP, not an AOC?
+      choices:
+        - { text: "Cahors", correct: false }
+        - { text: "Côtes de Gascogne", correct: true }
+        - { text: "Madiran", correct: false }
+        - { text: "Jurançon", correct: false }
+      explanation: |
+        **Côtes de Gascogne** is an **IGP** (Armagnac country table wine). Cahors,
+        Madiran and Jurançon are AOCs. Do not learn all four as the same legal tier.
+
+  - id: cahors-lot-001
+    type: mcq
+    deck: France::South West
+    tags: [france, south-west, cahors]
+    status: reviewed
+    source_id: c14-0008
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Where is Cahors?
+      choices:
+        - { text: "On the Médoc peninsula, west of the Gironde", correct: false }
+        - { text: "East of Bordeaux, on both banks of the River Lot", correct: true }
+        - { text: "In the foothills of the Pyrenees, as a neighbour of Jurançon", correct: false }
+        - { text: "On the Saône plain south of Beaujolais", correct: false }
+      explanation: |
+        **Cahors** follows the **Lot** inland and east of Bordeaux. Jurançon is the
+        Pyrenean one; the Médoc is the other direction entirely.
+
+  - id: cahors-black-wine-name-001
+    type: mcq
+    deck: France::South West
+    tags: [france, south-west, cahors]
+    status: reviewed
+    source_id: c14-0009
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What historic English name was given to Cahors wine?
+      choices:
+        - { text: "Claret", correct: false }
+        - { text: "Black wine", correct: true }
+        - { text: "Hock", correct: false }
+        - { text: "Sack", correct: false }
+      explanation: |
+        English merchants called Cahors **black wine** (*vin noir*) for its inky depth.
+        Claret is the old English word for pale Bordeaux; hock is Rhine wine; sack is
+        fortified sherry-style wine. Some of that colour was even used to deepen pale
+        Bordeaux in the barrel.
+
+  - id: cahors-black-wine-style-001
+    type: mcq
+    deck: France::South West
+    tags: [france, south-west, cahors]
+    status: reviewed
+    source_id: c14-0009
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What style sat behind Cahors’s “black wine” reputation?
+      choices:
+        - { text: "Pale, low-tannin rosé for immediate drinking", correct: false }
+        - { text: "Very tannic, long-lived red", correct: true }
+        - { text: "Botrytis sweet white, like Sauternes", correct: false }
+        - { text: "Sparkling wine aged under flor", correct: false }
+      explanation: |
+        Historic Cahors was **deep, tannic and built to last** — the opposite of a
+        pale claret. Modern valley-bottom wines can be gentler, but the reputation
+        comes from that structured red.
+
+  - id: cahors-land-types-001
+    type: mcq
+    deck: France::South West
+    tags: [france, south-west, cahors]
+    status: reviewed
+    source_id: c14-0010
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which three land types are used to explain modern Cahors styles?
+      choices:
+        - { text: "Grand Cru, Premier Cru and village, as in the Côte d'Or", correct: false }
+        - { text: "Fertile valley floor, poorer slopes, and the plateau above", correct: true }
+        - { text: "Schist hillside, beach sand and granite batholith only", correct: false }
+        - { text: "A single flat alluvial plain with no slope or plateau", correct: false }
+      explanation: |
+        The **Lot valley floor** (deeper, more fertile) tends to give earlier, softer
+        wine. The **côtes** and the **causse plateau** above are poorer and drain
+        harder — more concentration and tannin. It is a landscape split, not a
+        Burgundy cru ladder.
+
+  - id: cahors-malbec-001
+    type: mcq
+    deck: France::South West
+    tags: [france, south-west, cahors, malbec]
+    status: reviewed
+    source_id: c14-0011
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which grape is the core of Cahors?
+      choices:
+        - { text: "Pinot Noir", correct: false }
+        - { text: "Malbec (locally Côt or Auxerrois)", correct: true }
+        - { text: "Gamay", correct: false }
+        - { text: "Petit Manseng", correct: false }
+      explanation: |
+        **Malbec** is mandatory and dominant (the AOC asks for a high minimum). Locals
+        still say **Côt** or **Auxerrois**. Argentina made the name famous; Cahors is
+        the French home. Pinot and Gamay are Burgundy/Beaujolais stories.
+
+  - id: cahors-other-grapes-001
+    type: mcq
+    deck: France::South West
+    tags: [france, south-west, cahors]
+    status: reviewed
+    source_id: c14-0012
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Besides Malbec, which grapes may partner Cahors?
+      choices:
+        - { text: "Syrah and Viognier only", correct: false }
+        - { text: "Merlot and Tannat", correct: true }
+        - { text: "Riesling and Pinot Gris", correct: false }
+        - { text: "Ugni Blanc and Colombard only", correct: false }
+      explanation: |
+        **Tannat** and **Merlot** are the usual partners — a little flesh or extra
+        grip beside Malbec. Not Alsace or Rhône varieties.
+
+  - id: cahors-malbec-profile-001
+    type: mcq
+    deck: France::South West
+    tags: [france, south-west, cahors, malbec]
+    status: reviewed
+    source_id: c14-0013
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What does top Cahors Malbec typically look and taste like?
+      choices:
+        - { text: "Pale, low tannin, with only green apple and no oak", correct: false }
+        - { text: "Oak-aged, deep in colour, high tannin, dark berries, then cedar and earth with age", correct: true }
+        - { text: "Banana, kirsch and candy spice from carbonic maceration", correct: false }
+        - { text: "Flor, almond and saline tang from biological ageing", correct: false }
+      explanation: |
+        Serious Cahors is **inky**, **tannic** and often **oaked**, with **dark-berry**
+        fruit that can move toward **cedar and earth**. It is not Nouveau-carbonic
+        or a flor sherry.
+
+  - id: gascogne-igp-zone-001
+    type: mcq
+    deck: France::South West
+    tags: [france, south-west, gascogne]
+    status: reviewed
+    source_id: c14-0014
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Southeast of Bordeaux, what is the usual quality tier for everyday whites?
+      choices:
+        - { text: "Grand Cru Classé, as in the Médoc 1855 list", correct: false }
+        - { text: "IGP, rather than a tight village AOC", correct: true }
+        - { text: "Only Vin de France with no geography at all", correct: false }
+        - { text: "DOCG, as in Italy", correct: false }
+      explanation: |
+        The country south-east toward Armagnac bottles a lot of **IGP** wine. There
+        is no 1855-style classed-growth ladder here, and DOCG is an Italian idea.
+
+  - id: gascogne-name-001
+    type: mcq
+    deck: France::South West
+    tags: [france, south-west, gascogne]
+    status: reviewed
+    source_id: c14-0014
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What is the most important IGP name in that south-eastern zone?
+      choices:
+        - { text: "Côtes du Rhône", correct: false }
+        - { text: "Côtes de Gascogne", correct: true }
+        - { text: "Côtes de Provence", correct: false }
+        - { text: "Vin de Savoie", correct: false }
+      explanation: |
+        **Côtes de Gascogne** is the IGP to remember. It sits in **Armagnac**
+        country — brandy first, table wine from the leftover grapes.
+
+  - id: gascogne-ugni-001
+    type: mcq
+    deck: France::South West
+    tags: [france, south-west, gascogne]
+    status: reviewed
+    source_id: c14-0015
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What is a typical Côtes de Gascogne white?
+      choices:
+        - { text: "Sweet, botrytised Sémillon with high residual sugar", correct: false }
+        - { text: "Dry, light-bodied Ugni Blanc with green-apple fruit", correct: true }
+        - { text: "Full-bodied oaked Tannat", correct: false }
+        - { text: "Sparkling Pinot Noir rosé", correct: false }
+      explanation: |
+        **Ugni Blanc** (the Armagnac / Cognac grape, also called Trebbiano Toscano)
+        makes **dry, light**, apple-fresh whites here. Colombard is often in the mix.
+        It is the opposite of Monbazillac or Madiran.
+
+  - id: madiran-location-001
+    type: mcq
+    deck: France::South West
+    tags: [france, south-west, madiran]
+    status: reviewed
+    source_id: c14-0016
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which red AOC lies just south of Côtes de Gascogne, toward the Pyrenees?
+      choices:
+        - { text: "Bergerac", correct: false }
+        - { text: "Madiran", correct: true }
+        - { text: "Monbazillac", correct: false }
+        - { text: "Muscadet Sèvre-et-Maine", correct: false }
+      explanation: |
+        **Madiran** is the next stop south of Gascogne, in the Vic-Bilh foothills as
+        the land rises toward the **Pyrenees**. Bergerac and Monbazillac stay up in
+        the Dordogne.
+
+  - id: madiran-tannat-001
+    type: mcq
+    deck: France::South West
+    tags: [france, south-west, madiran, tannat]
+    status: reviewed
+    source_id: c14-0017
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What is the grape and basic profile of Madiran?
+      choices:
+        - { text: "Pinot Noir — pale, low tannin, red-cherry perfume", correct: false }
+        - { text: "Tannat — deep colour and high tannin", correct: true }
+        - { text: "Ugni Blanc — light, green-apple white", correct: false }
+        - { text: "Petit Manseng — high-acid sweet white", correct: false }
+      explanation: |
+        **Tannat** is in the name of the tannin. Madiran is **dark and firmly
+        structured**. Pinot and Manseng belong to other chapters.
+
+  - id: madiran-bottle-age-001
+    type: mcq
+    deck: France::South West
+    tags: [france, south-west, madiran]
+    status: reviewed
+    source_id: c14-0018
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Traditionally, how was Madiran made drinkable?
+      choices:
+        - { text: "By serving it as Nouveau the third Thursday of November", correct: false }
+        - { text: "By long bottle ageing to let the tannins slacken", correct: true }
+        - { text: "By mandatory carbonic maceration of whole bunches only", correct: false }
+        - { text: "By ageing under flor for two years", correct: false }
+      explanation: |
+        Old-school Tannat needed **years in bottle** before the grip eased. It was
+        never a primeur or a flor wine.
+
+  - id: madiran-modern-001
+    type: mcq
+    deck: France::South West
+    tags: [france, south-west, madiran]
+    status: reviewed
+    source_id: c14-0019
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Why can many modern Madiran wines be approached sooner?
+      choices:
+        - { text: "The AOC banned Tannat and replaced it with Gamay", correct: false }
+        - { text: "Riper fruit and gentler extraction give softer, riper tannin", correct: true }
+        - { text: "All Madiran is now sold as white Ugni Blanc", correct: false }
+        - { text: "The wines are frozen and the ice thrown away", correct: false }
+      explanation: |
+        Later picking and less brutal extraction mean **riper, more supple tannin**.
+        Patrick Ducournau, in Madiran in the 1990s, also pioneered
+        **micro-oxygenation** to polish Tannat without waiting a decade. The grape
+        itself was not replaced.
+
+  - id: jurancon-location-001
+    type: mcq
+    deck: France::South West
+    tags: [france, south-west, jurancon]
+    status: reviewed
+    source_id: c14-0020
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which appellation sits in the Pyrenees foothills?
+      choices:
+        - { text: "Cahors", correct: false }
+        - { text: "Jurançon", correct: true }
+        - { text: "Entre-Deux-Mers", correct: false }
+        - { text: "Chablis", correct: false }
+      explanation: |
+        **Jurançon** is the Pyrenean one, south of Madiran, around Pau. Cahors is the
+        Lot; Entre-Deux-Mers is Bordeaux.
+
+  - id: jurancon-styles-001
+    type: mcq
+    deck: France::South West
+    tags: [france, south-west, jurancon]
+    status: reviewed
+    source_id: c14-0021
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which styles does Jurançon make?
+      choices:
+        - { text: "Only sparkling red, like Lambrusco", correct: false }
+        - { text: "Dry and sweet whites", correct: true }
+        - { text: "Only fortified wine under flor", correct: false }
+        - { text: "Only rosé from Tannat", correct: false }
+      explanation: |
+        Labels split **Jurançon Sec** (dry) and **Jurançon** (the sweet wine). Both
+        are white. There is no flor or Lambrusco model here.
+
+  - id: jurancon-sweet-focus-001
+    type: mcq
+    deck: France::South West
+    tags: [france, south-west, jurancon]
+    status: reviewed
+    source_id: c14-0022
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which Jurançon wines are the ones this chapter treats as the stars?
+      choices:
+        - { text: "The everyday dry IGP Ugni Blanc", correct: false }
+        - { text: "The complex sweet wines", correct: true }
+        - { text: "The Nouveau reds released in November", correct: false }
+        - { text: "The barrel-aged Tannat from the valley floor", correct: false }
+      explanation: |
+        Dry Jurançon Sec can be excellent, but the reputation — and the Henri IV
+        baptism story — sits with the **sweet**, concentrated wines. Ugni Blanc is
+        the Gascogne IGP grape, not Jurançon.
+
+  - id: jurancon-petit-manseng-001
+    type: mcq
+    deck: France::South West
+    tags: [france, south-west, jurancon]
+    status: reviewed
+    source_id: c14-0023
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which grape is the heart of Jurançon’s sweet wines?
+      choices:
+        - { text: "Sémillon", correct: false }
+        - { text: "Petit Manseng", correct: true }
+        - { text: "Chenin Blanc", correct: false }
+        - { text: "Furmint", correct: false }
+      explanation: |
+        **Petit Manseng** is the sweet-wine grape: thick skins, tiny berries, holds
+        acid while sugar climbs. **Gros Manseng** is more often the dry-wine workhorse.
+        Sémillon is Monbazillac; Chenin is the Loire; Furmint is Tokaj.
+
+  - id: jurancon-petit-manseng-acid-001
+    type: mcq
+    deck: France::South West
+    tags: [france, south-west, jurancon]
+    status: reviewed
+    source_id: c14-0023
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What is the key structural trait of Petit Manseng in Jurançon?
+      choices:
+        - { text: "Almost no acidity, so the wines taste flat when sweet", correct: false }
+        - { text: "High acidity, which keeps sweet wines fresh", correct: true }
+        - { text: "High tannin, like Tannat", correct: false }
+        - { text: "A flor veil that eats the residual sugar", correct: false }
+      explanation: |
+        **High acid** is why passerillé Petit Manseng stays lively instead of cloying.
+        It is a white grape — tannin and flor are the wrong toolkit.
+
+  - id: jurancon-passerillage-001
+    type: mcq
+    deck: France::South West
+    tags: [france, south-west, jurancon]
+    status: reviewed
+    source_id: c14-0024
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How do Jurançon’s Petit Manseng grapes usually concentrate sugar?
+      choices:
+        - { text: "Noble rot (Botrytis cinerea), as in Sauternes", correct: false }
+        - { text: "Passerillage — grapes left to shrivel on the vine", correct: true }
+        - { text: "Freezing on the vine and pressing out ice, as in eiswein", correct: false }
+        - { text: "Adding grape spirit mid-ferment, as in Port", correct: false }
+      explanation: |
+        Sweet Jurançon is **passerillage**, not botrytis. A dry south wind (the
+        **autan** / Pyrenean foehn) shrivels bunches on the vine. That is the
+        opposite method from Monbazillac and Sauternes.
+
+  - id: jurancon-flavours-001
+    type: mcq
+    deck: France::South West
+    tags: [france, south-west, jurancon]
+    status: reviewed
+    source_id: c14-0025
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What flavours are typical of Jurançon’s sweet wines?
+      choices:
+        - { text: "Banana, kirsch and cinnamon-spice from carbonic maceration", correct: false }
+        - { text: "Pronounced apricot and grapefruit, sometimes with spicy oak", correct: true }
+        - { text: "Green bell pepper and graphite, with high tannin", correct: false }
+        - { text: "Flor, almond and bruised apple", correct: false }
+      explanation: |
+        Think **apricot and grapefruit** (the acid showing through the sweetness),
+        with **oak spice** when the wine sees wood. Henri IV is said to have been
+        baptised with Jurançon — a court story, not a tasting note. Carbonic banana
+        and flor are other regions.

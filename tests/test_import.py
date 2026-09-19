@@ -58,6 +58,16 @@ def test_beaujolais_cards_are_reviewed_with_source_ids(repo_root: Path) -> None:
     assert {card.source_id for card in cards} >= {f"c16-{i:04d}" for i in range(1, 31)}
 
 
+def test_south_west_cards_are_reviewed_with_source_ids(repo_root: Path) -> None:
+    from wset3_anki.load import load_card_file
+
+    cards = load_card_file(repo_root / "cards" / "c14-south-west.yaml")
+    assert len(cards) >= 25
+    assert all(card.status.value == "reviewed" for card in cards)
+    assert all(card.source_id and card.source_id.startswith("c14-") for card in cards)
+    assert {card.source_id for card in cards} >= {f"c14-{i:04d}" for i in range(1, 26)}
+
+
 def test_cards_files_match_source_chapters(repo_root: Path) -> None:
     cards_dir = repo_root / "cards"
     published = published_targets()
