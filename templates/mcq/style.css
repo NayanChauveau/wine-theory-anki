@@ -1,0 +1,152 @@
+.card {
+  font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: left;
+  color: #2c2416;
+  background: #f7f3ec;
+  padding: 16px;
+}
+
+.card-shell {
+  max-width: 40rem;
+  margin: 0 auto;
+}
+
+.question {
+  font-size: 1.15em;
+  font-weight: 600;
+  margin-bottom: 1.1rem;
+}
+
+.question p {
+  margin: 0 0 0.4em;
+}
+
+.question p:last-child {
+  margin-bottom: 0;
+}
+
+.choices {
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+}
+
+.choice {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  padding: 0.7rem 0.85rem;
+  border-radius: 10px;
+  background: #fffdf8;
+  border: 1px solid #e4d8c4;
+}
+
+.choice .letter {
+  flex: 0 0 1.6rem;
+  width: 1.6rem;
+  height: 1.6rem;
+  border-radius: 999px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Avenir Next", "Segoe UI", sans-serif;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: #6b4a2b;
+  background: #f0e4d2;
+}
+
+.choice .text {
+  flex: 1;
+  padding-top: 0.08rem;
+}
+
+.choice.correct {
+  background: #e8f4ea;
+  border-color: #8fbf96;
+}
+
+.choice.correct .letter {
+  color: #1d4d27;
+  background: #c8e3cc;
+}
+
+.choice.incorrect {
+  opacity: 0.55;
+}
+
+.divider {
+  border: 0;
+  border-top: 1px solid #d9cbb4;
+  margin: 1.25rem 0 1rem;
+}
+
+.explanation {
+  background: #fffdf8;
+  border: 1px solid #e4d8c4;
+  border-radius: 10px;
+  padding: 0.9rem 1rem;
+}
+
+.explanation-label {
+  margin: 0 0 0.45rem;
+  font-family: "Avenir Next", "Segoe UI", sans-serif;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #8a3a3a;
+}
+
+.explanation-body p {
+  margin: 0 0 0.6em;
+}
+
+.explanation-body p:last-child {
+  margin-bottom: 0;
+}
+
+.nightMode .card,
+.night_mode .card {
+  color: #f3efe8;
+  background: #1c1916;
+}
+
+.nightMode .choice,
+.night_mode .choice,
+.nightMode .explanation,
+.night_mode .explanation {
+  background: #26211c;
+  border-color: #3d342a;
+}
+
+.nightMode .choice .letter,
+.night_mode .choice .letter {
+  color: #f0d8b8;
+  background: #3d3226;
+}
+
+.nightMode .choice.correct,
+.night_mode .choice.correct {
+  background: #1e3324;
+  border-color: #4d8a58;
+}
+
+.nightMode .choice.correct .letter,
+.night_mode .choice.correct .letter {
+  color: #d7f0dc;
+  background: #2f5c38;
+}
+
+.nightMode .divider,
+.night_mode .divider {
+  border-top-color: #3d342a;
+}
+
+.nightMode .explanation-label,
+.night_mode .explanation-label {
+  color: #e8a0a0;
+}

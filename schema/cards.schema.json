@@ -1,0 +1,339 @@
+{
+  "$defs": {
+    "BasicCard": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "description": "Permanent lowercase kebab-case id. Never rename after release.",
+          "examples": [
+            "sat-acidity-001"
+          ],
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)+$",
+          "title": "Id",
+          "type": "string"
+        },
+        "deck": {
+          "description": "Anki subdeck path under 'WSET 3 VIN::', e.g. France::Bordeaux",
+          "examples": [
+            "SAT",
+            "France::Bordeaux"
+          ],
+          "minLength": 1,
+          "title": "Deck",
+          "type": "string"
+        },
+        "tags": {
+          "description": "Extra Anki tags",
+          "items": {
+            "type": "string"
+          },
+          "title": "Tags",
+          "type": "array"
+        },
+        "status": {
+          "$ref": "#/$defs/Status",
+          "default": "reviewed",
+          "description": "draft is omitted from release builds"
+        },
+        "type": {
+          "const": "basic",
+          "default": "basic",
+          "title": "Type",
+          "type": "string"
+        },
+        "en": {
+          "$ref": "#/$defs/BasicContent"
+        },
+        "fr": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/BasicContent"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        }
+      },
+      "required": [
+        "id",
+        "deck",
+        "en"
+      ],
+      "title": "BasicCard",
+      "type": "object"
+    },
+    "BasicContent": {
+      "additionalProperties": false,
+      "properties": {
+        "front": {
+          "description": "Prompt",
+          "minLength": 1,
+          "title": "Front",
+          "type": "string"
+        },
+        "back": {
+          "description": "Answer",
+          "minLength": 1,
+          "title": "Back",
+          "type": "string"
+        }
+      },
+      "required": [
+        "front",
+        "back"
+      ],
+      "title": "BasicContent",
+      "type": "object"
+    },
+    "Choice": {
+      "additionalProperties": false,
+      "properties": {
+        "text": {
+          "description": "Choice text shown on the card",
+          "minLength": 1,
+          "title": "Text",
+          "type": "string"
+        },
+        "correct": {
+          "default": false,
+          "description": "Exactly one choice per language must be true",
+          "title": "Correct",
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "text"
+      ],
+      "title": "Choice",
+      "type": "object"
+    },
+    "ClozeCard": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "description": "Permanent lowercase kebab-case id. Never rename after release.",
+          "examples": [
+            "sat-acidity-001"
+          ],
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)+$",
+          "title": "Id",
+          "type": "string"
+        },
+        "deck": {
+          "description": "Anki subdeck path under 'WSET 3 VIN::', e.g. France::Bordeaux",
+          "examples": [
+            "SAT",
+            "France::Bordeaux"
+          ],
+          "minLength": 1,
+          "title": "Deck",
+          "type": "string"
+        },
+        "tags": {
+          "description": "Extra Anki tags",
+          "items": {
+            "type": "string"
+          },
+          "title": "Tags",
+          "type": "array"
+        },
+        "status": {
+          "$ref": "#/$defs/Status",
+          "default": "reviewed",
+          "description": "draft is omitted from release builds"
+        },
+        "type": {
+          "const": "cloze",
+          "default": "cloze",
+          "title": "Type",
+          "type": "string"
+        },
+        "en": {
+          "$ref": "#/$defs/ClozeContent"
+        },
+        "fr": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/ClozeContent"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        }
+      },
+      "required": [
+        "id",
+        "deck",
+        "en"
+      ],
+      "title": "ClozeCard",
+      "type": "object"
+    },
+    "ClozeContent": {
+      "additionalProperties": false,
+      "properties": {
+        "text": {
+          "description": "Text containing at least one {{c1::...}} deletion",
+          "minLength": 1,
+          "title": "Text",
+          "type": "string"
+        },
+        "extra": {
+          "default": "",
+          "description": "Optional extra shown on the back",
+          "title": "Extra",
+          "type": "string"
+        }
+      },
+      "required": [
+        "text"
+      ],
+      "title": "ClozeContent",
+      "type": "object"
+    },
+    "McqCard": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "description": "Permanent lowercase kebab-case id. Never rename after release.",
+          "examples": [
+            "sat-acidity-001"
+          ],
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)+$",
+          "title": "Id",
+          "type": "string"
+        },
+        "deck": {
+          "description": "Anki subdeck path under 'WSET 3 VIN::', e.g. France::Bordeaux",
+          "examples": [
+            "SAT",
+            "France::Bordeaux"
+          ],
+          "minLength": 1,
+          "title": "Deck",
+          "type": "string"
+        },
+        "tags": {
+          "description": "Extra Anki tags",
+          "items": {
+            "type": "string"
+          },
+          "title": "Tags",
+          "type": "array"
+        },
+        "status": {
+          "$ref": "#/$defs/Status",
+          "default": "reviewed",
+          "description": "draft is omitted from release builds"
+        },
+        "type": {
+          "const": "mcq",
+          "default": "mcq",
+          "title": "Type",
+          "type": "string"
+        },
+        "en": {
+          "$ref": "#/$defs/McqContent"
+        },
+        "fr": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/McqContent"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        }
+      },
+      "required": [
+        "id",
+        "deck",
+        "en"
+      ],
+      "title": "McqCard",
+      "type": "object"
+    },
+    "McqContent": {
+      "additionalProperties": false,
+      "properties": {
+        "question": {
+          "description": "Question stem; Markdown allowed",
+          "minLength": 1,
+          "title": "Question",
+          "type": "string"
+        },
+        "choices": {
+          "items": {
+            "$ref": "#/$defs/Choice"
+          },
+          "maxItems": 10,
+          "minItems": 2,
+          "title": "Choices",
+          "type": "array"
+        },
+        "explanation": {
+          "description": "Why the answer is correct. Name the answer text, never a letter.",
+          "minLength": 1,
+          "title": "Explanation",
+          "type": "string"
+        }
+      },
+      "required": [
+        "question",
+        "choices",
+        "explanation"
+      ],
+      "title": "McqContent",
+      "type": "object"
+    },
+    "Status": {
+      "enum": [
+        "draft",
+        "reviewed",
+        "needs-translation"
+      ],
+      "title": "Status",
+      "type": "string"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "cards": {
+      "description": "Cards in this chapter",
+      "items": {
+        "discriminator": {
+          "mapping": {
+            "basic": "#/$defs/BasicCard",
+            "cloze": "#/$defs/ClozeCard",
+            "mcq": "#/$defs/McqCard"
+          },
+          "propertyName": "type"
+        },
+        "oneOf": [
+          {
+            "$ref": "#/$defs/McqCard"
+          },
+          {
+            "$ref": "#/$defs/BasicCard"
+          },
+          {
+            "$ref": "#/$defs/ClozeCard"
+          }
+        ]
+      },
+      "title": "Cards",
+      "type": "array"
+    }
+  },
+  "title": "WSET 3 VIN card file",
+  "type": "object",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "wset3-vin/cards.schema.json",
+  "description": "One chapter of Anki cards (EN + optional FR). See CONTENT_GUIDELINES.md."
+}

@@ -1,0 +1,39 @@
+---
+description: How to author and translate YAML Anki cards
+globs: cards/**/*.yaml
+alwaysApply: false
+---
+
+# Cards
+
+The editor validates this file against `schema/cards.schema.json`.
+One file per chapter. Append to the existing `cards:` list.
+
+```yaml
+- id: alsace-grand-cru-001          # permanent lowercase kebab-case
+  type: mcq                         # mcq | basic | cloze
+  deck: France::Alsace              # path under WSET 3 VIN::
+  tags: [france, alsace]
+  status: draft                     # draft | reviewed | needs-translation
+  en:
+    question: ...
+    choices:
+      - { text: "Wrong", correct: false }
+      - { text: "Right", correct: true }
+    explanation: |
+      Name the **answer text**, never a letter.
+  fr:                               # optional; same choice count and correct index
+    question: ...
+    choices:
+      - { text: "Faux", correct: false }
+      - { text: "Vrai", correct: true }
+    explanation: |
+      ...
+```
+
+- Quote choice `text` whenever it contains a comma (`{ text: "A, B", correct: false }`).
+- Exactly one `correct: true` per MCQ.
+- Write `fr:` on the same id. Do not create a second card for French.
+- Keep appellations and grape names in their usual form (Saint-Émilion, Riesling).
+- New or uncertain facts: `status: draft`.
+- English ready, French missing: `status: needs-translation` and omit `fr:`.

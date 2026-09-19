@@ -1,0 +1,46 @@
+.card {
+  font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: left;
+  color: #2c2416;
+  background: #f7f3ec;
+  padding: 16px;
+}
+
+.card-shell {
+  max-width: 40rem;
+  margin: 0 auto;
+}
+
+.front {
+  font-size: 1.15em;
+  font-weight: 600;
+}
+
+.back,
+.front p {
+  margin: 0 0 0.4em;
+}
+
+.back p:last-child,
+.front p:last-child {
+  margin-bottom: 0;
+}
+
+.divider {
+  border: 0;
+  border-top: 1px solid #d9cbb4;
+  margin: 1.25rem 0 1rem;
+}
+
+.nightMode .card,
+.night_mode .card {
+  color: #f3efe8;
+  background: #1c1916;
+}
+
+.nightMode .divider,
+.night_mode .divider {
+  border-top-color: #3d342a;
+}

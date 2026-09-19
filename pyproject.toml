@@ -1,0 +1,58 @@
+[project]
+name = "wset3-anki"
+version = "0.1.0"
+description = "Collaborative, translatable Anki deck builder for WSET Level 3 Award in Wines"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.12"
+authors = [{ name = "WSET 3 VIN contributors" }]
+dependencies = [
+    "genanki>=0.13.1",
+    "markdown>=3.7",
+    "pydantic>=2.9",
+    "pyyaml>=6.0.2",
+]
+
+[project.optional-dependencies]
+dev = [
+    "basedpyright>=1.22",
+    "jsonschema>=4.23",
+    "pre-commit>=4.0",
+    "pytest>=8.3",
+    "ruff>=0.6",
+]
+
+[project.scripts]
+wset3-anki = "wset3_anki.cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/wset3_anki"]
+
+[tool.hatch.build.targets.wheel.sources]
+"src/wset3_anki" = "wset3_anki"
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM", "RUF"]
+
+[tool.ruff.format]
+quote-style = "double"
+
+[tool.basedpyright]
+include = ["src", "tests"]
+exclude = [".venv", "dist"]
+pythonVersion = "3.12"
+typeCheckingMode = "standard"
+reportMissingTypeStubs = false
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
