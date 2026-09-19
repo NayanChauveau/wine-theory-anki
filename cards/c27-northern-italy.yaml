@@ -2,4 +2,1158 @@
 # source: C27 (import/inbox/c27-northern-italy.yaml)
 # deck: Italy::Northern Italy
 
-cards: []
+cards:
+  - id: nitaly-geo-001
+    type: mcq
+    deck: Italy::Northern Italy
+    tags: [italy, northern-italy]
+    status: reviewed
+    source_id: c27-0001
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Where do Northern Italy’s vineyards sit on the map?
+      choices:
+        - { text: "Only on Sicily’s coast", correct: false }
+        - { text: "In the Alpine foothills and on the wide Po plain", correct: true }
+        - { text: "Only inside Rome’s walls", correct: false }
+        - { text: "On a high Apennine desert", correct: false }
+      explanation: |
+        **Alpine foothills and the Po plain.** Barolo hangs on the
+        first; cheap Pinot Grigio sits on the second.
+
+  - id: nitaly-climate-001
+    type: mcq
+    deck: Italy::Northern Italy
+    tags: [italy, northern-italy, climate]
+    status: reviewed
+    source_id: c27-0002
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which climate description fits most of Northern Italy?
+      choices:
+        - { text: "Hot, wet tropical", correct: false }
+        - { text: "Moderate, with short dry summers", correct: true }
+        - { text: "High alpine ice only", correct: false }
+        - { text: "Cool maritime, like Muscadet", correct: false }
+      explanation: |
+        **Moderate, short dry summers.** The Alps and the lakes do the
+        rest of the work.
+
+  - id: nitaly-alps-rain-001
+    type: mcq
+    deck: Italy::Northern Italy
+    tags: [italy, northern-italy, climate]
+    status: reviewed
+    source_id: c27-0002
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What do the Alps do for Northern Italy’s growing-season rain?
+      choices:
+        - { text: "They funnel a Breton monsoon onto every row", correct: false }
+        - { text: "They act as a rain barrier", correct: true }
+        - { text: "They ban any sunshine", correct: false }
+        - { text: "They have no climate effect", correct: false }
+      explanation: |
+        **A rain barrier.** Westerlies drop moisture on the mountains;
+        many valley sites stay relatively dry in summer.
+
+  - id: nitaly-water-mod-001
+    type: mcq
+    deck: Italy::Northern Italy
+    tags: [italy, northern-italy, climate]
+    status: reviewed
+    source_id: c27-0002
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which water bodies help moderate Northern Italy’s climate?
+      choices:
+        - { text: "Only the Atlantic", correct: false }
+        - { text: "Rivers such as the Po, and glacial lakes such as Garda", correct: true }
+        - { text: "There is no water influence", correct: false }
+        - { text: "Only desert oases", correct: false }
+      explanation: |
+        **The Po and lakes such as Garda.** Bardolino and Lugana sit
+        on that lake effect.
+
+  - id: nitaly-sea-fungus-001
+    type: mcq
+    deck: Italy::Northern Italy
+    tags: [italy, northern-italy, climate]
+    status: reviewed
+    source_id: c27-0003
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What extra vineyard risk comes with a site close to the Italian sea?
+      choices:
+        - { text: "Permanent drought and no fungus", correct: false }
+        - { text: "Higher rainfall and more fungal disease", correct: true }
+        - { text: "A legal ban on spraying", correct: false }
+        - { text: "No change at all", correct: false }
+      explanation: |
+        **More rain and more rot.** The Adriatic edge of Veneto and
+        Friuli feels that humidity.
+
+  - id: nitaly-old-plant-001
+    type: mcq
+    deck: Italy::Northern Italy
+    tags: [italy, northern-italy]
+    status: reviewed
+    source_id: c27-0004
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What density and trellis did old Northern Italian plantings usually use?
+      choices:
+        - { text: "Ultra-dense bush vines, no wires", correct: false }
+        - { text: "High-yielding vines at low density, often on a pergola", correct: true }
+        - { text: "Only indoor greenhouses", correct: false }
+        - { text: "Ungrafted desert plantings", correct: false }
+      explanation: |
+        **High yield, low density, pergola.** The old Soave and
+        Valpolicella picture, before VSP took over.
+
+  - id: nitaly-pergola-001
+    type: mcq
+    deck: Italy::Northern Italy
+    tags: [italy, northern-italy]
+    status: reviewed
+    source_id: c27-0005
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How is fruit hung on a pergola?
+      choices:
+        - { text: "On the ground, like a bush vine", correct: false }
+        - { text: "High up, hanging under a horizontal leaf roof", correct: true }
+        - { text: "Only on a low guyot, fruit at knee height", correct: false }
+        - { text: "There is no canopy", correct: false }
+      explanation: |
+        **High, under a horizontal leaf roof.** Walk a Valpolicella
+        pergola and the bunches sit in the shade.
+
+  - id: nitaly-pergola-sun-001
+    type: mcq
+    deck: Italy::Northern Italy
+    tags: [italy, northern-italy]
+    status: reviewed
+    source_id: c27-0006
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What sun problem is a pergola meant to limit?
+      choices:
+        - { text: "Frost only", correct: false }
+        - { text: "Sunburn on the grapes", correct: true }
+        - { text: "A legal ban on leaves", correct: false }
+        - { text: "It forces more sunburn", correct: false }
+      explanation: |
+        **Sunburn.** The leaf roof shades the bunches in a hot Italian
+        afternoon.
+
+  - id: nitaly-pergola-air-001
+    type: mcq
+    deck: Italy::Northern Italy
+    tags: [italy, northern-italy]
+    status: reviewed
+    source_id: c27-0006
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What rot-related job does a pergola also do?
+      choices:
+        - { text: "It traps humidity against every berry", correct: false }
+        - { text: "It lets air move through, lowering rot risk", correct: true }
+        - { text: "It bans any airflow", correct: false }
+        - { text: "It is only used in deserts", correct: false }
+      explanation: |
+        **Airflow, less rot.** Fruit hangs in a ventilated gap under
+        the leaves.
+
+  - id: nitaly-pergola-sparkling-001
+    type: mcq
+    deck: Italy::Northern Italy
+    tags: [italy, northern-italy]
+    status: reviewed
+    source_id: c27-0007
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: For which fruit style is a pergola still useful in the north?
+      choices:
+        - { text: "Overripe, high-sugar dessert grapes only", correct: false }
+        - { text: "High-acid, low-sugar fruit, as for sparkling bases", correct: true }
+        - { text: "Only dried Amarone grapes, never sparkling", correct: false }
+        - { text: "It is banned on any sparkling grape", correct: false }
+      explanation: |
+        **High acid, low sugar — sparkling bases.** Shade keeps sugar
+        down. Trento and some Prosecco sites still use it.
+
+  - id: nitaly-pergola-appassimento-001
+    type: mcq
+    deck: Italy::Northern Italy
+    tags: [italy, northern-italy]
+    status: reviewed
+    source_id: c27-0007
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Why is a pergola still used for grapes destined to be dried?
+      choices:
+        - { text: "It forces every berry to split", correct: false }
+        - { text: "Healthy, undamaged fruit is easier to dry", correct: true }
+        - { text: "Drying is illegal after a pergola", correct: false }
+        - { text: "It soaks the bunches in fog", correct: false }
+      explanation: |
+        **Clean, undamaged fruit dries better.** Amarone starts in a
+        healthy bunch, not a rotten one.
+
+  - id: nitaly-vsp-001
+    type: mcq
+    deck: Italy::Northern Italy
+    tags: [italy, northern-italy]
+    status: reviewed
+    source_id: c27-0008
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which training system is now the Northern Italian default?
+      choices:
+        - { text: "Only free-standing bush vines", correct: false }
+        - { text: "High-density VSP", correct: true }
+        - { text: "Pergola on every new hectare", correct: false }
+        - { text: "No trellis at all", correct: false }
+      explanation: |
+        **High-density VSP.** Pergola survives for specific jobs; new
+        plantings are usually wires.
+
+  - id: nitaly-aa-where-001
+    type: mcq
+    deck: Italy::Northern Italy
+    tags: [italy, northern-italy, alto-adige]
+    status: reviewed
+    source_id: c27-0009
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which is Italy’s most northerly major wine region, centred on Bolzano?
+      choices:
+        - { text: "Sicily", correct: false }
+        - { text: "Alto Adige", correct: true }
+        - { text: "Puglia", correct: false }
+        - { text: "Campania", correct: false }
+      explanation: |
+        **Alto Adige** (Südtirol), around **Bolzano**, in the Alpine
+        foothills. Valle d’Aosta is further west and tiny by volume.
+
+  - id: nitaly-aa-terraces-001
+    type: mcq
+    deck: Italy::Northern Italy
+    tags: [italy, northern-italy, alto-adige]
+    status: reviewed
+    source_id: c27-0010
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How are Alto Adige vines usually sited in the Adige valley?
+      choices:
+        - { text: "Only on a north-facing valley floor", correct: false }
+        - { text: "On terraces on the south-east and south-west valley sides", correct: true }
+        - { text: "Indoor only", correct: false }
+        - { text: "On a coastal lagoon", correct: false }
+      explanation: |
+        **SE and SW terraces** on the Adige walls. The Bolzano basin
+        floor is warm; frost is the floor risk, not extra coolness.
+
+  - id: nitaly-aa-climate-001
+    type: mcq
+    deck: Italy::Northern Italy
+    tags: [italy, northern-italy, alto-adige, climate]
+    status: reviewed
+    source_id: c27-0011
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which climate description fits Alto Adige?
+      choices:
+        - { text: "Hot, wet tropical, no diurnal swing", correct: false }
+        - { text: "Moderate, short dry summers, low growing-season rain, and a high diurnal range from altitude", correct: true }
+        - { text: "Cool maritime, like Muscadet", correct: false }
+        - { text: "Desert, with no nights", correct: false }
+      explanation: |
+        **Moderate, dry short summers, high diurnal range.** Height
+        does the night-time cooling.
+
+  - id: nitaly-aa-altitude-style-001
+    type: mcq
+    deck: Italy::Northern Italy
+    tags: [italy, northern-italy, alto-adige]
+    status: reviewed
+    source_id: c27-0012
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What styles does Alto Adige’s altitude favour?
+      choices:
+        - { text: "Heavy, baked reds only", correct: false }
+        - { text: "Aromatic whites and elegant, light-bodied reds", correct: true }
+        - { text: "Only sweet fortified Muscat", correct: false }
+        - { text: "Tannic Amarone copies", correct: false }
+      explanation: |
+        **Aromatic whites and light, elegant reds.** Pinot Grigio and
+        Schiava, not a Puglian bake.
+
+  - id: nitaly-aa-pg-001
+    type: mcq
+    deck: Italy::Northern Italy
+    tags: [italy, northern-italy, alto-adige, grapes]
+    status: reviewed
+    source_id: c27-0013
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which white is Alto Adige’s best-known bottle?
+      choices:
+        - { text: "Vermentino", correct: false }
+        - { text: "Pinot Grigio", correct: true }
+        - { text: "Fiano", correct: false }
+        - { text: "Trebbiano Toscano", correct: false }
+      explanation: |
+        **Pinot Grigio.** Gewürztraminer has a local story
+        (Tramin / Termeno); PG is the name on export shelves.
+
+  - id: nitaly-aa-pg-style-001
+    type: mcq
+    deck: Italy::Northern Italy
+    tags: [italy, northern-italy, alto-adige]
+    status: reviewed
+    source_id: c27-0014
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What is typical Alto Adige Pinot Grigio like?
+      choices:
+        - { text: "Full, tropical, and low-acid, like warm-plain Friuli", correct: false }
+        - { text: "Dry, light to medium body, high acid, citrus and green fruit", correct: true }
+        - { text: "Sweet and fortified", correct: false }
+        - { text: "Tannic and gamey", correct: false }
+      explanation: |
+        **Dry, light–medium, high acid, citrus and green fruit.**
+        Cooler and tighter than Veneto-plain PG.
+
+  - id: nitaly-aa-other-whites-001
+    type: mcq
+    deck: Italy::Northern Italy
+    tags: [italy, northern-italy, alto-adige, grapes]
+    status: reviewed
+    source_id: c27-0015
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Besides Pinot Grigio, which three whites still fill Alto Adige tanks?
+      choices:
+        - { text: "Fiano, Greco and Vermentino", correct: false }
+        - { text: "Gewürztraminer, Chardonnay and Pinot Blanc", correct: true }
+        - { text: "Only Trebbiano", correct: false }
+        - { text: "Riesling only, by law", correct: false }
+      explanation: |
+        **Gewürztraminer, Chardonnay and Pinot Blanc.** Tramin is the
+        Gewürz village name.
+
+  - id: nitaly-schiava-001
+    type: mcq
+    deck: Italy::Northern Italy
+    tags: [italy, northern-italy, alto-adige, grapes]
+    status: reviewed
+    source_id: c27-0016
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which red grape still covers the most Alto Adige vineyard?
+      choices:
+        - { text: "Nebbiolo", correct: false }
+        - { text: "Schiava", correct: true }
+        - { text: "Sangiovese", correct: false }
+        - { text: "Aglianico", correct: false }
+      explanation: |
+        **Schiava** (Vernatsch). Lagrein and Pinot Nero are the
+        serious minority; Schiava still owns the hectares.
+
+  - id: nitaly-schiava-style-001
+    type: mcq
+    deck: Italy::Northern Italy
+    tags: [italy, northern-italy, alto-adige]
+    status: reviewed
+    source_id: c27-0017
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What is typical Alto Adige Schiava like?
+      choices:
+        - { text: "Full, tannic, and built like Barolo", correct: false }
+        - { text: "Light, fruity, low-to-medium tannin, raspberry and plum", correct: true }
+        - { text: "Sweet and fortified", correct: false }
+        - { text: "Always a white wine", correct: false }
+      explanation: |
+        **Light, fruity, low–medium tannin, raspberry and plum.**
+        A lunch red, not a cellar tannin bomb.
+
+  - id: nitaly-aa-doc-001
+    type: mcq
+    deck: Italy::Northern Italy
+    tags: [italy, northern-italy, alto-adige]
+    status: reviewed
+    source_id: c27-0018
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which DOC umbrella covers almost every Alto Adige bottle?
+      choices:
+        - { text: "Barolo DOCG", correct: false }
+        - { text: "Alto Adige DOC", correct: true }
+        - { text: "Chianti Classico DOCG", correct: false }
+        - { text: "Only IGT delle Venezie", correct: false }
+      explanation: |
+        **Alto Adige DOC.** Village or grape names can sit under that
+        umbrella; it is still one DOC.
+
+  - id: nitaly-trentino-where-001
+    type: mcq
+    deck: Italy::Northern Italy
+    tags: [italy, northern-italy, trentino]
+    status: reviewed
+    source_id: c27-0019
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Where is Trentino relative to Alto Adige?
+      choices:
+        - { text: "North of Bolzano, in Austria", correct: false }
+        - { text: "Directly south of Alto Adige", correct: true }
+        - { text: "On Sicily", correct: false }
+        - { text: "West of Bordeaux", correct: false }
+      explanation: |
+        **Directly south**, still on the Adige, around Trento.
+
+  - id: nitaly-trentino-wider-001
+    type: mcq
+    deck: Italy::Northern Italy
+    tags: [italy, northern-italy, trentino]
+    status: reviewed
+    source_id: c27-0020
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How does the Trentino valley sit next to Alto Adige’s?
+      choices:
+        - { text: "Narrower and steeper", correct: false }
+        - { text: "Wider", correct: true }
+        - { text: "It is a coastal lagoon", correct: false }
+        - { text: "There is no valley", correct: false }
+      explanation: |
+        **Wider.** More floor, more mid-slope, less of a gorge.
+
+  - id: nitaly-trentino-sites-001
+    type: mcq
+    deck: Italy::Northern Italy
+    tags: [italy, northern-italy, trentino]
+    status: reviewed
+    source_id: c27-0021
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which parts of the Trentino valley carry vines?
+      choices:
+        - { text: "Only above the snow line", correct: false }
+        - { text: "On the floor and on both valley sides", correct: true }
+        - { text: "Indoor only", correct: false }
+        - { text: "Only on a sea cliff", correct: false }
+      explanation: |
+        **Floor and both sides.** The floor is warmer and broader than
+        up in Alto Adige.
+
+  - id: nitaly-trentino-climate-001
+    type: mcq
+    deck: Italy::Northern Italy
+    tags: [italy, northern-italy, trentino, climate]
+    status: reviewed
+    source_id: c27-0022
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How does Trentino’s climate sit next to Alto Adige’s?
+      choices:
+        - { text: "Much cooler and wetter", correct: false }
+        - { text: "Still moderate and dry in summer, but a little warmer", correct: true }
+        - { text: "Tropical and monsoon", correct: false }
+        - { text: "Identical in every degree", correct: false }
+      explanation: |
+        **Same moderate dry-summer pattern, a little warmer.** Latitude
+        and lower sites do that.
+
+  - id: nitaly-trentino-warmer-001
+    type: mcq
+    deck: Italy::Northern Italy
+    tags: [italy, northern-italy, trentino, climate]
+    status: reviewed
+    source_id: c27-0023
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What two map facts make Trentino warmer than Alto Adige?
+      choices:
+        - { text: "It is further north and higher", correct: false }
+        - { text: "It is further south, and many vines sit at lower altitude", correct: true }
+        - { text: "INAO heats the valley", correct: false }
+        - { text: "It has no mountains at all", correct: false }
+      explanation: |
+        **Further south, lower sites.** Western hills also blunt some
+        of Lake Garda’s cooling on parts of the valley.
+
+  - id: nitaly-trentino-whites-001
+    type: mcq
+    deck: Italy::Northern Italy
+    tags: [italy, northern-italy, trentino, grapes]
+    status: reviewed
+    source_id: c27-0024
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which two grapes lead Trentino plantings?
+      choices:
+        - { text: "Nebbiolo and Barbera", correct: false }
+        - { text: "Chardonnay and Pinot Grigio", correct: true }
+        - { text: "Aglianico and Primitivo", correct: false }
+        - { text: "Only Schiava", correct: false }
+      explanation: |
+        **Chardonnay and Pinot Grigio.** A lot of the Chardonnay feeds
+        Trento sparkling.
+
+  - id: nitaly-trentino-floor-001
+    type: mcq
+    deck: Italy::Northern Italy
+    tags: [italy, northern-italy, trentino]
+    status: reviewed
+    source_id: c27-0025
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What are valley-floor Trentino whites usually like?
+      choices:
+        - { text: "Bone-dry, 11%, and green only", correct: false }
+        - { text: "Medium body, medium acid, ripe stone fruit", correct: true }
+        - { text: "Sweet and fortified", correct: false }
+        - { text: "Tannic red", correct: false }
+      explanation: |
+        **Medium, medium acid, ripe stone fruit.** Warmer floor, riper
+        fruit than a high Alto Adige terrace.
+
+  - id: nitaly-trentino-high-001
+    type: mcq
+    deck: Italy::Northern Italy
+    tags: [italy, northern-italy, trentino]
+    status: reviewed
+    source_id: c27-0026
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What happens to Trentino whites as the vines climb?
+      choices:
+        - { text: "They become baked and jammy", correct: false }
+        - { text: "They move closer to Alto Adige’s tighter white style", correct: true }
+        - { text: "They must be red", correct: false }
+        - { text: "Altitude is illegal in Trentino", correct: false }
+      explanation: |
+        **Closer to Alto Adige whites** — more acid, less stone-fruit
+        ripeness.
+
+  - id: nitaly-trentino-reds-001
+    type: mcq
+    deck: Italy::Northern Italy
+    tags: [italy, northern-italy, trentino, grapes]
+    status: reviewed
+    source_id: c27-0027
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which pair of black grapes fills most Trentino red hectares?
+      choices:
+        - { text: "Nebbiolo and Sangiovese", correct: false }
+        - { text: "Merlot and Teroldego", correct: true }
+        - { text: "Aglianico and Nero d’Avola", correct: false }
+        - { text: "Only Pinot Noir, by law", correct: false }
+      explanation: |
+        **Merlot and Teroldego.** Teroldego is the local; Merlot is
+        the international filler.
+
+  - id: nitaly-teroldego-site-001
+    type: mcq
+    deck: Italy::Northern Italy
+    tags: [italy, northern-italy, trentino]
+    status: reviewed
+    source_id: c27-0028
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: On which Trentino land do Merlot and Teroldego usually sit?
+      choices:
+        - { text: "Only above 1,200 m", correct: false }
+        - { text: "Mid-slopes and the valley floor", correct: true }
+        - { text: "Indoor only", correct: false }
+        - { text: "Only on a sea cliff", correct: false }
+      explanation: |
+        **Mid-slopes and floor.** Teroldego Rotaliano sits on the
+        Campo Rotaliano flat.
+
+  - id: nitaly-teroldego-style-001
+    type: mcq
+    deck: Italy::Northern Italy
+    tags: [italy, northern-italy, trentino]
+    status: reviewed
+    source_id: c27-0029
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What is typical Trentino Teroldego like?
+      choices:
+        - { text: "Pale, low tannin, and floral only", correct: false }
+        - { text: "Medium to full, deep colour, medium-to-high tannin, high acid, black fruit, usually oak-aged", correct: true }
+        - { text: "Sweet and fortified", correct: false }
+        - { text: "A light Schiava picnic wine", correct: false }
+      explanation: |
+        **Deep, medium–full, tannic, high acid, black fruit, usually
+        oak.** **Foradori** is the named checkable bottle.
+
+  - id: nitaly-trentino-doc-001
+    type: mcq
+    deck: Italy::Northern Italy
+    tags: [italy, northern-italy, trentino]
+    status: reviewed
+    source_id: c27-0030
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Under which name are most Trentino still wines labelled?
+      choices:
+        - { text: "Barolo DOCG", correct: false }
+        - { text: "Trentino DOC", correct: true }
+        - { text: "Chianti Classico DOCG", correct: false }
+        - { text: "Only IGT Sicilia", correct: false }
+      explanation: |
+        **Trentino DOC.** Trento DOC is the sparkling name; do not
+        mix the two.
+
+  - id: nitaly-friuli-where-001
+    type: mcq
+    deck: Italy::Northern Italy
+    tags: [italy, northern-italy, friuli]
+    status: reviewed
+    source_id: c27-0031
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: In which corner of Italy is Friuli-Venezia Giulia?
+      choices:
+        - { text: "The south-west, by Sicily", correct: false }
+        - { text: "The north-eastern corner", correct: true }
+        - { text: "Only inside Rome", correct: false }
+        - { text: "West of Piedmont", correct: false }
+      explanation: |
+        **North-east**, against Slovenia and the Adriatic.
+
+  - id: nitaly-friuli-alps-001
+    type: mcq
+    deck: Italy::Northern Italy
+    tags: [italy, northern-italy, friuli]
+    status: reviewed
+    source_id: c27-0032
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Where do Friuli’s most northerly vines sit?
+      choices:
+        - { text: "On a Sicilian beach", correct: false }
+        - { text: "In the Alpine foothills", correct: true }
+        - { text: "Only in the Po delta", correct: false }
+        - { text: "Indoor only", correct: false }
+      explanation: |
+        **Alpine foothills** — Collio and Colli Orientali, not the
+        Grave plain.
+
+  - id: nitaly-friuli-climate-001
+    type: mcq
+    deck: Italy::Northern Italy
+    tags: [italy, northern-italy, friuli, climate]
+    status: reviewed
+    source_id: c27-0033
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How does Friuli’s climate change from the hills to the Adriatic plain?
+      choices:
+        - { text: "It is tropical everywhere", correct: false }
+        - { text: "Moderate continental in the hills, cooled by mountain air; warmer maritime on the flat near the sea", correct: true }
+        - { text: "Desert only", correct: false }
+        - { text: "Identical from hill to shore", correct: false }
+      explanation: |
+        **Continental hills, warmer maritime plain.** Collio vs Friuli
+        Grave in one sentence.
+
+  - id: nitaly-friuli-many-001
+    type: mcq
+    deck: Italy::Northern Italy
+    tags: [italy, northern-italy, friuli, grapes]
+    status: reviewed
+    source_id: c27-0034
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How narrow is Friuli’s grape list?
+      choices:
+        - { text: "One grape only, like Cornas", correct: false }
+        - { text: "A wide mix of local and international varieties", correct: true }
+        - { text: "Only Nebbiolo", correct: false }
+        - { text: "No Vitis vinifera", correct: false }
+      explanation: |
+        **A wide mix.** Pinot Grigio and Merlot lead; Friulano,
+        Ribolla and Sauvignon sit beside them.
+
+  - id: nitaly-friuli-ripe-001
+    type: mcq
+    deck: Italy::Northern Italy
+    tags: [italy, northern-italy, friuli]
+    status: reviewed
+    source_id: c27-0035
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What overall fruit shape does Friuli usually aim for?
+      choices:
+        - { text: "Green, lean, and always sparkling", correct: false }
+        - { text: "Rich, ripe whites and reds", correct: true }
+        - { text: "Only sweet fortified", correct: false }
+        - { text: "Light Schiava only", correct: false }
+      explanation: |
+        **Rich, ripe whites and reds.** Warmer than Alto Adige; the
+        hills still keep freshness.
+
+  - id: nitaly-friuli-lead-001
+    type: mcq
+    deck: Italy::Northern Italy
+    tags: [italy, northern-italy, friuli, grapes]
+    status: reviewed
+    source_id: c27-0036
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which two grapes are the most planted in Friuli?
+      choices:
+        - { text: "Nebbiolo and Barbera", correct: false }
+        - { text: "Pinot Grigio and Merlot", correct: true }
+        - { text: "Aglianico and Primitivo", correct: false }
+        - { text: "Only Ribolla Gialla", correct: false }
+      explanation: |
+        **Pinot Grigio and Merlot.** Friulano is the named local
+        third.
+
+  - id: nitaly-friuli-pg-001
+    type: mcq
+    deck: Italy::Northern Italy
+    tags: [italy, northern-italy, friuli]
+    status: reviewed
+    source_id: c27-0037
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How does Friuli Pinot Grigio usually sit next to Alto Adige’s?
+      choices:
+        - { text: "Leaner, greener, and higher acid", correct: false }
+        - { text: "Among Italy’s richest — medium to full, with juicy peach and tropical fruit", correct: true }
+        - { text: "Always sparkling", correct: false }
+        - { text: "Always a red wine", correct: false }
+      explanation: |
+        **Richer, peach and tropical.** Alto Adige stays citrus and
+        green; Friuli fills out.
+
+  - id: nitaly-friuli-merlot-lead-001
+    type: mcq
+    deck: Italy::Northern Italy
+    tags: [italy, northern-italy, friuli, grapes]
+    status: reviewed
+    source_id: c27-0038
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which black grape covers the most Friuli vineyard?
+      choices:
+        - { text: "Nebbiolo", correct: false }
+        - { text: "Merlot", correct: true }
+        - { text: "Sangiovese", correct: false }
+        - { text: "Aglianico", correct: false }
+      explanation: |
+        **Merlot.** The international red of the plain and many hill
+        blends.
+
+  - id: nitaly-friuli-merlot-style-001
+    type: mcq
+    deck: Italy::Northern Italy
+    tags: [italy, northern-italy, friuli]
+    status: reviewed
+    source_id: c27-0039
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What is typical Friuli Merlot like?
+      choices:
+        - { text: "Full, tannic, and built like Barolo", correct: false }
+        - { text: "Medium body, medium acid, medium tannin, ripe red fruit, a hint of oak spice", correct: true }
+        - { text: "Sweet and fortified", correct: false }
+        - { text: "A pale Schiava copy", correct: false }
+      explanation: |
+        **Medium, ripe red fruit, a little oak spice.** Not a Right
+        Bank clone, not a mountain Nebbiolo.
+
+  - id: nitaly-friulano-001
+    type: mcq
+    deck: Italy::Northern Italy
+    tags: [italy, northern-italy, friuli, grapes]
+    status: reviewed
+    source_id: c27-0040
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which local white is Friuli’s usual third grape after Pinot Grigio and Merlot?
+      choices:
+        - { text: "Fiano", correct: false }
+        - { text: "Friulano", correct: true }
+        - { text: "Vermentino", correct: false }
+        - { text: "Trebbiano Toscano", correct: false }
+      explanation: |
+        **Friulano** (the old Tocai name). Pear, red apple and herbs
+        in a medium, fresh white.
+
+  - id: nitaly-friulano-style-001
+    type: mcq
+    deck: Italy::Northern Italy
+    tags: [italy, northern-italy, friuli]
+    status: reviewed
+    source_id: c27-0040
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What is typical Friulano like in the glass?
+      choices:
+        - { text: "Full, oxidative, and peachy, like Grenache Blanc", correct: false }
+        - { text: "A medium-bodied white with medium-to-high acid and pear, red apple and herb notes", correct: true }
+        - { text: "Tannic and gamey", correct: false }
+        - { text: "Sweet and fortified", correct: false }
+      explanation: |
+        **Medium, medium–high acid, pear, red apple, herbs.** Not
+        Pinot Grigio’s peach, not a Sauvignon bomb.
+
+  - id: nitaly-grave-label-001
+    type: mcq
+    deck: Italy::Northern Italy
+    tags: [italy, northern-italy, friuli]
+    status: reviewed
+    source_id: c27-0041
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Under which DOC are Friuli’s plain wines usually labelled?
+      choices:
+        - { text: "Barolo DOCG", correct: false }
+        - { text: "Friuli Grave DOC", correct: true }
+        - { text: "Chianti Classico DOCG", correct: false }
+        - { text: "Alto Adige DOC", correct: false }
+      explanation: |
+        **Friuli Grave DOC** — the gravelly plain, not the Collio
+        hills.
+
+  - id: nitaly-grave-style-001
+    type: mcq
+    deck: Italy::Northern Italy
+    tags: [italy, northern-italy, friuli]
+    status: reviewed
+    source_id: c27-0041
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What style do Friuli Grave whites usually take?
+      choices:
+        - { text: "Premium, concentrated hill whites", correct: false }
+        - { text: "Simple, fruity whites", correct: true }
+        - { text: "Tannic red only", correct: false }
+        - { text: "Sweet VDN", correct: false }
+      explanation: |
+        **Simple, fruity whites.** Volume Pinot Grigio country.
+
+  - id: nitaly-collio-pair-001
+    type: mcq
+    deck: Italy::Northern Italy
+    tags: [italy, northern-italy, friuli]
+    status: reviewed
+    source_id: c27-0042
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which two Friuli DOCs sit in the hills?
+      choices:
+        - { text: "Barolo and Barbaresco", correct: false }
+        - { text: "Collio and Colli Orientali", correct: true }
+        - { text: "Chianti and Brunello", correct: false }
+        - { text: "Etna and Cerasuolo di Vittoria", correct: false }
+      explanation: |
+        **Collio and Colli Orientali del Friuli.** The quality hill
+        pair, against Slovenia.
+
+  - id: nitaly-collio-style-001
+    type: mcq
+    deck: Italy::Northern Italy
+    tags: [italy, northern-italy, friuli]
+    status: reviewed
+    source_id: c27-0042
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What white style do Collio and Colli Orientali usually make?
+      choices:
+        - { text: "Simple, dilute plain wine", correct: false }
+        - { text: "Premium, more concentrated whites", correct: true }
+        - { text: "Only sparkling Prosecco", correct: false }
+        - { text: "Sweet fortified only", correct: false }
+      explanation: |
+        **Premium, more concentrated whites.** Jermann and the Collio
+        names live here.
+
+  - id: nitaly-colli-orientali-red-001
+    type: mcq
+    deck: Italy::Northern Italy
+    tags: [italy, northern-italy, friuli]
+    status: reviewed
+    source_id: c27-0043
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which of the two Friuli hill DOCs is also noted for red?
+      choices:
+        - { text: "Collio only", correct: false }
+        - { text: "Colli Orientali", correct: true }
+        - { text: "Friuli Grave only", correct: false }
+        - { text: "Neither may bottle red", correct: false }
+      explanation: |
+        **Colli Orientali** — Schioppettino, Refosco, Pignolo. Collio
+        is the white specialist.
+
+  - id: nitaly-veneto-size-001
+    type: mcq
+    deck: Italy::Northern Italy
+    tags: [italy, northern-italy, veneto]
+    status: reviewed
+    source_id: c27-0044
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which northern region is Italy’s volume engine?
+      choices:
+        - { text: "Valle d’Aosta", correct: false }
+        - { text: "Veneto", correct: true }
+        - { text: "Alto Adige only", correct: false }
+        - { text: "Liguria", correct: false }
+      explanation: |
+        **Veneto** — Prosecco, Pinot Grigio, Valpolicella. The volume
+        engine of the north.
+
+  - id: nitaly-veneto-map-001
+    type: mcq
+    deck: Italy::Northern Italy
+    tags: [italy, northern-italy, veneto]
+    status: reviewed
+    source_id: c27-0045
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How far does Veneto stretch?
+      choices:
+        - { text: "Only the island of Elba", correct: false }
+        - { text: "From the south end of Lake Garda to Venice, and from Alpine foothills to the Po plain", correct: true }
+        - { text: "Only inside Bolzano", correct: false }
+        - { text: "Sicily to Calabria", correct: false }
+      explanation: |
+        **Garda to Venice, Alps to the Po.** Soave and Valpolicella
+        on the hills; Pinot Grigio on the flats.
+
+  - id: nitaly-veneto-climate-001
+    type: mcq
+    deck: Italy::Northern Italy
+    tags: [italy, northern-italy, veneto, climate]
+    status: reviewed
+    source_id: c27-0046
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which climate description fits Veneto?
+      choices:
+        - { text: "Cool, wet, and always alpine", correct: false }
+        - { text: "Warm, with moderate rain; altitude and, in the west, Lake Garda add cooling and a high diurnal range", correct: true }
+        - { text: "Desert, no rain", correct: false }
+        - { text: "Tropical monsoon", correct: false }
+      explanation: |
+        **Warm, moderate rain, altitude and Garda cooling.** The hills
+        keep nights cool; the plain does not.
+
+  - id: nitaly-veneto-fog-001
+    type: mcq
+    deck: Italy::Northern Italy
+    tags: [italy, northern-italy, veneto, climate]
+    status: reviewed
+    source_id: c27-0047
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What extra weather sits on Veneto’s flat plain?
+      choices:
+        - { text: "Permanent ice", correct: false }
+        - { text: "Moist air and fog from the Po", correct: true }
+        - { text: "A Breton sea breeze only", correct: false }
+        - { text: "There is no humidity", correct: false }
+      explanation: |
+        **Po moisture and fog.** That is why the plain needs more
+        spraying than a breezy hill.
+
+  - id: nitaly-veneto-spray-001
+    type: mcq
+    deck: Italy::Northern Italy
+    tags: [italy, northern-italy, veneto]
+    status: reviewed
+    source_id: c27-0048
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What does Po fog and moisture force on Veneto’s plain growers?
+      choices:
+        - { text: "A legal ban on any spray", correct: false }
+        - { text: "More spraying against disease and rot", correct: true }
+        - { text: "No canopy work at all", correct: false }
+        - { text: "Only desert irrigation", correct: false }
+      explanation: |
+        **More spraying.** Fog plus fertile soils is a fungus
+        invitation.
+
+  - id: nitaly-veneto-plain-vol-001
+    type: mcq
+    deck: Italy::Northern Italy
+    tags: [italy, northern-italy, veneto]
+    status: reviewed
+    source_id: c27-0049
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What price-and-volume slot do Veneto’s fertile flats fill?
+      choices:
+        - { text: "Tiny-production grand cru only", correct: false }
+        - { text: "Inexpensive, high-volume bottles", correct: true }
+        - { text: "Only Amarone", correct: false }
+        - { text: "Only sweet Recioto", correct: false }
+      explanation: |
+        **Inexpensive, high-volume wine.** IGT delle Venezie Pinot
+        Grigio is the loud example.
+
+  - id: nitaly-veneto-intl-001
+    type: mcq
+    deck: Italy::Northern Italy
+    tags: [italy, northern-italy, veneto, grapes]
+    status: reviewed
+    source_id: c27-0050
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which international grapes dominate Veneto’s plain?
+      choices:
+        - { text: "Riesling, Pinot Gris and Syrah only", correct: false }
+        - { text: "Pinot Grigio, Chardonnay and Merlot", correct: true }
+        - { text: "Cabernet Franc only", correct: false }
+        - { text: "Only Nebbiolo", correct: false }
+      explanation: |
+        **Pinot Grigio, Chardonnay and Merlot.** The supermarket trio.
+
+  - id: nitaly-veneto-local-001
+    type: mcq
+    deck: Italy::Northern Italy
+    tags: [italy, northern-italy, veneto, grapes]
+    status: reviewed
+    source_id: c27-0050
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which local grapes still sit on Veneto’s fertile plain?
+      choices:
+        - { text: "Schiava only", correct: false }
+        - { text: "Corvina, Garganega and Trebbiano", correct: true }
+        - { text: "Aglianico only", correct: false }
+        - { text: "No local grapes are legal", correct: false }
+      explanation: |
+        **Corvina, Garganega and Trebbiano.** The Valpolicella and
+        Soave grapes, grown cheap when the site is a flat field.
