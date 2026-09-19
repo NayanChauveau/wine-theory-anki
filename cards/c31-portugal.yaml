@@ -2,4 +2,1239 @@
 # source: C31 (import/inbox/c31-portugal.yaml)
 # deck: Portugal
 
-cards: []
+cards:
+  - id: portugal-climate-range-001
+    type: mcq
+    deck: Portugal
+    tags: [portugal, climate]
+    status: reviewed
+    source_id: c31-0001
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which climate pattern does Portugal show from the Atlantic coast to the inland valleys?
+      choices:
+        - { text: "A maritime belt along much of the country, and hot, dry continental weather inland", correct: true }
+        - { text: "Only cool alpine weather, like Savoie", correct: false }
+        - { text: "A single hot desert climate in every DOC", correct: false }
+        - { text: "Only a polar growing season", correct: false }
+      explanation: |
+        **A maritime belt along much of the country, and hot, dry
+        continental weather inland.** The west feels the Atlantic;
+        the Douro Superior and inland plains bake.
+
+  - id: portugal-heat-moderate-001
+    type: mcq
+    deck: Portugal
+    tags: [portugal, climate]
+    status: reviewed
+    source_id: c31-0002
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What two factors take the edge off high summer temperatures in Portuguese vineyards?
+      choices:
+        - { text: "Indoor air-con only", correct: false }
+        - { text: "The Atlantic, and altitude", correct: true }
+        - { text: "A legal ban on sunshine", correct: false }
+        - { text: "The Humboldt Current", correct: false }
+      explanation: |
+        **The Atlantic, and altitude.** Sea air cools the west;
+        height cools inland slopes.
+
+  - id: portugal-style-diversity-001
+    type: mcq
+    deck: Portugal
+    tags: [portugal, climate]
+    status: reviewed
+    source_id: c31-0003
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What climatic contrast helps explain Portugal's wide range of still-wine styles?
+      choices:
+        - { text: "Identical temperatures in every DOC", correct: false }
+        - { text: "A legal cap of one style per country", correct: false }
+        - { text: "Large temperature differences from the wet coast to the hot interior", correct: true }
+        - { text: "No summer heat anywhere", correct: false }
+      explanation: |
+        **Large temperature differences from the wet coast to the
+        hot interior.** Vinho Verde and inland Alentejo do not share
+        a growing season.
+
+  - id: portugal-vinho-verde-where-001
+    type: mcq
+    deck: Portugal
+    tags: [portugal, vinho-verde]
+    status: reviewed
+    source_id: c31-0004
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: In which part of Portugal does the Vinho Verde region sit?
+      choices:
+        - { text: "Only on the Alentejo plains", correct: false }
+        - { text: "In the north-west, in the Minho", correct: true }
+        - { text: "On Madeira alone", correct: false }
+        - { text: "Only in the Douro gorge", correct: false }
+      explanation: |
+        **In the north-west, in the Minho.** Vinho Verde is a place
+        name, not a synonym for unripe “green” wine.
+
+  - id: portugal-vv-maritime-001
+    type: mcq
+    deck: Portugal
+    tags: [portugal, vinho-verde, climate]
+    status: reviewed
+    source_id: c31-0005
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Sitting on the rainy Minho coast, Vinho Verde sits in which climate class?
+      choices:
+        - { text: "Hot continental, like the Douro Superior", correct: false }
+        - { text: "Moderate maritime", correct: true }
+        - { text: "High alpine ice", correct: false }
+        - { text: "A rainless desert", correct: false }
+      explanation: |
+        **Moderate maritime.** Cool-to-moderate Atlantic weather,
+        not inland Douro heat and not Port-lodge ageing.
+
+  - id: portugal-vv-atlantic-001
+    type: mcq
+    deck: Portugal
+    tags: [portugal, vinho-verde, climate]
+    status: reviewed
+    source_id: c31-0005
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Why is the Vinho Verde region's climate moderate and maritime?
+      choices:
+        - { text: "Because the Serra da Estrela blocks every cloud", correct: false }
+        - { text: "Because the vineyards sit in southern Alentejo", correct: false }
+        - { text: "Because the vineyards sit close to the Atlantic", correct: true }
+        - { text: "Because a law bans wind", correct: false }
+      explanation: |
+        **Because the vineyards sit close to the Atlantic.** The
+        Minho coast is open to ocean weather.
+
+  - id: portugal-vv-rainfall-001
+    type: mcq
+    deck: Portugal
+    tags: [portugal, vinho-verde, climate]
+    status: reviewed
+    source_id: c31-0006
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Compared with inland Portugal, what water fact defines the Minho vineyard year?
+      choices:
+        - { text: "Extreme drought, like southern Alentejo", correct: false }
+        - { text: "High annual rainfall", correct: true }
+        - { text: "Permanent frost", correct: false }
+        - { text: "No humidity at all", correct: false }
+      explanation: |
+        **High annual rainfall.** That wet Minho year is the
+        vineyard problem, not Port pipe ageing.
+
+  - id: portugal-vv-rain-risks-001
+    type: mcq
+    deck: Portugal
+    tags: [portugal, vinho-verde]
+    status: reviewed
+    source_id: c31-0007
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Wet Minho summers push Vinho Verde growers to fight which two problems?
+      choices:
+        - { text: "Excessive canopy growth, and disease pressure", correct: true }
+        - { text: "Only sunburn, and no disease", correct: false }
+        - { text: "A legal ban on leaves", correct: false }
+        - { text: "Permanent drought", correct: false }
+      explanation: |
+        **Excessive canopy growth, and disease pressure.** Water
+        pushes shoots; humidity pushes rot and mildew.
+
+  - id: portugal-vv-canopy-001
+    type: mcq
+    deck: Portugal
+    tags: [portugal, vinho-verde]
+    status: reviewed
+    source_id: c31-0008
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: In the wet Minho, what vineyard tool keeps canopies open and fruit healthier?
+      choices:
+        - { text: "A ban on all pruning", correct: false }
+        - { text: "Moving the DOC to Alentejo", correct: false }
+        - { text: "Effective canopy management", correct: true }
+        - { text: "Fortifying every wine as Port", correct: false }
+      explanation: |
+        **Effective canopy management.** Open the leaf wall so air
+        can dry the fruit.
+
+  - id: portugal-vv-pergola-001
+    type: mcq
+    deck: Portugal
+    tags: [portugal, vinho-verde]
+    status: reviewed
+    source_id: c31-0009
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which traditional training have modern Vinho Verde vineyards largely left behind?
+      choices:
+        - { text: "Only low bush vines, like Priorat", correct: false }
+        - { text: "Pergola (high ramada) training", correct: true }
+        - { text: "Only icewine wires", correct: false }
+        - { text: "Hydroponics only", correct: false }
+      explanation: |
+        **Pergola (high ramada) training.** Old Minho vines hung
+        high; newer blocks dropped that roof.
+
+  - id: portugal-vv-vsp-001
+    type: mcq
+    deck: Portugal
+    tags: [portugal, vinho-verde]
+    status: reviewed
+    source_id: c31-0010
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which training and pruning system is now typical in Vinho Verde?
+      choices:
+        - { text: "Only unrepaired pergola", correct: false }
+        - { text: "Goblet with no wires", correct: false }
+        - { text: "No training at all", correct: false }
+        - { text: "Spur-pruned vertical shoot positioning (VSP)", correct: true }
+      explanation: |
+        **Spur-pruned vertical shoot positioning (VSP).** A wired
+        hedge, not a ramada roof.
+
+  - id: portugal-vv-vsp-why-001
+    type: mcq
+    deck: Portugal
+    tags: [portugal, vinho-verde]
+    status: reviewed
+    source_id: c31-0010
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Why did Vinho Verde growers adopt spur-pruned VSP?
+      choices:
+        - { text: "To force every wine into a Port pipe", correct: false }
+        - { text: "To open the canopy for airflow, healthier fruit, and mechanisation", correct: true }
+        - { text: "To raise humidity around the fruit", correct: false }
+        - { text: "To ban machines from the vineyard", correct: false }
+      explanation: |
+        **To open the canopy for airflow, healthier fruit, and
+        mechanisation.** Dry fruit, cleaner grapes, tractor rows.
+
+  - id: portugal-vv-classic-001
+    type: mcq
+    deck: Portugal
+    tags: [portugal, vinho-verde]
+    status: reviewed
+    source_id: c31-0011
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What is classic generic Vinho Verde white like in the glass?
+      choices:
+        - { text: "Deep gold, low acid, and 15% alcohol", correct: false }
+        - { text: "Pale lemon, high acidity, and low alcohol, about 8% to 11.5%", correct: true }
+        - { text: "A 20-year tawny, aged in pipe", correct: false }
+        - { text: "Inky, tannic, and built like Baga", correct: false }
+      explanation: |
+        **Pale lemon, high acidity, and low alcohol, about 8% to
+        11.5%.** That is the light generic bottle, not Alvarinho
+        from Monção e Melgaço.
+
+  - id: portugal-vv-offdry-001
+    type: mcq
+    deck: Portugal
+    tags: [portugal, vinho-verde]
+    status: reviewed
+    source_id: c31-0011
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: When a classic Vinho Verde white sits at the low-alcohol end, how dry is it usually?
+      choices:
+        - { text: "Always bone-dry, like a Grand Cru Riesling", correct: false }
+        - { text: "Always a 20% Port", correct: false }
+        - { text: "Off-dry", correct: true }
+        - { text: "Always a late-harvest sticky", correct: false }
+      explanation: |
+        **Off-dry.** A little sugar softens the high acid at 8–9%
+        alcohol. Drier, stronger bottles wear a variety or
+        sub-region name.
+
+  - id: portugal-vv-label-cue-001
+    type: mcq
+    deck: Portugal
+    tags: [portugal, vinho-verde]
+    status: reviewed
+    source_id: c31-0012
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How can a label signal a fuller Vinho Verde than the classic light style?
+      choices:
+        - { text: "By writing Vintage Port", correct: false }
+        - { text: "By omitting any place name", correct: false }
+        - { text: "By naming a grape variety, a sub-region, or an authorised quality term", correct: true }
+        - { text: "By claiming Madeira", correct: false }
+      explanation: |
+        **By naming a grape variety, a sub-region, or an authorised
+        quality term.** Those words mark a different, riper bottling.
+
+  - id: portugal-vv-label-abv-001
+    type: mcq
+    deck: Portugal
+    tags: [portugal, vinho-verde]
+    status: reviewed
+    source_id: c31-0012
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: If a Vinho Verde label names a variety, a sub-region, or a quality term, how high may the alcohol go?
+      choices:
+        - { text: "Stuck at 8% by law", correct: false }
+        - { text: "Up to about 14%", correct: true }
+        - { text: "20%, like Port", correct: false }
+        - { text: "Alcohol is banned on those labels", correct: false }
+      explanation: |
+        **Up to about 14%.** Generic light Vinho Verde stays lower;
+        a named variety or sub-region can climb.
+
+  - id: portugal-vv-grapes-001
+    type: mcq
+    deck: Portugal
+    tags: [portugal, vinho-verde, grapes]
+    status: reviewed
+    source_id: c31-0013
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which local white grapes usually make generic Vinho Verde, rather than the Alvarinho specialty?
+      choices:
+        - { text: "Only Alvarinho from every parish", correct: false }
+        - { text: "Loureiro and Arinto", correct: true }
+        - { text: "Only Encruzado", correct: false }
+        - { text: "Only Palomino", correct: false }
+      explanation: |
+        **Loureiro and Arinto.** Alvarinho is a Monção e Melgaço
+        specialty, not the default blend for the whole Minho.
+
+  - id: portugal-vv-spritz-001
+    type: mcq
+    deck: Portugal
+    tags: [portugal, vinho-verde]
+    status: reviewed
+    source_id: c31-0014
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What traditional texture marks many white Vinho Verde wines?
+      choices:
+        - { text: "Flor, like Fino", correct: false }
+        - { text: "A slight spritz that lifts the freshness", correct: true }
+        - { text: "Ten years in pipe, like tawny Port", correct: false }
+        - { text: "Heavy new-oak cream only", correct: false }
+      explanation: |
+        **A slight spritz that lifts the freshness.** A prickle,
+        not Champagne-method foam and not Port oxidation.
+
+  - id: portugal-alvarinho-subregion-001
+    type: mcq
+    deck: Portugal
+    tags: [portugal, vinho-verde, grapes]
+    status: reviewed
+    source_id: c31-0015
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: The historic specialty home of varietal Alvarinho in Vinho Verde is which sub-region?
+      choices:
+        - { text: "Anywhere in Alentejo", correct: false }
+        - { text: "Only in Bairrada", correct: false }
+        - { text: "Monção e Melgaço", correct: true }
+        - { text: "In the Douro Superior only", correct: false }
+      explanation: |
+        **Monção e Melgaço.** That is still the prestige address
+        and the name you see with Alvarinho on the label; since the
+        mid-2010s the grape may also be bottled as varietal Vinho
+        Verde from other sub-regions.
+
+  - id: portugal-alvarinho-style-001
+    type: mcq
+    deck: Portugal
+    tags: [portugal, vinho-verde, grapes]
+    status: reviewed
+    source_id: c31-0016
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How does Vinho Verde Alvarinho usually sit next to a generic Loureiro–Arinto Vinho Verde?
+      choices:
+        - { text: "Lower alcohol and greener fruit", correct: false }
+        - { text: "Slightly higher alcohol, with riper, more tropical aromas", correct: true }
+        - { text: "Always fortified as white Port", correct: false }
+        - { text: "Always red and tannic", correct: false }
+      explanation: |
+        **Slightly higher alcohol, with riper, more tropical
+        aromas.** Warmer, drier Monção e Melgaço, not the light
+        spritzy generic.
+
+  - id: portugal-vv-colours-001
+    type: mcq
+    deck: Portugal
+    tags: [portugal, vinho-verde]
+    status: reviewed
+    source_id: c31-0017
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Besides white wine, which colours does the Vinho Verde region also bottle?
+      choices:
+        - { text: "Only icewine", correct: false }
+        - { text: "Only Port", correct: false }
+        - { text: "Only Madeira", correct: false }
+        - { text: "Red and rosé", correct: true }
+      explanation: |
+        **Red and rosé.** The DOC is not white-only, and it is not
+        a Port lodge category.
+
+  - id: portugal-vv-red-001
+    type: mcq
+    deck: Portugal
+    tags: [portugal, vinho-verde]
+    status: reviewed
+    source_id: c31-0018
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What are typical red Vinho Verde wines like?
+      choices:
+        - { text: "Pale and low-tannin, like Schiava", correct: false }
+        - { text: "Deeply coloured and tannic", correct: true }
+        - { text: "Always a 20-year tawny", correct: false }
+        - { text: "Always white", correct: false }
+      explanation: |
+        **Deeply coloured and tannic.** Vinhão (Sousão) is the usual
+        black grape behind that inky Minho red.
+
+  - id: portugal-vv-rose-001
+    type: mcq
+    deck: Portugal
+    tags: [portugal, vinho-verde]
+    status: reviewed
+    source_id: c31-0018
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What are typical rosé Vinho Verde wines like?
+      choices:
+        - { text: "Oxidative and nutty, like tawny Port", correct: false }
+        - { text: "Heavily tannic, like underripe Baga", correct: false }
+        - { text: "Fresh and fruity", correct: true }
+        - { text: "Fortified only", correct: false }
+      explanation: |
+        **Fresh and fruity.** A pink Minho bottle, not a Douro
+        lodge wine.
+
+  - id: portugal-douro-1756-001
+    type: mcq
+    deck: Portugal
+    tags: [portugal, douro]
+    status: reviewed
+    source_id: c31-0019
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which Portuguese wine region was formally demarcated in 1756?
+      choices:
+        - { text: "Vinho Verde", correct: false }
+        - { text: "The Douro", correct: true }
+        - { text: "Alentejo", correct: false }
+        - { text: "Bairrada", correct: false }
+      explanation: |
+        **The Douro.** The 1756 Pombaline law (Marquis of Pombal)
+        set the valley’s bounds. That is the checkable date.
+
+  - id: portugal-douro-porto-001
+    type: mcq
+    deck: Portugal
+    tags: [portugal, douro]
+    status: reviewed
+    source_id: c31-0020
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How far inland of Porto does the Douro wine region begin?
+      choices:
+        - { text: "On the Atlantic beach at Porto", correct: false }
+        - { text: "About 80 km east of Porto", correct: true }
+        - { text: "800 km south, in the Algarve", correct: false }
+        - { text: "Inside Lisbon only", correct: false }
+      explanation: |
+        **About 80 km east of Porto.** The Marão wall sits between
+        the city and the vineyards.
+
+  - id: portugal-douro-span-001
+    type: mcq
+    deck: Portugal
+    tags: [portugal, douro]
+    status: reviewed
+    source_id: c31-0020
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Between which landmarks does the Douro wine region run?
+      choices:
+        - { text: "From the Algarve to the Alentejo coast", correct: false }
+        - { text: "Only the Minho river mouth", correct: false }
+        - { text: "From Lisbon to Sintra", correct: false }
+        - { text: "From the Marão mountains to the Spanish frontier", correct: true }
+      explanation: |
+        **From the Marão mountains to the Spanish frontier.** The
+        valley then climbs into the hot Douro Superior.
+
+  - id: portugal-douro-port-001
+    type: mcq
+    deck: Portugal
+    tags: [portugal, douro, port]
+    status: reviewed
+    source_id: c31-0021
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Even with the rise of table reds, which fortified wine still leads Douro output?
+      choices:
+        - { text: "Only Vinho Verde", correct: false }
+        - { text: "Port", correct: true }
+        - { text: "Only sparkling Baga", correct: false }
+        - { text: "Only white Encruzado", correct: false }
+      explanation: |
+        **Port.** Unfortified Douro reds matter, but fortified wine
+        still leads the valley’s output.
+
+  - id: portugal-douro-five-001
+    type: mcq
+    deck: Portugal
+    tags: [portugal, douro, grapes]
+    status: reviewed
+    source_id: c31-0022
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which five black grapes do Port and unfortified Douro reds share?
+      choices:
+        - { text: "Only Baga and Bical", correct: false }
+        - { text: "Touriga Nacional, Touriga Franca, Tinta Roriz, Tinta Barroca and Tinto Cão", correct: true }
+        - { text: "Only Palomino and Pedro Ximénez", correct: false }
+        - { text: "Pinot Noir, Gamay, Schiava, Dolcetto and Lambrusco", correct: false }
+      explanation: |
+        **Touriga Nacional, Touriga Franca, Tinta Roriz, Tinta
+        Barroca and Tinto Cão.** Tinta Roriz is Tempranillo. The
+        same five feed table red and Port.
+
+  - id: portugal-touriga-nacional-001
+    type: mcq
+    deck: Portugal
+    tags: [portugal, douro, grapes]
+    status: reviewed
+    source_id: c31-0023
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Among Touriga Franca, Tinta Roriz, Tinto Cão and Tinta Barroca, which fifth grape is the quality flagship?
+      choices:
+        - { text: "Baga", correct: false }
+        - { text: "Alvarinho", correct: false }
+        - { text: "Touriga Nacional", correct: true }
+        - { text: "Palomino", correct: false }
+      explanation: |
+        **Touriga Nacional.** Touriga Franca covers more hectares;
+        Nacional is the quality flagship.
+
+  - id: portugal-tn-traits-001
+    type: mcq
+    deck: Portugal
+    tags: [portugal, douro, grapes]
+    status: reviewed
+    source_id: c31-0024
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What are Touriga Nacional's main vineyard and wine traits?
+      choices:
+        - { text: "Huge yields and pale colour", correct: false }
+        - { text: "Low yields, and wines with intense colour, flavour and high tannin", correct: true }
+        - { text: "A white grape only", correct: false }
+        - { text: "No tannin and no colour", correct: false }
+      explanation: |
+        **Low yields, and wines with intense colour, flavour and
+        high tannin.** That density is why it leads Douro blends.
+
+  - id: portugal-douro-red-001
+    type: mcq
+    deck: Portugal
+    tags: [portugal, douro]
+    status: reviewed
+    source_id: c31-0025
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What is a typical unfortified Douro red like?
+      choices:
+        - { text: "Pale, low-tannin, and spritzy, like generic Vinho Verde", correct: false }
+        - { text: "Deep colour, full body, high ripe tannin and rich black fruit, the best often with subtle new-oak toast", correct: true }
+        - { text: "A 20-year tawny aged only in lodge pipes", correct: false }
+        - { text: "Always a white from Encruzado", correct: false }
+      explanation: |
+        **Deep colour, full body, high ripe tannin and rich black
+        fruit, the best often with subtle new-oak toast.** That is
+        Douro DOC red, not a Port ageing grade.
+
+  - id: portugal-douro-white-001
+    type: mcq
+    deck: Portugal
+    tags: [portugal, douro]
+    status: reviewed
+    source_id: c31-0026
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What can high-altitude Douro whites show?
+      choices:
+        - { text: "Always a 20-year white Port profile", correct: false }
+        - { text: "Fresh varietal fruit and medium to high acidity", correct: true }
+        - { text: "No acid, like baked southern Alentejo", correct: false }
+        - { text: "Only Baga tannin", correct: false }
+      explanation: |
+        **Fresh varietal fruit and medium to high acidity.** Height
+        keeps the whites crisp. They are still wines, not white Port.
+
+  - id: portugal-dao-where-001
+    type: mcq
+    deck: Portugal
+    tags: [portugal, dao]
+    status: reviewed
+    source_id: c31-0027
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: The mountainous inland belt about 80 km south of the Douro is which region?
+      choices:
+        - { text: "The Algarve", correct: false }
+        - { text: "Vinho Verde", correct: false }
+        - { text: "Dão", correct: true }
+        - { text: "Madeira", correct: false }
+      explanation: |
+        **Dão.** Granite hills around Viseu, not the Douro terraces.
+
+  - id: portugal-dao-altitude-001
+    type: mcq
+    deck: Portugal
+    tags: [portugal, dao]
+    status: reviewed
+    source_id: c31-0028
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Dão fruit usually comes from which band of hill and slope, not the Douro terraces?
+      choices:
+        - { text: "Only on the Douro river terraces", correct: false }
+        - { text: "On gentler hills and slopes, between about 200 m and 400 m", correct: true }
+        - { text: "Below sea level", correct: false }
+        - { text: "Only above 1,500 m", correct: false }
+      explanation: |
+        **On gentler hills and slopes, between about 200 m and
+        400 m.** The high Serra da Estrela is the backdrop, not the
+        usual vine floor.
+
+  - id: portugal-dao-climate-001
+    type: mcq
+    deck: Portugal
+    tags: [portugal, dao, climate]
+    status: reviewed
+    source_id: c31-0029
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What seasonal climate does Dão have?
+      choices:
+        - { text: "Warm, wet winters and cold, wet summers", correct: false }
+        - { text: "A rainless desert year-round", correct: false }
+        - { text: "Cold, wet winters and warm, dry summers, with a wide day-night temperature swing", correct: true }
+        - { text: "Only cool maritime weather, like Vinho Verde", correct: false }
+      explanation: |
+        **Cold, wet winters and warm, dry summers, with a wide
+        day-night temperature swing.** Mountains shelter Dão from
+        the wettest Atlantic weather.
+
+  - id: portugal-dao-ripening-001
+    type: mcq
+    deck: Portugal
+    tags: [portugal, dao, climate]
+    status: reviewed
+    source_id: c31-0030
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which Portuguese region's mountain-ringed climate is credited with especially even ripening for quality grapes?
+      choices:
+        - { text: "Only the hottest Alentejo floor", correct: false }
+        - { text: "Madeira's estufagem lodges", correct: false }
+        - { text: "The rainy Vinho Verde coast alone", correct: false }
+        - { text: "Dão", correct: true }
+      explanation: |
+        **Dão.** Dry summers and a wide diurnal swing suit ripe but
+        fresh reds, not Port-lodge heat.
+
+  - id: portugal-dao-red-001
+    type: mcq
+    deck: Portugal
+    tags: [portugal, dao]
+    status: reviewed
+    source_id: c31-0031
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What is a typical Dão red like compared with a powerful Douro red?
+      choices:
+        - { text: "Softer tannins, high acidity and delicate red-fruit aromas", correct: true }
+        - { text: "Always a spritzy Vinho Verde white", correct: false }
+        - { text: "A 20-year tawny aged in pipe", correct: false }
+        - { text: "Inky, jammy, and baked like southern Alentejo", correct: false }
+      explanation: |
+        **Softer tannins, high acidity and delicate red-fruit
+        aromas.** Dão stays a red region; it is just finer-boned
+        than Douro.
+
+  - id: portugal-dao-improve-grapes-001
+    type: mcq
+    deck: Portugal
+    tags: [portugal, dao, grapes]
+    status: reviewed
+    source_id: c31-0032
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which black grapes did Dão vineyard-improvement schemes especially promote?
+      choices:
+        - { text: "Only Palomino", correct: false }
+        - { text: "Touriga Nacional, Tinta Roriz, Jaen and Alfrocheiro", correct: true }
+        - { text: "Only Baga", correct: false }
+        - { text: "Only Riesling", correct: false }
+      explanation: |
+        **Touriga Nacional, Tinta Roriz, Jaen and Alfrocheiro.**
+        Nacional is native to Dão; the schemes selected it and its
+        partners in place of mixed old field blends. Jaen is Mencía.
+
+  - id: portugal-dao-improve-why-001
+    type: mcq
+    deck: Portugal
+    tags: [portugal, dao]
+    status: reviewed
+    source_id: c31-0032
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What prompted the wider planting of Touriga Nacional, Tinta Roriz, Jaen and Alfrocheiro in Dão?
+      choices:
+        - { text: "A ban on all Portuguese grapes", correct: false }
+        - { text: "Port lodge rules in Vila Nova de Gaia", correct: false }
+        - { text: "Vineyard improvement schemes", correct: true }
+        - { text: "A switch to white grapes only", correct: false }
+      explanation: |
+        **Vineyard improvement schemes.** Quality selections, not a
+        new foreign invasion.
+
+  - id: portugal-alfrocheiro-001
+    type: mcq
+    deck: Portugal
+    tags: [portugal, dao, grapes]
+    status: reviewed
+    source_id: c31-0033
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What are Alfrocheiro wines typically like?
+      choices:
+        - { text: "Always a pale white", correct: false }
+        - { text: "Deep in colour, with intense blackberry and strawberry", correct: true }
+        - { text: "Fortified only", correct: false }
+        - { text: "No fruit, only flor", correct: false }
+      explanation: |
+        **Deep in colour, with intense blackberry and strawberry.**
+        A Dão blending colour, not a Port grade.
+
+  - id: portugal-encruzado-001
+    type: mcq
+    deck: Portugal
+    tags: [portugal, dao, grapes]
+    status: reviewed
+    source_id: c31-0034
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Dão’s prestige still white is usually which local grape, not Minho Alvarinho?
+      choices:
+        - { text: "Baga", correct: false }
+        - { text: "Palomino", correct: false }
+        - { text: "Only Alvarinho from the Minho", correct: false }
+        - { text: "Encruzado", correct: true }
+      explanation: |
+        **Encruzado.** Dão’s prestige white, not Minho Alvarinho
+        and not Bairrada Bical.
+
+  - id: portugal-encruzado-range-001
+    type: mcq
+    deck: Portugal
+    tags: [portugal, dao]
+    status: reviewed
+    source_id: c31-0035
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which Dão white can be made light and fresh or richer and barrel-fermented?
+      choices:
+        - { text: "Baga", correct: false }
+        - { text: "Encruzado", correct: true }
+        - { text: "Touriga Nacional", correct: false }
+        - { text: "Alvarinho only", correct: false }
+      explanation: |
+        **Encruzado.** Steel or cask; still a white, not Port.
+
+  - id: portugal-bairrada-where-001
+    type: mcq
+    deck: Portugal
+    tags: [portugal, bairrada]
+    status: reviewed
+    source_id: c31-0036
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: The region on the Atlantic side of Dão is which one?
+      choices:
+        - { text: "Douro Superior", correct: false }
+        - { text: "Bairrada", correct: true }
+        - { text: "Alentejo", correct: false }
+        - { text: "Madeira", correct: false }
+      explanation: |
+        **Bairrada.** Coastal Beira, west of the Dão mountains.
+
+  - id: portugal-bairrada-climate-001
+    type: mcq
+    deck: Portugal
+    tags: [portugal, bairrada, climate]
+    status: reviewed
+    source_id: c31-0037
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Open to the Atlantic, Bairrada’s year is which climate class?
+      choices:
+        - { text: "A rainless desert", correct: false }
+        - { text: "High alpine ice", correct: false }
+        - { text: "Maritime, with rainy winters and warm summers", correct: true }
+        - { text: "Identical to the inland Douro Superior", correct: false }
+      explanation: |
+        **Maritime, with rainy winters and warm summers.** Open to
+        the Atlantic, wetter than sheltered Dão.
+
+  - id: portugal-bairrada-harvest-rain-001
+    type: mcq
+    deck: Portugal
+    tags: [portugal, bairrada]
+    status: reviewed
+    source_id: c31-0038
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What harvest-time problem hits Bairrada, especially on late grapes such as Baga?
+      choices:
+        - { text: "Permanent drought, like southern Alentejo", correct: false }
+        - { text: "Rain at harvest", correct: true }
+        - { text: "Spring-only frost with no rain", correct: false }
+        - { text: "A legal ban on picking", correct: false }
+      explanation: |
+        **Rain at harvest.** Late Baga is still hanging when
+        Atlantic fronts arrive.
+
+  - id: portugal-baga-lead-001
+    type: mcq
+    deck: Portugal
+    tags: [portugal, bairrada, grapes]
+    status: reviewed
+    source_id: c31-0039
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Late, thick-skinned, and the grape of Bairrada reds: which variety?"
+      choices:
+        - { text: "Touriga Nacional only", correct: false }
+        - { text: "Baga", correct: true }
+        - { text: "Palomino", correct: false }
+        - { text: "Alvarinho", correct: false }
+      explanation: |
+        **Baga.** Bairrada’s lead red, not Douro’s Touriga Nacional
+        and not a white.
+
+  - id: portugal-baga-skins-001
+    type: mcq
+    deck: Portugal
+    tags: [portugal, bairrada, grapes]
+    status: reviewed
+    source_id: c31-0040
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What berry traits of Baga drive the colour and tannin of Bairrada reds?
+      choices:
+        - { text: "Early ripening and paper-thin skins", correct: false }
+        - { text: "A white grape with no skins", correct: false }
+        - { text: "Late ripening, with small, thick-skinned berries", correct: true }
+        - { text: "No skins at all", correct: false }
+      explanation: |
+        **Late ripening, with small, thick-skinned berries.** Deep
+        colour and high tannin follow those skins.
+
+  - id: portugal-baga-underripe-001
+    type: mcq
+    deck: Portugal
+    tags: [portugal, bairrada, grapes]
+    status: reviewed
+    source_id: c31-0040
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What happens if Baga is picked underripe in Bairrada?
+      choices:
+        - { text: "The wine becomes a sweet white Port", correct: false }
+        - { text: "Acid and tannin both vanish", correct: false }
+        - { text: "The wine is high in acidity, with harsh, astringent tannins", correct: true }
+        - { text: "It must be labelled Vinho Verde", correct: false }
+      explanation: |
+        **The wine is high in acidity, with harsh, astringent
+        tannins.** Green Baga bites. That is a pick date, not a
+        Port category.
+
+  - id: portugal-baga-late-pick-001
+    type: mcq
+    deck: Portugal
+    tags: [portugal, bairrada, grapes]
+    status: reviewed
+    source_id: c31-0040
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What does a later Baga pick in Bairrada usually give?
+      choices:
+        - { text: "Always a pale rosé with no fruit", correct: false }
+        - { text: "A softer wine with rich black-fruit aromas", correct: true }
+        - { text: "Only flor", correct: false }
+        - { text: "Guaranteed rain-free fruit", correct: false }
+      explanation: |
+        **A softer wine with rich black-fruit aromas.** More hang
+        time tames the tannin — if the rain holds off.
+
+  - id: portugal-baga-softer-001
+    type: mcq
+    deck: Portugal
+    tags: [portugal, bairrada]
+    status: reviewed
+    source_id: c31-0041
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How do Bairrada cellars often soften Baga?
+      choices:
+        - { text: "By fortifying it like Vintage Port", correct: false }
+        - { text: "By a ten-year estufagem", correct: false }
+        - { text: "By banning all blending", correct: false }
+        - { text: "Gentler crushing and maceration, and blending with other black grapes", correct: true }
+      explanation: |
+        **Gentler crushing and maceration, and blending with other
+        black grapes.** Less skin time, plus partners. Luís Pato
+        is a named Baga address for both stern and softer bottles.
+
+  - id: portugal-bairrada-other-black-001
+    type: mcq
+    deck: Portugal
+    tags: [portugal, bairrada, grapes]
+    status: reviewed
+    source_id: c31-0042
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Bairrada cellars also use which mix of local and international black grapes next to Baga?
+      choices:
+        - { text: "Only Palomino and Pedro Ximénez", correct: false }
+        - { text: "Touriga Nacional, Alfrocheiro, Cabernet Sauvignon, Merlot and Syrah", correct: true }
+        - { text: "Only Alvarinho", correct: false }
+        - { text: "Only Pinot Blanc", correct: false }
+      explanation: |
+        **Touriga Nacional, Alfrocheiro, Cabernet Sauvignon, Merlot
+        and Syrah.** Locals and internationals sit beside Baga.
+
+  - id: portugal-bairrada-white-001
+    type: mcq
+    deck: Portugal
+    tags: [portugal, bairrada, grapes]
+    status: reviewed
+    source_id: c31-0043
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which grapes usually lead Bairrada whites?
+      choices:
+        - { text: "Only Encruzado", correct: false }
+        - { text: "Indigenous varieties such as Bical and Maria Gomes", correct: true }
+        - { text: "Only Baga", correct: false }
+        - { text: "Only Riesling", correct: false }
+      explanation: |
+        **Indigenous varieties such as Bical and Maria Gomes.**
+        Maria Gomes is Fernão Pires. Encruzado is the Dão white.
+
+  - id: portugal-alentejo-where-001
+    type: mcq
+    deck: Portugal
+    tags: [portugal, alentejo]
+    status: reviewed
+    source_id: c31-0044
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: In which part of Portugal does Alentejo lie?
+      choices:
+        - { text: "In the north-west Minho only", correct: false }
+        - { text: "On the Douro terraces only", correct: false }
+        - { text: "In the south-east", correct: true }
+        - { text: "Inside Porto", correct: false }
+      explanation: |
+        **In the south-east.** A wide inland sweep toward Spain,
+        not Vinho Verde and not the Douro gorge.
+
+  - id: portugal-alentejo-subregions-001
+    type: mcq
+    deck: Portugal
+    tags: [portugal, alentejo]
+    status: reviewed
+    source_id: c31-0044
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How many sub-regions does Alentejo DOC spread across?
+      choices:
+        - { text: "One beach only", correct: false }
+        - { text: "Twenty-one, like Alsace", correct: false }
+        - { text: "None — it is only a Vinho Regional", correct: false }
+        - { text: "Eight", correct: true }
+      explanation: |
+        **Eight.** Portalegre in the São Mamede hills is the cool
+        northern one; Moura and Granja-Amareleja sit hotter south.
+
+  - id: portugal-alentejo-warm-001
+    type: mcq
+    deck: Portugal
+    tags: [portugal, alentejo, climate]
+    status: reviewed
+    source_id: c31-0045
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What kind of growing season does Alentejo have overall?
+      choices:
+        - { text: "Cool maritime, like Vinho Verde", correct: false }
+        - { text: "A warm growing season", correct: true }
+        - { text: "Polar", correct: false }
+        - { text: "No summer heat", correct: false }
+      explanation: |
+        **A warm growing season.** Alentejo heat is the point,
+        unlike the wet Minho.
+
+  - id: portugal-alentejo-north-south-001
+    type: mcq
+    deck: Portugal
+    tags: [portugal, alentejo, climate]
+    status: reviewed
+    source_id: c31-0045
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How does Alentejo's climate change from north to south?
+      choices:
+        - { text: "Hotter and drier in the north; cooler and wetter in the south", correct: false }
+        - { text: "Cooler and wetter in the north; hotter and drier in the south", correct: true }
+        - { text: "Identical rainfall in every sub-region", correct: false }
+        - { text: "Only alpine ice in the south", correct: false }
+      explanation: |
+        **Cooler and wetter in the north; hotter and drier in the
+        south.** Portalegre vs the southern plains.
+
+  - id: portugal-alentejo-styles-001
+    type: mcq
+    deck: Portugal
+    tags: [portugal, alentejo]
+    status: reviewed
+    source_id: c31-0046
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How do Alentejo wine styles usually change from north to south?
+      choices:
+        - { text: "Only Port in the north", correct: false }
+        - { text: "Only Vinho Verde spritz in the south", correct: false }
+        - { text: "More elegant wines in the north; richer wines in the south", correct: true }
+        - { text: "Identical bottles in every sub-region", correct: false }
+      explanation: |
+        **More elegant wines in the north; richer wines in the
+        south.** Height and rain in Portalegre; bake on the southern
+        plains.
+
+  - id: portugal-alentejo-blend-001
+    type: mcq
+    deck: Portugal
+    tags: [portugal, alentejo, grapes]
+    status: reviewed
+    source_id: c31-0047
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which three grapes typically build an Alentejo red blend?
+      choices:
+        - { text: "Only Baga and Bical", correct: false }
+        - { text: "Aragonês, Trincadeira and Alicante Bouschet", correct: true }
+        - { text: "Only Alvarinho", correct: false }
+        - { text: "Pinot Noir, Gamay and Schiava", correct: false }
+      explanation: |
+        **Aragonês, Trincadeira and Alicante Bouschet.** Aragonês
+        is Tempranillo (Tinta Roriz in the north).
+
+  - id: portugal-trincadeira-001
+    type: mcq
+    deck: Portugal
+    tags: [portugal, alentejo, grapes]
+    status: reviewed
+    source_id: c31-0048
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Alentejo’s Trincadeira is valued because it is which kind of grape in a hot, dry vineyard?
+      choices:
+        - { text: "A thin-skinned white that hates heat", correct: false }
+        - { text: "Drought-tolerant, with spicy red-berry flavour and high tannin", correct: true }
+        - { text: "No tannin and no flavour", correct: false }
+        - { text: "Used only in Vinho Verde spritz", correct: false }
+      explanation: |
+        **Drought-tolerant, with spicy red-berry flavour and high
+        tannin.** A fit for Alentejo heat; Tinta Amarela is the
+        Douro name.
+
+  - id: portugal-alicante-bouschet-001
+    type: mcq
+    deck: Portugal
+    tags: [portugal, alentejo, grapes]
+    status: reviewed
+    source_id: c31-0049
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What is Alicante Bouschet, as used in Alentejo reds?
+      choices:
+        - { text: "A native Portuguese white grape", correct: false }
+        - { text: "A Port ageing grade", correct: false }
+        - { text: "A French teinturier (red-fleshed) grape that adds deep colour and tannin", correct: true }
+        - { text: "A thin-skinned, pale grape with no colour", correct: false }
+      explanation: |
+        **A French teinturier (red-fleshed) grape that adds deep
+        colour and tannin.** Henri Bouschet bred it in France;
+        Alentejo adopted it. Herdade do Mouchão is a named Alicante
+        Bouschet estate.
+
+  - id: portugal-alentejo-newer-001
+    type: mcq
+    deck: Portugal
+    tags: [portugal, alentejo, grapes]
+    status: reviewed
+    source_id: c31-0050
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Recent Alentejo plantings have favoured which local flagship plus which Rhône international?
+      choices:
+        - { text: "Only Palomino", correct: false }
+        - { text: "Only Baga", correct: false }
+        - { text: "Touriga Nacional and Syrah", correct: true }
+        - { text: "Only Riesling", correct: false }
+      explanation: |
+        **Touriga Nacional and Syrah.** Additions beside Aragonês,
+        Trincadeira and Alicante Bouschet, not a switch to Baga.
