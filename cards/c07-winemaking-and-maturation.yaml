@@ -2,4 +2,1351 @@
 # source: C07 (import/inbox/c07-winemaking-and-maturation.yaml)
 # deck: Winemaking and Maturation
 
-cards: []
+cards:
+  - id: wine-after-harvest-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, process]
+    status: reviewed
+    source_id: c07-0002
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Once the crop is picked, what is the next cellar job before alcoholic fermentation can start?
+      choices:
+        - { text: "Bottle and label the juice immediately", correct: false }
+        - { text: "Process the grapes and get them ready for alcoholic fermentation", correct: true }
+        - { text: "Skip straight to malolactic conversion in bottle", correct: false }
+        - { text: "Fortify the bunches with grape spirit in the vineyard", correct: false }
+      explanation: |
+        After harvest the fruit is **processed and got ready for alcoholic
+        fermentation** — reception, sorting, and then destemming, crushing or
+        pressing as the style requires. Fermentation is the next biological
+        step, not bottling or fortification.
+
+  - id: ferment-alcohol-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, fermentation]
+    status: reviewed
+    source_id: c07-0003
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: In alcoholic fermentation, what does yeast turn grape sugar into?
+      choices:
+        - { text: "Only water and tartaric acid", correct: false }
+        - { text: "Malic acid and lactic acid, with no gas", correct: false }
+        - { text: "Alcohol and carbon dioxide", correct: true }
+        - { text: "Colour pigment and oak tannin", correct: false }
+      explanation: |
+        Yeast converts sugar into **alcohol and carbon dioxide**. Heat and
+        extra aroma compounds appear as side products, but the defining pair
+        is ethanol plus CO₂. Malic-to-lactic conversion is a later bacterial
+        step, not this fermentation.
+
+  - id: wine-after-ferment-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, process]
+    status: reviewed
+    source_id: c07-0004
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Once yeast have finished converting grape sugar, what does the cellar do with the wine next?
+      choices:
+        - { text: "Hold the wine in vessel until it is packaged and sold", correct: true }
+        - { text: "Return the wine to the vineyard for a second ripening", correct: false }
+        - { text: "Replant the skins as next year's vines", correct: false }
+        - { text: "Freeze the wine solid so it can never change again", correct: false }
+      explanation: |
+        The wine is **held in vessel until it is packaged and sold**. That
+        holding stretch may be days or years, inert or oak, but storage
+        before sale follows the ferment. Returning fruit to the vineyard
+        or freezing the wine solid is not that cellar step.
+
+  - id: wine-natural-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking]
+    status: draft
+    source_id: c07-0005
+    review:
+      fact_check: unsure
+      sources: [known-fact]
+    en:
+      question: In loose cellar talk, what does “natural wine” usually point to?
+      choices:
+        - { text: "Any wine that spent two years in new barriques", correct: false }
+        - { text: "Wine made with as little handling and addition as the maker will accept", correct: true }
+        - { text: "A legal grade above grand cru in every country", correct: false }
+        - { text: "Wine that must be sterile-filtered and heavily sulphited", correct: false }
+      explanation: |
+        People use **natural wine** for bottles made with **as little handling
+        and addition as the maker will accept**. There is no single legal
+        definition, so the label is informal — not a guaranteed recipe, and
+        not the opposite of “all oak” or “all sulphur.”
+
+  - id: wine-seeds-stems-tannin-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, grape]
+    status: reviewed
+    source_id: c07-0006
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Besides the skins, which two grape parts hold extractable tannin?
+      choices:
+        - { text: "Only the watery pulp and the juice vesicles", correct: false }
+        - { text: "Seeds and stems", correct: true }
+        - { text: "Only the bloom wax on the outside", correct: false }
+        - { text: "Only added oak chips, never the grape itself", correct: false }
+      explanation: |
+        **Seeds and stems** both hold tannin the cellar can extract, on top
+        of the tannin already in the skins. Pulp is mostly water, sugar and
+        acid, not the main tannin store.
+
+  - id: wine-seeds-bitter-oils-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, grape]
+    status: reviewed
+    source_id: c07-0006
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Why must a crusher treat grape seeds gently?
+      choices:
+        - { text: "Seeds hold no flavour compounds of any kind", correct: false }
+        - { text: "Broken seeds release bitter oils", correct: true }
+        - { text: "Seeds are the only source of malic acid", correct: false }
+        - { text: "Seeds dissolve the colour out of red skins", correct: false }
+      explanation: |
+        **Broken seeds release bitter oils** (and harsh pip tannin). Modern
+        crushers and presses are set to split skins, not smash pips.
+
+  - id: wine-stems-hand-harvest-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, grape]
+    status: reviewed
+    source_id: c07-0007
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How does the cellar usually receive whole stems still attached to the fruit?
+      choices:
+        - { text: "By picking the crop by hand as whole bunches", correct: true }
+        - { text: "By shaking berries off the vine with a machine harvester", correct: false }
+        - { text: "By pressing only free-run juice from destemmed fruit", correct: false }
+        - { text: "Stems are never available once the grapes leave the row", correct: false }
+      explanation: |
+        **Picking by hand as whole bunches** delivers stalks to the press or
+        vat, so the maker can keep them for whole-bunch work. A machine
+        harvester typically shakes berries off and leaves the stems on the
+        vine.
+
+  - id: wine-skin-flavour-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, grape]
+    status: reviewed
+    source_id: c07-0008
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Where in the berry are many of the grape’s own flavour compounds concentrated?
+      choices:
+        - { text: "Only in the woody trunk of the vine", correct: false }
+        - { text: "In the skin and the thin layer just beneath it", correct: true }
+        - { text: "Only in the bitter oils of crushed seeds", correct: false }
+        - { text: "Only in tartaric crystals that form after bottling", correct: false }
+      explanation: |
+        Many of the grape’s signature flavour compounds sit **in the skin
+        and the thin layer just beneath it**. Pulp is mostly water, sugar
+        and acid; pips are a tannin and oil risk if smashed.
+
+  - id: wine-skin-tannin-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, grape]
+    status: reviewed
+    source_id: c07-0008
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Besides flavour compounds, what structural material does grape skin contribute?
+      choices:
+        - { text: "Tannin", correct: true }
+        - { text: "Water from the pulp", correct: false }
+        - { text: "Dissolved grape sugar", correct: false }
+        - { text: "Colour pigment in the skins", correct: false }
+      explanation: |
+        Skins hold **tannin**, especially on black grapes. Water and sugar
+        sit mainly in the pulp; colour is also a skin extract, but it is
+        pigment, not the structural phenolic.
+
+  - id: wine-skin-colour-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, grape]
+    status: reviewed
+    source_id: c07-0008
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Where do the colour compounds of a black grape mainly sit?
+      choices:
+        - { text: "Dissolved through the watery pulp alone", correct: false }
+        - { text: "In the skin", correct: true }
+        - { text: "Only in the vine’s leaves after harvest", correct: false }
+        - { text: "Only in the cork after bottling", correct: false }
+      explanation: |
+        Anthocyanin colour lives **in the skin**. That is why red and rosé
+        ferment or macerate on skins, while most white juice is pressed off
+        them. A few red-fleshed grapes are exceptions, not the rule.
+
+  - id: wine-tannin-class-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, grape]
+    status: reviewed
+    source_id: c07-0009
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What single cellar word groups a large family of astringent phenolic compounds from grape and oak?
+      choices:
+        - { text: "Must weight", correct: false }
+        - { text: "Tannin", correct: true }
+        - { text: "Chaptalisation", correct: false }
+        - { text: "Ullage", correct: false }
+      explanation: |
+        **Tannin** is the class name for many related phenolics that dry
+        and grip. Must weight is sugar; chaptalisation is adding sugar;
+        ullage is headspace in a cask.
+
+  - id: wine-tannin-veraison-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, grape]
+    status: reviewed
+    source_id: c07-0010
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How do grape tannins usually taste at véraison, when berries have only just started to colour?
+      choices:
+        - { text: "Soft, sweet and already fully ripe", correct: false }
+        - { text: "Very bitter and astringent", correct: true }
+        - { text: "Absent, because tannin forms only in bottle", correct: false }
+        - { text: "Identical to vanilla from new oak", correct: false }
+      explanation: |
+        At **véraison** the tannins still taste **very bitter and
+        astringent**. Ripening after that point is what eases the harshness,
+        not the first colour change itself.
+
+  - id: wine-tannin-ripen-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, grape]
+    status: reviewed
+    source_id: c07-0010
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What happens to the bitterness and astringency of grape tannin as the berries ripen after véraison?
+      choices:
+        - { text: "Both rise sharply until harvest", correct: false }
+        - { text: "Bitterness and astringency fall", correct: true }
+        - { text: "Tannin turns into residual sugar", correct: false }
+        - { text: "Tannin disappears and cannot be extracted", correct: false }
+      explanation: |
+        As grapes ripen, **bitterness and astringency fall**. The maker
+        still extracts tannin, but ripe tannin is kinder than the green
+        grip of véraison.
+
+  - id: wine-bloom-wax-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, grape]
+    status: reviewed
+    source_id: c07-0011
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What do winemakers call the waxy film on an intact grape berry?
+      choices:
+        - { text: "Flor", correct: false }
+        - { text: "Bloom", correct: true }
+        - { text: "Lees", correct: false }
+        - { text: "Must", correct: false }
+      explanation: |
+        **Bloom.** It is the waxy coating on the skin, not flor
+        (a sherry yeast film), lees, or must.
+
+  - id: wine-bloom-yeast-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, grape, fermentation]
+    status: reviewed
+    source_id: c07-0011
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Why does the waxy bloom on grape skins matter to a ferment?
+      choices:
+        - { text: "It is the only source of tartaric acid in the pulp", correct: false }
+        - { text: "It carries yeasts that can start alcoholic fermentation", correct: true }
+        - { text: "It blocks all yeast and keeps juice sterile forever", correct: false }
+        - { text: "It is a legal requirement to wash the bloom off before crush", correct: false }
+      explanation: |
+        The bloom **carries yeasts that can start alcoholic fermentation**
+        — the ambient population the maker may rely on instead of a packet
+        culture. It does not supply pulp acid, and it is not a sterile seal.
+
+  - id: wine-pulp-trio-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, grape]
+    status: reviewed
+    source_id: c07-0012
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which trio accounts for nearly all of the berry’s juicy interior?
+      choices:
+        - { text: "Tannin, colour pigment and oak extract", correct: false }
+        - { text: "Water, sugar and acid", correct: true }
+        - { text: "Carbon dioxide, ethanol and sulphur dioxide", correct: false }
+        - { text: "Stems, seeds and bloom wax", correct: false }
+      explanation: |
+        The flesh is mostly **water, sugar and acid**. Tannin and colour
+        sit mainly in skins and pips; ethanol and CO₂ appear only after
+        yeast work.
+
+  - id: wine-pulp-water-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, grape]
+    status: reviewed
+    source_id: c07-0013
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: By weight, what makes up most of the juicy flesh inside a grape berry?
+      choices:
+        - { text: "Sugar", correct: false }
+        - { text: "Tartaric acid", correct: false }
+        - { text: "Water", correct: true }
+        - { text: "Tannin", correct: false }
+      explanation: |
+        **Water** is the bulk of the flesh. Sugar is next; acids are
+        important but smaller by weight. Tannin is not a pulp majority.
+
+  - id: wine-pulp-sugar-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, grape]
+    status: reviewed
+    source_id: c07-0014
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: After water, what is the next largest constituent of grape pulp?
+      choices:
+        - { text: "Sugar", correct: true }
+        - { text: "Malic acid", correct: false }
+        - { text: "Seed oil", correct: false }
+        - { text: "Dissolved oak tannin", correct: false }
+      explanation: |
+        **Sugar** (glucose and fructose) is the second-largest pulp
+        fraction after water. Acids matter for balance but do not outrank
+        sugar by weight.
+
+  - id: wine-pulp-tartaric-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, grape]
+    status: reviewed
+    source_id: c07-0015
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which acid is usually the most abundant in grape pulp?
+      choices:
+        - { text: "Acetic acid from vinegar bacteria", correct: false }
+        - { text: "Tartaric acid", correct: true }
+        - { text: "Lactic acid from malolactic conversion", correct: false }
+        - { text: "Citric acid as the only grape acid", correct: false }
+      explanation: |
+        **Tartaric acid** is normally the main grape acid. Malic is second.
+        Acetic and lactic acids are not the native pulp majority; citric
+        acid is present only in small amounts.
+
+  - id: wine-pulp-malic-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, grape]
+    status: reviewed
+    source_id: c07-0015
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: After tartaric acid, which acid is usually the next most abundant in grape pulp?
+      choices:
+        - { text: "Sulphurous acid from added SO₂", correct: false }
+        - { text: "Malic acid", correct: true }
+        - { text: "Ascorbic acid as the grape’s main acid", correct: false }
+        - { text: "Carbonic acid from dissolved CO₂ only", correct: false }
+      explanation: |
+        **Malic acid** is typically the second grape acid after tartaric.
+        Later bacterial work can turn malic into lactic; that does not
+        make malic the number-one pulp acid at crush.
+
+  - id: wine-oxygen-react-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, oxygen]
+    status: reviewed
+    source_id: c07-0016
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: From crush through ageing, which materials can oxygen chemically attack?
+      choices:
+        - { text: "Only the glass of the finished bottle", correct: false }
+        - { text: "Grape juice and many of the wine’s own components", correct: true }
+        - { text: "Only added oak chips, never the juice", correct: false }
+        - { text: "Only tartaric acid crystals already in the bottle", correct: false }
+      explanation: |
+        Oxygen can react with **grape juice and many of the wine’s own
+        components** — phenolics, aroma compounds, colour. It is not
+        limited to glass, chips or tartrate crystals.
+
+  - id: wine-oxidation-define-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, oxygen]
+    status: reviewed
+    source_id: c07-0017
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which reaction is meant when a cellar talks about a wine oxidising?
+      choices:
+        - { text: "Yeast turning sugar into alcohol and carbon dioxide", correct: false }
+        - { text: "Oxygen reacting with juice or with parts of the wine", correct: true }
+        - { text: "Bacteria turning malic acid into lactic acid", correct: false }
+        - { text: "Racking wine off its heavy sediment", correct: false }
+      explanation: |
+        Oxidation is **oxygen reacting with juice or with parts of the
+        wine**. Alcoholic fermentation (sugar to alcohol and carbon
+        dioxide) and malolactic conversion are different chemistry;
+        racking is a transfer, not the reaction itself.
+
+  - id: wine-oxidation-fresh-fruit-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, oxygen]
+    status: reviewed
+    source_id: c07-0018
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: If the aim is to keep a wine smelling of its own primary fruit, what must the cellar most carefully avoid?
+      choices:
+        - { text: "Keeping the tank completely full", correct: false }
+        - { text: "Oxidation", correct: true }
+        - { text: "Using an inert gas blanket on the juice", correct: false }
+        - { text: "Bottling after only a short rest in steel", correct: false }
+      explanation: |
+        **Oxidation** dulls and browns fresh fruit. Full tanks, inert gas
+        and a short steel rest are tools that *limit* air, not the risk.
+
+  - id: wine-oxidation-so2-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, oxygen, so2]
+    status: reviewed
+    source_id: c07-0019
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which common winery addition is used as an antioxidant against oxidation?
+      choices:
+        - { text: "Tartaric acid powder only", correct: false }
+        - { text: "Sulphur dioxide (SO₂)", correct: true }
+        - { text: "Grape spirit added to stop a ferment", correct: false }
+        - { text: "Untoasted oak chips for vanilla", correct: false }
+      explanation: |
+        **Sulphur dioxide (SO₂)** is the usual antioxidant (and also an
+        antiseptic). Acid, spirit and oak do other jobs; they are not the
+        standard anti-oxidation dose.
+
+  - id: wine-oxidation-limit-air-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, oxygen]
+    status: reviewed
+    source_id: c07-0019
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Besides adding an antioxidant, how do makers broadly cut oxidation risk?
+      choices:
+        - { text: "By leaving every vessel half empty on purpose", correct: false }
+        - { text: "By keeping contact with air to a minimum", correct: true }
+        - { text: "By stirring the wine in open buckets each hour", correct: false }
+        - { text: "By maturing every wine in ullaged barrels", correct: false }
+      explanation: |
+        They **keep contact with air to a minimum** — full vessels, quick
+        transfers, inert-gas cover. Headspace and open stirring do the
+        opposite.
+
+  - id: wine-night-pick-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, oxygen]
+    status: reviewed
+    source_id: c07-0020
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Why might a grower harvest grapes after dark?
+      choices:
+        - { text: "Night air is hotter, so oxidation runs faster", correct: false }
+        - { text: "Fruit is cooler, so oxygen-driven reactions run more slowly", correct: true }
+        - { text: "Yeast can only start a ferment in darkness", correct: false }
+        - { text: "Sulphur dioxide is illegal on fruit picked after dawn", correct: false }
+      explanation: |
+        Night fruit is **cooler, so oxygen-driven reactions run more
+        slowly**. Cooler loads also travel and wait more safely. Darkness
+        itself does not start yeast, and SO₂ is not a dawn-only rule.
+
+  - id: wine-inert-gas-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, oxygen]
+    status: reviewed
+    source_id: c07-0021
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How can reception kit be prepared so incoming grapes and juice meet almost no air?
+      choices:
+        - { text: "By filling closed kit with carbon dioxide or nitrogen before use", correct: true }
+        - { text: "By leaving every hose and press open to the yard", correct: false }
+        - { text: "By pumping only oxygen into empty tanks", correct: false }
+        - { text: "By storing juice in ullaged oak from the first hour", correct: false }
+      explanation: |
+        Closed kit is **filled with carbon dioxide or nitrogen before use**,
+        so juice meets inert gas rather than air. Open hoses, oxygen fills
+        and immediate ullaged oak all increase air contact.
+
+  - id: wine-protective-name-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, oxygen]
+    status: reviewed
+    source_id: c07-0021
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What name is given to handling juice and wine so that air is excluded as far as possible?
+      choices:
+        - { text: "Hyperoxidation of the must", correct: false }
+        - { text: "Protective or anaerobic winemaking", correct: true }
+        - { text: "Deliberate ullage in old casks", correct: false }
+        - { text: "Open-vat punching down only", correct: false }
+      explanation: |
+        Excluding air is **protective or anaerobic winemaking**.
+        Hyperoxidation, ullaged casks and open punching all invite oxygen
+        on purpose.
+
+  - id: wine-protective-critique-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, oxygen]
+    status: reviewed
+    source_id: c07-0022
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What is the usual criticism of keeping juice and wine almost entirely away from oxygen?
+      choices:
+        - { text: "The wines always turn to vinegar within a week", correct: false }
+        - { text: "The wines can taste bland, and a little air can build more character", correct: true }
+        - { text: "The wines cannot be bottled in glass", correct: false }
+        - { text: "Yeast can no longer convert any sugar", correct: false }
+      explanation: |
+        Critics say **the wines can taste bland, and a little air can build
+        more character**. Protective handling does not stop fermentation or
+        force vinegar; it can simply leave a wine looking simple.
+
+  - id: wine-protective-mature-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, oxygen]
+    status: reviewed
+    source_id: c07-0023
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: After a wine has been made with almost no air contact, how much does later oxygen during maturation usually help?
+      choices:
+        - { text: "It almost always improves the wine more than any other step", correct: false }
+        - { text: "Those wines rarely, if ever, benefit from oxygen in maturation", correct: true }
+        - { text: "They must then spend two years in ullaged barrels", correct: false }
+        - { text: "Oxygen in maturation is required by law for every steel wine", correct: false }
+      explanation: |
+        Wines built to stay fresh **rarely, if ever, benefit from oxygen in
+        maturation**. Putting a protected wine into leaky or ullaged wood
+        fights the style the cellar just made.
+
+  - id: wine-inert-kept-full-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, vessels, oxygen]
+    status: reviewed
+    source_id: c07-0024
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How are wines made with almost no air usually stored afterwards?
+      choices:
+        - { text: "In leaky oak left half empty", correct: false }
+        - { text: "In inert airtight vessels kept completely full", correct: true }
+        - { text: "In open buckets in the yard", correct: false }
+        - { text: "Only in bottle under a long cork from day one", correct: false }
+      explanation: |
+        They sit **in inert airtight vessels kept completely full**, so
+        there is no headspace of air. Half-empty oak and open buckets are
+        the oxidative opposite.
+
+  - id: wine-inert-materials-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, vessels]
+    status: reviewed
+    source_id: c07-0024
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What are inert, full, airtight maturation vats usually made from?
+      choices:
+        - { text: "New toasted barriques only", correct: false }
+        - { text: "Stainless steel, or concrete lined with epoxy resin", correct: true }
+        - { text: "Untreated terracotta that always leaks air", correct: false }
+        - { text: "Plastic bags designed to breathe oxygen quickly", correct: false }
+      explanation: |
+        The usual pair is **stainless steel, or concrete lined with epoxy
+        resin**. Epoxy makes the concrete an inert, waterproof shell. New
+        toasted oak is not an airtight inert vat.
+
+  - id: wine-oak-oxidative-store-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, oak, oxygen]
+    status: reviewed
+    source_id: c07-0025
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Where are wines that are meant to see some air during maturation usually kept?
+      choices:
+        - { text: "In wooden vessels, most often oak", correct: true }
+        - { text: "Only in full epoxy-lined concrete", correct: false }
+        - { text: "Only in sealed stainless tanks with no ullage", correct: false }
+        - { text: "In glass bottles flushed with nitrogen from the first day", correct: false }
+      explanation: |
+        Those wines usually rest **in wooden vessels, most often oak**.
+        Steel and epoxy-lined concrete are chosen when the maker wants to
+        *stop* air, not invite a slow seep.
+
+  - id: wine-oak-not-airtight-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, oak, oxygen]
+    status: reviewed
+    source_id: c07-0026
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which pair describes oak as a wine vessel?
+      choices:
+        - { text: "Not watertight, but completely airtight", correct: false }
+        - { text: "Watertight, but not airtight", correct: true }
+        - { text: "Neither watertight nor able to hold wine", correct: false }
+        - { text: "Airtight like a welded stainless tank", correct: false }
+      explanation: |
+        Oak is **watertight, but not airtight**. Wine stays in; a little
+        oxygen can still pass. That is the opposite of a welded steel tank.
+
+  - id: wine-oak-soften-tannin-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, oak, oxygen]
+    status: reviewed
+    source_id: c07-0027
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How can the slow leak of oxygen through oak help a red wine?
+      choices:
+        - { text: "It strips all tannin out of the wine in a week", correct: false }
+        - { text: "It can help soften the tannins", correct: true }
+        - { text: "It turns every red into a sweet white", correct: false }
+        - { text: "It stops all flavour change after ferment", correct: false }
+      explanation: |
+        A gentle oxygen seep **can help soften the tannins** in a red.
+        It does not erase tannin overnight or freeze the wine’s flavour.
+
+  - id: wine-oak-flavour-complexity-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, oak, oxygen]
+    status: reviewed
+    source_id: c07-0027
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Besides softening tannin, what can oak’s slow seep of oxygen do to a wine?
+      choices:
+        - { text: "It can add more flavour complexity", correct: true }
+        - { text: "It can only remove every aroma the grape had", correct: false }
+        - { text: "It can lock the wine at the crush aroma forever", correct: false }
+        - { text: "It can replace fermentation entirely", correct: false }
+      explanation: |
+        Besides softening tannin, oak’s slow seep of oxygen **can add
+        more flavour complexity** as the wine changes. It is not a reset
+        button and it is not a substitute for yeast.
+
+  - id: wine-oxid-fruit-fade-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, oxygen]
+    status: reviewed
+    source_id: c07-0028
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: During planned oxidative maturation, what happens to the wine’s fresh fruit aromas?
+      choices:
+        - { text: "They become louder and more grapey each month", correct: false }
+        - { text: "They gradually fade", correct: true }
+        - { text: "They are replaced only by new-oak vanilla, nothing else", correct: false }
+        - { text: "They cannot change once fermentation has finished", correct: false }
+      explanation: |
+        Fresh fruit aromas **gradually fade** when the wine is allowed to
+        oxidise on purpose. Other developed notes can appear; the grape’s
+        first fruit does not get louder.
+
+  - id: wine-oxid-leather-earth-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, oxygen]
+    status: reviewed
+    source_id: c07-0028
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: As fresh fruit fades in a wine matured with oxygen, which developed notes often appear?
+      choices:
+        - { text: "Only crushed fresh grape and citrus zest", correct: false }
+        - { text: "Leather and earth", correct: true }
+        - { text: "Only unripe green stem and leaf", correct: false }
+        - { text: "Only sulphur dioxide gas", correct: false }
+      explanation: |
+        **Leather and earth** are typical developed notes as fruit recedes.
+        Fresh grape and citrus are what you keep by *avoiding* air, not by
+        inviting it.
+
+  - id: wine-oxid-red-colour-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, oxygen]
+    status: reviewed
+    source_id: c07-0029
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How does oxidation typically change the colour of a red wine?
+      choices:
+        - { text: "The wine becomes paler and picks up a brown tinge", correct: true }
+        - { text: "The wine becomes deeper purple and never browns", correct: false }
+        - { text: "Red wines lose all pigment and turn colourless", correct: false }
+        - { text: "Oxidation never changes red colour", correct: false }
+      explanation: |
+        An oxidised red **becomes paler and picks up a brown tinge**. It
+        does not grow younger purple. Whites move the other way.
+
+  - id: wine-oxid-white-colour-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, oxygen]
+    status: reviewed
+    source_id: c07-0029
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How does oxidation typically change the colour of a white wine?
+      choices:
+        - { text: "The wine becomes paler until it looks like water", correct: false }
+        - { text: "The wine becomes deeper and picks up an orange tinge", correct: true }
+        - { text: "White wines always turn bright purple", correct: false }
+        - { text: "Oxidation only affects reds, never whites", correct: false }
+      explanation: |
+        An oxidised white **becomes deeper and picks up an orange tinge**
+        (gold to amber). Reds go paler and browner — the two colours do
+        not move the same way.
+
+  - id: wine-oxid-two-factors-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, oxygen, oak]
+    status: reviewed
+    source_id: c07-0030
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: When a wine is meant to take up air in wood, which pair most sets how much oxygen it sees?
+      choices:
+        - { text: "The colour of the cellar door and the label font", correct: false }
+        - { text: "The size of the vessel and how long the wine stays in it", correct: true }
+        - { text: "Only the grape variety, never the cask", correct: false }
+        - { text: "Only the cork brand used years later", correct: false }
+      explanation: |
+        The pair is **the size of the vessel and how long the wine stays
+        in it**. Fill level and oak age also matter, but size and time
+        are the first levers to remember.
+
+  - id: wine-small-barrel-oxid-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, oak, oxygen]
+    status: reviewed
+    source_id: c07-0031
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Compared with a large oak vat, how oxidising is a small cask of the same wood?
+      choices:
+        - { text: "Larger barrels always oxidise the wine faster than small ones", correct: false }
+        - { text: "Smaller barrels have a greater oxidative effect", correct: true }
+        - { text: "Barrel size has no effect once the wood is oak", correct: false }
+        - { text: "Only concrete size matters; oak size does not", correct: false }
+      explanation: |
+        **Smaller barrels have a greater oxidative effect** than large
+        vats of the same wood. A 225 L barrique is a stronger air (and
+        oak) dose than a 2,000 L foudre.
+
+  - id: wine-small-barrel-surface-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, oak, oxygen]
+    status: reviewed
+    source_id: c07-0031
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Why does a smaller barrel oxidise wine more than a larger one?
+      choices:
+        - { text: "Small barrels are always left empty on purpose", correct: false }
+        - { text: "They expose a larger area of wood relative to the volume of wine", correct: true }
+        - { text: "Small barrels are made of steel, not oak", correct: false }
+        - { text: "Wine in a small barrel cannot touch the wood at all", correct: false }
+      explanation: |
+        A small cask **exposes a larger area of wood relative to the
+        volume of wine**, so more oxygen (and more oak extract) reaches
+        each litre. The wood is still oak; the ratio is what changes.
+
+  - id: wine-barrique-225-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, oak]
+    status: reviewed
+    source_id: c07-0032
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How many litres does a Bordeaux barrique hold?
+      choices:
+        - { text: "75 L", correct: false }
+        - { text: "225 L", correct: true }
+        - { text: "228 L", correct: false }
+        - { text: "More than 2,000 L", correct: false }
+      explanation: |
+        A **barrique** holds **225 L** — the Bordeaux barrel. 228 L is a
+        Burgundy pièce; very large vats sit at thousands of litres.
+
+  - id: wine-barrique-two-years-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, oak]
+    status: draft
+    source_id: c07-0033
+    review:
+      fact_check: unsure
+      sources: [known-fact]
+    en:
+      question: Beyond which stretch are wines seldom left sitting in a barrique?
+      choices:
+        - { text: "Two days", correct: false }
+        - { text: "Two years", correct: true }
+        - { text: "A legal minimum of ten years in every region", correct: false }
+        - { text: "One hour, or the wine is illegal", correct: false }
+      explanation: |
+        A 225 L barrique is a strong oak and air dose, so wines are
+        seldom left in one beyond **two years**. That is a working
+        rule of thumb for small new oak, not a statute — some
+        oxidative styles stay longer in older wood, and many wines
+        leave the barrique much sooner.
+
+  - id: wine-ullage-oxid-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, oxygen, oak]
+    status: reviewed
+    source_id: c07-0034
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Besides using a small cask, how can a cellar give a barrel wine even more air?
+      choices:
+        - { text: "By keeping the barrel completely full at all times", correct: false }
+        - { text: "By leaving the container not completely full", correct: true }
+        - { text: "By flushing the headspace with nitrogen only", correct: false }
+        - { text: "By moving the wine into sealed stainless", correct: false }
+      explanation: |
+        **Leaving the container not completely full** (ullage) lets a
+        larger air surface sit on the wine. Topping up, inert gas and
+        steel all *cut* that effect.
+
+  - id: wine-ullage-styles-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, oxygen]
+    status: reviewed
+    source_id: c07-0035
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which three styles are often left with headspace in cask so air can work on them?
+      choices:
+        - { text: "Muscadet, Albariño and steel-tank Riesling", correct: false }
+        - { text: "Oloroso Sherry, Rutherglen Muscat and tawny Port", correct: true }
+        - { text: "Beaujolais Nouveau, Moscato d’Asti and Prosecco", correct: false }
+        - { text: "Champagne, Cava and crémant aged on lees in bottle", correct: false }
+      explanation: |
+        **Oloroso Sherry, Rutherglen Muscat and tawny Port** are oxidative
+        styles, often left with headspace so air can work. Fresh steel
+        whites and bottle-aged sparkling wines are the opposite idea.
+
+  - id: wine-oxidative-nuts-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, oxygen]
+    status: reviewed
+    source_id: c07-0036
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which flavour set do wines take on when they are aged on purpose with plenty of air?
+      choices:
+        - { text: "Caramel, toffee and nuts", correct: true }
+        - { text: "Only crushed fresh grape and grass", correct: false }
+        - { text: "Only unripe bell pepper and tomato leaf", correct: false }
+        - { text: "Only dissolved carbon dioxide and no aroma", correct: false }
+      explanation: |
+        Planned oxidative ageing builds **caramel, toffee and nuts** —
+        the register of oloroso, tawny Port and Rutherglen Muscat. Fresh
+        grape and grass are what you keep by excluding air.
+
+  - id: wine-over-oxid-stale-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, oxygen]
+    status: reviewed
+    source_id: c07-0037
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What can too much oxygen do to a wine that was not meant to be oxidative?
+      choices:
+        - { text: "It always adds extra fresh fruit", correct: false }
+        - { text: "The wine can lose much of its fruit and smell stale", correct: true }
+        - { text: "The wine becomes unable to contain any alcohol", correct: false }
+        - { text: "The wine is legally required to be sold as sparkling", correct: false }
+      explanation: |
+        Excess air means the wine **can lose much of its fruit and smell
+        stale**. That is a fault, not a path to more fruit or a sparkling
+        category.
+
+  - id: wine-over-oxid-vinegar-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, oxygen]
+    status: reviewed
+    source_id: c07-0038
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: In extreme cases, how can leftover oxygen let microbes spoil a wine?
+      choices:
+        - { text: "Yeast reuse the oxygen to make more sugar", correct: false }
+        - { text: "Bacteria can use the oxygen to turn the wine to vinegar", correct: true }
+        - { text: "Tartaric acid becomes carbon dioxide and the wine goes sweet", correct: false }
+        - { text: "Oak tannin absorbs all the oxygen and the wine is unchanged", correct: false }
+      explanation: |
+        Acetic **bacteria can use the oxygen to turn the wine to vinegar**.
+        Those bacteria need air; a well-protected, sulphited wine is a
+        harder target. Yeast do not remake sugar from oxygen.
+
+  - id: wine-so2-antioxidant-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, so2]
+    status: reviewed
+    source_id: c07-0039
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: One main winery use of sulphur dioxide is as an antioxidant. What is the other?
+      choices:
+        - { text: "Toasting oak barrels", correct: false }
+        - { text: "An antiseptic effect on unwanted microbes", correct: true }
+        - { text: "Raising must weight by adding sugar", correct: false }
+        - { text: "Colouring white juice red", correct: false }
+      explanation: |
+        SO₂ is both antioxidant and **antiseptic** — it holds back many
+        spoilage yeasts and bacteria. It does not toast barrels, chaptalise
+        or dye juice.
+
+  - id: wine-so2-antiseptic-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, so2]
+    status: reviewed
+    source_id: c07-0039
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: When SO₂ is described as antiseptic in the winery, what is it doing?
+      choices:
+        - { text: "Adding toast and clove flavour from oak", correct: false }
+        - { text: "Holding back many yeasts and bacteria that would spoil the wine", correct: true }
+        - { text: "Increasing the grape’s sugar before harvest", correct: false }
+        - { text: "Making every wine taste oxidative on purpose", correct: false }
+      explanation: |
+        Antiseptic SO₂ **holds back many yeasts and bacteria that would
+        spoil the wine**. That is a microbial job, separate from oak
+        flavour or a planned oxidative style.
+
+  - id: wine-so2-regulated-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, so2]
+    status: reviewed
+    source_id: c07-0040
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Why are sulphur dioxide additions capped rather than left unlimited?
+      choices:
+        - { text: "SO₂ has no biological effect at any dose", correct: false }
+        - { text: "High levels can be toxic, so the dose is regulated by law", correct: true }
+        - { text: "The law requires every wine to contain no SO₂ at all", correct: false }
+        - { text: "SO₂ is only a colouring and cannot harm anyone", correct: false }
+      explanation: |
+        **High levels can be toxic, so the dose is regulated by law**.
+        Typical cellar doses sit under those caps; “no SO₂ anywhere” is
+        not the global rule.
+
+  - id: wine-so2-allergy-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, so2]
+    status: reviewed
+    source_id: c07-0041
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which common winery addition can provoke a reaction in sensitive drinkers at modest doses?
+      choices:
+        - { text: "Tartaric acid from the grape", correct: false }
+        - { text: "Sulphur dioxide", correct: true }
+        - { text: "Water in the pulp", correct: false }
+        - { text: "Carbon dioxide from a healthy ferment", correct: false }
+      explanation: |
+        **Sulphur dioxide** (sulphites) can provoke reactions, especially
+        in some asthmatics, even when the dose is modest. That is why
+        labels warn and laws cap it. Tartaric acid, water and ferment CO₂
+        are not that allergen.
+
+  - id: wine-so2-harsh-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, so2]
+    status: reviewed
+    source_id: c07-0042
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Why might a careful maker still keep SO₂ as low as the wine will safely allow?
+      choices:
+        - { text: "High SO₂ can make a wine seem harsh and short of fruit", correct: true }
+        - { text: "SO₂ is illegal in every wine region", correct: false }
+        - { text: "SO₂ is the only way to add residual sugar", correct: false }
+        - { text: "Low SO₂ is required to toast a barrel", correct: false }
+      explanation: |
+        Too much free SO₂ **can make a wine seem harsh and short of
+        fruit**. Makers still use enough to protect the wine; they just
+        avoid a clumsy excess. SO₂ is not a sugar or a toasting tool.
+
+  - id: wine-so2-bound-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, so2, oxygen]
+    status: reviewed
+    source_id: c07-0043
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Why must SO₂ used as an antioxidant be checked again during the wine’s life?
+      choices:
+        - { text: "Free SO₂ becomes bound as it does its job and then protects no further", correct: true }
+        - { text: "SO₂ levels can only rise, never fall, so the wine always becomes harsher", correct: false }
+        - { text: "Bound SO₂ turns into residual sugar", correct: false }
+        - { text: "The first dose lasts unchanged until the bottle is empty", correct: false }
+      explanation: |
+        As SO₂ mops up oxygen and oxidation products it **becomes bound
+        and then protects no further**. Only the remaining free SO₂ still
+        guards the wine, so the cellar tops up and retests.
+
+  - id: wine-so2-antioxidant-how-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, so2, oxygen]
+    status: reviewed
+    source_id: c07-0044
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: When SO₂ is used as an antioxidant, how does it actually protect the wine?
+      choices:
+        - { text: "By killing every yeast including the fermentative strain at any dose", correct: false }
+        - { text: "By reacting with oxygen and with the compounds oxidation creates", correct: true }
+        - { text: "By toasting the inside of every barrel", correct: false }
+        - { text: "By raising the wine’s alcohol until bacteria cannot live", correct: false }
+      explanation: |
+        Antioxidant SO₂ works **by reacting with oxygen and with the
+        compounds oxidation creates** (including acetaldehyde), so those
+        reactions cannot run on. Toxicity to spoilage microbes is a
+        separate antiseptic job, and wine yeast is relatively tolerant at
+        normal doses.
+
+  - id: wine-so2-yeast-tolerate-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, so2, fermentation]
+    status: reviewed
+    source_id: c07-0045
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: At the doses used in a normal ferment, how does the main wine yeast treat sulphur dioxide?
+      choices:
+        - { text: "It is killed by any trace of SO₂", correct: false }
+        - { text: "It is resistant up to a certain SO₂ level", correct: true }
+        - { text: "It needs SO₂ as its only food in place of sugar", correct: false }
+        - { text: "It cannot ferment at all if SO₂ has ever been used in the cellar", correct: false }
+      explanation: |
+        *Saccharomyces cerevisiae* **is resistant up to a certain SO₂
+        level**, which is why a crush dose can suppress wild microbes
+        while still allowing the ferment. Very high SO₂ can still stall
+        yeast; “any trace is fatal” is false.
+
+  - id: wine-oak-majority-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, oak]
+    status: reviewed
+    source_id: c07-0046
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: When a cellar chooses a wooden vessel, which timber is the usual choice?
+      choices:
+        - { text: "Pine", correct: false }
+        - { text: "Oak", correct: true }
+        - { text: "Bamboo", correct: false }
+        - { text: "Teak only", correct: false }
+      explanation: |
+        **Oak** dominates. Chestnut, acacia and others exist, but they are
+        the minority. Pine is not a standard wine cask wood.
+
+  - id: wine-oak-adds-tannin-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, oak]
+    status: reviewed
+    source_id: c07-0047
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Besides a slow leak of oxygen, what can oak ageing add to a wine’s structure?
+      choices:
+        - { text: "Tannins from the wood", correct: true }
+        - { text: "Tartaric acid crystals only", correct: false }
+        - { text: "Free-run juice that was never in the grape", correct: false }
+        - { text: "Malolactic bacteria as the only oak extract", correct: false }
+      explanation: |
+        Oak can contribute **tannins from the wood**, on top of any grape
+        tannin already there. Tartrates, free-run juice and MLF bacteria
+        are not oak extracts.
+
+  - id: wine-oak-adds-flavour-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, oak]
+    status: reviewed
+    source_id: c07-0047
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Besides oxygen and tannin, what else can oak ageing give a wine?
+      choices:
+        - { text: "Flavours taken up from the wood", correct: true }
+        - { text: "A legal ban on bottling for ten years", correct: false }
+        - { text: "Automatic sparkling pressure", correct: false }
+        - { text: "A guarantee the wine will never change in bottle", correct: false }
+      explanation: |
+        Oak also gives **flavours taken up from the wood** — toast, spice
+        and the rest, strongest from new barrels. It does not create sparkle
+        or freeze the wine after bottling.
+
+  - id: wine-oak-tannin-structure-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, oak]
+    status: reviewed
+    source_id: c07-0048
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: When a wine takes up tannin from the barrel, what does that wood tannin mainly contribute?
+      choices:
+        - { text: "Dissolved carbon dioxide for sparkle", correct: false }
+        - { text: "Structure and extra textural complexity", correct: true }
+        - { text: "A drop in alcohol to zero", correct: false }
+        - { text: "Bright purple colour in every white wine", correct: false }
+      explanation: |
+        Oak tannin adds **structure and extra textural complexity** — more
+        grip and layer, not gas, not a wipe-out of alcohol, and not red
+        colour in a white.
+
+  - id: wine-oak-flavour-set-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, oak]
+    status: reviewed
+    source_id: c07-0049
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which aroma group is typical of wine that has spent time in toasted oak?
+      choices:
+        - { text: "Toast, vanilla, smoke and cloves", correct: true }
+        - { text: "Only crushed fresh grape and nothing roasted", correct: false }
+        - { text: "Only vinegar and nail-polish remover", correct: false }
+        - { text: "Only salty seawater and iodine", correct: false }
+      explanation: |
+        Typical oak notes include **toast, vanilla, smoke and cloves**.
+        Fresh grape is from the fruit; vinegar and solvent notes are
+        faults, not oak spice.
+
+  - id: wine-oak-hygiene-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, oak]
+    status: reviewed
+    source_id: c07-0050
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Why is oak harder to keep microbiologically clean than stainless steel?
+      choices:
+        - { text: "Oak cannot hold liquid at all", correct: false }
+        - { text: "Porous staves hide yeasts, bacteria and moulds", correct: true }
+        - { text: "Oak sterilises itself and never needs cleaning", correct: false }
+        - { text: "Only stainless steel can ever grow microbes", correct: false }
+      explanation: |
+        **Porous staves hide yeasts, bacteria and moulds.** Steel
+        does not trap residues in the same way. That is the
+        standing worry with oak, not a claim that wood cannot
+        hold wine.
