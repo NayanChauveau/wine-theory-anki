@@ -1,14 +1,14 @@
 # yaml-language-server: $schema=../schema/cards.schema.json
 # source: C16 (import/inbox/c16-beaujolais.yaml)
 # deck: France::Beaujolais
-# Pilot import. All cards are draft pending human review.
+# Critic pass: accept → reviewed. Inbox treated as untrusted.
 
 cards:
   - id: beaujolais-climate-001
     type: mcq
     deck: France::Beaujolais
     tags: [france, beaujolais, climate]
-    status: draft
+    status: reviewed
     source_id: c16-0001
     review:
       fact_check: pass
@@ -29,7 +29,7 @@ cards:
     type: mcq
     deck: France::Beaujolais
     tags: [france, beaujolais, gamay]
-    status: draft
+    status: reviewed
     source_id: c16-0002
     review:
       fact_check: pass
@@ -50,7 +50,7 @@ cards:
     type: mcq
     deck: France::Beaujolais
     tags: [france, beaujolais, gamay]
-    status: draft
+    status: reviewed
     source_id: c16-0003
     review:
       fact_check: pass
@@ -70,7 +70,7 @@ cards:
     type: mcq
     deck: France::Beaujolais
     tags: [france, beaujolais, soil]
-    status: draft
+    status: reviewed
     source_id: c16-0004
     review:
       fact_check: pass
@@ -91,7 +91,7 @@ cards:
     type: mcq
     deck: France::Beaujolais
     tags: [france, beaujolais, viticulture]
-    status: draft
+    status: reviewed
     source_id: c16-0005
     review:
       fact_check: pass
@@ -112,7 +112,7 @@ cards:
     type: mcq
     deck: France::Beaujolais
     tags: [france, beaujolais, viticulture]
-    status: draft
+    status: reviewed
     source_id: c16-0006
     review:
       fact_check: pass
@@ -133,7 +133,7 @@ cards:
     type: mcq
     deck: France::Beaujolais
     tags: [france, beaujolais, viticulture]
-    status: draft
+    status: reviewed
     source_id: c16-0007
     review:
       fact_check: pass
@@ -153,7 +153,7 @@ cards:
     type: mcq
     deck: France::Beaujolais
     tags: [france, beaujolais, gamay]
-    status: draft
+    status: reviewed
     source_id: c16-0008
     review:
       fact_check: pass
@@ -174,7 +174,7 @@ cards:
     type: mcq
     deck: France::Beaujolais
     tags: [france, beaujolais, appellation]
-    status: draft
+    status: reviewed
     source_id: c16-0009
     review:
       fact_check: pass
@@ -194,7 +194,7 @@ cards:
     type: mcq
     deck: France::Beaujolais
     tags: [france, beaujolais, appellation]
-    status: draft
+    status: reviewed
     source_id: c16-0009
     review:
       fact_check: pass
@@ -215,7 +215,7 @@ cards:
     type: mcq
     deck: France::Beaujolais
     tags: [france, beaujolais, geography]
-    status: draft
+    status: reviewed
     source_id: c16-0010
     review:
       fact_check: pass
@@ -236,7 +236,7 @@ cards:
     type: mcq
     deck: France::Beaujolais
     tags: [france, beaujolais, winemaking]
-    status: draft
+    status: reviewed
     source_id: c16-0011
     review:
       fact_check: pass
@@ -258,7 +258,7 @@ cards:
     type: mcq
     deck: France::Beaujolais
     tags: [france, beaujolais, nouveau]
-    status: draft
+    status: reviewed
     source_id: c16-0012
     review:
       fact_check: pass
@@ -278,7 +278,7 @@ cards:
     type: mcq
     deck: France::Beaujolais
     tags: [france, beaujolais, nouveau]
-    status: draft
+    status: reviewed
     source_id: c16-0013
     review:
       fact_check: pass
@@ -298,7 +298,7 @@ cards:
     type: mcq
     deck: France::Beaujolais
     tags: [france, beaujolais, nouveau]
-    status: draft
+    status: reviewed
     source_id: c16-0014
     review:
       fact_check: pass
@@ -311,19 +311,19 @@ cards:
         - { text: "14 July the year after the vintage", correct: false }
         - { text: "Only after three years in oak", correct: false }
       explanation: |
-        **Beaujolais Nouveau Day** is the **third Thursday in November**. The date is a
-        legal release, not a folklore-only tradition — shops can put the wine on sale from
-        that morning.
+        **Beaujolais Nouveau Day** is the **third Thursday in November**. That morning is
+        the legal first sale, not a folklore-only date. Georges Duboeuf turned it into a
+        worldwide event; the old cry was “Beaujolais Nouveau est arrivé”.
 
   - id: beaujolais-nouveau-deadline-001
     type: mcq
     deck: France::Beaujolais
     tags: [france, beaujolais, nouveau]
-    status: draft
+    status: reviewed
     source_id: c16-0015
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: [spec]
     en:
       question: Until when may a vintage still be sold under the Nouveau (primeur) mention?
       choices:
@@ -332,16 +332,16 @@ cards:
         - { text: "Five years after the vintage", correct: false }
         - { text: "There is no end date for the Nouveau mention", correct: false }
       explanation: |
-        The source card treated 31 August as the first day generic Beaujolais may be sold.
-        That is the wrong way round. Nouveau may be **released** from the third Thursday of
-        November and may keep the **Nouveau / primeur** mention only until **31 August**
-        the following year.
+        Nouveau may be **released** from the third Thursday of November and may keep the
+        **Nouveau / primeur** mention only until **31 August** of the following year.
+        After that the leftover cannot be labelled primeur. 31 August is not the first
+        day generic Beaujolais may be sold.
 
   - id: beaujolais-nouveau-tier-001
     type: mcq
     deck: France::Beaujolais
     tags: [france, beaujolais, nouveau]
-    status: draft
+    status: reviewed
     source_id: c16-0016
     review:
       fact_check: pass
@@ -362,7 +362,7 @@ cards:
     type: mcq
     deck: France::Beaujolais
     tags: [france, beaujolais, nouveau]
-    status: draft
+    status: reviewed
     source_id: c16-0017
     review:
       fact_check: pass
@@ -383,7 +383,7 @@ cards:
     type: mcq
     deck: France::Beaujolais
     tags: [france, beaujolais, geography]
-    status: draft
+    status: reviewed
     source_id: c16-0018
     review:
       fact_check: pass
@@ -403,7 +403,7 @@ cards:
     type: mcq
     deck: France::Beaujolais
     tags: [france, beaujolais, soil]
-    status: draft
+    status: reviewed
     source_id: c16-0019
     review:
       fact_check: pass
@@ -424,28 +424,28 @@ cards:
     type: mcq
     deck: France::Beaujolais
     tags: [france, beaujolais, appellation]
-    status: draft
+    status: reviewed
     source_id: c16-0020
     review:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Roughly how many communes may produce Beaujolais Villages?
+      question: How does the Beaujolais Villages tier compare in size to the crus?
       choices:
-        - { text: "Ten, the same list as the crus", correct: false }
-        - { text: "About 38", correct: true }
-        - { text: "Two hundred, the same as Bordeaux AOC", correct: false }
-        - { text: "Four, all in the Mâconnais", correct: false }
+        - { text: "It is the same ten communes as the crus", correct: false }
+        - { text: "It covers a few dozen communes, far more than the ten crus", correct: true }
+        - { text: "It covers two hundred communes, like Bordeaux AOC", correct: false }
+        - { text: "It is only four communes, all in the Mâconnais", correct: false }
       explanation: |
-        The source deck said 39. Official lists used in WSET-level study are **38**
-        Villages communes (the ten crus are separate AOCs). Either way it is “about
-        forty”, not ten and not hundreds.
+        Villages is the middle step: **a few dozen communes** (lists say 38 or 39), not
+        the ten crus and not a huge regional AOC like Bordeaux. The crus are separate
+        AOCs in the same north-west hills.
 
   - id: beaujolais-villages-blend-001
     type: mcq
     deck: France::Beaujolais
     tags: [france, beaujolais, appellation]
-    status: draft
+    status: reviewed
     source_id: c16-0021
     review:
       fact_check: pass
@@ -466,7 +466,7 @@ cards:
     type: mcq
     deck: France::Beaujolais
     tags: [france, beaujolais, appellation]
-    status: draft
+    status: reviewed
     source_id: c16-0022
     review:
       fact_check: pass
@@ -481,13 +481,14 @@ cards:
       explanation: |
         There are **ten** crus, each its own AOC (Brouilly, Côte de Brouilly, Régnié,
         Morgon, Chiroubles, Fleurie, Moulin-à-Vent, Chénas, Juliénas, Saint-Amour).
-        Thirty-eight is the Villages commune count, not the crus.
+        **Moulin-à-Vent** is named for the stone windmill on the hill. The Villages
+        commune count is in the dozens, not the crus.
 
   - id: beaujolais-volume-crus-001
     type: mcq
     deck: France::Beaujolais
     tags: [france, beaujolais, cru]
-    status: draft
+    status: reviewed
     source_id: c16-0023
     review:
       fact_check: pass
@@ -508,7 +509,7 @@ cards:
     type: mcq
     deck: France::Beaujolais
     tags: [france, beaujolais, cru]
-    status: draft
+    status: reviewed
     source_id: c16-0024
     review:
       fact_check: pass
@@ -529,7 +530,7 @@ cards:
     type: mcq
     deck: France::Beaujolais
     tags: [france, beaujolais, cru]
-    status: draft
+    status: reviewed
     source_id: c16-0025
     review:
       fact_check: pass
@@ -542,15 +543,15 @@ cards:
         - { text: "Any wine labelled Villages, by law after two years", correct: false }
         - { text: "Only white Beaujolais", correct: false }
       explanation: |
-        The same two crus — **Moulin-à-Vent** and **Morgon** — are the ones WSET-level
-        notes flag for **bottle development** (more structure, sometimes a Pinot-like
-        evolution). Nouveau is the opposite: drink it immediately.
+        **Moulin-à-Vent** and **Morgon** have the structure to improve in bottle. Old
+        Morgon is often said to **pinoter** — to pick up Pinot-like forest-floor notes.
+        Nouveau is the opposite: drink it immediately.
 
   - id: beaujolais-light-crus-001
     type: mcq
     deck: France::Beaujolais
     tags: [france, beaujolais, cru]
-    status: draft
+    status: reviewed
     source_id: c16-0026
     review:
       fact_check: pass
@@ -565,13 +566,14 @@ cards:
       explanation: |
         **Fleurie** is the perfume benchmark (floral, pretty red fruit). **Brouilly**,
         the southernmost and largest cru, is usually earlier-drinking and lighter than
-        Moulin-à-Vent or Morgon.
+        Moulin-à-Vent or Morgon. **Chiroubles**, the highest cru, is another very light,
+        cool-site style — useful colour, not a third required name on this list.
 
   - id: beaujolais-crushed-fruit-001
     type: mcq
     deck: France::Beaujolais
     tags: [france, beaujolais, winemaking]
-    status: draft
+    status: reviewed
     source_id: c16-0027
     review:
       fact_check: pass
@@ -592,7 +594,7 @@ cards:
     type: mcq
     deck: France::Beaujolais
     tags: [france, beaujolais, winemaking]
-    status: draft
+    status: reviewed
     source_id: c16-0028
     review:
       fact_check: pass
@@ -612,7 +614,7 @@ cards:
     type: mcq
     deck: France::Beaujolais
     tags: [france, beaujolais, winemaking]
-    status: draft
+    status: reviewed
     source_id: c16-0029
     review:
       fact_check: pass
@@ -633,7 +635,7 @@ cards:
     type: mcq
     deck: France::Beaujolais
     tags: [france, beaujolais, winemaking]
-    status: draft
+    status: reviewed
     source_id: c16-0030
     review:
       fact_check: pass

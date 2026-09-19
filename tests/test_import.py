@@ -48,12 +48,12 @@ def test_progress_keeps_existing_status(tmp_path: Path) -> None:
     assert reloaded.notes["c16-0001"].target == "y.yaml"
 
 
-def test_beaujolais_pilot_cards_are_draft_with_source_ids(repo_root: Path) -> None:
+def test_beaujolais_cards_are_reviewed_with_source_ids(repo_root: Path) -> None:
     from wset3_anki.load import load_card_file
 
     cards = load_card_file(repo_root / "cards" / "c16-beaujolais.yaml")
     assert len(cards) >= 30
-    assert all(card.status.value == "draft" for card in cards)
+    assert all(card.status.value == "reviewed" for card in cards)
     assert all(card.source_id and card.source_id.startswith("c16-") for card in cards)
     assert {card.source_id for card in cards} >= {f"c16-{i:04d}" for i in range(1, 31)}
 
