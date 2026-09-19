@@ -2,4 +2,938 @@
 # source: C29 (import/inbox/c29-southern-italy.yaml)
 # deck: Italy::Southern Italy
 
-cards: []
+cards:
+  - id: sitaly-map-001
+    type: mcq
+    deck: Italy::Southern Italy
+    tags: [italy, southern-italy]
+    status: reviewed
+    source_id: c29-0001
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What does “Southern Italy” cover on the wine map?
+      choices:
+        - { text: "Only Piedmont and Veneto", correct: false }
+        - { text: "South of Lazio to the tip, including Puglia and Sicily", correct: true }
+        - { text: "Only Alto Adige", correct: false }
+        - { text: "The Loire valley", correct: false }
+      explanation: |
+        **South of Lazio to the tip, including Puglia and Sicily.**
+        Campania and Basilicata sit in that block too.
+
+  - id: sitaly-climate-001
+    type: mcq
+    deck: Italy::Southern Italy
+    tags: [italy, southern-italy, climate]
+    status: reviewed
+    source_id: c29-0002
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How does Southern Italy’s climate change from inland to the sea?
+      choices:
+        - { text: "Cool and wet everywhere", correct: false }
+        - { text: "Hot and dry inland, more humid on the coast; Apennine height and Puglian sea breezes take the edge off", correct: true }
+        - { text: "Alpine ice only", correct: false }
+        - { text: "A Breton monsoon", correct: false }
+      explanation: |
+        **Hot and dry inland, more humid on the coast; Apennine
+        height and Puglian sea breezes take the edge off.** Etna and
+        the Puglian flats are the two extremes.
+
+  - id: sitaly-agri-001
+    type: mcq
+    deck: Italy::Southern Italy
+    tags: [italy, southern-italy]
+    status: reviewed
+    source_id: c29-0003
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What is the south’s main rural economy?
+      choices:
+        - { text: "Only ski tourism", correct: false }
+        - { text: "Agriculture", correct: true }
+        - { text: "Offshore oil only", correct: false }
+        - { text: "No farming at all", correct: false }
+      explanation: |
+        **Agriculture.** Grapes are one crop among wheat, olives and
+        vegetables.
+
+  - id: sitaly-volume-001
+    type: mcq
+    deck: Italy::Southern Italy
+    tags: [italy, southern-italy]
+    status: reviewed
+    source_id: c29-0004
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which two southern areas make the serious volumes of wine?
+      choices:
+        - { text: "Valle d’Aosta and Liguria", correct: false }
+        - { text: "Puglia and Sicily", correct: true }
+        - { text: "Only Barolo", correct: false }
+        - { text: "Champagne", correct: false }
+      explanation: |
+        **Puglia and Sicily.** Campania is the DOCG count, not the
+        litre count.
+
+  - id: sitaly-bush-001
+    type: mcq
+    deck: Italy::Southern Italy
+    tags: [italy, southern-italy]
+    status: reviewed
+    source_id: c29-0005
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How were southern vines traditionally trained against the sun?
+      choices:
+        - { text: "High pergola only", correct: false }
+        - { text: "Low bush vines, leaves shading the fruit", correct: true }
+        - { text: "Ungrafted desert posts", correct: false }
+        - { text: "Indoor only", correct: false }
+      explanation: |
+        **Low bush vines, leaves shading the fruit.** The old
+        Puglian and Sicilian picture.
+
+  - id: sitaly-cordon-001
+    type: mcq
+    deck: Italy::Southern Italy
+    tags: [italy, southern-italy]
+    status: reviewed
+    source_id: c29-0006
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which training is now the southern default?
+      choices:
+        - { text: "Only free-standing bush", correct: false }
+        - { text: "Cordon training and trellising", correct: true }
+        - { text: "No wires at all", correct: false }
+        - { text: "Pergola on every new hectare", correct: false }
+      explanation: |
+        **Cordon training and trellising.** Bush survives on old
+        plots and windy sites.
+
+  - id: sitaly-mech-001
+    type: mcq
+    deck: Italy::Southern Italy
+    tags: [italy, southern-italy]
+    status: reviewed
+    source_id: c29-0007
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Why did Puglia adopt cordon and trellis so widely?
+      choices:
+        - { text: "The law bans any tractor", correct: false }
+        - { text: "The flat plain can be mechanised", correct: true }
+        - { text: "There is no flat land", correct: false }
+        - { text: "Only hand-work is legal", correct: false }
+      explanation: |
+        **The flat plain can be mechanised.** Volume Puglia is
+        tractor country.
+
+  - id: sitaly-campania-docg-001
+    type: mcq
+    deck: Italy::Southern Italy
+    tags: [italy, southern-italy, campania]
+    status: reviewed
+    source_id: c29-0008
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which southern region has the most DOCGs?
+      choices:
+        - { text: "Puglia", correct: false }
+        - { text: "Campania", correct: true }
+        - { text: "Valle d’Aosta", correct: false }
+        - { text: "Liguria", correct: false }
+      explanation: |
+        **Campania** — Taurasi, Fiano d’Avellino, Greco di Tufo.
+
+  - id: sitaly-campania-land-001
+    type: mcq
+    deck: Italy::Southern Italy
+    tags: [italy, southern-italy, campania]
+    status: reviewed
+    source_id: c29-0009
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What mix of land does Campania offer vines?
+      choices:
+        - { text: "One flat desert only", correct: false }
+        - { text: "Mountains, valleys and coastal plains", correct: true }
+        - { text: "Alpine ice only", correct: false }
+        - { text: "A single river island", correct: false }
+      explanation: |
+        **Mountains, valleys, coastal plains.** Vesuvius to the
+        Irpinia hills.
+
+  - id: sitaly-campania-range-001
+    type: mcq
+    deck: Italy::Southern Italy
+    tags: [italy, southern-italy, campania]
+    status: reviewed
+    source_id: c29-0010
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What does Campania’s mix of mountains, valleys and coast allow in the vineyard?
+      choices:
+        - { text: "Only one white grape", correct: false }
+        - { text: "A wide range of black and white varieties", correct: true }
+        - { text: "No Vitis vinifera", correct: false }
+        - { text: "Only icewine", correct: false }
+      explanation: |
+        **A wide range of black and white varieties.** Fiano, Greco
+        and Aglianico share the same region.
+
+  - id: sitaly-fiano-greco-001
+    type: mcq
+    deck: Italy::Southern Italy
+    tags: [italy, southern-italy, campania, grapes]
+    status: reviewed
+    source_id: c29-0011
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which two whites are Campania’s quality pair?
+      choices:
+        - { text: "Trebbiano and Malvasia only", correct: false }
+        - { text: "Fiano and Greco", correct: true }
+        - { text: "Moscato and Cortese", correct: false }
+        - { text: "Pinot Grigio and Friulano", correct: false }
+      explanation: |
+        **Fiano and Greco.** Falanghina exists; these two are the
+        quality pair.
+
+  - id: sitaly-fiano-docg-001
+    type: mcq
+    deck: Italy::Southern Italy
+    tags: [italy, southern-italy, campania]
+    status: reviewed
+    source_id: c29-0012
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which DOCG is the usual home of the best Fiano?
+      choices:
+        - { text: "Greco di Tufo DOCG", correct: false }
+        - { text: "Fiano d’Avellino DOCG", correct: true }
+        - { text: "Soave DOC", correct: false }
+        - { text: "Gavi DOCG", correct: false }
+      explanation: |
+        **Fiano d’Avellino DOCG.** Greco has its own town: Tufo.
+
+  - id: sitaly-greco-docg-001
+    type: mcq
+    deck: Italy::Southern Italy
+    tags: [italy, southern-italy, campania]
+    status: reviewed
+    source_id: c29-0012
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which DOCG is the usual home of the best Greco?
+      choices:
+        - { text: "Fiano d’Avellino DOCG", correct: false }
+        - { text: "Greco di Tufo DOCG", correct: true }
+        - { text: "Orvieto DOC", correct: false }
+        - { text: "Frascati DOC", correct: false }
+      explanation: |
+        **Greco di Tufo DOCG.** Volcanic Irpinia, not the coast.
+
+  - id: sitaly-fiano-style-001
+    type: mcq
+    deck: Italy::Southern Italy
+    tags: [italy, southern-italy, campania]
+    status: reviewed
+    source_id: c29-0013
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What is typical young Fiano like?
+      choices:
+        - { text: "Bone-dry, 11%, and only green apple", correct: false }
+        - { text: "Medium to full, medium acid, stone fruit, melon and mango", correct: true }
+        - { text: "Tannic and gamey", correct: false }
+        - { text: "Always sparkling", correct: false }
+      explanation: |
+        **Medium to full, medium acid, stone fruit, melon and
+        mango.** Most is drunk young; better bottles see oak and
+        age toward wax and honey.
+
+  - id: sitaly-greco-style-001
+    type: mcq
+    deck: Italy::Southern Italy
+    tags: [italy, southern-italy, campania]
+    status: reviewed
+    source_id: c29-0014
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How does Greco sit next to Fiano in the glass?
+      choices:
+        - { text: "Fatter, lower acid, and more mango", correct: false }
+        - { text: "Leaner, higher acid, green apple, stone fruit and passion fruit", correct: true }
+        - { text: "Always a red wine", correct: false }
+        - { text: "Sweet and fortified", correct: false }
+      explanation: |
+        **Leaner, higher acid, green apple, stone fruit and passion
+        fruit.** Fiano is the broader one.
+
+  - id: sitaly-greco-cellar-001
+    type: mcq
+    deck: Italy::Southern Italy
+    tags: [italy, southern-italy, campania]
+    status: reviewed
+    source_id: c29-0015
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How is most Greco fermented?
+      choices:
+        - { text: "Warm, oxidatively, in new barrique", correct: false }
+        - { text: "In stainless steel; some houses use old oak and lees stirring", correct: true }
+        - { text: "On skins for a month, by law", correct: false }
+        - { text: "Boiled", correct: false }
+      explanation: |
+        **In stainless steel; some houses use old oak and lees
+        stirring.** Texture, not makeup.
+
+  - id: sitaly-greco-age-001
+    type: mcq
+    deck: Italy::Southern Italy
+    tags: [italy, southern-italy, campania]
+    status: reviewed
+    source_id: c29-0016
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What can bottle-aged Greco pick up?
+      choices:
+        - { text: "Only residual sugar", correct: false }
+        - { text: "Honey and mushroom notes", correct: true }
+        - { text: "A legal ban on any development", correct: false }
+        - { text: "Lychee and roses only", correct: false }
+      explanation: |
+        **Honey and mushroom notes** on the best bottles. Not every
+        supermarket Greco.
+
+  - id: sitaly-aglianico-001
+    type: mcq
+    deck: Italy::Southern Italy
+    tags: [italy, southern-italy, campania, grapes]
+    status: reviewed
+    source_id: c29-0017
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which black grape is Campania’s prestige red?
+      choices:
+        - { text: "Schiava", correct: false }
+        - { text: "Aglianico", correct: true }
+        - { text: "Corvina", correct: false }
+        - { text: "Pinotage", correct: false }
+      explanation: |
+        **Aglianico.** The south’s answer to Nebbiolo — late,
+        tannic, high acid.
+
+  - id: sitaly-aglianico-style-001
+    type: mcq
+    deck: Italy::Southern Italy
+    tags: [italy, southern-italy, campania]
+    status: reviewed
+    source_id: c29-0018
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What is typical Campania Aglianico like?
+      choices:
+        - { text: "Pale, low tannin, and floral only", correct: false }
+        - { text: "Deep colour, high acid, high tannin, black fruit, oak-aged and able to pick up forest-floor notes", correct: true }
+        - { text: "A white grape", correct: false }
+        - { text: "Always a sweet sparkling", correct: false }
+      explanation: |
+        **Deep colour, high acid, high tannin, black fruit, oak-aged
+        and able to pick up forest-floor notes.** Mastroberardino
+        is the named extra.
+
+  - id: sitaly-taurasi-001
+    type: mcq
+    deck: Italy::Southern Italy
+    tags: [italy, southern-italy, campania]
+    status: reviewed
+    source_id: c29-0019
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which Campania DOCG is Aglianico’s top address?
+      choices:
+        - { text: "Barolo DOCG", correct: false }
+        - { text: "Taurasi DOCG", correct: true }
+        - { text: "Chianti Classico DOCG", correct: false }
+        - { text: "Prosecco DOC", correct: false }
+      explanation: |
+        **Taurasi DOCG.** Irpinia, not the Amalfi beach.
+
+  - id: sitaly-basilicata-where-001
+    type: mcq
+    deck: Italy::Southern Italy
+    tags: [italy, southern-italy, basilicata]
+    status: reviewed
+    source_id: c29-0020
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Where is Basilicata relative to Campania?
+      choices:
+        - { text: "North of Piedmont", correct: false }
+        - { text: "Immediately south of Campania", correct: true }
+        - { text: "On the Adriatic of Veneto", correct: false }
+        - { text: "Inside Rome", correct: false }
+      explanation: |
+        **Immediately south of Campania.** The instep of the boot.
+
+  - id: sitaly-vulture-001
+    type: mcq
+    deck: Italy::Southern Italy
+    tags: [italy, southern-italy, basilicata]
+    status: reviewed
+    source_id: c29-0021
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What is Basilicata’s vineyard landscape?
+      choices:
+        - { text: "A flat coastal lagoon only", correct: false }
+        - { text: "Very mountainous, with vines up to about 900 m around the extinct volcano Monte Vulture", correct: true }
+        - { text: "Indoor only", correct: false }
+        - { text: "A desert at sea level", correct: false }
+      explanation: |
+        **Very mountainous, with vines up to about 900 m around the
+        extinct volcano Monte Vulture.** That height is why
+        Aglianico still has acid.
+
+  - id: sitaly-basilicata-grape-001
+    type: mcq
+    deck: Italy::Southern Italy
+    tags: [italy, southern-italy, basilicata, grapes]
+    status: reviewed
+    source_id: c29-0022
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which grape leads Basilicata?
+      choices:
+        - { text: "Prosecco’s Glera", correct: false }
+        - { text: "Aglianico", correct: true }
+        - { text: "Schiava", correct: false }
+        - { text: "Melon", correct: false }
+      explanation: |
+        **Aglianico** again — same grape as Taurasi, cooler sites.
+
+  - id: sitaly-vulture-docg-001
+    type: mcq
+    deck: Italy::Southern Italy
+    tags: [italy, southern-italy, basilicata]
+    status: reviewed
+    source_id: c29-0023
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which is Basilicata’s flagship wine?
+      choices:
+        - { text: "Soave DOC", correct: false }
+        - { text: "Aglianico del Vulture DOCG", correct: true }
+        - { text: "Frascati DOC", correct: false }
+        - { text: "Barolo DOCG", correct: false }
+      explanation: |
+        **Aglianico del Vulture DOCG.** Paternoster is a checkable
+        name.
+
+  - id: sitaly-puglia-agri-001
+    type: mcq
+    deck: Italy::Southern Italy
+    tags: [italy, southern-italy, puglia]
+    status: reviewed
+    source_id: c29-0024
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What kind of wine country is Puglia?
+      choices:
+        - { text: "A handful of alpine clos", correct: false }
+        - { text: "A vast agricultural zone that grows huge grape volumes", correct: true }
+        - { text: "Only icewine plots", correct: false }
+        - { text: "No vines at all", correct: false }
+      explanation: |
+        **A vast agricultural zone that grows huge grape volumes.**
+        The heel of the boot.
+
+  - id: sitaly-puglia-hot-001
+    type: mcq
+    deck: Italy::Southern Italy
+    tags: [italy, southern-italy, puglia, climate]
+    status: reviewed
+    source_id: c29-0025
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which word fits Puglia’s climate?
+      choices:
+        - { text: "Cool maritime", correct: false }
+        - { text: "Hot", correct: true }
+        - { text: "High alpine", correct: false }
+        - { text: "Polar", correct: false }
+      explanation: |
+        **Hot.** Sea breezes help; it is still a bake.
+
+  - id: sitaly-puglia-black-001
+    type: mcq
+    deck: Italy::Southern Italy
+    tags: [italy, southern-italy, puglia]
+    status: reviewed
+    source_id: c29-0026
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Why do black grapes dominate Puglia?
+      choices:
+        - { text: "A legal ban on any white", correct: false }
+        - { text: "The hot climate ripens them reliably", correct: true }
+        - { text: "It is a cool-climate region", correct: false }
+        - { text: "Only Riesling is legal", correct: false }
+      explanation: |
+        **The hot climate ripens them reliably.** Whites exist;
+        reds own the hectares.
+
+  - id: sitaly-puglia-pair-001
+    type: mcq
+    deck: Italy::Southern Italy
+    tags: [italy, southern-italy, puglia, grapes]
+    status: reviewed
+    source_id: c29-0027
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which two grapes are Puglia’s headline reds?
+      choices:
+        - { text: "Nebbiolo and Barbera", correct: false }
+        - { text: "Negroamaro and Primitivo", correct: true }
+        - { text: "Corvina and Rondinella", correct: false }
+        - { text: "Pinot Noir and Gamay", correct: false }
+      explanation: |
+        **Negroamaro and Primitivo.** Primitivo is Zinfandel’s
+        cousin.
+
+  - id: sitaly-puglia-igt-001
+    type: mcq
+    deck: Italy::Southern Italy
+    tags: [italy, southern-italy, puglia]
+    status: reviewed
+    source_id: c29-0028
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How are Puglia’s simple, high-yield reds usually labelled?
+      choices:
+        - { text: "Taurasi DOCG", correct: false }
+        - { text: "Puglia IGT", correct: true }
+        - { text: "Barolo DOCG", correct: false }
+        - { text: "Only Champagne AOC", correct: false }
+      explanation: |
+        **Puglia IGT** — early-drinking, fruity volume. High yield on
+        the hot plain, not a high-altitude story.
+
+  - id: sitaly-negroamaro-yield-001
+    type: mcq
+    deck: Italy::Southern Italy
+    tags: [italy, southern-italy, puglia]
+    status: reviewed
+    source_id: c29-0029
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: When can Negroamaro make a serious Puglian red?
+      choices:
+        - { text: "Only at 20 tonnes a hectare", correct: false }
+        - { text: "When yields are kept in check", correct: true }
+        - { text: "It never makes quality wine", correct: false }
+        - { text: "Only as a white", correct: false }
+      explanation: |
+        **When yields are kept in check.** Same grape, two wines.
+
+  - id: sitaly-negroamaro-style-001
+    type: mcq
+    deck: Italy::Southern Italy
+    tags: [italy, southern-italy, puglia]
+    status: reviewed
+    source_id: c29-0030
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What is better Negroamaro like?
+      choices:
+        - { text: "Light, 11%, and spritzy", correct: false }
+        - { text: "Full, medium tannin, medium acid, high alcohol, baked red and black fruit", correct: true }
+        - { text: "Always a sweet white", correct: false }
+        - { text: "Pale and herbal only", correct: false }
+      explanation: |
+        **Full, medium tannin, medium acid, high alcohol, baked red
+        and black fruit.** Heat plus a smaller crop.
+
+  - id: sitaly-salice-001
+    type: mcq
+    deck: Italy::Southern Italy
+    tags: [italy, southern-italy, puglia]
+    status: reviewed
+    source_id: c29-0031
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which DOC is a usual address for better Negroamaro?
+      choices:
+        - { text: "Barolo DOCG", correct: false }
+        - { text: "Salice Salentino DOC", correct: true }
+        - { text: "Soave DOC", correct: false }
+        - { text: "Gavi DOCG", correct: false }
+      explanation: |
+        **Salice Salentino DOC**, in the Salento heel.
+
+  - id: sitaly-primitivo-style-001
+    type: mcq
+    deck: Italy::Southern Italy
+    tags: [italy, southern-italy, puglia]
+    status: reviewed
+    source_id: c29-0032
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What are the best Primitivos like?
+      choices:
+        - { text: "Lean, high acid, and green", correct: false }
+        - { text: "Full, medium tannin, medium acid, high alcohol, very ripe berry fruit", correct: true }
+        - { text: "Always sparkling", correct: false }
+        - { text: "A white wine", correct: false }
+      explanation: |
+        **Full, medium tannin, medium acid, high alcohol, very ripe
+        berry fruit.** Manduria and Gioia del Colle are the named
+        extras.
+
+  - id: sitaly-sicily-volume-001
+    type: mcq
+    deck: Italy::Southern Italy
+    tags: [italy, southern-italy, sicily]
+    status: reviewed
+    source_id: c29-0033
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How does Sicily sit next to Puglia for grape volume?
+      choices:
+        - { text: "It grows almost no grapes", correct: false }
+        - { text: "It also grows vast quantities", correct: true }
+        - { text: "Only icewine is legal", correct: false }
+        - { text: "Vines are banned", correct: false }
+      explanation: |
+        **It also grows vast quantities.** IGT and Sicilia DOC take
+        most of it.
+
+  - id: sitaly-terre-001
+    type: mcq
+    deck: Italy::Southern Italy
+    tags: [italy, southern-italy, sicily]
+    status: reviewed
+    source_id: c29-0034
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Under which IGT do most Sicilian grapes land?
+      choices:
+        - { text: "Toscana IGT", correct: false }
+        - { text: "Terre Siciliane IGT", correct: true }
+        - { text: "Puglia IGT only", correct: false }
+        - { text: "Champagne AOC", correct: false }
+      explanation: |
+        **Terre Siciliane IGT** (the old Terre di Sicilia wording).
+        The volume bin.
+
+  - id: sitaly-sicilia-doc-001
+    type: mcq
+    deck: Italy::Southern Italy
+    tags: [italy, southern-italy, sicily]
+    status: reviewed
+    source_id: c29-0035
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: If yields come down a little, which island-wide DOC can that fruit take?
+      choices:
+        - { text: "Barolo DOCG", correct: false }
+        - { text: "Sicilia DOC", correct: true }
+        - { text: "Chianti Classico DOCG", correct: false }
+        - { text: "Only Vin de France", correct: false }
+      explanation: |
+        **Sicilia DOC.** One step up from the IGT bin.
+
+  - id: sitaly-nda-001
+    type: mcq
+    deck: Italy::Southern Italy
+    tags: [italy, southern-italy, sicily, grapes]
+    status: reviewed
+    source_id: c29-0036
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which black grape leads Sicily’s volume reds?
+      choices:
+        - { text: "Nebbiolo", correct: false }
+        - { text: "Nero d’Avola", correct: true }
+        - { text: "Pinot Noir", correct: false }
+        - { text: "Schiava", correct: false }
+      explanation: |
+        **Nero d’Avola.** The island’s workhorse red.
+
+  - id: sitaly-nda-style-001
+    type: mcq
+    deck: Italy::Southern Italy
+    tags: [italy, southern-italy, sicily]
+    status: reviewed
+    source_id: c29-0037
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What is everyday Nero d’Avola like?
+      choices:
+        - { text: "Pale, high acid, and built like Barolo", correct: false }
+        - { text: "Medium to full, medium tannin, medium acid, plum and black cherry, usually fruity and early-drinking", correct: true }
+        - { text: "Always a sweet white", correct: false }
+        - { text: "Sparkling only", correct: false }
+      explanation: |
+        **Medium to full, medium tannin, medium acid, plum and black
+        cherry, usually fruity and early-drinking.** Better houses
+        make a denser, more complex version.
+
+  - id: sitaly-sicily-white-sell-001
+    type: mcq
+    deck: Italy::Southern Italy
+    tags: [italy, southern-italy, sicily]
+    status: reviewed
+    source_id: c29-0038
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How are Sicily’s local whites usually sold?
+      choices:
+        - { text: "Only as a red blend", correct: false }
+        - { text: "As varietal bottles or as blends", correct: true }
+        - { text: "Only as icewine", correct: false }
+        - { text: "They may not be labelled", correct: false }
+      explanation: |
+        **As varietal bottles or as blends.** Grillo, Catarratto,
+        Inzolia.
+
+  - id: sitaly-sicily-white-style-001
+    type: mcq
+    deck: Italy::Southern Italy
+    tags: [italy, southern-italy, sicily]
+    status: reviewed
+    source_id: c29-0039
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What style do Sicily’s local whites usually take?
+      choices:
+        - { text: "Heavy new oak and tropical jam", correct: false }
+        - { text: "Unoaked, with citrus and stone fruit", correct: true }
+        - { text: "Tannic red", correct: false }
+        - { text: "Always fortified", correct: false }
+      explanation: |
+        **Unoaked citrus and stone fruit.** Steel, not barrique.
+
+  - id: sitaly-sicily-syrah-001
+    type: mcq
+    deck: Italy::Southern Italy
+    tags: [italy, southern-italy, sicily, grapes]
+    status: reviewed
+    source_id: c29-0040
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Besides the locals, which international red has done especially well in Sicily?
+      choices:
+        - { text: "Pinot Noir", correct: false }
+        - { text: "Syrah", correct: true }
+        - { text: "Gamay", correct: false }
+        - { text: "Riesling", correct: false }
+      explanation: |
+        **Syrah.** Chardonnay is planted too; Syrah is the one that
+        likes the heat.
+
+  - id: sitaly-etna-001
+    type: mcq
+    deck: Italy::Southern Italy
+    tags: [italy, southern-italy, sicily]
+    status: reviewed
+    source_id: c29-0041
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which Sicilian DOC is the usual source of the island’s finest still wines?
+      choices:
+        - { text: "Prosecco DOC", correct: false }
+        - { text: "Etna DOC", correct: true }
+        - { text: "Chianti DOCG", correct: false }
+        - { text: "Soave DOC", correct: false }
+      explanation: |
+        **Etna DOC.** Passopisciaro and Tenuta delle Terre Nere are
+        the named extras.
+
+  - id: sitaly-etna-vines-001
+    type: mcq
+    deck: Italy::Southern Italy
+    tags: [italy, southern-italy, sicily]
+    status: reviewed
+    source_id: c29-0042
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How are Etna’s best vines typically farmed?
+      choices:
+        - { text: "High-yield coastal bush at sea level", correct: false }
+        - { text: "Old, low-yielding vines at high altitude", correct: true }
+        - { text: "Indoor only", correct: false }
+        - { text: "Twenty tonnes a hectare", correct: false }
+      explanation: |
+        **Old, low-yielding vines at high altitude.** That is the
+        Etna difference.
+
+  - id: sitaly-etna-reds-001
+    type: mcq
+    deck: Italy::Southern Italy
+    tags: [italy, southern-italy, sicily, grapes]
+    status: reviewed
+    source_id: c29-0043
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which two grapes make Etna red?
+      choices:
+        - { text: "Nero d’Avola and Syrah only", correct: false }
+        - { text: "Nerello Mascalese and Nerello Cappuccio", correct: true }
+        - { text: "Sangiovese and Colorino", correct: false }
+        - { text: "Corvina and Rondinella", correct: false }
+      explanation: |
+        **Nerello Mascalese and Nerello Cappuccio.** Mascalese leads.
+
+  - id: sitaly-etna-red-style-001
+    type: mcq
+    deck: Italy::Southern Italy
+    tags: [italy, southern-italy, sicily]
+    status: reviewed
+    source_id: c29-0044
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What are blended Etna reds like?
+      choices:
+        - { text: "Baked, jammy, and low acid", correct: false }
+        - { text: "Fragrant, high acid, high tannin, sour red cherry, cranberry, raspberry, sometimes dried herbs", correct: true }
+        - { text: "Always a sweet white", correct: false }
+        - { text: "Pale and sparkling only", correct: false }
+      explanation: |
+        **Fragrant, high acid, high tannin, sour red cherry,
+        cranberry, raspberry, sometimes dried herbs.** More
+        Burgundy-shaped than a hot Nero d’Avola.
+
+  - id: sitaly-etna-age-001
+    type: mcq
+    deck: Italy::Southern Italy
+    tags: [italy, southern-italy, sicily]
+    status: reviewed
+    source_id: c29-0045
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What happens to Etna red with bottle age?
+      choices:
+        - { text: "Tannin hardens and fruit vanishes", correct: false }
+        - { text: "Tannins soften and mushroom notes can appear", correct: true }
+        - { text: "It must be drunk the week it is bottled", correct: false }
+        - { text: "It turns white", correct: false }
+      explanation: |
+        **Tannins soften and mushroom notes can appear.** The pale
+        Nerello frame ages.
+
+  - id: sitaly-etna-white-001
+    type: mcq
+    deck: Italy::Southern Italy
+    tags: [italy, southern-italy, sicily]
+    status: reviewed
+    source_id: c29-0046
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What are the better Etna whites like?
+      choices:
+        - { text: "Fat, low acid, and tropical", correct: false }
+        - { text: "Medium body, high acid, citrus, often stony or steely, able to pick up honey and wax", correct: true }
+        - { text: "Tannic red", correct: false }
+        - { text: "Always sparkling", correct: false }
+      explanation: |
+        **Medium body, high acid, citrus, often stony or steely,
+        able to pick up honey and wax.** Carricante is the usual
+        grape.
