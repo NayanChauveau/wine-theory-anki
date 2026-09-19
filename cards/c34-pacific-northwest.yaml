@@ -2,4 +2,1070 @@
 # source: C34 (import/inbox/c34-pacific-northwest.yaml)
 # deck: USA::Pacific Northwest
 
-cards: []
+cards:
+  - id: oregon-regions-001
+    type: mcq
+    deck: USA::Pacific Northwest
+    tags: [usa, oregon]
+    status: reviewed
+    source_id: c34-0001
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: West of the Cascades, Oregon vineyards are grouped into which two broad belts?
+      choices:
+        - { text: "Willamette Valley and Columbia Valley", correct: false }
+        - { text: "Northern Oregon and Southern Oregon", correct: true }
+        - { text: "Umpqua Valley and Rogue Valley", correct: false }
+        - { text: "Columbia Gorge and Applegate Valley", correct: false }
+      explanation: |
+        **Northern Oregon and Southern Oregon.** Willamette Valley
+        anchors the north; Southern Oregon AVA is the warmer south.
+        Shared Columbia Valley land east of the Cascades is a
+        separate, drier story.
+
+  - id: oregon-willamette-001
+    type: mcq
+    deck: USA::Pacific Northwest
+    tags: [usa, oregon, willamette]
+    status: reviewed
+    source_id: c34-0002
+    review:
+      fact_check: pass
+      sources: [spec, aoc-site]
+    en:
+      question: Which AVA is the core northern Oregon wine district?
+      choices:
+        - { text: "Columbia Valley AVA", correct: false }
+        - { text: "Willamette Valley AVA", correct: true }
+        - { text: "Rogue Valley AVA", correct: false }
+        - { text: "Yakima Valley AVA", correct: false }
+      explanation: |
+        **Willamette Valley AVA.** It is the northern Oregon
+        flagship, not the rain-shadow country east of the Cascades
+        and not the warmer Rogue basin.
+
+  - id: oregon-willamette-location-001
+    type: mcq
+    deck: USA::Pacific Northwest
+    tags: [usa, oregon, willamette]
+    status: reviewed
+    source_id: c34-0003
+    review:
+      fact_check: pass
+      sources: [aoc-site]
+    en:
+      question: Which location is correct for Willamette Valley AVA?
+      choices:
+        - { text: "East of the Cascades, inland from Portland in the Columbia rain shadow", correct: false }
+        - { text: "West of the Cascades, stretching south from Portland", correct: true }
+        - { text: "West of the Cascades, north of Portland on the Puget Sound shore", correct: false }
+        - { text: "West of the Cascades, far south of Portland inside Rogue Valley AVA", correct: false }
+      explanation: |
+        **West of the Cascades, stretching south from Portland.**
+        Willamette Valley AVA lies between the Coast Range and the
+        Cascades, not in Washington’s irrigated desert.
+
+  - id: oregon-willamette-scale-001
+    type: mcq
+    deck: USA::Pacific Northwest
+    tags: [usa, oregon, willamette]
+    status: reviewed
+    source_id: c34-0004
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which AVA holds most of Oregon's vines?
+      choices:
+        - { text: "Columbia Valley AVA", correct: false }
+        - { text: "Willamette Valley AVA", correct: true }
+        - { text: "Rogue Valley AVA", correct: false }
+        - { text: "Umpqua Valley AVA", correct: false }
+      explanation: |
+        **Willamette Valley AVA.** Most Oregon vines and cellars
+        sit there. Southern Oregon and the shared Columbia Valley
+        belts are real, but they are much smaller in cellar count.
+
+  - id: oregon-willamette-climate-001
+    type: mcq
+    deck: USA::Pacific Northwest
+    tags: [usa, oregon, willamette, climate]
+    status: reviewed
+    source_id: c34-0005
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which climate class fits Willamette Valley AVA?
+      choices:
+        - { text: "Hot, arid continental desert", correct: false }
+        - { text: "Moderate, with a maritime tilt", correct: true }
+        - { text: "Tropical monsoon", correct: false }
+        - { text: "Permanently alpine and frozen", correct: false }
+      explanation: |
+        **Moderate, with a maritime tilt.** Willamette Valley AVA
+        is cool-moderate, not the hot rain-shadow east of the
+        Cascades and not tropical.
+
+  - id: oregon-willamette-breeze-001
+    type: mcq
+    deck: USA::Pacific Northwest
+    tags: [usa, oregon, willamette, climate]
+    status: reviewed
+    source_id: c34-0005
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What air keeps Willamette Valley AVA from running hot in summer?
+      choices:
+        - { text: "Dry chinook winds off the Rockies only", correct: false }
+        - { text: "Cooling breezes from the Pacific", correct: true }
+        - { text: "Hot Santa Ana winds from inland California", correct: false }
+        - { text: "Humid monsoon air from the Gulf of Mexico", correct: false }
+      explanation: |
+        **Cooling breezes from the Pacific.** Gaps in the Coast
+        Range let marine air into Willamette Valley AVA. That is
+        not Columbia Valley irrigation country.
+
+  - id: oregon-willamette-season-001
+    type: mcq
+    deck: USA::Pacific Northwest
+    tags: [usa, oregon, willamette, climate]
+    status: reviewed
+    source_id: c34-0005
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What is the ripening season like in Willamette Valley AVA?
+      choices:
+        - { text: "Wet every afternoon, with warm nights", correct: false }
+        - { text: "Dry, with long sunny days and cool nights", correct: true }
+        - { text: "A summer monsoon that soaks every harvest", correct: false }
+        - { text: "Bone-dry heat with no night cooling", correct: false }
+      explanation: |
+        **Dry, with long sunny days and cool nights.** Winter
+        carries most of the rain; summer in Willamette Valley AVA
+        stays relatively dry, and nights keep acidity.
+
+  - id: oregon-willamette-pinot-001
+    type: mcq
+    deck: USA::Pacific Northwest
+    tags: [usa, oregon, willamette, grapes]
+    status: reviewed
+    source_id: c34-0006
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which grape is the mainstay of Willamette Valley AVA?
+      choices:
+        - { text: "Cabernet Sauvignon", correct: false }
+        - { text: "Pinot Noir", correct: true }
+        - { text: "Zinfandel", correct: false }
+        - { text: "Concord", correct: false }
+      explanation: |
+        **Pinot Noir.** It is the main planting in Willamette
+        Valley AVA. Pinot Gris and Chardonnay are the usual whites;
+        Cabernet Sauvignon belongs to warmer belts, not this valley.
+
+  - id: oregon-willamette-pinot-style-001
+    type: mcq
+    deck: USA::Pacific Northwest
+    tags: [usa, oregon, willamette, grapes]
+    status: reviewed
+    source_id: c34-0007
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What profile is typical of Pinot Noir from Willamette Valley AVA?
+      choices:
+        - { text: "Low acid, cooked black fruit, and high alcohol", correct: false }
+        - { text: "High acidity, ripe red fruit, and a light spice note", correct: true }
+        - { text: "Plummy, full Merlot weight with no red fruit", correct: false }
+        - { text: "Fortified, sweet, and oxidative", correct: false }
+      explanation: |
+        **High acidity, ripe red fruit, and a light spice note.**
+        Cool nights in Willamette Valley AVA keep the acid; cherry
+        and strawberry lead the fruit. Do not swap this for
+        Washington Cabernet or Merlot.
+
+  - id: oregon-pinot-gris-001
+    type: mcq
+    deck: USA::Pacific Northwest
+    tags: [usa, oregon, grapes]
+    status: reviewed
+    source_id: c34-0008
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Besides Pinot Noir, which white grape is widely grown in northern Oregon?
+      choices:
+        - { text: "Furmint", correct: false }
+        - { text: "Pinot Gris", correct: true }
+        - { text: "Palomino", correct: false }
+        - { text: "Airén", correct: false }
+      explanation: |
+        **Pinot Gris.** It is northern Oregon’s main white, ahead
+        of Chardonnay. Riesling leads a different story in
+        Washington and the Finger Lakes.
+
+  - id: oregon-pinot-gris-style-001
+    type: mcq
+    deck: USA::Pacific Northwest
+    tags: [usa, oregon, grapes]
+    status: reviewed
+    source_id: c34-0008
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What style is typical of Pinot Gris from northern Oregon?
+      choices:
+        - { text: "Botrytis-sweet, like Sauternes", correct: false }
+        - { text: "Dry and fruity", correct: true }
+        - { text: "Flor-aged and nutty, like Fino", correct: false }
+        - { text: "Sparkling only, with no still wine", correct: false }
+      explanation: |
+        **Dry and fruity.** Northern Oregon Pinot Gris is usually
+        a still, dry white, not a sweet or flor wine.
+
+  - id: oregon-southern-location-001
+    type: mcq
+    deck: USA::Pacific Northwest
+    tags: [usa, oregon]
+    status: reviewed
+    source_id: c34-0009
+    review:
+      fact_check: pass
+      sources: [aoc-site]
+    en:
+      question: Where does Southern Oregon AVA sit relative to Willamette Valley AVA?
+      choices:
+        - { text: "Immediately north of Portland", correct: false }
+        - { text: "Immediately south of Willamette Valley AVA", correct: true }
+        - { text: "East of the Cascades in Yakima Valley AVA", correct: false }
+        - { text: "On Long Island", correct: false }
+      explanation: |
+        **Immediately south of Willamette Valley AVA.** Umpqua
+        Valley AVA begins near the Lane–Douglas line, south of
+        Eugene, still west of the Cascades.
+
+  - id: oregon-southern-avas-001
+    type: mcq
+    deck: USA::Pacific Northwest
+    tags: [usa, oregon]
+    status: reviewed
+    source_id: c34-0010
+    review:
+      fact_check: pass
+      sources: [aoc-site]
+    en:
+      question: Which pair of smaller AVAs sits inside Southern Oregon AVA?
+      choices:
+        - { text: "Dundee Hills AVA and Eola-Amity Hills AVA", correct: false }
+        - { text: "Umpqua Valley AVA and Rogue Valley AVA", correct: true }
+        - { text: "Columbia Valley AVA and Columbia Gorge AVA", correct: false }
+        - { text: "Chehalem Mountains AVA and Yamhill-Carlton AVA", correct: false }
+      explanation: |
+        **Umpqua Valley AVA and Rogue Valley AVA.** Southern
+        Oregon AVA also covers Applegate Valley, Elkton Oregon,
+        and Red Hill Douglas County. Dundee Hills and Eola-Amity
+        Hills sit inside Willamette Valley AVA, not here.
+
+  - id: oregon-southern-warmest-001
+    type: mcq
+    deck: USA::Pacific Northwest
+    tags: [usa, oregon, climate]
+    status: reviewed
+    source_id: c34-0011
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Among Oregon’s west-of-Cascades AVAs, which has the warmest growing conditions?
+      choices:
+        - { text: "Willamette Valley AVA", correct: false }
+        - { text: "Southern Oregon AVA", correct: true }
+        - { text: "Elkton Oregon AVA", correct: false }
+        - { text: "Chehalem Mountains AVA", correct: false }
+      explanation: |
+        **Southern Oregon AVA.** Rogue Valley AVA in particular
+        runs warmer than Willamette Valley AVA. Oregon is not
+        cool Pinot country in every valley.
+
+  - id: oregon-southern-cool-sites-001
+    type: mcq
+    deck: USA::Pacific Northwest
+    tags: [usa, oregon, climate]
+    status: reviewed
+    source_id: c34-0012
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How can Southern Oregon AVA still ripen cool-climate grapes?
+      choices:
+        - { text: "A legal ban on summer heat", correct: false }
+        - { text: "Cooler pockets on hillsides and in some valleys", correct: true }
+        - { text: "Only by trucking fruit from Willamette Valley AVA", correct: false }
+        - { text: "Nightly frost that never lets sugar form", correct: false }
+      explanation: |
+        **Cooler pockets on hillsides and in some valleys.**
+        Northern Umpqua and higher slopes stay cool enough for
+        Pinot Noir, while lower Rogue sites suit Cabernet.
+
+  - id: oregon-southern-warm-grapes-001
+    type: mcq
+    deck: USA::Pacific Northwest
+    tags: [usa, oregon, grapes]
+    status: reviewed
+    source_id: c34-0013
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which black grapes succeed in the warmer parts of Southern Oregon AVA?
+      choices:
+        - { text: "Only Concord and Niagara", correct: false }
+        - { text: "Cabernet Sauvignon, Merlot, and Syrah", correct: true }
+        - { text: "Only Pinot Noir, with no Bordeaux grapes", correct: false }
+        - { text: "Only Palomino and Pedro Ximénez", correct: false }
+      explanation: |
+        **Cabernet Sauvignon, Merlot, and Syrah.** Warmer Rogue
+        and southern Umpqua sites can ripen those grapes. Pinot
+        Noir still belongs on the cooler Southern Oregon slopes.
+
+  - id: oregon-southern-cool-grapes-001
+    type: mcq
+    deck: USA::Pacific Northwest
+    tags: [usa, oregon, grapes]
+    status: reviewed
+    source_id: c34-0013
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which cooler-climate grapes still work in Southern Oregon AVA’s cooler valleys and slopes?
+      choices:
+        - { text: "Only Zinfandel and Petite Sirah", correct: false }
+        - { text: "Pinot Noir, Chardonnay, and Pinot Gris", correct: true }
+        - { text: "Only Touriga Nacional", correct: false }
+        - { text: "Only Sangiovese and Nebbiolo, with no Pinot", correct: false }
+      explanation: |
+        **Pinot Noir, Chardonnay, and Pinot Gris.** Cooler
+        Southern Oregon pockets keep those grapes in play beside
+        the warmer Cabernet and Syrah sites.
+
+  - id: washington-columbia-001
+    type: mcq
+    deck: USA::Pacific Northwest
+    tags: [usa, washington]
+    status: reviewed
+    source_id: c34-0014
+    review:
+      fact_check: pass
+      sources: [spec, aoc-site]
+    en:
+      question: Almost all of Washington State's vines sit in which AVA?
+      choices:
+        - { text: "Willamette Valley AVA", correct: false }
+        - { text: "Columbia Valley AVA", correct: true }
+        - { text: "Puget Sound AVA", correct: false }
+        - { text: "Napa Valley AVA", correct: false }
+      explanation: |
+        **Columbia Valley AVA.** Almost all Washington vines sit
+        in that large eastern AVA. Puget Sound AVA is a small wet
+        exception west of the Cascades; Willamette Valley AVA is
+        Oregon.
+
+  - id: washington-columbia-east-001
+    type: mcq
+    deck: USA::Pacific Northwest
+    tags: [usa, washington]
+    status: reviewed
+    source_id: c34-0015
+    review:
+      fact_check: pass
+      sources: [aoc-site]
+    en:
+      question: On which side of the Cascade Mountains does Columbia Valley AVA lie?
+      choices:
+        - { text: "West of the Cascades, on the wet Puget Sound shore", correct: false }
+        - { text: "East of the Cascade Mountains", correct: true }
+        - { text: "Only on the Oregon coast around Coos Bay", correct: false }
+        - { text: "South of Los Angeles", correct: false }
+      explanation: |
+        **East of the Cascade Mountains.** Columbia Valley AVA is
+        rain-shadow country, not the wet western slope and not
+        Willamette Valley AVA.
+
+  - id: washington-columbia-rivers-001
+    type: mcq
+    deck: USA::Pacific Northwest
+    tags: [usa, washington]
+    status: reviewed
+    source_id: c34-0015
+    review:
+      fact_check: pass
+      sources: [aoc-site]
+    en:
+      question: Columbia Valley AVA follows which river system?
+      choices:
+        - { text: "The Mississippi and its delta only", correct: false }
+        - { text: "The Columbia River and its tributary valleys", correct: true }
+        - { text: "The Hudson River only", correct: false }
+        - { text: "The Willamette River west of Portland only", correct: false }
+      explanation: |
+        **The Columbia River and its tributary valleys.** Yakima,
+        Snake, and other feeders sit inside that basin. The
+        Willamette River is the Oregon valley west of the Cascades.
+
+  - id: washington-yakima-walla-walla-001
+    type: mcq
+    deck: USA::Pacific Northwest
+    tags: [usa, washington]
+    status: reviewed
+    source_id: c34-0016
+    review:
+      fact_check: pass
+      sources: [aoc-site]
+    en:
+      question: Which pair of smaller AVAs is classically named inside Columbia Valley AVA?
+      choices:
+        - { text: "Willamette Valley AVA and Rogue Valley AVA", correct: false }
+        - { text: "Yakima Valley AVA and Walla Walla Valley AVA", correct: true }
+        - { text: "Seneca Lake AVA and Cayuga Lake AVA", correct: false }
+        - { text: "Los Carneros AVA and Sta. Rita Hills AVA", correct: false }
+      explanation: |
+        **Yakima Valley AVA and Walla Walla Valley AVA.** Use the
+        official Walla Walla Valley name. Horse Heaven Hills AVA
+        is another important nested district; it is not a
+        Willamette sub-zone. Walla Walla Valley AVA also crosses
+        into Oregon.
+
+  - id: washington-nested-avas-001
+    type: mcq
+    deck: USA::Pacific Northwest
+    tags: [usa, washington]
+    status: reviewed
+    source_id: c34-0016
+    review:
+      fact_check: pass
+      sources: [aoc-site]
+    en:
+      question: Where do Yakima Valley AVA and Walla Walla Valley AVA sit?
+      choices:
+        - { text: "Inside Willamette Valley AVA", correct: false }
+        - { text: "Inside Columbia Valley AVA", correct: true }
+        - { text: "Inside Finger Lakes AVA", correct: false }
+        - { text: "Inside Napa Valley AVA", correct: false }
+      explanation: |
+        **Inside Columbia Valley AVA.** Both are nested eastern
+        Washington districts (Walla Walla Valley AVA also has an
+        Oregon slice). Horse Heaven Hills AVA is a further nested
+        neighbour, still not in Willamette Valley AVA.
+
+  - id: washington-columbia-arid-001
+    type: mcq
+    deck: USA::Pacific Northwest
+    tags: [usa, washington, climate]
+    status: reviewed
+    source_id: c34-0017
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What rainfall pattern defines Columbia Valley AVA?
+      choices:
+        - { text: "Wet maritime summers, like western Washington", correct: false }
+        - { text: "Very low rainfall through the growing season", correct: true }
+        - { text: "A daily harvest-time monsoon", correct: false }
+        - { text: "No need for water because fog irrigates the rows", correct: false }
+      explanation: |
+        **Very low rainfall through the growing season.** Columbia
+        Valley AVA is arid. Western Washington around Puget Sound
+        AVA is the wet contrast, so Washington is not a desert in
+        every county.
+
+  - id: washington-columbia-rain-shadow-001
+    type: mcq
+    deck: USA::Pacific Northwest
+    tags: [usa, washington, climate]
+    status: reviewed
+    source_id: c34-0017
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Why is Columbia Valley AVA so dry?
+      choices:
+        - { text: "A legal cap on clouds", correct: false }
+        - { text: "A rain shadow cast by the Cascade Mountains", correct: true }
+        - { text: "The Gulf Stream steals every shower", correct: false }
+        - { text: "Willamette Valley AVA blocks the Columbia River", correct: false }
+      explanation: |
+        **A rain shadow cast by the Cascade Mountains.** Pacific
+        storms drop their water on the western slope; Columbia
+        Valley AVA sits in the lee.
+
+  - id: washington-columbia-irrigation-001
+    type: mcq
+    deck: USA::Pacific Northwest
+    tags: [usa, washington, viticulture]
+    status: reviewed
+    source_id: c34-0017
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How do Columbia Valley AVA growers replace the missing rain?
+      choices:
+        - { text: "By banning irrigation statewide", correct: false }
+        - { text: "By irrigating with river water", correct: true }
+        - { text: "By moving harvest into the winter rains", correct: false }
+        - { text: "By dry-farming every vine with no water", correct: false }
+      explanation: |
+        **By irrigating with river water.** Columbia, Yakima, and
+        Snake water make viticulture possible in that arid basin.
+        Dry-farming is not the default there.
+
+  - id: washington-columbia-summer-001
+    type: mcq
+    deck: USA::Pacific Northwest
+    tags: [usa, washington, climate]
+    status: reviewed
+    source_id: c34-0018
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which pair of climate traits helps Columbia Valley AVA ripen fruit on a reliable schedule?
+      choices:
+        - { text: "Short, dark summers and constant rain", correct: false }
+        - { text: "Long summer daylight and steady summer warmth", correct: true }
+        - { text: "Tropical nights with no diurnal range", correct: false }
+        - { text: "Pacific fog that never lifts", correct: false }
+      explanation: |
+        **Long summer daylight and steady summer warmth.** High
+        latitude stretches the June–August day; the continental
+        interior stays reliably sunny. Cool nights are a separate
+        acidity story.
+
+  - id: washington-columbia-ripeness-001
+    type: mcq
+    deck: USA::Pacific Northwest
+    tags: [usa, washington, climate]
+    status: reviewed
+    source_id: c34-0019
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What do Columbia Valley AVA’s long, sunny summer days do for the grapes?
+      choices:
+        - { text: "They stop sugar from forming at all", correct: false }
+        - { text: "They let fruit reach full ripeness", correct: true }
+        - { text: "They force every vine to Pinot Noir", correct: false }
+        - { text: "They flood the vineyard each afternoon", correct: false }
+      explanation: |
+        **They let fruit reach full ripeness.** Cabernet Sauvignon,
+        Merlot, and Syrah can finish in that light. Willamette
+        Valley AVA Pinot Noir is a cooler, western Oregon story.
+
+  - id: washington-columbia-nights-001
+    type: mcq
+    deck: USA::Pacific Northwest
+    tags: [usa, washington, climate]
+    status: reviewed
+    source_id: c34-0019
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How do cool nights help Columbia Valley AVA grapes after hot, sunny days?
+      choices:
+        - { text: "Cool nights strip all acidity", correct: false }
+        - { text: "Cool nights help the grapes keep natural acidity", correct: true }
+        - { text: "Cool nights ban irrigation", correct: false }
+        - { text: "Cool nights turn every red into icewine", correct: false }
+      explanation: |
+        **Cool nights help the grapes keep natural acidity.**
+        Diurnal range in Columbia Valley AVA offsets the warm
+        days, so ripe fruit need not taste flabby.
+
+  - id: washington-columbia-freeze-001
+    type: mcq
+    deck: USA::Pacific Northwest
+    tags: [usa, washington, climate]
+    status: reviewed
+    source_id: c34-0020
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Besides drought, which winter hazard hits Columbia Valley AVA vines?
+      choices:
+        - { text: "Hurricanes off the Gulf of Mexico", correct: false }
+        - { text: "Winter freeze", correct: true }
+        - { text: "Mandatory phylloxera release each January", correct: false }
+        - { text: "Year-round tropical humidity", correct: false }
+      explanation: |
+        **Winter freeze.** Continental Arctic outbreaks can kill
+        buds or whole vines in Columbia Valley AVA. Low rainfall
+        is the other structural limit.
+
+  - id: washington-columbia-freeze-crop-001
+    type: mcq
+    deck: USA::Pacific Northwest
+    tags: [usa, washington, climate]
+    status: reviewed
+    source_id: c34-0020
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What can a hard winter freeze do to a Columbia Valley AVA crop?
+      choices:
+        - { text: "It always doubles the yield", correct: false }
+        - { text: "It can cut crop volume by half or more", correct: true }
+        - { text: "It only affects Pinot Gris in Willamette Valley AVA", correct: false }
+        - { text: "It has no effect on dormant vines", correct: false }
+      explanation: |
+        **It can cut crop volume by half or more.** A severe
+        freeze in Columbia Valley AVA can wipe buds or vines;
+        the next harvest shrinks. Willamette Valley AVA has a
+        milder winter.
+
+  - id: washington-reds-001
+    type: mcq
+    deck: USA::Pacific Northwest
+    tags: [usa, washington, grapes]
+    status: reviewed
+    source_id: c34-0021
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which pair of red grapes leads Columbia Valley AVA?
+      choices:
+        - { text: "Pinot Noir and Gamay only", correct: false }
+        - { text: "Merlot and Cabernet Sauvignon", correct: true }
+        - { text: "Nebbiolo and Sangiovese only", correct: false }
+        - { text: "Concord and Catawba only", correct: false }
+      explanation: |
+        **Merlot and Cabernet Sauvignon.** Those two are the core
+        Columbia Valley AVA reds; Syrah is the usual third.
+        Pinot Noir leads Willamette Valley AVA, not this basin.
+
+  - id: washington-merlot-style-001
+    type: mcq
+    deck: USA::Pacific Northwest
+    tags: [usa, washington, grapes]
+    status: reviewed
+    source_id: c34-0021
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What style is typical of Merlot from Columbia Valley AVA?
+      choices:
+        - { text: "Pale, thin, and high-acid, like cool-climate Pinot Noir", correct: false }
+        - { text: "Full-bodied, with ripe plum fruit", correct: true }
+        - { text: "Flor-aged and salty", correct: false }
+        - { text: "Only a sweet white", correct: false }
+      explanation: |
+        **Full-bodied, with ripe plum fruit.** Columbia Valley AVA
+        Merlot has weight. Do not describe it as Willamette Valley
+        AVA Pinot Noir.
+
+  - id: washington-cabernet-style-001
+    type: mcq
+    deck: USA::Pacific Northwest
+    tags: [usa, washington, grapes]
+    status: reviewed
+    source_id: c34-0021
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What style is typical of Cabernet Sauvignon from Columbia Valley AVA?
+      choices:
+        - { text: "Light, sweet, and sparkling only", correct: false }
+        - { text: "Structured reds that can age", correct: true }
+        - { text: "High-acid red fruit with no tannin, like Pinot Noir", correct: false }
+        - { text: "Oxidative, like Vin Jaune", correct: false }
+      explanation: |
+        **Structured reds that can age.** Columbia Valley AVA
+        Cabernet Sauvignon keeps tannin and can cellar. Pinot Noir
+        from Willamette Valley AVA is a different grape and climate.
+
+  - id: washington-syrah-001
+    type: mcq
+    deck: USA::Pacific Northwest
+    tags: [usa, washington, grapes]
+    status: reviewed
+    source_id: c34-0022
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Besides Cabernet Sauvignon and Merlot, which black grape is a Washington State signature?
+      choices:
+        - { text: "Pinot Noir as the statewide leader", correct: false }
+        - { text: "Syrah", correct: true }
+        - { text: "Gamay grown only for Nouveau", correct: false }
+        - { text: "Palomino", correct: false }
+      explanation: |
+        **Syrah.** Washington State, especially Walla Walla Valley
+        AVA and other Columbia Valley AVA sites, treats Syrah as
+        a serious red. Pinot Noir is Oregon’s Willamette story.
+
+  - id: washington-syrah-style-001
+    type: mcq
+    deck: USA::Pacific Northwest
+    tags: [usa, washington, grapes]
+    status: reviewed
+    source_id: c34-0022
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What style is typical of Syrah from Washington State?
+      choices:
+        - { text: "Thin, pale rosé with no fruit", correct: false }
+        - { text: "Full-bodied and tightly concentrated", correct: true }
+        - { text: "Only a dry sparkling white", correct: false }
+        - { text: "Botrytis-sweet, like Tokaji", correct: false }
+      explanation: |
+        **Full-bodied and tightly concentrated.** Washington State
+        Syrah from Columbia Valley AVA sites has weight and dark
+        fruit, not a light Pinot frame.
+
+  - id: washington-chardonnay-001
+    type: mcq
+    deck: USA::Pacific Northwest
+    tags: [usa, washington, grapes]
+    status: draft
+    source_id: c34-0023
+    review:
+      fact_check: unsure
+      sources: [known-fact]
+    en:
+      question: Which white grape usually leads the Washington State crush, ahead of Riesling in recent tonnage?
+      choices:
+        - { text: "Furmint", correct: false }
+        - { text: "Chardonnay", correct: true }
+        - { text: "Albariño only", correct: false }
+        - { text: "Pinot Gris as the only white", correct: false }
+      explanation: |
+        **Chardonnay.** Recent Washington State crush figures put
+        Chardonnay ahead of Riesling in tons. Riesling acreage
+        stays close, so a bald “most planted white” rank can
+        swing with the survey.
+
+  - id: washington-chardonnay-style-001
+    type: mcq
+    deck: USA::Pacific Northwest
+    tags: [usa, washington, grapes]
+    status: reviewed
+    source_id: c34-0024
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What style is typical of Chardonnay from Washington State?
+      choices:
+        - { text: "Bone-dry, steely, and never oaked", correct: false }
+        - { text: "Fruity, with some toast from oak", correct: true }
+        - { text: "Flor-aged and nutty", correct: false }
+        - { text: "Only icewine from frozen Chardonnay", correct: false }
+      explanation: |
+        **Fruity, with some toast from oak.** Washington State
+        Chardonnay is usually a ripe still white with a modest
+        oak note, not a Chablis copy and not a flor wine.
+
+  - id: washington-riesling-001
+    type: mcq
+    deck: USA::Pacific Northwest
+    tags: [usa, washington, grapes]
+    status: reviewed
+    source_id: c34-0025
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Besides Chardonnay, which white grape is a Washington State favourite?
+      choices:
+        - { text: "Palomino", correct: false }
+        - { text: "Riesling", correct: true }
+        - { text: "Trebbiano Toscano only", correct: false }
+        - { text: "Cortese only", correct: false }
+      explanation: |
+        **Riesling.** Washington State remains one of the United
+        States’ Riesling homes, even when Chardonnay leads the
+        crush. Pinot Gris is the northern Oregon white, not the
+        Washington headline.
+
+  - id: washington-riesling-style-001
+    type: mcq
+    deck: USA::Pacific Northwest
+    tags: [usa, washington, grapes]
+    status: reviewed
+    source_id: c34-0025
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What style is common for Riesling from Washington State?
+      choices:
+        - { text: "Only fortified and oxidative", correct: false }
+        - { text: "Dry, with ripe stone-fruit flavours", correct: true }
+        - { text: "Only red and tannic", correct: false }
+        - { text: "Sparkling from méthode ancestrale only", correct: false }
+      explanation: |
+        **Dry, with ripe stone-fruit flavours.** A dry, stone-fruit
+        Riesling is the usual Washington State picture. Off-dry
+        and sweeter bottlings exist; they are not the only style.
+
+  - id: new-york-hybrids-001
+    type: mcq
+    deck: USA
+    tags: [usa, new-york]
+    status: reviewed
+    source_id: c34-0026
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What makes New York State unusual among major US wine states?
+      choices:
+        - { text: "New York State grows only Cabernet Sauvignon", correct: false }
+        - { text: "American and hybrid vine species still dominate the vineyard", correct: true }
+        - { text: "New York State bans Vitis vinifera by law", correct: false }
+        - { text: "New York State has no lakes and no winter", correct: false }
+      explanation: |
+        **American and hybrid vine species still dominate the
+        vineyard.** Concord and other natives dwarf Vitis vinifera
+        acreage in New York State. Finger Lakes Riesling is the
+        quality-wine headline, not the acreage headline.
+
+  - id: new-york-juice-001
+    type: mcq
+    deck: USA
+    tags: [usa, new-york]
+    status: reviewed
+    source_id: c34-0027
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Besides wine, what are American and hybrid grapes in New York State used for?
+      choices:
+        - { text: "Only barrel staves", correct: false }
+        - { text: "Juices and jellies", correct: true }
+        - { text: "Only olive oil", correct: false }
+        - { text: "Mandatory icewine in every county", correct: false }
+      explanation: |
+        **Juices and jellies.** Concord around Lake Erie still
+        feeds juice and jelly plants. That crop, not Finger Lakes
+        Riesling, explains much of the native acreage.
+
+  - id: new-york-hardiness-001
+    type: mcq
+    deck: USA
+    tags: [usa, new-york, climate]
+    status: reviewed
+    source_id: c34-0027
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Why do American and hybrid vines stay popular in New York State winters?
+      choices:
+        - { text: "American and hybrid vines need tropical heat to survive", correct: false }
+        - { text: "American and hybrid vines are winter-hardy", correct: true }
+        - { text: "American and hybrid vines are banned from cold sites", correct: false }
+        - { text: "American and hybrid vines cannot survive below 20 °C", correct: false }
+      explanation: |
+        **American and hybrid vines are winter-hardy.** Native
+        and hybrid varieties tolerate New York State cold better
+        than many Vitis vinifera cultivars.
+
+  - id: new-york-vinifera-whites-001
+    type: mcq
+    deck: USA
+    tags: [usa, new-york, grapes]
+    status: reviewed
+    source_id: c34-0028
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which pair of Vitis vinifera whites leads plantings in New York State?
+      choices:
+        - { text: "Palomino and Pedro Ximénez", correct: false }
+        - { text: "Riesling and Chardonnay", correct: true }
+        - { text: "Furmint and Hárslevelű only", correct: false }
+        - { text: "Pinot Gris and Viognier only", correct: false }
+      explanation: |
+        **Riesling and Chardonnay.** Riesling leads Vitis vinifera
+        in New York State; Chardonnay is close behind. Concord
+        still beats both on total grape acres.
+
+  - id: new-york-vinifera-reds-001
+    type: mcq
+    deck: USA
+    tags: [usa, new-york, grapes]
+    status: reviewed
+    source_id: c34-0028
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which pair of red Vitis vinifera grapes lead plantings in New York State?
+      choices:
+        - { text: "Pinotage and Touriga Nacional only", correct: false }
+        - { text: "Merlot and Cabernet Franc", correct: true }
+        - { text: "Only Zinfandel and Petite Sirah", correct: false }
+        - { text: "Nebbiolo and Sangiovese as the acreage leaders", correct: false }
+      explanation: |
+        **Merlot and Cabernet Franc.** Those two lead New York
+        State’s red Vitis vinifera acres (Merlot especially on
+        Long Island; Cabernet Franc in the Finger Lakes). Cabernet
+        Sauvignon and Pinot Noir are grown, but they are not the
+        statewide red leaders.
+
+  - id: new-york-finger-lakes-001
+    type: mcq
+    deck: USA
+    tags: [usa, new-york]
+    status: reviewed
+    source_id: c34-0029
+    review:
+      fact_check: pass
+      sources: [spec, aoc-site]
+    en:
+      question: Which AVA is the centre of New York State's wine industry?
+      choices:
+        - { text: "Long Island AVA", correct: false }
+        - { text: "Finger Lakes AVA", correct: true }
+        - { text: "Hudson River Region AVA", correct: false }
+        - { text: "Lake Erie AVA", correct: false }
+      explanation: |
+        **Finger Lakes AVA.** It is New York State's core wine
+        address. Long Island AVA, Hudson River Region AVA, and
+        Lake Erie AVA are real New York districts, but they are
+        smaller wine centres.
+
+  - id: new-york-finger-lakes-lakes-001
+    type: mcq
+    deck: USA
+    tags: [usa, new-york, climate]
+    status: reviewed
+    source_id: c34-0030
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Why can vines ripen around Finger Lakes AVA despite a short, cold season?
+      choices:
+        - { text: "The lakes freeze in June and stop all growth", correct: false }
+        - { text: "Deep glacial lakes store heat into November and warm the nearby air, stretching the season", correct: true }
+        - { text: "A rain shadow from the Cascades keeps Finger Lakes AVA arid", correct: false }
+        - { text: "Pacific breezes reach the lakes every afternoon", correct: false }
+      explanation: |
+        **Deep glacial lakes store heat into November and warm
+        the nearby air, stretching the season.** That autumn
+        buffer is a Finger Lakes AVA fact, not a Cascade
+        rain-shadow or Pacific-breeze story.
+
+  - id: new-york-finger-lakes-riesling-001
+    type: mcq
+    deck: USA
+    tags: [usa, new-york, grapes]
+    status: reviewed
+    source_id: c34-0031
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which wine is Finger Lakes AVA's calling card?
+      choices:
+        - { text: "Fortified Palomino", correct: false }
+        - { text: "Perfumed Riesling", correct: true }
+        - { text: "Napa-style Cabernet Sauvignon as the flagship", correct: false }
+        - { text: "Willamette-style Pinot Noir as the flagship", correct: false }
+      explanation: |
+        **Perfumed Riesling.** Finger Lakes AVA is the United
+        States’ Riesling landmark. Pinot Noir is the Willamette
+        Valley AVA flagship, not the Finger Lakes headline.
+
+  - id: new-york-finger-lakes-others-001
+    type: mcq
+    deck: USA
+    tags: [usa, new-york, grapes]
+    status: reviewed
+    source_id: c34-0032
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Besides Riesling, which Vitis vinifera set does Finger Lakes AVA ripen successfully?
+      choices:
+        - { text: "Only Palomino and Pedro Ximénez", correct: false }
+        - { text: "Pinot Noir, Cabernet Franc, and Chardonnay", correct: true }
+        - { text: "Only Zinfandel from Lodi cuttings", correct: false }
+        - { text: "Only Touriga Nacional and Tinta Roriz", correct: false }
+      explanation: |
+        **Pinot Noir, Cabernet Franc, and Chardonnay.** Those
+        three join Riesling on Finger Lakes AVA slopes. Cabernet
+        Sauvignon is harder to finish there than Cabernet Franc.
+
+  - id: new-york-finger-lakes-natives-001
+    type: mcq
+    deck: USA
+    tags: [usa, new-york, grapes]
+    status: reviewed
+    source_id: c34-0032
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Besides Vitis vinifera, what does Finger Lakes AVA still grow?
+      choices:
+        - { text: "Only Muscadine and Scuppernong", correct: false }
+        - { text: "American varieties and hybrids", correct: true }
+        - { text: "Only Vitis vinifera, with natives banned", correct: false }
+        - { text: "Only California Zinfandel", correct: false }
+      explanation: |
+        **American varieties and hybrids.** Finger Lakes AVA still
+        has native and hybrid plantings beside Riesling and the
+        other Vitis vinifera grapes.
+
+  - id: new-york-lake-avas-001
+    type: mcq
+    deck: USA
+    tags: [usa, new-york]
+    status: reviewed
+    source_id: c34-0033
+    review:
+      fact_check: pass
+      sources: [aoc-site]
+    en:
+      question: Which Finger Lakes have their own nested AVAs?
+      choices:
+        - { text: "Keuka Lake and Canandaigua Lake", correct: false }
+        - { text: "Seneca Lake and Cayuga Lake", correct: true }
+        - { text: "Skaneateles Lake and Owasco Lake", correct: false }
+        - { text: "Canandaigua Lake and Skaneateles Lake", correct: false }
+      explanation: |
+        **Seneca Lake and Cayuga Lake.** Seneca Lake AVA and
+        Cayuga Lake AVA sit inside Finger Lakes AVA. Keuka,
+        Canandaigua, and Skaneateles have no nested AVA of
+        their own.
