@@ -2,4 +2,1040 @@
 # source: C20 (import/inbox/c20-southern-rhone.yaml)
 # deck: France::Southern Rhône
 
-cards: []
+cards:
+  - id: srhone-valence-001
+    type: mcq
+    deck: France::Southern Rhône
+    tags: [france, southern-rhone]
+    status: reviewed
+    source_id: c20-0001
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which town sits at the north edge of the Southern Rhône?
+      choices:
+        - { text: "Nantes", correct: false }
+        - { text: "Valence", correct: true }
+        - { text: "Beaune", correct: false }
+        - { text: "Bordeaux", correct: false }
+      explanation: |
+        **Valence** marks the step from Cornas country into the broader
+        southern valley.
+
+  - id: srhone-flatter-001
+    type: mcq
+    deck: France::Southern Rhône
+    tags: [france, southern-rhone]
+    status: reviewed
+    source_id: c20-0002
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How does Southern Rhône terrain sit next to the Northern Rhône?
+      choices:
+        - { text: "Steeper and narrower", correct: false }
+        - { text: "Much flatter", correct: true }
+        - { text: "High alpine only", correct: false }
+        - { text: "A cliffed fjord", correct: false }
+      explanation: |
+        **Much flatter.** Hermitage is a wall; Châteauneuf is a plateau
+        of galets.
+
+  - id: srhone-stones-001
+    type: mcq
+    deck: France::Southern Rhône
+    tags: [france, southern-rhone, soil]
+    status: reviewed
+    source_id: c20-0003
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What covers many of the best Southern Rhône vineyard floors?
+      choices:
+        - { text: "Deep fertile silt only", correct: false }
+        - { text: "Very stony soils", correct: true }
+        - { text: "Only peat", correct: false }
+        - { text: "Blue clay like Pomerol", correct: false }
+      explanation: |
+        **Very stony soils** — galets, gravel, limestone rubble. Not
+        every hectare; the best sites lean that way.
+
+  - id: srhone-stones-heat-001
+    type: mcq
+    deck: France::Southern Rhône
+    tags: [france, southern-rhone, soil]
+    status: reviewed
+    source_id: c20-0004
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What do the Southern Rhône’s stony vineyard floors do for ripening?
+      choices:
+        - { text: "They keep the ground ice-cold", correct: false }
+        - { text: "They store the day’s heat and give it back, helping grapes finish", correct: true }
+        - { text: "They ban any sugar ripeness", correct: false }
+        - { text: "They force irrigation", correct: false }
+      explanation: |
+        **They store heat and warm the vineyard.** Galets after a July
+        day are still hot at dusk.
+
+  - id: srhone-galets-001
+    type: mcq
+    deck: France::Southern Rhône
+    tags: [france, southern-rhone, soil]
+    status: reviewed
+    source_id: c20-0005
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How complete is the stone carpet on some Châteauneuf-du-Pape sites?
+      choices:
+        - { text: "There are never any stones", correct: false }
+        - { text: "Galets can cover the soil surface completely", correct: true }
+        - { text: "Only a dusting of sand", correct: false }
+        - { text: "The AOC bans any pebble", correct: false }
+      explanation: |
+        **A full galet carpet** on some plots — the postcard
+        Châteauneuf. Other parcels are sand or clay with fewer stones.
+
+  - id: srhone-climate-001
+    type: mcq
+    deck: France::Southern Rhône
+    tags: [france, southern-rhone, climate]
+    status: reviewed
+    source_id: c20-0006
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which climate description fits the Southern Rhône?
+      choices:
+        - { text: "Cool maritime, like Muscadet", correct: false }
+        - { text: "Mediterranean — mild winters, warm dry summers", correct: true }
+        - { text: "High alpine only", correct: false }
+        - { text: "Moderate continental, like Beaujolais", correct: false }
+      explanation: |
+        **Mediterranean.** That is why Grenache ripens here and struggles
+        on Côte-Rôtie.
+
+  - id: srhone-drought-001
+    type: mcq
+    deck: France::Southern Rhône
+    tags: [france, southern-rhone, climate]
+    status: reviewed
+    source_id: c20-0007
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Besides the mistral, which water stress is a major Southern Rhône hazard?
+      choices:
+        - { text: "Annual flooding from the Loire", correct: false }
+        - { text: "Drought", correct: true }
+        - { text: "Permanent ice", correct: false }
+        - { text: "Monsoon", correct: false }
+      explanation: |
+        **Drought.** Warm, dry summers plus stones that drain. Irrigation
+        is tightly controlled, not a free tap.
+
+  - id: srhone-mistral-south-001
+    type: mcq
+    deck: France::Southern Rhône
+    tags: [france, southern-rhone, climate]
+    status: reviewed
+    source_id: c20-0007
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which wind is a major climatic threat in the Southern Rhône?
+      choices:
+        - { text: "The foehn only", correct: false }
+        - { text: "The mistral", correct: true }
+        - { text: "A sea breeze from Brittany", correct: false }
+        - { text: "There is no wind", correct: false }
+      explanation: |
+        **The mistral.** Same north wind as up-valley, harder here.
+
+  - id: srhone-mistral-why-001
+    type: mcq
+    deck: France::Southern Rhône
+    tags: [france, southern-rhone, climate]
+    status: reviewed
+    source_id: c20-0008
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Why does the mistral hit the Southern Rhône harder than Ampuis or Tain?
+      choices:
+        - { text: "The law bans any windbreak", correct: false }
+        - { text: "The wind has more fetch and the land is too flat to shelter the vines", correct: true }
+        - { text: "There is no mistral south of Valence", correct: false }
+        - { text: "Slopes are steeper than Hermitage", correct: false }
+      explanation: |
+        **More speed, less slope shelter.** The north has walls; the
+        south is a corridor.
+
+  - id: srhone-windbreaks-001
+    type: mcq
+    deck: France::Southern Rhône
+    tags: [france, southern-rhone]
+    status: reviewed
+    source_id: c20-0009
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How do Southern Rhône growers blunt the mistral?
+      choices:
+        - { text: "By banning Grenache", correct: false }
+        - { text: "By planting or building wind-breaks", correct: true }
+        - { text: "By irrigating every hour", correct: false }
+        - { text: "By training vines twenty metres high", correct: false }
+      explanation: |
+        **Wind-breaks** — cypress, poplar, walls. The rows still feel
+        the wind; they just do not take the full blast.
+
+  - id: srhone-grenache-train-001
+    type: mcq
+    deck: France::Southern Rhône
+    tags: [france, southern-rhone]
+    status: reviewed
+    source_id: c20-0010
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How is Grenache usually trained against the mistral?
+      choices:
+        - { text: "On a high pergola only", correct: false }
+        - { text: "Low, as a bush vine close to the ground", correct: true }
+        - { text: "Ungrafted, with no trunk", correct: false }
+        - { text: "It is never trained", correct: false }
+      explanation: |
+        **Low goblet / bush.** A short trunk sits out of the worst
+        gusts and in the galet heat.
+
+  - id: srhone-syrah-trellis-001
+    type: mcq
+    deck: France::Southern Rhône
+    tags: [france, southern-rhone]
+    status: reviewed
+    source_id: c20-0010
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How does Syrah usually get support in the Southern Rhône?
+      choices:
+        - { text: "It is never trained", correct: false }
+        - { text: "On a trellis", correct: true }
+        - { text: "Only as a free-standing bush, like all Grenache", correct: false }
+        - { text: "Under glass", correct: false }
+      explanation: |
+        **Trellising.** Syrah’s upright growth and thinner wood need the
+        wires; Grenache’s bush does not.
+
+  - id: srhone-blends-001
+    type: mcq
+    deck: France::Southern Rhône
+    tags: [france, southern-rhone]
+    status: reviewed
+    source_id: c20-0011
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How do Southern Rhône reds usually differ from Northern Rhône crus in the glass composition?
+      choices:
+        - { text: "They must be 100% Syrah, like Cornas", correct: false }
+        - { text: "They are often complex blends", correct: true }
+        - { text: "Only one white grape is legal", correct: false }
+        - { text: "Blending is banned", correct: false }
+      explanation: |
+        **Complex blends** — Grenache with Syrah, Mourvèdre, Cinsault…
+        The north is a Syrah (or Viognier) story.
+
+  - id: srhone-dozen-001
+    type: mcq
+    deck: France::Southern Rhône
+    tags: [france, southern-rhone]
+    status: reviewed
+    source_id: c20-0012
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How wide is the legal grape list for a typical Southern Rhône blend?
+      choices:
+        - { text: "Exactly one, like Cornas", correct: false }
+        - { text: "More than a dozen, depending on the AOC", correct: true }
+        - { text: "Two only, forever", correct: false }
+        - { text: "None — only oak chips", correct: false }
+      explanation: |
+        **More than a dozen** in the wider south; Châteauneuf’s list is
+        the extreme. Not a one-grape valley.
+
+  - id: srhone-grenache-area-001
+    type: mcq
+    deck: France::Southern Rhône
+    tags: [france, southern-rhone, grapes]
+    status: reviewed
+    source_id: c20-0013
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which grape covers by far the most Southern Rhône vineyard?
+      choices:
+        - { text: "Syrah", correct: false }
+        - { text: "Grenache", correct: true }
+        - { text: "Mourvèdre", correct: false }
+        - { text: "Viognier", correct: false }
+      explanation: |
+        **Grenache.** Syrah and Mourvèdre matter in the blend; they do
+        not own the hectares.
+
+  - id: srhone-grenache-why-001
+    type: mcq
+    deck: France::Southern Rhône
+    tags: [france, southern-rhone, grapes]
+    status: reviewed
+    source_id: c20-0015
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Why does Grenache ripen reliably in the Southern Rhône when it fails further north?
+      choices:
+        - { text: "Cool maritime summers", correct: false }
+        - { text: "Warm summers let it finish", correct: true }
+        - { text: "It is a cool-climate grape", correct: false }
+        - { text: "INAO heats the vineyards", correct: false }
+      explanation: |
+        **Warm summers.** Grenache is late; the Mediterranean season is
+        what it needs.
+
+  - id: srhone-grenache-flavour-001
+    type: mcq
+    deck: France::Southern Rhône
+    tags: [france, southern-rhone, grapes]
+    status: reviewed
+    source_id: c20-0016
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What fruit does ripe Southern Rhône Grenache usually show?
+      choices:
+        - { text: "Green bell pepper and tomato leaf", correct: false }
+        - { text: "Concentrated, spiced red fruit", correct: true }
+        - { text: "Lychee and roses", correct: false }
+        - { text: "Cassis and cedar only", correct: false }
+      explanation: |
+        **Spiced red fruit** — strawberry, raspberry, garrigue spice.
+        **Rayas** is the loud version.
+
+  - id: srhone-grenache-baked-001
+    type: mcq
+    deck: France::Southern Rhône
+    tags: [france, southern-rhone, grapes]
+    status: reviewed
+    source_id: c20-0017
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What happens to Grenache if the site or the pick is too hot?
+      choices:
+        - { text: "It stays green and herbaceous", correct: false }
+        - { text: "The fruit can turn baked and jammy", correct: true }
+        - { text: "Alcohol disappears", correct: false }
+        - { text: "It becomes a white wine", correct: false }
+      explanation: |
+        **Baked, jammy fruit** — the cheap Châteauneuf fault. Heat plus
+        high yield is the usual path there.
+
+  - id: srhone-syrah-role-001
+    type: mcq
+    deck: France::Southern Rhône
+    tags: [france, southern-rhone, grapes]
+    status: reviewed
+    source_id: c20-0018
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: In a Southern Rhône red, what structural job does Syrah usually take?
+      choices:
+        - { text: "Only residual sugar", correct: false }
+        - { text: "Extra colour and tannin", correct: true }
+        - { text: "A floral Viognier note", correct: false }
+        - { text: "It is banned in the south", correct: false }
+      explanation: |
+        **Colour and tannin** — the frame Grenache often lacks. Not a
+        Côte-Rôtie bottle on its own down here.
+
+  - id: srhone-syrah-hot-001
+    type: mcq
+    deck: France::Southern Rhône
+    tags: [france, southern-rhone, grapes]
+    status: reviewed
+    source_id: c20-0019
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: On the hottest Southern Rhône parcels, which red grape is most likely to suffer?
+      choices:
+        - { text: "Grenache", correct: false }
+        - { text: "Syrah", correct: true }
+        - { text: "Mourvèdre, which loves shade", correct: false }
+        - { text: "No grape minds heat", correct: false }
+      explanation: |
+        **Syrah.** It wants a slightly cooler slot than Grenache. Plant
+        it on a baked galet field and it can jam or lose perfume.
+
+  - id: srhone-mourvedre-limit-001
+    type: mcq
+    deck: France::Southern Rhône
+    tags: [france, southern-rhone, grapes]
+    status: reviewed
+    source_id: c20-0020
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which Southern Rhône grape is hanging on at the northern edge of where it still ripens?
+      choices:
+        - { text: "Melon", correct: false }
+        - { text: "Mourvèdre", correct: true }
+        - { text: "Riesling", correct: false }
+        - { text: "Pinot Noir", correct: false }
+      explanation: |
+        **Mourvèdre.** The south is about as far north as it reliably
+        finishes — Bandol is easier; Châteauneuf is the stretch.
+
+  - id: srhone-mourvedre-profile-001
+    type: mcq
+    deck: France::Southern Rhône
+    tags: [france, southern-rhone, grapes]
+    status: reviewed
+    source_id: c20-0021
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What does ripe Mourvèdre usually look and taste like in the Southern Rhône?
+      choices:
+        - { text: "Pale, low tannin, and floral only", correct: false }
+        - { text: "Deep colour, very high tannin, dense black fruit, and a gamey note when ripe", correct: true }
+        - { text: "Oily, low acid, lychee", correct: false }
+        - { text: "A light Gamay picnic wine", correct: false }
+      explanation: |
+        **Deep, very tannic, black fruit, gamey when ripe.** Underripe
+        it is just green and hard.
+
+  - id: srhone-mourvedre-cdp-001
+    type: mcq
+    deck: France::Southern Rhône
+    tags: [france, southern-rhone, grapes]
+    status: reviewed
+    source_id: c20-0022
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Where in the Southern Rhône is ripe, gamey Mourvèdre most prized?
+      choices:
+        - { text: "Muscadet Sèvre-et-Maine", correct: false }
+        - { text: "Châteauneuf-du-Pape", correct: true }
+        - { text: "Côte-Rôtie", correct: false }
+        - { text: "Vouvray", correct: false }
+      explanation: |
+        **Châteauneuf-du-Pape.** **Beaucastel** is the named
+        Mourvèdre-heavy house.
+
+  - id: srhone-cinsault-001
+    type: mcq
+    deck: France::Southern Rhône
+    tags: [france, southern-rhone, grapes]
+    status: reviewed
+    source_id: c20-0023
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which Southern Rhône black grape is used for red fruit rather than structure?
+      choices:
+        - { text: "Mourvèdre", correct: false }
+        - { text: "Cinsault", correct: true }
+        - { text: "Pinot Noir", correct: false }
+        - { text: "Cabernet Sauvignon", correct: false }
+      explanation: |
+        **Cinsault** — red fruit, not tannin. Syrah and Mourvèdre do
+        the frame; Carignan is another blender, not this fruit role.
+
+  - id: srhone-cinsault-rose-001
+    type: mcq
+    deck: France::Southern Rhône
+    tags: [france, southern-rhone, grapes]
+    status: reviewed
+    source_id: c20-0024
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: In which Southern Rhône style is Cinsault most often the partner to Grenache?
+      choices:
+        - { text: "100% new-oak Hermitage lookalikes", correct: false }
+        - { text: "Fresh, fruity rosés", correct: true }
+        - { text: "Icewine only", correct: false }
+        - { text: "Fortified red", correct: false }
+      explanation: |
+        **Fresh, fruity rosés** — Tavel, Lirac, and a lot of Côtes du
+        Rhône pink. Fresh red fruit, not a tannin bomb.
+
+  - id: srhone-winemaking-varied-001
+    type: mcq
+    deck: France::Southern Rhône
+    tags: [france, southern-rhone]
+    status: reviewed
+    source_id: c20-0025
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How uniform is Southern Rhône winemaking?
+      choices:
+        - { text: "One legal recipe for every tank", correct: false }
+        - { text: "It is highly varied", correct: true }
+        - { text: "Only carbonic maceration is legal", correct: false }
+        - { text: "Only new barrique is legal", correct: false }
+      explanation: |
+        **Highly varied** — from cool steel to open wooden vats. The
+        grape mix already forces options.
+
+  - id: srhone-balance-001
+    type: mcq
+    deck: France::Southern Rhône
+    tags: [france, southern-rhone]
+    status: reviewed
+    source_id: c20-0026
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which two traits must a Southern Rhône cellar usually keep in check?
+      choices:
+        - { text: "Residual sugar and CO₂ only", correct: false }
+        - { text: "High tannin and high alcohol", correct: true }
+        - { text: "A legal 9% alcohol cap", correct: false }
+        - { text: "Zero colour", correct: false }
+      explanation: |
+        **High tannin and high alcohol.** Ripe Grenache and Mourvèdre
+        both push those numbers; balance is the work.
+
+  - id: srhone-fresh-path-001
+    type: mcq
+    deck: France::Southern Rhône
+    tags: [france, southern-rhone]
+    status: reviewed
+    source_id: c20-0027
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which cellar path keeps a Southern Rhône red lighter and fruitier?
+      choices:
+        - { text: "A 30-day open-vat roast, then new oak", correct: false }
+        - { text: "A cold pre-ferment soak and élevage in stainless steel", correct: true }
+        - { text: "Fortification on skins", correct: false }
+        - { text: "Boiling the must", correct: false }
+      explanation: |
+        **Cold soak + steel** — less extraction, lower apparent tannin.
+        The other house style is the opposite.
+
+  - id: srhone-extract-path-001
+    type: mcq
+    deck: France::Southern Rhône
+    tags: [france, southern-rhone]
+    status: reviewed
+    source_id: c20-0027
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which cellar path builds a more extracted, structured Southern Rhône red?
+      choices:
+        - { text: "Only carbonic maceration in steel", correct: false }
+        - { text: "A warm, extractive ferment in traditional open vats, then large old oak", correct: true }
+        - { text: "No skins at all", correct: false }
+        - { text: "Icewine only", correct: false }
+      explanation: |
+        **Warm open ferment + large old oak.** That is the traditional
+        Châteauneuf / Gigondas frame.
+
+  - id: srhone-blend-lots-001
+    type: mcq
+    deck: France::Southern Rhône
+    tags: [france, southern-rhone]
+    status: reviewed
+    source_id: c20-0028
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How do many Southern Rhône domaines assemble the final red?
+      choices:
+        - { text: "From one tank, one grape, one method only", correct: false }
+        - { text: "By blending lots that were fermented in different ways", correct: true }
+        - { text: "By adding water until 9%", correct: false }
+        - { text: "Blending is illegal", correct: false }
+      explanation: |
+        **Different ferment lots in one blend.** A steel Grenache and an
+        open-vat Mourvèdre can share a bottle.
+
+  - id: srhone-new-oak-001
+    type: mcq
+    deck: France::Southern Rhône
+    tags: [france, southern-rhone]
+    status: reviewed
+    source_id: c20-0029
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How do Southern Rhône domaines treat new oak?
+      choices:
+        - { text: "It is mandatory on every Grenache", correct: false }
+        - { text: "Some use it; others think it buries Grenache", correct: true }
+        - { text: "Oak is banned", correct: false }
+        - { text: "Only whites may see oak", correct: false }
+      explanation: |
+        **Split camp.** New oak can swamp Grenache’s red fruit. Foudres
+        and old barrels are the other school.
+
+  - id: srhone-style-range-001
+    type: mcq
+    deck: France::Southern Rhône
+    tags: [france, southern-rhone]
+    status: reviewed
+    source_id: c20-0030
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How wide is the Southern Rhône red style range?
+      choices:
+        - { text: "Only one legal flavour, like a clone", correct: false }
+        - { text: "From light-medium, fresh, low-tannin fruit to full, tannic reds with spice, meat or earth", correct: true }
+        - { text: "Only sweet white", correct: false }
+        - { text: "Only sparkling", correct: false }
+      explanation: |
+        **Picnic Côtes du Rhône to a dense Châteauneuf or Gigondas.**
+        Same valley, not one wine.
+
+  - id: srhone-white-grapes-001
+    type: mcq
+    deck: France::Southern Rhône
+    tags: [france, southern-rhone, grapes]
+    status: reviewed
+    source_id: c20-0031
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which whites are extra to Viognier, Marsanne and Roussanne in the south?
+      choices:
+        - { text: "Riesling, Gewurztraminer, Pinot Gris", correct: false }
+        - { text: "Clairette, Grenache Blanc, and Bourboulenc", correct: true }
+        - { text: "Melon only", correct: false }
+        - { text: "Chenin only", correct: false }
+      explanation: |
+        **Clairette, Grenache Blanc, Bourboulenc.** Marsanne, Roussanne
+        and Viognier can appear too; those three are the southern extras.
+
+  - id: srhone-white-profile-001
+    type: mcq
+    deck: France::Southern Rhône
+    tags: [france, southern-rhone]
+    status: reviewed
+    source_id: c20-0032
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What shape do the best Southern Rhône whites usually have?
+      choices:
+        - { text: "Light, high acid, 11%, no texture", correct: false }
+        - { text: "Rich, full, high alcohol, low-to-medium acid, quiet fruit, rarely new oak", correct: true }
+        - { text: "Sparkling and bone-dry only", correct: false }
+        - { text: "Tannic red", correct: false }
+      explanation: |
+        **Rich, full, high alcohol, low-to-medium acid, subtle fruit,
+        little new oak.** Châteauneuf blanc is the loud example.
+
+  - id: srhone-white-share-001
+    type: mcq
+    deck: France::Southern Rhône
+    tags: [france, southern-rhone]
+    status: reviewed
+    source_id: c20-0033
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How large is still white wine in the Southern Rhône mix?
+      choices:
+        - { text: "The majority of the harvest", correct: false }
+        - { text: "A relatively small share", correct: true }
+        - { text: "White is banned", correct: false }
+        - { text: "Only white is legal", correct: false }
+      explanation: |
+        **A small share.** Red (and some rosé) owns the volume.
+
+  - id: srhone-generic-aocs-001
+    type: mcq
+    deck: France::Southern Rhône
+    tags: [france, southern-rhone]
+    status: reviewed
+    source_id: c20-0034
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What are the two generic Southern Rhône AOCs below the crus?
+      choices:
+        - { text: "Côte-Rôtie and Hermitage", correct: false }
+        - { text: "Côtes du Rhône and Côtes du Rhône Villages", correct: true }
+        - { text: "Muscadet and Gros Plant", correct: false }
+        - { text: "AOC Loire and IGP only", correct: false }
+      explanation: |
+        **Côtes du Rhône** and **Côtes du Rhône Villages.** The named
+        crus sit above that ladder.
+
+  - id: srhone-cdr-half-001
+    type: mcq
+    deck: France::Southern Rhône
+    tags: [france, southern-rhone]
+    status: reviewed
+    source_id: c20-0035
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How much of Southern Rhône AOC volume is plain Côtes du Rhône?
+      choices:
+        - { text: "A tiny sliver, like Château-Grillet", correct: false }
+        - { text: "More than half", correct: true }
+        - { text: "None — only crus exist", correct: false }
+        - { text: "Exactly 5%", correct: false }
+      explanation: |
+        **More than half.** The everyday bottle is Côtes du Rhône, not
+        Châteauneuf.
+
+  - id: srhone-cdr-style-001
+    type: mcq
+    deck: France::Southern Rhône
+    tags: [france, southern-rhone]
+    status: reviewed
+    source_id: c20-0036
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What is a typical generic Côtes du Rhône like?
+      choices:
+        - { text: "Full, tannic, and built like a 20-year Châteauneuf", correct: false }
+        - { text: "Medium-bodied, fruity, and simple", correct: true }
+        - { text: "Always a dessert wine", correct: false }
+        - { text: "White only", correct: false }
+      explanation: |
+        **Medium, fruity, simple.** The supermarket Rhône. Serious
+        domaines exist; they are not the volume.
+
+  - id: srhone-cdr-colours-001
+    type: mcq
+    deck: France::Southern Rhône
+    tags: [france, southern-rhone]
+    status: reviewed
+    source_id: c20-0037
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which colours may Côtes du Rhône bottle?
+      choices:
+        - { text: "Red only", correct: false }
+        - { text: "White, red, and rosé", correct: true }
+        - { text: "Sparkling only", correct: false }
+        - { text: "Orange only", correct: false }
+      explanation: |
+        **White, red, and rosé.** Red is the bulk.
+
+  - id: srhone-villages-rules-001
+    type: mcq
+    deck: France::Southern Rhône
+    tags: [france, southern-rhone]
+    status: reviewed
+    source_id: c20-0038
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What extra legal bars sit on Côtes du Rhône Villages versus generic Côtes du Rhône?
+      choices:
+        - { text: "Lower alcohol and higher yields", correct: false }
+        - { text: "A higher minimum alcohol, a lower maximum yield, and more Grenache, Syrah and Mourvèdre in the blend", correct: true }
+        - { text: "No Grenache is allowed", correct: false }
+        - { text: "It must be sparkling", correct: false }
+      explanation: |
+        **Stricter alcohol and yield, and a bigger GSM share.** That is
+        the Villages step, not a cru yet.
+
+  - id: srhone-named-village-001
+    type: mcq
+    deck: France::Southern Rhône
+    tags: [france, southern-rhone]
+    status: reviewed
+    source_id: c20-0039
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: If a village name is printed after Côtes du Rhône Villages, where must the fruit come from?
+      choices:
+        - { text: "Anywhere in the Côtes du Rhône zone", correct: false }
+        - { text: "100% from that named village", correct: true }
+        - { text: "Only from Châteauneuf", correct: false }
+        - { text: "The name is decorative", correct: false }
+      explanation: |
+        **100% from the named village.** Sablet, Visan, Valréas — the
+        fruit has to match the word.
+
+  - id: srhone-village-example-001
+    type: mcq
+    deck: France::Southern Rhône
+    tags: [france, southern-rhone]
+    status: reviewed
+    source_id: c20-0040
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which label is still a named Côtes du Rhône Villages, not a cru?
+      choices:
+        - { text: "Châteauneuf-du-Pape", correct: false }
+        - { text: "Côtes du Rhône Villages Sablet", correct: true }
+        - { text: "Côte-Rôtie", correct: false }
+        - { text: "Cornas", correct: false }
+      explanation: |
+        **Sablet** (or Visan, Valréas). **Cairanne** is a cru since
+        2016, so it is no longer a Villages name.
+
+  - id: srhone-best-below-cru-001
+    type: mcq
+    deck: France::Southern Rhône
+    tags: [france, southern-rhone]
+    status: reviewed
+    source_id: c20-0041
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Below the crus, which Southern Rhône bottles are usually the most serious?
+      choices:
+        - { text: "Generic IGP only", correct: false }
+        - { text: "Village-named Côtes du Rhône Villages", correct: true }
+        - { text: "Vin de France with no place", correct: false }
+        - { text: "There is nothing below a cru", correct: false }
+      explanation: |
+        **Named Villages** sit under Gigondas / Vacqueyras / Cairanne,
+        above anonymous Côtes du Rhône.
+
+  - id: srhone-village-vs-cdr-001
+    type: mcq
+    deck: France::Southern Rhône
+    tags: [france, southern-rhone]
+    status: reviewed
+    source_id: c20-0042
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How does a named Villages red usually sit next to generic Côtes du Rhône?
+      choices:
+        - { text: "Lighter, sweeter, and always white", correct: false }
+        - { text: "More body, more structure, and more spiced red fruit", correct: true }
+        - { text: "Identical, by law", correct: false }
+        - { text: "It must be sparkling", correct: false }
+      explanation: |
+        **More body, structure, and spiced red fruit.** Lower yields and
+        the GSM floor show.
+
+  - id: srhone-cru-apply-001
+    type: mcq
+    deck: France::Southern Rhône
+    tags: [france, southern-rhone]
+    status: reviewed
+    source_id: c20-0043
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What legal next step can a named Villages commune take?
+      choices:
+        - { text: "It must become an IGP", correct: false }
+        - { text: "It can apply for cru status", correct: true }
+        - { text: "It is banned from any further rank", correct: false }
+        - { text: "It must drop the village name", correct: false }
+      explanation: |
+        **Apply for cru.** **Cairanne** and **Gigondas** walked that
+        path. Not automatic.
+
+  - id: srhone-cdp-bank-001
+    type: mcq
+    deck: France::Southern Rhône
+    tags: [france, southern-rhone]
+    status: reviewed
+    source_id: c20-0044
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: On which bank of the Rhône does Châteauneuf-du-Pape sit?
+      choices:
+        - { text: "Only the west bank, like Tavel", correct: false }
+        - { text: "The east bank", correct: true }
+        - { text: "Both banks equally, like Bordeaux", correct: false }
+        - { text: "It is not on the Rhône", correct: false }
+      explanation: |
+        **East bank.** Tavel and Lirac face it across the river.
+
+  - id: srhone-cdp-size-001
+    type: mcq
+    deck: France::Southern Rhône
+    tags: [france, southern-rhone]
+    status: reviewed
+    source_id: c20-0045
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which named Rhône cru covers the most vineyard?
+      choices:
+        - { text: "Château-Grillet", correct: false }
+        - { text: "Châteauneuf-du-Pape", correct: true }
+        - { text: "Cornas", correct: false }
+        - { text: "Côte-Rôtie", correct: false }
+      explanation: |
+        **Châteauneuf-du-Pape.** Crozes is a large northern cru;
+        Châteauneuf is the biggest named cru in the valley.
+
+  - id: srhone-cdp-first-aoc-001
+    type: mcq
+    deck: France::Southern Rhône
+    tags: [france, southern-rhone]
+    status: reviewed
+    source_id: c20-0046
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which French wine area is famously among the first to receive AOC status, in 1936?
+      choices:
+        - { text: "Muscadet only, in 2005", correct: false }
+        - { text: "Châteauneuf-du-Pape", correct: true }
+        - { text: "IGP Pays d’Oc", correct: false }
+        - { text: "Vin de France", correct: false }
+      explanation: |
+        **Châteauneuf-du-Pape, 1936** — the pioneer AOC story. A few
+        other 1936 names exist; this is the one the valley owns.
+
+  - id: srhone-cdp-flat-001
+    type: mcq
+    deck: France::Southern Rhône
+    tags: [france, southern-rhone]
+    status: reviewed
+    source_id: c20-0047
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How steep is most of Châteauneuf-du-Pape?
+      choices:
+        - { text: "A Hermitage-style wall", correct: false }
+        - { text: "Notably flat", correct: true }
+        - { text: "Above the snow line", correct: false }
+        - { text: "A river gorge only", correct: false }
+      explanation: |
+        **Notably flat.** Aspect still shifts a little; it is not a
+        terraced northern cru.
+
+  - id: srhone-cdp-aspect-001
+    type: mcq
+    deck: France::Southern Rhône
+    tags: [france, southern-rhone]
+    status: reviewed
+    source_id: c20-0048
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What small site detail most changes how Syrah and Mourvèdre behave in Châteauneuf?
+      choices:
+        - { text: "The négociant brand colour", correct: false }
+        - { text: "Small variations in aspect", correct: true }
+        - { text: "A legal ban on any slope", correct: false }
+        - { text: "Whether the wine is sparkling", correct: false }
+      explanation: |
+        **Small aspect shifts.** On a flat map, a slightly cooler face
+        is what lets Syrah or Mourvèdre finish without baking.
+
+  - id: srhone-cdp-diversity-001
+    type: mcq
+    deck: France::Southern Rhône
+    tags: [france, southern-rhone]
+    status: reviewed
+    source_id: c20-0049
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Why can two Châteauneufs from the same vintage drink so differently?
+      choices:
+        - { text: "INAO assigns one recipe to every domaine", correct: false }
+        - { text: "A large AOC, mixed soils and aspects, and a long permitted grape list", correct: true }
+        - { text: "There is only one grape and one soil", correct: false }
+        - { text: "All wine must be 100% Syrah", correct: false }
+      explanation: |
+        **Size, soils, aspect, and many legal grapes** (classically
+        taught as 13; the list has grown). That is the diversity, not a
+        tasting-room slogan.
+
+  - id: srhone-cdp-grenache-001
+    type: mcq
+    deck: France::Southern Rhône
+    tags: [france, southern-rhone, grapes]
+    status: reviewed
+    source_id: c20-0050
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which grape usually leads a Châteauneuf-du-Pape blend?
+      choices:
+        - { text: "Viognier", correct: false }
+        - { text: "Grenache", correct: true }
+        - { text: "Pinot Noir", correct: false }
+        - { text: "Melon", correct: false }
+      explanation: |
+        **Grenache.** Some bottles are 100% Grenache (**Rayas**); others
+        are GSM. The grape still leads.
