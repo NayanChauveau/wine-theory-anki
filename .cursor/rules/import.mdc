@@ -1,0 +1,20 @@
+---
+description: Import and per-card review of the source Anki deck
+globs: import/**/*.{yaml,yml,md}
+alwaysApply: false
+---
+
+# Import review
+
+Source notes live in `import/inbox/` (gitignored raw extract). Published cards live in `cards/` with the same filename (`c16-beaujolais.yaml`).
+
+- Mechanical extract only via `wset3-anki import-extract`. Do not rewrite inbox text.
+- One chapter at a time. **Lot ≤ 25 source notes** per session.
+- Never set `status: reviewed` in the same pass as the first draft. First jet is `draft`.
+- No French in this phase.
+- Anecdote only if named and checkable. If unsure: omit it, set `review.fact_check: unsure`.
+- Do not invent facts. Prefer `known-fact` / `spec` / `aoc-site`. Never textbook page numbers.
+- Set `source_id` and update `import/progress.yaml` (`in_progress` → `done` / `split` / `rejected`).
+- Plausible WSET distractors, not joke answers. Explanation names the **answer text**.
+
+Checklist before finishing a lot: opened the source note; fact-checked; 1 correct choice; original wording; ledger updated; `make check`.

@@ -17,12 +17,14 @@ That one command lints, formats, type-checks, validates every YAML card, and run
 | `make format` | Auto-fix Python style |
 | `uv run wset3-anki validate` | Cards only |
 | `uv run wset3-anki schema` | Regenerate `schema/cards.schema.json` |
+| `uv run wset3-anki import-extract` | Dump the source `.apkg` into `import/inbox/` |
+| `uv run wset3-anki import-status` | Ledger: pending / done / rejected |
 
 You do **not** need Anki installed to add or review cards.
 
 ## Add or edit a card
 
-1. Open the YAML file for the chapter in [`cards/`](cards/). One file per chapter or sub-region; do not create one file per card.
+1. Open the YAML file for the chapter in [`cards/`](cards/). One file per source chapter (`c16-beaujolais.yaml`); do not create one file per card.
 2. Append a note using the schema in [CONTENT_GUIDELINES.md](CONTENT_GUIDELINES.md).
 3. Run `uv run wset3-anki validate`.
 4. Optionally `uv run wset3-anki build --lang all --out dist/` and import an `.apkg` to preview.

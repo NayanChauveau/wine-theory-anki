@@ -7,6 +7,8 @@ from collections.abc import Sequence
 from pathlib import Path
 
 from wset3_anki.build import BuildLang, build_language
+from wset3_anki.import_extract import default_apkg_path, run_extract
+from wset3_anki.import_progress import ProgressStore
 from wset3_anki.json_schema import default_schema_path, schema_matches, write_schema
 from wset3_anki.load import LoadError, load_cards
 from wset3_anki.paths import cards_dir, find_repo_root, templates_dir
@@ -40,6 +42,16 @@ def main(argv: Sequence[str] | None = None) -> int:
     p_check = sub.add_parser("check", help="Run the full quality gate (lint, types, tests, cards)")
     p_check.add_argument("--root", type=Path, default=None, help="Repository root")
 
+    p_extract = sub.add_parser(
+        "import-extract",
+        help="Extract raw Front/Back notes from the source .apkg into import/inbox/",
+    )
+    p_extract.add_argument("--apkg", type=Path, default=None, help="Path to the source .apkg")
+    p_extract.add_argument("--root", type=Path, default=None, help="Repository root")
+
+    p_status = sub.add_parser("import-status", help="Show import ledger counters")
+    p_status.add_argument("--root", type=Path, default=None, help="Repository root")
+
     p_build = sub.add_parser("build", help="Generate .apkg packages")
     p_build.add_argument(
         "--lang",
@@ -62,6 +74,10 @@ def main(argv: Sequence[str] | None = None) -> int:
         return _schema_command(root, check=args.check, out=args.out)
     if args.command == "check":
         return _check_command(root)
+    if args.command == "import-extract":
+        return _extract_command(root, args.apkg)
+    if args.command == "import-status":
+        return _status_command(root)
 
     source = args.cards or cards_dir(root)
     templates = templates_dir(root)
@@ -98,6 +114,41 @@ def main(argv: Sequence[str] | None = None) -> int:
             f"{result.skipped_drafts} drafts skipped, "
             f"{result.skipped_untranslated} untranslated skipped)"
         )
+    return 0
+
+
+def _extract_command(root: Path, apkg: Path | None) -> int:
+    source = apkg or default_apkg_path(root)
+    if not source.is_file():
+        print(
+            f"error: missing {source}. Copy the source deck there (gitignored) or pass --apkg",
+            file=sys.stderr,
+        )
+        return 1
+    try:
+        total, counts = run_extract(root, source)
+    except Exception as exc:
+        print(f"error: {exc}", file=sys.stderr)
+        return 1
+    print(f"extracted {total} notes into {root / 'import' / 'inbox'}")
+    for name, count in sorted(counts.items()):
+        print(f"  {count:4}  {name}")
+    return 0
+
+
+def _status_command(root: Path) -> int:
+    store = ProgressStore.load(root)
+    counts = store.counts()
+    if counts["total"] == 0:
+        print("no import ledger yet; run `wset3-anki import-extract`")
+        return 0
+    print(
+        f"{counts['total']} source notes  "
+        f"pending={counts['pending']}  in_progress={counts['in_progress']}  "
+        f"split={counts['split']}  done={counts['done']}  rejected={counts['rejected']}"
+    )
+    for name, total, pending in store.chapter_counts():
+        print(f"  {pending:4}/{total:<4} pending  {name}")
     return 0
 
 

@@ -1,0 +1,84 @@
+# yaml-language-server: $schema=../schema/cards.schema.json
+# source: C01 (import/inbox/c01-sat.yaml)
+# deck: SAT
+# Original reviewed samples (not from the source extract).
+
+cards:
+  - id: sat-acidity-001
+    type: mcq
+    deck: SAT
+    tags: [sat, acidity]
+    status: reviewed
+    en:
+      question: Which of the following best describes a wine with high acidity?
+      choices:
+        - { text: "Flabby and short", correct: false }
+        - { text: "Mouth-watering, with a lingering finish", correct: true }
+        - { text: "Bitter and astringent", correct: false }
+        - { text: "Sweet with low alcohol", correct: false }
+      explanation: |
+        High acidity makes a wine **mouth-watering** and helps the finish last.
+        Do not confuse acidity with tannin (astringency) or with sweetness.
+    fr:
+      question: Quelle description correspond le mieux à un vin à acidité élevée ?
+      choices:
+        - { text: "Mou et court", correct: false }
+        - { text: "Salivant, avec une finale persistante", correct: true }
+        - { text: "Amer et astringent", correct: false }
+        - { text: "Sucré et peu alcoolisé", correct: false }
+      explanation: |
+        Une acidité élevée **fait saliver** et allonge la finale.
+        Ne pas confondre avec le tanin (astringence) ni avec le sucré.
+
+  - id: sat-tannin-001
+    type: mcq
+    deck: SAT
+    tags: [sat, tannin]
+    status: reviewed
+    en:
+      question: What is the main tactile impression of high tannin on the palate?
+      choices:
+        - { text: "A mouth-watering, sharp sensation on the sides of the tongue", correct: false }
+        - { text: "A warming, burning sensation at the back of the throat", correct: false }
+        - { text: "A drying, astringent grip on the gums and tongue", correct: true }
+        - { text: "A thick, oily coating that feels sweet", correct: false }
+      explanation: |
+        Tannin is felt as **dryness and grip**, especially on the gums and tongue.
+        Acidity makes you salivate; alcohol feels warming. They are separate SAT assessments.
+    fr:
+      question: Quelle est la principale sensation tactile d’un tanin élevé ?
+      choices:
+        - { text: "Une sensation vive et salivante sur les côtés de la langue", correct: false }
+        - { text: "Une sensation de chaleur brûlante au fond de la gorge", correct: false }
+        - { text: "Une assèchement astringent sur les gencives et la langue", correct: true }
+        - { text: "Un enrobage gras et sucré", correct: false }
+      explanation: |
+        Le tanin se perçoit comme une **sensation d’assèchement et de grip**, surtout sur les gencives.
+        L’acidité fait saliver ; l’alcool réchauffe. Ce sont des critères SAT distincts.
+
+  - id: sat-climate-001
+    type: mcq
+    deck: SAT
+    tags: [sat, climate]
+    status: reviewed
+    en:
+      question: Which set of structural clues most often points to a cool-climate still wine?
+      choices:
+        - { text: "High alcohol, low acidity, ripe cooked fruit", correct: false }
+        - { text: "Moderate to high acidity, lighter body, fresh primary fruit", correct: true }
+        - { text: "Deep colour, high tannin, and obvious new oak on every wine", correct: false }
+        - { text: "Residual sugar with low acidity and baked fruit", correct: false }
+      explanation: |
+        Cooler ripening usually keeps **acidity higher**, alcohol and body more moderate, and fruit in a
+        fresher register. Warm climates tend toward riper fruit, higher alcohol, and softer acidity.
+    fr:
+      question: Quel ensemble d'indices structurels évoque le plus souvent un vin tranquille de climat frais ?
+      choices:
+        - { text: "Alcool élevé, acidité basse, fruits cuits", correct: false }
+        - { text: "Acidité moyenne à élevée, corps plus léger, fruits primaires frais", correct: true }
+        - { text: "Couleur profonde, tanin élevé et bois neuf systématique", correct: false }
+        - { text: "Sucre résiduel, acidité basse et fruits rôtis", correct: false }
+      explanation: |
+        Une maturité plus fraîche conserve souvent **plus d’acidité**, un alcool et un corps plus
+        modérés, et un fruit plus primaires. Les climats chauds poussent vers un fruit plus mûr,
+        plus d’alcool et une acidité plus souple.

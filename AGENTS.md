@@ -19,13 +19,14 @@ YAML in `cards/` is the source of truth. `wset3-anki` builds `.apkg` files with 
 - Never rename or reuse a released card `id`. GUIDs are `guid_for("wset3-vin", id, lang)`.
 - Never randomize model IDs or deck IDs (see `src/wset3_anki/ids.py`).
 - `deck:` keys stay in English (`SAT`, `France::Burgundy`). Display names come from `templates/ui/decks.yaml` (`WSET 3 Wine` / `WSET 3 VIN`, Bourgogne, ASD, …).
-- One YAML file per chapter. Append cards there; do not create one file per card.
+- One YAML file per source chapter (`c16-beaujolais.yaml`). Append cards there; do not create one file per card.
 - Translate in the same file, same `id`, under `fr:`. Do not duplicate a card for French.
 - Explanations name the **answer text**, never “option B”.
 - Prefer `type: mcq` with exactly one correct choice. `basic` and `cloze` are allowed.
 - New facts start as `status: draft`. Release builds omit drafts unless `--include-drafts`.
 - After any change: `make check` (or `uv run wset3-anki check`).
 - After changing `schema.py`: `uv run wset3-anki schema` and commit `schema/cards.schema.json`.
+- Import: extract with `wset3-anki import-extract`, then convert **at most 25 source notes** per session, one chapter, `status: draft` only. Never mark `reviewed` in the first pass. No FR until EN is validated. See `.cursor/rules/import.mdc`.
 
 ## Commands
 
@@ -35,6 +36,8 @@ make check
 uv run wset3-anki validate
 uv run wset3-anki schema
 uv run wset3-anki build --lang all --out dist/
+uv run wset3-anki import-extract
+uv run wset3-anki import-status
 ```
 
 ## Layout
@@ -42,6 +45,7 @@ uv run wset3-anki build --lang all --out dist/
 | Path | Role |
 | --- | --- |
 | `cards/` | Card source (EN + optional FR) |
+| `import/` | Ledger + gitignored `.apkg` / inbox |
 | `templates/` | Anki HTML/CSS + UI strings |
 | `src/wset3_anki/` | Validate + build CLI |
 | `tests/` | Schema, GUID, i18n, CLI |

@@ -44,7 +44,7 @@ Anki deck tree is localized at build time. English: `WSET 3 Wine::France::Bordea
 ## Repository layout
 
 ```
-cards/                 YAML source (one file per chapter)
+cards/                 YAML source (one file per Cxx chapter)
 schema/                JSON Schema for editor + CI (generated)
 templates/mcq/         QCM front/back HTML + CSS
 templates/ui/          UI strings (Pourquoi / Why, …)

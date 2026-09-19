@@ -7,7 +7,8 @@ alwaysApply: false
 # Cards
 
 The editor validates this file against `schema/cards.schema.json`.
-One file per chapter. Append to the existing `cards:` list.
+One file per source chapter, named like the inbox extract (`c16-beaujolais.yaml`).
+Append to the existing `cards:` list.
 
 ```yaml
 - id: alsace-grand-cru-001          # permanent lowercase kebab-case
@@ -35,5 +36,6 @@ One file per chapter. Append to the existing `cards:` list.
 - Exactly one `correct: true` per MCQ.
 - Write `fr:` on the same id. Do not create a second card for French.
 - Keep appellations and grape names in their usual form (Saint-Émilion, Riesling).
+- Imported cards: set `source_id` and `review`, keep `status: draft` on first pass.
 - New or uncertain facts: `status: draft`.
 - English ready, French missing: `status: needs-translation` and omit `fr:`.

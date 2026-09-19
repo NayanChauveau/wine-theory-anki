@@ -1,0 +1,10 @@
+# Import
+
+The source `.apkg` and the raw Front/Back extract are **not** published.
+
+1. Copy `WSET_Level_3_--_NEW.apkg` into this folder (gitignored).
+2. Run `uv run wset3-anki import-extract`.
+3. Convert notes from `inbox/cNN-….yaml` into the matching `cards/cNN-….yaml`, max 25 source notes per session, `status: draft` only.
+4. Track work in `progress.yaml`.
+
+See `.cursor/rules/import.mdc`.

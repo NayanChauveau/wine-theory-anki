@@ -89,9 +89,10 @@ def test_repo_sample_cards_validate_and_build(
         templates=templates_dir,
         out_dir=tmp_path,
     )
-    assert result.skipped_drafts == 0
+    reviewed = [card for card in cards if card.status.value != "draft"]
+    assert result.skipped_drafts == len(cards) - len(reviewed)
     assert path.name == "wset3-vin-en.apkg"
-    assert len(result.notes) == len(cards)
+    assert len(result.notes) == len(reviewed)
 
 
 def test_render_markdown_bold() -> None:

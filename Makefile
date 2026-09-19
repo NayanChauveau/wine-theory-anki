@@ -1,4 +1,4 @@
-.PHONY: check lint format typecheck validate schema test build
+.PHONY: check lint format typecheck validate schema test build import-extract import-status
 
 check:
 	uv run wset3-anki check
@@ -25,3 +25,9 @@ test:
 
 build:
 	uv run wset3-anki build --lang all --out dist
+
+import-extract:
+	uv run wset3-anki import-extract
+
+import-status:
+	uv run wset3-anki import-status

@@ -35,6 +35,30 @@
           "default": "reviewed",
           "description": "draft is omitted from release builds"
         },
+        "source_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Inbox source note id, e.g. c16-0007. Several cards may share one id.",
+          "title": "Source Id"
+        },
+        "review": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Review"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
         "type": {
           "const": "basic",
           "default": "basic",
@@ -144,6 +168,30 @@
           "default": "reviewed",
           "description": "draft is omitted from release builds"
         },
+        "source_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Inbox source note id, e.g. c16-0007. Several cards may share one id.",
+          "title": "Source Id"
+        },
+        "review": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Review"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
         "type": {
           "const": "cloze",
           "default": "cloze",
@@ -195,6 +243,15 @@
       "title": "ClozeContent",
       "type": "object"
     },
+    "FactCheck": {
+      "enum": [
+        "pass",
+        "fail",
+        "unsure"
+      ],
+      "title": "FactCheck",
+      "type": "string"
+    },
     "McqCard": {
       "additionalProperties": false,
       "properties": {
@@ -229,6 +286,30 @@
           "$ref": "#/$defs/Status",
           "default": "reviewed",
           "description": "draft is omitted from release builds"
+        },
+        "source_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Inbox source note id, e.g. c16-0007. Several cards may share one id.",
+          "title": "Source Id"
+        },
+        "review": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Review"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
         },
         "type": {
           "const": "mcq",
@@ -290,6 +371,32 @@
         "explanation"
       ],
       "title": "McqContent",
+      "type": "object"
+    },
+    "Review": {
+      "additionalProperties": false,
+      "properties": {
+        "fact_check": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/FactCheck"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "sources": {
+          "description": "Editorial sources (spec, aoc-site, known-fact). Never textbook pages.",
+          "items": {
+            "type": "string"
+          },
+          "title": "Sources",
+          "type": "array"
+        }
+      },
+      "title": "Review",
       "type": "object"
     },
     "Status": {

@@ -14,6 +14,14 @@ def test_english_root_is_wine(templates_dir: Path) -> None:
     assert i18n.localize("France::Bordeaux", "en") == "WSET 3 Wine::France::Bordeaux"
 
 
+def test_us_subdecks_are_localized(templates_dir: Path) -> None:
+    i18n = load_deck_i18n(templates_dir)
+    assert i18n.localize("USA::California", "en") == "WSET 3 Wine::USA::California"
+    assert i18n.localize("USA::California", "fr") == "WSET 3 VIN::États-Unis::Californie"
+    pacific_fr = i18n.localize("USA::Pacific Northwest", "fr")
+    assert pacific_fr == "WSET 3 VIN::États-Unis::Nord-Ouest pacifique"
+
+
 def test_french_root_and_translated_categories(templates_dir: Path) -> None:
     i18n = load_deck_i18n(templates_dir)
     assert i18n.localize("SAT", "fr") == "WSET 3 VIN::ASD"

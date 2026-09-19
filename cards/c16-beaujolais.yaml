@@ -1,0 +1,650 @@
+# yaml-language-server: $schema=../schema/cards.schema.json
+# source: C16 (import/inbox/c16-beaujolais.yaml)
+# deck: France::Beaujolais
+# Pilot import. All cards are draft pending human review.
+
+cards:
+  - id: beaujolais-climate-001
+    type: mcq
+    deck: France::Beaujolais
+    tags: [france, beaujolais, climate]
+    status: draft
+    source_id: c16-0001
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which climate description best fits Beaujolais?
+      choices:
+        - { text: "Cool maritime, similar to Muscadet", correct: false }
+        - { text: "Moderate continental, in the same broad family as the Mâconnais", correct: true }
+        - { text: "Hot Mediterranean, similar to the southern Rhône", correct: false }
+        - { text: "High-altitude continental, similar to Savoie", correct: false }
+      explanation: |
+        Beaujolais sits just south of the Mâconnais and shares a **moderate continental** pattern:
+        warm summers that ripen Gamay, with a real autumn-rain risk. It is not maritime Loire
+        weather and not Mediterranean heat.
+
+  - id: beaujolais-gamay-early-001
+    type: mcq
+    deck: France::Beaujolais
+    tags: [france, beaujolais, gamay]
+    status: draft
+    source_id: c16-0002
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Why is Gamay a good fit for Beaujolais?
+      choices:
+        - { text: "It buds late, so spring frost is never a concern", correct: false }
+        - { text: "It buds and ripens early, so it can make the vintage before autumn rain", correct: true }
+        - { text: "It needs a very long hang time, like Cabernet Sauvignon", correct: false }
+        - { text: "It only ripens on the alluvial Saône plain", correct: false }
+      explanation: |
+        **Gamay buds and ripens early.** That helps it reach ripeness in a moderate continental
+        climate before the wetter end of the season. Early budding does, however, leave it
+        exposed to spring frost — the opposite of a late-budding variety.
+
+  - id: beaujolais-gamay-yield-001
+    type: mcq
+    deck: France::Beaujolais
+    tags: [france, beaujolais, gamay]
+    status: draft
+    source_id: c16-0003
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What happens if vigorous Gamay is not yield-managed in Beaujolais?
+      choices:
+        - { text: "It typically sets almost no crop", correct: false }
+        - { text: "It can crop very heavily and dilute flavour", correct: true }
+        - { text: "It stops ripening sugars altogether", correct: false }
+        - { text: "It becomes too tannic to bottle as red wine", correct: false }
+      explanation: |
+        Gamay is **vigorous**. Left unchecked it produces large crops and thin, dilute wine.
+        That is why pruning, density and green-harvest choices matter even for early-drinking styles.
+
+  - id: beaujolais-granite-001
+    type: mcq
+    deck: France::Beaujolais
+    tags: [france, beaujolais, soil]
+    status: draft
+    source_id: c16-0004
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What soils are typical of the best northern Beaujolais sites?
+      choices:
+        - { text: "Deep, rich alluvium with high fertility", correct: false }
+        - { text: "Granite-based soils with few nutrients", correct: true }
+        - { text: "White Kimmeridgian limestone, as in Chablis", correct: false }
+        - { text: "Volcanic black sand, as on Santorini", correct: false }
+      explanation: |
+        The crus and many Villages sites sit on **granite** (and related poor, well-drained
+        rocks) in the north-west hills. Low fertility keeps vigour in check. The fertile
+        alluvial Saône plain to the south and east is where most generic Beaujolais is grown.
+
+  - id: beaujolais-gobelet-001
+    type: mcq
+    deck: France::Beaujolais
+    tags: [france, beaujolais, viticulture]
+    status: draft
+    source_id: c16-0005
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What is the traditional training system in Beaujolais?
+      choices:
+        - { text: "Guyot", correct: false }
+        - { text: "Gobelet", correct: true }
+        - { text: "Pergola", correct: false }
+        - { text: "Lyre", correct: false }
+      explanation: |
+        **Gobelet** (head-trained, spur-pruned bush vines) is the historic system. It suits
+        Gamay and hand-harvesting for whole-bunch or carbonic work. Guyot on wires is the
+        usual choice when growers want a tractor down the row.
+
+  - id: beaujolais-gobelet-form-001
+    type: mcq
+    deck: France::Beaujolais
+    tags: [france, beaujolais, viticulture]
+    status: draft
+    source_id: c16-0006
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How is a traditional Beaujolais gobelet vine typically formed?
+      choices:
+        - { text: "A single cane is laid down on a fruiting wire each year", correct: false }
+        - { text: "Spurs sit around a short head, and the season's shoots are tied together to stay upright", correct: true }
+        - { text: "Cordons run along a high pergola above a walkway", correct: false }
+        - { text: "The vine is left as an unpruned hedge", correct: false }
+      explanation: |
+        Gobelet is **spur-pruned around a head**. Shoots are often tied in a bundle so they
+        stand up without a full trellis. Cane-pruned Guyot is the contrasting, more
+        machine-friendly system.
+
+  - id: beaujolais-mechanisation-001
+    type: mcq
+    deck: France::Beaujolais
+    tags: [france, beaujolais, viticulture]
+    status: draft
+    source_id: c16-0007
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How do some Beaujolais growers adapt vines for mechanisation?
+      choices:
+        - { text: "They bury the head of the vine each winter", correct: false }
+        - { text: "They train shoots on a trellis instead of free-standing gobelet", correct: true }
+        - { text: "They switch entirely to bush-trained Aligoté", correct: false }
+        - { text: "They plant at one vine per square metre with no wires or posts", correct: false }
+      explanation: |
+        A **trellis** lets a tractor trim, spray and sometimes harvest. Traditional gobelet
+        is awkward for machines, which is why some growers have moved away from it.
+
+  - id: beaujolais-gamay-profile-001
+    type: mcq
+    deck: France::Beaujolais
+    tags: [france, beaujolais, gamay]
+    status: draft
+    source_id: c16-0008
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What is the typical flavour and structure of Gamay in Beaujolais (not Nouveau)?
+      choices:
+        - { text: "Dried fruit, high alcohol and grippy tannin", correct: false }
+        - { text: "Raspberry and cherry perfume, with medium tannin and medium body", correct: true }
+        - { text: "Green bell pepper and graphite, with high tannin", correct: false }
+        - { text: "Butter and hazelnut from routine new-oak barriques", correct: false }
+      explanation: |
+        Ripe Gamay here is **red-fruited** (raspberry, cherry), usually **medium** in tannin
+        and body. Crus can be deeper; Nouveau is lighter and more carbonic. It is not a
+        Cabernet or heavily oaked profile.
+
+  - id: beaujolais-hierarchy-count-001
+    type: mcq
+    deck: France::Beaujolais
+    tags: [france, beaujolais, appellation]
+    status: draft
+    source_id: c16-0009
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How many quality ranks are there in the Beaujolais appellation ladder?
+      choices:
+        - { text: "Two — generic Beaujolais and cru only", correct: false }
+        - { text: "Three — Beaujolais, Beaujolais Villages, and the crus", correct: true }
+        - { text: "Four — including a premier cru tier", correct: false }
+        - { text: "One regional AOC with no village tier", correct: false }
+      explanation: |
+        There are **three** steps: regional **Beaujolais**, **Beaujolais Villages**, then
+        ten named **crus**. There is no Burgundy-style premier cru layer.
+
+  - id: beaujolais-hierarchy-top-001
+    type: mcq
+    deck: France::Beaujolais
+    tags: [france, beaujolais, appellation]
+    status: draft
+    source_id: c16-0009
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which wines sit at the top of the Beaujolais hierarchy?
+      choices:
+        - { text: "Beaujolais Nouveau", correct: false }
+        - { text: "The ten crus, labelled with the cru name only", correct: true }
+        - { text: "Any wine from the Saône plain", correct: false }
+        - { text: "Beaujolais Supérieur, a separate AOC", correct: false }
+      explanation: |
+        The **crus** (Fleurie, Morgon, Moulin-à-Vent, and so on) are the top tier and are
+        labelled with the cru name, not “Beaujolais Cru”. Nouveau is a release style, mostly
+        from the lower two tiers, not a rank above the crus.
+
+  - id: beaujolais-generic-plain-001
+    type: mcq
+    deck: France::Beaujolais
+    tags: [france, beaujolais, geography]
+    status: draft
+    source_id: c16-0010
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Where is most generic Beaujolais grown?
+      choices:
+        - { text: "The granite hills of the north-west", correct: false }
+        - { text: "The flatter alluvial land of the Saône plain, east and south of the region", correct: true }
+        - { text: "The Côte d'Or escarpment", correct: false }
+        - { text: "High terraces of the northern Rhône", correct: false }
+      explanation: |
+        Regional Beaujolais comes mainly from the **Saône plain** (east and south): deeper,
+        more fertile alluvium and easier yields. The granite hills in the **north-west**
+        hold Villages and the crus.
+
+  - id: beaujolais-carbonic-001
+    type: mcq
+    deck: France::Beaujolais
+    tags: [france, beaujolais, winemaking]
+    status: draft
+    source_id: c16-0011
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which winemaking approach is most associated with fruity, early-drinking Beaujolais?
+      choices:
+        - { text: "Long maceration of destemmed fruit in new barriques", correct: false }
+        - { text: "Carbonic or semi-carbonic maceration of whole bunches", correct: true }
+        - { text: "Flor ageing under a veil of yeast", correct: false }
+        - { text: "Botrytis concentration on the vine", correct: false }
+      explanation: |
+        **Carbonic / semi-carbonic maceration** (whole bunches in a CO₂-rich vat) gives the
+        bright red fruit, low tannin and candy-spice notes linked to Nouveau and many
+        generic wines. Cru producers more often crush fruit and ferment more like a
+        conventional red.
+
+  - id: beaujolais-nouveau-plain-001
+    type: mcq
+    deck: France::Beaujolais
+    tags: [france, beaujolais, nouveau]
+    status: draft
+    source_id: c16-0012
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which style is especially associated with the Saône plain?
+      choices:
+        - { text: "Moulin-à-Vent destined for long bottle age", correct: false }
+        - { text: "Beaujolais Nouveau", correct: true }
+        - { text: "White Beaujolais from Chardonnay only in the crus", correct: false }
+        - { text: "Vin jaune", correct: false }
+      explanation: |
+        A large share of **Nouveau** is grown on the fertile plain, where yields are easier
+        and the aim is a wine to drink within weeks of harvest — not a structured cru.
+
+  - id: beaujolais-nouveau-purpose-001
+    type: mcq
+    deck: France::Beaujolais
+    tags: [france, beaujolais, nouveau]
+    status: draft
+    source_id: c16-0013
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What is Beaujolais Nouveau made for?
+      choices:
+        - { text: "Long cellar ageing in bottle", correct: false }
+        - { text: "Early drinking, within months of harvest", correct: true }
+        - { text: "Distillation into marc only", correct: false }
+        - { text: "Mandatory blending into Bourgogne Rouge", correct: false }
+      explanation: |
+        Nouveau is a **primeur**: bottled fast and meant to be drunk **young**, not laid down.
+        The marketing moment is late November; the wine is not built for a decade in bottle.
+
+  - id: beaujolais-nouveau-release-001
+    type: mcq
+    deck: France::Beaujolais
+    tags: [france, beaujolais, nouveau]
+    status: draft
+    source_id: c16-0014
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: When is Beaujolais Nouveau released?
+      choices:
+        - { text: "The first Monday of September after harvest", correct: false }
+        - { text: "The third Thursday of November after the vintage", correct: true }
+        - { text: "14 July the year after the vintage", correct: false }
+        - { text: "Only after three years in oak", correct: false }
+      explanation: |
+        **Beaujolais Nouveau Day** is the **third Thursday in November**. The date is a
+        legal release, not a folklore-only tradition — shops can put the wine on sale from
+        that morning.
+
+  - id: beaujolais-nouveau-deadline-001
+    type: mcq
+    deck: France::Beaujolais
+    tags: [france, beaujolais, nouveau]
+    status: draft
+    source_id: c16-0015
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Until when may a vintage still be sold under the Nouveau (primeur) mention?
+      choices:
+        - { text: "The third Thursday of November the same year only — then it is illegal to sell any leftover", correct: false }
+        - { text: "31 August of the year after the vintage", correct: true }
+        - { text: "Five years after the vintage", correct: false }
+        - { text: "There is no end date for the Nouveau mention", correct: false }
+      explanation: |
+        The source card treated 31 August as the first day generic Beaujolais may be sold.
+        That is the wrong way round. Nouveau may be **released** from the third Thursday of
+        November and may keep the **Nouveau / primeur** mention only until **31 August**
+        the following year.
+
+  - id: beaujolais-nouveau-tier-001
+    type: mcq
+    deck: France::Beaujolais
+    tags: [france, beaujolais, nouveau]
+    status: draft
+    source_id: c16-0016
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: From which appellation tiers may Beaujolais Nouveau be made?
+      choices:
+        - { text: "Any of the ten crus, labelled with the cru name plus Nouveau", correct: false }
+        - { text: "Beaujolais or Beaujolais Villages only", correct: true }
+        - { text: "Mâcon-Villages", correct: false }
+        - { text: "Côte de Brouilly exclusively", correct: false }
+      explanation: |
+        Nouveau is **Beaujolais** or **Beaujolais Villages**. The crus are not sold as
+        Nouveau; they are bottled under the cru name and usually made for a bit more
+        structure.
+
+  - id: beaujolais-nouveau-aroma-001
+    type: mcq
+    deck: France::Beaujolais
+    tags: [france, beaujolais, nouveau]
+    status: draft
+    source_id: c16-0017
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which aroma and structure notes are typical of Beaujolais Nouveau?
+      choices:
+        - { text: "Leather, forest floor and high tannin", correct: false }
+        - { text: "Red berries, kirsch, banana and a cinnamon-like spice, with light body and light tannin", correct: true }
+        - { text: "Butter, toast and vanilla from 100% new barriques", correct: false }
+        - { text: "Botrytis apricot and high residual sugar", correct: false }
+      explanation: |
+        Carbonic maceration throws **banana, kirsch and spice** over simple red fruit, with
+        **light** body and tannin. Those are process aromas, not bottle age. Nouveau is not
+        a tannic or oaky style.
+
+  - id: beaujolais-villages-location-001
+    type: mcq
+    deck: France::Beaujolais
+    tags: [france, beaujolais, geography]
+    status: draft
+    source_id: c16-0018
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Where are Beaujolais Villages and the crus found?
+      choices:
+        - { text: "On the Saône floodplain to the south-east", correct: false }
+        - { text: "In the north-west of the region", correct: true }
+        - { text: "Only on the left bank of the Gironde", correct: false }
+        - { text: "Scattered through the southern Rhône villages", correct: false }
+      explanation: |
+        Villages and crus occupy the **north-western hills**, next to the Mâconnais. The
+        south-eastern plain is mostly generic Beaujolais.
+
+  - id: beaujolais-villages-hills-001
+    type: mcq
+    deck: France::Beaujolais
+    tags: [france, beaujolais, soil]
+    status: draft
+    source_id: c16-0019
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What is the landscape of Beaujolais Villages and the crus?
+      choices:
+        - { text: "A dead-flat river terrace of deep clay", correct: false }
+        - { text: "Rolling hills with granite-based soils", correct: true }
+        - { text: "Steep schist terraces above the Douro", correct: false }
+        - { text: "Chalk plateaux with flint", correct: false }
+      explanation: |
+        The north-west is **hilly granite** (and related poor rocks). That drainage and
+        low fertility are a big part of why Villages and crus have more concentration than
+        plainland Beaujolais.
+
+  - id: beaujolais-villages-count-001
+    type: mcq
+    deck: France::Beaujolais
+    tags: [france, beaujolais, appellation]
+    status: draft
+    source_id: c16-0020
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Roughly how many communes may produce Beaujolais Villages?
+      choices:
+        - { text: "Ten, the same list as the crus", correct: false }
+        - { text: "About 38", correct: true }
+        - { text: "Two hundred, the same as Bordeaux AOC", correct: false }
+        - { text: "Four, all in the Mâconnais", correct: false }
+      explanation: |
+        The source deck said 39. Official lists used in WSET-level study are **38**
+        Villages communes (the ten crus are separate AOCs). Either way it is “about
+        forty”, not ten and not hundreds.
+
+  - id: beaujolais-villages-blend-001
+    type: mcq
+    deck: France::Beaujolais
+    tags: [france, beaujolais, appellation]
+    status: draft
+    source_id: c16-0021
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Why do Beaujolais Villages labels rarely name a single village?
+      choices:
+        - { text: "Village names are illegal on any Beaujolais bottle", correct: false }
+        - { text: "Most Villages wine is a blend from several communes", correct: true }
+        - { text: "All Villages wine must be labelled only as Bourgogne", correct: false }
+        - { text: "The grapes must come from a single cru", correct: false }
+      explanation: |
+        A bottle can show a commune name in some cases, but **blends across several
+        Villages** are the commercial norm, so the generic **Beaujolais Villages**
+        designation is what you usually see.
+
+  - id: beaujolais-cru-count-001
+    type: mcq
+    deck: France::Beaujolais
+    tags: [france, beaujolais, appellation]
+    status: draft
+    source_id: c16-0022
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How many Beaujolais crus are there?
+      choices:
+        - { text: "Four", correct: false }
+        - { text: "Ten", correct: true }
+        - { text: "Thirty-eight", correct: false }
+        - { text: "Thirty-three, like the Grand Crus of the Côte d'Or", correct: false }
+      explanation: |
+        There are **ten** crus, each its own AOC (Brouilly, Côte de Brouilly, Régnié,
+        Morgon, Chiroubles, Fleurie, Moulin-à-Vent, Chénas, Juliénas, Saint-Amour).
+        Thirty-eight is the Villages commune count, not the crus.
+
+  - id: beaujolais-volume-crus-001
+    type: mcq
+    deck: France::Beaujolais
+    tags: [france, beaujolais, cru]
+    status: draft
+    source_id: c16-0023
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which four crus are usually the largest in volume?
+      choices:
+        - { text: "Chiroubles, Chénas, Juliénas and Saint-Amour", correct: false }
+        - { text: "Brouilly, Morgon, Fleurie and Moulin-à-Vent", correct: true }
+        - { text: "Côte de Brouilly only, four times over", correct: false }
+        - { text: "Pommard, Volnay, Meursault and Puligny", correct: false }
+      explanation: |
+        **Brouilly** is the biggest cru by area. **Morgon**, **Fleurie** and
+        **Moulin-à-Vent** are the other high-volume, widely seen names. Chénas is among
+        the smallest.
+
+  - id: beaujolais-structure-crus-001
+    type: mcq
+    deck: France::Beaujolais
+    tags: [france, beaujolais, cru]
+    status: draft
+    source_id: c16-0024
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which Beaujolais crus are known for the most structure?
+      choices:
+        - { text: "Brouilly and Fleurie", correct: false }
+        - { text: "Moulin-à-Vent and Morgon", correct: true }
+        - { text: "Chiroubles and Saint-Amour only", correct: false }
+        - { text: "All ten crus are legally required to taste identical", correct: false }
+      explanation: |
+        **Moulin-à-Vent** and **Morgon** are the textbook “firm” crus: more tannin and
+        body, often from crushed-fruit ferments. Fleurie and Brouilly are usually cited
+        at the lighter, more perfumed end.
+
+  - id: beaujolais-ageing-crus-001
+    type: mcq
+    deck: France::Beaujolais
+    tags: [france, beaujolais, cru]
+    status: draft
+    source_id: c16-0025
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which Beaujolais crus are most often able to improve in bottle?
+      choices:
+        - { text: "Beaujolais Nouveau from the plain", correct: false }
+        - { text: "Moulin-à-Vent and Morgon", correct: true }
+        - { text: "Any wine labelled Villages, by law after two years", correct: false }
+        - { text: "Only white Beaujolais", correct: false }
+      explanation: |
+        The same two crus — **Moulin-à-Vent** and **Morgon** — are the ones WSET-level
+        notes flag for **bottle development** (more structure, sometimes a Pinot-like
+        evolution). Nouveau is the opposite: drink it immediately.
+
+  - id: beaujolais-light-crus-001
+    type: mcq
+    deck: France::Beaujolais
+    tags: [france, beaujolais, cru]
+    status: draft
+    source_id: c16-0026
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which crus are typically the lightest and most perfumed?
+      choices:
+        - { text: "Moulin-à-Vent and Morgon", correct: false }
+        - { text: "Brouilly and Fleurie", correct: true }
+        - { text: "Hermitage and Côte-Rôtie", correct: false }
+        - { text: "All crus must be heavy and tannic", correct: false }
+      explanation: |
+        **Fleurie** is the perfume benchmark (floral, pretty red fruit). **Brouilly**,
+        the southernmost and largest cru, is usually earlier-drinking and lighter than
+        Moulin-à-Vent or Morgon.
+
+  - id: beaujolais-crushed-fruit-001
+    type: mcq
+    deck: France::Beaujolais
+    tags: [france, beaujolais, winemaking]
+    status: draft
+    source_id: c16-0027
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How are many cru Beaujolais wines fermented, compared with Nouveau?
+      choices:
+        - { text: "Only under flor, like fino", correct: false }
+        - { text: "As crushed fruit, more like a conventional red", correct: true }
+        - { text: "Always as 100% carbonic maceration with no juice at the bottom of the vat", correct: false }
+        - { text: "By freezing the must and removing ice", correct: false }
+      explanation: |
+        Crus more often use **crushed-fruit** (and sometimes a short maceration) for
+        colour and tannin. Nouveau leans on **semi-carbonic / carbonic** whole-bunch
+        work. Many addresses mix the two.
+
+  - id: beaujolais-oak-vessel-001
+    type: mcq
+    deck: France::Beaujolais
+    tags: [france, beaujolais, winemaking]
+    status: draft
+    source_id: c16-0028
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: If a Beaujolais sees oak, what vessel is typical?
+      choices:
+        - { text: "100% new 225 L barriques for every litre", correct: false }
+        - { text: "Large vats rather than small new casks", correct: true }
+        - { text: "Chestnut amphorae required by the AOC", correct: false }
+        - { text: "Sherry butts under flor", correct: false }
+      explanation: |
+        When oak is used it is usually **large, often older vats**. The point is a gentle
+        oxidative frame, not a vanilla-toast overlay.
+
+  - id: beaujolais-oak-why-001
+    type: mcq
+    deck: France::Beaujolais
+    tags: [france, beaujolais, winemaking]
+    status: draft
+    source_id: c16-0029
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Why are large vats preferred over new barriques for most Beaujolais?
+      choices:
+        - { text: "The AOC bans any wood that is not brand new", correct: false }
+        - { text: "The wines are not meant to taste of new oak", correct: true }
+        - { text: "Gamay cannot ferment in wood at all", correct: false }
+        - { text: "Small casks are illegal in the Saône department", correct: false }
+      explanation: |
+        The fruit and (for Nouveau) carbonic aromas are the point. **New-oak flavour is
+        rarely the aim**, so big, neutral-ish vats make more sense than a full barrique
+        programme.
+
+  - id: beaujolais-whole-bunch-001
+    type: mcq
+    deck: France::Beaujolais
+    tags: [france, beaujolais, winemaking]
+    status: draft
+    source_id: c16-0030
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How do some Beaujolais producers keep brighter fruit aromas on more serious wines?
+      choices:
+        - { text: "Five years in new oak and no fruit in the blend", correct: false }
+        - { text: "A dose of semi-carbonic maceration, or a share of whole bunches", correct: true }
+        - { text: "Mandatory chaptalisation to 16% alcohol", correct: false }
+        - { text: "Ageing under flor for two years", correct: false }
+      explanation: |
+        Even when the base is crushed-fruit ferment, a **semi-carbonic step** or **whole
+        bunches** can lift the red-fruit perfume without turning the wine into Nouveau.

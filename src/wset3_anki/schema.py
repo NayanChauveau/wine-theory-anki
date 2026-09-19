@@ -20,6 +20,20 @@ class Status(StrEnum):
     NEEDS_TRANSLATION = "needs-translation"
 
 
+class FactCheck(StrEnum):
+    PASS = "pass"
+    FAIL = "fail"
+    UNSURE = "unsure"
+
+
+class Review(StrictModel):
+    fact_check: FactCheck | None = None
+    sources: list[str] = Field(
+        default_factory=list,
+        description="Editorial sources (spec, aoc-site, known-fact). Never textbook pages.",
+    )
+
+
 class Choice(StrictModel):
     text: str = Field(min_length=1, description="Choice text shown on the card")
     correct: bool = Field(default=False, description="Exactly one choice per language must be true")
@@ -74,6 +88,11 @@ class CardBase(StrictModel):
         default=Status.REVIEWED,
         description="draft is omitted from release builds",
     )
+    source_id: str | None = Field(
+        default=None,
+        description="Inbox source note id, e.g. c16-0007. Several cards may share one id.",
+    )
+    review: Review | None = None
 
     @field_validator("id")
     @classmethod
