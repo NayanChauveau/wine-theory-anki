@@ -1,5 +1,602 @@
 # yaml-language-server: $schema=../schema/cards.schema.json
 # source: C25 (import/inbox/c25-greece.yaml)
 # deck: Greece
+# Writer then critic. Inbox untrusted (AOQS is not a modern alternative to PDO).
 
-cards: []
+cards:
+  - id: greece-export-trio-001
+    type: mcq
+    deck: Greece
+    tags: [greece]
+    status: reviewed
+    source_id: c25-0001
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which three Greek varieties — and home PDOs — lead the export conversation?
+      choices:
+        - { text: "Sangiovese from Chianti, Tempranillo from Rioja, Pinot from Burgundy", correct: false }
+        - { text: "Xinomavro from Naoussa, Agiorgitiko from Nemea, Assyrtiko from Santorini", correct: true }
+        - { text: "Tannat from Madiran, Malbec from Cahors, Ugni from Gascogne", correct: false }
+        - { text: "Only Retsina from everywhere, with no PDO grape", correct: false }
+      explanation: |
+        The three names to lock are **Xinomavro / Naoussa**, **Agiorgitiko /
+        Nemea** and **Assyrtiko / Santorini**. Greece has many more natives;
+        these are the ones that travel.
+
+  - id: greece-climate-001
+    type: mcq
+    deck: Greece
+    tags: [greece, climate]
+    status: reviewed
+    source_id: c25-0002
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which climate sketch best fits most Greek vineyards?
+      choices:
+        - { text: "Cool maritime, like England, with no summer heat", correct: false }
+        - { text: "Hot Mediterranean, eased by altitude, the sea, and sometimes fierce island winds", correct: true }
+        - { text: "High-alpine snowfields with no dry season", correct: false }
+        - { text: "Equatorial rainforest, wet every afternoon", correct: false }
+      explanation: |
+        Summers can sit **above 30 °C**. Height, the sea and the **meltemi**-style
+        island winds take the edge off — and can also shred an untrained canopy.
+        Drought is the other constant, especially in the east.
+
+  - id: greece-east-drought-001
+    type: mcq
+    deck: Greece
+    tags: [greece, climate]
+    status: reviewed
+    source_id: c25-0003
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Why is eastern Greece especially drought-prone?
+      choices:
+        - { text: "It sits in a tropical monsoon that never stops", correct: false }
+        - { text: "It lies in the rain shadow of the Pindos, with little water to irrigate", correct: true }
+        - { text: "The Pindos make the east the wettest side of the country", correct: false }
+        - { text: "EU law bans any rainfall east of Athens", correct: false }
+      explanation: |
+        Westerlies drop their water on the **Pindos**. The east is the **rain
+        shadow** — dry soils, little irrigation water. That is why drought-tough
+        natives matter there.
+
+  - id: greece-native-count-001
+    type: mcq
+    deck: Greece
+    tags: [greece]
+    status: reviewed
+    source_id: c25-0004
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: About how many grape varieties are native to Greece?
+      choices:
+        - { text: "Fewer than ten, all French", correct: false }
+        - { text: "More than two hundred", correct: true }
+        - { text: "Exactly three, and no others exist", correct: false }
+        - { text: "None — Greece only grows Cabernet", correct: false }
+      explanation: |
+        Counts sit **above 200** named natives. Only a handful are widely
+        bottled; the rest are the genetic attic behind those three export stars.
+
+  - id: greece-natives-adapted-001
+    type: mcq
+    deck: Greece
+    tags: [greece]
+    status: reviewed
+    source_id: c25-0005
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What is the practical gift of those native Greek varieties?
+      choices:
+        - { text: "They only ripen in a cool, wet English summer", correct: false }
+        - { text: "They cope with heat, drought and poor, dry soils", correct: true }
+        - { text: "They need constant irrigation or they die", correct: false }
+        - { text: "They cannot hold acidity in the sun", correct: false }
+      explanation: |
+        Centuries of selection in a **hot, dry** country left grapes that still
+        make wine when French imports would cook or wilt. Assyrtiko keeping acid
+        on Santorini’s lava is the showpiece.
+
+  - id: greece-pdo-natives-001
+    type: mcq
+    deck: Greece
+    tags: [greece, law]
+    status: reviewed
+    source_id: c25-0006
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What do most Greek PDOs insist on for grapes?
+      choices:
+        - { text: "Only international varieties, never a native", correct: false }
+        - { text: "Native varieties as the core of the wine", correct: true }
+        - { text: "A mandatory 50% Cabernet Sauvignon", correct: false }
+        - { text: "No named grape at all", correct: false }
+      explanation: |
+        Naoussa is **Xinomavro**, Nemea **Agiorgitiko**, Santorini **Assyrtiko**
+        (with room for other local whites in some bottlings). The PDO idea here
+        is **place + native**, not a Bordeaux blend with a Greek sticker.
+
+  - id: naoussa-macedonia-001
+    type: mcq
+    deck: Greece
+    tags: [greece, naoussa]
+    status: reviewed
+    source_id: c25-0007
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Where is Naoussa PDO?
+      choices:
+        - { text: "On Santorini in the Aegean", correct: false }
+        - { text: "In Macedonia, in the north of mainland Greece", correct: true }
+        - { text: "On the southern tip of the Peloponnese only", correct: false }
+        - { text: "In Crete, next to the Libyan Sea", correct: false }
+      explanation: |
+        **Naoussa** sits in **Macedonia**, inland from the Thermaic Gulf. It is
+        not the island or the Peloponnese.
+
+  - id: naoussa-altitude-001
+    type: mcq
+    deck: Greece
+    tags: [greece, naoussa]
+    status: reviewed
+    source_id: c25-0008
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What is distinctive about Naoussa’s vineyard sites?
+      choices:
+        - { text: "They are all at sea level on a hot beach", correct: false }
+        - { text: "They climb toward about 400 m and run cooler than the land around them", correct: true }
+        - { text: "They sit above 2 000 m and never ripen red grapes", correct: false }
+        - { text: "There are no slopes, only a flooded delta", correct: false }
+      explanation: |
+        Slopes up to roughly **400 m** give Naoussa a **cooler** pocket in a hot
+        country — enough to keep Xinomavro’s acid and tannin.
+
+  - id: naoussa-xinomavro-only-001
+    type: mcq
+    deck: Greece
+    tags: [greece, naoussa]
+    status: reviewed
+    source_id: c25-0009
+    review:
+      fact_check: pass
+      sources: [spec]
+    en:
+      question: What may a Naoussa PDO red be made from?
+      choices:
+        - { text: "Any red grape, including Cabernet only", correct: false }
+        - { text: "Xinomavro alone", correct: true }
+        - { text: "Agiorgitiko alone", correct: false }
+        - { text: "Only white Assyrtiko", correct: false }
+      explanation: |
+        **Naoussa** is a **100% Xinomavro** red PDO. Agiorgitiko is Nemea;
+        Assyrtiko is the Santorini white.
+
+  - id: xinomavro-nebbiolo-001
+    type: mcq
+    deck: Greece
+    tags: [greece, xinomavro]
+    status: reviewed
+    source_id: c25-0010
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which better-known grape is Xinomavro most often likened to?
+      choices:
+        - { text: "Gewürztraminer", correct: false }
+        - { text: "Nebbiolo", correct: true }
+        - { text: "Müller-Thurgau", correct: false }
+        - { text: "Ugni Blanc", correct: false }
+      explanation: |
+        **Xinomavro** shares Nebbiolo’s trick: **pale colour, fierce tannin and
+        acid**, and a long life. The name even hints at it — *ximo* sour, *mavro*
+        black.
+
+  - id: xinomavro-profile-001
+    type: mcq
+    deck: Greece
+    tags: [greece, xinomavro]
+    status: reviewed
+    source_id: c25-0011
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What is the classic Xinomavro profile?
+      choices:
+        - { text: "Deep purple, low tannin, banana and candy from carbonic maceration", correct: false }
+        - { text: "High tannin and acid, a colour that fades to tawny, little fresh fruit, then spice and earth with age", correct: true }
+        - { text: "Sweet, low-acid white with no tannin", correct: false }
+        - { text: "Only flor, almond and brine", correct: false }
+      explanation: |
+        Young Xinomavro can smell more **tomato leaf and olive** than cherry.
+        With time it goes **tawny, spicy and earthy** — again the Nebbiolo
+        rhyme. It is not a Nouveau or a fino.
+
+  - id: xinomavro-modern-001
+    type: mcq
+    deck: Greece
+    tags: [greece, xinomavro]
+    status: reviewed
+    source_id: c25-0012
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How have some newer Naoussa producers shifted the old Xinomavro mould?
+      choices:
+        - { text: "They banned oak and made only white wine", correct: false }
+        - { text: "Deeper colour, gentler tannin, and sometimes new oak", correct: true }
+        - { text: "They replaced Xinomavro with Pinotage by law", correct: false }
+        - { text: "They only bottle sparkling rosé under flor", correct: false }
+      explanation: |
+        Shorter extraction, riper fruit and **new barriques** can make a darker,
+        less austere wine. Traditionalists still chase the pale, long-lived
+        style. Both sit in the PDO if the grape is Xinomavro.
+
+  - id: nemea-location-001
+    type: mcq
+    deck: Greece
+    tags: [greece, nemea]
+    status: reviewed
+    source_id: c25-0013
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Where is Nemea?
+      choices:
+        - { text: "On the island of Santorini only", correct: false }
+        - { text: "In the northern Peloponnese, near the isthmus that joins it to the mainland", correct: true }
+        - { text: "In Macedonia, next to Naoussa", correct: false }
+        - { text: "On the French Riviera", correct: false }
+      explanation: |
+        **Nemea** is the red heart of the **Peloponnese**, just south of the
+        Corinth isthmus. Hercules and the Nemean lion are the tourist story;
+        **Agiorgitiko** is the wine story.
+
+  - id: nemea-agiorgitiko-001
+    type: mcq
+    deck: Greece
+    tags: [greece, nemea]
+    status: reviewed
+    source_id: c25-0014
+    review:
+      fact_check: pass
+      sources: [spec]
+    en:
+      question: What may a Nemea PDO red be made from?
+      choices:
+        - { text: "Xinomavro alone", correct: false }
+        - { text: "Agiorgitiko alone", correct: true }
+        - { text: "Only Cabernet Sauvignon", correct: false }
+        - { text: "Assyrtiko with flor ageing", correct: false }
+      explanation: |
+        **Nemea** is **100% Agiorgitiko** (St George’s grape). Xinomavro stays
+        in the north.
+
+  - id: nemea-altitude-range-001
+    type: mcq
+    deck: Greece
+    tags: [greece, nemea]
+    status: reviewed
+    source_id: c25-0015
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How spread out are Nemea’s vineyard heights?
+      choices:
+        - { text: "All vines sit at exactly sea level", correct: false }
+        - { text: "From about 230 m up to about 900 m", correct: true }
+        - { text: "Only above the treeline at 2 500 m", correct: false }
+        - { text: "There is no slope; it is one flooded lake", correct: false }
+      explanation: |
+        That **230–900 m** spread is why Nemea can make jammy early reds and
+        tighter, fresher fruit from the same grape.
+
+  - id: nemea-mid-slope-001
+    type: mcq
+    deck: Greece
+    tags: [greece, nemea]
+    status: reviewed
+    source_id: c25-0016
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Where in that range does the best Nemea red fruit usually come from?
+      choices:
+        - { text: "The hottest valley floor only", correct: false }
+        - { text: "The middle of the altitude band", correct: true }
+        - { text: "Only the very highest, coldest ridge", correct: false }
+        - { text: "A greenhouse on the Athens ring road", correct: false }
+      explanation: |
+        Mid-slope is the **Goldilocks** belt: ripe but not cooked, tannin with
+        some polish. Floor fruit goes jammy; the top is often better in a blend
+        or a rosé.
+
+  - id: nemea-valley-floor-001
+    type: mcq
+    deck: Greece
+    tags: [greece, nemea]
+    status: reviewed
+    source_id: c25-0017
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What are lower-slope Nemea reds often like?
+      choices:
+        - { text: "Austere, pale and built for 30 years, like old Naoussa", correct: false }
+        - { text: "Jammy and fruity, aimed at early drinking", correct: true }
+        - { text: "Always bone-dry whites from Assyrtiko", correct: false }
+        - { text: "Fortified under flor", correct: false }
+      explanation: |
+        Extra heat on the **floor** pushes Agiorgitiko into **cooked red fruit**.
+        Useful, simple bottles — not the structured mid-slope style.
+
+  - id: nemea-high-slopes-001
+    type: mcq
+    deck: Greece
+    tags: [greece, nemea]
+    status: reviewed
+    source_id: c25-0018
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What does high-elevation Nemea fruit typically bring?
+      choices:
+        - { text: "Low acid, fat tannin and no use in a blend", correct: false }
+        - { text: "Higher acid, less polished tannin — freshness in a red, or a good rosé", correct: true }
+        - { text: "Only icewine after a hard freeze every year", correct: false }
+        - { text: "Mandatory new-oak Cabernet flavour", correct: false }
+      explanation: |
+        Up high the grape keeps **acid** and the tannin can stay a bit **green**.
+        Blenders use it for lift; much of it is **rosé** rather than a grand red.
+
+  - id: nemea-best-profile-001
+    type: mcq
+    deck: Greece
+    tags: [greece, nemea]
+    status: reviewed
+    source_id: c25-0019
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What do the best mid-slope Nemea reds usually show?
+      choices:
+        - { text: "Pale tawny, searing acid, no fruit, no oak", correct: false }
+        - { text: "Deep ruby, smooth high tannin, modest acid, red fruit and sweet spice, happy in new oak and in bottle", correct: true }
+        - { text: "Only spritzy white with no tannin", correct: false }
+        - { text: "Banana and kirsch from carbonic maceration", correct: false }
+      explanation: |
+        Good Agiorgitiko is the **softer** Greek red next to Xinomavro: **ruby,
+        plush tannin, red fruit, sweet spice**, and it takes **oak**. It is not
+        the pale Nebbiolo twin.
+
+  - id: santorini-island-001
+    type: mcq
+    deck: Greece
+    tags: [greece, santorini]
+    status: reviewed
+    source_id: c25-0020
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What is Santorini, in vineyard terms?
+      choices:
+        - { text: "A flat river plain in Macedonia", correct: false }
+        - { text: "A windy volcanic island in the Aegean", correct: true }
+        - { text: "A granite hill in Beaujolais", correct: false }
+        - { text: "A limestone coast in Champagne", correct: false }
+      explanation: |
+        **Santorini** is the flooded caldera in the **Cyclades**: black volcanic
+        soils, almost no water, and a wind that never really stops.
+
+  - id: santorini-kouloura-001
+    type: mcq
+    deck: Greece
+    tags: [greece, santorini]
+    status: reviewed
+    source_id: c25-0021
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How are many Santorini vines trained, and why?
+      choices:
+        - { text: "High pergolas so the wind can tear the fruit off", correct: false }
+        - { text: "Low basket coils (kouloura), fruit tucked inside, against the wind", correct: true }
+        - { text: "Tall VSP walls for a grape harvester", correct: false }
+        - { text: "Unpruned hedges with no shape at all", correct: false }
+      explanation: |
+        The **kouloura** is a wreath of old wood on the ground. Grapes hang in
+        the **shelter** of the basket so the **meltemi** does not sandblast them.
+        A high trellis would lose the crop.
+
+  - id: santorini-styles-allowed-001
+    type: mcq
+    deck: Greece
+    tags: [greece, santorini]
+    status: reviewed
+    source_id: c25-0022
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which styles can a Santorini PDO wine be?
+      choices:
+        - { text: "Only sparkling red, never white", correct: false }
+        - { text: "White or red, dry or sweet", correct: true }
+        - { text: "Only fortified wine under flor", correct: false }
+        - { text: "Only icewine", correct: false }
+      explanation: |
+        The PDO is not a single colour or sweetness. **Dry Assyrtiko** carries
+        the fame; **Vinsanto** is the sweet one; a little red exists. Flor and
+        ice are other countries.
+
+  - id: santorini-assyrtiko-fame-001
+    type: mcq
+    deck: Greece
+    tags: [greece, santorini]
+    status: reviewed
+    source_id: c25-0023
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which Santorini style has the highest reputation?
+      choices:
+        - { text: "Pale rosé from Pinot Noir", correct: false }
+        - { text: "Dry white from Assyrtiko", correct: true }
+        - { text: "Nouveau Gamay released in November", correct: false }
+        - { text: "Cream sherry under flor", correct: false }
+      explanation: |
+        **Assyrtiko** dry white — citrus, stone fruit, electric acid, a salty
+        volcanic edge — is the bottle people mean. Vinsanto is admired but
+        smaller.
+
+  - id: santorini-dry-profile-001
+    type: mcq
+    deck: Greece
+    tags: [greece, santorini]
+    status: reviewed
+    source_id: c25-0024
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What do dry Santorini whites typically taste like?
+      choices:
+        - { text: "Low acid, flabby tropical juice with no perfume", correct: false }
+        - { text: "Ripe citrus and stone fruit, concentrated, with high acidity", correct: true }
+        - { text: "Butter and coconut from 200% new oak only", correct: false }
+        - { text: "Banana and cinnamon from carbonic maceration", correct: false }
+      explanation: |
+        Heat plus volcanic stress gives **concentration**; the grape keeps
+        **high acid**, so the wine stays taut. Oak can appear, but the point is
+        citrus, peach and that saline snap.
+
+  - id: santorini-vinsanto-name-001
+    type: mcq
+    deck: Greece
+    tags: [greece, santorini]
+    status: reviewed
+    source_id: c25-0025
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What is the name of Santorini’s PDO sweet wine?
+      choices:
+        - { text: "Tokaji Aszú", correct: false }
+        - { text: "Vinsanto", correct: true }
+        - { text: "Sauternes", correct: false }
+        - { text: "Icewine", correct: false }
+      explanation: |
+        **Vinsanto** (one word, often) is Santorini’s sun-dried sweet wine — not
+        Tuscany’s **Vin Santo**, though the names rhyme, and not a Tokaj aszú.
+
+  - id: santorini-vinsanto-method-001
+    type: mcq
+    deck: Greece
+    tags: [greece, santorini]
+    status: reviewed
+    source_id: c25-0026
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How is Santorini Vinsanto usually concentrated and aged?
+      choices:
+        - { text: "Noble rot on the vine, then no oak at all", correct: false }
+        - { text: "Sun-dried up to about two weeks, then oak for at least two years", correct: true }
+        - { text: "Frozen on the vine and pressed as eiswein", correct: false }
+        - { text: "Fortified mid-ferment like Port", correct: false }
+      explanation: |
+        Bunches **dry in the sun** (passerillage off the vine) for up to
+        **14 days**, then the wine must see **oak for a two-year minimum** —
+        many houses leave it much longer.
+
+  - id: santorini-vinsanto-taste-001
+    type: mcq
+    deck: Greece
+    tags: [greece, santorini]
+    status: reviewed
+    source_id: c25-0026
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What keeps aged Vinsanto from tasting only like dessert syrup?
+      choices:
+        - { text: "A complete lack of residual sugar", correct: false }
+        - { text: "Assyrtiko’s high acidity, with older bottles showing caramel and nuts", correct: true }
+        - { text: "Flor yeast that eats all the sugar", correct: false }
+        - { text: "A legal ban on any oak", correct: false }
+      explanation: |
+        The same **acid** that defines dry Assyrtiko holds up the sweetness.
+        Long oak adds an **oxidative** caramel-and-nut note. It is not fino.
+
+  - id: greece-aoqs-001
+    type: mcq
+    deck: Greece
+    tags: [greece, law]
+    status: reviewed
+    source_id: c25-0027
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What was the older French-style label for Greece’s superior GI wines?
+      choices:
+        - { text: "Vin de France", correct: false }
+        - { text: "Appellation d'origine de qualité supérieure (AOQS)", correct: true }
+        - { text: "AVA", correct: false }
+        - { text: "DOCG Classico only", correct: false }
+      explanation: |
+        **AOQS** is the **old French wording** for Greece’s top GI (alongside
+        OPAP), not a separate modern rung next to PDO. Bottles now show **PDO /
+        PGI** and, at home, the Greek **POP** line.
+
+  - id: greece-pop-001
+    type: mcq
+    deck: Greece
+    tags: [greece, law]
+    status: reviewed
+    source_id: c25-0028
+    review:
+      fact_check: pass
+      sources: [spec]
+    en:
+      question: What Greek phrase is the domestic stand-in for PDO?
+      choices:
+        - { text: "Indicazione geografica tipica", correct: false }
+        - { text: "Prostatevomeni Onomasia Proelefsis (POP)", correct: true }
+        - { text: "Vin de Pays", correct: false }
+        - { text: "Qualitätswein", correct: false }
+      explanation: |
+        **POP** — *προστατευόμενη ονομασία προέλευσης* — is PDO in Greek, used
+        on the home market. IGT and Vin de Pays are other countries’ PGI words.
