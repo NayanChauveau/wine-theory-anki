@@ -2,4 +2,244 @@
 # source: C11 (import/inbox/c11-wine-and-the-law.yaml)
 # deck: Wine and the Law
 
-cards: []
+cards:
+  - id: law-safety-aim-001
+    type: mcq
+    deck: Wine and the Law
+    tags: [law, safety]
+    status: reviewed
+    source_id: c11-0001
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What is the first job of food-and-drink law?
+      choices:
+        - { text: "To pick the winning grape variety for each village", correct: false }
+        - { text: "To keep what is sold safe and fit to drink", correct: true }
+        - { text: "To ban all labels", correct: false }
+        - { text: "To set a single world wine price", correct: false }
+      explanation: |
+        Before terroir stories come **safety**: the bottle must not poison
+        anyone. Style rules sit on top of that floor.
+
+  - id: law-so2-example-001
+    type: mcq
+    deck: Wine and the Law
+    tags: [law, safety]
+    status: reviewed
+    source_id: c11-0002
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which wine-safety topic do regulators watch especially closely?
+      choices:
+        - { text: "The colour of the capsule foil", correct: false }
+        - { text: "Sulphur dioxide (SO₂)", correct: true }
+        - { text: "The punt depth of the bottle", correct: false }
+        - { text: "The winemaker’s hat size", correct: false }
+      explanation: |
+        **SO₂** is both a useful antiseptic and a toxin in excess — and a
+        trigger for some asthmatics. That is why it is capped and labelled.
+
+  - id: law-so2-toxic-001
+    type: mcq
+    deck: Wine and the Law
+    tags: [law, safety]
+    status: reviewed
+    source_id: c11-0003
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Why must SO₂ levels be watched?
+      choices:
+        - { text: "SO₂ has no effect on people at any dose", correct: false }
+        - { text: "High levels can be toxic", correct: true }
+        - { text: "The law requires unlimited SO₂ in every wine", correct: false }
+        - { text: "SO₂ is only a colour, never a chemical", correct: false }
+      explanation: |
+        Over a threshold, sulphites **hurt**. Legal maxima exist for that
+        reason, not as a flavour fashion.
+
+  - id: law-contains-sulphites-001
+    type: mcq
+    deck: Wine and the Law
+    tags: [law, labelling]
+    status: reviewed
+    source_id: c11-0004
+    review:
+      fact_check: pass
+      sources: [spec]
+    en:
+      question: What labelling step do most countries take on SO₂?
+      choices:
+        - { text: "A ban on mentioning sulphur at all", correct: false }
+        - { text: "The words “contains sulphites” (or similar) on the label", correct: true }
+        - { text: "A requirement to print the full chemical formula only in Latin", correct: false }
+        - { text: "SO₂ must be hidden from the buyer", correct: false }
+      explanation: |
+        Above a low threshold (in the EU, **10 mg/L**) the label must warn
+        **contains sulphites**. It is an allergen notice, not a quality score.
+
+  - id: law-yeast-so2-001
+    type: mcq
+    deck: Wine and the Law
+    tags: [law, labelling]
+    status: reviewed
+    source_id: c11-0005
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Why do almost all wines still need that sulphite line?
+      choices:
+        - { text: "Fermentation itself makes some SO₂, even if you add none", correct: true }
+        - { text: "Yeast never produces any sulphur compound", correct: false }
+        - { text: "The words are optional decoration", correct: false }
+        - { text: "Only sparkling wine ferments", correct: false }
+      explanation: |
+        Yeasts **generate sulphites** as they work. A “no added sulphur” wine
+        can still sit over the labelling trigger. True zero is rare.
+
+  - id: law-label-truth-001
+    type: mcq
+    deck: Wine and the Law
+    tags: [law, labelling]
+    status: reviewed
+    source_id: c11-0006
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What must the person who puts a wine on sale guarantee about the pack?
+      choices:
+        - { text: "That every claim on it is a joke", correct: false }
+        - { text: "That descriptions and claims are accurate", correct: true }
+        - { text: "That the region named is always fictional", correct: false }
+        - { text: "That vintage is optional and may be invented", correct: false }
+      explanation: |
+        The **bottler / brand owner** owns the truth of the label: vintage,
+        variety, place. Fraud starts when that contract breaks.
+
+  - id: law-label-checkable-001
+    type: mcq
+    deck: Wine and the Law
+    tags: [law, labelling]
+    status: reviewed
+    source_id: c11-0007
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What does that accuracy duty force onto the wording of a label?
+      choices:
+        - { text: "It can be vague poetry that nobody can test", correct: false }
+        - { text: "The information must be clear and checkable", correct: true }
+        - { text: "Only a painting, never words", correct: false }
+        - { text: "A different vintage on every bottle in the case", correct: false }
+      explanation: |
+        Inspectors need a **testable claim**: 85% from X, vintage Y. A mood
+        board is not a GI.
+
+  - id: law-gi-and-style-001
+    type: mcq
+    deck: Wine and the Law
+    tags: [law, gi]
+    status: reviewed
+    source_id: c11-0008
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which two label ideas matter most for integrity?
+      choices:
+        - { text: "Font and foil colour only", correct: false }
+        - { text: "Geographical indications, and legally defined quality or style words", correct: true }
+        - { text: "The winemaker’s favourite song", correct: false }
+        - { text: "A ban on any place name", correct: false }
+      explanation: |
+        **Chablis** and **Gran Reserva** are protected strings. They are why
+        GI and style terms sit at the centre of wine law.
+
+  - id: law-why-gi-001
+    type: mcq
+    deck: Wine and the Law
+    tags: [law, gi]
+    status: reviewed
+    source_id: c11-0009
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Why do place names show up so often on wine labels?
+      choices:
+        - { text: "Where the grapes grew can shape style and quality", correct: true }
+        - { text: "Place has no effect on wine at all", correct: false }
+        - { text: "GIs are only a tax on empty bottles", correct: false }
+        - { text: "The WTO bans all geography on labels", correct: false }
+      explanation: |
+        **Origin** is a shortcut for climate, grape and method. That is worth
+        protecting — and worth faking, which is why the law exists.
+
+  - id: law-gi-define-001
+    type: mcq
+    deck: Wine and the Law
+    tags: [law, gi]
+    status: reviewed
+    source_id: c11-0010
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: In plain language, what is a GI?
+      choices:
+        - { text: "A yeast strain patented in one cellar", correct: false }
+        - { text: "A named vineyard area inside a country", correct: true }
+        - { text: "A tax code for corks", correct: false }
+        - { text: "A tasting note category", correct: false }
+      explanation: |
+        A **geographical indication** is a **map with a name**: Bordeaux, Napa
+        Valley, La Romanée. Not a recipe and not a brand.
+
+  - id: law-gi-size-001
+    type: mcq
+    deck: Wine and the Law
+    tags: [law, gi]
+    status: reviewed
+    source_id: c11-0011
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How large can a GI be?
+      choices:
+        - { text: "Always exactly 100 hectares", correct: false }
+        - { text: "From a whole region such as Bordeaux to a single vineyard such as La Romanée", correct: true }
+        - { text: "Always an entire continent", correct: false }
+        - { text: "GIs may not name a place smaller than a country", correct: false }
+      explanation: |
+        **Bordeaux AOC** is a sea of vines; **La Romanée** is a closet. Both
+        are GIs. Size is not the definition.
+
+  - id: law-fraud-premium-001
+    type: mcq
+    deck: Wine and the Law
+    tags: [law, fraud]
+    status: reviewed
+    source_id: c11-0012
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What extra risk sits on wines that sell for a fortune?
+      choices:
+        - { text: "They cannot legally be faked", correct: false }
+        - { text: "Fraud — the name is worth stealing", correct: true }
+        - { text: "They are exempt from all labelling law", correct: false }
+        - { text: "Counterfeits only target water", correct: false }
+      explanation: |
+        **Rudy Kurniawan** and fake DRC bottles are the grim anecdote: the
+        more the name is worth, the more someone will print it on the wrong
+        wine.
