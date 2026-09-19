@@ -2,4 +2,1264 @@
 # source: C22 (import/inbox/c22-germany.yaml)
 # deck: Germany
 
-cards: []
+cards:
+  - id: germany-climate-001
+    type: mcq
+    deck: Germany
+    tags: [germany, climate]
+    status: reviewed
+    source_id: c22-0001
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Mosel, Rheingau and Rheinhessen sit in which climate class, not a warm Mediterranean one?
+      choices:
+        - { text: "Warm Mediterranean", correct: false }
+        - { text: "Cool continental", correct: true }
+        - { text: "Hot continental, like Mendoza", correct: false }
+        - { text: "Tropical monsoon", correct: false }
+      explanation: |
+        **Cool continental.** Late springs, modest summers, and a
+        long, cool autumn are the usual setting.
+
+  - id: germany-rainfall-001
+    type: mcq
+    deck: Germany
+    tags: [germany, climate]
+    status: reviewed
+    source_id: c22-0001
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How does rain typically fall across a German growing season?
+      choices:
+        - { text: "Bone-dry summers, then winter floods only", correct: false }
+        - { text: "Wet summers, with rain easing into autumn", correct: true }
+        - { text: "A daily monsoon from June to October", correct: false }
+        - { text: "No rain at all after budburst", correct: false }
+      explanation: |
+        **Wet summers, with rain easing into autumn.** Flowering and
+        harvest rain remain the vintage swing factors.
+
+  - id: germany-baden-warm-001
+    type: mcq
+    deck: Germany
+    tags: [germany, baden, climate]
+    status: reviewed
+    source_id: c22-0002
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which southern Anbaugebiet is the warm outlier next to Alsace?
+      choices:
+        - { text: "Mosel, at the northern edge", correct: false }
+        - { text: "Baden, in the far south", correct: true }
+        - { text: "Saale-Unstrut only", correct: false }
+        - { text: "None — every region is equally cool", correct: false }
+      explanation: |
+        **Baden, in the far south.** That is why Spätburgunder leads
+        there while the Mosel stays Riesling country.
+
+  - id: germany-ripen-acid-001
+    type: mcq
+    deck: Germany
+    tags: [germany, climate]
+    status: reviewed
+    source_id: c22-0003
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What does Germany’s long, cool ripening season do for grape composition?
+      choices:
+        - { text: "Sugar races ahead and acidity collapses", correct: false }
+        - { text: "Grapes can reach sugar ripeness while keeping acidity", correct: true }
+        - { text: "Grapes never reach sugar ripeness, by law", correct: false }
+        - { text: "Only tannin ripens; sugar never does", correct: false }
+      explanation: |
+        **Grapes can reach sugar ripeness while keeping acidity.**
+        That is the Riesling signature in a cool continental year.
+
+  - id: germany-botrytis-all-001
+    type: mcq
+    deck: Germany
+    tags: [germany, sweet]
+    status: reviewed
+    source_id: c22-0004
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which sweet style can appear in every German Anbaugebiet when autumn allows?
+      choices:
+        - { text: "Fortified Muscat only", correct: false }
+        - { text: "Botrytised sweet wines", correct: true }
+        - { text: "Ice wine only, and only in Franken", correct: false }
+        - { text: "No sweet wine is legal outside the Mosel", correct: false }
+      explanation: |
+        **Botrytised sweet wines.** They are not an annual crop; the
+        weather has to play.
+
+  - id: germany-vintage-rain-001
+    type: mcq
+    deck: Germany
+    tags: [germany, climate]
+    status: reviewed
+    source_id: c22-0005
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Why can two neighbouring German harvests taste so unlike each other?
+      choices:
+        - { text: "A legal ban on blending vintages, and nothing else", correct: false }
+        - { text: "Rainfall and weather vary a lot from year to year", correct: true }
+        - { text: "The climate never changes", correct: false }
+        - { text: "Only because barrels are new every year", correct: false }
+      explanation: |
+        **Rainfall and weather vary a lot from year to year.** In a
+        cool, marginal climate those swings show in the glass.
+
+  - id: germany-site-margin-001
+    type: mcq
+    deck: Germany
+    tags: [germany, climate]
+    status: reviewed
+    source_id: c22-0006
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: On the cool German margin, why do aspect and slope matter so much?
+      choices:
+        - { text: "Every vineyard tastes the same", correct: false }
+        - { text: "Small site differences can change the wine a lot", correct: true }
+        - { text: "Aspect and slope no longer matter", correct: false }
+        - { text: "Only the cellar decides the style", correct: false }
+      explanation: |
+        **Small site differences can change the wine a lot.** A
+        south-facing slate wall versus a flat, cool site is not a
+        nuance here.
+
+  - id: germany-best-site-001
+    type: mcq
+    deck: Germany
+    tags: [germany]
+    status: reviewed
+    source_id: c22-0007
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What site shape is usually the best across German Anbaugebiete?
+      choices:
+        - { text: "Flat, north-facing clay", correct: false }
+        - { text: "Steep, often stony slopes with a southerly aspect", correct: true }
+        - { text: "Shaded valley floors only", correct: false }
+        - { text: "Indoor glasshouses", correct: false }
+      explanation: |
+        **Steep, often stony slopes with a southerly aspect.** Extra
+        sun and drainage are what a cool climate needs.
+
+  - id: germany-handwork-001
+    type: mcq
+    deck: Germany
+    tags: [germany, viticulture]
+    status: reviewed
+    source_id: c22-0008
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How is vineyard work done on Germany’s steepest slopes?
+      choices:
+        - { text: "Only by large combine harvesters", correct: false }
+        - { text: "By hand, with winches moving kit on the steepest ground", correct: true }
+        - { text: "By helicopter only, by law", correct: false }
+        - { text: "The slopes are left unworked", correct: false }
+      explanation: |
+        **By hand, with winches moving kit on the steepest ground.**
+        Flatter German sites can take a tractor; the walls cannot.
+
+  - id: germany-stake-train-001
+    type: mcq
+    deck: Germany
+    tags: [germany, viticulture]
+    status: reviewed
+    source_id: c22-0008
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How are vines on Germany’s steepest slopes typically trained?
+      choices:
+        - { text: "Bush vines with no stakes, like Barossa", correct: false }
+        - { text: "Head-pruned, each vine on its own stake, canes tied at the top", correct: true }
+        - { text: "Pergola only, like Soave", correct: false }
+        - { text: "No training is allowed", correct: false }
+      explanation: |
+        **Head-pruned, each vine on its own stake, canes tied at the
+        top.** The single-stake layout opens the fruit to light and
+        air. Wire trellis is for easier ground.
+
+  - id: germany-river-sun-001
+    type: mcq
+    deck: Germany
+    tags: [germany, climate]
+    status: reviewed
+    source_id: c22-0009
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Besides frost protection, what ripening help can a German river give nearby vines?
+      choices:
+        - { text: "It cools the fruit so sugar never rises", correct: false }
+        - { text: "Reflected sunlight that helps the grapes ripen", correct: true }
+        - { text: "A legal right to irrigate with Rhine water", correct: false }
+        - { text: "Nothing — rivers only flood", correct: false }
+      explanation: |
+        **Reflected sunlight that helps the grapes ripen.** Mosel
+        and Rhine banks live on that extra bounce.
+
+  - id: germany-river-frost-001
+    type: mcq
+    deck: Germany
+    tags: [germany, climate]
+    status: reviewed
+    source_id: c22-0009
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How can a flowing German river help against spring frost?
+      choices:
+        - { text: "It freezes the buds on purpose", correct: false }
+        - { text: "Air movement from the water can keep frost off the vines", correct: true }
+        - { text: "Rivers have no frost effect", correct: false }
+        - { text: "Only by flooding the vineyard each April", correct: false }
+      explanation: |
+        **Air movement from the water can keep frost off the vines.**
+        Still, cold pockets on the flats remain a risk.
+
+  - id: germany-must-weight-001
+    type: mcq
+    deck: Germany
+    tags: [germany, law]
+    status: reviewed
+    source_id: c22-0010
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: German harvest categories are sorted by which measure of the juice?
+      choices:
+        - { text: "Skin colour only", correct: false }
+        - { text: "Must weight, the sugar in the grape juice", correct: true }
+        - { text: "Barrel toast level", correct: false }
+        - { text: "Bottle price", correct: false }
+      explanation: |
+        **Must weight, the sugar in the grape juice.** That is the
+        Prädikat idea: ripeness at harvest, not sweetness in bottle.
+
+  - id: germany-harvest-spread-001
+    type: mcq
+    deck: Germany
+    tags: [germany, viticulture]
+    status: reviewed
+    source_id: c22-0010
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Because lots are split by must weight, how long can a German harvest run?
+      choices:
+        - { text: "A single morning, by law", correct: false }
+        - { text: "Across weeks and even months", correct: true }
+        - { text: "Only in January", correct: false }
+        - { text: "Harvest is banned after 1 September", correct: false }
+      explanation: |
+        **Across weeks and even months.** Kabinett fruit comes in
+        first; TBA and Eiswein wait.
+
+  - id: germany-one-vineyard-range-001
+    type: mcq
+    deck: Germany
+    tags: [germany, law]
+    status: reviewed
+    source_id: c22-0011
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: From one German vineyard in a single year, which range of wines is possible?
+      choices:
+        - { text: "Only one legal category, ever", correct: false }
+        - { text: "Several Qualitätswein and Prädikatswein lots", correct: true }
+        - { text: "Only Eiswein", correct: false }
+        - { text: "Only red wine", correct: false }
+      explanation: |
+        **Several Qualitätswein and Prädikatswein lots.** The same
+        slope can fill more than one category if the fruit is sorted.
+
+  - id: germany-multipass-001
+    type: mcq
+    deck: Germany
+    tags: [germany, viticulture]
+    status: reviewed
+    source_id: c22-0012
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How do pickers gather fruit destined for different German quality lots?
+      choices:
+        - { text: "One mechanical pass, then everything is blended", correct: false }
+        - { text: "They walk the vineyard several times for the right fruit each time", correct: true }
+        - { text: "Night harvest only, by law", correct: false }
+        - { text: "Fruit is never selected in the vineyard", correct: false }
+      explanation: |
+        **They walk the vineyard several times for the right fruit
+        each time.** That is how Kabinett, Spätlese and Auslese can
+        leave the same rows.
+
+  - id: germany-sort-after-001
+    type: mcq
+    deck: Germany
+    tags: [germany, viticulture]
+    status: reviewed
+    source_id: c22-0013
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: After the pickers have been through, how can one day’s fruit still become several Prädikat lots?
+      choices:
+        - { text: "It may not be sorted once picked", correct: false }
+        - { text: "Grapes may be sorted and graded after each pick", correct: true }
+        - { text: "Only by the colour of the crate", correct: false }
+        - { text: "Only at the shop, after bottling", correct: false }
+      explanation: |
+        **Grapes may be sorted and graded after each pick.** In the
+        rows or on the table, the must-weight split still holds.
+
+  - id: germany-dry-trend-001
+    type: mcq
+    deck: Germany
+    tags: [germany]
+    status: reviewed
+    source_id: c22-0014
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which sweetness direction has German production been moving toward?
+      choices:
+        - { text: "Only fortified wines", correct: false }
+        - { text: "Dry wines", correct: true }
+        - { text: "Only Eiswein", correct: false }
+        - { text: "A legal ban on dry wine", correct: false }
+      explanation: |
+        **Dry wines.** Trocken bottles are now the domestic default,
+        not an export extra.
+
+  - id: germany-dry-market-001
+    type: mcq
+    deck: Germany
+    tags: [germany]
+    status: reviewed
+    source_id: c22-0014
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Who has mainly driven Germany’s shift toward dry wines?
+      choices:
+        - { text: "A ban on residual sugar", correct: false }
+        - { text: "Demand from the domestic market", correct: true }
+        - { text: "Only Canadian ice-wine buyers", correct: false }
+        - { text: "A rule that every Riesling must be TBA", correct: false }
+      explanation: |
+        **Demand from the domestic market.** German drinkers asked
+        for trocken; cellars followed.
+
+  - id: germany-qba-colours-001
+    type: mcq
+    deck: Germany
+    tags: [germany, law]
+    status: reviewed
+    source_id: c22-0015
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Volume German red and white that may be enriched is usually labelled as which legal class?
+      choices:
+        - { text: "Only as Trockenbeerenauslese", correct: false }
+        - { text: "Qualitätswein", correct: true }
+        - { text: "Only as Vin de France", correct: false }
+        - { text: "Only as sparkling Sekt, by law", correct: false }
+      explanation: |
+        **Qualitätswein.** It is the broad PDO wrapper for both
+        colours. Enrichment is allowed here; it is not for
+        Prädikatswein.
+
+  - id: germany-pradikat-whites-001
+    type: mcq
+    deck: Germany
+    tags: [germany, law]
+    status: reviewed
+    source_id: c22-0016
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Everyday dry German reds are rarely labelled Prädikatswein. Where does that category mostly appear?
+      choices:
+        - { text: "On everyday dry reds only", correct: false }
+        - { text: "On white wines", correct: true }
+        - { text: "Only on sparkling rosé", correct: false }
+        - { text: "Prädikat is illegal on any white", correct: false }
+      explanation: |
+        **On white wines.** Prädikat is not a red-wine ban, but the
+        word is used mainly on whites — often Riesling.
+
+  - id: germany-riesling-prestige-001
+    type: mcq
+    deck: Germany
+    tags: [germany, grapes]
+    status: reviewed
+    source_id: c22-0017
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which variety is Germany’s prestige lead, not only a volume grape?
+      choices:
+        - { text: "Müller-Thurgau", correct: false }
+        - { text: "Riesling", correct: true }
+        - { text: "Dornfelder", correct: false }
+        - { text: "Portugieser", correct: false }
+      explanation: |
+        **Riesling.** It is both the quality flagship and the
+        hectare leader.
+
+  - id: germany-pradikat-grapes-001
+    type: mcq
+    deck: Germany
+    tags: [germany, law, grapes]
+    status: reviewed
+    source_id: c22-0018
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Is German Prädikatswein locked to a single grape variety?
+      choices:
+        - { text: "Yes — Riesling only, nationwide", correct: false }
+        - { text: "No — several varieties may be used", correct: true }
+        - { text: "Yes — Spätburgunder only", correct: false }
+        - { text: "Yes — only hybrid grapes", correct: false }
+      explanation: |
+        **No — several varieties may be used.** Riesling leads the
+        famous bottles; the law is not a Riesling-only rule.
+
+  - id: germany-riesling-hectares-001
+    type: mcq
+    deck: Germany
+    tags: [germany, grapes]
+    status: reviewed
+    source_id: c22-0019
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Germany’s largest single grape planting, white or black, is which variety?
+      choices:
+        - { text: "Spätburgunder", correct: false }
+        - { text: "Riesling", correct: true }
+        - { text: "Silvaner", correct: false }
+        - { text: "Chardonnay", correct: false }
+      explanation: |
+        **Riesling.** Spätburgunder is the black-grape leader, not
+        the overall one.
+
+  - id: germany-riesling-site-001
+    type: mcq
+    deck: Germany
+    tags: [germany, grapes, riesling]
+    status: reviewed
+    source_id: c22-0020
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Why is there no single house style for German Riesling?
+      choices:
+        - { text: "Every region must copy the Mosel by law", correct: false }
+        - { text: "Soil and climate change the wine from site to site", correct: true }
+        - { text: "Riesling is illegal outside one village", correct: false }
+        - { text: "All Riesling is chaptalised to one recipe", correct: false }
+      explanation: |
+        **Soil and climate change the wine from site to site.**
+        Delicate and floral on cool slate; richer and peachier on
+        warmer ground.
+
+  - id: germany-riesling-sweet-range-001
+    type: mcq
+    deck: Germany
+    tags: [germany, grapes, riesling]
+    status: reviewed
+    source_id: c22-0020
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Across dryness, how wide is the German Riesling range?
+      choices:
+        - { text: "Dry only, by law", correct: false }
+        - { text: "Bone dry through to lusciously sweet", correct: true }
+        - { text: "Fortified only", correct: false }
+        - { text: "Sparkling red only", correct: false }
+      explanation: |
+        **Bone dry through to lusciously sweet.** Trocken bottles
+        sit at one end; Auslese and TBA at the other. Kabinett is
+        a harvest-weight class, not a sweetness name.
+
+  - id: germany-dry-qba-001
+    type: mcq
+    deck: Germany
+    tags: [germany, law, riesling]
+    status: reviewed
+    source_id: c22-0021
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: A dry Riesling that was enriched is usually sold under which legal class, not Prädikatswein?
+      choices:
+        - { text: "Trockenbeerenauslese only", correct: false }
+        - { text: "Qualitätswein", correct: true }
+        - { text: "Only as Landwein, by law", correct: false }
+        - { text: "Vin de France", correct: false }
+      explanation: |
+        **Qualitätswein.** Enrichment is allowed there and banned
+        for Prädikatswein, so many dry bottles sit in that class.
+        Grosses Gewächs is a producer-association extra, not that
+        legal ladder.
+
+  - id: germany-dry-riesling-range-001
+    type: mcq
+    deck: Germany
+    tags: [germany, riesling]
+    status: reviewed
+    source_id: c22-0022
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: A dry German Riesling can sit where, from a light village bottle to a concentrated one?
+      choices:
+        - { text: "Only thin, sweet spritzers", correct: false }
+        - { text: "From light and fruity to very concentrated and intense", correct: true }
+        - { text: "One legal recipe, identical everywhere", correct: false }
+        - { text: "Only fortified", correct: false }
+      explanation: |
+        **From light and fruity to very concentrated and intense.**
+        Dry does not mean simple.
+
+  - id: germany-gg-001
+    type: mcq
+    deck: Germany
+    tags: [germany, riesling]
+    status: reviewed
+    source_id: c22-0023
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Outside the legal Prädikat ladder, what term do many of the finest dry German Rieslings wear?
+      choices:
+        - { text: "Premier Cru Classé, as in the Médoc", correct: false }
+        - { text: "Grosses Gewächs (GG), a producer-association dry flagship", correct: true }
+        - { text: "A legal seventh Prädikat above TBA", correct: false }
+        - { text: "Only Deutscher Wein", correct: false }
+      explanation: |
+        **Grosses Gewächs (GG), a producer-association dry
+        flagship.** It is a VDP estate term, not a rung on the
+        legal Deutscher Wein / Landwein / Qualitätswein /
+        Prädikatswein ladder.
+
+  - id: germany-pradikat-ripeness-001
+    type: mcq
+    deck: Germany
+    tags: [germany, law]
+    status: reviewed
+    source_id: c22-0024
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: If a German bottle says Spätlese, what does that tell you about residual sugar?
+      choices:
+        - { text: "The wine must be lusciously sweet", correct: false }
+        - { text: "Nothing reliable — Prädikat ranks must weight at harvest, not sweetness in bottle", correct: true }
+        - { text: "The wine must be bone dry", correct: false }
+        - { text: "Sugar was added after bottling, by law", correct: false }
+      explanation: |
+        **Nothing reliable — Prädikat ranks must weight at harvest,
+        not sweetness in bottle.** A Spätlese can be trocken; BA
+        and TBA just happen to stay sweet.
+
+  - id: germany-dry-to-auslese-001
+    type: mcq
+    deck: Germany
+    tags: [germany, law]
+    status: reviewed
+    source_id: c22-0025
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: A trocken German wine can still wear which highest Prädikat, not BA or TBA?
+      choices:
+        - { text: "Kabinett only; Spätlese must be sweet", correct: false }
+        - { text: "Auslese", correct: true }
+        - { text: "Trockenbeerenauslese", correct: false }
+        - { text: "No Prädikat wine may be dry", correct: false }
+      explanation: |
+        **Auslese.** Kabinett, Spätlese and Auslese can be trocken.
+        BA, TBA and Eiswein stay sweet.
+
+  - id: germany-pradikat-meaning-001
+    type: mcq
+    deck: Germany
+    tags: [germany, law]
+    status: reviewed
+    source_id: c22-0026
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Kabinett through Trockenbeerenauslese is a scale of what?
+      choices:
+        - { text: "A legal sweetness recipe in the bottle", correct: false }
+        - { text: "Ripeness at harvest, measured as must weight", correct: true }
+        - { text: "Years of oak ageing", correct: false }
+        - { text: "VDP vineyard ranks, as if they were the law", correct: false }
+      explanation: |
+        **Ripeness at harvest, measured as must weight.** It is not
+        a style or sweetness ladder, even if richer Prädikats often
+        taste sweeter.
+
+  - id: germany-kabinett-delicate-001
+    type: mcq
+    deck: Germany
+    tags: [germany, riesling]
+    status: reviewed
+    source_id: c22-0027
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Among Prädikat wines, which harvest-weight class is the lightest in the glass?
+      choices:
+        - { text: "Trockenbeerenauslese", correct: false }
+        - { text: "Kabinett", correct: true }
+        - { text: "Beerenauslese", correct: false }
+        - { text: "Eiswein only", correct: false }
+      explanation: |
+        **Kabinett.** Lowest must-weight rung of the Prädikat
+        scale, and the most delicate in the glass.
+
+  - id: germany-kabinett-profile-001
+    type: mcq
+    deck: Germany
+    tags: [germany, riesling]
+    status: reviewed
+    source_id: c22-0028
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What is typical Kabinett Riesling like in the glass?
+      choices:
+        - { text: "Full body, low acid, and tropical oak", correct: false }
+        - { text: "Light body, high acidity, green apple or citrus, often with some residual sugar", correct: true }
+        - { text: "A dry red with high tannin", correct: false }
+        - { text: "Always fortified", correct: false }
+      explanation: |
+        **Light body, high acidity, green apple or citrus, often
+        with some residual sugar.** The sweetness, when present,
+        is there to balance the acid, not to make a dessert wine.
+
+  - id: germany-kabinett-abv-001
+    type: mcq
+    deck: Germany
+    tags: [germany, riesling]
+    status: reviewed
+    source_id: c22-0028
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How does alcohol usually sit on a sweeter Kabinett versus a dry one?
+      choices:
+        - { text: "Higher on the sweeter bottle; lower when it is fermented dry", correct: false }
+        - { text: "Lower on the sweeter bottle; higher when the wine is fermented dry", correct: true }
+        - { text: "Alcohol is banned on Kabinett", correct: false }
+        - { text: "Kabinett may not show an alcohol figure", correct: false }
+      explanation: |
+        **Lower on the sweeter bottle; higher when the wine is
+        fermented dry.** Stopping the ferment leaves sugar and
+        cuts alcohol; a dry Kabinett finishes the ferment.
+
+  - id: germany-kabinett-sweet-001
+    type: mcq
+    deck: Germany
+    tags: [germany, winemaking]
+    status: reviewed
+    source_id: c22-0029
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Residual sugar in Kabinett is usually left by which two cellar choices, not table sugar?
+      choices:
+        - { text: "Only new-oak MLF", correct: false }
+        - { text: "Stopping the ferment early, or adding Süssreserve after it", correct: true }
+        - { text: "Boiling the must", correct: false }
+        - { text: "Chaptalising a TBA", correct: false }
+      explanation: |
+        **Stopping the ferment early, or adding Süssreserve after
+        it.** The first is the usual quality route; Süssreserve is
+        unfermented must, not table sugar.
+
+  - id: germany-stop-ferment-001
+    type: mcq
+    deck: Germany
+    tags: [germany, winemaking]
+    status: reviewed
+    source_id: c22-0030
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Stopping a Kabinett ferment, rather than adding Süssreserve later, is preferred because it does what?
+      choices:
+        - { text: "It raises alcohol above 15%", correct: false }
+        - { text: "It gives a better sugar-to-acid balance", correct: true }
+        - { text: "It is the only legal method", correct: false }
+        - { text: "It forces noble rot in the cellar", correct: false }
+      explanation: |
+        **It gives a better sugar-to-acid balance.** The leftover
+        grape sugar and the natural acid grew up together.
+
+  - id: germany-spatlese-001
+    type: mcq
+    deck: Germany
+    tags: [germany, riesling]
+    status: reviewed
+    source_id: c22-0031
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How does Spätlese usually sit next to Kabinett?
+      choices:
+        - { text: "Lighter, leaner, and always drier", correct: false }
+        - { text: "More concentrated and riper, with a little more body and alcohol, and citrus to stone fruit", correct: true }
+        - { text: "It must be a red wine", correct: false }
+        - { text: "It is identical to TBA", correct: false }
+      explanation: |
+        **More concentrated and riper, with a little more body and
+        alcohol, and citrus to stone fruit.** Peach or apricot join
+        the citrus; sweetness may rise, but it is not required.
+
+  - id: germany-auslese-select-001
+    type: mcq
+    deck: Germany
+    tags: [germany, riesling]
+    status: reviewed
+    source_id: c22-0032
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What fruit selection defines Auslese?
+      choices:
+        - { text: "Any unripe fruit from the first pass", correct: false }
+        - { text: "Individually selected extra-ripe bunches", correct: true }
+        - { text: "Only frozen berries, like Eiswein", correct: false }
+        - { text: "Only black grapes", correct: false }
+      explanation: |
+        **Individually selected extra-ripe bunches.** Richer and
+        riper than Spätlese; still able to be bottled dry.
+
+  - id: germany-auslese-botrytis-001
+    type: mcq
+    deck: Germany
+    tags: [germany, riesling]
+    status: reviewed
+    source_id: c22-0032
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: May noble rot play a role in German Auslese?
+      choices:
+        - { text: "Never — botrytis is illegal below TBA", correct: false }
+        - { text: "Yes — noble rot can be involved", correct: true }
+        - { text: "It is mandatory in every Auslese", correct: false }
+        - { text: "Only if the wine is red", correct: false }
+      explanation: |
+        **Yes — noble rot can be involved.** It is common on richer
+        Auslese, not a legal must.
+
+  - id: germany-tba-botrytis-001
+    type: mcq
+    deck: Germany
+    tags: [germany, sweet]
+    status: reviewed
+    source_id: c22-0033
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: To reach Trockenbeerenauslese must weights, what is essential?
+      choices:
+        - { text: "Chaptalisation in the press", correct: false }
+        - { text: "Noble rot shrivelling the berries", correct: true }
+        - { text: "A January freeze, like Eiswein", correct: false }
+        - { text: "New oak only", correct: false }
+      explanation: |
+        **Noble rot shrivelling the berries.** TBA numbers are not
+        reachable on healthy, unshrivelled fruit.
+
+  - id: germany-ba-botrytis-001
+    type: mcq
+    deck: Germany
+    tags: [germany, sweet]
+    status: reviewed
+    source_id: c22-0033
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Is noble rot essential for German Beerenauslese?
+      choices:
+        - { text: "Yes — BA without botrytis is illegal", correct: false }
+        - { text: "No — it is typical, but not essential", correct: true }
+        - { text: "BA may never see botrytis", correct: false }
+        - { text: "BA is a dry red category", correct: false }
+      explanation: |
+        **No — it is typical, but not essential.** TBA needs
+        botrytis to hit its weights; BA often has it, and need not.
+
+  - id: germany-ba-tba-style-001
+    type: mcq
+    deck: Germany
+    tags: [germany, sweet]
+    status: reviewed
+    source_id: c22-0033
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What is typical Beerenauslese or Trockenbeerenauslese like in the glass?
+      choices:
+        - { text: "Dry, high alcohol, and oaky", correct: false }
+        - { text: "Sweet and low in alcohol, with honey, dried stone fruit, candied peel and flowers", correct: true }
+        - { text: "A sparkling red", correct: false }
+        - { text: "Always made every vintage, in huge volume", correct: false }
+      explanation: |
+        **Sweet and low in alcohol, with honey, dried stone fruit,
+        candied peel and flowers.** Volumes swing, and some years
+        there is none.
+
+  - id: germany-eiswein-rare-001
+    type: mcq
+    deck: Germany
+    tags: [germany, sweet]
+    status: reviewed
+    source_id: c22-0034
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What marks German Eiswein besides being bottled only in rare years?
+      choices:
+        - { text: "It must be dry and oaked", correct: false }
+        - { text: "Very sweet, with pure varietal fruit, from grapes frozen on the vine", correct: true }
+        - { text: "It requires noble rot, like TBA", correct: false }
+        - { text: "It is a sparkling red", correct: false }
+      explanation: |
+        **Very sweet, with pure varietal fruit, from grapes frozen
+        on the vine.** Healthy fruit is pressed while still frozen;
+        botrytis is not the point.
+
+  - id: germany-eiswein-balance-001
+    type: mcq
+    deck: Germany
+    tags: [germany, sweet]
+    status: reviewed
+    source_id: c22-0035
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Great Eiswein is judged on which pair, not oak or noble-rot spice?
+      choices:
+        - { text: "Heavy new oak and butter", correct: false }
+        - { text: "Varietal purity, with acidity balancing the sweetness", correct: true }
+        - { text: "A tannic, dry finish", correct: false }
+        - { text: "Only smoke and meat", correct: false }
+      explanation: |
+        **Varietal purity, with acidity balancing the sweetness.**
+        The freeze concentrates sugar and acid together.
+
+  - id: germany-eiswein-cellar-001
+    type: mcq
+    deck: Germany
+    tags: [germany, winemaking]
+    status: reviewed
+    source_id: c22-0036
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which two cellar steps do Eiswein makers usually skip to keep varietal flavour?
+      choices:
+        - { text: "Settling and a cool ferment", correct: false }
+        - { text: "Malolactic conversion and new oak", correct: true }
+        - { text: "Any use of yeast", correct: false }
+        - { text: "Protective handling of the juice", correct: false }
+      explanation: |
+        **Malolactic conversion and new oak.** Chosen yeasts and
+        gentle juice handling stay; MLF and new wood would mask the
+        grape.
+
+  - id: germany-rivaner-001
+    type: mcq
+    deck: Germany
+    tags: [germany, grapes]
+    status: reviewed
+    source_id: c22-0037
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: A German label that says Rivaner is talking about which grape?
+      choices:
+        - { text: "Riesling", correct: false }
+        - { text: "Müller-Thurgau", correct: true }
+        - { text: "Silvaner", correct: false }
+        - { text: "Elbling", correct: false }
+      explanation: |
+        **Müller-Thurgau.** Rivaner is the shorter label name for
+        the same grape.
+
+  - id: germany-mt-year-001
+    type: mcq
+    deck: Germany
+    tags: [germany, grapes]
+    status: reviewed
+    source_id: c22-0038
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: In which decade was Müller-Thurgau bred?
+      choices:
+        - { text: "The 1680s", correct: false }
+        - { text: "The 1880s", correct: true }
+        - { text: "The 1980s", correct: false }
+        - { text: "The 1480s", correct: false }
+      explanation: |
+        **The 1880s.** Hermann Müller crossed it at Geisenheim in
+        1882 — a named, checkable date.
+
+  - id: germany-mt-parents-001
+    type: mcq
+    deck: Germany
+    tags: [germany, grapes]
+    status: reviewed
+    source_id: c22-0038
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Müller-Thurgau is a crossing of Riesling and which other grape?
+      choices:
+        - { text: "Silvaner", correct: false }
+        - { text: "Madeleine Royale", correct: true }
+        - { text: "Pinot Noir", correct: false }
+        - { text: "Chardonnay", correct: false }
+      explanation: |
+        **Madeleine Royale.** It was long sold as Riesling ×
+        Silvaner; DNA put **Madeleine Royale** in Silvaner’s place.
+
+  - id: germany-mt-vs-riesling-001
+    type: mcq
+    deck: Germany
+    tags: [germany, grapes]
+    status: reviewed
+    source_id: c22-0039
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Compared with Riesling, when does Müller-Thurgau typically ripen?
+      choices:
+        - { text: "Later, like Riesling on a north slope", correct: false }
+        - { text: "Earlier", correct: true }
+        - { text: "The two grapes are legally identical", correct: false }
+        - { text: "It is a black grape", correct: false }
+      explanation: |
+        **Earlier.** It also usually has less acid and less flavour
+        intensity than Riesling.
+
+  - id: germany-mt-flavours-001
+    type: mcq
+    deck: Germany
+    tags: [germany, grapes]
+    status: reviewed
+    source_id: c22-0040
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Inexpensive Müller-Thurgau is usually sold on which aroma pair, not Riesling petrol?
+      choices:
+        - { text: "Smoke, meat, and tar", correct: false }
+        - { text: "Attractive floral and fruity flavours", correct: true }
+        - { text: "Only new-oak vanilla", correct: false }
+        - { text: "No aroma at all", correct: false }
+      explanation: |
+        **Attractive floral and fruity flavours.** Pleasant, not
+        profound.
+
+  - id: germany-mt-quality-001
+    type: mcq
+    deck: Germany
+    tags: [germany, grapes]
+    status: reviewed
+    source_id: c22-0041
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How often does Müller-Thurgau reach top quality in Germany?
+      choices:
+        - { text: "It is always Germany’s prestige lead", correct: false }
+        - { text: "Rarely", correct: true }
+        - { text: "It is illegal in Qualitätswein", correct: false }
+        - { text: "Only as TBA, every vintage", correct: false }
+      explanation: |
+        **Rarely.** Easy ripeness and a soft profile keep it in the
+        everyday tier.
+
+  - id: germany-mt-hectares-001
+    type: mcq
+    deck: Germany
+    tags: [germany, grapes]
+    status: reviewed
+    source_id: c22-0042
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which crossing still sits second among German whites by area, even after grubbing-up?
+      choices:
+        - { text: "Chardonnay", correct: false }
+        - { text: "Müller-Thurgau", correct: true }
+        - { text: "Elbling", correct: false }
+        - { text: "Sauvignon Blanc", correct: false }
+      explanation: |
+        **Müller-Thurgau.** Second white by hectares, even after
+        decades of grubbing up.
+
+  - id: germany-mt-decline-001
+    type: mcq
+    deck: Germany
+    tags: [germany, grapes]
+    status: reviewed
+    source_id: c22-0043
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which German white’s hectares have fallen as cheap medium-sweet bottles lost buyers?
+      choices:
+        - { text: "Riesling", correct: false }
+        - { text: "Müller-Thurgau", correct: true }
+        - { text: "Grauburgunder, which is collapsing", correct: false }
+        - { text: "No white area has changed", correct: false }
+      explanation: |
+        **Müller-Thurgau.** Destatis still lists it second among
+        whites, on a long downward slope.
+
+  - id: germany-mt-decline-why-001
+    type: mcq
+    deck: Germany
+    tags: [germany, grapes]
+    status: reviewed
+    source_id: c22-0043
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Why has German Müller-Thurgau area fallen?
+      choices:
+        - { text: "A legal ban on the variety", correct: false }
+        - { text: "The market for inexpensive medium-dry and medium-sweet Qualitätswein from it has faded", correct: true }
+        - { text: "It cannot ripen anywhere in Germany", correct: false }
+        - { text: "It was reclassified as a black grape", correct: false }
+      explanation: |
+        **The market for inexpensive medium-dry and medium-sweet
+        Qualitätswein from it has faded.** Drinkers moved on; the
+        hectares followed.
+
+  - id: germany-grauburgunder-rank-001
+    type: mcq
+    deck: Germany
+    tags: [germany, grapes]
+    status: reviewed
+    source_id: c22-0044
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which white has overtaken Silvaner as Germany’s third white by area?
+      choices:
+        - { text: "Elbling", correct: false }
+        - { text: "Grauburgunder", correct: true }
+        - { text: "Gewürztraminer", correct: false }
+        - { text: "Silvaner is still third, ahead of every Pinot", correct: false }
+      explanation: |
+        **Grauburgunder.** Destatis 2024 puts it ahead of
+        Weißburgunder and well ahead of Silvaner. Silvaner is no
+        longer the third white.
+
+  - id: germany-silvaner-where-001
+    type: mcq
+    deck: Germany
+    tags: [germany, grapes, silvaner]
+    status: reviewed
+    source_id: c22-0045
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Silvaner’s German heartland is which two Anbaugebiete?
+      choices:
+        - { text: "Only on the Ahr", correct: false }
+        - { text: "Rheinhessen and Franken", correct: true }
+        - { text: "Only in the Mosel villages of Piesport and Wehlen", correct: false }
+        - { text: "It is illegal east of the Rhine", correct: false }
+      explanation: |
+        **Rheinhessen and Franken.** Franken is the prestige
+        address; Rheinhessen still holds a lot of the hectares.
+
+  - id: germany-silvaner-styles-001
+    type: mcq
+    deck: Germany
+    tags: [germany, grapes, silvaner]
+    status: reviewed
+    source_id: c22-0046
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Franken dry or a sweeter bottle: Silvaner is made in which sweetness pair?"
+      choices:
+        - { text: "Sparkling red only", correct: false }
+        - { text: "Both dry and sweet styles", correct: true }
+        - { text: "Fortified only", correct: false }
+        - { text: "Dry is illegal on Silvaner", correct: false }
+      explanation: |
+        **Both dry and sweet styles.** The dry Franken bottle is
+        the one people remember.
+
+  - id: germany-silvaner-profile-001
+    type: mcq
+    deck: Germany
+    tags: [germany, grapes, silvaner]
+    status: reviewed
+    source_id: c22-0047
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How does typical German Silvaner sit next to Riesling?
+      choices:
+        - { text: "Higher acid and much louder fruit", correct: false }
+        - { text: "Less acidic and less overtly fruity, sometimes with an earthy note", correct: true }
+        - { text: "It is a black grape with high tannin", correct: false }
+        - { text: "The two grapes are indistinguishable", correct: false }
+      explanation: |
+        **Less acidic and less overtly fruity, sometimes with an
+        earthy note.** Quieter than Riesling; not a blank.
+
+  - id: germany-silvaner-quality-001
+    type: mcq
+    deck: Germany
+    tags: [germany, grapes, silvaner]
+    status: reviewed
+    source_id: c22-0048
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: On a warm Franken slope, Silvaner is capable of which quality level, not only bulk?
+      choices:
+        - { text: "Only bulk wine, by law", correct: false }
+        - { text: "High quality", correct: true }
+        - { text: "It cannot ripen anywhere", correct: false }
+        - { text: "Only as a sparkling red", correct: false }
+      explanation: |
+        **High quality.** Warm Franken slopes around Würzburg are
+        the usual proof.
+
+  - id: germany-pinots-rise-001
+    type: mcq
+    deck: Germany
+    tags: [germany, grapes]
+    status: reviewed
+    source_id: c22-0049
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which two Pinot-family whites have been gaining German hectares?
+      choices:
+        - { text: "Elbling and Gutedel only", correct: false }
+        - { text: "Grauburgunder and Weißburgunder", correct: true }
+        - { text: "Only Chenin and Sémillon", correct: false }
+        - { text: "No Pinot whites are planted", correct: false }
+      explanation: |
+        **Grauburgunder and Weißburgunder.** Pinot Gris and Pinot
+        Blanc under the German names, and rising.
+
+  - id: germany-pinots-names-001
+    type: mcq
+    deck: Germany
+    tags: [germany, grapes]
+    status: reviewed
+    source_id: c22-0050
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Export bottles of Grauburgunder and Weißburgunder often wear which foreign names?
+      choices:
+        - { text: "Only as Riesling", correct: false }
+        - { text: "Under the French or Italian name", correct: true }
+        - { text: "They may not be named at all", correct: false }
+        - { text: "Only as Spätburgunder", correct: false }
+      explanation: |
+        **Under the French or Italian name.** Pinot Gris / Pinot
+        Grigio and Pinot Blanc / Pinot Bianco on the same juice.
