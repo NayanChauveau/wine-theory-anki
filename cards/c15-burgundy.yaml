@@ -1709,5 +1709,369 @@ cards:
         A step up in **weight**. **Mâcon-Villages** cannot be red.
         **Mâcon-Lugny** is the named volume village.
 
+  - id: burgundy-lugny-001
+    type: mcq
+    deck: France::Burgundy
+    tags: [france, burgundy]
+    status: reviewed
+    source_id: c15-0081
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which Mâcon village name is the volume bestseller on export lists?
+      choices:
+        - { text: "Romanée-Conti", correct: false }
+        - { text: "Lugny", correct: true }
+        - { text: "Pauillac", correct: false }
+        - { text: "Sauternes", correct: false }
+      explanation: |
+        **Mâcon-Lugny** (often the Cave de Lugny) is the supermarket
+        face, not a claim that it outranks Pouilly-Fuissé for quality.
+
+  - id: burgundy-pf-sv-001
+    type: mcq
+    deck: France::Burgundy
+    tags: [france, burgundy]
+    status: reviewed
+    source_id: c15-0082
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Beside Viré-Clessé, which two Mâconnais village AOCs do most lists lead with?
+      choices:
+        - { text: "Gevrey-Chambertin and Vosne-Romanée", correct: false }
+        - { text: "Pouilly-Fuissé and Saint-Véran", correct: true }
+        - { text: "Pommard and Volnay", correct: false }
+        - { text: "Sauternes and Barsac", correct: false }
+      explanation: |
+        **Pouilly-Fuissé** and **Saint-Véran**. **Viré-Clessé** and the
+        smaller Pouillys (Vinzelles, Loché) sit beside them — not
+        invisible, just not the first two names.
+
+  - id: burgundy-pf-style-001
+    type: mcq
+    deck: France::Burgundy
+    tags: [france, burgundy]
+    status: reviewed
+    source_id: c15-0083
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What fruit register do Pouilly-Fuissé and Saint-Véran usually show?
+      choices:
+        - { text: "Only green apple and no weight", correct: false }
+        - { text: "Ripe stone and tropical fruit", correct: true }
+        - { text: "Only red cherry and tar", correct: false }
+        - { text: "Only noble-rot saffron", correct: false }
+      explanation: |
+        Warmer south Burgundy: **peach, apricot, sometimes pineapple**.
+        Many see some **barrel** time for texture — not every cuvée is
+        a toast bomb.
+
+  - id: burgundy-solutre-site-001
+    type: mcq
+    deck: France::Burgundy
+    tags: [france, burgundy]
+    status: reviewed
+    source_id: c15-0084
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Where do the best Pouilly-Fuissé vines often sit?
+      choices:
+        - { text: "On the Pomerol plateau", correct: false }
+        - { text: "On the Roche de Solutré’s limestone, looking east or south-east", correct: true }
+        - { text: "Only on the Chablis north bank", correct: false }
+        - { text: "Under the city of Lyon", correct: false }
+      explanation: |
+        **Solutré** (and **Vergisson**) limestone, E/SE. That is the
+        postcard cliff above Fuissé.
+
+  - id: burgundy-solutre-amphitheatre-001
+    type: mcq
+    deck: France::Burgundy
+    tags: [france, burgundy]
+    status: reviewed
+    source_id: c15-0085
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What landform around the Roche de Solutré traps extra sun?
+      choices:
+        - { text: "A north-facing wind tunnel", correct: false }
+        - { text: "Amphitheatre-like slopes", correct: true }
+        - { text: "A flat desert", correct: false }
+        - { text: "A glacier", correct: false }
+      explanation: |
+        A natural **bowl**. That is why these Chardonnays can be among
+        Burgundy’s ripest — still not a Côte de Beaune grand cru by law.
+
+  - id: burgundy-solutre-oak-001
+    type: mcq
+    deck: France::Burgundy
+    tags: [france, burgundy]
+    status: reviewed
+    source_id: c15-0086
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How are many Roche de Solutré / Pouilly-Fuissé wines raised?
+      choices:
+        - { text: "Only in icewine presses, never oak", correct: false }
+        - { text: "In oak, which can add a toasty note", correct: true }
+        - { text: "Only as red Gamay", correct: false }
+        - { text: "Oak is banned in the Mâconnais", correct: false }
+      explanation: |
+        Barrel time is common at the top. It is a **style choice**, not
+        a legal duty — some growers stay in steel.
+
+  - id: burgundy-hierarchy-basis-001
+    type: mcq
+    deck: France::Burgundy
+    tags: [france, burgundy]
+    status: reviewed
+    source_id: c15-0087
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What does Burgundy’s AOC ladder rank, unlike Bordeaux’s château lists?
+      choices:
+        - { text: "The négociant’s office postcode", correct: false }
+        - { text: "The quality of the vineyard site (the climat)", correct: true }
+        - { text: "Only the bottle colour", correct: false }
+        - { text: "A 1855 broker price list", correct: false }
+      explanation: |
+        **Climats**, not brands. A grower can own rows in several ranks;
+        the name on the label follows the plot.
+
+  - id: burgundy-regional-floor-001
+    type: mcq
+    deck: France::Burgundy
+    tags: [france, burgundy]
+    status: reviewed
+    source_id: c15-0088
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What sits at the bottom of the Burgundy AOC ladder for still red and white?
+      choices:
+        - { text: "Grand cru only", correct: false }
+        - { text: "Regional Bourgogne Rouge and Bourgogne Blanc", correct: true }
+        - { text: "Only Romanée-Conti", correct: false }
+        - { text: "Premier cru supérieur, as at Yquem", correct: false }
+      explanation: |
+        Generic **Bourgogne**. There are other regionals (Aligoté,
+        Hautes-Côtes, Mâcon) — this pair is the floor for Pinot and
+        Chardonnay.
+
+  - id: burgundy-regional-source-001
+    type: mcq
+    deck: France::Burgundy
+    tags: [france, burgundy]
+    status: reviewed
+    source_id: c15-0089
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Is every Bourgogne Rouge grown on a plot that never had a village right?
+      choices:
+        - { text: "Yes — declassification is illegal", correct: false }
+        - { text: "No — some lots are declassified from a higher AOC", correct: true }
+        - { text: "Yes — it must be a grand cru monopole", correct: false }
+        - { text: "Yes — it may only come from the Landes", correct: false }
+      explanation: |
+        Plain or declassified juice. **DRC** and others bottle some
+        village leftover as Bourgogne to protect the village label.
+
+  - id: burgundy-declass-why-001
+    type: mcq
+    deck: France::Burgundy
+    tags: [france, burgundy]
+    status: reviewed
+    source_id: c15-0090
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Why might a grower sell village-eligible wine as plain Bourgogne?
+      choices:
+        - { text: "EU law forbids village labels after 1 June", correct: false }
+        - { text: "Yields ran too high, or they want to keep the village name for the best lots", correct: true }
+        - { text: "Bourgogne always scores higher than grand cru", correct: false }
+        - { text: "Pinot is illegal in Gevrey", correct: false }
+      explanation: |
+        **Yield over the village cap**, or a quality sort. DRC and others
+        have long used a Bourgogne label for young vines or lesser
+        barrels.
+
+  - id: burgundy-bourgogne-grapes-001
+    type: mcq
+    deck: France::Burgundy
+    tags: [france, burgundy]
+    status: reviewed
+    source_id: c15-0091
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: A generic Bourgogne Rouge or Blanc is usually which pair?
+      choices:
+        - { text: "Syrah and Viognier", correct: false }
+        - { text: "Pinot Noir and Chardonnay", correct: true }
+        - { text: "Cabernet Sauvignon and Sémillon", correct: false }
+        - { text: "Only Riesling", correct: false }
+      explanation: |
+        The two stars. **Bourgogne Aligoté** is a separate label; César
+        and others are footnotes.
+
+  - id: burgundy-restricted-regional-001
+    type: mcq
+    deck: France::Burgundy
+    tags: [france, burgundy]
+    status: reviewed
+    source_id: c15-0092
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What sits between generic Bourgogne and a village AOC on the map?
+      choices:
+        - { text: "A 1855 first-growth rank", correct: false }
+        - { text: "Tighter regional names such as Hautes-Côtes, Côte Chalonnaise, Mâcon and Mâcon-Villages", correct: true }
+        - { text: "Only grand cru", correct: false }
+        - { text: "Only Champagne AOC", correct: false }
+      explanation: |
+        **Hautes-Côtes**, **Côte Chalonnaise**, **Mâcon** and
+        **Mâcon-Villages** are still regionals, not commune AOCs.
+
+  - id: burgundy-commune-rank-001
+    type: mcq
+    deck: France::Burgundy
+    tags: [france, burgundy]
+    status: reviewed
+    source_id: c15-0095
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What rank sits above Bourgogne / Mâcon / Hautes-Côtes on the Burgundy ladder?
+      choices:
+        - { text: "Vin de France only", correct: false }
+        - { text: "Commune (village) appellations", correct: true }
+        - { text: "A German Einzellage with no AOC", correct: false }
+        - { text: "Only icewine", correct: false }
+      explanation: |
+        **Village / commune**: Gevrey-Chambertin, Meursault, Chablis.
+        Premier and grand cru sit above that.
+
+  - id: burgundy-commune-examples-001
+    type: mcq
+    deck: France::Burgundy
+    tags: [france, burgundy]
+    status: reviewed
+    source_id: c15-0096
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which pair are commune AOCs, one in the Yonne and one on the Côte de Nuits?
+      choices:
+        - { text: "Pauillac and Pomerol", correct: false }
+        - { text: "Chablis and Gevrey-Chambertin", correct: true }
+        - { text: "Sauternes and Barsac only as regionals", correct: false }
+        - { text: "Only Bourgogne Rouge", correct: false }
+      explanation: |
+        **Chablis** (Yonne) and **Gevrey-Chambertin** (Nuits). Both can
+        also host premiers and — in these two cases — grands crus.
+
+  - id: burgundy-commune-share-001
+    type: mcq
+    deck: France::Burgundy
+    tags: [france, burgundy]
+    status: reviewed
+    source_id: c15-0097
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Is village Burgundy a sliver like grand cru, or a much bigger slice?
+      choices:
+        - { text: "Under 1%, like grand cru", correct: false }
+        - { text: "A much bigger slice — about a third", correct: true }
+        - { text: "Exactly 100%", correct: false }
+        - { text: "Village wine is illegal", correct: false }
+      explanation: |
+        **Around a third**. Regionals are the volume floor; grands crus
+        are a sliver. Do not memorise a census integer.
+
+  - id: burgundy-lieu-dit-001
+    type: mcq
+    deck: France::Burgundy
+    tags: [france, burgundy]
+    status: reviewed
+    source_id: c15-0098
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: When may a village Burgundy add a vineyard name that is not premier or grand cru?
+      choices:
+        - { text: "Never — only the commune word is legal", correct: false }
+        - { text: "When the wine is a single lieu-dit that is not a cru", correct: true }
+        - { text: "Only if it is Champagne", correct: false }
+        - { text: "Only on a Bordeaux label", correct: false }
+      explanation: |
+        A **lieu-dit** in smaller type. It is not a premier cru just
+        because a plot is named.
+
+  - id: burgundy-village-word-001
+    type: mcq
+    deck: France::Burgundy
+    tags: [france, burgundy]
+    status: reviewed
+    source_id: c15-0099
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Gevrey-Chambertin without a cru name is what rank of AOC, in everyday talk?
+      choices:
+        - { text: "AVA", correct: false }
+        - { text: "Village", correct: true }
+        - { text: "Einzellage", correct: false }
+        - { text: "DOCG", correct: false }
+      explanation: |
+        **Village** = commune AOC. Same rank, friendlier word.
+
+  - id: burgundy-above-village-001
+    type: mcq
+    deck: France::Burgundy
+    tags: [france, burgundy]
+    status: reviewed
+    source_id: c15-0100
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What two ranks sit above village on the Burgundy ladder?
+      choices:
+        - { text: "Cru Bourgeois and Exceptionnel", correct: false }
+        - { text: "Premier cru and grand cru", correct: true }
+        - { text: "IGP and Vin de France", correct: false }
+        - { text: "Only Eiswein", correct: false }
+      explanation: |
+        **Premier cru**, then **grand cru**. Pouilly-Fuissé now has
+        premiers crus (2020) — still no grand cru in the Mâconnais.
+
+
 
 
