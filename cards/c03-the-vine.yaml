@@ -1,5 +1,48 @@
 # yaml-language-server: $schema=../schema/cards.schema.json
 # source: C03 (import/inbox/c03-the-vine.yaml)
 # deck: The Vine
+# Also receives vine-breeding notes misfiled in inbox/c01-sat.yaml.
 
-cards: []
+cards:
+  - id: vine-crossing-define-001
+    type: mcq
+    deck: The Vine
+    tags: [vine, breeding]
+    status: reviewed
+    source_id: c01-0005
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What is a controlled cross (cross-fertilisation) in grape breeding?
+      choices:
+        - { text: "Grafting a fruiting vine onto a phylloxera-resistant rootstock", correct: false }
+        - { text: "Making a new variety by pollinating one vine with another under control", correct: true }
+        - { text: "A chance seedling that nobody planned", correct: false }
+        - { text: "Cloning a single mother vine by cuttings only", correct: false }
+      explanation: |
+        A **cross** is deliberate: pollen from vine A meets the flower of vine B,
+        a seed is grown on, and if it is worth keeping you have a **new variety**.
+        Grafting and cloning copy what already exists; they do not breed.
+
+  - id: vine-crossing-how-001
+    type: mcq
+    deck: The Vine
+    tags: [vine, breeding]
+    status: reviewed
+    source_id: c01-0006
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How does a planned grape cross actually produce a new variety?
+      choices:
+        - { text: "You splice two canes together and the graft is the new variety", correct: false }
+        - { text: "Pollen from one vine fertilises another; the seed is grown into a new plant", correct: true }
+        - { text: "You rinse cuttings in hormone and they change grape colour", correct: false }
+        - { text: "Two finished wines are blended in tank and refermented", correct: false }
+      explanation: |
+        The flower is pollinated, a **seeded berry** forms, and that seed is
+        planted. The seedling is genetically new — **Pinot × Gouais blanc** gave
+        Chardonnay, Gamay and a crowd of other Burgundian children. A graft is
+        still the same variety on a different root.

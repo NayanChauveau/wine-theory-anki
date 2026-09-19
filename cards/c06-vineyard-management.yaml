@@ -1,5 +1,133 @@
 # yaml-language-server: $schema=../schema/cards.schema.json
 # source: C06 (import/inbox/c06-vineyard-management.yaml)
 # deck: Vineyard Management
+# Also receives canopy/training notes misfiled in inbox/c01-sat.yaml.
 
-cards: []
+cards:
+  - id: vm-cordon-001
+    type: mcq
+    deck: Vineyard Management
+    tags: [vineyard, training]
+    status: reviewed
+    source_id: c01-0007
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What is the usual trade-off of cordon training?
+      choices:
+        - { text: "It forbids any tractor work but fills the vineyard in one season", correct: false }
+        - { text: "The permanent wood makes mechanisation easier, but the vine is slower to establish", correct: true }
+        - { text: "It is only legal for bush-trained Gamay", correct: false }
+        - { text: "It removes all permanent wood each winter", correct: false }
+      explanation: |
+        A **cordon** is a trained arm of old wood with spurs along it — neat rows
+        for a tractor. Growing that wood takes extra seasons compared with a
+        simple head or Guyot cane. It is the opposite of replacing all wood
+        every year.
+
+  - id: vm-summer-pruning-001
+    type: mcq
+    deck: Vineyard Management
+    tags: [vineyard, canopy]
+    status: reviewed
+    source_id: c01-0008
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What is summer pruning mainly for?
+      choices:
+        - { text: "Leaving the vine untrimmed so it makes as much leaf as possible", correct: false }
+        - { text: "Trimming the canopy — and sometimes leaves — so sugar and light go to the fruit", correct: true }
+        - { text: "Pulling the vine out and replanting in July", correct: false }
+        - { text: "Only winter spur-cutting, never in the growing season", correct: false }
+      explanation: |
+        **Hedging** and **leaf removal** in summer cap shoot growth and open the
+        bunches. The point is ripe, healthy fruit, not a jungle of laterals
+        stealing sugar.
+
+  - id: vm-canopy-reasons-001
+    type: mcq
+    deck: Vineyard Management
+    tags: [vineyard, canopy]
+    status: reviewed
+    source_id: c01-0009
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Why manage a vine canopy at all?
+      choices:
+        - { text: "Only to make the rows look ornamental from the road", correct: false }
+        - { text: "To meter sunlight, keep air moving, and let machines through", correct: true }
+        - { text: "To force every vine into a bush shape", correct: false }
+        - { text: "To stop photosynthesis completely before véraison", correct: false }
+      explanation: |
+        A well-opened canopy **ripens** fruit, **dries** after rain (less rot)
+        and leaves a tractor alley. Those three jobs travel together; décor is
+        not the aim.
+
+  - id: vm-trellis-mechanisation-001
+    type: mcq
+    deck: Vineyard Management
+    tags: [vineyard, trellis]
+    status: reviewed
+    source_id: c01-0010
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How does a trellis help a machine work the row?
+      choices:
+        - { text: "It buries the fruit under a hedge of laterals", correct: false }
+        - { text: "It holds leaves and bunches in a predictable curtain, apart from each other", correct: true }
+        - { text: "It removes the need for any posts or wires", correct: false }
+        - { text: "It forces every estate onto gobelet", correct: false }
+      explanation: |
+        Wires put **foliage in one plane** and **fruit in a zone** a harvester
+        or leaf-plucker can find. A free bush hides bunches; a trellis shows
+        them.
+
+  - id: vm-vsp-vs-bush-001
+    type: mcq
+    deck: Vineyard Management
+    tags: [vineyard, training]
+    status: reviewed
+    source_id: c01-0011
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Why might a grower pick a vertical shoot-positioned trellis over a bush vine?
+      choices:
+        - { text: "Bush vines are always easier for a grape harvester", correct: false }
+        - { text: "Adapted VSP lets tractors trim, spray and sometimes pick", correct: true }
+        - { text: "VSP is banned wherever it is hot", correct: false }
+        - { text: "Bush vines cannot ripen fruit at all", correct: false }
+      explanation: |
+        **VSP** stands the shoots up on wires — a machine-friendly wall. **Bush /
+        gobelet** (Beaujolais, southern France, Barossa old vines) is cheap and
+        shade-giving but awkward for a tractor. Mechanisation is the usual reason
+        to switch.
+
+  - id: vm-green-harvest-timing-001
+    type: mcq
+    deck: Vineyard Management
+    tags: [vineyard, yield]
+    status: reviewed
+    source_id: c01-0012
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Why must a green harvest be timed carefully?
+      choices:
+        - { text: "Vines never react; you can drop fruit any week", correct: false }
+        - { text: "Drop fruit too early and the vine fattens the berries that remain, diluting flavour", correct: true }
+        - { text: "Green harvest is only legal at night in November", correct: false }
+        - { text: "The vine dies if any cluster is removed", correct: false }
+      explanation: |
+        Drop bunches **too soon** and the vine **compensates**: remaining berries
+        swell, yield creeps back and flavour thins. Later thinning, after the
+        vine has set berry size, is the usual safer window.
