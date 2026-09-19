@@ -2,4 +2,987 @@
 # source: C18 (import/inbox/c18-loire.yaml)
 # deck: France::Loire
 
-cards: []
+cards:
+  - id: loire-subregions-001
+    type: mcq
+    deck: France::Loire
+    tags: [france, loire]
+    status: reviewed
+    source_id: c18-0001
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Reading the Loire from the centre of France toward the Atlantic, which order is right?
+      choices:
+        - { text: "Nantais, then Anjou-Saumur, then Touraine, then the Central Vineyards", correct: false }
+        - { text: "Central Vineyards, then Touraine, then Anjou-Saumur, then the Nantais", correct: true }
+        - { text: "Bordeaux, then Cognac, then Muscadet", correct: false }
+        - { text: "Only Sancerre, with no other strips", correct: false }
+      explanation: |
+        **East to west: Central Vineyards → Touraine → Anjou-Saumur →
+        Nantais.** Sancerre sits inland; Muscadet sits by the ocean.
+
+  - id: loire-no-generic-aoc-001
+    type: mcq
+    deck: France::Loire
+    tags: [france, loire]
+    status: reviewed
+    source_id: c18-0002
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Is there one AOC that covers every still Loire wine?
+      choices:
+        - { text: "Yes — AOC Loire, like AOC Bordeaux", correct: false }
+        - { text: "No — the valley has no single generic still AOC", correct: true }
+        - { text: "Yes — AOC Pays d’Oc", correct: false }
+        - { text: "Yes — only Crémant de Loire covers still wine", correct: false }
+      explanation: |
+        **No generic still AOC.** Bottles wear local names (Sancerre,
+        Vouvray, Muscadet…). The valley-wide label is an **IGP**, not an AOC.
+
+  - id: loire-igp-001
+    type: mcq
+    deck: France::Loire
+    tags: [france, loire]
+    status: reviewed
+    source_id: c18-0003
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which IGP name spans the Loire valley?
+      choices:
+        - { text: "Pays d’Oc", correct: false }
+        - { text: "Val de Loire", correct: true }
+        - { text: "Côtes de Gascogne", correct: false }
+        - { text: "Vin de France is the only option", correct: false }
+      explanation: |
+        **Val de Loire** is the catch-all IGP when fruit or style misses an
+        AOC.
+
+  - id: loire-igp-style-001
+    type: mcq
+    deck: France::Loire
+    tags: [france, loire]
+    status: reviewed
+    source_id: c18-0004
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What should you expect from a typical Val de Loire IGP bottle?
+      choices:
+        - { text: "Grand-cru weight, high oak, and dessert sweetness", correct: false }
+        - { text: "Straightforward wine — fresh, light, simple fruit", correct: true }
+        - { text: "A 20-year Savennières shape", correct: false }
+        - { text: "Fortified, like Port", correct: false }
+      explanation: |
+        **Fresh, light, simple fruit.** It is the everyday Loire, not Clos
+        de la Coulée de Serrant.
+
+  - id: loire-climate-001
+    type: mcq
+    deck: France::Loire
+    tags: [france, loire, climate]
+    status: reviewed
+    source_id: c18-0005
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How does Loire climate change from Muscadet country to Sancerre?
+      choices:
+        - { text: "Hot Mediterranean all the way", correct: false }
+        - { text: "Cool overall — maritime in the Nantais, more continental inland", correct: true }
+        - { text: "Desert-dry everywhere", correct: false }
+        - { text: "Alpine only, above the treeline", correct: false }
+      explanation: |
+        **Cool.** The **Nantais** feels the Atlantic; **Sancerre** is farther
+        inland and more continental. That is why vintage swings hurt.
+
+  - id: loire-anjou-climate-001
+    type: mcq
+    deck: France::Loire
+    tags: [france, loire, climate]
+    status: reviewed
+    source_id: c18-0006
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Why is Anjou a touch warmer and drier than its Atlantic neighbours?
+      choices:
+        - { text: "The Alps block every cloud", correct: false }
+        - { text: "The Mauges hills give some shelter, and stony soils throw heat", correct: true }
+        - { text: "A legal ban on rain", correct: false }
+        - { text: "It sits in the Nantais fog belt", correct: false }
+      explanation: |
+        **Mauges shelter + stony soils.** Anjou is still cool Loire, just
+        less raw than Muscadet country.
+
+  - id: loire-touraine-climate-001
+    type: mcq
+    deck: France::Loire
+    tags: [france, loire, climate]
+    status: reviewed
+    source_id: c18-0007
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How does Touraine’s weather sit next to Anjou’s?
+      choices:
+        - { text: "Hotter and drier, like the southern Rhône", correct: false }
+        - { text: "Wetter and cooler", correct: true }
+        - { text: "Identical, by AOC law", correct: false }
+        - { text: "Touraine has no rain", correct: false }
+      explanation: |
+        **Wetter and cooler than Anjou**, and clay is common (Vouvray).
+        Tuffeau and sand still appear — clay is not the only rock.
+
+  - id: loire-vintage-001
+    type: mcq
+    deck: France::Loire
+    tags: [france, loire, climate]
+    status: reviewed
+    source_id: c18-0008
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Why can two Vouvrays from neighbouring years drink so differently?
+      choices:
+        - { text: "The weather is identical every year", correct: false }
+        - { text: "The weather swings hard from year to year", correct: true }
+        - { text: "INAO changes the AOC name annually", correct: false }
+        - { text: "Vintage dating is illegal", correct: false }
+      explanation: |
+        **Wild year-to-year weather** — frost, rain, hail, a cool September.
+        A 2018 Vouvray and a 2021 Vouvray are not the same homework.
+
+  - id: loire-fungal-001
+    type: mcq
+    deck: France::Loire
+    tags: [france, loire, climate]
+    status: reviewed
+    source_id: c18-0009
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which vineyard problem follows Loire rain most often?
+      choices:
+        - { text: "Drought only, like Colmar", correct: false }
+        - { text: "Fungal disease", correct: true }
+        - { text: "A legal ban on spraying", correct: false }
+        - { text: "Salt burn from the Mediterranean", correct: false }
+      explanation: |
+        **Fungal disease** in wet vintages — mildew and rot on tight Chenin
+        and Melon bunches. Organic farming here is a wet-year gamble.
+
+  - id: loire-best-sites-001
+    type: mcq
+    deck: France::Loire
+    tags: [france, loire]
+    status: reviewed
+    source_id: c18-0010
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Where do the Loire’s best vineyards usually sit?
+      choices:
+        - { text: "North-facing valley floors, away from any water", correct: false }
+        - { text: "South-facing mid-slopes, often above the river for bounce-back light and heat", correct: true }
+        - { text: "Only west-facing Vosges summits", correct: false }
+        - { text: "Indoor greenhouses", correct: false }
+      explanation: |
+        **South-facing, mid-slope, often facing the river.** Reflected light
+        and heat matter in a cool climate — think **Monts Damnés** above
+        the Loire, not a frost pocket.
+
+  - id: loire-main-grapes-001
+    type: mcq
+    deck: France::Loire
+    tags: [france, loire, grapes]
+    status: reviewed
+    source_id: c18-0012
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which four grapes carry most of the Loire map?
+      choices:
+        - { text: "Chardonnay, Pinot Noir, Syrah, Grenache", correct: false }
+        - { text: "Sauvignon Blanc, Chenin Blanc, Melon, Cabernet Franc", correct: true }
+        - { text: "Riesling, Gewurztraminer, Pinot Gris, Muscat", correct: false }
+        - { text: "Only Cabernet Sauvignon", correct: false }
+      explanation: |
+        **Sauvignon Blanc, Chenin Blanc, Melon, Cabernet Franc.** Pinot Noir
+        (Sancerre rouge) and Gamay exist; those four still carry the map.
+
+  - id: loire-sb-where-001
+    type: mcq
+    deck: France::Loire
+    tags: [france, loire, grapes]
+    status: reviewed
+    source_id: c18-0013
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which two Loire strips are Sauvignon Blanc’s home turf?
+      choices:
+        - { text: "Only the Nantais, for Muscadet", correct: false }
+        - { text: "The Central Vineyards and Touraine", correct: true }
+        - { text: "Only Bordeaux, by law", correct: false }
+        - { text: "Savennières alone", correct: false }
+      explanation: |
+        **Central Vineyards and Touraine** — Sancerre / Pouilly-Fumé for
+        fame, Touraine for volume. Melon owns the Nantais.
+
+  - id: loire-central-size-001
+    type: mcq
+    deck: France::Loire
+    tags: [france, loire]
+    status: reviewed
+    source_id: c18-0014
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which Loire strip is the small, famous eastern pocket rather than a sea of vines?
+      choices:
+        - { text: "Touraine", correct: false }
+        - { text: "The Central Vineyards", correct: true }
+        - { text: "Anjou-Saumur", correct: false }
+        - { text: "The Nantais", correct: false }
+      explanation: |
+        The **Central Vineyards** are the small, famous eastern pocket —
+        not the Touraine or Muscadet sea of vines.
+
+  - id: loire-central-aocs-001
+    type: mcq
+    deck: France::Loire
+    tags: [france, loire]
+    status: reviewed
+    source_id: c18-0015
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which pair of Central Vineyard AOCs sit opposite each other on the Loire?
+      choices:
+        - { text: "Vouvray and Savennières", correct: false }
+        - { text: "Sancerre and Pouilly-Fumé", correct: true }
+        - { text: "Muscadet Sèvre-et-Maine and Coteaux du Layon", correct: false }
+        - { text: "Chinon and Bourgueil", correct: false }
+      explanation: |
+        **Sancerre** and **Pouilly-Fumé**. Menetou-Salon, Quincy, Reuilly
+        and Coteaux du Giennois sit in the same strip — they are not the
+        whole list.
+
+  - id: loire-sancerre-soil-001
+    type: mcq
+    deck: France::Loire
+    tags: [france, loire, soil]
+    status: reviewed
+    source_id: c18-0016
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Under a Sancerre or Pouilly-Fumé vine, what is the ground usually like?
+      choices:
+        - { text: "Heavy fertile alluvium only", correct: false }
+        - { text: "Well-drained, stony limestone and related chalky ground, plus flint in places", correct: true }
+        - { text: "Only blue clay, like Pomerol", correct: false }
+        - { text: "Volcanic basalt only", correct: false }
+      explanation: |
+        **Well-drained, stony, chalky / limestone**, with **silex** (flint)
+        especially around Pouilly. “Just chalk” misses caillottes, terres
+        blanches and flint.
+
+  - id: loire-central-style-001
+    type: mcq
+    deck: France::Loire
+    tags: [france, loire]
+    status: reviewed
+    source_id: c18-0017
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What shape do Central Vineyard Sauvignons usually have?
+      choices:
+        - { text: "Oily, low acid, 14%, lychee", correct: false }
+        - { text: "Dry, high acid, green apple and wet stone, with a smoky hint more often from Pouilly-Fumé", correct: true }
+        - { text: "Sweet, low acid, and sparkling only", correct: false }
+        - { text: "Tannic red, like a Médoc", correct: false }
+      explanation: |
+        **Dry, high acid, green apple, wet stone.** Pouilly-Fumé more often
+        adds a **smoky / flinty** note (the “fumé”). Not every bottle.
+
+  - id: loire-chavignol-001
+    type: mcq
+    deck: France::Loire
+    tags: [france, loire]
+    status: reviewed
+    source_id: c18-0018
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which Sancerre village and slope are the usual named examples of a louder site?
+      choices:
+        - { text: "Chablis and Les Clos", correct: false }
+        - { text: "Chavignol and Les Monts Damnés", correct: true }
+        - { text: "Pomerol and Pétrus", correct: false }
+        - { text: "Riquewihr and Rangen", correct: false }
+      explanation: |
+        **Chavignol** and **Les Monts Damnés** — **Cotat**, **Vatan**,
+        **Boulay**. A named hill, not a generic Sancerre tank.
+
+  - id: loire-sancerre-age-001
+    type: mcq
+    deck: France::Loire
+    tags: [france, loire]
+    status: reviewed
+    source_id: c18-0019
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Are most Sancerre and Pouilly-Fumé bottles built for a decade in the cellar?
+      choices:
+        - { text: "Yes — every village wine must age 15 years", correct: false }
+        - { text: "No — the volume style is meant to drink young", correct: true }
+        - { text: "They are legally sold only after 20 years", correct: false }
+        - { text: "They cannot be vintage-dated", correct: false }
+      explanation: |
+        **Most are not cellar wines.** **Vatan** and **Dagueneau** can go
+        further; supermarket Sancerre is a two-to-four-year drink.
+
+  - id: loire-fresh-winemaking-001
+    type: mcq
+    deck: France::Loire
+    tags: [france, loire]
+    status: reviewed
+    source_id: c18-0020
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which cellar kit keeps everyday Loire Sauvignon tight and fruity?
+      choices:
+        - { text: "Heavy new-oak toast and a warm ferment", correct: false }
+        - { text: "Gentle pneumatic pressing and temperature-controlled stainless tanks", correct: true }
+        - { text: "Open-air oxidative vats only", correct: false }
+        - { text: "Fortification", correct: false }
+      explanation: |
+        **Gentle press + cool stainless.** That is the everyday Sancerre /
+        Touraine recipe. Oak and lees are a different, broader style.
+
+  - id: loire-broader-texture-001
+    type: mcq
+    deck: France::Loire
+    tags: [france, loire]
+    status: reviewed
+    source_id: c18-0021
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which two cellar choices fatten a Loire white without new-oak toast?
+      choices:
+        - { text: "Only by chaptalising to 15%", correct: false }
+        - { text: "Ferment and elevate in old oak, and keep the wine on lees", correct: true }
+        - { text: "By banning any lees contact", correct: false }
+        - { text: "By distilling the must", correct: false }
+      explanation: |
+        **Old oak + lees.** **Dagueneau** and some Sancerre growers use
+        that kit. It is not the stainless everyday tank.
+
+  - id: loire-new-oak-001
+    type: mcq
+    deck: France::Loire
+    tags: [france, loire]
+    status: reviewed
+    source_id: c18-0022
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Do Loire whites ever see new oak?
+      choices:
+        - { text: "Never — INAO bans any oak", correct: false }
+        - { text: "Yes, at some domaines, but it is not the house style of the valley", correct: true }
+        - { text: "Always, like a white Pessac recipe", correct: false }
+        - { text: "Only on Muscadet sur lie, by law", correct: false }
+      explanation: |
+        **Some producers, not the default.** New oak on Sauvignon is a
+        choice, not the regional signature.
+
+  - id: loire-mlf-001
+    type: mcq
+    deck: France::Loire
+    tags: [france, loire]
+    status: reviewed
+    source_id: c18-0023
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Is malolactic conversion automatic on Loire whites?
+      choices:
+        - { text: "Always, every tank, every year", correct: false }
+        - { text: "It depends on the vintage — cooler years, with higher acid, more often need it", correct: true }
+        - { text: "It is banned", correct: false }
+        - { text: "Only red wines may go through malo", correct: false }
+      explanation: |
+        **Vintage-dependent.** A cold year leaves fierce malic acid; some
+        growers let malo run. A warm year may block it to keep bite.
+
+  - id: loire-menetou-001
+    type: mcq
+    deck: France::Loire
+    tags: [france, loire]
+    status: reviewed
+    source_id: c18-0024
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which AOC is the main Sauvignon neighbour west and south of Sancerre?
+      choices:
+        - { text: "Muscadet Sèvre-et-Maine", correct: false }
+        - { text: "Menetou-Salon", correct: true }
+        - { text: "Côte-Rôtie", correct: false }
+        - { text: "Vouvray", correct: false }
+      explanation: |
+        **Menetou-Salon.** Quincy and Reuilly sit farther on the Cher;
+        Menetou is the first name after Sancerre.
+
+  - id: loire-menetou-grapes-001
+    type: mcq
+    deck: France::Loire
+    tags: [france, loire, grapes]
+    status: reviewed
+    source_id: c18-0025
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What grapes does Menetou-Salon actually allow?
+      choices:
+        - { text: "Chenin Blanc only", correct: false }
+        - { text: "Sauvignon Blanc for white, and Pinot Noir for red and rosé", correct: true }
+        - { text: "Melon only, like Muscadet", correct: false }
+        - { text: "Cabernet Sauvignon only", correct: false }
+      explanation: |
+        **Sauvignon Blanc** is the white. **Pinot Noir** is legal for red
+        and rosé — “Sauvignon only” is the incomplete line.
+
+  - id: loire-central-tributaries-001
+    type: mcq
+    deck: France::Loire
+    tags: [france, loire]
+    status: reviewed
+    source_id: c18-0026
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Where do Quincy and Reuilly sit relative to Sancerre?
+      choices:
+        - { text: "On the Atlantic beach at Saint-Nazaire", correct: false }
+        - { text: "On the Cher and other Loire tributaries, not on Pouilly’s main-river bank", correct: true }
+        - { text: "Only inside the walls of Orléans", correct: false }
+        - { text: "On the west face of the Vosges", correct: false }
+      explanation: |
+        **Quincy and Reuilly sit on tributaries** (the Cher). **Pouilly-Fumé**
+        is east of Sancerre on the Loire itself — do not pile it into the
+        tributary set.
+
+  - id: loire-menetou-style-001
+    type: mcq
+    deck: France::Loire
+    tags: [france, loire]
+    status: reviewed
+    source_id: c18-0027
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How does Menetou-Salon usually sit next to Sancerre and Pouilly-Fumé?
+      choices:
+        - { text: "Always sweeter and oaked, like Sauternes", correct: false }
+        - { text: "The same dry Sauvignon shape, often at a gentler price", correct: true }
+        - { text: "It is a red-only AOC", correct: false }
+        - { text: "It is sparkling only", correct: false }
+      explanation: |
+        **Same style, kinder price.** It is the understudy, not a different
+        grape family.
+
+  - id: loire-sb-volume-001
+    type: mcq
+    deck: France::Loire
+    tags: [france, loire, grapes]
+    status: reviewed
+    source_id: c18-0028
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which Loire strip grows the most Sauvignon Blanc by volume?
+      choices:
+        - { text: "The Nantais", correct: false }
+        - { text: "Touraine", correct: true }
+        - { text: "Only Pouilly-Fumé", correct: false }
+        - { text: "Savennières", correct: false }
+      explanation: |
+        **Touraine** fills the cases. Sancerre is fame, not the biggest
+        hectare count.
+
+  - id: loire-west-of-menetou-001
+    type: mcq
+    deck: France::Loire
+    tags: [france, loire]
+    status: reviewed
+    source_id: c18-0029
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which Loire region begins once you leave Menetou-Salon heading west?
+      choices:
+        - { text: "The Nantais", correct: false }
+        - { text: "Touraine", correct: true }
+        - { text: "Alsace", correct: false }
+        - { text: "The Médoc", correct: false }
+      explanation: |
+        **Touraine.** Sauvignon and Chenin both matter there; Cabernet
+        Franc is the red story (Chinon, Bourgueil).
+
+  - id: loire-touraine-aoc-001
+    type: mcq
+    deck: France::Loire
+    tags: [france, loire]
+    status: reviewed
+    source_id: c18-0030
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What is the catch-all AOC name for generic Touraine still wine?
+      choices:
+        - { text: "AOC Loire", correct: false }
+        - { text: "Touraine", correct: true }
+        - { text: "AOC Bordeaux Supérieur", correct: false }
+        - { text: "There is no Touraine AOC", correct: false }
+      explanation: |
+        **Touraine** is the regional AOC. Chinon, Vouvray and the rest are
+        tighter names inside the same strip.
+
+  - id: loire-touraine-label-001
+    type: mcq
+    deck: France::Loire
+    tags: [france, loire]
+    status: reviewed
+    source_id: c18-0031
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How is a generic Touraine Sauvignon often worded on the label?
+      choices:
+        - { text: "Only as Premier Cru Classé", correct: false }
+        - { text: "As a varietal, e.g. Sauvignon de Touraine", correct: true }
+        - { text: "Without any grape or place", correct: false }
+        - { text: "As Muscadet sur lie", correct: false }
+      explanation: |
+        **Sauvignon de Touraine** (or Touraine Sauvignon). The grape is
+        the selling word.
+
+  - id: loire-touraine-sb-style-001
+    type: mcq
+    deck: France::Loire
+    tags: [france, loire]
+    status: reviewed
+    source_id: c18-0032
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What is everyday Touraine Sauvignon usually like next to Sancerre?
+      choices:
+        - { text: "Richer, sweeter, and always oaked", correct: false }
+        - { text: "Simple, fruity, and often less concentrated", correct: true }
+        - { text: "Identical, by law", correct: false }
+        - { text: "Always a dessert wine", correct: false }
+      explanation: |
+        **Simpler, less concentrated** than Sancerre / Pouilly-Fumé. Fine
+        for a Tuesday; not Monts Damnés.
+
+  - id: loire-chenin-shape-001
+    type: mcq
+    deck: France::Loire
+    tags: [france, loire, grapes]
+    status: reviewed
+    source_id: c18-0033
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What two structural traits define Chenin Blanc before you name a flavour?
+      choices:
+        - { text: "Low acid and a loud Muscat perfume", correct: false }
+        - { text: "High acid and a non-aromatic profile", correct: true }
+        - { text: "Deep colour and grand-cru tannin", correct: false }
+        - { text: "Low acid and 8% alcohol only", correct: false }
+      explanation: |
+        **High acid, non-aromatic.** Flavour then follows ripeness — apple
+        to tropical — but the grape’s signature is that acid spine.
+
+  - id: loire-chenin-greatest-001
+    type: mcq
+    deck: France::Loire
+    tags: [france, loire, grapes]
+    status: reviewed
+    source_id: c18-0034
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which white grape makes the top still wines of Touraine and Anjou-Saumur?
+      choices:
+        - { text: "Melon", correct: false }
+        - { text: "Chenin Blanc", correct: true }
+        - { text: "Ugni Blanc", correct: false }
+        - { text: "Muscat Ottonel", correct: false }
+      explanation: |
+        **Chenin Blanc** — Vouvray, Montlouis, Savennières, Coteaux du
+        Layon. Cabernet Franc owns the serious reds, not the white peaks.
+
+  - id: loire-chenin-uneven-001
+    type: mcq
+    deck: France::Loire
+    tags: [france, loire, grapes]
+    status: reviewed
+    source_id: c18-0035
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What ripening quirk makes Chenin a picker‘s headache?
+      choices:
+        - { text: "Every berry on a bunch is always identical", correct: false }
+        - { text: "Berries on the same bunch can sit at different ripeness", correct: true }
+        - { text: "It never flowers", correct: false }
+        - { text: "It only ripens in January", correct: false }
+      explanation: |
+        **Uneven ripeness on one bunch.** That is why serious domaines walk
+        the same row more than once.
+
+  - id: loire-chenin-green-001
+    type: mcq
+    deck: France::Loire
+    tags: [france, loire, grapes]
+    status: reviewed
+    source_id: c18-0036
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What happens if Chenin is picked in one hurried pass?
+      choices:
+        - { text: "It always turns into SGN", correct: false }
+        - { text: "Green, herbaceous notes from the unripe berries", correct: true }
+        - { text: "The acid disappears", correct: false }
+        - { text: "The wine must be red", correct: false }
+      explanation: |
+        **Green, herbaceous aromas** from the hard berries mixed in.
+        Multiple passes are the fix, not a flavour additive.
+
+  - id: loire-chenin-tries-001
+    type: mcq
+    deck: France::Loire
+    tags: [france, loire, grapes]
+    status: reviewed
+    source_id: c18-0037
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How do Loire growers handle Chenin’s uneven ripeness?
+      choices:
+        - { text: "One machine pass on a set calendar day", correct: false }
+        - { text: "Several passes, picking only the berries they want that day", correct: true }
+        - { text: "By banning harvest", correct: false }
+        - { text: "By waiting until January icewine only", correct: false }
+      explanation: |
+        **Several tries / tries successives.** **Huet** at Vouvray is the
+        named slow pick. One pass makes the green tank.
+
+  - id: loire-chenin-styles-001
+    type: mcq
+    deck: France::Loire
+    tags: [france, loire, grapes]
+    status: reviewed
+    source_id: c18-0038
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which style range can Loire Chenin cover?
+      choices:
+        - { text: "Dry red only", correct: false }
+        - { text: "Dry to sweet, still or sparkling", correct: true }
+        - { text: "Fortified only, like Port", correct: false }
+        - { text: "Icewine only, every year", correct: false }
+      explanation: |
+        **Dry, sweet, still, sparkling.** Same grape, **Vouvray** to
+        **Coteaux du Layon** to **Saumur** bubbles.
+
+  - id: loire-chenin-style-gate-001
+    type: mcq
+    deck: France::Loire
+    tags: [france, loire, grapes]
+    status: reviewed
+    source_id: c18-0039
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What mainly decides whether a Loire Chenin is sparkling, dry, or sweet?
+      choices:
+        - { text: "The barrel toast level only", correct: false }
+        - { text: "How ripe the grapes were at pick", correct: true }
+        - { text: "A legal colour chart", correct: false }
+        - { text: "Whether it is bottled in Germany", correct: false }
+      explanation: |
+        **Ripeness at harvest.** Barely ripe → bubbles; ripe → dry still;
+        shrivelled / botrytised → sweet.
+
+  - id: loire-chenin-sparkling-001
+    type: mcq
+    deck: France::Loire
+    tags: [france, loire, grapes]
+    status: reviewed
+    source_id: c18-0040
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: When Loire Chenin is only just ripe, what style is it usually destined for?
+      choices:
+        - { text: "Luscious Coteaux du Layon", correct: false }
+        - { text: "Sparkling wine", correct: true }
+        - { text: "Vin jaune", correct: false }
+        - { text: "Fortified red", correct: false }
+      explanation: |
+        **Sparkling** — **Vouvray** and **Saumur / Crémant de Loire** need
+        that high acid, modest sugar.
+
+  - id: loire-chenin-ripest-001
+    type: mcq
+    deck: France::Loire
+    tags: [france, loire, grapes]
+    status: reviewed
+    source_id: c18-0041
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How far can Loire Chenin go at the ripe end of the pick?
+      choices:
+        - { text: "It is always picked green, by law", correct: false }
+        - { text: "Sun-shrivelled berries, or berries with noble rot", correct: true }
+        - { text: "Only icewine, every October", correct: false }
+        - { text: "It never reaches 11% potential", correct: false }
+      explanation: |
+        **Passerillage or noble rot** — **Quarts de Chaume**, **Bonnezeaux**,
+        late **Vouvray**. That is the sweet end, not everyday sec.
+
+  - id: loire-chenin-riper-trend-001
+    type: mcq
+    deck: France::Loire
+    tags: [france, loire, grapes]
+    status: reviewed
+    source_id: c18-0042
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How have many Loire domaines changed the Chenin pick in recent vintages?
+      choices:
+        - { text: "They pick greener every year, by fashion", correct: false }
+        - { text: "They chase more ripeness, even for dry cuvées", correct: true }
+        - { text: "They abandoned Chenin for Ugni Blanc", correct: false }
+        - { text: "Harvest is now illegal", correct: false }
+      explanation: |
+        **Riper picks, including dry wines.** Warmer years and taste both
+        push that way. Acid still holds.
+
+  - id: loire-chenin-alcohol-001
+    type: mcq
+    deck: France::Loire
+    tags: [france, loire, grapes]
+    status: reviewed
+    source_id: c18-0043
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What number on the label has risen as Loire domaines pick Chenin riper, including for dry cuvées?
+      choices:
+        - { text: "The residual-sugar legal maximum, which fell", correct: false }
+        - { text: "Alcohol", correct: true }
+        - { text: "The AOC hectare count, which is printed on every bottle", correct: false }
+        - { text: "Nothing — alcohol is capped at 9%", correct: false }
+      explanation: |
+        **Higher alcohol.** A modern dry Savennières or Vouvray sec can
+        sit well above the old 12% habit.
+
+  - id: loire-chenin-young-001
+    type: mcq
+    deck: France::Loire
+    tags: [france, loire, grapes]
+    status: reviewed
+    source_id: c18-0044
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What fruit does young Loire Chenin show, depending on ripeness?
+      choices:
+        - { text: "Only cassis and cedar", correct: false }
+        - { text: "Fresh apple when leaner, tropical fruit when riper", correct: true }
+        - { text: "Peat and iodine only", correct: false }
+        - { text: "No fruit, by law", correct: false }
+      explanation: |
+        **Apple → tropical** as the pick gets riper. The acid stays; the
+        fruit register moves.
+
+  - id: loire-chenin-dry-001
+    type: mcq
+    deck: France::Loire
+    tags: [france, loire, grapes]
+    status: reviewed
+    source_id: c18-0045
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Besides fruit, what extra line can dry Loire Chenin show?
+      choices:
+        - { text: "Lychee and roses, like Gewurztraminer", correct: false }
+        - { text: "A steely, smoky character", correct: true }
+        - { text: "Grand-cru tannin", correct: false }
+        - { text: "Butterscotch from mandatory new oak", correct: false }
+      explanation: |
+        **Steely / smoky** on dry wines — **Savennières** is the loud
+        version. Not a Muscat perfume.
+
+  - id: loire-chenin-sweet-001
+    type: mcq
+    deck: France::Loire
+    tags: [france, loire, grapes]
+    status: reviewed
+    source_id: c18-0046
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What noble-rot marks show up on sweet Loire Chenin?
+      choices:
+        - { text: "Green bell pepper and tomato leaf", correct: false }
+        - { text: "Apricot and citrus peel", correct: true }
+        - { text: "Peat smoke only", correct: false }
+        - { text: "Cassis and cedar", correct: false }
+      explanation: |
+        **Apricot and citrus peel** — **Coteaux du Layon**, **Quarts de
+        Chaume**. That is botrytis, not a dry Vouvray apple.
+
+  - id: loire-chenin-age-001
+    type: mcq
+    deck: France::Loire
+    tags: [france, loire, grapes]
+    status: reviewed
+    source_id: c18-0047
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How long can the best dry and sweet Loire Chenins last in bottle?
+      choices:
+        - { text: "One year, by law", correct: false }
+        - { text: "Decades", correct: true }
+        - { text: "Only the sparkling, and only six months", correct: false }
+        - { text: "Ageing is banned", correct: false }
+      explanation: |
+        **Decades.** **Huet**, **Joly**, old **Moulin Touchais** — the
+        acid is the preservative.
+
+  - id: loire-chenin-aged-001
+    type: mcq
+    deck: France::Loire
+    tags: [france, loire, grapes]
+    status: reviewed
+    source_id: c18-0048
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What happens to Loire Chenin after a long time in bottle?
+      choices:
+        - { text: "It loses all acid and tastes like water", correct: false }
+        - { text: "It gets richer and rounder — honey, toast, hay — and keeps high acid", correct: true }
+        - { text: "It turns red", correct: false }
+        - { text: "It must be recorked every six months or it dies", correct: false }
+      explanation: |
+        **Richer, rounder; honey, toast, hay; acid still high.** That is
+        the aged Chenin signature, dry or sweet.
+
+  - id: loire-chenin-site-001
+    type: mcq
+    deck: France::Loire
+    tags: [france, loire, grapes]
+    status: reviewed
+    source_id: c18-0049
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Why does Chenin taste so different from Vouvray to Savennières?
+      choices:
+        - { text: "A different grape is required in each AOC", correct: false }
+        - { text: "Soil and climate both steer the wine", correct: true }
+        - { text: "INAO assigns a flavour by lottery", correct: false }
+        - { text: "All Chenin is legally identical", correct: false }
+      explanation: |
+        **Soil and climate.** Cool clay Vouvray vs warmer, windy schist
+        **Savennières** is not a clone change — it is the site.
+
+  - id: loire-vouvray-where-001
+    type: mcq
+    deck: France::Loire
+    tags: [france, loire]
+    status: reviewed
+    source_id: c18-0050
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Just east of which Touraine city does Vouvray sit?
+      choices:
+        - { text: "Nantes", correct: false }
+        - { text: "Tours", correct: true }
+        - { text: "Lyon", correct: false }
+        - { text: "Angers", correct: false }
+      explanation: |
+        **Tours**, on the Touraine bank. Montlouis faces it. Savennières
+        is farther west, in Anjou.
