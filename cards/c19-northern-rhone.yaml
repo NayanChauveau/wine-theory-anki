@@ -2,4 +2,986 @@
 # source: C19 (import/inbox/c19-northern-rhone.yaml)
 # deck: France::Northern Rhône
 
-cards: []
+cards:
+  - id: nrhone-valley-001
+    type: mcq
+    deck: France::Northern Rhône
+    tags: [france, northern-rhone]
+    status: reviewed
+    source_id: c19-0001
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How is the Northern Rhône valley shaped?
+      choices:
+        - { text: "A wide, flat alluvial plain far from any river", correct: false }
+        - { text: "Narrow and steep", correct: true }
+        - { text: "A high alpine plateau above the treeline", correct: false }
+        - { text: "A Mediterranean lagoon, like the Camargue", correct: false }
+      explanation: |
+        **Narrow, steep, vines by the river.** Côte-Rôtie and Hermitage
+        hang off the bank; this is not the broad southern plain.
+
+  - id: nrhone-best-aspect-001
+    type: mcq
+    deck: France::Northern Rhône
+    tags: [france, northern-rhone]
+    status: reviewed
+    source_id: c19-0002
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which sites usually make the best Northern Rhône wine?
+      choices:
+        - { text: "North-facing valley floors", correct: false }
+        - { text: "Steep slopes that face south", correct: true }
+        - { text: "Only west-facing Vosges summits", correct: false }
+        - { text: "Indoor greenhouses", correct: false }
+      explanation: |
+        **Steep, south-facing slopes** — **Hermitage** behind Tain, the
+        **Côte Brune / Blonde** at Ampuis. Syrah needs that sun.
+
+  - id: nrhone-lateral-001
+    type: mcq
+    deck: France::Northern Rhône
+    tags: [france, northern-rhone]
+    status: reviewed
+    source_id: c19-0003
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Where, relative to the main river, do many top Northern Rhône vineyards sit?
+      choices:
+        - { text: "Only on the Mediterranean coast", correct: false }
+        - { text: "In the side valleys that feed the Rhône", correct: true }
+        - { text: "Only inside Lyon’s walls", correct: false }
+        - { text: "On the west face of the Vosges", correct: false }
+      explanation: |
+        **Lateral valleys** off the main trench. Those folds hide vines
+        from the worst of the north wind.
+
+  - id: nrhone-wind-shelter-001
+    type: mcq
+    deck: France::Northern Rhône
+    tags: [france, northern-rhone]
+    status: reviewed
+    source_id: c19-0004
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What do the side valleys do for Northern Rhône vines?
+      choices:
+        - { text: "They funnel more frost onto every row", correct: false }
+        - { text: "They shelter the vines from the cold north wind", correct: true }
+        - { text: "They make irrigation illegal", correct: false }
+        - { text: "They force a legal white-only AOC", correct: false }
+      explanation: |
+        **Shelter from the cold northerly wind.** The mistral still
+        blows; the side valley just takes the edge off.
+
+  - id: nrhone-mistral-name-001
+    type: mcq
+    deck: France::Northern Rhône
+    tags: [france, northern-rhone, climate]
+    status: reviewed
+    source_id: c19-0005
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What is the cold north wind that funnels down the Rhône called?
+      choices:
+        - { text: "The foehn", correct: false }
+        - { text: "The mistral", correct: true }
+        - { text: "The zonda", correct: false }
+        - { text: "The sirocco", correct: false }
+      explanation: |
+        **The mistral** — cold, dry, violent. It dries rot and can snap
+        shoots.
+
+  - id: nrhone-mistral-threat-001
+    type: mcq
+    deck: France::Northern Rhône
+    tags: [france, northern-rhone, climate]
+    status: reviewed
+    source_id: c19-0006
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Why do growers still treat the mistral as a vineyard threat?
+      choices:
+        - { text: "It only brings warm rain", correct: false }
+        - { text: "It can break canes and damage the vines", correct: true }
+        - { text: "It is banned by INAO", correct: false }
+        - { text: "It never reaches Ampuis", correct: false }
+      explanation: |
+        **It can damage the vines** — snapped shoots, shredded leaves.
+        The same wind also dries the fruit after rain.
+
+  - id: nrhone-stakes-001
+    type: mcq
+    deck: France::Northern Rhône
+    tags: [france, northern-rhone]
+    status: reviewed
+    source_id: c19-0007
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How are Northern Rhône vines usually held up against the mistral?
+      choices:
+        - { text: "Ungrafted bush vines with no support, by law", correct: false }
+        - { text: "On individual stakes, or a tepee of stakes", correct: true }
+        - { text: "Only high Pergola systems", correct: false }
+        - { text: "They are never trained", correct: false }
+      explanation: |
+        **Single stakes or a tepee (échalas).** Classic Côte-Rôtie /
+        Hermitage kit. A wire trellis would catch more wind.
+
+  - id: nrhone-climate-001
+    type: mcq
+    deck: France::Northern Rhône
+    tags: [france, northern-rhone, climate]
+    status: reviewed
+    source_id: c19-0008
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which climate description fits the Northern Rhône?
+      choices:
+        - { text: "Cool maritime, like Muscadet", correct: false }
+        - { text: "Moderate continental", correct: true }
+        - { text: "Hot desert, like the Atacama", correct: false }
+        - { text: "High alpine only", correct: false }
+      explanation: |
+        **Moderate continental**, kin to Beaujolais. **Châteauneuf**
+        country farther south is a warmer, more Mediterranean story.
+
+  - id: nrhone-syrah-only-001
+    type: mcq
+    deck: France::Northern Rhône
+    tags: [france, northern-rhone, grapes]
+    status: reviewed
+    source_id: c19-0010
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which is the only black grape the Northern Rhône crus allow?
+      choices:
+        - { text: "Grenache", correct: false }
+        - { text: "Syrah", correct: true }
+        - { text: "Mourvèdre", correct: false }
+        - { text: "Pinot Noir", correct: false }
+      explanation: |
+        **Syrah only.** Whites can join some reds (Viognier at
+        Côte-Rôtie); no Grenache corridor.
+
+  - id: nrhone-syrah-limit-001
+    type: mcq
+    deck: France::Northern Rhône
+    tags: [france, northern-rhone, grapes]
+    status: reviewed
+    source_id: c19-0011
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which Rhône grape is hanging on at the northern edge of where it still ripens?
+      choices:
+        - { text: "Grenache", correct: false }
+        - { text: "Syrah", correct: true }
+        - { text: "Mourvèdre", correct: false }
+        - { text: "Muscat of Alexandria", correct: false }
+      explanation: |
+        **Syrah.** Côte-Rôtie is about as far north as it reliably
+        finishes. That is why aspect and the roasted slope matter.
+
+  - id: nrhone-syrah-profile-001
+    type: mcq
+    deck: France::Northern Rhône
+    tags: [france, northern-rhone, grapes]
+    status: reviewed
+    source_id: c19-0012
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What shape do Northern Rhône Syrahs usually have?
+      choices:
+        - { text: "Pale, low tannin, and always sweet", correct: false }
+        - { text: "Deep colour, medium to high tannin, black fruit, sometimes black pepper or flowers", correct: true }
+        - { text: "Oily, low acid, lychee", correct: false }
+        - { text: "Light Gamay, for chilling", correct: false }
+      explanation: |
+        **Deep, medium–high tannin, black fruit, pepper or floral.**
+        **Guigal** and **Jaboulet** sit in that family. Not southern GSM
+        warmth.
+
+  - id: nrhone-syrah-oak-001
+    type: mcq
+    deck: France::Northern Rhône
+    tags: [france, northern-rhone]
+    status: reviewed
+    source_id: c19-0013
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Who decides how much new oak a Northern Rhône Syrah sees?
+      choices:
+        - { text: "INAO — 100% new barrique is mandatory", correct: false }
+        - { text: "The winemaker", correct: true }
+        - { text: "Oak is banned", correct: false }
+        - { text: "Only white wines may see oak", correct: false }
+      explanation: |
+        **The winemaker.** **Guigal La-Las** see plenty of new oak;
+        others stay in older foudres. Not a single house style.
+
+  - id: nrhone-coferment-001
+    type: mcq
+    deck: France::Northern Rhône
+    tags: [france, northern-rhone]
+    status: reviewed
+    source_id: c19-0014
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: In which Northern Rhône cru is Syrah still often fermented with Viognier?
+      choices:
+        - { text: "Nowhere — it is banned in every cru", correct: false }
+        - { text: "Côte-Rôtie", correct: true }
+        - { text: "Only in Champagne", correct: false }
+        - { text: "Only on Muscadet", correct: false }
+      explanation: |
+        **Côte-Rôtie.** Hermitage and Saint-Joseph do it far less.
+
+  - id: nrhone-white-in-red-001
+    type: mcq
+    deck: France::Northern Rhône
+    tags: [france, northern-rhone]
+    status: reviewed
+    source_id: c19-0015
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What is the main reason Côte-Rôtie growers ferment Viognier with Syrah?
+      choices:
+        - { text: "To turn the wine rosé by law", correct: false }
+        - { text: "Aromatic lift", correct: true }
+        - { text: "To strip all tannin", correct: false }
+        - { text: "White grapes are illegal in every red", correct: false }
+      explanation: |
+        **Aromatic lift.** Colour-stability talk is extra. **Guigal**
+        Côte-Rôtie is the named floral example.
+
+  - id: nrhone-viognier-profile-001
+    type: mcq
+    deck: France::Northern Rhône
+    tags: [france, northern-rhone, grapes]
+    status: reviewed
+    source_id: c19-0016
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What does Northern Rhône Viognier usually taste like?
+      choices:
+        - { text: "Light, high acid, 11%, green apple", correct: false }
+        - { text: "Full, low acid, high alcohol, blossom and apricot / stone fruit", correct: true }
+        - { text: "Tannic red, like Hermitage", correct: false }
+        - { text: "Steely and smoky, like Savennières", correct: false }
+      explanation: |
+        **Full, low acid, high alcohol, blossom and apricot.** That is
+        **Condrieu**. Not a Chablis frame.
+
+  - id: nrhone-viognier-ripe-001
+    type: mcq
+    deck: France::Northern Rhône
+    tags: [france, northern-rhone, grapes]
+    status: reviewed
+    source_id: c19-0017
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Why do growers hang Viognier so late that alcohol climbs and acid drops?
+      choices:
+        - { text: "It is picked green every year, by law", correct: false }
+        - { text: "The signature aromas only arrive late, when sugars are already high", correct: true }
+        - { text: "INAO forces chaptalisation to 16%", correct: false }
+        - { text: "It is a red grape", correct: false }
+      explanation: |
+        **Aromas come late**, so growers hang fruit into high sugar —
+        alcohol up, acid down. Pick earlier and you lose the apricot.
+
+  - id: nrhone-viognier-handle-001
+    type: mcq
+    deck: France::Northern Rhône
+    tags: [france, northern-rhone]
+    status: reviewed
+    source_id: c19-0018
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What cellar fault appears if Viognier is worked too hard?
+      choices:
+        - { text: "It never oxidises and can be beaten", correct: false }
+        - { text: "An oily weight that buries the fruit", correct: true }
+        - { text: "It must be boiled", correct: false }
+        - { text: "It is illegal to press", correct: false }
+      explanation: |
+        **Oily weight can smother the blossom.** Gentle press, careful
+        lees — **Vernay** Condrieu is the quiet handling story.
+
+  - id: nrhone-viognier-oak-001
+    type: mcq
+    deck: France::Northern Rhône
+    tags: [france, northern-rhone]
+    status: reviewed
+    source_id: c19-0019
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How is new oak used on Northern Rhône Viognier now?
+      choices:
+        - { text: "It is banned", correct: false }
+        - { text: "More domaines use it, but a heavy toast easily buries the fruit", correct: true }
+        - { text: "100% new oak is mandatory", correct: false }
+        - { text: "Only reds may see oak", correct: false }
+      explanation: |
+        **Increasing, and easy to overdo.** The fruit is already loud;
+        more toast is not always more Condrieu.
+
+  - id: nrhone-viognier-offdry-001
+    type: mcq
+    deck: France::Northern Rhône
+    tags: [france, northern-rhone]
+    status: reviewed
+    source_id: c19-0020
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Besides dry Condrieu, what other Viognier style appears?
+      choices:
+        - { text: "Sparkling red only", correct: false }
+        - { text: "Some off-dry wine from late-picked fruit", correct: true }
+        - { text: "Fortified, like Port", correct: false }
+        - { text: "Icewine every January", correct: false }
+      explanation: |
+        **Off-dry, late-harvest** lots exist. They are the minority next
+        to dry Condrieu.
+
+  - id: nrhone-other-whites-001
+    type: mcq
+    deck: France::Northern Rhône
+    tags: [france, northern-rhone, grapes]
+    status: reviewed
+    source_id: c19-0021
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Besides Viognier, which two whites grow in the Northern Rhône?
+      choices:
+        - { text: "Riesling and Gewurztraminer", correct: false }
+        - { text: "Marsanne and Roussanne", correct: true }
+        - { text: "Melon and Chenin", correct: false }
+        - { text: "Chardonnay only", correct: false }
+      explanation: |
+        **Marsanne and Roussanne** (two s, two n). Hermitage and
+        Saint-Joseph whites are that pair, not Condrieu’s Viognier.
+
+  - id: nrhone-mr-blend-001
+    type: mcq
+    deck: France::Northern Rhône
+    tags: [france, northern-rhone, grapes]
+    status: reviewed
+    source_id: c19-0022
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How are Marsanne and Roussanne usually bottled in the Northern Rhône?
+      choices:
+        - { text: "Only as 100% Viognier", correct: false }
+        - { text: "Blended with each other", correct: true }
+        - { text: "Only as sparkling red", correct: false }
+        - { text: "They are illegal to blend", correct: false }
+      explanation: |
+        **Usually blended.** Single-variety bottles exist; the house
+        default is the pair.
+
+  - id: nrhone-mr-roles-001
+    type: mcq
+    deck: France::Northern Rhône
+    tags: [france, northern-rhone, grapes]
+    status: reviewed
+    source_id: c19-0023
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What does each of Marsanne and Roussanne bring to a Northern Rhône white blend?
+      choices:
+        - { text: "Marsanne: acid and perfume; Roussanne: only colour", correct: false }
+        - { text: "Marsanne: richness and weight; Roussanne: acidity and perfumed fruit", correct: true }
+        - { text: "Both are neutral, like Ugni Blanc", correct: false }
+        - { text: "Neither may be used in white wine", correct: false }
+      explanation: |
+        **Marsanne = weight; Roussanne = acid and perfume.** That is why
+        the blend is more complete than either grape alone.
+
+  - id: nrhone-mr-age-001
+    type: mcq
+    deck: France::Northern Rhône
+    tags: [france, northern-rhone]
+    status: reviewed
+    source_id: c19-0024
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How do Marsanne–Roussanne whites usually compare with Viognier for perfume?
+      choices:
+        - { text: "Louder perfume than Condrieu", correct: false }
+        - { text: "Less aromatic than Viognier", correct: true }
+        - { text: "They have no perfume at all, by law", correct: false }
+        - { text: "They are red wines", correct: false }
+      explanation: |
+        **Less perfume than Viognier; better long-term, toward
+        hazelnut.** Old **Hermitage blanc** (Jaboulet, Chapoutier) is
+        the checkable bottle.
+
+  - id: nrhone-cdr-001
+    type: mcq
+    deck: France::Northern Rhône
+    tags: [france, northern-rhone]
+    status: reviewed
+    source_id: c19-0025
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which southern-sounding AOC can also be bottled from Northern Rhône fruit?
+      choices:
+        - { text: "Côtes de Provence", correct: false }
+        - { text: "Côtes du Rhône", correct: true }
+        - { text: "Cahors", correct: false }
+        - { text: "Muscadet", correct: false }
+      explanation: |
+        **Côtes du Rhône** is valley-wide. Northern fruit can wear it
+        when it misses a cru.
+
+  - id: nrhone-cru-system-001
+    type: mcq
+    deck: France::Northern Rhône
+    tags: [france, northern-rhone]
+    status: reviewed
+    source_id: c19-0026
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Where do most Northern Rhône bottles actually come from?
+      choices:
+        - { text: "Only IGP, with no crus", correct: false }
+        - { text: "One of the cru appellations", correct: true }
+        - { text: "Only Bordeaux châteaux", correct: false }
+        - { text: "Vin de France is the only name", correct: false }
+      explanation: |
+        **The crus** — Côte-Rôtie, Hermitage, Crozes, Saint-Joseph, and
+        the rest. Generic Côtes du Rhône is the leftover, not the
+        default.
+
+  - id: nrhone-crus-tiny-001
+    type: mcq
+    deck: France::Northern Rhône
+    tags: [france, northern-rhone]
+    status: reviewed
+    source_id: c19-0027
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How big are most Northern Rhône crus?
+      choices:
+        - { text: "The size of the Médoc", correct: false }
+        - { text: "Often tiny", correct: true }
+        - { text: "They cover half of France", correct: false }
+        - { text: "There are no crus", correct: false }
+      explanation: |
+        **Tiny** — **Château-Grillet**, **Cornas**, **Côte-Rôtie** are
+        postage stamps next to Crozes.
+
+  - id: nrhone-big-crus-001
+    type: mcq
+    deck: France::Northern Rhône
+    tags: [france, northern-rhone]
+    status: reviewed
+    source_id: c19-0028
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which two Northern Rhône crus actually cover serious hectare counts?
+      choices:
+        - { text: "Château-Grillet and Cornas", correct: false }
+        - { text: "Saint-Joseph and Crozes-Hermitage", correct: true }
+        - { text: "Côte-Rôtie and Hermitage only", correct: false }
+        - { text: "Condrieu and Château-Grillet", correct: false }
+      explanation: |
+        **Saint-Joseph** and **Crozes-Hermitage** are the big maps.
+        Hermitage itself is a small hill.
+
+  - id: nrhone-ampuis-001
+    type: mcq
+    deck: France::Northern Rhône
+    tags: [france, northern-rhone]
+    status: reviewed
+    source_id: c19-0029
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which town sits under Côte-Rôtie?
+      choices:
+        - { text: "Tain-l’Hermitage", correct: false }
+        - { text: "Ampuis", correct: true }
+        - { text: "Nantes", correct: false }
+        - { text: "Beaune", correct: false }
+      explanation: |
+        **Ampuis.** **Guigal**’s cellar is the postcard. Tain is
+        Hermitage.
+
+  - id: nrhone-cr-north-001
+    type: mcq
+    deck: France::Northern Rhône
+    tags: [france, northern-rhone]
+    status: reviewed
+    source_id: c19-0030
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which is the northernmost Northern Rhône cru?
+      choices:
+        - { text: "Cornas", correct: false }
+        - { text: "Côte-Rôtie", correct: true }
+        - { text: "Gigondas", correct: false }
+        - { text: "Muscadet", correct: false }
+      explanation: |
+        **Côte-Rôtie** — first cru as you leave Lyon. Cornas is the
+        southern end of the north.
+
+  - id: nrhone-cr-name-001
+    type: mcq
+    deck: France::Northern Rhône
+    tags: [france, northern-rhone]
+    status: reviewed
+    source_id: c19-0031
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What does Côte-Rôtie literally mean?
+      choices:
+        - { text: "Frozen slope", correct: false }
+        - { text: "Roasted slope", correct: true }
+        - { text: "White castle", correct: false }
+        - { text: "Little hermitage", correct: false }
+      explanation: |
+        **Roasted slope** — the south/south-east face cooks in the sun.
+        That is the name, not a toast level.
+
+  - id: nrhone-cr-colour-001
+    type: mcq
+    deck: France::Northern Rhône
+    tags: [france, northern-rhone]
+    status: reviewed
+    source_id: c19-0032
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What colours may Côte-Rôtie bottle?
+      choices:
+        - { text: "White and sparkling only", correct: false }
+        - { text: "Red only", correct: true }
+        - { text: "Rosé only", correct: false }
+        - { text: "Any colour, including orange", correct: false }
+      explanation: |
+        **Red only.** Viognier goes into the red ferment; there is no
+        Côte-Rôtie blanc.
+
+  - id: nrhone-cr-grapes-001
+    type: mcq
+    deck: France::Northern Rhône
+    tags: [france, northern-rhone]
+    status: reviewed
+    source_id: c19-0033
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which grapes may go into Côte-Rôtie?
+      choices:
+        - { text: "Grenache and Mourvèdre only", correct: false }
+        - { text: "Syrah, and Viognier in small amounts", correct: true }
+        - { text: "Pinot Noir only", correct: false }
+        - { text: "Marsanne only", correct: false }
+      explanation: |
+        **Syrah + optional Viognier.** The white is not a separate
+        bottling.
+
+  - id: nrhone-cr-viognier-how-001
+    type: mcq
+    deck: France::Northern Rhône
+    tags: [france, northern-rhone]
+    status: reviewed
+    source_id: c19-0034
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How does Viognier enter a Côte-Rôtie?
+      choices:
+        - { text: "As a late dose of sweet reserve, after malo", correct: false }
+        - { text: "In small amounts, fermented with the Syrah", correct: true }
+        - { text: "As a 100% white AOC", correct: false }
+        - { text: "It is banned", correct: false }
+      explanation: |
+        **Small amount, co-fermented.** You do not splash it in after
+        the red is dry.
+
+  - id: nrhone-cr-viognier-pct-001
+    type: mcq
+    deck: France::Northern Rhône
+    tags: [france, northern-rhone]
+    status: reviewed
+    source_id: c19-0035
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What is the legal Viognier ceiling in Côte-Rôtie?
+      choices:
+        - { text: "0% — white grapes are banned", correct: false }
+        - { text: "Up to 20%", correct: true }
+        - { text: "At least 51%", correct: false }
+        - { text: "100%", correct: false }
+      explanation: |
+        **Up to 20%.** Most domaines use far less, or none. The cap is
+        not the house recipe.
+
+  - id: nrhone-cr-style-001
+    type: mcq
+    deck: France::Northern Rhône
+    tags: [france, northern-rhone]
+    status: reviewed
+    source_id: c19-0036
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How does Côte-Rôtie usually sit next to Hermitage in the glass?
+      choices:
+        - { text: "Lighter, paler, and always sweet", correct: false }
+        - { text: "Deep, full, spicy, with more floral lift and a finer texture than Hermitage", correct: true }
+        - { text: "Identical, by AOC law", correct: false }
+        - { text: "It is a white wine", correct: false }
+      explanation: |
+        **Deep, full, spicy**, plus **floral freshness and finer
+        texture** than Hermitage. Viognier and the schist/mica slope
+        help that lift.
+
+  - id: nrhone-condrieu-colour-001
+    type: mcq
+    deck: France::Northern Rhône
+    tags: [france, northern-rhone]
+    status: reviewed
+    source_id: c19-0037
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What colours may Condrieu bottle?
+      choices:
+        - { text: "Red only, like Côte-Rôtie", correct: false }
+        - { text: "White only", correct: true }
+        - { text: "Rosé only", correct: false }
+        - { text: "Any colour", correct: false }
+      explanation: |
+        **White only.** 100% Viognier. No Condrieu rouge.
+
+  - id: nrhone-condrieu-grape-001
+    type: mcq
+    deck: France::Northern Rhône
+    tags: [france, northern-rhone]
+    status: reviewed
+    source_id: c19-0038
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which grape is Condrieu allowed to be?
+      choices:
+        - { text: "Marsanne and Roussanne only", correct: false }
+        - { text: "Viognier only", correct: true }
+        - { text: "Syrah", correct: false }
+        - { text: "Chardonnay", correct: false }
+      explanation: |
+        **Viognier only.** That is the AOC.
+
+  - id: nrhone-condrieu-best-001
+    type: mcq
+    deck: France::Northern Rhône
+    tags: [france, northern-rhone]
+    status: reviewed
+    source_id: c19-0039
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which Condrieu vineyards usually make the finest wine?
+      choices:
+        - { text: "High-crop valley-floor young vines", correct: false }
+        - { text: "Low-yielding old vines on steep, well-exposed terraces", correct: true }
+        - { text: "Only the Médoc gravel", correct: false }
+        - { text: "Indoor tunnels", correct: false }
+      explanation: |
+        **Old vines, low yield, steep terraces.** **Château-Grillet**
+        and the best **Vernay** sites sit in that picture.
+
+  - id: nrhone-grillet-001
+    type: mcq
+    deck: France::Northern Rhône
+    tags: [france, northern-rhone]
+    status: reviewed
+    source_id: c19-0040
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which white AOC is the single-estate Château-Grillet carved out of?
+      choices:
+        - { text: "Côte-Rôtie", correct: false }
+        - { text: "Condrieu", correct: true }
+        - { text: "Champagne", correct: false }
+        - { text: "Vouvray", correct: false }
+      explanation: |
+        **One-property AOC inside Condrieu**, 100% Viognier — **not**
+        inside Côte-Rôtie, and **not** a red. The wine is Condrieu’s
+        neighbour, not Ampuis Syrah.
+
+  - id: nrhone-stjo-where-001
+    type: mcq
+    deck: France::Northern Rhône
+    tags: [france, northern-rhone]
+    status: reviewed
+    source_id: c19-0041
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Where does Saint-Joseph run along the Rhône?
+      choices:
+        - { text: "Only east of Tain, on the Hermitage hill", correct: false }
+        - { text: "The west bank, between Condrieu and Tournon", correct: true }
+        - { text: "The Nantais sand", correct: false }
+        - { text: "Inside Châteauneuf-du-Pape", correct: false }
+      explanation: |
+        **West bank, Condrieu down to Tournon.** A long, thin AOC — that
+        is why quality swings so hard.
+
+  - id: nrhone-stjo-red-001
+    type: mcq
+    deck: France::Northern Rhône
+    tags: [france, northern-rhone]
+    status: reviewed
+    source_id: c19-0042
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What is most Saint-Joseph in the glass?
+      choices:
+        - { text: "Sweet white Viognier", correct: false }
+        - { text: "Red Syrah", correct: true }
+        - { text: "Sparkling Melon", correct: false }
+        - { text: "Rosé Pinot Noir", correct: false }
+      explanation: |
+        **Red Syrah** is the volume. White exists; it is the side
+        project.
+
+  - id: nrhone-stjo-white-001
+    type: mcq
+    deck: France::Northern Rhône
+    tags: [france, northern-rhone]
+    status: reviewed
+    source_id: c19-0043
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which grapes make Saint-Joseph blanc?
+      choices:
+        - { text: "Pinot Noir", correct: false }
+        - { text: "Marsanne and/or Roussanne", correct: true }
+        - { text: "Orange from Gewurztraminer", correct: false }
+        - { text: "There is no white Saint-Joseph", correct: false }
+      explanation: |
+        **White Marsanne / Roussanne.** Not Viognier — that is Condrieu.
+
+  - id: nrhone-stjo-best-001
+    type: mcq
+    deck: France::Northern Rhône
+    tags: [france, northern-rhone]
+    status: reviewed
+    source_id: c19-0044
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Where do the serious Saint-Joseph reds usually come from?
+      choices:
+        - { text: "Only the valley-floor sand by the motorway", correct: false }
+        - { text: "Terraces near Tournon, and the steep ground just south of Condrieu", correct: true }
+        - { text: "The Médoc gravel", correct: false }
+        - { text: "Only the plateau above the valley, for volume", correct: false }
+      explanation: |
+        **Terraces near Tournon**, plus the old core **south of
+        Condrieu**. **Gonon** is the named Tournon-side example.
+
+  - id: nrhone-stjo-best-style-001
+    type: mcq
+    deck: France::Northern Rhône
+    tags: [france, northern-rhone]
+    status: reviewed
+    source_id: c19-0045
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How close can the best Saint-Joseph reds get to Hermitage?
+      choices:
+        - { text: "They are legally identical, by INAO", correct: false }
+        - { text: "The best can show similar intensity and structure", correct: true }
+        - { text: "They are always lighter than generic Crozes", correct: false }
+        - { text: "They are white only", correct: false }
+      explanation: |
+        **Similar intensity and structure** on the best terraces — still
+        Saint-Joseph, not the Hermitage hill. **Gonon** is the usual
+        comparison.
+
+  - id: nrhone-stjo-volume-sites-001
+    type: mcq
+    deck: France::Northern Rhône
+    tags: [france, northern-rhone]
+    status: reviewed
+    source_id: c19-0046
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Where does high-volume Saint-Joseph grow?
+      choices:
+        - { text: "Only the granite terraces of Hermitage", correct: false }
+        - { text: "Fertile flatter valley-floor sites and the plateaux above the valley", correct: true }
+        - { text: "Only Château-Grillet", correct: false }
+        - { text: "The Nantais", correct: false }
+      explanation: |
+        **Valley floor and plateau** — easier farming, bigger crops, less
+        of the granite terrace story.
+
+  - id: nrhone-stjo-volume-style-001
+    type: mcq
+    deck: France::Northern Rhône
+    tags: [france, northern-rhone]
+    status: reviewed
+    source_id: c19-0047
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What are high-volume Saint-Joseph reds usually like?
+      choices:
+        - { text: "Fuller than Hermitage, with 15 years of new oak", correct: false }
+        - { text: "Lighter, often with some carbonic maceration, and a peppery Syrah perfume", correct: true }
+        - { text: "Always sweet Viognier", correct: false }
+        - { text: "Fortified", correct: false }
+      explanation: |
+        **Lighter, sometimes carbonic, pepper-led.** Easy Syrah, not
+        **La Chapelle**.
+
+  - id: nrhone-lightest-001
+    type: mcq
+    deck: France::Northern Rhône
+    tags: [france, northern-rhone]
+    status: reviewed
+    source_id: c19-0048
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which Northern Rhône reds are usually the lightest in body?
+      choices:
+        - { text: "Hermitage from the hill", correct: false }
+        - { text: "The high-volume Saint-Joseph reds", correct: true }
+        - { text: "Cornas from the granite amphitheatre", correct: false }
+        - { text: "There are no light reds", correct: false }
+      explanation: |
+        **High-volume Saint-Joseph.** Crozes can be light too; the long,
+        diluted Saint-Joseph map is the usual source of the lightest
+        reds.
+
+  - id: nrhone-hermitage-where-001
+    type: mcq
+    deck: France::Northern Rhône
+    tags: [france, northern-rhone]
+    status: reviewed
+    source_id: c19-0049
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Where does the Hermitage hill sit?
+      choices:
+        - { text: "West of Ampuis only", correct: false }
+        - { text: "A steep south-facing slope behind Tain-l’Hermitage", correct: true }
+        - { text: "On the Atlantic at Saint-Nazaire", correct: false }
+        - { text: "Inside Condrieu", correct: false }
+      explanation: |
+        **Steep south face behind Tain.** **La Chapelle**, **Le Méal**,
+        **Les Bessards** hang on that hill.
+
+  - id: nrhone-lieu-dit-001
+    type: mcq
+    deck: France::Northern Rhône
+    tags: [france, northern-rhone]
+    status: reviewed
+    source_id: c19-0050
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What is a lieu-dit?
+      choices:
+        - { text: "A sparkling-only AOC", correct: false }
+        - { text: "A named vineyard site", correct: true }
+        - { text: "A legal sweetness band", correct: false }
+        - { text: "A grape clone number", correct: false }
+      explanation: |
+        **A named site** — not always its own AOC. Hermitage is a
+        patchwork of them (**Bessards**, **Méal**, **Greffieux**).
