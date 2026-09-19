@@ -2,4 +2,405 @@
 # source: C10 (import/inbox/c10-price-of-wine.yaml)
 # deck: Price of Wine
 
-cards: []
+cards:
+  - id: price-seven-brackets-001
+    type: mcq
+    deck: Price of Wine
+    tags: [price]
+    status: reviewed
+    source_id: c10-0001
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which set covers the main cost buckets that build a bottle’s price?
+      choices:
+        - { text: "Only the colour of the capsule", correct: false }
+        - { text: "Growing, making, packing, moving and selling, tax, the retailer, and the market", correct: true }
+        - { text: "Only the punt depth of the bottle", correct: false }
+        - { text: "Only the winemaker’s tasting fee", correct: false }
+      explanation: |
+        Price is a stack: **grapes, cellar, pack, logistics, duty, the shop’s
+        margin, and what buyers will pay**. Miss one bucket and the shelf price
+        makes no sense.
+
+  - id: price-plant-costs-001
+    type: mcq
+    deck: Price of Wine
+    tags: [price, vineyard]
+    status: reviewed
+    source_id: c10-0002
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What do you actually pay to establish a vineyard?
+      choices:
+        - { text: "Only the harvest crates, nothing else", correct: false }
+        - { text: "Land (dearer in famous places), soil work, vines and a trellis", correct: true }
+        - { text: "Only a cork order for year one", correct: false }
+        - { text: "Nothing — vines plant themselves", correct: false }
+      explanation: |
+        **Land** in Napa or the Côte d’Or can dwarf every other line. Then come
+        ripping, plants and posts. That capital sits there for years before a
+        crop.
+
+  - id: price-labour-largest-001
+    type: mcq
+    deck: Price of Wine
+    tags: [price, vineyard]
+    status: reviewed
+    source_id: c10-0003
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Once a vineyard is planted, what is usually the biggest running cost?
+      choices:
+        - { text: "The label designer’s font licence", correct: false }
+        - { text: "Labour", correct: true }
+        - { text: "Only the cellar door biscuits", correct: false }
+        - { text: "A legal cap on sunlight", correct: false }
+      explanation: |
+        **People** — pruning, canopy, picking — eat the budget on an established
+        site, especially where a machine cannot go.
+
+  - id: price-labour-cheap-001
+    type: mcq
+    deck: Price of Wine
+    tags: [price, vineyard]
+    status: reviewed
+    source_id: c10-0004
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How do growers usually keep that labour bill down?
+      choices:
+        - { text: "By hiring a full permanent crew for every quiet winter week", correct: false }
+        - { text: "Seasonal casual workers, or machines", correct: true }
+        - { text: "By banning all pruning", correct: false }
+        - { text: "By paying everyone in leftover corks", correct: false }
+      explanation: |
+        A **casual harvest crew** or a **tractor** replaces year-round wages.
+        Quality and slope decide which option is even possible.
+
+  - id: price-share-kit-001
+    type: mcq
+    deck: Price of Wine
+    tags: [price, vineyard]
+    status: reviewed
+    source_id: c10-0005
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How else can neighbouring growers cut labour or machine costs?
+      choices:
+        - { text: "By each buying a unused harvester that sits idle", correct: false }
+        - { text: "By sharing crews or sharing machines", correct: true }
+        - { text: "By never speaking to the next estate", correct: false }
+        - { text: "By a law that forbids cooperatives", correct: false }
+      explanation: |
+        A **shared harvester** or a pooled pruning gang spreads the capital.
+        Co-ops exist for the same reason.
+
+  - id: price-steep-no-saving-001
+    type: mcq
+    deck: Price of Wine
+    tags: [price, vineyard]
+    status: reviewed
+    source_id: c10-0006
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Where do those labour-saving tricks mostly fail?
+      choices:
+        - { text: "On a flat Central Valley grid", correct: false }
+        - { text: "On steep or isolated sites a machine cannot reach", correct: true }
+        - { text: "Only in underground cellars", correct: false }
+        - { text: "On every site equally", correct: false }
+      explanation: |
+        **Mosel slate**, Priorat llicorella, Douro terraces: no cheap harvester,
+        and a casual crew costs more to house. Isolation adds the same penalty.
+
+  - id: price-grape-market-001
+    type: mcq
+    deck: Price of Wine
+    tags: [price]
+    status: reviewed
+    source_id: c10-0007
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Besides the work of growing them, what else sets the price of grapes?
+      choices:
+        - { text: "Only the colour of the picking crate", correct: false }
+        - { text: "The market — what buyers will pay for that name and vintage", correct: true }
+        - { text: "A single worldwide grape tariff that never moves", correct: false }
+        - { text: "The punt depth of the bottle they might one day fill", correct: false }
+      explanation: |
+        **Demand** for Napa Cabernet or cheap bulk Airén moves the fruit price
+        independently of how hard the year was to farm.
+
+  - id: price-winery-kit-001
+    type: mcq
+    deck: Price of Wine
+    tags: [price, winery]
+    status: reviewed
+    source_id: c10-0008
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What is the most obvious cellar cost?
+      choices:
+        - { text: "Buying and looking after tanks, presses and the rest of the kit", correct: true }
+        - { text: "Only the tasting-room flowers", correct: false }
+        - { text: "A fee paid to the moon", correct: false }
+        - { text: "Nothing — wineries have no equipment", correct: false }
+      explanation: |
+        **Stainless, presses, pumps, a bottling line** are capital that rusts
+        and needs people. The pretty shop is extra.
+
+  - id: price-shared-bottling-001
+    type: mcq
+    deck: Price of Wine
+    tags: [price, winery]
+    status: reviewed
+    source_id: c10-0009
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which cellar kit is commonly shared to avoid buying it twice?
+      choices:
+        - { text: "Every estate’s private bottling hall, unused 11 months a year", correct: false }
+        - { text: "A mobile or co-op bottling line", correct: true }
+        - { text: "A personal icewine press required by law", correct: false }
+        - { text: "A gold-plated destemmer for each barrel", correct: false }
+      explanation: |
+        A **truck-mounted bottling line** or a **co-op hall** is the classic
+        share. You do not need your own line for one week a year.
+
+  - id: price-time-in-cellar-001
+    type: mcq
+    deck: Price of Wine
+    tags: [price, winery]
+    status: reviewed
+    source_id: c10-0010
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Besides kit, what cellar cost do people forget?
+      choices:
+        - { text: "The time the wine sits unsold before release", correct: true }
+        - { text: "Only the colour of the tank paint", correct: false }
+        - { text: "A tax on empty barrels that never applies", correct: false }
+        - { text: "The winemaker’s hat size", correct: false }
+      explanation: |
+        **Ageing** is money asleep: warehouse, insurance, and cash you cannot
+        use. Barolo or vintage Port prices that wait.
+
+  - id: price-stock-tied-001
+    type: mcq
+    deck: Price of Wine
+    tags: [price, winery]
+    status: reviewed
+    source_id: c10-0011
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Why does long cellar time show up in the bottle price?
+      choices:
+        - { text: "Storage is free and stock can be sold the next morning", correct: false }
+        - { text: "Warehouses cost money, and capital sits in unsold wine", correct: true }
+        - { text: "The law refunds every month of ageing", correct: false }
+        - { text: "Time in barrel legally reduces the tax to zero", correct: false }
+      explanation: |
+        You pay **rent on silence**. That delay is built into Rioja Gran Reserva
+        or Champagne that cannot ship tomorrow.
+
+  - id: price-packaging-parts-001
+    type: mcq
+    deck: Price of Wine
+    tags: [price, packaging]
+    status: reviewed
+    source_id: c10-0012
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which packaging pieces add to the cost of a bottle?
+      choices:
+        - { text: "Only the wine itself, never glass or paper", correct: false }
+        - { text: "Glass, label, capsule, closure and carton — design and buying them", correct: true }
+        - { text: "Only a handwritten tag with no bottle", correct: false }
+        - { text: "A legal ban on any label", correct: false }
+      explanation: |
+        **Heavy glass and a designer label** can rival the juice in a cheap
+        wine. Closure and shipper carton join the bill.
+
+  - id: price-heavy-bottle-001
+    type: mcq
+    deck: Price of Wine
+    tags: [price, packaging]
+    status: reviewed
+    source_id: c10-0013
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which packs cost more to buy and to ship?
+      choices:
+        - { text: "A standard light bottle in a plain case", correct: false }
+        - { text: "Odd-shaped or very heavy bottles", correct: true }
+        - { text: "A bag-in-box with no extra glass", correct: false }
+        - { text: "No container at all", correct: false }
+      explanation: |
+        A **trophy bottle** costs more glass and more freight. The light
+        Bordeaux bottle exists because weight is money.
+
+  - id: price-bottle-in-market-001
+    type: mcq
+    deck: Price of Wine
+    tags: [price, packaging]
+    status: reviewed
+    source_id: c10-0014
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How can a producer sometimes cut packaging and freight cost?
+      choices:
+        - { text: "By shipping empty air in heavy glass", correct: false }
+        - { text: "By bottling in the country where the wine will be sold", correct: true }
+        - { text: "By a law that forbids bulk transport", correct: false }
+        - { text: "By using only hand-blown crystal for every litre", correct: false }
+      explanation: |
+        **Bulk to the market**, then bottle there: less glass across an ocean.
+        Australian and Chilean brands have long done this into the UK.
+
+  - id: price-in-market-limits-001
+    type: mcq
+    deck: Price of Wine
+    tags: [price, packaging]
+    status: reviewed
+    source_id: c10-0015
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Why is bottling in the destination market not always possible?
+      choices:
+        - { text: "It is free and legal for every two-hectare domaine", correct: false }
+        - { text: "You need scale, and some AOCs insist on bottling at origin", correct: true }
+        - { text: "Only icewine may travel in bulk", correct: false }
+        - { text: "The WTO bans all bulk wine", correct: false }
+      explanation: |
+        A **tiny estate** cannot fill a tanker. **Champagne, many crus, DOCG
+        rules** want the cork put in at home. Scale plus the law decide.
+
+  - id: price-tax-everywhere-001
+    type: mcq
+    deck: Price of Wine
+    tags: [price, tax]
+    status: reviewed
+    source_id: c10-0016
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How do governments usually treat wine at the till?
+      choices:
+        - { text: "Almost none tax alcohol, and rates never differ", correct: false }
+        - { text: "Nearly all tax it, and the rates vary wildly by country", correct: true }
+        - { text: "Tax is illegal under every wine PDO", correct: false }
+        - { text: "Only water is taxed, never wine", correct: false }
+      explanation: |
+        **Duty and VAT** are why the same Burgundy costs a different number in
+        Stockholm and in Beaune.
+
+  - id: price-tax-why-001
+    type: mcq
+    deck: Price of Wine
+    tags: [price, tax]
+    status: reviewed
+    source_id: c10-0017
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Why do states tax alcoholic drinks?
+      choices:
+        - { text: "Only to decorate the stamp", correct: false }
+        - { text: "To raise the shelf price (and so cool demand) and to raise revenue", correct: true }
+        - { text: "Because wine is legally classified as a vegetable", correct: false }
+        - { text: "To make wine cheaper than water", correct: false }
+      explanation: |
+        Excise is both a **health lever** and a **cash register**. Nordic
+        monopolies make the first obvious; most treasuries like the second.
+
+  - id: price-retail-margin-001
+    type: mcq
+    deck: Price of Wine
+    tags: [price, retail]
+    status: reviewed
+    source_id: c10-0018
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What do shops add to the landed cost of a wine?
+      choices:
+        - { text: "Nothing — retail is a charity", correct: false }
+        - { text: "A margin so the store can make a profit", correct: true }
+        - { text: "A legal requirement to sell below cost", correct: false }
+        - { text: "Only a tax refund to the drinker", correct: false }
+      explanation: |
+        **Shops mark up** to pay rent, staff and risk. That is why the ex-cellar
+        number and the shelf sticker are not the same.
+
+  - id: price-restaurant-001
+    type: mcq
+    deck: Price of Wine
+    tags: [price, retail]
+    status: reviewed
+    source_id: c10-0019
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Why is the same bottle usually dearer in a restaurant than in a shop?
+      choices:
+        - { text: "Restaurants are legally banned from making a profit on wine", correct: false }
+        - { text: "They take a bigger margin, and the price also pays for the room and the service", correct: true }
+        - { text: "Wine is always cheaper with a meal", correct: false }
+        - { text: "Shops are forbidden to discount", correct: false }
+      explanation: |
+        A list price funds **glassware, sommelier time, breakage and the night
+        out**, not just the liquid. Two- or three-times retail is common.
+
+  - id: price-market-forces-top-001
+    type: mcq
+    deck: Price of Wine
+    tags: [price]
+    status: reviewed
+    source_id: c10-0020
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What is the widest force sitting on top of all those costs?
+      choices:
+        - { text: "The colour of the capsule alone", correct: false }
+        - { text: "What the destination market is willing to pay", correct: true }
+        - { text: "A single global price set in 1855 that never moves", correct: false }
+        - { text: "The winemaker’s shoe size", correct: false }
+      explanation: |
+        **Market forces** can lift a wine far above its cost stack — or leave a
+        perfectly made bottle unsold. Costs set a floor; buyers set the ceiling.
