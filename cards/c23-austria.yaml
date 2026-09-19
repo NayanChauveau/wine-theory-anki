@@ -2,4 +2,1128 @@
 # source: C23 (import/inbox/c23-austria.yaml)
 # deck: Austria
 
-cards: []
+cards:
+  - id: austria-east-001
+    type: mcq
+    deck: Austria
+    tags: [austria]
+    status: reviewed
+    source_id: c23-0001
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Austrian vines cluster toward which side of the country, not the high Alps?
+      choices:
+        - { text: "Only on the high western Alps", correct: false }
+        - { text: "In the east", correct: true }
+        - { text: "Evenly, including Vorarlberg", correct: false }
+        - { text: "Only on the Italian border in the far south", correct: false }
+      explanation: |
+        **In the east.** Niederösterreich, Burgenland, Steiermark and Wien
+        sit on that side; the west is mountain country.
+
+  - id: austria-climate-001
+    type: mcq
+    deck: Austria
+    tags: [austria, climate]
+    status: reviewed
+    source_id: c23-0002
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which climate type describes the vineyards of eastern Austria?
+      choices:
+        - { text: "Cool maritime, like Muscadet", correct: false }
+        - { text: "Cool continental", correct: true }
+        - { text: "Hot Mediterranean, like the southern Rhône", correct: false }
+        - { text: "Equatorial rainforest", correct: false }
+      explanation: |
+        **Cool continental.** Winters bite; summers are the ripening
+        window. Burgenland then picks up extra Pannonian warmth.
+
+  - id: austria-winds-001
+    type: mcq
+    deck: Austria
+    tags: [austria, climate]
+    status: reviewed
+    source_id: c23-0002
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which wind pattern shapes eastern Austria’s vineyards?
+      choices:
+        - { text: "Only a drying mistral from the Mediterranean", correct: false }
+        - { text: "Cooling northerlies in the north, and warming easterlies near the Hungarian border", correct: true }
+        - { text: "Atlantic westerlies that soak the whole country", correct: false }
+        - { text: "No wind at all", correct: false }
+      explanation: |
+        **Cooling northerlies in the north, and warming easterlies near
+        the Hungarian border.** Weinviertel feels the first; Burgenland
+        the Pannonian second.
+
+  - id: austria-vintage-swing-001
+    type: mcq
+    deck: Austria
+    tags: [austria, climate]
+    status: reviewed
+    source_id: c23-0003
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How do year-to-year weather swings in Austria compare with more northerly European wine regions?
+      choices:
+        - { text: "Austria’s swings are far wilder than in Germany or Champagne", correct: false }
+        - { text: "Austria’s year-to-year weather swings are smaller", correct: true }
+        - { text: "Austria has no vintage variation at all", correct: false }
+        - { text: "Only the west coast swings; the east never does", correct: false }
+      explanation: |
+        **Austria’s year-to-year weather swings are smaller.** Hail and
+        frost still hit, but the inland east is steadier than cooler,
+        more northerly neighbours.
+
+  - id: austria-gv-lead-001
+    type: mcq
+    deck: Austria
+    tags: [austria, grapes]
+    status: reviewed
+    source_id: c23-0004
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which grape covers the most Austrian vineyard?
+      choices:
+        - { text: "Roter Veltliner", correct: false }
+        - { text: "Grüner Veltliner", correct: true }
+        - { text: "Welschriesling", correct: false }
+        - { text: "Zweigelt", correct: false }
+      explanation: |
+        **Grüner Veltliner** — roughly a third of the national vineyard.
+        **Roter Veltliner** is a different, much rarer white.
+
+  - id: austria-gv-yield-001
+    type: mcq
+    deck: Austria
+    tags: [austria, grapes]
+    status: reviewed
+    source_id: c23-0005
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What are high-yield Austrian Grüner Veltliner wines typically like?
+      choices:
+        - { text: "Dense, tannic reds", correct: false }
+        - { text: "Fresh but simple", correct: true }
+        - { text: "Always botrytis-sweet", correct: false }
+        - { text: "Heavy, oaky and low in acid", correct: false }
+      explanation: |
+        **Fresh but simple.** Pushed yields strip the pepper and
+        concentration; the wine stays light and clean.
+
+  - id: austria-gv-youth-001
+    type: mcq
+    deck: Austria
+    tags: [austria, grapes]
+    status: reviewed
+    source_id: c23-0006
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What does careful, lower-yield Austrian Grüner Veltliner typically show in youth?
+      choices:
+        - { text: "Low acid, jammy red fruit, and no spice", correct: false }
+        - { text: "Full body, concentration, high acidity, citrus or stone fruit, and a hint of white pepper", correct: true }
+        - { text: "Only lychee and residual sugar", correct: false }
+        - { text: "Deep colour and bramble, like Zweigelt", correct: false }
+      explanation: |
+        **Full body, concentration, high acidity, citrus or stone fruit,
+        and a hint of white pepper.** That pepper is the Grüner tell,
+        not Roter Veltliner.
+
+  - id: austria-gv-age-001
+    type: mcq
+    deck: Austria
+    tags: [austria, grapes]
+    status: reviewed
+    source_id: c23-0006
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which extra notes can bottle-aged Austrian Grüner Veltliner take on?
+      choices:
+        - { text: "Tar and roses only", correct: false }
+        - { text: "Honey and toast", correct: true }
+        - { text: "Mature Grüner Veltliner never leaves primary lemon", correct: false }
+        - { text: "Only new-oak coconut", correct: false }
+      explanation: |
+        **Honey and toast.** The best Danube bottles repay a cellar
+        the way a serious Riesling does.
+
+  - id: austria-gv-vessels-001
+    type: mcq
+    deck: Austria
+    tags: [austria, grapes]
+    status: reviewed
+    source_id: c23-0007
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: In which vessels is Austrian Grüner Veltliner usually fermented and aged?
+      choices:
+        - { text: "Only new 100% barrique, by law", correct: false }
+        - { text: "Mostly stainless steel, with old large oak casks common and some barrique ageing", correct: true }
+        - { text: "Only chestnut amphorae", correct: false }
+        - { text: "Oak is banned on Grüner Veltliner", correct: false }
+      explanation: |
+        **Mostly stainless steel, with old large oak casks common and
+        some barrique ageing.** Steel keeps the pepper; old foudres
+        are the Wachau/Kremstal habit; new barrique is the extra.
+
+  - id: austria-welschriesling-rank-001
+    type: mcq
+    deck: Austria
+    tags: [austria, grapes]
+    status: reviewed
+    source_id: c23-0008
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: After Grüner Veltliner, which white — not Riesling — covers the next-largest Austrian area?
+      choices:
+        - { text: "Riesling", correct: false }
+        - { text: "Welschriesling", correct: true }
+        - { text: "Roter Veltliner", correct: false }
+        - { text: "Chardonnay", correct: false }
+      explanation: |
+        **Welschriesling** — not Riesling, and not related to it.
+        Riesling is the quality third white, on far fewer hectares.
+
+  - id: austria-welschriesling-dry-001
+    type: mcq
+    deck: Austria
+    tags: [austria, grapes]
+    status: reviewed
+    source_id: c23-0009
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What is typical dry Austrian Welschriesling like?
+      choices:
+        - { text: "Oaky, tropical, and low in acid", correct: false }
+        - { text: "Fresh and simple, with citrus, green apple and high acidity", correct: true }
+        - { text: "Tannic and peppery, like Blaufränkisch", correct: false }
+        - { text: "Always a TBA-level sweet wine", correct: false }
+      explanation: |
+        **Fresh and simple, with citrus, green apple and high acidity.**
+        Dry bottles are the everyday white; the same grape also makes
+        lake-side sweet wine.
+
+  - id: austria-welschriesling-botrytis-001
+    type: mcq
+    deck: Austria
+    tags: [austria, grapes]
+    status: reviewed
+    source_id: c23-0010
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Around Neusiedlersee, Welschriesling is prized for which kind of dessert wine?
+      choices:
+        - { text: "Fortified red, like Port", correct: false }
+        - { text: "Botrytised dessert wines", correct: true }
+        - { text: "Only bone-dry Sekt", correct: false }
+        - { text: "Orange wine from skins only", correct: false }
+      explanation: |
+        **Botrytised dessert wines.** Around Neusiedlersee the grape
+        takes noble rot cleanly; dry Welschriesling stays the simple
+        extra.
+
+  - id: austria-riesling-rank-001
+    type: mcq
+    deck: Austria
+    tags: [austria, grapes]
+    status: reviewed
+    source_id: c23-0011
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: After Grüner and Welschriesling, which third white still matters on the Danube terraces?
+      choices:
+        - { text: "Grüner Veltliner", correct: false }
+        - { text: "Riesling", correct: true }
+        - { text: "Roter Veltliner", correct: false }
+        - { text: "Zweigelt", correct: false }
+      explanation: |
+        **Riesling.** Third white by area, after Grüner Veltliner
+        and Welschriesling. The Danube terraces are where it
+        shines; it does not outrank Grüner on hectares or as
+        Austria’s lead white.
+
+  - id: austria-riesling-danube-001
+    type: mcq
+    deck: Austria
+    tags: [austria, grapes, wachau]
+    status: reviewed
+    source_id: c23-0012
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: From which Austrian regions do the finest Rieslings usually come?
+      choices:
+        - { text: "Weinviertel only", correct: false }
+        - { text: "Wachau, Kamptal and Kremstal", correct: true }
+        - { text: "Only the flats around Neusiedlersee", correct: false }
+        - { text: "Weststeiermark only", correct: false }
+      explanation: |
+        **Wachau, Kamptal and Kremstal.** The dry Danube trio — not
+        the sweet lake, and not Weinviertel’s Grüner-only DAC.
+
+  - id: austria-riesling-style-001
+    type: mcq
+    deck: Austria
+    tags: [austria, grapes]
+    status: reviewed
+    source_id: c23-0013
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What style do Austrian Rieslings usually take?
+      choices:
+        - { text: "Off-dry and feather-light, like a Mosel Kabinett", correct: false }
+        - { text: "Dry, medium to full-bodied, ripe peach fruit, and the best bottles can age", correct: true }
+        - { text: "Always a botrytis dessert wine", correct: false }
+        - { text: "Sparkling red only", correct: false }
+      explanation: |
+        **Dry, medium to full-bodied, ripe peach fruit, and the best
+        bottles can age.** Austrian Riesling is a dry table wine, not
+        a German residual-sugar bottle.
+
+  - id: austria-other-whites-001
+    type: mcq
+    deck: Austria
+    tags: [austria, grapes]
+    status: reviewed
+    source_id: c23-0014
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Besides Grüner Veltliner, Welschriesling and Riesling, which three extra whites are commonly planted in Austria?
+      choices:
+        - { text: "Nebbiolo, Sangiovese and Corvina", correct: false }
+        - { text: "Chardonnay, Müller-Thurgau and Sauvignon Blanc", correct: true }
+        - { text: "Only Roter Veltliner, and nothing else", correct: false }
+        - { text: "Zweigelt, Blaufränkisch and St Laurent", correct: false }
+      explanation: |
+        **Chardonnay, Müller-Thurgau and Sauvignon Blanc.** Pinot
+        Blanc is another regular; the three named here are the usual
+        extras on the list.
+
+  - id: austria-sb-name-001
+    type: mcq
+    deck: Austria
+    tags: [austria, grapes]
+    status: reviewed
+    source_id: c23-0015
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Styria’s rising international white is which variety, not a Veltliner?
+      choices:
+        - { text: "Müller-Thurgau", correct: false }
+        - { text: "Sauvignon Blanc", correct: true }
+        - { text: "Roter Veltliner", correct: false }
+        - { text: "Zweigelt", correct: false }
+      explanation: |
+        **Sauvignon Blanc.** The plantings that people talk about sit
+        in the south, not on the Danube terraces.
+
+  - id: austria-sb-styria-001
+    type: mcq
+    deck: Austria
+    tags: [austria, steiermark]
+    status: reviewed
+    source_id: c23-0015
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: In which Austrian region has Sauvignon Blanc built its name?
+      choices:
+        - { text: "Wachau", correct: false }
+        - { text: "Steiermark, in the south", correct: true }
+        - { text: "Weinviertel only", correct: false }
+        - { text: "The high western Alps", correct: false }
+      explanation: |
+        **Steiermark, in the south** — Südsteiermark in particular.
+        Wachau’s story is Grüner Veltliner and Riesling.
+
+  - id: austria-zweigelt-rank-001
+    type: mcq
+    deck: Austria
+    tags: [austria, grapes]
+    status: reviewed
+    source_id: c23-0016
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which black grape covers the most Austrian vineyard?
+      choices:
+        - { text: "Blaufränkisch", correct: false }
+        - { text: "Zweigelt", correct: true }
+        - { text: "St Laurent", correct: false }
+        - { text: "Pinot Noir", correct: false }
+      explanation: |
+        **Zweigelt.** Most planted black, and second overall behind
+        Grüner Veltliner. Blaufränkisch is the prestige red, not the
+        hectare leader.
+
+  - id: austria-zweigelt-parents-001
+    type: mcq
+    deck: Austria
+    tags: [austria, grapes]
+    status: reviewed
+    source_id: c23-0017
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Zweigelt is a crossing of which two Austrian black grapes?
+      choices:
+        - { text: "Grüner Veltliner and Riesling", correct: false }
+        - { text: "Blaufränkisch and St Laurent", correct: true }
+        - { text: "Pinot Noir and Gamay", correct: false }
+        - { text: "Cabernet Sauvignon and Merlot", correct: false }
+      explanation: |
+        **Blaufränkisch and St Laurent.** Friedrich Zweigelt made the
+        cross at Klosterneuburg in 1922.
+
+  - id: austria-zweigelt-style-001
+    type: mcq
+    deck: Austria
+    tags: [austria, grapes]
+    status: reviewed
+    source_id: c23-0018
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which Austrian black grape typically gives deep colour, soft tannins and bramble fruit?
+      choices:
+        - { text: "Blaufränkisch", correct: false }
+        - { text: "Zweigelt", correct: true }
+        - { text: "Grüner Veltliner", correct: false }
+        - { text: "Welschriesling", correct: false }
+      explanation: |
+        **Zweigelt.** Deep, soft and brambly. Blaufränkisch is the
+        other red — medium tannin, high acid, peppery sour cherry.
+
+  - id: austria-bf-prestige-001
+    type: mcq
+    deck: Austria
+    tags: [austria, grapes]
+    status: reviewed
+    source_id: c23-0019
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Burgenland’s prestige red, more structured than Zweigelt, is which grape?
+      choices:
+        - { text: "Zweigelt", correct: false }
+        - { text: "Blaufränkisch", correct: true }
+        - { text: "Roter Veltliner", correct: false }
+        - { text: "Welschriesling", correct: false }
+      explanation: |
+        **Blaufränkisch.** Zweigelt wins on hectares; Blaufränkisch
+        wins on reputation, especially in Burgenland.
+
+  - id: austria-bf-style-001
+    type: mcq
+    deck: Austria
+    tags: [austria, grapes]
+    status: reviewed
+    source_id: c23-0020
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What is typical Austrian Blaufränkisch like in the glass?
+      choices:
+        - { text: "Deep colour, soft tannins and sweet bramble only", correct: false }
+        - { text: "Medium tannin, high acidity, and a peppery sour-cherry flavour", correct: true }
+        - { text: "A white grape with no tannin", correct: false }
+        - { text: "Always a botrytis dessert wine", correct: false }
+      explanation: |
+        **Medium tannin, high acidity, and a peppery sour-cherry
+        flavour.** Do not swap that line with Zweigelt’s softer
+        bramble profile.
+
+  - id: austria-st-laurent-001
+    type: mcq
+    deck: Austria
+    tags: [austria, grapes]
+    status: reviewed
+    source_id: c23-0021
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which Austrian black grape is often likened to Pinot Noir, not to Zweigelt’s bramble?
+      choices:
+        - { text: "Zweigelt", correct: false }
+        - { text: "St Laurent", correct: true }
+        - { text: "Grüner Veltliner", correct: false }
+        - { text: "Welschriesling", correct: false }
+      explanation: |
+        **St Laurent.** A local Pinot-shaped red — darker than many
+        Burgundies, still in that cherry-and-savoury family.
+
+  - id: austria-st-laurent-oak-001
+    type: mcq
+    deck: Austria
+    tags: [austria, grapes]
+    status: reviewed
+    source_id: c23-0022
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How common is oak on Austrian St Laurent?
+      choices:
+        - { text: "Oak is illegal on St Laurent", correct: false }
+        - { text: "Oak is common", correct: true }
+        - { text: "Only chestnut is allowed", correct: false }
+        - { text: "The wine must stay in steel for ten years", correct: false }
+      explanation: |
+        **Oak is common.** Cellars treat St Laurent much as they
+        treat Pinot Noir.
+
+  - id: austria-red-blend-001
+    type: mcq
+    deck: Austria
+    tags: [austria, grapes]
+    status: reviewed
+    source_id: c23-0023
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which blending practice is now common among Austrian reds?
+      choices:
+        - { text: "Only Grüner Veltliner with Riesling", correct: false }
+        - { text: "Local black grapes blended with Pinot Noir, Cabernet Sauvignon and Merlot", correct: true }
+        - { text: "Blending any red is illegal", correct: false }
+        - { text: "Only Welschriesling with Chardonnay", correct: false }
+      explanation: |
+        **Local black grapes blended with Pinot Noir, Cabernet
+        Sauvignon and Merlot.** Zweigelt or Blaufränkisch stay in the
+        mix; the internationals are the extra.
+
+  - id: austria-pdo-states-001
+    type: mcq
+    deck: Austria
+    tags: [austria]
+    status: reviewed
+    source_id: c23-0024
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which four federal states produce Austria’s Qualitätswein and DAC wines?
+      choices:
+        - { text: "Tyrol, Salzburg, Vorarlberg and Carinthia", correct: false }
+        - { text: "Niederösterreich, Burgenland, Steiermark and Wien", correct: true }
+        - { text: "Only Wachau and the Mosel", correct: false }
+        - { text: "Bavaria, Baden, Alsace and Tokaj", correct: false }
+      explanation: |
+        **Niederösterreich, Burgenland, Steiermark and Wien.** Those
+        four Bundesländer are the protected-origin map. DAC is the
+        modern PDO-style label inside that map.
+
+  - id: austria-volume-states-001
+    type: mcq
+    deck: Austria
+    tags: [austria]
+    status: reviewed
+    source_id: c23-0025
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Austria’s volume comes mainly from which two eastern Bundesländer?
+      choices:
+        - { text: "Steiermark and Wien only", correct: false }
+        - { text: "Niederösterreich and Burgenland", correct: true }
+        - { text: "Tyrol and Vorarlberg", correct: false }
+        - { text: "Only Wien", correct: false }
+      explanation: |
+        **Niederösterreich and Burgenland.** Steiermark and Wien
+        matter for style; they are small on volume.
+
+  - id: austria-noe-export-001
+    type: mcq
+    deck: Austria
+    tags: [austria, niederosterreich]
+    status: reviewed
+    source_id: c23-0026
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which Austrian federal wine state leads production and exports?
+      choices:
+        - { text: "Wien", correct: false }
+        - { text: "Niederösterreich", correct: true }
+        - { text: "Steiermark", correct: false }
+        - { text: "Tyrol", correct: false }
+      explanation: |
+        **Niederösterreich.** The large eastern state — Wachau,
+        Kremstal, Kamptal and Weinviertel sit inside it. Weinviertel
+        is the biggest single region; the state is bigger still.
+
+  - id: austria-noe-sites-001
+    type: mcq
+    deck: Austria
+    tags: [austria, niederosterreich]
+    status: reviewed
+    source_id: c23-0027
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Niederösterreich fruit is mostly grown along which river, and north toward which neighbour?
+      choices:
+        - { text: "Only on alpine ice above Innsbruck", correct: false }
+        - { text: "Along the Danube, and further north toward the Slovak border", correct: true }
+        - { text: "Only around Neusiedlersee", correct: false }
+        - { text: "Only in Südsteiermark", correct: false }
+      explanation: |
+        **Along the Danube, and further north toward the Slovak
+        border.** Danube belt first; Weinviertel is the northern
+        bulk.
+
+  - id: austria-wachau-state-001
+    type: mcq
+    deck: Austria
+    tags: [austria, wachau]
+    status: reviewed
+    source_id: c23-0028
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: In which Austrian federal state does Wachau sit?
+      choices:
+        - { text: "Burgenland", correct: false }
+        - { text: "Niederösterreich", correct: true }
+        - { text: "Steiermark", correct: false }
+        - { text: "Wien", correct: false }
+      explanation: |
+        **Niederösterreich.** The gorge between Melk and Krems, on
+        the Danube — not the Hungarian-border lake country.
+
+  - id: austria-wachau-dry-001
+    type: mcq
+    deck: Austria
+    tags: [austria, wachau]
+    status: reviewed
+    source_id: c23-0028
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What is Wachau best known for?
+      choices:
+        - { text: "Botrytis sweet wines, like Neusiedlersee", correct: false }
+        - { text: "High-quality dry wines from Riesling or Grüner Veltliner", correct: true }
+        - { text: "Only Blaufränkisch reds", correct: false }
+        - { text: "Fortified Muscat", correct: false }
+      explanation: |
+        **High-quality dry wines from Riesling or Grüner Veltliner.**
+        The Danube dry-white story; the sweet lake is Burgenland.
+
+  - id: austria-noe-eight-001
+    type: mcq
+    deck: Austria
+    tags: [austria, niederosterreich]
+    status: reviewed
+    source_id: c23-0029
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Wachau, Kremstal, Kamptal and Weinviertel sit among how many Niederösterreich sub-regions?
+      choices:
+        - { text: "Two, like Bordeaux banks", correct: false }
+        - { text: "Eight", correct: true }
+        - { text: "One only", correct: false }
+        - { text: "A hundred climats", correct: false }
+      explanation: |
+        **Eight** — Wachau, Kremstal, Kamptal, Traisental, Wagram,
+        Weinviertel, Carnuntum and Thermenregion.
+
+  - id: austria-wachau-slopes-001
+    type: mcq
+    deck: Austria
+    tags: [austria, wachau]
+    status: reviewed
+    source_id: c23-0030
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How are Wachau vineyards typically sited?
+      choices:
+        - { text: "Flat, lake-side, and foggy, like Neusiedlersee", correct: false }
+        - { text: "Steep, often terraced, south-facing slopes beside the Danube", correct: true }
+        - { text: "Indoor only", correct: false }
+        - { text: "On a coastal sandbar", correct: false }
+      explanation: |
+        **Steep, often terraced, south-facing slopes beside the
+        Danube.** Stone terraces above the river; not the Burgenland
+        flats.
+
+  - id: austria-wachau-dac-001
+    type: mcq
+    deck: Austria
+    tags: [austria, wachau, dac]
+    status: reviewed
+    source_id: c23-0031
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which Danube-valley region has been an Austrian DAC since the 2020 vintage?
+      choices:
+        - { text: "Wachau never joined the DAC system", correct: false }
+        - { text: "Wachau", correct: true }
+        - { text: "Only the Mosel", correct: false }
+        - { text: "Tokaj", correct: false }
+      explanation: |
+        **Wachau.** Wachau DAC starts with the 2020 vintage. DAC is
+        Austria’s modern PDO-style origin label. Steinfeder,
+        Federspiel and Smaragd remain a separate local style code.
+
+  - id: austria-wachau-vinea-001
+    type: mcq
+    deck: Austria
+    tags: [austria, wachau]
+    status: reviewed
+    source_id: c23-0032
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What do Steinfeder, Federspiel and Smaragd name on a Wachau bottle?
+      choices:
+        - { text: "National Prädikat ranks, identical to German law", correct: false }
+        - { text: "A regional Vinea Wachau style code, not Austria’s national wine law", correct: true }
+        - { text: "The three federal states of Austria", correct: false }
+        - { text: "Sweetness levels for Neusiedlersee dessert wine", correct: false }
+      explanation: |
+        **A regional Vinea Wachau style code, not Austria’s national
+        wine law.** Light, classic and rich dry whites (by alcohol).
+        The national origin word is DAC / Qualitätswein.
+
+  - id: austria-wachau-neighbours-001
+    type: mcq
+    deck: Austria
+    tags: [austria, wachau]
+    status: reviewed
+    source_id: c23-0033
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Heading downstream from Wachau, which DAC sits next on the Danube?
+      choices:
+        - { text: "Weinviertel DAC", correct: false }
+        - { text: "Kremstal DAC", correct: true }
+        - { text: "Südsteiermark DAC", correct: false }
+        - { text: "Neusiedlersee DAC", correct: false }
+      explanation: |
+        **Kremstal DAC.** Kamptal is not immediately east of Wachau;
+        it sits north of Kremstal, along the Kamp around Langenlois.
+
+  - id: austria-kamp-krem-style-001
+    type: mcq
+    deck: Austria
+    tags: [austria, kremstal, kamptal]
+    status: reviewed
+    source_id: c23-0034
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How do Kamptal DAC and Kremstal DAC whites usually sit next to Wachau?
+      choices:
+        - { text: "Always sweet, like Neusiedlersee", correct: false }
+        - { text: "In a similar dry style and quality", correct: true }
+        - { text: "Kamptal and Kremstal DAC wines are only red blends", correct: false }
+        - { text: "Kamptal and Kremstal DAC wines are sparkling only, by law", correct: false }
+      explanation: |
+        **In a similar dry style and quality.** Same Danube dry-white
+        idea; Wachau is the more famous gorge.
+
+  - id: austria-kamp-krem-grapes-001
+    type: mcq
+    deck: Austria
+    tags: [austria, kremstal, kamptal, grapes]
+    status: reviewed
+    source_id: c23-0034
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which two grapes lead Kamptal DAC and Kremstal DAC wines?
+      choices:
+        - { text: "Zweigelt and Blaufränkisch only", correct: false }
+        - { text: "Grüner Veltliner and Riesling", correct: true }
+        - { text: "Roter Veltliner and Müller-Thurgau only", correct: false }
+        - { text: "Welschriesling and Furmint only", correct: false }
+      explanation: |
+        **Grüner Veltliner and Riesling.** Same pair as Wachau’s
+        prestige dry whites — not Weinviertel’s Grüner-only DAC rule.
+
+  - id: austria-weinviertel-size-001
+    type: mcq
+    deck: Austria
+    tags: [austria, weinviertel]
+    status: reviewed
+    source_id: c23-0035
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which single Austrian wine region covers the most vineyard?
+      choices:
+        - { text: "Wachau", correct: false }
+        - { text: "Weinviertel DAC", correct: true }
+        - { text: "Südsteiermark", correct: false }
+        - { text: "Wien", correct: false }
+      explanation: |
+        **Weinviertel DAC.** Largest Gebiet. Niederösterreich the
+        federal state is bigger because Weinviertel sits inside it.
+        Wachau is famous and small.
+
+  - id: austria-weinviertel-first-001
+    type: mcq
+    deck: Austria
+    tags: [austria, weinviertel, dac]
+    status: reviewed
+    source_id: c23-0036
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: The 2002 DAC that opened Austria’s PDO-style labels was which region?
+      choices:
+        - { text: "Wachau", correct: false }
+        - { text: "Weinviertel DAC", correct: true }
+        - { text: "Tokaj", correct: false }
+        - { text: "Südsteiermark", correct: false }
+      explanation: |
+        **Weinviertel DAC** — created in 2002. DAC is the modern
+        PDO-style origin label. Wachau joined much later (2020).
+
+  - id: austria-weinviertel-grape-001
+    type: mcq
+    deck: Austria
+    tags: [austria, weinviertel, grapes]
+    status: reviewed
+    source_id: c23-0037
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which grape may a Weinviertel DAC wine be made from?
+      choices:
+        - { text: "Riesling only", correct: false }
+        - { text: "Only Grüner Veltliner", correct: true }
+        - { text: "Roter Veltliner only", correct: false }
+        - { text: "Zweigelt only", correct: false }
+      explanation: |
+        **Only Grüner Veltliner.** Other grapes from the same hills
+        drop to a Niederösterreich state label. Not Roter Veltliner.
+
+  - id: austria-weinviertel-tiers-001
+    type: mcq
+    deck: Austria
+    tags: [austria, weinviertel]
+    status: reviewed
+    source_id: c23-0038
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which two quality tiers divide Weinviertel DAC?
+      choices:
+        - { text: "Steinfeder and Smaragd", correct: false }
+        - { text: "Klassik and Reserve", correct: true }
+        - { text: "Kabinett and Eiswein only", correct: false }
+        - { text: "Grand Cru and Premier Cru", correct: false }
+      explanation: |
+        **Klassik and Reserve.** Those are Weinviertel DAC words.
+        Steinfeder / Federspiel / Smaragd belong to Wachau’s local
+        code, not this DAC.
+
+  - id: austria-weinviertel-klassik-001
+    type: mcq
+    deck: Austria
+    tags: [austria, weinviertel]
+    status: reviewed
+    source_id: c23-0039
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What is typical Weinviertel DAC Klassik like?
+      choices:
+        - { text: "Heavy, sweet, and strongly oaked", correct: false }
+        - { text: "Light, fresh and fruity, with no discernible oak", correct: true }
+        - { text: "A tannic Blaufränkisch red", correct: false }
+        - { text: "Always a botrytis dessert wine", correct: false }
+      explanation: |
+        **Light, fresh and fruity, with no discernible oak.** The
+        everyday peppery Grüner from Austria’s largest region.
+
+  - id: austria-weinviertel-reserve-001
+    type: mcq
+    deck: Austria
+    tags: [austria, weinviertel]
+    status: reviewed
+    source_id: c23-0040
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How does Weinviertel DAC Reserve differ from Klassik?
+      choices:
+        - { text: "Reserve must be a red wine with no alcohol minimum", correct: false }
+        - { text: "Reserve has a higher minimum alcohol than Klassik, and oak ageing is allowed", correct: true }
+        - { text: "Oak is banned, and Reserve must be sweeter", correct: false }
+        - { text: "Reserve may only be made from Riesling", correct: false }
+      explanation: |
+        **Reserve has a higher minimum alcohol than Klassik, and oak
+        ageing is allowed.** Still Grüner Veltliner; just a richer
+        tier.
+
+  - id: austria-burgenland-map-001
+    type: mcq
+    deck: Austria
+    tags: [austria, burgenland]
+    status: reviewed
+    source_id: c23-0041
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which Austrian state lines the Hungarian border, south-east of Vienna?
+      choices:
+        - { text: "Tyrol", correct: false }
+        - { text: "Burgenland", correct: true }
+        - { text: "Wachau", correct: false }
+        - { text: "On the Italian border south of Steiermark", correct: false }
+      explanation: |
+        **Burgenland.** Pannonian warmth; the lake and the red
+        hills are here, not on the Danube terraces.
+
+  - id: austria-burgenland-fame-001
+    type: mcq
+    deck: Austria
+    tags: [austria, burgenland]
+    status: reviewed
+    source_id: c23-0042
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Beside the Hungarian border, Burgenland’s fame rests on which two wine types?
+      choices:
+        - { text: "Only dry Danube Riesling and Grüner Veltliner", correct: false }
+        - { text: "Top-quality sweet wines and red wines", correct: true }
+        - { text: "Only alpine icewine from Tyrol", correct: false }
+        - { text: "Only Sekt from Wien", correct: false }
+      explanation: |
+        **Top-quality sweet wines and red wines.** Neusiedlersee for
+        the sweet bottles; Blaufränkisch and Zweigelt for the reds.
+        Dry Danube whites are a Wachau / Kremstal / Kamptal story.
+
+  - id: austria-burgenland-dry-white-001
+    type: mcq
+    deck: Austria
+    tags: [austria, burgenland]
+    status: reviewed
+    source_id: c23-0043
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Besides sweet wines and reds, which extra style does Burgenland bottle?
+      choices:
+        - { text: "Only fortified red", correct: false }
+        - { text: "Dry whites", correct: true }
+        - { text: "No still wine at all", correct: false }
+        - { text: "Only icewine from frozen Danube terraces", correct: false }
+      explanation: |
+        **Dry whites.** They exist; they are not what made the
+        region’s name.
+
+  - id: austria-burgenland-white-grapes-001
+    type: mcq
+    deck: Austria
+    tags: [austria, burgenland, grapes]
+    status: reviewed
+    source_id: c23-0044
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: A dry Burgenland white is typically which mix, not a Danube Riesling?
+      choices:
+        - { text: "Nebbiolo and Sangiovese only", correct: false }
+        - { text: "Pinot Blanc, Welschriesling, Grüner Veltliner and Chardonnay", correct: true }
+        - { text: "Only Roter Veltliner", correct: false }
+        - { text: "Zweigelt and St Laurent only", correct: false }
+      explanation: |
+        **Pinot Blanc, Welschriesling, Grüner Veltliner and
+        Chardonnay.** The dry-white supporting cast; sweet bottles
+        often lean on Welschriesling.
+
+  - id: austria-neusiedlersee-sweet-001
+    type: mcq
+    deck: Austria
+    tags: [austria, burgenland]
+    status: reviewed
+    source_id: c23-0045
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Burgenland’s botrytis belt clusters around which shallow lake?
+      choices:
+        - { text: "Bodensee", correct: false }
+        - { text: "Neusiedlersee", correct: true }
+        - { text: "Attersee", correct: false }
+        - { text: "Balaton", correct: false }
+      explanation: |
+        **Neusiedlersee.** Lake-side noble rot — the opposite
+        landscape from Wachau’s dry terraces.
+
+  - id: austria-neusiedlersee-lake-001
+    type: mcq
+    deck: Austria
+    tags: [austria, burgenland]
+    status: reviewed
+    source_id: c23-0046
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: The large, very shallow lake in northern Burgenland is called what?
+      choices:
+        - { text: "The Bodensee", correct: false }
+        - { text: "Neusiedlersee", correct: true }
+        - { text: "The Danube gorge at Dürnstein", correct: false }
+        - { text: "A DAC in Steiermark", correct: false }
+      explanation: |
+        **Neusiedlersee.** Shared with Hungary (Fertő); the
+        shallows feed the autumn mist.
+
+  - id: austria-sweet-sites-001
+    type: mcq
+    deck: Austria
+    tags: [austria, burgenland]
+    status: reviewed
+    source_id: c23-0047
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Botrytis fruit by Neusiedlersee is usually grown on which landform, not a high plateau?
+      choices:
+        - { text: "On high, dry plateaux far from any water", correct: false }
+        - { text: "On low-lying ground near the lake", correct: true }
+        - { text: "Only on Wachau stone terraces", correct: false }
+        - { text: "Indoor only", correct: false }
+      explanation: |
+        **On low-lying ground near the lake.** Height here is for
+        reds; the sweet sites stay down in the mist.
+
+  - id: austria-noble-rot-mist-001
+    type: mcq
+    deck: Austria
+    tags: [austria, burgenland]
+    status: reviewed
+    source_id: c23-0048
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Low ground by Neusiedlersee favours dessert wine because autumn brings what from the lake?
+      choices:
+        - { text: "Dry alpine föhn that prevents botrytis", correct: false }
+        - { text: "Autumn mists that promote noble rot", correct: true }
+        - { text: "Salt spray that makes flor sherry", correct: false }
+        - { text: "Permanent snow that forces Eiswein only", correct: false }
+      explanation: |
+        **Autumn mists that promote noble rot.** Fog plus residual
+        warmth is the botrytis engine.
+
+  - id: austria-botrytis-every-year-001
+    type: mcq
+    deck: Austria
+    tags: [austria, burgenland]
+    status: reviewed
+    source_id: c23-0049
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Compared with Sauternes or the Mosel, noble rot at Neusiedlersee is how reliable?
+      choices:
+        - { text: "Noble rot fails most years, like a cool, dry Mosel autumn", correct: false }
+        - { text: "Noble rot is almost guaranteed every year", correct: true }
+        - { text: "Botrytis is illegal in Burgenland", correct: false }
+        - { text: "Noble rot occurs only once a decade", correct: false }
+      explanation: |
+        **Noble rot is almost guaranteed every year.** The shallow lake
+        makes it far more reliable than in Sauternes or Germany.
+
+  - id: austria-sweet-welschriesling-001
+    type: mcq
+    deck: Austria
+    tags: [austria, grapes, burgenland]
+    status: reviewed
+    source_id: c23-0050
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Lake-side Austrian dessert wine is most often made from which white, not Riesling?
+      choices:
+        - { text: "Riesling only, as on the Mosel", correct: false }
+        - { text: "Welschriesling", correct: true }
+        - { text: "Roter Veltliner only", correct: false }
+        - { text: "Zweigelt only", correct: false }
+      explanation: |
+        **Welschriesling.** A different grape from Riesling. Dry
+        bottles are simple; by the lake the same variety takes
+        botrytis.
