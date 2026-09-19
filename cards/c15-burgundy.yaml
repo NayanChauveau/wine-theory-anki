@@ -2,4 +2,454 @@
 # source: C15 (import/inbox/c15-burgundy.yaml)
 # deck: France::Burgundy
 
-cards: []
+cards:
+  - id: burgundy-climate-split-001
+    type: mcq
+    deck: France::Burgundy
+    tags: [france, burgundy, climate]
+    status: reviewed
+    source_id: c15-0001
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How does Burgundy’s climate change from Chablis down to the Mâconnais?
+      choices:
+        - { text: "Hot maritime everywhere, like Bordeaux", correct: false }
+        - { text: "Cool continental in the north, moderate continental further south", correct: true }
+        - { text: "Tropical monsoon in Chablis only", correct: false }
+        - { text: "Alpine ice year-round", correct: false }
+      explanation: |
+        **Chablis** is the cold pole. The **Côte d’Or** and especially the
+        **Mâconnais** are a step warmer — still continental, not Atlantic.
+
+  - id: burgundy-rain-timing-001
+    type: mcq
+    deck: France::Burgundy
+    tags: [france, burgundy, climate]
+    status: reviewed
+    source_id: c15-0002
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: When does rain most often spoil a Burgundy crop?
+      choices:
+        - { text: "Only in January, when the vines are dormant", correct: false }
+        - { text: "At flowering in early summer, and again around harvest", correct: true }
+        - { text: "Rain is illegal in the Côte d’Or", correct: false }
+        - { text: "Only on the day the 1855 list was signed", correct: false }
+      explanation: |
+        A wet **June** hits fruit set (coulure). A wet **September** hits
+        pick and feeds rot. **2013** is the named wet, late harvest.
+
+  - id: burgundy-pinot-rot-001
+    type: mcq
+    deck: France::Burgundy
+    tags: [france, burgundy]
+    status: reviewed
+    source_id: c15-0003
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Tight bunches and thin skins make which Côte grape rot-prone in a wet September?
+      choices:
+        - { text: "Aligoté", correct: false }
+        - { text: "Pinot Noir", correct: true }
+        - { text: "Sauvignon Blanc in Saint-Bris only", correct: false }
+        - { text: "Syrah", correct: false }
+      explanation: |
+        Tight **Pinot** bunches and thin skins. Chardonnay can rot too;
+        Pinot is still the first grape growers worry about after hail.
+
+  - id: burgundy-chablis-frost-001
+    type: mcq
+    deck: France::Burgundy
+    tags: [france, burgundy, chablis, climate]
+    status: reviewed
+    source_id: c15-0004
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which hazard is Chablis more famous for than the Côte d’Or?
+      choices:
+        - { text: "Drought that never breaks", correct: false }
+        - { text: "Spring frost", correct: true }
+        - { text: "A legal ban on heaters", correct: false }
+        - { text: "Hurricanes every August", correct: false }
+      explanation: |
+        Chablis sits further **north** and in a frost pocket. Smudge pots,
+        cables and aspersion are the local toolkit. The Côte d’Or still
+        froze in **2021** — Chablis is the named specialist, not the only
+        victim.
+
+  - id: burgundy-frost-may-001
+    type: mcq
+    deck: France::Burgundy
+    tags: [france, burgundy, chablis, climate]
+    status: reviewed
+    source_id: c15-0005
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Into which month can a Chablis frost still kill new shoots?
+      choices:
+        - { text: "August", correct: false }
+        - { text: "May", correct: true }
+        - { text: "November only", correct: false }
+        - { text: "It never frosts after 1 January", correct: false }
+      explanation: |
+        Budburst is early; a **May** frost is still on the calendar.
+        **2021** hit in April, but the late-spring risk is why aspersion
+        stays up.
+
+  - id: burgundy-hail-001
+    type: mcq
+    deck: France::Burgundy
+    tags: [france, burgundy, climate]
+    status: reviewed
+    source_id: c15-0006
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Besides frost, which summer shock regularly shreds Côte d’Or crops?
+      choices:
+        - { text: "A legal duty to irrigate with seawater", correct: false }
+        - { text: "Hail", correct: true }
+        - { text: "Only polar night in July", correct: false }
+        - { text: "Earthquakes that rip out every vine", correct: false }
+      explanation: |
+        **Hail** tracks along the Côte. **2012–2014** battered Volnay and
+        Meursault; nets and anti-hail cannon are now part of the landscape.
+
+  - id: burgundy-village-sites-001
+    type: mcq
+    deck: France::Burgundy
+    tags: [france, burgundy]
+    status: reviewed
+    source_id: c15-0007
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Relative to the Côte slope, where do Bourgogne AOC and many village wines sit?
+      choices:
+        - { text: "Only on the crest above every grand cru", correct: false }
+        - { text: "On the flat or at the foot of the slope", correct: true }
+        - { text: "Only above 2 000 m", correct: false }
+        - { text: "Only in the Landes forest", correct: false }
+      explanation: |
+        The **plain** and the **slope-foot** are deeper, colder and more
+        vigorous. Some village climats do sit mid-slope — “usually”, not
+        “never mid-slope”.
+
+  - id: burgundy-cru-midslope-001
+    type: mcq
+    deck: France::Burgundy
+    tags: [france, burgundy]
+    status: reviewed
+    source_id: c15-0008
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: On a Côte d’Or hillside, which band holds most of the classed climats?
+      choices:
+        - { text: "Only on the valley floor next to the autoroute", correct: false }
+        - { text: "Mid-slope", correct: true }
+        - { text: "Only on the high plateau with no stone", correct: false }
+        - { text: "Only underwater in the Saône", correct: false }
+      explanation: |
+        The **mid-slope** is the sweet band of drainage and sun. **Clos de
+        Vougeot** still runs down into the village — “often”, not a legal
+        altitude line.
+
+  - id: burgundy-midslope-frost-001
+    type: mcq
+    deck: France::Burgundy
+    tags: [france, burgundy, climate]
+    status: reviewed
+    source_id: c15-0009
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Why is a mid-slope climat safer than the valley floor on a frost night?
+      choices:
+        - { text: "Cold air is illegal above 200 m", correct: false }
+        - { text: "Cold air drains downhill, so the mid-slope is less prone to frost", correct: true }
+        - { text: "The mid-slope is always 10 °C warmer by AOC law", correct: false }
+        - { text: "There is no wind anywhere on the Côte", correct: false }
+      explanation: |
+        **Katabatic** drainage: frost pools on the flats (and in hollows
+        like parts of Chablis). Mid-slope is not frost-proof — just safer.
+
+  - id: burgundy-aspect-001
+    type: mcq
+    deck: France::Burgundy
+    tags: [france, burgundy]
+    status: reviewed
+    source_id: c15-0010
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which aspect do the Côte d’Or’s best climats usually take?
+      choices:
+        - { text: "Due north, into the prevailing shade", correct: false }
+        - { text: "South or east", correct: true }
+        - { text: "Only due west into the Atlantic storm", correct: false }
+        - { text: "They must face the Alps", correct: false }
+      explanation: |
+        The Côte looks toward the **Saône**: roughly **east to
+        south-east**. Chablis grands crus are the named exception — they
+        face **south-west** over the Serein.
+
+  - id: burgundy-westerlies-001
+    type: mcq
+    deck: France::Burgundy
+    tags: [france, burgundy, climate]
+    status: reviewed
+    source_id: c15-0011
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Besides extra sun, what does an east-facing Côte d’Or slope keep off the vines?
+      choices:
+        - { text: "All rain for the entire year", correct: false }
+        - { text: "The prevailing westerly winds", correct: true }
+        - { text: "Any need for drainage", correct: false }
+        - { text: "The Saône itself", correct: false }
+      explanation: |
+        Hills to the west (and the **Morvan**) take the wet Atlantic
+        punch. The Côte sits in a **lee**. It still rains — just less than
+        a west-facing hill would see.
+
+  - id: burgundy-soils-varied-001
+    type: mcq
+    deck: France::Burgundy
+    tags: [france, burgundy]
+    status: reviewed
+    source_id: c15-0012
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Is there one “Burgundy soil” you can name for the whole region?
+      choices:
+        - { text: "Yes — only desert sand", correct: false }
+        - { text: "No — the soils change over very short distances", correct: true }
+        - { text: "Yes — only volcanic basalt", correct: false }
+        - { text: "Yes — only peat", correct: false }
+      explanation: |
+        Limestone, marl, clay and scree in a **mosaic**. Chablis Kimmeridge
+        is not Meursault’s limestone, and neither is a Gevrey combe.
+
+  - id: burgundy-faults-001
+    type: mcq
+    deck: France::Burgundy
+    tags: [france, burgundy]
+    status: reviewed
+    source_id: c15-0013
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Why can soil change over a few dozen metres along the Côte?
+      choices:
+        - { text: "A single flood in 1855 laid one soil everywhere", correct: false }
+        - { text: "Many geological faults plus long erosion", correct: true }
+        - { text: "Growers truck in new soil each spring", correct: false }
+        - { text: "EU law requires a different soil per bottle", correct: false }
+      explanation: |
+        The Côte is a **fault scarp**. Combes cut through it. That is why
+        two walls of Clos de Vougeot do not drink the same.
+
+  - id: burgundy-soil-style-001
+    type: mcq
+    deck: France::Burgundy
+    tags: [france, burgundy]
+    status: reviewed
+    source_id: c15-0014
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Why can two neighbouring Gevrey walls taste different even with the same grape and grower?
+      choices:
+        - { text: "A legal grape change every 10 metres", correct: false }
+        - { text: "Changes in soil", correct: true }
+        - { text: "A different négociant tax in each row", correct: false }
+        - { text: "The bottles are different colours only", correct: false }
+      explanation: |
+        **Soil** is the story on the label. Clone, vintage and grower move
+        the wine as much — do not treat a clay/limestone line as destiny.
+
+  - id: burgundy-hillside-soil-001
+    type: mcq
+    deck: France::Burgundy
+    tags: [france, burgundy]
+    status: reviewed
+    source_id: c15-0015
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How do hillside soils on the Côte usually differ from the plain?
+      choices:
+        - { text: "They are deeper and wetter than the valley floor", correct: false }
+        - { text: "They are shallower and better drained", correct: true }
+        - { text: "They are solid ice", correct: false }
+        - { text: "They cannot grow vines by law", correct: false }
+      explanation: |
+        **Thin, drained** slopes. The plain below is the opposite: deep
+        and fertile, hence regional Bourgogne rather than a grand cru.
+
+  - id: burgundy-plain-soil-001
+    type: mcq
+    deck: France::Burgundy
+    tags: [france, burgundy]
+    status: reviewed
+    source_id: c15-0015
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What are soils like on the flat land below the Côte?
+      choices:
+        - { text: "Always bare rock with no fertility", correct: false }
+        - { text: "Deeper and more fertile", correct: true }
+        - { text: "Only desert dune", correct: false }
+        - { text: "Only granite like the Beaujolais crus", correct: false }
+      explanation: |
+        **Deep, rich, wetter** — vigour and dilution. That is Bourgogne
+        AOC country, not Musigny.
+
+  - id: burgundy-four-grapes-001
+    type: mcq
+    deck: France::Burgundy
+    tags: [france, burgundy]
+    status: reviewed
+    source_id: c15-0016
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Pinot Noir and Chardonnay plus which two other grapes fill most Burgundy vineyards?
+      choices:
+        - { text: "Cabernet Sauvignon, Merlot, Cabernet Franc, Petit Verdot", correct: false }
+        - { text: "Aligoté and Gamay", correct: true }
+        - { text: "Tempranillo, Garnacha, Graciano, Mazuelo", correct: false }
+        - { text: "Riesling, Silvaner, Müller-Thurgau, Gewurztraminer", correct: false }
+      explanation: |
+        The workhorses. **Saint-Bris** Sauvignon and **Irancy** César sit
+        outside that four — do not say the list is legally closed.
+
+  - id: burgundy-pinot-share-001
+    type: mcq
+    deck: France::Burgundy
+    tags: [france, burgundy]
+    status: reviewed
+    source_id: c15-0017
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Is Pinot Noir the majority of Burgundy’s hectares?
+      choices:
+        - { text: "Under 2%, and only in Chablis", correct: false }
+        - { text: "No — more than a third, not the majority", correct: true }
+        - { text: "Exactly 100%", correct: false }
+        - { text: "Pinot is illegal in the Côte de Nuits", correct: false }
+      explanation: |
+        **More than a third**, not the majority. **Chardonnay** (Chablis
+        + Mâconnais) often edges it on hectares. Do not nail a single
+        percentage that moves with each census.
+
+  - id: burgundy-pinot-where-001
+    type: mcq
+    deck: France::Burgundy
+    tags: [france, burgundy]
+    status: reviewed
+    source_id: c15-0018
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which district is Burgundy’s prestige Pinot belt?
+      choices:
+        - { text: "Only in Chablis grand cru", correct: false }
+        - { text: "The Côte d’Or", correct: true }
+        - { text: "Only in Sauternes", correct: false }
+        - { text: "Only in the Mâconnais, never further north", correct: false }
+      explanation: |
+        **Côte de Nuits** and the red Côte de Beaune are the prestige
+        belt. Chalonnaise and Irancy plant it too; Chablis barely does.
+
+  - id: burgundy-pinot-fruit-001
+    type: mcq
+    deck: France::Burgundy
+    tags: [france, burgundy]
+    status: reviewed
+    source_id: c15-0019
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What fruit does young Côte d’Or Pinot usually show?
+      choices:
+        - { text: "Only banana and coconut", correct: false }
+        - { text: "Red fruit", correct: true }
+        - { text: "Only noble-rot saffron", correct: false }
+        - { text: "Only blackcurrant and cedar like Pauillac", correct: false }
+      explanation: |
+        **Strawberry / cherry / raspberry**, then the sous-bois register.
+        A hot year (2018, 2020) can look darker — the classic teaching
+        is still red fruit first.
+
+  - id: burgundy-pinot-structure-001
+    type: mcq
+    deck: France::Burgundy
+    tags: [france, burgundy]
+    status: reviewed
+    source_id: c15-0019
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Where do acidity and tannin usually sit on a classic red Burgundy?
+      choices:
+        - { text: "Low acid and massive Cabernet tannin", correct: false }
+        - { text: "High acidity and low to medium tannin", correct: true }
+        - { text: "No acid and no tannin", correct: false }
+        - { text: "Only residual sugar, no structure", correct: false }
+      explanation: |
+        **High acid, modest tannin** — Pinot is not a Médoc. Whole-bunch
+        and a long maceration can push the tannin up; that is a style
+        choice, not the regional default.
+
+  - id: burgundy-whole-bunch-001
+    type: mcq
+    deck: France::Burgundy
+    tags: [france, burgundy]
+    status: reviewed
+    source_id: c15-0020
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which ferment choice has become more common again for Côte d’Or Pinot?
+      choices:
+        - { text: "A legal ban on all stems", correct: false }
+        - { text: "Keeping some or all of the bunches whole", correct: true }
+        - { text: "Only carbonic Gamay in a sealed plastic bag", correct: false }
+        - { text: "Boiling the must", correct: false }
+      explanation: |
+        **Whole-bunch / vendange entière**. **Dujac** and **DRC** never
+        really left it; many newer domaines have come back to stems for
+        perfume and a different tannin.
