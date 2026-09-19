@@ -80,6 +80,18 @@ cards:
         **Bordeaux** is the giant by **volume** (and planted area) among French
         AOCs. **Champagne** usually beats it on export **value**. A large IGP
         such as Pays d’Oc can also move huge hectolitres — that is not an AOC.
+    fr:
+      question: Quelle AOC française a le plus gros volume de vin ?
+      choices:
+        - { text: "Chablis", correct: false }
+        - { text: "Bordeaux", correct: true }
+        - { text: "Sancerre", correct: false }
+        - { text: "Bandol", correct: false }
+      explanation: |
+        **Bordeaux** est le géant en **volume** (et en superficie) parmi les
+        AOC françaises. **Champagne** le dépasse souvent en **valeur** à
+        l’export. Une IGP vaste comme le Pays d’Oc peut aussi bouger d’énormes
+        hectolitres — ce n’est pas une AOC.
 
   - id: bordeaux-climate-001
     type: mcq
@@ -100,6 +112,16 @@ cards:
       explanation: |
         The **Atlantic** keeps winters mild and summers moderate. That is
         **maritime**, not a landlocked continental swing.
+    fr:
+      question: Comment qualifier le climat de la Gironde ?
+      choices:
+        - { text: "Continental chaud", correct: false }
+        - { text: "Maritime tempéré", correct: true }
+        - { text: "Alpin frais", correct: false }
+        - { text: "Tropical de mousson", correct: false }
+      explanation: |
+        L’**Atlantique** adoucit les hivers et tempère les étés. C’est un
+        climat **maritime tempéré**, pas un continental enclavé.
 
   - id: bordeaux-gulf-stream-001
     type: mcq
@@ -120,6 +142,17 @@ cards:
       explanation: |
         Warm ocean water arriving from the Caribbean **stretches** the season
         so late varieties can still finish.
+    fr:
+      question: Quel effet le Gulf Stream a-t-il sur la saison végétative à Bordeaux ?
+      choices:
+        - { text: "Il la réduit au seul mois de juin", correct: false }
+        - { text: "Il l’allonge", correct: true }
+        - { text: "Il arrête toute pluie", correct: false }
+        - { text: "Il gèle la Gironde chaque mai", correct: false }
+      explanation: |
+        **Il l’allonge.** L’eau océanique chaude venue des Caraïbes
+        étire la saison végétative, ce qui permet aux cépages tardifs
+        de finir leur maturité.
 
   - id: bordeaux-october-ripen-001
     type: mcq
@@ -140,6 +173,17 @@ cards:
       explanation: |
         Cabernet Sauvignon in particular can hang **into October**. That is
         why autumn rain is a vintage-maker.
+    fr:
+      question: Jusqu’à quel mois le Cabernet peut-il encore rester sur pied lors d’un millésime lent ?
+      choices:
+        - { text: "On le vendange toujours en juillet", correct: false }
+        - { text: "Jusqu’en octobre", correct: true }
+        - { text: "Jamais après le 14 juillet", correct: false }
+        - { text: "Seulement en janvier sous la glace", correct: false }
+      explanation: |
+        Le Cabernet Sauvignon surtout peut rester sur pied **jusqu’en
+        octobre**. D’où le rôle décisif de la pluie d’automne sur le
+        millésime.
 
   - id: bordeaux-frost-rare-001
     type: mcq
@@ -161,6 +205,17 @@ cards:
         Mild Atlantic air makes **widespread spring frost** less common than
         in Chablis or Champagne. It is not a guarantee: **2017** and **2021**
         still froze large parts of the vineyard.
+    fr:
+      question: De quoi le Gulf Stream préserve-t-il surtout la Gironde une année moyenne ?
+      choices:
+        - { text: "Toute pluie après juin", correct: false }
+        - { text: "Un gel de printemps généralisé", correct: true }
+        - { text: "Tout besoin de drainage", correct: false }
+        - { text: "Toute variation de millésime", correct: false }
+      explanation: |
+        L’air atlantique doux rend un **gel de printemps généralisé** moins
+        fréquent qu’à Chablis ou en Champagne. Ce n’est pas une garantie :
+        **2017** et **2021** ont quand même gelé de vastes pans du vignoble.
 
   - id: bordeaux-atlantic-rain-001
     type: mcq
@@ -181,6 +236,16 @@ cards:
       explanation: |
         **Wet air and frequent rain** are the maritime tax. Humidity also
         feeds rot.
+    fr:
+      question: Que change la proximité de l’Atlantique au temps bordelais ?
+      choices:
+        - { text: "Elle assèche complètement le vignoble", correct: false }
+        - { text: "Elle apporte beaucoup de pluie et d’humidité", correct: true }
+        - { text: "Elle impose un hiver polaire chaque année", correct: false }
+        - { text: "Elle empêche les nuages de se former", correct: false }
+      explanation: |
+        Elle **apporte beaucoup de pluie et d’humidité** : c’est le tribut
+        maritime. L’humidité nourrit aussi la pourriture.
 
   - id: bordeaux-landes-001
     type: mcq
@@ -201,6 +266,17 @@ cards:
       explanation: |
         The **Landes** pine belt and the **dunes** sit between the ocean and
         the vines. They do not stop rain; they knock the edge off the wind.
+    fr:
+      question: Quels deux reliefs s’interposent entre l’océan et les vignes du Médoc ?
+      choices:
+        - { text: "Les Alpes", correct: false }
+        - { text: "La forêt des Landes et les dunes littorales", correct: true }
+        - { text: "Un toit de verre au-dessus du Médoc", correct: false }
+        - { text: "Le seul Massif central", correct: false }
+      explanation: |
+        **La forêt des Landes et les dunes littorales** se dressent entre
+        l’océan et les vignes. Elles n’arrêtent pas la pluie ; elles cassent
+        la force du vent.
 
   - id: bordeaux-rain-risks-001
     type: mcq
@@ -221,6 +297,17 @@ cards:
       explanation: |
         Three separate hits: **coulure / millerandage** at flower, **rot** in
         a wet summer, **dilution** if it pours at harvest.
+    fr:
+      question: Comment la pluie fréquente peut-elle gâcher un millésime bordelais ?
+      choices:
+        - { text: "Elle ne fait que foncer la robe", correct: false }
+        - { text: "Elle peut ruiner la floraison et la nouaison, nourrir la pourriture et diluer les arômes à la vendange", correct: true }
+        - { text: "La pluie est interdite en Gironde", correct: false }
+        - { text: "Elle relève toujours le degré", correct: false }
+      explanation: |
+        Elle peut **ruiner la floraison et la nouaison, nourrir la pourriture et diluer les arômes à la vendange**.
+        Trois coups distincts : **coulure / millerandage** à la fleur,
+        **pourriture** un été humide, **dilution** s’il verse à la vendange.
 
   - id: bordeaux-vintage-rain-001
     type: mcq
@@ -241,6 +328,18 @@ cards:
       explanation: |
         The **rain lottery** is the main reason 2013 and 2018 do not taste
         like twins. Heat spikes matter too; water is the classic exam lever.
+    fr:
+      question: Pourquoi les millésimes bordelais varient-ils autant ?
+      choices:
+        - { text: "Parce que chaque château doit vendanger le même lundi", correct: false }
+        - { text: "Parce que la pluie peut compromettre la floraison, l’état sanitaire ou la concentration à la récolte", correct: true }
+        - { text: "Parce que la région n’a pas de fleuves", correct: false }
+        - { text: "Parce que le gel survient chaque semaine", correct: false }
+      explanation: |
+        Parce que la **pluie peut compromettre la floraison, l’état sanitaire
+        ou la concentration à la récolte**. Cette loterie explique surtout
+        que 2013 et 2018 ne se ressemblent pas. Les pics de chaleur comptent
+        aussi ; l’eau reste le levier classique.
 
   - id: bordeaux-sorting-001
     type: mcq
@@ -262,6 +361,18 @@ cards:
         **Table sorting** (and optical sorters at the top addresses) keep
         green and rotten berries out of the grand vin. Second wines absorb
         the rest.
+    fr:
+      question: Comment les châteaux ambitieux atténuent-ils cette variation de millésime ?
+      choices:
+        - { text: "En mettant en bouteille chaque baie récoltée", correct: false }
+        - { text: "En écartant les raisins malades et les raisins verts", correct: true }
+        - { text: "En irrigant à l’eau de mer", correct: false }
+        - { text: "En vendangeant en mars", correct: false }
+      explanation: |
+        Ils **écartent les raisins malades et les raisins verts**.
+        Le **tri sur table** (et les trieuses optiques chez les plus grandes
+        adresses) tient les baies vertes et pourries hors du grand vin. Les
+        seconds vins absorbent le reste.
 
   - id: bordeaux-canopy-health-001
     type: mcq
@@ -283,6 +394,18 @@ cards:
         Open canopies dry the fruit and ripen it. Growers still spray — they
         just **spray less blindly**. Do not read that as “Bordeaux went
         spray-free”.
+    fr:
+      question: Après le tri des baies, quel changement à la vigne a le plus amélioré maturité et état sanitaire moyens ?
+      choices:
+        - { text: "Une interdiction légale de tout travail de feuillage", correct: false }
+        - { text: "Un travail du feuillage plus soigné et des traitements plus ciblés", correct: true }
+        - { text: "Planter uniquement sous verre", correct: false }
+        - { text: "Vendanger deux mois plus tôt qu’en 1970", correct: false }
+      explanation: |
+        Un **travail du feuillage plus soigné et des traitements plus ciblés**.
+        Un feuillage ouvert sèche le fruit et le mûrit. On traite encore —
+        on **traite moins à l’aveugle**. Cela ne veut pas dire que Bordeaux
+        est devenu sans traitement.
 
   - id: bordeaux-blended-001
     type: mcq
@@ -303,6 +426,16 @@ cards:
       explanation: |
         **Assemblage** is the house style. A 100% Merlot Pomerol exists, but
         it is the exception, not the rule the chapter teaches.
+    fr:
+      question: Comment sont élaborés presque tous les rouges de Bordeaux, et la plupart des blancs ?
+      choices:
+        - { text: "En vins de cépage unique, par la loi", correct: false }
+        - { text: "En assemblage", correct: true }
+        - { text: "Uniquement en vin effervescent", correct: false }
+        - { text: "Uniquement à partir de raisins séchés", correct: false }
+      explanation: |
+        L’**assemblage** est le style de la maison. Un Pomerol 100 % Merlot
+        existe, mais c’est l’exception, pas la règle habituelle.
 
   - id: bordeaux-blend-why-001
     type: mcq
@@ -323,6 +456,17 @@ cards:
       explanation: |
         A cold wet week can wreck **one** flowering. A second variety that
         flowers later still has a crop.
+    fr:
+      question: Pourquoi assembler à Bordeaux ?
+      choices:
+        - { text: "Le droit de l’UE interdit de nommer un cépage", correct: false }
+        - { text: "Le temps est trop irrégulier pour miser la récolte sur un seul cépage", correct: true }
+        - { text: "Le Merlot est interdit sur la rive gauche", correct: false }
+        - { text: "L’assemblage relève le degré légal de 3 %", correct: false }
+      explanation: |
+        Le **temps est trop irrégulier pour miser la récolte sur un seul cépage**.
+        Une semaine froide et humide peut ruiner **une** floraison. Un second
+        cépage qui fleurit plus tard garde une récolte.
 
   - id: bordeaux-staggered-ripen-001
     type: mcq
@@ -343,6 +487,18 @@ cards:
       explanation: |
         **Merlot** flowers and ripens first; **Cabernet Sauvignon** last.
         A May storm or an October downpour usually hits one, not both.
+    fr:
+      question: Pourquoi ce mélange de cépages fonctionne-t-il vraiment ?
+      choices:
+        - { text: "Ils fleurissent et mûrissent tous le même matin", correct: false }
+        - { text: "Ils fleurissent et mûrissent selon des calendriers différents, si bien qu’une mauvaise semaine tue rarement toute la récolte", correct: true }
+        - { text: "Un seul cépage est autorisé", correct: false }
+        - { text: "La pluie ne peut plus tomber après le 1er juin", correct: false }
+      explanation: |
+        Ils **fleurissent et mûrissent selon des calendriers différents**.
+        Le **Merlot** fleurit et mûrit le premier ; le **Cabernet Sauvignon**
+        le dernier. Un orage de mai ou une averse d’octobre touche en
+        général l’un, pas les deux.
 
   - id: bordeaux-varieties-count-001
     type: mcq
@@ -364,6 +520,18 @@ cards:
         The historic set is **thirteen**. In **2021** INAO added Touriga
         Nacional, Marselan, Castets, Arinarnoa, Alvarinho and Liliorila to
         Bordeaux / Bordeaux Supérieur — not to every communal AOC.
+    fr:
+      question: Combien de cépages le cahier des charges de l’AOC Bordeaux autorisait-il avant les ajouts de 2021 ?
+      choices:
+        - { text: "Deux, et seulement des Cabernet", correct: false }
+        - { text: "Treize", correct: true }
+        - { text: "Cent, Riesling compris", correct: false }
+        - { text: "Aucun — seule la pomme est légale", correct: false }
+      explanation: |
+        L’ensemble historique compte **treize**. En **2021**, l’INAO a ajouté
+        Touriga Nacional, Marselan, Castets, Arinarnoa, Alvarinho et
+        Liliorila à Bordeaux / Bordeaux Supérieur — pas à chaque AOC
+        communale.
 
   - id: bordeaux-five-main-count-001
     type: mcq
@@ -385,6 +553,18 @@ cards:
         **Cabernet Sauvignon, Merlot, Cabernet Franc** plus **Sémillon** and
         **Sauvignon Blanc**. Petit Verdot, Malbec, Carmenère and Muscadelle
         are seasoning.
+    fr:
+      question: Combien de cépages portent réellement le quotidien de la région ?
+      choices:
+        - { text: "Les treize à parts égales", correct: false }
+        - { text: "Trois noirs et deux blancs — cinq au quotidien", correct: true }
+        - { text: "Seulement le Carmenère", correct: false }
+        - { text: "Vingt-quatre clones officiels de Chardonnay", correct: false }
+      explanation: |
+        **Trois noirs et deux blancs — cinq au quotidien**.
+        **Cabernet Sauvignon, Merlot, Cabernet Franc** plus **Sémillon** et
+        **Sauvignon Blanc**. Petit Verdot, Malbec, Carmenère et Muscadelle
+        assaisonnent.
 
   - id: bordeaux-five-named-001
     type: mcq
@@ -406,6 +586,18 @@ cards:
         The Left Bank leans **Cabernet Sauvignon**; the Right Bank **Merlot**.
         **Cabernet Franc** is the common seasoning. Dry and sweet whites are
         **Sémillon** and **Sauvignon Blanc**.
+    fr:
+      question: Sur quels cinq cépages s’appuient réellement la plupart des vins de Bordeaux ?
+      choices:
+        - { text: "Pinot Noir, Gamay, Syrah, Viognier, Riesling", correct: false }
+        - { text: "Cabernet Sauvignon, Merlot, Cabernet Franc, Sémillon, Sauvignon Blanc", correct: true }
+        - { text: "Chardonnay, Pinot Gris, Gewurztraminer, Muscat, Silvaner", correct: false }
+        - { text: "Tempranillo, Garnacha, Graciano, Mazuelo, Viura", correct: false }
+      explanation: |
+        La rive gauche penche vers le **Cabernet Sauvignon** ; la rive droite
+        vers le **Merlot**. Le **Cabernet Franc** assaisonne souvent. Les
+        blancs secs et liquoreux reposent sur **Sémillon** et **Sauvignon
+        Blanc**.
 
   - id: bordeaux-cs-haut-medoc-001
     type: mcq
@@ -426,6 +618,16 @@ cards:
       explanation: |
         Warm **gravel in the Haut-Médoc** communes (Margaux through
         Saint-Estèphe) is Cabernet country. Pomerol is Merlot’s home.
+    fr:
+      question: Où le Cabernet Sauvignon mène-t-il le plus nettement l’assemblage ?
+      choices:
+        - { text: "Le plateau argileux de Pomerol", correct: false }
+        - { text: "Le Haut-Médoc", correct: true }
+        - { text: "Seulement à Sauternes", correct: false }
+        - { text: "Les hautes Alpes", correct: false }
+      explanation: |
+        Les **graves chaudes du Haut-Médoc** (de Margaux à Saint-Estèphe)
+        sont le pays du Cabernet. Pomerol est le fief du Merlot.
 
   - id: bordeaux-cs-also-001
     type: mcq
@@ -448,6 +650,19 @@ cards:
         **Médoc AOC** (north of Saint-Estèphe, once called Bas-Médoc) still
         plants it, but Merlot often takes a bigger share there — do not say
         it “dominates” the way it does in Pauillac.
+    fr:
+      question: Où ailleurs le Cabernet Sauvignon pèse-t-il vraiment dans l’assemblage ?
+      choices:
+        - { text: "Seulement en grand cru de Chablis", correct: false }
+        - { text: "L’AOC Médoc (l’ancien Bas-Médoc) et les Graves", correct: true }
+        - { text: "Seulement à Tokaj", correct: false }
+        - { text: "Seulement en AOC Champagne", correct: false }
+      explanation: |
+        Les graves de **Graves / Pessac-Léognan** mûrissent aussi le
+        Cabernet. L’**AOC Médoc** plus fraîche (au nord de Saint-Estèphe,
+        jadis Bas-Médoc) en plante encore, mais le Merlot y prend souvent
+        une plus grande part — on ne dira pas qu’il « domine » comme à
+        Pauillac.
 
   - id: bordeaux-cs-gravel-001
     type: mcq
@@ -469,6 +684,17 @@ cards:
         **Graves** (the stones) store heat and shed water. Cabernet needs
         both. Cool clay on the Right Bank leaves it green in many years;
         Merlot is the safer bet there.
+    fr:
+      question: Pourquoi le Cabernet Sauvignon ne mûrit-il de façon fiable que sur ces terroirs de rive gauche ?
+      choices:
+        - { text: "Le sol est de la glace massive", correct: false }
+        - { text: "Un fort taux de graves et de cailloux réchauffe le vignoble et le draine", correct: true }
+        - { text: "La loi interdit le Cabernet sur les graves", correct: false }
+        - { text: "Ces sites sont au-dessus de 2 000 m", correct: false }
+      explanation: |
+        Les **graves** (les cailloux) emmagasinent la chaleur et évacuent
+        l’eau. Le Cabernet a besoin des deux. L’argile fraîche de rive
+        droite le laisse souvent vert ; le Merlot y est le pari plus sûr.
 
   - id: bordeaux-cs-share-001
     type: mcq
@@ -490,6 +716,18 @@ cards:
         **About 75%** is a typical Left Bank ceiling in a good Cabernet year,
         not a legal cap. Some classed growths go higher; many sit nearer
         60–70% with Merlot filling the rest.
+    fr:
+      question: Dans le Haut-Médoc et les Graves, jusqu’où peut aller la part de Cabernet Sauvignon dans un assemblage ?
+      choices:
+        - { text: "Il est interdit au-delà de 10 %", correct: false }
+        - { text: "Environ les trois quarts lors d’une année mûre", correct: true }
+        - { text: "Toujours 100 % par le cahier des charges", correct: false }
+        - { text: "Le Cabernet est interdit sur la rive gauche", correct: false }
+      explanation: |
+        **Environ les trois quarts** (près de 75 %) est un plafond typique
+        de rive gauche lors d’une bonne année à Cabernet, pas un plafond
+        légal. Certains crus classés vont plus haut ; beaucoup restent
+        vers 60–70 %, le Merlot comblant le reste.
 
   - id: bordeaux-cf-where-001
     type: mcq
@@ -510,6 +748,16 @@ cards:
       explanation: |
         **Saint-Émilion** is Franc’s home (Cheval Blanc, Ausone). It is a
         seasoning grape on the Left Bank, not the lead.
+    fr:
+      question: Quelle AOC de rive droite est la principale adresse bordelaise du Cabernet Franc ?
+      choices:
+        - { text: "Seulement sur les dunes des Landes", correct: false }
+        - { text: "Saint-Émilion", correct: true }
+        - { text: "Seulement à Sauternes", correct: false }
+        - { text: "Seulement au nord de la Loire", correct: false }
+      explanation: |
+        **Saint-Émilion** est le fief du Franc (Cheval Blanc, Ausone). Sur
+        la rive gauche, c’est un cépage d’assaisonnement, pas le meneur.
 
   - id: bordeaux-cf-style-001
     type: mcq
@@ -531,6 +779,18 @@ cards:
         Franc is the **perfume and lift**, not the tannic spine. If it is
         picked too early it goes stalky — same green trap as Cabernet
         Sauvignon, just on an earlier clock.
+    fr:
+      question: Face au Cabernet Sauvignon, qu’apporte généralement un Cabernet Franc mûr à l’assemblage ?
+      choices:
+        - { text: "Plus de corps et plus de tanin", correct: false }
+        - { text: "Moins de corps et de tanin, plus un fruit floral", correct: true }
+        - { text: "Il ne donne que du vin liquoreux", correct: false }
+        - { text: "Il n’a aucun arôme", correct: false }
+      explanation: |
+        **Moins de corps et de tanin, plus un fruit floral**.
+        Le Franc apporte **parfum et légèreté**, pas l’épine tannique. Vendangé
+        trop tôt, il devient végétal — le même piège vert que le Cabernet
+        Sauvignon, simplement plus tôt.
 
   - id: bordeaux-cf-soil-001
     type: mcq
@@ -552,6 +812,18 @@ cards:
         Limestone is **drained but cooler** than Left Bank gravel. Franc’s
         **shorter cycle** finishes there; Cabernet Sauvignon often stays
         green. Warm gravel still suits Franc — it is not a cold-climate grape.
+    fr:
+      question: Pourquoi le Cabernet Franc peut-il mûrir sur le calcaire de Saint-Émilion là où le Cabernet Sauvignon échoue souvent ?
+      choices:
+        - { text: "Le calcaire est plus chaud que les graves du Médoc", correct: false }
+        - { text: "Il mûrit plus tôt, si bien qu’un calcaire drainé mais plus frais suffit encore", correct: true }
+        - { text: "Il ne mûrit que sur le pergélisol", correct: false }
+        - { text: "Le cahier des charges interdit le Franc sur toute pierre", correct: false }
+      explanation: |
+        Le calcaire est **drainé mais plus frais** que les graves de rive
+        gauche. Le **cycle plus court** du Franc s’y termine ; le Cabernet
+        Sauvignon reste souvent vert. Les graves chaudes conviennent aussi
+        au Franc — ce n’est pas un cépage de climat froid.
 
   - id: bordeaux-merlot-most-planted-001
     type: mcq
@@ -572,6 +844,16 @@ cards:
       explanation: |
         **Merlot** is more than half the vineyard. It ripens earlier, so it
         is the safer plant on clay and in generic Bordeaux AOC.
+    fr:
+      question: Quel cépage noir occupe plus d’hectares à Bordeaux que tout autre ?
+      choices:
+        - { text: "Petit Verdot", correct: false }
+        - { text: "Merlot", correct: true }
+        - { text: "Carmenère", correct: false }
+        - { text: "Muscadelle", correct: false }
+      explanation: |
+        Le **Merlot** couvre plus de la moitié du vignoble. Plus précoce, il
+        est le plant plus sûr sur l’argile et en AOC Bordeaux générique.
 
   - id: bordeaux-merlot-premium-001
     type: mcq
@@ -594,6 +876,19 @@ cards:
         Franc-led; **Ausone** is a Merlot–Franc pair — so not every Right
         Bank icon is a Merlot monologue. Left Bank first growths remain
         Cabernet houses.
+    fr:
+      question: Dans quelles deux AOC le Merlot mène-t-il les grands rouges ?
+      choices:
+        - { text: "Seulement à Sauternes", correct: false }
+        - { text: "Saint-Émilion et Pomerol", correct: true }
+        - { text: "Seulement à Chablis", correct: false }
+        - { text: "Seulement à l’extrême nord de l’AOC Médoc", correct: false }
+      explanation: |
+        **Saint-Émilion et Pomerol**.
+        **Pétrus** et **Le Pin** sont des maisons à Merlot. **Cheval Blanc**
+        est mené par le Franc ; **Ausone** couple Merlot et Franc — tous les
+        icônes de rive droite ne sont donc pas un monologue de Merlot. Les
+        premiers crus de rive gauche restent des maisons à Cabernet.
 
   - id: bordeaux-merlot-clay-001
     type: mcq
@@ -614,6 +909,18 @@ cards:
       explanation: |
         Clay stays **cold and wet**. Merlot’s earlier cycle finishes; Cabernet
         Sauvignon’s does not, except on warmer gravel pockets (Figeac).
+    fr:
+      question: Pourquoi planter du Merlot plutôt que du Cabernet Sauvignon sur les argiles de Saint-Émilion et de Pomerol ?
+      choices:
+        - { text: "Le Cabernet est interdit à l’est de la Dordogne", correct: false }
+        - { text: "Le Merlot peut mûrir sur ces argiles plus fraîches ; le Cabernet Sauvignon reste souvent vert", correct: true }
+        - { text: "L’argile est trop chaude pour le Merlot", correct: false }
+        - { text: "Le Merlot a besoin de 2 000 m d’altitude", correct: false }
+      explanation: |
+        Le **Merlot peut mûrir sur ces argiles plus fraîches** ; le Cabernet Sauvignon reste souvent vert.
+        L’argile reste **froide et humide**. Le cycle plus précoce du Merlot
+        s’y termine ; celui du Cabernet Sauvignon non, sauf sur des poches
+        de graves plus chaudes (Figeac).
 
   - id: bordeaux-merlot-volume-001
     type: mcq
@@ -635,6 +942,18 @@ cards:
         **Merlot** gives earlier sugar, lower tannin, and a crop on clay —
         useful for Bordeaux AOC sold in the first year. Softness is the
         tasting reason; reliability is the economic one.
+    fr:
+      question: Quel cépage remplit la plupart des Bordeaux rouge bon marché et de gros volume ?
+      choices:
+        - { text: "Le Petit Verdot, parce qu’il est le moins cher à cultiver", correct: false }
+        - { text: "Le Merlot, parce qu’il mûrit plus tôt et est plus souple en bouche", correct: true }
+        - { text: "Le Riesling, parce qu’il est indigène de la Gironde", correct: false }
+        - { text: "Seulement le Carmenère", correct: false }
+      explanation: |
+        Le **Merlot** donne du sucre plus tôt, moins de tanin, et une
+        récolte sur l’argile — utile pour un Bordeaux AOC vendu dès la
+        première année. La souplesse est la raison de dégustation ; la
+        fiabilité, la raison économique.
 
   - id: bordeaux-pv-hot-years-001
     type: mcq
@@ -656,6 +975,18 @@ cards:
         **Petit Verdot** is late. In cooler decades it was a 1–3% spice jar.
         Warmer vintages now ripen it more often — do not say it *never*
         ripens today.
+    fr:
+      question: Quel cépage bordelais ne mûrissait pleinement, autrefois, que les étés les plus chauds ?
+      choices:
+        - { text: "Merlot", correct: false }
+        - { text: "Petit Verdot", correct: true }
+        - { text: "Sauvignon Blanc", correct: false }
+        - { text: "Muscadelle", correct: false }
+      explanation: |
+        Le **Petit Verdot** est tardif. Dans les décennies plus fraîches, il
+        n’était qu’un pot d’épices à 1–3 %. Les millésimes plus chauds le
+        mûrissent plus souvent — on ne dira pas qu’il ne mûrit *jamais*
+        aujourd’hui.
 
   - id: bordeaux-pv-style-001
     type: mcq
@@ -676,6 +1007,18 @@ cards:
       explanation: |
         **Ink and structure** — a seasoning grape. **Château Palmer** has
         used a visible share; most Left Bank blends keep it to a few percent.
+    fr:
+      question: Quelle structure un Petit Verdot mûr ajoute-t-il d’habitude ?
+      choices:
+        - { text: "Une robe pâle et presque pas de tanin", correct: false }
+        - { text: "Une robe profonde, un tanin ferme et une courbe de garde lente", correct: true }
+        - { text: "Seulement de la pression de vin effervescent", correct: false }
+        - { text: "La douceur de la pourriture noble", correct: false }
+      explanation: |
+        **Une robe profonde, un tanin ferme et une courbe de garde lente**.
+        **Encre et structure** — un cépage d’assaisonnement. **Château
+        Palmer** en a utilisé une part visible ; la plupart des assemblages
+        de rive gauche le tiennent à quelques pourcents.
 
   - id: bordeaux-pv-role-001
     type: mcq
@@ -696,6 +1039,16 @@ cards:
       explanation: |
         **Colour, tannin, spice** (violet / liquorice). Palmer and a few
         others have used more than a dash; most keep it tiny.
+    fr:
+      question: Qu’ajoute une touche de Petit Verdot à un assemblage de rive gauche ?
+      choices:
+        - { text: "Seulement du sucre résiduel", correct: false }
+        - { text: "De la couleur, du tanin et une note épicée", correct: true }
+        - { text: "Le droit légal d’écrire Champagne", correct: false }
+        - { text: "Rien — on ne l’emploie que pour le blanc", correct: false }
+      explanation: |
+        **Couleur, tanin, épice** (violette / réglisse). Palmer et quelques
+        autres en ont mis plus qu’une pincée ; la plupart le gardent minuscule.
 
   - id: bordeaux-vessels-001
     type: mcq
@@ -716,6 +1069,16 @@ cards:
       explanation: |
         Stainless, wood and **concrete eggs / tanks** all appear. The region
         does not agree on one “best” fermenter.
+    fr:
+      question: Les rouges de Bordeaux fermentent-ils tous dans le même type de cuve ?
+      choices:
+        - { text: "Seulement des amphores romaines, par le cahier des charges", correct: false }
+        - { text: "Non — les domaines choisissent bois, inox ou béton selon leur goût", correct: true }
+        - { text: "Seulement des sacs en plastique", correct: false }
+        - { text: "Seulement des cuves ouvertes à Pinot, jamais de chêne", correct: false }
+      explanation: |
+        Inox, bois et **œufs / cuves en béton** se croisent. La région ne
+        s’accorde pas sur une « meilleure » cuve.
 
   - id: bordeaux-blend-spring-001
     type: mcq
@@ -736,6 +1099,18 @@ cards:
       explanation: |
         After malolactic and a first look at the lots: typically **March–
         June**. En primeur week sits on that early blend.
+    fr:
+      question: Quand la plupart des châteaux assemblent-ils le grand vin ?
+      choices:
+        - { text: "À la vigne, avant la vendange", correct: false }
+        - { text: "Au printemps qui suit le millésime", correct: true }
+        - { text: "Vingt ans après la mise seulement", correct: false }
+        - { text: "Le jour où les fleurs s’ouvrent", correct: false }
+      explanation: |
+        **Au printemps qui suit le millésime**.
+        Après la malo et un premier regard sur les lots : typiquement
+        **mars–juin**. La semaine des primeurs s’appuie sur cet assemblage
+        précoce.
 
   - id: bordeaux-blend-late-001
     type: mcq
@@ -756,6 +1131,18 @@ cards:
       explanation: |
         Late assemblage lets each lot finish barrel time on its own. Still
         a blend at the end — just not the March snapshot.
+    fr:
+      question: Que font certains châteaux au lieu d’assembler dès ce premier printemps ?
+      choices:
+        - { text: "Ils doivent assembler avant la fermentation alcoolique", correct: false }
+        - { text: "Ils gardent les parcelles séparées jusqu’à la fin de l’élevage", correct: true }
+        - { text: "Il leur est interdit d’assembler", correct: false }
+        - { text: "Ils mettent chaque baie en bouteille à part", correct: false }
+      explanation: |
+        Ils **gardent les parcelles séparées jusqu’à la fin de l’élevage**.
+        Un assemblage tardif laisse chaque lot finir son temps de barrique
+        de son côté. C’est encore un assemblage à la fin — simplement pas
+        l’instantané de mars.
 
   - id: bordeaux-second-wine-001
     type: mcq
@@ -777,6 +1164,18 @@ cards:
         **Carruades de Lafite, Forts de Latour, Pagodes de Cos** — the
         named second wines. Surplus or lesser lots can also go to a
         **négociant** blend.
+    fr:
+      question: Qu’advient-il des lots qui manquent le grand vin chez un château de premier plan ?
+      choices:
+        - { text: "Ils doivent être distillés sur place en Cognac", correct: false }
+        - { text: "Ils deviennent un second vin (parfois un troisième), ou partent chez un négociant", correct: true }
+        - { text: "La loi exige de les jeter à l’égout", correct: false }
+        - { text: "On les réétiquette en Sauternes", correct: false }
+      explanation: |
+        Ils deviennent un **second vin** (parfois un troisième), ou partent chez un **négociant**.
+        **Carruades de Lafite, Forts de Latour, Pagodes de Cos** — les
+        seconds vins nommés. Les lots de surplus ou plus faibles peuvent
+        aussi rejoindre un assemblage de **négociant**.
 
   - id: bordeaux-barrique-001
     type: mcq
@@ -798,6 +1197,18 @@ cards:
         The **Bordeaux barrique is 225 L**. First growths may use a very
         high share of **new** oak; many serious wines sit nearer 30–60%.
         Not every château is 100% new.
+    fr:
+      question: Comment élève-t-on d’habitude un rouge de Bordeaux haut de gamme ?
+      choices:
+        - { text: "Seulement en foudres de 10 000 L, jamais en petit chêne", correct: false }
+        - { text: "En barriques de 225 litres, dont une part de bois neuf", correct: true }
+        - { text: "Seulement en bouteille, sans passage en fût", correct: false }
+        - { text: "Seulement en inox pendant vingt ans", correct: false }
+      explanation: |
+        La **barrique bordelaise fait 225 L**. Les premiers crus peuvent
+        employer une très forte part de chêne **neuf** ; beaucoup de vins
+        sérieux restent vers 30–60 %. Tous les châteaux ne sont pas à
+        100 % de neuf.
 
   - id: bordeaux-generic-no-oak-001
     type: mcq
@@ -818,6 +1229,17 @@ cards:
       explanation: |
         Steel or concrete, then bottle. Chips or staves exist at the cheap
         end; **barrique ageing** is not the generic model.
+    fr:
+      question: Quelle part de chêne en barrique voit d’habitude un Bordeaux AOC générique ?
+      choices:
+        - { text: "Trois ans en barriques 100 % neuves", correct: false }
+        - { text: "Peu ou pas", correct: true }
+        - { text: "Un minimum légal de 24 mois en chêne neuf", correct: false }
+        - { text: "Seulement de l’acacia, jamais du chêne", correct: false }
+      explanation: |
+        **Peu ou pas** de barrique.
+        Inox ou béton, puis mise. Copeaux ou douelles existent au bas de
+        gamme ; l’**élevage en barrique** n’est pas le modèle générique.
 
   - id: bordeaux-semillon-sweet-001
     type: mcq
@@ -838,6 +1260,17 @@ cards:
       explanation: |
         **Sémillon** thins its skins and takes noble rot. Sauvignon Blanc
         is the acid partner, not the volume lead, in Sauternes and Barsac.
+    fr:
+      question: Quel cépage mène les vins liquoreux de Bordeaux ?
+      choices:
+        - { text: "Riesling", correct: false }
+        - { text: "Sémillon", correct: true }
+        - { text: "Pinot Gris", correct: false }
+        - { text: "Chardonnay", correct: false }
+      explanation: |
+        Le **Sémillon** amincit ses peaux et prend la pourriture noble. Le
+        Sauvignon Blanc est le partenaire d’acidité, pas le volume, à
+        Sauternes et à Barsac.
 
   - id: bordeaux-pl-blend-001
     type: mcq
@@ -858,6 +1291,17 @@ cards:
       explanation: |
         **Sauvignon Blanc** for lift and aroma; Sémillon for weight. Haut-
         Brion Blanc and the Pessac dry whites sit on that pair.
+    fr:
+      question: Outre le Sémillon, quel cépage construit les blancs secs de Pessac-Léognan et des Graves ?
+      choices:
+        - { text: "Riesling", correct: false }
+        - { text: "Sauvignon Blanc", correct: true }
+        - { text: "Chardonnay", correct: false }
+        - { text: "Viognier", correct: false }
+      explanation: |
+        Le **Sauvignon Blanc** pour l’élan et l’arôme ; le Sémillon pour le
+        corps. Haut-Brion Blanc et les blancs secs de Pessac reposent sur
+        ce couple.
 
   - id: bordeaux-semillon-body-001
     type: mcq
@@ -878,6 +1322,16 @@ cards:
       explanation: |
         **Body** and a waxy texture. Sauvignon Blanc is the high-acid,
         high-aroma half.
+    fr:
+      question: Qu’apporte le Sémillon à ces assemblages secs de Graves / Pessac-Léognan ?
+      choices:
+        - { text: "Seulement de la couleur rouge", correct: false }
+        - { text: "Du corps", correct: true }
+        - { text: "L’interdiction légale du chêne", correct: false }
+        - { text: "De la pression de vin effervescent", correct: false }
+      explanation: |
+        Du **corps** et une texture cireuse. Le Sauvignon Blanc est la
+        moitié plus acide et plus aromatique.
 
   - id: bordeaux-sb-aroma-001
     type: mcq
@@ -898,6 +1352,18 @@ cards:
       explanation: |
         **Grapefruit, lemon, gooseberry / apple** — cooler and less punchy
         than Marlborough, especially once Sémillon and oak join in.
+    fr:
+      question: Quel registre de fruit montrent d’habitude les blancs secs de Bordeaux menés par le Sauvignon Blanc ?
+      choices:
+        - { text: "Seulement banane et noix de coco très marquées", correct: false }
+        - { text: "Agrumes et fruits verts", correct: true }
+        - { text: "Cerise rouge et goudron", correct: false }
+        - { text: "Seulement oxydation et feuille de curry", correct: false }
+      explanation: |
+        **Agrumes et fruits verts**.
+        **Pamplemousse, citron, groseille à maquereau / pomme** — plus
+        frais et moins percutant que Marlborough, surtout une fois le Sémillon
+        et le chêne de la partie.
 
   - id: bordeaux-sb-varietal-001
     type: mcq
@@ -919,6 +1385,19 @@ cards:
         **Entre-Deux-Mers** and generic dry whites can be straight Sauvignon
         Blanc. That is the usual exception to the blend rule — not the only
         one: some Pomerols are near-100% Merlot (Pétrus).
+    fr:
+      question: Quels vins de Bordeaux se mettent le plus souvent en bouteille en cépage unique ?
+      choices:
+        - { text: "Chaque rouge doit être 100 % Cabernet par la loi", correct: false }
+        - { text: "Certains blancs secs élaborés uniquement en Sauvignon Blanc", correct: true }
+        - { text: "Seulement le rosé de Petit Verdot", correct: false }
+        - { text: "Seulement les rouges de Muscadelle", correct: false }
+      explanation: |
+        **Certains blancs secs élaborés uniquement en Sauvignon Blanc**.
+        L’**Entre-Deux-Mers** et les blancs secs génériques peuvent être du
+        Sauvignon Blanc pur. C’est l’exception habituelle à la règle de
+        l’assemblage — pas la seule : certains Pomerol approchent 100 %
+        Merlot (Pétrus).
 
   - id: bordeaux-sb-acid-blend-001
     type: mcq
@@ -939,6 +1418,16 @@ cards:
       explanation: |
         **Acidity and lift**. Sémillon brings the body; Sauvignon Blanc keeps
         the blend from going flabby.
+    fr:
+      question: Qu’apporte surtout le Sauvignon Blanc lorsqu’il est le cépage d’appoint d’un blanc de Bordeaux ?
+      choices:
+        - { text: "Une robe rouge profonde", correct: false }
+        - { text: "Une acidité élevée", correct: true }
+        - { text: "La pourriture noble à lui seul", correct: false }
+        - { text: "Le droit légal d’écrire Sauternes", correct: false }
+      explanation: |
+        **Acidité et élan**. Le Sémillon apporte le corps ; le Sauvignon
+        Blanc empêche l’assemblage de devenir mou.
 
   - id: bordeaux-sb-sweet-acid-001
     type: mcq
@@ -961,6 +1450,19 @@ cards:
         Blanc** keeps **Yquem** (and most Barsac/Sauternes blends) from
         tasting like syrup. **Climens** is the named exception: it is
         bottled as 100% Sémillon.
+    fr:
+      question: Pourquoi garder du Sauvignon Blanc dans un assemblage de Sauternes ou de Barsac ?
+      choices:
+        - { text: "C’est le seul cépage autorisé", correct: false }
+        - { text: "Il fournit l’acidité que le Sémillon en pourriture noble perd", correct: true }
+        - { text: "Il rougit le vin", correct: false }
+        - { text: "Il empêche la botrytis de se former jamais", correct: false }
+      explanation: |
+        Il **fournit l’acidité que le Sémillon en pourriture noble perd**.
+        Le Sémillon botrytisé est riche et peu acide. Une part de
+        **Sauvignon Blanc** empêche **Yquem** (et la plupart des
+        assemblages de Barsac/Sauternes) de goûter comme un sirop.
+        **Climens** est l’exception nommée : il se met en 100 % Sémillon.
 
   - id: bordeaux-muscadelle-flavour-001
     type: mcq
@@ -981,6 +1483,17 @@ cards:
       explanation: |
         Think **Muscat-adjacent perfume**, not a lead grape. A few percent
         is enough.
+    fr:
+      question: Quel arôme la Muscadelle ajoute-t-elle à petite dose ?
+      choices:
+        - { text: "Goudron et roses comme le Nebbiolo", correct: false }
+        - { text: "Une note florale et muscatée", correct: true }
+        - { text: "Fumée et bacon", correct: false }
+        - { text: "Aucune odeur", correct: false }
+      explanation: |
+        **Une note florale et muscatée**.
+        Penser **parfum voisin du Muscat**, pas un cépage de tête. Quelques
+        pourcents suffisent.
 
   - id: bordeaux-muscadelle-role-001
     type: mcq
@@ -1001,6 +1514,16 @@ cards:
       explanation: |
         Seasoning in **dry Graves / Entre-Deux-Mers** and in some **Sauternes**.
         It is never the volume grape.
+    fr:
+      question: La Muscadelle est-elle un cépage de tête ou un assaisonnement dans les blancs de Bordeaux ?
+      choices:
+        - { text: "À 100 % de chaque Médoc rouge", correct: false }
+        - { text: "Un assaisonnement — une petite part de certains blancs secs et liquoreux", correct: true }
+        - { text: "Seulement pour l’effervescent sous AOC Champagne", correct: false }
+        - { text: "Elle est interdite dans chaque AOC de Bordeaux", correct: false }
+      explanation: |
+        Assaisonnement dans les **Graves / Entre-Deux-Mers secs** et dans
+        certains **Sauternes**. Ce n’est jamais le cépage de volume.
 
   - id: bordeaux-cheap-white-style-001
     type: mcq
@@ -1021,6 +1544,17 @@ cards:
       explanation: |
         **Drink-young citrus**. A cheap stave or chip may peek through; that
         is not the Haut-Brion Blanc model.
+    fr:
+      question: Comment goûtent d’habitude les blancs secs de Bordeaux bon marché ?
+      choices:
+        - { text: "Comme un tawny de 20 ans sans fruit", correct: false }
+        - { text: "Frais et fruités, avec tout au plus une pointe de chêne", correct: true }
+        - { text: "Toujours du Sémillon 100 % bois neuf", correct: false }
+        - { text: "Toujours fruits rouges et goudron", correct: false }
+      explanation: |
+        **Frais et fruités, avec tout au plus une pointe de chêne**.
+        **Agrumes à boire jeune**. Une douelle ou un copeau bon marché
+        peut pointer ; ce n’est pas le modèle Haut-Brion Blanc.
 
   - id: bordeaux-cheap-white-vinif-001
     type: mcq
@@ -1040,6 +1574,16 @@ cards:
         - { text: "Dried on mats for six months", correct: false }
       explanation: |
         **Temperature-controlled inert vessels**, then bottle. No long
+        élevage.
+    fr:
+      question: Où fermente typiquement un Entre-Deux-Mers ou un Bordeaux blanc bon marché ?
+      choices:
+        - { text: "Trois ans en barriques 100 % neuves", correct: false }
+        - { text: "Fermentation fraîche en inox ou autre cuve inerte, puis un court repos", correct: true }
+        - { text: "Seulement en cuves ouvertes à Pinot, avec les rafles", correct: false }
+        - { text: "Séché sur claies pendant six mois", correct: false }
+      explanation: |
+        **Cuves inertes à température contrôlée**, puis mise. Pas de long
         élevage.
 
   - id: bordeaux-premium-white-oak-001
@@ -1061,6 +1605,18 @@ cards:
       explanation: |
         Barrel ferment + élevage is the **Smith Haut Lafitte / Haut-Brion
         Blanc** model. Not every cuvée is 100% new oak.
+    fr:
+      question: Comment les blancs secs sérieux de Pessac-Léognan voient-ils d’habitude le chêne ?
+      choices:
+        - { text: "Le chêne est interdit pour le blanc de Bordeaux", correct: false }
+        - { text: "Souvent fermentés et élevés en barriques, dont une part de bois neuf", correct: true }
+        - { text: "Seulement en foudres de 50 ans, jamais de bois neuf", correct: false }
+        - { text: "Seulement en copeaux dans une cuve plastique", correct: false }
+      explanation: |
+        Souvent **fermentés et élevés en barriques, dont une part de bois neuf**.
+        Fermentation et élevage en fût : le modèle **Smith Haut Lafitte /
+        Haut-Brion Blanc**. Toutes les cuvées ne sont pas à 100 % de chêne
+        neuf.
 
   - id: bordeaux-premium-white-style-001
     type: mcq
@@ -1081,6 +1637,16 @@ cards:
       explanation: |
         **Toast, hazelnut, weight** — oak plus Sémillon. It is not a
         stainless-only Sancerre clone.
+    fr:
+      question: Outre les agrumes, quel goût un Pessac-Léognan blanc élevé en fût montre-t-il souvent ?
+      choices:
+        - { text: "Seulement de la cerise rouge", correct: false }
+        - { text: "Des notes de toast et de noix, venues du chêne et du Sémillon", correct: true }
+        - { text: "L’obligation légale d’un sucre résiduel au-dessus de 45 g/L", correct: false }
+        - { text: "Aucun arôme", correct: false }
+      explanation: |
+        **Des notes de toast et de noix, venues du chêne et du Sémillon.**
+        Ce n’est pas un clone de Sancerre tout inox.
 
   - id: bordeaux-sweet-botrytis-001
     type: mcq
@@ -1102,6 +1668,17 @@ cards:
         **Botrytis** punches the skins, concentrates sugar and adds honey /
         saffron. Cheaper sweet Bordeaux may just be late-picked without
         noble rot.
+    fr:
+      question: Quel champignon rend possibles les grands liquoreux de Sauternes et de Barsac ?
+      choices:
+        - { text: "Seulement la pourriture grise, qui ruine toujours la récolte", correct: false }
+        - { text: "La pourriture noble (Botrytis cinerea) sur raisins mûrs", correct: true }
+        - { text: "Le phylloxéra sur les seules feuilles", correct: false }
+        - { text: "Un mycélium de truffe dans la bouteille", correct: false }
+      explanation: |
+        La **botrytis** perce les peaux, concentre le sucre et ajoute miel /
+        safran. Un liquoreux bordelais moins cher peut n’être que vendangé
+        tard, sans pourriture noble.
 
   - id: bordeaux-sweet-oak-001
     type: mcq
@@ -1122,6 +1699,18 @@ cards:
       explanation: |
         **Yquem** is the three-year poster child. Many crus classés sit
         nearer 18–24 months, and not every lot is 100% new oak.
+    fr:
+      question: Combien de temps un grand Sauternes peut-il rester en barriques (souvent neuves) après la fermentation ?
+      choices:
+        - { text: "Quarante ans avant de pouvoir l’assembler", correct: false }
+        - { text: "Jusqu’à environ trois ans", correct: true }
+        - { text: "Il doit être mis la semaine de la vendange", correct: false }
+        - { text: "Le chêne est interdit à Sauternes", correct: false }
+      explanation: |
+        **Jusqu’à environ trois ans**.
+        **Yquem** est l’affiche des trois ans. Beaucoup de crus classés
+        restent vers 18–24 mois, et tous les lots ne sont pas à 100 % de
+        chêne neuf.
 
   - id: bordeaux-rivers-001
     type: mcq
@@ -1142,6 +1731,17 @@ cards:
       explanation: |
         **Garonne** from the south-east, **Dordogne** from the east. Their
         meeting is the **Gironde**. Left Bank = west of Garonne/Gironde.
+    fr:
+      question: Quels deux fleuves se rejoignent pour former l’estuaire de la Gironde ?
+      choices:
+        - { text: "La Loire et l’Allier", correct: false }
+        - { text: "La Dordogne et la Garonne", correct: true }
+        - { text: "Le Rhin et la Moselle", correct: false }
+        - { text: "Le Rhône et la Saône", correct: false }
+      explanation: |
+        La **Garonne** vient du sud-est, la **Dordogne** de l’est. Leur
+        rencontre est la **Gironde**. Rive gauche = à l’ouest de la
+        Garonne/Gironde.
 
   - id: bordeaux-left-areas-001
     type: mcq
@@ -1162,6 +1762,17 @@ cards:
       explanation: |
         That is the **Left Bank** strip: Médoc down the estuary, Graves
         around the city, Sauternes further up the Garonne.
+    fr:
+      question: Quelle bande de secteurs occupe la rive ouest de la Garonne et de la Gironde ?
+      choices:
+        - { text: "Saint-Émilion, Pomerol et Fronsac", correct: false }
+        - { text: "Médoc, Graves et Sauternes", correct: true }
+        - { text: "Chablis, Sancerre et Pouilly", correct: false }
+        - { text: "Cahors, Madiran et Jurançon", correct: false }
+      explanation: |
+        **Médoc, Graves et Sauternes**.
+        C’est la bande de **rive gauche** : le Médoc le long de l’estuaire,
+        les Graves autour de la ville, Sauternes plus haut sur la Garonne.
 
   - id: bordeaux-edm-001
     type: mcq
@@ -1183,6 +1794,16 @@ cards:
         **Entre-Deux-Mers** = “between two seas” (the two tidal rivers). The
         **AOC** of that name is dry white only; red from the same hills is
         labelled Bordeaux or Bordeaux Supérieur.
+    fr:
+      question: Quel nom désigne la terre entre la Dordogne et la Garonne ?
+      choices:
+        - { text: "Le Haut-Médoc", correct: false }
+        - { text: "Entre-Deux-Mers", correct: true }
+        - { text: "Pomerol", correct: false }
+        - { text: "Le désert des Landes", correct: false }
+      explanation: |
+        **Entre-Deux-Mers** = « entre deux mers » (les deux fleuves à marée). L’**AOC** de ce nom est réservée au blanc sec ; le rouge
+        des mêmes coteaux s’étiquette Bordeaux ou Bordeaux Supérieur.
 
   - id: bordeaux-right-districts-001
     type: mcq
@@ -1203,6 +1824,16 @@ cards:
       explanation: |
         The **Libournais**: **Saint-Émilion** and **Pomerol**. Fronsac and
         the Côtes sit next door.
+    fr:
+      question: À l’est de Libourne, quelles deux AOC forment le couple de prestige de la rive droite ?
+      choices:
+        - { text: "Margaux et Saint-Julien", correct: false }
+        - { text: "Saint-Émilion et Pomerol", correct: true }
+        - { text: "Sauternes et Barsac", correct: false }
+        - { text: "Chablis et Irancy", correct: false }
+      explanation: |
+        Le **Libournais** : **Saint-Émilion** et **Pomerol**. Fronsac et
+        les Côtes sont à côté.
 
   - id: bordeaux-aoc-count-001
     type: mcq
@@ -1223,6 +1854,18 @@ cards:
       explanation: |
         A forest of communal, district and regional names — **over fifty**.
         Do not memorise a single integer that changes with INAO tidying.
+    fr:
+      question: Environ combien d’AOC tiennent dans le vignoble de Bordeaux ?
+      choices:
+        - { text: "Deux, et seulement le Médoc", correct: false }
+        - { text: "Plus de cinquante", correct: true }
+        - { text: "Exactement quatre pour toujours", correct: false }
+        - { text: "Aucune — seule l’IGP est autorisée", correct: false }
+      explanation: |
+        **Plus de cinquante**.
+        Une forêt de noms communaux, de district et régionaux — **plus de
+        cinquante**. Inutile de figer un entier unique que l’INAO peut
+        retoucher.
 
   - id: bordeaux-class-estates-001
     type: mcq
@@ -1244,6 +1887,19 @@ cards:
         **Château Palmer** can buy or sell plots and the name still sits in
         1855. Burgundy ranks **climats**. That is why Bordeaux classed
         growths are brands as much as terroirs.
+    fr:
+      question: Que classe un classement bordelais, contrairement aux crus bourguignons ?
+      choices:
+        - { text: "Chaque rang de vignes selon l’altitude", correct: false }
+        - { text: "La propriété (le château), pas une carte de vignes figée", correct: true }
+        - { text: "Seulement l’immeuble du négociant", correct: false }
+        - { text: "Seulement la forme de la bouteille", correct: false }
+      explanation: |
+        C’est **la propriété (le château), pas une carte de vignes figée**.
+        **Château Palmer** peut acheter ou vendre des parcelles : le nom
+        reste dans 1855. La Bourgogne classe des **climats**. Voilà
+        pourquoi les crus classés bordelais sont autant des marques que
+        des terroirs.
 
   - id: bordeaux-1855-why-001
     type: mcq
@@ -1265,6 +1921,18 @@ cards:
         Brokers ranked châteaux by **then-current prices**. Haut-Brion
         (Graves) was slipped into the Médoc red list; Sauternes had its own
         ladder.
+    fr:
+      question: Pourquoi le classement de 1855 a-t-il été dressé ?
+      choices:
+        - { text: "Pour remplacer chaque AOC par une seule marque européenne", correct: false }
+        - { text: "Pour l’Exposition universelle de Paris, la chambre de commerce a listé les grands rouges du Médoc et les Sauternes", correct: true }
+        - { text: "Napoléon III voulait seulement une carte de Bourgogne", correct: false }
+        - { text: "C’était un coup marketing de l’UE dans les années 1990", correct: false }
+      explanation: |
+        Pour l’**Exposition universelle de Paris**, la chambre de commerce a listé les grands rouges du Médoc et les Sauternes.
+        Les courtiers ont classé les châteaux selon les **prix d’alors**.
+        Haut-Brion (Graves) a été glissé dans la liste des rouges du
+        Médoc ; Sauternes avait son propre étage.
 
   - id: bordeaux-cru-classe-term-001
     type: mcq
@@ -1285,6 +1953,16 @@ cards:
       explanation: |
         **Cru classé / crus classés**. Saint-Émilion uses the same words on
         a different, revisable list.
+    fr:
+      question: Comment appelle-t-on les châteaux classés en 1855 ?
+      choices:
+        - { text: "Premier cru communal, comme à Gevrey", correct: false }
+        - { text: "Crus classés", correct: true }
+        - { text: "Grand cru classé B, comme à Saint-Émilion seulement", correct: false }
+        - { text: "Einzellagen", correct: false }
+      explanation: |
+        **Cru classé / crus classés**. Saint-Émilion emploie les mêmes
+        mots sur une liste différente, révisable.
 
   - id: bordeaux-1855-medoc-ranks-001
     type: mcq
@@ -1304,6 +1982,16 @@ cards:
         - { text: "None — 1855 ranks only bottles of water", correct: false }
       explanation: |
         **First through fifth**. Mouton was a deuxième until **1973**.
+    fr:
+      question: Mouton est passé de deuxième à premier cru en 1973. Combien de rangs cette échelle du Médoc de 1855 a-t-elle encore ?
+      choices:
+        - { text: "Un, et seulement Yquem", correct: false }
+        - { text: "Cinq (premier à cinquième cru classé)", correct: true }
+        - { text: "Vingt-quatre, comme l’échelle allemande des Prädikate", correct: false }
+        - { text: "Aucun — 1855 ne classe que des bouteilles d’eau", correct: false }
+      explanation: |
+        Du **premier au cinquième**. Mouton était un deuxième jusqu’en
+        **1973**.
 
   - id: bordeaux-1855-sauternes-ranks-001
     type: mcq
@@ -1324,6 +2012,18 @@ cards:
       explanation: |
         **Premier cru supérieur** (Yquem only), then premier cru, then
         deuxième cru. Barsac properties sit on the same list.
+    fr:
+      question: Yquem siège seul en premier cru supérieur. Combien de rangs la liste des liquoreux de 1855 a-t-elle au total ?
+      choices:
+        - { text: "Cinq, identiques au Médoc", correct: false }
+        - { text: "Trois, avec Yquem seul au sommet", correct: true }
+        - { text: "Douze, un par mois", correct: false }
+        - { text: "Aucun — Sauternes a été laissé hors de 1855", correct: false }
+      explanation: |
+        **Trois, avec Yquem seul au sommet**.
+        **Premier cru supérieur** (Yquem seulement), puis premier cru,
+        puis deuxième cru. Les propriétés de Barsac figurent sur la même
+        liste.
 
   - id: bordeaux-first-growths-001
     type: mcq
@@ -1344,6 +2044,18 @@ cards:
       explanation: |
         Four Haut-Médoc names plus **Haut-Brion** from Graves — the one
         outsider on the “Médoc” ladder. Mouton joined them in **1973**.
+    fr:
+      question: Quels cinq châteaux occupent le sommet de la liste des rouges de 1855 ?
+      choices:
+        - { text: "Pétrus, Le Pin, Cheval Blanc, Ausone, Figeac", correct: false }
+        - { text: "Lafite, Latour, Margaux, Mouton Rothschild et Haut-Brion", correct: true }
+        - { text: "Yquem, Climens, Coutet, Guiraud, Rieussec", correct: false }
+        - { text: "Seulement Cos d’Estournel et Montrose", correct: false }
+      explanation: |
+        **Lafite, Latour, Margaux, Mouton Rothschild et Haut-Brion.**
+        Quatre noms du Haut-Médoc plus Haut-Brion en Graves — le seul
+        nom hors Médoc de l’échelle « Médoc ». Mouton les a rejoints
+        en **1973**.
 
   - id: bordeaux-yquem-001
     type: mcq
@@ -1364,6 +2076,16 @@ cards:
       explanation: |
         **Yquem** is the only wine on that top sweet rung. Climens and
         Coutet are premiers crus, not supérieur.
+    fr:
+      question: Quel domaine de Sauternes siège seul en premier cru supérieur en 1855 ?
+      choices:
+        - { text: "Château Margaux", correct: false }
+        - { text: "Château d’Yquem", correct: true }
+        - { text: "Château Pétrus", correct: false }
+        - { text: "Château Palmer", correct: false }
+      explanation: |
+        **Yquem** est le seul vin de cet étage liquoreux. Climens et
+        Coutet sont des premiers crus, pas supérieur.
 
   - id: bordeaux-cru-bourgeois-001
     type: mcq
@@ -1385,6 +2107,19 @@ cards:
         It covers Médoc châteaux **not** in 1855. The old **vintage-by-vintage**
         submission is gone: since **2020** the Alliance runs a **five-year**
         list (Cru Bourgeois / Supérieur / Exceptionnel).
+    fr:
+      question: Quelle distinction du Médoc se place sous 1855 et est aujourd’hui une liste quinquennale à trois niveaux ?
+      choices:
+        - { text: "Premier cru supérieur, comme à Yquem", correct: false }
+        - { text: "Cru Bourgeois", correct: true }
+        - { text: "Une AOC Saint-Émilion qui a remplacé Pomerol", correct: false }
+        - { text: "L’interdiction légale du Merlot", correct: false }
+      explanation: |
+        **Cru Bourgeois**.
+        Elle couvre les châteaux du Médoc **absents** de 1855. L’ancienne
+        soumission **millésime par millésime** a disparu : depuis **2020**,
+        l’Alliance tient une liste **quinquennale** (Cru Bourgeois /
+        Supérieur / Exceptionnel).
 
   - id: bordeaux-graves-class-001
     type: mcq
@@ -1406,6 +2141,18 @@ cards:
         The **1953/1959 Graves** classification. After **1987** every name
         on it sits in **Pessac-Léognan**. Haut-Brion is on this list *and*
         in 1855.
+    fr:
+      question: Hormis la place de Haut-Brion en 1855, d’où viennent les crus classés des Graves ?
+      choices:
+        - { text: "Seulement de l’échelle à cinq rangs du Médoc de 1855", correct: false }
+        - { text: "D’une liste séparée des années 1950, rouge et blanc, tous dits cru classé", correct: true }
+        - { text: "Seulement comme vins allemands à Prädikat", correct: false }
+        - { text: "Ils n’ont pas le droit d’écrire cru classé", correct: false }
+      explanation: |
+        D’une **liste séparée des années 1950, rouge et blanc, tous dits cru classé**.
+        Le classement des **Graves 1953/1959**. Après **1987**, chaque nom
+        de cette liste est en **Pessac-Léognan**. Haut-Brion figure sur
+        cette liste *et* dans 1855.
 
   - id: bordeaux-graves-no-ranks-001
     type: mcq
@@ -1426,6 +2173,17 @@ cards:
       explanation: |
         **No internal ranking**. Haut-Brion, Haut-Bailly and a small white
         such as Couhins-Lurton share the same cru classé title.
+    fr:
+      question: Les crus classés des Graves sont-ils découpés en premier à cinquième cru ?
+      choices:
+        - { text: "Oui, cinq rangs numérotés comme 1855", correct: false }
+        - { text: "Non — les noms ne sont pas hiérarchisés les uns contre les autres", correct: true }
+        - { text: "Oui, ils emploient les lettres A/B de Saint-Émilion", correct: false }
+        - { text: "Oui, selon le degré à une décimale", correct: false }
+      explanation: |
+        **Non — les noms ne sont pas hiérarchisés les uns contre les autres**.
+        **Pas de classement interne**. Haut-Brion, Haut-Bailly et un petit
+        blanc comme Couhins-Lurton partagent le même titre de cru classé.
 
   - id: bordeaux-st-em-grand-cru-aoc-001
     type: mcq
@@ -1446,6 +2204,18 @@ cards:
       explanation: |
         **Grand Cru** here is an **appellation** (yield, ageing), not a
         château ranking. Many bottles say Grand Cru without being classé.
+    fr:
+      question: Qu’est-ce que Saint-Émilion Grand Cru, avant même de parler d’un classement ?
+      choices:
+        - { text: "Un synonyme de Pomerol", correct: false }
+        - { text: "Une AOC distincte, aux règles plus strictes que le Saint-Émilion de base", correct: true }
+        - { text: "La liste des premiers crus de 1855", correct: false }
+        - { text: "Une catégorie de vin effervescent", correct: false }
+      explanation: |
+        Une **AOC distincte, aux règles plus strictes que le Saint-Émilion de base**.
+        **Grand Cru** est ici une **appellation** (rendement, élevage),
+        pas un classement de château. Beaucoup de bouteilles disent Grand
+        Cru sans être classées.
 
   - id: bordeaux-st-em-class-exists-001
     type: mcq
@@ -1466,6 +2236,17 @@ cards:
       explanation: |
         The **classification** sits *inside* the Grand Cru AOC. Pomerol has
         no equivalent official ladder.
+    fr:
+      question: Outre l’AOC Saint-Émilion Grand Cru, quelle liste supplémentaire classe les domaines de tête ?
+      choices:
+        - { text: "Seulement la liste du Médoc de 1855", correct: false }
+        - { text: "Un classement révisable de châteaux (grand cru classé et premier grand cru classé)", correct: true }
+        - { text: "Une liste de négociants à Libourne", correct: false }
+        - { text: "Il n’existe aucun classement de château", correct: false }
+      explanation: |
+        Un **classement révisable** de **grand cru classé** et de
+        **premier grand cru classé** siège *à l’intérieur* de l’AOC
+        Grand Cru. Pomerol n’a pas d’échelle officielle équivalente.
 
   - id: bordeaux-st-em-gcc-001
     type: mcq
@@ -1486,6 +2267,16 @@ cards:
       explanation: |
         **Grand Cru Classé** is the wider classed tier. Above it sit the
         Premiers Grands Crus Classés.
+    fr:
+      question: Sous Premier Grand Cru Classé, quel titre portent les autres châteaux classés de Saint-Émilion ?
+      choices:
+        - { text: "Cru Bourgeois Exceptionnel", correct: false }
+        - { text: "Saint-Émilion Grand Cru Classé", correct: true }
+        - { text: "Premier cru supérieur, comme à Yquem", correct: false }
+        - { text: "Cinquième cru classé", correct: false }
+      explanation: |
+        **Grand Cru Classé** est l’étage classé le plus large. Au-dessus
+        siègent les Premiers Grands Crus Classés.
 
   - id: bordeaux-st-em-pgcc-001
     type: mcq
@@ -1507,6 +2298,17 @@ cards:
         **Ausone, Cheval Blanc and Angélus** withdrew before **2022**.
         **Pavie** stayed; **Figeac** was promoted. The A/B split remains —
         it is not an empty A tier.
+    fr:
+      question: Qui siège en Saint-Émilion Premier Grand Cru Classé A sur la liste de 2022 ?
+      choices:
+        - { text: "Ausone et Cheval Blanc seulement", correct: false }
+        - { text: "Figeac et Pavie", correct: true }
+        - { text: "Pétrus et Le Pin", correct: false }
+        - { text: "Seulement des noms Cru Bourgeois Exceptionnel", correct: false }
+      explanation: |
+        **Ausone, Cheval Blanc et Angélus** se sont retirés avant **2022**.
+        **Pavie** est resté ; **Figeac** a été promu. Le partage A/B
+        demeure — l’étage A n’est pas vide.
 
   - id: bordeaux-st-em-review-001
     type: mcq
@@ -1528,6 +2330,18 @@ cards:
         The rule is **at least every ten years**. The 2022 round was late
         and litigious — the timetable is the principle, not a promise of
         peace.
+    fr:
+      question: À quelle fréquence le classement de Saint-Émilion est-il censé être rouvert ?
+      choices:
+        - { text: "Jamais — il est figé comme 1855", correct: false }
+        - { text: "Environ une fois par décennie", correct: true }
+        - { text: "Chaque matin de vendange", correct: false }
+        - { text: "Seulement quand le Médoc le demande", correct: false }
+      explanation: |
+        **Environ une fois par décennie**.
+        La règle est **au moins tous les dix ans**. Le tour de 2022 a été
+        tardif et contentieux — le calendrier est le principe, pas une
+        promesse de calme.
 
   - id: bordeaux-generic-aocs-001
     type: mcq
@@ -1548,6 +2362,17 @@ cards:
       explanation: |
         Regional labels. **Entre-Deux-Mers** is the extra white-only AOC
         on the wedge between the rivers.
+    fr:
+      question: Quelles sont les deux AOC fourre-tout, rouge (et blanc sec), qui couvrent tout le vignoble ?
+      choices:
+        - { text: "Pauillac et Pomerol seulement", correct: false }
+        - { text: "Bordeaux et Bordeaux Supérieur", correct: true }
+        - { text: "Sauternes et Barsac seulement", correct: false }
+        - { text: "Côtes du Rhône et Village", correct: false }
+      explanation: |
+        **Bordeaux et Bordeaux Supérieur**.
+        Étiquettes régionales. **Entre-Deux-Mers** est l’AOC blanche
+        supplémentaire sur le coin entre les fleuves.
 
   - id: bordeaux-superieur-001
     type: mcq
@@ -1568,6 +2393,17 @@ cards:
       explanation: |
         **Lower yields, longer élevage, higher min. ABV**. It is still a
         regional AOC, not a communal cru.
+    fr:
+      question: Quels obstacles supplémentaires pose Bordeaux Supérieur face au Bordeaux de base ?
+      choices:
+        - { text: "Il doit être effervescent et blanc seulement", correct: false }
+        - { text: "Des règles plus strictes, dont un degré minimum plus élevé", correct: true }
+        - { text: "Il doit être 100 % Petit Verdot", correct: false }
+        - { text: "Il ne peut se vendre que dans le Médoc", correct: false }
+      explanation: |
+        **Des règles plus strictes, dont un degré minimum plus élevé**
+        (rendements plus bas, élevage plus long). C’est encore une AOC
+        régionale, pas un cru communal.
 
   - id: bordeaux-white-rose-labels-001
     type: mcq
@@ -1588,6 +2424,17 @@ cards:
       explanation: |
         **Bordeaux Rosé** is the pale one; **Clairet** is deeper. Generic
         dry white is simply labelled **Bordeaux**.
+    fr:
+      question: Sous quels noms vend-on le Bordeaux rosé générique ?
+      choices:
+        - { text: "Seulement en Pauillac rosé", correct: false }
+        - { text: "Bordeaux Rosé ou Bordeaux Clairet", correct: true }
+        - { text: "Seulement en Médoc Grand Cru", correct: false }
+        - { text: "Le vin rosé est interdit en Gironde", correct: false }
+      explanation: |
+        Le **Bordeaux Rosé** est le plus pâle ; le **Clairet** est plus
+        soutenu. Le blanc sec générique s’étiquette simplement
+        **Bordeaux**.
 
   - id: bordeaux-generic-improve-001
     type: mcq
@@ -1609,6 +2456,18 @@ cards:
         **Supermarket competition** (Chile, Australia, Languedoc) pushed
         sorting and ripeness. That is a trend, not a claim that every
         Bordeaux AOC is now a classed growth.
+    fr:
+      question: Pourquoi beaucoup de Bordeaux rouge du quotidien sont-ils devenus plus nets et plus mûrs ?
+      choices:
+        - { text: "Le cahier des charges interdit désormais tout travail de feuillage", correct: false }
+        - { text: "Les marques d’export doivent rivaliser avec des vins du Nouveau Monde au même prix", correct: true }
+        - { text: "Le gel a rendu chaque millésime minuscule", correct: false }
+        - { text: "L’UE exige du cèdre dans chaque bouteille", correct: false }
+      explanation: |
+        Les **marques d’export doivent rivaliser avec des vins du Nouveau Monde au même prix**.
+        La **concurrence des linéaires** (Chili, Australie, Languedoc) a
+        poussé le tri et la maturité. C’est une tendance, pas l’affirmation
+        que chaque Bordeaux AOC est devenu un cru classé.
 
   - id: bordeaux-generic-best-style-001
     type: mcq
@@ -1629,6 +2488,17 @@ cards:
       explanation: |
         **Drink now**, not a 30-year Latour. A cheap barrique or chip can
         add a **cedar** hint; that is optional.
+    fr:
+      question: Un bon Bordeaux rouge générique est-il bâti pour une cave de 30 ans ?
+      choices:
+        - { text: "Oui — chaque bouteille est un premier cru", correct: false }
+        - { text: "Non — corps moyen, fruit mûr, à boire jeune ; le chêne n’est qu’une pointe", correct: true }
+        - { text: "Oui — il est toujours vendangé tard et liquoreux", correct: false }
+        - { text: "Oui — c’est toujours un rosé pâle de type Provence", correct: false }
+      explanation: |
+        **À boire maintenant**, pas un Latour de 30 ans. Une barrique ou
+        un copeau bon marché peut ajouter une pointe de **cèdre** ; c’est
+        facultatif.
 
   - id: bordeaux-generic-cheap-style-001
     type: mcq
@@ -1649,6 +2519,17 @@ cards:
       explanation: |
         Underripe Merlot and Cabernet on cold clay: **thin and grippy**.
         That is the floor, not the supermarket sweet-spot.
+    fr:
+      question: Comment se présentent d’habitude en bouche les rouges génériques les plus faibles ?
+      choices:
+        - { text: "Plus lourds qu’un Pomerol, tanins fondus", correct: false }
+        - { text: "Corps plus léger et tanin plus vert, plus astringent", correct: true }
+        - { text: "Toujours liquoreux et botrytisés", correct: false }
+        - { text: "Toujours effervescents", correct: false }
+      explanation: |
+        **Corps plus léger et tanin plus vert, plus astringent**.
+        Merlot et Cabernet pas mûrs sur argile froide : **mince et
+        râpeux**. C’est le plancher, pas le juste milieu des linéaires.
 
   - id: bordeaux-rose-style-001
     type: mcq
@@ -1669,6 +2550,17 @@ cards:
       explanation: |
         Short maceration, drink young: **red-berry refreshment**. Clairet
         is the darker, fuller cousin.
+    fr:
+      question: Dans quel registre attendre un Bordeaux Rosé standard (pas le Clairet) ?
+      choices:
+        - { text: "Oxydé et noiseté comme un blanc de 20 ans", correct: false }
+        - { text: "Pâle, fruit de baies rouges frais, à boire tôt", correct: true }
+        - { text: "Toujours aussi tannique qu’un Pauillac", correct: false }
+        - { text: "Toujours liquoreux de botrytis", correct: false }
+      explanation: |
+        **Pâle, fruit de baies rouges frais, à boire tôt**.
+        Macération courte, à boire jeune : **rafraîchissement de baies
+        rouges**. Le Clairet est le cousin plus sombre et plus ample.
 
   - id: bordeaux-clairet-market-001
     type: mcq
@@ -1689,6 +2581,18 @@ cards:
       explanation: |
         **Clairet** is a French-table habit. Export lists lean pale rosé
         instead — that is why students outside France meet it less.
+    fr:
+      question: Où se vend réellement la plupart du Bordeaux Clairet ?
+      choices:
+        - { text: "Seulement au Japon, par le cahier des charges", correct: false }
+        - { text: "Sur le marché intérieur français", correct: true }
+        - { text: "Seulement en marque de distributeur britannique", correct: false }
+        - { text: "Seulement dans les caves du village de Sauternes", correct: false }
+      explanation: |
+        Sur le **marché intérieur français**.
+        Le **Clairet** est une habitude de table française. Les listes
+        d’export penchent plutôt vers le rosé pâle — voilà pourquoi on le
+        croise moins hors de France.
 
   - id: bordeaux-clairet-style-001
     type: mcq
@@ -1709,6 +2613,17 @@ cards:
       explanation: |
         Longer skin contact → **darker, fuller**. It sits between a modern
         Provence pink and a light red.
+    fr:
+      question: En quoi le Clairet diffère-t-il d’un rosé français pâle typique ?
+      choices:
+        - { text: "Il est toujours blanc et effervescent", correct: false }
+        - { text: "Robe plus soutenue et plus de corps, grâce à une macération plus longue", correct: true }
+        - { text: "Il doit être 100 % Sauvignon Blanc", correct: false }
+        - { text: "Il est plus pâle que la Provence et n’a pas de fruit", correct: false }
+      explanation: |
+        **Robe plus soutenue et plus de corps, grâce à une macération
+        plus longue.** Il se tient entre un rose de Provence actuel et
+        un rouge léger.
 
   - id: bordeaux-generic-white-sb-001
     type: mcq
@@ -1730,6 +2645,17 @@ cards:
         Generic and **Entre-Deux-Mers** have swung to **Sauvignon Blanc**.
         Serious Pessac-Léognan blanc is still often Sémillon-plus-oak —
         do not flatten every white to grass.
+    fr:
+      question: Quel cépage mène aujourd’hui la plupart des Bordeaux blanc secs bon marché ?
+      choices:
+        - { text: "Riesling", correct: false }
+        - { text: "Sauvignon Blanc", correct: true }
+        - { text: "Pinot Noir", correct: false }
+        - { text: "La seule Muscadelle", correct: false }
+      explanation: |
+        Le générique et l’**Entre-Deux-Mers** ont basculé vers le
+        **Sauvignon Blanc**. Un Pessac-Léognan blanc sérieux reste souvent
+        Sémillon plus chêne — on ne réduira pas chaque blanc à l’herbe.
 
   - id: bordeaux-city-site-001
     type: mcq
@@ -1750,6 +2676,17 @@ cards:
       explanation: |
         The urban strip is the hinge: **Médoc** down-river (north),
         **Graves / Pessac-Léognan** immediately south of town.
+    fr:
+      question: Où se situe la ville de Bordeaux par rapport aux deux secteurs de rive gauche ?
+      choices:
+        - { text: "Au nord du Médoc et seulement au sud de Sauternes", correct: false }
+        - { text: "Au sud du Médoc et au nord des Graves", correct: true }
+        - { text: "Au milieu de Pomerol", correct: false }
+        - { text: "Sur la Loire à Saumur", correct: false }
+      explanation: |
+        **Au sud du Médoc et au nord des Graves.** La bande urbaine est
+        la charnière : Médoc en aval (nord), Graves / Pessac-Léognan
+        juste au sud de la ville.
 
   - id: bordeaux-bas-medoc-name-001
     type: mcq
@@ -1770,6 +2707,16 @@ cards:
       explanation: |
         **Bas-Médoc** is the old geographic name for the cooler north. The
         AOC on the label is just **Médoc**.
+    fr:
+      question: Quel nom informel désigne encore la pointe nord de la presqu’île du Médoc ?
+      choices:
+        - { text: "Haut-Médoc", correct: false }
+        - { text: "Bas-Médoc", correct: true }
+        - { text: "Sauternes", correct: false }
+        - { text: "Pomerol", correct: false }
+      explanation: |
+        **Bas-Médoc** est l’ancien nom géographique du nord plus frais.
+        L’AOC sur l’étiquette n’est que **Médoc**.
 
   - id: bordeaux-medoc-aoc-label-001
     type: mcq
@@ -1790,6 +2737,17 @@ cards:
       explanation: |
         **Médoc AOC** starts where Haut-Médoc stops, north of Saint-Estèphe.
         “Bas-Médoc” will not be the legal name on the capsule.
+    fr:
+      question: Quelle AOC emploie-t-on au nord de Saint-Estèphe quand le vin n’est pas Haut-Médoc ?
+      choices:
+        - { text: "Pauillac", correct: false }
+        - { text: "Médoc", correct: true }
+        - { text: "Pomerol", correct: false }
+        - { text: "Chablis", correct: false }
+      explanation: |
+        L’**AOC Médoc** commence là où le Haut-Médoc s’arrête, au nord de
+        Saint-Estèphe. « Bas-Médoc » ne sera pas le nom légal sur la
+        capsule.
 
   - id: bordeaux-medoc-aoc-soil-001
     type: mcq
@@ -1810,6 +2768,17 @@ cards:
       explanation: |
         **Clay first**, gravel as islands. That is why Merlot outplants
         Cabernet Sauvignon here, unlike Pauillac.
+    fr:
+      question: Quels sols dominent l’AOC Médoc (l’ancien Bas-Médoc) ?
+      choices:
+        - { text: "Seulement du granite massif", correct: false }
+        - { text: "Surtout de l’argile, avec quelques îlots de graves", correct: true }
+        - { text: "Seulement du sable de désert, sans argile", correct: false }
+        - { text: "Seulement du basalte volcanique", correct: false }
+      explanation: |
+        **L’argile d’abord**, les graves en îlots. Voilà pourquoi le
+        Merlot y dépasse le Cabernet Sauvignon, contrairement à
+        Pauillac.
 
   - id: bordeaux-medoc-aoc-blend-001
     type: mcq
@@ -1831,6 +2800,18 @@ cards:
         Cooler clay → **Merlot**, softer and earlier than a Saint-Estèphe
         Cabernet wine. Not every bottle is a fruit bomb; “easy” is the
         contrast with the communal crus.
+    fr:
+      question: Quel cépage mène d’habitude un assemblage d’AOC Médoc ?
+      choices:
+        - { text: "Petit Verdot", correct: false }
+        - { text: "Merlot", correct: true }
+        - { text: "Riesling", correct: false }
+        - { text: "Carmenère seulement", correct: false }
+      explanation: |
+        Argile plus fraîche → **Merlot**, plus souple et plus précoce
+        qu’un vin de Cabernet de Saint-Estèphe. Toutes les bouteilles ne
+        sont pas un fruit très marqué ; « facile » est le contraste avec les
+        crus communaux.
 
   - id: bordeaux-haut-medoc-north-001
     type: mcq
@@ -1852,6 +2833,17 @@ cards:
         **Saint-Estèphe** is the northernmost of the four big communes.
         Haut-Médoc AOC land also wraps around them; the prestige strip
         ends here.
+    fr:
+      question: Quelle AOC communale est le dernier arrêt célèbre avant que l’AOC Médoc commence ?
+      choices:
+        - { text: "Margaux", correct: false }
+        - { text: "Saint-Estèphe", correct: true }
+        - { text: "Sauternes", correct: false }
+        - { text: "Pomerol", correct: false }
+      explanation: |
+        **Saint-Estèphe** est la plus septentrionale des quatre grandes
+        communes. L’AOC Haut-Médoc les enveloppe aussi ; la bande de
+        prestige s’arrête ici.
 
   - id: bordeaux-communes-word-001
     type: mcq
@@ -1873,6 +2865,18 @@ cards:
         **Communal AOCs**: Saint-Estèphe, Pauillac, Saint-Julien, Margaux,
         plus **Moulis** and **Listrac** inland. Haut-Médoc is the district
         envelope.
+    fr:
+      question: Comment nomme-t-on les AOC de village nichées dans le Haut-Médoc ?
+      choices:
+        - { text: "AVAs", correct: false }
+        - { text: "Communes", correct: true }
+        - { text: "Einzellagen", correct: false }
+        - { text: "Zones DOCG", correct: false }
+      explanation: |
+        **Communes**.
+        **AOC communales** : Saint-Estèphe, Pauillac, Saint-Julien,
+        Margaux, plus **Moulis** et **Listrac** à l’intérieur des terres.
+        Le Haut-Médoc est l’enveloppe de district.
 
   - id: bordeaux-four-communes-001
     type: mcq
@@ -1893,6 +2897,18 @@ cards:
       explanation: |
         Memorise that **north→south** order. **Moulis** and **Listrac**
         sit west of the gravel ridge and are not in that river-front four.
+    fr:
+      question: Du nord au sud le long de la Gironde, quelles quatre communes portent la plus haute réputation de rive gauche ?
+      choices:
+        - { text: "Pomerol, Fronsac, Canon-Fronsac, Castillon", correct: false }
+        - { text: "Saint-Estèphe, Pauillac, Saint-Julien, Margaux", correct: true }
+        - { text: "Sauternes, Barsac, Cérons, Cadillac", correct: false }
+        - { text: "Chablis, Irancy, Saint-Bris, Joigny", correct: false }
+      explanation: |
+        **Saint-Estèphe, Pauillac, Saint-Julien, Margaux**.
+        Retenir cet ordre **nord→sud**. **Moulis** et **Listrac** sont à
+        l’ouest de la croupe de graves et ne font pas partie de ce
+        quatuor riverain.
 
   - id: bordeaux-commune-cs-001
     type: mcq
@@ -1913,6 +2929,17 @@ cards:
       explanation: |
         Warm **gravel** → **Cabernet Sauvignon** lead, Merlot and Franc in
         support. Margaux can be a little more Merlot-friendly than Pauillac.
+    fr:
+      question: À Saint-Estèphe, Pauillac, Saint-Julien et Margaux, quel cépage prend d’habitude la plus grande part ?
+      choices:
+        - { text: "Muscadelle", correct: false }
+        - { text: "Cabernet Sauvignon", correct: true }
+        - { text: "Riesling", correct: false }
+        - { text: "Gewurztraminer", correct: false }
+      explanation: |
+        **Graves** chaudes → le **Cabernet Sauvignon** mène, Merlot et
+        Franc en soutien. Margaux peut être un peu plus ouvert au Merlot
+        que Pauillac.
 
   - id: bordeaux-commune-style-001
     type: mcq
@@ -1933,6 +2960,16 @@ cards:
       explanation: |
         **Cassis + cedar + grip**. They can be tough at five years; the
         point of the communal crus is a long curve, not a nouveau.
+    fr:
+      question: Quelle signature de fruit et de chêne les rouges communaux du Haut-Médoc montrent-ils d’habitude dans leur jeunesse ?
+      choices:
+        - { text: "Seulement banane et noix de coco, sans tanin", correct: false }
+        - { text: "Cassis avec du cèdre venu du chêne, et un tanin ferme bâti pour la garde", correct: true }
+        - { text: "Seulement du safran de pourriture noble", correct: false }
+        - { text: "Seulement de la fraise pâle de Provence", correct: false }
+      explanation: |
+        **Cassis + cèdre + poigne**. Ils peuvent être durs à cinq ans ;
+        le point des crus communaux est une longue courbe, pas un vin primeur.
 
   - id: bordeaux-pessac-where-001
     type: mcq
@@ -1954,6 +2991,17 @@ cards:
         **Pessac-Léognan** (created **1987**) is northern Graves: suburbs
         and woods just south of town. Haut-Brion is inside the urban
         sprawl.
+    fr:
+      question: Quelle AOC commence au bord sud de la ville de Bordeaux ?
+      choices:
+        - { text: "Saint-Estèphe", correct: false }
+        - { text: "Pessac-Léognan", correct: true }
+        - { text: "L’AOC Médoc seulement", correct: false }
+        - { text: "Tokaj", correct: false }
+      explanation: |
+        **Pessac-Léognan** (créé en **1987**) est le nord des Graves :
+        banlieues et bois juste au sud de la ville. Haut-Brion est dans
+        le tissu urbain.
 
   - id: bordeaux-pessac-soil-001
     type: mcq
@@ -1974,6 +3022,17 @@ cards:
       explanation: |
         **Graves** means gravel. Sand and some clay sit underneath; the
         heat-holding stones are why Cabernet can finish here.
+    fr:
+      question: Quel type de sol a fait la réputation de Pessac-Léognan ?
+      choices:
+        - { text: "Ardoise massive, comme la Moselle", correct: false }
+        - { text: "Graves", correct: true }
+        - { text: "Seulement de la tourbe", correct: false }
+        - { text: "Seulement de la craie, sans caillou", correct: false }
+      explanation: |
+        **Graves** veut dire cailloux. Sable et un peu d’argile
+        dessous ; les pierres qui retiennent la chaleur expliquent que
+        le Cabernet puisse y finir.
 
   - id: bordeaux-pessac-grape-001
     type: mcq
@@ -1994,6 +3053,18 @@ cards:
       explanation: |
         Same logic as the Haut-Médoc: **warm, drained gravel** ripens
         Cabernet Sauvignon. Merlot still fills the cooler pockets.
+    fr:
+      question: Quel cépage noir convient le mieux aux graves de Pessac-Léognan ?
+      choices:
+        - { text: "Pinot Noir", correct: false }
+        - { text: "Cabernet Sauvignon", correct: true }
+        - { text: "Gamay", correct: false }
+        - { text: "Nebbiolo", correct: false }
+      explanation: |
+        **Cabernet Sauvignon**.
+        Même logique que le Haut-Médoc : des **graves chaudes et
+        drainées** mûrissent le Cabernet Sauvignon. Le Merlot remplit
+        encore les poches plus fraîches.
 
   - id: bordeaux-pessac-vs-hm-001
     type: mcq
@@ -2015,6 +3086,18 @@ cards:
         More perfume, a shade less mass — think **Smith Haut Lafitte**,
         not **La Mission Haut-Brion**, which sits with Haut-Brion for
         density.
+    fr:
+      question: Hormis quelques exceptions denses (Haut-Brion), comment les rouges de Pessac se tiennent-ils d’habitude face au Haut-Médoc ?
+      choices:
+        - { text: "Toujours plus lourds et plus tanniques", correct: false }
+        - { text: "Un peu plus légers en corps et plus parfumés", correct: true }
+        - { text: "Toujours liquoreux et botrytisés", correct: false }
+        - { text: "Toujours effervescents", correct: false }
+      explanation: |
+        **Un peu plus légers en corps et plus parfumés**.
+        Plus de parfum, un peu moins de masse — penser **Smith Haut
+        Lafitte**, pas **La Mission Haut-Brion**, qui se range avec
+        Haut-Brion pour la densité.
 
   - id: bordeaux-graves-vs-pessac-001
     type: mcq
@@ -2036,6 +3119,18 @@ cards:
         **Pessac-Léognan** took the best northern gravel in 1987. Remaining
         **Graves** AOC is a step down in concentration and leans more
         Merlot.
+    fr:
+      question: Comment les rouges des Graves du sud se comparent-ils d’habitude à Pessac-Léognan ?
+      choices:
+        - { text: "Toujours plus concentrés et 100 % Cabernet", correct: false }
+        - { text: "Même famille, mais plus légers, plus simples, et souvent plus de Merlot", correct: true }
+        - { text: "Ils sont seulement blancs et effervescents", correct: false }
+        - { text: "Ils doivent s’étiqueter Pomerol", correct: false }
+      explanation: |
+        **Même famille, mais plus légers, plus simples, et souvent plus de Merlot**.
+        **Pessac-Léognan** a pris les meilleures graves du nord en 1987.
+        L’AOC **Graves** restante est un cran en dessous en
+        concentration et penche davantage vers le Merlot.
 
   - id: bordeaux-rb-merlot-001
     type: mcq
@@ -2056,6 +3151,16 @@ cards:
       explanation: |
         **Merlot** on clay and limestone. Cabernet Sauvignon is the
         exception (Figeac’s gravel), not the rule.
+    fr:
+      question: Sur les argiles de Saint-Émilion et de Pomerol, quel cépage remplit d’habitude la cuve ?
+      choices:
+        - { text: "Cabernet Sauvignon", correct: false }
+        - { text: "Merlot", correct: true }
+        - { text: "Sémillon", correct: false }
+        - { text: "Riesling", correct: false }
+      explanation: |
+        Le **Merlot** sur argile et calcaire. Le Cabernet Sauvignon est
+        l’exception (les graves de Figeac), pas la règle.
 
   - id: bordeaux-rb-franc-001
     type: mcq
@@ -2076,6 +3181,17 @@ cards:
       explanation: |
         **Cabernet Franc** (Cheval Blanc, Ausone). Cabernet Sauvignon is
         third, and only where gravel warms the plateau.
+    fr:
+      question: Après le Merlot, quel cépage noir est le partenaire habituel de la rive droite ?
+      choices:
+        - { text: "Pinot Noir", correct: false }
+        - { text: "Cabernet Franc", correct: true }
+        - { text: "Syrah", correct: false }
+        - { text: "Grenache", correct: false }
+      explanation: |
+        Le **Cabernet Franc** (Cheval Blanc, Ausone). Le Cabernet
+        Sauvignon arrive troisième, et seulement là où les graves
+        réchauffent le plateau.
 
   - id: bordeaux-st-em-larger-001
     type: mcq
@@ -2096,6 +3212,17 @@ cards:
       explanation: |
         **Saint-Émilion** (plus its satellites) dwarfs tiny **Pomerol**.
         Price per bottle can run the other way.
+    fr:
+      question: Entre Saint-Émilion et Pomerol, quelle AOC est de loin la plus vaste ?
+      choices:
+        - { text: "Pomerol", correct: false }
+        - { text: "Saint-Émilion", correct: true }
+        - { text: "Elles font le même nombre d’hectares", correct: false }
+        - { text: "Sauternes est plus vaste que les deux et se trouve entre elles", correct: false }
+      explanation: |
+        **Saint-Émilion** (plus ses satellites) écrase le minuscule
+        **Pomerol**. Le prix à la bouteille peut aller dans l’autre
+        sens.
 
   - id: bordeaux-st-em-three-zones-001
     type: mcq
@@ -2117,6 +3244,19 @@ cards:
         A **gravel-and-sand plateau** toward Pomerol, a **clay-limestone
         côte** around the town, and **sandier, lesser land** on the plain.
         Do not turn that into a legal map of 24 crus.
+    fr:
+      question: En combien de grands cadres de vignoble découpe-t-on Saint-Émilion ?
+      choices:
+        - { text: "Un, et seulement du sable", correct: false }
+        - { text: "Trois", correct: true }
+        - { text: "Vingt-quatre climats officiels", correct: false }
+        - { text: "Aucun — l’AOC est un seul champ plat", correct: false }
+      explanation: |
+        **Trois**.
+        Un **plateau de graves et de sables** vers Pomerol, une **côte
+        argilo-calcaire** autour de la ville, et des **terres plus
+        sablonneuses, plus ordinaires** sur la plaine. On n’en fera pas
+        une carte légale de 24 crus.
 
   - id: bordeaux-st-em-plateau-001
     type: mcq
@@ -2139,6 +3279,18 @@ cards:
         still planted; **Cabernet Franc and some Cabernet Sauvignon** can
         ripen here. Franc also ripens on Ausone’s limestone côte — it does
         not “fail” there.
+    fr:
+      question: Où se tiennent Cheval Blanc et Figeac à l’intérieur de Saint-Émilion ?
+      choices:
+        - { text: "Sur les barres de Sauternes", correct: false }
+        - { text: "Sur le plateau de graves chaudes au nord-ouest de la ville", correct: true }
+        - { text: "Seulement dans l’AOC Médoc", correct: false }
+        - { text: "Sous la ville de Bordeaux", correct: false }
+      explanation: |
+        Le **plateau du nord-ouest** est la poche façon Graves. On y
+        plante encore du Merlot ; **Cabernet Franc et un peu de
+        Cabernet Sauvignon** peuvent y mûrir. Le Franc mûrit aussi sur
+        la côte calcaire d’Ausone — il n’y « échoue » pas.
 
   - id: bordeaux-st-em-cote-001
     type: mcq
@@ -2159,6 +3311,16 @@ cards:
       explanation: |
         The **côtes**: **argilo-calcaire**. **Ausone** and **Pavie** sit
         on this slope, not on Figeac’s gravel.
+    fr:
+      question: Quels sols ceignent l’escarpement au sud et à l’est de la ville de Saint-Émilion ?
+      choices:
+        - { text: "Seulement du sable de dune désertique", correct: false }
+        - { text: "Argilo-calcaire", correct: true }
+        - { text: "Seulement de l’ardoise", correct: false }
+        - { text: "Seulement du granite", correct: false }
+      explanation: |
+        Les **côtes** : **argilo-calcaire**. **Ausone** et **Pavie**
+        sont sur cette pente, pas sur les graves de Figeac.
 
   - id: bordeaux-st-em-prestige-zones-001
     type: mcq
@@ -2179,6 +3341,18 @@ cards:
       explanation: |
         **Cheval Blanc / Figeac** on gravel, **Ausone / Pavie** on the
         côte. The sandier land below the slope is the third, cheaper zone.
+    fr:
+      question: Quels deux types de terroir à Saint-Émilion donnent les vins les plus prestigieux ?
+      choices:
+        - { text: "Seulement la plaine sablonneuse au pied de la pente", correct: false }
+        - { text: "Le plateau de graves et la côte argilo-calcaire", correct: true }
+        - { text: "Seulement la forêt des Landes", correct: false }
+        - { text: "Seulement les dunes de l’AOC Médoc", correct: false }
+      explanation: |
+        Le **plateau de graves et la côte argilo-calcaire**.
+        **Cheval Blanc / Figeac** sur les graves, **Ausone / Pavie**
+        sur la côte. Les terres plus sablonneuses sous la pente sont la
+        troisième zone, moins chère.
 
   - id: bordeaux-st-em-prestige-style-001
     type: mcq
@@ -2200,6 +3374,18 @@ cards:
         Merlot (and Franc) give **plush fruit** — plum and red berry —
         with enough tannin to age into **cedar and tobacco**. They are not
         a light Nouveau.
+    fr:
+      question: Quelle structure ont d’habitude les grands rouges de Saint-Émilion, au-delà du fruit ?
+      choices:
+        - { text: "Pâles, zéro tanin, comme un rosé de Provence", correct: false }
+        - { text: "Tanin moyen à élevé, avec un milieu de bouche ample et riche", correct: true }
+        - { text: "Toujours effervescents et seulement très secs", correct: false }
+        - { text: "Toujours minces et verts", correct: false }
+      explanation: |
+        **Tanin moyen à élevé, avec un milieu de bouche ample et riche**.
+        Merlot (et Franc) donnent un **fruit ample** — prune et baie
+        rouge — avec assez de tanin pour vieillir vers **cèdre et
+        tabac**. Ce n’est pas un vin primeur léger.
 
   - id: bordeaux-st-em-plain-001
     type: mcq
@@ -2220,6 +3406,18 @@ cards:
       explanation: |
         The **plain** below the côte: more sand, less prestige, earlier
         and lighter bottles than Ausone’s slope.
+    fr:
+      question: Que trouve-t-on au pied de l’escarpement de Saint-Émilion ?
+      choices:
+        - { text: "La bande communale du Haut-Médoc", correct: false }
+        - { text: "Des vignobles plus sablonneux, plus ordinaires, et des vins plus légers", correct: true }
+        - { text: "Seulement des châteaux premier cru de Pauillac", correct: false }
+        - { text: "Le Gulf Stream lui-même", correct: false }
+      explanation: |
+        Des **vignobles plus sablonneux, plus ordinaires, et des vins plus légers**.
+        La **plaine** sous la côte : plus de sable, moins de prestige,
+        des bouteilles plus précoces et plus légères que la pente
+        d’Ausone.
 
   - id: bordeaux-pomerol-style-001
     type: mcq
@@ -2241,6 +3439,19 @@ cards:
         Tiny AOC. **Pétrus** sits on a button of blue clay; much of the
         rest is gravel over clay. Richer and spicier than a typical
         Saint-Émilion, not a different legal grape list.
+    fr:
+      question: Comment les rouges de Pomerol se tiennent-ils d’habitude face à Saint-Émilion ?
+      choices:
+        - { text: "Toujours plus pâles et plus verts", correct: false }
+        - { text: "Plus riches, sur un registre de mûre plus épicé", correct: true }
+        - { text: "Toujours effervescents et blancs", correct: false }
+        - { text: "Toujours 100 % Cabernet Sauvignon", correct: false }
+      explanation: |
+        **Plus riches, sur un registre de mûre plus épicé**.
+        Minuscule AOC. **Pétrus** siège sur un bouton d’argile bleue ;
+        une bonne part du reste est graves sur argile. Plus riche et
+        plus épicé qu’un Saint-Émilion typique, pas une liste légale de
+        cépages différente.
 
   - id: bordeaux-garage-001
     type: mcq
@@ -2262,6 +3473,18 @@ cards:
         **Le Pin** was the prototype; **Valandraud** (Thienpont) is the
         named 1990s garagiste. Low yield, new oak, cult prices — not a
         new AOC.
+    fr:
+      question: Quelle mode des années 1990, sur la rive droite, a fait de tout petits rouges très mûrs et corsés sur de petites parcelles ?
+      choices:
+        - { text: "L’interdiction légale de tout chêne", correct: false }
+        - { text: "La vague des vins de garage / micro-cuvées", correct: true }
+        - { text: "Seulement le Clairet effervescent", correct: false }
+        - { text: "Le retour à 100 % d’Ugni Blanc", correct: false }
+      explanation: |
+        La **vague des vins de garage / micro-cuvées**.
+        **Le Pin** en est le prototype ; **Valandraud** (Thienpont) est
+        le garagiste nommé des années 1990. Faible rendement, chêne
+        neuf, prix de culte — pas une nouvelle AOC.
 
   - id: bordeaux-garagiste-term-001
     type: mcq
@@ -2282,6 +3505,16 @@ cards:
       explanation: |
         **Vin de garage / garagiste** — cellar-in-a-shed myth, serious
         prices. The joke stuck; the wines did too.
+    fr:
+      question: Quels surnoms ont collé aux micro-cuvées de rive droite des années 1990 et à leurs auteurs ?
+      choices:
+        - { text: "Crus bourgeois seulement", correct: false }
+        - { text: "Vins de garage et garagistes", correct: true }
+        - { text: "Premier cru supérieur, comme à Yquem", correct: false }
+        - { text: "Einzellagen", correct: false }
+      explanation: |
+        **Vin de garage / garagiste** — mythe de la cave-hangar, prix
+        sérieux. La plaisanterie a tenu ; les vins aussi.
 
   - id: bordeaux-rb-satellites-001
     type: mcq
@@ -2303,6 +3536,18 @@ cards:
         **Lussac, Montagne, Puisseguin, Saint-Georges** (the satellites)
         plus Fronsac and the Côtes: same grapes, less fame, often less
         concentration.
+    fr:
+      question: À quoi goûtent d’habitude les AOC qui ceignent Saint-Émilion et Pomerol ?
+      choices:
+        - { text: "Toujours 100 % Riesling", correct: false }
+        - { text: "Des rouges menés par le Merlot, dans un registre voisin, souvent plus léger", correct: true }
+        - { text: "Seulement de la pourriture noble façon Sauternes", correct: false }
+        - { text: "Seulement du rosé pâle de Provence", correct: false }
+      explanation: |
+        Des **rouges menés par le Merlot, dans un registre voisin, souvent plus léger**.
+        **Lussac, Montagne, Puisseguin, Saint-Georges** (les satellites)
+        plus Fronsac et les Côtes : mêmes cépages, moins de renom,
+        souvent moins de concentration.
 
   - id: bordeaux-cotes-name-001
     type: mcq
@@ -2323,6 +3568,16 @@ cards:
       explanation: |
         **Côtes de Bordeaux** is a regional wrapper. The village name
         comes first on the label when the wine qualifies.
+    fr:
+      question: Quelle AOC parapluie, créée en 2009, regroupe plusieurs coteaux bordelais moins connus ?
+      choices:
+        - { text: "Pauillac Grand Cru", correct: false }
+        - { text: "Côtes de Bordeaux", correct: true }
+        - { text: "Côtes du Rhône Villages", correct: false }
+        - { text: "Vin de France seulement", correct: false }
+      explanation: |
+        **Côtes de Bordeaux** est une enveloppe régionale. Le nom de
+        village passe en tête d’étiquette quand le vin s’y qualifie.
 
   - id: bordeaux-cotes-four-001
     type: mcq
@@ -2343,6 +3598,17 @@ cards:
       explanation: |
         **Cadillac-Côtes de Bordeaux**, **Blaye-**, **Castillon-**,
         **Francs-**. **Côtes de Bourg** stayed out of that 2009 merger.
+    fr:
+      question: Cadillac, Blaye, Castillon et Francs partagent quelle enveloppe de 2009 sur l’étiquette ?
+      choices:
+        - { text: "Pauillac, Margaux, Saint-Julien, Saint-Estèphe", correct: false }
+        - { text: "Côtes de Bordeaux (avec le nom de village devant)", correct: true }
+        - { text: "Chablis, Irancy, Sancerre, Pouilly", correct: false }
+        - { text: "Seulement Sauternes et Barsac", correct: false }
+      explanation: |
+        **Cadillac-Côtes de Bordeaux**, **Blaye-**, **Castillon-**,
+        **Francs-**. Les **Côtes de Bourg** sont restées hors de cette
+        fusion de 2009.
 
   - id: bordeaux-cotes-style-001
     type: mcq
@@ -2363,6 +3629,17 @@ cards:
       explanation: |
         **Drink-now Merlot**. “Value” is a shop slogan, not a tasting
         score — the useful contrast is price and weight versus Pomerol.
+    fr:
+      question: Quel est le rouge habituel des Côtes de Bordeaux ?
+      choices:
+        - { text: "Un Cabernet de premier cru à cave de 40 ans", correct: false }
+        - { text: "Un rouge mené par le Merlot, à boire tôt, souvent moins cher que Pomerol", correct: true }
+        - { text: "Seulement du blanc liquoreux de botrytis", correct: false }
+        - { text: "Seulement du Clairet effervescent", correct: false }
+      explanation: |
+        **Merlot à boire maintenant**. « Bon rapport » est un slogan de
+        rayon, pas une note de dégustation — le contraste utile est le
+        prix et le poids face à Pomerol.
 
   - id: bordeaux-cotes-bourg-001
     type: mcq
@@ -2383,6 +3660,16 @@ cards:
       explanation: |
         **Côtes de Bourg** (or Bourg) kept its own name. Merlot country
         facing the Gironde, not a 2009 prefix.
+    fr:
+      question: Quelle AOC de coteau de rive droite a refusé de se fondre dans Côtes de Bordeaux ?
+      choices:
+        - { text: "Pauillac", correct: false }
+        - { text: "Côtes de Bourg", correct: true }
+        - { text: "Sauternes", correct: false }
+        - { text: "Chablis", correct: false }
+      explanation: |
+        Les **Côtes de Bourg** (ou Bourg) ont gardé leur nom. Pays du
+        Merlot face à la Gironde, pas un préfixe de 2009.
 
   - id: bordeaux-edm-white-only-001
     type: mcq
@@ -2403,6 +3690,16 @@ cards:
       explanation: |
         **Entre-Deux-Mers** = dry white. Red from the same hills cannot
         borrow that name.
+    fr:
+      question: Quelle AOC, sur le coin entre Dordogne et Garonne, est réservée au blanc sec ?
+      choices:
+        - { text: "Pauillac", correct: false }
+        - { text: "Entre-Deux-Mers", correct: true }
+        - { text: "Pomerol", correct: false }
+        - { text: "Saint-Estèphe", correct: false }
+      explanation: |
+        **Entre-Deux-Mers** = blanc sec. Le rouge des mêmes coteaux ne
+        peut pas emprunter ce nom.
 
   - id: bordeaux-edm-red-label-001
     type: mcq
@@ -2423,6 +3720,17 @@ cards:
       explanation: |
         Red must take a **generic** AOC. Entre-Deux-Mers on the label
         means white.
+    fr:
+      question: Un rouge du pays d’Entre-Deux-Mers qui rate Cadillac ou une autre AOC locale s’étiquette comment ?
+      choices:
+        - { text: "Entre-Deux-Mers rouge", correct: false }
+        - { text: "Bordeaux ou Bordeaux Supérieur", correct: true }
+        - { text: "Pauillac", correct: false }
+        - { text: "Pomerol", correct: false }
+      explanation: |
+        **Bordeaux ou Bordeaux Supérieur**.
+        Le rouge doit prendre une AOC **générique**. Entre-Deux-Mers
+        sur l’étiquette veut dire blanc.
 
   - id: bordeaux-graves-colours-001
     type: mcq
@@ -2443,6 +3751,18 @@ cards:
       explanation: |
         Both colours are legal. **Haut-Brion** and **Haut-Brion Blanc**
         are the luxury pair; everyday Graves does the same split.
+    fr:
+      question: Quelles couleurs Graves et Pessac-Léognan peuvent-ils mettre sur le marché ?
+      choices:
+        - { text: "Rouge seulement, comme Pomerol", correct: false }
+        - { text: "Rouge et blanc sec", correct: true }
+        - { text: "Seulement du rosé effervescent", correct: false }
+        - { text: "Seulement du liquoreux de botrytis, comme Sauternes", correct: false }
+      explanation: |
+        **Rouge et blanc sec**.
+        Les deux couleurs sont légales. **Haut-Brion** et **Haut-Brion
+        Blanc** sont le couple de luxe ; le Graves du quotidien fait le
+        même partage.
 
   - id: bordeaux-graves-edm-white-001
     type: mcq
@@ -2464,6 +3784,17 @@ cards:
         Steel, **Sauvignon Blanc**, drink young. That is **not**
         Pessac-Léognan cru classé blanc, which is often barrel-fermented
         Sémillon-plus-Sauvignon.
+    fr:
+      question: Comment élabore-t-on la plupart des blancs bon marché de Graves et d’Entre-Deux-Mers ?
+      choices:
+        - { text: "Trois ans en 100 % bois neuf, toujours Sémillon seul", correct: false }
+        - { text: "Sauvignon Blanc sans chêne (parfois avec un peu de Sémillon)", correct: true }
+        - { text: "Toujours en vin rouge", correct: false }
+        - { text: "Toujours en Sauternes", correct: false }
+      explanation: |
+        **Sauvignon Blanc sans chêne**, parfois avec un peu de Sémillon.
+        Inox, à boire jeune. Ce n’est **pas** le blanc cru classé de
+        Pessac-Léognan, souvent fermenté en fût.
 
   - id: bordeaux-best-dry-white-001
     type: mcq
@@ -2484,6 +3815,17 @@ cards:
       explanation: |
         **Pessac-Léognan** (Haut-Brion Blanc, Laville / La Mission blanc,
         Smith Haut Lafitte blanc). Entre-Deux-Mers is the volume white.
+    fr:
+      question: Haut-Brion Blanc et Smith Haut Lafitte blanc s’étiquettent en quelle AOC ?
+      choices:
+        - { text: "Seulement à Pomerol", correct: false }
+        - { text: "Pessac-Léognan", correct: true }
+        - { text: "Seulement à Saint-Estèphe", correct: false }
+        - { text: "Seulement à Chablis", correct: false }
+      explanation: |
+        **Pessac-Léognan** (Haut-Brion Blanc, Laville / La Mission
+        blanc, Smith Haut Lafitte blanc). Entre-Deux-Mers est le blanc
+        de volume.
 
   - id: bordeaux-white-cru-classe-001
     type: mcq
@@ -2504,6 +3846,17 @@ cards:
       explanation: |
         The **1959 Graves** white classification now lives inside
         **Pessac-Léognan**. 1855 classed Sauternes, not dry white Médoc.
+    fr:
+      question: Où un blanc sec de Bordeaux peut-il porter les mots cru classé ?
+      choices:
+        - { text: "Seulement à Pauillac", correct: false }
+        - { text: "À Pessac-Léognan, sur la liste des blancs des Graves", correct: true }
+        - { text: "Seulement à Pomerol, qui a une échelle officielle", correct: false }
+        - { text: "Seulement en AOC Champagne", correct: false }
+      explanation: |
+        Le classement des blancs des **Graves 1959** vit aujourd’hui
+        dans **Pessac-Léognan**. 1855 a classé les Sauternes, pas le
+        blanc sec du Médoc.
 
   - id: bordeaux-pessac-blanc-style-001
     type: mcq
@@ -2525,6 +3878,17 @@ cards:
         **Sémillon + Sauvignon Blanc**, often a share of **new barriques**.
         Medium to full body, toast over citrus — not an Entre-Deux-Mers
         steel tank.
+    fr:
+      question: Quelle est la recette habituelle d’un grand Pessac-Léognan blanc ?
+      choices:
+        - { text: "100 % Riesling, sans chêne, toujours effervescent", correct: false }
+        - { text: "Sémillon plus Sauvignon Blanc, fermenté ou élevé au moins en partie sous bois", correct: true }
+        - { text: "100 % Muscadelle, trois ans sous voile", correct: false }
+        - { text: "Seulement du Gamay en macération carbonique", correct: false }
+      explanation: |
+        **Sémillon + Sauvignon Blanc**, souvent une part de **barriques
+        neuves**. Corps moyen à plein, toast sur agrumes — pas une
+        cuve d’inox d’Entre-Deux-Mers.
 
   - id: bordeaux-pessac-blanc-oak-note-001
     type: mcq
@@ -2545,6 +3909,17 @@ cards:
       explanation: |
         **Toast and nut** from barrel ferment and élevage. Fruit is still
         there; the wood is a layer, not a replacement.
+    fr:
+      question: Quel goût de chêne porte un Pessac-Léognan blanc élevé en fût ?
+      choices:
+        - { text: "Seulement cerise rouge et goudron", correct: false }
+        - { text: "Toast", correct: true }
+        - { text: "Seulement du safran de pourriture noble", correct: false }
+        - { text: "Aucun goût", correct: false }
+      explanation: |
+        **Toast et noix** venus de la fermentation et de l’élevage en
+        fût. Le fruit est encore là ; le bois est une couche, pas un
+        remplacement.
 
   - id: bordeaux-medoc-sauternes-white-001
     type: mcq
@@ -2566,6 +3941,19 @@ cards:
         **Médoc / Haut-Médoc / Sauternes** are not dry-white AOCs.
         **Aile d’Argent** (Mouton) is Bordeaux blanc from Pauillac vines.
         Sauternes on the label means sweet.
+    fr:
+      question: Si un vigneron du Médoc ou de Sauternes met un blanc sec, quelle AOC peut-il employer ?
+      choices:
+        - { text: "Pauillac blanc ou Sauternes sec", correct: false }
+        - { text: "Un nom générique Bordeaux (ou Bordeaux Supérieur)", correct: true }
+        - { text: "Pomerol blanc seulement", correct: false }
+        - { text: "AOC Champagne", correct: false }
+      explanation: |
+        Un **nom générique Bordeaux (ou Bordeaux Supérieur)**.
+        **Médoc / Haut-Médoc / Sauternes** ne sont pas des AOC de blanc
+        sec. **Aile d’Argent** (Mouton) est un Bordeaux blanc issu de
+        vignes de Pauillac. Sauternes sur l’étiquette veut dire
+        liquoreux.
 
   - id: bordeaux-sweet-rivers-001
     type: mcq
@@ -2587,6 +3975,18 @@ cards:
         **Sauternes** and **Barsac** sit where the cold **Ciron** meets
         the **Garonne** — mist for botrytis. Loupiac, Cadillac and
         Sainte-Croix-du-Mont face them across the river.
+    fr:
+      question: Le Ciron rejoint la Garonne auprès de quel groupe de vins liquoreux ?
+      choices:
+        - { text: "Seulement sur la Loire à Vouvray", correct: false }
+        - { text: "Sauternes et Barsac", correct: true }
+        - { text: "Seulement au village de Pomerol", correct: false }
+        - { text: "Seulement au nord de Saint-Estèphe", correct: false }
+      explanation: |
+        **Sauternes** et **Barsac** siègent là où le **Ciron** froid
+        rencontre la **Garonne** — brume pour la botrytis. Loupiac,
+        Cadillac et Sainte-Croix-du-Mont leur font face de l’autre
+        rive.
 
   - id: bordeaux-botrytis-mist-001
     type: mcq
@@ -2608,6 +4008,18 @@ cards:
         Cold **Ciron** air over the warmer **Garonne** → morning mist,
         then sun. That is a **vineyard** condition for *Botrytis cinerea*,
         not a fermentation trick.
+    fr:
+      question: Pourquoi la Garonne et le Ciron comptent-ils pour Sauternes à la vigne (pas au chai) ?
+      choices:
+        - { text: "Ils chauffent le moût pendant la fermentation", correct: false }
+        - { text: "La brume d’automne née des fleuves prépare la pourriture noble sur les grappes", correct: true }
+        - { text: "Ils rendent légale l’irrigation à l’eau de mer", correct: false }
+        - { text: "Ils transforment chaque baie en vin de glace", correct: false }
+      explanation: |
+        La **brume d’automne** née des fleuves prépare la **pourriture noble** sur les grappes.
+        L’air froid du **Ciron** sur la **Garonne** plus tiède → brume
+        du matin, puis soleil. C’est une condition **de vigne** pour
+        *Botrytis cinerea*, pas un tour de fermentation.
 
   - id: bordeaux-passerillage-001
     type: mcq
@@ -2629,6 +4041,17 @@ cards:
         **Passerillage** (dry shrivel) is the fallback. It gives sweet
         wine without the honey-saffron of botrytis — commoner in the
         cheaper satellite AOCs than at Yquem.
+    fr:
+      question: Quand l’automne reste trop sec pour la pourriture noble, comment les raisins du Sauternais se concentrent-ils autrement ?
+      choices:
+        - { text: "En ajoutant de l’eau de mer", correct: false }
+        - { text: "Par passerillage — en laissant les raisins se flétrir sur pied", correct: true }
+        - { text: "Par l’obligation légale de chaptaliser à 20 %", correct: false }
+        - { text: "En vendangeant seulement en juillet", correct: false }
+      explanation: |
+        Le **passerillage** (flétrissement à sec) est le recours. Il
+        donne un vin doux sans le miel-safran de la botrytis — plus
+        courant dans les AOC satellites moins chères qu’à Yquem.
 
   - id: bordeaux-best-sweet-001
     type: mcq
@@ -2650,6 +4073,17 @@ cards:
         **Sauternes** is the name students reach for. **Barsac** (Climens,
         Coutet) is a peer, not a stepchild — producers there may label
         either AOC.
+    fr:
+      question: Yquem s’étiquette en quelle AOC liquoreuse ?
+      choices:
+        - { text: "Pauillac", correct: false }
+        - { text: "Sauternes", correct: true }
+        - { text: "L’AOC Médoc seulement", correct: false }
+        - { text: "Chablis grand cru", correct: false }
+      explanation: |
+        **Sauternes** est le nom qu’on vise. **Barsac** (Climens,
+        Coutet) est un pair, pas un cadet — les producteurs là-bas
+        peuvent étiqueter l’une ou l’autre AOC.
 
   - id: bordeaux-sauternes-bank-001
     type: mcq
@@ -2670,6 +4104,17 @@ cards:
       explanation: |
         Left Bank, up-river of the city: Graves, then the Sauternais.
         “West bank” and “Left Bank” are the same shore here.
+    fr:
+      question: Sur quelle rive de la Garonne se trouve Sauternes ?
+      choices:
+        - { text: "La rive droite, à côté de Pomerol", correct: false }
+        - { text: "La rive ouest (gauche), au sud des Graves", correct: true }
+        - { text: "Seulement sur la Loire", correct: false }
+        - { text: "Seulement dans la ville de Bordeaux", correct: false }
+      explanation: |
+        La **rive ouest (gauche), au sud des Graves**.
+        Rive gauche, en amont de la ville : Graves, puis le Sauternais.
+        « Rive ouest » et « rive gauche » sont ici le même rivage.
 
   - id: bordeaux-barsac-where-001
     type: mcq
@@ -2690,6 +4135,17 @@ cards:
       explanation: |
         The Sauternes AOC covers five communes; **Barsac** is one of them
         and also has its own AOC.
+    fr:
+      question: Comment la commune de Barsac se situe-t-elle par rapport à l’AOC Sauternes ?
+      choices:
+        - { text: "C’est un village de Pomerol", correct: false }
+        - { text: "C’est l’une des communes autorisées à employer Sauternes", correct: true }
+        - { text: "Elle est seulement au nord de Saint-Estèphe", correct: false }
+        - { text: "Elle est en Alsace", correct: false }
+      explanation: |
+        C’est **l’une des communes autorisées à employer Sauternes**.
+        L’AOC Sauternes couvre cinq communes ; **Barsac** en est une et
+        possède aussi la sienne.
 
   - id: bordeaux-barsac-label-001
     type: mcq
@@ -2710,6 +4166,16 @@ cards:
       explanation: |
         Dual rights. **Climens** usually says Barsac; some neighbours
         prefer the better-known **Sauternes** word.
+    fr:
+      question: Quel nom d’AOC un vigneron de Barsac peut-il mettre sur une bouteille liquoreuse ?
+      choices:
+        - { text: "Pomerol seulement", correct: false }
+        - { text: "Barsac ou Sauternes", correct: true }
+        - { text: "Pauillac seulement", correct: false }
+        - { text: "Champagne seulement", correct: false }
+      explanation: |
+        Droits doubles. **Climens** dit d’habitude Barsac ; certains
+        voisins préfèrent le mot **Sauternes**, plus connu.
 
   - id: bordeaux-semillon-botrytis-001
     type: mcq
@@ -2730,6 +4196,17 @@ cards:
       explanation: |
         **Thin skins → Botrytis**. Sauvignon Blanc is the acid partner;
         Muscadelle a perfume dash. Sémillon is the volume and the rot.
+    fr:
+      question: Pourquoi le Sémillon mène-t-il un assemblage de Sauternes ?
+      choices:
+        - { text: "C’est le seul cépage rouge autorisé", correct: false }
+        - { text: "Des peaux fines prennent facilement la pourriture noble", correct: true }
+        - { text: "Il ne mûrit jamais en Gironde", correct: false }
+        - { text: "Le cahier des charges interdit le Sauvignon Blanc", correct: false }
+      explanation: |
+        **Peaux fines → Botrytis**. Le Sauvignon Blanc est le
+        partenaire d’acidité ; la Muscadelle, une pincée de parfum. Le
+        Sémillon est le volume et la pourriture.
 
   - id: bordeaux-sauternes-style-001
     type: mcq
@@ -2751,6 +4228,18 @@ cards:
         **Sweet + acid + botrytis + oak**. Alcohol is typically high
         (often 13–14%+). Yquem is the extreme of that balance, not a
         different recipe.
+    fr:
+      question: Qu’est-ce qui empêche un grand Sauternes de goûter comme un sirop sans relief ?
+      choices:
+        - { text: "Un maximum légal de 2 g/L de sucre résiduel", correct: false }
+        - { text: "Une acidité élevée", correct: true }
+        - { text: "Zéro alcool par la loi", correct: false }
+        - { text: "Seulement la macération carbonique du Gamay", correct: false }
+      explanation: |
+        Une **acidité élevée**.
+        **Doux + acide + botrytis + chêne**. L’alcool est
+        typiquement haut (souvent 13–14 % et plus). Yquem est
+        l’extrême de cet équilibre, pas une autre recette.
 
   - id: bordeaux-sweet-satellites-001
     type: mcq
@@ -2771,8 +4260,16 @@ cards:
       explanation: |
         Same rivers, usually less consistent rot and less oak ambition.
         They sit **across or beside** the Sauternais, not in the Médoc.
-
-
-
-
+    fr:
+      question: Outre Sauternes et Barsac, où ailleurs en Gironde fait-on du liquoreux dans un style voisin ?
+      choices:
+        - { text: "Seulement au village de Pomerol", correct: false }
+        - { text: "Des AOC proches comme Loupiac, Cadillac, Sainte-Croix-du-Mont et Cérons", correct: true }
+        - { text: "Seulement en grand cru de Chablis", correct: false }
+        - { text: "Seulement au nord de Saint-Estèphe", correct: false }
+      explanation: |
+        Des AOC proches comme **Loupiac, Cadillac, Sainte-Croix-du-Mont et Cérons**.
+        Mêmes fleuves, pourriture en général moins régulière et moins
+        d’ambition de chêne. Ils siègent **en face ou à côté** du
+        Sauternais, pas dans le Médoc.
 
