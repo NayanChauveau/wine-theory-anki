@@ -66,7 +66,7 @@ class CardBase(StrictModel):
     )
     deck: str = Field(
         min_length=1,
-        description="Anki subdeck path under 'WSET 3 VIN::', e.g. France::Bordeaux",
+        description="Stable English deck key, e.g. SAT or France::Bordeaux. Localized at build.",
         examples=["SAT", "France::Bordeaux"],
     )
     tags: list[str] = Field(default_factory=list, description="Extra Anki tags")

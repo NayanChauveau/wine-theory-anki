@@ -10,7 +10,8 @@ Package: `src/wset3_anki`. CLI entry: `wset3-anki`. Python 3.12+. Use `uv`.
 
 - Pydantic v2 schema in `schema.py` is the card contract. Keep `schema/cards.schema.json` in sync via `wset3-anki schema`. Models use `extra="forbid"`.
 - Stable IDs live in `ids.py` only. `note_guid(card_id, lang)` with `lang` in `en` | `fr` | `bilingual`.
-- Do not change hardcoded `*_MODEL_ID` or `ROOT_DECK_ID` once packages have been imported.
+- Do not change hardcoded `*_MODEL_ID` or `ROOT_DECK_IDS` once packages have been imported.
+- Deck display names are localized in `templates/ui/decks.yaml`; YAML `deck:` keys stay in English.
 - Bake UI strings at build time (`templates/ui/{lang}.yaml`). Do not fork models per language.
 - Drafts are excluded unless `include_drafts`. Missing `fr` is omitted from the French package.
 - Prefer argparse, no new runtime deps without a clear need.

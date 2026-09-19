@@ -7,6 +7,7 @@ from typing import Literal
 
 import genanki
 
+from wset3_anki.decks import load_deck_i18n
 from wset3_anki.ids import (
     BASIC_MODEL_ID,
     BILINGUAL_BASIC_MODEL_ID,
@@ -14,12 +15,11 @@ from wset3_anki.ids import (
     BILINGUAL_MCQ_MODEL_ID,
     CLOZE_MODEL_ID,
     MCQ_MODEL_ID,
-    ROOT_DECK_NAME,
     ancestor_paths,
     deck_id_for,
-    deck_path,
     note_guid,
 )
+from wset3_anki.paths import templates_dir
 from wset3_anki.render import (
     load_ui,
     read_template,
@@ -149,7 +149,9 @@ def prepare_monolingual(
     lang: Lang,
     *,
     include_drafts: bool = False,
+    templates: Path | None = None,
 ) -> BuildResult:
+    i18n = load_deck_i18n(templates or templates_dir())
     selected, skipped_drafts = select_cards(cards, include_drafts=include_drafts)
     result = BuildResult(skipped_drafts=skipped_drafts)
     for card in selected:
@@ -159,7 +161,7 @@ def prepare_monolingual(
         result.notes.append(
             PreparedNote(
                 guid=note_guid(card.id, lang),
-                deck=deck_path(card.deck),
+                deck=i18n.localize(card.deck, lang),
                 tags=card_tags(card, [f"lang::{lang}"]),
                 model=MONOLINGUAL_MODELS[card.type],
                 card=card,
@@ -169,7 +171,13 @@ def prepare_monolingual(
     return result
 
 
-def prepare_bilingual(cards: Iterable[Card], *, include_drafts: bool = False) -> BuildResult:
+def prepare_bilingual(
+    cards: Iterable[Card],
+    *,
+    include_drafts: bool = False,
+    templates: Path | None = None,
+) -> BuildResult:
+    i18n = load_deck_i18n(templates or templates_dir())
     selected, skipped_drafts = select_cards(cards, include_drafts=include_drafts)
     result = BuildResult(skipped_drafts=skipped_drafts)
     for card in selected:
@@ -181,7 +189,7 @@ def prepare_bilingual(cards: Iterable[Card], *, include_drafts: bool = False) ->
         result.notes.append(
             PreparedNote(
                 guid=note_guid(card.id, "bilingual"),
-                deck=deck_path(card.deck),
+                deck=i18n.localize(card.deck, "bilingual"),
                 tags=card_tags(card, extra),
                 model=BILINGUAL_MODELS[card.type],
                 card=card,
@@ -195,10 +203,11 @@ def prepare(
     lang: BuildLang,
     *,
     include_drafts: bool = False,
+    templates: Path | None = None,
 ) -> BuildResult:
     if lang == "bilingual":
-        return prepare_bilingual(cards, include_drafts=include_drafts)
-    return prepare_monolingual(cards, lang, include_drafts=include_drafts)
+        return prepare_bilingual(cards, include_drafts=include_drafts, templates=templates)
+    return prepare_monolingual(cards, lang, include_drafts=include_drafts, templates=templates)
 
 
 def load_models(templates: Path) -> dict[str, genanki.Model]:
@@ -338,8 +347,6 @@ def _ensure_decks(names: Iterable[str]) -> dict[str, genanki.Deck]:
         for path in ancestor_paths(name):
             if path not in decks:
                 decks[path] = genanki.Deck(deck_id_for(path), path)
-    if ROOT_DECK_NAME not in decks:
-        decks[ROOT_DECK_NAME] = genanki.Deck(deck_id_for(ROOT_DECK_NAME), ROOT_DECK_NAME)
     return decks
 
 
@@ -383,7 +390,7 @@ def build_language(
     out_dir: Path,
     include_drafts: bool = False,
 ) -> tuple[Path, BuildResult]:
-    result = prepare(cards, lang, include_drafts=include_drafts)
+    result = prepare(cards, lang, include_drafts=include_drafts, templates=templates)
     path = out_dir / PACKAGE_NAMES[lang]
     write_package(result, templates=templates, output=path, mode=lang)
     return path, result

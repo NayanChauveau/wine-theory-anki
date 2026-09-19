@@ -23,7 +23,7 @@ This project is not affiliated with, endorsed by, or connected to the Wine & Spi
 ## IDs, decks, and status
 
 - `id` is permanent (`chapter-topic-001`). Never reuse or rename an id after it has been released.
-- `deck` becomes the Anki path under `WSET 3 VIN::`. Use `France::Bordeaux`, not a one-off spelling.
+- `deck` is a stable English key (`SAT`, `France::Burgundy`). The build localizes it (`WSET 3 Wine` / `WSET 3 VIN`, Bourgogne, ASD, …). Labels live in `templates/ui/decks.yaml`.
 - `status`:
   - `draft` — work in progress; omitted from release builds
   - `reviewed` — ready to study

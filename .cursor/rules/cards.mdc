@@ -12,7 +12,7 @@ One file per chapter. Append to the existing `cards:` list.
 ```yaml
 - id: alsace-grand-cru-001          # permanent lowercase kebab-case
   type: mcq                         # mcq | basic | cloze
-  deck: France::Alsace              # path under WSET 3 VIN::
+  deck: France::Alsace              # English key; localized at build
   tags: [france, alsace]
   status: draft                     # draft | reviewed | needs-translation
   en:

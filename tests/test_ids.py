@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from wset3_anki.ids import ROOT_DECK_ID, ROOT_DECK_NAME, deck_id_for, deck_path, note_guid
+from wset3_anki.ids import ROOT_DECK_ID, ROOT_DECK_NAME_EN, deck_id_for, deck_path, note_guid
 
 
 def test_note_guid_is_stable_and_language_specific() -> None:
@@ -15,8 +15,8 @@ def test_note_guid_is_stable_and_language_specific() -> None:
 
 
 def test_deck_ids_are_deterministic() -> None:
-    path = deck_path("France::Bordeaux")
-    assert path == "WSET 3 VIN::France::Bordeaux"
-    assert deck_id_for(ROOT_DECK_NAME) == ROOT_DECK_ID
+    path = deck_path("France::Bordeaux", root=ROOT_DECK_NAME_EN)
+    assert path == "WSET 3 Wine::France::Bordeaux"
+    assert deck_id_for(ROOT_DECK_NAME_EN) == ROOT_DECK_ID
     assert deck_id_for(path) == deck_id_for(path)
-    assert deck_id_for(path) != deck_id_for(deck_path("SAT"))
+    assert deck_id_for(path) != deck_id_for(deck_path("SAT", root=ROOT_DECK_NAME_EN))

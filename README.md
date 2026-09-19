@@ -39,7 +39,7 @@ uv run wset3-anki build --lang all --out dist/
 | `wset3-anki build --lang all` | all three |
 | `wset3-anki build --include-drafts` | also emit `status: draft` cards |
 
-Anki deck tree: `WSET 3 VIN::{Chapter}::{optional sub}` (for example `WSET 3 VIN::France::Bordeaux`). In the bilingual package, suspend the `EN` or `FR` card type if you only want one language.
+Anki deck tree is localized at build time. English: `WSET 3 Wine::France::Bordeaux`. French: `WSET 3 VIN::France::Bordeaux` (and `Bourgogne`, `Allemagne`, `ASD`, … where the name actually changes). The bilingual package uses a neutral `WSET 3` root. Suspend the `EN` or `FR` card type if you only want one language.
 
 ## Repository layout
 
