@@ -153,3 +153,1244 @@ cards:
         to that frame so the leaf wall can be opened, trimmed and machine-worked.
         That whole practice is **canopy management**. A gobelet has no such
         wire wall.
+
+  - id: vm-site-env-001
+    type: mcq
+    deck: Vineyard Management
+    tags: [vineyard, site]
+    status: reviewed
+    source_id: c06-0001
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which named site-choice bucket asks whether a place can actually grow and ripen vines?
+      choices:
+        - { text: "Business considerations such as land price and labour", correct: false }
+        - { text: "Environmental conditions", correct: true }
+        - { text: "Which clone the nursery printed on the label", correct: false }
+        - { text: "The cellar's barrel order for next year", correct: false }
+      explanation: |
+        **Environmental conditions** are the grow-and-ripen bucket of
+        site choice: climate and soil have to support a healthy crop.
+        The other two named buckets are the business case and whether
+        the grape itself fits.
+
+  - id: vm-site-business-001
+    type: mcq
+    deck: Vineyard Management
+    tags: [vineyard, site]
+    status: reviewed
+    source_id: c06-0001
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which named site-choice bucket is about staffing the vineyard, reaching it and paying for the land?
+      choices:
+        - { text: "Only the colour of the topsoil", correct: false }
+        - { text: "Business considerations", correct: true }
+        - { text: "Which variety buds first in a cool spring", correct: false }
+        - { text: "How the finished wine will be fined", correct: false }
+      explanation: |
+        **Business considerations** are the commercial bucket of site
+        choice: can you staff the place, reach it with machines, hook up
+        water and power, and still afford the land? Climate and variety
+        are separate questions.
+
+  - id: vm-site-variety-001
+    type: mcq
+    deck: Vineyard Management
+    tags: [vineyard, site]
+    status: reviewed
+    source_id: c06-0001
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which named site-choice bucket covers ripening fit, buyers and planting law?
+      choices:
+        - { text: "Only the distance to the nearest motorway", correct: false }
+        - { text: "Grape variety", correct: true }
+        - { text: "Whether the soil drains after rain", correct: false }
+        - { text: "The winery's bottling-line speed", correct: false }
+      explanation: |
+        **Grape variety** is the third site-choice bucket. The vine has
+        to suit the climate, find buyers, and stay inside any planting
+        rules. Drainage and road access belong to environment and
+        business, not to this grape question.
+
+  - id: vm-site-env-climate-001
+    type: mcq
+    deck: Vineyard Management
+    tags: [vineyard, site]
+    status: reviewed
+    source_id: c06-0002
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which measurement trio belongs on the environmental checklist for a new site?
+      choices:
+        - { text: "Land price, labour pool and tractor-hour cost", correct: false }
+        - { text: "Typical temperature, rainfall and sunlight", correct: true }
+        - { text: "Permitted yield, appellation tax and bottle price", correct: false }
+        - { text: "Capsule colour, cork grade and label font", correct: false }
+      explanation: |
+        **Typical temperature, rainfall and sunlight** are the weather
+        side of the environmental checklist. They decide whether the
+        vine can grow and ripen. Fertility and drainage are soil
+        questions; land price is a business one.
+
+  - id: vm-site-env-soil-001
+    type: mcq
+    deck: Vineyard Management
+    tags: [vineyard, site]
+    status: reviewed
+    source_id: c06-0002
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which pair sits with temperature, rainfall and sunshine on the environmental checklist?
+      choices:
+        - { text: "Power supply and road access", correct: false }
+        - { text: "Fertility and drainage", correct: true }
+        - { text: "Workforce size and land cost", correct: false }
+        - { text: "Buyer demand and planting law", correct: false }
+      explanation: |
+        **Fertility and drainage** complete the environmental
+        list beside weather. A hungry or waterlogged profile will
+        not carry a healthy crop even if the air temperature is right.
+        Labour, land cost and utilities sit on the business list.
+
+  - id: vm-site-utilities-001
+    type: mcq
+    deck: Vineyard Management
+    tags: [vineyard, site]
+    status: reviewed
+    source_id: c06-0003
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Besides labour and land cost, what else does the business checklist ask about a new site?
+      choices:
+        - { text: "Only the clone number on the graft", correct: false }
+        - { text: "Power, water, and whether machines can reach the rows", correct: true }
+        - { text: "Mean summer temperature and hours of sun", correct: false }
+        - { text: "How much tartaric acid the cellar keeps in stock", correct: false }
+      explanation: |
+        **Power, water, and whether machines can reach the rows**
+        are the remaining business-side checks. A remote hillside
+        with no track or supply is expensive to run even if the
+        climate is perfect. Heat and light are environmental, not
+        business, questions.
+
+  - id: vm-site-land-labour-001
+    type: mcq
+    deck: Vineyard Management
+    tags: [vineyard, site]
+    status: reviewed
+    source_id: c06-0003
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: After utilities and machine access are settled, which remaining business-side checks still decide a site?
+      choices:
+        - { text: "Only soil drainage class", correct: false }
+        - { text: "Whether a vineyard workforce exists and what the land itself costs", correct: true }
+        - { text: "Whether the grape is legally allowed in the appellation", correct: false }
+        - { text: "How many buds winter pruning will leave", correct: false }
+      explanation: |
+        **Whether a vineyard workforce exists and what the land itself
+        costs** decides if the site can be staffed and paid for.
+        Napa and the Côte d'Or make the land-price point; a remote
+        site with no pickers makes the labour point. Drainage is
+        environmental; planting rules are a variety issue.
+
+  - id: vm-variety-climate-001
+    type: mcq
+    deck: Vineyard Management
+    tags: [vineyard, site]
+    status: reviewed
+    source_id: c06-0004
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What must be true of a grape relative to the site's climate before it is planted?
+      choices:
+        - { text: "It only has to match last year's auction prices", correct: false }
+        - { text: "It has to be able to ripen in those conditions", correct: true }
+        - { text: "It must come from a nursery in another hemisphere", correct: false }
+        - { text: "Climate fit never matters if the soil is white chalk", correct: false }
+      explanation: |
+        **It has to be able to ripen in those conditions.** Riesling
+        on a cool Mosel bank works; a late Cabernet Sauvignon there
+        often will not. Demand and planting law are separate variety
+        questions.
+
+  - id: vm-variety-demand-001
+    type: mcq
+    deck: Vineyard Management
+    tags: [vineyard, site]
+    status: reviewed
+    source_id: c06-0004
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Besides climate fit and planting law, what else must be true before that grape is planted?
+      choices:
+        - { text: "Buyers never influence what is planted", correct: false }
+        - { text: "There must be demand for that grape or wine", correct: true }
+        - { text: "Only the rootstock's phylloxera rating counts", correct: false }
+        - { text: "Demand is decided by soil colour alone", correct: false }
+      explanation: |
+        **There must be demand for that grape or wine.** A perfectly
+        ripe variety that nobody will buy still fails as a business.
+        Climate fit and legal planting lists are the other two variety
+        checks.
+
+  - id: vm-variety-legal-001
+    type: mcq
+    deck: Vineyard Management
+    tags: [vineyard, site]
+    status: reviewed
+    source_id: c06-0004
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Besides climate and demand, what legal issue can block a grape on a site?
+      choices:
+        - { text: "The colour of the vineyard gate", correct: false }
+        - { text: "Planting rules that restrict which varieties may be grown", correct: true }
+        - { text: "Whether the tractor is red or green", correct: false }
+        - { text: "How the wine will be fined after ferment", correct: false }
+      explanation: |
+        **Planting rules that restrict which varieties may be grown**
+        can veto a grape even if it would ripen and sell. Burgundy AOC
+        fruiting vines are a named case: Cabernet Sauvignon is not on
+        the list. Climate and demand are the other two variety checks.
+
+  - id: vm-prep-clear-001
+    type: mcq
+    deck: Vineyard Management
+    tags: [vineyard, planting]
+    status: reviewed
+    source_id: c06-0005
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What is the first land job when a new vineyard is prepared?
+      choices:
+        - { text: "Planting a full crop of fruiting vines the same afternoon", correct: false }
+        - { text: "Clearing the existing vegetation", correct: true }
+        - { text: "Installing a barrel cellar under the rows", correct: false }
+        - { text: "Leaving every tree and weed in place as a windbreak", correct: false }
+      explanation: |
+        **Clearing the existing vegetation** opens the ground so vines
+        are not fighting scrub or old roots. Fertility tests, planting
+        and guards come after that first clearance.
+
+  - id: vm-prep-fertility-001
+    type: mcq
+    deck: Vineyard Management
+    tags: [vineyard, planting]
+    status: reviewed
+    source_id: c06-0005
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: After the ground is cleared, what fertility work is usual before planting?
+      choices:
+        - { text: "The soil is never sampled, only painted", correct: false }
+        - { text: "The soil is tested and fertiliser is added if nutrients are short", correct: true }
+        - { text: "Only copper spray is worked into the top centimetre", correct: false }
+        - { text: "All topsoil is stripped and replaced with sand", correct: false }
+      explanation: |
+        **The soil is tested and fertiliser is added if nutrients are
+        short.** Correction happens before the vines go in, so young
+        roots meet a workable profile. Clearing vegetation is a
+        separate earlier step.
+
+  - id: vm-prep-plant-001
+    type: mcq
+    deck: Vineyard Management
+    tags: [vineyard, planting]
+    status: reviewed
+    source_id: c06-0005
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How are the young vines usually put in the ground?
+      choices:
+        - { text: "Only as seed sown in the row", correct: false }
+        - { text: "By hand or by machine", correct: true }
+        - { text: "By grafting them onto mature trunks already in the field", correct: false }
+        - { text: "They are never planted; cuttings are laid on the surface", correct: false }
+      explanation: |
+        **By hand or by machine.** Both methods set rooted young vines
+        (or cuttings destined to root) at the planned spacing. Seeding
+        a vineyard from pips is not how a commercial block is planted.
+
+  - id: vm-prep-sleeves-001
+    type: mcq
+    deck: Vineyard Management
+    tags: [vineyard, planting]
+    status: reviewed
+    source_id: c06-0005
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How are newly planted vines commonly shielded from animals?
+      choices:
+        - { text: "By leaving them unguarded so deer can prune them", correct: false }
+        - { text: "With plastic sleeves around the young stems", correct: true }
+        - { text: "By painting the graft with wine only", correct: false }
+        - { text: "By flooding the row until harvest", correct: false }
+      explanation: |
+        **With plastic sleeves around the young stems.** Grow tubes
+        keep rabbits and similar browsers off the green shoot and help
+        the young vine stand. Irrigation to establish is a separate
+        aid, not a substitute for a guard.
+
+  - id: vm-prep-irrigate-001
+    type: mcq
+    deck: Vineyard Management
+    tags: [vineyard, planting]
+    status: reviewed
+    source_id: c06-0006
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Where watering is otherwise restricted, why may irrigation still be used on newly planted vines?
+      choices:
+        - { text: "To force two crops in the planting year", correct: false }
+        - { text: "To help the young vines establish", correct: true }
+        - { text: "To wash phylloxera off the leaves", correct: false }
+        - { text: "Because mature vines must never see rain", correct: false }
+      explanation: |
+        **To help the young vines establish.** New roots are shallow
+        and drought-tender. Many European appellations that limit
+        watering on bearing vines still allow it in these first
+        seasons so the plant can take.
+
+  - id: vm-first-crop-001
+    type: mcq
+    deck: Vineyard Management
+    tags: [vineyard, planting]
+    status: reviewed
+    source_id: c06-0007
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: In which year after planting does a vine usually give its first real crop?
+      choices:
+        - { text: "The same week the cutting goes in", correct: false }
+        - { text: "The third year", correct: true }
+        - { text: "Never before the thirtieth year", correct: false }
+        - { text: "Only in year ten, by law everywhere", correct: false }
+      explanation: |
+        **The third year.** Years one and two are for roots and a
+        framework; a small second-year nibble is sometimes taken, but
+        the first crop growers count on is year three.
+
+  - id: vm-replant-age-001
+    type: mcq
+    deck: Vineyard Management
+    tags: [vineyard, planting]
+    status: reviewed
+    source_id: c06-0008
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: About how old are vines when growers typically pull them and replant?
+      choices:
+        - { text: "Two years, as soon as the first crop is picked", correct: false }
+        - { text: "30 to 50 years", correct: true }
+        - { text: "Always at exactly 100 years", correct: false }
+        - { text: "Vines are never replaced once planted", correct: false }
+      explanation: |
+        **30 to 50 years** is the usual commercial replacement window,
+        once yield and health fade. Famous old-vine Barossa or Priorat
+        blocks are kept longer on purpose; they are the exception, not
+        the average.
+
+  - id: vm-old-vine-flavour-001
+    type: mcq
+    deck: Vineyard Management
+    tags: [vineyard, yield]
+    status: reviewed
+    source_id: c06-0009
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Why do many growers still value a block of old vines?
+      choices:
+        - { text: "They always out-yield a young, healthy planting", correct: false }
+        - { text: "The fruit is often more flavour-concentrated", correct: true }
+        - { text: "They never get disease", correct: false }
+        - { text: "They ripen a month earlier than any young vine", correct: false }
+      explanation: |
+        **The fruit is often more flavour-concentrated.** Lower crops
+        and a settled root system are the usual mechanism. Yield and
+        disease pressure are the trade-off, not a reason to keep every
+        old vine.
+
+  - id: vm-old-vine-downside-001
+    type: mcq
+    deck: Vineyard Management
+    tags: [vineyard, yield]
+    status: reviewed
+    source_id: c06-0010
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What are the usual downsides of keeping very old vines?
+      choices:
+        - { text: "They always make thinner, weaker-flavoured fruit", correct: false }
+        - { text: "Crops are smaller and the plants are more disease-prone", correct: true }
+        - { text: "They cannot ripen in any climate", correct: false }
+        - { text: "They refuse to take a graft", correct: false }
+      explanation: |
+        **Crops are smaller and the plants are more disease-prone.**
+        That is why many estates replant on a 30-to-50-year cycle even
+        though old-vine fruit can be more concentrated. Flavour is the
+        upside, not the drawback.
+
+  - id: vm-fallow-001
+    type: mcq
+    deck: Vineyard Management
+    tags: [vineyard, planting]
+    status: reviewed
+    source_id: c06-0011
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: After old vines are dug out, how long is the ground typically left without vines?
+      choices:
+        - { text: "They are replanted the same afternoon", correct: false }
+        - { text: "Three years or more", correct: true }
+        - { text: "A compulsory fifty-year rest", correct: false }
+        - { text: "Fallow is only used in glasshouses", correct: false }
+      explanation: |
+        **Three years or more** is the usual rest. It lets the soil
+        recover and breaks the cycle of vine sickness and nematodes
+        before the next planting. Instant replant is the mistake this
+        wait is meant to avoid.
+
+  - id: vm-manage-four-001
+    type: mcq
+    deck: Vineyard Management
+    tags: [vineyard, training]
+    status: reviewed
+    source_id: c06-0012
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which toolkit does a grower use in the field to manage the vine itself?
+      choices:
+        - { text: "Fining, filtration, chaptalisation and bottling", correct: false }
+        - { text: "Training, pruning, trellising and planting density", correct: true }
+        - { text: "Only irrigation, with no cutting or posts", correct: false }
+        - { text: "Labelling, shipping, tax stamps and capsules", correct: false }
+      explanation: |
+        **Training, pruning, trellising and planting density** are the
+        four field levers. They set the vine's shape, its crop, and
+        how machines move through the row. Cellar work is not vineyard
+        management.
+
+  - id: vm-adapt-resources-001
+    type: mcq
+    deck: Vineyard Management
+    tags: [vineyard, training]
+    status: reviewed
+    source_id: c06-0013
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Growers adapt training, pruning, trellis and density to the supply of which resources?
+      choices:
+        - { text: "Oak, sulphur, tartaric acid and sugar", correct: false }
+        - { text: "Temperature, sunlight, water and soil nutrients", correct: true }
+        - { text: "Only the colour of the tractor", correct: false }
+        - { text: "Moon phase and the day of the week", correct: false }
+      explanation: |
+        **Temperature, sunlight, water and soil nutrients** are the
+        four supplies those techniques have to match. A wet, fertile
+        site is trained and spaced differently from a dry, poor one.
+        Barrel and sulphur choices belong in the cellar.
+
+  - id: vm-machinery-plan-001
+    type: mcq
+    deck: Vineyard Management
+    tags: [vineyard, site]
+    status: reviewed
+    source_id: c06-0014
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Besides heat, light, water and nutrients, which practical constraint often shapes how a new vineyard is laid out?
+      choices:
+        - { text: "The font on the future label", correct: false }
+        - { text: "Whether machinery will be used", correct: true }
+        - { text: "The brand of cellar pump", correct: false }
+        - { text: "How many tasting notes the importer wants", correct: false }
+      explanation: |
+        **Whether machinery will be used** sets row width, training
+        height and whether a trellis is worth the posts. A hand-worked
+        terrace can stay tight; a tractor or harvester needs a path.
+
+  - id: vm-grower-goal-001
+    type: mcq
+    deck: Vineyard Management
+    tags: [vineyard]
+    status: reviewed
+    source_id: c06-0015
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What is the grower's usual aim in the vineyard?
+      choices:
+        - { text: "The largest possible crop, with no quality target", correct: false }
+        - { text: "As much fruit as possible at the target quality, at a cost that still pays", correct: true }
+        - { text: "To grow leaves only and never harvest grapes", correct: false }
+        - { text: "To ignore cost as long as every berry is tiny", correct: false }
+      explanation: |
+        **As much fruit as possible at the target quality, at a cost
+        that still pays.** Yield, quality and economics are balanced,
+        not maximised one at a time. A bumper crop of thin fruit, or
+        a perfect crop that bankrupts the estate, both miss the aim.
+
+  - id: vm-training-define-001
+    type: mcq
+    deck: Vineyard Management
+    tags: [vineyard, training]
+    status: reviewed
+    source_id: c06-0016
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which part of the vine does training set?
+      choices:
+        - { text: "Only the brand of the pruning shears", correct: false }
+        - { text: "The shape of the vine's permanent wood", correct: true }
+        - { text: "How the wine is trained in barrel", correct: false }
+        - { text: "The number of vines planted per hectare", correct: false }
+      explanation: |
+        **The shape of the vine's permanent wood** is training: trunk,
+        head or cordon. Pruning is the annual cut; density is how
+        close the plants sit. They work together but are not the same
+        word.
+
+  - id: vm-training-two-001
+    type: mcq
+    deck: Vineyard Management
+    tags: [vineyard, training]
+    status: reviewed
+    source_id: c06-0017
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which two named systems can a grower use to arrange a vine's permanent wood?
+      choices:
+        - { text: "Organic and biodynamic only", correct: false }
+        - { text: "Head training and cordon training", correct: true }
+        - { text: "Machine harvest and night harvest", correct: false }
+        - { text: "White grapes and black grapes", correct: false }
+      explanation: |
+        **Head training and cordon training** are the two lasting
+        shapes. A head is a short trunk (sometimes with a few stubby
+        arms); a cordon is a permanent arm of old wood. Both can then
+        be spur- or cane-pruned.
+
+  - id: vm-training-low-001
+    type: mcq
+    deck: Vineyard Management
+    tags: [vineyard, training]
+    status: reviewed
+    source_id: c06-0018
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Why might a grower train vines low to the ground?
+      choices:
+        - { text: "To lift every bud above a frost layer", correct: false }
+        - { text: "To pick up heat stored in the soil", correct: true }
+        - { text: "Because low vines cannot ripen fruit", correct: false }
+        - { text: "To make mechanical harvesting compulsory", correct: false }
+      explanation: |
+        **To pick up heat stored in the soil.** A low head or cordon
+        sits in the warm air just above stones or bare earth —
+        useful in a Mediterranean site. High training is the frost
+        move, the opposite idea.
+
+  - id: vm-training-high-001
+    type: mcq
+    deck: Vineyard Management
+    tags: [vineyard, training]
+    status: reviewed
+    source_id: c06-0018
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Why might a grower train vines high off the ground?
+      choices:
+        - { text: "To trap more soil heat around the bunches", correct: false }
+        - { text: "To lift buds and fruit above spring frost", correct: true }
+        - { text: "Because high vines never need pruning", correct: false }
+        - { text: "To stop photosynthesis on purpose", correct: false }
+      explanation: |
+        **To lift buds and fruit above spring frost.** Cold air pools
+        near the soil; a higher trunk keeps the green tissue out of
+        that layer. Chablis and Champagne use the idea. Low training
+        is for soil heat, not frost.
+
+  - id: vm-head-wood-001
+    type: mcq
+    deck: Vineyard Management
+    tags: [vineyard, training]
+    status: reviewed
+    source_id: c06-0019
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How much permanent wood does a head-trained vine usually carry?
+      choices:
+        - { text: "Two long cordons stretching the full row", correct: false }
+        - { text: "Very little — a trunk, sometimes with a few short arms", correct: true }
+        - { text: "No trunk at all, only wires", correct: false }
+        - { text: "A permanent pergola roof of old wood", correct: false }
+      explanation: |
+        **Very little — a trunk, sometimes with a few short arms.**
+        That compact head is the point of the system. A long permanent
+        arm is cordon training, not a head.
+
+  - id: vm-head-prune-001
+    type: mcq
+    deck: Vineyard Management
+    tags: [vineyard, training, pruning]
+    status: reviewed
+    source_id: c06-0019
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which winter pruning systems can a head-trained vine take?
+      choices:
+        - { text: "Neither spur nor cane pruning, only summer tipping", correct: false }
+        - { text: "Spur pruning or replacement-cane pruning", correct: true }
+        - { text: "Only machine hedging, never a winter cut", correct: false }
+        - { text: "Only cordon spurs, never a cane", correct: false }
+      explanation: |
+        **Spur pruning or replacement-cane pruning** both work on a
+        head. Guyot is the cane version (Bordeaux, Burgundy);
+        gobelet is the spur version (Beaujolais, southern Rhône). The
+        head is the permanent shape, not a single pruning style.
+
+  - id: vm-cordon-shape-001
+    type: mcq
+    deck: Vineyard Management
+    tags: [vineyard, training]
+    status: reviewed
+    source_id: c06-0020
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What does a cordon-trained vine look like?
+      choices:
+        - { text: "A trunk with no permanent arms and a loose hanging bush", correct: false }
+        - { text: "A trunk with one or two permanent arms, usually spur-pruned", correct: true }
+        - { text: "Only this year's canes, with all old wood removed each winter", correct: false }
+        - { text: "A seed-sown vine that never forms a trunk", correct: false }
+      explanation: |
+        **A trunk with one or two permanent arms, usually spur-pruned.**
+        Those arms are the cordons; short spurs along them throw the
+        new shoots. A head has almost no such permanent arm.
+
+  - id: vm-cordon-big-001
+    type: mcq
+    deck: Vineyard Management
+    tags: [vineyard, training]
+    status: reviewed
+    source_id: c06-0022
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Besides a single neat arm, what kind of vine can cordon training be used to build?
+      choices:
+        - { text: "Only a leafless stump with no framework", correct: false }
+        - { text: "A large vine structure with a wide permanent framework", correct: true }
+        - { text: "A vine that cannot carry any spur", correct: false }
+        - { text: "A seedling with no trunk", correct: false }
+      explanation: |
+        **A large vine structure with a wide permanent framework.**
+        Extra cordons (or a long bilateral pair) spread a vigorous
+        vine over more space. A tiny head is the opposite idea.
+
+  - id: vm-pruning-define-001
+    type: mcq
+    deck: Vineyard Management
+    tags: [vineyard, pruning]
+    status: reviewed
+    source_id: c06-0023
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What is pruning, in vineyard terms?
+      choices:
+        - { text: "Tying every shoot without cutting anything", correct: false }
+        - { text: "The removal of unwanted leaves, canes and permanent wood", correct: true }
+        - { text: "Only the planting density of a new block", correct: false }
+        - { text: "Adding fertiliser to the drip line", correct: false }
+      explanation: |
+        **The removal of unwanted leaves, canes and permanent wood**
+        is pruning. Training is the shape you keep; pruning is the
+        cut that maintains that shape and drops what you do not want.
+
+  - id: vm-pruning-purpose-001
+    type: mcq
+    deck: Vineyard Management
+    tags: [vineyard, pruning]
+    status: reviewed
+    source_id: c06-0024
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Once a grower starts cutting, what should that work do to the vine itself?
+      choices:
+        - { text: "Let it sprawl without any size limit", correct: false }
+        - { text: "Give it a shape and keep it to a limited size", correct: true }
+        - { text: "Stop all leaf growth forever", correct: false }
+        - { text: "Replace the need for any fruit", correct: false }
+      explanation: |
+        **Give it a shape and keep it to a limited size.** Winter and
+        summer cuts both serve that. Unpruned vines become a tangle
+        that shades fruit and steals sugar into wood.
+
+  - id: vm-pruning-when-001
+    type: mcq
+    deck: Vineyard Management
+    tags: [vineyard, pruning]
+    status: reviewed
+    source_id: c06-0025
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: In a normal year, how often does a grower take the shears to the vine?
+      choices:
+        - { text: "Only on the day of harvest", correct: false }
+        - { text: "Every winter and every summer", correct: true }
+        - { text: "Only once, in the vine's tenth year", correct: false }
+        - { text: "Never in the growing season", correct: false }
+      explanation: |
+        **Every winter and every summer.** Winter sets next year's
+        buds; summer trims the green canopy. Skipping one season
+        leaves either a wild framework or a hedge of laterals.
+
+  - id: vm-winter-buds-001
+    type: mcq
+    deck: Vineyard Management
+    tags: [vineyard, pruning]
+    status: reviewed
+    source_id: c06-0026
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What is winter pruning mainly deciding?
+      choices:
+        - { text: "Only the colour of next year's leaves", correct: false }
+        - { text: "How many buds remain, and where the new shoots will start", correct: true }
+        - { text: "Which barrels the cellar will buy", correct: false }
+        - { text: "Whether véraison has already finished", correct: false }
+      explanation: |
+        **How many buds remain, and where the new shoots will start.**
+        Each retained bud is a potential shoot and crop. Summer
+        pruning is a later, green-canopy job, not this winter count.
+
+  - id: vm-bud-spacing-001
+    type: mcq
+    deck: Vineyard Management
+    tags: [vineyard, pruning, canopy]
+    status: reviewed
+    source_id: c06-0027
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Why does a winter pruner leave space between the buds that remain?
+      choices:
+        - { text: "Close buds always double the sugar in every berry", correct: false }
+        - { text: "So the canopy can be opened and managed", correct: true }
+        - { text: "Because buds closer than a metre never burst", correct: false }
+        - { text: "To force the vine onto a bush shape only", correct: false }
+      explanation: |
+        **So the canopy can be opened and managed.** Crowded buds
+        throw a hedge of shoots that shade fruit and trap moisture.
+        Spacing is a winter decision that makes summer leaf work
+        possible.
+
+  - id: vm-winter-styles-001
+    type: mcq
+    deck: Vineyard Management
+    tags: [vineyard, pruning]
+    status: reviewed
+    source_id: c06-0028
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which pair names the two winter cuts a grower can use to leave next year's buds?
+      choices:
+        - { text: "Green harvest and leaf stripping only", correct: false }
+        - { text: "Spur pruning and replacement-cane pruning", correct: true }
+        - { text: "Machine harvest and hand harvest", correct: false }
+        - { text: "Organic sprays and copper sprays", correct: false }
+      explanation: |
+        **Spur pruning and replacement-cane pruning** are the two
+        winter systems. Spurs are short two-bud stubs; replacement
+        canes are long one-year rods tied to a wire (Guyot). Summer
+        work is a different season.
+
+  - id: vm-spur-where-001
+    type: mcq
+    deck: Vineyard Management
+    tags: [vineyard, pruning]
+    status: reviewed
+    source_id: c06-0029
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Where do the spurs sit on a spur-pruned vine?
+      choices:
+        - { text: "Only on the ground between the rows", correct: false }
+        - { text: "Along a cordon, or in a ring around the top of the trunk", correct: true }
+        - { text: "Only on last year's long cane, which is kept in full", correct: false }
+        - { text: "Inside the bottle after bottling", correct: false }
+      explanation: |
+        **Along a cordon, or in a ring around the top of the trunk.**
+        Cordon plus spurs is the usual pair; a head-trained gobelet
+        wears its spurs around the crown. A long tied cane is
+        replacement-cane pruning, not a spur layout.
+
+  - id: vm-cane-how-001
+    type: mcq
+    deck: Vineyard Management
+    tags: [vineyard, pruning]
+    status: reviewed
+    source_id: c06-0030
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How is replacement-cane pruning usually laid out?
+      choices:
+        - { text: "A dozen untrained canes left hanging to the soil", correct: false }
+        - { text: "One or two canes are kept and tied horizontally to the trellis, most often on a head-trained vine", correct: true }
+        - { text: "Only short spurs along a permanent cordon", correct: false }
+        - { text: "No wood is retained at all in winter", correct: false }
+      explanation: |
+        **One or two canes are kept and tied horizontally to the
+        trellis, most often on a head-trained vine.** Single Guyot
+        keeps one cane; double Guyot keeps two. Spurs on a cordon are
+        the other winter system.
+
+  - id: vm-cane-skill-001
+    type: mcq
+    deck: Vineyard Management
+    tags: [vineyard, pruning]
+    status: reviewed
+    source_id: c06-0031
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What is the main practical drawback of replacement-cane pruning?
+      choices:
+        - { text: "It needs no people and no skill", correct: false }
+        - { text: "It needs a large skilled crew and is more complex than spur pruning", correct: true }
+        - { text: "It can only be used on bush vines with no wires", correct: false }
+        - { text: "It forbids any fruit from forming", correct: false }
+      explanation: |
+        **It needs a large skilled crew and is more complex than spur
+        pruning.** Someone has to pick sound canes and tie them right.
+        Bordeaux and Burgundy still pay for that labour. Spur pruning
+        is quicker to teach and easier to mechanise.
+
+  - id: vm-guyot-001
+    type: mcq
+    deck: Vineyard Management
+    tags: [vineyard, pruning]
+    status: reviewed
+    source_id: c06-0032
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which named winter system keeps one or two long canes and ties them to a wire?
+      choices:
+        - { text: "Gobelet", correct: false }
+        - { text: "Guyot", correct: true }
+        - { text: "Lyre only", correct: false }
+        - { text: "Geneva double curtain only", correct: false }
+      explanation: |
+        **Guyot** is the usual name for replacement-cane pruning:
+        one cane (single Guyot) or two (double Guyot) tied to a wire.
+        **Gobelet** is bush / head-and-spur, not Guyot.
+
+  - id: vm-canopy-define-001
+    type: mcq
+    deck: Vineyard Management
+    tags: [vineyard, canopy]
+    status: reviewed
+    source_id: c06-0034
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which tissues make up the vine's canopy?
+      choices:
+        - { text: "Only the buried roots", correct: false }
+        - { text: "All of its green parts", correct: true }
+        - { text: "Only the permanent old wood", correct: false }
+        - { text: "The posts and wires with no leaves", correct: false }
+      explanation: |
+        **All of its green parts** — shoots, leaves, laterals and the
+        fruit — make the canopy. Permanent wood is the trained
+        framework; the trellis is the furniture that may hold that
+        green wall.
+
+  - id: vm-canopy-trellis-choice-001
+    type: mcq
+    deck: Vineyard Management
+    tags: [vineyard, canopy, trellis]
+    status: draft
+    source_id: c06-0035
+    review:
+      fact_check: unsure
+      sources: [known-fact]
+    en:
+      question: When planning canopy work, which decision is treated as the first big fork?
+      choices:
+        - { text: "Which capsule colour the bottle will wear", correct: false }
+        - { text: "Whether to use a trellis", correct: true }
+        - { text: "Whether to chaptalise the must", correct: false }
+        - { text: "Which yeast the cellar prefers", correct: false }
+      explanation: |
+        **Whether to use a trellis** is taught as the first canopy
+        fork: free bush versus a wired wall. That ranking is a
+        teaching frame, not a proof that leaf-plucking never matters.
+        Cellar choices are not canopy decisions.
+
+  - id: vm-trellis-support-001
+    type: mcq
+    deck: Vineyard Management
+    tags: [vineyard, trellis]
+    status: reviewed
+    source_id: c06-0036
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What wood is a trellis frame there to hold?
+      choices:
+        - { text: "Only the buried roots, with no living canopy", correct: false }
+        - { text: "Replacement canes and this year's shoots", correct: true }
+        - { text: "Only last century's dead trunks, never green wood", correct: false }
+        - { text: "A glasshouse roof required on every site", correct: false }
+      explanation: |
+        **Replacement canes and this year's shoots** are the wood the
+        frame is there to hold. Guyot canes need that horizontal
+        support; the season's growth is tied onto it. A bush vine has
+        no such frame.
+
+  - id: vm-bush-define-001
+    type: mcq
+    deck: Vineyard Management
+    tags: [vineyard, training]
+    status: reviewed
+    source_id: c06-0037
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which training package is a bush vine?
+      choices:
+        - { text: "A VSP wall with shoots tucked into catch wires", correct: false }
+        - { text: "Head-trained, spur-pruned, with no trellis", correct: true }
+        - { text: "Any cordon vine on a high Geneva curtain", correct: false }
+        - { text: "A seedling that has not yet formed a trunk", correct: false }
+      explanation: |
+        **Head-trained, spur-pruned, with no trellis** is a bush
+        vine (gobelet). Shoots can hang toward the ground; there
+        is no wire wall. VSP is the opposite picture.
+
+  - id: vm-bush-climate-001
+    type: mcq
+    deck: Vineyard Management
+    tags: [vineyard, training]
+    status: reviewed
+    source_id: c06-0038
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: In which weather pattern does a hanging, untrellised canopy usually work best?
+      choices:
+        - { text: "Cool, wet and cloudy", correct: false }
+        - { text: "Warm to hot, dry and sunny", correct: true }
+        - { text: "Only sites that freeze every June", correct: false }
+        - { text: "Any climate equally, with no shade effect", correct: false }
+      explanation: |
+        **Warm to hot, dry and sunny** is the bush-vine climate. The
+        hanging canopy throws shade that protects fruit from burn, and
+        dry air keeps the stiller canopy from rotting. Cool wet sites
+        want the opposite: an open, wired wall.
+
+  - id: vm-bush-examples-001
+    type: mcq
+    deck: Vineyard Management
+    tags: [vineyard, training]
+    status: reviewed
+    source_id: c06-0038
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which pair is the usual example of bush-trained vineyards?
+      choices:
+        - { text: "The Mosel terraces and Chablis grands crus", correct: false }
+        - { text: "The southern Rhône and the Barossa Valley", correct: true }
+        - { text: "Central Otago and the Finger Lakes only", correct: false }
+        - { text: "Champagne and the Côte des Blancs only", correct: false }
+      explanation: |
+        **The southern Rhône and the Barossa Valley** are the stock
+        pair: Grenache gobelets in the south of France, old dry-grown
+        Shiraz bushes in Barossa. Mosel and Chablis are cool wired
+        (or staked) sites, not bush country.
+
+  - id: vm-bush-shade-001
+    type: mcq
+    deck: Vineyard Management
+    tags: [vineyard, training, canopy]
+    status: reviewed
+    source_id: c06-0039
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Why does a hanging bush canopy help in a hot, sunny site?
+      choices:
+        - { text: "It strips every leaf so the fruit cooks faster", correct: false }
+        - { text: "The extra shade shields the grapes from the sun", correct: true }
+        - { text: "Shade always stops ripening in a hot climate", correct: false }
+        - { text: "It is only decorative and never affects the fruit", correct: false }
+      explanation: |
+        **The extra shade shields the grapes from the sun.** Bunches
+        under a drooping gobelet burn less than fruit on a tight,
+        upright wall. In a cool site that same shade is a problem.
+
+  - id: vm-bush-cool-wet-001
+    type: mcq
+    deck: Vineyard Management
+    tags: [vineyard, training, canopy]
+    status: reviewed
+    source_id: c06-0040
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Why does a hanging bush canopy struggle where summers stay cool or damp?
+      choices:
+        - { text: "Bush vines always ripen first in the rain", correct: false }
+        - { text: "Shade slows ripening and still air invites disease", correct: true }
+        - { text: "Bush vines cannot set fruit anywhere", correct: false }
+        - { text: "Wet climates legally require a pergola", correct: false }
+      explanation: |
+        **Shade slows ripening and still air invites disease.** A
+        hanging mound keeps light off the bunches and holds humidity
+        after rain. A cool, wet site wants an open, wired canopy
+        instead.
+
+  - id: vm-beaujolais-tie-001
+    type: mcq
+    deck: Vineyard Management
+    tags: [vineyard, training]
+    status: reviewed
+    source_id: c06-0041
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How are many Beaujolais bush vines finished after they are head-trained and spur-pruned?
+      choices:
+        - { text: "Every shoot is tucked into a high VSP catch wire", correct: false }
+        - { text: "Shoot tips are tied together so bunches see air and light", correct: true }
+        - { text: "All fruiting wood is removed before flowering", correct: false }
+        - { text: "They are laid on the ground under a plastic sheet", correct: false }
+      explanation: |
+        **Shoot tips are tied together so bunches see air and light.**
+        The vine stays a gobelet, but the tied crown opens the middle
+        — a Beaujolais tweak on a free bush, not a switch to VSP.
+
+  - id: vm-harvest-untrellised-001
+    type: mcq
+    deck: Vineyard Management
+    tags: [vineyard, trellis]
+    status: reviewed
+    source_id: c06-0042
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which vines leave a machine picker with no straight fruiting wall to straddle?
+      choices:
+        - { text: "Any VSP row on flat land", correct: false }
+        - { text: "Untrellised vines", correct: true }
+        - { text: "Only vines planted after 2000", correct: false }
+        - { text: "Only white-grape plantings", correct: false }
+      explanation: |
+        **Untrellised vines** do not present a straight fruiting zone
+        a straddle-harvester can shake. A machine needs a wired row
+        it can drive down. Hand picking is the usual answer on a
+        free bush.
+
+  - id: vm-gobelet-001
+    type: mcq
+    deck: Vineyard Management
+    tags: [vineyard, training]
+    status: reviewed
+    source_id: c06-0043
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What does the name gobelet refer to?
+      choices:
+        - { text: "A high VSP wall with catch wires", correct: false }
+        - { text: "Bush training", correct: true }
+        - { text: "Replacement-cane Guyot only", correct: false }
+        - { text: "A Geneva double curtain", correct: false }
+      explanation: |
+        **Bush training** is **gobelet**: a free-standing, head-and-spur
+        vine with no trellis. Guyot is the cane-pruned wired system,
+        not a gobelet.
+
+  - id: vm-spray-cover-001
+    type: mcq
+    deck: Vineyard Management
+    tags: [vineyard, canopy, trellis]
+    status: reviewed
+    source_id: c06-0047
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Once a trellis has put leaves and fruit in separate zones, what follow-on benefit does that split give the grower?
+      choices:
+        - { text: "Sprays can no longer reach any green tissue", correct: false }
+        - { text: "Insecticide and fungicide sprays cover the vine more effectively", correct: true }
+        - { text: "All spraying becomes illegal", correct: false }
+        - { text: "Only the posts take up the spray", correct: false }
+      explanation: |
+        **Insecticide and fungicide sprays cover the vine more
+        effectively** when fruit and leaf are not in one tangled ball.
+        The sprayer can hit the target instead of a hedge. That is a
+        follow-on from a separated canopy, not the reason the trellis
+        exists.
+
+  - id: vm-vsp-common-001
+    type: mcq
+    deck: Vineyard Management
+    tags: [vineyard, trellis]
+    status: reviewed
+    source_id: c06-0048
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which named trellis is the usual default in a modern wired vineyard?
+      choices:
+        - { text: "Geneva double curtain", correct: false }
+        - { text: "Vertical shoot positioning (VSP)", correct: true }
+        - { text: "Lyre", correct: false }
+        - { text: "Pergola", correct: false }
+      explanation: |
+        **Vertical shoot positioning (VSP)** is the default modern
+        trellis: an upright leaf wall on wires. Lyre, Geneva double
+        curtain and pergola are real alternatives, but they are not
+        the worldwide majority.
+
+  - id: vm-vsp-prune-001
+    type: mcq
+    deck: Vineyard Management
+    tags: [vineyard, trellis, pruning]
+    status: reviewed
+    source_id: c06-0049
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which winter pruning options can sit under a vertical shoot-positioned wall?
+      choices:
+        - { text: "Spur pruning only, never a cane", correct: false }
+        - { text: "Either spur pruning or replacement-cane pruning", correct: true }
+        - { text: "Neither; VSP forbids all winter cuts", correct: false }
+        - { text: "Only green harvest, with no dormant pruning", correct: false }
+      explanation: |
+        **Either spur pruning or replacement-cane pruning** can sit
+        under a VSP wall. Guyot canes are tucked into the wires;
+        cordon spurs throw shoots that are then stood up the same way.
+        VSP is the shoot arrangement, not a third pruning system.
+
+  - id: vm-vsp-define-001
+    type: mcq
+    deck: Vineyard Management
+    tags: [vineyard, trellis]
+    status: reviewed
+    source_id: c06-0050
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How are the shoots arranged in vertical shoot positioning?
+      choices:
+        - { text: "They are left to hang to the ground as a free bush", correct: false }
+        - { text: "They are trained straight up and tied onto the trellis", correct: true }
+        - { text: "They are buried each winter under a mound of soil", correct: false }
+        - { text: "They are cut off as soon as they appear", correct: false }
+      explanation: |
+        **They are trained straight up and tied onto the trellis.**
+        Catch wires hold a thin vertical curtain. A bush vine does
+        the opposite: free, hanging shoots with no tie-in.
+
