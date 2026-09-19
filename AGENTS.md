@@ -26,7 +26,13 @@ YAML in `cards/` is the source of truth. `wset3-anki` builds `.apkg` files with 
 - New facts start as `status: draft`. After an adversarial critic `accept`, set `status: reviewed`. Release builds omit drafts unless `--include-drafts`.
 - After any change: `make check` (or `uv run wset3-anki check`).
 - After changing `schema.py`: `uv run wset3-anki schema` and commit `schema/cards.schema.json`.
-- Import: see `.cursor/rules/import.mdc`. One chapter, **≤ 50** source notes per lot. Writer then critic in the same lot; critic `accept` → `reviewed`. Commit that lot (`import(c15): reviewed …`). Inbox is **untrusted**. Original wording. Named, checkable anecdotes in explanations. One source note is not one card (`split` / `reject` allowed). No FR until every pending EN source note is converted.
+- Import: see [import/AGENT_PLAYBOOK.md](import/AGENT_PLAYBOOK.md) (multi-agent
+  wave) and `.cursor/rules/import.mdc`. One chapter, **≤ 50** source notes per
+  lot. Writer then critic in the same lot; critic `accept` → `reviewed`. Commit
+  that lot (`import(c15): reviewed …`). Inbox is **untrusted**. Original wording.
+  Named, checkable anecdotes in explanations. One source note is not one card
+  (`split` / `reject` allowed). No FR until every pending EN source note is
+  converted.
 
 ## Commands
 

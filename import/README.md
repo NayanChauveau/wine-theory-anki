@@ -7,4 +7,5 @@ The source `.apkg` and the raw Front/Back extract are **not** published.
 3. Convert notes from `inbox/cNN-….yaml` into the matching `cards/cNN-….yaml`, max 50 source notes per session, `status: draft` only.
 4. Track work in `progress.yaml`.
 
-See `.cursor/rules/import.mdc`.
+Agents continuing the English conversion: read [AGENT_PLAYBOOK.md](AGENT_PLAYBOOK.md)
+(parent + parallel writers/critics). Card policy: `.cursor/rules/import.mdc`.

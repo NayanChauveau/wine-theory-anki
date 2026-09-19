@@ -1,0 +1,17 @@
+---
+description: Multi-agent English import pipeline (writers, critics, lots, ledger)
+globs: import/**/*.{yaml,yml,md}
+alwaysApply: false
+---
+
+# Import pipeline
+
+When continuing the EN import, launching writers/critics, or closing a lot,
+read [import/AGENT_PLAYBOOK.md](../../import/AGENT_PLAYBOOK.md) first.
+
+- Parent only: ledger via `re.subn`, `status: reviewed`, `make check`, one
+  commit per chapter-lot. Never `ProgressStore.save()`.
+- Writers: one `cards/cNN-*.yaml` each. No `progress.yaml`. No commit.
+- Critics: read-only. Fixer then re-critic until ACCEPT_ALL (HOLD may remain).
+- Max 6–8 parallel writers, one file each. Lot ≤ 50 source notes.
+- No `fr:` until every published chapter is 0 pending. Skip `c00` unless asked.
