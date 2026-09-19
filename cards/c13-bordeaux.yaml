@@ -1325,5 +1325,432 @@ cards:
         **Premier cru supérieur** (Yquem only), then premier cru, then
         deuxième cru. Barsac properties sit on the same list.
 
+  - id: bordeaux-first-growths-001
+    type: mcq
+    deck: France::Bordeaux
+    tags: [france, bordeaux]
+    status: reviewed
+    source_id: c13-0061
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which five châteaux sit at the top of the 1855 red list?
+      choices:
+        - { text: "Pétrus, Le Pin, Cheval Blanc, Ausone, Figeac", correct: false }
+        - { text: "Lafite, Latour, Margaux, Mouton Rothschild, and Haut-Brion", correct: true }
+        - { text: "Yquem, Climens, Coutet, Guiraud, Rieussec", correct: false }
+        - { text: "Only Cos d’Estournel and Montrose", correct: false }
+      explanation: |
+        Four Haut-Médoc names plus **Haut-Brion** from Graves — the one
+        outsider on the “Médoc” ladder. Mouton joined them in **1973**.
+
+  - id: bordeaux-yquem-001
+    type: mcq
+    deck: France::Bordeaux
+    tags: [france, bordeaux]
+    status: reviewed
+    source_id: c13-0062
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which Sauternes estate sits alone as premier cru supérieur in 1855?
+      choices:
+        - { text: "Château Margaux", correct: false }
+        - { text: "Château d’Yquem", correct: true }
+        - { text: "Château Pétrus", correct: false }
+        - { text: "Château Palmer", correct: false }
+      explanation: |
+        **Yquem** is the only wine on that top sweet rung. Climens and
+        Coutet are premiers crus, not supérieur.
+
+  - id: bordeaux-cru-bourgeois-001
+    type: mcq
+    deck: France::Bordeaux
+    tags: [france, bordeaux]
+    status: reviewed
+    source_id: c13-0063
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which Médoc distinction sits below 1855 and is now a five-year, three-tier list?
+      choices:
+        - { text: "Premier cru supérieur, as at Yquem", correct: false }
+        - { text: "Cru Bourgeois", correct: true }
+        - { text: "A Saint-Émilion AOC that replaced Pomerol", correct: false }
+        - { text: "A legal ban on Merlot", correct: false }
+      explanation: |
+        It covers Médoc châteaux **not** in 1855. The old **vintage-by-vintage**
+        submission is gone: since **2020** the Alliance runs a **five-year**
+        list (Cru Bourgeois / Supérieur / Exceptionnel).
+
+  - id: bordeaux-graves-class-001
+    type: mcq
+    deck: France::Bordeaux
+    tags: [france, bordeaux]
+    status: reviewed
+    source_id: c13-0064
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Apart from Haut-Brion’s 1855 place, where do Graves classed growths come from?
+      choices:
+        - { text: "Inside the 1855 five-rank Médoc ladder only", correct: false }
+        - { text: "On a separate 1950s list, red and white, all called cru classé", correct: true }
+        - { text: "Only as German Prädikat wines", correct: false }
+        - { text: "They cannot use the words cru classé", correct: false }
+      explanation: |
+        The **1953/1959 Graves** classification. After **1987** every name
+        on it sits in **Pessac-Léognan**. Haut-Brion is on this list *and*
+        in 1855.
+
+  - id: bordeaux-graves-no-ranks-001
+    type: mcq
+    deck: France::Bordeaux
+    tags: [france, bordeaux]
+    status: reviewed
+    source_id: c13-0065
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Are Graves crus classés split into first-to-fifth growths?
+      choices:
+        - { text: "Yes, five numbered ranks like 1855", correct: false }
+        - { text: "No — the names are not ranked against each other", correct: true }
+        - { text: "Yes, they use the Saint-Émilion A/B letters", correct: false }
+        - { text: "Yes, by alcohol to one decimal place", correct: false }
+      explanation: |
+        **No internal ranking**. Haut-Brion, Haut-Bailly and a small white
+        such as Couhins-Lurton share the same cru classé title.
+
+  - id: bordeaux-st-em-grand-cru-aoc-001
+    type: mcq
+    deck: France::Bordeaux
+    tags: [france, bordeaux, right-bank]
+    status: reviewed
+    source_id: c13-0066
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What is Saint-Émilion Grand Cru, before anyone mentions a ranking?
+      choices:
+        - { text: "A synonym for Pomerol", correct: false }
+        - { text: "A separate AOC with tighter rules than basic Saint-Émilion", correct: true }
+        - { text: "The 1855 first-growth list", correct: false }
+        - { text: "A sparkling-wine category", correct: false }
+      explanation: |
+        **Grand Cru** here is an **appellation** (yield, ageing), not a
+        château ranking. Many bottles say Grand Cru without being classé.
+
+  - id: bordeaux-st-em-class-exists-001
+    type: mcq
+    deck: France::Bordeaux
+    tags: [france, bordeaux, right-bank]
+    status: reviewed
+    source_id: c13-0066
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Besides the Saint-Émilion Grand Cru AOC, what extra list ranks the leading estates?
+      choices:
+        - { text: "The 1855 Médoc list only", correct: false }
+        - { text: "A revisable classification of châteaux (grand cru classé and premier grand cru classé)", correct: true }
+        - { text: "A list of négociants in Libourne", correct: false }
+        - { text: "There is no château ranking at all", correct: false }
+      explanation: |
+        The **classification** sits *inside* the Grand Cru AOC. Pomerol has
+        no equivalent official ladder.
+
+  - id: bordeaux-st-em-gcc-001
+    type: mcq
+    deck: France::Bordeaux
+    tags: [france, bordeaux, right-bank]
+    status: reviewed
+    source_id: c13-0067
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Below Premier Grand Cru Classé, what title do the other classed Saint-Émilion châteaux use?
+      choices:
+        - { text: "Cru Bourgeois Exceptionnel", correct: false }
+        - { text: "Saint-Émilion Grand Cru Classé", correct: true }
+        - { text: "Premier cru supérieur, as at Yquem", correct: false }
+        - { text: "Cinquième cru classé", correct: false }
+      explanation: |
+        **Grand Cru Classé** is the wider classed tier. Above it sit the
+        Premiers Grands Crus Classés.
+
+  - id: bordeaux-st-em-pgcc-001
+    type: mcq
+    deck: France::Bordeaux
+    tags: [france, bordeaux, right-bank]
+    status: reviewed
+    source_id: c13-0068
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Who sits in Saint-Émilion Premier Grand Cru Classé A on the 2022 list?
+      choices:
+        - { text: "Ausone and Cheval Blanc only", correct: false }
+        - { text: "Figeac and Pavie", correct: true }
+        - { text: "Pétrus and Le Pin", correct: false }
+        - { text: "Only Cru Bourgeois Exceptionnel names", correct: false }
+      explanation: |
+        **Ausone, Cheval Blanc and Angélus** withdrew before **2022**.
+        **Pavie** stayed; **Figeac** was promoted. The A/B split remains —
+        it is not an empty A tier.
+
+  - id: bordeaux-st-em-review-001
+    type: mcq
+    deck: France::Bordeaux
+    tags: [france, bordeaux, right-bank]
+    status: reviewed
+    source_id: c13-0069
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How often is the Saint-Émilion classification meant to be reopened?
+      choices:
+        - { text: "Never — it is frozen like 1855", correct: false }
+        - { text: "About once a decade", correct: true }
+        - { text: "Every harvest morning", correct: false }
+        - { text: "Only when the Médoc asks", correct: false }
+      explanation: |
+        The rule is **at least every ten years**. The 2022 round was late
+        and litigious — the timetable is the principle, not a promise of
+        peace.
+
+  - id: bordeaux-generic-aocs-001
+    type: mcq
+    deck: France::Bordeaux
+    tags: [france, bordeaux]
+    status: reviewed
+    source_id: c13-0070
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What are the two catch-all red (and dry-white) AOCs that cover the whole vineyard?
+      choices:
+        - { text: "Pauillac and Pomerol only", correct: false }
+        - { text: "Bordeaux and Bordeaux Supérieur", correct: true }
+        - { text: "Sauternes and Barsac only", correct: false }
+        - { text: "Côtes du Rhône and Village", correct: false }
+      explanation: |
+        Regional labels. **Entre-Deux-Mers** is the extra white-only AOC
+        on the wedge between the rivers.
+
+  - id: bordeaux-superieur-001
+    type: mcq
+    deck: France::Bordeaux
+    tags: [france, bordeaux]
+    status: reviewed
+    source_id: c13-0071
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What extra hurdles does Bordeaux Supérieur set versus basic Bordeaux?
+      choices:
+        - { text: "It must be sparkling and white only", correct: false }
+        - { text: "Tighter rules, including a higher minimum alcohol", correct: true }
+        - { text: "It must be 100% Petit Verdot", correct: false }
+        - { text: "It may only be sold in the Médoc", correct: false }
+      explanation: |
+        **Lower yields, longer élevage, higher min. ABV**. It is still a
+        regional AOC, not a communal cru.
+
+  - id: bordeaux-white-rose-labels-001
+    type: mcq
+    deck: France::Bordeaux
+    tags: [france, bordeaux]
+    status: reviewed
+    source_id: c13-0072
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Under which names is generic pink Bordeaux sold?
+      choices:
+        - { text: "Only as Pauillac rosé", correct: false }
+        - { text: "Bordeaux Rosé or Bordeaux Clairet", correct: true }
+        - { text: "Only as Médoc Grand Cru", correct: false }
+        - { text: "Pink wine is illegal in the Gironde", correct: false }
+      explanation: |
+        **Bordeaux Rosé** is the pale one; **Clairet** is deeper. Generic
+        dry white is simply labelled **Bordeaux**.
+
+  - id: bordeaux-generic-improve-001
+    type: mcq
+    deck: France::Bordeaux
+    tags: [france, bordeaux]
+    status: reviewed
+    source_id: c13-0073
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Why have many everyday Bordeaux reds become cleaner and riper?
+      choices:
+        - { text: "AOC law now bans all canopy work", correct: false }
+        - { text: "Export brands must compete with similarly priced New World wine", correct: true }
+        - { text: "Frost made every vintage tiny", correct: false }
+        - { text: "The EU requires cedar in every bottle", correct: false }
+      explanation: |
+        **Supermarket competition** (Chile, Australia, Languedoc) pushed
+        sorting and ripeness. That is a trend, not a claim that every
+        Bordeaux AOC is now a classed growth.
+
+  - id: bordeaux-generic-best-style-001
+    type: mcq
+    deck: France::Bordeaux
+    tags: [france, bordeaux]
+    status: reviewed
+    source_id: c13-0074
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Should a good generic Bordeaux rouge be built for a 30-year cellar?
+      choices:
+        - { text: "Yes — every bottle is a first growth", correct: false }
+        - { text: "No — medium body, ripe fruit, drink it young; oak is only a hint", correct: true }
+        - { text: "Yes — it is always late-harvest and sweet", correct: false }
+        - { text: "Yes — it is always pale Provence-style rosé", correct: false }
+      explanation: |
+        **Drink now**, not a 30-year Latour. A cheap barrique or chip can
+        add a **cedar** hint; that is optional.
+
+  - id: bordeaux-generic-cheap-style-001
+    type: mcq
+    deck: France::Bordeaux
+    tags: [france, bordeaux]
+    status: reviewed
+    source_id: c13-0075
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How do the weakest generic reds usually sit on the palate?
+      choices:
+        - { text: "Heavier than Pomerol, with melted tannins", correct: false }
+        - { text: "Lighter body and greener, more astringent tannin", correct: true }
+        - { text: "Always sweet and botrytised", correct: false }
+        - { text: "Always sparkling", correct: false }
+      explanation: |
+        Underripe Merlot and Cabernet on cold clay: **thin and grippy**.
+        That is the floor, not the supermarket sweet-spot.
+
+  - id: bordeaux-rose-style-001
+    type: mcq
+    deck: France::Bordeaux
+    tags: [france, bordeaux]
+    status: reviewed
+    source_id: c13-0076
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: In what register should you expect a standard Bordeaux Rosé (not Clairet)?
+      choices:
+        - { text: "Oxidised and nutty like a 20-year white", correct: false }
+        - { text: "Pale, fresh red-berry fruit, for early drinking", correct: true }
+        - { text: "Always as tannic as a Pauillac", correct: false }
+        - { text: "Always botrytis-sweet", correct: false }
+      explanation: |
+        Short maceration, drink young: **red-berry refreshment**. Clairet
+        is the darker, fuller cousin.
+
+  - id: bordeaux-clairet-market-001
+    type: mcq
+    deck: France::Bordeaux
+    tags: [france, bordeaux]
+    status: reviewed
+    source_id: c13-0077
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Where does most Bordeaux Clairet actually sell?
+      choices:
+        - { text: "Only in Japan, by AOC law", correct: false }
+        - { text: "On the French domestic market", correct: true }
+        - { text: "Only as a UK supermarket own-label", correct: false }
+        - { text: "Only in Sauternes village shops", correct: false }
+      explanation: |
+        **Clairet** is a French-table habit. Export lists lean pale rosé
+        instead — that is why students outside France meet it less.
+
+  - id: bordeaux-clairet-style-001
+    type: mcq
+    deck: France::Bordeaux
+    tags: [france, bordeaux]
+    status: reviewed
+    source_id: c13-0078
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How does Clairet differ from a typical pale French rosé?
+      choices:
+        - { text: "It is always white and sparkling", correct: false }
+        - { text: "Deeper colour and more body, from a longer maceration", correct: true }
+        - { text: "It must be 100% Sauvignon Blanc", correct: false }
+        - { text: "It is paler than Provence and has no fruit", correct: false }
+      explanation: |
+        Longer skin contact → **darker, fuller**. It sits between a modern
+        Provence pink and a light red.
+
+  - id: bordeaux-generic-white-sb-001
+    type: mcq
+    deck: France::Bordeaux
+    tags: [france, bordeaux, white]
+    status: reviewed
+    source_id: c13-0079
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which grape now leads most inexpensive dry Bordeaux blanc?
+      choices:
+        - { text: "Riesling", correct: false }
+        - { text: "Sauvignon Blanc", correct: true }
+        - { text: "Pinot Noir", correct: false }
+        - { text: "Muscadelle only", correct: false }
+      explanation: |
+        Generic and **Entre-Deux-Mers** have swung to **Sauvignon Blanc**.
+        Serious Pessac-Léognan blanc is still often Sémillon-plus-oak —
+        do not flatten every white to grass.
+
+  - id: bordeaux-city-site-001
+    type: mcq
+    deck: France::Bordeaux
+    tags: [france, bordeaux]
+    status: reviewed
+    source_id: c13-0080
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Where does the city of Bordeaux sit relative to the two Left Bank districts?
+      choices:
+        - { text: "North of the Médoc and south of Sauternes only", correct: false }
+        - { text: "South of the Médoc and north of Graves", correct: true }
+        - { text: "In the middle of Pomerol", correct: false }
+        - { text: "On the Loire at Saumur", correct: false }
+      explanation: |
+        The urban strip is the hinge: **Médoc** down-river (north),
+        **Graves / Pessac-Léognan** immediately south of town.
+
+
 
 
