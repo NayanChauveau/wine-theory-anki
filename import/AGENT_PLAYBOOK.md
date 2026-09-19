@@ -239,10 +239,65 @@ idle. Then c35 / c45 (small, closable) and c39 / c36 / c30-tail.
 3. As each writer returns, launch that chapter’s critic.
 4. Fixer → re-critic until ACCEPT_ALL or only HOLD.
 5. Parent: reviewed + ledger + `make check` + **one commit per chapter**.
-6. Repeat. Do not start French.
+6. Repeat. Do not start French until Phase 2.
 
 If the human says **pause**, finish in-flight lots (critic → commit) and stop
 launching new writers. Dirty drafts from an unfinished critic stay uncommitted.
+
+## Phase 2 — French (after EN pending is 0)
+
+Snapshot 2026-09-19: **~2094** `reviewed` cards, **0** `fr:` blocks. A good
+translation is a second authoring pass, not a calque. Budget it like import:
+lots, critic, one file per agent.
+
+Start only when `import-status` is 0 pending on published chapters, or a human
+explicitly overrides. HOLD English drafts stay untranslated until the fact is
+locked.
+
+### How to translate well
+
+- Same file, same `id`, new `fr:` block. Never a second card.
+- Same choice **count** and the **same correct index** as `en:`.
+- Original French: meaning, register, and exam tone — not a word-for-word
+  English calque and not WSET textbook French.
+- Keep grape and place names in their usual form (Saint-Émilion, Riesling,
+  Spätburgunder). Use the FR deck labels from `templates/ui/decks.yaml` only
+  in Anki UI, not as a licence to invent terms.
+- Why must name the **French** answer text, never « la réponse B ».
+- Quote YAML `:` questions and comma choices, same as EN.
+- Do not change the English fact in a translation lot. If EN is wrong, stop
+  and fix EN in its own commit first.
+
+### Roles
+
+Same as EN. Translators edit only `fr:` in one `cards/cNN-*.yaml`. Critics are
+read-only. Parent runs `make check` and commits:
+
+`i18n(c22): fr for reviewed Germany cards`
+
+or, for a partial lot:
+
+`i18n(c22): fr germany-pfalz-*`
+
+Ledger (`progress.yaml`) is EN-import only. Do not mark notes `done` for
+French. Optional: set `status: needs-translation` on EN-ready cards that still
+lack `fr:` if you need a visible queue; flip back to `reviewed` when `fr:`
+lands. Default in this repo is to leave `reviewed` and add `fr:` in place.
+
+### Lots and parallelism
+
+- One chapter file per translator. **≤ 40 cards** per lot (FR critic is
+  slower than EN fact-check).
+- 6–8 translators per wave, never two on the same file.
+- Critic rubric: calque / anglicism, leaked English leftovers, wrong correct
+  index, informal tutoiement, invented AOC names, Why that does not name the
+  FR key, category-giveaway that appeared only in French.
+- Prefer native wine French: *cépages*, *élevage*, *pourriture noble*,
+  *vendange tardive* — not “grape varieties” calqued as *variétés de raisins*
+  unless that is what the card is teaching.
+
+Suggested first FR wave (short closed chapters): c12, c16, c14, c25, c26,
+c32. Then the long ones (c22, c13, c27, c30) in 40-card slices.
 
 ## Do not
 
