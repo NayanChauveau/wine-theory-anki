@@ -2,4 +2,1101 @@
 # source: C17 (import/inbox/c17-alsace.yaml)
 # deck: France::Alsace
 
-cards: []
+cards:
+  - id: alsace-climate-001
+    type: mcq
+    deck: France::Alsace
+    tags: [france, alsace, climate]
+    status: reviewed
+    source_id: c17-0001
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which climate description best fits Alsace?
+      choices:
+        - { text: "Cool maritime, like Muscadet", correct: false }
+        - { text: "Cool-to-moderate continental, in the rain shadow of the Vosges", correct: true }
+        - { text: "Hot Mediterranean, like the southern Rhône", correct: false }
+        - { text: "High-altitude alpine, like Savoie", correct: false }
+      explanation: |
+        **Cool-to-moderate continental**, and unusually dry for that latitude because the
+        **Vosges** strip Atlantic moisture. Colmar sits among France’s driest wine towns —
+        not Loire drizzle and not Rhône heat.
+
+  - id: alsace-westerlies-001
+    type: mcq
+    deck: France::Alsace
+    tags: [france, alsace, climate]
+    status: reviewed
+    source_id: c17-0002
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which weather system would soak Alsace if nothing stood in its way?
+      choices:
+        - { text: "Hot, dry mistral off the Mediterranean", correct: false }
+        - { text: "Rain-bearing westerlies off the Atlantic", correct: true }
+        - { text: "Siberian katabatic winds only", correct: false }
+        - { text: "Monsoon from the Rhine", correct: false }
+      explanation: |
+        The same **Atlantic westerlies** that wet Champagne and the Loire would drench
+        Alsace. The Vosges intercept them. Without that wall, Colmar would not be dry.
+
+  - id: alsace-vosges-001
+    type: mcq
+    deck: France::Alsace
+    tags: [france, alsace, climate]
+    status: reviewed
+    source_id: c17-0003
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What mountain range keeps Atlantic westerlies from dumping their rain on Alsace?
+      choices:
+        - { text: "The Massif Central", correct: false }
+        - { text: "The Vosges mountains", correct: true }
+        - { text: "The Alps alone", correct: false }
+        - { text: "A legal ban on rain", correct: false }
+      explanation: |
+        The **Vosges** create a rain shadow. West-facing Lorraine is wetter; the Alsace
+        vineyards on the east side stay much drier. **Rangen de Thann** still sees the
+        high southern Vosges, not a flat corridor.
+
+  - id: alsace-dry-seasons-001
+    type: mcq
+    deck: France::Alsace
+    tags: [france, alsace, climate]
+    status: reviewed
+    source_id: c17-0004
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Why are Alsace summers and autumns usually warm, dry, and short on cloud?
+      choices:
+        - { text: "The Rhine funnels Atlantic storms onto the vines", correct: false }
+        - { text: "The Vosges take the rain first", correct: true }
+        - { text: "A legal cap on cloud cover", correct: false }
+        - { text: "Daily monsoon from the Alps", correct: false }
+      explanation: |
+        **The Vosges take the rain first**, so summers and autumns stay warm,
+        dry and short on cloud. That long, bright autumn is why late-hang fruit
+        (and the odd VT) is even possible here.
+
+  - id: alsace-ripeness-001
+    type: mcq
+    deck: France::Alsace
+    tags: [france, alsace, climate]
+    status: reviewed
+    source_id: c17-0005
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What does Alsace’s dry, sunny pattern do to the grapes?
+      choices:
+        - { text: "They rarely reach even 10% potential alcohol", correct: false }
+        - { text: "They can pile up high sugar while still hanging late", correct: true }
+        - { text: "They stay green and herbaceous every year", correct: false }
+        - { text: "Sugar ripeness is illegal", correct: false }
+      explanation: |
+        **High sugar ripeness** is the usual outcome — Trimbach Riesling and
+        Zind-Humbrecht late picks both start from ripe fruit, then choose dry or
+        residual. Drought can still stall vines in the driest years.
+
+  - id: alsace-drought-001
+    type: mcq
+    deck: France::Alsace
+    tags: [france, alsace, climate]
+    status: reviewed
+    source_id: c17-0006
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which water stress is notable around Colmar despite Alsace’s cool-ish latitude?
+      choices:
+        - { text: "Flooding from the Loire every June", correct: false }
+        - { text: "Occasional drought", correct: true }
+        - { text: "Permanent irrigation by law", correct: false }
+        - { text: "Sea-spray salinity", correct: false }
+      explanation: |
+        **Occasional drought.** Colmar’s rain totals are tiny by French vineyard
+        standards. Irrigation is not the everyday fix, so a hot, rainless summer
+        really shows on the vines.
+
+  - id: alsace-best-sites-001
+    type: mcq
+    deck: France::Alsace
+    tags: [france, alsace]
+    status: reviewed
+    source_id: c17-0007
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which sites usually produce Alsace’s top still wines?
+      choices:
+        - { text: "Flat Rhine alluvium, facing due north", correct: false }
+        - { text: "The steepest foothill slopes, facing east or south-east", correct: true }
+        - { text: "Only west-facing Vosges summits above the treeline", correct: false }
+        - { text: "Valley-floor swamp next to Strasbourg", correct: false }
+      explanation: |
+        **Steep east / south-east slopes** catch morning-to-midday sun and drain.
+        **Schlossberg** and **Rangen** are the postcard version — not the Rhine
+        plain.
+
+  - id: alsace-north-cooler-001
+    type: mcq
+    deck: France::Alsace
+    tags: [france, alsace, climate]
+    status: reviewed
+    source_id: c17-0008
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How does the northern stretch of the Alsace vineyard differ from the south?
+      choices:
+        - { text: "It is the hottest, driest strip, with the highest Vosges wall", correct: false }
+        - { text: "It is cooler, and the lower Vosges give it less rain-shadow", correct: true }
+        - { text: "It is Mediterranean and grows only Mourvèdre", correct: false }
+        - { text: "There are no vines north of Colmar", correct: false }
+      explanation: |
+        **Cooler, less sheltered.** The Vosges lose height toward the north, so
+        Bas-Rhin sees more weather. Most of the famous grands crus cluster farther
+        south around the Haut-Rhin towns.
+
+  - id: alsace-plain-001
+    type: mcq
+    deck: France::Alsace
+    tags: [france, alsace]
+    status: reviewed
+    source_id: c17-0009
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which land sits below the grands crus and is farmed for simpler fruit?
+      choices:
+        - { text: "The west face of the Vosges, in Lorraine", correct: false }
+        - { text: "The flat plain between the foothills and the Rhine", correct: true }
+        - { text: "Only inside the walls of Colmar", correct: false }
+        - { text: "Above the snow line", correct: false }
+      explanation: |
+        The **Rhine plain** — fertile, frost-prone, less distinguished. The
+        hillside strip from the foothills is where the grands crus sit.
+
+  - id: alsace-cremant-fruit-001
+    type: mcq
+    deck: France::Alsace
+    tags: [france, alsace, sparkling]
+    status: reviewed
+    source_id: c17-0010
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which sparkling AOC soaks up most of the plain-grown Alsace crop?
+      choices:
+        - { text: "Only vendange tardive Riesling", correct: false }
+        - { text: "Crémant d’Alsace", correct: true }
+        - { text: "Vin jaune", correct: false }
+        - { text: "They must be distilled", correct: false }
+      explanation: |
+        **Crémant d’Alsace** soaks up a lot of plain-grown Pinot Blanc and
+        Auxerrois. The hillside fruit is too valuable to spend on bubbles.
+
+  - id: alsace-foothill-soils-001
+    type: mcq
+    deck: France::Alsace
+    tags: [france, alsace, soil]
+    status: reviewed
+    source_id: c17-0011
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How uniform are soils on the Alsace foothill slopes?
+      choices:
+        - { text: "One gravel bank, identical to the Médoc", correct: false }
+        - { text: "Highly varied from plot to plot", correct: true }
+        - { text: "Only chalk, like Champagne", correct: false }
+        - { text: "Soil type is illegal to mention", correct: false }
+      explanation: |
+        **A mosaic** — granite, limestone, sandstone, clay, volcanic rock. Walk
+        **Rangen** (volcanic) then **Schlossberg** (granite) and the ground has
+        changed under your feet.
+
+  - id: alsace-geology-001
+    type: mcq
+    deck: France::Alsace
+    tags: [france, alsace, soil]
+    status: reviewed
+    source_id: c17-0012
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Why is the Alsace foothill soil mosaic so extreme?
+      choices:
+        - { text: "Growers imported soil from every French region by law", correct: false }
+        - { text: "A violent geological history, including the Rhine rift", correct: true }
+        - { text: "Annual flooding lays a new soil each year", correct: false }
+        - { text: "There is only one bedrock and it never changed", correct: false }
+      explanation: |
+        The **Rhine graben** collapsed and left a jumble of rock types along the
+        faulted foothills. That history, not a tasting-room slogan, is why two
+        neighbouring clos can sit on different geology.
+
+  - id: alsace-style-geology-001
+    type: mcq
+    deck: France::Alsace
+    tags: [france, alsace, soil]
+    status: reviewed
+    source_id: c17-0013
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What local factor is most often blamed for Alsace’s spread of wine styles?
+      choices:
+        - { text: "A single clone of Chardonnay everywhere", correct: false }
+        - { text: "The geological patchwork of the foothills", correct: true }
+        - { text: "A legal ban on Riesling", correct: false }
+        - { text: "Identical alluvial silt on every slope", correct: false }
+      explanation: |
+        **Geological variation** sits under the variety mix and the late-harvest
+        choices. Same Riesling, **Rangen** versus a granite grand cru, is a
+        different wine.
+
+  - id: alsace-practice-split-001
+    type: mcq
+    deck: France::Alsace
+    tags: [france, alsace]
+    status: reviewed
+    source_id: c17-0014
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Alsace vineyard practice changes mainly with which contrast?
+      choices:
+        - { text: "Whether the domaine is in Germany or Switzerland", correct: false }
+        - { text: "Slope sites versus the Rhine plain", correct: true }
+        - { text: "Red grapes versus sparkling only", correct: false }
+        - { text: "AOC versus vin de table irrigation rules", correct: false }
+      explanation: |
+        **Slope versus plain** drives training height, harvest method and frost
+        tactics. A Schlossberg terrace is not farmed like a valley-floor Pinot
+        Blanc block.
+
+  - id: alsace-slope-train-001
+    type: mcq
+    deck: France::Alsace
+    tags: [france, alsace]
+    status: reviewed
+    source_id: c17-0015
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Why are vines usually trained low on Alsace’s steep slopes?
+      choices:
+        - { text: "To dodge spring frost the way the plain does", correct: false }
+        - { text: "To sit in heat radiating from the ground", correct: true }
+        - { text: "Because AOC forbids any trunk on a hillside", correct: false }
+        - { text: "To copy greenhouse viticulture", correct: false }
+      explanation: |
+        **Heat radiating from the ground.** Low training puts bunches in that
+        layer. Rows are also lined up to catch the sun. Frost is the plain’s
+        problem, not the well-drained mid-slope.
+
+  - id: alsace-slope-hand-001
+    type: mcq
+    deck: France::Alsace
+    tags: [france, alsace]
+    status: reviewed
+    source_id: c17-0015
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How is fruit usually picked on Alsace’s steep slopes?
+      choices:
+        - { text: "Only by night machine, by law", correct: false }
+        - { text: "By hand", correct: true }
+        - { text: "Left to raisin on the vine and fall", correct: false }
+        - { text: "Helicopters only", correct: false }
+      explanation: |
+        **Hand harvest.** Terraces and gradients at **Rangen** or **Schlossberg**
+        do not take a standard machine. The plain is a different story.
+
+  - id: alsace-plain-train-001
+    type: mcq
+    deck: France::Alsace
+    tags: [france, alsace]
+    status: reviewed
+    source_id: c17-0016
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Why are vines on the Alsace plain often trained high?
+      choices:
+        - { text: "To copy steep-slope heat capture", correct: false }
+        - { text: "To lift buds above spring frost", correct: true }
+        - { text: "Because AOC forbids any trunk", correct: false }
+        - { text: "To encourage drought", correct: false }
+      explanation: |
+        **Spring frost** pools on the flat land toward the Rhine. High training
+        keeps the renewal zone out of the coldest air. The slope does the
+        opposite — low, for radiated heat.
+
+  - id: alsace-organic-001
+    type: mcq
+    deck: France::Alsace
+    tags: [france, alsace]
+    status: reviewed
+    source_id: c17-0017
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which farming styles are unusually widespread in Alsace?
+      choices:
+        - { text: "Flooded rice-paddy viticulture only", correct: false }
+        - { text: "Organic and biodynamic", correct: true }
+        - { text: "Hydroponics in tunnels", correct: false }
+        - { text: "A legal ban on compost", correct: false }
+      explanation: |
+        **Organic and biodynamic** share is high for France — **Zind-Humbrecht**,
+        **Ostertag**, **Deiss**, **Bott-Geyl**. Dry, sunny weather makes that
+        less of a gamble than in a wet maritime region.
+
+  - id: alsace-organic-why-001
+    type: mcq
+    deck: France::Alsace
+    tags: [france, alsace]
+    status: reviewed
+    source_id: c17-0018
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Why is organic and biodynamic farming more practical in Alsace than in a wet maritime region?
+      choices:
+        - { text: "The law pays them to farm in fog", correct: false }
+        - { text: "Sunny, dry weather keeps disease pressure low", correct: true }
+        - { text: "Downy mildew cannot survive east of Paris", correct: false }
+        - { text: "Alsace vines are immune to rot", correct: false }
+      explanation: |
+        **Sunny, dry weather keeps disease pressure low.** Organic growers
+        still use allowed sprays (copper, sulphur); they just face fewer
+        wet-vintage crises than the Loire or Champagne.
+
+  - id: alsace-staggered-harvest-001
+    type: mcq
+    deck: France::Alsace
+    tags: [france, alsace]
+    status: reviewed
+    source_id: c17-0019
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What makes an Alsace vintage a logistical headache for a typical grower?
+      choices:
+        - { text: "One grape, one huge block, one pick day", correct: false }
+        - { text: "Many tiny plots, each a different variety, ripening on different days", correct: true }
+        - { text: "A legal two-day harvest window", correct: false }
+        - { text: "All fruit must be trucked to Bordeaux", correct: false }
+      explanation: |
+        A domaine may hold **dozens of small parcels** — Riesling one week,
+        Gewurztraminer later, Muscat earlier. The calendar stretches. That is
+        the opposite of a single-cépage château pick.
+
+  - id: alsace-harvest-months-001
+    type: mcq
+    deck: France::Alsace
+    tags: [france, alsace]
+    status: reviewed
+    source_id: c17-0020
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How long can an Alsace pick last from the first still fruit to the last sweet pass?
+      choices:
+        - { text: "March to April only", correct: false }
+        - { text: "September into November, and sometimes December for the last sweet picks", correct: true }
+        - { text: "January only, like icewine by law", correct: false }
+        - { text: "A single week in June", correct: false }
+      explanation: |
+        **September–November**, with **SGN** (and some VT) hanging toward
+        **December**. **Hugel** late-harvest picks are the long tail.
+
+  - id: alsace-nobles-001
+    type: mcq
+    deck: France::Alsace
+    tags: [france, alsace, grapes]
+    status: reviewed
+    source_id: c17-0021
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which four grapes are Alsace’s “noble” set?
+      choices:
+        - { text: "Chardonnay, Sauvignon, Sémillon, Ugni Blanc", correct: false }
+        - { text: "Riesling, Gewurztraminer, Pinot Gris, Muscat", correct: true }
+        - { text: "Pinot Blanc, Sylvaner, Chasselas, Auxerrois", correct: false }
+        - { text: "Gamay, Syrah, Mourvèdre, Carignan", correct: false }
+      explanation: |
+        **Riesling, Gewurztraminer, Pinot Gris, Muscat.** Those four unlock
+        grand cru (with rare exceptions), VT and SGN. Pinot Blanc is widely
+        planted but not in that club.
+
+  - id: alsace-vt-sgn-grapes-001
+    type: mcq
+    deck: France::Alsace
+    tags: [france, alsace, grapes]
+    status: reviewed
+    source_id: c17-0022
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which grapes may be bottled as Alsace Vendange Tardive or SGN?
+      choices:
+        - { text: "Any grape grown in the département", correct: false }
+        - { text: "Only the four nobles", correct: true }
+        - { text: "Pinot Blanc and Sylvaner only", correct: false }
+        - { text: "Only Pinot Noir", correct: false }
+      explanation: |
+        **The four nobles only** — Riesling, Gewurztraminer, Pinot Gris, Muscat.
+        A late-hang Pinot Blanc cannot wear those words.
+
+  - id: alsace-gc-grapes-001
+    type: mcq
+    deck: France::Alsace
+    tags: [france, alsace, grapes]
+    status: reviewed
+    source_id: c17-0022
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What grapes does an Alsace Grand Cru usually have to be?
+      choices:
+        - { text: "Any cépage, including Gamay", correct: false }
+        - { text: "One of the four nobles, with a few named exceptions", correct: true }
+        - { text: "Chardonnay only, like Corton-Charlemagne", correct: false }
+        - { text: "A mandatory five-way field blend", correct: false }
+      explanation: |
+        **Usually Riesling, Gewurztraminer, Pinot Gris or Muscat.**
+        **Zotzenberg** may be Sylvaner; a few sites now also bottle grand-cru
+        Pinot Noir. Do not treat “nobles only, no exceptions” as the whole law.
+
+  - id: alsace-varietal-001
+    type: mcq
+    deck: France::Alsace
+    tags: [france, alsace]
+    status: reviewed
+    source_id: c17-0023
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How are the great majority of Alsace still wines bottled?
+      choices:
+        - { text: "As unnamed field blends only", correct: false }
+        - { text: "As single-variety wines, with the grape on the label", correct: true }
+        - { text: "As Bordeaux-style red blends", correct: false }
+        - { text: "Without any variety or place name", correct: false }
+      explanation: |
+        **Single variety, grape on the label** — a French exception that looks
+        more German. Blends exist, but they are the minority.
+
+  - id: alsace-blend-juice-001
+    type: mcq
+    deck: France::Alsace
+    tags: [france, alsace]
+    status: reviewed
+    source_id: c17-0024
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Where does the juice for a typical everyday Alsace blend come from?
+      choices:
+        - { text: "Only the domaine’s single best grand-cru Riesling block", correct: false }
+        - { text: "Lots that were not kept for a varietal bottling", correct: true }
+        - { text: "Bought-in Champagne lees", correct: false }
+        - { text: "Only SGN leftovers", correct: false }
+      explanation: |
+        Everyday **Edelzwicker**-style blends often mop up **what did not make
+        the varietal tank**. That is not **Marcel Deiss**’s grand-cru field
+        blends — those are a different, rarer project.
+
+  - id: alsace-edelzwicker-001
+    type: mcq
+    deck: France::Alsace
+    tags: [france, alsace]
+    status: reviewed
+    source_id: c17-0025
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What does Edelzwicker on an Alsace label tell you?
+      choices:
+        - { text: "A 100% Riesling grand cru", correct: false }
+        - { text: "A blend, with no duty to be majority noble grapes", correct: true }
+        - { text: "A legally dry sparkling wine only", correct: false }
+        - { text: "A German Pfalz estate", correct: false }
+      explanation: |
+        **Edelzwicker** = a blend. It can be a domaine brand or the word itself.
+        Unlike Gentil, it does **not** have to be half nobles. Quality is
+        usually modest.
+
+  - id: alsace-gentil-001
+    type: mcq
+    deck: France::Alsace
+    tags: [france, alsace]
+    status: reviewed
+    source_id: c17-0025
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How does Gentil differ from a generic Alsace blend?
+      choices:
+        - { text: "It must be 100% Pinot Noir", correct: false }
+        - { text: "At least half the blend must be noble varieties", correct: true }
+        - { text: "It is only legal in Champagne", correct: false }
+        - { text: "It forbids Riesling", correct: false }
+      explanation: |
+        **Gentil** needs **≥50%** Riesling, Gewurztraminer, Pinot Gris and/or
+        Muscat. **Hugel Gentil** is the bottle most students actually see.
+        Edelzwicker has no such floor.
+
+  - id: alsace-blend-quality-001
+    type: mcq
+    deck: France::Alsace
+    tags: [france, alsace]
+    status: reviewed
+    source_id: c17-0026
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What is the rare exception to Alsace’s everyday-blend reputation?
+      choices:
+        - { text: "Blends are illegal above village level", correct: false }
+        - { text: "A handful of serious, even grand-cru, field blends", correct: true }
+        - { text: "INAO bans blends from any named hillside", correct: false }
+        - { text: "Blends do not exist in Alsace", correct: false }
+      explanation: |
+        **A handful of serious, even grand-cru, field blends.** **Marcel
+        Deiss** bottles Altenberg de Bergheim and Schoenenbourg that way.
+        They are the exception, not the Edelzwicker supermarket stack.
+
+  - id: alsace-aroma-focus-001
+    type: mcq
+    deck: France::Alsace
+    tags: [france, alsace]
+    status: reviewed
+    source_id: c17-0027
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Why do Alsace cellars so often refuse to bury varietal aroma?
+      choices:
+        - { text: "The grapes are all neutral, like Ugni Blanc", correct: false }
+        - { text: "Most of the planted set is aromatic", correct: true }
+        - { text: "New oak is legally mandatory", correct: false }
+        - { text: "MLF is required on every tank", correct: false }
+      explanation: |
+        **Riesling, Gewurztraminer, Muscat, Pinot Gris** are aroma grapes.
+        Heavy new oak or a loud malo would fight the point of growing them.
+
+  - id: alsace-foudre-001
+    type: mcq
+    deck: France::Alsace
+    tags: [france, alsace]
+    status: reviewed
+    source_id: c17-0028
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: In what vessel do traditional Alsace cellars usually ferment?
+      choices:
+        - { text: "New 225 L barriques, toasted heavy", correct: false }
+        - { text: "Large old oak foudres, often decades old", correct: true }
+        - { text: "Amphorae only, by AOC law", correct: false }
+        - { text: "Concrete egg is the only legal tank", correct: false }
+      explanation: |
+        **Old foudres** — **Hugel**, **Trimbach**, **Boxler** walk-in barrels.
+        Some really are a century old; “typically >100 years” is a stretch, but
+        they are not new-oak flavour barrels.
+
+  - id: alsace-tartrate-001
+    type: mcq
+    deck: France::Alsace
+    tags: [france, alsace]
+    status: reviewed
+    source_id: c17-0029
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What coats the inside of long-lived Alsace foudres?
+      choices:
+        - { text: "Fresh toasted oak staves each year", correct: false }
+        - { text: "A thick crust of tartrate crystals", correct: true }
+        - { text: "Pitch, like a Roman amphora", correct: false }
+        - { text: "Plastic liner required by INAO", correct: false }
+      explanation: |
+        **Tartrate scale** builds up over decades. Cellars show it like a
+        geological layer. It is not a flavour additive — it is the opposite.
+
+  - id: alsace-tartrate-effect-001
+    type: mcq
+    deck: France::Alsace
+    tags: [france, alsace]
+    status: reviewed
+    source_id: c17-0030
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What does a thick tartrate lining do to wine in an Alsace foudre?
+      choices:
+        - { text: "It soaks the wine in new-oak vanilla", correct: false }
+        - { text: "It seals the wood so the cask adds almost no oak flavour", correct: true }
+        - { text: "It forces a mandatory malo", correct: false }
+        - { text: "It turns every wine red", correct: false }
+      explanation: |
+        The crust **blocks wood contact**. The foudre is a stable, inert-ish
+        vessel — size and age, not toast. That is why a Trimbach Riesling can
+        ferment in oak and still taste of stone, not barrel.
+
+  - id: alsace-steel-001
+    type: mcq
+    deck: France::Alsace
+    tags: [france, alsace]
+    status: reviewed
+    source_id: c17-0031
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Why do many modern Alsace cellars ferment in stainless steel?
+      choices:
+        - { text: "Steel is required for grand cru", correct: false }
+        - { text: "It makes fermentation temperature easy to hold", correct: true }
+        - { text: "Steel adds more oak than a foudre", correct: false }
+        - { text: "INAO bans any other tank", correct: false }
+      explanation: |
+        **Temperature control.** Aromatic whites like a cool, clean ferment.
+        Steel is the practical tool; it does not replace every old foudre.
+
+  - id: alsace-mlf-001
+    type: mcq
+    deck: France::Alsace
+    tags: [france, alsace]
+    status: reviewed
+    source_id: c17-0032
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which cellar conversion do Alsace whites usually block?
+      choices:
+        - { text: "Settling — they always ferment on heavy lees mud", correct: false }
+        - { text: "Malolactic conversion", correct: true }
+        - { text: "Sulphur — it is banned", correct: false }
+        - { text: "Bottling — they ship only in barrel", correct: false }
+      explanation: |
+        **Malolactic conversion** is generally blocked. A buttery malo would
+        smear Riesling and Muscat. Some growers let a tank slip; it is not the
+        house style.
+
+  - id: alsace-spring-bottle-001
+    type: mcq
+    deck: France::Alsace
+    tags: [france, alsace]
+    status: reviewed
+    source_id: c17-0033
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: When do most Alsace still wines leave the cellar?
+      choices:
+        - { text: "After ten years in new barrique, for oxidation", correct: false }
+        - { text: "The spring after harvest, while the wine is still young and fresh", correct: true }
+        - { text: "The same night as the pick, by law", correct: false }
+        - { text: "Only after a solera in Jerez", correct: false }
+      explanation: |
+        **Spring following the vintage** is the usual bottling window — keep
+        the fruit tight. Grand cru and late-harvest lots can sit longer;
+        everyday Riesling does not need a Bordeaux timetable.
+
+  - id: alsace-bottle-age-001
+    type: mcq
+    deck: France::Alsace
+    tags: [france, alsace]
+    status: reviewed
+    source_id: c17-0034
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Do Alsace bottles only drink in their first year?
+      choices:
+        - { text: "Yes — they are legally sold for immediate drinking only", correct: false }
+        - { text: "No — many, especially Riesling and the better grands crus, can repay time in bottle", correct: true }
+        - { text: "Only Pinot Blanc from the plain", correct: false }
+        - { text: "Only if recorked every six months", correct: false }
+      explanation: |
+        **No — many can repay time in bottle.** **Clos Sainte-Hune** and
+        other dry Rieslings are built for a decade-plus. Everyday Pinot Blanc
+        is not the same bet.
+
+  - id: alsace-sweetness-trend-001
+    type: mcq
+    deck: France::Alsace
+    tags: [france, alsace]
+    status: reviewed
+    source_id: c17-0035
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How dry is a typical Alsace still wine now, compared with the old house style?
+      choices:
+        - { text: "All wines are legally bone-dry, including SGN", correct: false }
+        - { text: "Most are still dry, but more — especially some grands crus — now carry noticeable sugar", correct: true }
+        - { text: "Everything is dessert-sweet by AOC rule", correct: false }
+        - { text: "Residual sugar is banned", correct: false }
+      explanation: |
+        **Mostly dry**, VT/SGN aside. Warmer vintages and some domaines
+        (**Zind-Humbrecht** versus bone-dry **Trimbach**) have put more
+        residual sugar into grand-cru bottles than the old “always dry” story.
+
+  - id: alsace-sweetness-label-001
+    type: mcq
+    deck: France::Alsace
+    tags: [france, alsace]
+    status: reviewed
+    source_id: c17-0036
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Until recently, why could you not trust an Alsace Riesling label to say if the wine was dry?
+      choices:
+        - { text: "Every bottle had to print the exact grams by EU law since 1970", correct: false }
+        - { text: "There was no mandatory sweetness word", correct: true }
+        - { text: "All wines had to say SGN", correct: false }
+        - { text: "Sweetness is illegal to mention", correct: false }
+      explanation: |
+        **No mandatory sweetness word** — a Riesling could drink dry or
+        off-dry. From the **2021** vintage, AOC Alsace still wines must state
+        a sweetness band. Older bottles on a list can still hide the sugar.
+
+  - id: alsace-vt-sweetness-001
+    type: mcq
+    deck: France::Alsace
+    tags: [france, alsace]
+    status: reviewed
+    source_id: c17-0037
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Must an Alsace Vendange Tardive taste sweet?
+      choices:
+        - { text: "Yes — it is always bone-dry, like a Muscadet", correct: false }
+        - { text: "No — it can drink dry to medium-sweet, depending on the ferment", correct: true }
+        - { text: "Yes — it is always as sweet as SGN", correct: false }
+        - { text: "VT forbids any residual sugar", correct: false }
+      explanation: |
+        **No required glass sweetness** — **dry to medium-sweet.** VT is a
+        **ripeness** mention (late pick, high must weight), not a guaranteed
+        dessert. A domaine can ferment it out.
+
+  - id: alsace-sgn-sweetness-001
+    type: mcq
+    deck: France::Alsace
+    tags: [france, alsace]
+    status: reviewed
+    source_id: c17-0038
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How sweet is Sélection de Grains Nobles in the glass?
+      choices:
+        - { text: "Always dry, with no botrytis", correct: false }
+        - { text: "Always sweet; how much botrytis shows varies from cuvée to cuvée", correct: true }
+        - { text: "Only sparkling and bone-dry", correct: false }
+        - { text: "SGN is a German Prädikat, not used in Alsace", correct: false }
+      explanation: |
+        **SGN is always sweet.** Botrytis can be loud (**Hugel SGN**) or more
+        discreet, but the wine is not a dry table Riesling.
+
+  - id: alsace-riesling-area-001
+    type: mcq
+    deck: France::Alsace
+    tags: [france, alsace, grapes]
+    status: reviewed
+    source_id: c17-0039
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which noble grape covers the most Alsace vineyard?
+      choices:
+        - { text: "Gewurztraminer", correct: false }
+        - { text: "Riesling", correct: true }
+        - { text: "Muscat Ottonel", correct: false }
+        - { text: "Pinot Blanc is a noble grape and the largest", correct: false }
+      explanation: |
+        **Riesling** is the most planted **noble**. Pinot Blanc / Auxerrois can
+        rival it in total hectares, but they are not nobles.
+
+  - id: alsace-riesling-profile-001
+    type: mcq
+    deck: France::Alsace
+    tags: [france, alsace, grapes]
+    status: reviewed
+    source_id: c17-0040
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What shape do the best dry Alsace Rieslings usually have in the glass?
+      choices:
+        - { text: "Light, low acid, 8% alcohol, overt residual sugar", correct: false }
+        - { text: "Medium to full, dry, medium alcohol, high acid, citrus-stone fruit, a steely/stony line", correct: true }
+        - { text: "Oily, low acid, 15%, lychee and roses", correct: false }
+        - { text: "Deeply coloured, tannic, and oaked like a Médoc", correct: false }
+      explanation: |
+        **Medium–full, dry, medium alcohol, high acid, citrus and stone fruit,
+        steely/stony.** That is **Trimbach Clos Sainte-Hune** territory — not
+        a kabinett-light German frame and not Gewurztraminer oil.
+
+  - id: alsace-riesling-rs-001
+    type: mcq
+    deck: France::Alsace
+    tags: [france, alsace, grapes]
+    status: reviewed
+    source_id: c17-0041
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Against the old dry house style, how are many Alsace Rieslings now finished?
+      choices:
+        - { text: "All must be sparkling", correct: false }
+        - { text: "With some residual sugar", correct: true }
+        - { text: "With no acidity at all", correct: false }
+        - { text: "Fortified to 20%", correct: false }
+      explanation: |
+        **Some residual sugar** is more common than the old “Alsace Riesling =
+        always bone-dry” line. Read the label (and the 2021+ sweetness band).
+
+  - id: alsace-riesling-vs-german-001
+    type: mcq
+    deck: France::Alsace
+    tags: [france, alsace, grapes]
+    status: reviewed
+    source_id: c17-0042
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Compared with a Mosel Riesling, how floral is a typical Alsace Riesling?
+      choices:
+        - { text: "Always more floral than the Mosel", correct: false }
+        - { text: "Typically less floral perfume", correct: true }
+        - { text: "No perfume at all, by law", correct: false }
+        - { text: "Only Gewurztraminer-level roses", correct: false }
+      explanation: |
+        **Typically less floral perfume**, and usually drier, fuller, higher
+        in alcohol than a Mosel kabinett. Stone and steel over blossom. Not a
+        ban on flowers — a tendency.
+
+  - id: alsace-gewurz-aroma-001
+    type: mcq
+    deck: France::Alsace
+    tags: [france, alsace, grapes]
+    status: reviewed
+    source_id: c17-0043
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which aroma cluster is the Alsace Gewurztraminer giveaway?
+      choices:
+        - { text: "Green bell pepper and tomato leaf", correct: false }
+        - { text: "Lychee, rose, and sweet baking spice", correct: true }
+        - { text: "Peat smoke and iodine", correct: false }
+        - { text: "Cassis and cedar", correct: false }
+      explanation: |
+        **Lychee, rose, sweet baking spice.** If the glass smells like a
+        Turkish-delight shop, you are probably in Gewurz — **Hugel** or
+        **Zind-Humbrecht** both lean on that trio.
+
+  - id: alsace-gewurz-colour-001
+    type: mcq
+    deck: France::Alsace
+    tags: [france, alsace, grapes]
+    status: reviewed
+    source_id: c17-0044
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What does Gewurztraminer’s pink-tinged skin do to many Alsace bottles?
+      choices:
+        - { text: "It forces a pale water-white wine", correct: false }
+        - { text: "It can push the wine toward gold", correct: true }
+        - { text: "It makes the wine deep purple", correct: false }
+        - { text: "Skin colour never affects the wine", correct: false }
+      explanation: |
+        **Light pink skins → a golden tint** in a lot of Gewurz (and some
+        Pinot Gris). Not a red wine — just more colour than a pale Riesling.
+
+  - id: alsace-gewurz-profile-001
+    type: mcq
+    deck: France::Alsace
+    tags: [france, alsace, grapes]
+    status: reviewed
+    source_id: c17-0045
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What mouthfeel and numbers should you expect from Alsace Gewurztraminer?
+      choices:
+        - { text: "Light, high acid, 11% alcohol", correct: false }
+        - { text: "Full, oily, high alcohol (14% is common), low-to-medium acid", correct: true }
+        - { text: "Austere, steely, and lean like a Chablis grand cru", correct: false }
+        - { text: "High tannin, like a young Barolo", correct: false }
+      explanation: |
+        **Full, oily, high alcohol, low-to-medium acid.** 14% is not a freak
+        vintage. That is why it needs ripe fruit or a touch of sugar — acid
+        alone will not carry it.
+
+  - id: alsace-pinot-gris-001
+    type: mcq
+    deck: France::Alsace
+    tags: [france, alsace, grapes]
+    status: reviewed
+    source_id: c17-0046
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How does Alsace Pinot Gris sit next to Gewurztraminer?
+      choices:
+        - { text: "Lighter, more aromatic, and lower in alcohol", correct: false }
+        - { text: "Also full and rich, with more acid, less perfume, and a honeyed fresh-and-dried-fruit line", correct: true }
+        - { text: "It is always a pale, neutral Italian pinot grigio clone", correct: false }
+        - { text: "It is a red grape with grand-cru tannin", correct: false }
+      explanation: |
+        **Full, rich, high alcohol**, **more acid than Gewurz**, **less
+        aromatic**, gold-ish colour, **fresh and dried fruit plus honey**.
+        Not supermarket pinot grigio.
+
+  - id: alsace-muscat-best-001
+    type: mcq
+    deck: France::Alsace
+    tags: [france, alsace, grapes]
+    status: reviewed
+    source_id: c17-0047
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Of Muscat Blanc à Petits Grains, Muscat Rosé à Petits Grains, and Ottonel, which usually makes the finest Alsace wine?
+      choices:
+        - { text: "Muscat of Alexandria", correct: false }
+        - { text: "Muscat Blanc à Petits Grains", correct: true }
+        - { text: "Muscat Ottonel only, by law", correct: false }
+        - { text: "Muscat Hamburg", correct: false }
+      explanation: |
+        **Muscat Blanc à Petits Grains** (and its pink cousin) beat **Ottonel**
+        for perfume. The third local Muscat is Ottonel — planted because it is
+        easier, not because it is finer.
+
+  - id: alsace-mbapg-profile-001
+    type: mcq
+    deck: France::Alsace
+    tags: [france, alsace, grapes]
+    status: reviewed
+    source_id: c17-0048
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What does Alsace Muscat Blanc à Petits Grains usually taste like?
+      choices:
+        - { text: "Full, oily, 14%, low acid, lychee and ginger", correct: false }
+        - { text: "Light to medium, low-to-medium acid, intensely aromatic, orange blossom, rose and grape", correct: true }
+        - { text: "Tannic, oaky, and built like a Médoc", correct: false }
+        - { text: "Neutral, like basic Pinot Blanc", correct: false }
+      explanation: |
+        **Light–medium, low-to-medium acid, orange blossom / rose / grape.**
+        Dry Alsace Muscat should smell like grapes in the glass — that is the
+        point, not Gewurz spice.
+
+  - id: alsace-mbapg-hazard-001
+    type: mcq
+    deck: France::Alsace
+    tags: [france, alsace, grapes]
+    status: reviewed
+    source_id: c17-0049
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What vineyard headaches come with Muscat Blanc à Petits Grains in Alsace?
+      choices:
+        - { text: "It never sets fruit and never rots", correct: false }
+        - { text: "Poor fruit set and a weakness for rot", correct: true }
+        - { text: "It only ripens in January", correct: false }
+        - { text: "It is banned on slopes", correct: false }
+      explanation: |
+        **Coulure / poor set** and **rot**. That is why growers keep **Ottonel**
+        as a more reliable Muscat, even though it smells quieter.
+
+  - id: alsace-ottonel-001
+    type: mcq
+    deck: France::Alsace
+    tags: [france, alsace, grapes]
+    status: reviewed
+    source_id: c17-0050
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which Muscat do Alsace growers plant as the more reliable, less aromatic stand-in?
+      choices:
+        - { text: "Muscat of Alexandria, which is more aromatic", correct: false }
+        - { text: "Muscat Ottonel, which is less aromatic", correct: true }
+        - { text: "Muscat Hamburg, which is a red table grape only", correct: false }
+        - { text: "There is no second Muscat in Alsace", correct: false }
+      explanation: |
+        **Muscat Ottonel** — earlier, more reliable, **less aromatic** than
+        Blanc à Petits Grains. “Another Muscat” is too vague; Ottonel is the
+        stand-in.
