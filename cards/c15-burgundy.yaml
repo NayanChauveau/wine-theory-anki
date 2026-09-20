@@ -15,13 +15,24 @@ cards:
     en:
       question: How does Burgundy’s climate change from Chablis down to the Mâconnais?
       choices:
-        - { text: "Hot maritime everywhere, like Bordeaux", correct: false }
-        - { text: "Cool continental in the north, moderate continental further south", correct: true }
-        - { text: "Tropical monsoon in Chablis only", correct: false }
-        - { text: "Alpine ice year-round", correct: false }
+        - { text: "Cool maritime throughout, like the Loire estuary", correct: false }
+        - { text: "Cool continental in the north, a notch warmer in the south", correct: true }
+        - { text: "Mediterranean from Chablis through to Mâcon", correct: false }
+        - { text: "The same cool continental label everywhere", correct: false }
       explanation: |
         **Chablis** is the cold pole. The **Côte d’Or** and especially the
         **Mâconnais** are a step warmer — still continental, not Atlantic.
+    fr:
+      question: Comment le climat de Bourgogne change-t-il de Chablis au Mâconnais ?
+      choices:
+        - { text: "Maritime frais partout, comme l’estuaire de la Loire", correct: false }
+        - { text: "Continental frais au nord, un cran plus tempéré au sud", correct: true }
+        - { text: "Méditerranéen de Chablis jusqu’au Mâcon", correct: false }
+        - { text: "La même étiquette continentale fraîche partout", correct: false }
+      explanation: |
+        **Chablis** est le pôle froid. La **Côte d’Or** et surtout le
+        **Mâconnais** sont un cran plus chauds — encore continentaux, pas
+        atlantiques.
 
   - id: burgundy-rain-timing-001
     type: mcq
@@ -35,13 +46,24 @@ cards:
     en:
       question: When does rain most often spoil a Burgundy crop?
       choices:
-        - { text: "Only in January, when the vines are dormant", correct: false }
-        - { text: "At flowering in early summer, and again around harvest", correct: true }
-        - { text: "Rain is illegal in the Côte d’Or", correct: false }
-        - { text: "Only on the day the 1855 list was signed", correct: false }
+        - { text: "Only in mid-winter, when the vines are dormant", correct: false }
+        - { text: "At flowering, and again around harvest", correct: true }
+        - { text: "Only during a dry August heatwave", correct: false }
+        - { text: "Only after the wine is already in barrel", correct: false }
       explanation: |
         A wet **June** hits fruit set (coulure). A wet **September** hits
         pick and feeds rot. **2013** is the named wet, late harvest.
+    fr:
+      question: Quand la pluie gâche-t-elle le plus souvent une récolte bourguignonne ?
+      choices:
+        - { text: "Seulement en plein hiver, quand la vigne dort", correct: false }
+        - { text: "À la floraison, puis de nouveau vers la vendange", correct: true }
+        - { text: "Seulement lors d’une canicule d’août sèche", correct: false }
+        - { text: "Seulement une fois le vin déjà en fût", correct: false }
+      explanation: |
+        Un **juin** humide touche la nouaison (coulure). Un **septembre**
+        humide gâche la vendange et nourrit la pourriture. **2013** est
+        le millésime tardif et pluvieux qu’on cite.
 
   - id: burgundy-pinot-rot-001
     type: mcq
@@ -57,11 +79,21 @@ cards:
       choices:
         - { text: "Aligoté", correct: false }
         - { text: "Pinot Noir", correct: true }
-        - { text: "Sauvignon Blanc in Saint-Bris only", correct: false }
-        - { text: "Syrah", correct: false }
+        - { text: "Chardonnay", correct: false }
+        - { text: "Gamay", correct: false }
       explanation: |
-        Tight **Pinot** bunches and thin skins. Chardonnay can rot too;
-        Pinot is still the first grape growers worry about after hail.
+        Tight bunches and thin skins. **Chardonnay** can rot too; Pinot
+        is still the first grape growers worry about after hail.
+    fr:
+      question: "Grappes serrées et peaux fines : quel cépage de la Côte pourrit facilement un septembre humide ?"
+      choices:
+        - { text: "Aligoté", correct: false }
+        - { text: "Pinot Noir", correct: true }
+        - { text: "Chardonnay", correct: false }
+        - { text: "Gamay", correct: false }
+      explanation: |
+        Grappes serrées, peaux fines. Le **Chardonnay** peut pourrir
+        aussi ; le Pinot reste le premier souci après la grêle.
 
   - id: burgundy-chablis-frost-001
     type: mcq
@@ -75,15 +107,26 @@ cards:
     en:
       question: Which hazard is Chablis more famous for than the Côte d’Or?
       choices:
-        - { text: "Drought that never breaks", correct: false }
+        - { text: "Summer drought", correct: false }
         - { text: "Spring frost", correct: true }
-        - { text: "A legal ban on heaters", correct: false }
-        - { text: "Hurricanes every August", correct: false }
+        - { text: "Hail on the Côte de Nuits only", correct: false }
+        - { text: "Autumn noble rot", correct: false }
       explanation: |
-        Chablis sits further **north** and in a frost pocket. Smudge pots,
-        cables and aspersion are the local toolkit. The Côte d’Or still
-        froze in **2021** — Chablis is the named specialist, not the only
-        victim.
+        Further **north**, and in a frost pocket. Smudge pots, cables and
+        aspersion are the local toolkit. The Côte d’Or still froze in
+        **2021** — Chablis is the named specialist, not the only victim.
+    fr:
+      question: Pour quel aléa Chablis est-il plus connu que la Côte d’Or ?
+      choices:
+        - { text: "La sécheresse d’été", correct: false }
+        - { text: "Le gel de printemps", correct: true }
+        - { text: "La grêle, seulement en Côte de Nuits", correct: false }
+        - { text: "La pourriture noble d’automne", correct: false }
+      explanation: |
+        Plus au **nord**, et dans une poche de gel. Braseros, câbles et
+        aspersion sont la boîte à outils locale. La Côte d’Or a quand
+        même gelé en **2021** — Chablis est le spécialiste nommé, pas
+        la seule victime.
 
   - id: burgundy-frost-may-001
     type: mcq
@@ -97,14 +140,24 @@ cards:
     en:
       question: Into which month can a Chablis frost still kill new shoots?
       choices:
-        - { text: "August", correct: false }
+        - { text: "April", correct: false }
         - { text: "May", correct: true }
-        - { text: "November only", correct: false }
-        - { text: "It never frosts after 1 January", correct: false }
+        - { text: "June", correct: false }
+        - { text: "July", correct: false }
       explanation: |
-        Budburst is early; a **May** frost is still on the calendar.
-        **2021** hit in April, but the late-spring risk is why aspersion
-        stays up.
+        Budburst is early; a late-spring hit is still on the calendar.
+        **2021** struck in April; that is why aspersion stays up.
+    fr:
+      question: Jusqu’à quel mois un gel à Chablis peut-il encore tuer les jeunes pousses ?
+      choices:
+        - { text: "Avril", correct: false }
+        - { text: "Mai", correct: true }
+        - { text: "Juin", correct: false }
+        - { text: "Juillet", correct: false }
+      explanation: |
+        Le débourrement est précoce ; un coup de fin de printemps reste
+        possible. **2021** a frappé en avril ; voilà pourquoi l’aspersion
+        reste en place.
 
   - id: burgundy-hail-001
     type: mcq
@@ -118,13 +171,24 @@ cards:
     en:
       question: Besides frost, which summer shock regularly shreds Côte d’Or crops?
       choices:
-        - { text: "A legal duty to irrigate with seawater", correct: false }
+        - { text: "A long drought", correct: false }
         - { text: "Hail", correct: true }
-        - { text: "Only polar night in July", correct: false }
-        - { text: "Earthquakes that rip out every vine", correct: false }
+        - { text: "Coulure at flowering only", correct: false }
+        - { text: "A heatwave that never breaks", correct: false }
       explanation: |
-        **Hail** tracks along the Côte. **2012–2014** battered Volnay and
+        Storms track along the Côte. **2012–2014** battered Volnay and
         Meursault; nets and anti-hail cannon are now part of the landscape.
+    fr:
+      question: Outre le gel, quel choc d’été déchire régulièrement les récoltes de Côte d’Or ?
+      choices:
+        - { text: "Une longue sécheresse", correct: false }
+        - { text: "La grêle", correct: true }
+        - { text: "La coulure à la floraison seulement", correct: false }
+        - { text: "Une canicule qui ne lâche pas", correct: false }
+      explanation: |
+        Les orages suivent la Côte. **2012–2014** ont tapé Volnay et
+        Meursault ; filets et canons anti-grêle font désormais partie
+        du paysage.
 
   - id: burgundy-village-sites-001
     type: mcq
@@ -138,14 +202,25 @@ cards:
     en:
       question: Relative to the Côte slope, where do Bourgogne AOC and many village wines sit?
       choices:
-        - { text: "Only on the crest above every grand cru", correct: false }
+        - { text: "Only on the crest above the grands crus", correct: false }
         - { text: "On the flat or at the foot of the slope", correct: true }
-        - { text: "Only above 2 000 m", correct: false }
-        - { text: "Only in the Landes forest", correct: false }
+        - { text: "Mid-slope, with the premiers crus", correct: false }
+        - { text: "Only on the Hautes-Côtes plateau", correct: false }
       explanation: |
         The **plain** and the **slope-foot** are deeper, colder and more
         vigorous. Some village climats do sit mid-slope — “usually”, not
         “never mid-slope”.
+    fr:
+      question: Sur le relief de la Côte d’Or, où se tiennent l’AOC Bourgogne et beaucoup de vins de village ?
+      choices:
+        - { text: "Seulement sur la crête, au-dessus des grands crus", correct: false }
+        - { text: "À plat ou au pied du coteau", correct: true }
+        - { text: "À mi-coteau, avec les premiers crus", correct: false }
+        - { text: "Seulement sur le plateau des Hautes-Côtes", correct: false }
+      explanation: |
+        La **plaine** et le **pied de coteau** sont plus profonds, plus
+        froids et plus vigoureux. Certains climats de village sont à
+        mi-pente — « d’habitude », pas « jamais à mi-coteau ».
 
   - id: burgundy-cru-midslope-001
     type: mcq
@@ -159,14 +234,24 @@ cards:
     en:
       question: On a Côte d’Or hillside, which band holds most of the classed climats?
       choices:
-        - { text: "Only on the valley floor next to the autoroute", correct: false }
+        - { text: "The valley floor", correct: false }
         - { text: "Mid-slope", correct: true }
-        - { text: "Only on the high plateau with no stone", correct: false }
-        - { text: "Only underwater in the Saône", correct: false }
+        - { text: "The high plateau", correct: false }
+        - { text: "The foot of the slope only", correct: false }
       explanation: |
-        The **mid-slope** is the sweet band of drainage and sun. **Clos de
-        Vougeot** still runs down into the village — “often”, not a legal
-        altitude line.
+        Best drainage and sun sit in that band. **Clos de Vougeot** still
+        runs down into the village — “often”, not a legal altitude line.
+    fr:
+      question: Sur un coteau de Côte d’Or, quelle bande porte la plupart des climats classés ?
+      choices:
+        - { text: "Le fond de vallée", correct: false }
+        - { text: "Le mi-coteau", correct: true }
+        - { text: "Le haut plateau", correct: false }
+        - { text: "Le pied de coteau seulement", correct: false }
+      explanation: |
+        Meilleur drainage et meilleur soleil dans cette bande. Le **Clos
+        de Vougeot** descend encore jusqu’au village — « souvent », pas
+        une ligne d’altitude légale.
 
   - id: burgundy-midslope-frost-001
     type: mcq
@@ -180,13 +265,24 @@ cards:
     en:
       question: Why is a mid-slope climat safer than the valley floor on a frost night?
       choices:
-        - { text: "Cold air is illegal above 200 m", correct: false }
-        - { text: "Cold air drains downhill, so the mid-slope is less prone to frost", correct: true }
-        - { text: "The mid-slope is always 10 °C warmer by AOC law", correct: false }
-        - { text: "There is no wind anywhere on the Côte", correct: false }
+        - { text: "Cold air rises, so the valley stays warmer", correct: false }
+        - { text: "Cold air drains downhill, off the mid-slope", correct: true }
+        - { text: "The mid-slope holds more water, which blocks frost", correct: false }
+        - { text: "The valley floor is always windier at night", correct: false }
       explanation: |
         **Katabatic** drainage: frost pools on the flats (and in hollows
         like parts of Chablis). Mid-slope is not frost-proof — just safer.
+    fr:
+      question: Pourquoi un climat de mi-coteau est-il plus à l’abri du gel qu’un fond de vallée ?
+      choices:
+        - { text: "L’air froid monte, donc la vallée reste plus chaude", correct: false }
+        - { text: "L’air froid s’écoule vers le bas, hors du mi-coteau", correct: true }
+        - { text: "Le mi-coteau retient plus d’eau, ce qui bloque le gel", correct: false }
+        - { text: "Le fond de vallée est toujours plus venté la nuit", correct: false }
+      explanation: |
+        Drainage **katabatique** : le gel s’accumule à plat (et dans des
+        creux, comme certains coins de Chablis). Le mi-coteau n’est pas
+        à l’abri — seulement plus sûr.
 
   - id: burgundy-aspect-001
     type: mcq
@@ -200,14 +296,25 @@ cards:
     en:
       question: Which aspect do the Côte d’Or’s best climats usually take?
       choices:
-        - { text: "Due north, into the prevailing shade", correct: false }
+        - { text: "Due north", correct: false }
         - { text: "South or east", correct: true }
-        - { text: "Only due west into the Atlantic storm", correct: false }
-        - { text: "They must face the Alps", correct: false }
+        - { text: "Due west", correct: false }
+        - { text: "North-west, into the Morvan", correct: false }
       explanation: |
         The Côte looks toward the **Saône**: roughly **east to
         south-east**. Chablis grands crus are the named exception — they
         face **south-west** over the Serein.
+    fr:
+      question: Quelle exposition prennent d’habitude les meilleurs climats de Côte d’Or ?
+      choices:
+        - { text: "Plein nord", correct: false }
+        - { text: "Sud ou est", correct: true }
+        - { text: "Plein ouest", correct: false }
+        - { text: "Nord-ouest, vers le Morvan", correct: false }
+      explanation: |
+        La Côte regarde vers la **Saône** : grosso modo **est à
+        sud-est**. Les grands crus de Chablis sont l’exception nommée —
+        ils regardent le **sud-ouest**, au-dessus du Serein.
 
   - id: burgundy-westerlies-001
     type: mcq

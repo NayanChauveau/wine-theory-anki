@@ -753,7 +753,93 @@ chapters:
   c01-sat: { file: cards/c01-sat.yaml, status: pending }
   c12-france-introduction: { file: cards/c12-france-introduction.yaml, status: pending }
   c14-south-west: { file: cards/c14-south-west.yaml, status: pending }
-  c15-burgundy: { file: cards/c15-burgundy.yaml, status: pending }
+  c15-burgundy:
+    file: cards/c15-burgundy.yaml
+    status: in-progress
+    note: >
+      Lot test 10 premières cartes (c15-0001–0010) : qualité + fr:.
+      Reste du chapitre encore pending.
+    cards:
+      burgundy-climate-split-001:
+        isolation: pass
+        credibility: revised
+        length: revised
+        why: pass
+        sense: revised
+        status: agent-fixed
+        human: pending
+      burgundy-rain-timing-001:
+        isolation: pass
+        credibility: revised
+        length: revised
+        why: pass
+        sense: revised
+        status: agent-fixed
+        human: pending
+      burgundy-pinot-rot-001:
+        isolation: pass
+        credibility: revised
+        length: pass
+        why: revised
+        sense: revised
+        status: agent-fixed
+        human: pending
+      burgundy-chablis-frost-001:
+        isolation: pass
+        credibility: revised
+        length: pass
+        why: pass
+        sense: revised
+        status: agent-fixed
+        human: pending
+      burgundy-frost-may-001:
+        isolation: pass
+        credibility: revised
+        length: pass
+        why: revised
+        sense: revised
+        status: agent-fixed
+        human: pending
+      burgundy-hail-001:
+        isolation: pass
+        credibility: revised
+        length: pass
+        why: revised
+        sense: revised
+        status: agent-fixed
+        human: pending
+      burgundy-village-sites-001:
+        isolation: pass
+        credibility: revised
+        length: pass
+        why: pass
+        sense: revised
+        status: agent-fixed
+        human: pending
+      burgundy-cru-midslope-001:
+        isolation: pass
+        credibility: revised
+        length: pass
+        why: revised
+        sense: revised
+        status: agent-fixed
+        human: pending
+      burgundy-midslope-frost-001:
+        isolation: pass
+        credibility: revised
+        length: revised
+        why: pass
+        sense: revised
+        status: agent-fixed
+        human: pending
+      burgundy-aspect-001:
+        isolation: pass
+        credibility: revised
+        length: pass
+        why: pass
+        sense: revised
+        status: agent-fixed
+        human: pending
   c16-beaujolais: { file: cards/c16-beaujolais.yaml, status: pending }
   c17-alsace: { file: cards/c17-alsace.yaml, status: pending }
   c18-loire: { file: cards/c18-loire.yaml, status: pending }
