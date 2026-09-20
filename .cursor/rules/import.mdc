@@ -21,6 +21,8 @@ Source notes live in `import/inbox/` (gitignored raw extract). Published cards l
 - Update `import/progress.yaml` in place (`done` / `split` / `rejected`). Do not rewrite the whole ledger via `ProgressStore.save()`.
 - After `make check`: commit the lot (`import(c15): reviewed c15-0001–0020`). Do not commit `.apkg`.
 - Plausible WSET distractors: same class, same frame, no joke / physically impossible foils. A Level 3 candidate who half-knows the chapter should hesitate. The keyed choice must not be the obvious longest. Why must not recopy the keyed choice — complementary fact or keep it short. Never “option B”.
-- French lots: critic **sense** (does the sentence mean anything?) and **credibility**, not only calque-spotting. Track in [import/quality-review.yaml](../../import/quality-review.yaml). See [import/AGENT_PLAYBOOK.md](../../import/AGENT_PLAYBOOK.md).
+- Chapter quality pass (isolation, foils, length, Why, FR sense):
+  [import/STUDY_CARD_QUALITY.md](../../import/STUDY_CARD_QUALITY.md).
+  Track in [import/quality-review.yaml](../../import/quality-review.yaml).
 
 Checklist: opened the source note; fact-checked against wine knowledge; 1 correct choice; original wording; ledger; `make check`; commit.

@@ -11,6 +11,8 @@ Cards in this repository are independently authored study aids for the WSET Leve
 
 This project is not affiliated with, endorsed by, or connected to the Wine & Spirit Education Trust.
 
+Quality pass on a whole chapter (foils, length, Why, French sense, isolated stems): [import/STUDY_CARD_QUALITY.md](import/STUDY_CARD_QUALITY.md).
+
 ## Card design
 
 - Prefer a single, exam-style **MCQ** with one correct answer and a short **Why** explanation.

@@ -36,7 +36,8 @@ Append to the existing `cards:` list.
 - Exactly one `correct: true` per MCQ.
 - Distractors: same class as the key, same geography/frame as the stem. A WSET 3 student should have to think. Fail cartoon impossibles (Alps, permafrost, seawater, apple grape, Chablis-as-Bordeaux, Cognac, drain). The keyed choice must not be the obvious longest. Rewrite `en:` and `fr:` together.
 - Write `fr:` on the same id. Do not create a second card for French.
-- French **sense**: read the stem out loud. If it does not mean anything in French, recast — do not ship a calque. Why must not recopy the keyed choice.
+- Chapter quality: [import/STUDY_CARD_QUALITY.md](../../import/STUDY_CARD_QUALITY.md)
+  (isolation, foils, length, Why, FR sense). Why must not recopy the keyed choice.
 - Keep appellations and grape names in their usual form (Saint-Émilion, Riesling).
 - Imported cards: set `source_id` and `review`. Writer first jet is `draft`; critic `accept` → `reviewed`.
 - Uncertain facts: stay `draft` with `review.fact_check: unsure`. Named checkable anecdotes belong in the explanation.

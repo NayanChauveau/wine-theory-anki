@@ -269,11 +269,15 @@ launching new writers. Dirty drafts from an unfinished critic stay uncommitted.
 
 ## Study-card quality (EN and FR)
 
-Track this pass in [import/quality-review.yaml](quality-review.yaml), not in
-`progress.yaml`. After a CREDIBILITY / SENSE lot, update that file (chapter
-status + per-card `credibility` / `sense` / `status`). Human sign-off is
-`human: ok`. These two passes are **not** fact-check. A true keyed choice can
-still fail.
+**Full brief:** [STUDY_CARD_QUALITY.md](STUDY_CARD_QUALITY.md). Point an
+agent at that file to replay the Bordeaux quality pass on another
+chapter (`cards/c15-burgundy.yaml`, …).
+
+Track the pass in [quality-review.yaml](quality-review.yaml), not in
+`progress.yaml`. Human sign-off is `human: ok`. Not a fact-check.
+
+Five bars: **ISOLATION** · **CREDIBILITY** · **LENGTH** · **WHY** · **SENSE**.
+Rewrite `en:` and `fr:` together; same correct index.
 
 ### Distractor credibility
 
@@ -384,7 +388,7 @@ Edit ONLY cards/<file>.yaml. Do NOT touch import/progress.yaml. Do NOT commit.
 
 Add fr: on ids <first>–<last> (max 40). Same id, same correct index.
 
-Read import/AGENT_PLAYBOOK.md “Study-card quality” and Phase 2.
+Read import/STUDY_CARD_QUALITY.md and import/AGENT_PLAYBOOK.md Phase 2.
 
 - Sense first: French must mean something. Recast calques.
 - Why does not recopy the French keyed choice. Complementary or short.

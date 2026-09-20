@@ -16,9 +16,6 @@ The source `.apkg` and the raw Front/Back extract are **not** published
 Agents continuing the English conversion: read [AGENT_PLAYBOOK.md](AGENT_PLAYBOOK.md)
 (parent + parallel writers/critics). Card policy: `.cursor/rules/import.mdc`.
 
-Study-card bar (EN and FR): same-class **credible** distractors — no cartoon
-impossibles — French that **makes sense**, not a calque — a keyed choice
-that is **not** the obvious longest — and Why that does **not** recopy
-the answer. Details in the
-playbook section “Study-card quality”. Ledger for that pass:
+Study-card quality (replay on another chapter):
+[STUDY_CARD_QUALITY.md](STUDY_CARD_QUALITY.md). Ledger:
 [quality-review.yaml](quality-review.yaml) (not `progress.yaml`).

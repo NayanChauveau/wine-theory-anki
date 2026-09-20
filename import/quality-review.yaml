@@ -1,12 +1,14 @@
-# Suivi relecture — difficulté (leurres) + sens français
+# Suivi relecture — pas le ledger d’import EN (`progress.yaml`).
 #
-# Ce n’est PAS le ledger d’import EN (`progress.yaml`). Ne pas y écrire
-# `done` / `split` depuis ce fichier.
+# Brief des barres (isolation, leurres, longueur, Why, sens FR) :
+#   import/STUDY_CARD_QUALITY.md
 #
-# Deux barres, pas un fact-check (voir import/AGENT_PLAYBOOK.md
-# « Study-card quality ») :
-#   credibility — les fausses propositions sont-elles pickables pour un WSET 3 ?
-#   sense       — la phrase française veut-elle vraiment dire quelque chose ?
+# Barres (pas un fact-check) :
+#   isolation   — carte autonome (pas « cette / that »)
+#   credibility — leurres pickables pour un WSET 3
+#   length      — la clé n’est pas visiblement la plus longue
+#   why         — pas de recopiage de la bonne réponse
+#   sense       — le français veut dire quelque chose
 #
 # Statuts carte :
 #   pending      — pas encore lu
@@ -17,7 +19,7 @@
 #
 # Comment relire : ouvrir cards/<file>.yaml, cocher human: ok carte par carte
 # ou chapter status: human-ok quand tout le chapitre est bon.
-# Agents : mettre à jour ce fichier après chaque lot CREDIBILITY / SENSE.
+# Agents : mettre à jour ce fichier après chaque lot (voir STUDY_CARD_QUALITY.md).
 # Lots ≤ 40 cartes. Un chapitre à la fois.
 
 updated: 2026-09-20
