@@ -72,6 +72,8 @@ Rules: CONTENT_GUIDELINES.md, AGENTS.md, .cursor/rules/import.mdc, import/AGENT_
 - CREDIBILITY: wrong choices must look like answers a Level 3 candidate
   might pick. Same class and same frame as the key. No cartoon /
   physically impossible foils (see “Study-card quality”).
+- LENGTH: the keyed choice must not be the obvious longest. Short key,
+  extra clause in Why; or same-class foils of similar length.
 - status: draft. review.fact_check: pass (or unsure). sources: known-fact / spec / aoc-site.
 - deck: <English key from import_map.py / decks.yaml>. Do not invent keys.
 - Split two-part notes and long lists (same source_id on each card).
@@ -102,6 +104,7 @@ Rubric (fail-closed):
 - same-category distractors (no category giveaway)
 - CREDIBILITY: foils a Level 3 candidate might actually pick; same
   geography/frame; no joke / physically impossible options
+- LENGTH: keyed choice not the obvious longest / only detailed sentence
 - no WSET/SAT/inbox/exam/chapter
 - do not clone a reviewed card already in the file
 
@@ -140,9 +143,11 @@ text = path.read_text(encoding="utf-8")
 splits = {102, 106}  # example
 updates = {f"c22-{i:04d}": ("split" if i in splits else "done") for i in range(101, 151)}
 
+
 def repl(m):
     sid = m.group(1)
     return f"{sid}:\n    status: {updates[sid]}" if sid in updates else m.group(0)
+
 
 new, n = re.subn(r"(c22-\d{4}):\n    status: pending", repl, text)
 # n counts every pending c22 match; ids outside `updates` stay pending
@@ -286,6 +291,20 @@ Wrong choices must look like answers a WSET 3 candidate might pick.
 - When you rewrite a foil, change **both** `en:` and `fr:` and keep the same
   correct index.
 
+### Choice length
+
+The keyed choice must not be pickable by length. A glance at the block
+should not reveal the winner.
+
+- Fail a long, precise key next to three short stubs (the “most detailed
+  sentence is the answer” tell).
+- Prefer a **short key** and move the extra clause into Why. Or write
+  same-class foils at a **similar length**. Do not pad foils with junk
+  just to match a word count.
+- Name-only choices (Merlot vs Cabernet Sauvignon) are fine; a 20-word
+  key beside three 4-word foils is not.
+- Rewrite **both** `en:` and `fr:` and keep the same correct index.
+
 ### French sense
 
 A `fr:` block is a second authoring pass. Read the stem, each choice, and
@@ -394,6 +413,8 @@ in this lot.
 2. SENSE — would a native speaker say this French means something?
    Fail calques, lost subjects, empty sentences, Why that names the
    wrong text or answers a different question.
+3. LENGTH — the keyed choice must not be the obvious longest / the only
+   detailed sentence. Fail the “glance at length” tell.
 
 Also fail: leaked English, tutoiement, invented AOCs, wrong correct index.
 
@@ -418,6 +439,7 @@ c32. Then the long ones (c22, c13, c27, c30) in 40-card slices.
 - Invent `USA::New York` or other missing deck keys.
 - Put New York cards under `USA::Pacific Northwest`.
 - Mention “option B”, inbox, or the textbook in Why.
-- Ship joke / physically impossible distractors, or a French sentence that
-  does not mean anything, just because the English fact is right.
+- Ship joke / physically impossible distractors, a keyed choice that is
+  obviously the longest, or a French sentence that does not mean anything,
+  just because the English fact is right.
 - Push unless the human asks.

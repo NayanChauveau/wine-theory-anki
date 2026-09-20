@@ -17,6 +17,7 @@ Agents continuing the English conversion: read [AGENT_PLAYBOOK.md](AGENT_PLAYBOO
 (parent + parallel writers/critics). Card policy: `.cursor/rules/import.mdc`.
 
 Study-card bar (EN and FR): same-class **credible** distractors — no cartoon
-impossibles — and French that **makes sense**, not a calque. Details in the
+impossibles — French that **makes sense**, not a calque — and a keyed
+choice that is **not** the obvious longest. Details in the
 playbook section “Study-card quality”. Ledger for that pass:
 [quality-review.yaml](quality-review.yaml) (not `progress.yaml`).

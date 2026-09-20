@@ -121,7 +121,9 @@ def _extract_command(root: Path, apkg: Path | None) -> int:
     source = apkg or default_apkg_path(root)
     if not source.is_file():
         print(
-            f"error: missing {source}. Expected import/WSET_Level_3_--_NEW.apkg (gitignored), not Downloads. Or pass --apkg",
+            f"error: missing {source}. "
+            "Expected import/WSET_Level_3_--_NEW.apkg (gitignored), "
+            "not Downloads. Or pass --apkg",
             file=sys.stderr,
         )
         return 1

@@ -17,6 +17,7 @@ This project is not affiliated with, endorsed by, or connected to the Wine & Spi
 - Name the **answer text** in the explanation, never “option B”. Choice order may change later.
 - Keep the question stem focused on one idea. Avoid double-barrelled “which is true AND why” items.
 - Wrong choices must be **credible**. Same class as the key (grape vs grape, AOC vs AOC, climate label vs climate label) and inside the stem’s frame. A Level 3 candidate who half-remembers the chapter should hesitate. Cartoon or physically impossible foils fail even when the keyed fact is right (polar winter on the Gironde, seawater irrigation, Alps, apple as a legal grape, Chablis as a Bordeaux address, Cognac, “pour it down the drain”). If three foils are joke-easy, the card does not test the fact.
+- **Choice length** must not give the answer away. The keyed choice must not be the obvious longest or the only detailed sentence. Prefer a short key and put the extra clause in Why; or write foils of the same class at a similar length. A glance at the block should not pick the winner.
 - Use `basic` for a simple prompt/response and `cloze` for lists you must recall in order (AOCs, grapes).
 - Markdown is allowed in questions and explanations (`**bold**`, lists, short paragraphs).
 - Always quote choice `text` if it contains a comma: `{ text: "High alcohol, low acidity", correct: false }`. Otherwise YAML treats the comma as a new key.
