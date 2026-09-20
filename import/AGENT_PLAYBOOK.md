@@ -257,7 +257,11 @@ launching new writers. Dirty drafts from an unfinished critic stay uncommitted.
 
 ## Study-card quality (EN and FR)
 
-These two passes are **not** fact-check. A true keyed choice can still fail.
+Track this pass in [import/quality-review.yaml](quality-review.yaml), not in
+`progress.yaml`. After a CREDIBILITY / SENSE lot, update that file (chapter
+status + per-card `credibility` / `sense` / `status`). Human sign-off is
+`human: ok`. These two passes are **not** fact-check. A true keyed choice can
+still fail.
 
 ### Distractor credibility
 

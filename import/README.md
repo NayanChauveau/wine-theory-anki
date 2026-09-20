@@ -12,4 +12,5 @@ Agents continuing the English conversion: read [AGENT_PLAYBOOK.md](AGENT_PLAYBOO
 
 Study-card bar (EN and FR): same-class **credible** distractors — no cartoon
 impossibles — and French that **makes sense**, not a calque. Details in the
-playbook section “Study-card quality”.
+playbook section “Study-card quality”. Ledger for that pass:
+[quality-review.yaml](quality-review.yaml) (not `progress.yaml`).

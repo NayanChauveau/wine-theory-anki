@@ -1,0 +1,749 @@
+# Suivi relecture — difficulté (leurres) + sens français
+#
+# Ce n’est PAS le ledger d’import EN (`progress.yaml`). Ne pas y écrire
+# `done` / `split` depuis ce fichier.
+#
+# Deux barres, pas un fact-check (voir import/AGENT_PLAYBOOK.md
+# « Study-card quality ») :
+#   credibility — les fausses propositions sont-elles pickables pour un WSET 3 ?
+#   sense       — la phrase française veut-elle vraiment dire quelque chose ?
+#
+# Statuts carte :
+#   pending      — pas encore lu
+#   agent-pass   — critic agent OK sur les deux barres ; relecture humaine ouverte
+#   agent-fixed  — agent a réécrit (EN+FR alignés) ; relecture humaine ouverte
+#   human-ok     — toi, après relecture (mettre human: ok)
+#   hold         — en attente d’une décision
+#
+# Comment relire : ouvrir cards/<file>.yaml, cocher human: ok carte par carte
+# ou chapter status: human-ok quand tout le chapitre est bon.
+# Agents : mettre à jour ce fichier après chaque lot CREDIBILITY / SENSE.
+# Lots ≤ 40 cartes. Un chapitre à la fois.
+
+updated: 2026-09-20
+
+chapters:
+  c13-bordeaux:
+    file: cards/c13-bordeaux.yaml
+    status: awaiting-human
+    agent_wave: 2026-09-20
+    counts:
+      cards: 135
+      agent_fixed: 117
+      agent_pass: 18
+      human_ok: 0
+    note: >
+      Première passe complète. La plupart des leurres blague ont été
+      remplacés (EN+FR, même index). Quelques stems FR recastés.
+      Relecture humaine encore ouverte.
+    cards:
+      bordeaux-left-bank-001:
+        credibility: pass
+        sense: pass
+        status: agent-pass
+        human: pending
+      bordeaux-right-bank-001:
+        credibility: pass
+        sense: pass
+        status: agent-pass
+        human: pending
+      bordeaux-largest-aoc-001:
+        credibility: pass
+        sense: pass
+        status: agent-pass
+        human: pending
+        note: "Chablis / Sancerre / Bandol restent : même classe (AOC FR volume)"
+      bordeaux-climate-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+        note: mousson → Méditerranéen
+      bordeaux-gulf-stream-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-october-ripen-001:
+        credibility: revised
+        sense: revised
+        status: agent-fixed
+        human: pending
+        note: "« millésime lent » → millésime tardif ; Dès X → Jusqu’en X"
+      bordeaux-frost-rare-001:
+        credibility: pass
+        sense: pass
+        status: agent-pass
+        human: pending
+      bordeaux-atlantic-rain-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-landes-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-rain-risks-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-vintage-rain-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-sorting-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-canopy-health-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-blended-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-blend-why-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-staggered-ripen-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-varieties-count-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-five-main-count-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-five-named-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+        note: listes hors Bordeaux → cinq cépages du cadre
+      bordeaux-cs-haut-medoc-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-cs-also-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-cs-gravel-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-cs-share-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-cf-where-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-cf-style-001:
+        credibility: revised
+        sense: revised
+        status: agent-fixed
+        human: pending
+        note: « plus un fruit floral » → « avec un fruit plus floral »
+      bordeaux-cf-soil-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-merlot-most-planted-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-merlot-premium-001:
+        credibility: revised
+        sense: revised
+        status: agent-fixed
+        human: pending
+        note: « tous les icônes » → « toutes les icônes »
+      bordeaux-merlot-clay-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-merlot-volume-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-pv-hot-years-001:
+        credibility: pass
+        sense: pass
+        status: agent-pass
+        human: pending
+      bordeaux-pv-style-001:
+        credibility: revised
+        sense: revised
+        status: agent-fixed
+        human: pending
+        note: « courbe de garde lente » → « évolution lente en bouteille »
+      bordeaux-pv-role-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-vessels-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-blend-spring-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-blend-late-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-second-wine-001:
+        credibility: revised
+        sense: revised
+        status: agent-fixed
+        human: pending
+        note: « qui manquent le grand vin » → « qui n’entrent pas dans le grand vin »
+      bordeaux-barrique-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-generic-no-oak-001:
+        credibility: revised
+        sense: revised
+        status: agent-fixed
+        human: pending
+        note: « voit du chêne » → « reçoit »
+      bordeaux-semillon-sweet-001:
+        credibility: pass
+        sense: pass
+        status: agent-pass
+        human: pending
+      bordeaux-pl-blend-001:
+        credibility: pass
+        sense: pass
+        status: agent-pass
+        human: pending
+      bordeaux-semillon-body-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-sb-aroma-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-sb-varietal-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-sb-acid-blend-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-sb-sweet-acid-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-muscadelle-flavour-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-muscadelle-role-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-cheap-white-style-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-cheap-white-vinif-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-premium-white-oak-001:
+        credibility: revised
+        sense: revised
+        status: agent-fixed
+        human: pending
+        note: « voient-ils le chêne » → « Comment le chêne intervient-il »
+      bordeaux-premium-white-style-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-sweet-botrytis-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-sweet-oak-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-rivers-001:
+        credibility: pass
+        sense: pass
+        status: agent-pass
+        human: pending
+      bordeaux-left-areas-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-edm-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-right-districts-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-aoc-count-001:
+        credibility: revised
+        sense: revised
+        status: agent-fixed
+        human: pending
+        note: « tiennent dans » → « compte »
+      bordeaux-class-estates-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-1855-why-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-cru-classe-term-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-1855-medoc-ranks-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-1855-sauternes-ranks-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-first-growths-001:
+        credibility: pass
+        sense: pass
+        status: agent-pass
+        human: pending
+      bordeaux-yquem-001:
+        credibility: pass
+        sense: pass
+        status: agent-pass
+        human: pending
+      bordeaux-cru-bourgeois-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-graves-class-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-graves-no-ranks-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-st-em-grand-cru-aoc-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-st-em-class-exists-001:
+        credibility: pass
+        sense: pass
+        status: agent-pass
+        human: pending
+      bordeaux-st-em-gcc-001:
+        credibility: pass
+        sense: pass
+        status: agent-pass
+        human: pending
+      bordeaux-st-em-pgcc-001:
+        credibility: pass
+        sense: pass
+        status: agent-pass
+        human: pending
+      bordeaux-st-em-review-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-generic-aocs-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-superieur-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-white-rose-labels-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-generic-improve-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-generic-best-style-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-generic-cheap-style-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-rose-style-001:
+        credibility: revised
+        sense: revised
+        status: agent-fixed
+        human: pending
+        note: « Dans quel registre attendre » → « attend-on »
+      bordeaux-clairet-market-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-clairet-style-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-generic-white-sb-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-city-site-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-bas-medoc-name-001:
+        credibility: pass
+        sense: pass
+        status: agent-pass
+        human: pending
+      bordeaux-medoc-aoc-label-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-medoc-aoc-soil-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-medoc-aoc-blend-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-haut-medoc-north-001:
+        credibility: pass
+        sense: pass
+        status: agent-pass
+        human: pending
+      bordeaux-communes-word-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+        note: AVA / Einzellage / DOCG → crus classés / bourgeois / satellites
+      bordeaux-four-communes-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-commune-cs-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-commune-style-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-pessac-where-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-pessac-soil-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-pessac-grape-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-pessac-vs-hm-001:
+        credibility: revised
+        sense: revised
+        status: agent-fixed
+        human: pending
+        note: « se tiennent-ils face au » → « se comparent-ils »
+      bordeaux-graves-vs-pessac-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-rb-merlot-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-rb-franc-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-st-em-larger-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-st-em-three-zones-001:
+        credibility: revised
+        sense: revised
+        status: agent-fixed
+        human: pending
+        note: « cadres de vignoble » → « types de terroir »
+      bordeaux-st-em-plateau-001:
+        credibility: revised
+        sense: revised
+        status: agent-fixed
+        human: pending
+        note: « se tiennent » → « se situent »
+      bordeaux-st-em-cote-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-st-em-prestige-zones-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-st-em-prestige-style-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-st-em-plain-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-pomerol-style-001:
+        credibility: revised
+        sense: revised
+        status: agent-fixed
+        human: pending
+        note: « se tiennent-ils face à » → « se comparent-ils à »
+      bordeaux-garage-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-garagiste-term-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-rb-satellites-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-cotes-name-001:
+        credibility: pass
+        sense: pass
+        status: agent-pass
+        human: pending
+      bordeaux-cotes-four-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-cotes-style-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-cotes-bourg-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-edm-white-only-001:
+        credibility: pass
+        sense: pass
+        status: agent-pass
+        human: pending
+      bordeaux-edm-red-label-001:
+        credibility: pass
+        sense: pass
+        status: agent-pass
+        human: pending
+      bordeaux-graves-colours-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-graves-edm-white-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-best-dry-white-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-white-cru-classe-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-pessac-blanc-style-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-pessac-blanc-oak-note-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-medoc-sauternes-white-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-sweet-rivers-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-botrytis-mist-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-passerillage-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-best-sweet-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-sauternes-bank-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-barsac-where-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-barsac-label-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-semillon-botrytis-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-sauternes-style-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+      bordeaux-sweet-satellites-001:
+        credibility: revised
+        sense: pass
+        status: agent-fixed
+        human: pending
+
+# Chapitres pas encore passés sur ces deux barres (ajouter `cards:`
+# quand une vague FR + qualité démarre).
+  c01-sat: { file: cards/c01-sat.yaml, status: pending }
+  c12-france-introduction: { file: cards/c12-france-introduction.yaml, status: pending }
+  c14-south-west: { file: cards/c14-south-west.yaml, status: pending }
+  c15-burgundy: { file: cards/c15-burgundy.yaml, status: pending }
+  c16-beaujolais: { file: cards/c16-beaujolais.yaml, status: pending }
+  c17-alsace: { file: cards/c17-alsace.yaml, status: pending }
+  c18-loire: { file: cards/c18-loire.yaml, status: pending }
+  c19-northern-rhone: { file: cards/c19-northern-rhone.yaml, status: pending }
+  c20-southern-rhone: { file: cards/c20-southern-rhone.yaml, status: pending }
+  c21-southern-france: { file: cards/c21-southern-france.yaml, status: pending }
+  c22-germany: { file: cards/c22-germany.yaml, status: pending }
+  c23-austria: { file: cards/c23-austria.yaml, status: pending }
+  c25-greece: { file: cards/c25-greece.yaml, status: pending }
+  c26-italy-introduction: { file: cards/c26-italy-introduction.yaml, status: pending }
+  c32-usa-introduction: { file: cards/c32-usa-introduction.yaml, status: pending }
