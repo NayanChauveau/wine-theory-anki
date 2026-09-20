@@ -291,6 +291,9 @@ Why as if they were written in French first.
   such as « Il l’allonge », leftover English, « unique et convenue »).
   Culinary calque: a grape does not *assaisonner* a blend — write
   *cépage d’appoint* / *entrer en appoint*.
+  *graves* (lowercase) are the pebbles / that soil; *Graves* is the AOC.
+  Never *un taux de graves*. Say *les graves*, *un sol de graves*,
+  *terroir de graves*, *sol graveleux* — not *sols de graves*.
 - Why names the **French** keyed text and answers the question the FR stem
   actually asks.
 - Register: vous, wine French (*cépages*, *élevage*, *pourriture noble*),
