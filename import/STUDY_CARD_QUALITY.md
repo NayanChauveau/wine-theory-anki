@@ -23,7 +23,7 @@ est [quality-review.yaml](quality-review.yaml).
 | **ISOLATION** | La carte se tient toute seule ? | « cette variation », « ce mélange », « those sites » |
 | **CREDIBILITY** | Un WSET 3 hésite-t-il vraiment ? | Carmenère vs Merlot ; Alpes ; Chablis en Bordeaux |
 | **LENGTH** | Un coup d’œil à la longueur donne-t-il la réponse ? | Clé de 20 mots, trois leurres de 4 mots |
-| **WHY** | L’explication apporte-t-elle autre chose ? | Recopiage de la bonne réponse en gras |
+| **WHY** | L’explication apporte-t-elle autre chose ? | Why = seulement la clé recopiée, à chaque carte |
 | **SENSE** | Le français veut-il dire quelque chose ? | Calque, mot qui ne se dit pas en vin |
 
 Réécrire **`en:` et `fr:` ensemble**. Même nombre de choix, **même index**
@@ -76,15 +76,15 @@ ou la seule phrase détaillée.
 
 ## 4. Why (explication)
 
-Ne **pas** recoller la bonne réponse. L’étudiant vient de la lire.
+Ne pas **systématiquement** recoller la bonne réponse. Ce n’est **pas**
+interdit de la nommer.
 
+- Échec : Why = la clé recopiée (souvent en gras), carte après carte.
+- OK : dire **Pinot Noir** dans le Why d’une carte Pinot. Le mot n’est
+  pas tabou. Mieux : mécanisme + le nom, pas le nom tout seul.
 - Soit un fait **en plus** : mécanisme, exemple nommé, exception.
-- Soit un Why **court**. Un Why long n’existe que pour enseigner ce que
-  le choix n’a pas déjà dit.
+- Soit un Why **court** s’il n’y a rien à ajouter.
 - Jamais « option B » / « la réponse B ».
-- Un nom de cépage ou d’AOC peut apparaître s’il sert un **fait nouveau**
-  (« Le Merlot couvre plus de la moitié du vignoble »). Pas si le Why
-  est juste le mot-clé relâché.
 - Ne pas greffer le fait d’une **carte voisine**. Une carte pourriture
   (septembre humide) n’explique pas par la grêle.
 
@@ -140,7 +140,8 @@ Ce n’est PAS un fact-check. Relis fr: et les choix en: alignés.
 2. CREDIBILITY — leurres pickables, même classe, même cadre.
    Échec blague / impossible même si le fait est vrai.
 3. LENGTH — la clé n’est pas visiblement la plus longue.
-4. WHY — pas de recopiage de la clé. Fait en plus ou Why court.
+4. WHY — pas de recopiage systématique. Nommer la clé est OK.
+   Fait en plus, ou Why court. Jamais « option B ».
 5. SENSE — le français veut-il dire quelque chose ? Calques, mots
    qui ne se disent pas en vin : voir import/STUDY_CARD_QUALITY.md.
 

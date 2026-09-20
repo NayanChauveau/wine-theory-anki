@@ -20,7 +20,7 @@ Source notes live in `import/inbox/` (gitignored raw extract). Published cards l
 - Prefer `known-fact` / `spec` / `aoc-site`. Never textbook page numbers.
 - Update `import/progress.yaml` in place (`done` / `split` / `rejected`). Do not rewrite the whole ledger via `ProgressStore.save()`.
 - After `make check`: commit the lot (`import(c15): reviewed c15-0001–0020`). Do not commit `.apkg`.
-- Plausible WSET distractors: same class, same frame, no joke / physically impossible foils. A Level 3 candidate who half-knows the chapter should hesitate. The keyed choice must not be the obvious longest. Why must not recopy the keyed choice — complementary fact or keep it short. Never “option B”.
+- Plausible WSET distractors: same class, same frame, no joke / physically impossible foils. A Level 3 candidate who half-knows the chapter should hesitate. The keyed choice must not be the obvious longest. Do not systematically recopy the keyed choice in Why — complementary fact or keep it short; naming the answer is fine. Never “option B”.
 - Chapter quality pass (isolation, foils, length, Why, FR sense):
   [import/STUDY_CARD_QUALITY.md](../../import/STUDY_CARD_QUALITY.md).
   Track in [import/quality-review.yaml](../../import/quality-review.yaml).

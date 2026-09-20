@@ -16,7 +16,7 @@ Quality pass on a whole chapter (foils, length, Why, French sense, isolated stem
 ## Card design
 
 - Prefer a single, exam-style **MCQ** with one correct answer and a short **Why** explanation.
-- Why must **not** restate the keyed choice. The student just saw it. Use that space for a complementary fact (mechanism, example, exception) or keep Why short. Never “option B” — choice order may change later.
+- Do not **systematically** recopy the keyed choice into Why. Naming it (Pinot Noir) is fine if Why also teaches something (mechanism, example, exception). A Why that is only the keyed word, card after card, fails. Never “option B” — choice order may change later.
 - Keep the question stem focused on one idea. Avoid double-barrelled “which is true AND why” items.
 - Wrong choices must be **credible**. Same class as the key (grape vs grape, AOC vs AOC, climate label vs climate label) and inside the stem’s frame. A Level 3 candidate who half-remembers the chapter should hesitate. Cartoon or physically impossible foils fail even when the keyed fact is right (polar winter on the Gironde, seawater irrigation, Alps, apple as a legal grape, Chablis as a Bordeaux address, Cognac, “pour it down the drain”). If three foils are joke-easy, the card does not test the fact.
 - **Choice length** must not give the answer away. The keyed choice must not be the obvious longest or the only detailed sentence. Prefer a short key and put the extra clause in Why; or write foils of the same class at a similar length. A glance at the block should not pick the winner.
@@ -41,7 +41,7 @@ Quality pass on a whole chapter (foils, length, Why, French sense, isolated stem
 - **Sense first.** Read the French stem, choices, and Why as if they were written in French. If a native speaker would say the sentence does not mean anything, recast it — a word-for-word calque that “matches” English is still a fail.
 - Preserve meaning and exam register, not English word order. Use wine French (*cépages*, *élevage*, *pourriture noble*), not *variétés de raisins*, unless that is the teaching point.
 - Keep wine names, appellations, and grape varieties in their usual form (Saint-Émilion, Cabernet Sauvignon).
-- Why must answer the question the French stem actually asks. Do not open by recopying the French keyed choice.
+- Why must answer the question the French stem actually asks. Do not open every Why by recopying the keyed choice; naming it is fine.
 - Same choice count and the same correct index as `en:`. When you rewrite a foil for credibility, change **both** languages.
 - If you change the English fact, update the French block in the same PR.
 

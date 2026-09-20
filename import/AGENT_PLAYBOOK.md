@@ -68,8 +68,8 @@ Rules: CONTENT_GUIDELINES.md, AGENTS.md, .cursor/rules/import.mdc, import/AGENT_
 - type: mcq, exactly one correct. Quote YAML questions that contain `:`.
   Quote choice text that contains a comma.
 - Original stem ≠ inbox front. No WSET/SAT/inbox/exam/chapter in student text.
-- Why must not restate the keyed choice. Complementary fact or keep it
-  short. Never “option B”.
+- Do not systematically recopy the keyed choice in Why. Naming it is
+  fine. Complementary fact or keep it short. Never “option B”.
 - CREDIBILITY: wrong choices must look like answers a Level 3 candidate
   might pick. Same class and same frame as the key. No cartoon /
   physically impossible foils (see “Study-card quality”).
@@ -100,7 +100,7 @@ Rubric (fail-closed):
 - no anaphor (“those old vines”, “after that pick”)
 - no double-barrel
 - no tautology / leaked key in the stem
-- Why does not restate the keyed choice (complementary fact or short)
+- Why is not only a recopy of the keyed choice (name it if useful)
 - one correct
 - same-category distractors (no category giveaway)
 - CREDIBILITY: foils a Level 3 candidate might actually pick; same
@@ -312,17 +312,13 @@ should not reveal the winner.
 
 ### Why (explanation)
 
-Do not recopy the keyed choice. The student just read it.
+Do not systematically recopy the keyed choice. Naming it is allowed.
 
-- Fail a Why that opens by repeating the answer, then maybe adds a
-  second sentence. Drop the restatement; keep the extra fact.
-- If there is nothing extra to say, keep Why **short**. A long Why
-  exists to teach something the choice did not already say
-  (mechanism, named example, exception).
+- Fail a Why that is **only** the answer recopied, card after card.
+  “Pinot Noir” in a Pinot Why is fine if the sentence also teaches
+  something (mechanism, named example, exception).
+- If there is nothing extra to say, keep Why **short**.
 - Never “option B” / « la réponse B ».
-- A grape or place name may appear if the sentence is new information
-  (“Merlot covers more than half the vineyard”), not if Why is just
-  the keyed word again.
 
 ### French sense
 
@@ -338,8 +334,8 @@ Why as if they were written in French first.
   *graves* (lowercase) are the pebbles / that soil; *Graves* is the AOC.
   Never *un taux de graves*. Say *les graves*, *un sol de graves*,
   *terroir de graves*, *sol graveleux* — not *sols de graves*.
-- Why answers the question the FR stem actually asks. Do not open by
-  recopying the French keyed choice.
+- Why answers the question the FR stem actually asks. Do not open
+  every Why by recopying the keyed choice; naming it is fine.
 - Register: vous, wine French (*cépages*, *élevage*, *pourriture noble*),
   no tutoiement, no *variétés de raisins* unless that is the teaching point.
 - Do not invent AOCs or twist a name to force a calque.
@@ -365,8 +361,9 @@ locked.
 - Keep grape and place names in their usual form (Saint-Émilion, Riesling,
   Spätburgunder). Use the FR deck labels from `templates/ui/decks.yaml` only
   in Anki UI, not as a licence to invent terms.
-- Why must answer the question the FR stem actually asks. Do not recopy
-  the keyed choice. Never « la réponse B ».
+- Why must answer the question the FR stem actually asks. Do not
+  systematically recopy the keyed choice; naming it is fine. Never
+  « la réponse B ».
 - CREDIBILITY travels with the translation: if EN foils are joke-easy,
   rewrite **both** languages in this lot (same correct index). Do not
   ship a faithful translation of “polar winter” / “apple grape”.
@@ -391,7 +388,7 @@ Add fr: on ids <first>–<last> (max 40). Same id, same correct index.
 Read import/STUDY_CARD_QUALITY.md and import/AGENT_PLAYBOOK.md Phase 2.
 
 - Sense first: French must mean something. Recast calques.
-- Why does not recopy the French keyed choice. Complementary or short.
+- Why is not only a recopy of the French keyed choice. Naming it is fine.
 - If a wrong choice is a joke / impossible, rewrite that foil in en:
   AND fr: (do not change the fact or the correct index).
 - Wine French, vous, usual grape/place names.
@@ -434,8 +431,9 @@ in this lot.
    different question.
 3. LENGTH — the keyed choice must not be the obvious longest / the only
    detailed sentence. Fail the “glance at length” tell.
-4. WHY — fail a restatement of the keyed choice. Complementary fact or
-   keep it short. Never « la réponse B ».
+4. WHY — fail a Why that is only the keyed choice recopied. Naming
+   the answer is fine. Complementary fact or keep it short. Never
+   « la réponse B ».
 
 Also fail: leaked English, tutoiement, invented AOCs, wrong correct index.
 
@@ -459,8 +457,8 @@ c32. Then the long ones (c22, c13, c27, c30) in 40-card slices.
 - Call `ProgressStore.save()`.
 - Invent `USA::New York` or other missing deck keys.
 - Put New York cards under `USA::Pacific Northwest`.
-- Mention “option B”, inbox, or the textbook in Why. Do not recopy the
-  keyed choice in Why.
+- Mention “option B”, inbox, or the textbook in Why. Do not make every
+  Why a recopy of the keyed choice; naming the answer is fine.
 - Ship joke / physically impossible distractors, a keyed choice that is
   obviously the longest, or a French sentence that does not mean anything,
   just because the English fact is right.

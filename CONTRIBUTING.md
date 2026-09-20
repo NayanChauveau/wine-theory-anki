@@ -58,7 +58,7 @@ Example:
 
 Edit the `fr:` block of an existing English card. Do not create a second id. If the English is finished but you cannot translate yet, set `status: needs-translation` and omit `fr:`.
 
-The French must **make sense** as French, not only match the English word for word. Wrong choices must stay **credible** in both languages (same class, no cartoon impossibles). The keyed choice must not be the obvious longest. Why must not recopy the answer. Chapter quality brief: [import/STUDY_CARD_QUALITY.md](import/STUDY_CARD_QUALITY.md).
+The French must **make sense** as French, not only match the English word for word. Wrong choices must stay **credible** in both languages (same class, no cartoon impossibles). The keyed choice must not be the obvious longest. Do not systematically recopy the answer in Why; naming it is fine. Chapter quality brief: [import/STUDY_CARD_QUALITY.md](import/STUDY_CARD_QUALITY.md).
 
 ## Pull requests
 
