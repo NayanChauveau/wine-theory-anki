@@ -9,3 +9,7 @@ The source `.apkg` and the raw Front/Back extract are **not** published.
 
 Agents continuing the English conversion: read [AGENT_PLAYBOOK.md](AGENT_PLAYBOOK.md)
 (parent + parallel writers/critics). Card policy: `.cursor/rules/import.mdc`.
+
+Study-card bar (EN and FR): same-class **credible** distractors — no cartoon
+impossibles — and French that **makes sense**, not a calque. Details in the
+playbook section “Study-card quality”.

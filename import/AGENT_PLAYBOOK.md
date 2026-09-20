@@ -63,6 +63,9 @@ Rules: CONTENT_GUIDELINES.md, AGENTS.md, .cursor/rules/import.mdc, import/AGENT_
   Quote choice text that contains a comma.
 - Original stem ≠ inbox front. No WSET/SAT/inbox/exam/chapter in student text.
 - Why names the keyed answer text, never “option B”.
+- CREDIBILITY: wrong choices must look like answers a Level 3 candidate
+  might pick. Same class and same frame as the key. No cartoon /
+  physically impossible foils (see “Study-card quality”).
 - status: draft. review.fact_check: pass (or unsure). sources: known-fact / spec / aoc-site.
 - deck: <English key from import_map.py / decks.yaml>. Do not invent keys.
 - Split two-part notes and long lists (same source_id on each card).
@@ -91,13 +94,15 @@ Rubric (fail-closed):
 - Why names keyed text
 - one correct
 - same-category distractors (no category giveaway)
+- CREDIBILITY: foils a Level 3 candidate might actually pick; same
+  geography/frame; no joke / physically impossible options
 - no WSET/SAT/inbox/exam/chapter
 - do not clone a reviewed card already in the file
 
 Return EXACTLY:
 ACCEPT_ALL=yes|no
 ACCEPT: [ids]
-REVISE: id — one-line fix
+REVISE: id — CREDIBILITY or other — one-line fix
 HOLD: id — reason
 SKIP_OK: source_id if a card should not exist
 ```
@@ -162,6 +167,12 @@ Current HOLDs (do not “fix” without a new checkable source):
 - Anaphors that need the previous card.
 - Stem already names the key (“above the fog” → hillside; “late-ripening” in the stem).
 - Category giveaway (three lakes + one terrace; “which crossing” with only Müller-Thurgau live).
+- Joke / impossible distractors: tropical monsoon, polar winter, January ice,
+  Alps, glass roof, seawater irrigation, plastic bags, Roman amphorae, apple
+  as a legal grape, 2000 m / permafrost, rain made illegal, Chablis / Tokaj /
+  Champagne as a Bordeaux address, Cognac distillation, “pour it down the
+  drain”. Same-class nearby foils instead (other temperate climates, other
+  Bordeaux grapes / AOCs / communes).
 - Because-clause as the keyed choice when the stem asks for a noun.
 - Cloning a reviewed card (`spain-tempranillo-lead-001` vs another “what grape dominates Ribera”).
 - Out-of-set distractors (Rutherford among Carneros / Willamette).
@@ -244,6 +255,42 @@ idle. Then c35 / c45 (small, closable) and c39 / c36 / c30-tail.
 If the human says **pause**, finish in-flight lots (critic → commit) and stop
 launching new writers. Dirty drafts from an unfinished critic stay uncommitted.
 
+## Study-card quality (EN and FR)
+
+These two passes are **not** fact-check. A true keyed choice can still fail.
+
+### Distractor credibility
+
+Wrong choices must look like answers a WSET 3 candidate might pick.
+
+- Same **class** as the key: grape vs grape, AOC vs AOC, commune vs commune,
+  climate label vs climate label, winemaking step vs winemaking step.
+- Same **geography / frame** as the stem. A Bordeaux climate question gets
+  other temperate labels (cool maritime, continental, Mediterranean), not
+  “tropical monsoon” or “polar winter”.
+- Fail cartoon or physically impossible foils: Alps, glass roofs, January
+  ice, seawater irrigation, plastic bags, Roman amphorae, apple as a legal
+  grape, 2000 m / permafrost, rain made illegal, Chablis / Tokaj / Champagne
+  as a Bordeaux address, Cognac distillation, “pour it down the drain”.
+- Fail if three foils are joke-easy: the student never has to know the fact.
+- When you rewrite a foil, change **both** `en:` and `fr:` and keep the same
+  correct index.
+
+### French sense
+
+A `fr:` block is a second authoring pass. Read the stem, each choice, and
+Why as if they were written in French first.
+
+- Fail if a native speaker would say the sentence does not mean anything,
+  even when every word is a valid translation.
+- Fail English syntax in French clothes (calque word order, a lost subject
+  such as « Il l’allonge », leftover English, « unique et convenue »).
+- Why names the **French** keyed text and answers the question the FR stem
+  actually asks.
+- Register: vous, wine French (*cépages*, *élevage*, *pourriture noble*),
+  no tutoiement, no *variétés de raisins* unless that is the teaching point.
+- Do not invent AOCs or twist a name to force a calque.
+
 ## Phase 2 — French (after EN pending is 0)
 
 Snapshot 2026-09-19: **~2094** `reviewed` cards, **0** `fr:` blocks. A good
@@ -258,20 +305,49 @@ locked.
 
 - Same file, same `id`, new `fr:` block. Never a second card.
 - Same choice **count** and the **same correct index** as `en:`.
+- **Sense first.** Read the French stem out loud. If it does not mean
+  anything, recast — a calque that maps every English word still fails.
 - Original French: meaning, register, and exam tone — not a word-for-word
   English calque and not WSET textbook French.
 - Keep grape and place names in their usual form (Saint-Émilion, Riesling,
   Spätburgunder). Use the FR deck labels from `templates/ui/decks.yaml` only
   in Anki UI, not as a licence to invent terms.
-- Why must name the **French** answer text, never « la réponse B ».
+- Why must name the **French** answer text, never « la réponse B », and
+  must answer the question the FR stem actually asks.
+- CREDIBILITY travels with the translation: if EN foils are joke-easy,
+  rewrite **both** languages in this lot (same correct index). Do not
+  ship a faithful translation of “polar winter” / “apple grape”.
 - Quote YAML `:` questions and comma choices, same as EN.
 - Do not change the English fact in a translation lot. If EN is wrong, stop
   and fix EN in its own commit first.
 
 ### Roles
 
-Same as EN. Translators edit only `fr:` in one `cards/cNN-*.yaml`. Critics are
-read-only. Parent runs `make check` and commits:
+Same as EN. Translators edit `fr:` in one `cards/cNN-*.yaml` (and `en:`
+choices only when a foil is a joke — same correct index). Critics are
+read-only. Parent runs `make check` and commits.
+
+Translator brief (paste):
+
+```
+You are a FR translator. Repo: <root>
+Edit ONLY cards/<file>.yaml. Do NOT touch import/progress.yaml. Do NOT commit.
+
+Add fr: on ids <first>–<last> (max 40). Same id, same correct index.
+
+Read import/AGENT_PLAYBOOK.md “Study-card quality” and Phase 2.
+
+- Sense first: French must mean something. Recast calques.
+- Why names the French keyed text.
+- If a wrong choice is a joke / impossible, rewrite that foil in en:
+  AND fr: (do not change the fact or the correct index).
+- Wine French, vous, usual grape/place names.
+- Quote YAML : questions and comma choices.
+
+RETURN: ids translated; foils rewritten for credibility; sense recasts.
+```
+
+Then:
 
 `i18n(c22): fr for reviewed Germany cards`
 
@@ -289,9 +365,28 @@ lands. Default in this repo is to leave `reviewed` and add `fr:` in place.
 - One chapter file per translator. **≤ 40 cards** per lot (FR critic is
   slower than EN fact-check).
 - 6–8 translators per wave, never two on the same file.
-- Critic rubric: calque / anglicism, leaked English leftovers, wrong correct
-  index, informal tutoiement, invented AOC names, Why that does not name the
-  FR key, category-giveaway that appeared only in French.
+- FR critic is **not** a fact-check. Paste this rubric:
+
+```
+You are a FR critic (read-only). Do NOT edit. Do NOT commit.
+
+This is NOT a fact-check. Re-read fr: (and aligned en: choices) for ids
+in this lot.
+
+1. CREDIBILITY — wrong choices must look pickable to a WSET 3 student.
+   Same class, same frame. Fail cartoon / impossible foils even if the
+   keyed fact is true. If EN is the joke, flag both languages.
+2. SENSE — would a native speaker say this French means something?
+   Fail calques, lost subjects, empty sentences, Why that names the
+   wrong text or answers a different question.
+
+Also fail: leaked English, tutoiement, invented AOCs, wrong correct index.
+
+Return EXACTLY:
+ACCEPT_ALL=yes|no
+REVISE: id — CREDIBILITY or SENSE — one-line fix
+```
+
 - Prefer native wine French: *cépages*, *élevage*, *pourriture noble*,
   *vendange tardive* — not “grape varieties” calqued as *variétés de raisins*
   unless that is what the card is teaching.
@@ -308,4 +403,6 @@ c32. Then the long ones (c22, c13, c27, c30) in 40-card slices.
 - Invent `USA::New York` or other missing deck keys.
 - Put New York cards under `USA::Pacific Northwest`.
 - Mention “option B”, inbox, or the textbook in Why.
+- Ship joke / physically impossible distractors, or a French sentence that
+  does not mean anything, just because the English fact is right.
 - Push unless the human asks.

@@ -23,6 +23,8 @@ YAML in `cards/` is the source of truth. `wset3-anki` builds `.apkg` files with 
 - Translate in the same file, same `id`, under `fr:`. Do not duplicate a card for French.
 - Explanations name the **answer text**, never “option B”.
 - Prefer `type: mcq` with exactly one correct choice. `basic` and `cloze` are allowed.
+- MCQ foils must be same-class and **plausible** to a Level 3 candidate. Joke or physically impossible distractors fail even if the keyed fact is right. Fix `en:` and `fr:` together so the correct index stays aligned.
+- `fr:` is a second authoring pass: the French must **make sense**, not only map each English word. Recast calques and empty sentences.
 - New facts start as `status: draft`. After an adversarial critic `accept`, set `status: reviewed`. Release builds omit drafts unless `--include-drafts`.
 - After any change: `make check` (or `uv run wset3-anki check`).
 - After changing `schema.py`: `uv run wset3-anki schema` and commit `schema/cards.schema.json`.

@@ -19,6 +19,7 @@ Source notes live in `import/inbox/` (gitignored raw extract). Published cards l
 - Prefer `known-fact` / `spec` / `aoc-site`. Never textbook page numbers.
 - Update `import/progress.yaml` in place (`done` / `split` / `rejected`). Do not rewrite the whole ledger via `ProgressStore.save()`.
 - After `make check`: commit the lot (`import(c15): reviewed c15-0001–0020`). Do not commit `.apkg`.
-- Plausible WSET distractors. Explanation names the **answer text**.
+- Plausible WSET distractors: same class, same frame, no joke / physically impossible foils. A Level 3 candidate who half-knows the chapter should hesitate. Explanation names the **answer text**.
+- French lots: critic **sense** (does the sentence mean anything?) and **credibility**, not only calque-spotting. See [import/AGENT_PLAYBOOK.md](../../import/AGENT_PLAYBOOK.md).
 
 Checklist: opened the source note; fact-checked against wine knowledge; 1 correct choice; original wording; ledger; `make check`; commit.
