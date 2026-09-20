@@ -17,7 +17,7 @@ cards:
       choices:
         - { text: "Cool maritime throughout, like the Loire estuary", correct: false }
         - { text: "Cool continental in the north, a notch warmer in the south", correct: true }
-        - { text: "Mediterranean from Chablis through to Mâcon", correct: false }
+        - { text: "Cool continental in Chablis, Mediterranean in the Mâconnais", correct: false }
         - { text: "The same cool continental label everywhere", correct: false }
       explanation: |
         **Chablis** is the cold pole. The **Côte d’Or** and especially the
@@ -27,7 +27,7 @@ cards:
       choices:
         - { text: "Maritime frais partout, comme l’estuaire de la Loire", correct: false }
         - { text: "Continental frais au nord, un cran plus tempéré au sud", correct: true }
-        - { text: "Méditerranéen de Chablis jusqu’au Mâcon", correct: false }
+        - { text: "Continental frais à Chablis, méditerranéen dans le Mâconnais", correct: false }
         - { text: "La même étiquette continentale fraîche partout", correct: false }
       explanation: |
         **Chablis** est le pôle froid. La **Côte d’Or** et surtout le
@@ -46,20 +46,20 @@ cards:
     en:
       question: When does rain most often spoil a Burgundy crop?
       choices:
-        - { text: "Only in mid-winter, when the vines are dormant", correct: false }
+        - { text: "Only at budburst, in spring", correct: false }
         - { text: "At flowering, and again around harvest", correct: true }
-        - { text: "Only during a dry August heatwave", correct: false }
-        - { text: "Only after the wine is already in barrel", correct: false }
+        - { text: "Only at véraison, in mid-summer", correct: false }
+        - { text: "Only at harvest, never at flowering", correct: false }
       explanation: |
         A wet **June** hits fruit set (coulure). A wet **September** hits
         pick and feeds rot. **2013** is the named wet, late harvest.
     fr:
       question: Quand la pluie gâche-t-elle le plus souvent une récolte bourguignonne ?
       choices:
-        - { text: "Seulement en plein hiver, quand la vigne dort", correct: false }
+        - { text: "Seulement au débourrement, au printemps", correct: false }
         - { text: "À la floraison, puis de nouveau vers la vendange", correct: true }
-        - { text: "Seulement lors d’une canicule d’août sèche", correct: false }
-        - { text: "Seulement une fois le vin déjà en fût", correct: false }
+        - { text: "Seulement à la véraison, en plein été", correct: false }
+        - { text: "Seulement à la vendange, jamais à la fleur", correct: false }
       explanation: |
         Un **juin** humide touche la nouaison (coulure). Un **septembre**
         humide gâche la vendange et nourrit la pourriture. **2013** est
@@ -82,8 +82,9 @@ cards:
         - { text: "Chardonnay", correct: false }
         - { text: "Gamay", correct: false }
       explanation: |
-        Tight bunches and thin skins. **Chardonnay** can rot too; Pinot
-        is still the first grape growers worry about after hail.
+        Rain sits between the berries; **grey rot** follows. Chardonnay
+        can rot too, but the tight-cluster, thin-skin pair is the Côte
+        red’s classic wet-September weakness.
     fr:
       question: "Grappes serrées et peaux fines : quel cépage de la Côte pourrit facilement un septembre humide ?"
       choices:
@@ -92,8 +93,10 @@ cards:
         - { text: "Chardonnay", correct: false }
         - { text: "Gamay", correct: false }
       explanation: |
-        Grappes serrées, peaux fines. Le **Chardonnay** peut pourrir
-        aussi ; le Pinot reste le premier souci après la grêle.
+        L’eau reste coincée entre les baies ; la **pourriture grise**
+        suit. Le Chardonnay peut pourrir aussi, mais le couple grappe
+        serrée / peau fine est le souci classique du rouge de Côte un
+        septembre humide.
 
   - id: burgundy-chablis-frost-001
     type: mcq
@@ -107,10 +110,10 @@ cards:
     en:
       question: Which hazard is Chablis more famous for than the Côte d’Or?
       choices:
-        - { text: "Summer drought", correct: false }
+        - { text: "Hail", correct: false }
         - { text: "Spring frost", correct: true }
-        - { text: "Hail on the Côte de Nuits only", correct: false }
-        - { text: "Autumn noble rot", correct: false }
+        - { text: "A wet harvest", correct: false }
+        - { text: "Coulure at flowering", correct: false }
       explanation: |
         Further **north**, and in a frost pocket. Smudge pots, cables and
         aspersion are the local toolkit. The Côte d’Or still froze in
@@ -118,10 +121,10 @@ cards:
     fr:
       question: Pour quel aléa Chablis est-il plus connu que la Côte d’Or ?
       choices:
-        - { text: "La sécheresse d’été", correct: false }
+        - { text: "La grêle", correct: false }
         - { text: "Le gel de printemps", correct: true }
-        - { text: "La grêle, seulement en Côte de Nuits", correct: false }
-        - { text: "La pourriture noble d’automne", correct: false }
+        - { text: "Une vendange pluvieuse", correct: false }
+        - { text: "La coulure à la fleur", correct: false }
       explanation: |
         Plus au **nord**, et dans une poche de gel. Braseros, câbles et
         aspersion sont la boîte à outils locale. La Côte d’Or a quand
@@ -140,20 +143,20 @@ cards:
     en:
       question: Into which month can a Chablis frost still kill new shoots?
       choices:
-        - { text: "April", correct: false }
+        - { text: "March", correct: false }
         - { text: "May", correct: true }
+        - { text: "April", correct: false }
         - { text: "June", correct: false }
-        - { text: "July", correct: false }
       explanation: |
         Budburst is early; a late-spring hit is still on the calendar.
         **2021** struck in April; that is why aspersion stays up.
     fr:
       question: Jusqu’à quel mois un gel à Chablis peut-il encore tuer les jeunes pousses ?
       choices:
-        - { text: "Avril", correct: false }
+        - { text: "Mars", correct: false }
         - { text: "Mai", correct: true }
+        - { text: "Avril", correct: false }
         - { text: "Juin", correct: false }
-        - { text: "Juillet", correct: false }
       explanation: |
         Le débourrement est précoce ; un coup de fin de printemps reste
         possible. **2021** a frappé en avril ; voilà pourquoi l’aspersion
@@ -173,8 +176,8 @@ cards:
       choices:
         - { text: "A long drought", correct: false }
         - { text: "Hail", correct: true }
-        - { text: "Coulure at flowering only", correct: false }
-        - { text: "A heatwave that never breaks", correct: false }
+        - { text: "Sunburn on exposed bunches", correct: false }
+        - { text: "Persistent rain without ice", correct: false }
       explanation: |
         Storms track along the Côte. **2012–2014** battered Volnay and
         Meursault; nets and anti-hail cannon are now part of the landscape.
@@ -183,8 +186,8 @@ cards:
       choices:
         - { text: "Une longue sécheresse", correct: false }
         - { text: "La grêle", correct: true }
-        - { text: "La coulure à la floraison seulement", correct: false }
-        - { text: "Une canicule qui ne lâche pas", correct: false }
+        - { text: "L’échaudage des grappes exposées", correct: false }
+        - { text: "Une pluie persistante, sans glace", correct: false }
       explanation: |
         Les orages suivent la Côte. **2012–2014** ont tapé Volnay et
         Meursault ; filets et canons anti-grêle font désormais partie

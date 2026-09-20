@@ -56,6 +56,13 @@ Les fausses réponses doivent être **pickables** : même classe, même cadre.
   à l’eau de mer, pomme comme cépage légal, Chablis / Champagne / Tokaj
   comme adresse du chapitre, Cognac, « tout jeter à l’égout ».
 - Échec si le candidat n’a pas besoin de connaître le fait pour éliminer.
+- **Leurre trop évident dans le cadre de la question.** On demande
+  *quand la pluie gâche la récolte* : « lors d’une canicule sèche »,
+  « une fois le vin déjà en fût », « en plein hiver, vigne dormante »
+  se jettent sans savoir le fait. Tous les leurres doivent être des
+  **moments / lieux / cépages où cet aléa pourrait vraiment poser
+  problème**. Une demi-vraie (seulement à la fleur / seulement à la
+  vendange) est meilleure qu’une contradiction avec le stem.
 
 ## 3. Longueur des choix
 
@@ -78,6 +85,8 @@ Ne **pas** recoller la bonne réponse. L’étudiant vient de la lire.
 - Un nom de cépage ou d’AOC peut apparaître s’il sert un **fait nouveau**
   (« Le Merlot couvre plus de la moitié du vignoble »). Pas si le Why
   est juste le mot-clé relâché.
+- Ne pas greffer le fait d’une **carte voisine**. Une carte pourriture
+  (septembre humide) n’explique pas par la grêle.
 
 ## 5. Sens français
 
