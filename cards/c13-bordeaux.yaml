@@ -478,7 +478,7 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Why does that mix of varieties actually work?
+      question: Why does a Merlot–Cabernet mix actually work in Bordeaux?
       choices:
         - { text: "They all flower and ripen together", correct: false }
         - { text: "They flower and ripen on different clocks, so one bad week rarely kills the whole harvest", correct: true }
@@ -488,7 +488,7 @@ cards:
         **Merlot** flowers and ripens first; **Cabernet Sauvignon** last.
         A May storm or an October downpour usually hits one, not both.
     fr:
-      question: Pourquoi ce mélange de cépages fonctionne-t-il vraiment ?
+      question: Pourquoi un assemblage Merlot–Cabernet fonctionne-t-il vraiment à Bordeaux ?
       choices:
         - { text: "Ils mûrissent tous ensemble", correct: false }
         - { text: "Ils fleurissent et mûrissent selon des calendriers différents, si bien qu’une mauvaise semaine tue rarement toute la récolte", correct: true }
@@ -840,21 +840,25 @@ cards:
       choices:
         - { text: "Petit Verdot", correct: false }
         - { text: "Merlot", correct: true }
-        - { text: "Carmenère", correct: false }
+        - { text: "Cabernet Sauvignon", correct: false }
         - { text: "Cabernet Franc", correct: false }
       explanation: |
-        **Merlot** is more than half the vineyard. It ripens earlier, so it
-        is the safer plant on clay and in generic Bordeaux AOC.
+        **Merlot** is more than half the vineyard. Cabernet Sauvignon is
+        second, then Cabernet Franc; none of them overtake Merlot. It
+        ripens earlier, so it is the safer plant on clay and in generic
+        Bordeaux AOC.
     fr:
       question: Quel cépage noir occupe plus d’hectares à Bordeaux que tout autre ?
       choices:
         - { text: "Petit Verdot", correct: false }
         - { text: "Merlot", correct: true }
-        - { text: "Carmenère", correct: false }
+        - { text: "Cabernet Sauvignon", correct: false }
         - { text: "Cabernet Franc", correct: false }
       explanation: |
-        Le **Merlot** couvre plus de la moitié du vignoble. Plus précoce, il
-        est le plant plus sûr sur l’argile et en AOC Bordeaux générique.
+        Le **Merlot** couvre plus de la moitié du vignoble. Le Cabernet
+        Sauvignon est deuxième, puis le Cabernet Franc ; aucun ne dépasse
+        le Merlot. Plus précoce, il est le plant plus sûr sur l’argile et
+        en AOC Bordeaux générique.
 
   - id: bordeaux-merlot-premium-001
     type: mcq
