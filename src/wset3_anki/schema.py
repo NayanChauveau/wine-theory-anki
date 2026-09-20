@@ -44,7 +44,10 @@ class McqContent(StrictModel):
     choices: list[Choice] = Field(min_length=2, max_length=10)
     explanation: str = Field(
         min_length=1,
-        description="Why the answer is correct. Name the answer text, never a letter.",
+        description=(
+            "Why the answer is correct. Complementary fact, "
+            "not a restatement of the keyed choice. Never a letter."
+        ),
     )
 
     @model_validator(mode="after")

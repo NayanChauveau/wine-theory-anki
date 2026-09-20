@@ -68,7 +68,8 @@ Rules: CONTENT_GUIDELINES.md, AGENTS.md, .cursor/rules/import.mdc, import/AGENT_
 - type: mcq, exactly one correct. Quote YAML questions that contain `:`.
   Quote choice text that contains a comma.
 - Original stem ≠ inbox front. No WSET/SAT/inbox/exam/chapter in student text.
-- Why names the keyed answer text, never “option B”.
+- Why must not restate the keyed choice. Complementary fact or keep it
+  short. Never “option B”.
 - CREDIBILITY: wrong choices must look like answers a Level 3 candidate
   might pick. Same class and same frame as the key. No cartoon /
   physically impossible foils (see “Study-card quality”).
@@ -99,7 +100,7 @@ Rubric (fail-closed):
 - no anaphor (“those old vines”, “after that pick”)
 - no double-barrel
 - no tautology / leaked key in the stem
-- Why names keyed text
+- Why does not restate the keyed choice (complementary fact or short)
 - one correct
 - same-category distractors (no category giveaway)
 - CREDIBILITY: foils a Level 3 candidate might actually pick; same
@@ -111,7 +112,7 @@ Rubric (fail-closed):
 Return EXACTLY:
 ACCEPT_ALL=yes|no
 ACCEPT: [ids]
-REVISE: id — CREDIBILITY or other — one-line fix
+REVISE: id — CREDIBILITY, LENGTH, WHY or other — one-line fix
 HOLD: id — reason
 SKIP_OK: source_id if a card should not exist
 ```
@@ -305,6 +306,20 @@ should not reveal the winner.
   key beside three 4-word foils is not.
 - Rewrite **both** `en:` and `fr:` and keep the same correct index.
 
+### Why (explanation)
+
+Do not recopy the keyed choice. The student just read it.
+
+- Fail a Why that opens by repeating the answer, then maybe adds a
+  second sentence. Drop the restatement; keep the extra fact.
+- If there is nothing extra to say, keep Why **short**. A long Why
+  exists to teach something the choice did not already say
+  (mechanism, named example, exception).
+- Never “option B” / « la réponse B ».
+- A grape or place name may appear if the sentence is new information
+  (“Merlot covers more than half the vineyard”), not if Why is just
+  the keyed word again.
+
 ### French sense
 
 A `fr:` block is a second authoring pass. Read the stem, each choice, and
@@ -319,8 +334,8 @@ Why as if they were written in French first.
   *graves* (lowercase) are the pebbles / that soil; *Graves* is the AOC.
   Never *un taux de graves*. Say *les graves*, *un sol de graves*,
   *terroir de graves*, *sol graveleux* — not *sols de graves*.
-- Why names the **French** keyed text and answers the question the FR stem
-  actually asks.
+- Why answers the question the FR stem actually asks. Do not open by
+  recopying the French keyed choice.
 - Register: vous, wine French (*cépages*, *élevage*, *pourriture noble*),
   no tutoiement, no *variétés de raisins* unless that is the teaching point.
 - Do not invent AOCs or twist a name to force a calque.
@@ -346,8 +361,8 @@ locked.
 - Keep grape and place names in their usual form (Saint-Émilion, Riesling,
   Spätburgunder). Use the FR deck labels from `templates/ui/decks.yaml` only
   in Anki UI, not as a licence to invent terms.
-- Why must name the **French** answer text, never « la réponse B », and
-  must answer the question the FR stem actually asks.
+- Why must answer the question the FR stem actually asks. Do not recopy
+  the keyed choice. Never « la réponse B ».
 - CREDIBILITY travels with the translation: if EN foils are joke-easy,
   rewrite **both** languages in this lot (same correct index). Do not
   ship a faithful translation of “polar winter” / “apple grape”.
@@ -372,7 +387,7 @@ Add fr: on ids <first>–<last> (max 40). Same id, same correct index.
 Read import/AGENT_PLAYBOOK.md “Study-card quality” and Phase 2.
 
 - Sense first: French must mean something. Recast calques.
-- Why names the French keyed text.
+- Why does not recopy the French keyed choice. Complementary or short.
 - If a wrong choice is a joke / impossible, rewrite that foil in en:
   AND fr: (do not change the fact or the correct index).
 - Wine French, vous, usual grape/place names.
@@ -411,16 +426,18 @@ in this lot.
    Same class, same frame. Fail cartoon / impossible foils even if the
    keyed fact is true. If EN is the joke, flag both languages.
 2. SENSE — would a native speaker say this French means something?
-   Fail calques, lost subjects, empty sentences, Why that names the
-   wrong text or answers a different question.
+   Fail calques, lost subjects, empty sentences, Why that answers a
+   different question.
 3. LENGTH — the keyed choice must not be the obvious longest / the only
    detailed sentence. Fail the “glance at length” tell.
+4. WHY — fail a restatement of the keyed choice. Complementary fact or
+   keep it short. Never « la réponse B ».
 
 Also fail: leaked English, tutoiement, invented AOCs, wrong correct index.
 
 Return EXACTLY:
 ACCEPT_ALL=yes|no
-REVISE: id — CREDIBILITY or SENSE — one-line fix
+REVISE: id — CREDIBILITY, SENSE, LENGTH or WHY — one-line fix
 ```
 
 - Prefer native wine French: *cépages*, *élevage*, *pourriture noble*,
@@ -438,7 +455,8 @@ c32. Then the long ones (c22, c13, c27, c30) in 40-card slices.
 - Call `ProgressStore.save()`.
 - Invent `USA::New York` or other missing deck keys.
 - Put New York cards under `USA::Pacific Northwest`.
-- Mention “option B”, inbox, or the textbook in Why.
+- Mention “option B”, inbox, or the textbook in Why. Do not recopy the
+  keyed choice in Why.
 - Ship joke / physically impossible distractors, a keyed choice that is
   obviously the longest, or a French sentence that does not mean anything,
   just because the English fact is right.

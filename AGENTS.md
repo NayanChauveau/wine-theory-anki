@@ -21,7 +21,7 @@ YAML in `cards/` is the source of truth. `wset3-anki` builds `.apkg` files with 
 - `deck:` keys stay in English (`SAT`, `France::Burgundy`). Display names come from `templates/ui/decks.yaml` (`WSET 3 Wine` / `WSET 3 VIN`, Bourgogne, ASD, …).
 - One YAML file per source chapter (`c16-beaujolais.yaml`). Append cards there; do not create one file per card.
 - Translate in the same file, same `id`, under `fr:`. Do not duplicate a card for French.
-- Explanations name the **answer text**, never “option B”.
+- Explanations must **not** restate the keyed choice. Complementary fact or keep Why short. Never “option B”.
 - Prefer `type: mcq` with exactly one correct choice. `basic` and `cloze` are allowed.
 - MCQ foils must be same-class and **plausible** to a Level 3 candidate. Joke or physically impossible distractors fail even if the keyed fact is right. The keyed choice must not be the obvious longest. Fix `en:` and `fr:` together so the correct index stays aligned.
 - `fr:` is a second authoring pass: the French must **make sense**, not only map each English word. Recast calques and empty sentences.
