@@ -21,6 +21,7 @@ from wset3_anki.ids import (
 )
 from wset3_anki.paths import templates_dir
 from wset3_anki.render import (
+    inject_mcq_shuffle,
     load_ui,
     read_template,
     render_choices_back,
@@ -92,8 +93,8 @@ def _mcq_fields(card: McqCard, lang: Lang, ui: dict[str, str]) -> list[str]:
     assert content is not None
     return [
         render_markdown(content.question),
-        render_choices_front(content.choices),
-        render_choices_back(content.choices),
+        render_choices_front(content.choices, card.id),
+        render_choices_back(content.choices, card.id),
         wrap_explanation(render_markdown(content.explanation), ui["explanation"]),
     ]
 
@@ -214,8 +215,17 @@ def load_models(templates: Path) -> dict[str, genanki.Model]:
     mcq_css = read_template(templates, "mcq", "style.css")
     basic_css = read_template(templates, "basic", "style.css")
     cloze_css = read_template(templates, "cloze", "style.css")
-    mcq_front = read_template(templates, "mcq", "front.html")
-    mcq_back = read_template(templates, "mcq", "back.html")
+    shuffle_js = read_template(templates, "mcq", "shuffle.js")
+    mcq_front = inject_mcq_shuffle(
+        read_template(templates, "mcq", "front.html"),
+        shuffle_js,
+        reveal=False,
+    )
+    mcq_back = inject_mcq_shuffle(
+        read_template(templates, "mcq", "back.html"),
+        shuffle_js,
+        reveal=True,
+    )
     basic_front = read_template(templates, "basic", "front.html")
     basic_back = read_template(templates, "basic", "back.html")
     cloze_front = read_template(templates, "cloze", "front.html")

@@ -27,29 +27,40 @@ def escape(text: str) -> str:
     return html.escape(text, quote=True)
 
 
-def render_choices_front(choices: list[Choice]) -> str:
-    items = []
-    for index, choice in enumerate(choices):
-        items.append(
-            '<div class="choice">'
-            f'<span class="letter">{LETTERS[index]}</span>'
-            f'<span class="text">{escape(choice.text)}</span>'
-            "</div>"
-        )
-    return '<div class="choices">' + "".join(items) + "</div>"
+def _choice_div(choice: Choice, index: int, *, kind: str | None = None) -> str:
+    klass = f' class="choice {kind}"' if kind else ' class="choice"'
+    return (
+        f'<div{klass} data-i="{index}">'
+        f'<span class="letter">{LETTERS[index]}</span>'
+        f'<span class="text">{escape(choice.text)}</span>'
+        "</div>"
+    )
 
 
-def render_choices_back(choices: list[Choice]) -> str:
+def render_choices_front(choices: list[Choice], card_id: str = "") -> str:
+    items = [_choice_div(choice, index) for index, choice in enumerate(choices)]
+    return _choices_box(items, card_id)
+
+
+def render_choices_back(choices: list[Choice], card_id: str = "") -> str:
     items = []
     for index, choice in enumerate(choices):
         kind = "correct" if choice.correct else "incorrect"
-        items.append(
-            f'<div class="choice {kind}">'
-            f'<span class="letter">{LETTERS[index]}</span>'
-            f'<span class="text">{escape(choice.text)}</span>'
-            "</div>"
-        )
-    return '<div class="choices">' + "".join(items) + "</div>"
+        items.append(_choice_div(choice, index, kind=kind))
+    return _choices_box(items, card_id)
+
+
+def _choices_box(items: list[str], card_id: str) -> str:
+    attr = f' data-card="{escape(card_id)}"' if card_id else ""
+    return f'<div class="choices"{attr}>' + "".join(items) + "</div>"
+
+
+def inject_mcq_shuffle(template: str, js: str, *, reveal: bool) -> str:
+    if "WSET3_SHUFFLE_JS" not in template:
+        raise ValueError("MCQ template is missing the shuffle placeholder")
+    return template.replace("WSET3_SHUFFLE_JS", js).replace(
+        "WSET3_SHUFFLE_REVEAL", "true" if reveal else "false"
+    )
 
 
 def load_ui(templates: Path, lang: str) -> dict[str, str]:

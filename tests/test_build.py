@@ -3,11 +3,18 @@ from __future__ import annotations
 import zipfile
 from pathlib import Path
 
+import pytest
+
 from tests.conftest import make_mcq
-from wset3_anki.build import build_language, prepare
+from wset3_anki.build import build_language, load_models, prepare
 from wset3_anki.ids import note_guid
 from wset3_anki.load import load_cards
-from wset3_anki.render import render_markdown
+from wset3_anki.render import (
+    inject_mcq_shuffle,
+    render_choices_back,
+    render_choices_front,
+    render_markdown,
+)
 from wset3_anki.schema import Status
 
 
@@ -97,3 +104,32 @@ def test_repo_sample_cards_validate_and_build(
 
 def test_render_markdown_bold() -> None:
     assert "<strong>mouth-watering</strong>" in render_markdown("**mouth-watering**")
+
+
+def test_mcq_choices_carry_stable_indexes() -> None:
+    card = make_mcq()
+    front = render_choices_front(card.en.choices, card.id)
+    back = render_choices_back(card.en.choices, card.id)
+    assert 'data-card="test-card-001"' in front
+    assert 'data-i="0"' in front
+    assert 'data-i="1"' in front
+    assert 'data-i="1"' in back
+    assert "choice correct" in back
+
+
+def test_mcq_templates_shuffle_each_review(templates_dir: Path) -> None:
+    models = load_models(templates_dir)
+    front = models["mcq"].templates[0]["qfmt"]
+    back = models["mcq"].templates[0]["afmt"]
+    assert "wset3ShuffleChoices(false)" in front
+    assert "wset3ShuffleChoices(true)" in back
+    assert "WSET3_SHUFFLE_JS" not in front
+    assert "{{" not in (templates_dir / "mcq" / "shuffle.js").read_text()
+    bilingual_front = models["mcq-bilingual"].templates[0]["qfmt"]
+    assert "wset3ShuffleChoices(false)" in bilingual_front
+    assert "{{Question_EN}}" in bilingual_front
+
+
+def test_inject_mcq_shuffle_requires_placeholder() -> None:
+    with pytest.raises(ValueError, match="shuffle placeholder"):
+        inject_mcq_shuffle("<div></div>", "function wset3ShuffleChoices() {}", reveal=False)
