@@ -289,6 +289,8 @@ Why as if they were written in French first.
   even when every word is a valid translation.
 - Fail English syntax in French clothes (calque word order, a lost subject
   such as « Il l’allonge », leftover English, « unique et convenue »).
+  Culinary calque: a grape does not *assaisonner* a blend — write
+  *cépage d’appoint* / *entrer en appoint*.
 - Why names the **French** keyed text and answers the question the FR stem
   actually asks.
 - Register: vous, wine French (*cépages*, *élevage*, *pourriture noble*),
