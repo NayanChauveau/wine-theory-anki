@@ -8,6 +8,12 @@ and [`.cursor/rules/import.mdc`](../.cursor/rules/import.mdc).
 be original. Student-facing text never mentions inbox, textbook, exam, chapter,
 course, SAT, syllabus, or WSET.
 
+## Source deck
+
+`import/WSET_Level_3_--_NEW.apkg` (gitignored). Inbox is
+`import/inbox/` after `uv run wset3-anki import-extract`. Never search
+`~/Downloads` for the `.apkg`. Do not commit either file.
+
 ## Goal
 
 Convert every **pending English** source note in `import/inbox/` into reviewed

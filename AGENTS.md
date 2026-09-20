@@ -53,7 +53,7 @@ uv run wset3-anki import-status
 | Path | Role |
 | --- | --- |
 | `cards/` | Card source (EN + optional FR) |
-| `import/` | Ledger + gitignored `.apkg` / inbox |
+| `import/` | Ledger + gitignored source `WSET_Level_3_--_NEW.apkg` / inbox |
 | `templates/` | Anki HTML/CSS + UI strings |
 | `src/wset3_anki/` | Validate + build CLI |
 | `tests/` | Schema, GUID, i18n, CLI |

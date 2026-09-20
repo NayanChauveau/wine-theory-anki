@@ -9,6 +9,8 @@ alwaysApply: false
 When continuing the EN import, launching writers/critics, or closing a lot,
 read [import/AGENT_PLAYBOOK.md](../../import/AGENT_PLAYBOOK.md) first.
 
+Source `.apkg`: `import/WSET_Level_3_--_NEW.apkg` (gitignored). Not Downloads.
+
 - Parent only: ledger via `re.subn`, `status: reviewed`, `make check`, one
   commit per chapter-lot. Never `ProgressStore.save()`.
 - Writers: one `cards/cNN-*.yaml` each. No `progress.yaml`. No commit.
