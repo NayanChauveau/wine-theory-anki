@@ -17,6 +17,8 @@ Deck évolutif et traduisible (EN / FR) pour le WSET 3 VIN. Les cartes vivent en
    - `wset3-vin-bilingual.apkg` — one note, two card types (`EN` / `FR`)
 3. To update later, import the new package. Note GUIDs are stable, so Anki **updates** existing cards instead of duplicating them or resetting scheduling.
 
+MCQ cards shuffle their choices each review. Tap a letter to answer; the back marks your pick.
+
 Draft cards are excluded from release builds. Cards without a `fr:` block are omitted from the French package.
 
 ## Build locally

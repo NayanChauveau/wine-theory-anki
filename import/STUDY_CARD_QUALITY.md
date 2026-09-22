@@ -63,6 +63,9 @@ Les fausses réponses doivent être **pickables** : même classe, même cadre.
   **moments / lieux / cépages où cet aléa pourrait vraiment poser
   problème**. Une demi-vraie (seulement à la fleur / seulement à la
   vendange) est meilleure qu’une contradiction avec le stem.
+- Stem *quel champignon* → quatre champignons / pourritures, pas le
+  passerillage ni « la pourriture grise qui ruine toujours ». Le doute
+  doit porter sur noble vs grise vs acide vs oïdium.
 
 ## 3. Longueur des choix
 

@@ -123,6 +123,8 @@ def test_mcq_templates_shuffle_each_review(templates_dir: Path) -> None:
     back = models["mcq"].templates[0]["afmt"]
     assert "wset3ShuffleChoices(false)" in front
     assert "wset3ShuffleChoices(true)" in back
+    assert "wset3Choose(" in front
+    assert "wset3MarkPick(" in back
     assert "WSET3_SHUFFLE_JS" not in front
     assert "{{" not in (templates_dir / "mcq" / "shuffle.js").read_text()
     bilingual_front = models["mcq-bilingual"].templates[0]["qfmt"]

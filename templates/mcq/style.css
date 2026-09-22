@@ -43,6 +43,18 @@
   border: 1px solid #e4d8c4;
 }
 
+.choices.is-live .choice {
+  cursor: pointer;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: rgba(107, 74, 43, 0.25);
+  user-select: none;
+}
+
+.choice.selected {
+  border-color: #6b4a2b;
+  box-shadow: 0 0 0 2px #d4b896;
+}
+
 .choice .letter {
   flex: 0 0 1.6rem;
   width: 1.6rem;
@@ -76,6 +88,17 @@
 
 .choice.incorrect {
   opacity: 0.55;
+}
+
+.choice.miss {
+  opacity: 1;
+  background: #f8e6e4;
+  border-color: #c98986;
+}
+
+.choice.miss .letter {
+  color: #6b1d1d;
+  background: #e8c4c2;
 }
 
 .divider {
@@ -139,6 +162,24 @@
 .night_mode .choice.correct .letter {
   color: #d7f0dc;
   background: #2f5c38;
+}
+
+.nightMode .choice.selected,
+.night_mode .choice.selected {
+  border-color: #e0c49a;
+  box-shadow: 0 0 0 2px #5a4630;
+}
+
+.nightMode .choice.miss,
+.night_mode .choice.miss {
+  background: #3a2220;
+  border-color: #8a4e4a;
+}
+
+.nightMode .choice.miss .letter,
+.night_mode .choice.miss .letter {
+  color: #f3d0ce;
+  background: #6a3532;
 }
 
 .nightMode .divider,

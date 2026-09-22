@@ -1647,25 +1647,26 @@ cards:
     en:
       question: What fungus makes the great sweet wines of Sauternes and Barsac possible?
       choices:
-        - { text: "Only grey rot that always ruins the crop", correct: false }
+        - { text: "Grey rot (Botrytis) on unripe or split fruit", correct: false }
         - { text: "Noble rot (Botrytis cinerea) on ripe grapes", correct: true }
-        - { text: "Mandatory passerillage", correct: false }
-        - { text: "Only late picking, never rot", correct: false }
+        - { text: "Sour rot on damaged bunches", correct: false }
+        - { text: "Powdery mildew (oidium) on the berries", correct: false }
       explanation: |
-        **Botrytis** punches the skins, concentrates sugar and adds honey /
-        saffron. Cheaper sweet Bordeaux may just be late-picked without
-        noble rot.
+        Same fungus as grey rot: **Botrytis** on ripe fruit, misty mornings
+        then dry afternoons. Persistently wet, or unripe berries, and it
+        is grey rot. Cheaper sweet Bordeaux may just be late-picked.
     fr:
       question: Quel champignon rend possibles les grands liquoreux de Sauternes et de Barsac ?
       choices:
-        - { text: "Seulement la pourriture grise, qui ruine toujours la récolte", correct: false }
+        - { text: "La pourriture grise (Botrytis) sur raisins pas mûrs ou fendus", correct: false }
         - { text: "La pourriture noble (Botrytis cinerea) sur raisins mûrs", correct: true }
-        - { text: "Le passerillage obligatoire", correct: false }
-        - { text: "Seulement une vendange tardive, sans pourriture", correct: false }
+        - { text: "La pourriture acide des grappes déjà abîmées", correct: false }
+        - { text: "L’oïdium de fin de saison sur les baies", correct: false }
       explanation: |
-        La **botrytis** perce les peaux, concentre le sucre et ajoute miel /
-        safran. Un liquoreux bordelais moins cher peut n’être que vendangé
-        tard, sans pourriture noble.
+        Même champignon que la pourriture grise : la **botrytis** sur
+        raisins mûrs, brume le matin puis après-midi sec. Trop d’eau, ou
+        baies encore vertes, et c’est de la grise. Un liquoreux bordelais
+        moins cher peut n’être que vendangé tard.
 
   - id: bordeaux-sweet-oak-001
     type: mcq
@@ -2201,33 +2202,35 @@ cards:
   - id: bordeaux-st-em-class-exists-001
     type: mcq
     deck: France::Bordeaux
-    tags: [france, bordeaux, right-bank]
+    tags: [france, bordeaux]
     status: reviewed
     source_id: c13-0066
     review:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Besides the Saint-Émilion Grand Cru AOC, what extra list ranks the leading estates?
+      question: Besides the 1855 list, which other official lists rank Bordeaux’s leading châteaux?
       choices:
-        - { text: "The 1855 Médoc list only", correct: false }
-        - { text: "A revisable classification of châteaux", correct: true }
-        - { text: "A list of négociants in Libourne", correct: false }
-        - { text: "There is no château ranking at all", correct: false }
+        - { text: "Pomerol and Fronsac", correct: false }
+        - { text: "Saint-Émilion and Graves", correct: true }
+        - { text: "Cru Bourgeois only", correct: false }
+        - { text: "The whole Right Bank, already inside 1855", correct: false }
       explanation: |
-        The **classification** sits *inside* the Grand Cru AOC. Pomerol has
-        no equivalent official ladder.
+        1855 ranks Médoc reds (plus Haut-Brion) and Sauternes. Graves has
+        its **1950s** list. Saint-Émilion has a **revisable** château
+        ranking. Pomerol has none. Cru Bourgeois is Médoc **below** 1855.
     fr:
-      question: Outre l’AOC Saint-Émilion Grand Cru, quelle liste supplémentaire classe les domaines de tête ?
+      question: Outre la liste de 1855, quelles autres listes officielles classent les châteaux de tête à Bordeaux ?
       choices:
-        - { text: "Seulement la liste du Médoc de 1855", correct: false }
-        - { text: "Un classement révisable de châteaux", correct: true }
-        - { text: "Une liste de négociants à Libourne", correct: false }
-        - { text: "Il n’existe aucun classement de château", correct: false }
+        - { text: "Pomerol et Fronsac", correct: false }
+        - { text: "Saint-Émilion et les Graves", correct: true }
+        - { text: "Les Crus Bourgeois seulement", correct: false }
+        - { text: "Toute la rive droite, déjà dans 1855", correct: false }
       explanation: |
-        Un **classement révisable** de **grand cru classé** et de
-        **premier grand cru classé** siège *à l’intérieur* de l’AOC
-        Grand Cru. Pomerol n’a pas d’échelle officielle équivalente.
+        1855 range le Médoc (plus Haut-Brion) et les Sauternes. Les Graves
+        ont leur liste des **années 1950**. Saint-Émilion a un classement
+        de châteaux **révisable**. Pomerol n’a pas de liste officielle.
+        Les Crus Bourgeois, c’est le Médoc **sous** 1855.
 
   - id: bordeaux-st-em-gcc-001
     type: mcq
