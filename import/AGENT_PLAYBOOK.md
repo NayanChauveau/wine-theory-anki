@@ -68,6 +68,9 @@ Rules: CONTENT_GUIDELINES.md, AGENTS.md, .cursor/rules/import.mdc, import/AGENT_
 - type: mcq, exactly one correct. Quote YAML questions that contain `:`.
   Quote choice text that contains a comma.
 - Original stem ≠ inbox front. No WSET/SAT/inbox/exam/chapter in student text.
+  One distinction, one class (AOC ≠ liste). Model stem:
+  *Besides the 1855 list, which other official lists rank Bordeaux’s
+  leading châteaux?* See import/STUDY_CARD_QUALITY.md.
 - Do not systematically recopy the keyed choice in Why. Naming it is
   fine. Complementary fact or keep it short. Never “option B”.
 - CREDIBILITY: wrong choices must look like answers a Level 3 candidate

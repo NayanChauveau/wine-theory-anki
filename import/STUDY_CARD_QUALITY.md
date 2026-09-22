@@ -41,6 +41,17 @@ ces » qui renvoie à la carte d’avant.
 
 Nommer le sujet dans la question (cépage, AOC, rive, millésime).
 
+### Bon stem (à imiter)
+
+Une question teste **une** distinction, dans **une** classe. Pas un AOC
+traité comme une liste, pas deux faits collés.
+
+- Mauvais : *Outre l’AOC Saint-Émilion Grand Cru, quelle liste supplémentaire
+  classe les domaines de tête ?* (l’AOC n’est pas une liste)
+- Bon : *Outre la liste de 1855, quelles autres listes officielles classent
+  les châteaux de tête à Bordeaux ?* → Saint-Émilion et les Graves
+  (leurres : Pomerol, Crus Bourgeois, rive droite déjà dans 1855)
+
 ## 2. Crédibilité des leurres
 
 Les fausses réponses doivent être **pickables** : même classe, même cadre.
