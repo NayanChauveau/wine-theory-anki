@@ -2211,26 +2211,27 @@ cards:
     en:
       question: Besides the 1855 list, which other official lists rank Bordeaux’s leading châteaux?
       choices:
-        - { text: "Pomerol and Fronsac", correct: false }
-        - { text: "Saint-Émilion and Graves", correct: true }
-        - { text: "Cru Bourgeois only", correct: false }
-        - { text: "The whole Right Bank, already inside 1855", correct: false }
+        - { text: "A Pomerol classification and a Fronsac list", correct: false }
+        - { text: "The Saint-Émilion and Graves classifications", correct: true }
+        - { text: "The Cru Bourgeois list only", correct: false }
+        - { text: "The Crus Artisans list", correct: false }
       explanation: |
         1855 ranks Médoc reds (plus Haut-Brion) and Sauternes. Graves has
         its **1950s** list. Saint-Émilion has a **revisable** château
-        ranking. Pomerol has none. Cru Bourgeois is Médoc **below** 1855.
+        ranking. Pomerol has none. Cru Bourgeois and Crus Artisans are
+        Médoc **below** 1855.
     fr:
       question: Outre la liste de 1855, quelles autres listes officielles classent les châteaux de tête à Bordeaux ?
       choices:
-        - { text: "Pomerol et Fronsac", correct: false }
-        - { text: "Saint-Émilion et les Graves", correct: true }
-        - { text: "Les Crus Bourgeois seulement", correct: false }
-        - { text: "Toute la rive droite, déjà dans 1855", correct: false }
+        - { text: "Un classement de Pomerol et une liste de Fronsac", correct: false }
+        - { text: "Les classements de Saint-Émilion et des Graves", correct: true }
+        - { text: "La liste des Crus Bourgeois seulement", correct: false }
+        - { text: "La liste des Crus Artisans", correct: false }
       explanation: |
         1855 range le Médoc (plus Haut-Brion) et les Sauternes. Les Graves
         ont leur liste des **années 1950**. Saint-Émilion a un classement
         de châteaux **révisable**. Pomerol n’a pas de liste officielle.
-        Les Crus Bourgeois, c’est le Médoc **sous** 1855.
+        Crus Bourgeois et Crus Artisans, c’est le Médoc **sous** 1855.
 
   - id: bordeaux-st-em-gcc-001
     type: mcq
@@ -2461,26 +2462,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Should a good generic Bordeaux rouge be built for a 30-year cellar?
+      question: What drinking window fits a good generic Bordeaux red?
       choices:
-        - { text: "Yes — it is always led by Petit Verdot", correct: false }
-        - { text: "No — medium body, ripe fruit, drink it young", correct: true }
-        - { text: "Yes — it is always late-harvest and sweet", correct: false }
-        - { text: "Yes — it is built like a Pauillac first growth", correct: false }
+        - { text: "The same week, almost no tannin", correct: false }
+        - { text: "Medium body, ripe fruit, drink it young", correct: true }
+        - { text: "Ten years at least, like a classed growth", correct: false }
+        - { text: "Only after thirty years in bottle", correct: false }
       explanation: |
-        **Drink now**, not a 30-year Latour. A cheap barrique or chip can
-        add a **cedar** hint; that is optional.
+        Not a 30-year Latour. A cheap barrique or chip can add a **cedar**
+        hint; that is optional.
     fr:
-      question: Un bon Bordeaux rouge générique est-il bâti pour une cave de 30 ans ?
+      question: Quelle garde convient à un bon Bordeaux rouge d’AOC régionale ?
       choices:
-        - { text: "Oui — il est toujours mené par le Petit Verdot", correct: false }
-        - { text: "Non — corps moyen, fruit mûr, à boire jeune", correct: true }
-        - { text: "Oui — il est toujours vendangé tard et liquoreux", correct: false }
-        - { text: "Oui — il est bâti comme un premier cru de Pauillac", correct: false }
+        - { text: "Dans la semaine, presque sans tanin", correct: false }
+        - { text: "Corps moyen, fruit mûr, à boire jeune", correct: true }
+        - { text: "Dix ans au moins, comme un cru classé", correct: false }
+        - { text: "Seulement après trente ans en bouteille", correct: false }
       explanation: |
-        **À boire maintenant**, pas un Latour de 30 ans. Une barrique ou
-        un copeau bon marché peut ajouter une pointe de **cèdre** ; c’est
-        facultatif.
+        Ce n’est pas un Latour de 30 ans. Une barrique ou un copeau bon
+        marché peut ajouter une pointe de **cèdre** ; c’est facultatif.
 
   - id: bordeaux-generic-cheap-style-001
     type: mcq

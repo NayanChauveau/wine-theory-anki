@@ -50,7 +50,8 @@ traité comme une liste, pas deux faits collés.
   classe les domaines de tête ?* (l’AOC n’est pas une liste)
 - Bon : *Outre la liste de 1855, quelles autres listes officielles classent
   les châteaux de tête à Bordeaux ?* → Saint-Émilion et les Graves
-  (leurres : Pomerol, Crus Bourgeois, rive droite déjà dans 1855)
+  (leurres = d’autres **listes** : Pomerol/Fronsac, Crus Bourgeois,
+  Crus Artisans — pas « toute la rive droite »)
 
 ## 2. Crédibilité des leurres
 
@@ -80,6 +81,9 @@ Les fausses réponses doivent être **pickables** : même classe, même cadre.
 - Stem *sous quels noms le rosé générique* → d’autres AOC roses /
   régionales réelles (Côtes, Supérieur, Crémant), pas « Médoc Grand Cru »
   ni « Supérieur rouge seulement ».
+- Un oui/non dont tout le monde connaît le non (Bordeaux régional ≠
+  cave de 30 ans) avec trois « Oui » farfelus échoue. Recaster : **quelle
+  garde / quel style**, quatre détails pickables.
 
 ## 3. Longueur des choix
 
@@ -133,6 +137,7 @@ Venus de la passe Bordeaux ; les chercher dans **tout** le chapitre.
 | *Il l’allonge* (sujet perdu) | recaster la phrase entière |
 | *le calendrier est le principe, pas une promesse de calme* | dire ce qui s’est passé (2022 en retard, procès) |
 | *le tour a glissé* (un calendrier) | *a pris du retard*, *a été en retard* |
+| *bâti pour une cave* (un vin) | *quelle garde*, *fait pour être bu jeune* |
 
 Ne pas inventer d’AOC ni tordre un nom pour coller à l’anglais.
 
