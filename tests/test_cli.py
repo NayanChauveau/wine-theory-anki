@@ -13,4 +13,4 @@ def test_cli_build_all(repo_root: Path, tmp_path: Path) -> None:
     assert main(["build", "--root", str(repo_root), "--lang", "all", "--out", str(tmp_path)]) == 0
     assert (tmp_path / "wset3-vin-en.apkg").exists()
     assert (tmp_path / "wset3-vin-fr.apkg").exists()
-    assert (tmp_path / "wset3-vin-bilingual.apkg").exists()
+    assert not (tmp_path / "wset3-vin-bilingual.apkg").exists()

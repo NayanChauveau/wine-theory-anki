@@ -55,9 +55,9 @@ def main(argv: Sequence[str] | None = None) -> int:
     p_build = sub.add_parser("build", help="Generate .apkg packages")
     p_build.add_argument(
         "--lang",
-        choices=("en", "fr", "all", "bilingual"),
+        choices=("en", "fr", "all"),
         default="all",
-        help="Which package(s) to emit",
+        help="Which package(s) to emit (all = English and French)",
     )
     p_build.add_argument("--out", type=Path, default=Path("dist"), help="Output directory")
     p_build.add_argument(
@@ -98,7 +98,7 @@ def main(argv: Sequence[str] | None = None) -> int:
         print(f"{len(cards)} card(s) OK")
         return 0
 
-    languages: list[BuildLang] = ["en", "fr", "bilingual"] if args.lang == "all" else [args.lang]
+    languages: list[BuildLang] = ["en", "fr"] if args.lang == "all" else [args.lang]
 
     out_dir = args.out if args.out.is_absolute() else Path.cwd() / args.out
     for lang in languages:

@@ -64,8 +64,8 @@ The French must **make sense** as French, not only match the English word for wo
 
 - Keep PRs to one chapter when you can.
 - New facts should be `draft` until someone has double-checked them.
-- CI must stay green: schema validation, tests, and a full `en` / `fr` / `bilingual` build.
+- CI must stay green: schema validation, tests, and a full `en` / `fr` build.
 
 ## Releases
 
-Tag `vX.Y.Z`. GitHub Actions attaches `wset3-vin-en.apkg`, `wset3-vin-fr.apkg`, and `wset3-vin-bilingual.apkg`. Importers keep their scheduling because note GUIDs are derived from `id` + language and never change.
+Tag `vX.Y.Z`. GitHub Actions attaches `wset3-vin-en.apkg` and `wset3-vin-fr.apkg`. Importers keep their scheduling because note GUIDs are derived from `id` + language and never change.

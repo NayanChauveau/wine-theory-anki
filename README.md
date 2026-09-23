@@ -12,9 +12,8 @@ Deck évolutif et traduisible (EN / FR) pour le WSET 3 VIN. Les cartes vivent en
 
 1. Download the latest `.apkg` from [GitHub Releases](https://github.com/) (or build it locally).
 2. In Anki: **File → Import** and choose one of:
-   - `wset3-vin-en.apkg` — English only
-   - `wset3-vin-fr.apkg` — French only
-   - `wset3-vin-bilingual.apkg` — one note, two card types (`EN` / `FR`)
+   - `wset3-vin-en.apkg` — English
+   - `wset3-vin-fr.apkg` — French
 3. To update later, import the new package. Note GUIDs are stable, so Anki **updates** existing cards instead of duplicating them or resetting scheduling.
 
 MCQ cards shuffle their choices each review. Tap a letter to answer; the back marks your pick.
@@ -37,11 +36,10 @@ uv run wset3-anki build --lang all --out dist/
 | --- | --- |
 | `wset3-anki build --lang en` | `dist/wset3-vin-en.apkg` |
 | `wset3-anki build --lang fr` | `dist/wset3-vin-fr.apkg` |
-| `wset3-anki build --lang bilingual` | `dist/wset3-vin-bilingual.apkg` |
-| `wset3-anki build --lang all` | all three |
+| `wset3-anki build --lang all` | both |
 | `wset3-anki build --include-drafts` | also emit `status: draft` cards |
 
-Anki deck tree is localized at build time. English: `WSET 3 Wine::France::Bordeaux`. French: `WSET 3 VIN::France::Bordeaux` (and `Bourgogne`, `Allemagne`, `ASD`, … where the name actually changes). The bilingual package uses a neutral `WSET 3` root. Suspend the `EN` or `FR` card type if you only want one language.
+Anki deck tree is localized at build time. English: `WSET 3 Wine::France::Bordeaux`. French: `WSET 3 VIN::France::Bordeaux` (and `Bourgogne`, `Allemagne`, `ASD`, … where the name actually changes).
 
 ## Repository layout
 
