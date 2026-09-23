@@ -2398,24 +2398,26 @@ cards:
     en:
       question: Under which names is generic pink Bordeaux sold?
       choices:
-        - { text: "Only as Pauillac rosé", correct: false }
-        - { text: "Bordeaux Rosé or Bordeaux Clairet", correct: true }
-        - { text: "Only as Médoc Grand Cru", correct: false }
-        - { text: "Bordeaux Supérieur red only", correct: false }
+        - { text: "Pauillac Rosé and Médoc Clairet", correct: false }
+        - { text: "Bordeaux Rosé and Bordeaux Clairet", correct: true }
+        - { text: "Bordeaux Supérieur and Crémant de Bordeaux", correct: false }
+        - { text: "Côtes de Bordeaux and Entre-Deux-Mers", correct: false }
       explanation: |
-        **Bordeaux Rosé** is the pale one; **Clairet** is deeper. Generic
-        dry white is simply labelled **Bordeaux**.
+        **Bordeaux Rosé** is the pale one; **Clairet** is deeper. Médoc
+        communes are red. Supérieur is the stricter regional red or white.
+        Crémant is sparkling.
     fr:
       question: Sous quels noms vend-on le Bordeaux rosé générique ?
       choices:
-        - { text: "Seulement en Pauillac rosé", correct: false }
-        - { text: "Bordeaux Rosé ou Bordeaux Clairet", correct: true }
-        - { text: "Seulement en Médoc Grand Cru", correct: false }
-        - { text: "Bordeaux Supérieur rouge seulement", correct: false }
+        - { text: "Pauillac Rosé et Médoc Clairet", correct: false }
+        - { text: "Bordeaux Rosé et Bordeaux Clairet", correct: true }
+        - { text: "Bordeaux Supérieur et Crémant de Bordeaux", correct: false }
+        - { text: "Côtes de Bordeaux et Entre-Deux-Mers", correct: false }
       explanation: |
         Le **Bordeaux Rosé** est le plus pâle ; le **Clairet** est plus
-        soutenu. Le blanc sec générique s’étiquette simplement
-        **Bordeaux**.
+        soutenu. Les communales du Médoc sont des rouges. Le Supérieur
+        est le régional plus strict, rouge ou blanc. Le Crémant est
+        effervescent.
 
   - id: bordeaux-generic-improve-001
     type: mcq

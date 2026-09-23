@@ -77,6 +77,9 @@ Les fausses réponses doivent être **pickables** : même classe, même cadre.
 - Stem *quel champignon* → quatre champignons / pourritures, pas le
   passerillage ni « la pourriture grise qui ruine toujours ». Le doute
   doit porter sur noble vs grise vs acide vs oïdium.
+- Stem *sous quels noms le rosé générique* → d’autres AOC roses /
+  régionales réelles (Côtes, Supérieur, Crémant), pas « Médoc Grand Cru »
+  ni « Supérieur rouge seulement ».
 
 ## 3. Longueur des choix
 
