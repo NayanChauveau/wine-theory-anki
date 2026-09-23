@@ -131,6 +131,8 @@ Venus de la passe Bordeaux ; les chercher dans **tout** le chapitre.
 | *s’il verse à la vendange* | *s’il pleut fort à la vendange* |
 | *mélange de cépages* (le vin) | *assemblage* |
 | *Il l’allonge* (sujet perdu) | recaster la phrase entière |
+| *le calendrier est le principe, pas une promesse de calme* | dire ce qui s’est passé (2022 en retard, procès) |
+| *le tour a glissé* (un calendrier) | *a pris du retard*, *a été en retard* |
 
 Ne pas inventer d’AOC ni tordre un nom pour coller à l’anglais.
 
