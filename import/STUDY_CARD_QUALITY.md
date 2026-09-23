@@ -138,6 +138,7 @@ Venus de la passe Bordeaux ; les chercher dans **tout** le chapitre.
 | *le calendrier est le principe, pas une promesse de calme* | dire ce qui s’est passé (2022 en retard, procès) |
 | *le tour a glissé* (un calendrier) | *a pris du retard*, *a été en retard* |
 | *bâti pour une cave* (un vin) | *quelle garde*, *fait pour être bu jeune* |
+| *on ne réduira pas chaque blanc à l’herbe* | exception concrète (Pessac, Sémillon, bois) |
 
 Ne pas inventer d’AOC ni tordre un nom pour coller à l’anglais.
 
