@@ -41,6 +41,16 @@ ces » qui renvoie à la carte d’avant.
 
 Nommer le sujet dans la question (cépage, AOC, rive, millésime).
 
+**La clé ne doit pas être dans le stem.** Une exception, un « hormis… »,
+ou un adjectif qui prévisualise le bon choix (« exceptions denses »,
+« plus légers », « seulement… ») donne la réponse avant les choix.
+
+- Mauvais : *Hormis quelques exceptions denses (Haut-Brion), comment les
+  rouges de Pessac se comparent-ils d’habitude au Haut-Médoc ?*
+- Bon : *Comment les rouges de Pessac-Léognan se comparent-ils d’habitude
+  aux rouges du Haut-Médoc ?* → exception Haut-Brion / La Mission dans
+  le Why seulement
+
 ### Bon stem (à imiter)
 
 Une question teste **une** distinction, dans **une** classe. Pas un AOC
