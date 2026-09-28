@@ -109,7 +109,7 @@ chapters:
         sense: revised
         status: agent-fixed
         human: pending
-        note: "cette variation" n’avait pas d’antécédent (carte autonome)
+        note: « cette variation » n’avait pas d’antécédent (carte autonome)
       bordeaux-canopy-health-001:
         credibility: revised
         sense: revised
@@ -772,93 +772,132 @@ chapters:
   c14-south-west: { file: cards/c14-south-west.yaml, status: pending }
   c15-burgundy:
     file: cards/c15-burgundy.yaml
-    status: in-progress
+    status: awaiting-human
+    agent_wave: 2026-09-28
+    counts:
+      cards: 113
+      agent_fixed: 109
+      agent_pass: 4
+      human_ok: 0
     note: >
-      Lot test 10 premières cartes (c15-0001–0010) : qualité + fr:.
-      Reste du chapitre encore pending.
+      Passe complète des 113 cartes. Leurres hors cadre remplacés, stems
+      ambigus recadrés et chiffres de hiérarchie actualisés. Les 10
+      premières cartes ont une version française relue ; les 103 suivantes
+      restent à traduire.
     cards:
-      burgundy-climate-split-001:
-        isolation: pass
-        credibility: revised
-        length: revised
-        why: pass
-        sense: revised
-        status: agent-fixed
-        human: pending
-      burgundy-rain-timing-001:
-        isolation: pass
-        credibility: revised
-        length: revised
-        why: pass
-        sense: revised
-        status: agent-fixed
-        human: pending
-        note: leurres = autres fenêtres phéno (débourrement / véraison / vendange seule)
-      burgundy-pinot-rot-001:
-        isolation: pass
-        credibility: revised
-        length: pass
-        why: revised
-        sense: revised
-        status: agent-fixed
-        human: pending
-        note: Why = Pinot + pourriture grise (nommer la clé OK)
-      burgundy-chablis-frost-001:
-        isolation: pass
-        credibility: revised
-        length: pass
-        why: pass
-        sense: revised
-        status: agent-fixed
-        human: pending
-      burgundy-frost-may-001:
-        isolation: pass
-        credibility: revised
-        length: pass
-        why: revised
-        sense: revised
-        status: agent-fixed
-        human: pending
-      burgundy-hail-001:
-        isolation: pass
-        credibility: revised
-        length: pass
-        why: revised
-        sense: revised
-        status: agent-fixed
-        human: pending
-      burgundy-village-sites-001:
-        isolation: pass
-        credibility: revised
-        length: pass
-        why: pass
-        sense: revised
-        status: agent-fixed
-        human: pending
-      burgundy-cru-midslope-001:
-        isolation: pass
-        credibility: revised
-        length: pass
-        why: revised
-        sense: revised
-        status: agent-fixed
-        human: pending
-      burgundy-midslope-frost-001:
-        isolation: pass
-        credibility: revised
-        length: revised
-        why: pass
-        sense: revised
-        status: agent-fixed
-        human: pending
-      burgundy-aspect-001:
-        isolation: pass
-        credibility: revised
-        length: pass
-        why: pass
-        sense: revised
-        status: agent-fixed
-        human: pending
+      burgundy-climate-split-001: { isolation: pass, credibility: revised, length: pass, why: pass, sense: revised, status: agent-fixed, human: pending }
+      burgundy-rain-timing-001: { isolation: pass, credibility: revised, length: revised, why: pass, sense: revised, status: agent-fixed, human: pending }
+      burgundy-pinot-rot-001: { isolation: pass, credibility: revised, length: pass, why: pass, sense: revised, status: agent-fixed, human: pending }
+      burgundy-chablis-frost-001: { isolation: pass, credibility: revised, length: pass, why: pass, sense: revised, status: agent-fixed, human: pending }
+      burgundy-frost-may-001: { isolation: pass, credibility: revised, length: pass, why: pass, sense: revised, status: agent-fixed, human: pending }
+      burgundy-hail-001: { isolation: pass, credibility: revised, length: pass, why: pass, sense: revised, status: agent-fixed, human: pending }
+      burgundy-village-sites-001: { isolation: revised, credibility: revised, length: revised, why: pass, sense: revised, status: agent-fixed, human: pending }
+      burgundy-cru-midslope-001: { isolation: pass, credibility: revised, length: revised, why: pass, sense: revised, status: agent-fixed, human: pending }
+      burgundy-midslope-frost-001: { isolation: pass, credibility: revised, length: pass, why: pass, sense: revised, status: agent-fixed, human: pending }
+      burgundy-aspect-001: { isolation: pass, credibility: revised, length: pass, why: pass, sense: revised, status: agent-fixed, human: pending }
+      burgundy-westerlies-001: { isolation: pass, credibility: revised, length: revised, why: pass, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-soils-varied-001: { isolation: pass, credibility: revised, length: revised, why: pass, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-faults-001: { isolation: pass, credibility: revised, length: revised, why: pass, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-soil-style-001: { isolation: pass, credibility: revised, length: revised, why: pass, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-hillside-soil-001: { isolation: pass, credibility: revised, length: revised, why: pass, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-plain-soil-001: { isolation: pass, credibility: revised, length: revised, why: pass, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-four-grapes-001: { isolation: revised, credibility: revised, length: revised, why: pass, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-pinot-share-001: { isolation: pass, credibility: revised, length: revised, why: pass, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-pinot-where-001: { isolation: revised, credibility: revised, length: revised, why: pass, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-pinot-fruit-001: { isolation: pass, credibility: revised, length: revised, why: pass, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-pinot-structure-001: { isolation: revised, credibility: revised, length: revised, why: pass, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-whole-bunch-001: { isolation: pass, credibility: revised, length: revised, why: pass, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-pinot-elevage-001: { isolation: pass, credibility: revised, length: revised, why: pass, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-pinot-oak-001: { isolation: pass, credibility: revised, length: revised, why: pass, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-chard-share-001: { isolation: revised, credibility: pass, length: pass, why: revised, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-chard-gradient-001: { isolation: pass, credibility: revised, length: revised, why: pass, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-chard-model-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pending-translation, status: agent-pass, human: pending }
+      burgundy-chard-four-tech-001: { isolation: revised, credibility: revised, length: revised, why: pass, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-chard-oak-debate-001: { isolation: pass, credibility: revised, length: revised, why: pass, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-chard-age-001: { isolation: pass, credibility: revised, length: revised, why: pass, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-premox-001: { isolation: pass, credibility: revised, length: revised, why: pass, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-premox-cause-001: { isolation: pass, credibility: revised, length: revised, why: pass, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-aligote-001: { isolation: revised, credibility: revised, length: revised, why: pass, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-aligote-quality-001: { isolation: revised, credibility: revised, length: revised, why: pass, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-aligote-sites-001: { isolation: revised, credibility: revised, length: revised, why: pass, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-gamay-style-001: { isolation: pass, credibility: revised, length: revised, why: pass, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-gamay-aoc-001: { isolation: pass, credibility: revised, length: revised, why: pass, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-chablis-where-001: { isolation: pass, credibility: revised, length: revised, why: pass, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-chablis-aspect-001: { isolation: pass, credibility: revised, length: revised, why: pass, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-petit-chablis-001: { isolation: pass, credibility: revised, length: revised, why: pass, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-chablis-frost-again-001: { isolation: pass, credibility: revised, length: revised, why: pass, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-chablis-frost-kit-001: { isolation: pass, credibility: revised, length: revised, why: pass, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-chablis-grape-001: { isolation: revised, credibility: revised, length: revised, why: pass, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-chablis-village-aspect-001: { isolation: revised, credibility: revised, length: revised, why: pass, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-chablis-cru-aspect-001: { isolation: revised, credibility: revised, length: revised, why: pass, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-chablis-village-style-001: { isolation: revised, credibility: revised, length: revised, why: pass, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-chablis-cru-style-001: { isolation: revised, credibility: revised, length: revised, why: pass, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-chablis-oak-who-001: { isolation: pass, credibility: revised, length: revised, why: pass, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-chablis-oak-effect-001: { isolation: pass, credibility: revised, length: revised, why: pass, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-chablis-steel-001: { isolation: pass, credibility: revised, length: revised, why: pass, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-massif-west-001: { isolation: pass, credibility: revised, length: revised, why: pass, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-cote-aspect-hills-001: { isolation: pass, credibility: revised, length: revised, why: pass, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-nuits-pinot-001: { isolation: revised, credibility: revised, length: revised, why: pass, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-beaune-chard-001: { isolation: revised, credibility: revised, length: revised, why: pass, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-beaune-red-001: { isolation: pass, credibility: revised, length: revised, why: pass, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-red-gc-nuits-001: { isolation: pass, credibility: revised, length: revised, why: pass, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-white-gc-beaune-001: { isolation: pass, credibility: revised, length: revised, why: pass, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-nuits-villages-ns-001: { isolation: pass, credibility: revised, length: revised, why: pass, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-nsg-no-gc-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pending-translation, status: agent-pass, human: pending }
+      burgundy-beaune-ns-001: { isolation: pass, credibility: revised, length: revised, why: pass, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-corton-pair-001: { isolation: pass, credibility: revised, length: revised, why: pass, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-beaune-colours-001: { isolation: pass, credibility: revised, length: revised, why: pass, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-white-trio-001: { isolation: pass, credibility: revised, length: revised, why: pass, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-cdnv-001: { isolation: pass, credibility: revised, length: revised, why: pass, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-cdb-villages-001: { isolation: pass, credibility: revised, length: revised, why: pass, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-hautes-cotes-001: { isolation: pass, credibility: revised, length: revised, why: pass, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-chalonnaise-where-001: { isolation: pass, credibility: revised, length: revised, why: pass, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-chalonnaise-grapes-001: { isolation: pass, credibility: revised, length: revised, why: pass, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-chalonnaise-ripen-001: { isolation: pass, credibility: revised, length: revised, why: pass, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-chalonnaise-aspect-001: { isolation: pass, credibility: revised, length: revised, why: pass, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-chalonnaise-villages-001: { isolation: revised, credibility: revised, length: revised, why: pass, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-rully-001: { isolation: pass, credibility: revised, length: revised, why: pass, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-mercurey-001: { isolation: pass, credibility: revised, length: revised, why: pass, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-givry-001: { isolation: pass, credibility: revised, length: revised, why: pass, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-montagny-001: { isolation: pass, credibility: revised, length: revised, why: pass, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-chalonnaise-crus-001: { isolation: pass, credibility: revised, length: revised, why: revised, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-chalonnaise-regional-001: { isolation: revised, credibility: revised, length: revised, why: pass, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-macon-chard-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pending-translation, status: agent-pass, human: pending }
+      burgundy-macon-red-grape-001: { isolation: revised, credibility: revised, length: revised, why: pass, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-macon-aoc-001: { isolation: pass, credibility: revised, length: revised, why: pass, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-macon-colours-001: { isolation: pass, credibility: revised, length: revised, why: pass, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-macon-white-style-001: { isolation: pass, credibility: revised, length: revised, why: pass, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-macon-red-style-001: { isolation: revised, credibility: revised, length: revised, why: pass, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-macon-villages-001: { isolation: revised, credibility: revised, length: revised, why: pass, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-lugny-001: { isolation: pass, credibility: revised, length: revised, why: pass, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-pf-sv-001: { isolation: pass, credibility: revised, length: revised, why: pass, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-pf-style-001: { isolation: revised, credibility: revised, length: revised, why: pass, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-solutre-site-001: { isolation: revised, credibility: revised, length: revised, why: pass, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-solutre-amphitheatre-001: { isolation: pass, credibility: revised, length: revised, why: pass, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-solutre-oak-001: { isolation: pass, credibility: revised, length: revised, why: pass, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-hierarchy-basis-001: { isolation: pass, credibility: revised, length: revised, why: pass, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-regional-floor-001: { isolation: revised, credibility: revised, length: revised, why: pass, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-regional-source-001: { isolation: pass, credibility: revised, length: revised, why: pass, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-declass-why-001: { isolation: pass, credibility: revised, length: revised, why: pass, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-bourgogne-grapes-001: { isolation: pass, credibility: revised, length: revised, why: pass, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-restricted-regional-001: { isolation: revised, credibility: revised, length: revised, why: pass, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-commune-rank-001: { isolation: revised, credibility: revised, length: revised, why: pass, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-commune-examples-001: { isolation: pass, credibility: revised, length: revised, why: pass, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-commune-share-001: { isolation: pass, credibility: revised, length: revised, why: revised, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-lieu-dit-001: { isolation: pass, credibility: revised, length: revised, why: pass, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-village-word-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pending-translation, status: agent-pass, human: pending }
+      burgundy-above-village-001: { isolation: revised, credibility: revised, length: revised, why: pass, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-cru-meaning-001: { isolation: pass, credibility: revised, length: revised, why: pass, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-monopole-001: { isolation: pass, credibility: revised, length: revised, why: pass, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-parcelles-001: { isolation: pass, credibility: revised, length: revised, why: pass, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-premier-count-001: { isolation: revised, credibility: revised, length: revised, why: revised, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-premier-share-001: { isolation: pass, credibility: revised, length: revised, why: revised, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-premier-name-001: { isolation: pass, credibility: revised, length: revised, why: pass, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-premier-blend-001: { isolation: pass, credibility: revised, length: revised, why: pass, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-gc-top-001: { isolation: pass, credibility: revised, length: revised, why: pass, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-gc-share-001: { isolation: pass, credibility: revised, length: revised, why: revised, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-gc-count-001: { isolation: revised, credibility: revised, length: revised, why: revised, sense: pending-translation, status: agent-fixed, human: pending }
+      burgundy-gc-label-001: { isolation: pass, credibility: revised, length: revised, why: pass, sense: pending-translation, status: agent-fixed, human: pending }
   c16-beaujolais: { file: cards/c16-beaujolais.yaml, status: pending }
   c17-alsace: { file: cards/c17-alsace.yaml, status: pending }
   c18-loire: { file: cards/c18-loire.yaml, status: pending }

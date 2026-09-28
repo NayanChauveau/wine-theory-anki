@@ -30,6 +30,27 @@ make check
 uv run wset3-anki build --lang all --out dist/
 ```
 
+### Build, import and sync in one command
+
+Install the **AnkiConnect** add-on once in Anki Desktop with code
+`2055492159`, then restart Anki. After that:
+
+```bash
+make push
+```
+
+This builds the French package, opens Anki Desktop if needed, imports the
+`.apkg`, and synchronizes the collection with AnkiWeb. To push another language:
+
+```bash
+make push ANKI_LANG=en
+make push ANKI_LANG=all
+```
+
+Anki Desktop must already be connected to the intended AnkiWeb account. The
+command talks only to AnkiConnect on `127.0.0.1` by default. For a custom
+endpoint or API key, set `ANKI_CONNECT_URL` or `ANKI_CONNECT_KEY`.
+
 `make check` is the quality gate (Ruff + types + YAML schema + tests), the Python equivalent of ESLint + TypeScript + Prettier.
 
 | Command | Result |
@@ -38,6 +59,7 @@ uv run wset3-anki build --lang all --out dist/
 | `wset3-anki build --lang fr` | `dist/wset3-vin-fr.apkg` |
 | `wset3-anki build --lang all` | both |
 | `wset3-anki build --include-drafts` | also emit `status: draft` cards |
+| `wset3-anki push --lang fr` | build, import into Anki Desktop, sync AnkiWeb |
 
 Anki deck tree is localized at build time. English: `WSET 3 Wine::France::Bordeaux`. French: `WSET 3 VIN::France::Bordeaux` (and `Bourgogne`, `Allemagne`, `ASD`, … where the name actually changes).
 

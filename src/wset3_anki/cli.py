@@ -6,6 +6,7 @@ import sys
 from collections.abc import Sequence
 from pathlib import Path
 
+from wset3_anki.anki_connect import AnkiConnectError, push_packages
 from wset3_anki.build import BuildLang, build_language
 from wset3_anki.import_extract import default_apkg_path, run_extract
 from wset3_anki.import_progress import ProgressStore
@@ -67,6 +68,40 @@ def main(argv: Sequence[str] | None = None) -> int:
     )
     _add_root_cards(p_build)
 
+    p_push = sub.add_parser(
+        "push",
+        help="Build, import into Anki Desktop, then sync with AnkiWeb",
+    )
+    p_push.add_argument(
+        "--lang",
+        choices=("en", "fr", "all"),
+        default="fr",
+        help="Which package(s) to build and import (default: fr)",
+    )
+    p_push.add_argument("--out", type=Path, default=Path("dist"), help="Output directory")
+    p_push.add_argument(
+        "--include-drafts",
+        action="store_true",
+        help="Include cards with status: draft",
+    )
+    p_push.add_argument(
+        "--no-launch",
+        action="store_true",
+        help="Do not launch Anki Desktop when AnkiConnect is unavailable",
+    )
+    p_push.add_argument(
+        "--anki-connect-url",
+        default=None,
+        help="Override AnkiConnect URL (or set ANKI_CONNECT_URL)",
+    )
+    p_push.add_argument(
+        "--startup-timeout",
+        type=float,
+        default=30,
+        help="Seconds to wait for Anki Desktop and AnkiConnect",
+    )
+    _add_root_cards(p_push)
+
     args = parser.parse_args(argv)
     root = find_repo_root(args.root) if getattr(args, "root", None) else find_repo_root()
 
@@ -101,6 +136,7 @@ def main(argv: Sequence[str] | None = None) -> int:
     languages: list[BuildLang] = ["en", "fr"] if args.lang == "all" else [args.lang]
 
     out_dir = args.out if args.out.is_absolute() else Path.cwd() / args.out
+    packages: list[Path] = []
     for lang in languages:
         path, result = build_language(
             cards,
@@ -114,6 +150,22 @@ def main(argv: Sequence[str] | None = None) -> int:
             f"{result.skipped_drafts} drafts skipped, "
             f"{result.skipped_untranslated} untranslated skipped)"
         )
+        packages.append(path)
+
+    if args.command == "push":
+        try:
+            push_packages(
+                packages,
+                endpoint=args.anki_connect_url,
+                launch=not args.no_launch,
+                startup_timeout=args.startup_timeout,
+            )
+        except AnkiConnectError as exc:
+            print(f"error: {exc}", file=sys.stderr)
+            return 1
+        for package in packages:
+            print(f"imported {package.name}")
+        print("synced with AnkiWeb")
     return 0
 
 

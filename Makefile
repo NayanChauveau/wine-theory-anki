@@ -1,4 +1,6 @@
-.PHONY: check lint format typecheck validate schema test build import-extract import-status
+.PHONY: check lint format typecheck validate schema test build push import-extract import-status
+
+ANKI_LANG ?= fr
 
 check:
 	uv run wset3-anki check
@@ -25,6 +27,9 @@ test:
 
 build:
 	uv run wset3-anki build --lang all --out dist
+
+push:
+	uv run wset3-anki push --lang $(ANKI_LANG) --out dist
 
 import-extract:
 	uv run wset3-anki import-extract

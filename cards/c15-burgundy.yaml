@@ -46,20 +46,20 @@ cards:
     en:
       question: When does rain most often spoil a Burgundy crop?
       choices:
-        - { text: "Only at budburst, in spring", correct: false }
+        - { text: "At budburst and again around véraison", correct: false }
         - { text: "At flowering, and again around harvest", correct: true }
-        - { text: "Only at véraison, in mid-summer", correct: false }
-        - { text: "Only at harvest, never at flowering", correct: false }
+        - { text: "At véraison and again after harvest", correct: false }
+        - { text: "At budburst and again after harvest", correct: false }
       explanation: |
         A wet **June** hits fruit set (coulure). A wet **September** hits
         pick and feeds rot. **2013** is the named wet, late harvest.
     fr:
       question: Quand la pluie gâche-t-elle le plus souvent une récolte bourguignonne ?
       choices:
-        - { text: "Seulement au débourrement, au printemps", correct: false }
+        - { text: "Au débourrement, puis de nouveau vers la véraison", correct: false }
         - { text: "À la floraison, puis de nouveau vers la vendange", correct: true }
-        - { text: "Seulement à la véraison, en plein été", correct: false }
-        - { text: "Seulement à la vendange, jamais à la fleur", correct: false }
+        - { text: "À la véraison, puis de nouveau après la vendange", correct: false }
+        - { text: "Au débourrement, puis de nouveau après la vendange", correct: false }
       explanation: |
         Un **juin** humide touche la nouaison (coulure). Un **septembre**
         humide gâche la vendange et nourrit la pourriture. **2013** est
@@ -203,23 +203,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Relative to the Côte slope, where do Bourgogne AOC and many village wines sit?
+      question: Where are vineyards classified as Bourgogne AOC, and many village-level sites, typically located on the Côte d’Or slope?
       choices:
-        - { text: "Only on the crest above the grands crus", correct: false }
+        - { text: "On the upper slope and crest", correct: false }
         - { text: "On the flat or at the foot of the slope", correct: true }
         - { text: "Mid-slope, with the premiers crus", correct: false }
-        - { text: "Only on the Hautes-Côtes plateau", correct: false }
+        - { text: "On the steepest upper mid-slope", correct: false }
       explanation: |
         The **plain** and the **slope-foot** are deeper, colder and more
         vigorous. Some village climats do sit mid-slope — “usually”, not
         “never mid-slope”.
     fr:
-      question: Sur le relief de la Côte d’Or, où se tiennent l’AOC Bourgogne et beaucoup de vins de village ?
+      question: Où se trouvent habituellement, sur le relief de la Côte d’Or, les vignes classées en AOC Bourgogne et beaucoup de parcelles de niveau village ?
       choices:
-        - { text: "Seulement sur la crête, au-dessus des grands crus", correct: false }
+        - { text: "Sur le haut du coteau et la crête", correct: false }
         - { text: "À plat ou au pied du coteau", correct: true }
         - { text: "À mi-coteau, avec les premiers crus", correct: false }
-        - { text: "Seulement sur le plateau des Hautes-Côtes", correct: false }
+        - { text: "Sur la partie la plus raide du haut de mi-coteau", correct: false }
       explanation: |
         La **plaine** et le **pied de coteau** sont plus profonds, plus
         froids et plus vigoureux. Certains climats de village sont à
@@ -240,7 +240,7 @@ cards:
         - { text: "The valley floor", correct: false }
         - { text: "Mid-slope", correct: true }
         - { text: "The high plateau", correct: false }
-        - { text: "The foot of the slope only", correct: false }
+        - { text: "The lower plain and slope foot", correct: false }
       explanation: |
         Best drainage and sun sit in that band. **Clos de Vougeot** still
         runs down into the village — “often”, not a legal altitude line.
@@ -250,7 +250,7 @@ cards:
         - { text: "Le fond de vallée", correct: false }
         - { text: "Le mi-coteau", correct: true }
         - { text: "Le haut plateau", correct: false }
-        - { text: "Le pied de coteau seulement", correct: false }
+        - { text: "La plaine basse et le pied du coteau", correct: false }
       explanation: |
         Meilleur drainage et meilleur soleil dans cette bande. Le **Clos
         de Vougeot** descend encore jusqu’au village — « souvent », pas
@@ -331,10 +331,10 @@ cards:
     en:
       question: Besides extra sun, what does an east-facing Côte d’Or slope keep off the vines?
       choices:
-        - { text: "All rain for the entire year", correct: false }
+        - { text: "Cold north-easterly winds", correct: false }
         - { text: "The prevailing westerly winds", correct: true }
-        - { text: "Any need for drainage", correct: false }
-        - { text: "The Saône itself", correct: false }
+        - { text: "Warm southerly winds", correct: false }
+        - { text: "Cool air draining toward the Saône", correct: false }
       explanation: |
         Hills to the west (and the **Morvan**) take the wet Atlantic
         punch. The Côte sits in a **lee**. It still rains — just less than
@@ -352,10 +352,10 @@ cards:
     en:
       question: Is there one “Burgundy soil” you can name for the whole region?
       choices:
-        - { text: "Yes — only desert sand", correct: false }
+        - { text: "Yes — limestone has the same composition everywhere", correct: false }
         - { text: "No — the soils change over very short distances", correct: true }
-        - { text: "Yes — only volcanic basalt", correct: false }
-        - { text: "Yes — only peat", correct: false }
+        - { text: "Yes — marl is uniform from Chablis to the Mâconnais", correct: false }
+        - { text: "No — but each district has one completely uniform soil", correct: false }
       explanation: |
         Limestone, marl, clay and scree in a **mosaic**. Chablis Kimmeridge
         is not Meursault’s limestone, and neither is a Gevrey combe.
@@ -372,10 +372,10 @@ cards:
     en:
       question: Why can soil change over a few dozen metres along the Côte?
       choices:
-        - { text: "A single flood in 1855 laid one soil everywhere", correct: false }
+        - { text: "One uniform limestone bed lies at every elevation", correct: false }
         - { text: "Many geological faults plus long erosion", correct: true }
-        - { text: "Growers truck in new soil each spring", correct: false }
-        - { text: "EU law requires a different soil per bottle", correct: false }
+        - { text: "River deposits cover the whole slope evenly", correct: false }
+        - { text: "Aspect changes the bedrock from limestone to granite", correct: false }
       explanation: |
         The Côte is a **fault scarp**. Combes cut through it. That is why
         two walls of Clos de Vougeot do not drink the same.
@@ -392,10 +392,10 @@ cards:
     en:
       question: Why can two neighbouring Gevrey walls taste different even with the same grape and grower?
       choices:
-        - { text: "A legal grape change every 10 metres", correct: false }
+        - { text: "Each wall must use a different Pinot clone", correct: false }
         - { text: "Changes in soil", correct: true }
-        - { text: "A different négociant tax in each row", correct: false }
-        - { text: "The bottles are different colours only", correct: false }
+        - { text: "Each wall has a different legal harvest date", correct: false }
+        - { text: "Neighbouring walls always receive opposite exposures", correct: false }
       explanation: |
         **Soil** is the story on the label. Clone, vintage and grower move
         the wine as much — do not treat a clay/limestone line as destiny.
@@ -414,8 +414,8 @@ cards:
       choices:
         - { text: "They are deeper and wetter than the valley floor", correct: false }
         - { text: "They are shallower and better drained", correct: true }
-        - { text: "They are solid ice", correct: false }
-        - { text: "They cannot grow vines by law", correct: false }
+        - { text: "They are deeper but equally well drained", correct: false }
+        - { text: "They are shallower and retain more standing water", correct: false }
       explanation: |
         **Thin, drained** slopes. The plain below is the opposite: deep
         and fertile, hence regional Bourgogne rather than a grand cru.
@@ -432,10 +432,10 @@ cards:
     en:
       question: What are soils like on the flat land below the Côte?
       choices:
-        - { text: "Always bare rock with no fertility", correct: false }
+        - { text: "Shallow, stony and low in fertility", correct: false }
         - { text: "Deeper and more fertile", correct: true }
-        - { text: "Only desert dune", correct: false }
-        - { text: "Only granite like the Beaujolais crus", correct: false }
+        - { text: "Thin limestone with the fastest drainage", correct: false }
+        - { text: "Deep but markedly less fertile than the slope", correct: false }
       explanation: |
         **Deep, rich, wetter** — vigour and dilution. That is Bourgogne
         AOC country, not Musigny.
@@ -450,12 +450,12 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Pinot Noir and Chardonnay plus which two other grapes fill most Burgundy vineyards?
+      question: Alongside Pinot Noir and Chardonnay, which two grapes account for most of Burgundy’s remaining plantings?
       choices:
-        - { text: "Cabernet Sauvignon, Merlot, Cabernet Franc, Petit Verdot", correct: false }
+        - { text: "Sauvignon Blanc and César", correct: false }
         - { text: "Aligoté and Gamay", correct: true }
-        - { text: "Tempranillo, Garnacha, Graciano, Mazuelo", correct: false }
-        - { text: "Riesling, Silvaner, Müller-Thurgau, Gewurztraminer", correct: false }
+        - { text: "Pinot Blanc and Pinot Gris", correct: false }
+        - { text: "Melon and Sacy", correct: false }
       explanation: |
         The workhorses. **Saint-Bris** Sauvignon and **Irancy** César sit
         outside that four — do not say the list is legally closed.
@@ -472,10 +472,10 @@ cards:
     en:
       question: Is Pinot Noir the majority of Burgundy’s hectares?
       choices:
-        - { text: "Under 2%, and only in Chablis", correct: false }
+        - { text: "Yes — it accounts for more than half", correct: false }
         - { text: "No — more than a third, not the majority", correct: true }
-        - { text: "Exactly 100%", correct: false }
-        - { text: "Pinot is illegal in the Côte de Nuits", correct: false }
+        - { text: "No — it accounts for less than a tenth", correct: false }
+        - { text: "Yes — it narrowly exceeds Chardonnay", correct: false }
       explanation: |
         **More than a third**, not the majority. **Chardonnay** (Chablis
         + Mâconnais) often edges it on hectares. Do not nail a single
@@ -491,12 +491,12 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which district is Burgundy’s prestige Pinot belt?
+      question: Which part of Burgundy forms its main prestige belt for Pinot Noir?
       choices:
-        - { text: "Only in Chablis grand cru", correct: false }
+        - { text: "Chablis and the Grand Auxerrois", correct: false }
         - { text: "The Côte d’Or", correct: true }
-        - { text: "Only in Sauternes", correct: false }
-        - { text: "Only in the Mâconnais, never further north", correct: false }
+        - { text: "The Mâconnais", correct: false }
+        - { text: "The Côte Chalonnaise alone", correct: false }
       explanation: |
         **Côte de Nuits** and the red Côte de Beaune are the prestige
         belt. Chalonnaise and Irancy plant it too; Chablis barely does.
@@ -513,10 +513,10 @@ cards:
     en:
       question: What fruit does young Côte d’Or Pinot usually show?
       choices:
-        - { text: "Only banana and coconut", correct: false }
+        - { text: "Blackcurrant and blackberry", correct: false }
         - { text: "Red fruit", correct: true }
-        - { text: "Only noble-rot saffron", correct: false }
-        - { text: "Only blackcurrant and cedar like Pauillac", correct: false }
+        - { text: "Peach and apricot", correct: false }
+        - { text: "Citrus and green apple", correct: false }
       explanation: |
         **Strawberry / cherry / raspberry**, then the sous-bois register.
         A hot year (2018, 2020) can look darker — the classic teaching
@@ -532,12 +532,12 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Where do acidity and tannin usually sit on a classic red Burgundy?
+      question: What acidity and tannin levels are typical of classic red Burgundy?
       choices:
-        - { text: "Low acid and massive Cabernet tannin", correct: false }
+        - { text: "Low acidity and high tannin", correct: false }
         - { text: "High acidity and low to medium tannin", correct: true }
-        - { text: "No acid and no tannin", correct: false }
-        - { text: "Only residual sugar, no structure", correct: false }
+        - { text: "Medium acidity and high tannin", correct: false }
+        - { text: "Low acidity and low tannin", correct: false }
       explanation: |
         **High acid, modest tannin** — Pinot is not a Médoc. Whole-bunch
         and a long maceration can push the tannin up; that is a style
@@ -555,10 +555,10 @@ cards:
     en:
       question: Which ferment choice has become more common again for Côte d’Or Pinot?
       choices:
-        - { text: "A legal ban on all stems", correct: false }
+        - { text: "Complete destemming for every cuvée", correct: false }
         - { text: "Keeping some or all of the bunches whole", correct: true }
-        - { text: "Only carbonic Gamay in a sealed plastic bag", correct: false }
-        - { text: "Boiling the must", correct: false }
+        - { text: "Shortening maceration to a few hours", correct: false }
+        - { text: "Fermenting only clarified free-run juice", correct: false }
       explanation: |
         **Whole-bunch / vendange entière**. **Dujac** and **DRC** never
         really left it; many newer domaines have come back to stems for
@@ -576,10 +576,10 @@ cards:
     en:
       question: How long do the serious Côte d’Or Pinots usually stay in barrel?
       choices:
-        - { text: "Forty years before they may be blended", correct: false }
+        - { text: "About 6 to 9 months", correct: false }
         - { text: "About 16 to 18 months", correct: true }
-        - { text: "They must be bottled the week of harvest", correct: false }
-        - { text: "Oak is banned for red Burgundy", correct: false }
+        - { text: "About 30 to 36 months", correct: false }
+        - { text: "About 3 to 4 months", correct: false }
       explanation: |
         **16–18 months** is the usual village / premier-cru clock. Some
         grands crus sit longer; a few domaines bottle sooner. Not a legal
@@ -597,10 +597,10 @@ cards:
     en:
       question: How much new oak does Côte d’Or Pinot typically see?
       choices:
-        - { text: "Always 100% new barriques by AOC law", correct: false }
+        - { text: "A legally fixed 100% for every cru", correct: false }
         - { text: "Some new oak, the share set by the domaine — not a fixed recipe", correct: true }
-        - { text: "Oak is illegal in Gevrey", correct: false }
-        - { text: "Only acacia, never oak", correct: false }
+        - { text: "A legally fixed maximum of 10%", correct: false }
+        - { text: "No new oak for village wine, by AOC rule", correct: false }
       explanation: |
         Barrels, yes; **100% new** is a house choice (or a 1990s habit),
         not the regional default. Village wines often see little or none.
@@ -615,15 +615,16 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which grape occupies about half of Burgundy’s vineyard?
+      question: Which grape occupies more than half of Burgundy’s vineyard?
       choices:
         - { text: "Aligoté", correct: false }
         - { text: "Chardonnay", correct: true }
         - { text: "Gamay", correct: false }
         - { text: "Sauvignon Blanc", correct: false }
       explanation: |
-        **Chablis + Mâconnais + Côte de Beaune** add up to **about half**.
-        Do not nail a census integer.
+        **Chablis + Mâconnais + Côte de Beaune** put Chardonnay at
+        roughly **57%** of current vineyard area. The exact share moves
+        with each census.
 
   - id: burgundy-chard-gradient-001
     type: mcq
@@ -637,10 +638,10 @@ cards:
     en:
       question: How does Chardonnay change from Chablis through the Côte d’Or to the Mâconnais?
       choices:
-        - { text: "It is identical in all three, by AOC law", correct: false }
+        - { text: "Riper in Chablis, leaner through the Côte and Mâconnais", correct: false }
         - { text: "Steely and high-acid in the north, more complex in the Côte d’Or, riper and fuller in Mâcon", correct: true }
-        - { text: "It is only red in Chablis", correct: false }
-        - { text: "It is always sweet and botrytised", correct: false }
+        - { text: "High-acid throughout, with no meaningful north–south change", correct: false }
+        - { text: "Lightest in the Côte d’Or and fullest in Chablis", correct: false }
       explanation: |
         A **north–south ripeness** line. Meursault is not Petit Chablis;
         a rich Pouilly-Fuissé is not a razor Chablis either.
@@ -676,12 +677,12 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which four cellar steps define the classic Côte de Beaune Chardonnay recipe?
+      question: Which four cellar practices define the classic Côte de Beaune Chardonnay style?
       choices:
-        - { text: "Carbonic maceration, saignée, fortification, flor", correct: false }
+        - { text: "Steel ferment, early bottling, no MLF and no lees contact", correct: false }
         - { text: "Barrel ferment, barrel ageing, malolactic and lees stirring", correct: true }
-        - { text: "Only stainless steel and no lees", correct: false }
-        - { text: "Icewine press and no oak", correct: false }
+        - { text: "Barrel ferment, no MLF, filtration and immediate bottling", correct: false }
+        - { text: "Steel ferment, barrel ageing, blocked MLF and no lees stirring", correct: false }
       explanation: |
         The four. Élevage is often **12–18 months** on the Côte d’Or, not
         a locked 6–9. Mâcon and village wines can be shorter.
@@ -698,10 +699,10 @@ cards:
     en:
       question: What oak question do white-Burgundy domaines still argue about?
       choices:
-        - { text: "Whether Chardonnay may be grown at all", correct: false }
+        - { text: "Whether every wine should avoid new oak completely", correct: false }
         - { text: "How much new wood, and how heavy the toast", correct: true }
-        - { text: "Whether barrels must be made of plastic", correct: false }
-        - { text: "A legal duty to use 100% new oak everywhere", correct: false }
+        - { text: "Whether every premier cru needs the same toast level", correct: false }
+        - { text: "Whether only grands crus may ferment in barrel", correct: false }
       explanation: |
         **Share of new barrels** and **toast**. Coche and Roulot do not
         make the same call as a 1990s “butter bomb”.
@@ -718,10 +719,10 @@ cards:
     en:
       question: How long can a top white Burgundy (Montrachet, Corton-Charlemagne) still improve?
       choices:
-        - { text: "It must be drunk the week it is bottled", correct: false }
+        - { text: "One to two years at most", correct: false }
         - { text: "Ten years or more", correct: true }
-        - { text: "It is illegal to keep it past 1 January", correct: false }
-        - { text: "Only forty days, like Beaujolais Nouveau", correct: false }
+        - { text: "Three to five years at most", correct: false }
+        - { text: "Six to nine months at most", correct: false }
       explanation: |
         **A decade-plus** for the grands crus when the cork holds.
         Village Mâcon is not on that clock.
@@ -738,10 +739,10 @@ cards:
     en:
       question: What fault showed up in many late-1990s and 2000s white Burgundies years too soon?
       choices:
-        - { text: "Only noble rot in the bottle", correct: false }
+        - { text: "Persistent reduction", correct: false }
         - { text: "Premature oxidation (premox)", correct: true }
-        - { text: "A legal requirement of residual sugar above 45 g/L", correct: false }
-        - { text: "They turned into red wine", correct: false }
+        - { text: "Excessive volatile acidity", correct: false }
+        - { text: "Unwanted malolactic fermentation", correct: false }
       explanation: |
         Bottles that should have been tight at eight years were already
         **nutty and tired**. The wave is dated to those vintages — not a
@@ -759,10 +760,10 @@ cards:
     en:
       question: What is the agreed single cause of premature oxidation in 1990s–2000s white Burgundy?
       choices:
-        - { text: "A 2003 EU law that banned SO2", correct: false }
+        - { text: "Corks alone", correct: false }
         - { text: "There is no agreed single cause", correct: true }
-        - { text: "Only the colour of the capsule", correct: false }
-        - { text: "Phylloxera in the bottle", correct: false }
+        - { text: "Low sulphur dioxide alone", correct: false }
+        - { text: "Bâtonnage alone", correct: false }
       explanation: |
         Corks, low **SO2**, ripe years, bâtonnage, toast — theories, not
         a closed verdict. Do not pick one scapegoat as fact.
@@ -777,12 +778,12 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What is the usual register of everyday Aligoté?
+      question: What style does everyday Aligoté usually show?
       choices:
-        - { text: "Deep colour, heavy tannin, like a Pauillac", correct: false }
+        - { text: "Full-bodied, low-acid and strongly oaked", correct: false }
         - { text: "A pale, fairly neutral white with high acidity", correct: true }
-        - { text: "Always noble-rot sweet", correct: false }
-        - { text: "Always sparkling red", correct: false }
+        - { text: "Aromatic, off-dry and medium-acid", correct: false }
+        - { text: "Rich, tropical and low-acid", correct: false }
       explanation: |
         **High acid, modest aroma** — the Kir grape. That is the cheap
         default, not **Bouzeron**.
@@ -797,12 +798,12 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: When can Aligoté rise above a high-acid, low-aroma Kir wine?
+      question: When can Aligoté produce a more concentrated and expressive wine?
       choices:
-        - { text: "Never — it is legally flavourless", correct: false }
+        - { text: "When it is cropped heavily on the coolest plain", correct: false }
         - { text: "On sites where it fully ripens, such as Bouzeron", correct: true }
-        - { text: "Only if it is labelled Pauillac", correct: false }
-        - { text: "Only under ice in January", correct: false }
+        - { text: "When it is picked early to preserve maximum acidity", correct: false }
+        - { text: "When it replaces Chardonnay in Chablis Grand Cru", correct: false }
       explanation: |
         **Bouzeron** is the Aligoté village AOC. Old-vine bottlings from
         Ponsot and others also sit well above Kir.
@@ -817,12 +818,12 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Why did Aligoté inherit the leftover slopes instead of the mid-Côte?
+      question: Why is Aligoté usually planted on less-favoured sites rather than the Côte’s prime mid-slopes?
       choices:
-        - { text: "Aligoté is illegal in France", correct: false }
+        - { text: "It needs more heat than Pinot Noir and Chardonnay", correct: false }
         - { text: "The best sites are already planted to Chardonnay and Pinot Noir", correct: true }
-        - { text: "It only ripens above 2 000 m", correct: false }
-        - { text: "The EU requires it to be distilled", correct: false }
+        - { text: "It performs best on the deepest, most fertile valley soils", correct: false }
+        - { text: "Its yields are too low for the classified slopes", correct: false }
       explanation: |
         Growers put **Chardonnay and Pinot** on the mid-slope. Aligoté
         inherited the leftovers — except where a village (Bouzeron) or a
@@ -840,10 +841,10 @@ cards:
     en:
       question: What is Gamay like in Burgundy proper (not a Beaujolais cru)?
       choices:
-        - { text: "A 30-year tannic cellar wine, like Latour", correct: false }
+        - { text: "A structured, high-tannin red for long ageing", correct: false }
         - { text: "An early-drinking red with ripe berry fruit and low tannin", correct: true }
-        - { text: "Always white and sparkling", correct: false }
-        - { text: "Always noble-rot sweet", correct: false }
+        - { text: "A pale, high-acid red with little fruit", correct: false }
+        - { text: "A full-bodied red dominated by new oak", correct: false }
       explanation: |
         **Passetoutgrains** and Mâcon rouge: drink soon. Do not confuse
         that with **Moulin-à-Vent**.
@@ -860,10 +861,10 @@ cards:
     en:
       question: How high up the Burgundy ladder may Gamay go?
       choices:
-        - { text: "It may be a Côte de Nuits grand cru", correct: false }
+        - { text: "Up to village AOC throughout the Côte d’Or", correct: false }
         - { text: "Some regional AOCs only — not village Côte d’Or or above", correct: true }
-        - { text: "It is the only grape in Montrachet", correct: false }
-        - { text: "It is banned from every Burgundy label", correct: false }
+        - { text: "Up to premier cru in the Côte Chalonnaise", correct: false }
+        - { text: "Only generic Bourgogne, never Mâcon", correct: false }
       explanation: |
         **Bourgogne Gamay**, **Bourgogne Passetoutgrains**, some Mâcon
         reds. Gevrey village and the grands crus are Pinot.
@@ -880,10 +881,10 @@ cards:
     en:
       question: Which river valley holds Burgundy’s northernmost vines?
       choices:
-        - { text: "In the middle of the Côte de Beaune", correct: false }
+        - { text: "The Yonne valley", correct: false }
         - { text: "The Serein", correct: true }
-        - { text: "On the Gironde estuary", correct: false }
-        - { text: "In the Mâconnais only", correct: false }
+        - { text: "The Saône valley", correct: false }
+        - { text: "The Dheune valley", correct: false }
       explanation: |
         An isolated **Yonne** island, closer to Champagne than to Beaune.
         The river is the **Serein**.
@@ -900,10 +901,10 @@ cards:
     en:
       question: Which way do the best Chablis slopes usually face?
       choices:
-        - { text: "Due north, into permanent shade", correct: false }
+        - { text: "North to north-east", correct: false }
         - { text: "South to south-west", correct: true }
-        - { text: "Only due west into the Atlantic", correct: false }
-        - { text: "They must face the Alps", correct: false }
+        - { text: "East to north-east", correct: false }
+        - { text: "West to north-west", correct: false }
       explanation: |
         Grands crus look **south-west** over the Serein. “South-facing”
         is the loose label; due east is not the Chablis grand-cru map.
@@ -920,10 +921,10 @@ cards:
     en:
       question: What AOC covers the lesser, often Portlandian, Chablis sites?
       choices:
-        - { text: "Montrachet", correct: false }
+        - { text: "Chablis", correct: false }
         - { text: "Petit Chablis", correct: true }
-        - { text: "Pomerol", correct: false }
-        - { text: "Corton-Charlemagne only", correct: false }
+        - { text: "Chablis Premier Cru", correct: false }
+        - { text: "Chablis Grand Cru", correct: false }
       explanation: |
         **Petit Chablis** is the plateau / harder limestone tier — not
         every modest bottle (some village Chablis is modest too).
@@ -940,10 +941,10 @@ cards:
     en:
       question: Why is spring frost harsher in Chablis than on most of the Côte d’Or?
       choices:
-        - { text: "Chablis is a tropical island", correct: false }
+        - { text: "Its south-facing slopes cause earlier harvests", correct: false }
         - { text: "It sits further north, in a cold Serein valley pocket", correct: true }
-        - { text: "Heaters are banned in the Yonne", correct: false }
-        - { text: "The AOC requires vines on the valley floor only", correct: false }
+        - { text: "Its drier summers make spring nights colder", correct: false }
+        - { text: "Its limestone soils retain more night-time heat", correct: false }
       explanation: |
         **Latitude plus a frost hollow**. The Côte d’Or still froze in
         **2021**; Chablis has the worse baseline, which is why aspersion
@@ -961,10 +962,10 @@ cards:
     en:
       question: How do Chablis growers usually fight spring frost?
       choices:
-        - { text: "By flooding the vineyard with seawater", correct: false }
+        - { text: "Late pruning and higher yields", correct: false }
         - { text: "Aspersion sprinklers and heaters (candles or burners)", correct: true }
-        - { text: "By picking in March", correct: false }
-        - { text: "Frost protection is illegal in the Yonne", correct: false }
+        - { text: "Windbreaks and extra canopy shading", correct: false }
+        - { text: "Earlier budbreak and soil irrigation", correct: false }
       explanation: |
         **Aspersion** (a coat of ice) and **heaters**. Wind machines
         appear too; water and fire remain the two named tools.
@@ -979,12 +980,12 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Beside Chardonnay, what else may a Chablis AOC blend include?
+      question: Which grape variety is permitted in Chablis AOC?
       choices:
-        - { text: "Four, including Pinot Noir", correct: false }
-        - { text: "Nothing — it is Chardonnay alone", correct: true }
-        - { text: "None — Chablis must be Sauvignon", correct: false }
-        - { text: "Thirteen, as in Bordeaux", correct: false }
+        - { text: "Sauvignon Blanc", correct: false }
+        - { text: "Chardonnay only", correct: true }
+        - { text: "Aligoté", correct: false }
+        - { text: "Pinot Blanc", correct: false }
       explanation: |
         **100% Chardonnay**. Sauvignon lives next door in **Saint-Bris**,
         not in Chablis AOC.
@@ -999,12 +1000,12 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Where do most village Chablis vines sit, compared with the crus?
+      question: Compared with Premier and Grand Cru sites, where are most village Chablis vineyards located?
       choices:
-        - { text: "Only on the warmest south-west grands crus", correct: false }
+        - { text: "On the same south-west slopes as the grands crus", correct: false }
         - { text: "On cooler north-facing slopes and flatter land", correct: true }
-        - { text: "Only underwater in the Serein", correct: false }
-        - { text: "Only above 2 000 m", correct: false }
+        - { text: "Only on steep south-facing limestone", correct: false }
+        - { text: "Mostly on warmer mid-slopes above the premiers crus", correct: false }
       explanation: |
         **Village Chablis** takes the less favoured aspects. Some decent
         south-facing plots are still “only” village — classification, not
@@ -1020,12 +1021,12 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Premier and grand cru Chablis, unlike most village sites, sit on which hillsides?
+      question: Which hillside exposures contain most Premier and Grand Cru Chablis vineyards?
       choices:
-        - { text: "Due-north plateaus only", correct: false }
+        - { text: "North to north-east slopes", correct: false }
         - { text: "South to south-west slopes", correct: true }
-        - { text: "Only west-facing Atlantic cliffs", correct: false }
-        - { text: "The Médoc gravel banks", correct: false }
+        - { text: "Flat valley-floor sites", correct: false }
+        - { text: "West to north-west slopes", correct: false }
       explanation: |
         Classified climats crowd the **south to south-west** bank of the
         Serein. Due east is the Côte d’Or story, not Chablis grand cru.
@@ -1040,12 +1041,12 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What fruit-and-acid register do Petit Chablis and many village Chablis show?
+      question: What fruit and acidity profile is typical of Petit Chablis and many village Chablis wines?
       choices:
-        - { text: "Heavy new-oak vanilla and low acid", correct: false }
+        - { text: "Ripe tropical fruit and medium acidity", correct: false }
         - { text: "Austere green fruit and high acidity; riper fruit only in the better bottles", correct: true }
-        - { text: "Only noble-rot saffron", correct: false }
-        - { text: "Red cherry and tar", correct: false }
+        - { text: "Stone fruit, full body and low acidity", correct: false }
+        - { text: "Citrus fruit, soft acidity and prominent new oak", correct: false }
       explanation: |
         **Green apple, lemon, steel**. A warm year or a good village site
         can taste riper — that is the ceiling, not the Petit Chablis
@@ -1061,12 +1062,12 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: How do premier and grand cru Chablis usually sit next to village wine?
+      question: How do Premier and Grand Cru Chablis usually compare with village Chablis?
       choices:
-        - { text: "Greener, thinner, and lower acid", correct: false }
+        - { text: "Lighter-bodied, greener and lower in acidity", correct: false }
         - { text: "Riper citrus, more body, still high acidity", correct: true }
-        - { text: "Always sweet and sparkling", correct: false }
-        - { text: "Always 100% new oak and no fruit", correct: false }
+        - { text: "Similar in body but less ripe and more neutral", correct: false }
+        - { text: "Fuller-bodied, but softer in acidity and dominated by oak", correct: false }
       explanation: |
         **Citrus over green apple**, more weight, acid still the spine.
         Les Clos is not a Mâcon fruit bomb.
@@ -1083,10 +1084,10 @@ cards:
     en:
       question: How do some top Chablis cru domaines raise the wine, instead of steel only?
       choices:
-        - { text: "In 100% new barriques only", correct: false }
+        - { text: "In new oak with heavy toast", correct: false }
         - { text: "In older oak barrels", correct: true }
-        - { text: "Oak is banned in the Yonne", correct: false }
-        - { text: "Only in chestnut, never oak", correct: false }
+        - { text: "In amphora with extended skin contact", correct: false }
+        - { text: "In large new-oak vats", correct: false }
       explanation: |
         **Raveneau** and **Dauvissat** are the named old-oak houses.
         Most village wine never sees a barrel.
@@ -1103,10 +1104,10 @@ cards:
     en:
       question: If a Chablis cru sees used barrels, what should you taste besides fruit?
       choices:
-        - { text: "It turns the wine red", correct: false }
+        - { text: "A strong vanilla and coconut flavour", correct: false }
         - { text: "A rounder texture and a quiet savoury note, not coconut toast", correct: true }
-        - { text: "It is legally required to taste like coconut", correct: false }
-        - { text: "It removes all acidity", correct: false }
+        - { text: "Lower acidity and noticeable sweetness", correct: false }
+        - { text: "A lighter texture and greener fruit", correct: false }
       explanation: |
         **Texture, not toast**. Used barrels should stay in the background;
         they should not shout Meursault.
@@ -1123,10 +1124,10 @@ cards:
     en:
       question: How do most growers keep Chablis tasting of fruit and stone, not wood?
       choices:
-        - { text: "Three years in 100% new barriques", correct: false }
+        - { text: "Ferment and age it in new barriques", correct: false }
         - { text: "Ferment and raise it in stainless steel or concrete", correct: true }
-        - { text: "By adding oak chips to every tank", correct: false }
-        - { text: "By a legal ban on Chardonnay", correct: false }
+        - { text: "Ferment in steel, then age entirely in new oak", correct: false }
+        - { text: "Ferment in old oak, then finish in new oak", correct: false }
       explanation: |
         **Inert vessels** are the regional default. Oak is the exception
         at the top, not the village recipe.
@@ -1143,10 +1144,10 @@ cards:
     en:
       question: Which upland sits west of the Côte d’Or and helps shape its slope?
       choices:
-        - { text: "The Alps, immediately east of Beaune", correct: false }
-        - { text: "The Morvan / northern Massif Central fringe", correct: true }
-        - { text: "The Landes forest", correct: false }
-        - { text: "The Vosges, inside Chablis town", correct: false }
+        - { text: "The Jura foothills", correct: false }
+        - { text: "The Morvan uplands", correct: true }
+        - { text: "The Vosges foothills", correct: false }
+        - { text: "The Saône plain", correct: false }
       explanation: |
         Hills to the **west** (Morvan, the Massif’s northern edge). The
         Côte is the **east-facing scarp** of that block, not a river
@@ -1164,10 +1165,10 @@ cards:
     en:
       question: What aspect do the hills west of the Côte d’Or give the vineyard strip?
       choices:
-        - { text: "Due north, into permanent shade", correct: false }
+        - { text: "North- and north-west-facing slopes", correct: false }
         - { text: "East- and south-east-facing slopes", correct: true }
-        - { text: "Only west-facing storm slopes", correct: false }
-        - { text: "A flat desert with no hill", correct: false }
+        - { text: "West- and south-west-facing slopes", correct: false }
+        - { text: "South- and south-west-facing slopes", correct: false }
       explanation: |
         The scarp looks toward the **Saône**: **E / SE**. That is why
         the Côte is one long sun-catch, not a west-facing Atlantic hill.
@@ -1182,12 +1183,12 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which half of the Côte d’Or owns the longest-lived Pinot story?
+      question: Which half of the Côte d’Or has the strongest reputation for long-lived Pinot Noir?
       choices:
-        - { text: "Only the Mâconnais", correct: false }
+        - { text: "The Côte de Beaune", correct: false }
         - { text: "The Côte de Nuits", correct: true }
-        - { text: "Only Chablis", correct: false }
-        - { text: "Only the Hautes-Côtes plateau", correct: false }
+        - { text: "The Hautes-Côtes de Beaune", correct: false }
+        - { text: "The Côte Chalonnaise", correct: false }
       explanation: |
         **Chambertin, Musigny, Romanée-Conti** — the long-distance Pinots.
         Some Beaune reds (Pommard) can be sturdy; the Nuits still own
@@ -1203,12 +1204,12 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Montrachet and Corton-Charlemagne sit in which half of the Côte d’Or?
+      question: In which half of the Côte d’Or are Montrachet and Corton-Charlemagne located?
       choices:
-        - { text: "The Côte de Nuits only", correct: false }
+        - { text: "The Côte de Nuits", correct: false }
         - { text: "The Côte de Beaune", correct: true }
-        - { text: "Only Chablis", correct: false }
-        - { text: "Only the Médoc", correct: false }
+        - { text: "The Hautes-Côtes de Nuits", correct: false }
+        - { text: "The Côte Chalonnaise", correct: false }
       explanation: |
         **Montrachet, Corton-Charlemagne, Meursault**. Chablis is a
         different, steelier fame — not “worse”, just not this oak-and-
@@ -1226,10 +1227,10 @@ cards:
     en:
       question: Beside its whites, what reds does the Côte de Beaune grow?
       choices:
-        - { text: "Only Syrah", correct: false }
+        - { text: "Gamay", correct: false }
         - { text: "Pinot Noir", correct: true }
-        - { text: "Only Cabernet Sauvignon", correct: false }
-        - { text: "Only Gamay", correct: false }
+        - { text: "César", correct: false }
+        - { text: "Cabernet Franc", correct: false }
       explanation: |
         **Pommard, Volnay, Beaune, Corton** rouge. “Fruitier than the
         Nuits” is the usual contrast; Pommard can still be tannic.
@@ -1246,10 +1247,10 @@ cards:
     en:
       question: How many Côte d’Or red grands crus sit outside the Côte de Nuits?
       choices:
-        - { text: "All of them — Nuits has none", correct: false }
+        - { text: "None", correct: false }
         - { text: "One — Corton, in the Côte de Beaune", correct: true }
-        - { text: "Twenty-four, all in Chablis", correct: false }
-        - { text: "None exist anywhere", correct: false }
+        - { text: "Two — Corton and Corton-Charlemagne", correct: false }
+        - { text: "Five — the entire Montrachet family", correct: false }
       explanation: |
         **Corton** (Aloxe / Ladoix / Pernand) is the Beaune exception.
         The rest of the red GC map is Nuits.
@@ -1266,10 +1267,10 @@ cards:
     en:
       question: Which Côte d’Or white grand cru is not in the Côte de Beaune?
       choices:
-        - { text: "All in the Côte de Nuits, none in Beaune", correct: false }
+        - { text: "Corton-Charlemagne, in Aloxe-Corton", correct: false }
         - { text: "Musigny Blanc, in Chambolle", correct: true }
-        - { text: "Only in Chablis, which is on the Côte d’Or", correct: false }
-        - { text: "There are no white grands crus", correct: false }
+        - { text: "Montrachet, between Puligny and Chassagne", correct: false }
+        - { text: "Bâtard-Montrachet, between Puligny and Chassagne", correct: false }
       explanation: |
         **Corton-Charlemagne** and the **Montrachet** family are Beaune.
         Tiny **Musigny Blanc** is in Chambolle. **Chablis** has its own
@@ -1288,10 +1289,10 @@ cards:
     en:
       question: North to south along the Côte de Nuits prestige strip, which order is right?
       choices:
-        - { text: "Nuits-Saint-Georges, then Gevrey, then Chablis", correct: false }
+        - { text: "Vosne, Vougeot, Chambolle, Morey, Gevrey, then Nuits-Saint-Georges", correct: false }
         - { text: "Gevrey-Chambertin, Morey, Chambolle, Vougeot, Vosne, then Nuits-Saint-Georges", correct: true }
-        - { text: "Meursault, Puligny, Chassagne only", correct: false }
-        - { text: "Pomerol, then Pauillac", correct: false }
+        - { text: "Gevrey-Chambertin, Chambolle, Morey, Vosne, Vougeot, then Nuits-Saint-Georges", correct: false }
+        - { text: "Nuits-Saint-Georges, Vosne, Vougeot, Chambolle, Morey, then Gevrey-Chambertin", correct: false }
       explanation: |
         Do not skip **Morey-Saint-Denis** and **Chambolle-Musigny** — they
         sit between Gevrey and Vougeot. Marsannay and Fixin sit further
@@ -1330,10 +1331,10 @@ cards:
     en:
       question: North to south, which Côte de Beaune sequence is the usual teaching strip?
       choices:
-        - { text: "Gevrey, Vosne, Nuits-Saint-Georges", correct: false }
+        - { text: "Chassagne, Puligny, Meursault, Volnay, Pommard, Beaune, Aloxe-Corton", correct: false }
         - { text: "Aloxe-Corton, Beaune, Pommard, Volnay, Meursault, Puligny, Chassagne", correct: true }
-        - { text: "Chablis, then Pomerol", correct: false }
-        - { text: "Only Santenay, then Dijon", correct: false }
+        - { text: "Aloxe-Corton, Pommard, Beaune, Meursault, Volnay, Chassagne, Puligny", correct: false }
+        - { text: "Beaune, Aloxe-Corton, Volnay, Pommard, Puligny, Meursault, Chassagne", correct: false }
       explanation: |
         That is the **key-village** ladder, not every AOC. Savigny,
         Saint-Aubin and Santenay sit beside it.
@@ -1350,10 +1351,10 @@ cards:
     en:
       question: Which hill at the north of the Côte de Beaune holds both a red and a white grand cru?
       choices:
-        - { text: "The Clos de Vougeot wall only", correct: false }
+        - { text: "The hill of Montrachet", correct: false }
         - { text: "Corton — Corton rouge and Corton-Charlemagne", correct: true }
-        - { text: "Only the Mâcon acropolis", correct: false }
-        - { text: "Mont Blanc", correct: false }
+        - { text: "The hill of Mont de Milieu", correct: false }
+        - { text: "The hill of Vergisson", correct: false }
       explanation: |
         **Corton** is the red GC; **Corton-Charlemagne** (and Charlemagne)
         the white. Aloxe-Corton is the village name on many labels.
@@ -1370,10 +1371,10 @@ cards:
     en:
       question: Which two Côte de Beaune villages are the red specialists, with almost no white?
       choices:
-        - { text: "Puligny-Montrachet and Chablis", correct: false }
+        - { text: "Meursault and Puligny-Montrachet", correct: false }
         - { text: "Pommard and Volnay", correct: true }
-        - { text: "Meursault and Puligny only as red AOCs", correct: false }
-        - { text: "Pomerol and Pauillac", correct: false }
+        - { text: "Aloxe-Corton and Pernand-Vergelesses", correct: false }
+        - { text: "Chassagne-Montrachet and Santenay", correct: false }
       explanation: |
         **Pommard** and **Volnay** are Pinot villages. Meursault and
         Puligny can bottle a little red; it is not their story.
@@ -1390,10 +1391,10 @@ cards:
     en:
       question: Meursault plus which two neighbours form the Côte de Beaune white trio?
       choices:
-        - { text: "Gevrey, Morey and Chambolle", correct: false }
+        - { text: "Pommard and Volnay", correct: false }
         - { text: "Puligny-Montrachet and Chassagne-Montrachet", correct: true }
-        - { text: "Pommard, Volnay and Corton only as reds", correct: false }
-        - { text: "Sauternes, Barsac and Cadillac", correct: false }
+        - { text: "Aloxe-Corton and Savigny-lès-Beaune", correct: false }
+        - { text: "Saint-Aubin and Santenay", correct: false }
       explanation: |
         The **white trio**. Montrachet itself is split between Puligny
         and Chassagne.
@@ -1410,10 +1411,10 @@ cards:
     en:
       question: Comblanchien, Corgoloin and Prissey usually bottle red (or white) as what AOC?
       choices:
-        - { text: "Only Romanée-Conti", correct: false }
+        - { text: "Hautes-Côtes de Nuits", correct: false }
         - { text: "Côte de Nuits-Villages", correct: true }
-        - { text: "Only sparkling wine from Chablis", correct: false }
-        - { text: "Any Bordeaux Supérieur", correct: false }
+        - { text: "Bourgogne Côte d’Or", correct: false }
+        - { text: "Côte de Beaune-Villages", correct: false }
       explanation: |
         **Comblanchien, Corgoloin, Prissey**, parts of Brochon / Fixin —
         not Gevrey or Vosne. Both colours are legal; red dominates.
@@ -1430,10 +1431,10 @@ cards:
     en:
       question: What colour is Côte de Beaune-Villages allowed to be?
       choices:
-        - { text: "White only", correct: false }
+        - { text: "Red and white", correct: false }
         - { text: "Red only", correct: true }
-        - { text: "Only sparkling Aligoté", correct: false }
-        - { text: "Only Sauternes", correct: false }
+        - { text: "White only", correct: false }
+        - { text: "Red and rosé", correct: false }
       explanation: |
         **Red Pinot** only. Famous villages such as **Pommard** and
         **Volnay** stay on their own labels. It is not a white AOC.
@@ -1450,10 +1451,10 @@ cards:
     en:
       question: Above the Côte scarp, which pair of Bourgogne AOCs names the windy plateau?
       choices:
-        - { text: "Pauillac and Pomerol", correct: false }
+        - { text: "Côte de Nuits-Villages and Côte de Beaune-Villages", correct: false }
         - { text: "Bourgogne Hautes-Côtes de Nuits and Hautes-Côtes de Beaune", correct: true }
-        - { text: "Only Chablis grand cru", correct: false }
-        - { text: "Sauternes and Barsac", correct: false }
+        - { text: "Bourgogne Côte Chalonnaise and Bourgogne Côte d’Or", correct: false }
+        - { text: "Mâcon-Villages and Bourgogne Tonnerre", correct: false }
       explanation: |
         **Hautes-Côtes de Nuits** and **Hautes-Côtes de Beaune**: cooler,
         windier plateau. Less body than the mid-slope crus — useful in
@@ -1471,10 +1472,10 @@ cards:
     en:
       question: After Santenay, which Burgundy hillside district comes next heading south?
       choices:
-        - { text: "Chablis", correct: false }
+        - { text: "The Mâconnais", correct: false }
         - { text: "The Côte Chalonnaise", correct: true }
-        - { text: "The Médoc", correct: false }
-        - { text: "Tokaj", correct: false }
+        - { text: "The Côte de Nuits", correct: false }
+        - { text: "The Grand Auxerrois", correct: false }
       explanation: |
         After **Santenay** the hills break up: that is the
         **Chalonnaise**, then the Mâconnais. Not “Challonaise”.
@@ -1491,10 +1492,10 @@ cards:
     en:
       question: Mercurey rouge and Montagny blanc are built on which pair of grapes?
       choices:
-        - { text: "Riesling and Gewurztraminer", correct: false }
+        - { text: "Gamay and Aligoté", correct: false }
         - { text: "Chardonnay and Pinot Noir", correct: true }
-        - { text: "Cabernet Sauvignon and Merlot", correct: false }
-        - { text: "Only Muscadelle", correct: false }
+        - { text: "Pinot Noir and Aligoté", correct: false }
+        - { text: "Gamay and Chardonnay", correct: false }
       explanation: |
         Same pair as the Côte d’Or. **Aligoté** has its own village at
         **Bouzeron**; Gamay is minor here.
@@ -1511,10 +1512,10 @@ cards:
     en:
       question: How does harvest timing on the Côte Chalonnaise compare with the Côte d’Or?
       choices:
-        - { text: "It is always two months earlier", correct: false }
+        - { text: "It is usually earlier and ripening is more reliable", correct: false }
         - { text: "It is later, and ripening is less reliable", correct: true }
-        - { text: "Grapes are picked in March by law", correct: false }
-        - { text: "There is no harvest — only icewine", correct: false }
+        - { text: "It is at the same time, with no meaningful difference", correct: false }
+        - { text: "It is later, but ripening is more reliable", correct: false }
       explanation: |
         More **broken hills**, a cooler pocket: pick is later and some
         years never quite finish. That is the reliability gap, not a
@@ -1532,10 +1533,10 @@ cards:
     en:
       question: Why do many Chalonnaise wines come out lighter-bodied than Côte d’Or peers?
       choices:
-        - { text: "A legal maximum of 8% alcohol", correct: false }
+        - { text: "The soils are uniformly richer in heat-retaining gravel", correct: false }
         - { text: "Fewer vineyards enjoy a clean easterly aspect", correct: true }
-        - { text: "The AOC bans Pinot Noir", correct: false }
-        - { text: "They must be bottled as Nouveau", correct: false }
+        - { text: "Harvest is consistently earlier than on the Côte d’Or", correct: false }
+        - { text: "The district lies further south and is uniformly hotter", correct: false }
       explanation: |
         The Côte d’Or is one long **E/SE** scarp. The Chalonnaise is a
         jumble of aspects — more shade, more wind, less consistent sun.
@@ -1550,12 +1551,12 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Rully, Mercurey, Givry and Montagny sit in which district, with Bouzeron as a fifth AOC?
+      question: Which Burgundy district contains the village AOCs Rully, Mercurey, Givry, Montagny and Bouzeron?
       choices:
         - { text: "The Côte de Nuits", correct: false }
         - { text: "The Côte Chalonnaise", correct: true }
-        - { text: "The Médoc", correct: false }
-        - { text: "Chablis only", correct: false }
+        - { text: "The Côte de Beaune", correct: false }
+        - { text: "The Mâconnais", correct: false }
       explanation: |
         North to south: **Rully, Mercurey, Givry, Montagny**. **Bouzeron**
         is the fifth village AOC — do not treat the old “four” as a
@@ -1573,10 +1574,10 @@ cards:
     en:
       question: Which Chalonnaise village has long been a base for Crémant de Bourgogne?
       choices:
-        - { text: "Pommard", correct: false }
+        - { text: "Mercurey", correct: false }
         - { text: "Rully", correct: true }
-        - { text: "Chablis", correct: false }
-        - { text: "Sauternes", correct: false }
+        - { text: "Givry", correct: false }
+        - { text: "Montagny", correct: false }
       explanation: |
         **Rully** leans white and has long supplied **Crémant**. Mercurey
         is the red-reputation village.
@@ -1595,8 +1596,8 @@ cards:
       choices:
         - { text: "Montagny", correct: false }
         - { text: "Mercurey", correct: true }
-        - { text: "Chablis", correct: false }
-        - { text: "Sauternes", correct: false }
+        - { text: "Rully", correct: false }
+        - { text: "Bouzeron", correct: false }
       explanation: |
         **Mercurey** is the largest village AOC here and the red
         benchmark. Montagny is white only.
@@ -1613,10 +1614,10 @@ cards:
     en:
       question: What is Givry’s place among the Chalonnaise villages?
       choices:
-        - { text: "It is a white-only grand cru in Chablis", correct: false }
+        - { text: "A large white-only AOC led by Chardonnay", correct: false }
         - { text: "A small AOC with a strong red reputation", correct: true }
-        - { text: "The only sparkling AOC in France", correct: false }
-        - { text: "A Médoc commune", correct: false }
+        - { text: "The district’s main Aligoté-only village", correct: false }
+        - { text: "The largest red AOC in the district", correct: false }
       explanation: |
         **Givry** rouge is well thought of; the AOC is compact. Do not
         nail “the smallest in Burgundy” — **Bouzeron** is tiny too.
@@ -1635,8 +1636,8 @@ cards:
       choices:
         - { text: "Red and white, like Mercurey", correct: false }
         - { text: "White only", correct: true }
-        - { text: "Only rosé from Pinot", correct: false }
-        - { text: "Only sparkling red", correct: false }
+        - { text: "Red only", correct: false }
+        - { text: "White and rosé", correct: false }
       explanation: |
         **Montagny** is a Chardonnay AOC. No red village wine under that
         name.
@@ -1653,13 +1654,14 @@ cards:
     en:
       question: How far do Chalonnaise classifications go?
       choices:
-        - { text: "Each village has several grands crus", correct: false }
+        - { text: "Village level only, with no premiers crus", correct: false }
         - { text: "Premier cru climats exist; there are no grands crus", correct: true }
-        - { text: "Only a German Prädikat scale", correct: false }
-        - { text: "1855 first growths only", correct: false }
+        - { text: "Premier and grand cru climats both exist", correct: false }
+        - { text: "Regional and grand cru levels, but no village AOCs", correct: false }
       explanation: |
-        **Premiers crus**, no GC map. Same story in the Mâconnais until
-        Pouilly-Fuissé’s recent 1er crus — still no grand cru there.
+        **Premiers crus**, but no grand cru. The Mâconnais now also has
+        premiers crus in Pouilly-Fuissé, Pouilly-Loché and Pouilly-Vinzelles;
+        it still has no grand cru.
 
   - id: burgundy-chalonnaise-regional-001
     type: mcq
@@ -1671,12 +1673,12 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: A Pinot or Chardonnay from the Chalonnaise that misses every village AOC is labelled what?
+      question: Which regional AOC can label Pinot Noir or Chardonnay from the Chalonnaise outside a village AOC?
       choices:
-        - { text: "Pauillac", correct: false }
+        - { text: "Bourgogne Côte d’Or", correct: false }
         - { text: "Bourgogne Côte Chalonnaise", correct: true }
-        - { text: "Côtes du Rhône Villages", correct: false }
-        - { text: "Vin de France only", correct: false }
+        - { text: "Côte de Beaune-Villages", correct: false }
+        - { text: "Bourgogne Hautes-Côtes de Beaune", correct: false }
       explanation: |
         **Bourgogne Côte Chalonnaise**. Spelling is Chalonnaise, not
         “Challonaise”.
@@ -1711,12 +1713,12 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Next to Beaujolais, which black grape fills most Mâcon rouge?
+      question: Which black grape usually dominates Mâcon rouge near Beaujolais?
       choices:
-        - { text: "Syrah only", correct: false }
+        - { text: "Pinot Noir", correct: false }
         - { text: "Gamay", correct: true }
-        - { text: "Only Cabernet Sauvignon", correct: false }
-        - { text: "Only Petit Verdot", correct: false }
+        - { text: "César", correct: false }
+        - { text: "Cabernet Franc", correct: false }
       explanation: |
         **Gamay** next to Beaujolais; a little **Pinot** as Bourgogne or
         Mâcon rouge. Not a Côte de Nuits Pinot belt.
@@ -1733,10 +1735,10 @@ cards:
     en:
       question: Below Mâcon-Villages, what single word is the regional Mâconnais AOC?
       choices:
-        - { text: "Pauillac", correct: false }
+        - { text: "Bourgogne", correct: false }
         - { text: "Mâcon", correct: true }
-        - { text: "Chablis grand cru", correct: false }
-        - { text: "Côte de Nuits-Villages", correct: false }
+        - { text: "Mâconnais", correct: false }
+        - { text: "Mâcon Supérieur", correct: false }
       explanation: |
         **Mâcon** (and Mâcon + village / Mâcon-Villages above it).
 
@@ -1752,10 +1754,10 @@ cards:
     en:
       question: Unlike Mâcon-Villages, may a wine labelled only Mâcon be red?
       choices:
-        - { text: "No — Mâcon is white only", correct: false }
+        - { text: "No — both appellations are white only", correct: false }
         - { text: "Yes", correct: true }
-        - { text: "No — it must be sparkling", correct: false }
-        - { text: "No — it must be Sauternes-sweet", correct: false }
+        - { text: "No — red requires a village name", correct: false }
+        - { text: "Yes — but only as a Pinot Noir grand cru", correct: false }
       explanation: |
         Generic **Mâcon** is red or white. **Mâcon-Villages** is the
         white-only step up — do not mix the two names.
@@ -1772,10 +1774,10 @@ cards:
     en:
       question: Should a good generic Mâcon blanc taste like a barrel-heavy Meursault?
       choices:
-        - { text: "Yes — 100% new oak and no acid", correct: false }
+        - { text: "Yes — full-bodied, heavily toasted and low in acidity", correct: false }
         - { text: "No — fresh apple or citrus, with only a possible creamy MLF note", correct: true }
-        - { text: "Yes — it must be noble-rot sweet", correct: false }
-        - { text: "Yes — it is always red cherry and tar", correct: false }
+        - { text: "No — lean, neutral and unable to undergo MLF", correct: false }
+        - { text: "Yes — rich stone fruit and prominent new oak are required", correct: false }
       explanation: |
         Ripe but still **fresh**. A touch of MLF cream is common; it is
         not a Meursault barrel recipe by default.
@@ -1790,12 +1792,12 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: How should you treat a Mâcon rouge?
+      question: Which drinking style best suits a typical Mâcon rouge?
       choices:
-        - { text: "As a 30-year Chambertin cellar wine", correct: false }
+        - { text: "Full-bodied and tannic, for long ageing", correct: false }
         - { text: "Light, fruity, drink it young", correct: true }
-        - { text: "As a late-harvest sweet wine", correct: false }
-        - { text: "As sparkling only", correct: false }
+        - { text: "Medium-sweet and best after five years", correct: false }
+        - { text: "Heavily oaked and best after a decade", correct: false }
       explanation: |
         **Gamay** (or light Pinot): early drinking. Not a Nuits grand cru.
 
@@ -1809,12 +1811,12 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Next to a generic Mâcon blanc, how should a Mâcon-Villages usually sit?
+      question: How does Mâcon-Villages usually compare with generic Mâcon blanc?
       choices:
-        - { text: "Less ripeness and a legal ban on Chardonnay", correct: false }
+        - { text: "Lighter, less ripe and less defined", correct: false }
         - { text: "A step up in weight and definition", correct: true }
-        - { text: "A grand cru Pinot ranking", correct: false }
-        - { text: "A Sauternes classification", correct: false }
+        - { text: "Similar in weight, but always sweeter", correct: false }
+        - { text: "More neutral, with higher yields and less body", correct: false }
       explanation: |
         A step up in **weight**. **Mâcon-Villages** cannot be red.
         **Mâcon-Lugny** is the named volume village.
@@ -1831,10 +1833,10 @@ cards:
     en:
       question: Which Mâcon village name is the volume bestseller on export lists?
       choices:
-        - { text: "Romanée-Conti", correct: false }
+        - { text: "Fuissé", correct: false }
         - { text: "Lugny", correct: true }
-        - { text: "Pauillac", correct: false }
-        - { text: "Sauternes", correct: false }
+        - { text: "Vergisson", correct: false }
+        - { text: "Solutré-Pouilly", correct: false }
       explanation: |
         **Mâcon-Lugny** (often the Cave de Lugny) is the supermarket
         face, not a claim that it outranks Pouilly-Fuissé for quality.
@@ -1851,10 +1853,10 @@ cards:
     en:
       question: Beside Viré-Clessé, which two Mâconnais village AOCs do most lists lead with?
       choices:
-        - { text: "Gevrey-Chambertin and Vosne-Romanée", correct: false }
+        - { text: "Pouilly-Vinzelles and Pouilly-Loché", correct: false }
         - { text: "Pouilly-Fuissé and Saint-Véran", correct: true }
-        - { text: "Pommard and Volnay", correct: false }
-        - { text: "Sauternes and Barsac", correct: false }
+        - { text: "Mâcon-Villages and Mâcon-Lugny", correct: false }
+        - { text: "Rully and Montagny", correct: false }
       explanation: |
         **Pouilly-Fuissé** and **Saint-Véran**. **Viré-Clessé** and the
         smaller Pouillys (Vinzelles, Loché) sit beside them — not
@@ -1870,12 +1872,12 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What fruit register do Pouilly-Fuissé and Saint-Véran usually show?
+      question: What fruit profile do Pouilly-Fuissé and Saint-Véran usually show?
       choices:
-        - { text: "Only green apple and no weight", correct: false }
+        - { text: "Green apple and lemon, with a light body", correct: false }
         - { text: "Ripe stone and tropical fruit", correct: true }
-        - { text: "Only red cherry and tar", correct: false }
-        - { text: "Only noble-rot saffron", correct: false }
+        - { text: "Red cherry and cranberry", correct: false }
+        - { text: "Neutral fruit with very high acidity", correct: false }
       explanation: |
         Warmer south Burgundy: **peach, apricot, sometimes pineapple**.
         Many see some **barrel** time for texture — not every cuvée is
@@ -1891,12 +1893,12 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Where do the best Pouilly-Fuissé vines often sit?
+      question: Where are many of the best Pouilly-Fuissé vineyards located?
       choices:
-        - { text: "On the Pomerol plateau", correct: false }
+        - { text: "On flat, fertile soils beside the Saône", correct: false }
         - { text: "On the Roche de Solutré’s limestone, looking east or south-east", correct: true }
-        - { text: "Only on the Chablis north bank", correct: false }
-        - { text: "Under the city of Lyon", correct: false }
+        - { text: "On north-facing granite above Lugny", correct: false }
+        - { text: "On the coolest west-facing slopes of the Mâconnais", correct: false }
       explanation: |
         **Solutré** (and **Vergisson**) limestone, E/SE. That is the
         postcard cliff above Fuissé.
@@ -1913,10 +1915,10 @@ cards:
     en:
       question: What landform around the Roche de Solutré traps extra sun?
       choices:
-        - { text: "A north-facing wind tunnel", correct: false }
+        - { text: "A narrow, shaded valley", correct: false }
         - { text: "Amphitheatre-like slopes", correct: true }
-        - { text: "A flat desert", correct: false }
-        - { text: "A glacier", correct: false }
+        - { text: "A broad, exposed plateau", correct: false }
+        - { text: "A deep river basin", correct: false }
       explanation: |
         A natural **bowl**. That is why these Chardonnays can be among
         Burgundy’s ripest — still not a Côte de Beaune grand cru by law.
@@ -1933,10 +1935,10 @@ cards:
     en:
       question: How are many Roche de Solutré / Pouilly-Fuissé wines raised?
       choices:
-        - { text: "Only in icewine presses, never oak", correct: false }
+        - { text: "Only in stainless steel to preserve a lean style", correct: false }
         - { text: "In oak, which can add a toasty note", correct: true }
-        - { text: "Only as red Gamay", correct: false }
-        - { text: "Oak is banned in the Mâconnais", correct: false }
+        - { text: "Under flor for deliberate oxidation", correct: false }
+        - { text: "In amphora with extended skin contact", correct: false }
       explanation: |
         Barrel time is common at the top. It is a **style choice**, not
         a legal duty — some growers stay in steel.
@@ -1953,10 +1955,10 @@ cards:
     en:
       question: What does Burgundy’s AOC ladder rank, unlike Bordeaux’s château lists?
       choices:
-        - { text: "The négociant’s office postcode", correct: false }
+        - { text: "The producer, regardless of vineyard origin", correct: false }
         - { text: "The quality of the vineyard site (the climat)", correct: true }
-        - { text: "Only the bottle colour", correct: false }
-        - { text: "A 1855 broker price list", correct: false }
+        - { text: "The grape variety used in each wine", correct: false }
+        - { text: "The length of barrel ageing", correct: false }
       explanation: |
         **Climats**, not brands. A grower can own rows in several ranks;
         the name on the label follows the plot.
@@ -1971,12 +1973,12 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What sits at the bottom of the Burgundy AOC ladder for still red and white?
+      question: Which appellation level forms the base of Burgundy’s hierarchy for still red and white wines?
       choices:
-        - { text: "Grand cru only", correct: false }
+        - { text: "Village Bourgogne Rouge and Bourgogne Blanc", correct: false }
         - { text: "Regional Bourgogne Rouge and Bourgogne Blanc", correct: true }
-        - { text: "Only Romanée-Conti", correct: false }
-        - { text: "Premier cru supérieur, as at Yquem", correct: false }
+        - { text: "Premier Cru Bourgogne Rouge and Bourgogne Blanc", correct: false }
+        - { text: "Bourgogne Grand Cru Rouge and Blanc", correct: false }
       explanation: |
         Generic **Bourgogne**. There are other regionals (Aligoté,
         Hautes-Côtes, Mâcon) — this pair is the floor for Pinot and
@@ -1994,10 +1996,10 @@ cards:
     en:
       question: Is every Bourgogne Rouge grown on a plot that never had a village right?
       choices:
-        - { text: "Yes — declassification is illegal", correct: false }
+        - { text: "Yes — village-eligible fruit must retain its village name", correct: false }
         - { text: "No — some lots are declassified from a higher AOC", correct: true }
-        - { text: "Yes — it must be a grand cru monopole", correct: false }
-        - { text: "Yes — it may only come from the Landes", correct: false }
+        - { text: "No — but only premier cru fruit may be declassified", correct: false }
+        - { text: "Yes — Bourgogne Rouge has its own exclusive parcels", correct: false }
       explanation: |
         Plain or declassified juice. **DRC** and others bottle some
         village leftover as Bourgogne to protect the village label.
@@ -2014,10 +2016,10 @@ cards:
     en:
       question: Why might a grower sell village-eligible wine as plain Bourgogne?
       choices:
-        - { text: "EU law forbids village labels after 1 June", correct: false }
+        - { text: "The wine completed malolactic fermentation too early", correct: false }
         - { text: "Yields ran too high, or they want to keep the village name for the best lots", correct: true }
-        - { text: "Bourgogne always scores higher than grand cru", correct: false }
-        - { text: "Pinot is illegal in Gevrey", correct: false }
+        - { text: "The wine spent less than 18 months in oak", correct: false }
+        - { text: "The grapes came from vines younger than ten years", correct: false }
       explanation: |
         **Yield over the village cap**, or a quality sort. DRC and others
         have long used a Bourgogne label for young vines or lesser
@@ -2035,10 +2037,10 @@ cards:
     en:
       question: A generic Bourgogne Rouge or Blanc is usually which pair?
       choices:
-        - { text: "Syrah and Viognier", correct: false }
+        - { text: "Gamay and Aligoté", correct: false }
         - { text: "Pinot Noir and Chardonnay", correct: true }
-        - { text: "Cabernet Sauvignon and Sémillon", correct: false }
-        - { text: "Only Riesling", correct: false }
+        - { text: "Pinot Noir and Aligoté", correct: false }
+        - { text: "Gamay and Chardonnay", correct: false }
       explanation: |
         The two stars. **Bourgogne Aligoté** is a separate label; César
         and others are footnotes.
@@ -2053,12 +2055,12 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What sits between generic Bourgogne and a village AOC on the map?
+      question: Which category lies between generic Bourgogne and village AOCs in Burgundy’s geographical hierarchy?
       choices:
-        - { text: "A 1855 first-growth rank", correct: false }
-        - { text: "Tighter regional names such as Hautes-Côtes, Côte Chalonnaise, Mâcon and Mâcon-Villages", correct: true }
-        - { text: "Only grand cru", correct: false }
-        - { text: "Only Champagne AOC", correct: false }
+        - { text: "Premier cru climats that cover several districts", correct: false }
+        - { text: "Geographically restricted regional AOCs", correct: true }
+        - { text: "Commune AOCs without a village name", correct: false }
+        - { text: "Grand cru AOCs grouped by subregion", correct: false }
       explanation: |
         **Hautes-Côtes**, **Côte Chalonnaise**, **Mâcon** and
         **Mâcon-Villages** are still regionals, not commune AOCs.
@@ -2073,12 +2075,12 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What rank sits above Bourgogne / Mâcon / Hautes-Côtes on the Burgundy ladder?
+      question: Which rank sits directly above regional AOCs such as Bourgogne, Mâcon and Hautes-Côtes?
       choices:
-        - { text: "Vin de France only", correct: false }
+        - { text: "Restricted regional appellations", correct: false }
         - { text: "Commune (village) appellations", correct: true }
-        - { text: "A German Einzellage with no AOC", correct: false }
-        - { text: "Only icewine", correct: false }
+        - { text: "Premier cru appellations", correct: false }
+        - { text: "Grand cru appellations", correct: false }
       explanation: |
         **Village / commune**: Gevrey-Chambertin, Meursault, Chablis.
         Premier and grand cru sit above that.
@@ -2095,10 +2097,10 @@ cards:
     en:
       question: Which pair are commune AOCs, one in the Yonne and one on the Côte de Nuits?
       choices:
-        - { text: "Pauillac and Pomerol", correct: false }
+        - { text: "Petit Chablis and Bourgogne Côte d’Or", correct: false }
         - { text: "Chablis and Gevrey-Chambertin", correct: true }
-        - { text: "Sauternes and Barsac only as regionals", correct: false }
-        - { text: "Only Bourgogne Rouge", correct: false }
+        - { text: "Chablis Grand Cru and Chambertin", correct: false }
+        - { text: "Bourgogne Tonnerre and Côte de Nuits-Villages", correct: false }
       explanation: |
         **Chablis** (Yonne) and **Gevrey-Chambertin** (Nuits). Both can
         also host premiers and — in these two cases — grands crus.
@@ -2115,13 +2117,14 @@ cards:
     en:
       question: Is village Burgundy a sliver like grand cru, or a much bigger slice?
       choices:
-        - { text: "Under 1%, like grand cru", correct: false }
-        - { text: "A much bigger slice — about a third", correct: true }
-        - { text: "Exactly 100%", correct: false }
-        - { text: "Village wine is illegal", correct: false }
+        - { text: "A small slice of around 5%", correct: false }
+        - { text: "A much bigger slice — about 40% including premier cru", correct: true }
+        - { text: "The majority, at around 60%", correct: false }
+        - { text: "About the same share as grand cru", correct: false }
       explanation: |
-        **Around a third**. Regionals are the volume floor; grands crus
-        are a sliver. Do not memorise a census integer.
+        Recent production averages put village wines at about **40%** when
+        premier cru is included. Regional appellations remain the majority;
+        grands crus are roughly 1%.
 
   - id: burgundy-lieu-dit-001
     type: mcq
@@ -2135,10 +2138,10 @@ cards:
     en:
       question: When may a village Burgundy add a vineyard name that is not premier or grand cru?
       choices:
-        - { text: "Never — only the commune word is legal", correct: false }
+        - { text: "Whenever several village parcels are blended", correct: false }
         - { text: "When the wine is a single lieu-dit that is not a cru", correct: true }
-        - { text: "Only if it is Champagne", correct: false }
-        - { text: "Only on a Bordeaux label", correct: false }
+        - { text: "Only when the site is awaiting premier cru status", correct: false }
+        - { text: "Whenever the producer owns the whole vineyard", correct: false }
       explanation: |
         A **lieu-dit** in smaller type. It is not a premier cru just
         because a plot is named.
@@ -2172,12 +2175,12 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What two ranks sit above village on the Burgundy ladder?
+      question: Which two ranks sit above village AOCs in Burgundy’s hierarchy?
       choices:
-        - { text: "Cru Bourgeois and Exceptionnel", correct: false }
+        - { text: "Regional and restricted regional", correct: false }
         - { text: "Premier cru and grand cru", correct: true }
-        - { text: "IGP and Vin de France", correct: false }
-        - { text: "Only Eiswein", correct: false }
+        - { text: "Lieu-dit and monopole", correct: false }
+        - { text: "Commune and climat", correct: false }
       explanation: |
         **Premier cru**, then **grand cru**. Pouilly-Fuissé now has
         premiers crus (2020) — still no grand cru in the Mâconnais.
@@ -2194,10 +2197,10 @@ cards:
     en:
       question: What is a Burgundy cru, in the premier / grand cru sense?
       choices:
-        - { text: "Any négociant brand name", correct: false }
+        - { text: "Any named lieu-dit, whether classified or not", correct: false }
         - { text: "A classified climat with a long record of superior wine", correct: true }
-        - { text: "A legal synonym for Bourgogne Rouge", correct: false }
-        - { text: "A sparkling-only category", correct: false }
+        - { text: "A domaine ranked independently of its vineyards", correct: false }
+        - { text: "A village AOC with no defined vineyard site", correct: false }
       explanation: |
         A **named, ranked site**. “Cru” on a Beaujolais bottle is a
         different village-level idea — do not mix the two.
@@ -2214,10 +2217,10 @@ cards:
     en:
       question: If a climat is a monopole, how many domaines own it?
       choices:
-        - { text: "Eighty, like Clos de Vougeot", correct: false }
+        - { text: "Two", correct: false }
         - { text: "One", correct: true }
-        - { text: "The wine must be sold only in Dijon", correct: false }
-        - { text: "Oak is banned", correct: false }
+        - { text: "A minimum of five", correct: false }
+        - { text: "Any number, provided one domaine makes the wine", correct: false }
       explanation: |
         **La Tâche**, **La Romanée**, **Romanée-Conti**, **Clos de Tart**
         — one owner. Clos de Vougeot is the opposite story.
@@ -2234,10 +2237,10 @@ cards:
     en:
       question: How is a typical Côte d’Or climat owned, unlike a Bordeaux château?
       choices:
-        - { text: "One estate owns the whole hill by law", correct: false }
+        - { text: "One domaine normally owns and farms the whole climat", correct: false }
         - { text: "It is split into many parcels under different domaines", correct: true }
-        - { text: "Only the Church may own vines", correct: false }
-        - { text: "Ownership is forbidden", correct: false }
+        - { text: "The village owns the vines and leases each vintage", correct: false }
+        - { text: "One négociant controls every parcel in the appellation", correct: false }
       explanation: |
         **Clos de Vougeot** has dozens of owners inside one wall. That
         is why two “Clos de Vougeot” bottles can taste like strangers.
@@ -2252,15 +2255,15 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Are Burgundy’s premier-cru climats a handful, or hundreds?
+      question: Roughly how many Burgundy climats are classified Premier Cru?
       choices:
-        - { text: "Exactly four, forever", correct: false }
-        - { text: "More than 600", correct: true }
-        - { text: "Two, and only in Pomerol", correct: false }
-        - { text: "None — only grands crus exist", correct: false }
+        - { text: "About 60", correct: false }
+        - { text: "About 640", correct: true }
+        - { text: "About 330", correct: false }
+        - { text: "About 1,200", correct: false }
       explanation: |
-        A **forest of 1ers** — over six hundred. Do not memorise a
-        single integer that moves when INAO redraws a line.
+        The current headline figure is about **640 Premier Cru climats**.
+        The exact count can move when the INAO approves new classifications.
 
   - id: burgundy-premier-share-001
     type: mcq
@@ -2274,14 +2277,13 @@ cards:
     en:
       question: About what share of Burgundy’s crop is premier cru?
       choices:
-        - { text: "Half the region, like generic Mâcon", correct: false }
-        - { text: "About a tenth", correct: true }
-        - { text: "Exactly 90%", correct: false }
-        - { text: "Premier cru is illegal", correct: false }
+        - { text: "About 1%", correct: false }
+        - { text: "About 12%", correct: true }
+        - { text: "About 30%", correct: false }
+        - { text: "About 50%", correct: false }
       explanation: |
-        **Around 10%**. Village wine is a bigger slice; grand cru is a
-        sliver. That share is Chablis + Côte + Chalonnaise together,
-        not a separate AOC.
+        Recent production averages put Premier Cru at about **12%**.
+        Village wine is a bigger slice; Grand Cru is roughly 1%.
 
   - id: burgundy-premier-name-001
     type: mcq
@@ -2295,10 +2297,10 @@ cards:
     en:
       question: When may a premier-cru label add the climat name as well as “Premier Cru”?
       choices:
-        - { text: "Never — only the village word is legal", correct: false }
+        - { text: "Whenever several premier cru sites are blended", correct: false }
         - { text: "When the wine comes from that single premier-cru climat", correct: true }
-        - { text: "Only on a Bordeaux bottle", correct: false }
-        - { text: "Only if it is sparkling", correct: false }
+        - { text: "Whenever the climat name belongs to the producer", correct: false }
+        - { text: "Only when the climat is a monopole", correct: false }
       explanation: |
         **Gevrey-Chambertin Clos Saint-Jacques 1er Cru**. If several
         1ers are blended, the climat name drops.
@@ -2316,7 +2318,7 @@ cards:
       question: A bottle reads “Volnay Premier Cru” and names no climat — what happened?
       choices:
         - { text: "INAO forbids climat names on every 1er wine", correct: false }
-        - { text: "Juice from more than one Volnay 1er site was assembled, so no single climat can be named", correct: true }
+        - { text: "Several Volnay Premier Cru sites were blended", correct: true }
         - { text: "The wine was declassified to Bourgogne Rouge", correct: false }
         - { text: "Only grands crus may print a climat", correct: false }
       explanation: |
@@ -2335,10 +2337,10 @@ cards:
     en:
       question: Is there a Burgundy rank above premier cru?
       choices:
-        - { text: "Cru Bourgeois Exceptionnel", correct: false }
+        - { text: "Premier cru supérieur", correct: false }
         - { text: "Grand cru", correct: true }
-        - { text: "Vin de France", correct: false }
-        - { text: "IGP only", correct: false }
+        - { text: "Grand cru classé", correct: false }
+        - { text: "Monopole", correct: false }
       explanation: |
         **Grand cru**. There is no rank above it. Volume is tiny.
 
@@ -2354,13 +2356,13 @@ cards:
     en:
       question: Roughly what share of Burgundy’s production is grand cru?
       choices:
-        - { text: "About half", correct: false }
-        - { text: "A little over 1%", correct: true }
-        - { text: "Exactly 33%", correct: false }
-        - { text: "Grand cru is the majority", correct: false }
+        - { text: "About 5%", correct: false }
+        - { text: "About 1%", correct: true }
+        - { text: "About 12%", correct: false }
+        - { text: "About 30%", correct: false }
       explanation: |
-        **Barely more than 1%**. That is why the bottles cost what they
-        cost — scarcity plus the name.
+        Grand Cru represents roughly **1%** of recent average production.
+        Scarcity is one reason the bottles command such high prices.
 
   - id: burgundy-gc-count-001
     type: mcq
@@ -2372,16 +2374,16 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: The figure “33 grands crus” counts which set?
+      question: What does Burgundy’s headline figure of 33 Grand Cru AOCs include?
       choices:
-        - { text: "Two, and only in the Mâconnais", correct: false }
-        - { text: "The Côte d’Or only — Chablis is a separate seven-climat grand-cru AOC", correct: true }
-        - { text: "Exactly 33 including Chablis as one of the 33", correct: false }
-        - { text: "None — Burgundy banned grands crus", correct: false }
+        - { text: "The 33 Côte d’Or AOCs, plus Chablis Grand Cru", correct: false }
+        - { text: "The Côte d’Or AOCs plus Chablis Grand Cru as one AOC", correct: true }
+        - { text: "The seven Chablis climats counted as seven separate AOCs", correct: false }
+        - { text: "The Côte d’Or, Chablis and Mâconnais Grand Cru AOCs", correct: false }
       explanation: |
-        The **33** is the Côte d’Or list. **Chablis Grand Cru** is a
-        separate AOC with **seven** named climats (Les Clos, Valmur,
-        …). Do not swallow “33 in Côte d’Or and Chablis” as one pile.
+        The official total is **33 Grand Cru AOCs across Burgundy**.
+        **Chablis Grand Cru** counts as one AOC containing seven named
+        climats; the remaining Grand Cru AOCs are in the Côte d’Or.
 
   - id: burgundy-gc-label-001
     type: mcq
@@ -2395,15 +2397,10 @@ cards:
     en:
       question: Besides Grand Cru, what usually appears on a Côte d’Or grand-cru label?
       choices:
-        - { text: "The village name only, with no cru mention", correct: false }
+        - { text: "The village name instead of the climat", correct: false }
         - { text: "The climat name, usually without the village", correct: true }
-        - { text: "Only the négociant’s first name", correct: false }
-        - { text: "The 1855 rank", correct: false }
+        - { text: "Both village and climat names in equal prominence", correct: false }
+        - { text: "The producer name instead of the climat", correct: false }
       explanation: |
         **Musigny Grand Cru** — no “Chambolle” required. **Chablis Grand
         Cru** keeps the word Chablis; that is the northern exception.
-
-
-
-
-

@@ -19,6 +19,7 @@ That one command lints, formats, type-checks, validates every YAML card, and run
 | `uv run wset3-anki schema` | Regenerate `schema/cards.schema.json` |
 | `uv run wset3-anki import-extract` | Dump the source `.apkg` into `import/inbox/` |
 | `uv run wset3-anki import-status` | Ledger: pending / done / rejected |
+| `make push` | Build FR, import through AnkiConnect, then sync AnkiWeb |
 
 You do **not** need Anki installed to add or review cards.
 
