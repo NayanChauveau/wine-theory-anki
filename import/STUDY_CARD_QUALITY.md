@@ -88,6 +88,13 @@ Les fausses réponses doivent être **pickables** : même classe, même cadre.
 - Stem *quel champignon* → quatre champignons / pourritures, pas le
   passerillage ni « la pourriture grise qui ruine toujours ». Le doute
   doit porter sur noble vs grise vs acide vs oïdium.
+- Stem *pourquoi les millésimes varient* → quatre aléas météo
+  (pluie, gel de printemps, canicule, grêle), pas « les sols
+  sont identiques » ni « l’AOC interdit l’assemblage ». Ces phrases
+  ne sont même pas des raisons d’année à année.
+- Échec si le leurre fermerait la région : « le gel d’hiver tue les
+  vignes la plupart des années » se jette sans le fait — sinon les
+  châteaux auraient déjà fermé.
 - Stem *sous quels noms le rosé générique* → d’autres AOC roses /
   régionales réelles (Côtes, Supérieur, Crémant), pas « Médoc Grand Cru »
   ni « Supérieur rouge seulement ».
