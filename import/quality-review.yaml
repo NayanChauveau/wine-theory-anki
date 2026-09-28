@@ -22,7 +22,7 @@
 # Agents : mettre à jour ce fichier après chaque lot (voir STUDY_CARD_QUALITY.md).
 # Lots ≤ 40 cartes. Un chapitre à la fois.
 
-updated: 2026-09-20
+updated: 2026-09-28
 
 chapters:
   c13-bordeaux:
@@ -31,15 +31,17 @@ chapters:
     agent_wave: 2026-09-20
     counts:
       cards: 135
-      agent_fixed: 117
-      agent_pass: 18
+      agent_fixed: 119
+      agent_pass: 16
       human_ok: 0
     note: >
       Première passe complète. La plupart des leurres blague ont été
       remplacés (EN+FR, même index). Quelques stems FR recastés.
       Passe longueur 2026-09-20 : clés trop longues raccourcies, détail
       dans le Why ; même index. Passe Why : plus de recopiage de la
-      clé en tête d’explication. Relecture humaine encore ouverte.
+      clé en tête d’explication. Nouvelle passe globale 2026-09-28 :
+      stems ambigus recadrés, leurres « toujours / seulement » remplacés
+      et explications incomplètes réparées. Relecture humaine encore ouverte.
     cards:
       bordeaux-left-bank-001:
         credibility: pass
@@ -87,7 +89,7 @@ chapters:
         human: pending
       bordeaux-landes-001:
         credibility: revised
-        sense: pass
+        sense: revised
         status: agent-fixed
         human: pending
       bordeaux-rain-risks-001:
@@ -110,7 +112,7 @@ chapters:
         note: "cette variation" n’avait pas d’antécédent (carte autonome)
       bordeaux-canopy-health-001:
         credibility: revised
-        sense: pass
+        sense: revised
         status: agent-fixed
         human: pending
       bordeaux-blended-001:
@@ -204,7 +206,7 @@ chapters:
         human: pending
       bordeaux-merlot-volume-001:
         credibility: revised
-        sense: pass
+        sense: revised
         status: agent-fixed
         human: pending
       bordeaux-pv-hot-years-001:
@@ -262,12 +264,12 @@ chapters:
         human: pending
       bordeaux-pl-blend-001:
         credibility: pass
-        sense: pass
-        status: agent-pass
+        sense: revised
+        status: agent-fixed
         human: pending
       bordeaux-semillon-body-001:
         credibility: revised
-        sense: pass
+        sense: revised
         status: agent-fixed
         human: pending
       bordeaux-sb-aroma-001:
@@ -303,7 +305,7 @@ chapters:
         note: « assaisonnement » → cépage d’appoint (clé FR)
       bordeaux-cheap-white-style-001:
         credibility: revised
-        sense: pass
+        sense: revised
         status: agent-fixed
         human: pending
       bordeaux-cheap-white-vinif-001:
@@ -319,7 +321,8 @@ chapters:
         note: « voient-ils le chêne » → « Comment le chêne intervient-il »
       bordeaux-premium-white-style-001:
         credibility: revised
-        sense: pass
+        why: revised
+        sense: revised
         status: agent-fixed
         human: pending
       bordeaux-sweet-botrytis-001:
@@ -444,7 +447,8 @@ chapters:
         human: pending
       bordeaux-superieur-001:
         credibility: revised
-        sense: pass
+        why: revised
+        sense: revised
         status: agent-fixed
         human: pending
       bordeaux-white-rose-labels-001:
@@ -573,7 +577,7 @@ chapters:
         note: « meilleures graves du nord » gardé (français du vin)
       bordeaux-rb-merlot-001:
         credibility: revised
-        sense: pass
+        sense: revised
         status: agent-fixed
         human: pending
       bordeaux-rb-franc-001:
@@ -583,7 +587,8 @@ chapters:
         human: pending
       bordeaux-st-em-larger-001:
         credibility: revised
-        sense: pass
+        why: revised
+        sense: revised
         status: agent-fixed
         human: pending
       bordeaux-st-em-three-zones-001:
@@ -600,7 +605,7 @@ chapters:
         note: « se tiennent » → « se situent »
       bordeaux-st-em-cote-001:
         credibility: revised
-        sense: pass
+        sense: revised
         status: agent-fixed
         human: pending
       bordeaux-st-em-prestige-zones-001:
@@ -617,7 +622,7 @@ chapters:
         human: pending
       bordeaux-st-em-plain-001:
         credibility: revised
-        sense: pass
+        sense: revised
         status: agent-fixed
         human: pending
       bordeaux-pomerol-style-001:
@@ -649,7 +654,7 @@ chapters:
         human: pending
       bordeaux-cotes-four-001:
         credibility: revised
-        sense: pass
+        sense: revised
         status: agent-fixed
         human: pending
       bordeaux-cotes-style-001:
@@ -669,8 +674,8 @@ chapters:
         human: pending
       bordeaux-edm-red-label-001:
         credibility: pass
-        sense: pass
-        status: agent-pass
+        sense: revised
+        status: agent-fixed
         human: pending
       bordeaux-graves-colours-001:
         credibility: revised
@@ -695,12 +700,12 @@ chapters:
         human: pending
       bordeaux-pessac-blanc-style-001:
         credibility: revised
-        sense: pass
+        sense: revised
         status: agent-fixed
         human: pending
       bordeaux-pessac-blanc-oak-note-001:
         credibility: revised
-        sense: pass
+        sense: revised
         status: agent-fixed
         human: pending
       bordeaux-medoc-sauternes-white-001:
@@ -715,7 +720,8 @@ chapters:
         human: pending
       bordeaux-botrytis-mist-001:
         credibility: revised
-        sense: pass
+        why: revised
+        sense: revised
         status: agent-fixed
         human: pending
       bordeaux-passerillage-001:
@@ -735,7 +741,7 @@ chapters:
         human: pending
       bordeaux-barsac-where-001:
         credibility: revised
-        sense: pass
+        sense: revised
         status: agent-fixed
         human: pending
       bordeaux-barsac-label-001:
