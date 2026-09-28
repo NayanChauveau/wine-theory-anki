@@ -2,4 +2,1189 @@
 # source: C41 (import/inbox/c41-sparkling-production.yaml)
 # deck: Sparkling Production
 
-cards: []
+cards:
+  - id: sparkling-grape-profile-001
+    type: mcq
+    deck: Sparkling Production
+    tags: [sparkling, viticulture]
+    status: reviewed
+    source_id: c41-0001
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which grape profile best suits a fresh, high-quality sparkling wine?
+      choices:
+        - { text: "High sugar, low acidity and jammy flavours", correct: false }
+        - { text: "Low sugar, high acidity and ripe non-herbaceous flavours", correct: true }
+        - { text: "High sugar, high tannin and dried-fruit flavours", correct: false }
+        - { text: "Low sugar, low acidity and strongly vegetal flavours", correct: false }
+      explanation: |
+        A typical still base wine is around **10–11% abv** because the
+        second fermentation adds roughly **1.2–1.3% abv**. Acidity supplies
+        freshness, but flavour ripeness still matters: picking too early can
+        leave overtly green notes.
+
+  - id: sparkling-cool-climate-001
+    type: mcq
+    deck: Sparkling Production
+    tags: [sparkling, viticulture]
+    status: reviewed
+    source_id: c41-0005
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Why do cool regions often suit grapes for sparkling wine?
+      choices:
+        - { text: "They preserve acidity while flavours ripen gradually", correct: true }
+        - { text: "They lower acidity while flavours ripen gradually", correct: false }
+        - { text: "They raise sugar rapidly while delaying flavour ripeness", correct: false }
+        - { text: "They develop ripe flavours only after acidity is lost", correct: false }
+      explanation: |
+        Slow ripening gives growers a wider window in which sugar remains
+        moderate and acidity stays high while unripe flavours diminish. In a
+        warm region, sugar can rise and acidity can fall much faster.
+
+  - id: sparkling-warm-region-pick-001
+    type: mcq
+    deck: Sparkling Production
+    tags: [sparkling, viticulture]
+    status: reviewed
+    source_id: c41-0008
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: When sparkling-wine grapes are picked early in a warm region to retain acidity, what is the main risk?
+      choices:
+        - { text: "Excessively high potential alcohol", correct: false }
+        - { text: "Green and herbaceous flavours", correct: true }
+        - { text: "Very low acidity in the juice", correct: false }
+        - { text: "Overripe and dried-fruit flavours", correct: false }
+      explanation: |
+        Early harvest can retain the low potential alcohol and high acidity
+        needed for a base wine. The risk is that flavour development lags
+        behind those analytical targets.
+
+  - id: sparkling-harvest-method-001
+    type: mcq
+    deck: Sparkling Production
+    tags: [sparkling, viticulture]
+    status: reviewed
+    source_id: c41-0009
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which harvest approach is most typical for premium traditional-method sparkling wine?
+      choices:
+        - { text: "Machine harvest to gather grapes as rapidly as possible", correct: false }
+        - { text: "Hand harvest to deliver intact bunches", correct: true }
+        - { text: "Late hand harvest to concentrate sugar", correct: false }
+        - { text: "Selective hand harvest of only the ripest berries", correct: false }
+      explanation: |
+        Intact bunches and berries help limit skin contact before pressing.
+        Machine harvesting can still be an efficient choice for inexpensive
+        sparkling wine in warm areas where fruit must be gathered quickly.
+
+  - id: sparkling-pressing-gentle-001
+    type: mcq
+    deck: Sparkling Production
+    tags: [sparkling, winemaking]
+    status: reviewed
+    source_id: c41-0010
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How are grapes commonly handled on arrival for a white sparkling base wine?
+      choices:
+        - { text: "Crushed, macerated and pressed at high pressure", correct: false }
+        - { text: "Pressed promptly and gently, often as whole bunches", correct: true }
+        - { text: "Destemmed and held warm before pressing", correct: false }
+        - { text: "Dried after crushing and pressed several weeks later", correct: false }
+      explanation: |
+        Prompt, gentle pressing limits extraction of **colour and tannin**.
+        That is especially important when black grapes are used to make a
+        white sparkling wine.
+
+  - id: sparkling-pressing-law-001
+    type: mcq
+    deck: Sparkling Production
+    tags: [sparkling, law, winemaking]
+    status: reviewed
+    source_id: c41-0013
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What aspect of pressing is commonly regulated for European sparkling wines?
+      choices:
+        - { text: "The minimum skin-contact time and final juice colour", correct: false }
+        - { text: "The maximum pressure and juice yield from a given grape weight", correct: true }
+        - { text: "The required number and duration of individual press cycles", correct: false }
+        - { text: "The permitted press type and minimum whole-bunch proportion", correct: false }
+      explanation: |
+        Yield limits discourage hard pressing for extra juice. Later press
+        fractions generally contain more phenolics and may be less suitable
+        for the finest white sparkling wines.
+
+  - id: sparkling-five-methods-001
+    type: mcq
+    deck: Sparkling Production
+    tags: [sparkling, winemaking]
+    status: reviewed
+    source_id: c41-0014
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which sparkling-wine production route creates bubbles by injecting carbon dioxide?
+      choices:
+        - { text: "Carbonation", correct: true }
+        - { text: "Traditional method", correct: false }
+        - { text: "Transfer method", correct: false }
+        - { text: "Tank method", correct: false }
+      explanation: |
+        Traditional, transfer, tank and Asti methods all capture carbon
+        dioxide produced by fermentation. Direct carbonation is the fifth
+        principal route and is the only one that injects the gas.
+
+  - id: sparkling-method-choice-001
+    type: mcq
+    deck: Sparkling Production
+    tags: [sparkling, winemaking]
+    status: reviewed
+    source_id: c41-0015
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What most directly determines a producer’s choice of sparkling-wine method?
+      choices:
+        - { text: "Vineyard yield, vine age and harvest-team size", correct: false }
+        - { text: "Applicable law, intended style and production cost", correct: true }
+        - { text: "Base-wine colour, vineyard slope and bottle capacity", correct: false }
+        - { text: "Press-cycle length, cellar humidity and closure supplier", correct: false }
+      explanation: |
+        European appellation rules may prescribe a method. Where the law
+        allows a choice, desired flavour, production time, scale and price
+        position all influence the decision.
+
+  - id: sparkling-traditional-definition-001
+    type: mcq
+    deck: Sparkling Production
+    tags: [sparkling, traditional-method]
+    status: reviewed
+    source_id: c41-0016
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What defines the traditional method of sparkling-wine production?
+      choices:
+        - { text: "The wine is carbonated immediately before bottling", correct: false }
+        - { text: "Second fermentation occurs in the bottle eventually sold", correct: true }
+        - { text: "Second fermentation occurs in a sealed pressure tank", correct: false }
+        - { text: "Fermenting wine is filtered into a different bottle", correct: false }
+      explanation: |
+        The bottle used for the second fermentation remains the final bottle;
+        riddling and disgorgement remove its yeast sediment. This labour- and
+        time-intensive route is associated with many premium sparkling wines.
+
+  - id: sparkling-traditional-economics-001
+    type: mcq
+    deck: Sparkling Production
+    tags: [sparkling, traditional-method]
+    status: reviewed
+    source_id: c41-0018
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which commercial trade-off is typical of the traditional method?
+      choices:
+        - { text: "Low production cost but little control over pressure", correct: false }
+        - { text: "High time and labour costs but strong price potential", correct: true }
+        - { text: "Short production time but compulsory long tank ageing", correct: false }
+        - { text: "Low labour needs but mandatory hand bottling", correct: false }
+      explanation: |
+        Extended cellar storage and bottle-by-bottle sediment removal tie up
+        capital and add cost. Premium positioning can compensate by allowing
+        the finished wines to command higher prices.
+
+  - id: sparkling-traditional-sequence-001
+    type: mcq
+    deck: Sparkling Production
+    tags: [sparkling, traditional-method]
+    status: reviewed
+    source_id: c41-0020
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which sequence correctly follows preparation of a traditional-method blend?
+      choices:
+        - { text: "Riddling → tirage → second fermentation → disgorgement", correct: false }
+        - { text: "Tirage → second fermentation → lees ageing → riddling → disgorgement", correct: true }
+        - { text: "Disgorgement → lees ageing → tirage → second fermentation", correct: false }
+        - { text: "Second fermentation → tirage → riddling → lees ageing", correct: false }
+      explanation: |
+        After disgorgement, the bottle is topped up, closed with its final
+        cork and may receive further bottle ageing before release.
+
+  - id: sparkling-base-fermentation-vessel-001
+    type: mcq
+    deck: Sparkling Production
+    tags: [sparkling, winemaking]
+    status: reviewed
+    source_id: c41-0021
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Where does primary fermentation most commonly occur for a traditional-method base wine?
+      choices:
+        - { text: "In large, old oak vats", correct: false }
+        - { text: "In temperature-controlled stainless-steel tanks", correct: true }
+        - { text: "In small, new oak barrels", correct: false }
+        - { text: "In temperature-controlled concrete vessels", correct: false }
+      explanation: |
+        Stainless steel helps retain a neutral, fresh base. Some producers
+        ferment a portion in oak vats or barrels to add texture and flavour.
+
+  - id: sparkling-base-wine-profile-001
+    type: mcq
+    deck: Sparkling Production
+    tags: [sparkling, winemaking]
+    status: reviewed
+    source_id: c41-0022
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What is the usual profile of a base wine before traditional-method secondary fermentation?
+      choices:
+        - { text: "Sweet, aromatic and low in acidity", correct: false }
+        - { text: "Dry, fairly neutral and high in acidity", correct: true }
+        - { text: "Oxidative, fortified and high in tannin", correct: false }
+        - { text: "Off-dry, deeply coloured and low in alcohol", correct: false }
+      explanation: |
+        The base wine can taste lean on its own. Secondary fermentation,
+        lees ageing and dosage later build texture and balance while the
+        starting acidity preserves freshness.
+
+  - id: sparkling-base-wine-options-001
+    type: mcq
+    deck: Sparkling Production
+    tags: [sparkling, winemaking]
+    status: reviewed
+    source_id: c41-0023
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which choices can shape a base wine before blending and secondary fermentation?
+      choices:
+        - { text: "Malolactic conversion and maturation in oak", correct: true }
+        - { text: "Disgorgement and final corking", correct: false }
+        - { text: "Riddling and addition of expedition liqueur", correct: false }
+        - { text: "Carbonation and immediate retail release", correct: false }
+      explanation: |
+        Malolactic conversion softens acidity and can add buttery notes;
+        oak can contribute texture and spice. Producers may use either,
+        both or neither according to the intended style.
+
+  - id: sparkling-reserve-wine-use-001
+    type: mcq
+    deck: Sparkling Production
+    tags: [sparkling, blending]
+    status: reviewed
+    source_id: c41-0024
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Why might a producer retain some sparkling base wine beyond the following year?
+      choices:
+        - { text: "To use it as a reserve component in later blends", correct: true }
+        - { text: "To make its acidity increase through bottle pressure", correct: false }
+        - { text: "To replace yeast during the next primary fermentation", correct: false }
+        - { text: "To ensure every future wine is vintage-dated", correct: false }
+      explanation: |
+        Most base wine is used relatively soon, while retained parcels broaden
+        the blending palette in later years and help reduce vintage variation.
+
+  - id: sparkling-blending-goals-001
+    type: mcq
+    deck: Sparkling Production
+    tags: [sparkling, blending]
+    status: reviewed
+    source_id: c41-0025
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What are the main aims of blending base wines for sparkling production?
+      choices:
+        - { text: "Higher pressure, darker colour and greater sweetness", correct: false }
+        - { text: "Consistent style, improved balance and added complexity", correct: true }
+        - { text: "Lower acidity, faster harvest and reduced bottle weight", correct: false }
+        - { text: "Earlier disgorgement, stronger tannin and higher yield", correct: false }
+      explanation: |
+        A producer can combine varieties, vineyards, vintages and winemaking
+        treatments. This is particularly important when a recognisable house
+        style must be maintained despite annual variation.
+
+  - id: sparkling-chardonnay-pinot-blend-001
+    type: mcq
+    deck: Sparkling Production
+    tags: [sparkling, blending, grapes]
+    status: reviewed
+    source_id: c41-0026
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which contribution is conventionally associated with Chardonnay and Pinot Noir in a sparkling blend?
+      choices:
+        - { text: "Chardonnay: red fruit and body; Pinot Noir: citrus and finesse", correct: false }
+        - { text: "Chardonnay: citrus and finesse; Pinot Noir: red fruit and body", correct: true }
+        - { text: "Chardonnay: tannin and spice; Pinot Noir: floral sweetness", correct: false }
+        - { text: "Chardonnay: dried fruit; Pinot Noir: herbal acidity", correct: false }
+      explanation: |
+        Chardonnay is also associated with longevity, while Pinot Noir can
+        strengthen structure. These are useful blending tendencies rather
+        than fixed outcomes for every parcel.
+
+  - id: sparkling-old-reserve-flavour-001
+    type: mcq
+    deck: Sparkling Production
+    tags: [sparkling, blending]
+    status: reviewed
+    source_id: c41-0027
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What can an older reserve wine contribute to a sparkling blend?
+      choices:
+        - { text: "Dried-fruit complexity", correct: true }
+        - { text: "Freshly fermented banana aromas", correct: false }
+        - { text: "Primary green-herb flavours", correct: false }
+        - { text: "Newly extracted grape tannin", correct: false }
+      explanation: |
+        Mature reserve material adds an evolved layer that a young base wine
+        cannot supply, making the final blend more complex and helping define
+        a producer’s style.
+
+  - id: sparkling-oak-component-001
+    type: mcq
+    deck: Sparkling Production
+    tags: [sparkling, blending]
+    status: reviewed
+    source_id: c41-0028
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which blending component can add breadth and spice to a sparkling wine?
+      choices:
+        - { text: "A parcel matured in oak", correct: true }
+        - { text: "A young parcel fermented in stainless steel", correct: false }
+        - { text: "A later press fraction rich in phenolics", correct: false }
+        - { text: "A high-acid parcel matured without oxygen", correct: false }
+      explanation: |
+        Oak-matured wine is generally one component rather than the entire
+        blend, allowing texture and spice to be introduced without masking
+        freshness.
+
+  - id: sparkling-parcel-fermentation-001
+    type: mcq
+    deck: Sparkling Production
+    tags: [sparkling, blending]
+    status: reviewed
+    source_id: c41-0029
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How can a sparkling-wine producer maximise later blending options?
+      choices:
+        - { text: "Combine every grape lot before primary fermentation", correct: false }
+        - { text: "Ferment many grape parcels separately", correct: true }
+        - { text: "Disgorge every bottle at a different time", correct: false }
+        - { text: "Use a single reserve wine for every blend", correct: false }
+      explanation: |
+        Separate lots preserve differences in variety, origin and treatment.
+        The blender can then select among them for balance, complexity and
+        stylistic consistency.
+
+  - id: sparkling-tirage-contents-001
+    type: mcq
+    deck: Sparkling Production
+    tags: [sparkling, traditional-method]
+    status: reviewed
+    source_id: c41-0031
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What does the liqueur de tirage add to a traditional-method blend?
+      choices:
+        - { text: "Wine, sugar, yeast, nutrients and a clarifying agent", correct: true }
+        - { text: "Wine, dosage syrup, sulphur dioxide and oak extract", correct: false }
+        - { text: "Grape spirit, sugar, tannin and a colouring agent", correct: false }
+        - { text: "Reserve wine, carbon dioxide, acid and bentonite only", correct: false }
+      explanation: |
+        The sugar and yeast initiate the bottle fermentation. The clarifying
+        aid helps the resulting sediment move cleanly during riddling.
+
+  - id: sparkling-second-fermentation-setup-001
+    type: mcq
+    deck: Sparkling Production
+    tags: [sparkling, traditional-method]
+    status: reviewed
+    source_id: c41-0032
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which setup allows traditional-method secondary fermentation to proceed?
+      choices:
+        - { text: "Upright crown-capped bottles in a warm cellar", correct: false }
+        - { text: "Horizontal crown-capped bottles in a cool, steady cellar", correct: true }
+        - { text: "Horizontal cork-sealed bottles in a cool, steady cellar", correct: false }
+        - { text: "Inverted crown-capped bottles in a warm cellar", correct: false }
+      explanation: |
+        A small plastic cup inside the crown cap later receives the yeast
+        sediment. Cool, constant conditions favour a slow, controlled
+        fermentation and maturation.
+
+  - id: sparkling-second-fermentation-result-001
+    type: mcq
+    deck: Sparkling Production
+    tags: [sparkling, traditional-method]
+    status: reviewed
+    source_id: c41-0033
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What changes during traditional-method secondary fermentation in bottle?
+      choices:
+        - { text: "Alcohol falls and carbon dioxide escapes", correct: false }
+        - { text: "Alcohol rises and dissolved carbon dioxide creates pressure", correct: true }
+        - { text: "Sugar rises and acidity disappears", correct: false }
+        - { text: "Tannin rises and the wine becomes still", correct: false }
+      explanation: |
+        Fermentation adds about **1.2–1.3% abv** and produces carbon dioxide
+        that cannot escape. The finished pressure is typically around
+        **five to six atmospheres**.
+
+  - id: sparkling-autolysis-001
+    type: mcq
+    deck: Sparkling Production
+    tags: [sparkling, lees-ageing]
+    status: reviewed
+    source_id: c41-0035
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What is yeast autolysis during sparkling-wine lees ageing?
+      choices:
+        - { text: "Living yeast consumes dosage after disgorgement", correct: false }
+        - { text: "Dead yeast cells break down and release compounds into wine", correct: true }
+        - { text: "Grape skins release colour during bottle fermentation", correct: false }
+        - { text: "Acid crystals dissolve and create carbon dioxide", correct: false }
+      explanation: |
+        Autolysis develops **bread, biscuit and toast** notes, which become
+        more pronounced with longer lees ageing. The process can continue for
+        several years before the yeast sediment becomes largely inert.
+
+  - id: sparkling-inert-lees-001
+    type: mcq
+    deck: Sparkling Production
+    tags: [sparkling, lees-ageing]
+    status: reviewed
+    source_id: c41-0039
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Why may a traditional-method wine remain on its lees after most autolysis has occurred?
+      choices:
+        - { text: "The sealed bottle can preserve freshness for years", correct: true }
+        - { text: "The lees keep increasing alcohol after sugar is exhausted", correct: false }
+        - { text: "The lees progressively soften acidity through malolactic conversion", correct: false }
+        - { text: "The lees raise pressure long after fermentation has stopped", correct: false }
+      explanation: |
+        Ageing before disgorgement protects the wine from oxygen. This can
+        retain freshness while allowing gradual integration of its lees-aged
+        character.
+
+  - id: sparkling-riddling-purpose-001
+    type: mcq
+    deck: Sparkling Production
+    tags: [sparkling, traditional-method]
+    status: reviewed
+    source_id: c41-0041
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How do riddling and disgorgement work together?
+      choices:
+        - { text: "Riddling dissolves lees; disgorgement starts fermentation", correct: false }
+        - { text: "Riddling gathers lees at the neck; disgorgement expels them", correct: true }
+        - { text: "Riddling adds dosage; disgorgement increases pressure", correct: false }
+        - { text: "Riddling filters the wine; disgorgement adds yeast", correct: false }
+      explanation: |
+        The bottle is gradually moved from horizontal to inverted, encouraging
+        sediment to collect in the cup beneath the crown cap. It can then be
+        removed with minimal loss of wine.
+
+  - id: sparkling-hand-riddling-001
+    type: mcq
+    deck: Sparkling Production
+    tags: [sparkling, traditional-method]
+    status: reviewed
+    source_id: c41-0044
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which description matches traditional hand riddling?
+      choices:
+        - { text: "Bottles are turned weekly while remaining horizontal", correct: false }
+        - { text: "Bottles on pupitres are twisted and raised a little each day", correct: true }
+        - { text: "Bottles are inverted once and left still until disgorgement", correct: false }
+        - { text: "Bottles are rolled upright without being tilted or twisted", correct: false }
+      explanation: |
+        A **pupitre** is the A-frame rack used for the process. Manual riddling
+        is labour-intensive and can take up to about eight weeks.
+
+  - id: sparkling-gyropalette-001
+    type: mcq
+    deck: Sparkling Production
+    tags: [sparkling, traditional-method]
+    status: reviewed
+    source_id: c41-0049
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What does a gyropalette do in traditional-method production?
+      choices:
+        - { text: "Presses whole bunches in small pneumatic batches", correct: false }
+        - { text: "Rotates and tilts a cage of bottles to collect sediment", correct: true }
+        - { text: "Freezes bottle necks immediately after tirage", correct: false }
+        - { text: "Injects dosage through the crown cap during ageing", correct: false }
+      explanation: |
+        A hydraulic arm moves a cage holding hundreds of bottles. Mechanical
+        riddling is faster, needs less labour and treats a large batch at once.
+
+  - id: sparkling-disgorgement-001
+    type: mcq
+    deck: Sparkling Production
+    tags: [sparkling, traditional-method]
+    status: reviewed
+    source_id: c41-0053
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What happens during the usual disgorgement process for a traditional-method wine?
+      choices:
+        - { text: "The frozen neck deposit is expelled when the crown cap is removed", correct: true }
+        - { text: "The warm neck deposit is dissolved by rotating the upright bottle", correct: false }
+        - { text: "The lees are filtered out while the wine remains in its original bottle", correct: false }
+        - { text: "The sediment is trapped by a cork inserted before secondary fermentation", correct: false }
+      explanation: |
+        The inverted bottle neck is frozen, trapping the collected sediment
+        in a small plug. When the crown cap is removed, internal pressure
+        ejects the plug and the plastic insert with little loss of wine.
+
+  - id: sparkling-expedition-liqueur-001
+    type: mcq
+    deck: Sparkling Production
+    tags: [sparkling, dosage]
+    status: reviewed
+    source_id: c41-0056
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What is the liqueur d’expédition added after disgorgement?
+      choices:
+        - { text: "A wine-and-sugar mixture used for topping up and dosage", correct: true }
+        - { text: "A yeast-and-sugar mixture used to start bottle fermentation", correct: false }
+        - { text: "A grape-spirit mixture used to stop bottle fermentation", correct: false }
+        - { text: "A wine-and-yeast mixture used to restart autolysis", correct: false }
+      explanation: |
+        It replaces wine lost at disgorgement. Its sugar is the **dosage**,
+        which balances acidity; the liquid component also gives the producer
+        a final opportunity to tune the house style.
+
+  - id: sparkling-zero-dosage-001
+    type: mcq
+    deck: Sparkling Production
+    tags: [sparkling, dosage, law]
+    status: reviewed
+    source_id: c41-0058
+    review:
+      fact_check: pass
+      sources: [spec]
+    en:
+      question: What does Brut Nature or Zéro Dosage indicate on an EU sparkling wine?
+      choices:
+        - { text: "Under 3 g/L sugar, with no sugar added after secondary fermentation", correct: true }
+        - { text: "Up to 6 g/L sugar, with dosage permitted after secondary fermentation", correct: false }
+        - { text: "Up to 12 g/L sugar, with dosage required after secondary fermentation", correct: false }
+        - { text: "Over 12 g/L sugar, with no restriction on post-fermentation dosage", correct: false }
+      explanation: |
+        The bottle may still be topped up with wine after disgorgement. The
+        restriction concerns adding **sugar** after the secondary fermentation.
+
+  - id: sparkling-post-disgorgement-closure-001
+    type: mcq
+    deck: Sparkling Production
+    tags: [sparkling, traditional-method]
+    status: reviewed
+    source_id: c41-0054
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which sequence normally follows disgorgement of a traditional-method wine?
+      choices:
+        - { text: "Add tirage, fit a crown cap and begin lees ageing", correct: false }
+        - { text: "Top up, add dosage if required, then cork and wire", correct: true }
+        - { text: "Riddle again, filter the bottle and add fresh yeast", correct: false }
+        - { text: "Transfer to tank, restart fermentation and recork", correct: false }
+      explanation: |
+        Modern lines complete these operations in seconds to limit pressure
+        loss and oxidation. The wire cage holds the compressed cork securely
+        against the wine’s internal pressure.
+
+  - id: sparkling-cork-security-001
+    type: mcq
+    deck: Sparkling Production
+    tags: [sparkling, packaging]
+    status: reviewed
+    source_id: c41-0062
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How does a sparkling-wine cork form and maintain a secure seal?
+      choices:
+        - { text: "It expands after light insertion and needs no external restraint", correct: false }
+        - { text: "It is strongly compressed into the neck and held by a wire cage", correct: true }
+        - { text: "It is glued to the glass and covered with a crown cap", correct: false }
+        - { text: "It is frozen before insertion and secured by bottle pressure", correct: false }
+      explanation: |
+        Before insertion, the cork’s cross-section is much wider than the
+        bottle opening. Compression makes the seal; the **muselet** prevents
+        pressure from forcing the cork out.
+
+  - id: sparkling-post-disgorgement-ageing-001
+    type: mcq
+    deck: Sparkling Production
+    tags: [sparkling, maturation]
+    status: reviewed
+    source_id: c41-0066
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Why is a sparkling wine often held for a period after disgorgement?
+      choices:
+        - { text: "To let the expedition liqueur integrate with the wine", correct: true }
+        - { text: "To allow riddling to move the lees into the neck", correct: false }
+        - { text: "To begin the bottle’s secondary alcoholic fermentation", correct: false }
+        - { text: "To increase pressure by warming the sealed bottle", correct: false }
+      explanation: |
+        Several months can help the wine settle after disgorgement and make
+        the dosage feel integrated. Some premium wines also benefit from
+        longer post-disgorgement maturation.
+
+  - id: sparkling-disgorgement-date-001
+    type: mcq
+    deck: Sparkling Production
+    tags: [sparkling, labelling]
+    status: reviewed
+    source_id: c41-0068
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which optional label detail best helps a buyer judge the post-lees age of a non-vintage sparkling wine?
+      choices:
+        - { text: "Harvest-start date", correct: false }
+        - { text: "Tirage date", correct: false }
+        - { text: "Disgorgement date", correct: true }
+        - { text: "Base-wine bottling date", correct: false }
+      explanation: |
+        Most non-vintage wines do not reveal a harvest year. A disgorgement
+        date shows when lees ageing ended and helps distinguish a recent
+        release from a bottle that has spent longer under its final cork.
+
+  - id: sparkling-transfer-purpose-001
+    type: mcq
+    deck: Sparkling Production
+    tags: [sparkling, transfer-method]
+    status: reviewed
+    source_id: c41-0069
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What is the defining practical aim of the transfer method?
+      choices:
+        - { text: "Retain bottle fermentation while avoiding individual riddling and disgorgement", correct: true }
+        - { text: "Replace bottle fermentation with direct carbon-dioxide injection", correct: false }
+        - { text: "Keep the entire process in one tank from juice to bottling", correct: false }
+        - { text: "Stop a single fermentation early to preserve residual sugar", correct: false }
+      explanation: |
+        Production mirrors the traditional method through secondary
+        fermentation in bottle. The bottles are then emptied under pressure
+        so sediment can be removed from the combined wine in bulk.
+
+  - id: sparkling-transfer-sequence-001
+    type: mcq
+    deck: Sparkling Production
+    tags: [sparkling, transfer-method]
+    status: reviewed
+    source_id: c41-0072
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which sequence follows bottle fermentation in the transfer method?
+      choices:
+        - { text: "Riddle bottles → freeze necks → disgorge each bottle → recork", correct: false }
+        - { text: "Empty under pressure → filter in tank → adjust dosage → rebottle", correct: true }
+        - { text: "Open bottles → aerate in vat → add tirage → rebottle", correct: false }
+        - { text: "Inject carbon dioxide → filter in bottle → add yeast → recork", correct: false }
+      explanation: |
+        Pressure is maintained throughout transfer, filtration and rebottling
+        so the dissolved carbon dioxide is retained.
+
+  - id: sparkling-transfer-economics-001
+    type: mcq
+    deck: Sparkling Production
+    tags: [sparkling, transfer-method]
+    status: reviewed
+    source_id: c41-0073
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What is a major commercial advantage of the transfer method?
+      choices:
+        - { text: "It combines bottle-fermented character with efficient batch processing", correct: true }
+        - { text: "It eliminates both secondary fermentation and pressure-resistant equipment", correct: false }
+        - { text: "It gives every bottle a deliberately different dosage and style", correct: false }
+        - { text: "It requires longer hand riddling but lowers the cost of glass", correct: false }
+      explanation: |
+        Bulk filtration and rebottling reduce labour and cost while making a
+        large batch consistent. Quality can remain good because the second
+        fermentation still takes place in bottle.
+
+  - id: sparkling-transfer-label-001
+    type: mcq
+    deck: Sparkling Production
+    tags: [sparkling, transfer-method, labelling]
+    status: reviewed
+    source_id: c41-0074
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Why can a transfer-method wine legitimately be described as bottle-fermented?
+      choices:
+        - { text: "Its secondary fermentation occurred in a bottle before bulk transfer", correct: true }
+        - { text: "Its primary fermentation occurred in the bottle eventually sold", correct: false }
+        - { text: "Its dosage fermented after the final bottle received its cork", correct: false }
+        - { text: "Its carbon dioxide was injected after wine entered the final bottle", correct: false }
+      explanation: |
+        The bottle used for secondary fermentation is emptied under pressure;
+        the filtered wine is later filled into a fresh bottle. It therefore
+        lacks the traditional method’s same-bottle continuity.
+
+  - id: sparkling-tank-style-001
+    type: mcq
+    deck: Sparkling Production
+    tags: [sparkling, tank-method]
+    status: reviewed
+    source_id: c41-0076
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which wine style is particularly well suited to the tank method?
+      choices:
+        - { text: "An aromatic, fruit-led wine intended for early drinking", correct: true }
+        - { text: "A deeply autolytic wine requiring long individual bottle ageing", correct: false }
+        - { text: "An oxidative wine matured for years in partly filled barrels", correct: false }
+        - { text: "A tannic red requiring extended skin maceration after tirage", correct: false }
+      explanation: |
+        Pressurised tanks preserve primary fruit and floral aromas, making the
+        method suitable for grapes such as Muscat and Riesling and styles such
+        as Prosecco. It is also faster and less labour-intensive.
+
+  - id: sparkling-tank-quality-001
+    type: mcq
+    deck: Sparkling Production
+    tags: [sparkling, tank-method]
+    status: reviewed
+    source_id: c41-0078
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which statement best describes the quality potential of the tank method?
+      choices:
+        - { text: "It inevitably produces lower-quality wine than bottle fermentation", correct: false }
+        - { text: "It can produce high quality when fruit and processing are carefully managed", correct: true }
+        - { text: "It produces high quality only when all primary aromas are removed", correct: false }
+        - { text: "It is suitable only for wines that receive direct carbonation", correct: false }
+      explanation: |
+        Method should match intended style. Tank production is not designed
+        to imitate long lees-aged traditional-method wine, but it can express
+        aromatic grapes and fresh fruit with precision.
+
+  - id: sparkling-tank-base-treatment-001
+    type: mcq
+    deck: Sparkling Production
+    tags: [sparkling, tank-method]
+    status: reviewed
+    source_id: c41-0079
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How is a fruit-led base wine commonly prepared for the tank method?
+      choices:
+        - { text: "In stainless steel, usually without malolactic conversion or oak ageing", correct: true }
+        - { text: "In new oak, normally with full malolactic conversion and oxidation", correct: false }
+        - { text: "In bottle, with prolonged lees ageing before primary fermentation", correct: false }
+        - { text: "In open vats, with warm maceration to maximise tannin extraction", correct: false }
+      explanation: |
+        Temperature-controlled stainless steel protects varietal fruit and
+        floral notes. Avoiding oak and malolactic conversion helps keep those
+        aromas clear and the acidity fresh.
+
+  - id: sparkling-tank-second-fermentation-001
+    type: mcq
+    deck: Sparkling Production
+    tags: [sparkling, tank-method]
+    status: reviewed
+    source_id: c41-0081
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Where does the tank method create and retain its carbon dioxide?
+      choices:
+        - { text: "During primary fermentation in an open vat", correct: false }
+        - { text: "During secondary fermentation in a sealed pressure tank", correct: true }
+        - { text: "During ageing in individually sealed bottles", correct: false }
+        - { text: "During bottling by direct gas injection", correct: false }
+      explanation: |
+        Yeast, sugar and nutrients are added before the tank is sealed. After
+        fermentation, the wine is filtered and bottled under pressure so the
+        dissolved gas is not lost.
+
+  - id: sparkling-tank-autolysis-001
+    type: mcq
+    deck: Sparkling Production
+    tags: [sparkling, tank-method, lees-ageing]
+    status: reviewed
+    source_id: c41-0083
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Why do most tank-method wines show little autolytic character?
+      choices:
+        - { text: "They are normally removed from the lees relatively quickly", correct: true }
+        - { text: "Pressure prevents yeast from forming any sediment", correct: false }
+        - { text: "Stainless steel neutralises every compound released by yeast", correct: false }
+        - { text: "Their second fermentation occurs without viable yeast", correct: false }
+      explanation: |
+        Producers seeking more yeast-derived flavour can stir the lees with
+        paddles, but this is uncommon because the method is usually chosen to
+        retain primary fruit.
+
+  - id: sparkling-asti-definition-001
+    type: mcq
+    deck: Sparkling Production
+    tags: [sparkling, asti-method]
+    status: reviewed
+    source_id: c41-0086
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What distinguishes the Asti method from the standard tank method?
+      choices:
+        - { text: "A single fermentation creates alcohol, sweetness and bubbles", correct: true }
+        - { text: "A bottle fermentation is followed by transfer to a pressure tank", correct: false }
+        - { text: "A dry base wine is carbonated immediately before bottling", correct: false }
+        - { text: "A second bottle fermentation is stopped by disgorgement", correct: false }
+      explanation: |
+        The method is associated with sweet, fruity sparkling wines from
+        **Asti in Piemonte**. Fermentation of the grape juice is stopped while
+        residual sugar remains.
+
+  - id: sparkling-asti-process-001
+    type: mcq
+    deck: Sparkling Production
+    tags: [sparkling, asti-method]
+    status: reviewed
+    source_id: c41-0089
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which sequence correctly describes the Asti method?
+      choices:
+        - { text: "Store chilled juice → ferment in tank → seal tank → chill and filter under pressure", correct: true }
+        - { text: "Ferment dry in tank → bottle with tirage → riddle → disgorge", correct: false }
+        - { text: "Ferment in bottle → empty into tank → filter → rebottle under pressure", correct: false }
+        - { text: "Ferment dry in barrel → inject gas → sweeten after bottling", correct: false }
+      explanation: |
+        Carbon dioxide can escape early in fermentation; the tank is then
+        sealed to retain it. Chilling at about **7% abv** stops fermentation,
+        preserving both sweetness and aromatic fruit before sterile filtration.
+
+  - id: sparkling-carbonation-001
+    type: mcq
+    deck: Sparkling Production
+    tags: [sparkling, carbonation]
+    status: reviewed
+    source_id: c41-0090
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How are bubbles created by the carbonation method?
+      choices:
+        - { text: "Carbon dioxide is injected into still wine before pressure bottling", correct: true }
+        - { text: "Yeast ferments added sugar in the bottle sold to the consumer", correct: false }
+        - { text: "Yeast ferments added sugar in a sealed tank before filtration", correct: false }
+        - { text: "A single fermentation is stopped while natural sugar remains", correct: false }
+      explanation: |
+        This is the cheapest route and retains the base wine’s primary fruit,
+        so it can suit inexpensive wines made from strongly aromatic grapes.
+
+  - id: sparkling-eu-sweetness-label-001
+    type: mcq
+    deck: Sparkling Production
+    tags: [sparkling, dosage, law]
+    status: reviewed
+    source_id: c41-0094
+    review:
+      fact_check: pass
+      sources: [spec]
+    en:
+      question: What do EU terms such as Brut, Sec and Demi-Sec communicate on sparkling wine?
+      choices:
+        - { text: "The wine’s sugar-content category", correct: true }
+        - { text: "The duration of lees ageing", correct: false }
+        - { text: "The pressure reached in bottle", correct: false }
+        - { text: "The method of secondary fermentation", correct: false }
+      explanation: |
+        The terms belong to a legally defined scale. Counter-intuitively,
+        **Extra Dry** is sweeter than **Brut**, and **Sec** is sweeter again.
+
+  - id: sparkling-sweetness-order-001
+    type: mcq
+    deck: Sparkling Production
+    tags: [sparkling, dosage, law]
+    status: reviewed
+    source_id: c41-0095
+    review:
+      fact_check: pass
+      sources: [spec]
+    en:
+      question: Which EU sparkling-wine sequence runs from driest to sweetest?
+      choices:
+        - { text: "Brut Nature → Extra Brut → Brut → Extra Dry → Sec → Demi-Sec → Doux", correct: true }
+        - { text: "Extra Brut → Brut Nature → Brut → Sec → Extra Dry → Demi-Sec → Doux", correct: false }
+        - { text: "Brut Nature → Brut → Extra Brut → Extra Dry → Demi-Sec → Sec → Doux", correct: false }
+        - { text: "Brut Nature → Extra Brut → Extra Dry → Brut → Sec → Doux → Demi-Sec", correct: false }
+      explanation: |
+        The naming is not intuitive: **Extra Dry** follows Brut on the sweeter
+        side. The final three steps are Sec, Demi-Sec and Doux.
+
+  - id: sparkling-non-vintage-001
+    type: mcq
+    deck: Sparkling Production
+    tags: [sparkling, labelling]
+    status: reviewed
+    source_id: c41-0098
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What does non-vintage usually mean for a sparkling wine?
+      choices:
+        - { text: "It blends wine from more than one harvest year", correct: true }
+        - { text: "It comes from one year that is omitted from the label", correct: false }
+        - { text: "It contains no reserve wine from earlier harvests", correct: false }
+        - { text: "It is bottled without lees ageing or dosage", correct: false }
+      explanation: |
+        Non-vintage is commonly a producer’s standard house-style bottling.
+        Blending across years helps maintain that style despite vintage
+        variation.
+
+  - id: sparkling-champagne-vintage-001
+    type: mcq
+    deck: Sparkling Production
+    tags: [sparkling, champagne, labelling]
+    status: reviewed
+    source_id: c41-0100
+    review:
+      fact_check: pass
+      sources: [aoc-site]
+    en:
+      question: What does a stated vintage year mean on a bottle of Champagne?
+      choices:
+        - { text: "All grapes used were harvested in that year", correct: true }
+        - { text: "Most grapes came from that year, with older reserves permitted", correct: false }
+        - { text: "The wine was disgorged and released in that year", correct: false }
+        - { text: "The oldest reserve wine in the blend came from that year", correct: false }
+      explanation: |
+        Vintage Champagne is made exclusively from grapes harvested in the
+        year shown. Most Champagne is non-vintage and blends multiple years.
+
+  - id: sparkling-vintage-rules-001
+    type: mcq
+    deck: Sparkling Production
+    tags: [sparkling, labelling]
+    status: reviewed
+    source_id: c41-0101
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Why must the meaning of “vintage” be checked against the rules of each sparkling-wine appellation?
+      choices:
+        - { text: "Some regions permit a small proportion of wine from other years", correct: true }
+        - { text: "Some regions use vintage to indicate the disgorgement year", correct: false }
+        - { text: "Some regions use vintage to guarantee a minimum sweetness", correct: false }
+        - { text: "Some regions use vintage to identify the fermentation method", correct: false }
+      explanation: |
+        A single harvest year is the usual principle, but the exact legal
+        threshold is region-specific. Champagne is stricter: a stated year
+        means all the grapes came from that harvest.
+
+  - id: sparkling-champagne-vintage-premium-001
+    type: mcq
+    deck: Sparkling Production
+    tags: [sparkling, champagne, labelling]
+    status: reviewed
+    source_id: c41-0102
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Why can vintage Champagne command a premium over a house’s non-vintage wine?
+      choices:
+        - { text: "It is selected to express the character of a particular harvest", correct: true }
+        - { text: "It may blend any harvests needed to preserve a fixed style", correct: false }
+        - { text: "It certifies extended oak ageing for every base-wine parcel", correct: false }
+        - { text: "It guarantees that every vineyard used is a grand cru", correct: false }
+      explanation: |
+        Champagne has meaningful year-to-year variation, and producers choose
+        which years to declare. In regions with less vintage variation, a year
+        on the label may carry less prestige by itself.
+
+  - id: sparkling-rose-production-001
+    type: mcq
+    deck: Sparkling Production
+    tags: [sparkling, rose, winemaking]
+    status: reviewed
+    source_id: c41-0104
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which pair describes the principal ways to obtain colour in rosé sparkling wine?
+      choices:
+        - { text: "Blending red and white base wines, or short skin maceration", correct: true }
+        - { text: "Blending white wine with spirit, or extended lees ageing", correct: false }
+        - { text: "Adding caramel before tirage, or ageing in new oak", correct: false }
+        - { text: "Oxidising white juice, or increasing the pressing pressure", correct: false }
+      explanation: |
+        Appellation rules decide which route is permitted; some require
+        maceration. A producer may also fine-tune colour at disgorgement by
+        including red wine in the expedition liqueur where the rules allow it.
+
+  - id: sparkling-blanc-de-blancs-001
+    type: mcq
+    deck: Sparkling Production
+    tags: [sparkling, labelling]
+    status: reviewed
+    source_id: c41-0107
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What does Blanc de Blancs indicate on a sparkling wine?
+      choices:
+        - { text: "It was made only from white grape varieties", correct: true }
+        - { text: "It was made only from colourless juice of black grapes", correct: false }
+        - { text: "It was made without dosage after disgorgement", correct: false }
+        - { text: "It was made exclusively in stainless-steel tanks", correct: false }
+      explanation: |
+        The term describes grape colour, not a production method or sweetness
+        level. It does not universally mean Chardonnay; the permitted white
+        varieties depend on the region.
+
+  - id: sparkling-blanc-de-noirs-001
+    type: mcq
+    deck: Sparkling Production
+    tags: [sparkling, labelling]
+    status: reviewed
+    source_id: c41-0097
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What does Blanc de Noirs indicate on a sparkling wine?
+      choices:
+        - { text: "A white wine made only from black grape varieties", correct: true }
+        - { text: "A rosé wine made by blending red and white finished wines", correct: false }
+        - { text: "A white wine darkened by extended maturation in oak", correct: false }
+        - { text: "A red wine whose colour was removed after fermentation", correct: false }
+      explanation: |
+        Prompt, gentle pressing limits contact between juice and black skins,
+        so the wine remains white. The term does not by itself prescribe a
+        particular fermentation method.
+
+  - id: sparkling-prestige-cuvee-001
+    type: mcq
+    deck: Sparkling Production
+    tags: [sparkling, labelling, market]
+    status: reviewed
+    source_id: c41-0108
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What does “prestige cuvée” generally identify in a sparkling-wine producer’s range?
+      choices:
+        - { text: "The flagship wine positioned at the top of the range", correct: true }
+        - { text: "The standard non-vintage wine made in the largest volume", correct: false }
+        - { text: "The lowest-dosage wine regardless of fruit quality", correct: false }
+        - { text: "The transfer-method wine released with the least ageing", correct: false }
+      explanation: |
+        It is a market category rather than one universal production formula.
+        Producers build these wines around scarcity, reputation and a strong
+        association with luxury and celebration.
