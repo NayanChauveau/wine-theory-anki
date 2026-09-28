@@ -617,9 +617,10 @@ cards:
         - { text: "Peach and apricot", correct: false }
         - { text: "Citrus and green apple", correct: false }
       explanation: |
-        **Strawberry / cherry / raspberry**, then the sous-bois register.
-        A hot year (2018, 2020) can look darker — the classic teaching
-        is still red fruit first.
+        **Strawberry / cherry / raspberry** come first. With age, the wine
+        can develop earth, mushroom, sous-bois and sometimes game. A hot
+        year (2018, 2020) can look darker, but the classic profile begins
+        with red fruit.
     fr:
       question: Quels arômes fruités trouve-t-on généralement dans un jeune Pinot Noir de la Côte d’Or ?
       choices:
@@ -628,9 +629,11 @@ cards:
         - { text: "Pêche et abricot", correct: false }
         - { text: "Agrumes et pomme verte", correct: false }
       explanation: |
-        **Fraise, cerise et framboise**, puis des notes de sous-bois avec
-        l’évolution. Un millésime chaud comme 2018 ou 2020 peut donner un
-        fruit plus noir, mais le profil classique reste celui des fruits rouges.
+        **Fraise, cerise et framboise** dominent dans la jeunesse. Avec
+        l’évolution apparaissent des notes de terre, de champignon, de
+        sous-bois et parfois de gibier. Un millésime chaud comme 2018 ou
+        2020 peut donner un fruit plus noir, mais le profil classique
+        commence par les fruits rouges.
 
   - id: burgundy-pinot-structure-001
     type: mcq
@@ -1823,6 +1826,70 @@ cards:
         **Morey-Saint-Denis** puis **Chambolle-Musigny** s’intercalent entre
         Gevrey et Vougeot. Marsannay et Fixin sont situés encore plus au nord.
 
+  - id: burgundy-gevrey-vougeot-gc-001
+    type: mcq
+    deck: France::Burgundy
+    tags: [france, burgundy]
+    status: reviewed
+    source_id: c15-0056
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which village-to-grand-cru mapping is correct in the Côte de Nuits?
+      choices:
+        - { text: "Gevrey—Musigny; Vougeot—Clos de Tart", correct: false }
+        - { text: "Gevrey—Chambertin; Vougeot—Clos de Vougeot", correct: true }
+        - { text: "Gevrey—Romanée-Conti; Vougeot—Échezeaux", correct: false }
+        - { text: "Gevrey—Clos de la Roche; Vougeot—Richebourg", correct: false }
+      explanation: |
+        **Chambertin** and **Chambertin-Clos de Bèze** belong to
+        Gevrey-Chambertin; **Clos de Vougeot** belongs to Vougeot. The
+        other names in the choices come from neighbouring villages.
+    fr:
+      question: Quelle association entre village et grand cru est correcte en Côte de Nuits ?
+      choices:
+        - { text: "Gevrey—Musigny ; Vougeot—Clos de Tart", correct: false }
+        - { text: "Gevrey—Chambertin ; Vougeot—Clos de Vougeot", correct: true }
+        - { text: "Gevrey—Romanée-Conti ; Vougeot—Échezeaux", correct: false }
+        - { text: "Gevrey—Clos de la Roche ; Vougeot—Richebourg", correct: false }
+      explanation: |
+        **Chambertin** et **Chambertin-Clos de Bèze** appartiennent à
+        Gevrey-Chambertin ; **Clos de Vougeot** appartient à Vougeot. Les
+        autres noms proposés viennent de villages voisins.
+
+  - id: burgundy-vosne-gc-001
+    type: mcq
+    deck: France::Burgundy
+    tags: [france, burgundy]
+    status: reviewed
+    source_id: c15-0056
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which trio of grands crus belongs to Vosne-Romanée?
+      choices:
+        - { text: "Chambertin, Chambertin-Clos de Bèze and Mazis-Chambertin", correct: false }
+        - { text: "Romanée-Conti, La Tâche and La Romanée", correct: true }
+        - { text: "Clos de la Roche, Clos Saint-Denis and Clos des Lambrays", correct: false }
+        - { text: "Corton, Corton-Charlemagne and Charlemagne", correct: false }
+      explanation: |
+        Vosne-Romanée also counts **Richebourg, Romanée-Saint-Vivant and
+        La Grande Rue** among its celebrated grands crus. By contrast,
+        nearby Nuits-Saint-Georges has premiers crus but no grand cru.
+    fr:
+      question: Quel trio de grands crus appartient à Vosne-Romanée ?
+      choices:
+        - { text: "Chambertin, Chambertin-Clos de Bèze et Mazis-Chambertin", correct: false }
+        - { text: "Romanée-Conti, La Tâche et La Romanée", correct: true }
+        - { text: "Clos de la Roche, Clos Saint-Denis et Clos des Lambrays", correct: false }
+        - { text: "Corton, Corton-Charlemagne et Charlemagne", correct: false }
+      explanation: |
+        Vosne-Romanée compte aussi **Richebourg, Romanée-Saint-Vivant et
+        La Grande Rue** parmi ses grands crus célèbres. En revanche,
+        Nuits-Saint-Georges possède des premiers crus, mais aucun grand cru.
+
   - id: burgundy-nsg-no-gc-001
     type: mcq
     deck: France::Burgundy
@@ -2025,8 +2092,9 @@ cards:
         - { text: "White only", correct: false }
         - { text: "Red and rosé", correct: false }
       explanation: |
-        **Red Pinot** only. Famous villages such as **Pommard** and
-        **Volnay** stay on their own labels. It is not a white AOC.
+        **Red Pinot** only, sourced from one or several eligible communes.
+        Famous villages such as **Pommard** and **Volnay** stay on their
+        own labels. It is not a white AOC.
     fr:
       question: Quelle couleur l’AOC Côte de Beaune-Villages autorise-t-elle ?
       choices:
@@ -2035,9 +2103,10 @@ cards:
         - { text: "Blanc uniquement", correct: false }
         - { text: "Rouge et rosé", correct: false }
       explanation: |
-        L’AOC est réservée au **Pinot Noir rouge**. Des villages célèbres
-        comme **Pommard** et **Volnay** conservent leur propre nom ; ce
-        n’est pas une appellation de vin blanc.
+        L’AOC est réservée au **Pinot Noir rouge**, issu d’une ou de
+        plusieurs communes autorisées. Des villages célèbres comme
+        **Pommard** et **Volnay** conservent leur propre nom ; ce n’est pas
+        une appellation de vin blanc.
 
   - id: burgundy-hautes-cotes-001
     type: mcq
