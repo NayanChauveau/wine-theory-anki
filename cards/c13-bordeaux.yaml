@@ -3490,27 +3490,29 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What do the AOCs wrapped around Saint-Émilion and Pomerol usually taste like?
+      question: Compared with top Saint-Émilion and Pomerol, what style do nearby Right Bank appellations such as Lussac-Saint-Émilion and Fronsac usually produce?
       choices:
-        - { text: "Cabernet Sauvignon-led reds", correct: false }
-        - { text: "Merlot-led reds, usually a bit lighter", correct: true }
-        - { text: "Dry Sauvignon Blanc whites", correct: false }
-        - { text: "Sweet Sémillon wines", correct: false }
+        - { text: "Cabernet Sauvignon-led reds with firmer tannins", correct: false }
+        - { text: "Merlot-led reds that are often lighter and less concentrated", correct: true }
+        - { text: "Cabernet Franc-led reds with higher acidity", correct: false }
+        - { text: "Merlot-led reds that are generally fuller and more concentrated", correct: false }
       explanation: |
-        **Lussac, Montagne, Puisseguin, Saint-Georges** (the satellites)
-        plus Fronsac and the Côtes: same grapes, less fame, often less
-        concentration.
+        The Saint-Émilion satellites — **Lussac, Montagne, Puisseguin
+        and Saint-Georges** — as well as Fronsac and the Côtes rely on
+        the same Right Bank grapes. Their wines are generally less
+        concentrated than the leading wines of Saint-Émilion and Pomerol.
     fr:
-      question: À quoi goûtent d’habitude les AOC qui ceignent Saint-Émilion et Pomerol ?
+      question: Par rapport aux grands vins de Saint-Émilion et de Pomerol, quel style produisent généralement les appellations voisines de la rive droite, comme Lussac-Saint-Émilion et Fronsac ?
       choices:
-        - { text: "Des rouges menés par le Cabernet Sauvignon", correct: false }
-        - { text: "Des rouges menés par le Merlot, souvent plus légers", correct: true }
-        - { text: "Des blancs secs de Sauvignon Blanc", correct: false }
-        - { text: "Des liquoreux de Sémillon", correct: false }
+        - { text: "Des rouges dominés par le Cabernet Sauvignon, aux tanins plus fermes", correct: false }
+        - { text: "Des rouges dominés par le Merlot, souvent plus légers et moins concentrés", correct: true }
+        - { text: "Des rouges dominés par le Cabernet Franc, avec davantage d’acidité", correct: false }
+        - { text: "Des rouges dominés par le Merlot, généralement plus corsés et concentrés", correct: false }
       explanation: |
-        **Lussac, Montagne, Puisseguin, Saint-Georges** (les satellites)
-        plus Fronsac et les Côtes : mêmes cépages, moins de renom,
-        souvent moins de concentration.
+        Les satellites de Saint-Émilion — **Lussac, Montagne, Puisseguin
+        et Saint-Georges** — ainsi que Fronsac et les Côtes reposent sur
+        les mêmes cépages de la rive droite. Leurs vins sont en général
+        moins concentrés que les grands vins de Saint-Émilion et de Pomerol.
 
   - id: bordeaux-cotes-name-001
     type: mcq
