@@ -14,17 +14,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which vineyard district sits immediately east of Entre-Deux-Mers?
+      question: "Which South West wine district lies immediately east of Bordeaux’s Entre-Deux-Mers?"
       choices:
-        - { text: "The Médoc", correct: false }
-        - { text: "The Dordogne (Bergerac country)", correct: true }
-        - { text: "The Méditerranée coast around Bandol", correct: false }
-        - { text: "The Côte de Nuits", correct: false }
+        - { text: "The Dordogne vineyards around Bergerac", correct: true }
+        - { text: "The Lot vineyards around Cahors", correct: false }
+        - { text: "The Pyrenean foothills around Jurançon", correct: false }
+        - { text: "The Gascon vineyards around Armagnac", correct: false }
       explanation: |
-        Cross the eastern edge of **Entre-Deux-Mers** and you are in the **Dordogne**,
-        with Bergerac as the main AOC. The Médoc is west of the Gironde, not east of
-        Entre-Deux-Mers.
-
+        The Bergerac vineyards continue eastward along the Dordogne beyond Bordeaux. Cahors lies farther
+        inland on the Lot, while Madiran and Jurançon are much farther south.
+    fr:
+      question: "Quel vignoble du Sud-Ouest se situe immédiatement à l’est de l’Entre-deux-Mers bordelais ?"
+      choices:
+        - { text: "Le vignoble de la Dordogne autour de Bergerac", correct: true }
+        - { text: "Le vignoble du Lot autour de Cahors", correct: false }
+        - { text: "Le piémont pyrénéen autour de Jurançon", correct: false }
+        - { text: "Le vignoble gascon autour de l’Armagnac", correct: false }
+      explanation: |
+        Le vignoble de Bergerac prolonge vers l’est les vignobles bordelais le long de la Dordogne. Cahors
+        se trouve plus loin dans les terres sur le Lot, tandis que Madiran et Jurançon sont beaucoup plus au
+        sud.
   - id: dordogne-climate-001
     type: mcq
     deck: France::South West
@@ -35,17 +44,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: How does the Dordogne climate compare with Bordeaux?
+      question: "How does the climate of the Dordogne vineyards differ from that of Bordeaux?"
       choices:
-        - { text: "Much cooler and wetter, like the Mosel", correct: false }
-        - { text: "In the same family as Bordeaux, but with less Atlantic moderation", correct: true }
-        - { text: "Hot desert, like inland Alentejo", correct: false }
-        - { text: "High-alpine, with snow through flowering", correct: false }
+        - { text: "It is similarly maritime-influenced but more continental because it lies farther inland", correct: true }
+        - { text: "It is much cooler and more oceanic because it lies closer to the Atlantic", correct: false }
+        - { text: "It is Mediterranean, with almost no rain during the growing season", correct: false }
+        - { text: "It is alpine, with a much shorter growing season and frequent summer frost", correct: false }
       explanation: |
-        Same **maritime-meets-continental** idea as Bordeaux, but the ocean’s cooling and
-        wetting hand is **weaker** this far inland. Summers run a bit warmer, winters a
-        bit colder — useful for both dry Bergerac and botrytis at Monbazillac.
-
+        The Dordogne still receives Atlantic influence, but distance from the ocean increases seasonal
+        temperature variation. Summers can be warmer and winters colder than in Bordeaux, while autumn
+        humidity can encourage noble rot in suitable sites.
+    fr:
+      question: "Comment le climat du vignoble de la Dordogne diffère-t-il de celui de Bordeaux ?"
+      choices:
+        - { text: "Il reste influencé par l’océan mais devient plus continental en raison de son éloignement", correct: true }
+        - { text: "Il est beaucoup plus frais et océanique parce qu’il est plus proche de l’Atlantique", correct: false }
+        - { text: "Il est méditerranéen, avec presque aucune pluie pendant la saison de croissance", correct: false }
+        - { text: "Il est alpin, avec une saison de croissance beaucoup plus courte et de fréquents gels estivaux", correct: false }
+      explanation: |
+        La Dordogne reçoit encore l’influence atlantique, mais l’éloignement de l’océan accentue les
+        variations saisonnières. Les étés peuvent être plus chauds et les hivers plus froids qu’à Bordeaux,
+        tandis que l’humidité automnale peut favoriser la pourriture noble sur les sites adaptés.
   - id: bergerac-main-aoc-001
     type: mcq
     deck: France::South West
@@ -56,17 +75,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What is the principal appellation of the Dordogne vineyard?
+      question: "Which is the principal broad appellation of the Dordogne wine district?"
       choices:
-        - { text: "Cahors", correct: false }
         - { text: "Bergerac", correct: true }
+        - { text: "Cahors", correct: false }
         - { text: "Madiran", correct: false }
         - { text: "Jurançon", correct: false }
       explanation: |
-        **Bergerac** is the Dordogne’s volume AOC — red, white and rosé on Bordeaux
-        varieties. Cahors sits on the Lot, Madiran and Jurançon much further south
-        toward the Pyrenees.
-
+        Bergerac is the principal regional AOC of the Dordogne vineyards and produces red, rosé and white
+        wines. More specific local appellations include Monbazillac and Pécharmant.
+    fr:
+      question: "Quelle est la principale appellation générale du vignoble de la Dordogne ?"
+      choices:
+        - { text: "Bergerac", correct: true }
+        - { text: "Cahors", correct: false }
+        - { text: "Madiran", correct: false }
+        - { text: "Jurançon", correct: false }
+      explanation: |
+        Bergerac est la principale AOC régionale du vignoble de la Dordogne et produit des vins rouges,
+        rosés et blancs. Des appellations locales plus précises comprennent Monbazillac et Pécharmant.
   - id: bergerac-varieties-001
     type: mcq
     deck: France::South West
@@ -77,17 +104,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What is typically grown and bottled in Bergerac?
+      question: "Which grape-variety pattern characterises Bergerac?"
       choices:
-        - { text: "Only Tannat, as in Madiran", correct: false }
-        - { text: "Reds and whites from the same grape set as Bordeaux", correct: true }
-        - { text: "Only Petit Manseng, late-harvested on the vine", correct: false }
-        - { text: "Only Pinot Noir and Chardonnay", correct: false }
+        - { text: "Bordeaux varieties for both red and white wines", correct: true }
+        - { text: "Tannat for red and Petit Manseng for white wines", correct: false }
+        - { text: "Malbec for red and Chenin Blanc for white wines", correct: false }
+        - { text: "Gamay for red and Chardonnay for white wines", correct: false }
       explanation: |
-        Bergerac is **Bordeaux’s inland cousin**: Merlot, the Cabernets, Malbec for reds;
-        Sémillon, Sauvignon Blanc and Muscadelle for whites. It is not a Tannat or
-        Manseng appellation.
-
+        Bergerac uses Merlot, Cabernet Sauvignon, Cabernet Franc and Malbec for reds, together with
+        Sauvignon Blanc, Sémillon and Muscadelle for whites. This reflects its proximity to Bordeaux.
+    fr:
+      question: "Quel profil d’encépagement caractérise Bergerac ?"
+      choices:
+        - { text: "Les cépages bordelais pour les vins rouges comme pour les blancs", correct: true }
+        - { text: "Le Tannat pour les rouges et le Petit Manseng pour les blancs", correct: false }
+        - { text: "Le Malbec pour les rouges et le Chenin Blanc pour les blancs", correct: false }
+        - { text: "Le Gamay pour les rouges et le Chardonnay pour les blancs", correct: false }
+      explanation: |
+        Bergerac utilise le Merlot, le Cabernet Sauvignon, le Cabernet Franc et le Malbec pour les rouges,
+        ainsi que le Sauvignon Blanc, le Sémillon et la Muscadelle pour les blancs. Cela reflète sa
+        proximité avec Bordeaux.
   - id: monbazillac-sweet-aoc-001
     type: mcq
     deck: France::South West
@@ -98,17 +134,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which Dordogne AOC is dedicated to sweet white wine?
+      question: "Which Dordogne AOC specialises in sweet white wine?"
       choices:
-        - { text: "Pécharmant", correct: false }
         - { text: "Monbazillac", correct: true }
-        - { text: "Madiran", correct: false }
+        - { text: "Pécharmant", correct: false }
+        - { text: "Bergerac Rosé", correct: false }
         - { text: "Côtes de Gascogne", correct: false }
       explanation: |
-        **Monbazillac** is the Dordogne **sweet specialist** inside Bergerac country,
-        not a second generic red AOC. Pécharmant is the local structured red; Madiran
-        and Gascogne are further south.
-
+        Monbazillac is the best-known sweet-wine appellation in the Bergerac district. Pécharmant is a
+        red-wine appellation, while Côtes de Gascogne is an IGP farther south.
+    fr:
+      question: "Quelle AOC de Dordogne est spécialisée dans les vins blancs doux ?"
+      choices:
+        - { text: "Monbazillac", correct: true }
+        - { text: "Pécharmant", correct: false }
+        - { text: "Bergerac Rosé", correct: false }
+        - { text: "Côtes de Gascogne", correct: false }
+      explanation: |
+        Monbazillac est l’appellation de vin doux la plus connue du Bergeracois. Pécharmant est une
+        appellation de rouge, tandis que Côtes de Gascogne est une IGP située plus au sud.
   - id: monbazillac-botrytis-001
     type: mcq
     deck: France::South West
@@ -119,17 +163,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What kind of wine is Monbazillac known for?
+      question: "Which combination best describes Monbazillac?"
       choices:
-        - { text: "Bone-dry Tannat, aged in new barriques only", correct: false }
-        - { text: "Botrytis-affected sweet whites from Sémillon and Sauvignon Blanc", correct: true }
-        - { text: "Sparkling wine from Ugni Blanc", correct: false }
-        - { text: "Pale Provençal rosé from Cinsault", correct: false }
+        - { text: "Sweet white wine from Sémillon, Sauvignon and Muscadelle, commonly concentrated by noble rot", correct: true }
+        - { text: "Dry white wine from Petit Manseng and Gros Manseng, protected from noble rot", correct: false }
+        - { text: "Tannic red wine from Tannat, Cabernet Franc and Cabernet Sauvignon", correct: false }
+        - { text: "Fresh aromatic white IGP wine based mainly on Colombard and Ugni Blanc", correct: false }
       explanation: |
-        **Noble rot** on **Sémillon** (with Sauvignon Blanc, and often a little
-        Muscadelle) gives honeyed sweet wine — the same family as Sauternes, usually
-        sold at a friendlier price. It is not a dry Tannat red.
-
+        Autumn mist from the Dordogne can encourage Botrytis cinerea, followed by drier conditions that
+        concentrate the grapes. Sémillon is central, supported by Sauvignon and Muscadelle; over-ripening
+        may also contribute.
+    fr:
+      question: "Quelle combinaison décrit le mieux Monbazillac ?"
+      choices:
+        - { text: "Un blanc doux de Sémillon, Sauvignon et Muscadelle, souvent concentré par la pourriture noble", correct: true }
+        - { text: "Un blanc sec de Petit Manseng et Gros Manseng, protégé de la pourriture noble", correct: false }
+        - { text: "Un rouge tannique de Tannat, Cabernet Franc et Cabernet Sauvignon", correct: false }
+        - { text: "Un blanc d’IGP frais et aromatique principalement fondé sur Colombard et Ugni Blanc", correct: false }
+      explanation: |
+        Les brumes automnales de la Dordogne peuvent favoriser Botrytis cinerea, puis des conditions plus
+        sèches concentrent les raisins. Le Sémillon joue un rôle central, complété par le Sauvignon et la
+        Muscadelle ; la surmaturation peut aussi contribuer.
   - id: southwest-core-names-001
     type: mcq
     deck: France::South West
@@ -140,17 +194,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Beyond the Dordogne, which four names are the usual South West study set?
+      question: "Which group consists entirely of major South West French wine names outside the Dordogne district?"
       choices:
-        - { text: "Chablis, Sancerre, Pouilly-Fumé and Muscadet", correct: false }
         - { text: "Cahors, Côtes de Gascogne, Madiran and Jurançon", correct: true }
-        - { text: "Barolo, Barbaresco, Brunello and Chianti Classico", correct: false }
-        - { text: "Priorat, Rioja, Rías Baixas and Ribera del Duero", correct: false }
+        - { text: "Chinon, Sancerre, Vouvray and Muscadet", correct: false }
+        - { text: "Bandol, Cassis, Palette and Bellet", correct: false }
+        - { text: "Morgon, Fleurie, Brouilly and Juliénas", correct: false }
       explanation: |
-        The inland South West cluster to learn is **Cahors**, **Côtes de Gascogne**,
-        **Madiran** and **Jurançon**. Gaillac and Irouléguy exist, but they are not
-        this chapter’s four. One of the four is an IGP, not an AOC.
-
+        Cahors lies on the Lot, Côtes de Gascogne covers a broad Gascon IGP area, and Madiran and Jurançon
+        lie toward the Pyrenees. They illustrate the geographical and stylistic diversity of the South West.
+    fr:
+      question: "Quel groupe réunit uniquement de grands noms viticoles du Sud-Ouest situés hors du vignoble de la Dordogne ?"
+      choices:
+        - { text: "Cahors, Côtes de Gascogne, Madiran et Jurançon", correct: true }
+        - { text: "Chinon, Sancerre, Vouvray et Muscadet", correct: false }
+        - { text: "Bandol, Cassis, Palette et Bellet", correct: false }
+        - { text: "Morgon, Fleurie, Brouilly et Juliénas", correct: false }
+      explanation: |
+        Cahors se trouve sur le Lot, Côtes de Gascogne couvre une vaste zone d’IGP gasconne, et Madiran
+        comme Jurançon se situent vers les Pyrénées. Ces noms illustrent la diversité géographique et
+        stylistique du Sud-Ouest.
   - id: gascogne-is-igp-001
     type: mcq
     deck: France::South West
@@ -161,16 +224,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which name in the usual South West set is an IGP, not an AOC?
+      question: "Which South West name is an IGP rather than an AOC?"
       choices:
-        - { text: "Cahors", correct: false }
         - { text: "Côtes de Gascogne", correct: true }
-        - { text: "Madiran", correct: false }
-        - { text: "Jurançon", correct: false }
+        - { text: "Côtes de Bergerac", correct: false }
+        - { text: "Pacherenc du Vic-Bilh", correct: false }
+        - { text: "Saint-Mont", correct: false }
       explanation: |
-        **Côtes de Gascogne** is an **IGP** (Armagnac country table wine). Cahors,
-        Madiran and Jurançon are AOCs. Do not learn all four as the same legal tier.
-
+        Côtes de Gascogne is a protected geographical indication with broad rules and a large production
+        area. Cahors, Madiran and Jurançon are protected designations of origin.
+    fr:
+      question: "Quel nom du Sud-Ouest est une IGP plutôt qu’une AOC ?"
+      choices:
+        - { text: "Côtes de Gascogne", correct: true }
+        - { text: "Côtes de Bergerac", correct: false }
+        - { text: "Pacherenc du Vic-Bilh", correct: false }
+        - { text: "Saint-Mont", correct: false }
+      explanation: |
+        Côtes de Gascogne est une indication géographique protégée dotée de règles larges et d’une vaste
+        aire de production. Cahors, Madiran et Jurançon sont des appellations d’origine protégées.
   - id: cahors-lot-001
     type: mcq
     deck: France::South West
@@ -181,16 +253,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Where is Cahors?
+      question: "Where is the Cahors AOC located?"
       choices:
-        - { text: "On the Médoc peninsula, west of the Gironde", correct: false }
-        - { text: "East of Bordeaux, on both banks of the River Lot", correct: true }
-        - { text: "In the foothills of the Pyrenees, as a neighbour of Jurançon", correct: false }
-        - { text: "On the Saône plain south of Beaujolais", correct: false }
+        - { text: "Along both banks of the River Lot, east of Bordeaux", correct: true }
+        - { text: "Along the Dordogne immediately east of Saint-Émilion", correct: false }
+        - { text: "In the Pyrenean foothills south of Pau", correct: false }
+        - { text: "In Gascony between the Landes forest and the Atlantic", correct: false }
       explanation: |
-        **Cahors** follows the **Lot** inland and east of Bordeaux. Jurançon is the
-        Pyrenean one; the Médoc is the other direction entirely.
-
+        The Cahors vineyards follow the meanders and terraces of the Lot in the département of the same
+        name. The region lies well inland to the east of Bordeaux.
+    fr:
+      question: "Où se situe l’AOC Cahors ?"
+      choices:
+        - { text: "Sur les deux rives du Lot, à l’est de Bordeaux", correct: true }
+        - { text: "Le long de la Dordogne immédiatement à l’est de Saint-Émilion", correct: false }
+        - { text: "Dans le piémont pyrénéen au sud de Pau", correct: false }
+        - { text: "En Gascogne entre la forêt des Landes et l’Atlantique", correct: false }
+      explanation: |
+        Le vignoble de Cahors suit les méandres et les terrasses du Lot dans le département du même nom. La
+        région se situe loin dans les terres, à l’est de Bordeaux.
   - id: cahors-black-wine-name-001
     type: mcq
     deck: France::South West
@@ -201,18 +282,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What historic English name was given to Cahors wine?
+      question: "Which historical nickname reflects the deep colour of Cahors wine?"
       choices:
-        - { text: "Claret", correct: false }
         - { text: "Black wine", correct: true }
-        - { text: "Hock", correct: false }
-        - { text: "Sack", correct: false }
+        - { text: "Yellow wine", correct: false }
+        - { text: "Straw wine", correct: false }
+        - { text: "Grey wine", correct: false }
       explanation: |
-        English merchants called Cahors **black wine** (*vin noir*) for its inky depth.
-        Claret is the old English word for pale Bordeaux; hock is Rhine wine; sack is
-        fortified sherry-style wine. Some of that colour was even used to deepen pale
-        Bordeaux in the barrel.
-
+        Cahors was historically known in English trade as black wine because of its unusually deep colour
+        and firm structure. Claret referred to lighter Bordeaux red, hock to German Rhine wine and sack to
+        fortified Iberian wine.
+    fr:
+      question: "Quel surnom historique reflète la couleur profonde du vin de Cahors ?"
+      choices:
+        - { text: "Vin noir", correct: true }
+        - { text: "Vin jaune", correct: false }
+        - { text: "Vin de paille", correct: false }
+        - { text: "Vin gris", correct: false }
+      explanation: |
+        Dans le commerce anglais, Cahors était historiquement connu comme le « vin noir » en raison de sa
+        couleur exceptionnellement profonde et de sa structure ferme. Claret désignait le Bordeaux rouge
+        plus pâle, hock un vin allemand du Rhin et sack un vin fortifié ibérique.
   - id: cahors-black-wine-style-001
     type: mcq
     deck: France::South West
@@ -223,17 +313,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What style sat behind Cahors’s “black wine” reputation?
+      question: "Which structural profile created Cahors’s historical black-wine reputation?"
       choices:
-        - { text: "Pale, low-tannin rosé for immediate drinking", correct: false }
-        - { text: "Very tannic, long-lived red", correct: true }
-        - { text: "Botrytis sweet white, like Sauternes", correct: false }
-        - { text: "Sparkling wine aged under flor", correct: false }
+        - { text: "Deep colour, firm tannin and substantial ageing potential", correct: true }
+        - { text: "Pale colour, low tannin and immediate drinkability", correct: false }
+        - { text: "High sweetness, low acidity and pronounced botrytis character", correct: false }
+        - { text: "Light body, low alcohol and carbonic fermentation aromas", correct: false }
       explanation: |
-        Historic Cahors was **deep, tannic and built to last** — the opposite of a
-        pale claret. Modern valley-bottom wines can be gentler, but the reputation
-        comes from that structured red.
-
+        Traditional Cahors was dark, tannic and capable of long ageing. Modern producers offer a broader
+        range, but serious examples still combine dense Malbec fruit, firm structure and ageing capacity.
+    fr:
+      question: "Quel profil structurel a créé la réputation historique de « vin noir » de Cahors ?"
+      choices:
+        - { text: "Couleur profonde, tanins fermes et important potentiel de garde", correct: true }
+        - { text: "Couleur pâle, peu de tanins et consommation immédiate", correct: false }
+        - { text: "Forte douceur, faible acidité et caractère botrytisé prononcé", correct: false }
+        - { text: "Corps léger, faible alcool et arômes de fermentation carbonique", correct: false }
+      explanation: |
+        Le Cahors traditionnel était sombre, tannique et apte à une longue garde. Les producteurs modernes
+        proposent une gamme plus large, mais les cuvées sérieuses associent encore fruit dense du Malbec,
+        structure ferme et capacité de vieillissement.
   - id: cahors-land-types-001
     type: mcq
     deck: France::South West
@@ -244,18 +343,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which three land types are used to explain modern Cahors styles?
+      question: "Which landscape best explains the diversity of vineyard sites in Cahors?"
       choices:
-        - { text: "Grand Cru, Premier Cru and village, as in the Côte d'Or", correct: false }
-        - { text: "Fertile valley floor, poorer slopes, and the plateau above", correct: true }
-        - { text: "Schist hillside, beach sand and granite batholith only", correct: false }
-        - { text: "A single flat alluvial plain with no slope or plateau", correct: false }
+        - { text: "River terraces at different heights, limestone slopes and the causse plateau", correct: true }
+        - { text: "One flat, fertile floodplain with no changes in elevation", correct: false }
+        - { text: "A single granite escarpment descending directly to the Atlantic", correct: false }
+        - { text: "Volcanic cones surrounded by deep black basalt soils", correct: false }
       explanation: |
-        The **Lot valley floor** (deeper, more fertile) tends to give earlier, softer
-        wine. The **côtes** and the **causse plateau** above are poorer and drain
-        harder — more concentration and tannin. It is a landscape split, not a
-        Burgundy cru ladder.
-
+        The Lot has cut a winding valley with several levels of alluvial terraces, while limestone slopes
+        and the higher causse add poorer, well-drained sites. Soil, elevation and exposure all influence
+        wine style.
+    fr:
+      question: "Quel paysage explique le mieux la diversité des sites viticoles de Cahors ?"
+      choices:
+        - { text: "Des terrasses fluviales à différentes hauteurs, des versants calcaires et le plateau du causse", correct: true }
+        - { text: "Une unique plaine alluviale plate et fertile sans variation d’altitude", correct: false }
+        - { text: "Un seul escarpement granitique descendant directement vers l’Atlantique", correct: false }
+        - { text: "Des cônes volcaniques entourés de profonds sols de basalte noir", correct: false }
+      explanation: |
+        Le Lot a creusé une vallée sinueuse comportant plusieurs niveaux de terrasses alluviales, tandis que
+        les versants calcaires et le causse plus élevé offrent des sites plus pauvres et bien drainés. Le
+        sol, l’altitude et l’exposition influencent tous le style du vin.
   - id: cahors-malbec-001
     type: mcq
     deck: France::South West
@@ -266,17 +374,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which grape is the core of Cahors?
+      question: "Which grape must dominate a Cahors red?"
       choices:
-        - { text: "Pinot Noir", correct: false }
-        - { text: "Malbec (locally Côt or Auxerrois)", correct: true }
-        - { text: "Gamay", correct: false }
-        - { text: "Petit Manseng", correct: false }
+        - { text: "Malbec, locally also called Côt or Auxerrois", correct: true }
+        - { text: "Tannat, locally also called Harriague", correct: false }
+        - { text: "Merlot, locally also called Bouchalès", correct: false }
+        - { text: "Fer Servadou, locally also called Mansois", correct: false }
       explanation: |
-        **Malbec** is mandatory and dominant (the AOC asks for a high minimum). Locals
-        still say **Côt** or **Auxerrois**. Argentina made the name famous; Cahors is
-        the French home. Pinot and Gamay are Burgundy/Beaujolais stories.
-
+        Cahors is based on Malbec, which must form at least 70% of the blend. Côt and Auxerrois are local
+        synonyms; Merlot and Tannat may play supporting roles.
+    fr:
+      question: "Quel cépage doit dominer un Cahors rouge ?"
+      choices:
+        - { text: "Le Malbec, aussi appelé localement Côt ou Auxerrois", correct: true }
+        - { text: "Le Tannat, aussi appelé localement Harriague", correct: false }
+        - { text: "Le Merlot, aussi appelé localement Bouchalès", correct: false }
+        - { text: "Le Fer Servadou, aussi appelé localement Mansois", correct: false }
+      explanation: |
+        Cahors repose sur le Malbec, qui doit constituer au moins 70 % de l’assemblage. Côt et Auxerrois
+        sont des synonymes locaux ; le Merlot et le Tannat peuvent jouer des rôles complémentaires.
   - id: cahors-other-grapes-001
     type: mcq
     deck: France::South West
@@ -287,16 +403,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Besides Malbec, which grapes may partner Cahors?
+      question: "Which grapes may complement Malbec in a Cahors blend?"
       choices:
-        - { text: "Syrah and Viognier only", correct: false }
         - { text: "Merlot and Tannat", correct: true }
-        - { text: "Riesling and Pinot Gris", correct: false }
-        - { text: "Ugni Blanc and Colombard only", correct: false }
+        - { text: "Cabernet Franc and Cabernet Sauvignon", correct: false }
+        - { text: "Syrah and Grenache", correct: false }
+        - { text: "Fer Servadou and Négrette", correct: false }
       explanation: |
-        **Tannat** and **Merlot** are the usual partners — a little flesh or extra
-        grip beside Malbec. Not Alsace or Rhône varieties.
-
+        The permitted supporting grapes are Merlot and Tannat. Together they may account for no more than
+        30% because Malbec must remain the defining majority.
+    fr:
+      question: "Quels cépages peuvent compléter le Malbec dans un assemblage de Cahors ?"
+      choices:
+        - { text: "Merlot et Tannat", correct: true }
+        - { text: "Cabernet Franc et Cabernet Sauvignon", correct: false }
+        - { text: "Syrah et Grenache", correct: false }
+        - { text: "Fer Servadou et Négrette", correct: false }
+      explanation: |
+        Les cépages complémentaires autorisés sont le Merlot et le Tannat. Ensemble, ils ne peuvent dépasser
+        30 %, puisque le Malbec doit rester nettement majoritaire.
   - id: cahors-malbec-profile-001
     type: mcq
     deck: France::South West
@@ -307,17 +432,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What does top Cahors Malbec typically look and taste like?
+      question: "Which profile best describes a high-quality Cahors red?"
       choices:
-        - { text: "Pale, low tannin, with only green apple and no oak", correct: false }
-        - { text: "Oak-aged, deep in colour, high tannin, dark berries, then cedar and earth with age", correct: true }
-        - { text: "Banana, kirsch and candy spice from carbonic maceration", correct: false }
-        - { text: "Flor, almond and saline tang from biological ageing", correct: false }
+        - { text: "Deep-coloured and tannic, with dark fruit, spice and capacity to develop earthy complexity", correct: true }
+        - { text: "Pale and low in tannin, with strawberry fruit and no ageing potential", correct: false }
+        - { text: "Sweet and botrytised, with apricot, honey and high residual sugar", correct: false }
+        - { text: "Light and simple, with banana aromas from a very short carbonic maceration", correct: false }
       explanation: |
-        Serious Cahors is **inky**, **tannic** and often **oaked**, with **dark-berry**
-        fruit that can move toward **cedar and earth**. It is not Nouveau-carbonic
-        or a flor sherry.
-
+        High-quality Cahors combines concentrated red and black fruit with spice, violet and firm tannin.
+        Oak may contribute flavour and structure, while bottle age can bring savoury, earthy complexity.
+    fr:
+      question: "Quel profil décrit le mieux un Cahors rouge de qualité ?"
+      choices:
+        - { text: "Très coloré et tannique, avec fruits noirs, épices et capacité à développer une complexité terreuse", correct: true }
+        - { text: "Pâle et peu tannique, avec fruit de fraise et aucun potentiel de garde", correct: false }
+        - { text: "Doux et botrytisé, avec abricot, miel et forte teneur en sucre résiduel", correct: false }
+        - { text: "Léger et simple, avec des arômes de banane issus d’une très courte macération carbonique", correct: false }
+      explanation: |
+        Un Cahors de qualité associe des fruits rouges et noirs concentrés à des épices, de la violette et
+        des tanins fermes. Le bois peut apporter saveur et structure, tandis que la garde en bouteille
+        développe une complexité savoureuse et terreuse.
   - id: gascogne-igp-zone-001
     type: mcq
     deck: France::South West
@@ -328,16 +462,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Southeast of Bordeaux, what is the usual quality tier for everyday whites?
+      question: "Why is IGP an important category for wine production in Gascony?"
       choices:
-        - { text: "Grand Cru Classé, as in the Médoc 1855 list", correct: false }
-        - { text: "IGP, rather than a tight village AOC", correct: true }
-        - { text: "Only Vin de France with no geography at all", correct: false }
-        - { text: "DOCG, as in Italy", correct: false }
+        - { text: "It permits a broad range of grapes and styles across a large geographical area", correct: true }
+        - { text: "It restricts every wine to one traditional grape and a small village area", correct: false }
+        - { text: "It requires all white wines to be sweet and botrytised", correct: false }
+        - { text: "It applies only to spirit production for Armagnac", correct: false }
       explanation: |
-        The country south-east toward Armagnac bottles a lot of **IGP** wine. There
-        is no 1855-style classed-growth ladder here, and DOCG is an Italian idea.
-
+        Côtes de Gascogne IGP covers a broad area and permits many local and international varieties,
+        supporting fresh commercial wines as well as some more distinctive styles. It exists alongside, not
+        merely as a by-product of, Armagnac production.
+    fr:
+      question: "Pourquoi l’IGP est-elle une catégorie importante pour la production de vin en Gascogne ?"
+      choices:
+        - { text: "Elle autorise une large gamme de cépages et de styles sur une vaste aire géographique", correct: true }
+        - { text: "Elle limite chaque vin à un seul cépage traditionnel et à une petite aire villageoise", correct: false }
+        - { text: "Elle impose que tous les blancs soient doux et botrytisés", correct: false }
+        - { text: "Elle s’applique uniquement à la production d’eau-de-vie d’Armagnac", correct: false }
+      explanation: |
+        L’IGP Côtes de Gascogne couvre une vaste zone et autorise de nombreux cépages locaux ou
+        internationaux, permettant des vins commerciaux frais comme des styles plus distinctifs. Elle
+        coexiste avec la production d’Armagnac sans en être un simple sous-produit.
   - id: gascogne-name-001
     type: mcq
     deck: France::South West
@@ -348,16 +493,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What is the most important IGP name in that south-eastern zone?
+      question: "Which is the principal broad IGP for wines from the Gascon area associated with Armagnac?"
       choices:
-        - { text: "Côtes du Rhône", correct: false }
         - { text: "Côtes de Gascogne", correct: true }
-        - { text: "Côtes de Provence", correct: false }
-        - { text: "Vin de Savoie", correct: false }
+        - { text: "Comté Tolosan", correct: false }
+        - { text: "Atlantique", correct: false }
+        - { text: "Landes", correct: false }
       explanation: |
-        **Côtes de Gascogne** is the IGP to remember. It sits in **Armagnac**
-        country — brandy first, table wine from the leftover grapes.
-
+        Côtes de Gascogne is the key IGP name to recognise. Its production zone lies mainly in Gascony
+        between the Garonne, the Landes forest and the Pyrenees.
+    fr:
+      question: "Quelle est la principale grande IGP des vins de la zone gasconne associée à l’Armagnac ?"
+      choices:
+        - { text: "Côtes de Gascogne", correct: true }
+        - { text: "Comté Tolosan", correct: false }
+        - { text: "Atlantique", correct: false }
+        - { text: "Landes", correct: false }
+      explanation: |
+        Côtes de Gascogne est le principal nom d’IGP à retenir. Son aire de production se situe surtout en
+        Gascogne, entre la Garonne, la forêt des Landes et les Pyrénées.
   - id: gascogne-ugni-001
     type: mcq
     deck: France::South West
@@ -368,17 +522,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What is a typical Côtes de Gascogne white?
+      question: "Which profile is typical of a dry white Côtes de Gascogne?"
       choices:
-        - { text: "Sweet, botrytised Sémillon with high residual sugar", correct: false }
-        - { text: "Dry, light-bodied Ugni Blanc with green-apple fruit", correct: true }
-        - { text: "Full-bodied oaked Tannat", correct: false }
-        - { text: "Sparkling Pinot Noir rosé", correct: false }
+        - { text: "Light-bodied, fresh and aromatic, with citrus and tropical or green-fruit notes", correct: true }
+        - { text: "Full-bodied and tannic, with dark fruit and long new-oak maturation", correct: false }
+        - { text: "Sweet and botrytised, with honey, saffron and marmalade aromas", correct: false }
+        - { text: "Oxidative and nutty, with biological ageing under flor", correct: false }
       explanation: |
-        **Ugni Blanc** (the Armagnac / Cognac grape, also called Trebbiano Toscano)
-        makes **dry, light**, apple-fresh whites here. Colombard is often in the mix.
-        It is the opposite of Monbazillac or Madiran.
-
+        Colombard, Ugni Blanc, Sauvignon Blanc and Gros Manseng are among the important grapes. Cool
+        handling preserves their fresh acidity and citrus, exotic-fruit or green-fruit aromas.
+    fr:
+      question: "Quel profil est typique d’un Côtes de Gascogne blanc sec ?"
+      choices:
+        - { text: "Léger, frais et aromatique, avec agrumes et notes de fruits exotiques ou verts", correct: true }
+        - { text: "Corsé et tannique, avec fruits noirs et long élevage en bois neuf", correct: false }
+        - { text: "Doux et botrytisé, avec miel, safran et marmelade", correct: false }
+        - { text: "Oxydatif et marqué par la noix, avec élevage biologique sous voile", correct: false }
+      explanation: |
+        Le Colombard, l’Ugni Blanc, le Sauvignon Blanc et le Gros Manseng figurent parmi les cépages
+        importants. Une vinification à basse température préserve leur acidité fraîche et leurs arômes
+        d’agrumes, de fruits exotiques ou de fruits verts.
   - id: madiran-location-001
     type: mcq
     deck: France::South West
@@ -389,17 +552,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which red AOC lies just south of Côtes de Gascogne, toward the Pyrenees?
+      question: "Where is the Madiran AOC located?"
       choices:
-        - { text: "Bergerac", correct: false }
-        - { text: "Madiran", correct: true }
-        - { text: "Monbazillac", correct: false }
-        - { text: "Muscadet Sèvre-et-Maine", correct: false }
+        - { text: "On hills north-east of Pau, as the land rises toward the Pyrenees", correct: true }
+        - { text: "Along the Dordogne immediately east of Bordeaux", correct: false }
+        - { text: "On the River Lot around the town of Cahors", correct: false }
+        - { text: "On the Atlantic coast north of the Gironde estuary", correct: false }
       explanation: |
-        **Madiran** is the next stop south of Gascogne, in the Vic-Bilh foothills as
-        the land rises toward the **Pyrenees**. Bergerac and Monbazillac stay up in
-        the Dordogne.
-
+        Madiran spans hillside sites in the Vic-Bilh area across parts of three départements, mainly
+        north-east of Pau. Its valleys and sediments reflect the nearby Pyrenees.
+    fr:
+      question: "Où se situe l’AOC Madiran ?"
+      choices:
+        - { text: "Sur des coteaux au nord-est de Pau, lorsque le relief s’élève vers les Pyrénées", correct: true }
+        - { text: "Le long de la Dordogne immédiatement à l’est de Bordeaux", correct: false }
+        - { text: "Sur le Lot autour de la ville de Cahors", correct: false }
+        - { text: "Sur la côte atlantique au nord de l’estuaire de la Gironde", correct: false }
+      explanation: |
+        Madiran occupe des coteaux du Vic-Bilh dans trois départements, principalement au nord-est de Pau.
+        Ses vallées et ses sédiments témoignent de la proximité des Pyrénées.
   - id: madiran-tannat-001
     type: mcq
     deck: France::South West
@@ -410,16 +581,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What is the grape and basic profile of Madiran?
+      question: "Which grape and structural profile define Madiran?"
       choices:
-        - { text: "Pinot Noir — pale, low tannin, red-cherry perfume", correct: false }
-        - { text: "Tannat — deep colour and high tannin", correct: true }
-        - { text: "Ugni Blanc — light, green-apple white", correct: false }
-        - { text: "Petit Manseng — high-acid sweet white", correct: false }
+        - { text: "Tannat, giving deep colour and firm tannin", correct: true }
+        - { text: "Malbec, giving pale colour and low tannin", correct: false }
+        - { text: "Petit Manseng, giving high acidity and sweetness", correct: false }
+        - { text: "Colombard, giving light body and citrus aromas", correct: false }
       explanation: |
-        **Tannat** is in the name of the tannin. Madiran is **dark and firmly
-        structured**. Pinot and Manseng belong to other chapters.
-
+        Madiran is based principally on Tannat, which produces deeply coloured, powerful and tannic red
+        wines. Cabernet Franc, Cabernet Sauvignon and Fer Servadou may support it in the blend.
+    fr:
+      question: "Quel cépage et quel profil structurel définissent Madiran ?"
+      choices:
+        - { text: "Le Tannat, qui apporte une couleur profonde et des tanins fermes", correct: true }
+        - { text: "Le Malbec, qui apporte une couleur pâle et peu de tanins", correct: false }
+        - { text: "Le Petit Manseng, qui apporte une forte acidité et de la douceur", correct: false }
+        - { text: "Le Colombard, qui apporte un corps léger et des arômes d’agrumes", correct: false }
+      explanation: |
+        Madiran repose principalement sur le Tannat, qui produit des rouges profondément colorés, puissants
+        et tanniques. Le Cabernet Franc, le Cabernet Sauvignon et le Fer Servadou peuvent le compléter dans
+        l’assemblage.
   - id: madiran-bottle-age-001
     type: mcq
     deck: France::South West
@@ -430,16 +611,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Traditionally, how was Madiran made drinkable?
+      question: "Why did traditional Madiran often require extended bottle ageing?"
       choices:
-        - { text: "By serving it as Nouveau the third Thursday of November", correct: false }
-        - { text: "By long bottle ageing to let the tannins slacken", correct: true }
-        - { text: "By mandatory carbonic maceration of whole bunches only", correct: false }
-        - { text: "By ageing under flor for two years", correct: false }
+        - { text: "Time was needed to soften Tannat’s abundant, firm tannins", correct: true }
+        - { text: "Time was needed to develop bubbles through a second fermentation", correct: false }
+        - { text: "Time was needed for Botrytis cinerea to grow after bottling", correct: false }
+        - { text: "Time was needed to convert a dry wine into a fortified wine", correct: false }
       explanation: |
-        Old-school Tannat needed **years in bottle** before the grip eased. It was
-        never a primeur or a flor wine.
-
+        Traditional extraction produced highly tannic wines whose structure could seem severe when young.
+        Bottle age gradually integrated the tannins and developed savoury complexity.
+    fr:
+      question: "Pourquoi le Madiran traditionnel exigeait-il souvent une longue garde en bouteille ?"
+      choices:
+        - { text: "Il fallait du temps pour assouplir les tanins abondants et fermes du Tannat", correct: true }
+        - { text: "Il fallait du temps pour développer les bulles par une seconde fermentation", correct: false }
+        - { text: "Il fallait du temps pour que Botrytis cinerea se développe après la mise en bouteille", correct: false }
+        - { text: "Il fallait du temps pour transformer un vin sec en vin fortifié", correct: false }
+      explanation: |
+        L’extraction traditionnelle produisait des vins très tanniques dont la structure pouvait sembler
+        sévère dans leur jeunesse. La garde en bouteille intégrait progressivement les tanins et développait
+        une complexité savoureuse.
   - id: madiran-modern-001
     type: mcq
     deck: France::South West
@@ -450,18 +641,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Why can many modern Madiran wines be approached sooner?
+      question: "Which approach can make modern Madiran more approachable when young?"
       choices:
-        - { text: "The AOC banned Tannat and replaced it with Gamay", correct: false }
-        - { text: "Riper fruit and gentler extraction give softer, riper tannin", correct: true }
-        - { text: "All Madiran is now sold as white Ugni Blanc", correct: false }
-        - { text: "The wines are frozen and the ice thrown away", correct: false }
+        - { text: "Riper grapes, gentler extraction and careful oxygen management", correct: true }
+        - { text: "Earlier picking, stronger extraction and complete avoidance of oxygen", correct: false }
+        - { text: "Replacing Tannat entirely with a low-tannin white grape", correct: false }
+        - { text: "Stopping fermentation early to leave substantial residual sugar", correct: false }
       explanation: |
-        Later picking and less brutal extraction mean **riper, more supple tannin**.
-        Patrick Ducournau, in Madiran in the 1990s, also pioneered
-        **micro-oxygenation** to polish Tannat without waiting a decade. The grape
-        itself was not replaced.
-
+        Riper fruit gives less green tannin, while gentler extraction and techniques such as
+        micro-oxygenation can help integrate structure. Madiran producer Patrick Ducournau was an important
+        pioneer of micro-oxygenation in the 1990s.
+    fr:
+      question: "Quelle approche peut rendre un Madiran moderne plus accessible dans sa jeunesse ?"
+      choices:
+        - { text: "Des raisins plus mûrs, une extraction plus douce et une gestion attentive de l’oxygène", correct: true }
+        - { text: "Une vendange plus précoce, une extraction plus forte et l’exclusion totale de l’oxygène", correct: false }
+        - { text: "Le remplacement complet du Tannat par un cépage blanc peu tannique", correct: false }
+        - { text: "L’arrêt précoce de la fermentation afin de conserver beaucoup de sucre résiduel", correct: false }
+      explanation: |
+        Un fruit plus mûr donne des tanins moins végétaux, tandis qu’une extraction douce et des techniques
+        comme la micro-oxygénation peuvent aider à intégrer la structure. Le producteur de Madiran Patrick
+        Ducournau fut un pionnier important de la micro-oxygénation dans les années 1990.
   - id: jurancon-location-001
     type: mcq
     deck: France::South West
@@ -472,16 +672,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which appellation sits in the Pyrenees foothills?
+      question: "Where is the Jurançon AOC located?"
       choices:
-        - { text: "Cahors", correct: false }
-        - { text: "Jurançon", correct: true }
-        - { text: "Entre-Deux-Mers", correct: false }
-        - { text: "Chablis", correct: false }
+        - { text: "On steep hillsides in the Pyrenean foothills around Pau", correct: true }
+        - { text: "On limestone terraces beside the River Lot around Cahors", correct: false }
+        - { text: "On the Dordogne hills immediately east of Saint-Émilion", correct: false }
+        - { text: "On the Gascon plains north of the Landes forest", correct: false }
       explanation: |
-        **Jurançon** is the Pyrenean one, south of Madiran, around Pau. Cahors is the
-        Lot; Entre-Deux-Mers is Bordeaux.
-
+        Jurançon occupies scattered, often steep hillside vineyards in the Pyrenean foothills south and west
+        of Pau. The oceanic climate is modified by warm, dry southerly winds in autumn.
+    fr:
+      question: "Où se situe l’AOC Jurançon ?"
+      choices:
+        - { text: "Sur des coteaux escarpés du piémont pyrénéen autour de Pau", correct: true }
+        - { text: "Sur des terrasses calcaires au bord du Lot autour de Cahors", correct: false }
+        - { text: "Sur les collines de la Dordogne immédiatement à l’est de Saint-Émilion", correct: false }
+        - { text: "Dans les plaines gasconnes au nord de la forêt des Landes", correct: false }
+      explanation: |
+        Jurançon occupe des vignobles dispersés, souvent très pentus, dans le piémont pyrénéen au sud et à
+        l’ouest de Pau. Le climat océanique est modifié par des vents chauds et secs venus du sud en
+        automne.
   - id: jurancon-styles-001
     type: mcq
     deck: France::South West
@@ -492,16 +702,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which styles does Jurançon make?
+      question: "Which two principal styles are produced in Jurançon?"
       choices:
-        - { text: "Only sparkling red, like Lambrusco", correct: false }
-        - { text: "Dry and sweet whites", correct: true }
-        - { text: "Only fortified wine under flor", correct: false }
-        - { text: "Only rosé from Tannat", correct: false }
+        - { text: "Dry white labelled Jurançon Sec and sweet white labelled Jurançon", correct: true }
+        - { text: "Dry red labelled Jurançon and sweet red labelled Jurançon Doux", correct: false }
+        - { text: "Sparkling white labelled Jurançon Mousseux and dry rosé", correct: false }
+        - { text: "Fortified white labelled Jurançon and oxidative red labelled Jurançon Sec", correct: false }
       explanation: |
-        Labels split **Jurançon Sec** (dry) and **Jurançon** (the sweet wine). Both
-        are white. There is no flor or Lambrusco model here.
-
+        Jurançon is a white-wine appellation. The word Sec identifies the dry style, while Jurançon without
+        Sec denotes the sweet style; Vendanges Tardives may identify particularly concentrated late-harvest
+        wine.
+    fr:
+      question: "Quels sont les deux principaux styles produits en Jurançon ?"
+      choices:
+        - { text: "Un blanc sec étiqueté Jurançon Sec et un blanc doux étiqueté Jurançon", correct: true }
+        - { text: "Un rouge sec étiqueté Jurançon et un rouge doux étiqueté Jurançon Doux", correct: false }
+        - { text: "Un blanc effervescent étiqueté Jurançon Mousseux et un rosé sec", correct: false }
+        - { text: "Un blanc fortifié étiqueté Jurançon et un rouge oxydatif étiqueté Jurançon Sec", correct: false }
+      explanation: |
+        Jurançon est une appellation de vin blanc. La mention « Sec » désigne le style sec, tandis que
+        Jurançon sans cette mention correspond au style doux ; « Vendanges Tardives » peut identifier un vin
+        tardif particulièrement concentré.
   - id: jurancon-sweet-focus-001
     type: mcq
     deck: France::South West
@@ -512,17 +733,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which Jurançon wines are the ones this chapter treats as the stars?
+      question: "Which Jurançon style has historically carried the appellation’s strongest reputation?"
       choices:
-        - { text: "The everyday dry IGP Ugni Blanc", correct: false }
-        - { text: "The complex sweet wines", correct: true }
-        - { text: "The Nouveau reds released in November", correct: false }
-        - { text: "The barrel-aged Tannat from the valley floor", correct: false }
+        - { text: "Concentrated sweet white wine with balancing acidity", correct: true }
+        - { text: "Light neutral dry wine intended only for distillation", correct: false }
+        - { text: "Tannic red wine based on Tannat", correct: false }
+        - { text: "Sparkling rosé made by the ancestral method", correct: false }
       explanation: |
-        Dry Jurançon Sec can be excellent, but the reputation — and the Henri IV
-        baptism story — sits with the **sweet**, concentrated wines. Ugni Blanc is
-        the Gascogne IGP grape, not Jurançon.
-
+        Jurançon Sec can be distinctive and age-worthy, but the appellation is historically most famous for
+        concentrated sweet wines whose high acidity prevents them from seeming heavy.
+    fr:
+      question: "Quel style de Jurançon porte historiquement la réputation la plus forte de l’appellation ?"
+      choices:
+        - { text: "Un blanc doux concentré équilibré par une forte acidité", correct: true }
+        - { text: "Un blanc sec léger et neutre destiné uniquement à la distillation", correct: false }
+        - { text: "Un rouge tannique à base de Tannat", correct: false }
+        - { text: "Un rosé effervescent élaboré par méthode ancestrale", correct: false }
+      explanation: |
+        Jurançon Sec peut être distinctif et apte à la garde, mais l’appellation est historiquement surtout
+        célèbre pour ses vins doux concentrés, dont la forte acidité évite toute lourdeur.
   - id: jurancon-petit-manseng-001
     type: mcq
     deck: France::South West
@@ -533,17 +762,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which grape is the heart of Jurançon’s sweet wines?
+      question: "How do Petit Manseng and Gros Manseng typically divide their roles in Jurançon?"
       choices:
-        - { text: "Sémillon", correct: false }
-        - { text: "Petit Manseng", correct: true }
-        - { text: "Chenin Blanc", correct: false }
-        - { text: "Furmint", correct: false }
+        - { text: "Petit Manseng is central to concentrated sweet wines; Gros Manseng is important in dry wines", correct: true }
+        - { text: "Petit Manseng is used only for red wine; Gros Manseng only for rosé", correct: false }
+        - { text: "Petit Manseng is neutral and low in acidity; Gros Manseng is highly tannic", correct: false }
+        - { text: "Petit Manseng is used only for distillation; Gros Manseng only for sparkling wine", correct: false }
       explanation: |
-        **Petit Manseng** is the sweet-wine grape: thick skins, tiny berries, holds
-        acid while sugar climbs. **Gros Manseng** is more often the dry-wine workhorse.
-        Sémillon is Monbazillac; Chenin is the Loire; Furmint is Tokaj.
-
+        Petit Manseng has small, thick-skinned berries that retain acidity as sugar concentrates, making it
+        particularly valuable for sweet wine. Gros Manseng gives larger yields and is an important component
+        of Jurançon Sec.
+    fr:
+      question: "Comment le Petit Manseng et le Gros Manseng se répartissent-ils généralement les rôles en Jurançon ?"
+      choices:
+        - { text: "Le Petit Manseng est central dans les doux concentrés ; le Gros Manseng est important dans les secs", correct: true }
+        - { text: "Le Petit Manseng sert uniquement aux rouges ; le Gros Manseng uniquement aux rosés", correct: false }
+        - { text: "Le Petit Manseng est neutre et peu acide ; le Gros Manseng est très tannique", correct: false }
+        - { text: "Le Petit Manseng sert uniquement à la distillation ; le Gros Manseng aux effervescents", correct: false }
+      explanation: |
+        Le Petit Manseng possède de petites baies à pellicule épaisse qui conservent leur acidité pendant
+        que le sucre se concentre, ce qui le rend particulièrement précieux pour les vins doux. Plus
+        productif, le Gros Manseng joue un rôle important dans le Jurançon Sec.
   - id: jurancon-petit-manseng-acid-001
     type: mcq
     deck: France::South West
@@ -554,16 +793,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What is the key structural trait of Petit Manseng in Jurançon?
+      question: "Which structural feature makes Petit Manseng especially suitable for sweet Jurançon?"
       choices:
-        - { text: "Almost no acidity, so the wines taste flat when sweet", correct: false }
-        - { text: "High acidity, which keeps sweet wines fresh", correct: true }
-        - { text: "High tannin, like Tannat", correct: false }
-        - { text: "A flor veil that eats the residual sugar", correct: false }
+        - { text: "It retains high acidity as sugar concentration increases", correct: true }
+        - { text: "It develops high tannin while remaining very low in acidity", correct: false }
+        - { text: "It loses nearly all acidity before late harvesting", correct: false }
+        - { text: "It naturally stops fermentation at a very low alcohol level", correct: false }
       explanation: |
-        **High acid** is why passerillé Petit Manseng stays lively instead of cloying.
-        It is a white grape — tannin and flor are the wrong toolkit.
-
+        Petit Manseng can reach very high sugar levels while retaining vivid acidity. This combination gives
+        sweet Jurançon concentration and longevity without a cloying finish.
+    fr:
+      question: "Quelle caractéristique structurelle rend le Petit Manseng particulièrement adapté au Jurançon doux ?"
+      choices:
+        - { text: "Il conserve une forte acidité lorsque la concentration en sucre augmente", correct: true }
+        - { text: "Il développe beaucoup de tanins tout en restant très peu acide", correct: false }
+        - { text: "Il perd presque toute son acidité avant les vendanges tardives", correct: false }
+        - { text: "Il arrête naturellement sa fermentation à un très faible degré alcoolique", correct: false }
+      explanation: |
+        Le Petit Manseng peut atteindre une très forte richesse en sucre tout en conservant une acidité
+        vive. Cette combinaison apporte au Jurançon doux concentration et longévité sans finale écœurante.
   - id: jurancon-passerillage-001
     type: mcq
     deck: France::South West
@@ -574,17 +822,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: How do Jurançon’s Petit Manseng grapes usually concentrate sugar?
+      question: "How are grapes commonly concentrated for sweet Jurançon?"
       choices:
-        - { text: "Noble rot (Botrytis cinerea), as in Sauternes", correct: false }
-        - { text: "Passerillage — grapes left to shrivel on the vine", correct: true }
-        - { text: "Freezing on the vine and pressing out ice, as in eiswein", correct: false }
-        - { text: "Adding grape spirit mid-ferment, as in Port", correct: false }
+        - { text: "Late harvesting and passerillage on the vine, aided by warm, dry southerly winds", correct: true }
+        - { text: "Systematic noble rot encouraged by persistent morning fog", correct: false }
+        - { text: "Freezing the grapes on the vine before pressing", correct: false }
+        - { text: "Fortifying the must with grape spirit during fermentation", correct: false }
       explanation: |
-        Sweet Jurançon is **passerillage**, not botrytis. A dry south wind (the
-        **autan** / Pyrenean foehn) shrivels bunches on the vine. That is the
-        opposite method from Monbazillac and Sauternes.
-
+        Grapes are left to over-ripen and shrivel on the vine, often harvested in successive passes. Warm,
+        dry autumn winds from the south assist concentration; noble rot is not the defining method.
+    fr:
+      question: "Comment les raisins sont-ils généralement concentrés pour produire le Jurançon doux ?"
+      choices:
+        - { text: "Par vendange tardive et passerillage sur souche, favorisés par des vents chauds et secs du sud", correct: true }
+        - { text: "Par une pourriture noble systématique favorisée par des brouillards matinaux persistants", correct: false }
+        - { text: "Par le gel des raisins sur souche avant leur pressurage", correct: false }
+        - { text: "Par mutage du moût avec une eau-de-vie pendant la fermentation", correct: false }
+      explanation: |
+        Les raisins sont laissés à surmûrir et à se flétrir sur la vigne, souvent récoltés en plusieurs
+        passages. Les vents automnaux chauds et secs venus du sud favorisent la concentration ; la
+        pourriture noble n’est pas la méthode déterminante.
   - id: jurancon-flavours-001
     type: mcq
     deck: France::South West
@@ -595,14 +852,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What flavours are typical of Jurançon’s sweet wines?
+      question: "Which profile is typical of a high-quality sweet Jurançon?"
       choices:
-        - { text: "Banana, kirsch and cinnamon-spice from carbonic maceration", correct: false }
-        - { text: "Pronounced apricot and grapefruit, sometimes with spicy oak", correct: true }
-        - { text: "Green bell pepper and graphite, with high tannin", correct: false }
-        - { text: "Flor, almond and bruised apple", correct: false }
+        - { text: "Pronounced stone and tropical fruit, citrus freshness and possible spice or dried-fruit development", correct: true }
+        - { text: "Neutral green fruit, low acidity and no capacity to develop in bottle", correct: false }
+        - { text: "Deep colour, firm tannin and black-fruit flavours from extended skin maceration", correct: false }
+        - { text: "Oxidative walnut, bruised apple and saline flavours from ageing under flor", correct: false }
       explanation: |
-        Think **apricot and grapefruit** (the acid showing through the sweetness),
-        with **oak spice** when the wine sees wood. Henri IV is said to have been
-        baptised with Jurançon — a court story, not a tasting note. Carbonic banana
-        and flor are other regions.
+        Young sweet Jurançon can show apricot, pineapple, citrus and floral aromas with vivid acidity. With
+        bottle or oak ageing, dried-fruit, honey and spice complexity may emerge.
+    fr:
+      question: "Quel profil est typique d’un Jurançon doux de qualité ?"
+      choices:
+        - { text: "Fruits à noyau et exotiques prononcés, fraîcheur d’agrumes et possible évolution vers les épices ou les fruits secs", correct: true }
+        - { text: "Fruit vert neutre, faible acidité et aucune capacité d’évolution en bouteille", correct: false }
+        - { text: "Couleur profonde, tanins fermes et fruits noirs issus d’une longue macération pelliculaire", correct: false }
+        - { text: "Noix oxydative, pomme meurtrie et notes salines issues d’un élevage sous voile", correct: false }
+      explanation: |
+        Un Jurançon doux jeune peut présenter abricot, ananas, agrumes et fleurs avec une acidité vive. La
+        garde en bouteille ou sous bois peut faire apparaître une complexité de fruits secs, de miel et
+        d’épices.

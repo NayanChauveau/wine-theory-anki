@@ -13,17 +13,26 @@ cards:
       fact_check: pass
       sources: [spec]
     en:
-      question: What is the French legal term that matches the EU’s PDO?
+      question: "Which French term corresponds to the EU category Protected Designation of Origin (PDO)?"
       choices:
-        - { text: "Vin de France", correct: false }
-        - { text: "Appellation d'origine protégée (AOP)", correct: true }
-        - { text: "Vin de Pays", correct: false }
+        - { text: "Appellation d’origine protégée (AOP)", correct: true }
         - { text: "Indication géographique protégée (IGP)", correct: false }
+        - { text: "Vin de France", correct: false }
+        - { text: "Vin de Pays", correct: false }
       explanation: |
-        EU **PDO** is **AOP** in French — *appellation d'origine protégée*. IGP is the
-        PGI tier; Vin de France has no GI. On the bottle you still more often see the
-        older **AOC** wording.
-
+        AOP is the French expression for the EU PDO category. It identifies wine whose qualities and
+        characteristics are closely linked to a defined origin and its production rules.
+    fr:
+      question: "Quel terme français correspond à la catégorie européenne Protected Designation of Origin (PDO) ?"
+      choices:
+        - { text: "Appellation d’origine protégée (AOP)", correct: true }
+        - { text: "Indication géographique protégée (IGP)", correct: false }
+        - { text: "Vin de France", correct: false }
+        - { text: "Vin de Pays", correct: false }
+      explanation: |
+        AOP est l’expression française correspondant à la catégorie européenne PDO. Elle désigne un vin dont
+        les qualités et caractéristiques sont étroitement liées à une origine définie et à son cahier des
+        charges.
   - id: france-aoc-term-001
     type: mcq
     deck: France
@@ -34,17 +43,26 @@ cards:
       fact_check: pass
       sources: [spec]
     en:
-      question: What older French name still stands in for AOP on most wine labels?
+      question: "How does the traditional French term AOC relate to AOP for wine?"
       choices:
-        - { text: "Vin délimité de qualité supérieure (VDQS)", correct: false }
-        - { text: "Appellation d'origine contrôlée (AC / AOC)", correct: true }
-        - { text: "Denominazione di origine controllata", correct: false }
-        - { text: "Qualitätswein bestimmter Anbaugebiete", correct: false }
+        - { text: "AOC is the protected traditional national term used within the EU AOP framework", correct: true }
+        - { text: "AOC is the French term for the less restrictive EU IGP category", correct: false }
+        - { text: "AOC is a category below Vin de France with no geographical link", correct: false }
+        - { text: "AOC was replaced by a mandatory Premier Cru classification", correct: false }
       explanation: |
-        France folded AOC into the EU **AOP** box but kept the familiar
-        **appellation d'origine contrôlée** (AC / AOC) on labels. VDQS was abolished.
-        DOC and QbA are Italian and German words.
-
+        Appellation d’origine contrôlée is France’s traditional term. Wines registered in the EU as AOP may
+        continue to use the protected AOC wording on French labels.
+    fr:
+      question: "Comment le terme français traditionnel AOC se rapporte-t-il à l’AOP pour le vin ?"
+      choices:
+        - { text: "AOC est la mention nationale traditionnelle protégée utilisée dans le cadre européen de l’AOP", correct: true }
+        - { text: "AOC est le terme français correspondant à la catégorie européenne IGP, moins restrictive", correct: false }
+        - { text: "AOC est une catégorie inférieure au Vin de France et dépourvue de lien géographique", correct: false }
+        - { text: "AOC a été remplacée par un classement Premier Cru obligatoire", correct: false }
+      explanation: |
+        Appellation d’origine contrôlée est la mention traditionnelle française. Les vins enregistrés dans
+        l’Union européenne comme AOP peuvent continuer à utiliser la mention protégée AOC sur leurs
+        étiquettes françaises.
   - id: france-aoc-common-001
     type: mcq
     deck: France
@@ -55,17 +73,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which PDO wording do you actually see on most French bottles?
+      question: "Which sequence orders the principal French wine categories from the closest regulated link to origin to no geographical indication?"
       choices:
-        - { text: "AOP, almost never AOC", correct: false }
-        - { text: "AC / AOC", correct: true }
-        - { text: "DOCG", correct: false }
-        - { text: "AVA", correct: false }
+        - { text: "AOP/AOC → IGP → Vin de France", correct: true }
+        - { text: "IGP → AOP/AOC → Vin de France", correct: false }
+        - { text: "Vin de France → AOP/AOC → IGP", correct: false }
+        - { text: "AOP/AOC → Vin de France → IGP", correct: false }
       explanation: |
-        Producers and the INAO still print **AOC** (or AC). AOP is the EU synonym;
-        it has not replaced the word on the neck label. DOCG and AVA are other
-        countries.
-
+        AOP/AOC has the strongest regulated connection to a defined origin and specification. IGP retains a
+        broader geographical link, while Vin de France is wine without a geographical indication.
+    fr:
+      question: "Quelle séquence classe les principales catégories françaises du lien réglementé le plus étroit à l’origine jusqu’à l’absence d’indication géographique ?"
+      choices:
+        - { text: "AOP/AOC → IGP → Vin de France", correct: true }
+        - { text: "IGP → AOP/AOC → Vin de France", correct: false }
+        - { text: "Vin de France → AOP/AOC → IGP", correct: false }
+        - { text: "AOP/AOC → Vin de France → IGP", correct: false }
+      explanation: |
+        L’AOP/AOC possède le lien réglementé le plus étroit avec une origine définie et un cahier des
+        charges. L’IGP conserve un lien géographique plus large, tandis que Vin de France désigne un vin
+        sans indication géographique.
   - id: france-nested-aoc-001
     type: mcq
     deck: France
@@ -76,17 +103,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Why can one French vineyard sit under more than one appellation?
+      question: "Why can the same French vineyard lie within both a specific and a broader appellation area?"
       choices:
-        - { text: "France allows only a single nationwide AOC called Vin de France", correct: false }
-        - { text: "A smaller, more precise AOC is often nested inside a broader one", correct: true }
-        - { text: "Every plot must also be a German Prädikat", correct: false }
-        - { text: "Nested AOCs are illegal after 2008", correct: false }
+        - { text: "French appellation areas can overlap in a nested geographical hierarchy", correct: true }
+        - { text: "Every vineyard automatically receives two unrelated appellation names", correct: false }
+        - { text: "An IGP must always be geographically smaller than an AOP", correct: false }
+        - { text: "EU law requires every parcel to belong to both France and another country", correct: false }
       explanation: |
-        A Côte de Nuits village, a Bourgogne Rouge and sometimes a regional Bourgogne
-        can cover the **same rows**. The producer picks the name that fits the wine
-        and the vintage.
-
+        A village or cru area may sit inside the geographical area of a broader regional appellation. The
+        wine may claim only a designation whose grape, yield, production and other rules it satisfies.
+    fr:
+      question: "Pourquoi une même vigne française peut-elle se trouver dans l’aire d’une appellation précise et dans celle d’une appellation plus large ?"
+      choices:
+        - { text: "Les aires d’appellation françaises peuvent se chevaucher selon une hiérarchie géographique imbriquée", correct: true }
+        - { text: "Chaque vignoble reçoit automatiquement deux noms d’appellation sans rapport", correct: false }
+        - { text: "Une IGP doit toujours être géographiquement plus petite qu’une AOP", correct: false }
+        - { text: "Le droit européen impose à chaque parcelle d’appartenir à la France et à un autre pays", correct: false }
+      explanation: |
+        Une aire village ou de cru peut se situer dans l’aire géographique d’une appellation régionale plus
+        large. Le vin ne peut revendiquer qu’une dénomination dont il respecte les règles de cépage,
+        rendement, production et autres exigences.
   - id: france-nested-choice-001
     type: mcq
     deck: France
@@ -97,17 +133,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: How can a grower use that nested-appellation stack in a weak year?
+      question: "Why might a producer sell wine under a broader appellation even when the vineyard lies within a more specific one?"
       choices:
-        - { text: "They must still bottle the most famous name, even if the wine is thin", correct: false }
-        - { text: "They can drop to the broader, less prestigious AOC", correct: true }
-        - { text: "They must declassify everything to Vin de France", correct: false }
-        - { text: "They are required to chaptalise to keep the village name", correct: false }
+        - { text: "The wine may not meet the specific rules or the producer may choose to protect the narrower name", correct: true }
+        - { text: "French law always requires the broadest possible appellation on the label", correct: false }
+        - { text: "The more specific appellation may be used only in warm vintages by national decree", correct: false }
+        - { text: "Using a broader appellation automatically converts the wine into an IGP", correct: false }
       explanation: |
-        In a poor vintage (or from a lesser parcel) the same fruit can go out as
-        **Bourgogne** instead of the village or premier cru. That protects the
-        famous name. It is a choice, not an automatic crash to Vin de France.
-
+        Fruit can be declassified to a broader appellation when stricter rules are not met or when quality
+        is judged unsuitable for the narrower name. The broader wine must still satisfy its own
+        specification.
+    fr:
+      question: "Pourquoi un producteur peut-il vendre un vin sous une appellation plus large alors que la vigne se situe dans une aire plus précise ?"
+      choices:
+        - { text: "Le vin peut ne pas respecter les règles précises, ou le producteur peut vouloir protéger le nom plus étroit", correct: true }
+        - { text: "La loi française impose toujours l’appellation la plus large possible sur l’étiquette", correct: false }
+        - { text: "L’appellation plus précise ne peut être utilisée que lors des millésimes chauds par décret national", correct: false }
+        - { text: "L’usage d’une appellation plus large transforme automatiquement le vin en IGP", correct: false }
+      explanation: |
+        Les raisins peuvent être déclassés dans une appellation plus large lorsque les règles plus strictes
+        ne sont pas respectées ou lorsque la qualité est jugée insuffisante pour le nom plus précis. Le vin
+        doit néanmoins respecter le cahier des charges de l’appellation plus large.
   - id: france-igp-term-001
     type: mcq
     deck: France
@@ -118,16 +164,26 @@ cards:
       fact_check: pass
       sources: [spec]
     en:
-      question: What is the French term for a PGI wine?
+      question: "Which French term corresponds to the EU category Protected Geographical Indication (PGI)?"
       choices:
-        - { text: "Appellation d'origine contrôlée", correct: false }
         - { text: "Indication géographique protégée (IGP)", correct: true }
+        - { text: "Appellation d’origine protégée (AOP)", correct: false }
         - { text: "Vin de France", correct: false }
-        - { text: "Denominación de origen", correct: false }
+        - { text: "Appellation d’origine contrôlée (AOC)", correct: false }
       explanation: |
-        EU **PGI** is **IGP** in France. AOC/AOP is the tighter PDO tier; Vin de
-        France has no geography. Pays d’Oc is the volume example.
-
+        IGP is the French expression for PGI. It identifies a geographical origin but generally offers
+        broader areas, grape choices and production rules than AOP.
+    fr:
+      question: "Quel terme français correspond à la catégorie européenne Protected Geographical Indication (PGI) ?"
+      choices:
+        - { text: "Indication géographique protégée (IGP)", correct: true }
+        - { text: "Appellation d’origine protégée (AOP)", correct: false }
+        - { text: "Vin de France", correct: false }
+        - { text: "Appellation d’origine contrôlée (AOC)", correct: false }
+      explanation: |
+        IGP est l’expression française correspondant à PGI. Elle identifie une origine géographique, mais
+        ses aires, ses choix de cépages et ses règles de production sont généralement plus larges que ceux
+        d’une AOP.
   - id: france-vin-de-pays-001
     type: mcq
     deck: France
@@ -138,17 +194,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which older French phrase still appears as a synonym for IGP?
+      question: "Which former French wine category was replaced by IGP?"
       choices:
+        - { text: "Vin de Pays", correct: true }
         - { text: "Vin délimité de qualité supérieure", correct: false }
-        - { text: "Vin de Pays (VdP)", correct: true }
         - { text: "Vin de table", correct: false }
-        - { text: "Grand vin de château", correct: false }
+        - { text: "Appellation d’origine contrôlée", correct: false }
       explanation: |
-        **Vin de Pays** was the pre-2008 PGI name. Many labels still say it beside
-        IGP (Pays d’Oc, Côtes de Gascogne). Vin de table became Vin de France;
-        VDQS is gone.
-
+        The former Vin de Pays category became IGP under the EU system. The protected geographical names
+        remain familiar, for example Pays d’Oc and Côtes de Gascogne.
+    fr:
+      question: "Quelle ancienne catégorie française de vin a été remplacée par l’IGP ?"
+      choices:
+        - { text: "Vin de Pays", correct: true }
+        - { text: "Vin délimité de qualité supérieure", correct: false }
+        - { text: "Vin de table", correct: false }
+        - { text: "Appellation d’origine contrôlée", correct: false }
+      explanation: |
+        L’ancienne catégorie Vin de Pays est devenue IGP dans le système européen. Les indications
+        géographiques restent familières, par exemple Pays d’Oc et Côtes de Gascogne.
   - id: france-vin-de-france-001
     type: mcq
     deck: France
@@ -159,14 +223,23 @@ cards:
       fact_check: pass
       sources: [spec]
     en:
-      question: What is France’s term for a wine with no geographical indication?
+      question: "What does Vin de France indicate?"
       choices:
-        - { text: "AOC", correct: false }
-        - { text: "Vin de France", correct: true }
-        - { text: "IGP", correct: false }
-        - { text: "Cru bourgeois", correct: false }
+        - { text: "French wine without a protected geographical indication", correct: true }
+        - { text: "Wine from any French AOP blended under one national appellation", correct: false }
+        - { text: "The traditional French synonym for every IGP", correct: false }
+        - { text: "Wine that must omit both grape variety and vintage from the label", correct: false }
       explanation: |
-        **Vin de France** replaced vin de table: grapes from anywhere in the
-        country, variety and vintage allowed on the label, but no AOC or IGP
-        place name. Super-Tuscans are the Italian cousin of this idea, not the
-        French term.
+        Vin de France may use grapes from different French regions and carries no AOP or IGP origin. Subject
+        to labelling rules, grape variety and vintage may still be stated.
+    fr:
+      question: "Que signifie la catégorie Vin de France ?"
+      choices:
+        - { text: "Un vin français sans indication géographique protégée", correct: true }
+        - { text: "Un vin de n’importe quelle AOP française assemblé sous une appellation nationale", correct: false }
+        - { text: "Le synonyme français traditionnel de toutes les IGP", correct: false }
+        - { text: "Un vin qui doit omettre à la fois le cépage et le millésime sur l’étiquette", correct: false }
+      explanation: |
+        Vin de France peut utiliser des raisins de différentes régions françaises et ne porte aucune origine
+        AOP ou IGP. Sous réserve des règles d’étiquetage, le cépage et le millésime peuvent néanmoins être
+        indiqués.

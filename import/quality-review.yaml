@@ -768,8 +768,73 @@ chapters:
 # Chapitres pas encore passés sur ces deux barres (ajouter `cards:`
 # quand une vague FR + qualité démarre).
   c01-sat: { file: cards/c01-sat.yaml, status: pending }
-  c12-france-introduction: { file: cards/c12-france-introduction.yaml, status: pending }
-  c14-south-west: { file: cards/c14-south-west.yaml, status: pending }
+  c12-france-introduction:
+    file: cards/c12-france-introduction.yaml
+    status: awaiting-human
+    agent_wave: 2026-09-29
+    counts:
+      cards: 8
+      agent_fixed: 8
+      agent_pass: 0
+      human_ok: 0
+    note: >
+      Passe adversariale complète et traduction française intégrale. Les doublons
+      AOC/AOP ont été recadrés en hiérarchie AOP/AOC–IGP–Vin de France ; les cartes
+      sur les appellations imbriquées et le déclassement ont été rendues juridiquement
+      plus précises. Les cartes restent directement dans le paquet France.
+    cards:
+      france-aop-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      france-aoc-term-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      france-aoc-common-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      france-nested-aoc-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      france-nested-choice-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      france-igp-term-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      france-vin-de-pays-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      france-vin-de-france-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+  c14-south-west:
+    file: cards/c14-south-west.yaml
+    status: awaiting-human
+    agent_wave: 2026-09-29
+    counts:
+      cards: 29
+      agent_fixed: 29
+      agent_pass: 0
+      human_ok: 0
+    note: >
+      Passe adversariale complète et traduction française intégrale. Vérification
+      auprès de l’INAO : cépages et styles de Bergerac/Monbazillac, terrasses et causse
+      de Cahors, rôle moderne de Côtes de Gascogne, assemblage de Madiran et
+      passerillage de Jurançon. Leurres et explications réécrits.
+    cards:
+      dordogne-east-of-e2m-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      dordogne-climate-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      bergerac-main-aoc-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      bergerac-varieties-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      monbazillac-sweet-aoc-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      monbazillac-botrytis-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      southwest-core-names-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      gascogne-is-igp-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      cahors-lot-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      cahors-black-wine-name-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      cahors-black-wine-style-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      cahors-land-types-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      cahors-malbec-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      cahors-other-grapes-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      cahors-malbec-profile-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      gascogne-igp-zone-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      gascogne-name-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      gascogne-ugni-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      madiran-location-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      madiran-tannat-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      madiran-bottle-age-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      madiran-modern-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      jurancon-location-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      jurancon-styles-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      jurancon-sweet-focus-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      jurancon-petit-manseng-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      jurancon-petit-manseng-acid-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      jurancon-passerillage-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      jurancon-flavours-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
   c15-burgundy:
     file: cards/c15-burgundy.yaml
     status: awaiting-human
