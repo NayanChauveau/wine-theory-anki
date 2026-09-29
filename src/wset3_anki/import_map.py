@@ -70,11 +70,21 @@ ROOT_TARGETS: dict[str, ChapterTarget] = {
     "unclassified": ChapterTarget("c00", "c00-unclassified.yaml", "", publish=False),
 }
 
+# Independently researched chapters with no matching Cxx deck in the legacy import.
+SUPPLEMENTARY_TARGETS: tuple[ChapterTarget, ...] = (
+    ChapterTarget("c46", "c46-jura.yaml", "France::Jura"),
+    ChapterTarget("c47", "c47-savoie.yaml", "France::Savoie"),
+)
+
 UNCLASSIFIED = ROOT_TARGETS["unclassified"]
 
 
 def published_targets() -> list[ChapterTarget]:
-    return [target for target in (*CHAPTERS.values(), *ROOT_TARGETS.values()) if target.publish]
+    return [
+        target
+        for target in (*CHAPTERS.values(), *ROOT_TARGETS.values(), *SUPPLEMENTARY_TARGETS)
+        if target.publish
+    ]
 
 
 def target_from_deck_name(name: str) -> ChapterTarget | None:

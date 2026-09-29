@@ -1,0 +1,616 @@
+# yaml-language-server: $schema=../schema/cards.schema.json
+# supplementary chapter researched from official Jura and INAO sources
+# deck: France::Jura
+
+cards:
+  - id: jura-five-grapes-001
+    type: mcq
+    deck: France::Jura
+    tags: [france, jura, grapes]
+    status: reviewed
+    review:
+      fact_check: pass
+      sources: [civj-jura-wine-guide]
+    en:
+      question: Which list contains the five principal authorised grape varieties of the Jura AOCs?
+      choices:
+        - { text: "Chardonnay, Savagnin, Poulsard, Trousseau and Pinot Noir", correct: true }
+        - { text: "Chardonnay, Savagnin, Poulsard, Mondeuse and Pinot Noir", correct: false }
+        - { text: "Chardonnay, Savagnin, Jacquère, Trousseau and Pinot Noir", correct: false }
+        - { text: "Chardonnay, Altesse, Poulsard, Trousseau and Pinot Noir", correct: false }
+      explanation: |
+        Chardonnay and Pinot Noir also occur in neighbouring Burgundy, whereas Savagnin,
+        Poulsard and Trousseau give the Jura much of its distinctive identity.
+    fr:
+      question: Quelle liste réunit les cinq principaux cépages autorisés dans les AOC du Jura ?
+      choices:
+        - { text: "Chardonnay, Savagnin, Poulsard, Trousseau et Pinot Noir", correct: true }
+        - { text: "Chardonnay, Savagnin, Poulsard, Mondeuse et Pinot Noir", correct: false }
+        - { text: "Chardonnay, Savagnin, Jacquère, Trousseau et Pinot Noir", correct: false }
+        - { text: "Chardonnay, Altesse, Poulsard, Trousseau et Pinot Noir", correct: false }
+      explanation: |
+        Le Chardonnay et le Pinot Noir sont également présents dans la Bourgogne voisine.
+        Le Savagnin, le Poulsard et le Trousseau contribuent davantage à l’identité
+        particulière du vignoble jurassien.
+
+  - id: jura-geographic-aocs-001
+    type: mcq
+    deck: France::Jura
+    tags: [france, jura, appellations]
+    status: reviewed
+    review:
+      fact_check: pass
+      sources: [civj-jura-wine-guide]
+    en:
+      question: Which group contains the Jura's four geographic wine AOCs?
+      choices:
+        - { text: "Arbois, Côtes du Jura, L’Étoile and Château-Chalon", correct: true }
+        - { text: "Arbois, Côtes du Jura, Crémant du Jura and Château-Chalon", correct: false }
+        - { text: "Arbois, Macvin du Jura, L’Étoile and Château-Chalon", correct: false }
+        - { text: "Côtes du Jura, L’Étoile, Crémant du Jura and Macvin du Jura", correct: false }
+      explanation: |
+        Arbois and Côtes du Jura can produce a broad range of Jura styles. L’Étoile is
+        principally associated with white wine, while Château-Chalon is dedicated to
+        Vin Jaune.
+    fr:
+      question: Quel groupe réunit les quatre AOC géographiques viticoles du Jura ?
+      choices:
+        - { text: "Arbois, Côtes du Jura, L’Étoile et Château-Chalon", correct: true }
+        - { text: "Arbois, Côtes du Jura, Crémant du Jura et Château-Chalon", correct: false }
+        - { text: "Arbois, Macvin du Jura, L’Étoile et Château-Chalon", correct: false }
+        - { text: "Côtes du Jura, L’Étoile, Crémant du Jura et Macvin du Jura", correct: false }
+      explanation: |
+        Arbois et Côtes du Jura couvrent une grande diversité de styles. L’Étoile est
+        principalement associée aux vins blancs, tandis que Château-Chalon est exclusivement
+        consacré au Vin Jaune.
+
+  - id: jura-savagnin-styles-001
+    type: mcq
+    deck: France::Jura
+    tags: [france, jura, savagnin, winemaking]
+    status: reviewed
+    review:
+      fact_check: pass
+      sources: [civj-jura-wine-guide]
+    en:
+      question: How can the winemaking choices for dry Jura Savagnin lead to two contrasting styles?
+      choices:
+        - { text: "Regular topping-up preserves freshness; ageing under a veil develops oxidative complexity", correct: true }
+        - { text: "Carbonic maceration preserves freshness; skin drying develops oxidative complexity", correct: false }
+        - { text: "Early fortification preserves freshness; late fortification develops oxidative complexity", correct: false }
+        - { text: "Cold stabilisation preserves freshness; bottle fermentation develops oxidative complexity", correct: false }
+      explanation: |
+        An **ouillé** wine is protected from air by topping up the barrel. A wine matured
+        **sous voile** is deliberately left with headspace so that a film of yeast can
+        develop on its surface.
+    fr:
+      question: Comment les choix d’élevage peuvent-ils donner deux styles contrastés de Savagnin sec dans le Jura ?
+      choices:
+        - { text: "L’ouillage préserve la fraîcheur ; l’élevage sous voile développe une complexité oxydative", correct: true }
+        - { text: "La macération carbonique préserve la fraîcheur ; le séchage des raisins développe une complexité oxydative", correct: false }
+        - { text: "Le mutage précoce préserve la fraîcheur ; le mutage tardif développe une complexité oxydative", correct: false }
+        - { text: "La stabilisation à froid préserve la fraîcheur ; la prise de mousse développe une complexité oxydative", correct: false }
+      explanation: |
+        Un vin **ouillé** est protégé de l’air par la remise à niveau régulière du fût.
+        Pour un élevage **sous voile**, le vigneron laisse volontairement un espace dans
+        le fût afin qu’un film de levures se forme à la surface du vin.
+
+  - id: jura-ouillage-purpose-001
+    type: mcq
+    deck: France::Jura
+    tags: [france, jura, winemaking, ouillage]
+    status: reviewed
+    review:
+      fact_check: pass
+      sources: [civj-jura-wine-guide]
+    en:
+      question: What is the main purpose of ouillage during barrel ageing in the Jura?
+      choices:
+        - { text: "To replace evaporated wine and limit contact with air", correct: true }
+        - { text: "To remove yeast lees and accelerate clarification", correct: false }
+        - { text: "To add sweet reserve wine and stop fermentation", correct: false }
+        - { text: "To introduce oxygen and encourage a surface veil", correct: false }
+      explanation: |
+        Keeping the barrel full suppresses the headspace needed for a yeast veil and
+        favours a fresher, non-oxidative expression. Vin Jaune follows the opposite
+        approach: its barrels are deliberately not topped up.
+    fr:
+      question: Quel est le principal objectif de l’ouillage pendant l’élevage en fût dans le Jura ?
+      choices:
+        - { text: "Remplacer le vin évaporé et limiter le contact avec l’air", correct: true }
+        - { text: "Éliminer les lies et accélérer la clarification du vin", correct: false }
+        - { text: "Ajouter une réserve sucrée et interrompre la fermentation", correct: false }
+        - { text: "Introduire de l’oxygène et favoriser la formation d’un voile", correct: false }
+      explanation: |
+        Maintenir le fût plein supprime l’espace nécessaire à la formation d’un voile et
+        favorise un style plus frais, sans caractère oxydatif marqué. Pour le Vin Jaune,
+        au contraire, les fûts ne sont volontairement pas ouillés.
+
+  - id: jura-vin-jaune-identity-001
+    type: mcq
+    deck: France::Jura
+    tags: [france, jura, vin-jaune, savagnin]
+    status: reviewed
+    review:
+      fact_check: pass
+      sources: [inao-chateau-chalon-specification]
+    en:
+      question: Which description correctly identifies Jura Vin Jaune?
+      choices:
+        - { text: "A dry, unfortified wine made from Savagnin", correct: true }
+        - { text: "A sweet, fortified wine made from Chardonnay", correct: false }
+        - { text: "A dry, fortified wine made from Poulsard", correct: false }
+        - { text: "A sweet, unfortified wine made from Trousseau", correct: false }
+      explanation: |
+        Vin Jaune gains its power and distinctive character from long biological and
+        oxidative ageing, not from the addition of spirit or grape concentrate.
+    fr:
+      question: Quelle description définit correctement le Vin Jaune du Jura ?
+      choices:
+        - { text: "Un vin sec non muté élaboré à partir de Savagnin", correct: true }
+        - { text: "Un vin doux muté élaboré à partir de Chardonnay", correct: false }
+        - { text: "Un vin sec muté élaboré à partir de Poulsard", correct: false }
+        - { text: "Un vin doux non muté élaboré à partir de Trousseau", correct: false }
+      explanation: |
+        La puissance et le caractère particulier du Vin Jaune proviennent d’un long
+        élevage biologique et oxydatif, et non de l’ajout d’alcool ou de moût concentré.
+
+  - id: jura-vin-jaune-process-001
+    type: mcq
+    deck: France::Jura
+    tags: [france, jura, vin-jaune, winemaking]
+    status: reviewed
+    review:
+      fact_check: pass
+      sources: [inao-chateau-chalon-specification]
+    en:
+      question: Which ageing practice is essential to the production of Vin Jaune?
+      choices:
+        - { text: "Long ageing in partly filled oak barrels beneath a naturally formed yeast veil", correct: true }
+        - { text: "Long ageing in completely full oak barrels with frequent topping-up", correct: false }
+        - { text: "Short ageing in sealed stainless-steel tanks under inert gas", correct: false }
+        - { text: "Short ageing in open vats followed by fortification with grape spirit", correct: false }
+      explanation: |
+        Evaporation is not replaced by topping-up. The resulting headspace permits the
+        voile to form, while slow oxygen exposure contributes to the wine's powerful,
+        complex character.
+    fr:
+      question: Quelle pratique d’élevage est indispensable à l’élaboration du Vin Jaune ?
+      choices:
+        - { text: "Un long élevage en fûts de chêne non pleins sous un voile formé naturellement", correct: true }
+        - { text: "Un long élevage en fûts de chêne maintenus pleins par des ouillages fréquents", correct: false }
+        - { text: "Un élevage court en cuves inox hermétiques sous gaz inerte", correct: false }
+        - { text: "Un élevage court en cuves ouvertes suivi d’un mutage à l’alcool de raisin", correct: false }
+      explanation: |
+        Le volume perdu par évaporation n’est pas remplacé. L’espace ainsi créé permet
+        au voile de se former, tandis qu’une lente exposition à l’oxygène contribue à la
+        puissance et à la complexité du vin.
+
+  - id: jura-voile-role-001
+    type: mcq
+    deck: France::Jura
+    tags: [france, jura, vin-jaune, voile]
+    status: reviewed
+    review:
+      fact_check: pass
+      sources: [inao-chateau-chalon-specification]
+    en:
+      question: What does the yeast veil contribute during the maturation of Vin Jaune?
+      choices:
+        - { text: "It moderates oxygen exposure while helping create nutty and spicy aromas", correct: true }
+        - { text: "It converts all residual sugar into alcohol during bottle fermentation", correct: false }
+        - { text: "It prevents evaporation while preserving primary floral aromas unchanged", correct: false }
+        - { text: "It extracts colour and tannin from Savagnin skins during maceration", correct: false }
+      explanation: |
+        The surface film does not make the barrel airtight. It allows a controlled form
+        of oxidative development associated with aromas such as walnut, mature apple
+        and curry-like spice.
+    fr:
+      question: Quel rôle le voile de levures joue-t-il pendant l’élevage du Vin Jaune ?
+      choices:
+        - { text: "Il modère l’exposition à l’oxygène et favorise des arômes de noix et d’épices", correct: true }
+        - { text: "Il transforme tout le sucre résiduel en alcool pendant une prise de mousse", correct: false }
+        - { text: "Il empêche l’évaporation et conserve intacts les arômes floraux primaires", correct: false }
+        - { text: "Il extrait la couleur et les tanins des peaux de Savagnin pendant la macération", correct: false }
+      explanation: |
+        Le film qui couvre la surface ne rend pas le fût hermétique. Il permet un
+        développement oxydatif maîtrisé, associé à des arômes de noix, de pomme mûre
+        et d’épices rappelant le curry.
+
+  - id: jura-vin-jaune-ageing-001
+    type: mcq
+    deck: France::Jura
+    tags: [france, jura, vin-jaune, ageing]
+    status: reviewed
+    review:
+      fact_check: pass
+      sources: [inao-chateau-chalon-specification]
+    en:
+      question: What is the minimum period of oak ageing specified for Château-Chalon Vin Jaune?
+      choices:
+        - { text: "At least six years", correct: true }
+        - { text: "At least three years", correct: false }
+        - { text: "At least four years", correct: false }
+        - { text: "At least five years", correct: false }
+      explanation: |
+        This unusually long, untopped maturation concentrates the wine and permits a
+        stable veil to shape its aromas. The eventual release date is later than the
+        harvest by more than six years.
+    fr:
+      question: Quelle est la durée minimale d’élevage sous bois du Vin Jaune de Château-Chalon ?
+      choices:
+        - { text: "Au moins six ans", correct: true }
+        - { text: "Au moins trois ans", correct: false }
+        - { text: "Au moins quatre ans", correct: false }
+        - { text: "Au moins cinq ans", correct: false }
+      explanation: |
+        Cet élevage particulièrement long, sans ouillage, concentre le vin et laisse au
+        voile le temps de façonner ses arômes. La commercialisation intervient donc plus
+        de six ans après la récolte.
+
+  - id: jura-clavelin-001
+    type: mcq
+    deck: France::Jura
+    tags: [france, jura, vin-jaune, packaging]
+    status: reviewed
+    review:
+      fact_check: pass
+      sources: [inao-chateau-chalon-specification]
+    en:
+      question: In which traditional bottle is Jura Vin Jaune sold?
+      choices:
+        - { text: "A 62 cl clavelin", correct: true }
+        - { text: "A 50 cl pot", correct: false }
+        - { text: "A 70 cl flask", correct: false }
+        - { text: "A 75 cl flute", correct: false }
+      explanation: |
+        The clavelin's unusual capacity evokes the approximate volume remaining from
+        one litre after six years of evaporation during untopped barrel ageing.
+    fr:
+      question: Dans quelle bouteille traditionnelle le Vin Jaune du Jura est-il commercialisé ?
+      choices:
+        - { text: "Un clavelin de 62 cl", correct: true }
+        - { text: "Un pot de 50 cl", correct: false }
+        - { text: "Un flacon de 70 cl", correct: false }
+        - { text: "Une flûte de 75 cl", correct: false }
+      explanation: |
+        La contenance particulière du clavelin évoque approximativement le volume restant
+        d’un litre de vin après six années d’évaporation au cours d’un élevage sans ouillage.
+
+  - id: jura-chateau-chalon-001
+    type: mcq
+    deck: France::Jura
+    tags: [france, jura, chateau-chalon, appellations]
+    status: reviewed
+    review:
+      fact_check: pass
+      sources: [inao-chateau-chalon-specification]
+    en:
+      question: What may be sold as Château-Chalon AOC?
+      choices:
+        - { text: "Vin Jaune made solely from Savagnin", correct: true }
+        - { text: "Dry white wine made solely from Chardonnay", correct: false }
+        - { text: "Vin de Paille made from permitted Jura grapes", correct: false }
+        - { text: "Traditional-method sparkling wine led by Chardonnay", correct: false }
+      explanation: |
+        Château-Chalon is far narrower than Arbois or Côtes du Jura: it is reserved for
+        one style, Vin Jaune, and one grape, Savagnin. Producers may renounce the AOC in
+        years when the grapes are judged unsuitable.
+    fr:
+      question: Quel vin peut être commercialisé sous l’AOC Château-Chalon ?
+      choices:
+        - { text: "Un Vin Jaune élaboré exclusivement à partir de Savagnin", correct: true }
+        - { text: "Un vin blanc sec élaboré exclusivement à partir de Chardonnay", correct: false }
+        - { text: "Un Vin de Paille issu des cépages jurassiens autorisés", correct: false }
+        - { text: "Un vin effervescent de méthode traditionnelle dominé par le Chardonnay", correct: false }
+      explanation: |
+        Château-Chalon est beaucoup plus restrictive qu’Arbois ou Côtes du Jura : l’AOC
+        est réservée à un seul style, le Vin Jaune, et à un seul cépage, le Savagnin.
+        Les producteurs peuvent renoncer à l’appellation lorsque la récolte est jugée inadaptée.
+
+  - id: jura-poulsard-style-001
+    type: mcq
+    deck: France::Jura
+    tags: [france, jura, poulsard, wine-style]
+    status: reviewed
+    review:
+      fact_check: pass
+      sources: [civj-jura-wine-guide]
+    en:
+      question: Which red-wine profile is most typical of Poulsard in the Jura?
+      choices:
+        - { text: "Pale colour, light body and fresh red-fruit character", correct: true }
+        - { text: "Deep colour, full body and concentrated black-fruit character", correct: false }
+        - { text: "Medium colour, high alcohol and pronounced dried-fruit character", correct: false }
+        - { text: "Opaque colour, low acidity and pronounced new-oak character", correct: false }
+      explanation: |
+        Poulsard has thin skins and can yield remarkably pale reds, sometimes close in
+        appearance to rosé. It is also locally known as **Ploussard**.
+    fr:
+      question: Quel profil de vin rouge est le plus caractéristique du Poulsard jurassien ?
+      choices:
+        - { text: "Robe pâle, corps léger et caractère frais de fruits rouges", correct: true }
+        - { text: "Robe profonde, corps puissant et caractère concentré de fruits noirs", correct: false }
+        - { text: "Robe moyenne, alcool élevé et caractère marqué de fruits secs", correct: false }
+        - { text: "Robe opaque, faible acidité et caractère marqué de bois neuf", correct: false }
+      explanation: |
+        La peau fine du Poulsard peut donner des rouges remarquablement pâles, parfois
+        proches d’un rosé à l’œil. Ce cépage est également appelé **Ploussard** localement.
+
+  - id: jura-trousseau-style-001
+    type: mcq
+    deck: France::Jura
+    tags: [france, jura, trousseau, wine-style]
+    status: reviewed
+    review:
+      fact_check: pass
+      sources: [civj-jura-wine-guide]
+    en:
+      question: How does Jura Trousseau typically compare with Poulsard?
+      choices:
+        - { text: "It is generally deeper in colour, fuller and more peppery", correct: true }
+        - { text: "It is generally paler in colour, lighter and more floral", correct: false }
+        - { text: "It is generally sweeter, lower in alcohol and less tannic", correct: false }
+        - { text: "It is generally more neutral, softer and intended for distillation", correct: false }
+      explanation: |
+        Trousseau is a late-ripening black grape that performs best on relatively warm,
+        gravelly sites. Its structure and spice contrast with the delicate, pale style
+        commonly associated with Poulsard.
+    fr:
+      question: Comment le Trousseau jurassien se compare-t-il généralement au Poulsard ?
+      choices:
+        - { text: "Il est généralement plus coloré, plus charpenté et plus poivré", correct: true }
+        - { text: "Il est généralement plus pâle, plus léger et plus floral", correct: false }
+        - { text: "Il est généralement plus doux, moins alcoolisé et moins tannique", correct: false }
+        - { text: "Il est généralement plus neutre, plus souple et destiné à la distillation", correct: false }
+      explanation: |
+        Le Trousseau est un cépage noir tardif qui réussit particulièrement bien sur les
+        sites relativement chauds et graveleux. Sa structure et ses épices contrastent
+        avec le style délicat et pâle souvent associé au Poulsard.
+
+  - id: jura-vin-de-paille-001
+    type: mcq
+    deck: France::Jura
+    tags: [france, jura, vin-de-paille, winemaking]
+    status: reviewed
+    review:
+      fact_check: pass
+      sources: [civj-jura-wine-guide]
+    en:
+      question: How is the must for Jura Vin de Paille concentrated?
+      choices:
+        - { text: "Selected bunches are dried in a ventilated place before pressing", correct: true }
+        - { text: "Healthy grapes are frozen on the vine before pressing", correct: false }
+        - { text: "Late-harvest grapes are affected by noble rot before pressing", correct: false }
+        - { text: "Fresh must is concentrated by reverse osmosis before fermentation", correct: false }
+      explanation: |
+        The grapes dry for at least six weeks on racks, hanging supports or, historically,
+        straw. Water loss concentrates sugar, acidity and flavour, producing a naturally
+        sweet wine after fermentation.
+    fr:
+      question: Comment concentre-t-on le moût destiné au Vin de Paille du Jura ?
+      choices:
+        - { text: "Des grappes sélectionnées sèchent dans un local aéré avant le pressurage", correct: true }
+        - { text: "Des raisins sains gèlent sur pied avant le pressurage", correct: false }
+        - { text: "Des raisins de vendange tardive subissent la pourriture noble avant le pressurage", correct: false }
+        - { text: "Le moût frais est concentré par osmose inverse avant la fermentation", correct: false }
+      explanation: |
+        Les raisins sèchent pendant au moins six semaines sur des claies, suspendus ou,
+        historiquement, sur de la paille. La perte d’eau concentre les sucres, l’acidité
+        et les arômes ; la fermentation donne ensuite un vin naturellement doux.
+
+  - id: jura-climate-terroir-001
+    type: mcq
+    deck: France::Jura
+    tags: [france, jura, climate, viticulture]
+    status: reviewed
+    review:
+      fact_check: pass
+      sources: [inao-cotes-du-jura-specification]
+    en:
+      question: Which site is best suited to the Jura's cool climate and substantial rainfall?
+      choices:
+        - { text: "A well-exposed slope with free-draining, stony soil", correct: true }
+        - { text: "A well-exposed valley floor with deep, water-retentive clay", correct: false }
+        - { text: "A shaded slope with free-draining, shallow limestone soil", correct: false }
+        - { text: "A sheltered flat site with fertile, water-retentive marl", correct: false }
+      explanation: |
+        The Jura has a continental climate with cold winters, warm summers and substantial
+        precipitation. Many vineyards occupy the well-exposed western foothills, where
+        slope and stony debris improve drainage.
+    fr:
+      question: Quel site convient le mieux au climat frais et assez pluvieux du Jura ?
+      choices:
+        - { text: "Un coteau bien exposé au sol pierreux et drainant", correct: true }
+        - { text: "Un fond de vallée bien exposé à l’argile profonde qui retient l’eau", correct: false }
+        - { text: "Un coteau ombragé au sol calcaire peu profond et drainant", correct: false }
+        - { text: "Un site plat et abrité aux marnes fertiles qui retiennent l’eau", correct: false }
+      explanation: |
+        Le Jura connaît un climat continental, avec des hivers froids, des étés chauds et
+        des précipitations importantes. Une grande partie du vignoble occupe les contreforts
+        occidentaux bien exposés, où la pente et les éboulis pierreux facilitent le drainage.
+
+  - id: jura-soil-grape-match-001
+    type: mcq
+    deck: France::Jura
+    tags: [france, jura, soils, grapes]
+    status: reviewed
+    review:
+      fact_check: pass
+      sources: [civj-jura-wine-guide]
+    en:
+      question: Which Jura grape-to-soil association is the most characteristic?
+      choices:
+        - { text: "Savagnin on marl; Chardonnay on limestone and lighter soils", correct: true }
+        - { text: "Savagnin on limestone and lighter soils; Chardonnay on marl", correct: false }
+        - { text: "Savagnin on warm gravel; Chardonnay on heavy clay and marl", correct: false }
+        - { text: "Savagnin on alluvial sand; Chardonnay on deep blue marl", correct: false }
+      explanation: |
+        Savagnin is particularly associated with the Jura's grey, blue or black marls.
+        Chardonnay is widely planted and performs well on limestone-derived and relatively
+        light soils.
+    fr:
+      question: Quelle association entre cépage et sol est la plus caractéristique du Jura ?
+      choices:
+        - { text: "Savagnin sur marnes ; Chardonnay sur calcaires et sols plus légers", correct: true }
+        - { text: "Savagnin sur calcaires et sols plus légers ; Chardonnay sur marnes", correct: false }
+        - { text: "Savagnin sur graves chaudes ; Chardonnay sur argiles lourdes et marnes", correct: false }
+        - { text: "Savagnin sur sables alluviaux ; Chardonnay sur marnes bleues profondes", correct: false }
+      explanation: |
+        Le Savagnin est particulièrement associé aux marnes grises, bleues ou noires du
+        Jura. Très répandu, le Chardonnay réussit bien sur les sols calcaires et les terres
+        relativement légères.
+
+  - id: jura-chardonnay-style-001
+    type: mcq
+    deck: France::Jura
+    tags: [france, jura, chardonnay, wine-style]
+    status: reviewed
+    review:
+      fact_check: pass
+      sources: [civj-jura-wine-guide]
+    en:
+      question: Which profile best describes an ouillé Jura Chardonnay?
+      choices:
+        - { text: "Dry and fresh, with floral, citrus and mineral notes", correct: true }
+        - { text: "Dry and oxidative, with walnut, curry and mushroom notes", correct: false }
+        - { text: "Sweet and concentrated, with prune, caramel and raisin notes", correct: false }
+        - { text: "Tannic and deeply coloured, with blackberry and pepper notes", correct: false }
+      explanation: |
+        Regular topping-up limits oxygen exposure and preserves a more familiar, non-oxidative
+        Chardonnay expression. Jura Chardonnay may also be matured under voile or blended
+        with Savagnin to make a more oxidative style.
+    fr:
+      question: Quel profil décrit le mieux un Chardonnay ouillé du Jura ?
+      choices:
+        - { text: "Sec et frais, avec des notes florales, d’agrumes et minérales", correct: true }
+        - { text: "Sec et oxydatif, avec des notes de noix, de curry et de champignon", correct: false }
+        - { text: "Doux et concentré, avec des notes de pruneau, de caramel et de raisin sec", correct: false }
+        - { text: "Tannique et très coloré, avec des notes de mûre et de poivre", correct: false }
+      explanation: |
+        L’ouillage régulier limite l’exposition à l’oxygène et préserve une expression
+        fraîche, sans caractère oxydatif marqué. Le Chardonnay jurassien peut aussi être
+        élevé sous voile ou assemblé au Savagnin pour donner un style plus oxydatif.
+
+  - id: jura-letoile-style-001
+    type: mcq
+    deck: France::Jura
+    tags: [france, jura, letoile, appellations]
+    status: reviewed
+    review:
+      fact_check: pass
+      sources: [civj-jura-appellation-guide]
+    en:
+      question: Which description best fits L’Étoile AOC?
+      choices:
+        - { text: "A white-wine AOC led by Chardonnay, also producing Vin Jaune and Vin de Paille", correct: true }
+        - { text: "A red-wine AOC led by Trousseau, also producing rosé and sparkling red wine", correct: false }
+        - { text: "A Vin Jaune-only AOC based entirely on Savagnin and sold only in clavelins", correct: false }
+        - { text: "A sparkling-only AOC based on Chardonnay and made by the traditional method", correct: false }
+      explanation: |
+        Chardonnay is the dominant grape, alone or with Savagnin. Unlike Château-Chalon,
+        L’Étoile is not restricted to Vin Jaune and can also use the Vin de Paille
+        traditional indication.
+    fr:
+      question: Quelle description correspond le mieux à l’AOC L’Étoile ?
+      choices:
+        - { text: "Une AOC de blancs dominée par le Chardonnay, produisant aussi Vin Jaune et Vin de Paille", correct: true }
+        - { text: "Une AOC de rouges dominée par le Trousseau, produisant aussi rosé et rouge effervescent", correct: false }
+        - { text: "Une AOC réservée au Vin Jaune de Savagnin, commercialisé uniquement en clavelin", correct: false }
+        - { text: "Une AOC réservée aux effervescents de Chardonnay élaborés selon la méthode traditionnelle", correct: false }
+      explanation: |
+        Le Chardonnay domine, seul ou assemblé au Savagnin. Contrairement à Château-Chalon,
+        L’Étoile n’est pas réservée au Vin Jaune et peut également porter la mention
+        traditionnelle Vin de Paille.
+
+  - id: jura-arbois-range-001
+    type: mcq
+    deck: France::Jura
+    tags: [france, jura, arbois, appellations]
+    status: reviewed
+    review:
+      fact_check: pass
+      sources: [civj-jura-appellation-guide]
+    en:
+      question: Which Jura geographic AOC is noted for the full regional range and a particular reputation for red wines?
+      choices:
+        - { text: "Arbois", correct: true }
+        - { text: "L’Étoile", correct: false }
+        - { text: "Château-Chalon", correct: false }
+        - { text: "Côtes du Jura", correct: false }
+      explanation: |
+        Arbois can produce red, rosé and white wines as well as Vin Jaune and Vin de Paille.
+        Pupillin, a village within the appellation, is especially associated with Poulsard.
+    fr:
+      question: Quelle AOC géographique du Jura couvre toute la gamme régionale et jouit d’une réputation particulière pour ses rouges ?
+      choices:
+        - { text: "Arbois", correct: true }
+        - { text: "L’Étoile", correct: false }
+        - { text: "Château-Chalon", correct: false }
+        - { text: "Côtes du Jura", correct: false }
+      explanation: |
+        Arbois peut produire des vins rouges, rosés et blancs ainsi que du Vin Jaune et
+        du Vin de Paille. Pupillin, village situé dans l’aire de l’appellation, est
+        particulièrement associé au Poulsard.
+
+  - id: jura-vin-jaune-profile-001
+    type: mcq
+    deck: France::Jura
+    tags: [france, jura, vin-jaune, wine-style]
+    status: reviewed
+    review:
+      fact_check: pass
+      sources: [inao-chateau-chalon-specification]
+    en:
+      question: Which tasting profile most strongly indicates a mature Jura Vin Jaune?
+      choices:
+        - { text: "Dry and powerful, with walnut, mature apple and curry-like spice", correct: true }
+        - { text: "Sweet and delicate, with fresh grape, rose and orange blossom", correct: false }
+        - { text: "Dry and light, with gooseberry, grass and green bell pepper", correct: false }
+        - { text: "Sweet and luscious, with botrytis, saffron and apricot", correct: false }
+      explanation: |
+        Long ageing under voile produces an intense, persistent wine rather than a simple
+        fruit-driven white. Good examples can develop for decades in bottle while retaining
+        their distinctive nutty and spicy character.
+    fr:
+      question: Quel profil de dégustation évoque le plus fortement un Vin Jaune du Jura arrivé à maturité ?
+      choices:
+        - { text: "Sec et puissant, avec des notes de noix, de pomme mûre et d’épices évoquant le curry", correct: true }
+        - { text: "Doux et délicat, avec des notes de raisin frais, de rose et de fleur d’oranger", correct: false }
+        - { text: "Sec et léger, avec des notes de groseille à maquereau, d’herbe et de poivron vert", correct: false }
+        - { text: "Doux et opulent, avec des notes de botrytis, de safran et d’abricot", correct: false }
+      explanation: |
+        Le long élevage sous voile donne un vin intense et persistant, loin d’un blanc
+        simplement fruité. Les meilleurs exemples peuvent évoluer pendant des décennies
+        en bouteille tout en conservant leur caractère de noix et d’épices.
+
+  - id: jura-macvin-production-001
+    type: mcq
+    deck: France::Jura
+    tags: [france, jura, macvin, fortified]
+    status: reviewed
+    review:
+      fact_check: pass
+      sources: [inao-macvin-du-jura-specification]
+    en:
+      question: How is Macvin du Jura produced?
+      choices:
+        - { text: "Unfermented grape must is blended with aged Marc du Jura spirit", correct: true }
+        - { text: "Fermenting wine is fortified with neutral grape spirit and aged under voile", correct: false }
+        - { text: "Dried-grape must is fermented to dryness and blended with young wine", correct: false }
+        - { text: "Finished wine is sweetened with concentrated must and carbonated in tank", correct: false }
+      explanation: |
+        Macvin is a vin de liqueur: roughly two parts fresh must are muted with one part
+        grape-marc spirit. The mixture retains natural grape sugar and is matured in wood
+        before release.
+    fr:
+      question: Comment élabore-t-on le Macvin du Jura ?
+      choices:
+        - { text: "Du moût non fermenté est assemblé à une eau-de-vie de Marc du Jura élevée", correct: true }
+        - { text: "Un vin en fermentation est muté à l’alcool neutre puis élevé sous voile", correct: false }
+        - { text: "Un moût de raisins séchés fermente à sec avant d’être assemblé à un vin jeune", correct: false }
+        - { text: "Un vin fini est édulcoré au moût concentré puis gazéifié en cuve", correct: false }
+      explanation: |
+        Le Macvin est un vin de liqueur : environ deux parts de moût frais sont mutées
+        avec une part d’eau-de-vie de marc. L’assemblage conserve les sucres naturels du
+        raisin et poursuit son élevage sous bois avant la commercialisation.

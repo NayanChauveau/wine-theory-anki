@@ -1,0 +1,614 @@
+# yaml-language-server: $schema=../schema/cards.schema.json
+# supplementary chapter researched from official Savoie and INAO sources
+# deck: France::Savoie
+
+cards:
+  - id: savoie-vineyard-setting-001
+    type: mcq
+    deck: France::Savoie
+    tags: [france, savoie, climate, viticulture]
+    status: reviewed
+    review:
+      fact_check: pass
+      sources: [civs-savoie-wine-guide]
+    en:
+      question: Which description best fits the geography of the Savoie vineyards?
+      choices:
+        - { text: "Scattered, well-exposed sites on Alpine foothills and valley slopes", correct: true }
+        - { text: "A continuous band on the highest slopes of the central Alps", correct: false }
+        - { text: "A broad, level vineyard concentrated on the floor of one valley", correct: false }
+        - { text: "A compact plateau vineyard concentrated above Lake Geneva", correct: false }
+      explanation: |
+        The vineyards form separate groups rather than one unbroken zone. Slopes and
+        favourable exposure help grapes ripen in a cool, mountainous environment and
+        also promote drainage in a region with significant rainfall.
+    fr:
+      question: Quelle description correspond le mieux à la géographie du vignoble savoyard ?
+      choices:
+        - { text: "Des îlots bien exposés sur les contreforts alpins et les versants des vallées", correct: true }
+        - { text: "Une bande continue sur les versants les plus élevés des Alpes centrales", correct: false }
+        - { text: "Un vaste vignoble plat concentré au fond d’une seule vallée", correct: false }
+        - { text: "Un vignoble compact de plateau concentré au-dessus du lac Léman", correct: false }
+      explanation: |
+        Les vignes sont réparties en plusieurs secteurs plutôt qu’en une zone continue.
+        Les pentes et les bonnes expositions favorisent la maturation dans cet environnement
+        frais et montagneux, tout en facilitant le drainage dans une région assez pluvieuse.
+
+  - id: savoie-jacquere-importance-001
+    type: mcq
+    deck: France::Savoie
+    tags: [france, savoie, jacquere, grapes]
+    status: reviewed
+    review:
+      fact_check: pass
+      sources: [civs-savoie-grape-guide]
+    en:
+      question: Which grape is the most widely planted white variety in Savoie?
+      choices:
+        - { text: "Jacquère", correct: true }
+        - { text: "Altesse", correct: false }
+        - { text: "Roussanne", correct: false }
+        - { text: "Gringet", correct: false }
+      explanation: |
+        Jacquère accounts for a large share of the region's vineyard and is central to
+        several geographic denominations, notably Apremont and Les Abymes.
+    fr:
+      question: Quel est le cépage blanc le plus répandu en Savoie ?
+      choices:
+        - { text: "Jacquère", correct: true }
+        - { text: "Altesse", correct: false }
+        - { text: "Roussanne", correct: false }
+        - { text: "Gringet", correct: false }
+      explanation: |
+        La Jacquère occupe une part importante du vignoble et joue un rôle central dans
+        plusieurs dénominations géographiques, notamment Apremont et Les Abymes.
+
+  - id: savoie-jacquere-style-001
+    type: mcq
+    deck: France::Savoie
+    tags: [france, savoie, jacquere, wine-style]
+    status: reviewed
+    review:
+      fact_check: pass
+      sources: [civs-apremont, civs-les-abymes]
+    en:
+      question: Which profile is most typical of a dry Savoie Jacquère from Apremont or Les Abymes?
+      choices:
+        - { text: "Light-bodied, high in acidity and delicately floral or citrus-scented", correct: true }
+        - { text: "Full-bodied, low in acidity and dominated by tropical fruit and oak", correct: false }
+        - { text: "Medium-sweet, high in alcohol and dominated by dried fruit and spice", correct: false }
+        - { text: "Medium-bodied, moderate in acidity and dominated by ripe stone fruit", correct: false }
+      explanation: |
+        Jacquère is valued for freshness rather than weight. The stony Alpine sites of
+        these denominations commonly yield pale, restrained wines intended for relatively
+        early drinking.
+    fr:
+      question: Quel profil caractérise le mieux un vin sec de Jacquère d’Apremont ou des Abymes ?
+      choices:
+        - { text: "Corps léger, acidité élevée et arômes délicats de fleurs ou d’agrumes", correct: true }
+        - { text: "Corps puissant, faible acidité et arômes dominants de fruits tropicaux et de bois", correct: false }
+        - { text: "Demi-doux, fortement alcoolisé et dominé par les fruits secs et les épices", correct: false }
+        - { text: "Corps moyen, acidité moyenne et arômes dominants de fruits à noyau mûrs", correct: false }
+      explanation: |
+        La Jacquère est recherchée pour sa fraîcheur davantage que pour sa puissance. Les
+        sites alpins pierreux de ces dénominations donnent généralement des vins pâles et
+        délicats, destinés à être bus relativement jeunes.
+
+  - id: savoie-mont-granier-001
+    type: mcq
+    deck: France::Savoie
+    tags: [france, savoie, apremont, terroir]
+    status: reviewed
+    review:
+      fact_check: pass
+      sources: [civs-apremont, civs-les-abymes]
+    en:
+      question: What geological event strongly shaped the vineyard soils of Apremont and Les Abymes?
+      choices:
+        - { text: "The collapse of Mont Granier spread limestone debris over the area", correct: true }
+        - { text: "A volcanic eruption spread basalt and ash over the area", correct: false }
+        - { text: "A river flood spread deep alluvial clay over the area", correct: false }
+        - { text: "A marine incursion spread sand and shells over the area", correct: false }
+      explanation: |
+        The major landslide of 1248 left a chaotic field of limestone blocks over older
+        moraine and marl. Vines were established on this debris in later centuries.
+    fr:
+      question: Quel événement géologique a fortement façonné les sols viticoles d’Apremont et des Abymes ?
+      choices:
+        - { text: "L’effondrement du mont Granier a répandu des éboulis calcaires sur le secteur", correct: true }
+        - { text: "Une éruption volcanique a répandu du basalte et des cendres sur le secteur", correct: false }
+        - { text: "Une crue a déposé une épaisse couche d’argile alluviale sur le secteur", correct: false }
+        - { text: "Une incursion marine a déposé du sable et des coquillages sur le secteur", correct: false }
+      explanation: |
+        L’important éboulement de 1248 a laissé un chaos de blocs calcaires sur des moraines
+        et des marnes plus anciennes. La vigne a été implantée sur ces éboulis au cours des
+        siècles suivants.
+
+  - id: savoie-altesse-roussette-001
+    type: mcq
+    deck: France::Savoie
+    tags: [france, savoie, altesse, grapes]
+    status: reviewed
+    review:
+      fact_check: pass
+      sources: [inao-roussette-de-savoie]
+    en:
+      question: Which Savoie grape is also known as Roussette?
+      choices:
+        - { text: "Altesse", correct: true }
+        - { text: "Jacquère", correct: false }
+        - { text: "Gringet", correct: false }
+        - { text: "Molette", correct: false }
+      explanation: |
+        The name refers to the russet colour the berries develop as they ripen. Altesse
+        can produce fuller and more ageworthy whites than the region's lightest Jacquère
+        wines.
+    fr:
+      question: Quel cépage savoyard est également appelé Roussette ?
+      choices:
+        - { text: "Altesse", correct: true }
+        - { text: "Jacquère", correct: false }
+        - { text: "Gringet", correct: false }
+        - { text: "Molette", correct: false }
+      explanation: |
+        Le nom Roussette fait référence à la teinte rousse que prennent les baies à maturité.
+        L’Altesse peut donner des blancs plus charpentés et de plus longue garde que les
+        styles les plus légers issus de Jacquère.
+
+  - id: savoie-roussette-aop-001
+    type: mcq
+    deck: France::Savoie
+    tags: [france, savoie, altesse, appellations]
+    status: reviewed
+    review:
+      fact_check: pass
+      sources: [inao-roussette-de-savoie]
+    en:
+      question: What is the permitted grape composition of Roussette de Savoie AOP?
+      choices:
+        - { text: "It is a white wine made solely from Altesse", correct: true }
+        - { text: "It is a white wine made solely from Jacquère", correct: false }
+        - { text: "It is a white blend led by Roussanne", correct: false }
+        - { text: "It is a white blend led by Chardonnay", correct: false }
+      explanation: |
+        The AOP may add one of four geographic names: Frangy, Marestel, Monterminod or
+        Monthoux. The wines often combine floral or white-fruit aromas with more body
+        and ageing potential than basic Jacquère.
+    fr:
+      question: Quel est l’encépagement autorisé pour l’AOP Roussette de Savoie ?
+      choices:
+        - { text: "Un vin blanc élaboré exclusivement à partir d’Altesse", correct: true }
+        - { text: "Un vin blanc élaboré exclusivement à partir de Jacquère", correct: false }
+        - { text: "Un assemblage blanc dominé par la Roussanne", correct: false }
+        - { text: "Un assemblage blanc dominé par le Chardonnay", correct: false }
+      explanation: |
+        L’AOP peut être suivie de l’une de quatre dénominations géographiques : Frangy,
+        Marestel, Monterminod ou Monthoux. Ces vins associent souvent des arômes floraux
+        ou de fruits blancs à plus de corps et de garde qu’une Jacquère simple.
+
+  - id: savoie-chignin-bergeron-001
+    type: mcq
+    deck: France::Savoie
+    tags: [france, savoie, roussanne, appellations]
+    status: reviewed
+    review:
+      fact_check: pass
+      sources: [civs-chignin-bergeron, inao-vin-de-savoie-specification]
+    en:
+      question: Which grape must be used for Vin de Savoie Chignin-Bergeron?
+      choices:
+        - { text: "Roussanne", correct: true }
+        - { text: "Altesse", correct: false }
+        - { text: "Jacquère", correct: false }
+        - { text: "Gringet", correct: false }
+      explanation: |
+        Roussanne is locally called **Bergeron**. Chignin-Bergeron is a richer, more
+        full-bodied expression of Savoie white wine than a typical Jacquère.
+    fr:
+      question: Quel cépage doit être utilisé pour le Vin de Savoie Chignin-Bergeron ?
+      choices:
+        - { text: "Roussanne", correct: true }
+        - { text: "Altesse", correct: false }
+        - { text: "Jacquère", correct: false }
+        - { text: "Gringet", correct: false }
+      explanation: |
+        La Roussanne porte localement le nom de **Bergeron**. Chignin-Bergeron donne un
+        style de blanc savoyard plus riche et plus ample qu’une Jacquère classique.
+
+  - id: savoie-mondeuse-style-001
+    type: mcq
+    deck: France::Savoie
+    tags: [france, savoie, mondeuse, wine-style]
+    status: reviewed
+    review:
+      fact_check: pass
+      sources: [civs-arbin]
+    en:
+      question: Which profile is most typical of Savoie Mondeuse?
+      choices:
+        - { text: "Deep colour, fresh acidity, firm tannins and peppery dark fruit", correct: true }
+        - { text: "Pale colour, low acidity, soft tannins and delicate red fruit", correct: false }
+        - { text: "Medium-sweet palate, low tannins and pronounced dried fruit", correct: false }
+        - { text: "Full body, low acidity, soft tannins and pronounced coconut oak", correct: false }
+      explanation: |
+        Mondeuse can combine violet and black-cherry aromas with white pepper and spice.
+        Its acidity and tannic structure can support bottle ageing in stronger examples.
+    fr:
+      question: Quel profil est le plus caractéristique de la Mondeuse de Savoie ?
+      choices:
+        - { text: "Robe profonde, acidité fraîche, tanins fermes et fruits noirs poivrés", correct: true }
+        - { text: "Robe pâle, faible acidité, tanins souples et fruits rouges délicats", correct: false }
+        - { text: "Bouche demi-douce, tanins faibles et caractère marqué de fruits secs", correct: false }
+        - { text: "Corps puissant, faible acidité, tanins souples et bois de noix de coco marqué", correct: false }
+      explanation: |
+        La Mondeuse peut associer des arômes de violette et de cerise noire à des notes
+        de poivre blanc et d’épices. Son acidité et sa structure tannique permettent aux
+        exemples les plus puissants d’évoluer en bouteille.
+
+  - id: savoie-arbin-001
+    type: mcq
+    deck: France::Savoie
+    tags: [france, savoie, mondeuse, appellations]
+    status: reviewed
+    review:
+      fact_check: pass
+      sources: [civs-arbin, inao-vin-de-savoie-specification]
+    en:
+      question: Which grape is required for red Vin de Savoie Arbin?
+      choices:
+        - { text: "Mondeuse", correct: true }
+        - { text: "Gamay", correct: false }
+        - { text: "Pinot Noir", correct: false }
+        - { text: "Persan", correct: false }
+      explanation: |
+        Arbin's south-east-facing limestone scree provides one of the region's benchmark
+        sites for structured, spicy Mondeuse.
+    fr:
+      question: Quel cépage est exigé pour le Vin de Savoie Arbin rouge ?
+      choices:
+        - { text: "Mondeuse", correct: true }
+        - { text: "Gamay", correct: false }
+        - { text: "Pinot Noir", correct: false }
+        - { text: "Persan", correct: false }
+      explanation: |
+        Les éboulis calcaires exposés au sud-est d’Arbin constituent l’un des terroirs de
+        référence de la région pour une Mondeuse structurée et épicée.
+
+  - id: savoie-ayze-001
+    type: mcq
+    deck: France::Savoie
+    tags: [france, savoie, gringet, appellations]
+    status: reviewed
+    review:
+      fact_check: pass
+      sources: [civs-ayze, inao-vin-de-savoie-specification]
+    en:
+      question: Which pairing correctly describes Vin de Savoie Ayze?
+      choices:
+        - { text: "Gringet; still and sparkling white wines", correct: true }
+        - { text: "Jacquère; still and sparkling white wines", correct: false }
+        - { text: "Altesse; still and sparkling white wines", correct: false }
+        - { text: "Roussanne; still and sparkling white wines", correct: false }
+      explanation: |
+        Ayze lies in the Arve valley of Haute-Savoie. Its rare local Gringet grape retains
+        freshness and is used for both still whites and bottle-fermented sparkling wines.
+    fr:
+      question: Quelle association décrit correctement le Vin de Savoie Ayze ?
+      choices:
+        - { text: "Gringet ; vins blancs tranquilles et effervescents", correct: true }
+        - { text: "Jacquère ; vins blancs tranquilles et effervescents", correct: false }
+        - { text: "Altesse ; vins blancs tranquilles et effervescents", correct: false }
+        - { text: "Roussanne ; vins blancs tranquilles et effervescents", correct: false }
+      explanation: |
+        Ayze se situe dans la vallée de l’Arve, en Haute-Savoie. Le rare cépage local
+        Gringet conserve une belle fraîcheur et produit des blancs tranquilles comme des
+        effervescents obtenus par seconde fermentation en bouteille.
+
+  - id: savoie-chasselas-001
+    type: mcq
+    deck: France::Savoie
+    tags: [france, savoie, chasselas, appellations]
+    status: reviewed
+    review:
+      fact_check: pass
+      sources: [civs-savoie-grape-guide, inao-vin-de-savoie-specification]
+    en:
+      question: Which group of Haute-Savoie denominations is principally associated with Chasselas?
+      choices:
+        - { text: "Crépy, Marignan, Marin and Ripaille", correct: true }
+        - { text: "Apremont, Abymes, Chignin and Cruet", correct: false }
+        - { text: "Frangy, Marestel, Monterminod and Monthoux", correct: false }
+        - { text: "Arbin, Chautagne, Jongieux and Saint-Jean-de-la-Porte", correct: false }
+      explanation: |
+        These vineyards lie close to Lake Geneva, where Chasselas makes light, subtle
+        dry whites. The four names in the third option belong to Roussette de Savoie and
+        therefore indicate Altesse instead.
+    fr:
+      question: Quel groupe de dénominations de Haute-Savoie est principalement associé au Chasselas ?
+      choices:
+        - { text: "Crépy, Marignan, Marin et Ripaille", correct: true }
+        - { text: "Apremont, Abymes, Chignin et Cruet", correct: false }
+        - { text: "Frangy, Marestel, Monterminod et Monthoux", correct: false }
+        - { text: "Arbin, Chautagne, Jongieux et Saint-Jean-de-la-Porte", correct: false }
+      explanation: |
+        Ces vignobles se trouvent près du lac Léman, où le Chasselas donne des blancs
+        secs légers et subtils. Les quatre noms du troisième choix appartiennent à
+        Roussette de Savoie et désignent donc des vins d’Altesse.
+
+  - id: savoie-grape-denomination-map-001
+    type: mcq
+    deck: France::Savoie
+    tags: [france, savoie, grapes, appellations]
+    status: reviewed
+    review:
+      fact_check: pass
+      sources: [civs-savoie-grape-guide]
+    en:
+      question: Which set of Savoie grape-to-denomination matches is entirely correct?
+      choices:
+        - { text: "Jacquère–Apremont; Mondeuse–Arbin; Roussanne–Chignin-Bergeron; Gringet–Ayze", correct: true }
+        - { text: "Jacquère–Arbin; Mondeuse–Ayze; Roussanne–Apremont; Gringet–Chignin-Bergeron", correct: false }
+        - { text: "Jacquère–Ayze; Mondeuse–Apremont; Roussanne–Arbin; Gringet–Chignin-Bergeron", correct: false }
+        - { text: "Jacquère–Chignin-Bergeron; Mondeuse–Apremont; Roussanne–Ayze; Gringet–Arbin", correct: false }
+      explanation: |
+        These four associations summarise the most useful local mappings: fresh Jacquère,
+        structured red Mondeuse, richer Roussanne and rare Alpine Gringet each have a
+        particularly recognisable denomination.
+    fr:
+      question: Quelle série d’associations entre cépage et dénomination savoyarde est entièrement correcte ?
+      choices:
+        - { text: "Jacquère–Apremont ; Mondeuse–Arbin ; Roussanne–Chignin-Bergeron ; Gringet–Ayze", correct: true }
+        - { text: "Jacquère–Arbin ; Mondeuse–Ayze ; Roussanne–Apremont ; Gringet–Chignin-Bergeron", correct: false }
+        - { text: "Jacquère–Ayze ; Mondeuse–Apremont ; Roussanne–Arbin ; Gringet–Chignin-Bergeron", correct: false }
+        - { text: "Jacquère–Chignin-Bergeron ; Mondeuse–Apremont ; Roussanne–Ayze ; Gringet–Arbin", correct: false }
+      explanation: |
+        Ces quatre associations résument les repères locaux les plus utiles : la Jacquère
+        fraîche, la Mondeuse rouge structurée, la Roussanne plus riche et le rare Gringet
+        alpin possèdent chacun une dénomination particulièrement représentative.
+
+  - id: savoie-climate-ripening-001
+    type: mcq
+    deck: France::Savoie
+    tags: [france, savoie, climate, viticulture]
+    status: reviewed
+    review:
+      fact_check: pass
+      sources: [inao-vin-de-savoie-specification]
+    en:
+      question: Which site best addresses both limited heat and substantial rainfall in Savoie?
+      choices:
+        - { text: "A sunny south-facing slope with free-draining, stony soil", correct: true }
+        - { text: "A sunny valley floor with deep, water-retentive alluvial soil", correct: false }
+        - { text: "A cool north-facing slope with free-draining, shallow soil", correct: false }
+        - { text: "A sheltered valley floor with fertile, water-retentive clay", correct: false }
+      explanation: |
+        Altitude and limited heat accumulation can make ripening difficult. Slope, exposure
+        and shelter therefore matter greatly, while drainage is valuable in a region that
+        receives significant rainfall.
+    fr:
+      question: Quel site répond le mieux au manque de chaleur et aux précipitations importantes en Savoie ?
+      choices:
+        - { text: "Un coteau ensoleillé exposé au sud, au sol pierreux et drainant", correct: true }
+        - { text: "Un fond de vallée ensoleillé au sol alluvial profond qui retient l’eau", correct: false }
+        - { text: "Un coteau frais exposé au nord, au sol peu profond et drainant", correct: false }
+        - { text: "Un fond de vallée abrité à l’argile fertile qui retient l’eau", correct: false }
+      explanation: |
+        L’altitude et la faible accumulation de chaleur peuvent compliquer la maturation.
+        La pente, l’exposition et l’abri sont donc déterminants ; le drainage est également
+        précieux dans cette région qui reçoit des précipitations importantes.
+
+  - id: savoie-altesse-style-001
+    type: mcq
+    deck: France::Savoie
+    tags: [france, savoie, altesse, wine-style]
+    status: reviewed
+    review:
+      fact_check: pass
+      sources: [inao-roussette-de-savoie, civs-marestel]
+    en:
+      question: How does a good Roussette de Savoie made from Altesse typically compare with a light Jacquère?
+      choices:
+        - { text: "It is fuller and more ageworthy, with floral, stone-fruit and honeyed notes", correct: true }
+        - { text: "It is lighter and more neutral, with lower acidity and less ageing potential", correct: false }
+        - { text: "It is sweeter and more aromatic, with pronounced Muscat-like grape notes", correct: false }
+        - { text: "It is more tannic and deeply coloured, with black-fruit and pepper notes", correct: false }
+      explanation: |
+        Altesse combines freshness with more volume and concentration than the lightest
+        Jacquère styles. With age, stronger examples can develop honey, beeswax, toast,
+        spice and quince-like aromas.
+    fr:
+      question: Comment une bonne Roussette de Savoie issue d’Altesse se compare-t-elle généralement à une Jacquère légère ?
+      choices:
+        - { text: "Elle est plus ample et apte à la garde, avec des notes florales, miellées et de fruits à noyau", correct: true }
+        - { text: "Elle est plus légère et plus neutre, avec moins d’acidité et de potentiel de garde", correct: false }
+        - { text: "Elle est plus douce et plus aromatique, avec un caractère muscaté très marqué", correct: false }
+        - { text: "Elle est plus tannique et plus colorée, avec des notes de fruits noirs et de poivre", correct: false }
+      explanation: |
+        L’Altesse associe la fraîcheur à davantage de volume et de concentration que les
+        styles les plus légers de Jacquère. Avec l’âge, les meilleurs exemples peuvent
+        développer des notes de miel, de cire, de pain grillé, d’épices et de coing.
+
+  - id: savoie-roussanne-style-001
+    type: mcq
+    deck: France::Savoie
+    tags: [france, savoie, roussanne, wine-style]
+    status: reviewed
+    review:
+      fact_check: pass
+      sources: [civs-chignin-bergeron]
+    en:
+      question: Which profile best fits a Vin de Savoie Chignin-Bergeron made from Roussanne?
+      choices:
+        - { text: "Broad and ripe, with apricot, floral and almond notes balanced by acidity", correct: true }
+        - { text: "Very light and neutral, with green apple and a slight spritz", correct: false }
+        - { text: "Strongly oxidative, with walnut, curry and mushroom notes", correct: false }
+        - { text: "Deeply coloured and tannic, with black cherry and white pepper", correct: false }
+      explanation: |
+        Sunny, sheltered slopes help Roussanne ripen in Chignin. The resulting wine is
+        generally richer and broader than Jacquère while retaining enough acidity to
+        avoid heaviness.
+    fr:
+      question: Quel profil correspond le mieux à un Vin de Savoie Chignin-Bergeron issu de Roussanne ?
+      choices:
+        - { text: "Ample et mûr, avec des notes d’abricot, de fleurs et d’amande équilibrées par l’acidité", correct: true }
+        - { text: "Très léger et neutre, avec des notes de pomme verte et un léger perlant", correct: false }
+        - { text: "Fortement oxydatif, avec des notes de noix, de curry et de champignon", correct: false }
+        - { text: "Très coloré et tannique, avec des notes de cerise noire et de poivre blanc", correct: false }
+      explanation: |
+        Les coteaux ensoleillés et abrités permettent à la Roussanne de mûrir à Chignin.
+        Le vin est généralement plus riche et plus ample qu’une Jacquère, tout en conservant
+        suffisamment d’acidité pour ne pas paraître lourd.
+
+  - id: savoie-lake-influence-001
+    type: mcq
+    deck: France::Savoie
+    tags: [france, savoie, climate, lakes]
+    status: reviewed
+    review:
+      fact_check: pass
+      sources: [civs-ripaille, civs-marestel, civs-chautagne]
+    en:
+      question: Which pairing correctly matches a Savoie wine sector with its moderating lake?
+      choices:
+        - { text: "Chautagne–Lac du Bourget; Ripaille–Lake Geneva", correct: true }
+        - { text: "Chautagne–Lake Geneva; Ayze–Lac du Bourget", correct: false }
+        - { text: "Arbin–Lake Geneva; Ripaille–Lac du Bourget", correct: false }
+        - { text: "Apremont–Lac du Bourget; Ayze–Lake Geneva", correct: false }
+      explanation: |
+        Large bodies of water warm and cool more slowly than the surrounding land. Their
+        moderating influence is important in sectors such as Chautagne, Marestel and the
+        Chasselas vineyards beside Lake Geneva.
+    fr:
+      question: Quelle association relie correctement un secteur viticole savoyard au lac qui tempère son climat ?
+      choices:
+        - { text: "Chautagne–lac du Bourget ; Ripaille–lac Léman", correct: true }
+        - { text: "Chautagne–lac Léman ; Ayze–lac du Bourget", correct: false }
+        - { text: "Arbin–lac Léman ; Ripaille–lac du Bourget", correct: false }
+        - { text: "Apremont–lac du Bourget ; Ayze–lac Léman", correct: false }
+      explanation: |
+        Les grandes masses d’eau se réchauffent et se refroidissent plus lentement que les
+        terres environnantes. Leur effet modérateur compte notamment à Chautagne, à Marestel
+        et dans les vignobles de Chasselas situés près du lac Léman.
+
+  - id: savoie-chautagne-001
+    type: mcq
+    deck: France::Savoie
+    tags: [france, savoie, chautagne, terroir]
+    status: reviewed
+    review:
+      fact_check: pass
+      sources: [civs-chautagne, inao-vin-de-savoie-specification]
+    en:
+      question: Which description best fits Vin de Savoie Chautagne?
+      choices:
+        - { text: "A relatively warm, lake-influenced sector producing both white and red wines", correct: true }
+        - { text: "A cool Arve Valley sector producing still and sparkling Gringet wines", correct: false }
+        - { text: "A Lake Geneva sector producing light still whites from Chasselas", correct: false }
+        - { text: "A Combe de Savoie sector producing structured reds from Mondeuse", correct: false }
+      explanation: |
+        Lac du Bourget softens the local climate. Chautagne can produce Jacquère-led whites
+        as well as reds from grapes such as Gamay, Mondeuse and Pinot Noir.
+    fr:
+      question: Quelle description correspond le mieux au Vin de Savoie Chautagne ?
+      choices:
+        - { text: "Un secteur relativement chaud, influencé par un lac, qui produit des blancs et des rouges", correct: true }
+        - { text: "Un secteur frais de la vallée de l’Arve qui produit des Gringet tranquilles et effervescents", correct: false }
+        - { text: "Un secteur du lac Léman qui produit des blancs tranquilles légers de Chasselas", correct: false }
+        - { text: "Un secteur de la combe de Savoie qui produit des rouges structurés de Mondeuse", correct: false }
+      explanation: |
+        Le lac du Bourget adoucit le climat local. Chautagne peut produire des blancs
+        dominés par la Jacquère ainsi que des rouges issus notamment de Gamay, de Mondeuse
+        et de Pinot Noir.
+
+  - id: savoie-principal-red-grapes-001
+    type: mcq
+    deck: France::Savoie
+    tags: [france, savoie, red-wine, grapes]
+    status: reviewed
+    review:
+      fact_check: pass
+      sources: [inao-vin-de-savoie-specification, civs-savoie-grape-guide]
+    en:
+      question: Which trio contains Savoie's principal red-wine grapes?
+      choices:
+        - { text: "Gamay, Mondeuse and Pinot Noir", correct: true }
+        - { text: "Gamay, Persan and Pinot Noir", correct: false }
+        - { text: "Mondeuse, Cabernet Sauvignon and Pinot Noir", correct: false }
+        - { text: "Gamay, Mondeuse and Trousseau", correct: false }
+      explanation: |
+        Gamay and Pinot Noir tend toward red-fruited styles, whereas Mondeuse can give
+        darker, more peppery and structured wines. Small plantings of rarer local black
+        grapes also survive.
+    fr:
+      question: Quel trio réunit les principaux cépages rouges de Savoie ?
+      choices:
+        - { text: "Gamay, Mondeuse et Pinot Noir", correct: true }
+        - { text: "Gamay, Persan et Pinot Noir", correct: false }
+        - { text: "Mondeuse, Cabernet Sauvignon et Pinot Noir", correct: false }
+        - { text: "Gamay, Mondeuse et Trousseau", correct: false }
+      explanation: |
+        Le Gamay et le Pinot Noir donnent généralement des styles marqués par les fruits
+        rouges, tandis que la Mondeuse peut être plus sombre, plus poivrée et plus structurée.
+        De petites plantations de cépages noirs locaux plus rares subsistent également.
+
+  - id: savoie-seyssel-001
+    type: mcq
+    deck: France::Savoie
+    tags: [france, savoie, seyssel, sparkling]
+    status: reviewed
+    review:
+      fact_check: pass
+      sources: [civs-seyssel]
+    en:
+      question: Which pairing correctly describes Seyssel AOC?
+      choices:
+        - { text: "Altesse and Molette; still and sparkling white wines", correct: true }
+        - { text: "Jacquère and Altesse; still and sparkling white wines", correct: false }
+        - { text: "Gringet and Molette; still and sparkling white wines", correct: false }
+        - { text: "Chasselas and Jacquère; still and sparkling white wines", correct: false }
+      explanation: |
+        Seyssel lies beside the Rhône across parts of Haute-Savoie and the Ain. Altesse
+        is central to its still wines, while Molette is particularly associated with its
+        fresh, bottle-fermented sparkling style.
+    fr:
+      question: Quelle association décrit correctement l’AOC Seyssel ?
+      choices:
+        - { text: "Altesse et Molette ; vins blancs tranquilles et effervescents", correct: true }
+        - { text: "Jacquère et Altesse ; vins blancs tranquilles et effervescents", correct: false }
+        - { text: "Gringet et Molette ; vins blancs tranquilles et effervescents", correct: false }
+        - { text: "Chasselas et Jacquère ; vins blancs tranquilles et effervescents", correct: false }
+      explanation: |
+        Seyssel s’étend le long du Rhône, en Haute-Savoie et dans l’Ain. L’Altesse joue un
+        rôle central dans les vins tranquilles, tandis que la Molette est particulièrement
+        associée aux effervescents frais obtenus par seconde fermentation en bouteille.
+
+  - id: savoie-cremant-blend-001
+    type: mcq
+    deck: France::Savoie
+    tags: [france, savoie, cremant, sparkling]
+    status: reviewed
+    review:
+      fact_check: pass
+      sources: [inao-vin-de-savoie-specification]
+    en:
+      question: Which blend rule gives Crémant de Savoie a distinctly local identity?
+      choices:
+        - { text: "At least 40% Jacquère and at least 60% Jacquère plus Altesse", correct: true }
+        - { text: "At least 40% Altesse and at least 60% Altesse plus Chardonnay", correct: false }
+        - { text: "At least 40% Chardonnay and at least 60% Chardonnay plus Pinot Noir", correct: false }
+        - { text: "At least 40% Gringet and at least 60% Gringet plus Chasselas", correct: false }
+      explanation: |
+        Crémant de Savoie is a white sparkling wine made by second fermentation in bottle.
+        The prominence of Jacquère and Altesse preserves regional freshness and identity;
+        bottle ageing on lees must last at least nine months.
+    fr:
+      question: Quelle règle d’assemblage donne au Crémant de Savoie une identité particulièrement locale ?
+      choices:
+        - { text: "Au moins 40 % de Jacquère et au moins 60 % de Jacquère et d’Altesse", correct: true }
+        - { text: "Au moins 40 % d’Altesse et au moins 60 % d’Altesse et de Chardonnay", correct: false }
+        - { text: "Au moins 40 % de Chardonnay et au moins 60 % de Chardonnay et de Pinot Noir", correct: false }
+        - { text: "Au moins 40 % de Gringet et au moins 60 % de Gringet et de Chasselas", correct: false }
+      explanation: |
+        Le Crémant de Savoie est un effervescent blanc obtenu par seconde fermentation
+        en bouteille. La place accordée à la Jacquère et à l’Altesse préserve la fraîcheur
+        et l’identité régionales ; l’élevage sur lies en bouteille dure au moins neuf mois.
