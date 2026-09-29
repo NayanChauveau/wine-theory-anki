@@ -583,9 +583,9 @@ cards:
       question: What can an older reserve wine contribute to a sparkling blend?
       choices:
         - { text: "Dried-fruit complexity", correct: true }
-        - { text: "Freshly fermented banana aromas", correct: false }
-        - { text: "Primary green-herb flavours", correct: false }
-        - { text: "Newly extracted grape tannin", correct: false }
+        - { text: "Fresh citrus and floral aromas", correct: false }
+        - { text: "Bread and biscuit from yeast autolysis", correct: false }
+        - { text: "Vanilla and spice from new oak", correct: false }
       explanation: |
         Mature reserve material adds an evolved layer that a young base wine
         cannot supply, making the final blend more complex and helping define
@@ -595,9 +595,9 @@ cards:
       question: Que peut apporter un vin de réserve âgé à un assemblage effervescent ?
       choices:
         - { text: "Des arômes évolués de fruits secs", correct: true }
-        - { text: "Des arômes de banane tout juste fermentée", correct: false }
-        - { text: "Des arômes végétaux primaires", correct: false }
-        - { text: "Des tanins nouvellement extraits des raisins", correct: false }
+        - { text: "Des arômes frais d’agrumes et de fleurs", correct: false }
+        - { text: "Des notes de pain et de biscuit issues de l’autolyse", correct: false }
+        - { text: "Des notes de vanille et d’épices issues du bois neuf", correct: false }
       explanation: |
         Un vin de réserve évolué apporte une dimension qu’un jeune vin de base
         ne peut pas fournir. Il complexifie l’assemblage final et contribue à
@@ -615,7 +615,7 @@ cards:
     en:
       question: Which blending component can add breadth and spice to a sparkling wine?
       choices:
-        - { text: "A parcel matured in oak", correct: true }
+        - { text: "A base-wine parcel matured in oak", correct: true }
         - { text: "A young parcel fermented in stainless steel", correct: false }
         - { text: "A later press fraction rich in phenolics", correct: false }
         - { text: "A high-acid parcel matured without oxygen", correct: false }
@@ -627,7 +627,7 @@ cards:
     fr:
       question: Quel composant d’assemblage peut apporter de l’ampleur et des notes épicées à un vin effervescent ?
       choices:
-        - { text: "Un lot élevé sous bois", correct: true }
+        - { text: "Un lot de vin de base élevé sous bois", correct: true }
         - { text: "Un jeune lot fermenté en cuve inox", correct: false }
         - { text: "Une fraction de presse tardive riche en composés phénoliques", correct: false }
         - { text: "Un lot très acide élevé à l’abri de l’oxygène", correct: false }
@@ -1237,7 +1237,7 @@ cards:
     en:
       question: What is a major commercial advantage of the transfer method?
       choices:
-        - { text: "It combines bottle-fermented character with efficient batch processing", correct: true }
+        - { text: "It keeps bottle fermentation while processing the wine efficiently in bulk", correct: true }
         - { text: "It eliminates both secondary fermentation and pressure-resistant equipment", correct: false }
         - { text: "It permits bottle-by-bottle dosage changes within one filtered batch", correct: false }
         - { text: "It requires longer hand riddling but lowers the cost of glass", correct: false }
@@ -1249,13 +1249,13 @@ cards:
     fr:
       question: Quel est l’un des principaux avantages commerciaux de la méthode par transfert ?
       choices:
-        - { text: "Elle associe le caractère d’une prise de mousse en bouteille à un traitement efficace par lots", correct: true }
+        - { text: "Elle conserve la prise de mousse en bouteille tout en traitant efficacement le vin par lots", correct: true }
         - { text: "Elle supprime à la fois la seconde fermentation et tout équipement résistant à la pression", correct: false }
         - { text: "Elle permet de modifier le dosage bouteille par bouteille dans un même lot filtré", correct: false }
         - { text: "Elle impose un remuage manuel plus long mais réduit le coût du verre", correct: false }
       explanation: |
-        La filtration et la remise en bouteille en vrac réduisent le travail et
-        les coûts tout en homogénéisant un grand lot. La qualité peut rester
+        La filtration collective et la remise en bouteille réduisent le travail
+        et les coûts tout en homogénéisant un grand lot. La qualité peut rester
         bonne puisque la seconde fermentation a bien lieu en bouteille.
 
   - id: sparkling-transfer-label-001
@@ -1503,7 +1503,7 @@ cards:
     en:
       question: Which sequence describes the classic Asti tank process?
       choices:
-        - { text: "Store chilled juice → ferment in tank → seal tank → chill and filter under pressure", correct: true }
+        - { text: "Chill juice → ferment then seal tank → chill and filter under pressure", correct: true }
         - { text: "Ferment dry in tank → bottle with tirage → riddle → disgorge", correct: false }
         - { text: "Ferment in bottle → empty into tank → filter → rebottle under pressure", correct: false }
         - { text: "Ferment dry in barrel → inject gas → sweeten after bottling", correct: false }
@@ -1515,7 +1515,7 @@ cards:
     fr:
       question: Quel enchaînement décrit le procédé classique d’Asti en cuve ?
       choices:
-        - { text: "Conserver le jus au froid → fermenter en cuve → fermer la cuve → refroidir et filtrer sous pression", correct: true }
+        - { text: "Refroidir le jus → fermenter puis fermer la cuve → refroidir et filtrer sous pression", correct: true }
         - { text: "Fermenter jusqu’à sec en cuve → tirer en bouteille → remuer → dégorger", correct: false }
         - { text: "Fermenter en bouteille → vider en cuve → filtrer → remettre sous pression en bouteille", correct: false }
         - { text: "Fermenter jusqu’à sec en fût → injecter du gaz → édulcorer après la mise", correct: false }

@@ -2,4 +2,3190 @@
 # source: C42 (import/inbox/c42-sparkling-wines.yaml)
 # deck: Sparkling Wines
 
-cards: []
+cards:
+  - id: champagne-aoc-scope-001
+    type: mcq
+    deck: Sparkling Wines
+    tags: [sparkling, champagne, law]
+    status: reviewed
+    source_id: c42-0001
+    review:
+      fact_check: pass
+      sources: [aoc-site]
+    en:
+      question: Which statement best describes the appellation used for sparkling Champagne?
+      choices:
+        - { text: "One Champagne AOC covers the delimited sparkling-wine production zone", correct: true }
+        - { text: "Each major growing region has its own separate Champagne AOC", correct: false }
+        - { text: "Each grand cru village forms an independent sparkling-wine AOC", correct: false }
+        - { text: "Champagne is a regional IGP divided into village-level AOCs", correct: false }
+      explanation: |
+        The sparkling wine uses the single **Champagne AOC** across its
+        delimited production area. The wider wine region also contains AOCs
+        for still wines, notably Coteaux Champenois and Rosé des Riceys.
+
+    fr:
+      question: Quelle affirmation décrit correctement l’appellation utilisée pour le Champagne effervescent ?
+      choices:
+        - { text: "Une seule AOC Champagne couvre toute l’aire délimitée des vins effervescents", correct: true }
+        - { text: "Chaque grande région viticole possède sa propre AOC Champagne", correct: false }
+        - { text: "Chaque village grand cru constitue une AOC distincte pour les vins effervescents", correct: false }
+        - { text: "Champagne est une IGP régionale dont les effervescents relèvent d’AOC communales", correct: false }
+      explanation: |
+        Le vin effervescent relève d’une seule **AOC Champagne** dans toute
+        l’aire de production délimitée. La région viticole compte aussi des AOC
+        de vins tranquilles, notamment Coteaux Champenois et Rosé des Riceys.
+
+  - id: champagne-cru-counts-001
+    type: mcq
+    deck: Sparkling Wines
+    tags: [sparkling, champagne, hierarchy]
+    status: reviewed
+    source_id: c42-0003
+    review:
+      fact_check: pass
+      sources: [aoc-site]
+    en:
+      question: How many Champagne villages retain the historic Grand Cru and Premier Cru designations?
+      choices:
+        - { text: "17 Grand Cru and 44 Premier Cru", correct: true }
+        - { text: "44 Grand Cru and 17 Premier Cru", correct: false }
+        - { text: "17 Grand Cru and 319 Premier Cru", correct: false }
+        - { text: "34 Grand Cru and 44 Premier Cru", correct: false }
+      explanation: |
+        The old **échelle des crus** was abolished in 2010, but villages that
+        had earned Grand Cru or Premier Cru status may retain those terms.
+
+    fr:
+      question: Combien de villages champenois conservent les mentions historiques Grand Cru et Premier Cru ?
+      choices:
+        - { text: "17 Grand Cru et 44 Premier Cru", correct: true }
+        - { text: "44 Grand Cru et 17 Premier Cru", correct: false }
+        - { text: "17 Grand Cru et 319 Premier Cru", correct: false }
+        - { text: "34 Grand Cru et 44 Premier Cru", correct: false }
+      explanation: |
+        L’ancienne **échelle des crus** a été supprimée en 2010, mais les
+        villages qui avaient obtenu le statut de Grand Cru ou de Premier Cru
+        peuvent conserver ces mentions.
+
+  - id: champagne-cru-commune-001
+    type: mcq
+    deck: Sparkling Wines
+    tags: [sparkling, champagne, hierarchy]
+    status: reviewed
+    source_id: c42-0005
+    review:
+      fact_check: pass
+      sources: [aoc-site]
+    en:
+      question: What geographic unit does a cru traditionally identify in Champagne?
+      choices:
+        - { text: "An entire wine-growing commune", correct: true }
+        - { text: "One precisely delimited vineyard", correct: false }
+        - { text: "One producer’s complete holding", correct: false }
+        - { text: "One authorised pressing centre", correct: false }
+      explanation: |
+        A village designation cannot make every plot identical. Aspect, soil
+        and grower decisions still vary within the commune, and Grand Cru or
+        Premier Cru does not impose a separate winemaking method.
+
+    fr:
+      question: Quelle unité géographique un cru désigne-t-il traditionnellement en Champagne ?
+      choices:
+        - { text: "Une commune viticole entière", correct: true }
+        - { text: "Une parcelle précisément délimitée", correct: false }
+        - { text: "L’ensemble des vignes d’un producteur", correct: false }
+        - { text: "Un centre de pressurage agréé", correct: false }
+      explanation: |
+        Une mention communale ne rend pas toutes les parcelles identiques :
+        exposition, sol et choix du vigneron varient au sein d’un même village.
+        Grand Cru ou Premier Cru n’impose pas non plus une vinification distincte.
+
+  - id: champagne-four-regions-001
+    type: mcq
+    deck: Sparkling Wines
+    tags: [sparkling, champagne, geography]
+    status: reviewed
+    source_id: c42-0008
+    review:
+      fact_check: pass
+      sources: [aoc-site]
+    en:
+      question: Which list gives Champagne’s four main wine-growing regions?
+      choices:
+        - { text: "Montagne de Reims, Marne Valley, Côte des Blancs and Côte des Bar", correct: true }
+        - { text: "Montagne de Reims, Marne Valley, Côte des Blancs and Côte de Sézanne", correct: false }
+        - { text: "Montagne de Reims, Massif de Saint-Thierry, Côte de Sézanne and Côte des Bar", correct: false }
+        - { text: "Marne Valley, Côte des Blancs, Vitryat and Côte des Bar", correct: false }
+      explanation: |
+        These four broad regions sit within a more detailed patchwork of
+        sub-regions. **Côte de Sézanne** lies south of Côte des Blancs but is
+        not one of the four headline regions in the current official grouping.
+
+    fr:
+      question: Quelle liste réunit les quatre grandes régions viticoles de Champagne ?
+      choices:
+        - { text: "Montagne de Reims, Vallée de la Marne, Côte des Blancs et Côte des Bar", correct: true }
+        - { text: "Montagne de Reims, Vallée de la Marne, Côte des Blancs et Côte de Sézanne", correct: false }
+        - { text: "Montagne de Reims, Massif de Saint-Thierry, Côte de Sézanne et Côte des Bar", correct: false }
+        - { text: "Vallée de la Marne, Côte des Blancs, Vitryat et Côte des Bar", correct: false }
+      explanation: |
+        Ces quatre grands ensembles recouvrent une mosaïque de sous-régions.
+        La **Côte de Sézanne**, au sud de la Côte des Blancs, ne figure pas
+        parmi les quatre régions principales de la présentation officielle actuelle.
+
+  - id: champagne-sezanne-bar-001
+    type: mcq
+    deck: Sparkling Wines
+    tags: [sparkling, champagne, geography]
+    status: reviewed
+    source_id: c42-0010
+    review:
+      fact_check: pass
+      sources: [aoc-site]
+    en:
+      question: Which statement correctly locates Côte de Sézanne and Côte des Bar?
+      choices:
+        - { text: "Sézanne lies south of Épernay; Côte des Bar is far to the south-east", correct: true }
+        - { text: "Sézanne lies east of Reims; Côte des Bar is directly south of the Marne Valley", correct: false }
+        - { text: "Sézanne lies north-west of Épernay; Côte des Bar is close to the Belgian border", correct: false }
+        - { text: "Sézanne lies south-east of Côte des Bar; both are within the Marne Valley", correct: false }
+      explanation: |
+        Côte de Sézanne begins roughly 30 km south-west of Épernay. Côte des
+        Bar is an outlying southern vineyard in the Aube, more than 100 km
+        from Épernay.
+
+    fr:
+      question: Quelle affirmation situe correctement la Côte de Sézanne et la Côte des Bar ?
+      choices:
+        - { text: "Sézanne se trouve au sud d’Épernay ; la Côte des Bar est loin au sud-est", correct: true }
+        - { text: "Sézanne se trouve à l’est de Reims ; la Côte des Bar est juste au sud de la Vallée de la Marne", correct: false }
+        - { text: "Sézanne se trouve au nord-ouest d’Épernay ; la Côte des Bar est proche de la frontière belge", correct: false }
+        - { text: "Sézanne se trouve au sud-est de la Côte des Bar ; toutes deux appartiennent à la Vallée de la Marne", correct: false }
+      explanation: |
+        La Côte de Sézanne commence à une trentaine de kilomètres au sud-ouest
+        d’Épernay. La Côte des Bar forme un vignoble méridional excentré, dans
+        l’Aube, à plus de 100 kilomètres d’Épernay.
+
+  - id: champagne-boundary-001
+    type: mcq
+    deck: Sparkling Wines
+    tags: [sparkling, champagne, law, geography]
+    status: reviewed
+    source_id: c42-0012
+    review:
+      fact_check: pass
+      sources: [aoc-site]
+    en:
+      question: What determines whether a vineyard may produce Champagne AOC?
+      choices:
+        - { text: "Its plot must fall within the legally delimited production area", correct: true }
+        - { text: "Its owner must hold land in one of the 17 Grand Cru villages", correct: false }
+        - { text: "Its commune must lie wholly inside the modern administrative region", correct: false }
+        - { text: "Its grapes must be pressed within the same individual vineyard", correct: false }
+      explanation: |
+        The production zone was delimited in law in **1927**. It covers about
+        34,000 hectares across 319 wine-growing communes in five départements;
+        it is not the same as the administrative region called Grand Est.
+
+    fr:
+      question: Qu’est-ce qui détermine si une vigne peut produire un vin de l’AOC Champagne ?
+      choices:
+        - { text: "La parcelle doit se trouver dans l’aire de production légalement délimitée", correct: true }
+        - { text: "Son propriétaire doit posséder des vignes dans l’un des 17 villages Grand Cru", correct: false }
+        - { text: "La commune doit être entièrement située dans la région administrative actuelle", correct: false }
+        - { text: "Les raisins doivent être pressés dans la parcelle où ils ont été vendangés", correct: false }
+      explanation: |
+        L’aire de production a été délimitée par la loi en **1927**. Elle couvre
+        environ 34 000 hectares répartis entre 319 communes viticoles et cinq
+        départements ; elle ne se confond pas avec la région administrative Grand Est.
+
+  - id: champagne-climate-001
+    type: mcq
+    deck: Sparkling Wines
+    tags: [sparkling, champagne, climate]
+    status: reviewed
+    source_id: c42-0014
+    review:
+      fact_check: pass
+      sources: [aoc-site]
+    en:
+      question: Which climatic description best fits the Champagne vineyards?
+      choices:
+        - { text: "A cool climate with both oceanic and continental influences", correct: true }
+        - { text: "A warm continental climate with little seasonal rainfall", correct: false }
+        - { text: "A Mediterranean climate moderated mainly by altitude", correct: false }
+        - { text: "A cool maritime climate with almost no frost risk", correct: false }
+      explanation: |
+        Oceanic influence moderates temperature and distributes rainfall;
+        continental influence brings winter freezes, spring frost and summer
+        heat or storms. The vineyards sit near the northern limit for ripening.
+
+    fr:
+      question: Quelle description climatique correspond le mieux au vignoble champenois ?
+      choices:
+        - { text: "Un climat frais soumis à des influences océaniques et continentales", correct: true }
+        - { text: "Un climat continental chaud avec peu de précipitations saisonnières", correct: false }
+        - { text: "Un climat méditerranéen principalement modéré par l’altitude", correct: false }
+        - { text: "Un climat maritime frais presque dépourvu de risque de gel", correct: false }
+      explanation: |
+        L’influence océanique modère les températures et répartit les pluies ;
+        l’influence continentale apporte gel hivernal, gelées de printemps,
+        chaleur estivale et orages. Le vignoble se situe près de la limite
+        septentrionale de maturation du raisin.
+
+  - id: champagne-weather-risks-001
+    type: mcq
+    deck: Sparkling Wines
+    tags: [sparkling, champagne, climate]
+    status: reviewed
+    source_id: c42-0015
+    review:
+      fact_check: pass
+      sources: [aoc-site]
+    en:
+      question: Which group contains important weather hazards for Champagne growers?
+      choices:
+        - { text: "Winter freeze, spring frost and wet or stormy growing-season weather", correct: true }
+        - { text: "Low winter rainfall, wildfire smoke and salt-laden coastal winds", correct: false }
+        - { text: "Insufficient winter chill, severe sunburn and hot desiccating winds", correct: false }
+        - { text: "Monsoon flooding, tropical cyclones and uninterrupted summer humidity", correct: false }
+      explanation: |
+        Rain and cloud can disrupt flowering, ripening and harvest while
+        increasing disease pressure. Climate change also makes extremes such
+        as heatwaves, storms and severe frost more erratic.
+
+    fr:
+      question: Quel groupe réunit des aléas météorologiques importants pour les viticulteurs champenois ?
+      choices:
+        - { text: "Gel hivernal, gelées de printemps et temps humide ou orageux pendant la végétation", correct: true }
+        - { text: "Faibles pluies hivernales, fumée d’incendie et vents côtiers chargés de sel", correct: false }
+        - { text: "Manque de froid hivernal, brûlure solaire sévère et vents chauds desséchants", correct: false }
+        - { text: "Inondations de mousson, cyclones tropicaux et humidité estivale continue", correct: false }
+      explanation: |
+        Pluie et nébulosité peuvent perturber floraison, maturation et vendange,
+        tout en renforçant la pression des maladies. Le changement climatique
+        rend aussi plus irréguliers les épisodes de canicule, d’orage ou de gel sévère.
+
+  - id: champagne-sparkling-balance-001
+    type: mcq
+    deck: Sparkling Wines
+    tags: [sparkling, champagne, climate]
+    status: reviewed
+    source_id: c42-0016
+    review:
+      fact_check: pass
+      sources: [aoc-site]
+    en:
+      question: Why can Champagne’s climate suit grapes for sparkling wine?
+      choices:
+        - { text: "Ripe grapes can retain high acidity with moderate potential alcohol", correct: true }
+        - { text: "Ripe grapes combine low acidity with high potential alcohol", correct: false }
+        - { text: "Underripe grapes provide low acidity with moderate potential alcohol", correct: false }
+        - { text: "Overripe grapes retain high acidity with very high potential alcohol", correct: false }
+      explanation: |
+        The target is balance, not simply the lowest possible sugar. Natural
+        acidity supplies freshness while sufficient ripeness avoids green,
+        thin base wines.
+
+    fr:
+      question: Pourquoi le climat champenois peut-il convenir aux raisins destinés aux vins effervescents ?
+      choices:
+        - { text: "Des raisins mûrs peuvent conserver une forte acidité et un degré alcoolique potentiel modéré", correct: true }
+        - { text: "Des raisins mûrs associent une faible acidité à un degré alcoolique potentiel élevé", correct: false }
+        - { text: "Des raisins insuffisamment mûrs présentent une faible acidité et un degré potentiel modéré", correct: false }
+        - { text: "Des raisins surmûris conservent une forte acidité et un degré potentiel très élevé", correct: false }
+      explanation: |
+        L’objectif est l’équilibre, pas simplement la plus faible teneur
+        possible en sucre. L’acidité naturelle apporte la fraîcheur, tandis
+        qu’une maturité suffisante évite des vins de base verts et maigres.
+
+  - id: champagne-slope-frost-001
+    type: mcq
+    deck: Sparkling Wines
+    tags: [sparkling, champagne, viticulture]
+    status: reviewed
+    source_id: c42-0017
+    review:
+      fact_check: pass
+      sources: [aoc-site]
+    en:
+      question: How do Champagne’s slopes help vines in a cool climate?
+      choices:
+        - { text: "They improve sunlight, water drainage and cold-air drainage", correct: true }
+        - { text: "They improve sunlight but retain water and cold air around the vines", correct: false }
+        - { text: "They reduce sunlight while improving water and cold-air drainage", correct: false }
+        - { text: "They improve water drainage but reduce sunlight and trap cold air", correct: false }
+      explanation: |
+        Cold air can flow downslope rather than pooling around the vines, which
+        reduces but does not eliminate frost risk. Aspect also helps capture
+        sunlight at this northerly latitude.
+
+    fr:
+      question: Comment les coteaux champenois aident-ils la vigne dans ce climat frais ?
+      choices:
+        - { text: "Ils améliorent l’ensoleillement ainsi que l’écoulement de l’eau et de l’air froid", correct: true }
+        - { text: "Ils améliorent l’ensoleillement mais retiennent l’eau et l’air froid autour des vignes", correct: false }
+        - { text: "Ils réduisent l’ensoleillement tout en améliorant l’écoulement de l’eau et de l’air froid", correct: false }
+        - { text: "Ils améliorent le drainage de l’eau mais réduisent l’ensoleillement et retiennent l’air froid", correct: false }
+      explanation: |
+        L’air froid peut descendre le long de la pente au lieu de s’accumuler
+        autour des ceps : le risque de gel diminue sans disparaître. L’exposition
+        aide aussi à capter davantage de lumière à cette latitude septentrionale.
+
+  - id: champagne-chalk-001
+    type: mcq
+    deck: Sparkling Wines
+    tags: [sparkling, champagne, soil]
+    status: reviewed
+    source_id: c42-0018
+    review:
+      fact_check: pass
+      sources: [aoc-site]
+    en:
+      question: Which water-management property makes chalk valuable in Champagne?
+      choices:
+        - { text: "It drains freely yet stores water in its porous structure", correct: true }
+        - { text: "It drains very rapidly and stores almost no plant-available water", correct: false }
+        - { text: "It retains abundant water but provides very slow internal drainage", correct: false }
+        - { text: "It forms an impermeable layer that restricts both drainage and rooting", correct: false }
+      explanation: |
+        Champagne’s outcrops are predominantly limestone, including chalk,
+        marl and harder limestone. Porous chalk acts as both a reservoir and a
+        temperature regulator while allowing excess water to drain.
+
+    fr:
+      question: Quelle propriété hydrique rend la craie précieuse en Champagne ?
+      choices:
+        - { text: "Elle draine librement tout en stockant de l’eau dans sa structure poreuse", correct: true }
+        - { text: "Elle draine très rapidement et ne stocke presque aucune eau disponible pour la vigne", correct: false }
+        - { text: "Elle retient beaucoup d’eau mais assure un drainage interne très lent", correct: false }
+        - { text: "Elle forme une couche imperméable qui limite à la fois le drainage et l’enracinement", correct: false }
+      explanation: |
+        Les affleurements champenois sont surtout calcaires : craie, marnes et
+        calcaires plus durs. La craie poreuse sert de réserve d’eau et de
+        régulateur thermique, tout en évacuant les excès d’eau.
+
+  - id: champagne-sustainability-001
+    type: mcq
+    deck: Sparkling Wines
+    tags: [sparkling, champagne, sustainability]
+    status: reviewed
+    source_id: c42-0020
+    review:
+      fact_check: pass
+      sources: [aoc-site]
+    en:
+      question: Which direction characterises Champagne’s current sustainability programme?
+      choices:
+        - { text: "Lower inputs, wider environmental certification and recycling of winery by-products", correct: true }
+        - { text: "Cellar-only certification, unchanged vineyard inputs and disposal of grape marc", correct: false }
+        - { text: "More routine mineral fertiliser, deeper cultivation and fewer cover crops", correct: false }
+        - { text: "More irrigation, broader herbicide use and selection for maximum vineyard yields", correct: false }
+      explanation: |
+        The sector reports lower use of plant-protection products and nitrogen
+        fertiliser, broader environmental certification and comprehensive
+        treatment or reuse of winery waste and by-products.
+
+    fr:
+      question: Quelle orientation caractérise le programme actuel de développement durable en Champagne ?
+      choices:
+        - { text: "Réduction des intrants, essor des certifications environnementales et valorisation des sous-produits", correct: true }
+        - { text: "Certification limitée aux chais, intrants viticoles inchangés et élimination du marc", correct: false }
+        - { text: "Recours accru aux engrais minéraux, travail du sol plus profond et recul des couverts végétaux", correct: false }
+        - { text: "Développement de l’irrigation, usage accru des herbicides et recherche des rendements maximaux", correct: false }
+      explanation: |
+        La filière fait état d’une baisse des produits phytosanitaires et des
+        engrais azotés, d’un élargissement des certifications environnementales
+        et d’une prise en charge ou valorisation généralisée des déchets et
+        sous-produits de cave.
+
+  - id: champagne-main-grapes-001
+    type: mcq
+    deck: Sparkling Wines
+    tags: [sparkling, champagne, grapes]
+    status: reviewed
+    source_id: c42-0021
+    review:
+      fact_check: pass
+      sources: [aoc-site]
+    en:
+      question: Which trio accounts for almost all vineyard plantings in Champagne?
+      choices:
+        - { text: "Chardonnay, Pinot Noir and Meunier", correct: true }
+        - { text: "Chardonnay, Pinot Noir and Pinot Blanc", correct: false }
+        - { text: "Chardonnay, Meunier and Pinot Gris", correct: false }
+        - { text: "Pinot Noir, Meunier and Arbane", correct: false }
+      explanation: |
+        Five other varieties are authorised but tiny in area: Arbane, Petit
+        Meslier, Pinot Blanc, Pinot Gris and **Chardonnay Rose**, restored to
+        the specification in 2025.
+
+    fr:
+      question: Quel trio représente la quasi-totalité des plantations en Champagne ?
+      choices:
+        - { text: "Chardonnay, Pinot Noir et Meunier", correct: true }
+        - { text: "Chardonnay, Pinot Noir et Pinot Blanc", correct: false }
+        - { text: "Chardonnay, Meunier et Pinot Gris", correct: false }
+        - { text: "Pinot Noir, Meunier et Arbane", correct: false }
+      explanation: |
+        Cinq autres cépages sont autorisés mais occupent une superficie infime :
+        Arbane, Petit Meslier, Pinot Blanc, Pinot Gris et **Chardonnay Rose**,
+        réintégré au cahier des charges en 2025.
+
+  - id: champagne-chardonnay-sites-001
+    type: mcq
+    deck: Sparkling Wines
+    tags: [sparkling, champagne, grapes]
+    status: reviewed
+    source_id: c42-0022
+    review:
+      fact_check: pass
+      sources: [aoc-site]
+    en:
+      question: Which Champagne area is most strongly associated with Chardonnay?
+      choices:
+        - { text: "Côte des Blancs", correct: true }
+        - { text: "Marne Valley", correct: false }
+        - { text: "Côte des Bar", correct: false }
+        - { text: "Montagne de Reims", correct: false }
+      explanation: |
+        Chardonnay thrives on the chalk outcrops of Côte des Blancs and is
+        also important in Côte de Sézanne. It represents roughly a third of
+        Champagne’s planted area.
+
+    fr:
+      question: Quelle région champenoise est la plus fortement associée au Chardonnay ?
+      choices:
+        - { text: "Côte des Blancs", correct: true }
+        - { text: "Vallée de la Marne", correct: false }
+        - { text: "Côte des Bar", correct: false }
+        - { text: "Montagne de Reims", correct: false }
+      explanation: |
+        Le Chardonnay s’épanouit sur les affleurements crayeux de la Côte des
+        Blancs et joue aussi un rôle important dans la Côte de Sézanne. Il
+        représente environ un tiers de la superficie plantée en Champagne.
+
+  - id: champagne-chardonnay-style-001
+    type: mcq
+    deck: Sparkling Wines
+    tags: [sparkling, champagne, grapes]
+    status: reviewed
+    source_id: c42-0023
+    review:
+      fact_check: pass
+      sources: [aoc-site]
+    en:
+      question: What does Chardonnay typically contribute to a Champagne blend?
+      choices:
+        - { text: "Freshness, floral and citrus aromas, and ageing potential", correct: true }
+        - { text: "Deep colour, firm tannin and black-fruit concentration", correct: false }
+        - { text: "Low acidity, high alcohol and dried-fruit sweetness", correct: false }
+        - { text: "Early softness, yellow fruit and rapid development", correct: false }
+      explanation: |
+        Chardonnay often gives the blend lift and finesse. Site and ageing can
+        add breadth, so it should not be reduced to a single light-bodied style.
+
+    fr:
+      question: Qu’apporte généralement le Chardonnay à un assemblage de Champagne ?
+      choices:
+        - { text: "Fraîcheur, arômes floraux et d’agrumes, et potentiel de garde", correct: true }
+        - { text: "Couleur profonde, tanins fermes et concentration de fruits noirs", correct: false }
+        - { text: "Faible acidité, alcool élevé et douceur de fruits secs", correct: false }
+        - { text: "Souplesse précoce, fruits jaunes et évolution rapide", correct: false }
+      explanation: |
+        Le Chardonnay apporte souvent de l’élan et de la finesse à l’assemblage.
+        Le terroir et l’élevage peuvent lui donner davantage d’ampleur : il ne
+        faut donc pas le réduire à un unique style léger.
+
+  - id: champagne-pinot-sites-001
+    type: mcq
+    deck: Sparkling Wines
+    tags: [sparkling, champagne, grapes]
+    status: reviewed
+    source_id: c42-0024
+    review:
+      fact_check: pass
+      sources: [aoc-site]
+    en:
+      question: In which two major Champagne regions is Pinot Noir especially important?
+      choices:
+        - { text: "Montagne de Reims and Côte des Bar", correct: true }
+        - { text: "Côte des Blancs and Marne Valley", correct: false }
+        - { text: "Côte de Sézanne and Côte des Blancs", correct: false }
+        - { text: "Marne Valley and Côte de Sézanne", correct: false }
+      explanation: |
+        Pinot Noir is Champagne’s most planted variety, at just under 40% of
+        vineyard area. The Aube’s Côte des Bar is a particularly important
+        southern source.
+
+    fr:
+      question: Dans quelles deux grandes régions champenoises le Pinot Noir est-il particulièrement important ?
+      choices:
+        - { text: "Montagne de Reims et Côte des Bar", correct: true }
+        - { text: "Côte des Blancs et Vallée de la Marne", correct: false }
+        - { text: "Côte de Sézanne et Côte des Blancs", correct: false }
+        - { text: "Vallée de la Marne et Côte de Sézanne", correct: false }
+      explanation: |
+        Le Pinot Noir est le cépage le plus planté en Champagne, avec un peu
+        moins de 40 % du vignoble. La Côte des Bar, dans l’Aube, constitue une
+        source méridionale particulièrement importante.
+
+  - id: champagne-pinot-style-001
+    type: mcq
+    deck: Sparkling Wines
+    tags: [sparkling, champagne, grapes]
+    status: reviewed
+    source_id: c42-0025
+    review:
+      fact_check: pass
+      sources: [aoc-site]
+    en:
+      question: What does Pinot Noir typically add to a Champagne blend?
+      choices:
+        - { text: "Body, structure and red-fruit or floral character", correct: true }
+        - { text: "Low alcohol, neutral flavour and reduced ageing potential", correct: false }
+        - { text: "Herbal bitterness, deep colour and firm grape tannin", correct: false }
+        - { text: "Citrus delicacy, low acidity and a very light palate", correct: false }
+      explanation: |
+        Careful pressing allows this black grape to make white wine. Its role
+        is structural and aromatic rather than to colour the blend.
+
+    fr:
+      question: Qu’apporte généralement le Pinot Noir à un assemblage de Champagne ?
+      choices:
+        - { text: "Corps, structure et caractère de fruits rouges ou floral", correct: true }
+        - { text: "Faible degré alcoolique, arômes neutres et potentiel de garde réduit", correct: false }
+        - { text: "Amertume végétale, couleur profonde et tanins fermes du raisin", correct: false }
+        - { text: "Délicatesse d’agrumes, faible acidité et bouche très légère", correct: false }
+      explanation: |
+        Un pressurage soigneux permet d’obtenir un vin blanc à partir de ce
+        raisin noir. Son rôle est structurel et aromatique ; il n’est pas
+        destiné à colorer l’assemblage.
+
+  - id: champagne-meunier-sites-001
+    type: mcq
+    deck: Sparkling Wines
+    tags: [sparkling, champagne, grapes]
+    status: reviewed
+    source_id: c42-0026
+    review:
+      fact_check: pass
+      sources: [aoc-site]
+    en:
+      question: Why is Meunier well suited to the Marne Valley?
+      choices:
+        - { text: "Its later budbreak reduces exposure to spring frost", correct: true }
+        - { text: "Its early budbreak ensures flowering before winter ends", correct: false }
+        - { text: "Its thick skins require the valley’s strongest sunlight", correct: false }
+        - { text: "Its late ripening needs the valley’s warmest autumn sites", correct: false }
+      explanation: |
+        Meunier is hardy and well matched to the valley’s more clay-rich soils
+        and frost-prone conditions. It accounts for roughly a third of the
+        vineyard.
+
+    fr:
+      question: Pourquoi le Meunier convient-il bien à la Vallée de la Marne ?
+      choices:
+        - { text: "Son débourrement plus tardif réduit son exposition aux gelées de printemps", correct: true }
+        - { text: "Son débourrement précoce assure la floraison avant la fin de l’hiver", correct: false }
+        - { text: "Sa peau épaisse exige l’ensoleillement le plus intense de la vallée", correct: false }
+        - { text: "Sa maturation tardive nécessite les sites automnaux les plus chauds de la vallée", correct: false }
+      explanation: |
+        Le Meunier est rustique et bien adapté aux sols plus argileux et aux
+        conditions gélives de la vallée. Il représente environ un tiers du vignoble.
+
+  - id: champagne-meunier-style-001
+    type: mcq
+    deck: Sparkling Wines
+    tags: [sparkling, champagne, grapes]
+    status: reviewed
+    source_id: c42-0027
+    review:
+      fact_check: pass
+      sources: [aoc-site]
+    en:
+      question: What does Meunier typically contribute to Champagne?
+      choices:
+        - { text: "Roundness, supple fruit and early accessibility", correct: true }
+        - { text: "Firm tannin, deep colour and slow primary fermentation", correct: false }
+        - { text: "Citrus austerity, very light body and delayed development", correct: false }
+        - { text: "Oxidative nuttiness, high alcohol and low natural acidity", correct: false }
+      explanation: |
+        Meunier commonly shows yellow-fruit aromas and tends to develop sooner
+        than Chardonnay or Pinot Noir, making it useful in youthful blends.
+
+    fr:
+      question: Qu’apporte généralement le Meunier au Champagne ?
+      choices:
+        - { text: "Rondeur, fruit souple et accessibilité précoce", correct: true }
+        - { text: "Tanins fermes, couleur profonde et fermentation alcoolique lente", correct: false }
+        - { text: "Austérité citronnée, corps très léger et évolution tardive", correct: false }
+        - { text: "Notes oxydatives de fruits à coque, alcool élevé et faible acidité naturelle", correct: false }
+      explanation: |
+        Le Meunier présente souvent des arômes de fruits jaunes et évolue plus
+        rapidement que le Chardonnay ou le Pinot Noir, ce qui le rend utile
+        dans les assemblages destinés à être bus jeunes.
+
+  - id: champagne-hand-harvest-001
+    type: mcq
+    deck: Sparkling Wines
+    tags: [sparkling, champagne, harvest]
+    status: reviewed
+    source_id: c42-0029
+    review:
+      fact_check: pass
+      sources: [aoc-site]
+    en:
+      question: Why is Champagne harvested by hand into small containers?
+      choices:
+        - { text: "To deliver intact, selected bunches for prompt whole-cluster pressing", correct: true }
+        - { text: "To increase skin extraction before the black grapes reach the press", correct: false }
+        - { text: "To encourage oxidation and soften acidity during transport to the press", correct: false }
+        - { text: "To permit heavier press loads and a higher yield of juice per kilogram", correct: false }
+      explanation: |
+        The appellation requires manual harvest. Limiting berry damage is
+        essential when black grapes are being pressed for white juice.
+
+    fr:
+      question: Pourquoi les raisins de Champagne sont-ils vendangés à la main et transportés en petits contenants ?
+      choices:
+        - { text: "Pour livrer rapidement au pressoir des grappes entières, intactes et sélectionnées", correct: true }
+        - { text: "Pour accroître l’extraction pelliculaire avant l’arrivée des raisins noirs au pressoir", correct: false }
+        - { text: "Pour favoriser l’oxydation et assouplir l’acidité pendant le transport", correct: false }
+        - { text: "Pour permettre des charges de pressoir plus importantes et un rendement en jus supérieur", correct: false }
+      explanation: |
+        L’appellation impose la vendange manuelle. Il est essentiel de limiter
+        l’éclatement des baies lorsque des raisins noirs sont pressés pour
+        produire un jus blanc.
+
+  - id: champagne-press-fractions-001
+    type: mcq
+    deck: Sparkling Wines
+    tags: [sparkling, champagne, pressing]
+    status: reviewed
+    source_id: c42-0031
+    review:
+      fact_check: pass
+      sources: [aoc-site]
+    en:
+      question: How are the two principal Champagne press fractions named?
+      choices:
+        - { text: "First juice: cuvée; following juice: taille", correct: true }
+        - { text: "First juice: taille; following juice: cuvée", correct: false }
+        - { text: "First juice: réserve; following juice: rebêche", correct: false }
+        - { text: "First juice: moût; following juice: vin clair", correct: false }
+      explanation: |
+        From a traditional 4,000 kg press load, the first 20.5 hL is the
+        **cuvée** and the next 5 hL the **taille**. The fractions are kept
+        separate because their composition differs.
+
+    fr:
+      question: Comment nomme-t-on les deux principales fractions de pressurage en Champagne ?
+      choices:
+        - { text: "Premier jus : cuvée ; jus suivant : taille", correct: true }
+        - { text: "Premier jus : taille ; jus suivant : cuvée", correct: false }
+        - { text: "Premier jus : réserve ; jus suivant : rebêche", correct: false }
+        - { text: "Premier jus : moût ; jus suivant : vin clair", correct: false }
+      explanation: |
+        Pour une charge traditionnelle de 4 000 kg, les 20,5 premiers
+        hectolitres constituent la **cuvée**, puis les 5 hectolitres suivants
+        la **taille**. Les fractions restent séparées car leur composition diffère.
+
+  - id: champagne-cuvee-quality-001
+    type: mcq
+    deck: Sparkling Wines
+    tags: [sparkling, champagne, pressing]
+    status: reviewed
+    source_id: c42-0033
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Why is the cuvée press fraction generally preferred for the finest Champagne?
+      choices:
+        - { text: "It combines higher acidity with lower phenolic extraction", correct: true }
+        - { text: "It contains the highest skin tannin and deepest colour", correct: false }
+        - { text: "It is the sweetest fraction and needs no second fermentation", correct: false }
+        - { text: "It comes from the hardest pressing at the end of the cycle", correct: false }
+      explanation: |
+        The later taille contains more potassium and phenolics and generally
+        has lower acidity. Producers may still use it according to house style,
+        but prestige cuvées often favour the first fraction.
+
+    fr:
+      question: Pourquoi la fraction de pressurage appelée cuvée est-elle généralement privilégiée pour les meilleurs Champagnes ?
+      choices:
+        - { text: "Elle associe une acidité plus élevée à une extraction phénolique plus faible", correct: true }
+        - { text: "Elle contient le plus de tanins pelliculaires et la couleur la plus profonde", correct: false }
+        - { text: "Elle constitue la fraction la plus sucrée et ne nécessite aucune seconde fermentation", correct: false }
+        - { text: "Elle provient du pressurage le plus poussé à la fin du cycle", correct: false }
+      explanation: |
+        La taille contient davantage de potassium et de composés phénoliques,
+        et présente généralement une acidité plus faible. Les producteurs
+        peuvent l’utiliser selon leur style, mais les cuvées de prestige
+        privilégient souvent la première fraction.
+
+  - id: champagne-primary-ferment-001
+    type: mcq
+    deck: Sparkling Wines
+    tags: [sparkling, champagne, winemaking]
+    status: reviewed
+    source_id: c42-0034
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which statement best describes vessels for primary fermentation in Champagne?
+      choices:
+        - { text: "Stainless steel is common, but oak vessels may also be chosen", correct: true }
+        - { text: "Neutral oak is required for vintage wines, while steel is required for non-vintage", correct: false }
+        - { text: "Sealed pressure tanks are required so the first fermentation retains carbon dioxide", correct: false }
+        - { text: "Open wooden vats are required whenever black grapes form part of the blend", correct: false }
+      explanation: |
+        Stainless steel protects freshness and precision; oak can add texture
+        and flavour. The choice is part of a producer’s style rather than one
+        compulsory recipe.
+
+    fr:
+      question: Quelle affirmation décrit correctement les contenants de fermentation alcoolique des vins de base champenois ?
+      choices:
+        - { text: "L’acier inoxydable est courant, mais des contenants en bois peuvent aussi être choisis", correct: true }
+        - { text: "Le bois neutre est imposé aux millésimés et l’acier inoxydable aux non-millésimés", correct: false }
+        - { text: "Des cuves sous pression sont imposées afin de retenir le gaz de la première fermentation", correct: false }
+        - { text: "Des cuves ouvertes en bois sont imposées dès que l’assemblage contient des raisins noirs", correct: false }
+      explanation: |
+        L’acier inoxydable protège la fraîcheur et la précision ; le bois peut
+        apporter texture et arômes. Ce choix relève du style du producteur et
+        non d’une recette obligatoire.
+
+  - id: champagne-mlf-oak-001
+    type: mcq
+    deck: Sparkling Wines
+    tags: [sparkling, champagne, winemaking]
+    status: reviewed
+    source_id: c42-0035
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How are malolactic conversion and oak maturation used in Champagne base wines?
+      choices:
+        - { text: "Either may be used or avoided according to house style", correct: true }
+        - { text: "Both are compulsory for every non-vintage blend", correct: false }
+        - { text: "Both are forbidden before the secondary fermentation", correct: false }
+        - { text: "Oak is compulsory only when malolactic conversion is blocked", correct: false }
+      explanation: |
+        Blocking malolactic conversion preserves sharper acidity; allowing it
+        softens the wine. Oak can add breadth or oxidative nuance, while steel
+        can preserve a cleaner fruit profile.
+
+    fr:
+      question: Comment utilise-t-on la fermentation malolactique et l’élevage sous bois pour les vins de base champenois ?
+      choices:
+        - { text: "Chacun peut être employé ou évité selon le style de la maison", correct: true }
+        - { text: "Tous deux sont obligatoires pour chaque assemblage non millésimé", correct: false }
+        - { text: "Tous deux sont interdits avant la seconde fermentation", correct: false }
+        - { text: "Le bois n’est obligatoire que si la fermentation malolactique est bloquée", correct: false }
+      explanation: |
+        Bloquer la fermentation malolactique préserve une acidité plus vive ;
+        la réaliser assouplit le vin. Le bois peut apporter ampleur ou nuances
+        oxydatives, tandis que l’acier conserve un fruit plus pur.
+
+  - id: champagne-blending-purpose-001
+    type: mcq
+    deck: Sparkling Wines
+    tags: [sparkling, champagne, blending]
+    status: reviewed
+    source_id: c42-0036
+    review:
+      fact_check: pass
+      sources: [aoc-site]
+    en:
+      question: Why is blending central to most Champagne production?
+      choices:
+        - { text: "It balances variable harvests while building a recognisable house style", correct: true }
+        - { text: "It removes the need to press black and white grapes separately", correct: false }
+        - { text: "It guarantees that every bottle comes from one village and one year", correct: false }
+        - { text: "It replaces lees ageing as the source of autolytic flavour", correct: false }
+      explanation: |
+        Producers can combine varieties, sites, press fractions, winemaking
+        choices and reserve wines. Vintage Champagne also uses blending, but
+        all of its harvest wine comes from the stated year.
+
+    fr:
+      question: Pourquoi l’assemblage est-il au cœur de la plupart des Champagnes ?
+      choices:
+        - { text: "Il compense les variations des récoltes et construit un style de maison constant", correct: true }
+        - { text: "Il évite de devoir presser séparément raisins noirs et raisins blancs", correct: false }
+        - { text: "Il garantit que chaque bouteille provient d’un seul village et d’une seule année", correct: false }
+        - { text: "Il remplace l’élevage sur lies comme source d’arômes autolytiques", correct: false }
+      explanation: |
+        Le producteur peut associer cépages, terroirs, fractions de pressurage,
+        choix de vinification et vins de réserve. Un Champagne millésimé est lui
+        aussi assemblé, mais tous ses vins de récolte proviennent de l’année indiquée.
+
+  - id: champagne-blending-palette-001
+    type: mcq
+    deck: Sparkling Wines
+    tags: [sparkling, champagne, blending]
+    status: reviewed
+    source_id: c42-0037
+    review:
+      fact_check: pass
+      sources: [aoc-site]
+    en:
+      question: How does a large Champagne house create a broad blending palette?
+      choices:
+        - { text: "It vinifies parcels separately and retains reserve wines from earlier years", correct: true }
+        - { text: "It combines all grapes before pressing and avoids reserve wines", correct: false }
+        - { text: "It bottles each parcel before deciding whether to blend it", correct: false }
+        - { text: "It relies on one base wine and varies only the final cork", correct: false }
+      explanation: |
+        A final non-vintage blend may contain dozens or even many more
+        components. Separate vinification preserves the options needed for
+        balance, complexity and consistency.
+
+    fr:
+      question: Comment une grande maison de Champagne se constitue-t-elle une vaste palette d’assemblage ?
+      choices:
+        - { text: "Elle vinifie séparément les parcelles et conserve des vins de réserve des années précédentes", correct: true }
+        - { text: "Elle réunit tous les raisins avant pressurage et renonce aux vins de réserve", correct: false }
+        - { text: "Elle met chaque parcelle en bouteille avant de décider d’un éventuel assemblage", correct: false }
+        - { text: "Elle s’appuie sur un seul vin de base et ne fait varier que le bouchon final", correct: false }
+      explanation: |
+        Un assemblage non millésimé peut compter des dizaines, voire bien
+        davantage, de composants. La vinification séparée préserve les options
+        nécessaires à l’équilibre, à la complexité et à la régularité.
+
+  - id: champagne-nv-ageing-001
+    type: mcq
+    deck: Sparkling Wines
+    tags: [sparkling, champagne, ageing, law]
+    status: reviewed
+    source_id: c42-0040
+    review:
+      fact_check: pass
+      sources: [aoc-site]
+    en:
+      question: What is the minimum cellar-ageing period for non-vintage Champagne after bottling?
+      choices:
+        - { text: "15 months", correct: true }
+        - { text: "Nine months", correct: false }
+        - { text: "24 months", correct: false }
+        - { text: "Three years", correct: false }
+      explanation: |
+        At least **12 months** of that period is spent on lees before
+        disgorgement. In practice, many houses age non-vintage Champagne for
+        roughly two to three years.
+
+    fr:
+      question: Quelle est la durée minimale d’élevage en cave d’un Champagne non millésimé après la mise en bouteille ?
+      choices:
+        - { text: "15 mois", correct: true }
+        - { text: "Neuf mois", correct: false }
+        - { text: "24 mois", correct: false }
+        - { text: "Trois ans", correct: false }
+      explanation: |
+        Au moins **12 mois** de cette période se déroulent sur lies avant le
+        dégorgement. En pratique, de nombreuses maisons élèvent leurs
+        Champagnes non millésimés pendant environ deux à trois ans.
+
+  - id: champagne-vintage-ageing-001
+    type: mcq
+    deck: Sparkling Wines
+    tags: [sparkling, champagne, ageing, law]
+    status: reviewed
+    source_id: c42-0041
+    review:
+      fact_check: pass
+      sources: [aoc-site]
+    en:
+      question: What is the minimum cellar-ageing period for vintage Champagne after bottling?
+      choices:
+        - { text: "Three years", correct: true }
+        - { text: "15 months", correct: false }
+        - { text: "Two years", correct: false }
+        - { text: "Five years", correct: false }
+      explanation: |
+        Producers commonly exceed the legal minimum; four to ten years before
+        release is not unusual for vintage cuvées. Longer lees ageing builds
+        autolytic and mature complexity.
+
+    fr:
+      question: Quelle est la durée minimale d’élevage en cave d’un Champagne millésimé après la mise en bouteille ?
+      choices:
+        - { text: "Trois ans", correct: true }
+        - { text: "15 mois", correct: false }
+        - { text: "Deux ans", correct: false }
+        - { text: "Cinq ans", correct: false }
+      explanation: |
+        Les producteurs dépassent couramment le minimum légal : quatre à dix
+        ans avant commercialisation ne sont pas rares pour une cuvée millésimée.
+        Un élevage prolongé sur lies développe la complexité autolytique et les
+        arômes d’évolution.
+
+  - id: champagne-core-style-001
+    type: mcq
+    deck: Sparkling Wines
+    tags: [sparkling, champagne, style]
+    status: reviewed
+    source_id: c42-0043
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which combination is most characteristic across Champagne styles?
+      choices:
+        - { text: "High acidity with some lees-derived character", correct: true }
+        - { text: "Moderate acidity with dominant primary fruit and no lees influence", correct: false }
+        - { text: "High acidity with pronounced grape tannin and deep colour", correct: false }
+        - { text: "Moderate acidity with high alcohol and dominant new-oak flavour", correct: false }
+      explanation: |
+        The intensity of toast, bread or biscuit varies with time on lees and
+        producer style. Fruit, body, sweetness and maturity can differ widely,
+        but freshness and bottle-fermentation influence remain central.
+
+    fr:
+      question: Quelle association de caractères se retrouve le plus souvent dans les différents styles de Champagne ?
+      choices:
+        - { text: "Acidité élevée et présence d’arômes issus de l’élevage sur lies", correct: true }
+        - { text: "Acidité modérée, fruit primaire dominant et aucune influence des lies", correct: false }
+        - { text: "Acidité élevée, tanins marqués du raisin et couleur profonde", correct: false }
+        - { text: "Acidité modérée, alcool élevé et arômes dominants de bois neuf", correct: false }
+      explanation: |
+        L’intensité des notes de pain grillé, de pain ou de biscuit dépend de
+        la durée sur lies et du style du producteur. Fruit, corps, douceur et
+        maturité varient beaucoup, mais fraîcheur et fermentation en bouteille
+        restent centrales.
+
+  - id: champagne-nv-style-001
+    type: mcq
+    deck: Sparkling Wines
+    tags: [sparkling, champagne, style]
+    status: reviewed
+    source_id: c42-0044
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How does a house’s non-vintage Champagne usually compare with its vintage Champagne?
+      choices:
+        - { text: "It is generally fresher and lighter, built for a consistent house style", correct: true }
+        - { text: "It is generally richer and longer-aged, designed to highlight one harvest", correct: false }
+        - { text: "It is generally sweeter and more oxidative, built without reserve wines", correct: false }
+        - { text: "It is generally fuller and more variable, designed to highlight one village", correct: false }
+      explanation: |
+        Reserve wines add complexity and smooth vintage differences, so fine
+        non-vintage Champagne need not be simple. It is commonly the producer’s
+        signature and largest-volume cuvée.
+
+    fr:
+      question: Comment le Champagne non millésimé d’une maison se compare-t-il généralement à son Champagne millésimé ?
+      choices:
+        - { text: "Il est généralement plus frais et léger, et vise la régularité du style de la maison", correct: true }
+        - { text: "Il est généralement plus riche et élevé plus longtemps, afin d’exprimer une seule récolte", correct: false }
+        - { text: "Il est généralement plus doux et oxydatif, sans aucun vin de réserve", correct: false }
+        - { text: "Il est généralement plus ample et variable, afin d’exprimer un seul village", correct: false }
+      explanation: |
+        Les vins de réserve apportent complexité et régularité entre les
+        millésimes : un bon non-millésimé n’est donc pas nécessairement simple.
+        Il constitue souvent la cuvée signature et le plus gros volume de la maison.
+
+  - id: champagne-vintage-style-001
+    type: mcq
+    deck: Sparkling Wines
+    tags: [sparkling, champagne, style]
+    status: reviewed
+    source_id: c42-0046
+    review:
+      fact_check: pass
+      sources: [aoc-site]
+    en:
+      question: What is the main stylistic aim of vintage Champagne?
+      choices:
+        - { text: "Express one selected harvest with greater concentration and ageing potential", correct: true }
+        - { text: "Maintain the same profile every year through a broad reserve-wine blend", correct: false }
+        - { text: "Express the most recent harvest through shorter lees ageing and early release", correct: false }
+        - { text: "Create a sweeter style by reserving the highest dosage for declared years", correct: false }
+      explanation: |
+        Producers decide which harvests merit a vintage bottling. Longer ageing
+        often brings more pronounced toast and biscuit alongside the fruit and
+        structure of that year.
+
+    fr:
+      question: Quel est l’objectif stylistique principal d’un Champagne millésimé ?
+      choices:
+        - { text: "Exprimer une récolte sélectionnée avec davantage de concentration et de potentiel de garde", correct: true }
+        - { text: "Maintenir le même profil chaque année grâce à un large assemblage de vins de réserve", correct: false }
+        - { text: "Exprimer la récolte la plus récente par un élevage sur lies plus court et une sortie précoce", correct: false }
+        - { text: "Créer un style plus doux en réservant le dosage le plus élevé aux années déclarées", correct: false }
+      explanation: |
+        Le producteur décide quelles récoltes méritent une cuvée millésimée.
+        Un élevage plus long apporte souvent des notes de pain grillé et de
+        biscuit plus marquées, aux côtés du fruit et de la structure de l’année.
+
+  - id: champagne-rose-style-001
+    type: mcq
+    deck: Sparkling Wines
+    tags: [sparkling, champagne, rose, style]
+    status: reviewed
+    source_id: c42-0048
+    review:
+      fact_check: pass
+      sources: [aoc-site]
+    en:
+      question: Which description best fits high-quality rosé Champagne?
+      choices:
+        - { text: "Red-berry fruit balanced by acidity and lees-derived complexity", correct: true }
+        - { text: "Red-berry fruit with low acidity and pronounced grape tannin", correct: false }
+        - { text: "Citrus fruit with high acidity but no lees-derived character", correct: false }
+        - { text: "Black-fruit concentration with dominant new-oak aromas and low acidity", correct: false }
+      explanation: |
+        Rosé Champagne can be vintage or non-vintage. Colour comes from
+        maceration or from blending still red Champagne into white base wines
+        before the second fermentation.
+
+    fr:
+      question: Quelle description correspond le mieux à un Champagne rosé de grande qualité ?
+      choices:
+        - { text: "Fruits rouges équilibrés par l’acidité et la complexité issue des lies", correct: true }
+        - { text: "Fruits rouges, faible acidité et tanins marqués du raisin", correct: false }
+        - { text: "Agrumes, acidité élevée mais aucun caractère issu des lies", correct: false }
+        - { text: "Fruits noirs concentrés, arômes dominants de bois neuf et faible acidité", correct: false }
+      explanation: |
+        Le Champagne rosé peut être millésimé ou non. La couleur provient soit
+        d’une macération, soit de l’ajout de vin rouge tranquille champenois à
+        des vins de base blancs avant la seconde fermentation.
+
+  - id: champagne-blanc-de-blancs-style-001
+    type: mcq
+    deck: Sparkling Wines
+    tags: [sparkling, champagne, style]
+    status: reviewed
+    source_id: c42-0050
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which profile is most typical of youthful Blanc de Blancs Champagne?
+      choices:
+        - { text: "High acidity with citrus, floral and delicate mineral notes", correct: true }
+        - { text: "High acidity with red berries and a broad Pinot-led structure", correct: false }
+        - { text: "Moderate acidity with yellow fruit and a soft Meunier-led palate", correct: false }
+        - { text: "Moderate acidity with black fruit and firm grape tannin", correct: false }
+      explanation: |
+        Blanc de Blancs is made from white varieties, overwhelmingly
+        Chardonnay in practice. It may begin light to medium bodied but top
+        examples can gain breadth and complexity with age.
+
+    fr:
+      question: Quel profil est le plus typique d’un Champagne Blanc de Blancs jeune ?
+      choices:
+        - { text: "Acidité élevée, agrumes, fleurs et délicates notes minérales", correct: true }
+        - { text: "Acidité élevée, fruits rouges et large structure dominée par le Pinot", correct: false }
+        - { text: "Acidité modérée, fruits jaunes et bouche souple dominée par le Meunier", correct: false }
+        - { text: "Acidité modérée, fruits noirs et tanins fermes du raisin", correct: false }
+      explanation: |
+        Le Blanc de Blancs est issu de cépages blancs, presque toujours du
+        Chardonnay en pratique. Léger à moyennement corsé dans sa jeunesse, un
+        grand exemple peut gagner en ampleur et en complexité avec l’âge.
+
+  - id: champagne-blanc-de-noirs-style-001
+    type: mcq
+    deck: Sparkling Wines
+    tags: [sparkling, champagne, style]
+    status: reviewed
+    source_id: c42-0051
+    review:
+      fact_check: pass
+      sources: [aoc-site]
+    en:
+      question: Which profile is most typical of Blanc de Noirs Champagne?
+      choices:
+        - { text: "Relatively full body, vinous structure and ripe fruit", correct: true }
+        - { text: "Light body, citrus and floral aromas, and a mineral edge", correct: false }
+        - { text: "Supple body, yellow fruit and particularly early accessibility", correct: false }
+        - { text: "Moderate body, oxidative nuttiness and dominant oak spice", correct: false }
+      explanation: |
+        Blanc de Noirs is made solely from black grapes, Pinot Noir and/or
+        Meunier, but is pressed as a white wine. It is commonly broader and
+        more powerful than Blanc de Blancs and can show red, yellow or dark fruit.
+
+    fr:
+      question: Quel profil est le plus typique d’un Champagne Blanc de Noirs ?
+      choices:
+        - { text: "Corps relativement ample, structure vineuse et fruit mûr", correct: true }
+        - { text: "Corps léger, arômes d’agrumes et de fleurs, et touche minérale", correct: false }
+        - { text: "Corps souple, fruits jaunes et accessibilité particulièrement précoce", correct: false }
+        - { text: "Corps moyen, notes oxydatives de fruits à coque et épices boisées dominantes", correct: false }
+      explanation: |
+        Le Blanc de Noirs est exclusivement issu de raisins noirs, Pinot Noir
+        et/ou Meunier, mais pressés pour obtenir un vin blanc. Il est souvent
+        plus ample et puissant qu’un Blanc de Blancs, avec des fruits rouges,
+        jaunes ou noirs.
+
+  - id: champagne-prestige-cuvee-001
+    type: mcq
+    deck: Sparkling Wines
+    tags: [sparkling, champagne, style, quality]
+    status: reviewed
+    source_id: c42-0052
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: What does a Champagne producer usually signal by calling a wine its prestige cuvée?
+      choices:
+        - { text: "Its flagship wine, made from highly selected material", correct: true }
+        - { text: "Its driest wine, made without any dosage after disgorgement", correct: false }
+        - { text: "Its single-village wine, irrespective of selection or ageing", correct: false }
+        - { text: "Its earliest-release wine, aged only to the legal minimum", correct: false }
+      explanation: |
+        “Prestige cuvée” is a market term rather than a separate legal
+        Champagne category. Such wines are usually expensive, highly selected
+        and long-aged; they may be vintage or non-vintage.
+
+    fr:
+      question: Que signale généralement un producteur de Champagne en qualifiant un vin de cuvée de prestige ?
+      choices:
+        - { text: "Son vin emblématique, élaboré à partir d’une sélection rigoureuse", correct: true }
+        - { text: "Son vin le plus sec, sans aucun dosage après dégorgement", correct: false }
+        - { text: "Son vin d’un seul village, indépendamment de la sélection ou de l’élevage", correct: false }
+        - { text: "Son vin commercialisé le plus tôt, élevé au seul minimum légal", correct: false }
+      explanation: |
+        « Cuvée de prestige » est une expression commerciale et non une
+        catégorie juridique distincte en Champagne. Ces vins sont généralement
+        chers, très sélectionnés et longuement élevés ; ils peuvent être
+        millésimés ou non.
+
+  - id: champagne-prestige-cellaring-001
+    type: mcq
+    deck: Sparkling Wines
+    tags: [sparkling, champagne, style, ageing]
+    status: reviewed
+    source_id: c42-0053
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Why can a newly released prestige cuvée benefit from further bottle ageing?
+      choices:
+        - { text: "Its concentration, acidity and structure may need time to integrate", correct: true }
+        - { text: "Its second fermentation normally begins only after retail release", correct: false }
+        - { text: "Its mousse develops only when the bottle is stored without a cork", correct: false }
+        - { text: "Its dosage remains unfermented until the bottle reaches the consumer", correct: false }
+      explanation: |
+        A prestige cuvée can appear restrained or austere when young despite
+        substantial pre-release ageing. Further cellaring can bring greater
+        aromatic breadth and integration; it is not required for every bottle.
+
+    fr:
+      question: Pourquoi une cuvée de prestige récemment commercialisée peut-elle bénéficier d’un vieillissement supplémentaire en bouteille ?
+      choices:
+        - { text: "Sa concentration, son acidité et sa structure peuvent demander du temps pour s’harmoniser", correct: true }
+        - { text: "Sa seconde fermentation ne commence normalement qu’après sa commercialisation", correct: false }
+        - { text: "Sa mousse ne se développe que si la bouteille est conservée sans bouchon", correct: false }
+        - { text: "Son dosage reste non fermenté jusqu’à l’arrivée de la bouteille chez le consommateur", correct: false }
+      explanation: |
+        Malgré un long élevage avant la mise en marché, une cuvée de prestige
+        peut paraître fermée ou austère dans sa jeunesse. La garde peut lui
+        apporter davantage d’ampleur aromatique et d’harmonie, sans être
+        indispensable pour chaque bouteille.
+
+  - id: champagne-brut-dominance-001
+    type: mcq
+    deck: Sparkling Wines
+    tags: [sparkling, champagne, dosage]
+    status: reviewed
+    source_id: c42-0054
+    review:
+      fact_check: pass
+      sources: [aoc-site]
+    en:
+      question: Which dosage category accounts for more than 90% of Champagne?
+      choices:
+        - { text: "Brut", correct: true }
+        - { text: "Brut Nature", correct: false }
+        - { text: "Demi-Sec", correct: false }
+        - { text: "Doux", correct: false }
+      explanation: |
+        **Brut** contains less than 12 g/L residual sugar and is the dominant
+        commercial style. Lower-dosage categories have become more visible but
+        still represent a much smaller share.
+
+    fr:
+      question: Quelle catégorie de dosage représente plus de 90 % des Champagnes ?
+      choices:
+        - { text: "Brut", correct: true }
+        - { text: "Brut Nature", correct: false }
+        - { text: "Demi-Sec", correct: false }
+        - { text: "Doux", correct: false }
+      explanation: |
+        Le **Brut** contient moins de 12 g/L de sucre résiduel et domine le
+        marché. Les catégories moins dosées sont devenues plus visibles, mais
+        représentent encore une part bien moindre.
+
+  - id: champagne-brut-nature-001
+    type: mcq
+    deck: Sparkling Wines
+    tags: [sparkling, champagne, dosage]
+    status: reviewed
+    source_id: c42-0055
+    review:
+      fact_check: pass
+      sources: [aoc-site]
+    en:
+      question: What distinguishes Champagne labelled Brut Nature, Pas Dosé or Dosage Zéro?
+      choices:
+        - { text: "Less than 3 g/L sugar and no sugar added at dosage", correct: true }
+        - { text: "Up to 6 g/L sugar with a compulsory sweet dosage", correct: false }
+        - { text: "Less than 12 g/L sugar with no reserve wine in the blend", correct: false }
+        - { text: "Between 12 and 17 g/L sugar and no malolactic conversion", correct: false }
+      explanation: |
+        Brut Nature is the driest labelled category and remains a niche beside
+        Brut. “No dosage” refers to the absence of added sugar at disgorgement,
+        not to a wine that necessarily contains absolutely zero residual sugar.
+
+    fr:
+      question: Qu’est-ce qui distingue un Champagne portant la mention Brut Nature, Pas Dosé ou Dosage Zéro ?
+      choices:
+        - { text: "Moins de 3 g/L de sucre et aucune adjonction de sucre au dosage", correct: true }
+        - { text: "Jusqu’à 6 g/L de sucre avec un dosage sucré obligatoire", correct: false }
+        - { text: "Moins de 12 g/L de sucre et aucun vin de réserve dans l’assemblage", correct: false }
+        - { text: "Entre 12 et 17 g/L de sucre et aucune fermentation malolactique", correct: false }
+      explanation: |
+        Brut Nature est la catégorie indiquée la plus sèche et reste marginale
+        face au Brut. L’absence de dosage désigne l’absence de sucre ajouté au
+        dégorgement, non un vin nécessairement dépourvu de tout sucre résiduel.
+
+  - id: cremant-term-001
+    type: mcq
+    deck: Sparkling Wines
+    tags: [sparkling, france, cremant, law]
+    status: reviewed
+    source_id: c42-0057
+    review:
+      fact_check: pass
+      sources: [aoc-site]
+    en:
+      question: What does the term Crémant identify on a French wine label?
+      choices:
+        - { text: "Traditional-method sparkling wine from one of several named AOCs", correct: true }
+        - { text: "Any French sparkling wine made outside Champagne", correct: false }
+        - { text: "A low-pressure category available within every French wine AOC", correct: false }
+        - { text: "A protected grape variety used only for bottle-fermented wine", correct: false }
+      explanation: |
+        Crémant is not one national appellation and not a generic synonym for
+        French sparkling wine. Each Crémant AOC has its own delimited area,
+        authorised grapes and detailed production rules.
+
+    fr:
+      question: Que désigne le terme Crémant sur une étiquette de vin français ?
+      choices:
+        - { text: "Un effervescent de méthode traditionnelle relevant d’une AOC Crémant", correct: true }
+        - { text: "Tout vin effervescent français élaboré hors de l’AOC Champagne", correct: false }
+        - { text: "Une catégorie à faible pression autorisée dans chaque AOC viticole française", correct: false }
+        - { text: "Un cépage protégé réservé aux vins ayant fermenté en bouteille", correct: false }
+      explanation: |
+        Crémant n’est ni une appellation nationale unique ni un synonyme
+        générique de vin effervescent français. Chaque AOC Crémant possède sa
+        propre aire délimitée, ses cépages autorisés et ses règles de production.
+
+  - id: cremant-major-aocs-001
+    type: mcq
+    deck: Sparkling Wines
+    tags: [sparkling, france, cremant, geography]
+    status: reviewed
+    source_id: c42-0058
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which list consists entirely of major French Crémant appellations?
+      choices:
+        - { text: "Crémant d’Alsace, Crémant de Bourgogne and Crémant de Loire", correct: true }
+        - { text: "Blanquette de Limoux, Crémant de Bourgogne and Crémant de Loire", correct: false }
+        - { text: "Crémant du Jura, Clairette de Die and Crémant de Loire", correct: false }
+        - { text: "Crémant de Bordeaux, Saumur and Crémant d’Alsace", correct: false }
+      explanation: |
+        Other protected Crémant appellations exist, including Bordeaux, Jura,
+        Limoux, Die and Savoie. Vouvray and Saumur make sparkling wines under
+        their own appellation names rather than as “Crémant de Vouvray/Saumur”.
+
+    fr:
+      question: Quelle liste se compose uniquement de grandes appellations françaises de Crémant ?
+      choices:
+        - { text: "Crémant d’Alsace, Crémant de Bourgogne et Crémant de Loire", correct: true }
+        - { text: "Blanquette de Limoux, Crémant de Bourgogne et Crémant de Loire", correct: false }
+        - { text: "Crémant du Jura, Clairette de Die et Crémant de Loire", correct: false }
+        - { text: "Crémant de Bordeaux, Saumur et Crémant d’Alsace", correct: false }
+      explanation: |
+        D’autres AOC Crémant existent, notamment à Bordeaux, dans le Jura, à
+        Limoux, à Die et en Savoie. Vouvray et Saumur produisent des effervescents
+        sous leur propre nom d’appellation, et non sous « Crémant de Vouvray/Saumur ».
+
+  - id: cremant-method-ageing-001
+    type: mcq
+    deck: Sparkling Wines
+    tags: [sparkling, france, cremant, production]
+    status: reviewed
+    source_id: c42-0059
+    review:
+      fact_check: pass
+      sources: [aoc-site]
+    en:
+      question: Which production rule is shared by the leading French Crémant AOCs?
+      choices:
+        - { text: "Second fermentation in bottle with at least nine months on lees", correct: true }
+        - { text: "Second fermentation in tank with at least six months on lees", correct: false }
+        - { text: "Single fermentation in bottle with at least three months on lees", correct: false }
+        - { text: "Carbonation followed by at least twelve months in neutral oak", correct: false }
+      explanation: |
+        Crémant uses the traditional method. The minimum time before release is
+        longer than the nine-month lees period because tirage, disgorgement and
+        post-disgorgement requirements also have to be met.
+
+    fr:
+      question: Quelle règle de production est commune aux principales AOC françaises de Crémant ?
+      choices:
+        - { text: "Seconde fermentation en bouteille et au moins neuf mois sur lies", correct: true }
+        - { text: "Seconde fermentation en cuve et au moins six mois sur lies", correct: false }
+        - { text: "Une seule fermentation en bouteille et au moins trois mois sur lies", correct: false }
+        - { text: "Gazéification suivie d’au moins douze mois en bois neutre", correct: false }
+      explanation: |
+        Le Crémant est élaboré par méthode traditionnelle. Le délai minimal
+        avant commercialisation dépasse les neuf mois sur lies, car il faut
+        aussi respecter les exigences liées au tirage, au dégorgement et à la
+        période qui suit celui-ci.
+
+  - id: cremant-alsace-grapes-001
+    type: mcq
+    deck: Sparkling Wines
+    tags: [sparkling, france, alsace, grapes]
+    status: reviewed
+    source_id: c42-0061
+    review:
+      fact_check: pass
+      sources: [aoc-site]
+    en:
+      question: Which grape set is authorised for white Crémant d’Alsace?
+      choices:
+        - { text: "Pinot Blanc, Riesling, Pinot Gris, Chardonnay and Pinot Noir", correct: true }
+        - { text: "Gewurztraminer, Muscat, Riesling, Chardonnay and Pinot Noir", correct: false }
+        - { text: "Pinot Blanc, Gewurztraminer, Muscat, Sylvaner and Chardonnay", correct: false }
+        - { text: "Riesling, Muscat, Pinot Gris, Gewurztraminer and Pinot Noir", correct: false }
+      explanation: |
+        Highly aromatic Muscat and Gewurztraminer are not authorised here.
+        Chardonnay is permitted for Crémant d’Alsace even though it is not an
+        authorised variety for ordinary still AOC Alsace wine.
+
+    fr:
+      question: Quel ensemble de cépages est autorisé pour le Crémant d’Alsace blanc ?
+      choices:
+        - { text: "Pinot Blanc, Riesling, Pinot Gris, Chardonnay et Pinot Noir", correct: true }
+        - { text: "Gewurztraminer, Muscat, Riesling, Chardonnay et Pinot Noir", correct: false }
+        - { text: "Pinot Blanc, Gewurztraminer, Muscat, Sylvaner et Chardonnay", correct: false }
+        - { text: "Riesling, Muscat, Pinot Gris, Gewurztraminer et Pinot Noir", correct: false }
+      explanation: |
+        Le Muscat et le Gewurztraminer, très aromatiques, ne sont pas autorisés
+        ici. Le Chardonnay est permis en Crémant d’Alsace, bien qu’il ne soit
+        pas autorisé pour les vins tranquilles ordinaires de l’AOC Alsace.
+
+  - id: loire-sparkling-aocs-001
+    type: mcq
+    deck: Sparkling Wines
+    tags: [sparkling, france, loire, law]
+    status: reviewed
+    source_id: c42-0063
+    review:
+      fact_check: pass
+      sources: [aoc-site]
+    en:
+      question: Which three Loire appellations are especially important for sparkling wine?
+      choices:
+        - { text: "Crémant de Loire, Saumur and Vouvray", correct: true }
+        - { text: "Muscadet, Sancerre and Chinon", correct: false }
+        - { text: "Saumur, Pouilly-Fumé and Quarts de Chaume", correct: false }
+        - { text: "Vouvray, Savennières and Coteaux du Layon", correct: false }
+      explanation: |
+        The Loire is a major French centre for bottle-fermented sparkling wine.
+        These three names overlap geographically in places but represent
+        distinct appellations with different grape rules.
+
+    fr:
+      question: Quelles trois appellations de Loire sont particulièrement importantes pour les vins effervescents ?
+      choices:
+        - { text: "Crémant de Loire, Saumur et Vouvray", correct: true }
+        - { text: "Muscadet, Sancerre et Chinon", correct: false }
+        - { text: "Saumur, Pouilly-Fumé et Quarts de Chaume", correct: false }
+        - { text: "Vouvray, Savennières et Coteaux du Layon", correct: false }
+      explanation: |
+        La Loire est un grand centre français d’effervescents fermentés en
+        bouteille. Ces trois noms se chevauchent parfois géographiquement, mais
+        correspondent à des appellations distinctes aux règles d’encépagement différentes.
+
+  - id: saumur-sparkling-grapes-001
+    type: mcq
+    deck: Sparkling Wines
+    tags: [sparkling, france, loire, grapes]
+    status: reviewed
+    source_id: c42-0064
+    review:
+      fact_check: pass
+      sources: [aoc-site]
+    en:
+      question: Which statement best describes the grape rules for sparkling Saumur?
+      choices:
+        - { text: "White cuvées are Chenin-led; rosé cuvées are Cabernet Franc-led", correct: true }
+        - { text: "White cuvées are Sauvignon-led; rosé cuvées are Pinot Noir-led", correct: false }
+        - { text: "White cuvées are Chardonnay-only; rosé cuvées are Gamay-only", correct: false }
+        - { text: "Both colours must be made solely from Chenin Blanc", correct: false }
+      explanation: |
+        At least 60% Chenin Blanc is required in the white sparkling cuvée and
+        at least 60% Cabernet Franc in the rosé. Other authorised local and
+        international varieties can form the balance.
+
+    fr:
+      question: Quelle affirmation décrit correctement les règles d’encépagement du Saumur effervescent ?
+      choices:
+        - { text: "Les cuvées blanches sont dominées par le Chenin ; les rosées par le Cabernet Franc", correct: true }
+        - { text: "Les cuvées blanches sont dominées par le Sauvignon ; les rosées par le Pinot Noir", correct: false }
+        - { text: "Les cuvées blanches sont exclusivement en Chardonnay ; les rosées exclusivement en Gamay", correct: false }
+        - { text: "Les deux couleurs doivent être exclusivement élaborées en Chenin Blanc", correct: false }
+      explanation: |
+        La cuvée effervescente blanche doit contenir au moins 60 % de Chenin
+        Blanc, et la rosée au moins 60 % de Cabernet Franc. D’autres cépages
+        locaux et internationaux autorisés peuvent compléter l’assemblage.
+
+  - id: saumur-sparkling-colours-001
+    type: mcq
+    deck: Sparkling Wines
+    tags: [sparkling, france, loire, law]
+    status: reviewed
+    source_id: c42-0066
+    review:
+      fact_check: pass
+      sources: [aoc-site]
+    en:
+      question: In which colours may sparkling Saumur AOC be produced?
+      choices:
+        - { text: "White and rosé", correct: true }
+        - { text: "White and red", correct: false }
+        - { text: "Rosé and red", correct: false }
+        - { text: "White, rosé and red", correct: false }
+      explanation: |
+        The appellation permits sparkling **white and rosé**, not sparkling red.
+        Cabernet Franc is central to the rosé cuvée; Saumur’s red AOC wines are
+        still wines.
+
+    fr:
+      question: Dans quelles couleurs le Saumur AOC effervescent peut-il être produit ?
+      choices:
+        - { text: "Blanc et rosé", correct: true }
+        - { text: "Blanc et rouge", correct: false }
+        - { text: "Rosé et rouge", correct: false }
+        - { text: "Blanc, rosé et rouge", correct: false }
+      explanation: |
+        L’appellation autorise les effervescents **blancs et rosés**, mais pas
+        rouges. Le Cabernet Franc joue un rôle central dans la cuvée rosée ;
+        les vins rouges de Saumur sont des vins tranquilles.
+
+  - id: vouvray-sparkling-grape-001
+    type: mcq
+    deck: Sparkling Wines
+    tags: [sparkling, france, loire, grapes]
+    status: reviewed
+    source_id: c42-0068
+    review:
+      fact_check: pass
+      sources: [aoc-site]
+    en:
+      question: Which grape defines both still and sparkling Vouvray?
+      choices:
+        - { text: "Chenin Blanc", correct: true }
+        - { text: "Chardonnay", correct: false }
+        - { text: "Sauvignon Blanc", correct: false }
+        - { text: "Melon Blanc", correct: false }
+      explanation: |
+        Vouvray is a Chenin Blanc appellation. A small proportion of Orbois may
+        be authorised in the vineyard, but Chenin supplies the defining high
+        acidity and orchard-fruit character.
+
+    fr:
+      question: Quel cépage définit à la fois les vins tranquilles et les effervescents de Vouvray ?
+      choices:
+        - { text: "Chenin Blanc", correct: true }
+        - { text: "Chardonnay", correct: false }
+        - { text: "Sauvignon Blanc", correct: false }
+        - { text: "Melon Blanc", correct: false }
+      explanation: |
+        Vouvray est une appellation de Chenin Blanc. Une faible proportion
+        d’Orbois peut être autorisée dans le vignoble, mais le Chenin apporte
+        l’acidité élevée et les arômes de fruits du verger qui définissent le style.
+
+  - id: loire-chenin-autolysis-001
+    type: mcq
+    deck: Sparkling Wines
+    tags: [sparkling, france, loire, style]
+    status: reviewed
+    source_id: c42-0069
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How can traditional-method Loire Chenin differ from a Chardonnay-led sparkling wine?
+      choices:
+        - { text: "High acidity, orchard fruit and smoky or toasty lees notes", correct: true }
+        - { text: "High acidity, citrus fruit and strongly bready lees notes", correct: false }
+        - { text: "Moderate acidity, floral fruit and very little lees character", correct: false }
+        - { text: "Low acidity, tropical fruit and pronounced biscuit character", correct: false }
+      explanation: |
+        Chenin retains naturally high acidity and can keep a distinctive fruit
+        and mineral profile through bottle fermentation. Lees ageing still adds
+        complexity, but the expression need not copy Champagne.
+
+    fr:
+      question: En quoi un Chenin effervescent de méthode traditionnelle en Loire peut-il différer d’un vin dominé par le Chardonnay ?
+      choices:
+        - { text: "Acidité élevée, fruits du verger et notes de lies fumées ou grillées", correct: true }
+        - { text: "Acidité élevée, agrumes et notes de lies fortement boulangères", correct: false }
+        - { text: "Acidité modérée, fruit floral et très peu de caractère de lies", correct: false }
+        - { text: "Faible acidité, fruits tropicaux et notes prononcées de biscuit", correct: false }
+      explanation: |
+        Le Chenin conserve naturellement une acidité élevée et peut garder un
+        profil fruité et minéral distinctif après la fermentation en bouteille.
+        L’élevage sur lies apporte bien de la complexité, sans devoir reproduire
+        le profil du Champagne.
+
+  - id: loire-sparkling-method-001
+    type: mcq
+    deck: Sparkling Wines
+    tags: [sparkling, france, loire, production]
+    status: reviewed
+    source_id: c42-0070
+    review:
+      fact_check: pass
+      sources: [aoc-site]
+    en:
+      question: How are the principal sparkling wines of Saumur and Vouvray made?
+      choices:
+        - { text: "By second fermentation in bottle, followed by at least nine months’ ageing", correct: true }
+        - { text: "By second fermentation in tank, followed by immediate sterile bottling", correct: false }
+        - { text: "By carbonation, followed by nine months in large oak vats", correct: false }
+        - { text: "By one interrupted fermentation, completed only after disgorgement", correct: false }
+      explanation: |
+        Both appellations use bottle fermentation and require a minimum ageing
+        period of nine months from tirage before sale. Longer lees ageing can
+        create more complex examples.
+
+    fr:
+      question: Comment sont élaborés les principaux vins effervescents de Saumur et de Vouvray ?
+      choices:
+        - { text: "Seconde fermentation en bouteille, suivie d’au moins neuf mois d’élevage", correct: true }
+        - { text: "Seconde fermentation en cuve, suivie d’une mise en bouteille stérile immédiate", correct: false }
+        - { text: "Gazéification, suivie de neuf mois d’élevage en grands foudres", correct: false }
+        - { text: "Une seule fermentation interrompue, achevée seulement après le dégorgement", correct: false }
+      explanation: |
+        Les deux appellations utilisent la fermentation en bouteille et
+        imposent au moins neuf mois d’élevage à compter du tirage avant la vente.
+        Un élevage plus long sur lies peut donner des exemples plus complexes.
+
+  - id: cava-geography-001
+    type: mcq
+    deck: Sparkling Wines
+    tags: [sparkling, spain, cava, geography]
+    status: reviewed
+    source_id: c42-0072
+    review:
+      fact_check: pass
+      sources: [aoc-site]
+    en:
+      question: What is unusual about the geography of the Cava DO?
+      choices:
+        - { text: "Its delimited areas are non-contiguous and spread across several parts of Spain", correct: true }
+        - { text: "Its delimited area is one continuous wine-growing zone within Catalonia", correct: false }
+        - { text: "Its core Catalan area has satellite vineyards only in adjacent provinces", correct: false }
+        - { text: "Its area covers any Spanish vineyard supplying a traditional-method winery", correct: false }
+      explanation: |
+        Cava is an origin-based DO, not simply a production method. Its modern
+        zoning groups the authorised territory into four zones, some of which
+        are far apart.
+
+    fr:
+      question: Quelle particularité géographique distingue la DO Cava ?
+      choices:
+        - { text: "Ses aires délimitées sont discontinues et réparties dans plusieurs parties de l’Espagne", correct: true }
+        - { text: "Son aire délimitée forme une zone viticole continue à l’intérieur de la Catalogne", correct: false }
+        - { text: "Son noyau catalan possède seulement des vignobles satellites dans les provinces voisines", correct: false }
+        - { text: "Son aire englobe tout vignoble espagnol qui approvisionne un producteur de méthode traditionnelle", correct: false }
+      explanation: |
+        Cava est une DO d’origine, pas simplement une méthode de production.
+        Son zonage actuel regroupe le territoire autorisé en quatre zones, dont
+        certaines sont très éloignées les unes des autres.
+
+  - id: cava-production-centre-001
+    type: mcq
+    deck: Sparkling Wines
+    tags: [sparkling, spain, cava, geography]
+    status: reviewed
+    source_id: c42-0073
+    review:
+      fact_check: pass
+      sources: [aoc-site]
+    en:
+      question: Where is the centre of Cava production?
+      choices:
+        - { text: "Around Sant Sadurní d’Anoia in Catalonia", correct: true }
+        - { text: "Around Jerez de la Frontera in Andalucía", correct: false }
+        - { text: "Around Haro in the upper Ebro Valley", correct: false }
+        - { text: "Around Requena on the Mediterranean plateau", correct: false }
+      explanation: |
+        Most Cava comes from the Penedès heartland, now within the Valls
+        d’Anoia-Foix sub-zone of Comtats de Barcelona. Other authorised zones
+        account for a much smaller share.
+
+    fr:
+      question: Où se situe le principal centre de production du Cava ?
+      choices:
+        - { text: "Autour de Sant Sadurní d’Anoia, en Catalogne", correct: true }
+        - { text: "Autour de Jerez de la Frontera, en Andalousie", correct: false }
+        - { text: "Autour de Haro, dans la haute vallée de l’Èbre", correct: false }
+        - { text: "Autour de Requena, sur le plateau méditerranéen", correct: false }
+      explanation: |
+        La majorité du Cava provient du cœur du Penedès, aujourd’hui inclus
+        dans la sous-zone Valls d’Anoia-Foix de Comtats de Barcelona. Les autres
+        zones autorisées représentent une part bien plus faible.
+
+  - id: cava-four-zones-001
+    type: mcq
+    deck: Sparkling Wines
+    tags: [sparkling, spain, cava, geography]
+    status: reviewed
+    source_id: c42-0074
+    review:
+      fact_check: pass
+      sources: [aoc-site]
+    en:
+      question: Which list gives the four current Cava DO zones?
+      choices:
+        - { text: "Comtats de Barcelona, Ebro Valley, Viñedos de Almendralejo and Levante Zone", correct: true }
+        - { text: "Comtats de Barcelona, Duero Valley, Viñedos de Almendralejo and Levante Zone", correct: false }
+        - { text: "Comtats de Barcelona, Ebro Valley, Viñedos de La Mancha and Levante Zone", correct: false }
+        - { text: "Comtats de Barcelona, Ebro Valley, Viñedos de Almendralejo and Galicia Zone", correct: false }
+      explanation: |
+        The new zoning is more precise than the old habit of naming scattered
+        provinces. Comtats de Barcelona contains five sub-zones; Ebro Valley
+        contains Alto Ebro and Valle del Cierzo.
+
+    fr:
+      question: Quelle liste donne les quatre zones actuelles de la DO Cava ?
+      choices:
+        - { text: "Comtats de Barcelona, Ebro Valley, Viñedos de Almendralejo et Levante Zone", correct: true }
+        - { text: "Comtats de Barcelona, Duero Valley, Viñedos de Almendralejo et Levante Zone", correct: false }
+        - { text: "Comtats de Barcelona, Ebro Valley, Viñedos de La Mancha et Levante Zone", correct: false }
+        - { text: "Comtats de Barcelona, Ebro Valley, Viñedos de Almendralejo et Galicia Zone", correct: false }
+      explanation: |
+        Le nouveau zonage est plus précis que l’ancienne habitude de citer des
+        provinces dispersées. Comtats de Barcelona compte cinq sous-zones ;
+        Ebro Valley en compte deux, Alto Ebro et Valle del Cierzo.
+
+  - id: cava-guarda-ageing-001
+    type: mcq
+    deck: Sparkling Wines
+    tags: [sparkling, spain, cava, ageing]
+    status: reviewed
+    source_id: c42-0075
+    review:
+      fact_check: pass
+      sources: [aoc-site]
+    en:
+      question: What is the minimum bottle-ageing period for Cava de Guarda?
+      choices:
+        - { text: "Nine months", correct: true }
+        - { text: "Six months", correct: false }
+        - { text: "Eighteen months", correct: false }
+        - { text: "Thirty months", correct: false }
+      explanation: |
+        All Cava uses the traditional method. **Guarda** starts at nine months;
+        **Guarda Superior Reserva** at 18, **Gran Reserva** at 30 and **Cava de
+        Paraje Calificado** at 36 months.
+
+    fr:
+      question: Quelle est la durée minimale d’élevage en bouteille d’un Cava de Guarda ?
+      choices:
+        - { text: "Neuf mois", correct: true }
+        - { text: "Six mois", correct: false }
+        - { text: "18 mois", correct: false }
+        - { text: "30 mois", correct: false }
+      explanation: |
+        Tout Cava est élaboré par méthode traditionnelle. **Guarda** commence à
+        neuf mois, **Guarda Superior Reserva** à 18 mois, **Gran Reserva** à
+        30 mois et **Cava de Paraje Calificado** à 36 mois.
+
+  - id: cava-traditional-grapes-001
+    type: mcq
+    deck: Sparkling Wines
+    tags: [sparkling, spain, cava, grapes]
+    status: reviewed
+    source_id: c42-0076
+    review:
+      fact_check: pass
+      sources: [aoc-site]
+    en:
+      question: Which trio forms the classic white-grape foundation of Cava?
+      choices:
+        - { text: "Macabeo, Xarel·lo and Parellada", correct: true }
+        - { text: "Albariño, Verdejo and Godello", correct: false }
+        - { text: "Viura, Tempranillo Blanco and Airén", correct: false }
+        - { text: "Garnacha Blanca, Malvasía and Palomino", correct: false }
+      explanation: |
+        Macabeo is also known as Viura. Garnacha, Monastrell, Pinot Noir and
+        Trepat are among the authorised black grapes; Trepat is restricted to
+        rosé Cava.
+
+    fr:
+      question: Quel trio constitue la base blanche traditionnelle du Cava ?
+      choices:
+        - { text: "Macabeo, Xarel·lo et Parellada", correct: true }
+        - { text: "Albariño, Verdejo et Godello", correct: false }
+        - { text: "Viura, Tempranillo Blanco et Airén", correct: false }
+        - { text: "Garnacha Blanca, Malvasía et Palomino", correct: false }
+      explanation: |
+        Macabeo est aussi appelé Viura. Garnacha, Monastrell, Pinot Noir et
+        Trepat figurent parmi les cépages noirs autorisés ; le Trepat est
+        réservé au Cava rosé.
+
+  - id: cava-style-001
+    type: mcq
+    deck: Sparkling Wines
+    tags: [sparkling, spain, cava, style]
+    status: reviewed
+    source_id: c42-0077
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which profile best describes a typical youthful Cava de Guarda?
+      choices:
+        - { text: "Dry, fresh orchard fruit with moderate acidity and light autolysis", correct: true }
+        - { text: "Dry, citrus-led fruit with high acidity and pronounced bread notes", correct: false }
+        - { text: "Sweet, grapey fruit with low alcohol and almost no lees character", correct: false }
+        - { text: "Off-dry, pear and floral fruit with moderate acidity and no autolysis", correct: false }
+      explanation: |
+        The exact fruit and autolytic profile differs from Champagne because of
+        grape varieties, climate and ageing. Cava often feels less acid-driven,
+        making youthful examples approachable on release.
+
+    fr:
+      question: Quel profil décrit le mieux un Cava de Guarda jeune typique ?
+      choices:
+        - { text: "Sec, fruits frais du verger, acidité modérée et légère autolyse", correct: true }
+        - { text: "Sec, agrumes, acidité élevée et notes de pain prononcées", correct: false }
+        - { text: "Doux, fruit très marqué par le raisin, faible alcool et presque aucun caractère de lies", correct: false }
+        - { text: "Demi-sec, poire et fleurs, acidité modérée et aucune autolyse", correct: false }
+      explanation: |
+        Son fruit et son profil autolytique diffèrent de ceux du Champagne en
+        raison des cépages, du climat et de l’élevage. Le Cava paraît souvent
+        moins porté par l’acidité, ce qui rend les exemples jeunes accessibles
+        dès leur commercialisation.
+
+  - id: cava-international-grapes-001
+    type: mcq
+    deck: Sparkling Wines
+    tags: [sparkling, spain, cava, grapes]
+    status: reviewed
+    source_id: c42-0078
+    review:
+      fact_check: pass
+      sources: [aoc-site]
+    en:
+      question: Why is the use of Chardonnay and Pinot Noir in Cava sometimes debated?
+      choices:
+        - { text: "They can add fruit and acidity but may blur Cava’s local identity", correct: true }
+        - { text: "They are compulsory in every blend but cannot ripen in Catalonia", correct: false }
+        - { text: "They are permitted only for sweet Cava and always raise residual sugar", correct: false }
+        - { text: "They replace bottle fermentation with the tank method", correct: false }
+      explanation: |
+        Both varieties are authorised. Some producers value their blending
+        contribution, while others emphasise native varieties such as Xarel·lo
+        to distinguish Cava from other traditional-method wines.
+
+    fr:
+      question: Pourquoi l’emploi du Chardonnay et du Pinot Noir dans le Cava fait-il parfois débat ?
+      choices:
+        - { text: "Ils peuvent apporter fruit et acidité, mais atténuer l’identité locale du Cava", correct: true }
+        - { text: "Ils sont obligatoires dans tous les assemblages mais ne peuvent mûrir en Catalogne", correct: false }
+        - { text: "Ils ne sont autorisés que pour les Cavas doux et augmentent toujours le sucre résiduel", correct: false }
+        - { text: "Ils remplacent la fermentation en bouteille par la méthode en cuve close", correct: false }
+      explanation: |
+        Les deux cépages sont autorisés. Certains producteurs apprécient leur
+        contribution à l’assemblage ; d’autres privilégient des cépages locaux
+        comme le Xarel·lo pour distinguer le Cava des autres effervescents de
+        méthode traditionnelle.
+
+  - id: cava-release-style-001
+    type: mcq
+    deck: Sparkling Wines
+    tags: [sparkling, spain, cava, style]
+    status: reviewed
+    source_id: c42-0080
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How is most entry-level Cava intended to be consumed?
+      choices:
+        - { text: "Non-vintage and ready to drink on release", correct: true }
+        - { text: "Vintage-dated and requiring a decade of bottle ageing", correct: false }
+        - { text: "Unfiltered and intended to finish fermentation after purchase", correct: false }
+        - { text: "Still when released and carbonated immediately before service", correct: false }
+      explanation: |
+        Cava de Guarda prioritises youthful fruit and freshness. Longer-aged
+        Guarda Superior categories offer more developed autolytic complexity
+        and tighter viticultural requirements.
+
+    fr:
+      question: Comment la plupart des Cavas d’entrée de gamme sont-ils commercialisés ?
+      choices:
+        - { text: "Non millésimés et prêts à boire dès leur commercialisation", correct: true }
+        - { text: "Millésimés et nécessitant dix ans de garde en bouteille", correct: false }
+        - { text: "Non filtrés et destinés à achever leur fermentation après l’achat", correct: false }
+        - { text: "Tranquilles à la sortie du chai puis gazéifiés juste avant le service", correct: false }
+      explanation: |
+        Cava de Guarda privilégie la jeunesse du fruit et la fraîcheur. Les
+        catégories Guarda Superior, élevées plus longtemps, offrent davantage
+        de complexité autolytique et des exigences viticoles plus strictes.
+
+  - id: cava-superior-hierarchy-001
+    type: mcq
+    deck: Sparkling Wines
+    tags: [sparkling, spain, cava, ageing, quality]
+    status: reviewed
+    source_id: c42-0082
+    review:
+      fact_check: pass
+      sources: [aoc-site]
+    en:
+      question: Which sequence correctly orders Cava categories by increasing minimum ageing?
+      choices:
+        - { text: "Guarda → Reserva → Gran Reserva → Paraje Calificado", correct: true }
+        - { text: "Reserva → Guarda → Paraje Calificado → Gran Reserva", correct: false }
+        - { text: "Guarda → Gran Reserva → Reserva → Paraje Calificado", correct: false }
+        - { text: "Paraje Calificado → Reserva → Gran Reserva → Guarda", correct: false }
+      explanation: |
+        The minimums are respectively **9, 18, 30 and 36 months**. Reserva and
+        above sit within Guarda Superior, which also carries stricter rules on
+        origin, yields, vine age, vintage and organic grapes.
+
+    fr:
+      question: Quelle séquence classe correctement les catégories de Cava par durée minimale d’élevage croissante ?
+      choices:
+        - { text: "Guarda → Reserva → Gran Reserva → Paraje Calificado", correct: true }
+        - { text: "Reserva → Guarda → Paraje Calificado → Gran Reserva", correct: false }
+        - { text: "Guarda → Gran Reserva → Reserva → Paraje Calificado", correct: false }
+        - { text: "Paraje Calificado → Reserva → Gran Reserva → Guarda", correct: false }
+      explanation: |
+        Les minima sont respectivement de **9, 18, 30 et 36 mois**. Reserva et
+        les catégories supérieures relèvent de Guarda Superior, qui impose aussi
+        des règles plus strictes sur l’origine, les rendements, l’âge des vignes,
+        le millésime et les raisins biologiques.
+
+  - id: asti-origin-grape-001
+    type: mcq
+    deck: Sparkling Wines
+    tags: [sparkling, italy, piedmont, asti, grapes]
+    status: reviewed
+    source_id: c42-0083
+    review:
+      fact_check: pass
+      sources: [aoc-site]
+    en:
+      question: Where and from which grape is Asti DOCG produced?
+      choices:
+        - { text: "Piedmont, from Moscato Bianco", correct: true }
+        - { text: "Veneto, from Glera", correct: false }
+        - { text: "Lombardy, from Chardonnay", correct: false }
+        - { text: "Emilia-Romagna, from Lambrusco", correct: false }
+      explanation: |
+        Moscato Bianco is the Italian name for Muscat Blanc à Petits Grains.
+        The delimited Asti DOCG zone covers communes in the provinces of Asti,
+        Alessandria and Cuneo.
+
+    fr:
+      question: Où l’Asti DOCG est-il produit, et à partir de quel cépage ?
+      choices:
+        - { text: "Dans le Piémont, à partir de Moscato Bianco", correct: true }
+        - { text: "En Vénétie, à partir de Glera", correct: false }
+        - { text: "En Lombardie, à partir de Chardonnay", correct: false }
+        - { text: "En Émilie-Romagne, à partir de Lambrusco", correct: false }
+      explanation: |
+        Moscato Bianco est le nom italien du Muscat Blanc à Petits Grains.
+        L’aire délimitée de l’Asti DOCG couvre des communes des provinces
+        d’Asti, d’Alessandria et de Cuneo.
+
+  - id: asti-production-method-001
+    type: mcq
+    deck: Sparkling Wines
+    tags: [sparkling, italy, asti, production]
+    status: reviewed
+    source_id: c42-0085
+    review:
+      fact_check: pass
+      sources: [aoc-site]
+    en:
+      question: Which statement accurately describes current Asti Spumante production?
+      choices:
+        - { text: "Tank fermentation is classic, but traditional-method versions are permitted", correct: true }
+        - { text: "Bottle fermentation is compulsory, while tank production is prohibited", correct: false }
+        - { text: "Tank fermentation is compulsory, while bottle production is prohibited", correct: false }
+        - { text: "The ancestral method is compulsory, while carbonation is also permitted", correct: false }
+      explanation: |
+        The classic Martinotti approach preserves Moscato’s primary aromas by
+        fermenting chilled must under pressure and stopping fermentation at the
+        desired balance. The DOCG also permits metodo classico.
+
+    fr:
+      question: Quelle affirmation décrit correctement l’élaboration actuelle de l’Asti Spumante ?
+      choices:
+        - { text: "La fermentation en cuve est classique, mais la méthode traditionnelle est aussi autorisée", correct: true }
+        - { text: "La fermentation en bouteille est obligatoire et la méthode en cuve interdite", correct: false }
+        - { text: "La fermentation en cuve est obligatoire et la méthode en bouteille interdite", correct: false }
+        - { text: "La méthode ancestrale est obligatoire et la gazéification également autorisée", correct: false }
+      explanation: |
+        La méthode Martinotti classique préserve les arômes primaires du
+        Moscato : le moût refroidi fermente sous pression, puis la fermentation
+        est arrêtée à l’équilibre recherché. La DOCG autorise aussi le metodo classico.
+
+  - id: asti-style-001
+    type: mcq
+    deck: Sparkling Wines
+    tags: [sparkling, italy, asti, style]
+    status: reviewed
+    source_id: c42-0086
+    review:
+      fact_check: pass
+      sources: [aoc-site]
+    en:
+      question: Which aroma profile most clearly identifies Asti Spumante?
+      choices:
+        - { text: "Pronounced grape, peach, citrus-flower and herbal aromas", correct: true }
+        - { text: "Neutral fruit dominated by long lees ageing and toast", correct: false }
+        - { text: "Black fruit, firm tannin and pronounced new-oak spice", correct: false }
+        - { text: "Oxidative nuts, bruised apple and deliberate flor character", correct: false }
+      explanation: |
+        Moscato Bianco supplies intense primary fruit and floral aromas. Asti
+        was historically associated with sweet, low-alcohol wine, but current
+        Asti Spumante may range from Brut Nature to sweet.
+
+    fr:
+      question: Quel profil aromatique permet le mieux d’identifier l’Asti Spumante ?
+      choices:
+        - { text: "Arômes prononcés de raisin, de pêche, de fleurs d’agrumes et d’herbes aromatiques", correct: true }
+        - { text: "Fruit neutre dominé par un long élevage sur lies et des notes grillées", correct: false }
+        - { text: "Fruits noirs, tanins fermes et épices prononcées de bois neuf", correct: false }
+        - { text: "Fruits à coque oxydatifs, pomme meurtrie et caractère de voile volontaire", correct: false }
+      explanation: |
+        Le Moscato Bianco apporte des arômes primaires intenses, fruités et
+        floraux. L’Asti est historiquement associé à un vin doux et peu alcoolisé,
+        mais l’Asti Spumante actuel peut aller de Brut Nature à doux.
+
+  - id: asti-youthful-drinking-001
+    type: mcq
+    deck: Sparkling Wines
+    tags: [sparkling, italy, asti, ageing]
+    status: reviewed
+    source_id: c42-0088
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Why is most Asti Spumante best consumed young?
+      choices:
+        - { text: "Ageing diminishes the fresh primary aromas that define Moscato", correct: true }
+        - { text: "Ageing is needed to build the biscuit aromas that define Moscato", correct: false }
+        - { text: "Ageing is needed to soften the firm grape tannins of Moscato", correct: false }
+        - { text: "Ageing is needed to integrate the new oak used for Moscato", correct: false }
+      explanation: |
+        The classic style is built around vivid grape, peach and floral aromas,
+        not long autolytic development. It generally gains little from extended
+        bottle ageing after release.
+
+    fr:
+      question: Pourquoi l’Asti Spumante gagne-t-il généralement à être bu jeune ?
+      choices:
+        - { text: "Le vieillissement atténue les arômes primaires frais qui définissent le Moscato", correct: true }
+        - { text: "Le vieillissement est nécessaire pour créer les arômes de biscuit qui définissent le Moscato", correct: false }
+        - { text: "Le vieillissement est nécessaire pour assouplir les tanins fermes du Moscato", correct: false }
+        - { text: "Le vieillissement est nécessaire pour intégrer le bois neuf utilisé avec le Moscato", correct: false }
+      explanation: |
+        Le style classique repose sur des arômes éclatants de raisin, de pêche
+        et de fleurs, non sur une longue évolution autolytique. Après sa mise en
+        marché, il gagne généralement peu à vieillir longuement en bouteille.
+
+  - id: prosecco-denominations-001
+    type: mcq
+    deck: Sparkling Wines
+    tags: [sparkling, italy, prosecco, law]
+    status: reviewed
+    source_id: c42-0089
+    review:
+      fact_check: pass
+      sources: [aoc-site]
+    en:
+      question: Which hierarchy correctly describes the principal Prosecco denominations?
+      choices:
+        - { text: "Broad Prosecco DOC plus Conegliano Valdobbiadene and Asolo Prosecco DOCGs", correct: true }
+        - { text: "Broad Prosecco DOCG plus Conegliano Valdobbiadene and Asolo Prosecco DOCs", correct: false }
+        - { text: "Broad Prosecco DOC plus Cartizze and Rive as two separate Prosecco DOCGs", correct: false }
+        - { text: "Broad Prosecco DOCG plus Treviso and Trieste as two separate Prosecco DOCs", correct: false }
+      explanation: |
+        Prosecco DOC spans nine provinces in Veneto and Friuli-Venezia Giulia.
+        The hillier Conegliano Valdobbiadene Prosecco Superiore DOCG and Asolo
+        Prosecco DOCG have tighter geographical boundaries.
+
+    fr:
+      question: Quelle hiérarchie décrit correctement les principales appellations de Prosecco ?
+      choices:
+        - { text: "La vaste Prosecco DOC, plus les DOCG Conegliano Valdobbiadene et Asolo Prosecco", correct: true }
+        - { text: "La vaste Prosecco DOCG, plus les DOC Conegliano Valdobbiadene et Asolo Prosecco", correct: false }
+        - { text: "La vaste Prosecco DOC, plus Cartizze et Rive comme deux DOCG Prosecco distinctes", correct: false }
+        - { text: "La vaste Prosecco DOCG, plus Treviso et Trieste comme deux DOC Prosecco distinctes", correct: false }
+      explanation: |
+        Prosecco DOC s’étend sur neuf provinces de Vénétie et du
+        Frioul-Vénétie Julienne. Les DOCG plus vallonnées Conegliano
+        Valdobbiadene Prosecco Superiore et Asolo Prosecco possèdent des
+        limites géographiques plus resserrées.
+
+  - id: prosecco-conegliano-valdobbiadene-001
+    type: mcq
+    deck: Sparkling Wines
+    tags: [sparkling, italy, prosecco, geography]
+    status: reviewed
+    source_id: c42-0090
+    review:
+      fact_check: pass
+      sources: [aoc-site]
+    en:
+      question: What distinguishes the Conegliano Valdobbiadene Prosecco Superiore DOCG zone?
+      choices:
+        - { text: "Steep hills across 15 communes between Conegliano and Valdobbiadene", correct: true }
+        - { text: "Alluvial plains across the nine provinces of the broader Prosecco DOC", correct: false }
+        - { text: "Steep hills limited to Valdobbiadene and the single Cartizze vineyard", correct: false }
+        - { text: "The hills of Asolo and Montello to the west of the Piave river", correct: false }
+      explanation: |
+        The DOCG lies about 50 km north of Venice. Steep slopes encourage hand
+        work and create substantial mesoclimatic variation within the zone.
+
+    fr:
+      question: Qu’est-ce qui distingue la zone de Conegliano Valdobbiadene Prosecco Superiore DOCG ?
+      choices:
+        - { text: "Des coteaux escarpés répartis dans 15 communes entre Conegliano et Valdobbiadene", correct: true }
+        - { text: "Des plaines alluviales couvrant les neuf provinces de la vaste Prosecco DOC", correct: false }
+        - { text: "Des coteaux escarpés limités à Valdobbiadene et au seul vignoble de Cartizze", correct: false }
+        - { text: "Les collines d’Asolo et de Montello, à l’ouest du Piave, dans la DOCG voisine", correct: false }
+      explanation: |
+        La DOCG se trouve à environ 50 kilomètres au nord de Venise. Les fortes
+        pentes favorisent le travail manuel et créent d’importantes variations
+        mésoclimatiques au sein de la zone.
+
+  - id: prosecco-rive-cartizze-001
+    type: mcq
+    deck: Sparkling Wines
+    tags: [sparkling, italy, prosecco, hierarchy]
+    status: reviewed
+    source_id: c42-0091
+    review:
+      fact_check: pass
+      sources: [aoc-site]
+    en:
+      question: What do Rive and Cartizze indicate on Conegliano Valdobbiadene Prosecco Superiore?
+      choices:
+        - { text: "More specific hillside origins within the DOCG", correct: true }
+        - { text: "Two tank-fermentation methods available throughout Prosecco DOC", correct: false }
+        - { text: "The two sweetest dosage categories in every Prosecco denomination", correct: false }
+        - { text: "Two alternative names for the Glera grape variety", correct: false }
+      explanation: |
+        A **Rive** wine comes from one named commune or part of a commune, with
+        lower yields, hand harvest and a stated vintage. **Cartizze** is a
+        particularly prized 107-hectare sub-zone near Valdobbiadene.
+
+    fr:
+      question: Que désignent Rive et Cartizze sur un Conegliano Valdobbiadene Prosecco Superiore ?
+      choices:
+        - { text: "Des origines de coteaux plus précises au sein de la DOCG", correct: true }
+        - { text: "Deux méthodes de fermentation en cuve autorisées dans toute la Prosecco DOC", correct: false }
+        - { text: "Les deux catégories de dosage les plus douces de toutes les appellations de Prosecco", correct: false }
+        - { text: "Deux noms alternatifs du cépage Glera", correct: false }
+      explanation: |
+        Un vin **Rive** provient d’une seule commune nommée ou d’une partie de
+        commune, avec rendements réduits, vendange manuelle et millésime indiqué.
+        **Cartizze** est une sous-zone particulièrement réputée de 107 hectares
+        près de Valdobbiadene.
+
+  - id: prosecco-glera-001
+    type: mcq
+    deck: Sparkling Wines
+    tags: [sparkling, italy, prosecco, grapes]
+    status: reviewed
+    source_id: c42-0092
+    review:
+      fact_check: pass
+      sources: [aoc-site]
+    en:
+      question: Which statement correctly links Prosecco and Glera?
+      choices:
+        - { text: "Glera is the principal grape; Prosecco is the protected geographical name", correct: true }
+        - { text: "Prosecco is the principal grape; Glera is the tank-fermentation method", correct: false }
+        - { text: "Glera is the DOCG subzone; Prosecco is the principal grape", correct: false }
+        - { text: "Glera and Prosecco are separate grapes required in equal proportions", correct: false }
+      explanation: |
+        The variety was widely called Prosecco in the past. Using **Glera** for
+        the grape helps reserve **Prosecco** for wines from the delimited Italian
+        denominations; Prosecco DOC must contain at least 85% Glera.
+
+    fr:
+      question: Quelle affirmation relie correctement Prosecco et Glera ?
+      choices:
+        - { text: "Glera est le cépage principal ; Prosecco est le nom géographique protégé", correct: true }
+        - { text: "Prosecco est le cépage principal ; Glera désigne la méthode de fermentation en cuve", correct: false }
+        - { text: "Glera est la sous-zone de DOCG ; Prosecco est le cépage principal", correct: false }
+        - { text: "Glera et Prosecco sont deux cépages distincts imposés à parts égales", correct: false }
+      explanation: |
+        Le cépage était autrefois couramment appelé Prosecco. Employer le nom
+        **Glera** permet de réserver **Prosecco** aux vins issus des appellations
+        italiennes délimitées ; la Prosecco DOC doit contenir au moins 85 % de Glera.
+
+  - id: prosecco-tank-method-001
+    type: mcq
+    deck: Sparkling Wines
+    tags: [sparkling, italy, prosecco, production]
+    status: reviewed
+    source_id: c42-0094
+    review:
+      fact_check: pass
+      sources: [aoc-site]
+    en:
+      question: Why does the Martinotti tank method suit most Prosecco?
+      choices:
+        - { text: "It retains fresh floral and fruit aromas during efficient secondary fermentation", correct: true }
+        - { text: "It maximises lees contact to make biscuit aromas dominate over fresh fruit", correct: false }
+        - { text: "It combines fermentation and skin contact to give Glera greater structure", correct: false }
+        - { text: "It encourages controlled oxidation to add nutty complexity before bottling", correct: false }
+      explanation: |
+        Secondary fermentation occurs in a sealed pressure tank before sterile
+        filtration and bottling. This protects the youthful style and is well
+        suited to relatively large production volumes.
+
+    fr:
+      question: Pourquoi la méthode Martinotti en cuve convient-elle à la plupart des Proseccos ?
+      choices:
+        - { text: "Elle préserve les arômes frais de fleurs et de fruits pendant une seconde fermentation efficace", correct: true }
+        - { text: "Elle maximise le contact avec les lies afin que les arômes de biscuit dominent le fruit frais", correct: false }
+        - { text: "Elle associe fermentation et macération pelliculaire pour donner davantage de structure au Glera", correct: false }
+        - { text: "Elle favorise une oxydation contrôlée afin d’ajouter de la complexité de fruits à coque avant la mise", correct: false }
+      explanation: |
+        La seconde fermentation se déroule dans une cuve close sous pression,
+        avant filtration stérile et mise en bouteille. Cette méthode protège le
+        style jeune du vin et convient bien à des volumes relativement importants.
+
+  - id: prosecco-style-001
+    type: mcq
+    deck: Sparkling Wines
+    tags: [sparkling, italy, prosecco, style]
+    status: reviewed
+    source_id: c42-0095
+    review:
+      fact_check: pass
+      sources: [aoc-site]
+    en:
+      question: Which profile is most typical of white Prosecco DOC Spumante?
+      choices:
+        - { text: "Fresh apple, pear, citrus and white flowers with moderate acidity", correct: true }
+        - { text: "Pronounced toast, nuts and biscuit with very high acidity", correct: false }
+        - { text: "Black fruit, firm tannin and full body with new-oak spice", correct: false }
+        - { text: "Dried fruit, oxidation and high alcohol with no primary aromas", correct: false }
+      explanation: |
+        Semi-aromatic Glera gives a light, fresh profile. The tank method limits
+        autolytic character, placing fruit, flowers and an easy balance between
+        acidity and sweetness at the centre.
+
+    fr:
+      question: Quel profil est le plus typique d’un Prosecco DOC Spumante blanc ?
+      choices:
+        - { text: "Pomme fraîche, poire, agrumes et fleurs blanches, avec une acidité modérée", correct: true }
+        - { text: "Notes prononcées de pain grillé, fruits à coque et biscuit, avec une acidité très élevée", correct: false }
+        - { text: "Fruits noirs, tanins fermes et corps ample, avec des épices de bois neuf", correct: false }
+        - { text: "Fruits secs, oxydation et alcool élevé, sans arômes primaires", correct: false }
+      explanation: |
+        Le Glera, semi-aromatique, donne un profil léger et frais. La méthode en
+        cuve limite le caractère autolytique et met au premier plan le fruit,
+        les fleurs et l’équilibre facile entre acidité et douceur.
+
+  - id: prosecco-sweetness-range-001
+    type: mcq
+    deck: Sparkling Wines
+    tags: [sparkling, italy, prosecco, dosage]
+    status: reviewed
+    source_id: c42-0096
+    review:
+      fact_check: pass
+      sources: [aoc-site]
+    en:
+      question: Which statement reflects the current sweetness range of Prosecco DOC Spumante?
+      choices:
+        - { text: "It can range from Brut Nature through Brut and Extra Dry to Demi-Sec", correct: true }
+        - { text: "Only Brut, Extra Dry and Dry are legally permitted", correct: false }
+        - { text: "All white Prosecco must be Extra Dry, while rosé must be Brut", correct: false }
+        - { text: "Every category must contain more than 32 g/L residual sugar", correct: false }
+      explanation: |
+        The once-common shorthand of Brut, Extra Dry and Dry is incomplete.
+        The familiar EU thresholds apply: Brut is below 12 g/L, Extra Dry is
+        12–17 g/L and Dry is 17–32 g/L.
+
+    fr:
+      question: Quelle affirmation reflète la gamme actuelle de douceur du Prosecco DOC Spumante ?
+      choices:
+        - { text: "Elle peut aller de Brut Nature à Demi-Sec, en passant par Brut et Extra Dry", correct: true }
+        - { text: "Seuls Brut, Extra Dry et Dry sont légalement autorisés", correct: false }
+        - { text: "Tout Prosecco blanc doit être Extra Dry et tout rosé doit être Brut", correct: false }
+        - { text: "Chaque catégorie doit contenir plus de 32 g/L de sucre résiduel", correct: false }
+      explanation: |
+        Le raccourci autrefois courant Brut, Extra Dry et Dry est incomplet.
+        Les seuils européens habituels s’appliquent : Brut se situe sous 12 g/L,
+        Extra Dry entre 12 et 17 g/L et Dry entre 17 et 32 g/L.
+
+  - id: prosecco-fermentation-balance-001
+    type: mcq
+    deck: Sparkling Wines
+    tags: [sparkling, italy, prosecco, production]
+    status: reviewed
+    source_id: c42-0098
+    review:
+      fact_check: pass
+      sources: [aoc-site]
+    en:
+      question: How can a producer retain sweetness while preserving fresh fruit in tank-method Prosecco?
+      choices:
+        - { text: "Chill the tank at the target balance, then filter out the yeast", correct: true }
+        - { text: "Rack the wine under pressure while leaving active yeast in suspension", correct: false }
+        - { text: "Raise the tank temperature at the target balance, then bottle immediately", correct: false }
+        - { text: "Lower the pressure while allowing fermentation to continue to dryness", correct: false }
+      explanation: |
+        Cooling and filtration can arrest the pressure-tank fermentation at the
+        desired sugar, alcohol and pressure. Dosage may also be part of the
+        final adjustment depending on the producer and style.
+
+    fr:
+      question: Comment un producteur peut-il conserver de la douceur tout en préservant le fruit frais d’un Prosecco élaboré en cuve close ?
+      choices:
+        - { text: "Refroidir la cuve à l’équilibre recherché, puis éliminer les levures par filtration", correct: true }
+        - { text: "Soutirer le vin sous pression tout en laissant les levures actives en suspension", correct: false }
+        - { text: "Augmenter la température de la cuve à l’équilibre recherché, puis mettre immédiatement en bouteille", correct: false }
+        - { text: "Réduire la pression tout en laissant la fermentation se poursuivre jusqu’à sec", correct: false }
+      explanation: |
+        Le refroidissement et la filtration permettent d’arrêter la fermentation
+        en cuve sous pression au niveau voulu de sucre, d’alcool et de pression.
+        Selon le producteur et le style, le dosage peut également servir à
+        l’ajustement final.
+
+  - id: prosecco-youthful-drinking-001
+    type: mcq
+    deck: Sparkling Wines
+    tags: [sparkling, italy, prosecco, ageing]
+    status: reviewed
+    source_id: c42-0099
+    review:
+      fact_check: pass
+      sources: [aoc-site]
+    en:
+      question: Why is most Prosecco intended for early consumption?
+      choices:
+        - { text: "Its appeal depends on fresh primary fruit and floral aromas", correct: true }
+        - { text: "It needs prolonged ageing to build its defining bread and biscuit aromas", correct: false }
+        - { text: "It needs prolonged ageing to soften its defining grape tannins", correct: false }
+        - { text: "It needs prolonged ageing to integrate its defining new-oak character", correct: false }
+      explanation: |
+        Most Prosecco is released after only a brief period in bottle and is not
+        designed for extended ageing. Freshness is a feature, not evidence of
+        unfinished wine.
+
+    fr:
+      question: Pourquoi la plupart des Proseccos sont-ils destinés à être bus jeunes ?
+      choices:
+        - { text: "Leur attrait repose sur des arômes primaires frais de fruits et de fleurs", correct: true }
+        - { text: "Ils nécessitent une longue garde pour développer leurs arômes caractéristiques de pain et de biscuit", correct: false }
+        - { text: "Ils nécessitent une longue garde pour assouplir leurs tanins caractéristiques", correct: false }
+        - { text: "Ils nécessitent une longue garde pour intégrer leur caractère caractéristique de bois neuf", correct: false }
+      explanation: |
+        La plupart des Proseccos sont commercialisés après un bref séjour en
+        bouteille et ne sont pas conçus pour une longue garde. Leur fraîcheur
+        est une qualité recherchée, non le signe d’un vin inachevé.
+
+  - id: sekt-entry-level-production-001
+    type: mcq
+    deck: Sparkling Wines
+    tags: [sparkling, germany, sekt, production]
+    status: reviewed
+    source_id: c42-0101
+    review:
+      fact_check: pass
+      sources: [aoc-site]
+    en:
+      question: Which production pattern is common for inexpensive German Sekt?
+      choices:
+        - { text: "Imported base wine made sparkling in Germany by the tank method", correct: true }
+        - { text: "German estate fruit fermented in bottle and aged for several years", correct: false }
+        - { text: "German regional base wine made sparkling by the transfer method", correct: false }
+        - { text: "Imported base wine bottle-fermented and given extended lees ageing", correct: false }
+      explanation: |
+        The unqualified term **Sekt** does not guarantee German-grown grapes.
+        Large producers may source base wine elsewhere in the EU, then carry
+        out the second fermentation and bottling in Germany.
+
+    fr:
+      question: Quel schéma de production est courant pour un Sekt allemand bon marché ?
+      choices:
+        - { text: "Vin de base importé, rendu effervescent en Allemagne par méthode en cuve close", correct: true }
+        - { text: "Raisins allemands du domaine, fermentés en bouteille et élevés plusieurs années", correct: false }
+        - { text: "Vin de base d’une région allemande, rendu effervescent par méthode par transfert", correct: false }
+        - { text: "Vin de base importé, fermenté en bouteille et longuement élevé sur lies", correct: false }
+      explanation: |
+        La seule mention **Sekt** ne garantit pas l’origine allemande des
+        raisins. Les grandes maisons peuvent acheter du vin de base ailleurs
+        dans l’Union européenne, puis réaliser la seconde fermentation et la
+        mise en bouteille en Allemagne.
+
+  - id: deutscher-sekt-origin-001
+    type: mcq
+    deck: Sparkling Wines
+    tags: [sparkling, germany, sekt, law]
+    status: reviewed
+    source_id: c42-0105
+    review:
+      fact_check: pass
+      sources: [aoc-site]
+    en:
+      question: What does Deutscher Sekt guarantee about grape origin?
+      choices:
+        - { text: "All of the wine comes from grapes grown in Germany", correct: true }
+        - { text: "At least 85% of the wine comes from one German region", correct: false }
+        - { text: "All of the wine comes from one named German vineyard", correct: false }
+        - { text: "The wine may come from anywhere in the European Union", correct: false }
+      explanation: |
+        **Deutscher Sekt** raises the origin requirement from generic Sekt, but
+        it does not by itself identify one of Germany’s 13 quality regions or
+        require traditional bottle fermentation.
+
+    fr:
+      question: Que garantit la mention Deutscher Sekt quant à l’origine des raisins ?
+      choices:
+        - { text: "La totalité du vin provient de raisins cultivés en Allemagne", correct: true }
+        - { text: "Au moins 85 % du vin provient d’une seule région allemande", correct: false }
+        - { text: "La totalité du vin provient d’un seul vignoble allemand nommé", correct: false }
+        - { text: "Le vin peut provenir de n’importe quel pays de l’Union européenne", correct: false }
+      explanation: |
+        **Deutscher Sekt** impose une origine plus précise que Sekt générique,
+        mais n’identifie pas à lui seul l’une des 13 régions viticoles de qualité
+        d’Allemagne et n’impose pas la méthode traditionnelle.
+
+  - id: sekt-ba-origin-001
+    type: mcq
+    deck: Sparkling Wines
+    tags: [sparkling, germany, sekt, law]
+    status: reviewed
+    source_id: c42-0107
+    review:
+      fact_check: pass
+      sources: [aoc-site]
+    en:
+      question: What additional origin does Deutscher Sekt b.A. guarantee?
+      choices:
+        - { text: "The grapes come from one of Germany’s 13 specified quality regions", correct: true }
+        - { text: "The grapes come from one vineyard registered as a Grosse Lage", correct: false }
+        - { text: "The grapes come from at least two neighbouring German regions", correct: false }
+        - { text: "The grapes come from any EU region with a protected designation", correct: false }
+      explanation: |
+        “b.A.” means *bestimmter Anbaugebiete*. The relevant Anbaugebiet and
+        official quality-control number appear on the label; the category does
+        not by itself require one variety or the traditional method.
+
+    fr:
+      question: Quelle origine supplémentaire la mention Deutscher Sekt b.A. garantit-elle ?
+      choices:
+        - { text: "Les raisins proviennent de l’une des 13 régions viticoles de qualité d’Allemagne", correct: true }
+        - { text: "Les raisins proviennent d’un vignoble classé Grosse Lage", correct: false }
+        - { text: "Les raisins proviennent d’au moins deux régions allemandes voisines", correct: false }
+        - { text: "Les raisins proviennent de toute région européenne bénéficiant d’une indication protégée", correct: false }
+      explanation: |
+        « b.A. » signifie *bestimmter Anbaugebiete*. L’Anbaugebiet concerné et
+        le numéro officiel de contrôle figurent sur l’étiquette ; cette catégorie
+        n’impose à elle seule ni un cépage ni la méthode traditionnelle.
+
+  - id: premium-riesling-sekt-001
+    type: mcq
+    deck: Sparkling Wines
+    tags: [sparkling, germany, sekt, grapes]
+    status: reviewed
+    source_id: c42-0106
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Why can Riesling produce distinctive premium German Sekt?
+      choices:
+        - { text: "High acidity with citrus, apple and floral aromas", correct: true }
+        - { text: "High acidity with red fruit, body and vinous structure", correct: false }
+        - { text: "Moderate acidity with neutral fruit and a broad palate", correct: false }
+        - { text: "Moderate acidity with tropical fruit and high potential alcohol", correct: false }
+      explanation: |
+        Riesling can produce a recognisably German expression of sparkling wine,
+        especially in cooler regions. Pinot varieties are also important in
+        high-quality Sekt.
+
+    fr:
+      question: Pourquoi le Riesling peut-il donner un Sekt allemand haut de gamme distinctif ?
+      choices:
+        - { text: "Acidité élevée et arômes d’agrumes, de pomme et de fleurs", correct: true }
+        - { text: "Acidité élevée, fruits rouges, corps et structure vineuse", correct: false }
+        - { text: "Acidité modérée, fruit neutre et bouche ample", correct: false }
+        - { text: "Acidité modérée, fruits tropicaux et degré alcoolique potentiel élevé", correct: false }
+      explanation: |
+        Le Riesling peut donner une expression typiquement allemande du vin
+        effervescent, surtout dans les régions fraîches. Les cépages de la
+        famille des Pinots jouent eux aussi un rôle important dans les Sekts de qualité.
+
+  - id: winzersekt-rules-001
+    type: mcq
+    deck: Sparkling Wines
+    tags: [sparkling, germany, sekt, production, law]
+    status: reviewed
+    source_id: c42-0108
+    review:
+      fact_check: pass
+      sources: [aoc-site]
+    en:
+      question: Which production pattern is required for German Winzersekt?
+      choices:
+        - { text: "Estate-grown fruit, traditional bottle fermentation and at least nine months on lees", correct: true }
+        - { text: "Regional fruit, tank fermentation and at least nine months before bottling", correct: false }
+        - { text: "EU-grown fruit, transfer-method fermentation and at least twelve months on lees", correct: false }
+        - { text: "Single-vineyard fruit, carbonation and at least eighteen months before release", correct: false }
+      explanation: |
+        Winzersekt is a producer-grown Sekt b.A. The label also states the
+        producer, grape variety and vintage. A named single vineyard may appear,
+        but it is not a universal legal requirement.
+
+    fr:
+      question: Quel schéma de production est obligatoire pour le Winzersekt allemand ?
+      choices:
+        - { text: "Raisins du domaine, méthode traditionnelle et au moins neuf mois sur lies", correct: true }
+        - { text: "Raisins régionaux, méthode en cuve close et au moins neuf mois avant la mise", correct: false }
+        - { text: "Raisins européens, méthode par transfert et au moins douze mois sur lies", correct: false }
+        - { text: "Raisins d’un seul vignoble, gazéification et au moins dix-huit mois avant la vente", correct: false }
+      explanation: |
+        Le Winzersekt est un Sekt b.A. issu des raisins du producteur. L’étiquette
+        indique aussi le domaine, le cépage et le millésime. Un vignoble nommé
+        peut apparaître, mais ce n’est pas une obligation légale universelle.
+
+  - id: australia-premium-sparkling-regions-001
+    type: mcq
+    deck: Sparkling Wines
+    tags: [sparkling, australia, geography, climate]
+    status: reviewed
+    source_id: c42-0109
+    review:
+      fact_check: pass
+      sources: [aoc-site]
+    en:
+      question: Which Australian regions are strongly associated with premium cool-climate sparkling wine?
+      choices:
+        - { text: "Tasmania, Adelaide Hills and Yarra Valley", correct: true }
+        - { text: "Barossa Valley, Riverland and Riverina", correct: false }
+        - { text: "Hunter Valley, Rutherglen and McLaren Vale", correct: false }
+        - { text: "Swan Valley, Murray Darling and Barossa Valley", correct: false }
+      explanation: |
+        Cooler sites allow Chardonnay and Pinot Noir to ripen while retaining
+        acidity. Traditional-method wines from these regions can support long
+        lees ageing and styles from non-vintage to prestige cuvées.
+
+    fr:
+      question: Quelles régions australiennes sont fortement associées aux vins effervescents haut de gamme de climat frais ?
+      choices:
+        - { text: "Tasmanie, Adelaide Hills et Yarra Valley", correct: true }
+        - { text: "Barossa Valley, Riverland et Riverina", correct: false }
+        - { text: "Hunter Valley, Rutherglen et McLaren Vale", correct: false }
+        - { text: "Swan Valley, Murray Darling et Barossa Valley", correct: false }
+      explanation: |
+        Les terroirs frais permettent au Chardonnay et au Pinot Noir de mûrir
+        tout en conservant leur acidité. Les vins de méthode traditionnelle de
+        ces régions supportent un long élevage sur lies et vont du non-millésimé
+        à la cuvée de prestige.
+
+  - id: australia-warm-region-sparkling-001
+    type: mcq
+    deck: Sparkling Wines
+    tags: [sparkling, australia, production, climate]
+    status: reviewed
+    source_id: c42-0110
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which profile best fits high-volume sparkling wine from warm Australian regions such as Riverina?
+      choices:
+        - { text: "Fruity, often inexpensive wine made by tank method or carbonation", correct: true }
+        - { text: "Lean, high-acid wine made only by extended traditional method", correct: false }
+        - { text: "Bone-dry, single-vineyard wine made only from Pinot Noir", correct: false }
+        - { text: "Oxidative, barrel-aged wine made by the ancestral method", correct: false }
+      explanation: |
+        High yields, reliable ripening and efficient production support large
+        volumes and a range of sweetness levels. This is a different segment
+        from cool-region traditional-method sparkling wine.
+
+    fr:
+      question: Quel profil correspond le mieux aux effervescents de gros volume issus de régions australiennes chaudes comme Riverina ?
+      choices:
+        - { text: "Fruités, souvent bon marché, et élaborés en cuve close ou par gazéification", correct: true }
+        - { text: "Vifs, très acides, et exclusivement élaborés par une longue méthode traditionnelle", correct: false }
+        - { text: "Très secs, parcellaires, et exclusivement élaborés en Pinot Noir", correct: false }
+        - { text: "Oxydatifs, élevés sous bois, et élaborés par méthode ancestrale", correct: false }
+      explanation: |
+        Rendements élevés, maturité régulière et production efficace permettent
+        de gros volumes dans une gamme de niveaux de douceur. Ce segment se
+        distingue des effervescents de méthode traditionnelle issus de régions fraîches.
+
+  - id: australia-sparkling-red-grape-001
+    type: mcq
+    deck: Sparkling Wines
+    tags: [sparkling, australia, red, grapes]
+    status: reviewed
+    source_id: c42-0113
+    review:
+      fact_check: pass
+      sources: [aoc-site]
+    en:
+      question: Which grape is most closely associated with premium Australian sparkling red wine?
+      choices:
+        - { text: "Shiraz", correct: true }
+        - { text: "Pinot Noir", correct: false }
+        - { text: "Cabernet Sauvignon", correct: false }
+        - { text: "Merlot", correct: false }
+      explanation: |
+        Australia is particularly associated with sparkling Shiraz. Cabernet
+        Sauvignon and Merlot can also be used, but Shiraz is the benchmark
+        variety for the country’s distinctive sparkling-red tradition.
+
+    fr:
+      question: Quel cépage est le plus étroitement associé aux meilleurs vins rouges effervescents australiens ?
+      choices:
+        - { text: "Shiraz", correct: true }
+        - { text: "Pinot Noir", correct: false }
+        - { text: "Cabernet Sauvignon", correct: false }
+        - { text: "Merlot", correct: false }
+      explanation: |
+        L’Australie est particulièrement associée au Shiraz effervescent. Le
+        Cabernet Sauvignon et le Merlot peuvent également être employés, mais
+        le Shiraz reste la référence de cette tradition australienne distinctive.
+
+  - id: australia-sparkling-red-method-001
+    type: mcq
+    deck: Sparkling Wines
+    tags: [sparkling, australia, red, production]
+    status: reviewed
+    source_id: c42-0115
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How does production method commonly differ by quality level in Australian sparkling red wine?
+      choices:
+        - { text: "Entry wines use tank or carbonation; premium wines use transfer or traditional method", correct: true }
+        - { text: "Entry wines use traditional method; premium wines use tank or carbonation", correct: false }
+        - { text: "Entry wines use transfer method; premium wines use only carbonation", correct: false }
+        - { text: "Entry wines use ancestral method; premium wines use continuous method", correct: false }
+      explanation: |
+        The more labour-intensive methods can add finer mousse and lees-derived
+        complexity. Method alone does not guarantee quality, but it often tracks
+        the intended price and style.
+
+    fr:
+      question: Comment la méthode d’élaboration varie-t-elle généralement selon le niveau de qualité des rouges effervescents australiens ?
+      choices:
+        - { text: "Cuve close ou gazéification en entrée de gamme ; transfert ou méthode traditionnelle en haut de gamme", correct: true }
+        - { text: "Méthode traditionnelle en entrée de gamme ; cuve close ou gazéification en haut de gamme", correct: false }
+        - { text: "Méthode par transfert en entrée de gamme ; uniquement gazéification en haut de gamme", correct: false }
+        - { text: "Méthode ancestrale en entrée de gamme ; méthode continue en haut de gamme", correct: false }
+      explanation: |
+        Les méthodes demandant davantage de travail peuvent apporter une mousse
+        plus fine et une complexité issue des lies. La méthode ne garantit pas
+        seule la qualité, mais elle correspond souvent au prix et au style visés.
+
+  - id: australia-sparkling-red-style-001
+    type: mcq
+    deck: Sparkling Wines
+    tags: [sparkling, australia, red, style]
+    status: reviewed
+    source_id: c42-0117
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which profile best fits traditional Australian sparkling Shiraz?
+      choices:
+        - { text: "Full body, ripe dark or red fruit, smooth tannin and some sweetness", correct: true }
+        - { text: "Light body, citrus fruit, high acidity and no perceptible tannin", correct: false }
+        - { text: "Medium body, green apple, floral aromas and a bone-dry finish", correct: false }
+        - { text: "Full body, oxidative nuts, high tannin and complete absence of fruit", correct: false }
+      explanation: |
+        Residual sugar can soften the impression of tannin and complement ripe
+        Shiraz fruit. Premium examples may add savoury, spicy and mature notes
+        without losing their red-wine structure.
+
+    fr:
+      question: Quel profil décrit le mieux un Shiraz effervescent australien traditionnel ?
+      choices:
+        - { text: "Corps ample, fruits rouges ou noirs mûrs, tanins souples et une certaine douceur", correct: true }
+        - { text: "Corps léger, agrumes, acidité élevée et absence de tanins perceptibles", correct: false }
+        - { text: "Corps moyen, pomme verte, arômes floraux et finale très sèche", correct: false }
+        - { text: "Corps ample, fruits à coque oxydatifs, tanins élevés et absence totale de fruit", correct: false }
+      explanation: |
+        Le sucre résiduel peut adoucir la perception des tanins et accompagner
+        le fruit mûr du Shiraz. Les meilleurs exemples peuvent développer des
+        notes épicées, savoureuses et évoluées sans perdre leur structure de vin rouge.
+
+  - id: new-zealand-sparkling-climate-001
+    type: mcq
+    deck: Sparkling Wines
+    tags: [sparkling, new-zealand, climate]
+    status: reviewed
+    source_id: c42-0119
+    review:
+      fact_check: pass
+      sources: [aoc-site]
+    en:
+      question: Why can New Zealand produce elegant traditional-method sparkling wine?
+      choices:
+        - { text: "Cool maritime conditions allow slow ripening while preserving acidity", correct: true }
+        - { text: "Warm maritime conditions allow rapid ripening while reducing acidity", correct: false }
+        - { text: "Cool continental conditions shorten ripening and prevent flavour development", correct: false }
+        - { text: "Warm continental conditions build sugar while preserving acidity through dry air", correct: false }
+      explanation: |
+        New Zealand’s southerly position, ocean influence and abundant sunshine
+        can combine ripe, precise fruit with naturally high acidity. Site and
+        region still create meaningful differences.
+
+    fr:
+      question: Pourquoi la Nouvelle-Zélande peut-elle produire d’élégants effervescents de méthode traditionnelle ?
+      choices:
+        - { text: "Le climat maritime frais permet une maturation lente tout en préservant l’acidité", correct: true }
+        - { text: "Le climat maritime chaud permet une maturation rapide tout en réduisant l’acidité", correct: false }
+        - { text: "Le climat continental frais raccourcit la maturation et empêche le développement des arômes", correct: false }
+        - { text: "Le climat continental chaud accumule le sucre tout en préservant l’acidité grâce à l’air sec", correct: false }
+      explanation: |
+        La latitude méridionale, l’influence océanique et l’ensoleillement
+        abondant peuvent associer un fruit mûr et précis à une acidité
+        naturellement élevée. Le terroir et la région créent néanmoins des
+        différences importantes.
+
+  - id: new-zealand-sparkling-classic-001
+    type: mcq
+    deck: Sparkling Wines
+    tags: [sparkling, new-zealand, grapes, production]
+    status: reviewed
+    source_id: c42-0118
+    review:
+      fact_check: pass
+      sources: [aoc-site]
+    en:
+      question: Which combination defines most premium New Zealand sparkling wine?
+      choices:
+        - { text: "Traditional method with Pinot Noir and Chardonnay", correct: true }
+        - { text: "Tank method with Sauvignon Blanc and Riesling", correct: false }
+        - { text: "Transfer method with Syrah and Cabernet Sauvignon", correct: false }
+        - { text: "Carbonation with Pinot Gris and Gewurztraminer", correct: false }
+      explanation: |
+        Pinot Noir and Chardonnay dominate, sometimes with a little Meunier.
+        Producers make non-vintage, vintage, rosé, Blanc de Blancs and Blanc de
+        Noirs styles, alongside less traditional alternatives.
+
+    fr:
+      question: Quelle association définit la plupart des effervescents néo-zélandais haut de gamme ?
+      choices:
+        - { text: "Méthode traditionnelle avec Pinot Noir et Chardonnay", correct: true }
+        - { text: "Méthode en cuve close avec Sauvignon Blanc et Riesling", correct: false }
+        - { text: "Méthode par transfert avec Syrah et Cabernet Sauvignon", correct: false }
+        - { text: "Gazéification avec Pinot Gris et Gewurztraminer", correct: false }
+      explanation: |
+        Pinot Noir et Chardonnay dominent, parfois complétés d’un peu de
+        Meunier. Les producteurs élaborent des styles non millésimés, millésimés,
+        rosés, Blanc de Blancs et Blanc de Noirs, aux côtés d’options moins classiques.
+
+  - id: new-zealand-sparkling-marlborough-001
+    type: mcq
+    deck: Sparkling Wines
+    tags: [sparkling, new-zealand, geography]
+    status: reviewed
+    source_id: c42-0122
+    review:
+      fact_check: pass
+      sources: [aoc-site]
+    en:
+      question: Which region is New Zealand’s principal sparkling-wine stronghold?
+      choices:
+        - { text: "Marlborough", correct: true }
+        - { text: "Central Otago", correct: false }
+        - { text: "Hawke’s Bay", correct: false }
+        - { text: "Gisborne", correct: false }
+      explanation: |
+        Marlborough supplies a significant share of national sparkling
+        production. Its cool climate, high sunshine and established Chardonnay
+        and Pinot Noir plantings suit crisp, fruit-defined base wines.
+
+    fr:
+      question: Quelle région constitue le principal centre néo-zélandais des vins effervescents ?
+      choices:
+        - { text: "Marlborough", correct: true }
+        - { text: "Central Otago", correct: false }
+        - { text: "Hawke’s Bay", correct: false }
+        - { text: "Gisborne", correct: false }
+      explanation: |
+        Marlborough fournit une part importante de la production nationale
+        d’effervescents. Son climat frais, son fort ensoleillement et ses
+        plantations établies de Chardonnay et de Pinot Noir conviennent à des
+        vins de base vifs et fruités.
+
+  - id: new-zealand-sparkling-regional-blends-001
+    type: mcq
+    deck: Sparkling Wines
+    tags: [sparkling, new-zealand, blending, climate]
+    status: reviewed
+    source_id: c42-0123
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Why might a New Zealand sparkling producer blend fruit from different regions?
+      choices:
+        - { text: "To combine riper weight from warmer sites with acidity from cooler sites", correct: true }
+        - { text: "To reinforce one regional profile while still making a single-region claim", correct: false }
+        - { text: "To replace lees ageing by combining tank-fermented and bottle-fermented wines", correct: false }
+        - { text: "To lower acidity by blending only cool-climate South Island parcels", correct: false }
+      explanation: |
+        Warmer northern sites can contribute breadth and fruit, while cooler
+        southern sites can bring freshness and structure. Cross-regional
+        blending is one tool; many producers instead foreground one region.
+
+    fr:
+      question: Pourquoi un producteur néo-zélandais d’effervescents peut-il assembler des raisins de différentes régions ?
+      choices:
+        - { text: "Pour associer l’ampleur de sites plus chauds à l’acidité de sites plus frais", correct: true }
+        - { text: "Pour renforcer un profil régional tout en revendiquant une seule région", correct: false }
+        - { text: "Pour remplacer l’élevage sur lies en réunissant vins de cuve et vins fermentés en bouteille", correct: false }
+        - { text: "Pour réduire l’acidité en assemblant uniquement des parcelles fraîches de l’île du Sud", correct: false }
+      explanation: |
+        Les terroirs plus chauds du nord peuvent apporter ampleur et fruit,
+        tandis que ceux du sud fournissent fraîcheur et structure. L’assemblage
+        interrégional est un outil parmi d’autres ; beaucoup de producteurs
+        préfèrent mettre en avant une seule région.
+
+  - id: new-zealand-sparkling-sauvignon-001
+    type: mcq
+    deck: Sparkling Wines
+    tags: [sparkling, new-zealand, sauvignon-blanc, production]
+    status: reviewed
+    source_id: c42-0125
+    review:
+      fact_check: pass
+      sources: [aoc-site]
+    en:
+      question: Why is sparkling New Zealand Sauvignon Blanc commonly made by tank method or carbonation?
+      choices:
+        - { text: "To preserve the variety’s intense primary fruit and herbaceous aromas", correct: true }
+        - { text: "To maximise prolonged lees contact and make biscuit aromas dominant", correct: false }
+        - { text: "To soften acidity through malolactic conversion during long bottle ageing", correct: false }
+        - { text: "To build oxidative breadth through oak maturation before bottle fermentation", correct: false }
+      explanation: |
+        Efficient methods keep the style aromatic and youthful. Traditional
+        method is possible, but long lees ageing can compete with the vivid
+        varietal character that this style is designed to show.
+
+    fr:
+      question: Pourquoi le Sauvignon Blanc effervescent de Nouvelle-Zélande est-il souvent élaboré en cuve close ou par gazéification ?
+      choices:
+        - { text: "Pour préserver les arômes primaires intenses, fruités et herbacés du cépage", correct: true }
+        - { text: "Pour maximiser le long contact avec les lies et rendre dominants les arômes de biscuit", correct: false }
+        - { text: "Pour assouplir l’acidité par fermentation malolactique pendant un long élevage en bouteille", correct: false }
+        - { text: "Pour développer une ampleur oxydative par élevage sous bois avant la fermentation en bouteille", correct: false }
+      explanation: |
+        Ces méthodes efficaces conservent un style aromatique et jeune. La
+        méthode traditionnelle reste possible, mais un long élevage sur lies
+        peut concurrencer le caractère variétal éclatant recherché ici.
+
+  - id: cap-classique-method-001
+    type: mcq
+    deck: Sparkling Wines
+    tags: [sparkling, south-africa, cap-classique, production]
+    status: reviewed
+    source_id: c42-0126
+    review:
+      fact_check: pass
+      sources: [aoc-site]
+    en:
+      question: What production method does the South African term Cap Classique indicate?
+      choices:
+        - { text: "Second fermentation in the same bottle in which the wine is sold", correct: true }
+        - { text: "Second fermentation in tank followed by sterile bottling", correct: false }
+        - { text: "Second fermentation in bottle followed by transfer to a pressure tank", correct: false }
+        - { text: "Direct carbonation of finished wine immediately before bottling", correct: false }
+      explanation: |
+        Cap Classique is South Africa’s protected bottle-fermented sparkling
+        category. The term has been used since 1992 and avoids borrowing the
+        protected Champagne name.
+
+    fr:
+      question: Quelle méthode de production la mention sud-africaine Cap Classique indique-t-elle ?
+      choices:
+        - { text: "Seconde fermentation dans la même bouteille que celle où le vin est commercialisé", correct: true }
+        - { text: "Seconde fermentation en cuve suivie d’une mise en bouteille stérile", correct: false }
+        - { text: "Seconde fermentation en bouteille suivie d’un transfert en cuve sous pression", correct: false }
+        - { text: "Gazéification directe du vin fini juste avant la mise en bouteille", correct: false }
+      explanation: |
+        Cap Classique est la catégorie sud-africaine protégée des effervescents
+        fermentés en bouteille. Le terme est employé depuis 1992 et évite
+        d’emprunter le nom protégé Champagne.
+
+  - id: cap-classique-grapes-001
+    type: mcq
+    deck: Sparkling Wines
+    tags: [sparkling, south-africa, cap-classique, grapes]
+    status: reviewed
+    source_id: c42-0128
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which grape pair is most closely associated with premium South African Cap Classique?
+      choices:
+        - { text: "Chardonnay and Pinot Noir", correct: true }
+        - { text: "Chenin Blanc and Pinotage", correct: false }
+        - { text: "Sauvignon Blanc and Cabernet Sauvignon", correct: false }
+        - { text: "Colombard and Shiraz", correct: false }
+      explanation: |
+        Chardonnay and Pinot Noir lead the premium category, although Cap
+        Classique may be made from other varieties. Chenin Blanc and Pinotage
+        can give distinctively South African interpretations.
+
+    fr:
+      question: Quel duo de cépages est le plus étroitement associé aux meilleurs Cap Classique sud-africains ?
+      choices:
+        - { text: "Chardonnay et Pinot Noir", correct: true }
+        - { text: "Chenin Blanc et Pinotage", correct: false }
+        - { text: "Sauvignon Blanc et Cabernet Sauvignon", correct: false }
+        - { text: "Colombard et Shiraz", correct: false }
+      explanation: |
+        Chardonnay et Pinot Noir dominent le haut de gamme, bien que le Cap
+        Classique puisse employer d’autres cépages. Chenin Blanc et Pinotage
+        peuvent donner des interprétations spécifiquement sud-africaines.
+
+  - id: cap-classique-site-selection-001
+    type: mcq
+    deck: Sparkling Wines
+    tags: [sparkling, south-africa, cap-classique, climate]
+    status: reviewed
+    source_id: c42-0129
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which South African sites best help grapes retain acidity for premium sparkling wine?
+      choices:
+        - { text: "Coastal sites and cooler south- or south-east-facing slopes", correct: true }
+        - { text: "Sheltered inland valley floors with the highest daytime temperatures", correct: false }
+        - { text: "Warm north-facing slopes protected from cooling ocean influence", correct: false }
+        - { text: "Low-elevation sites chosen mainly for rapid sugar accumulation", correct: false }
+      explanation: |
+        In the Southern Hemisphere, slopes facing south receive less intense
+        sun. Elevation and exposure to cold Atlantic or Southern Ocean currents
+        can also slow ripening in an otherwise warm country.
+
+    fr:
+      question: Quels sites sud-africains aident le mieux les raisins à conserver leur acidité pour des effervescents haut de gamme ?
+      choices:
+        - { text: "Les sites côtiers et les pentes plus fraîches exposées au sud ou au sud-est", correct: true }
+        - { text: "Les fonds de vallée intérieurs abrités qui connaissent les températures diurnes les plus élevées", correct: false }
+        - { text: "Les pentes chaudes exposées au nord et protégées de l’influence rafraîchissante de l’océan", correct: false }
+        - { text: "Les sites de basse altitude choisis surtout pour l’accumulation rapide du sucre", correct: false }
+      explanation: |
+        Dans l’hémisphère Sud, les pentes orientées au sud reçoivent un soleil
+        moins intense. L’altitude et l’exposition aux courants froids de
+        l’Atlantique ou de l’océan Austral peuvent aussi ralentir la maturation
+        dans un pays par ailleurs chaud.
+
+  - id: cap-classique-origin-001
+    type: mcq
+    deck: Sparkling Wines
+    tags: [sparkling, south-africa, cap-classique, geography]
+    status: reviewed
+    source_id: c42-0127
+    review:
+      fact_check: pass
+      sources: [aoc-site]
+    en:
+      question: Which statement best describes the origin of grapes for Cap Classique?
+      choices:
+        - { text: "They may be sourced from suitable regions across the Western Cape and beyond", correct: true }
+        - { text: "They must all come from one delimited Cap Classique appellation near Cape Town", correct: false }
+        - { text: "They must all come from south-facing vineyards in Stellenbosch", correct: false }
+        - { text: "They may come from any country if the wine is bottled in South Africa", correct: false }
+      explanation: |
+        Cap Classique identifies a production method, not one small geographical
+        appellation. Producers select cooler pockets in regions such as
+        Stellenbosch, Robertson and the Cape South Coast.
+
+    fr:
+      question: Quelle affirmation décrit correctement l’origine des raisins destinés au Cap Classique ?
+      choices:
+        - { text: "Ils peuvent provenir de régions adaptées dans tout le Cap-Occidental et au-delà", correct: true }
+        - { text: "Ils doivent tous provenir d’une seule appellation Cap Classique délimitée près du Cap", correct: false }
+        - { text: "Ils doivent tous provenir de vignes de Stellenbosch exposées au sud", correct: false }
+        - { text: "Ils peuvent provenir de n’importe quel pays si le vin est mis en bouteille en Afrique du Sud", correct: false }
+      explanation: |
+        Cap Classique désigne une méthode de production, non une petite
+        appellation géographique. Les producteurs recherchent des poches de
+        fraîcheur dans des régions comme Stellenbosch, Robertson et Cape South Coast.
+
+  - id: cap-classique-minimum-lees-001
+    type: mcq
+    deck: Sparkling Wines
+    tags: [sparkling, south-africa, cap-classique, ageing, law]
+    status: reviewed
+    source_id: c42-0133
+    review:
+      fact_check: pass
+      sources: [aoc-site]
+    en:
+      question: What is the current minimum time on lees for Cap Classique?
+      choices:
+        - { text: "12 months", correct: true }
+        - { text: "Nine months", correct: false }
+        - { text: "18 months", correct: false }
+        - { text: "30 months", correct: false }
+      explanation: |
+        The legal minimum rose from nine to **12 months** in 2021. Many premium
+        producers age longer; competition categories commonly distinguish wines
+        above and below 30 months on lees.
+
+    fr:
+      question: Quelle est la durée minimale actuelle d’élevage sur lies d’un Cap Classique ?
+      choices:
+        - { text: "12 mois", correct: true }
+        - { text: "Neuf mois", correct: false }
+        - { text: "18 mois", correct: false }
+        - { text: "30 mois", correct: false }
+      explanation: |
+        Le minimum légal est passé de neuf à **12 mois** en 2021. De nombreux
+        producteurs haut de gamme prolongent cet élevage ; les catégories de
+        concours distinguent souvent les vins élevés moins ou plus de 30 mois sur lies.
+
+  - id: south-africa-sparkling-segments-001
+    type: mcq
+    deck: Sparkling Wines
+    tags: [sparkling, south-africa, style, production]
+    status: reviewed
+    source_id: c42-0134
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: How does inexpensive South African sparkling wine commonly differ from Cap Classique?
+      choices:
+        - { text: "It may be sweeter and carbonated rather than bottle-fermented", correct: true }
+        - { text: "It must be drier and spend longer on lees before release", correct: false }
+        - { text: "It must use only Chardonnay from one cool coastal vineyard", correct: false }
+        - { text: "It requires a stated vintage and traditional bottle fermentation", correct: false }
+      explanation: |
+        South Africa serves more than one market. Cap Classique signals the
+        traditional method, while inexpensive sparkling wine may prioritise
+        fruit, sweetness and efficient production.
+
+    fr:
+      question: Comment un effervescent sud-africain bon marché diffère-t-il souvent d’un Cap Classique ?
+      choices:
+        - { text: "Il peut être plus doux et gazéifié plutôt que fermenté en bouteille", correct: true }
+        - { text: "Il doit être plus sec et passer plus longtemps sur lies avant sa commercialisation", correct: false }
+        - { text: "Il doit employer uniquement du Chardonnay issu d’un seul vignoble côtier frais", correct: false }
+        - { text: "Il exige un millésime indiqué et une fermentation traditionnelle en bouteille", correct: false }
+      explanation: |
+        L’Afrique du Sud répond à plusieurs marchés. Cap Classique signale la
+        méthode traditionnelle, tandis qu’un effervescent bon marché peut
+        privilégier le fruit, la douceur et une production efficace.
+
+  - id: california-sparkling-centre-001
+    type: mcq
+    deck: Sparkling Wines
+    tags: [sparkling, usa, california, geography]
+    status: reviewed
+    source_id: c42-0135
+    review:
+      fact_check: pass
+      sources: [aoc-site]
+    en:
+      question: Which US state is the principal centre of domestic sparkling-wine production?
+      choices:
+        - { text: "California", correct: true }
+        - { text: "Oregon", correct: false }
+        - { text: "Washington", correct: false }
+        - { text: "New York", correct: false }
+      explanation: |
+        Sparkling wine is made across the United States, and quality production
+        is not exclusive to California. California nevertheless supplies the
+        broadest range and largest established industry.
+
+    fr:
+      question: Quel État constitue le principal centre de production de vins effervescents aux États-Unis ?
+      choices:
+        - { text: "Californie", correct: true }
+        - { text: "Oregon", correct: false }
+        - { text: "Washington", correct: false }
+        - { text: "New York", correct: false }
+      explanation: |
+        Des effervescents sont produits dans l’ensemble des États-Unis et la
+        qualité n’est pas l’apanage de la Californie. Celle-ci offre néanmoins
+        la gamme la plus large et la filière établie la plus importante.
+
+  - id: california-sparkling-cool-avas-001
+    type: mcq
+    deck: Sparkling Wines
+    tags: [sparkling, usa, california, geography, climate]
+    status: reviewed
+    source_id: c42-0136
+    review:
+      fact_check: pass
+      sources: [aoc-site]
+    en:
+      question: Which pair of California AVAs has a strong reputation for cool-climate sparkling wine?
+      choices:
+        - { text: "Los Carneros and Anderson Valley", correct: true }
+        - { text: "Lodi and Paso Robles", correct: false }
+        - { text: "Calistoga and Livermore Valley", correct: false }
+        - { text: "Temecula Valley and Coombsville", correct: false }
+      explanation: |
+        San Pablo Bay fog and wind moderate Los Carneros, while Anderson Valley
+        is cooled by its proximity to the Mendocino coast. Both retain acidity
+        in Chardonnay and Pinot Noir.
+
+    fr:
+      question: Quel duo d’AVA californiennes est réputé pour ses effervescents de climat frais ?
+      choices:
+        - { text: "Los Carneros et Anderson Valley", correct: true }
+        - { text: "Lodi et Paso Robles", correct: false }
+        - { text: "Calistoga et Livermore Valley", correct: false }
+        - { text: "Temecula Valley et Coombsville", correct: false }
+      explanation: |
+        Le brouillard et les vents de la baie de San Pablo tempèrent Los
+        Carneros, tandis qu’Anderson Valley bénéficie de la proximité de la
+        côte de Mendocino. Les deux régions préservent l’acidité du Chardonnay
+        et du Pinot Noir.
+
+  - id: california-premium-sparkling-001
+    type: mcq
+    deck: Sparkling Wines
+    tags: [sparkling, usa, california, grapes, production]
+    status: reviewed
+    source_id: c42-0137
+    review:
+      fact_check: pass
+      sources: [aoc-site]
+    en:
+      question: Which combination is most typical of premium California sparkling wine?
+      choices:
+        - { text: "Traditional method with Chardonnay and Pinot Noir", correct: true }
+        - { text: "Tank method with Chenin Blanc and Colombard", correct: false }
+        - { text: "Transfer method with Cabernet Sauvignon and Merlot", correct: false }
+        - { text: "Carbonation with Zinfandel and Petite Sirah", correct: false }
+      explanation: |
+        Cool-climate Chardonnay and Pinot Noir can give concentrated fruit with
+        fresh acidity. Bottle fermentation and lees ageing add fine bubbles,
+        texture and subtle brioche or toasted-almond character.
+
+    fr:
+      question: Quelle association est la plus typique des effervescents californiens haut de gamme ?
+      choices:
+        - { text: "Méthode traditionnelle avec Chardonnay et Pinot Noir", correct: true }
+        - { text: "Méthode en cuve close avec Chenin Blanc et Colombard", correct: false }
+        - { text: "Méthode par transfert avec Cabernet Sauvignon et Merlot", correct: false }
+        - { text: "Gazéification avec Zinfandel et Petite Sirah", correct: false }
+      explanation: |
+        Chardonnay et Pinot Noir de climat frais peuvent associer fruit
+        concentré et acidité vive. La fermentation en bouteille et l’élevage
+        sur lies ajoutent bulles fines, texture et délicates notes de brioche
+        ou d’amande grillée.
+
+  - id: california-premium-lees-ageing-001
+    type: mcq
+    deck: Sparkling Wines
+    tags: [sparkling, usa, california, ageing, style]
+    status: reviewed
+    source_id: c42-0138
+    review:
+      fact_check: pass
+      sources: [aoc-site]
+    en:
+      question: What does extended lees ageing add to premium California sparkling wine?
+      choices:
+        - { text: "Autolytic complexity and texture alongside concentrated fruit and acidity", correct: true }
+        - { text: "Higher grape tannin and deeper colour alongside lower bottle pressure", correct: false }
+        - { text: "More primary floral aroma and less texture alongside sweeter fruit", correct: false }
+        - { text: "Greater oxidation and volatility alongside deliberately coarse bubbles", correct: false }
+      explanation: |
+        Several premium producers cellar traditional-method wines for years;
+        five years is possible but not a legal norm. Time on lees can add toast,
+        brioche and creaminess without erasing ripe Californian fruit.
+
+    fr:
+      question: Qu’apporte un élevage prolongé sur lies à un effervescent californien haut de gamme ?
+      choices:
+        - { text: "Complexité autolytique et texture, aux côtés d’un fruit concentré et d’une acidité vive", correct: true }
+        - { text: "Davantage de tanins du raisin et une couleur plus profonde, avec une pression plus faible", correct: false }
+        - { text: "Plus d’arômes floraux primaires et moins de texture, avec un fruit plus doux", correct: false }
+        - { text: "Une oxydation et une volatilité accrues, avec des bulles volontairement grossières", correct: false }
+      explanation: |
+        Plusieurs producteurs haut de gamme gardent leurs vins de méthode
+        traditionnelle en cave pendant des années ; cinq ans sont possibles,
+        mais ne constituent pas une norme légale. Le temps sur lies apporte
+        pain grillé, brioche et onctuosité sans effacer le fruit mûr californien.
+
+  - id: california-value-sparkling-001
+    type: mcq
+    deck: Sparkling Wines
+    tags: [sparkling, usa, california, production, style]
+    status: reviewed
+    source_id: c42-0140
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which profile best fits high-volume California sparkling wine from warm, high-yielding regions?
+      choices:
+        - { text: "Fruit-driven, sometimes sweet, and made by tank method or carbonation", correct: true }
+        - { text: "Dry, autolytic and made by traditional method from cool coastal fruit", correct: false }
+        - { text: "Aromatic, off-dry and made by transfer method from cool-region grapes", correct: false }
+        - { text: "Rich, red-fruited and made by traditional method from inland Shiraz", correct: false }
+      explanation: |
+        California spans both premium coastal and high-volume inland segments.
+        Warm-region fruit and efficient sparkling methods can produce accessible
+        wines across a range of varieties and sweetness levels.
+
+    fr:
+      question: Quel profil correspond le mieux aux effervescents californiens de gros volume issus de régions chaudes et productives ?
+      choices:
+        - { text: "Fruités, parfois doux, et produits à grande échelle en cuve close ou par gazéification", correct: true }
+        - { text: "Secs, autolytiques, et élaborés par méthode traditionnelle avec des raisins côtiers frais", correct: false }
+        - { text: "Aromatiques, demi-secs, et élaborés par transfert avec des raisins de région fraîche", correct: false }
+        - { text: "Riches, marqués par les fruits rouges, et élaborés par méthode traditionnelle avec du Shiraz de l’intérieur", correct: false }
+      explanation: |
+        La Californie réunit un segment côtier haut de gamme et un segment
+        intérieur de gros volume. Les raisins de régions chaudes et les méthodes
+        efficaces permettent des vins accessibles dans une large gamme de
+        cépages et de niveaux de douceur.
