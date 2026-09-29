@@ -900,7 +900,49 @@ chapters:
       burgundy-gc-share-001: { isolation: pass, credibility: revised, length: revised, why: revised, sense: revised, status: agent-fixed, human: pending }
       burgundy-gc-count-001: { isolation: revised, credibility: revised, length: revised, why: revised, sense: revised, status: agent-fixed, human: pending }
       burgundy-gc-label-001: { isolation: pass, credibility: revised, length: revised, why: pass, sense: revised, status: agent-fixed, human: pending }
-  c16-beaujolais: { file: cards/c16-beaujolais.yaml, status: pending }
+  c16-beaujolais:
+    file: cards/c16-beaujolais.yaml
+    status: awaiting-human
+    agent_wave: 2026-09-29
+    counts: { cards: 31, agent_fixed: 31, agent_pass: 0, human_ok: 0 }
+    note: >
+      Passe adversariale complète et traduction française intégrale. Correction du
+      profil structurel du Gamay, nuance de la mosaïque de sols, recadrage de la
+      géographie Beaujolais/Villages/crus et remplacement de l’opposition trompeuse
+      « crus en raisins foulés contre Nouveau carbonique » par les durées de macération
+      officielles. Vérification auprès de l’INAO et d’Inter Beaujolais.
+    cards:
+      beaujolais-climate-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      beaujolais-gamay-early-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      beaujolais-gamay-yield-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      beaujolais-granite-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      beaujolais-gobelet-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      beaujolais-gobelet-form-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      beaujolais-mechanisation-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      beaujolais-gamay-profile-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      beaujolais-hierarchy-count-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      beaujolais-hierarchy-top-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      beaujolais-generic-plain-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      beaujolais-carbonic-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      beaujolais-nouveau-plain-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      beaujolais-nouveau-purpose-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      beaujolais-nouveau-release-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      beaujolais-nouveau-deadline-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      beaujolais-nouveau-tier-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      beaujolais-nouveau-aroma-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      beaujolais-villages-location-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      beaujolais-villages-hills-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      beaujolais-villages-count-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      beaujolais-villages-blend-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      beaujolais-cru-count-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      beaujolais-volume-crus-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      beaujolais-structure-crus-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      beaujolais-ageing-crus-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      beaujolais-light-crus-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      beaujolais-crushed-fruit-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      beaujolais-oak-vessel-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      beaujolais-oak-why-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      beaujolais-whole-bunch-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
   c17-alsace:
     file: cards/c17-alsace.yaml
     status: awaiting-human
