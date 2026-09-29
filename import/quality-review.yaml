@@ -22,7 +22,7 @@
 # Agents : mettre à jour ce fichier après chaque lot (voir STUDY_CARD_QUALITY.md).
 # Lots ≤ 40 cartes. Un chapitre à la fois.
 
-updated: 2026-09-28
+updated: 2026-09-29
 
 chapters:
   c13-bordeaux:
@@ -773,7 +773,7 @@ chapters:
   c15-burgundy:
     file: cards/c15-burgundy.yaml
     status: awaiting-human
-    agent_wave: 2026-09-28
+    agent_wave: 2026-09-29
     counts:
       cards: 115
       agent_fixed: 115
@@ -911,3 +911,77 @@ chapters:
   c25-greece: { file: cards/c25-greece.yaml, status: pending }
   c26-italy-introduction: { file: cards/c26-italy-introduction.yaml, status: pending }
   c32-usa-introduction: { file: cards/c32-usa-introduction.yaml, status: pending }
+  c41-sparkling-production:
+    file: cards/c41-sparkling-production.yaml
+    status: awaiting-human
+    agent_wave: 2026-09-28
+    counts:
+      cards: 57
+      agent_fixed: 57
+      agent_pass: 0
+      human_ok: 0
+    note: >
+      Les 109 notes sources ont été regroupées en 57 cartes anglaises
+      autonomes, puis traduites et relues en français. Les choix restent
+      alignés entre les deux langues ; les doublons et micro-notes ont été
+      fusionnés dans des explications utiles. Passe factuelle et difficulté
+      du 2026-09-29 : règles UE, Champagne et Asti actualisées ; leurres trop
+      faciles et réponses trop longues repris.
+    cards:
+      sparkling-grape-profile-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      sparkling-cool-climate-001: { isolation: pass, credibility: revised, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      sparkling-warm-region-pick-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      sparkling-harvest-method-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      sparkling-pressing-gentle-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      sparkling-pressing-law-001: { isolation: revised, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      sparkling-five-methods-001: { isolation: pass, credibility: pass, length: pass, why: revised, sense: pass, status: agent-fixed, human: pending }
+      sparkling-method-choice-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      sparkling-traditional-definition-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      sparkling-traditional-economics-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      sparkling-traditional-sequence-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      sparkling-base-fermentation-vessel-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      sparkling-base-wine-profile-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      sparkling-base-wine-options-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      sparkling-reserve-wine-use-001: { isolation: pass, credibility: revised, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      sparkling-blending-goals-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      sparkling-chardonnay-pinot-blend-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      sparkling-old-reserve-flavour-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      sparkling-oak-component-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      sparkling-parcel-fermentation-001: { isolation: pass, credibility: revised, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      sparkling-tirage-contents-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      sparkling-second-fermentation-setup-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      sparkling-second-fermentation-result-001: { isolation: pass, credibility: revised, length: revised, why: pass, sense: pass, status: agent-fixed, human: pending }
+      sparkling-autolysis-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      sparkling-inert-lees-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      sparkling-riddling-purpose-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      sparkling-hand-riddling-001: { isolation: pass, credibility: pass, length: pass, why: revised, sense: pass, status: agent-fixed, human: pending }
+      sparkling-gyropalette-001: { isolation: pass, credibility: pass, length: pass, why: revised, sense: pass, status: agent-fixed, human: pending }
+      sparkling-disgorgement-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      sparkling-expedition-liqueur-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      sparkling-zero-dosage-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      sparkling-post-disgorgement-closure-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      sparkling-cork-security-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      sparkling-post-disgorgement-ageing-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      sparkling-disgorgement-date-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      sparkling-transfer-purpose-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      sparkling-transfer-sequence-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      sparkling-transfer-economics-001: { isolation: pass, credibility: revised, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      sparkling-transfer-label-001: { isolation: revised, credibility: pass, length: pass, why: pass, sense: revised, status: agent-fixed, human: pending }
+      sparkling-tank-style-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      sparkling-tank-quality-001: { isolation: pass, credibility: revised, length: revised, why: pass, sense: revised, status: agent-fixed, human: pending }
+      sparkling-tank-base-treatment-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      sparkling-tank-second-fermentation-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      sparkling-tank-autolysis-001: { isolation: pass, credibility: revised, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      sparkling-asti-definition-001: { isolation: revised, credibility: revised, length: pass, why: revised, sense: revised, status: agent-fixed, human: pending }
+      sparkling-asti-process-001: { isolation: revised, credibility: pass, length: pass, why: revised, sense: revised, status: agent-fixed, human: pending }
+      sparkling-carbonation-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      sparkling-eu-sweetness-label-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      sparkling-sweetness-order-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      sparkling-non-vintage-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      sparkling-champagne-vintage-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      sparkling-vintage-rules-001: { isolation: pass, credibility: pass, length: pass, why: revised, sense: revised, status: agent-fixed, human: pending }
+      sparkling-champagne-vintage-premium-001: { isolation: revised, credibility: revised, length: pass, why: pass, sense: revised, status: agent-fixed, human: pending }
+      sparkling-rose-production-001: { isolation: pass, credibility: pass, length: pass, why: revised, sense: revised, status: agent-fixed, human: pending }
+      sparkling-blanc-de-blancs-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      sparkling-blanc-de-noirs-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      sparkling-prestige-cuvee-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }

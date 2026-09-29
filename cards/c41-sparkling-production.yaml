@@ -25,6 +25,19 @@ cards:
         freshness, but flavour ripeness still matters: picking too early can
         leave overtly green notes.
 
+    fr:
+      question: Quel profil de raisin convient le mieux à un vin effervescent frais et de grande qualité ?
+      choices:
+        - { text: "Beaucoup de sucre, peu d’acidité et des arômes confiturés", correct: false }
+        - { text: "Peu de sucre, beaucoup d’acidité et des arômes mûrs sans caractère herbacé", correct: true }
+        - { text: "Beaucoup de sucre, beaucoup de tanins et des arômes de fruits secs", correct: false }
+        - { text: "Peu de sucre, peu d’acidité et des arômes très végétaux", correct: false }
+      explanation: |
+        Un vin de base tranquille titre généralement autour de **10–11 % vol.**,
+        car la seconde fermentation ajoute environ **1,2–1,3 % vol.** L’acidité
+        apporte de la fraîcheur, mais la maturité aromatique reste essentielle :
+        une vendange trop précoce peut laisser des notes franchement végétales.
+
   - id: sparkling-cool-climate-001
     type: mcq
     deck: Sparkling Production
@@ -40,11 +53,24 @@ cards:
         - { text: "They preserve acidity while flavours ripen gradually", correct: true }
         - { text: "They lower acidity while flavours ripen gradually", correct: false }
         - { text: "They raise sugar rapidly while delaying flavour ripeness", correct: false }
-        - { text: "They develop ripe flavours only after acidity is lost", correct: false }
+        - { text: "They preserve acidity but keep flavours persistently herbaceous", correct: false }
       explanation: |
         Slow ripening gives growers a wider window in which sugar remains
         moderate and acidity stays high while unripe flavours diminish. In a
         warm region, sugar can rise and acidity can fall much faster.
+
+    fr:
+      question: Pourquoi les régions fraîches conviennent-elles souvent aux raisins destinés aux vins effervescents ?
+      choices:
+        - { text: "Elles préservent l’acidité tandis que les arômes mûrissent progressivement", correct: true }
+        - { text: "Elles font baisser l’acidité tandis que les arômes mûrissent progressivement", correct: false }
+        - { text: "Elles font monter rapidement le sucre tout en retardant la maturité aromatique", correct: false }
+        - { text: "Elles préservent l’acidité mais maintiennent durablement des arômes herbacés", correct: false }
+      explanation: |
+        La maturation lente offre une fenêtre plus large pendant laquelle le
+        sucre reste modéré et l’acidité élevée, tandis que les arômes végétaux
+        s’atténuent. En région chaude, le sucre peut monter et l’acidité chuter
+        beaucoup plus rapidement.
 
   - id: sparkling-warm-region-pick-001
     type: mcq
@@ -67,6 +93,18 @@ cards:
         needed for a base wine. The risk is that flavour development lags
         behind those analytical targets.
 
+    fr:
+      question: Lorsque des raisins pour effervescents sont vendangés tôt en région chaude afin de préserver l’acidité, quel est le principal risque ?
+      choices:
+        - { text: "Un degré alcoolique potentiel excessif", correct: false }
+        - { text: "Des arômes verts et herbacés", correct: true }
+        - { text: "Une acidité très faible dans le jus", correct: false }
+        - { text: "Des arômes surmûris et de fruits secs", correct: false }
+      explanation: |
+        Une vendange précoce peut préserver le faible degré potentiel et
+        l’acidité élevée recherchés dans un vin de base. Le risque est que la
+        maturité aromatique n’ait pas encore rattrapé ces paramètres analytiques.
+
   - id: sparkling-harvest-method-001
     type: mcq
     deck: Sparkling Production
@@ -87,6 +125,19 @@ cards:
         Intact bunches and berries help limit skin contact before pressing.
         Machine harvesting can still be an efficient choice for inexpensive
         sparkling wine in warm areas where fruit must be gathered quickly.
+
+    fr:
+      question: Quel mode de vendange est le plus courant pour un effervescent haut de gamme élaboré par méthode traditionnelle ?
+      choices:
+        - { text: "Une vendange mécanique pour ramasser le plus vite possible", correct: false }
+        - { text: "Une vendange manuelle pour livrer des grappes intactes", correct: true }
+        - { text: "Une vendange manuelle tardive pour concentrer le sucre", correct: false }
+        - { text: "Une vendange manuelle ne retenant que les baies les plus mûres", correct: false }
+      explanation: |
+        Des grappes et des baies intactes limitent le contact avec les peaux
+        avant le pressurage. La vendange mécanique peut néanmoins être efficace
+        pour des effervescents bon marché en région chaude, quand il faut
+        ramasser rapidement.
 
   - id: sparkling-pressing-gentle-001
     type: mcq
@@ -109,6 +160,18 @@ cards:
         That is especially important when black grapes are used to make a
         white sparkling wine.
 
+    fr:
+      question: Comment traite-t-on généralement les raisins à leur arrivée pour élaborer un vin de base effervescent blanc ?
+      choices:
+        - { text: "Ils sont foulés, macérés puis pressés à forte pression", correct: false }
+        - { text: "Ils sont pressés rapidement et délicatement, souvent en grappes entières", correct: true }
+        - { text: "Ils sont éraflés puis maintenus au chaud avant le pressurage", correct: false }
+        - { text: "Ils sont séchés après foulage puis pressés plusieurs semaines plus tard", correct: false }
+      explanation: |
+        Un pressurage rapide et délicat limite l’extraction de **couleur et de
+        tanins**. C’est particulièrement important lorsque des raisins noirs
+        servent à produire un vin effervescent blanc.
+
   - id: sparkling-pressing-law-001
     type: mcq
     deck: Sparkling Production
@@ -119,7 +182,7 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What aspect of pressing is commonly regulated for European sparkling wines?
+      question: Which pressing parameter may be limited by a sparkling-wine appellation?
       choices:
         - { text: "The minimum skin-contact time and final juice colour", correct: false }
         - { text: "The maximum pressure and juice yield from a given grape weight", correct: true }
@@ -129,6 +192,19 @@ cards:
         Yield limits discourage hard pressing for extra juice. Later press
         fractions generally contain more phenolics and may be less suitable
         for the finest white sparkling wines.
+
+    fr:
+      question: Quel paramètre de pressurage peut être limité par une appellation de vin effervescent ?
+      choices:
+        - { text: "La durée minimale de macération et la couleur finale du jus", correct: false }
+        - { text: "La pression maximale et le rendement en jus pour un poids donné de raisins", correct: true }
+        - { text: "Le nombre et la durée imposés de chaque cycle de pressurage", correct: false }
+        - { text: "Le type de pressoir autorisé et la part minimale de grappes entières", correct: false }
+      explanation: |
+        Les limites de rendement découragent un pressurage trop poussé pour
+        extraire davantage de jus. Les dernières fractions contiennent
+        généralement plus de composés phénoliques et conviennent moins aux
+        meilleurs effervescents blancs.
 
   - id: sparkling-five-methods-001
     type: mcq
@@ -148,8 +224,20 @@ cards:
         - { text: "Tank method", correct: false }
       explanation: |
         Traditional, transfer, tank and Asti methods all capture carbon
-        dioxide produced by fermentation. Direct carbonation is the fifth
-        principal route and is the only one that injects the gas.
+        dioxide produced by fermentation. Direct carbonation is the route
+        that instead injects the gas into a still wine.
+
+    fr:
+      question: Quelle méthode d’élaboration crée les bulles en injectant du dioxyde de carbone ?
+      choices:
+        - { text: "La gazéification", correct: true }
+        - { text: "La méthode traditionnelle", correct: false }
+        - { text: "La méthode par transfert", correct: false }
+        - { text: "La méthode en cuve close", correct: false }
+      explanation: |
+        Les méthodes traditionnelle, par transfert, en cuve close et Asti
+        captent toutes le dioxyde de carbone produit par une fermentation. La
+        gazéification l’injecte au contraire directement dans un vin tranquille.
 
   - id: sparkling-method-choice-001
     type: mcq
@@ -172,6 +260,18 @@ cards:
         allows a choice, desired flavour, production time, scale and price
         position all influence the decision.
 
+    fr:
+      question: Qu’est-ce qui détermine le plus directement le choix d’une méthode d’élaboration des vins effervescents ?
+      choices:
+        - { text: "Le rendement, l’âge des vignes et la taille de l’équipe de vendange", correct: false }
+        - { text: "La réglementation, le style recherché et le coût de production", correct: true }
+        - { text: "La couleur du vin de base, la pente et la contenance de la bouteille", correct: false }
+        - { text: "La durée du pressurage, l’humidité de la cave et le fournisseur de bouchons", correct: false }
+      explanation: |
+        Une appellation européenne peut imposer une méthode. Lorsque le choix
+        reste libre, le profil aromatique recherché, la durée de production,
+        l’échelle et le positionnement tarifaire entrent aussi en jeu.
+
   - id: sparkling-traditional-definition-001
     type: mcq
     deck: Sparkling Production
@@ -192,6 +292,19 @@ cards:
         The bottle used for the second fermentation remains the final bottle;
         riddling and disgorgement remove its yeast sediment. This labour- and
         time-intensive route is associated with many premium sparkling wines.
+
+    fr:
+      question: Qu’est-ce qui définit la méthode traditionnelle d’élaboration d’un vin effervescent ?
+      choices:
+        - { text: "Le vin est gazéifié juste avant la mise en bouteille", correct: false }
+        - { text: "La seconde fermentation a lieu dans la bouteille ensuite commercialisée", correct: true }
+        - { text: "La seconde fermentation a lieu dans une cuve close sous pression", correct: false }
+        - { text: "Le vin en fermentation est filtré puis transféré dans une autre bouteille", correct: false }
+      explanation: |
+        La bouteille de la seconde fermentation reste la bouteille finale ; le
+        remuage puis le dégorgement permettent d’en retirer le dépôt de levures.
+        Cette voie longue et exigeante en main-d’œuvre est associée à de
+        nombreux effervescents haut de gamme.
 
   - id: sparkling-traditional-economics-001
     type: mcq
@@ -214,6 +327,18 @@ cards:
         capital and add cost. Premium positioning can compensate by allowing
         the finished wines to command higher prices.
 
+    fr:
+      question: Quel compromis économique caractérise généralement la méthode traditionnelle ?
+      choices:
+        - { text: "Un faible coût de production mais peu de maîtrise de la pression", correct: false }
+        - { text: "Des coûts élevés, compensés par un potentiel de prix supérieur", correct: true }
+        - { text: "Une production rapide mais un long élevage en cuve obligatoire", correct: false }
+        - { text: "Peu de main-d’œuvre mais une mise en bouteille manuelle obligatoire", correct: false }
+      explanation: |
+        Le long stockage en cave et l’élimination du dépôt bouteille par
+        bouteille immobilisent du capital et augmentent les coûts. Un
+        positionnement haut de gamme peut les compenser par des prix plus élevés.
+
   - id: sparkling-traditional-sequence-001
     type: mcq
     deck: Sparkling Production
@@ -234,6 +359,18 @@ cards:
         After disgorgement, the bottle is topped up, closed with its final
         cork and may receive further bottle ageing before release.
 
+    fr:
+      question: Quel enchaînement suit correctement la préparation d’un assemblage destiné à la méthode traditionnelle ?
+      choices:
+        - { text: "Remuage → tirage → seconde fermentation → dégorgement", correct: false }
+        - { text: "Tirage → seconde fermentation → élevage sur lies → remuage → dégorgement", correct: true }
+        - { text: "Dégorgement → élevage sur lies → tirage → seconde fermentation", correct: false }
+        - { text: "Seconde fermentation → tirage → remuage → élevage sur lies", correct: false }
+      explanation: |
+        Après le dégorgement, la bouteille est complétée, fermée avec son
+        bouchon définitif puis peut encore vieillir en bouteille avant sa
+        commercialisation.
+
   - id: sparkling-base-fermentation-vessel-001
     type: mcq
     deck: Sparkling Production
@@ -253,6 +390,18 @@ cards:
       explanation: |
         Stainless steel helps retain a neutral, fresh base. Some producers
         ferment a portion in oak vats or barrels to add texture and flavour.
+
+    fr:
+      question: Où se déroule le plus souvent la première fermentation d’un vin de base destiné à la méthode traditionnelle ?
+      choices:
+        - { text: "Dans de grands foudres anciens", correct: false }
+        - { text: "Dans des cuves inox thermorégulées", correct: true }
+        - { text: "Dans de petites barriques neuves", correct: false }
+        - { text: "Dans des cuves en béton thermorégulées", correct: false }
+      explanation: |
+        L’inox aide à préserver un vin de base neutre et frais. Certains
+        producteurs ferment néanmoins une partie de leurs vins en foudres ou
+        en barriques pour apporter texture et arômes.
 
   - id: sparkling-base-wine-profile-001
     type: mcq
@@ -275,6 +424,19 @@ cards:
         lees ageing and dosage later build texture and balance while the
         starting acidity preserves freshness.
 
+    fr:
+      question: Quel est le profil habituel d’un vin de base avant la seconde fermentation en méthode traditionnelle ?
+      choices:
+        - { text: "Doux, aromatique et peu acide", correct: false }
+        - { text: "Sec, assez neutre et doté d’une acidité élevée", correct: true }
+        - { text: "Oxydatif, muté et fortement tannique", correct: false }
+        - { text: "Demi-sec, très coloré et peu alcoolisé", correct: false }
+      explanation: |
+        Le vin de base peut sembler maigre lorsqu’il est dégusté seul. La
+        seconde fermentation, l’élevage sur lies et le dosage développeront
+        ensuite la texture et l’équilibre, tandis que l’acidité initiale
+        préservera la fraîcheur.
+
   - id: sparkling-base-wine-options-001
     type: mcq
     deck: Sparkling Production
@@ -296,6 +458,19 @@ cards:
         oak can contribute texture and spice. Producers may use either,
         both or neither according to the intended style.
 
+    fr:
+      question: Quels choix peuvent façonner un vin de base avant l’assemblage et la seconde fermentation ?
+      choices:
+        - { text: "La fermentation malolactique et l’élevage sous bois", correct: true }
+        - { text: "Le dégorgement et le bouchage définitif", correct: false }
+        - { text: "Le remuage et l’ajout de liqueur d’expédition", correct: false }
+        - { text: "La gazéification et une commercialisation immédiate", correct: false }
+      explanation: |
+        La fermentation malolactique assouplit l’acidité et peut apporter des
+        notes beurrées ; le bois peut donner de la texture et des épices. Le
+        producteur peut retenir l’une de ces options, les deux, ou aucune,
+        selon le style recherché.
+
   - id: sparkling-reserve-wine-use-001
     type: mcq
     deck: Sparkling Production
@@ -311,10 +486,22 @@ cards:
         - { text: "To use it as a reserve component in later blends", correct: true }
         - { text: "To make its acidity increase through bottle pressure", correct: false }
         - { text: "To replace yeast during the next primary fermentation", correct: false }
-        - { text: "To ensure every future wine is vintage-dated", correct: false }
+        - { text: "To make later blends depend on a single harvest", correct: false }
       explanation: |
         Most base wine is used relatively soon, while retained parcels broaden
         the blending palette in later years and help reduce vintage variation.
+
+    fr:
+      question: Pourquoi un producteur conserve-t-il parfois une partie de son vin de base au-delà de l’année suivante ?
+      choices:
+        - { text: "Pour l’utiliser comme vin de réserve dans de futurs assemblages", correct: true }
+        - { text: "Pour augmenter la pression finale grâce au vieillissement", correct: false }
+        - { text: "Pour remplacer les levures lors de la prochaine première fermentation", correct: false }
+        - { text: "Pour faire dépendre les assemblages futurs d’une seule récolte", correct: false }
+      explanation: |
+        La plupart des vins de base sont utilisés assez rapidement, tandis que
+        les lots conservés élargissent la palette d’assemblage des années
+        suivantes et atténuent les variations entre millésimes.
 
   - id: sparkling-blending-goals-001
     type: mcq
@@ -337,6 +524,19 @@ cards:
         treatments. This is particularly important when a recognisable house
         style must be maintained despite annual variation.
 
+    fr:
+      question: Quels sont les principaux objectifs de l’assemblage des vins de base destinés aux effervescents ?
+      choices:
+        - { text: "Plus de pression, une couleur plus sombre et davantage de sucre", correct: false }
+        - { text: "Un style régulier, un meilleur équilibre et plus de complexité", correct: true }
+        - { text: "Moins d’acidité, une vendange plus rapide et une bouteille plus légère", correct: false }
+        - { text: "Un dégorgement plus précoce, plus de tanins et un rendement supérieur", correct: false }
+      explanation: |
+        Le producteur peut combiner cépages, origines, années et choix de
+        vinification. C’est particulièrement important lorsqu’il cherche à
+        maintenir un style maison reconnaissable malgré la variation des
+        millésimes.
+
   - id: sparkling-chardonnay-pinot-blend-001
     type: mcq
     deck: Sparkling Production
@@ -357,6 +557,18 @@ cards:
         Chardonnay is also associated with longevity, while Pinot Noir can
         strengthen structure. These are useful blending tendencies rather
         than fixed outcomes for every parcel.
+
+    fr:
+      question: Quelle contribution associe-t-on traditionnellement au Chardonnay et au Pinot Noir dans un assemblage effervescent ?
+      choices:
+        - { text: "Chardonnay : fruits rouges et corps ; Pinot Noir : agrumes et finesse", correct: false }
+        - { text: "Chardonnay : agrumes et finesse ; Pinot Noir : fruits rouges et corps", correct: true }
+        - { text: "Chardonnay : tanins et épices ; Pinot Noir : douceur florale", correct: false }
+        - { text: "Chardonnay : fruits secs ; Pinot Noir : acidité herbacée", correct: false }
+      explanation: |
+        Le Chardonnay est également associé à la longévité, tandis que le
+        Pinot Noir peut renforcer la structure. Ce sont des tendances utiles
+        pour l’assemblage, pas des résultats immuables pour chaque lot.
 
   - id: sparkling-old-reserve-flavour-001
     type: mcq
@@ -379,6 +591,18 @@ cards:
         cannot supply, making the final blend more complex and helping define
         a producer’s style.
 
+    fr:
+      question: Que peut apporter un vin de réserve âgé à un assemblage effervescent ?
+      choices:
+        - { text: "Des arômes évolués de fruits secs", correct: true }
+        - { text: "Des arômes de banane tout juste fermentée", correct: false }
+        - { text: "Des arômes végétaux primaires", correct: false }
+        - { text: "Des tanins nouvellement extraits des raisins", correct: false }
+      explanation: |
+        Un vin de réserve évolué apporte une dimension qu’un jeune vin de base
+        ne peut pas fournir. Il complexifie l’assemblage final et contribue à
+        définir le style du producteur.
+
   - id: sparkling-oak-component-001
     type: mcq
     deck: Sparkling Production
@@ -400,6 +624,18 @@ cards:
         blend, allowing texture and spice to be introduced without masking
         freshness.
 
+    fr:
+      question: Quel composant d’assemblage peut apporter de l’ampleur et des notes épicées à un vin effervescent ?
+      choices:
+        - { text: "Un lot élevé sous bois", correct: true }
+        - { text: "Un jeune lot fermenté en cuve inox", correct: false }
+        - { text: "Une fraction de presse tardive riche en composés phénoliques", correct: false }
+        - { text: "Un lot très acide élevé à l’abri de l’oxygène", correct: false }
+      explanation: |
+        Le vin élevé sous bois ne représente généralement qu’une partie de
+        l’assemblage. Il apporte ainsi texture et épices sans masquer la
+        fraîcheur.
+
   - id: sparkling-parcel-fermentation-001
     type: mcq
     deck: Sparkling Production
@@ -412,14 +648,26 @@ cards:
     en:
       question: How can a sparkling-wine producer maximise later blending options?
       choices:
-        - { text: "Combine every grape lot before primary fermentation", correct: false }
+        - { text: "Co-ferment parcels from different sites at harvest", correct: false }
         - { text: "Ferment many grape parcels separately", correct: true }
-        - { text: "Disgorge every bottle at a different time", correct: false }
-        - { text: "Use a single reserve wine for every blend", correct: false }
+        - { text: "Blend all reserve wines before assessing the new vintage", correct: false }
+        - { text: "Use one fermentation vessel for each grape variety", correct: false }
       explanation: |
         Separate lots preserve differences in variety, origin and treatment.
         The blender can then select among them for balance, complexity and
         stylistic consistency.
+
+    fr:
+      question: Comment un producteur d’effervescents peut-il multiplier ses possibilités d’assemblage ?
+      choices:
+        - { text: "Cofermenter dès la vendange des parcelles de sites différents", correct: false }
+        - { text: "Fermenter séparément de nombreux lots de raisins", correct: true }
+        - { text: "Assembler tous les vins de réserve avant d’évaluer la nouvelle récolte", correct: false }
+        - { text: "N’utiliser qu’une cuve de fermentation par cépage", correct: false }
+      explanation: |
+        La séparation des lots préserve les différences de cépage, d’origine
+        et de vinification. L’assembleur peut ensuite choisir parmi eux pour
+        obtenir équilibre, complexité et régularité stylistique.
 
   - id: sparkling-tirage-contents-001
     type: mcq
@@ -440,6 +688,18 @@ cards:
       explanation: |
         The sugar and yeast initiate the bottle fermentation. The clarifying
         aid helps the resulting sediment move cleanly during riddling.
+
+    fr:
+      question: Qu’apporte la liqueur de tirage à un assemblage destiné à la méthode traditionnelle ?
+      choices:
+        - { text: "Du vin, du sucre, des levures, des nutriments et un agent de clarification", correct: true }
+        - { text: "Du vin, une liqueur de dosage, du dioxyde de soufre et un extrait de chêne", correct: false }
+        - { text: "De l’alcool vinique, du sucre, des tanins et un colorant", correct: false }
+        - { text: "Du vin de réserve, du dioxyde de carbone, de l’acide et uniquement de la bentonite", correct: false }
+      explanation: |
+        Le sucre et les levures déclenchent la prise de mousse en bouteille.
+        L’agent de clarification aide ensuite le dépôt à se déplacer proprement
+        pendant le remuage.
 
   - id: sparkling-second-fermentation-setup-001
     type: mcq
@@ -462,6 +722,18 @@ cards:
         sediment. Cool, constant conditions favour a slow, controlled
         fermentation and maturation.
 
+    fr:
+      question: Quelles conditions permettent la prise de mousse en méthode traditionnelle ?
+      choices:
+        - { text: "Des bouteilles debout sous capsule couronne dans une cave chaude", correct: false }
+        - { text: "Des bouteilles couchées sous capsule couronne dans une cave fraîche et stable", correct: true }
+        - { text: "Des bouteilles couchées sous bouchon définitif dans une cave fraîche et stable", correct: false }
+        - { text: "Des bouteilles renversées sous capsule couronne dans une cave chaude", correct: false }
+      explanation: |
+        Le petit obturateur en plastique placé sous la capsule recueillera plus
+        tard le dépôt de levures. Des conditions fraîches et constantes
+        favorisent une fermentation et une maturation lentes et maîtrisées.
+
   - id: sparkling-second-fermentation-result-001
     type: mcq
     deck: Sparkling Production
@@ -474,14 +746,26 @@ cards:
     en:
       question: What changes during traditional-method secondary fermentation in bottle?
       choices:
-        - { text: "Alcohol falls and carbon dioxide escapes", correct: false }
-        - { text: "Alcohol rises and dissolved carbon dioxide creates pressure", correct: true }
-        - { text: "Sugar rises and acidity disappears", correct: false }
-        - { text: "Tannin rises and the wine becomes still", correct: false }
+        - { text: "Alcohol falls while dissolved carbon dioxide builds pressure", correct: false }
+        - { text: "Alcohol rises while dissolved carbon dioxide builds pressure", correct: true }
+        - { text: "Alcohol stays stable while injected carbon dioxide builds pressure", correct: false }
+        - { text: "Alcohol rises while carbon dioxide escapes before bottling", correct: false }
       explanation: |
         Fermentation adds about **1.2–1.3% abv** and produces carbon dioxide
         that cannot escape. The finished pressure is typically around
         **five to six atmospheres**.
+
+    fr:
+      question: Que se passe-t-il pendant la prise de mousse en bouteille selon la méthode traditionnelle ?
+      choices:
+        - { text: "Le degré baisse tandis que le dioxyde de carbone dissous crée la pression", correct: false }
+        - { text: "Le degré monte tandis que le dioxyde de carbone dissous crée la pression", correct: true }
+        - { text: "Le degré reste stable tandis que du dioxyde de carbone injecté crée la pression", correct: false }
+        - { text: "Le degré monte tandis que le dioxyde de carbone s’échappe avant la mise", correct: false }
+      explanation: |
+        La fermentation ajoute environ **1,2–1,3 % vol.** et produit du
+        dioxyde de carbone qui ne peut pas s’échapper. La pression finale
+        atteint généralement **cinq à six atmosphères**.
 
   - id: sparkling-autolysis-001
     type: mcq
@@ -504,6 +788,18 @@ cards:
         more pronounced with longer lees ageing. The process can continue for
         several years before the yeast sediment becomes largely inert.
 
+    fr:
+      question: Qu’est-ce que l’autolyse des levures pendant l’élevage sur lies d’un vin effervescent ?
+      choices:
+        - { text: "Les levures vivantes consomment le dosage après le dégorgement", correct: false }
+        - { text: "Les cellules de levures mortes se décomposent et libèrent des composés dans le vin", correct: true }
+        - { text: "Les peaux libèrent leur couleur pendant la prise de mousse", correct: false }
+        - { text: "Les cristaux d’acide se dissolvent et créent du dioxyde de carbone", correct: false }
+      explanation: |
+        L’autolyse développe des notes de **pain, biscuit et pain grillé**, qui
+        s’accentuent avec la durée sur lies. Le phénomène peut se poursuivre
+        plusieurs années avant que le dépôt ne devienne largement inerte.
+
   - id: sparkling-inert-lees-001
     type: mcq
     deck: Sparkling Production
@@ -524,6 +820,18 @@ cards:
         Ageing before disgorgement protects the wine from oxygen. This can
         retain freshness while allowing gradual integration of its lees-aged
         character.
+
+    fr:
+      question: Pourquoi un vin élaboré par méthode traditionnelle peut-il rester sur lies après l’essentiel de l’autolyse ?
+      choices:
+        - { text: "La bouteille fermée peut préserver sa fraîcheur pendant des années", correct: true }
+        - { text: "Les lies continuent d’augmenter le degré une fois le sucre épuisé", correct: false }
+        - { text: "Les lies réduisent progressivement l’acidité par fermentation malolactique", correct: false }
+        - { text: "Les lies augmentent la pression bien après la fin de la fermentation", correct: false }
+      explanation: |
+        L’élevage avant dégorgement protège le vin de l’oxygène. Il peut ainsi
+        conserver sa fraîcheur tout en intégrant progressivement son caractère
+        d’élevage sur lies.
 
   - id: sparkling-riddling-purpose-001
     type: mcq
@@ -546,6 +854,18 @@ cards:
         sediment to collect in the cup beneath the crown cap. It can then be
         removed with minimal loss of wine.
 
+    fr:
+      question: Comment le remuage et le dégorgement se complètent-ils ?
+      choices:
+        - { text: "Le remuage dissout les lies ; le dégorgement lance la fermentation", correct: false }
+        - { text: "Le remuage rassemble les lies dans le col ; le dégorgement les expulse", correct: true }
+        - { text: "Le remuage ajoute le dosage ; le dégorgement augmente la pression", correct: false }
+        - { text: "Le remuage filtre le vin ; le dégorgement ajoute les levures", correct: false }
+      explanation: |
+        La bouteille passe progressivement de la position couchée à la position
+        renversée, ce qui rassemble le dépôt dans l’obturateur sous la capsule
+        couronne. Il peut alors être retiré avec une perte minimale de vin.
+
   - id: sparkling-hand-riddling-001
     type: mcq
     deck: Sparkling Production
@@ -564,7 +884,19 @@ cards:
         - { text: "Bottles are rolled upright without being tilted or twisted", correct: false }
       explanation: |
         A **pupitre** is the A-frame rack used for the process. Manual riddling
-        is labour-intensive and can take up to about eight weeks.
+        is labour-intensive and typically takes around four to six weeks.
+
+    fr:
+      question: Quelle description correspond au remuage manuel traditionnel ?
+      choices:
+        - { text: "Les bouteilles sont tournées chaque semaine tout en restant couchées", correct: false }
+        - { text: "Sur pupitre, elles sont tournées et relevées un peu chaque jour", correct: true }
+        - { text: "Elles sont renversées une fois puis laissées immobiles jusqu’au dégorgement", correct: false }
+        - { text: "Elles roulent jusqu’à la verticale sans être inclinées ni tournées", correct: false }
+      explanation: |
+        Le **pupitre** est le support en forme de A utilisé pour cette opération.
+        Le remuage manuel demande beaucoup de travail et dure généralement
+        autour de quatre à six semaines.
 
   - id: sparkling-gyropalette-001
     type: mcq
@@ -584,7 +916,19 @@ cards:
         - { text: "Injects dosage through the crown cap during ageing", correct: false }
       explanation: |
         A hydraulic arm moves a cage holding hundreds of bottles. Mechanical
-        riddling is faster, needs less labour and treats a large batch at once.
+        riddling treats a large batch in about a week, with far less labour.
+
+    fr:
+      question: Quel est le rôle d’une gyropalette dans la méthode traditionnelle ?
+      choices:
+        - { text: "Presser les grappes entières par petits lots pneumatiques", correct: false }
+        - { text: "Faire tourner et incliner des bouteilles pour rassembler le dépôt", correct: true }
+        - { text: "Geler les cols immédiatement après le tirage", correct: false }
+        - { text: "Injecter le dosage à travers la capsule pendant l’élevage", correct: false }
+      explanation: |
+        Un bras hydraulique déplace une cage contenant des centaines de
+        bouteilles. Il traite un grand lot en environ une semaine et demande
+        beaucoup moins de main-d’œuvre.
 
   - id: sparkling-disgorgement-001
     type: mcq
@@ -607,6 +951,18 @@ cards:
         in a small plug. When the crown cap is removed, internal pressure
         ejects the plug and the plastic insert with little loss of wine.
 
+    fr:
+      question: Que se passe-t-il lors du dégorgement habituel d’un vin élaboré par méthode traditionnelle ?
+      choices:
+        - { text: "Le dépôt pris dans le glaçon du col est expulsé à l’ouverture de la capsule", correct: true }
+        - { text: "Le dépôt tiède du col est dissous en faisant tourner la bouteille debout", correct: false }
+        - { text: "Les lies sont filtrées tandis que le vin reste dans sa bouteille d’origine", correct: false }
+        - { text: "Le dépôt est retenu par un bouchon posé avant la prise de mousse", correct: false }
+      explanation: |
+        Le col de la bouteille renversée est gelé, ce qui emprisonne le dépôt
+        dans un petit glaçon. À l’ouverture de la capsule couronne, la pression
+        interne expulse ce glaçon et l’obturateur avec une faible perte de vin.
+
   - id: sparkling-expedition-liqueur-001
     type: mcq
     deck: Sparkling Production
@@ -628,6 +984,18 @@ cards:
         which balances acidity; the liquid component also gives the producer
         a final opportunity to tune the house style.
 
+    fr:
+      question: Qu’est-ce que la liqueur d’expédition ajoutée après le dégorgement ?
+      choices:
+        - { text: "Un mélange de vin et de sucre servant à compléter la bouteille et à doser", correct: true }
+        - { text: "Un mélange de levures et de sucre destiné à lancer la prise de mousse", correct: false }
+        - { text: "Un mélange d’alcool vinique destiné à arrêter la fermentation en bouteille", correct: false }
+        - { text: "Un mélange de vin et de levures destiné à relancer l’autolyse", correct: false }
+      explanation: |
+        Elle remplace le vin perdu au dégorgement. Son sucre constitue le
+        **dosage**, qui équilibre l’acidité ; sa partie liquide donne aussi au
+        producteur une dernière possibilité d’ajuster son style maison.
+
   - id: sparkling-zero-dosage-001
     type: mcq
     deck: Sparkling Production
@@ -647,6 +1015,18 @@ cards:
       explanation: |
         The bottle may still be topped up with wine after disgorgement. The
         restriction concerns adding **sugar** after the secondary fermentation.
+
+    fr:
+      question: Que signifie Brut Nature ou Zéro Dosage sur un vin effervescent de l’Union européenne ?
+      choices:
+        - { text: "Moins de 3 g/L de sucre, sans ajout de sucre après la seconde fermentation", correct: true }
+        - { text: "Jusqu’à 6 g/L de sucre, avec dosage autorisé après la seconde fermentation", correct: false }
+        - { text: "Jusqu’à 12 g/L de sucre, avec dosage obligatoire après la seconde fermentation", correct: false }
+        - { text: "Plus de 12 g/L de sucre, sans restriction sur le dosage après fermentation", correct: false }
+      explanation: |
+        La bouteille peut tout de même être complétée avec du vin après le
+        dégorgement. L’interdiction porte sur l’ajout de **sucre** après la
+        seconde fermentation.
 
   - id: sparkling-post-disgorgement-closure-001
     type: mcq
@@ -669,6 +1049,18 @@ cards:
         loss and oxidation. The wire cage holds the compressed cork securely
         against the wine’s internal pressure.
 
+    fr:
+      question: Quel enchaînement suit normalement le dégorgement d’un vin élaboré par méthode traditionnelle ?
+      choices:
+        - { text: "Ajouter la liqueur de tirage, poser une capsule et commencer l’élevage sur lies", correct: false }
+        - { text: "Compléter, doser si nécessaire, puis poser le bouchon et le muselet", correct: true }
+        - { text: "Remuer de nouveau, filtrer la bouteille puis ajouter des levures fraîches", correct: false }
+        - { text: "Transférer en cuve, relancer la fermentation puis reboucher", correct: false }
+      explanation: |
+        Les chaînes modernes réalisent ces opérations en quelques secondes afin
+        de limiter la perte de pression et l’oxydation. Le muselet maintient le
+        bouchon comprimé face à la pression interne du vin.
+
   - id: sparkling-cork-security-001
     type: mcq
     deck: Sparkling Production
@@ -689,6 +1081,18 @@ cards:
         Before insertion, the cork’s cross-section is much wider than the
         bottle opening. Compression makes the seal; the **muselet** prevents
         pressure from forcing the cork out.
+
+    fr:
+      question: Comment le bouchon d’un vin effervescent assure-t-il une fermeture étanche et sûre ?
+      choices:
+        - { text: "Il se dilate après une légère insertion et ne demande aucun maintien extérieur", correct: false }
+        - { text: "Il est fortement comprimé dans le col puis maintenu par un muselet", correct: true }
+        - { text: "Il est collé au verre puis recouvert d’une capsule couronne", correct: false }
+        - { text: "Il est gelé avant insertion puis retenu par la pression", correct: false }
+      explanation: |
+        Avant insertion, la section du bouchon est bien plus large que
+        l’ouverture de la bouteille. La compression assure l’étanchéité ; le
+        **muselet** empêche la pression d’expulser le bouchon.
 
   - id: sparkling-post-disgorgement-ageing-001
     type: mcq
@@ -711,6 +1115,18 @@ cards:
         the dosage feel integrated. Some premium wines also benefit from
         longer post-disgorgement maturation.
 
+    fr:
+      question: Pourquoi conserve-t-on souvent un vin effervescent quelque temps après son dégorgement ?
+      choices:
+        - { text: "Pour laisser la liqueur d’expédition s’intégrer au vin", correct: true }
+        - { text: "Pour permettre au remuage de déplacer les lies dans le col", correct: false }
+        - { text: "Pour commencer la seconde fermentation alcoolique en bouteille", correct: false }
+        - { text: "Pour augmenter la pression en réchauffant la bouteille fermée", correct: false }
+      explanation: |
+        Quelques mois peuvent aider le vin à se remettre du dégorgement et
+        rendre le dosage plus fondu. Certains effervescents haut de gamme
+        bénéficient aussi d’une maturation plus longue après dégorgement.
+
   - id: sparkling-disgorgement-date-001
     type: mcq
     deck: Sparkling Production
@@ -731,6 +1147,19 @@ cards:
         Most non-vintage wines do not reveal a harvest year. A disgorgement
         date shows when lees ageing ended and helps distinguish a recent
         release from a bottle that has spent longer under its final cork.
+
+    fr:
+      question: Quelle mention facultative aide le mieux à estimer le temps écoulé depuis la fin de l’élevage sur lies d’un effervescent non millésimé ?
+      choices:
+        - { text: "La date de début des vendanges", correct: false }
+        - { text: "La date de tirage", correct: false }
+        - { text: "La date de dégorgement", correct: true }
+        - { text: "La date de mise du vin de base", correct: false }
+      explanation: |
+        La plupart des vins non millésimés n’indiquent pas d’année de récolte.
+        La date de dégorgement montre quand l’élevage sur lies a pris fin et
+        aide à distinguer une sortie récente d’une bouteille restée plus
+        longtemps sous son bouchon définitif.
 
   - id: sparkling-transfer-purpose-001
     type: mcq
@@ -753,6 +1182,18 @@ cards:
         fermentation in bottle. The bottles are then emptied under pressure
         so sediment can be removed from the combined wine in bulk.
 
+    fr:
+      question: Quel est l’objectif pratique qui définit la méthode par transfert ?
+      choices:
+        - { text: "Conserver la prise de mousse en bouteille sans remuage ni dégorgement individuels", correct: true }
+        - { text: "Remplacer la prise de mousse en bouteille par une injection de dioxyde de carbone", correct: false }
+        - { text: "Maintenir tout le processus dans une seule cuve, du jus à la mise", correct: false }
+        - { text: "Arrêter une fermentation unique assez tôt pour conserver du sucre résiduel", correct: false }
+      explanation: |
+        La production suit la méthode traditionnelle jusqu’à la prise de mousse
+        en bouteille. Les bouteilles sont ensuite vidées sous pression afin que
+        le dépôt soit retiré en une seule opération sur le vin réuni.
+
   - id: sparkling-transfer-sequence-001
     type: mcq
     deck: Sparkling Production
@@ -773,6 +1214,17 @@ cards:
         Pressure is maintained throughout transfer, filtration and rebottling
         so the dissolved carbon dioxide is retained.
 
+    fr:
+      question: Quel enchaînement suit la prise de mousse en bouteille dans la méthode par transfert ?
+      choices:
+        - { text: "Remuer → geler les cols → dégorger chaque bouteille → reboucher", correct: false }
+        - { text: "Vider sous pression → filtrer en cuve → ajuster le dosage → remettre en bouteille", correct: true }
+        - { text: "Ouvrir les bouteilles → aérer en cuve → ajouter la liqueur de tirage → remettre en bouteille", correct: false }
+        - { text: "Injecter du gaz → filtrer en bouteille → ajouter des levures → reboucher", correct: false }
+      explanation: |
+        La pression est maintenue pendant le transfert, la filtration et la
+        remise en bouteille afin de conserver le dioxyde de carbone dissous.
+
   - id: sparkling-transfer-economics-001
     type: mcq
     deck: Sparkling Production
@@ -787,12 +1239,24 @@ cards:
       choices:
         - { text: "It combines bottle-fermented character with efficient batch processing", correct: true }
         - { text: "It eliminates both secondary fermentation and pressure-resistant equipment", correct: false }
-        - { text: "It gives every bottle a deliberately different dosage and style", correct: false }
+        - { text: "It permits bottle-by-bottle dosage changes within one filtered batch", correct: false }
         - { text: "It requires longer hand riddling but lowers the cost of glass", correct: false }
       explanation: |
         Bulk filtration and rebottling reduce labour and cost while making a
         large batch consistent. Quality can remain good because the second
         fermentation still takes place in bottle.
+
+    fr:
+      question: Quel est l’un des principaux avantages commerciaux de la méthode par transfert ?
+      choices:
+        - { text: "Elle associe le caractère d’une prise de mousse en bouteille à un traitement efficace par lots", correct: true }
+        - { text: "Elle supprime à la fois la seconde fermentation et tout équipement résistant à la pression", correct: false }
+        - { text: "Elle permet de modifier le dosage bouteille par bouteille dans un même lot filtré", correct: false }
+        - { text: "Elle impose un remuage manuel plus long mais réduit le coût du verre", correct: false }
+      explanation: |
+        La filtration et la remise en bouteille en vrac réduisent le travail et
+        les coûts tout en homogénéisant un grand lot. La qualité peut rester
+        bonne puisque la seconde fermentation a bien lieu en bouteille.
 
   - id: sparkling-transfer-label-001
     type: mcq
@@ -804,7 +1268,7 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Why can a transfer-method wine legitimately be described as bottle-fermented?
+      question: Why is a transfer-method wine still bottle-fermented even though it is sold in a fresh bottle?
       choices:
         - { text: "Its secondary fermentation occurred in a bottle before bulk transfer", correct: true }
         - { text: "Its primary fermentation occurred in the bottle eventually sold", correct: false }
@@ -814,6 +1278,18 @@ cards:
         The bottle used for secondary fermentation is emptied under pressure;
         the filtered wine is later filled into a fresh bottle. It therefore
         lacks the traditional method’s same-bottle continuity.
+
+    fr:
+      question: Pourquoi un vin élaboré par transfert reste-t-il fermenté en bouteille alors qu’il est vendu dans une nouvelle bouteille ?
+      choices:
+        - { text: "Sa seconde fermentation a eu lieu en bouteille avant le transfert en vrac", correct: true }
+        - { text: "Sa première fermentation a eu lieu dans la bouteille ensuite commercialisée", correct: false }
+        - { text: "Son dosage a fermenté après la pose du bouchon définitif", correct: false }
+        - { text: "Son dioxyde de carbone a été injecté après l’entrée dans la bouteille finale", correct: false }
+      explanation: |
+        La bouteille de la seconde fermentation est vidée sous pression ; le
+        vin filtré est ensuite conditionné dans une nouvelle bouteille. Il n’y
+        a donc pas la continuité de bouteille propre à la méthode traditionnelle.
 
   - id: sparkling-tank-style-001
     type: mcq
@@ -836,6 +1312,19 @@ cards:
         method suitable for grapes such as Muscat and Riesling and styles such
         as Prosecco. It is also faster and less labour-intensive.
 
+    fr:
+      question: Quel style de vin convient particulièrement bien à la méthode en cuve close ?
+      choices:
+        - { text: "Un vin aromatique et fruité destiné à être bu jeune", correct: true }
+        - { text: "Un vin très autolytique exigeant un long élevage dans chaque bouteille", correct: false }
+        - { text: "Un vin oxydatif élevé plusieurs années en fûts partiellement remplis", correct: false }
+        - { text: "Un rouge tannique exigeant une longue macération après le tirage", correct: false }
+      explanation: |
+        Les cuves sous pression préservent les arômes primaires de fruit et de
+        fleurs. La méthode convient donc à des cépages comme le Muscat ou le
+        Riesling et à des styles comme le Prosecco. Elle est aussi plus rapide
+        et moins exigeante en main-d’œuvre.
+
   - id: sparkling-tank-quality-001
     type: mcq
     deck: Sparkling Production
@@ -846,16 +1335,28 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which statement best describes the quality potential of the tank method?
+      question: Which combination gives the tank method its best chance of producing high-quality wine?
       choices:
-        - { text: "It inevitably produces lower-quality wine than bottle fermentation", correct: false }
-        - { text: "It can produce high quality when fruit and processing are carefully managed", correct: true }
-        - { text: "It produces high quality only when all primary aromas are removed", correct: false }
-        - { text: "It is suitable only for wines that receive direct carbonation", correct: false }
+        - { text: "Long bottle-lees ageing followed by hand riddling", correct: false }
+        - { text: "Sound fruit with tight temperature and oxygen control", correct: true }
+        - { text: "Hard pressing followed by extended skin contact", correct: false }
+        - { text: "Oxidative barrel ageing before direct carbonation", correct: false }
       explanation: |
         Method should match intended style. Tank production is not designed
         to imitate long lees-aged traditional-method wine, but it can express
         aromatic grapes and fresh fruit with precision.
+
+    fr:
+      question: Quelle combinaison donne à la méthode en cuve close les meilleures chances de produire un vin de grande qualité ?
+      choices:
+        - { text: "Un long élevage sur lies en bouteille suivi d’un remuage manuel", correct: false }
+        - { text: "Un bon raisin et une maîtrise précise de la température et de l’oxygène", correct: true }
+        - { text: "Un pressurage poussé suivi d’un long contact avec les peaux", correct: false }
+        - { text: "Un élevage oxydatif en fût avant une gazéification directe", correct: false }
+      explanation: |
+        La méthode doit correspondre au style recherché. La cuve close n’imite
+        pas un vin longtemps élevé sur lies en bouteille, mais elle peut
+        exprimer avec précision les cépages aromatiques et le fruit frais.
 
   - id: sparkling-tank-base-treatment-001
     type: mcq
@@ -878,6 +1379,18 @@ cards:
         floral notes. Avoiding oak and malolactic conversion helps keep those
         aromas clear and the acidity fresh.
 
+    fr:
+      question: Comment prépare-t-on généralement un vin de base fruité destiné à la méthode en cuve close ?
+      choices:
+        - { text: "En inox, le plus souvent sans fermentation malolactique ni élevage sous bois", correct: true }
+        - { text: "En barriques neuves, avec fermentation malolactique complète et oxydation", correct: false }
+        - { text: "En bouteille, avec un long élevage sur lies avant la première fermentation", correct: false }
+        - { text: "En cuves ouvertes, avec une macération chaude pour extraire un maximum de tanins", correct: false }
+      explanation: |
+        L’inox thermorégulé protège les arômes variétaux de fruit et de fleurs.
+        Éviter le bois et la fermentation malolactique aide à garder ces arômes
+        nets et l’acidité fraîche.
+
   - id: sparkling-tank-second-fermentation-001
     type: mcq
     deck: Sparkling Production
@@ -899,6 +1412,18 @@ cards:
         fermentation, the wine is filtered and bottled under pressure so the
         dissolved gas is not lost.
 
+    fr:
+      question: Où la méthode en cuve close crée-t-elle puis retient-elle le dioxyde de carbone ?
+      choices:
+        - { text: "Pendant la première fermentation dans une cuve ouverte", correct: false }
+        - { text: "Pendant la seconde fermentation dans une cuve close sous pression", correct: true }
+        - { text: "Pendant l’élevage dans des bouteilles fermées individuellement", correct: false }
+        - { text: "Pendant la mise par injection directe de gaz", correct: false }
+      explanation: |
+        Levures, sucre et nutriments sont ajoutés avant la fermeture de la
+        cuve. Après la fermentation, le vin est filtré puis mis en bouteille
+        sous pression afin de conserver le gaz dissous.
+
   - id: sparkling-tank-autolysis-001
     type: mcq
     deck: Sparkling Production
@@ -913,12 +1438,24 @@ cards:
       choices:
         - { text: "They are normally removed from the lees relatively quickly", correct: true }
         - { text: "Pressure prevents yeast from forming any sediment", correct: false }
-        - { text: "Stainless steel neutralises every compound released by yeast", correct: false }
+        - { text: "Cool tank fermentation prevents yeast cells from breaking down", correct: false }
         - { text: "Their second fermentation occurs without viable yeast", correct: false }
       explanation: |
         Producers seeking more yeast-derived flavour can stir the lees with
         paddles, but this is uncommon because the method is usually chosen to
         retain primary fruit.
+
+    fr:
+      question: Pourquoi la plupart des vins élaborés en cuve close présentent-ils peu de caractère autolytique ?
+      choices:
+        - { text: "Ils sont généralement séparés des lies assez rapidement", correct: true }
+        - { text: "La pression empêche les levures de former le moindre dépôt", correct: false }
+        - { text: "La fermentation fraîche en cuve empêche les cellules de levures de se décomposer", correct: false }
+        - { text: "Leur seconde fermentation se déroule sans levures viables", correct: false }
+      explanation: |
+        Un producteur qui recherche davantage de notes levurées peut remettre
+        les lies en suspension à l’aide de pales, mais cette pratique reste
+        rare car la méthode vise généralement à préserver le fruit primaire.
 
   - id: sparkling-asti-definition-001
     type: mcq
@@ -930,16 +1467,29 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What distinguishes the Asti method from the standard tank method?
+      question: How does the classic Asti tank process preserve sweetness and Muscat aromatics?
       choices:
-        - { text: "A single fermentation creates alcohol, sweetness and bubbles", correct: true }
+        - { text: "A single pressure-tank fermentation is stopped by chilling and filtration", correct: true }
         - { text: "A bottle fermentation is followed by transfer to a pressure tank", correct: false }
         - { text: "A dry base wine is carbonated immediately before bottling", correct: false }
         - { text: "A second bottle fermentation is stopped by disgorgement", correct: false }
       explanation: |
-        The method is associated with sweet, fruity sparkling wines from
-        **Asti in Piemonte**. Fermentation of the grape juice is stopped while
-        residual sugar remains.
+        This classic process gives a sweet, aromatic style by stopping the
+        must fermentation while residual sugar remains. Current **Asti DOCG**
+        rules also permit drier styles and traditional-method production.
+
+    fr:
+      question: Comment le procédé classique d’Asti en cuve préserve-t-il le sucre et les arômes du Muscat ?
+      choices:
+        - { text: "Une seule fermentation sous pression est arrêtée par refroidissement et filtration", correct: true }
+        - { text: "Une prise de mousse en bouteille est suivie d’un transfert en cuve sous pression", correct: false }
+        - { text: "Un vin de base sec est gazéifié juste avant la mise", correct: false }
+        - { text: "Une seconde fermentation en bouteille est arrêtée par dégorgement", correct: false }
+      explanation: |
+        Ce procédé classique donne un style doux et aromatique en arrêtant la
+        fermentation du moût alors qu’il reste du sucre. Le cahier des charges
+        actuel d’**Asti DOCG** autorise aussi des styles plus secs et la méthode
+        traditionnelle.
 
   - id: sparkling-asti-process-001
     type: mcq
@@ -951,7 +1501,7 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which sequence correctly describes the Asti method?
+      question: Which sequence describes the classic Asti tank process?
       choices:
         - { text: "Store chilled juice → ferment in tank → seal tank → chill and filter under pressure", correct: true }
         - { text: "Ferment dry in tank → bottle with tirage → riddle → disgorge", correct: false }
@@ -959,8 +1509,21 @@ cards:
         - { text: "Ferment dry in barrel → inject gas → sweeten after bottling", correct: false }
       explanation: |
         Carbon dioxide can escape early in fermentation; the tank is then
-        sealed to retain it. Chilling at about **7% abv** stops fermentation,
-        preserving both sweetness and aromatic fruit before sterile filtration.
+        sealed to retain it. Once the desired balance of alcohol and residual
+        sugar is reached, chilling stops fermentation before sterile filtration.
+
+    fr:
+      question: Quel enchaînement décrit le procédé classique d’Asti en cuve ?
+      choices:
+        - { text: "Conserver le jus au froid → fermenter en cuve → fermer la cuve → refroidir et filtrer sous pression", correct: true }
+        - { text: "Fermenter jusqu’à sec en cuve → tirer en bouteille → remuer → dégorger", correct: false }
+        - { text: "Fermenter en bouteille → vider en cuve → filtrer → remettre sous pression en bouteille", correct: false }
+        - { text: "Fermenter jusqu’à sec en fût → injecter du gaz → édulcorer après la mise", correct: false }
+      explanation: |
+        Le dioxyde de carbone peut d’abord s’échapper ; la cuve est ensuite
+        fermée pour le retenir. Une fois l’équilibre recherché entre alcool et
+        sucre résiduel atteint, le refroidissement arrête la fermentation avant
+        une filtration stérile.
 
   - id: sparkling-carbonation-001
     type: mcq
@@ -982,6 +1545,18 @@ cards:
         This is the cheapest route and retains the base wine’s primary fruit,
         so it can suit inexpensive wines made from strongly aromatic grapes.
 
+    fr:
+      question: Comment les bulles sont-elles créées par gazéification ?
+      choices:
+        - { text: "Du dioxyde de carbone est injecté dans un vin tranquille avant la mise sous pression", correct: true }
+        - { text: "Les levures fermentent du sucre ajouté dans la bouteille vendue au consommateur", correct: false }
+        - { text: "Les levures fermentent du sucre ajouté en cuve close avant filtration", correct: false }
+        - { text: "Une fermentation unique est arrêtée alors que du sucre naturel subsiste", correct: false }
+      explanation: |
+        C’est la voie la moins coûteuse et elle conserve le fruit primaire du
+        vin de base. Elle peut donc convenir à des vins bon marché issus de
+        cépages très aromatiques.
+
   - id: sparkling-eu-sweetness-label-001
     type: mcq
     deck: Sparkling Production
@@ -1002,6 +1577,18 @@ cards:
         The terms belong to a legally defined scale. Counter-intuitively,
         **Extra Dry** is sweeter than **Brut**, and **Sec** is sweeter again.
 
+    fr:
+      question: Que communiquent les mentions Brut, Sec et Demi-Sec sur un vin effervescent de l’Union européenne ?
+      choices:
+        - { text: "La catégorie de teneur en sucre du vin", correct: true }
+        - { text: "La durée de l’élevage sur lies", correct: false }
+        - { text: "La pression atteinte dans la bouteille", correct: false }
+        - { text: "La méthode de seconde fermentation", correct: false }
+      explanation: |
+        Ces mentions appartiennent à une échelle définie par la réglementation.
+        Contrairement à ce que son nom suggère, **Extra Dry** est plus doux que
+        Brut, et Sec est encore plus doux.
+
   - id: sparkling-sweetness-order-001
     type: mcq
     deck: Sparkling Production
@@ -1021,6 +1608,18 @@ cards:
       explanation: |
         The naming is not intuitive: **Extra Dry** follows Brut on the sweeter
         side. The final three steps are Sec, Demi-Sec and Doux.
+
+    fr:
+      question: Quel ordre va du vin effervescent le plus sec au plus doux dans l’Union européenne ?
+      choices:
+        - { text: "Brut Nature → Extra Brut → Brut → Extra Dry → Sec → Demi-Sec → Doux", correct: true }
+        - { text: "Extra Brut → Brut Nature → Brut → Sec → Extra Dry → Demi-Sec → Doux", correct: false }
+        - { text: "Brut Nature → Brut → Extra Brut → Extra Dry → Demi-Sec → Sec → Doux", correct: false }
+        - { text: "Brut Nature → Extra Brut → Extra Dry → Brut → Sec → Doux → Demi-Sec", correct: false }
+      explanation: |
+        Les termes ne sont pas intuitifs : **Extra Dry** se trouve du côté
+        plus doux après Brut. Les trois derniers niveaux sont Sec, Demi-Sec
+        puis Doux.
 
   - id: sparkling-non-vintage-001
     type: mcq
@@ -1043,6 +1642,18 @@ cards:
         Blending across years helps maintain that style despite vintage
         variation.
 
+    fr:
+      question: Que signifie généralement « non millésimé » pour un vin effervescent ?
+      choices:
+        - { text: "Il assemble des vins provenant de plusieurs années de récolte", correct: true }
+        - { text: "Il provient d’une seule année qui n’est simplement pas indiquée", correct: false }
+        - { text: "Il ne contient aucun vin de réserve d’années antérieures", correct: false }
+        - { text: "Il est mis sans élevage sur lies ni dosage", correct: false }
+      explanation: |
+        Le non-millésimé constitue souvent la cuvée de référence du producteur.
+        L’assemblage de plusieurs années aide à maintenir ce style maison
+        malgré les variations entre millésimes.
+
   - id: sparkling-champagne-vintage-001
     type: mcq
     deck: Sparkling Production
@@ -1063,6 +1674,18 @@ cards:
         Vintage Champagne is made exclusively from grapes harvested in the
         year shown. Most Champagne is non-vintage and blends multiple years.
 
+    fr:
+      question: Que signifie l’indication d’une année sur une bouteille de Champagne ?
+      choices:
+        - { text: "Tous les raisins utilisés ont été vendangés cette année-là", correct: true }
+        - { text: "La majorité des raisins vient de cette année, avec des vins de réserve autorisés", correct: false }
+        - { text: "Le vin a été dégorgé puis commercialisé cette année-là", correct: false }
+        - { text: "Le plus vieux vin de réserve de l’assemblage vient de cette année-là", correct: false }
+      explanation: |
+        Un Champagne millésimé provient exclusivement de raisins récoltés
+        pendant l’année indiquée. La majorité des Champagnes sont non
+        millésimés et assemblent plusieurs années.
+
   - id: sparkling-vintage-rules-001
     type: mcq
     deck: Sparkling Production
@@ -1080,9 +1703,23 @@ cards:
         - { text: "Some regions use vintage to guarantee a minimum sweetness", correct: false }
         - { text: "Some regions use vintage to identify the fermentation method", correct: false }
       explanation: |
-        A single harvest year is the usual principle, but the exact legal
-        threshold is region-specific. Champagne is stricter: a stated year
-        means all the grapes came from that harvest.
+        EU labelling generally requires at least **85%** of the grapes to come
+        from the stated year, excluding tirage and expedition liqueurs.
+        Appellations can be stricter: Champagne requires the harvest itself
+        to supply all the grapes.
+
+    fr:
+      question: Pourquoi faut-il vérifier le sens de « millésimé » dans le règlement de chaque appellation de vin effervescent ?
+      choices:
+        - { text: "Certaines régions autorisent une petite part de vin provenant d’autres années", correct: true }
+        - { text: "Certaines régions utilisent le millésime pour indiquer l’année de dégorgement", correct: false }
+        - { text: "Certaines régions utilisent le millésime pour garantir une douceur minimale", correct: false }
+        - { text: "Certaines régions utilisent le millésime pour identifier la méthode de fermentation", correct: false }
+      explanation: |
+        Dans l’Union européenne, au moins **85 %** des raisins doivent en
+        principe provenir de l’année indiquée, hors liqueurs de tirage et
+        d’expédition. Une appellation peut être plus stricte : en Champagne,
+        tous les raisins utilisés doivent provenir de l’année affichée.
 
   - id: sparkling-champagne-vintage-premium-001
     type: mcq
@@ -1094,16 +1731,29 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Why can vintage Champagne command a premium over a house’s non-vintage wine?
+      question: What is a vintage Champagne intended to express?
       choices:
         - { text: "It is selected to express the character of a particular harvest", correct: true }
-        - { text: "It may blend any harvests needed to preserve a fixed style", correct: false }
-        - { text: "It certifies extended oak ageing for every base-wine parcel", correct: false }
-        - { text: "It guarantees that every vineyard used is a grand cru", correct: false }
+        - { text: "The house’s most consistent blend across several harvests", correct: false }
+        - { text: "The identity of one village regardless of harvest year", correct: false }
+        - { text: "A fixed dosage category used for the house’s standard wine", correct: false }
       explanation: |
         Champagne has meaningful year-to-year variation, and producers choose
         which years to declare. In regions with less vintage variation, a year
         on the label may carry less prestige by itself.
+
+    fr:
+      question: Qu’est-ce qu’un Champagne millésimé cherche à exprimer ?
+      choices:
+        - { text: "Il est sélectionné pour exprimer le caractère d’une récolte particulière", correct: true }
+        - { text: "L’assemblage le plus régulier de la maison sur plusieurs récoltes", correct: false }
+        - { text: "L’identité d’un seul village, quelle que soit l’année de récolte", correct: false }
+        - { text: "Une catégorie de dosage fixe utilisée pour la cuvée standard", correct: false }
+      explanation: |
+        La Champagne connaît de réelles variations entre années et les
+        producteurs choisissent les millésimes qu’ils déclarent. Dans une
+        région où ces variations sont moindres, l’année portée sur l’étiquette
+        peut être moins prestigieuse à elle seule.
 
   - id: sparkling-rose-production-001
     type: mcq
@@ -1123,8 +1773,21 @@ cards:
         - { text: "Oxidising white juice, or increasing the pressing pressure", correct: false }
       explanation: |
         Appellation rules decide which route is permitted; some require
-        maceration. A producer may also fine-tune colour at disgorgement by
-        including red wine in the expedition liqueur where the rules allow it.
+        maceration. For blended rosé Champagne, still red Champagne is added
+        to white base wines **before** the second fermentation.
+
+    fr:
+      question: Quelles sont les deux principales façons d’obtenir la couleur d’un vin effervescent rosé ?
+      choices:
+        - { text: "Assembler des vins de base rouges et blancs, ou pratiquer une courte macération", correct: true }
+        - { text: "Assembler un vin blanc et de l’alcool, ou prolonger l’élevage sur lies", correct: false }
+        - { text: "Ajouter du caramel avant le tirage, ou élever le vin en barriques neuves", correct: false }
+        - { text: "Oxyder un jus blanc, ou augmenter la pression de pressurage", correct: false }
+      explanation: |
+        Le règlement de l’appellation détermine les voies autorisées ; certaines
+        imposent la macération. Pour un Champagne rosé d’assemblage, du vin
+        rouge tranquille de Champagne est ajouté aux vins de base blancs
+        **avant** la prise de mousse.
 
   - id: sparkling-blanc-de-blancs-001
     type: mcq
@@ -1147,6 +1810,18 @@ cards:
         level. It does not universally mean Chardonnay; the permitted white
         varieties depend on the region.
 
+    fr:
+      question: Que signifie Blanc de Blancs sur un vin effervescent ?
+      choices:
+        - { text: "Il est élaboré uniquement à partir de cépages blancs", correct: true }
+        - { text: "Il est élaboré uniquement avec le jus incolore de raisins noirs", correct: false }
+        - { text: "Il est élaboré sans dosage après le dégorgement", correct: false }
+        - { text: "Il est élaboré exclusivement en cuves inox", correct: false }
+      explanation: |
+        La mention décrit la couleur des raisins, pas une méthode de production
+        ni un niveau de douceur. Elle ne signifie pas partout Chardonnay : les
+        cépages blancs autorisés dépendent de la région.
+
   - id: sparkling-blanc-de-noirs-001
     type: mcq
     deck: Sparkling Production
@@ -1168,6 +1843,18 @@ cards:
         so the wine remains white. The term does not by itself prescribe a
         particular fermentation method.
 
+    fr:
+      question: Que signifie Blanc de Noirs sur un vin effervescent ?
+      choices:
+        - { text: "Un vin blanc élaboré uniquement à partir de cépages noirs", correct: true }
+        - { text: "Un vin rosé issu de l’assemblage de vins finis rouges et blancs", correct: false }
+        - { text: "Un vin blanc assombri par un long élevage sous bois", correct: false }
+        - { text: "Un vin rouge dont la couleur a été retirée après fermentation", correct: false }
+      explanation: |
+        Un pressurage rapide et délicat limite le contact entre le jus et les
+        peaux noires, de sorte que le vin reste blanc. La mention n’impose pas
+        à elle seule une méthode de fermentation particulière.
+
   - id: sparkling-prestige-cuvee-001
     type: mcq
     deck: Sparkling Production
@@ -1188,3 +1875,14 @@ cards:
         It is a market category rather than one universal production formula.
         Producers build these wines around scarcity, reputation and a strong
         association with luxury and celebration.
+    fr:
+      question: Que désigne généralement « cuvée de prestige » dans la gamme d’un producteur de vins effervescents ?
+      choices:
+        - { text: "La cuvée emblématique placée au sommet de la gamme", correct: true }
+        - { text: "La cuvée non millésimée standard produite dans le plus grand volume", correct: false }
+        - { text: "La cuvée au dosage le plus faible, quelle que soit la qualité du raisin", correct: false }
+        - { text: "La cuvée élaborée par transfert et commercialisée après l’élevage le plus court", correct: false }
+      explanation: |
+        Il s’agit d’une catégorie commerciale, pas d’une formule de production
+        universelle. Les producteurs construisent ces cuvées autour de la
+        rareté, de la réputation et d’une image liée au luxe et à la célébration.
