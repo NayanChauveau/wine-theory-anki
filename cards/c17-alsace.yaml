@@ -15,14 +15,25 @@ cards:
     en:
       question: Which climate description best fits Alsace?
       choices:
-        - { text: "Cool maritime, like Muscadet", correct: false }
-        - { text: "Cool-to-moderate continental, in the rain shadow of the Vosges", correct: true }
-        - { text: "Hot Mediterranean, like the southern Rhône", correct: false }
-        - { text: "High-altitude alpine, like Savoie", correct: false }
+        - { text: "Cool maritime, with frequent rain through the growing season", correct: false }
+        - { text: "Cool-to-moderate continental, with a strong rain-shadow effect", correct: true }
+        - { text: "Warm maritime, with mild winters and a narrow annual range", correct: false }
+        - { text: "High-altitude continental, with a very short growing season", correct: false }
       explanation: |
-        **Cool-to-moderate continental**, and unusually dry for that latitude because the
-        **Vosges** strip Atlantic moisture. Colmar sits among France’s driest wine towns —
-        not Loire drizzle and not Rhône heat.
+        The **Vosges** intercept much of the rain carried by Atlantic weather systems.
+        Alsace is therefore unusually dry and sunny for its latitude, while its inland
+        position gives it a continental pattern with cold winters and warm summers.
+    fr:
+      question: Quelle description climatique correspond le mieux au vignoble alsacien ?
+      choices:
+        - { text: "Frais et maritime, avec des pluies fréquentes pendant la saison végétative", correct: false }
+        - { text: "Continental frais à modéré, avec un fort effet d’abri pluviométrique", correct: true }
+        - { text: "Maritime chaud, avec des hivers doux et une faible amplitude annuelle", correct: false }
+        - { text: "Continental d’altitude, avec une saison végétative très courte", correct: false }
+      explanation: |
+        Les **Vosges** arrêtent une grande partie des pluies apportées par les perturbations
+        atlantiques. L’Alsace est donc particulièrement sèche et ensoleillée pour sa latitude,
+        tandis que sa situation intérieure lui confère des hivers froids et des étés chauds.
 
   - id: alsace-westerlies-001
     type: mcq
@@ -34,15 +45,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which weather system would soak Alsace if nothing stood in its way?
+      question: Which source of rain is largely blocked from the Alsace vineyards by the Vosges?
       choices:
-        - { text: "Hot, dry mistral off the Mediterranean", correct: false }
-        - { text: "Rain-bearing westerlies off the Atlantic", correct: true }
-        - { text: "Siberian katabatic winds only", correct: false }
-        - { text: "Monsoon from the Rhine", correct: false }
+        - { text: "Dry continental winds arriving from the east", correct: false }
+        - { text: "Rain-bearing westerlies arriving from the Atlantic", correct: true }
+        - { text: "Warm southerly winds arriving from the Mediterranean", correct: false }
+        - { text: "Cold northerly winds crossing the Rhine plain", correct: false }
       explanation: |
-        The same **Atlantic westerlies** that wet Champagne and the Loire would drench
-        Alsace. The Vosges intercept them. Without that wall, Colmar would not be dry.
+        Moist **Atlantic westerlies** release much of their rain on the western side of
+        the Vosges. The vineyards to the east lie in the resulting rain shadow.
+    fr:
+      question: Quelle source de pluie est en grande partie arrêtée par les Vosges avant d’atteindre le vignoble alsacien ?
+      choices:
+        - { text: "Les vents continentaux secs venant de l’est", correct: false }
+        - { text: "Les vents d’ouest chargés de pluie venant de l’Atlantique", correct: true }
+        - { text: "Les vents chauds du sud venant de la Méditerranée", correct: false }
+        - { text: "Les vents froids du nord traversant la plaine du Rhin", correct: false }
+      explanation: |
+        Les vents d’ouest humides venus de l’**Atlantique** déversent une grande partie de
+        leurs pluies sur le versant occidental des Vosges. Le vignoble, situé à l’est du
+        massif, bénéficie ainsi d’un abri pluviométrique.
 
   - id: alsace-vosges-001
     type: mcq
@@ -58,12 +80,23 @@ cards:
       choices:
         - { text: "The Massif Central", correct: false }
         - { text: "The Vosges mountains", correct: true }
-        - { text: "The Alps alone", correct: false }
-        - { text: "A legal ban on rain", correct: false }
+        - { text: "The Jura mountains", correct: false }
+        - { text: "The Black Forest", correct: false }
       explanation: |
-        The **Vosges** create a rain shadow. West-facing Lorraine is wetter; the Alsace
-        vineyards on the east side stay much drier. **Rangen de Thann** still sees the
-        high southern Vosges, not a flat corridor.
+        The **Vosges** create the rain shadow that makes Alsace notably dry. The Black
+        Forest lies on the opposite side of the Rhine, while the Jura and Massif Central
+        do not shield the region from Atlantic weather.
+    fr:
+      question: Quel massif protège l’Alsace viticole des pluies apportées par les vents d’ouest atlantiques ?
+      choices:
+        - { text: "Le Massif central", correct: false }
+        - { text: "Les Vosges", correct: true }
+        - { text: "Le Jura", correct: false }
+        - { text: "La Forêt-Noire", correct: false }
+      explanation: |
+        Les **Vosges** créent l’abri pluviométrique à l’origine de la sécheresse relative
+        de l’Alsace. La Forêt-Noire se trouve de l’autre côté du Rhin ; le Jura et le Massif
+        central ne protègent pas la région des perturbations atlantiques.
 
   - id: alsace-dry-seasons-001
     type: mcq
@@ -77,14 +110,25 @@ cards:
     en:
       question: Why are Alsace summers and autumns usually warm, dry, and short on cloud?
       choices:
-        - { text: "The Rhine funnels Atlantic storms onto the vines", correct: false }
-        - { text: "The Vosges take the rain first", correct: true }
-        - { text: "A legal cap on cloud cover", correct: false }
-        - { text: "Daily monsoon from the Alps", correct: false }
+        - { text: "The Rhine funnels moist Atlantic air toward the vineyards", correct: false }
+        - { text: "The Vosges intercept moist westerly weather first", correct: true }
+        - { text: "The Black Forest redirects moist Rhine air toward the foothills", correct: false }
+        - { text: "Mediterranean sea breezes clear the cloud each afternoon", correct: false }
       explanation: |
-        **The Vosges take the rain first**, so summers and autumns stay warm,
-        dry and short on cloud. That long, bright autumn is why late-hang fruit
-        (and the odd VT) is even possible here.
+        By forcing moist Atlantic air to rise, the **Vosges** receive much of its rain
+        before it reaches Alsace. The dry, bright autumn helps grapes ripen slowly and
+        makes late harvesting possible in favourable years.
+    fr:
+      question: Pourquoi les étés et les automnes alsaciens sont-ils généralement chauds, secs et peu nuageux ?
+      choices:
+        - { text: "Le Rhin dirige l’air atlantique humide vers le vignoble", correct: false }
+        - { text: "Les Vosges interceptent d’abord les perturbations humides venant de l’ouest", correct: true }
+        - { text: "La Forêt-Noire bloque toutes les masses d’air chaud venant de l’est", correct: false }
+        - { text: "Les brises marines méditerranéennes dissipent les nuages chaque après-midi", correct: false }
+      explanation: |
+        En forçant l’air atlantique humide à s’élever, les **Vosges** reçoivent une grande
+        partie de ses pluies avant qu’il n’atteigne l’Alsace. L’automne sec et lumineux
+        favorise une maturation lente et, les bonnes années, les vendanges tardives.
 
   - id: alsace-ripeness-001
     type: mcq
@@ -98,14 +142,25 @@ cards:
     en:
       question: What does Alsace’s dry, sunny pattern do to the grapes?
       choices:
-        - { text: "They rarely reach even 10% potential alcohol", correct: false }
-        - { text: "They can pile up high sugar while still hanging late", correct: true }
-        - { text: "They stay green and herbaceous every year", correct: false }
-        - { text: "Sugar ripeness is illegal", correct: false }
+        - { text: "It usually limits sugar accumulation while preserving very high acidity", correct: false }
+        - { text: "It allows high sugar ripeness to develop during a long autumn", correct: true }
+        - { text: "It causes acidity to collapse before flavour ripeness is reached", correct: false }
+        - { text: "It forces growers to harvest before the grapes are fully ripe", correct: false }
       explanation: |
-        **High sugar ripeness** is the usual outcome — Trimbach Riesling and
-        Zind-Humbrecht late picks both start from ripe fruit, then choose dry or
-        residual. Drought can still stall vines in the driest years.
+        Sunshine and a long, relatively dry autumn favour **high sugar and flavour
+        ripeness**. Cool nights can preserve acidity, although drought may slow
+        photosynthesis in exceptionally dry seasons.
+    fr:
+      question: Quel effet le temps sec et ensoleillé de l’Alsace a-t-il généralement sur les raisins ?
+      choices:
+        - { text: "Il limite généralement l’accumulation de sucre tout en conservant une acidité très élevée", correct: false }
+        - { text: "Il permet d’atteindre une forte maturité en sucre au cours d’un long automne", correct: true }
+        - { text: "Il fait chuter l’acidité avant que la maturité aromatique ne soit atteinte", correct: false }
+        - { text: "Il oblige à vendanger avant la pleine maturité des raisins", correct: false }
+      explanation: |
+        L’ensoleillement et l’automne relativement long et sec favorisent une **forte
+        maturité en sucre et en arômes**. Les nuits fraîches peuvent préserver l’acidité,
+        même si une sécheresse marquée risque de ralentir la photosynthèse.
 
   - id: alsace-drought-001
     type: mcq
@@ -117,16 +172,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which water stress is notable around Colmar despite Alsace’s cool-ish latitude?
+      question: Which water-related vineyard risk can occur around Colmar despite its northerly latitude?
       choices:
-        - { text: "Flooding from the Loire every June", correct: false }
-        - { text: "Occasional drought", correct: true }
-        - { text: "Permanent irrigation by law", correct: false }
-        - { text: "Sea-spray salinity", correct: false }
+        - { text: "Prolonged waterlogging during most summers", correct: false }
+        - { text: "Drought and water stress in dry years", correct: true }
+        - { text: "Regular salt damage from coastal spray", correct: false }
+        - { text: "Excessive vigour caused by constant summer rain", correct: false }
       explanation: |
-        **Occasional drought.** Colmar’s rain totals are tiny by French vineyard
-        standards. Irrigation is not the everyday fix, so a hot, rainless summer
-        really shows on the vines.
+        Colmar is among the driest wine-growing areas in France. In a hot year, limited
+        rainfall can lead to **water stress**, especially on shallow or free-draining soils.
+    fr:
+      question: Quel risque hydrique peut toucher le vignoble autour de Colmar malgré sa latitude septentrionale ?
+      choices:
+        - { text: "Un engorgement prolongé des sols pendant la plupart des étés", correct: false }
+        - { text: "La sécheresse et le stress hydrique lors des années sèches", correct: true }
+        - { text: "Des dégâts salins réguliers dus aux embruns côtiers", correct: false }
+        - { text: "Une vigueur excessive provoquée par des pluies estivales constantes", correct: false }
+      explanation: |
+        Colmar se situe dans l’une des zones viticoles les plus sèches de France. Lors
+        d’une année chaude, le manque de pluie peut entraîner un **stress hydrique**,
+        surtout sur les sols peu profonds ou très drainants.
 
   - id: alsace-best-sites-001
     type: mcq
@@ -140,14 +205,25 @@ cards:
     en:
       question: Which sites usually produce Alsace’s top still wines?
       choices:
-        - { text: "Flat Rhine alluvium, facing due north", correct: false }
-        - { text: "The steepest foothill slopes, facing east or south-east", correct: true }
-        - { text: "Only west-facing Vosges summits above the treeline", correct: false }
-        - { text: "Valley-floor swamp next to Strasbourg", correct: false }
+        - { text: "Deep alluvial soils on the flat Rhine plain", correct: false }
+        - { text: "Well-exposed slopes on the Vosges foothills", correct: true }
+        - { text: "Cool west-facing slopes behind the Vosges crest", correct: false }
+        - { text: "Low-lying sites where cold air collects", correct: false }
       explanation: |
-        **Steep east / south-east slopes** catch morning-to-midday sun and drain.
-        **Schlossberg** and **Rangen** are the postcard version — not the Rhine
-        plain.
+        The leading sites lie on the **Vosges foothills**, often with east to south-east
+        exposure. Their slopes offer good sunlight and drainage; Schlossberg and Rangen
+        are prominent examples.
+    fr:
+      question: Quels sites donnent généralement les meilleurs vins tranquilles d’Alsace ?
+      choices:
+        - { text: "Les sols alluviaux profonds de la plaine du Rhin", correct: false }
+        - { text: "Les coteaux bien exposés du piémont vosgien", correct: true }
+        - { text: "Les versants frais orientés à l’ouest derrière la crête des Vosges", correct: false }
+        - { text: "Les sites bas où s’accumule l’air froid", correct: false }
+      explanation: |
+        Les meilleurs sites se trouvent sur le **piémont vosgien**, souvent exposés à
+        l’est ou au sud-est. La pente assure un bon ensoleillement et un bon drainage ;
+        Schlossberg et Rangen en sont deux exemples réputés.
 
   - id: alsace-north-cooler-001
     type: mcq
@@ -161,14 +237,25 @@ cards:
     en:
       question: How does the northern stretch of the Alsace vineyard differ from the south?
       choices:
-        - { text: "It is the hottest, driest strip, with the highest Vosges wall", correct: false }
-        - { text: "It is cooler, and the lower Vosges give it less rain-shadow", correct: true }
-        - { text: "It is Mediterranean and grows only Mourvèdre", correct: false }
-        - { text: "There are no vines north of Colmar", correct: false }
+        - { text: "It is warmer and drier because the Vosges are higher", correct: false }
+        - { text: "It is cooler and less sheltered because the Vosges are lower", correct: true }
+        - { text: "It has the same temperatures and rainfall as the southern sector", correct: false }
+        - { text: "It is cooler but more strongly protected from Atlantic rain", correct: false }
       explanation: |
-        **Cooler, less sheltered.** The Vosges lose height toward the north, so
-        Bas-Rhin sees more weather. Most of the famous grands crus cluster farther
-        south around the Haut-Rhin towns.
+        The Vosges become lower toward the north, weakening the rain shadow. The
+        Bas-Rhin is therefore generally **cooler and less dry** than the Haut-Rhin,
+        where many famous grands crus are concentrated.
+    fr:
+      question: En quoi la partie nord du vignoble alsacien diffère-t-elle de la partie sud ?
+      choices:
+        - { text: "Elle est plus chaude et plus sèche parce que les Vosges y sont plus élevées", correct: false }
+        - { text: "Elle est plus fraîche et moins abritée parce que les Vosges y sont moins élevées", correct: true }
+        - { text: "Elle reçoit les mêmes températures et les mêmes pluies que le secteur sud", correct: false }
+        - { text: "Elle est plus fraîche mais davantage protégée des pluies atlantiques", correct: false }
+      explanation: |
+        Les Vosges s’abaissent vers le nord, ce qui réduit leur effet d’abri. Le Bas-Rhin
+        est donc généralement **plus frais et moins sec** que le Haut-Rhin, où se
+        concentrent de nombreux grands crus réputés.
 
   - id: alsace-plain-001
     type: mcq
@@ -180,15 +267,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which land sits below the grands crus and is farmed for simpler fruit?
+      question: Where are many of Alsace’s higher-yielding vineyards for less concentrated wines located?
       choices:
-        - { text: "The west face of the Vosges, in Lorraine", correct: false }
-        - { text: "The flat plain between the foothills and the Rhine", correct: true }
-        - { text: "Only inside the walls of Colmar", correct: false }
-        - { text: "Above the snow line", correct: false }
+        - { text: "On the highest terraces of the Vosges foothills", correct: false }
+        - { text: "On the flat plain between the foothills and the Rhine", correct: true }
+        - { text: "On west-facing slopes beyond the Vosges crest", correct: false }
+        - { text: "In the narrowest upper sections of the side valleys", correct: false }
       explanation: |
-        The **Rhine plain** — fertile, frost-prone, less distinguished. The
-        hillside strip from the foothills is where the grands crus sit.
+        The **Rhine plain** is generally flatter, more fertile and more exposed to frost
+        than the foothills. It commonly supplies fruit for simpler still wines and
+        Crémant d’Alsace.
+    fr:
+      question: Où se situent de nombreuses vignes alsaciennes à rendement plus élevé destinées à des vins moins concentrés ?
+      choices:
+        - { text: "Sur les terrasses les plus élevées du piémont vosgien", correct: false }
+        - { text: "Dans la plaine située entre le piémont et le Rhin", correct: true }
+        - { text: "Sur les versants occidentaux au-delà de la crête des Vosges", correct: false }
+        - { text: "Dans les parties supérieures les plus étroites des vallées latérales", correct: false }
+      explanation: |
+        La **plaine du Rhin** est généralement plus plate, plus fertile et davantage
+        exposée au gel que le piémont. Elle fournit souvent les raisins de vins tranquilles
+        simples et du Crémant d’Alsace.
 
   - id: alsace-cremant-fruit-001
     type: mcq
@@ -200,15 +299,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which sparkling AOC soaks up most of the plain-grown Alsace crop?
+      question: Which AOC is a major outlet for grapes grown on the Alsace plain?
       choices:
-        - { text: "Only vendange tardive Riesling", correct: false }
+        - { text: "Alsace Grand Cru", correct: false }
         - { text: "Crémant d’Alsace", correct: true }
-        - { text: "Vin jaune", correct: false }
-        - { text: "They must be distilled", correct: false }
+        - { text: "Alsace Vendanges Tardives", correct: false }
+        - { text: "Alsace Sélection de Grains Nobles", correct: false }
       explanation: |
-        **Crémant d’Alsace** soaks up a lot of plain-grown Pinot Blanc and
-        Auxerrois. The hillside fruit is too valuable to spend on bubbles.
+        The plain supplies substantial volumes of Pinot Blanc, Auxerrois and other fruit
+        for **Crémant d’Alsace**. Grand cru, VT and SGN depend on more restricted sites
+        or exceptional ripeness rather than being the main destination for plain fruit.
+    fr:
+      question: Quelle AOC constitue un débouché important pour les raisins cultivés dans la plaine d’Alsace ?
+      choices:
+        - { text: "Alsace Grand Cru", correct: false }
+        - { text: "Crémant d’Alsace", correct: true }
+        - { text: "Alsace Vendanges Tardives", correct: false }
+        - { text: "Alsace Sélection de Grains Nobles", correct: false }
+      explanation: |
+        La plaine fournit d’importants volumes de Pinot Blanc, d’Auxerrois et d’autres
+        raisins destinés au **Crémant d’Alsace**. Les grands crus, VT et SGN dépendent
+        de sites plus restreints ou d’une maturité exceptionnelle.
 
   - id: alsace-foothill-soils-001
     type: mcq
@@ -222,14 +333,25 @@ cards:
     en:
       question: How uniform are soils on the Alsace foothill slopes?
       choices:
-        - { text: "One gravel bank, identical to the Médoc", correct: false }
-        - { text: "Highly varied from plot to plot", correct: true }
-        - { text: "Only chalk, like Champagne", correct: false }
-        - { text: "Soil type is illegal to mention", correct: false }
+        - { text: "Mostly uniform gravel over the full length of the region", correct: false }
+        - { text: "Highly varied, sometimes over very short distances", correct: true }
+        - { text: "Predominantly chalk with little variation between sites", correct: false }
+        - { text: "Predominantly deep alluvium across most foothill sites", correct: false }
       explanation: |
-        **A mosaic** — granite, limestone, sandstone, clay, volcanic rock. Walk
-        **Rangen** (volcanic) then **Schlossberg** (granite) and the ground has
-        changed under your feet.
+        Faulting along the Rhine rift exposed a **mosaic** of granite, limestone,
+        sandstone, clay and volcanic material. Rangen is volcanic, while Schlossberg
+        is noted for granite.
+    fr:
+      question: Dans quelle mesure les sols du piémont alsacien sont-ils homogènes ?
+      choices:
+        - { text: "Ils sont surtout constitués des mêmes graves sur toute la longueur du vignoble", correct: false }
+        - { text: "Ils varient fortement, parfois sur de très courtes distances", correct: true }
+        - { text: "Ils sont principalement crayeux et varient peu d’un site à l’autre", correct: false }
+        - { text: "Ils sont partout dominés par de profondes alluvions", correct: false }
+      explanation: |
+        Les failles du fossé rhénan ont fait affleurer une **mosaïque** de granite,
+        calcaire, grès, argile et roches volcaniques. Rangen est volcanique, tandis que
+        Schlossberg est notamment associé au granite.
 
   - id: alsace-geology-001
     type: mcq
@@ -243,14 +365,25 @@ cards:
     en:
       question: Why is the Alsace foothill soil mosaic so extreme?
       choices:
-        - { text: "Growers imported soil from every French region by law", correct: false }
-        - { text: "A violent geological history, including the Rhine rift", correct: true }
-        - { text: "Annual flooding lays a new soil each year", correct: false }
-        - { text: "There is only one bedrock and it never changed", correct: false }
+        - { text: "Glacial deposits formed one continuous moraine along the foothills", correct: false }
+        - { text: "Faulting linked to the Rhine rift exposed many rock types", correct: true }
+        - { text: "Historic Rhine flooding covered the foothills with similar alluvium", correct: false }
+        - { text: "Weathering of a single sandstone bed created the full range of soils", correct: false }
       explanation: |
-        The **Rhine graben** collapsed and left a jumble of rock types along the
-        faulted foothills. That history, not a tasting-room slogan, is why two
-        neighbouring clos can sit on different geology.
+        The collapse of the **Rhine graben** and subsequent faulting brought many rock
+        formations close together. Neighbouring vineyards can therefore sit on very
+        different parent material.
+    fr:
+      question: Pourquoi le piémont alsacien présente-t-il une mosaïque de sols aussi complexe ?
+      choices:
+        - { text: "Les dépôts glaciaires ont formé une moraine continue le long du piémont", correct: false }
+        - { text: "Les failles liées au fossé rhénan ont mis au jour de nombreuses roches", correct: true }
+        - { text: "Les crues régulières du Rhin ont recouvert tous les coteaux des mêmes alluvions", correct: false }
+        - { text: "L’altération d’une seule couche de grès a créé toute la diversité des sols", correct: false }
+      explanation: |
+        L’effondrement du **fossé rhénan** et les failles qui en ont résulté ont rapproché
+        de nombreuses formations rocheuses. Deux parcelles voisines peuvent donc reposer
+        sur des roches mères très différentes.
 
   - id: alsace-style-geology-001
     type: mcq
@@ -262,16 +395,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What local factor is most often blamed for Alsace’s spread of wine styles?
+      question: Which vineyard factor contributes strongly to the diversity of styles among Alsace’s top sites?
       choices:
-        - { text: "A single clone of Chardonnay everywhere", correct: false }
-        - { text: "The geological patchwork of the foothills", correct: true }
-        - { text: "A legal ban on Riesling", correct: false }
-        - { text: "Identical alluvial silt on every slope", correct: false }
+        - { text: "Uniform soils combined with one standard exposure", correct: false }
+        - { text: "The geological patchwork of the Vosges foothills", correct: true }
+        - { text: "A single grape variety planted throughout the region", correct: false }
+        - { text: "Regional differences in permitted yields and harvest timing", correct: false }
       explanation: |
-        **Geological variation** sits under the variety mix and the late-harvest
-        choices. Same Riesling, **Rangen** versus a granite grand cru, is a
-        different wine.
+        The varied geology interacts with exposure, altitude and grape variety. A
+        Riesling grown on volcanic Rangen will not have the same site expression as one
+        grown on a granite grand cru.
+    fr:
+      question: Quel facteur viticole contribue fortement à la diversité des styles parmi les grands terroirs alsaciens ?
+      choices:
+        - { text: "Des sols uniformes associés à une exposition unique", correct: false }
+        - { text: "La mosaïque géologique du piémont vosgien", correct: true }
+        - { text: "La plantation d’un seul cépage dans toute la région", correct: false }
+        - { text: "Des rendements et des dates de vendange identiques sur chaque site", correct: false }
+      explanation: |
+        La diversité géologique interagit avec l’exposition, l’altitude et le cépage. Un
+        Riesling cultivé sur le terroir volcanique de Rangen n’exprimera pas son site de
+        la même manière qu’un Riesling issu d’un grand cru granitique.
 
   - id: alsace-practice-split-001
     type: mcq
@@ -285,14 +429,25 @@ cards:
     en:
       question: Alsace vineyard practice changes mainly with which contrast?
       choices:
-        - { text: "Whether the domaine is in Germany or Switzerland", correct: false }
-        - { text: "Slope sites versus the Rhine plain", correct: true }
-        - { text: "Red grapes versus sparkling only", correct: false }
-        - { text: "AOC versus vin de table irrigation rules", correct: false }
+        - { text: "The northern sector versus the southern sector", correct: false }
+        - { text: "Steep foothill sites versus the flat Rhine plain", correct: true }
+        - { text: "Organic estates versus conventional estates", correct: false }
+        - { text: "Noble varieties versus the other authorised varieties", correct: false }
       explanation: |
-        **Slope versus plain** drives training height, harvest method and frost
-        tactics. A Schlossberg terrace is not farmed like a valley-floor Pinot
-        Blanc block.
+        Slope and plain differ in frost risk, heat capture and ease of mechanisation.
+        These differences influence training height and harvest method more directly
+        than a simple north–south division.
+    fr:
+      question: Quel contraste explique une grande partie des différences de conduite du vignoble en Alsace ?
+      choices:
+        - { text: "Le secteur nord par rapport au secteur sud", correct: false }
+        - { text: "Les coteaux escarpés par rapport à la plaine du Rhin", correct: true }
+        - { text: "Les domaines biologiques par rapport aux domaines conventionnels", correct: false }
+        - { text: "Les cépages nobles par rapport aux autres cépages autorisés", correct: false }
+      explanation: |
+        Le coteau et la plaine diffèrent par le risque de gel, la chaleur reçue et la
+        facilité de mécanisation. Ces écarts influencent directement la hauteur de
+        conduite et le mode de vendange.
 
   - id: alsace-slope-train-001
     type: mcq
@@ -306,14 +461,26 @@ cards:
     en:
       question: Why are vines usually trained low on Alsace’s steep slopes?
       choices:
-        - { text: "To dodge spring frost the way the plain does", correct: false }
-        - { text: "To sit in heat radiating from the ground", correct: true }
-        - { text: "Because AOC forbids any trunk on a hillside", correct: false }
-        - { text: "To copy greenhouse viticulture", correct: false }
+        - { text: "To keep the buds above cold air that pools on the slope", correct: false }
+        - { text: "To benefit from heat radiated by the ground", correct: true }
+        - { text: "To increase exposure to strong winds at canopy height", correct: false }
+        - { text: "To make mechanical harvesting easier on terraces", correct: false }
       explanation: |
-        **Heat radiating from the ground.** Low training puts bunches in that
-        layer. Rows are also lined up to catch the sun. Frost is the plain’s
-        problem, not the well-drained mid-slope.
+        Low-trained vines benefit from **heat stored and radiated by the soil**, which
+        aids ripening in a cool climate. Cold air tends to drain off mid-slope sites;
+        lifting buds above pooled frost is more relevant on the plain.
+    fr:
+      question: Pourquoi les vignes sont-elles généralement conduites assez bas sur les coteaux escarpés d’Alsace ?
+      choices:
+        - { text: "Pour maintenir les bourgeons au-dessus de l’air froid qui s’accumule sur la pente", correct: false }
+        - { text: "Pour profiter de la chaleur restituée par le sol", correct: true }
+        - { text: "Pour exposer davantage la vigne aux vents forts à hauteur de feuillage", correct: false }
+        - { text: "Pour faciliter la vendange mécanique sur les terrasses", correct: false }
+      explanation: |
+        Une conduite basse permet de profiter de la **chaleur emmagasinée puis restituée
+        par le sol**, ce qui favorise la maturation dans un climat frais. L’air froid
+        s’écoule généralement le long des coteaux ; son accumulation concerne davantage
+        la plaine.
 
   - id: alsace-slope-hand-001
     type: mcq
@@ -325,15 +492,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: How is fruit usually picked on Alsace’s steep slopes?
+      question: Why are grapes on Alsace’s steepest slopes usually harvested by hand?
       choices:
-        - { text: "Only by night machine, by law", correct: false }
-        - { text: "By hand", correct: true }
-        - { text: "Left to raisin on the vine and fall", correct: false }
-        - { text: "Helicopters only", correct: false }
+        - { text: "Machine harvesting would raise the sugar level too quickly", correct: false }
+        - { text: "Terraces and gradients make machine access difficult", correct: true }
+        - { text: "Grand cru rules require hand picking on both slopes and plains", correct: false }
+        - { text: "Mechanical harvesting is reserved for noble varieties", correct: false }
       explanation: |
-        **Hand harvest.** Terraces and gradients at **Rangen** or **Schlossberg**
-        do not take a standard machine. The plain is a different story.
+        Standard harvesters cannot work safely or effectively on many steep, terraced
+        sites such as Rangen. The flatter plain is much easier to mechanise.
+    fr:
+      question: Pourquoi les raisins des coteaux alsaciens les plus escarpés sont-ils généralement vendangés à la main ?
+      choices:
+        - { text: "La vendange mécanique ferait monter trop rapidement la teneur en sucre", correct: false }
+        - { text: "Les terrasses et les fortes pentes rendent l’accès des machines difficile", correct: true }
+        - { text: "Les règles des grands crus imposent la vendange manuelle sur coteaux comme en plaine", correct: false }
+        - { text: "La vendange mécanique est réservée aux cépages nobles", correct: false }
+      explanation: |
+        Les machines à vendanger classiques ne peuvent pas travailler efficacement et
+        en sécurité sur de nombreux sites pentus ou en terrasses, comme Rangen. La plaine
+        se prête beaucoup mieux à la mécanisation.
 
   - id: alsace-plain-train-001
     type: mcq
@@ -347,14 +525,24 @@ cards:
     en:
       question: Why are vines on the Alsace plain often trained high?
       choices:
-        - { text: "To copy steep-slope heat capture", correct: false }
-        - { text: "To lift buds above spring frost", correct: true }
-        - { text: "Because AOC forbids any trunk", correct: false }
-        - { text: "To encourage drought", correct: false }
+        - { text: "To maximise heat radiated directly from the soil", correct: false }
+        - { text: "To lift the buds above the coldest frost-prone air", correct: true }
+        - { text: "To reduce airflow and retain humidity around the bunches", correct: false }
+        - { text: "To prevent ripening on the more fertile soils", correct: false }
       explanation: |
-        **Spring frost** pools on the flat land toward the Rhine. High training
-        keeps the renewal zone out of the coldest air. The slope does the
-        opposite — low, for radiated heat.
+        Cold air can pool on the flat land toward the Rhine. Higher training keeps buds
+        and fruit above the coldest layer, reducing **spring-frost risk**.
+    fr:
+      question: Pourquoi les vignes de la plaine d’Alsace sont-elles souvent conduites assez haut ?
+      choices:
+        - { text: "Pour maximiser la chaleur rayonnée directement par le sol", correct: false }
+        - { text: "Pour placer les bourgeons au-dessus de la couche d’air la plus froide", correct: true }
+        - { text: "Pour réduire l’aération et retenir l’humidité autour des grappes", correct: false }
+        - { text: "Pour empêcher la maturation sur les sols les plus fertiles", correct: false }
+      explanation: |
+        L’air froid peut s’accumuler sur les terrains plats proches du Rhin. Une conduite
+        plus haute maintient les bourgeons et les raisins au-dessus de la couche la plus
+        froide et réduit ainsi le **risque de gel printanier**.
 
   - id: alsace-organic-001
     type: mcq
@@ -368,14 +556,26 @@ cards:
     en:
       question: Which farming styles are unusually widespread in Alsace?
       choices:
-        - { text: "Flooded rice-paddy viticulture only", correct: false }
-        - { text: "Organic and biodynamic", correct: true }
-        - { text: "Hydroponics in tunnels", correct: false }
-        - { text: "A legal ban on compost", correct: false }
+        - { text: "High-input conventional farming with bare soil throughout", correct: false }
+        - { text: "Organic and biodynamic viticulture", correct: true }
+        - { text: "Irrigated high-yield farming under permanent cover", correct: false }
+        - { text: "Integrated viticulture based on targeted conventional treatments", correct: false }
       explanation: |
-        **Organic and biodynamic** share is high for France — **Zind-Humbrecht**,
-        **Ostertag**, **Deiss**, **Bott-Geyl**. Dry, sunny weather makes that
-        less of a gamble than in a wet maritime region.
+        Alsace has a notable concentration of **organic and biodynamic** estates,
+        including Zind-Humbrecht and Bott-Geyl. The dry climate helps reduce fungal
+        disease pressure, although these systems still require careful protection.
+    fr:
+      question: Quels modes de culture sont particulièrement répandus dans le vignoble alsacien ?
+      choices:
+        - { text: "Une viticulture conventionnelle intensive maintenant les sols nus", correct: false }
+        - { text: "La viticulture biologique et biodynamique", correct: true }
+        - { text: "Une viticulture irriguée à haut rendement sous abri permanent", correct: false }
+        - { text: "Une viticulture intégrée fondée sur des traitements conventionnels ciblés", correct: false }
+      explanation: |
+        L’Alsace compte une proportion notable de domaines **biologiques et
+        biodynamiques**, dont Zind-Humbrecht et Bott-Geyl. Le climat sec limite la
+        pression des maladies cryptogamiques, sans toutefois supprimer la nécessité de
+        protéger la vigne.
 
   - id: alsace-organic-why-001
     type: mcq
@@ -389,14 +589,25 @@ cards:
     en:
       question: Why is organic and biodynamic farming more practical in Alsace than in a wet maritime region?
       choices:
-        - { text: "The law pays them to farm in fog", correct: false }
-        - { text: "Sunny, dry weather keeps disease pressure low", correct: true }
-        - { text: "Downy mildew cannot survive east of Paris", correct: false }
-        - { text: "Alsace vines are immune to rot", correct: false }
+        - { text: "Deep soils remove the need for any vineyard treatments", correct: false }
+        - { text: "Dry, sunny weather usually lowers fungal disease pressure", correct: true }
+        - { text: "Cold winters reduce disease pressure more than low rainfall does", correct: false }
+        - { text: "The rain shadow prevents any rain during the growing season", correct: false }
       explanation: |
-        **Sunny, dry weather keeps disease pressure low.** Organic growers
-        still use allowed sprays (copper, sulphur); they just face fewer
-        wet-vintage crises than the Loire or Champagne.
+        Fewer wet periods generally mean less downy mildew and rot pressure. Organic
+        growers still monitor disease and may use permitted products such as copper and
+        sulphur; the region is dry, not disease-free.
+    fr:
+      question: Pourquoi la viticulture biologique et biodynamique est-elle plus facile à pratiquer en Alsace que dans une région maritime humide ?
+      choices:
+        - { text: "Les sols profonds rendent tout traitement de la vigne inutile", correct: false }
+        - { text: "Le temps sec et ensoleillé réduit généralement la pression des maladies cryptogamiques", correct: true }
+        - { text: "Les hivers froids réduisent davantage les maladies que la faible pluviométrie", correct: false }
+        - { text: "L’abri vosgien empêche toute pluie pendant la saison végétative", correct: false }
+      explanation: |
+        La rareté des périodes humides réduit généralement la pression du mildiou et de
+        la pourriture. Les viticulteurs biologiques doivent néanmoins surveiller les
+        maladies et peuvent employer des produits autorisés comme le cuivre et le soufre.
 
   - id: alsace-staggered-harvest-001
     type: mcq
@@ -410,14 +621,26 @@ cards:
     en:
       question: What makes an Alsace vintage a logistical headache for a typical grower?
       choices:
-        - { text: "One grape, one huge block, one pick day", correct: false }
-        - { text: "Many tiny plots, each a different variety, ripening on different days", correct: true }
-        - { text: "A legal two-day harvest window", correct: false }
-        - { text: "All fruit must be trucked to Bordeaux", correct: false }
+        - { text: "Most estates farm one variety in a single large block", correct: false }
+        - { text: "Numerous small parcels and varieties ripen at different times", correct: true }
+        - { text: "Separate official dates force each variety to be picked at once", correct: false }
+        - { text: "Large distances between vineyards and the region’s central wineries", correct: false }
       explanation: |
-        A domaine may hold **dozens of small parcels** — Riesling one week,
-        Gewurztraminer later, Muscat earlier. The calendar stretches. That is
-        the opposite of a single-cépage château pick.
+        A domaine may manage many scattered parcels planted to several varieties.
+        Muscat, Riesling, Gewurztraminer and late-harvest lots do not all reach their
+        target ripeness together, so picking can extend over many weeks.
+    fr:
+      question: Pourquoi les vendanges sont-elles souvent difficiles à organiser pour un domaine alsacien ?
+      choices:
+        - { text: "La plupart des domaines cultivent un seul cépage dans une grande parcelle", correct: false }
+        - { text: "De nombreuses petites parcelles et plusieurs cépages mûrissent à des dates différentes", correct: true }
+        - { text: "Des dates officielles distinctes imposent de récolter chaque cépage en une seule fois", correct: false }
+        - { text: "De grandes distances séparent les vignes des caves centrales de la région", correct: false }
+      explanation: |
+        Un domaine peut exploiter de nombreuses parcelles dispersées et plantées de
+        plusieurs cépages. Le Muscat, le Riesling, le Gewurztraminer et les lots de
+        vendanges tardives n’atteignent pas leur maturité recherchée au même moment ; la
+        récolte peut donc s’étaler sur plusieurs semaines.
 
   - id: alsace-harvest-months-001
     type: mcq
@@ -431,13 +654,26 @@ cards:
     en:
       question: How long can an Alsace pick last from the first still fruit to the last sweet pass?
       choices:
-        - { text: "March to April only", correct: false }
-        - { text: "September into November, and sometimes December for the last sweet picks", correct: true }
-        - { text: "January only, like icewine by law", correct: false }
-        - { text: "A single week in June", correct: false }
+        - { text: "From early August to the beginning of September", correct: false }
+        - { text: "From September into November, occasionally later for sweet wines", correct: true }
+        - { text: "From mid-September to a fixed cut-off at the end of October", correct: false }
+        - { text: "From October into January for the main still-wine categories", correct: false }
       explanation: |
-        **September–November**, with **SGN** (and some VT) hanging toward
-        **December**. **Hugel** late-harvest picks are the long tail.
+        Grapes for Crémant are generally picked first, followed by fruit for still Alsace
+        and the grands crus. VT and SGN can extend the harvest well into autumn when
+        conditions permit.
+    fr:
+      question: Sur quelle période les vendanges alsaciennes peuvent-elles s’étaler, des premiers raisins aux dernières sélections de vins doux ?
+      choices:
+        - { text: "Du début du mois d’août au début du mois de septembre", correct: false }
+        - { text: "De septembre à novembre, parfois plus tard pour les vins doux", correct: true }
+        - { text: "De la mi-septembre à une date limite fixe à la fin du mois d’octobre", correct: false }
+        - { text: "D’octobre à janvier pour les principales catégories de vins tranquilles", correct: false }
+      explanation: |
+        Les raisins destinés au Crémant sont généralement récoltés en premier, puis
+        viennent ceux des vins tranquilles d’Alsace et des grands crus. Lorsque les
+        conditions le permettent, les VT et SGN prolongent les vendanges jusque tard en
+        automne.
 
   - id: alsace-nobles-001
     type: mcq
@@ -451,14 +687,26 @@ cards:
     en:
       question: Which four grapes are Alsace’s “noble” set?
       choices:
-        - { text: "Chardonnay, Sauvignon, Sémillon, Ugni Blanc", correct: false }
+        - { text: "Riesling, Gewurztraminer, Pinot Gris, Pinot Blanc", correct: false }
         - { text: "Riesling, Gewurztraminer, Pinot Gris, Muscat", correct: true }
-        - { text: "Pinot Blanc, Sylvaner, Chasselas, Auxerrois", correct: false }
-        - { text: "Gamay, Syrah, Mourvèdre, Carignan", correct: false }
+        - { text: "Riesling, Gewurztraminer, Sylvaner, Auxerrois", correct: false }
+        - { text: "Pinot Gris, Pinot Blanc, Sylvaner, Chasselas", correct: false }
       explanation: |
-        **Riesling, Gewurztraminer, Pinot Gris, Muscat.** Those four unlock
-        grand cru (with rare exceptions), VT and SGN. Pinot Blanc is widely
-        planted but not in that club.
+        **Riesling, Gewurztraminer, Pinot Gris and Muscat** are traditionally called
+        Alsace’s noble varieties. They form the core of grand cru production and are the
+        only varieties eligible for VT and SGN; individual grands crus have exceptions.
+    fr:
+      question: Quels sont les quatre cépages traditionnellement qualifiés de « nobles » en Alsace ?
+      choices:
+        - { text: "Riesling, Gewurztraminer, Pinot Gris et Pinot Blanc", correct: false }
+        - { text: "Riesling, Gewurztraminer, Pinot Gris et Muscat", correct: true }
+        - { text: "Riesling, Gewurztraminer, Sylvaner et Auxerrois", correct: false }
+        - { text: "Pinot Gris, Pinot Blanc, Sylvaner et Chasselas", correct: false }
+      explanation: |
+        Le **Riesling, le Gewurztraminer, le Pinot Gris et le Muscat** constituent les
+        quatre cépages nobles traditionnels. Ils sont au cœur de la production des grands
+        crus et sont les seuls admis pour les VT et SGN ; certains grands crus prévoient
+        toutefois des exceptions particulières.
 
   - id: alsace-vt-sgn-grapes-001
     type: mcq
@@ -470,15 +718,28 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which grapes may be bottled as Alsace Vendange Tardive or SGN?
+      question: Which grapes may be bottled as Alsace Vendanges Tardives or SGN?
       choices:
-        - { text: "Any grape grown in the département", correct: false }
-        - { text: "Only the four nobles", correct: true }
-        - { text: "Pinot Blanc and Sylvaner only", correct: false }
-        - { text: "Only Pinot Noir", correct: false }
+        - { text: "All authorised Alsace varieties", correct: false }
+        - { text: "Riesling, Gewurztraminer, Pinot Gris and the Muscats", correct: true }
+        - { text: "Pinot Blanc, Auxerrois, Sylvaner and Chasselas", correct: false }
+        - { text: "Riesling, Pinot Blanc, Sylvaner and Pinot Noir", correct: false }
       explanation: |
-        **The four nobles only** — Riesling, Gewurztraminer, Pinot Gris, Muscat.
-        A late-hang Pinot Blanc cannot wear those words.
+        VT and SGN are limited to the **four noble families**. Muscat includes Muscat à
+        Petits Grains and Muscat Ottonel. The wine must come from one eligible variety
+        and meet a grape-specific minimum sugar level at harvest.
+    fr:
+      question: Quels cépages peuvent porter les mentions alsaciennes Vendanges Tardives ou Sélection de Grains Nobles ?
+      choices:
+        - { text: "Tous les cépages autorisés en Alsace", correct: false }
+        - { text: "Riesling, Gewurztraminer, Pinot Gris et les Muscats", correct: true }
+        - { text: "Pinot Blanc, Auxerrois, Sylvaner et Chasselas", correct: false }
+        - { text: "Riesling, Pinot Blanc, Sylvaner et Pinot Noir", correct: false }
+      explanation: |
+        Les VT et SGN sont réservées aux **quatre familles nobles**. Le Muscat comprend
+        les Muscats à Petits Grains et le Muscat Ottonel. Le vin doit provenir d’un seul
+        cépage admis et atteindre à la récolte une richesse minimale en sucre propre à ce
+        cépage.
 
   - id: alsace-gc-grapes-001
     type: mcq
@@ -490,16 +751,29 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What grapes does an Alsace Grand Cru usually have to be?
+      question: Which statement best summarises the grape rules for the 51 Alsace Grand Cru AOCs?
       choices:
-        - { text: "Any cépage, including Gamay", correct: false }
-        - { text: "One of the four nobles, with a few named exceptions", correct: true }
-        - { text: "Chardonnay only, like Corton-Charlemagne", correct: false }
-        - { text: "A mandatory five-way field blend", correct: false }
+        - { text: "Each grand cru may freely select from all regional grapes", correct: false }
+        - { text: "The four nobles dominate, with site-specific exceptions", correct: true }
+        - { text: "Riesling and Gewurztraminer are the sole permitted varieties", correct: false }
+        - { text: "A blend of the four noble varieties is normally compulsory", correct: false }
       explanation: |
-        **Usually Riesling, Gewurztraminer, Pinot Gris or Muscat.**
-        **Zotzenberg** may be Sylvaner; a few sites now also bottle grand-cru
-        Pinot Noir. Do not treat “nobles only, no exceptions” as the whole law.
+        Most grand cru wines are based on Riesling, Gewurztraminer, Pinot Gris or Muscat.
+        **Zotzenberg** also permits Sylvaner; Altenberg de Bergheim and Kaefferkopf allow
+        specified blends. Since 2022, **Hengst and Kirchberg de Barr** may also produce
+        red grand cru from Pinot Noir.
+    fr:
+      question: Quelle affirmation résume le mieux les règles d’encépagement des 51 AOC Alsace Grand Cru ?
+      choices:
+        - { text: "Chaque grand cru choisit librement parmi tous les cépages régionaux", correct: false }
+        - { text: "Les quatre cépages nobles dominent, avec des exceptions propres à certains sites", correct: true }
+        - { text: "Le Riesling et le Gewurztraminer sont les seuls cépages admis", correct: false }
+        - { text: "Un assemblage des quatre cépages nobles est normalement obligatoire", correct: false }
+      explanation: |
+        La plupart des grands crus reposent sur le Riesling, le Gewurztraminer, le Pinot
+        Gris ou le Muscat. **Zotzenberg** admet aussi le Sylvaner ; Altenberg de Bergheim
+        et Kaefferkopf autorisent des assemblages définis. Depuis 2022, **Hengst et
+        Kirchberg de Barr** peuvent également produire un grand cru rouge de Pinot Noir.
 
   - id: alsace-varietal-001
     type: mcq
@@ -513,13 +787,25 @@ cards:
     en:
       question: How are the great majority of Alsace still wines bottled?
       choices:
-        - { text: "As unnamed field blends only", correct: false }
+        - { text: "As blends identified only by a proprietary cuvée name", correct: false }
         - { text: "As single-variety wines, with the grape on the label", correct: true }
-        - { text: "As Bordeaux-style red blends", correct: false }
-        - { text: "Without any variety or place name", correct: false }
+        - { text: "As blends labelled with the dominant village rather than a grape", correct: false }
+        - { text: "As wines identified only by sweetness level", correct: false }
       explanation: |
-        **Single variety, grape on the label** — a French exception that looks
-        more German. Blends exist, but they are the minority.
+        Alsace is unusual in France for routinely placing the **grape variety** prominently
+        on the label. Blends such as Edelzwicker and Gentil exist, but single-variety
+        bottlings dominate.
+    fr:
+      question: Comment la grande majorité des vins tranquilles d’Alsace sont-ils commercialisés ?
+      choices:
+        - { text: "Comme des assemblages identifiés uniquement par un nom de cuvée", correct: false }
+        - { text: "Comme des vins monocépages portant le nom du cépage", correct: true }
+        - { text: "Comme des assemblages indiquant le village dominant plutôt que le cépage", correct: false }
+        - { text: "Comme des vins identifiés uniquement par leur niveau de sucrosité", correct: false }
+      explanation: |
+        L’Alsace se distingue en France par l’emploi très fréquent du **nom du cépage**
+        sur l’étiquette. Les assemblages comme Edelzwicker et Gentil existent, mais les
+        cuvées monocépages dominent.
 
   - id: alsace-blend-juice-001
     type: mcq
@@ -533,14 +819,25 @@ cards:
     en:
       question: Where does the juice for a typical everyday Alsace blend come from?
       choices:
-        - { text: "Only the domaine’s single best grand-cru Riesling block", correct: false }
-        - { text: "Lots that were not kept for a varietal bottling", correct: true }
-        - { text: "Bought-in Champagne lees", correct: false }
-        - { text: "Only SGN leftovers", correct: false }
+        - { text: "Parcels selected exclusively for the domaine’s grand cru wines", correct: false }
+        - { text: "Lots not selected for separate varietal bottlings", correct: true }
+        - { text: "Base wines originally reserved for Crémant d’Alsace", correct: false }
+        - { text: "Lots declassified because their acidity is too high", correct: false }
       explanation: |
-        Everyday **Edelzwicker**-style blends often mop up **what did not make
-        the varietal tank**. That is not **Marcel Deiss**’s grand-cru field
-        blends — those are a different, rarer project.
+        A simple Edelzwicker-style blend may combine lots that a producer does not bottle
+        separately by variety. This should not be confused with the deliberately composed,
+        site-driven field blends made by a small number of leading estates.
+    fr:
+      question: D’où proviennent généralement les vins entrant dans un assemblage alsacien courant ?
+      choices:
+        - { text: "De parcelles réservées aux grands crus du domaine", correct: false }
+        - { text: "De lots non retenus pour une mise en bouteille séparée par cépage", correct: true }
+        - { text: "De vins de base initialement réservés au Crémant d’Alsace", correct: false }
+        - { text: "De lots déclassés parce que leur acidité est trop élevée", correct: false }
+      explanation: |
+        Un assemblage simple de type Edelzwicker peut réunir des lots que le producteur
+        ne souhaite pas commercialiser séparément par cépage. Il ne faut pas le confondre
+        avec les assemblages parcellaires délibérés de quelques domaines de premier plan.
 
   - id: alsace-edelzwicker-001
     type: mcq
@@ -554,14 +851,25 @@ cards:
     en:
       question: What does Edelzwicker on an Alsace label tell you?
       choices:
-        - { text: "A 100% Riesling grand cru", correct: false }
-        - { text: "A blend, with no duty to be majority noble grapes", correct: true }
-        - { text: "A legally dry sparkling wine only", correct: false }
-        - { text: "A German Pfalz estate", correct: false }
+        - { text: "A blend containing at least 50% noble varieties", correct: false }
+        - { text: "A blend with no required majority of noble varieties", correct: true }
+        - { text: "A single-variety wine from one named grand cru", correct: false }
+        - { text: "A late-harvest wine meeting the VT sugar minimum", correct: false }
       explanation: |
-        **Edelzwicker** = a blend. It can be a domaine brand or the word itself.
-        Unlike Gentil, it does **not** have to be half nobles. Quality is
-        usually modest.
+        **Edelzwicker** identifies an Alsace blend but imposes no requirement that noble
+        varieties form the majority. **Gentil**, by contrast, must contain at least 50%
+        of the noble varieties.
+    fr:
+      question: Que signifie la mention Edelzwicker sur une étiquette alsacienne ?
+      choices:
+        - { text: "Un assemblage comprenant au moins 50 % de cépages nobles", correct: false }
+        - { text: "Un assemblage sans proportion majoritaire obligatoire de cépages nobles", correct: true }
+        - { text: "Un vin monocépage issu d’un seul grand cru nommé", correct: false }
+        - { text: "Un vin de vendange tardive atteignant le minimum de sucre des VT", correct: false }
+      explanation: |
+        **Edelzwicker** désigne un assemblage alsacien sans imposer que les cépages nobles
+        soient majoritaires. À l’inverse, un **Gentil** doit contenir au moins 50 % de
+        cépages nobles.
 
   - id: alsace-gentil-001
     type: mcq
@@ -575,14 +883,25 @@ cards:
     en:
       question: How does Gentil differ from a generic Alsace blend?
       choices:
-        - { text: "It must be 100% Pinot Noir", correct: false }
+        - { text: "It must contain at least 50% Pinot Noir", correct: false }
         - { text: "At least half the blend must be noble varieties", correct: true }
-        - { text: "It is only legal in Champagne", correct: false }
-        - { text: "It forbids Riesling", correct: false }
+        - { text: "It must contain at least 85% Riesling", correct: false }
+        - { text: "It must come entirely from one grand cru", correct: false }
       explanation: |
-        **Gentil** needs **≥50%** Riesling, Gewurztraminer, Pinot Gris and/or
-        Muscat. **Hugel Gentil** is the bottle most students actually see.
-        Edelzwicker has no such floor.
+        **Gentil** must contain at least **50% Riesling, Gewurztraminer, Pinot Gris and/or
+        Muscat**. Other authorised Alsace varieties may make up the balance. Edelzwicker
+        has no equivalent noble-variety minimum.
+    fr:
+      question: En quoi un Gentil se distingue-t-il d’un assemblage alsacien générique ?
+      choices:
+        - { text: "Il doit contenir au moins 50 % de Pinot Noir", correct: false }
+        - { text: "Au moins la moitié de l’assemblage doit provenir de cépages nobles", correct: true }
+        - { text: "Il doit contenir au moins 85 % de Riesling", correct: false }
+        - { text: "Il doit provenir entièrement d’un seul grand cru", correct: false }
+      explanation: |
+        Un **Gentil** doit contenir au moins **50 % de Riesling, Gewurztraminer, Pinot
+        Gris et/ou Muscat**. D’autres cépages alsaciens autorisés peuvent compléter
+        l’assemblage. Edelzwicker ne prévoit pas de proportion minimale équivalente.
 
   - id: alsace-blend-quality-001
     type: mcq
@@ -594,16 +913,28 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What is the rare exception to Alsace’s everyday-blend reputation?
+      question: Which statement describes the small but important premium-blend tradition in Alsace?
       choices:
-        - { text: "Blends are illegal above village level", correct: false }
-        - { text: "A handful of serious, even grand-cru, field blends", correct: true }
-        - { text: "INAO bans blends from any named hillside", correct: false }
-        - { text: "Blends do not exist in Alsace", correct: false }
+        - { text: "Premium blends may use the regional Alsace AOC but never a grand cru", correct: false }
+        - { text: "A few producers make serious site-based or grand-cru blends", correct: true }
+        - { text: "Premium blends must follow the same recipe as Gentil", correct: false }
+        - { text: "Named-site blends are restricted to the Edelzwicker category", correct: false }
       explanation: |
-        **A handful of serious, even grand-cru, field blends.** **Marcel
-        Deiss** bottles Altenberg de Bergheim and Schoenenbourg that way.
-        They are the exception, not the Edelzwicker supermarket stack.
+        Producers such as **Marcel Deiss** have championed premium field blends. The
+        rules for Altenberg de Bergheim and Kaefferkopf explicitly allow specified
+        grand-cru blends, although single-variety wines remain the regional norm.
+    fr:
+      question: Quelle affirmation décrit la tradition minoritaire mais importante des assemblages haut de gamme en Alsace ?
+      choices:
+        - { text: "Les grands assemblages peuvent relever de l’AOC Alsace mais jamais d’un grand cru", correct: false }
+        - { text: "Quelques producteurs élaborent de grands assemblages parcellaires ou de grand cru", correct: true }
+        - { text: "Les grands assemblages doivent suivre la même composition qu’un Gentil", correct: false }
+        - { text: "Les assemblages de lieu-dit sont réservés à la catégorie Edelzwicker", correct: false }
+      explanation: |
+        Des producteurs comme **Marcel Deiss** ont défendu les grands assemblages de
+        terroir. Les cahiers des charges d’Altenberg de Bergheim et de Kaefferkopf
+        autorisent explicitement certains assemblages de grand cru, même si les vins
+        monocépages restent la norme régionale.
 
   - id: alsace-aroma-focus-001
     type: mcq
@@ -615,15 +946,28 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Why do Alsace cellars so often refuse to bury varietal aroma?
+      question: Why do Alsace winemakers usually favour techniques that preserve primary fruit and floral aromas?
       choices:
-        - { text: "The grapes are all neutral, like Ugni Blanc", correct: false }
-        - { text: "Most of the planted set is aromatic", correct: true }
-        - { text: "New oak is legally mandatory", correct: false }
-        - { text: "MLF is required on every tank", correct: false }
+        - { text: "Most wines are intended to show strong new-oak character", correct: false }
+        - { text: "Many of the region’s principal varieties are aromatic", correct: true }
+        - { text: "The principal varieties benefit from full malolactic conversion", correct: false }
+        - { text: "Long oxidative ageing is compulsory for white wines", correct: false }
       explanation: |
-        **Riesling, Gewurztraminer, Muscat, Pinot Gris** are aroma grapes.
-        Heavy new oak or a loud malo would fight the point of growing them.
+        Riesling, Gewurztraminer and Muscat are valued for distinctive primary aromas;
+        Pinot Gris also gives a recognisable rich profile. Cool fermentation, neutral
+        vessels and blocked malolactic conversion can help retain that identity.
+    fr:
+      question: Pourquoi les vinificateurs alsaciens privilégient-ils généralement les techniques qui préservent les arômes primaires de fruit et de fleurs ?
+      choices:
+        - { text: "La plupart des vins doivent exprimer un boisé neuf marqué", correct: false }
+        - { text: "Beaucoup des principaux cépages régionaux sont aromatiques", correct: true }
+        - { text: "Les principaux cépages gagnent à effectuer une fermentation malolactique complète", correct: false }
+        - { text: "Un long élevage oxydatif est obligatoire pour les vins blancs", correct: false }
+      explanation: |
+        Le Riesling, le Gewurztraminer et le Muscat sont recherchés pour leurs arômes
+        primaires distinctifs ; le Pinot Gris possède lui aussi un profil riche bien
+        reconnaissable. Une fermentation fraîche, des contenants neutres et le blocage de
+        la fermentation malolactique contribuent à préserver cette identité.
 
   - id: alsace-foudre-001
     type: mcq
@@ -635,16 +979,28 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: In what vessel do traditional Alsace cellars usually ferment?
+      question: Which fermentation vessel is characteristic of a traditional Alsace cellar?
       choices:
-        - { text: "New 225 L barriques, toasted heavy", correct: false }
-        - { text: "Large old oak foudres, often decades old", correct: true }
-        - { text: "Amphorae only, by AOC law", correct: false }
-        - { text: "Concrete egg is the only legal tank", correct: false }
+        - { text: "Small new oak barriques with a heavy toast", correct: false }
+        - { text: "Large old oak foudres with little flavour impact", correct: true }
+        - { text: "Open concrete vats designed for red-wine extraction", correct: false }
+        - { text: "Pressure tanks designed for the tank method", correct: false }
       explanation: |
-        **Old foudres** — **Hugel**, **Trimbach**, **Boxler** walk-in barrels.
-        Some really are a century old; “typically >100 years” is a stretch, but
-        they are not new-oak flavour barrels.
+        Large, old **foudres** are traditional in the region. Their size, age and tartrate
+        lining make them relatively neutral, so they provide a fermentation vessel without
+        giving the obvious toast or vanilla of a new barrique.
+    fr:
+      question: Quel récipient de fermentation est caractéristique d’une cave alsacienne traditionnelle ?
+      choices:
+        - { text: "De petites barriques neuves fortement chauffées", correct: false }
+        - { text: "De grands foudres anciens ayant peu d’impact aromatique", correct: true }
+        - { text: "Des cuves ouvertes en béton destinées à l’extraction des vins rouges", correct: false }
+        - { text: "Des cuves sous pression destinées à la méthode en cuve close", correct: false }
+      explanation: |
+        Les grands **foudres** anciens sont traditionnels dans la région. Leur volume,
+        leur âge et leur revêtement de tartre les rendent relativement neutres : ils
+        servent de contenant sans apporter les notes grillées ou vanillées d’une barrique
+        neuve.
 
   - id: alsace-tartrate-001
     type: mcq
@@ -658,13 +1014,25 @@ cards:
     en:
       question: What coats the inside of long-lived Alsace foudres?
       choices:
-        - { text: "Fresh toasted oak staves each year", correct: false }
-        - { text: "A thick crust of tartrate crystals", correct: true }
-        - { text: "Pitch, like a Roman amphora", correct: false }
-        - { text: "Plastic liner required by INAO", correct: false }
+        - { text: "A renewed layer of toasted oak each vintage", correct: false }
+        - { text: "A thick deposit of tartrate crystals", correct: true }
+        - { text: "A layer of lees deliberately left from every fermentation", correct: false }
+        - { text: "A coating of grape-seed oil used as a sealant", correct: false }
       explanation: |
-        **Tartrate scale** builds up over decades. Cellars show it like a
-        geological layer. It is not a flavour additive — it is the opposite.
+        **Tartrate deposits** accumulate over years of use. They are a natural
+        precipitation from wine and help separate the liquid from direct contact with
+        the wood.
+    fr:
+      question: Qu’est-ce qui tapisse l’intérieur des vieux foudres alsaciens ?
+      choices:
+        - { text: "Une nouvelle couche de bois chauffé à chaque millésime", correct: false }
+        - { text: "Un épais dépôt de cristaux de tartre", correct: true }
+        - { text: "Une couche de lies volontairement conservée après chaque fermentation", correct: false }
+        - { text: "Un enduit d’huile de pépins de raisin servant de joint", correct: false }
+      explanation: |
+        Des **dépôts tartriques** s’accumulent au fil des années d’utilisation. Cette
+        précipitation naturelle du vin contribue à isoler le liquide du contact direct
+        avec le bois.
 
   - id: alsace-tartrate-effect-001
     type: mcq
@@ -678,14 +1046,25 @@ cards:
     en:
       question: What does a thick tartrate lining do to wine in an Alsace foudre?
       choices:
-        - { text: "It soaks the wine in new-oak vanilla", correct: false }
-        - { text: "It seals the wood so the cask adds almost no oak flavour", correct: true }
-        - { text: "It forces a mandatory malo", correct: false }
-        - { text: "It turns every wine red", correct: false }
+        - { text: "It increases extraction of toast and vanilla from the wood", correct: false }
+        - { text: "It limits wood contact and keeps oak flavour very low", correct: true }
+        - { text: "It promotes rapid oxygen uptake during fermentation", correct: false }
+        - { text: "It triggers malolactic conversion in every white wine", correct: false }
       explanation: |
-        The crust **blocks wood contact**. The foudre is a stable, inert-ish
-        vessel — size and age, not toast. That is why a Trimbach Riesling can
-        ferment in oak and still taste of stone, not barrel.
+        The crust reduces direct contact between wine and wood. Combined with the large
+        volume and age of the vessel, this makes the foudre a nearly neutral container
+        rather than a source of obvious oak flavour.
+    fr:
+      question: Quel effet un épais dépôt de tartre produit-il dans un foudre alsacien ?
+      choices:
+        - { text: "Il augmente l’extraction des arômes grillés et vanillés du bois", correct: false }
+        - { text: "Il limite le contact avec le bois et réduit fortement le goût de chêne", correct: true }
+        - { text: "Il accélère l’absorption d’oxygène pendant la fermentation", correct: false }
+        - { text: "Il déclenche la fermentation malolactique de tous les vins blancs", correct: false }
+      explanation: |
+        Le dépôt réduit le contact direct entre le vin et le bois. Avec le grand volume
+        et l’âge du récipient, il fait du foudre un contenant presque neutre plutôt qu’une
+        source d’arômes boisés marqués.
 
   - id: alsace-steel-001
     type: mcq
@@ -699,13 +1078,25 @@ cards:
     en:
       question: Why do many modern Alsace cellars ferment in stainless steel?
       choices:
-        - { text: "Steel is required for grand cru", correct: false }
-        - { text: "It makes fermentation temperature easy to hold", correct: true }
-        - { text: "Steel adds more oak than a foudre", correct: false }
-        - { text: "INAO bans any other tank", correct: false }
+        - { text: "It encourages controlled oxidation during fermentation", correct: false }
+        - { text: "It allows precise control of fermentation temperature", correct: true }
+        - { text: "It contributes toast and spice without using new oak", correct: false }
+        - { text: "It promotes uniform oxygen exposure during fermentation", correct: false }
       explanation: |
-        **Temperature control.** Aromatic whites like a cool, clean ferment.
-        Steel is the practical tool; it does not replace every old foudre.
+        Jacketed stainless-steel tanks make **temperature control** straightforward,
+        helping retain fresh primary aromas during white-wine fermentation. They coexist
+        with traditional old foudres.
+    fr:
+      question: Pourquoi de nombreuses caves alsaciennes modernes utilisent-elles des cuves en acier inoxydable pour la fermentation ?
+      choices:
+        - { text: "Elles favorisent une oxydation maîtrisée pendant la fermentation", correct: false }
+        - { text: "Elles permettent un contrôle précis de la température de fermentation", correct: true }
+        - { text: "Elles apportent des notes grillées et épicées sans employer de bois neuf", correct: false }
+        - { text: "Elles favorisent une exposition uniforme à l’oxygène pendant la fermentation", correct: false }
+      explanation: |
+        Les cuves inox thermorégulées facilitent le **contrôle de la température**, ce qui
+        aide à préserver les arômes primaires frais pendant la fermentation des vins
+        blancs. Elles coexistent avec les foudres traditionnels.
 
   - id: alsace-mlf-001
     type: mcq
@@ -719,14 +1110,25 @@ cards:
     en:
       question: Which cellar conversion do Alsace whites usually block?
       choices:
-        - { text: "Settling — they always ferment on heavy lees mud", correct: false }
+        - { text: "Alcoholic fermentation", correct: false }
         - { text: "Malolactic conversion", correct: true }
-        - { text: "Sulphur — it is banned", correct: false }
-        - { text: "Bottling — they ship only in barrel", correct: false }
+        - { text: "Tartrate stabilisation", correct: false }
+        - { text: "Clarification before bottling", correct: false }
       explanation: |
-        **Malolactic conversion** is generally blocked. A buttery malo would
-        smear Riesling and Muscat. Some growers let a tank slip; it is not the
-        house style.
+        Producers generally block **malolactic conversion** to retain acidity and the
+        precise varietal aromas of wines such as Riesling and Muscat. It is a common
+        practice rather than an absolute rule for every wine.
+    fr:
+      question: Quelle transformation en cave est généralement bloquée pour les vins blancs d’Alsace ?
+      choices:
+        - { text: "La fermentation alcoolique", correct: false }
+        - { text: "La fermentation malolactique", correct: true }
+        - { text: "La stabilisation tartrique", correct: false }
+        - { text: "La clarification avant la mise en bouteille", correct: false }
+      explanation: |
+        Les producteurs bloquent généralement la **fermentation malolactique** afin de
+        préserver l’acidité et la précision aromatique de cépages comme le Riesling et le
+        Muscat. Il s’agit d’une pratique courante, non d’une règle absolue pour chaque vin.
 
   - id: alsace-spring-bottle-001
     type: mcq
@@ -738,16 +1140,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: When do most Alsace still wines leave the cellar?
+      question: When are most regional Alsace still wines bottled?
       choices:
-        - { text: "After ten years in new barrique, for oxidation", correct: false }
+        - { text: "Before the end of alcoholic fermentation", correct: false }
         - { text: "The spring after harvest, while the wine is still young and fresh", correct: true }
-        - { text: "The same night as the pick, by law", correct: false }
-        - { text: "Only after a solera in Jerez", correct: false }
+        - { text: "After at least two full years of barrel ageing", correct: false }
+        - { text: "Only after the following vintage has been harvested", correct: false }
       explanation: |
-        **Spring following the vintage** is the usual bottling window — keep
-        the fruit tight. Grand cru and late-harvest lots can sit longer;
-        everyday Riesling does not need a Bordeaux timetable.
+        Many regional wines are bottled in the **spring following the harvest** to retain
+        their fresh fruit. Grands crus and wines carrying VT or SGN have longer maturation
+        requirements and are not represented by this early timetable.
+    fr:
+      question: Quand la plupart des vins tranquilles de l’AOC régionale Alsace sont-ils mis en bouteille ?
+      choices:
+        - { text: "Avant la fin de la fermentation alcoolique", correct: false }
+        - { text: "Au printemps suivant la récolte, lorsque le vin est encore jeune et frais", correct: true }
+        - { text: "Après au moins deux années complètes d’élevage en fût", correct: false }
+        - { text: "Seulement après la récolte du millésime suivant", correct: false }
+      explanation: |
+        De nombreux vins régionaux sont mis en bouteille au **printemps suivant la
+        récolte** afin de préserver leur fruit frais. Les grands crus et les vins portant
+        les mentions VT ou SGN sont soumis à des durées d’élevage plus longues.
 
   - id: alsace-bottle-age-001
     type: mcq
@@ -759,16 +1172,28 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Do Alsace bottles only drink in their first year?
+      question: Which statement best describes the ageing potential of Alsace still wines?
       choices:
-        - { text: "Yes — they are legally sold for immediate drinking only", correct: false }
-        - { text: "No — many, especially Riesling and the better grands crus, can repay time in bottle", correct: true }
-        - { text: "Only Pinot Blanc from the plain", correct: false }
-        - { text: "Only if recorked every six months", correct: false }
+        - { text: "Most wines should be drunk young apart from VT and SGN", correct: false }
+        - { text: "Many top Rieslings and grands crus can develop for years in bottle", correct: true }
+        - { text: "Pinot Gris generally ages longer than the finest Rieslings", correct: false }
+        - { text: "Bottle ageing depends mainly on the use of new oak", correct: false }
       explanation: |
-        **No — many can repay time in bottle.** **Clos Sainte-Hune** and
-        other dry Rieslings are built for a decade-plus. Everyday Pinot Blanc
-        is not the same bet.
+        High acidity and concentration give many top Rieslings and grands crus substantial
+        ageing capacity. Simple Pinot Blanc is usually for earlier drinking, while sweet
+        VT and SGN can also be exceptionally long-lived.
+    fr:
+      question: Quelle affirmation décrit le mieux le potentiel de garde des vins tranquilles d’Alsace ?
+      choices:
+        - { text: "La plupart des vins se boivent jeunes, à l’exception des VT et SGN", correct: false }
+        - { text: "De nombreux grands Rieslings et grands crus peuvent évoluer plusieurs années en bouteille", correct: true }
+        - { text: "Le Pinot Gris vieillit généralement plus longtemps que les meilleurs Rieslings", correct: false }
+        - { text: "Le potentiel de garde dépend principalement de l’emploi de bois neuf", correct: false }
+      explanation: |
+        Une acidité élevée et une bonne concentration donnent à de nombreux grands
+        Rieslings et grands crus une réelle capacité de vieillissement. Le Pinot Blanc
+        simple se boit généralement plus tôt, tandis que les VT et SGN doux peuvent aussi
+        connaître une très longue garde.
 
   - id: alsace-sweetness-trend-001
     type: mcq
@@ -782,14 +1207,26 @@ cards:
     en:
       question: How dry is a typical Alsace still wine now, compared with the old house style?
       choices:
-        - { text: "All wines are legally bone-dry, including SGN", correct: false }
-        - { text: "Most are still dry, but more — especially some grands crus — now carry noticeable sugar", correct: true }
-        - { text: "Everything is dessert-sweet by AOC rule", correct: false }
-        - { text: "Residual sugar is banned", correct: false }
+        - { text: "Regional and grand cru wines remain almost uniformly bone-dry", correct: false }
+        - { text: "Many are dry, but noticeable residual sugar occurs in some styles", correct: true }
+        - { text: "Most still wines are now intentionally medium-sweet", correct: false }
+        - { text: "Residual sugar is largely restricted to the aromatic varieties", correct: false }
       explanation: |
-        **Mostly dry**, VT/SGN aside. Warmer vintages and some domaines
-        (**Zind-Humbrecht** versus bone-dry **Trimbach**) have put more
-        residual sugar into grand-cru bottles than the old “always dry” story.
+        Dry wines remain important, but ripeness and producer choice mean that Riesling,
+        Pinot Gris, Gewurztraminer and some grands crus may retain perceptible sugar.
+        Since the 2021 vintage, labels provide a standard sweetness indication.
+    fr:
+      question: Par rapport au style traditionnellement sec, quel est aujourd’hui le profil de sucrosité des vins tranquilles d’Alsace ?
+      choices:
+        - { text: "Les vins régionaux et grands crus restent presque uniformément secs", correct: false }
+        - { text: "Beaucoup sont secs, mais certains styles conservent un sucre résiduel perceptible", correct: true }
+        - { text: "La plupart des vins tranquilles sont désormais volontairement moelleux", correct: false }
+        - { text: "Le sucre résiduel est largement réservé aux cépages aromatiques", correct: false }
+      explanation: |
+        Les vins secs restent importants, mais la maturité des raisins et les choix du
+        producteur peuvent laisser un sucre perceptible dans certains Riesling, Pinot Gris,
+        Gewurztraminer ou grands crus. Depuis le millésime 2021, une indication normalisée
+        de la sucrosité figure sur l’étiquette.
 
   - id: alsace-sweetness-label-001
     type: mcq
@@ -801,16 +1238,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Until recently, why could you not trust an Alsace Riesling label to say if the wine was dry?
+      question: What labelling change applies to Alsace still wines from the 2021 vintage onward?
       choices:
-        - { text: "Every bottle had to print the exact grams by EU law since 1970", correct: false }
-        - { text: "There was no mandatory sweetness word", correct: true }
-        - { text: "All wines had to say SGN", correct: false }
-        - { text: "Sweetness is illegal to mention", correct: false }
+        - { text: "The exact residual sugar in grams per litre must be printed", correct: false }
+        - { text: "A standard sweetness category must appear on the label", correct: true }
+        - { text: "Each producer must publish its own numerical sweetness scale", correct: false }
+        - { text: "The sweetness indication is compulsory only for grand cru wines", correct: false }
       explanation: |
-        **No mandatory sweetness word** — a Riesling could drink dry or
-        off-dry. From the **2021** vintage, AOC Alsace still wines must state
-        a sweetness band. Older bottles on a list can still hide the sugar.
+        Labels must indicate a category such as **sec, demi-sec, moelleux or doux**.
+        This helps consumers distinguish wines that previously looked similar despite
+        having different levels of residual sugar.
+    fr:
+      question: Quel changement d’étiquetage s’applique aux vins tranquilles d’Alsace à partir du millésime 2021 ?
+      choices:
+        - { text: "La teneur exacte en sucre résiduel doit être indiquée en grammes par litre", correct: false }
+        - { text: "Une catégorie normalisée de sucrosité doit figurer sur l’étiquette", correct: true }
+        - { text: "Chaque producteur doit publier sa propre échelle numérique de sucrosité", correct: false }
+        - { text: "L’indication de sucrosité n’est obligatoire que pour les grands crus", correct: false }
+      explanation: |
+        L’étiquette doit porter une catégorie telle que **sec, demi-sec, moelleux ou
+        doux**. Le consommateur peut ainsi distinguer des vins qui paraissaient autrefois
+        semblables malgré des teneurs en sucre résiduel différentes.
 
   - id: alsace-vt-sweetness-001
     type: mcq
@@ -822,16 +1270,29 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Must an Alsace Vendange Tardive taste sweet?
+      question: What does the Alsace Vendanges Tardives mention primarily certify?
       choices:
-        - { text: "Yes — it is always bone-dry, like a Muscadet", correct: false }
-        - { text: "No — it can drink dry to medium-sweet, depending on the ferment", correct: true }
-        - { text: "Yes — it is always as sweet as SGN", correct: false }
-        - { text: "VT forbids any residual sugar", correct: false }
+        - { text: "A fixed residual-sugar level identical for every grape", correct: false }
+        - { text: "Late-picked grapes meeting a high, variety-specific sugar minimum", correct: true }
+        - { text: "Botrytised berries selected individually in every vintage", correct: false }
+        - { text: "A fortified wine whose fermentation was stopped with spirit", correct: false }
       explanation: |
-        **No required glass sweetness** — **dry to medium-sweet.** VT is a
-        **ripeness** mention (late pick, high must weight), not a guaranteed
-        dessert. A domaine can ferment it out.
+        VT is defined first by **late harvest and high natural grape ripeness**, with
+        different thresholds for the permitted varieties and no enrichment. The wines
+        are generally sweet or medium-sweet, but they are less concentrated than SGN and
+        do not all finish at one identical residual-sugar level.
+    fr:
+      question: Que certifie principalement la mention alsacienne Vendanges Tardives ?
+      choices:
+        - { text: "Une teneur fixe en sucre résiduel identique pour chaque cépage", correct: false }
+        - { text: "Des raisins récoltés tardivement atteignant un minimum élevé de sucre propre au cépage", correct: true }
+        - { text: "Des baies botrytisées sélectionnées une à une à chaque millésime", correct: false }
+        - { text: "Un vin muté dont la fermentation a été arrêtée par ajout d’alcool", correct: false }
+      explanation: |
+        La VT repose d’abord sur une **récolte tardive et une forte maturité naturelle**,
+        avec des seuils différents selon les cépages admis et sans enrichissement. Ces
+        vins sont généralement moelleux, mais moins concentrés que les SGN et ne
+        présentent pas tous exactement la même teneur en sucre résiduel.
 
   - id: alsace-sgn-sweetness-001
     type: mcq
@@ -845,13 +1306,25 @@ cards:
     en:
       question: How sweet is Sélection de Grains Nobles in the glass?
       choices:
-        - { text: "Always dry, with no botrytis", correct: false }
-        - { text: "Always sweet; how much botrytis shows varies from cuvée to cuvée", correct: true }
-        - { text: "Only sparkling and bone-dry", correct: false }
-        - { text: "SGN is a German Prädikat, not used in Alsace", correct: false }
+        - { text: "Usually dry, because the high sugar must ferment completely", correct: false }
+        - { text: "Sweet, although the intensity of botrytis character can vary", correct: true }
+        - { text: "Usually off-dry and lighter than a regional Alsace wine", correct: false }
+        - { text: "Sweet only when the wine is made from Gewurztraminer", correct: false }
       explanation: |
-        **SGN is always sweet.** Botrytis can be loud (**Hugel SGN**) or more
-        discreet, but the wine is not a dry table Riesling.
+        SGN is a concentrated **sweet wine** made from exceptionally ripe grapes, usually
+        affected by noble rot. The proportion and sensory impact of botrytis may differ,
+        but the style is richer and sweeter than VT.
+    fr:
+      question: Quel niveau de sucrosité présente une Sélection de Grains Nobles d’Alsace ?
+      choices:
+        - { text: "Elle est généralement sèche, car tout le sucre doit fermenter", correct: false }
+        - { text: "Elle est douce, même si l’intensité du caractère botrytisé peut varier", correct: true }
+        - { text: "Elle est généralement demi-sèche et plus légère qu’un Alsace régional", correct: false }
+        - { text: "Elle n’est douce que lorsqu’elle provient du Gewurztraminer", correct: false }
+      explanation: |
+        Une SGN est un **vin doux concentré** issu de raisins exceptionnellement mûrs,
+        généralement atteints de pourriture noble. La proportion et l’expression du
+        botrytis peuvent varier, mais le style est plus riche et plus doux qu’une VT.
 
   - id: alsace-riesling-area-001
     type: mcq
@@ -867,11 +1340,23 @@ cards:
       choices:
         - { text: "Gewurztraminer", correct: false }
         - { text: "Riesling", correct: true }
-        - { text: "Muscat Ottonel", correct: false }
-        - { text: "Pinot Blanc is a noble grape and the largest", correct: false }
+        - { text: "Pinot Gris", correct: false }
+        - { text: "Muscat", correct: false }
       explanation: |
-        **Riesling** is the most planted **noble**. Pinot Blanc / Auxerrois can
-        rival it in total hectares, but they are not nobles.
+        **Riesling** is the most widely planted of the four noble varieties. Pinot Blanc
+        is also important in the region, particularly for Crémant, but it is not part of
+        the noble group.
+    fr:
+      question: Quel cépage noble occupe la plus grande superficie du vignoble alsacien ?
+      choices:
+        - { text: "Gewurztraminer", correct: false }
+        - { text: "Riesling", correct: true }
+        - { text: "Pinot Gris", correct: false }
+        - { text: "Muscat", correct: false }
+      explanation: |
+        Le **Riesling** est le plus planté des quatre cépages nobles. Le Pinot Blanc est
+        également important dans la région, notamment pour le Crémant, mais il ne fait pas
+        partie du groupe des cépages nobles.
 
   - id: alsace-riesling-profile-001
     type: mcq
@@ -883,16 +1368,28 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What shape do the best dry Alsace Rieslings usually have in the glass?
+      question: Which profile best describes a high-quality dry Alsace Riesling?
       choices:
-        - { text: "Light, low acid, 8% alcohol, overt residual sugar", correct: false }
-        - { text: "Medium to full, dry, medium alcohol, high acid, citrus-stone fruit, a steely/stony line", correct: true }
-        - { text: "Oily, low acid, 15%, lychee and roses", correct: false }
-        - { text: "Deeply coloured, tannic, and oaked like a Médoc", correct: false }
+        - { text: "Light-bodied, low in acidity, with pronounced tropical sweetness", correct: false }
+        - { text: "Medium- to full-bodied, high in acidity, with citrus and stone-fruit notes", correct: true }
+        - { text: "Full-bodied and oily, with low acidity and pronounced lychee aromas", correct: false }
+        - { text: "Medium-bodied and soft, with low acidity and obvious new-oak spice", correct: false }
       explanation: |
-        **Medium–full, dry, medium alcohol, high acid, citrus and stone fruit,
-        steely/stony.** That is **Trimbach Clos Sainte-Hune** territory — not
-        a kabinett-light German frame and not Gewurztraminer oil.
+        Dry Alsace Riesling combines **high acidity** with greater body and ripeness than
+        many classic Mosel examples. Citrus and stone fruit are common, and bottle age
+        can add honeyed or petrol-like complexity.
+    fr:
+      question: Quel profil décrit le mieux un Riesling sec d’Alsace de grande qualité ?
+      choices:
+        - { text: "Léger, peu acide, avec une douceur tropicale prononcée", correct: false }
+        - { text: "Moyennement corsé à corsé, très acide, avec des notes d’agrumes et de fruits à noyau", correct: true }
+        - { text: "Corsé et huileux, peu acide, avec des arômes prononcés de litchi", correct: false }
+        - { text: "Moyennement corsé et souple, peu acide, avec un boisé neuf évident", correct: false }
+      explanation: |
+        Le Riesling sec d’Alsace associe une **acidité élevée** à davantage de corps et de
+        maturité que de nombreux exemples classiques de la Moselle. Les agrumes et les
+        fruits à noyau sont fréquents ; la garde peut apporter des nuances miellées ou
+        pétrolées.
 
   - id: alsace-riesling-rs-001
     type: mcq
@@ -904,15 +1401,28 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Against the old dry house style, how are many Alsace Rieslings now finished?
+      question: Which modern stylistic variation is found in some Alsace Rieslings?
       choices:
-        - { text: "All must be sparkling", correct: false }
-        - { text: "With some residual sugar", correct: true }
-        - { text: "With no acidity at all", correct: false }
-        - { text: "Fortified to 20%", correct: false }
+        - { text: "Full malolactic conversion in most cuvées", correct: false }
+        - { text: "A perceptible amount of residual sugar", correct: true }
+        - { text: "Routine fortification after fermentation", correct: false }
+        - { text: "Pronounced flavour from new oak in many cuvées", correct: false }
       explanation: |
-        **Some residual sugar** is more common than the old “Alsace Riesling =
-        always bone-dry” line. Read the label (and the 2021+ sweetness band).
+        Although dry Riesling remains central to Alsace, some producers leave **residual
+        sugar** to balance ripeness and acidity. The mandatory sweetness indication on
+        recent labels makes this stylistic difference easier to identify.
+    fr:
+      question: Quelle variation stylistique moderne rencontre-t-on dans certains Rieslings d’Alsace ?
+      choices:
+        - { text: "Une fermentation malolactique complète dans la plupart des cuvées", correct: false }
+        - { text: "Une quantité perceptible de sucre résiduel", correct: true }
+        - { text: "Un mutage systématique après la fermentation", correct: false }
+        - { text: "Un goût prononcé de bois neuf dans de nombreuses cuvées", correct: false }
+      explanation: |
+        Même si le Riesling sec reste essentiel en Alsace, certains producteurs conservent
+        du **sucre résiduel** pour équilibrer la maturité et l’acidité. L’indication de
+        sucrosité obligatoire sur les étiquettes récentes rend cette différence de style
+        plus facile à repérer.
 
   - id: alsace-riesling-vs-german-001
     type: mcq
@@ -924,16 +1434,28 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Compared with a Mosel Riesling, how floral is a typical Alsace Riesling?
+      question: Compared with a classic Mosel Kabinett Riesling, how does a typical dry Alsace Riesling usually differ?
       choices:
-        - { text: "Always more floral than the Mosel", correct: false }
-        - { text: "Typically less floral perfume", correct: true }
-        - { text: "No perfume at all, by law", correct: false }
-        - { text: "Only Gewurztraminer-level roses", correct: false }
+        - { text: "It is lighter-bodied, sweeter and lower in alcohol", correct: false }
+        - { text: "It is fuller-bodied, drier and higher in alcohol", correct: true }
+        - { text: "It has similar body but lower acidity and more oak influence", correct: false }
+        - { text: "It is fuller-bodied, sweeter and lower in alcohol", correct: false }
       explanation: |
-        **Typically less floral perfume**, and usually drier, fuller, higher
-        in alcohol than a Mosel kabinett. Stone and steel over blossom. Not a
-        ban on flowers — a tendency.
+        Greater ripeness and a dry finish commonly give Alsace Riesling more body and
+        alcohol than a traditional Mosel Kabinett. Both can have high acidity and intense
+        fruit; this is a comparison of classic styles, not a rule for every bottle.
+    fr:
+      question: Par rapport à un Riesling Kabinett classique de la Moselle, comment un Riesling sec d’Alsace typique se distingue-t-il généralement ?
+      choices:
+        - { text: "Il est plus léger, plus doux et moins alcoolisé", correct: false }
+        - { text: "Il est plus corsé, plus sec et plus alcoolisé", correct: true }
+        - { text: "Il possède un corps comparable mais moins d’acidité et davantage de boisé", correct: false }
+        - { text: "Il est plus corsé, plus doux et moins alcoolisé", correct: false }
+      explanation: |
+        Une maturité plus élevée et une finale sèche donnent souvent au Riesling d’Alsace
+        davantage de corps et d’alcool qu’à un Kabinett traditionnel de la Moselle. Les
+        deux peuvent avoir une forte acidité et un fruit intense ; il s’agit d’une
+        comparaison de styles classiques, non d’une règle absolue.
 
   - id: alsace-gewurz-aroma-001
     type: mcq
@@ -947,14 +1469,25 @@ cards:
     en:
       question: Which aroma cluster is the Alsace Gewurztraminer giveaway?
       choices:
-        - { text: "Green bell pepper and tomato leaf", correct: false }
+        - { text: "Lime, green apple and wet stone", correct: false }
         - { text: "Lychee, rose, and sweet baking spice", correct: true }
-        - { text: "Peat smoke and iodine", correct: false }
-        - { text: "Cassis and cedar", correct: false }
+        - { text: "Pear, apple and a neutral floral note", correct: false }
+        - { text: "Blackcurrant, cedar and green pepper", correct: false }
       explanation: |
-        **Lychee, rose, sweet baking spice.** If the glass smells like a
-        Turkish-delight shop, you are probably in Gewurz — **Hugel** or
-        **Zind-Humbrecht** both lean on that trio.
+        **Lychee, rose and sweet spice** are classic markers of Gewurztraminer’s intensely
+        aromatic character. The variety is generally more exotic and perfumed than
+        Riesling, Pinot Blanc or Pinot Gris.
+    fr:
+      question: Quel ensemble aromatique évoque le plus clairement un Gewurztraminer d’Alsace ?
+      choices:
+        - { text: "Citron vert, pomme verte et pierre mouillée", correct: false }
+        - { text: "Litchi, rose et épices douces", correct: true }
+        - { text: "Poire, pomme et légère note florale", correct: false }
+        - { text: "Cassis, cèdre et poivron vert", correct: false }
+      explanation: |
+        Le **litchi, la rose et les épices douces** sont des marqueurs classiques du
+        caractère très aromatique du Gewurztraminer. Ce cépage est généralement plus
+        exotique et parfumé que le Riesling, le Pinot Blanc ou le Pinot Gris.
 
   - id: alsace-gewurz-colour-001
     type: mcq
@@ -966,15 +1499,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What does Gewurztraminer’s pink-tinged skin do to many Alsace bottles?
+      question: How can Gewurztraminer’s pink-grey skins influence the appearance of an Alsace white wine?
       choices:
-        - { text: "It forces a pale water-white wine", correct: false }
-        - { text: "It can push the wine toward gold", correct: true }
-        - { text: "It makes the wine deep purple", correct: false }
-        - { text: "Skin colour never affects the wine", correct: false }
+        - { text: "They usually make the wine almost water-white", correct: false }
+        - { text: "They can contribute a deeper golden colour", correct: true }
+        - { text: "They normally produce a deeply coloured red wine", correct: false }
+        - { text: "They make the wine permanently cloudy", correct: false }
       explanation: |
-        **Light pink skins → a golden tint** in a lot of Gewurz (and some
-        Pinot Gris). Not a red wine — just more colour than a pale Riesling.
+        Gewurztraminer is a pink-skinned variety and often gives a more deeply coloured,
+        **golden** white wine than Riesling. Normal white-wine handling prevents it from
+        becoming a red wine.
+    fr:
+      question: Comment la peau gris-rose du Gewurztraminer peut-elle influencer l’apparence d’un vin blanc d’Alsace ?
+      choices:
+        - { text: "Elle donne généralement un vin presque incolore", correct: false }
+        - { text: "Elle peut contribuer à une robe dorée plus soutenue", correct: true }
+        - { text: "Elle produit normalement un vin rouge très coloré", correct: false }
+        - { text: "Elle rend le vin durablement trouble", correct: false }
+      explanation: |
+        Le Gewurztraminer est un cépage à peau rose et donne souvent un vin blanc **doré**
+        plus coloré qu’un Riesling. Une vinification classique en blanc l’empêche de
+        devenir un vin rouge.
 
   - id: alsace-gewurz-profile-001
     type: mcq
@@ -986,16 +1531,28 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What mouthfeel and numbers should you expect from Alsace Gewurztraminer?
+      question: Which structural profile best fits a typical Alsace Gewurztraminer?
       choices:
-        - { text: "Light, high acid, 11% alcohol", correct: false }
-        - { text: "Full, oily, high alcohol (14% is common), low-to-medium acid", correct: true }
-        - { text: "Austere, steely, and lean like a Chablis grand cru", correct: false }
-        - { text: "High tannin, like a young Barolo", correct: false }
+        - { text: "Light-bodied, high in acidity and low in alcohol", correct: false }
+        - { text: "Full-bodied, oily, high in alcohol and low to medium in acidity", correct: true }
+        - { text: "Medium-bodied, high in acidity and restrained in aroma", correct: false }
+        - { text: "Full-bodied, high in tannin and strongly coloured", correct: false }
       explanation: |
-        **Full, oily, high alcohol, low-to-medium acid.** 14% is not a freak
-        vintage. That is why it needs ripe fruit or a touch of sugar — acid
-        alone will not carry it.
+        Gewurztraminer accumulates sugar readily and has naturally modest acidity. The
+        result is often a **full, rich and oily** wine with high alcohol; some examples
+        retain residual sugar to balance the structure.
+    fr:
+      question: Quel profil structurel correspond le mieux à un Gewurztraminer d’Alsace typique ?
+      choices:
+        - { text: "Léger, très acide et peu alcoolisé", correct: false }
+        - { text: "Corsé, huileux, fortement alcoolisé et peu à moyennement acide", correct: true }
+        - { text: "Moyennement corsé, très acide et peu aromatique", correct: false }
+        - { text: "Corsé, très tannique et fortement coloré", correct: false }
+      explanation: |
+        Le Gewurztraminer accumule facilement le sucre et possède une acidité naturellement
+        modérée. Il donne donc souvent un vin **corsé, riche et huileux**, à forte teneur
+        en alcool ; certains exemples conservent du sucre résiduel pour équilibrer
+        l’ensemble.
 
   - id: alsace-pinot-gris-001
     type: mcq
@@ -1007,16 +1564,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: How does Alsace Pinot Gris sit next to Gewurztraminer?
+      question: Compared with Gewurztraminer, which profile is typical of Alsace Pinot Gris?
       choices:
-        - { text: "Lighter, more aromatic, and lower in alcohol", correct: false }
-        - { text: "Also full and rich, with more acid, less perfume, and a honeyed fresh-and-dried-fruit line", correct: true }
-        - { text: "It is always a pale, neutral Italian pinot grigio clone", correct: false }
-        - { text: "It is a red grape with grand-cru tannin", correct: false }
+        - { text: "Lighter-bodied, more perfumed and usually lower in alcohol", correct: false }
+        - { text: "Similarly full-bodied, but usually less perfumed and slightly higher in acidity", correct: true }
+        - { text: "More tannic, more deeply coloured and more influenced by oak", correct: false }
+        - { text: "Lower in ripeness, more neutral in flavour and markedly higher in acidity", correct: false }
       explanation: |
-        **Full, rich, high alcohol**, **more acid than Gewurz**, **less
-        aromatic**, gold-ish colour, **fresh and dried fruit plus honey**.
-        Not supermarket pinot grigio.
+        Alsace Pinot Gris is commonly **full-bodied and rich**, with ripe fresh and dried
+        fruit and sometimes honeyed notes. It is less intensely perfumed than
+        Gewurztraminer and normally retains a little more acidity.
+    fr:
+      question: Par rapport au Gewurztraminer, quel profil est typique du Pinot Gris d’Alsace ?
+      choices:
+        - { text: "Plus léger, plus parfumé et généralement moins alcoolisé", correct: false }
+        - { text: "Tout aussi corsé, mais généralement moins parfumé et un peu plus acide", correct: true }
+        - { text: "Plus tannique, plus coloré et davantage marqué par le bois", correct: false }
+        - { text: "Moins mûr, plus neutre en arômes et nettement plus acide", correct: false }
+      explanation: |
+        Le Pinot Gris d’Alsace est souvent **corsé et riche**, avec des arômes de fruits
+        frais et secs bien mûrs, parfois miellés. Il est moins intensément parfumé que le
+        Gewurztraminer et conserve généralement un peu plus d’acidité.
 
   - id: alsace-muscat-best-001
     type: mcq
@@ -1030,14 +1598,25 @@ cards:
     en:
       question: Of Muscat Blanc à Petits Grains, Muscat Rosé à Petits Grains, and Ottonel, which usually makes the finest Alsace wine?
       choices:
-        - { text: "Muscat of Alexandria", correct: false }
+        - { text: "Muscat Ottonel", correct: false }
         - { text: "Muscat Blanc à Petits Grains", correct: true }
-        - { text: "Muscat Ottonel only, by law", correct: false }
-        - { text: "Muscat Hamburg", correct: false }
+        - { text: "Muscat Rosé à Petits Grains", correct: false }
+        - { text: "A co-ferment of Ottonel and Muscat Rosé à Petits Grains", correct: false }
       explanation: |
-        **Muscat Blanc à Petits Grains** (and its pink cousin) beat **Ottonel**
-        for perfume. The third local Muscat is Ottonel — planted because it is
-        easier, not because it is finer.
+        **Muscat Blanc à Petits Grains**, together with its pink mutation, gives the most
+        intense and refined Muscat character. Ottonel is useful because it ripens earlier
+        and crops more reliably, but it is generally less aromatic.
+    fr:
+      question: Parmi le Muscat Blanc à Petits Grains, le Muscat Rosé à Petits Grains et le Muscat Ottonel, lequel donne généralement les vins d’Alsace les plus fins ?
+      choices:
+        - { text: "Muscat Ottonel", correct: false }
+        - { text: "Muscat Blanc à Petits Grains", correct: true }
+        - { text: "Muscat Rosé à Petits Grains", correct: false }
+        - { text: "Une cofermentation d’Ottonel et de Muscat Rosé à Petits Grains", correct: false }
+      explanation: |
+        Le **Muscat Blanc à Petits Grains**, avec sa mutation rose, exprime le caractère
+        muscaté le plus intense et le plus fin. L’Ottonel est utile parce qu’il mûrit plus
+        tôt et produit plus régulièrement, mais il est généralement moins aromatique.
 
   - id: alsace-mbapg-profile-001
     type: mcq
@@ -1051,14 +1630,25 @@ cards:
     en:
       question: What does Alsace Muscat Blanc à Petits Grains usually taste like?
       choices:
-        - { text: "Full, oily, 14%, low acid, lychee and ginger", correct: false }
-        - { text: "Light to medium, low-to-medium acid, intensely aromatic, orange blossom, rose and grape", correct: true }
-        - { text: "Tannic, oaky, and built like a Médoc", correct: false }
-        - { text: "Neutral, like basic Pinot Blanc", correct: false }
+        - { text: "Full-bodied and oily, with lychee, rose and sweet spice", correct: false }
+        - { text: "Light- to medium-bodied, intensely grapey and floral, usually dry", correct: true }
+        - { text: "Medium-bodied and neutral, with apple and little perfume", correct: false }
+        - { text: "Full-bodied and honeyed, with dried fruit and high alcohol", correct: false }
       explanation: |
-        **Light–medium, low-to-medium acid, orange blossom / rose / grape.**
-        Dry Alsace Muscat should smell like grapes in the glass — that is the
-        point, not Gewurz spice.
+        Muscat’s unmistakable primary aromas suggest **fresh grapes, orange blossom and
+        rose**. In Alsace it is commonly made dry, with a lighter structure than
+        Gewurztraminer or Pinot Gris.
+    fr:
+      question: Quel profil décrit généralement un Muscat Blanc à Petits Grains d’Alsace ?
+      choices:
+        - { text: "Corsé et huileux, avec du litchi, de la rose et des épices douces", correct: false }
+        - { text: "Léger à moyennement corsé, très muscaté et floral, généralement sec", correct: true }
+        - { text: "Moyennement corsé et neutre, avec de la pomme et peu de parfum", correct: false }
+        - { text: "Corsé et miellé, avec des fruits secs et une forte teneur en alcool", correct: false }
+      explanation: |
+        Les arômes primaires caractéristiques du Muscat évoquent le **raisin frais, la
+        fleur d’oranger et la rose**. En Alsace, il est couramment vinifié sec et présente
+        une structure plus légère que le Gewurztraminer ou le Pinot Gris.
 
   - id: alsace-mbapg-hazard-001
     type: mcq
@@ -1072,13 +1662,25 @@ cards:
     en:
       question: What vineyard headaches come with Muscat Blanc à Petits Grains in Alsace?
       choices:
-        - { text: "It never sets fruit and never rots", correct: false }
-        - { text: "Poor fruit set and a weakness for rot", correct: true }
-        - { text: "It only ripens in January", correct: false }
-        - { text: "It is banned on slopes", correct: false }
+        - { text: "Excessively high yields and very compact growth", correct: false }
+        - { text: "Poor fruit set and susceptibility to rot", correct: true }
+        - { text: "Very late budding combined with consistently uneven ripening", correct: false }
+        - { text: "Low vigour and an inability to accumulate sugar", correct: false }
       explanation: |
-        **Coulure / poor set** and **rot**. That is why growers keep **Ottonel**
-        as a more reliable Muscat, even though it smells quieter.
+        Muscat Blanc à Petits Grains is prone to **coulure**, which reduces fruit set, and
+        its bunches can be vulnerable to rot. Muscat Ottonel offers growers a more reliable,
+        though less aromatic, alternative.
+    fr:
+      question: Quelles difficultés viticoles présente le Muscat Blanc à Petits Grains en Alsace ?
+      choices:
+        - { text: "Des rendements excessivement élevés et une végétation très compacte", correct: false }
+        - { text: "Une mauvaise nouaison et une sensibilité à la pourriture", correct: true }
+        - { text: "Un débourrement très tardif associé à une maturité toujours irrégulière", correct: false }
+        - { text: "Une faible vigueur et une incapacité à accumuler du sucre", correct: false }
+      explanation: |
+        Le Muscat Blanc à Petits Grains est sensible à la **coulure**, qui réduit la
+        nouaison, ainsi qu’à la pourriture. Le Muscat Ottonel offre une solution plus
+        régulière, quoique moins aromatique.
 
   - id: alsace-ottonel-001
     type: mcq
@@ -1092,14 +1694,25 @@ cards:
     en:
       question: Which Muscat do Alsace growers plant as the more reliable, less aromatic stand-in?
       choices:
-        - { text: "Muscat of Alexandria, which is more aromatic", correct: false }
-        - { text: "Muscat Ottonel, which is less aromatic", correct: true }
-        - { text: "Muscat Hamburg, which is a red table grape only", correct: false }
-        - { text: "There is no second Muscat in Alsace", correct: false }
+        - { text: "Muscat Blanc à Petits Grains", correct: false }
+        - { text: "Muscat Ottonel", correct: true }
+        - { text: "Muscat Rosé à Petits Grains", correct: false }
+        - { text: "Muscat of Alexandria", correct: false }
       explanation: |
-        **Muscat Ottonel** — earlier, more reliable, **less aromatic** than
-        Blanc à Petits Grains. “Another Muscat” is too vague; Ottonel is the
-        stand-in.
+        **Muscat Ottonel** ripens relatively early and is generally more reliable in the
+        vineyard than Muscat Blanc à Petits Grains. Its trade-off is a less intense and
+        less refined Muscat aroma.
+    fr:
+      question: Quel Muscat les viticulteurs alsaciens plantent-ils comme solution plus régulière mais moins aromatique ?
+      choices:
+        - { text: "Muscat Blanc à Petits Grains", correct: false }
+        - { text: "Muscat Ottonel", correct: true }
+        - { text: "Muscat Rosé à Petits Grains", correct: false }
+        - { text: "Muscat d’Alexandrie", correct: false }
+      explanation: |
+        Le **Muscat Ottonel** mûrit assez tôt et se montre généralement plus régulier à la
+        vigne que le Muscat Blanc à Petits Grains. En contrepartie, son caractère muscaté
+        est moins intense et moins fin.
 
   - id: alsace-pinot-blanc-area-001
     type: mcq
@@ -1116,11 +1729,21 @@ cards:
         - { text: "Sylvaner", correct: false }
         - { text: "Pinot Blanc", correct: true }
         - { text: "Chasselas", correct: false }
-        - { text: "Gewurztraminer is a non-noble grape and the largest", correct: false }
+        - { text: "Auxerrois", correct: false }
       explanation: |
-        **Pinot Blanc** (often with **Auxerrois** in the same tank) is the
-        workhorse non-noble. Riesling is larger among the nobles; Gewurz is
-        noble.
+        **Pinot Blanc** is the principal non-noble workhorse, often blended with
+        Auxerrois and widely used for Crémant. Gewurztraminer belongs to the noble group.
+    fr:
+      question: Quel cépage non noble occupe la plus grande superficie en Alsace ?
+      choices:
+        - { text: "Sylvaner", correct: false }
+        - { text: "Pinot Blanc", correct: true }
+        - { text: "Chasselas", correct: false }
+        - { text: "Auxerrois", correct: false }
+      explanation: |
+        Le **Pinot Blanc** est le principal cépage non noble de la région. Il est souvent
+        assemblé à l’Auxerrois et largement employé pour le Crémant. Le Gewurztraminer
+        appartient au groupe des cépages nobles.
 
   - id: alsace-pinot-blanc-plain-001
     type: mcq
@@ -1134,13 +1757,25 @@ cards:
     en:
       question: Where is Alsace Pinot Blanc usually planted?
       choices:
-        - { text: "Only on Rangen’s volcanic grand-cru slope", correct: false }
-        - { text: "On the more fertile Rhine-plain soils", correct: true }
-        - { text: "Only above the Vosges treeline", correct: false }
-        - { text: "It is banned from the plain", correct: false }
+        - { text: "Primarily on the steepest classified grand cru slopes", correct: false }
+        - { text: "Commonly on the more fertile soils of the Rhine plain", correct: true }
+        - { text: "Mainly on cool west-facing slopes beyond the Vosges crest", correct: false }
+        - { text: "On the calcareous grand cru slopes around Barr", correct: false }
       explanation: |
-        **Fertile plain soils.** The hillside is saved for Riesling and the
-        other nobles. That is why so much Pinot Blanc ends up as crémant.
+        Pinot Blanc is well suited to the **more fertile, flatter land** of the plain,
+        where mechanisation and higher yields are possible. The most favoured foothill
+        sites are more often reserved for noble varieties.
+    fr:
+      question: Où le Pinot Blanc est-il généralement planté en Alsace ?
+      choices:
+        - { text: "Principalement sur les coteaux de grands crus les plus escarpés", correct: false }
+        - { text: "Souvent sur les sols plus fertiles de la plaine du Rhin", correct: true }
+        - { text: "Surtout sur les versants frais orientés à l’ouest derrière les Vosges", correct: false }
+        - { text: "Sur les coteaux calcaires de grands crus autour de Barr", correct: false }
+      explanation: |
+        Le Pinot Blanc convient aux terrains **plus fertiles et plus plats** de la plaine,
+        où la mécanisation et des rendements plus élevés sont possibles. Les meilleurs
+        coteaux du piémont sont plus souvent réservés aux cépages nobles.
 
   - id: alsace-pinot-blanc-use-001
     type: mcq
@@ -1152,15 +1787,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which Alsace sparkling wine is the usual home for Pinot Blanc?
+      question: Which Alsace wine style is a major use for Pinot Blanc grown on the plain?
       choices:
-        - { text: "Champagne", correct: false }
+        - { text: "Alsace Grand Cru Vendanges Tardives", correct: false }
         - { text: "Crémant d’Alsace", correct: true }
-        - { text: "Blanquette de Limoux", correct: false }
-        - { text: "Sekt b.A.", correct: false }
+        - { text: "Alsace Sélection de Grains Nobles", correct: false }
+        - { text: "Alsace Grand Cru red", correct: false }
       explanation: |
-        **Crémant d’Alsace.** Still Pinot Blanc exists; the bulk of the
-        plain crop is for bubbles.
+        Pinot Blanc brings moderate acidity and fairly neutral fruit to **Crémant
+        d’Alsace**, making it one of the appellation’s main grapes. It also produces simple
+        still wines, often with Auxerrois.
+    fr:
+      question: Quel style de vin d’Alsace constitue un débouché important pour le Pinot Blanc cultivé dans la plaine ?
+      choices:
+        - { text: "Alsace Grand Cru Vendanges Tardives", correct: false }
+        - { text: "Crémant d’Alsace", correct: true }
+        - { text: "Alsace Sélection de Grains Nobles", correct: false }
+        - { text: "Alsace Grand Cru rouge", correct: false }
+      explanation: |
+        Le Pinot Blanc apporte une acidité modérée et un fruit assez neutre au **Crémant
+        d’Alsace**, dont il constitue l’un des principaux cépages. Il donne aussi des vins
+        tranquilles simples, souvent avec de l’Auxerrois.
 
   - id: alsace-pinot-blanc-still-001
     type: mcq
@@ -1174,13 +1821,26 @@ cards:
     en:
       question: What does still Alsace Pinot Blanc usually taste like?
       choices:
-        - { text: "Oily, 14%, lychee and roses", correct: false }
-        - { text: "Light, simple, refreshing, and not aromatic", correct: true }
-        - { text: "Tannic and built like a Médoc", correct: false }
-        - { text: "Always dessert-sweet", correct: false }
+        - { text: "Full-bodied and oily, with lychee and rose aromas", correct: false }
+        - { text: "Light and refreshing, with modest, neutral fruit", correct: true }
+        - { text: "Medium-bodied and highly aromatic, with fresh-grape notes", correct: false }
+        - { text: "Full-bodied and honeyed, with dried-fruit concentration", correct: false }
       explanation: |
-        **Light, simple, refreshing, non-aromatic.** A lunch wine, not a
-        Schlossberg Riesling.
+        Still Pinot Blanc is usually **light, softly fruity and uncomplicated**. Auxerrois
+        in the blend can add breadth and spice, but the style is less aromatic than
+        Riesling, Muscat or Gewurztraminer.
+    fr:
+      question: Quel profil présente généralement un Pinot Blanc tranquille d’Alsace ?
+      choices:
+        - { text: "Corsé et huileux, avec des arômes de litchi et de rose", correct: false }
+        - { text: "Léger et rafraîchissant, avec un fruit discret et neutre", correct: true }
+        - { text: "Moyennement corsé et très aromatique, avec des notes de raisin frais", correct: false }
+        - { text: "Corsé et miellé, avec une forte concentration de fruits secs", correct: false }
+      explanation: |
+        Le Pinot Blanc tranquille est généralement **léger, souple et simple**, avec un
+        fruit discret. L’Auxerrois dans l’assemblage peut apporter du volume et des épices,
+        mais le style reste moins aromatique que le Riesling, le Muscat ou le
+        Gewurztraminer.
 
   - id: alsace-auxerrois-001
     type: mcq
@@ -1192,15 +1852,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Next to Pinot Blanc, which white is a touch spicier and broader?
+      question: Which Alsace grape is generally broader and slightly spicier than Pinot Blanc?
       choices:
         - { text: "Chasselas", correct: false }
         - { text: "Auxerrois", correct: true }
-        - { text: "Muscat Ottonel", correct: false }
-        - { text: "Pinot Noir", correct: false }
+        - { text: "Sylvaner", correct: false }
+        - { text: "Riesling", correct: false }
       explanation: |
-        **Auxerrois.** It is often fermented with Pinot Blanc and sold under
-        the Pinot Blanc name — read the small print.
+        **Auxerrois** generally has lower acidity and more body than Pinot Blanc, often
+        with a mild spicy character. The two are frequently blended and may be sold under
+        a Pinot Blanc indication.
+    fr:
+      question: Quel cépage alsacien est généralement plus ample et légèrement plus épicé que le Pinot Blanc ?
+      choices:
+        - { text: "Chasselas", correct: false }
+        - { text: "Auxerrois", correct: true }
+        - { text: "Sylvaner", correct: false }
+        - { text: "Riesling", correct: false }
+      explanation: |
+        L’**Auxerrois** possède généralement moins d’acidité et davantage de corps que le
+        Pinot Blanc, avec parfois un léger caractère épicé. Les deux sont fréquemment
+        assemblés et peuvent être commercialisés sous une indication Pinot Blanc.
 
   - id: alsace-pb-auxerrois-blend-001
     type: mcq
@@ -1214,13 +1886,25 @@ cards:
     en:
       question: What is often in the tank with Alsace Pinot Blanc?
       choices:
-        - { text: "Only Cabernet Sauvignon", correct: false }
+        - { text: "Sylvaner", correct: false }
         - { text: "Auxerrois", correct: true }
-        - { text: "Syrah", correct: false }
-        - { text: "Blending is illegal", correct: false }
+        - { text: "Chasselas", correct: false }
+        - { text: "Muscat Ottonel", correct: false }
       explanation: |
-        **Auxerrois.** The label can still say Pinot Blanc. That mix is
-        everyday Alsace, not a scandal.
+        **Auxerrois** is commonly blended with Pinot Blanc. It contributes extra body and
+        softness, while the finished wine may still be presented under the Pinot Blanc
+        name.
+    fr:
+      question: Quel cépage trouve-t-on souvent dans la même cuve que le Pinot Blanc d’Alsace ?
+      choices:
+        - { text: "Sylvaner", correct: false }
+        - { text: "Auxerrois", correct: true }
+        - { text: "Chasselas", correct: false }
+        - { text: "Muscat Ottonel", correct: false }
+      explanation: |
+        L’**Auxerrois** est fréquemment assemblé au Pinot Blanc. Il apporte davantage de
+        corps et de souplesse, tandis que le vin fini peut rester présenté sous le nom de
+        Pinot Blanc.
 
   - id: alsace-sylvaner-decline-001
     type: mcq
@@ -1236,11 +1920,23 @@ cards:
       choices:
         - { text: "Riesling", correct: false }
         - { text: "Sylvaner", correct: true }
-        - { text: "Gewurztraminer", correct: false }
-        - { text: "Pinot Gris", correct: false }
+        - { text: "Pinot Blanc", correct: false }
+        - { text: "Auxerrois", correct: false }
       explanation: |
-        **Sylvaner** was a workhorse; nobles took its hectares. **Zotzenberg**
-        is the named hold-out as a grand-cru Sylvaner site.
+        **Sylvaner** was once a major workhorse but has lost vineyard area as noble
+        varieties gained ground. Zotzenberg is the important exception where Sylvaner is
+        authorised for grand cru production.
+    fr:
+      question: Quel cépage autrefois très répandu en Alsace a-t-il perdu du terrain au profit des cépages nobles ?
+      choices:
+        - { text: "Riesling", correct: false }
+        - { text: "Sylvaner", correct: true }
+        - { text: "Pinot Blanc", correct: false }
+        - { text: "Auxerrois", correct: false }
+      explanation: |
+        Le **Sylvaner**, autrefois cépage de volume important, a reculé à mesure que les
+        cépages nobles progressaient. Zotzenberg constitue l’exception majeure où le
+        Sylvaner est autorisé en grand cru.
 
   - id: alsace-sylvaner-profile-001
     type: mcq
@@ -1254,13 +1950,25 @@ cards:
     en:
       question: What does everyday Alsace Sylvaner usually taste like?
       choices:
-        - { text: "Oily, 14%, low acid, lychee", correct: false }
-        - { text: "Lightly perfumed, some richness but less than Gewurztraminer, best young", correct: true }
-        - { text: "Always a 20-year dry Riesling shape", correct: false }
-        - { text: "Deeply tannic red", correct: false }
+        - { text: "Full-bodied and oily, with lychee and sweet spice", correct: false }
+        - { text: "Light and subtly perfumed, with modest richness and a youthful style", correct: true }
+        - { text: "High in acidity and intensely citrus-scented, with long ageing potential", correct: false }
+        - { text: "Medium-bodied and strongly grapey, with pronounced floral aromas", correct: false }
       explanation: |
-        **Delicate perfume, some richness (less than Gewurz), drink young.**
-        Zotzenberg can be more serious; the volume wine is not.
+        Everyday Sylvaner is usually **light, fresh and gently aromatic**, intended for
+        early drinking. Old vines and favourable sites, especially Zotzenberg, can give
+        a more concentrated and ageworthy exception.
+    fr:
+      question: Quel profil présente généralement un Sylvaner d’Alsace courant ?
+      choices:
+        - { text: "Corsé et huileux, avec du litchi et des épices douces", correct: false }
+        - { text: "Léger et délicatement parfumé, avec une richesse modérée et un style jeune", correct: true }
+        - { text: "Très acide et intensément citronné, avec un long potentiel de garde", correct: false }
+        - { text: "Moyennement corsé et fortement muscaté, avec des arômes floraux prononcés", correct: false }
+      explanation: |
+        Le Sylvaner courant est généralement **léger, frais et discrètement aromatique**, à
+        boire jeune. Les vieilles vignes et les bons terroirs, notamment Zotzenberg,
+        peuvent donner des exceptions plus concentrées et aptes à la garde.
 
   - id: alsace-only-black-001
     type: mcq
@@ -1276,11 +1984,23 @@ cards:
       choices:
         - { text: "Gamay", correct: false }
         - { text: "Pinot Noir", correct: true }
-        - { text: "Syrah", correct: false }
         - { text: "Cabernet Franc", correct: false }
+        - { text: "Trousseau", correct: false }
       explanation: |
-        **Pinot Noir** — the only red cépage in the still AOC. No Gamay
-        corridor, no Syrah experiment on the label.
+        **Pinot Noir** is the only black grape authorised for still AOC Alsace wine. It
+        can produce red or rosé at regional level and is also permitted for red grand cru
+        in Hengst and Kirchberg de Barr.
+    fr:
+      question: Quel est le seul cépage autorisé pour produire un vin rouge tranquille d’AOC Alsace ?
+      choices:
+        - { text: "Gamay", correct: false }
+        - { text: "Pinot Noir", correct: true }
+        - { text: "Cabernet Franc", correct: false }
+        - { text: "Trousseau", correct: false }
+      explanation: |
+        Le **Pinot Noir** est le seul cépage noir autorisé pour les vins tranquilles d’AOC
+        Alsace. Il peut donner des rouges ou des rosés en appellation régionale et est
+        également admis pour les grands crus rouges Hengst et Kirchberg de Barr.
 
   - id: alsace-pinot-noir-001
     type: mcq
@@ -1292,16 +2012,28 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What style are most Alsace Pinot Noirs in the glass?
+      question: Which profile traditionally characterises most regional Alsace Pinot Noir?
       choices:
-        - { text: "Heavier and more tannic than Pommard", correct: false }
-        - { text: "A light, fruity red or rosé, without Côte d’Or weight", correct: true }
-        - { text: "They are all grand-cru reds by law", correct: false }
-        - { text: "Pinot Noir is illegal in Alsace", correct: false }
+        - { text: "Full-bodied, deeply coloured and high in firm tannin", correct: false }
+        - { text: "Light-bodied and fruity, made as red or rosé", correct: true }
+        - { text: "Medium-sweet, pale and strongly affected by noble rot", correct: false }
+        - { text: "Full-bodied, fortified and matured oxidatively", correct: false }
       explanation: |
-        **A light, fruity red or rosé**, without Côte d’Or weight. A few
-        newer, oakier or grand-cru reds are the exception, not the
-        supermarket stack.
+        The traditional regional style is **light, fresh and fruit-driven**. Warmer
+        seasons, lower yields and greater use of oak have also encouraged more
+        concentrated reds, including the recently recognised red grand crus.
+    fr:
+      question: Quel profil caractérise traditionnellement la majorité des Pinot Noirs régionaux d’Alsace ?
+      choices:
+        - { text: "Corsés, très colorés et riches en tannins fermes", correct: false }
+        - { text: "Légers et fruités, élaborés en rouge ou en rosé", correct: true }
+        - { text: "Demi-doux, pâles et fortement marqués par la pourriture noble", correct: false }
+        - { text: "Corsés, mutés et élevés sous un régime oxydatif", correct: false }
+      explanation: |
+        Le style régional traditionnel est **léger, frais et dominé par le fruit**. Des
+        saisons plus chaudes, des rendements plus faibles et un emploi accru du bois ont
+        aussi favorisé des rouges plus concentrés, dont les grands crus rouges récemment
+        reconnus.
 
   - id: alsace-pn-oak-001
     type: mcq
@@ -1313,16 +2045,28 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: How do some Alsace cellars add extra weight to Pinot Noir?
+      question: Which maturation choice can add toast, spice and structure to an ambitious Alsace Pinot Noir?
       choices:
-        - { text: "By chaptalising to 20%", correct: false }
-        - { text: "With new-oak flavour", correct: true }
-        - { text: "By blending in Syrah", correct: false }
-        - { text: "Oak is banned on red Alsace", correct: false }
+        - { text: "Ageing in old neutral foudres", correct: false }
+        - { text: "Maturation in new oak barrels", correct: true }
+        - { text: "Early bottling in an inert container", correct: false }
+        - { text: "Maturation in stainless steel without oxygen", correct: false }
       explanation: |
-        **New oak** is one shortcut to more apparent concentration. Lower
-        yields and better sites do the quieter job. Not every Alsace Pinot
-        sees a new barrique.
+        **New oak barrels** can contribute toast, vanilla, spice and additional tannin.
+        The best concentrated examples also depend on ripe fruit, low yields and suitable
+        sites; oak alone cannot create concentration.
+    fr:
+      question: Quel choix d’élevage peut apporter des notes grillées, des épices et davantage de structure à un Pinot Noir d’Alsace ambitieux ?
+      choices:
+        - { text: "Un élevage en vieux foudres neutres", correct: false }
+        - { text: "Un élevage en fûts de chêne neufs", correct: true }
+        - { text: "Une mise en bouteille précoce dans un contenant inerte", correct: false }
+        - { text: "Un élevage en cuve inox sans apport d’oxygène", correct: false }
+      explanation: |
+        Les **fûts neufs** peuvent apporter des notes grillées, de la vanille, des épices
+        et des tannins supplémentaires. Les meilleurs vins concentrés reposent aussi sur
+        des raisins mûrs, de faibles rendements et de bons terroirs ; le bois ne crée pas
+        à lui seul la concentration.
 
   - id: alsace-aoc-count-001
     type: mcq
@@ -1334,15 +2078,28 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: How many AOCs does Alsace actually work with, once sparkling is counted?
+      question: How many separate AOCs make up the current Alsace appellation framework?
       choices:
-        - { text: "One, covering every colour and bubble", correct: false }
-        - { text: "Three — Alsace, Alsace Grand Cru, and Crémant d’Alsace", correct: true }
-        - { text: "Exactly two, with no sparkling AOC", correct: false }
-        - { text: "Twelve, like the Beaujolais crus", correct: false }
+        - { text: "Three", correct: false }
+        - { text: "Fifty-three", correct: true }
+        - { text: "Fifty-one", correct: false }
+        - { text: "Fifty-two", correct: false }
       explanation: |
-        **Three AOCs.** The old “two appellations” line forgets **Crémant
-        d’Alsace**. Still wine is **Alsace** or **Alsace Grand Cru**.
+        There is one regional **Alsace** AOC, one **Crémant d’Alsace** AOC and **51
+        separate Alsace Grand Cru AOCs**. Older summaries often group the grands crus
+        into one category and therefore speak loosely of three appellations.
+    fr:
+      question: Combien d’AOC distinctes composent actuellement le système d’appellations alsacien ?
+      choices:
+        - { text: "Trois", correct: false }
+        - { text: "Cinquante-trois", correct: true }
+        - { text: "Cinquante et une", correct: false }
+        - { text: "Cinquante-deux", correct: false }
+      explanation: |
+        Le système comprend une AOC régionale **Alsace**, une AOC **Crémant d’Alsace** et
+        **51 AOC Alsace Grand Cru distinctes**. Les synthèses anciennes regroupent souvent
+        les grands crus en une seule catégorie et parlent donc, de manière simplifiée, de
+        trois appellations.
 
   - id: alsace-still-aocs-001
     type: mcq
@@ -1354,15 +2111,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which two names are the still Alsace appellations?
+      question: How is the current AOC structure for still Alsace wine organised?
       choices:
-        - { text: "Alsace and Crémant de Loire", correct: false }
-        - { text: "Alsace and Alsace Grand Cru", correct: true }
-        - { text: "Côte de Nuits and Côte de Beaune", correct: false }
-        - { text: "AOC and IGP only, with no grand cru", correct: false }
+        - { text: "One regional AOC with no recognised grand cru appellations", correct: false }
+        - { text: "One regional Alsace AOC plus 51 individual Alsace Grand Cru AOCs", correct: true }
+        - { text: "Fifty-one village AOCs plus one regional sparkling AOC", correct: false }
+        - { text: "Two regional AOCs divided solely by grape colour", correct: false }
       explanation: |
-        **Alsace** and **Alsace Grand Cru**. Crémant is the sparkling AOC,
-        not a third still tier.
+        Still wine can use the regional **Alsace** AOC or one of **51 individual Alsace
+        Grand Cru AOCs**. Crémant d’Alsace is a separate sparkling-wine appellation.
+    fr:
+      question: Comment le système actuel des AOC de vins tranquilles d’Alsace est-il organisé ?
+      choices:
+        - { text: "Une AOC régionale sans aucune appellation grand cru reconnue", correct: false }
+        - { text: "Une AOC régionale Alsace et 51 AOC Alsace Grand Cru individuelles", correct: true }
+        - { text: "Cinquante et une AOC communales et une AOC régionale effervescente", correct: false }
+        - { text: "Deux AOC régionales distinguées uniquement par la couleur du vin", correct: false }
+      explanation: |
+        Un vin tranquille peut relever de l’AOC régionale **Alsace** ou de l’une des **51
+        AOC Alsace Grand Cru individuelles**. Crémant d’Alsace constitue une appellation
+        séparée pour les vins effervescents.
 
   - id: alsace-vt-sgn-mentions-001
     type: mcq
@@ -1376,13 +2144,25 @@ cards:
     en:
       question: Besides the AOCs, which two late-harvest mentions can appear on Alsace bottles?
       choices:
-        - { text: "Cru Bourgeois and Premier Cru", correct: false }
-        - { text: "Vendange Tardive and Sélection de Grains Nobles", correct: true }
-        - { text: "Kabinett and Spätlese only, as German law", correct: false }
-        - { text: "Vin jaune and Macvin", correct: false }
+        - { text: "Réserve Personnelle and Cuvée Spéciale", correct: false }
+        - { text: "Vendanges Tardives and Sélection de Grains Nobles", correct: true }
+        - { text: "Edelzwicker d’Alsace and Gentil d’Alsace", correct: false }
+        - { text: "Communal denomination and named lieu-dit", correct: false }
       explanation: |
-        **VT** and **SGN** are ripeness mentions, not extra AOCs. They can
-        sit on Alsace or Alsace Grand Cru.
+        **Vendanges Tardives (VT)** and **Sélection de Grains Nobles (SGN)** are regulated
+        late-harvest mentions rather than additional AOCs. Eligible wines may use them
+        with Alsace or an Alsace Grand Cru appellation.
+    fr:
+      question: En plus de l’AOC, quelles sont les deux mentions réglementées de vendange tardive pouvant figurer sur une bouteille d’Alsace ?
+      choices:
+        - { text: "Réserve personnelle et Cuvée spéciale", correct: false }
+        - { text: "Vendanges Tardives et Sélection de Grains Nobles", correct: true }
+        - { text: "Edelzwicker d’Alsace et Gentil d’Alsace", correct: false }
+        - { text: "Dénomination communale et indication de lieu-dit", correct: false }
+      explanation: |
+        **Vendanges Tardives (VT)** et **Sélection de Grains Nobles (SGN)** sont des
+        mentions réglementées et non des AOC supplémentaires. Les vins admissibles
+        peuvent les associer à Alsace ou à une AOC Alsace Grand Cru.
 
   - id: alsace-vt-sgn-ripeness-001
     type: mcq
@@ -1394,15 +2174,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What legal number decides whether a wine may wear VT or SGN?
+      question: Which measurable requirement is central to eligibility for the VT or SGN mention?
       choices:
-        - { text: "Barrel age in months", correct: false }
-        - { text: "Minimum sugar ripeness, set by grape", correct: true }
-        - { text: "A tasting score from INAO each April", correct: false }
-        - { text: "Alcohol after fortification", correct: false }
+        - { text: "A minimum number of months in oak", correct: false }
+        - { text: "A minimum grape-sugar level specific to the variety", correct: true }
+        - { text: "A minimum percentage of new oak during maturation", correct: false }
+        - { text: "A minimum finished-alcohol level achieved by fortification", correct: false }
       explanation: |
-        **Minimum must-weight / sugar ripeness**, and the bar is higher for
-        SGN than for VT, and higher for some grapes than others.
+        The grapes must reach a specified **natural sugar concentration**. Thresholds
+        vary by variety and are higher for SGN than for VT; enrichment is prohibited.
+    fr:
+      question: Quelle exigence mesurable est essentielle pour pouvoir employer la mention VT ou SGN ?
+      choices:
+        - { text: "Un nombre minimal de mois d’élevage sous bois", correct: false }
+        - { text: "Une richesse minimale en sucre des raisins propre au cépage", correct: true }
+        - { text: "Une proportion minimale de bois neuf pendant l’élevage", correct: false }
+        - { text: "Un degré alcoolique final minimal obtenu par mutage", correct: false }
+      explanation: |
+        Les raisins doivent atteindre une **richesse naturelle en sucre** déterminée. Les
+        seuils varient selon le cépage et sont plus élevés pour les SGN que pour les VT ;
+        tout enrichissement est interdit.
 
   - id: alsace-vt-sgn-which-aoc-001
     type: mcq
@@ -1414,15 +2205,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which Alsace still AOC may carry VT or SGN?
+      question: Which Alsace appellations may be supplemented by the VT or SGN mention?
       choices:
-        - { text: "Only Crémant d’Alsace", correct: false }
-        - { text: "Both Alsace and Alsace Grand Cru", correct: true }
-        - { text: "Only IGP wines", correct: false }
-        - { text: "Neither — those words are German only", correct: false }
+        - { text: "Crémant d’Alsace and Alsace only", correct: false }
+        - { text: "Alsace and eligible Alsace Grand Cru AOCs", correct: true }
+        - { text: "Only the 51 Alsace Grand Cru AOCs", correct: false }
+        - { text: "Only the regional Alsace AOC", correct: false }
       explanation: |
-        **Both still AOCs.** Crémant is a different AOC and does not wear
-        VT/SGN.
+        The mentions can supplement the regional **Alsace** AOC or an eligible **Alsace
+        Grand Cru** AOC. They do not apply to Crémant d’Alsace.
+    fr:
+      question: Quelles appellations alsaciennes peuvent être complétées par la mention VT ou SGN ?
+      choices:
+        - { text: "Crémant d’Alsace et Alsace uniquement", correct: false }
+        - { text: "Alsace et les AOC Alsace Grand Cru admissibles", correct: true }
+        - { text: "Uniquement les 51 AOC Alsace Grand Cru", correct: false }
+        - { text: "Uniquement l’AOC régionale Alsace", correct: false }
+      explanation: |
+        Ces mentions peuvent compléter l’AOC régionale **Alsace** ou une AOC **Alsace
+        Grand Cru** admissible. Elles ne s’appliquent pas au Crémant d’Alsace.
 
   - id: alsace-cuvee-terms-001
     type: mcq
@@ -1436,13 +2237,25 @@ cards:
     en:
       question: What legal weight do words like Réserve personnelle or Cuvée spéciale have in Alsace?
       choices:
-        - { text: "They are INAO ranks above grand cru", correct: false }
-        - { text: "None — they are domaine marketing, not a legal tier", correct: true }
-        - { text: "They replace VT and SGN", correct: false }
-        - { text: "They prove 100% new oak", correct: false }
+        - { text: "They define an official tier immediately below grand cru", correct: false }
+        - { text: "They are producer terms rather than a regulated quality tier", correct: true }
+        - { text: "They certify the same minimum ripeness as VT", correct: false }
+        - { text: "They require grapes from a recognised communale", correct: false }
       explanation: |
-        **No legal status.** A **Réserve personnelle** is the domaine’s own
-        ladder, not a rank INAO will enforce.
+        Such wording belongs to a producer’s own range and does not create an official
+        appellation rank. Its meaning and quality significance must therefore be judged
+        domaine by domaine.
+    fr:
+      question: Quelle valeur réglementaire des mentions comme Réserve personnelle ou Cuvée spéciale ont-elles en Alsace ?
+      choices:
+        - { text: "Elles définissent un niveau officiel immédiatement inférieur au grand cru", correct: false }
+        - { text: "Ce sont des mentions de producteur et non un niveau de qualité réglementé", correct: true }
+        - { text: "Elles certifient la même maturité minimale qu’une VT", correct: false }
+        - { text: "Elles imposent des raisins provenant d’une communale reconnue", correct: false }
+      explanation: |
+        Ces termes appartiennent à la gamme propre du producteur et ne créent aucun rang
+        officiel dans l’appellation. Leur signification et leur portée qualitative doivent
+        donc être évaluées domaine par domaine.
 
   - id: alsace-aoc-volume-001
     type: mcq
@@ -1454,15 +2267,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which still Alsace AOC fills most of the cases that leave the region?
+      question: Which AOC accounts for most of Alsace’s still-wine production?
       choices:
         - { text: "Alsace Grand Cru", correct: false }
         - { text: "Alsace", correct: true }
-        - { text: "Only Crémant, with no still wine", correct: false }
-        - { text: "Vin de France", correct: false }
+        - { text: "Crémant d’Alsace", correct: false }
+        - { text: "Alsace Sélection de Grains Nobles", correct: false }
       explanation: |
-        The regional **Alsace** AOC is the volume still wine. Grand cru is
-        a sliver. Crémant is a large sparkling stream, not this still pile.
+        The regional **Alsace** AOC provides the great majority of still wine. The 51
+        grands crus together represent only a small share of regional production, while
+        Crémant d’Alsace is a separate sparkling category.
+    fr:
+      question: Quelle AOC représente la majorité de la production de vins tranquilles d’Alsace ?
+      choices:
+        - { text: "Alsace Grand Cru", correct: false }
+        - { text: "Alsace", correct: true }
+        - { text: "Crémant d’Alsace", correct: false }
+        - { text: "Alsace Sélection de Grains Nobles", correct: false }
+      explanation: |
+        L’AOC régionale **Alsace** fournit la grande majorité des vins tranquilles. Les 51
+        grands crus ne représentent ensemble qu’une faible part de la production, tandis
+        que le Crémant d’Alsace constitue une catégorie effervescente séparée.
 
   - id: alsace-varietal-100-001
     type: mcq
@@ -1476,13 +2301,25 @@ cards:
     en:
       question: If an Alsace bottle names one grape, how much of the wine must be that grape?
       choices:
-        - { text: "The EU 85% floor is enough", correct: false }
+        - { text: "At least 85%", correct: false }
         - { text: "100%", correct: true }
-        - { text: "51%, like Gentil", correct: false }
-        - { text: "Any percentage, if the word appears", correct: false }
+        - { text: "At least 50%", correct: false }
+        - { text: "At least 75%", correct: false }
       explanation: |
-        **100%.** Alsace is stricter than the usual EU varietal rule. If it
-        says Riesling, it is Riesling.
+        A varietal indication in Alsace requires **100% of the named grape**, stricter than
+        the usual EU 85% threshold. Separate rules apply to authorised named blends such
+        as Gentil and certain grands crus.
+    fr:
+      question: Lorsqu’une bouteille d’Alsace porte le nom d’un seul cépage, quelle proportion du vin doit provenir de ce cépage ?
+      choices:
+        - { text: "Au moins 85 %", correct: false }
+        - { text: "100 %", correct: true }
+        - { text: "Au moins 50 %", correct: false }
+        - { text: "Au moins 75 %", correct: false }
+      explanation: |
+        En Alsace, l’indication d’un cépage exige **100 % du cépage nommé**, soit une règle
+        plus stricte que le seuil européen habituel de 85 %. Des règles distinctes
+        s’appliquent aux assemblages nommés autorisés comme Gentil et certains grands crus.
 
   - id: alsace-village-name-001
     type: mcq
@@ -1494,15 +2331,28 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: When does a commune name show up on a regional Alsace AOC label?
+      question: Under what condition may a commune name supplement the regional Alsace AOC?
       choices:
-        - { text: "Never — only the word Alsace is legal", correct: false }
-        - { text: "Only for a few villages and styles, and not often", correct: true }
-        - { text: "Every village must be printed", correct: false }
-        - { text: "Only German village names are allowed", correct: false }
+        - { text: "Any commune may be named if most grapes come from it", correct: false }
+        - { text: "Only an authorised communal denomination meeting its specific rules may be used", correct: true }
+        - { text: "A commune may be named only when the wine also qualifies as grand cru", correct: false }
+        - { text: "Every regional Alsace wine must state its commune of production", correct: false }
       explanation: |
-        **Only for a few villages and styles, and not often.** It is not
-        Burgundy’s village AOC map. Most bottles just say Alsace + grape.
+        Since 2011, the regional AOC can be supplemented by specified **communal
+        denominations** or lieux-dits when their production rules are met. This is not a
+        complete Burgundy-style ladder of village AOCs.
+    fr:
+      question: À quelle condition le nom d’une commune peut-il compléter l’AOC régionale Alsace ?
+      choices:
+        - { text: "Toute commune peut être nommée si elle fournit la majorité des raisins", correct: false }
+        - { text: "Seule une dénomination communale autorisée respectant ses règles propres peut être employée", correct: true }
+        - { text: "Une commune ne peut être nommée que si le vin est également grand cru", correct: false }
+        - { text: "Tout vin régional d’Alsace doit indiquer sa commune de production", correct: false }
+      explanation: |
+        Depuis 2011, l’AOC régionale peut être complétée par certaines **dénominations
+        communales** ou certains lieux-dits lorsque leurs règles de production sont
+        respectées. Il ne s’agit pas d’une hiérarchie complète d’AOC communales comparable
+        à celle de la Bourgogne.
 
   - id: alsace-gc-count-001
     type: mcq
@@ -1516,13 +2366,25 @@ cards:
     en:
       question: How many named Alsace Grand Cru vineyards are there?
       choices:
-        - { text: "Exactly seven, like Chablis", correct: false }
+        - { text: "Forty-one", correct: false }
         - { text: "Fifty-one", correct: true }
-        - { text: "Two, like the still AOCs", correct: false }
-        - { text: "None — Alsace banned grands crus", correct: false }
+        - { text: "Fifty-three", correct: false }
+        - { text: "Sixty-one", correct: false }
       explanation: |
-        **51** named grands crus (**Kaefferkopf** was the late addition).
-        “Over fifty” is the hedge; the list is fifty-one.
+        There are **51 named grand cru sites**, each protected as its own AOC since the
+        2011 restructuring. Together with Alsace and Crémant d’Alsace, they bring the
+        region’s total to 53 AOCs.
+    fr:
+      question: Combien de vignobles Alsace Grand Cru nommés existe-t-il ?
+      choices:
+        - { text: "Quarante et un", correct: false }
+        - { text: "Cinquante et un", correct: true }
+        - { text: "Cinquante-trois", correct: false }
+        - { text: "Soixante et un", correct: false }
+      explanation: |
+        Il existe **51 grands crus nommés**, chacun protégé comme une AOC distincte depuis
+        la réorganisation de 2011. Avec Alsace et Crémant d’Alsace, ils portent à 53 le
+        nombre total d’AOC de la région.
 
   - id: alsace-gc-label-001
     type: mcq
@@ -1534,16 +2396,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Besides the site name, what must an Alsace Grand Cru label usually state?
+      question: Which information accompanies the appellation name on an Alsace Grand Cru label?
       choices:
-        - { text: "Only the négociant brand, with no vintage", correct: false }
-        - { text: "The vintage and, where it applies, the grape", correct: true }
-        - { text: "The word Champagne", correct: false }
-        - { text: "Nothing — a blank label is required", correct: false }
+        - { text: "The producer’s quality rank and a mandatory barrel-age statement", correct: false }
+        - { text: "The vintage and, for a varietal wine, the grape", correct: true }
+        - { text: "The sweetness category and a mandatory village classification", correct: false }
+        - { text: "The exact yield and harvest date for the parcel", correct: false }
       explanation: |
-        **Vineyard + vintage + grape** (when the wine is a single cépage).
-        Blends on a few sites omit a grape name. Nobles-with-exceptions is
-        already the grape rule.
+        The full grand cru appellation identifies the named site, and the **vintage is
+        compulsory**. A varietal wine also states its grape; authorised blends need not
+        present a single variety.
+    fr:
+      question: Quelles informations accompagnent le nom de l’appellation sur une étiquette d’Alsace Grand Cru ?
+      choices:
+        - { text: "Le classement propre au producteur et une durée obligatoire d’élevage sous bois", correct: false }
+        - { text: "Le millésime et, pour un vin monocépage, le cépage", correct: true }
+        - { text: "La catégorie de sucrosité et un classement communal obligatoire", correct: false }
+        - { text: "Le rendement exact et la date de vendange de la parcelle", correct: false }
+      explanation: |
+        Le nom complet de l’appellation grand cru identifie le site, et le **millésime est
+        obligatoire**. Un vin monocépage indique aussi son cépage ; un assemblage autorisé
+        n’a pas à présenter un cépage unique.
 
   - id: alsace-gc-size-row-001
     type: mcq
@@ -1557,14 +2430,26 @@ cards:
     en:
       question: Why have some top Alsace domaines refused the Grand Cru mention?
       choices:
-        - { text: "Grand cru is illegal on Riesling", correct: false }
-        - { text: "They argue several sites are too large and include ordinary land", correct: true }
-        - { text: "INAO charges a fee only those domaines dislike", correct: false }
-        - { text: "Grand cru forbids any domaine name", correct: false }
+        - { text: "They object to the compulsory use of new oak for grand cru wines", correct: false }
+        - { text: "They consider some boundaries too broad and uneven in quality", correct: true }
+        - { text: "They prefer higher yields than the regional Alsace AOC permits", correct: false }
+        - { text: "They are not allowed to state the producer name on a grand cru label", correct: false }
       explanation: |
-        **Too large, mixed quality.** **Trimbach** long sold **Clos
-        Sainte-Hune** without the GC word; **Hugel** was in the same camp.
-        The complaint is the map, not the idea of a named hill.
+        Critics argue that certain delimited sites are large enough to contain land of
+        differing potential. Trimbach’s Clos Sainte-Hune, within Rosacker, is the classic
+        example of a prestigious wine historically sold without the grand cru wording.
+    fr:
+      question: Pourquoi certains grands domaines alsaciens ont-ils refusé d’employer la mention Grand Cru ?
+      choices:
+        - { text: "Ils contestent l’emploi obligatoire de bois neuf pour les grands crus", correct: false }
+        - { text: "Ils jugent certaines délimitations trop vastes et inégales en qualité", correct: true }
+        - { text: "Ils recherchent des rendements supérieurs à ceux de l’AOC régionale Alsace", correct: false }
+        - { text: "Ils ne peuvent pas indiquer le nom du producteur sur une étiquette de grand cru", correct: false }
+      explanation: |
+        Les critiques estiment que certains sites délimités sont assez vastes pour inclure
+        des parcelles de potentiel inégal. Le Clos Sainte-Hune de Trimbach, situé dans
+        Rosacker, est l’exemple classique d’un vin prestigieux historiquement vendu sans
+        la mention grand cru.
 
   - id: alsace-vt-means-001
     type: mcq
@@ -1576,15 +2461,28 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What does Vendange Tardive literally mark on an Alsace bottle?
+      question: What does the Alsace term Vendanges Tardives literally mean?
       choices:
-        - { text: "A sparkling-only category", correct: false }
-        - { text: "A late harvest", correct: true }
-        - { text: "A fortified solera", correct: false }
-        - { text: "A German Prädikat imported by law", correct: false }
+        - { text: "Selected noble berries", correct: false }
+        - { text: "Late harvest", correct: true }
+        - { text: "Dry selection", correct: false }
+        - { text: "First pressing", correct: false }
       explanation: |
-        **Late harvest.** It is a ripeness mention, not a guaranteed dessert
-        sweetness.
+        The words mean **late harvest**. The regulated mention also requires eligible
+        varieties, hand harvesting, high natural grape sugar and no enrichment; it is
+        more than a casual statement of picking date.
+    fr:
+      question: Que signifie littéralement la mention alsacienne Vendanges Tardives ?
+      choices:
+        - { text: "Sélection de baies nobles", correct: false }
+        - { text: "Récolte tardive", correct: true }
+        - { text: "Sélection sèche", correct: false }
+        - { text: "Premier pressurage", correct: false }
+      explanation: |
+        La mention signifie **récolte tardive**. Sa réglementation impose aussi des
+        cépages admissibles, une vendange manuelle, une forte richesse naturelle en sucre
+        et l’absence d’enrichissement : elle ne se réduit donc pas à une simple date de
+        récolte.
 
   - id: alsace-vt-how-001
     type: mcq
@@ -1596,15 +2494,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: How do the best Alsace VT wines usually get their extra sugar in the vineyard?
+      question: How are sugars commonly concentrated in grapes destined for Alsace VT?
       choices:
-        - { text: "Chaptalisation after a green pick", correct: false }
-        - { text: "Passerillage, sometimes with a little noble rot", correct: true }
-        - { text: "Icewine only, every year", correct: false }
-        - { text: "Fortification in the cellar", correct: false }
+        - { text: "Freezing late-picked grapes naturally on the vine", correct: false }
+        - { text: "Passerillage on the vine, sometimes assisted by noble rot", correct: true }
+        - { text: "Adding concentrated must after fermentation", correct: false }
+        - { text: "Drying harvested grapes indoors before pressing", correct: false }
       explanation: |
-        **Passerillage** (grapes drying on the vine), plus **some botrytis**
-        in the better years. SGN leans harder on noble rot.
+        A long, dry autumn can cause **passerillage on the vine**, concentrating sugars as
+        berries lose water. Noble rot may also contribute. Enrichment is prohibited for
+        wines carrying the VT mention.
+    fr:
+      question: Comment les sucres se concentrent-ils généralement dans les raisins destinés à une VT d’Alsace ?
+      choices:
+        - { text: "Par congélation naturelle des raisins tardifs sur pied", correct: false }
+        - { text: "Par passerillage sur souche, parfois complété par la pourriture noble", correct: true }
+        - { text: "Par ajout de moût concentré après la fermentation", correct: false }
+        - { text: "Par séchage des raisins récoltés à l’intérieur avant pressurage", correct: false }
+      explanation: |
+        Un automne long et sec peut provoquer un **passerillage sur souche** : les baies
+        perdent de l’eau et leurs sucres se concentrent. La pourriture noble peut également
+        intervenir. Tout enrichissement est interdit pour les vins portant la mention VT.
 
   - id: alsace-sgn-rules-001
     type: mcq
@@ -1616,15 +2526,28 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What legal bars sit on Sélection de Grains Nobles versus VT?
+      question: Which requirements are stricter for Sélection de Grains Nobles than for VT?
       choices:
-        - { text: "Any grape, and a lower sugar floor than VT", correct: false }
-        - { text: "Still a noble variety, with a higher grape-specific sugar minimum than VT", correct: true }
-        - { text: "Pinot Blanc only", correct: false }
-        - { text: "SGN has no sugar rule", correct: false }
+        - { text: "More permitted varieties and a lower sugar minimum than VT", correct: false }
+        - { text: "The same noble varieties but a higher grape-specific sugar minimum", correct: true }
+        - { text: "Pinot Gris and Gewurztraminer with the same minimum as VT", correct: false }
+        - { text: "The same sugar minimum as VT but compulsory new-oak ageing", correct: false }
       explanation: |
-        **Same noble-grape club, higher must-weight than VT.** That is why
-        SGN is always a sweet wine and not every vintage.
+        SGN uses the same eligible noble varieties as VT but requires a **higher natural
+        sugar concentration at harvest**. Neither category may be enriched, and both are
+        subject to extended maturation before release.
+    fr:
+      question: Quelles exigences distinguent une Sélection de Grains Nobles d’une VT ?
+      choices:
+        - { text: "Davantage de cépages admis et une richesse minimale en sucre plus faible", correct: false }
+        - { text: "Les mêmes cépages nobles mais une richesse minimale en sucre plus élevée selon le cépage", correct: true }
+        - { text: "Pinot Gris et Gewurztraminer avec le même minimum de sucre qu’une VT", correct: false }
+        - { text: "Le même minimum de sucre qu’une VT mais un élevage obligatoire en bois neuf", correct: false }
+      explanation: |
+        Une SGN emploie les mêmes cépages nobles admissibles qu’une VT, mais exige une
+        **richesse naturelle en sucre plus élevée à la récolte**. Aucune des deux
+        catégories ne peut être enrichie et toutes deux doivent connaître un élevage
+        prolongé avant leur commercialisation.
 
   - id: alsace-sgn-botrytis-001
     type: mcq
@@ -1636,15 +2559,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: How is the extra sugar for Alsace SGN usually grown?
+      question: What usually concentrates the sugars in grapes used for Alsace SGN?
       choices:
-        - { text: "Only by chaptalisation", correct: false }
-        - { text: "Usually by noble rot", correct: true }
-        - { text: "Only by freezing on the vine every October", correct: false }
-        - { text: "By watering the must in tank", correct: false }
+        - { text: "Mainly by adding concentrated must before fermentation", correct: false }
+        - { text: "Usually through noble rot concentrating selected berries", correct: true }
+        - { text: "Mainly by freezing intact bunches on the vine", correct: false }
+        - { text: "Usually by drying whole bunches indoors after harvest", correct: false }
       explanation: |
-        **Usually noble rot.** Passerillage can help; SGN without botrytis
-        is the exception. **Hugel SGN** is the botrytis-shaped example.
+        **Botrytis cinerea** perforates berry skins and promotes water loss, concentrating
+        sugar, acidity and flavour. Passerillage may contribute, but noble rot is the
+        defining route for the classic SGN style.
+    fr:
+      question: Comment les raisins destinés à une SGN d’Alsace atteignent-ils généralement leur très forte concentration en sucre ?
+      choices:
+        - { text: "Principalement par ajout de moût concentré avant la fermentation", correct: false }
+        - { text: "Généralement par la pourriture noble qui concentre les baies sélectionnées", correct: true }
+        - { text: "Principalement par congélation des grappes entières sur pied", correct: false }
+        - { text: "Généralement par séchage des grappes entières à l’intérieur après la récolte", correct: false }
+      explanation: |
+        **Botrytis cinerea** perfore la peau des baies et favorise la perte d’eau, ce qui
+        concentre le sucre, l’acidité et les arômes. Le passerillage peut contribuer, mais
+        la pourriture noble est la voie caractéristique du style SGN classique.
 
   - id: alsace-sgn-rare-001
     type: mcq
@@ -1656,14 +2591,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: How common is a commercial Alsace SGN vintage?
+      question: How frequently can Alsace producers make SGN successfully?
       choices:
-        - { text: "Every year, like generic Alsace AOC", correct: false }
-        - { text: "Not every year", correct: true }
-        - { text: "SGN is the majority of the harvest", correct: false }
-        - { text: "SGN is bottled only in Germany", correct: false }
+        - { text: "In most years because the dry autumn reliably produces noble rot", correct: false }
+        - { text: "Only in suitable years; conditions do not allow it every vintage", correct: true }
+        - { text: "Mainly in cooler, wetter years with widespread botrytis", correct: false }
+        - { text: "Whenever the regional crop does not reach normal ripeness", correct: false }
       explanation: |
-        **Not every year.** Botrytis and the sugar bar have to line up.
+        Producers need exceptional ripeness, suitably timed noble rot and sound fruit.
+        Those conditions do not coincide every year, so SGN is **vintage-dependent**.
+    fr:
+      question: À quelle fréquence les producteurs alsaciens peuvent-ils réussir une SGN ?
+      choices:
+        - { text: "La plupart des années, car l’automne sec produit régulièrement de la pourriture noble", correct: false }
+        - { text: "Seulement lors des années favorables, car les conditions ne conviennent pas à chaque millésime", correct: true }
+        - { text: "Surtout lors des années plus fraîches et humides où le botrytis est très répandu", correct: false }
+        - { text: "Chaque fois que la récolte régionale n’atteint pas sa maturité normale", correct: false }
+      explanation: |
+        Il faut une maturité exceptionnelle, une pourriture noble se développant au bon
+        moment et des raisins restant sains. Ces conditions ne coïncident pas chaque année :
+        la production de SGN est donc **très dépendante du millésime**.
 
   - id: alsace-sgn-volume-001
     type: mcq
@@ -1675,13 +2622,24 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: When Alsace does make SGN, how much of it is there?
+      question: What production volume is typical for Alsace SGN?
       choices:
-        - { text: "Bulk volumes, like generic Alsace AOC", correct: false }
-        - { text: "Tiny quantities", correct: true }
-        - { text: "More than half the harvest", correct: false }
-        - { text: "SGN is bottled only in Germany", correct: false }
+        - { text: "Volumes comparable with the regional Alsace AOC", correct: false }
+        - { text: "Very small quantities obtained through selective picking", correct: true }
+        - { text: "Volumes comparable with the estate’s grand cru production", correct: false }
+        - { text: "Volumes generally larger than the estate’s VT production", correct: false }
       explanation: |
-        **Tiny quantities.** When the vintage cooperates, the bottles are
-        still scarce.
-
+        Selective picking, berry dehydration and the rarity of suitable conditions keep
+        SGN production **extremely small**. Even in a favourable year, it represents only
+        a tiny fraction of an estate’s crop.
+    fr:
+      question: Quel volume de production est typique d’une SGN d’Alsace ?
+      choices:
+        - { text: "Des volumes comparables à ceux de l’AOC régionale Alsace", correct: false }
+        - { text: "De très petites quantités obtenues par des tries sélectives", correct: true }
+        - { text: "Des volumes comparables à la production de grands crus du domaine", correct: false }
+        - { text: "Des volumes généralement supérieurs à la production de VT du domaine", correct: false }
+      explanation: |
+        Les tries sélectives, la déshydratation des baies et la rareté des conditions
+        favorables limitent la production de SGN à des volumes **extrêmement faibles**.
+        Même lors d’une bonne année, elle ne représente qu’une infime partie de la récolte.
