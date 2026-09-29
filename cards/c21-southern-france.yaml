@@ -13,16 +13,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which climate description fits Southern France?
+      question: "Which climate pattern best describes most of Southern France’s Mediterranean vineyards?"
       choices:
-        - { text: "Cool maritime, like Muscadet", correct: false }
-        - { text: "Warm Mediterranean — summers often over 30°C, mild winters, low rainfall", correct: true }
-        - { text: "High alpine only", correct: false }
-        - { text: "Moderate continental, like Beaujolais", correct: false }
+        - { text: "Warm, dry summers; mild winters; most rain outside summer", correct: true }
+        - { text: "Cool summers; severe winters; evenly distributed rain", correct: false }
+        - { text: "Hot, humid summers; dry, freezing winters", correct: false }
+        - { text: "Mild summers; very wet winters; little sunshine", correct: false }
       explanation: |
-        **Warm Mediterranean.** That is why Grenache and Carignan ripen
-        here and why drought, not frost, is the usual worry.
-
+        A Mediterranean climate brings abundant sunshine, warm to hot dry summers and generally mild
+        winters. Low summer rainfall makes drought a more persistent concern than failure to ripen.
+    fr:
+      question: "Quel régime climatique décrit le mieux la plupart des vignobles méditerranéens du sud de la France ?"
+      choices:
+        - { text: "Étés chauds et secs, hivers doux, pluies surtout hors de l’été", correct: true }
+        - { text: "Étés frais, hivers rigoureux, pluies réparties toute l’année", correct: false }
+        - { text: "Étés chauds et humides, hivers secs et glacials", correct: false }
+        - { text: "Étés doux, hivers très pluvieux, faible ensoleillement", correct: false }
+      explanation: |
+        Le climat méditerranéen apporte un fort ensoleillement, des étés chauds à très chauds et secs, ainsi
+        que des hivers généralement doux. La faible pluviométrie estivale rend la sécheresse plus
+        préoccupante qu’un défaut de maturité.
   - id: sfrance-terrain-001
     type: mcq
     deck: France::Southern France
@@ -33,16 +43,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which two landscapes divide Southern France’s vineyards?
+      question: "Which broad contrast best describes the vineyard landscape of Languedoc-Roussillon?"
       choices:
-        - { text: "Only steep northern-Rhône walls", correct: false }
-        - { text: "Mountain foothills and coastal plains", correct: true }
-        - { text: "A cliffed fjord", correct: false }
-        - { text: "Inland chalk only, like Champagne", correct: false }
+        - { text: "Fertile coastal plains and poorer, often cooler foothills", correct: true }
+        - { text: "Granite river terraces and volcanic mountain summits", correct: false }
+        - { text: "Chalk plains and a single limestone escarpment", correct: false }
+        - { text: "Atlantic dunes and permanently flooded marshes", correct: false }
       explanation: |
-        **Foothills and coastal plains.** The hills are the better
-        sites; the plain is the volume.
-
+        Large coastal plains historically supported high-volume production. Inland foothills tend to be less
+        fertile and better drained, with altitude or exposure moderating the heat and favouring more
+        concentrated wines.
+    fr:
+      question: "Quel contraste général décrit le mieux le paysage viticole du Languedoc-Roussillon ?"
+      choices:
+        - { text: "Plaines littorales fertiles et piémonts plus pauvres, souvent plus frais", correct: true }
+        - { text: "Terrasses fluviales granitiques et sommets volcaniques", correct: false }
+        - { text: "Plaines crayeuses et unique escarpement calcaire", correct: false }
+        - { text: "Dunes atlantiques et marais inondés en permanence", correct: false }
+      explanation: |
+        Les vastes plaines littorales ont historiquement favorisé une production de volume. Les piémonts
+        intérieurs sont souvent moins fertiles et mieux drainés ; l’altitude ou l’exposition y modère la
+        chaleur et favorise des vins plus concentrés.
   - id: sfrance-foothills-001
     type: mcq
     deck: France::Southern France
@@ -53,16 +74,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: How do foothill vineyards sit next to the Southern France coastal plain?
+      question: "Why do foothill sites often produce more concentrated wines than the coastal plain in Southern France?"
       choices:
-        - { text: "Hotter, wetter, and more fertile", correct: false }
-        - { text: "Noticeably cooler, less fertile, and better drained", correct: true }
-        - { text: "Below sea level only", correct: false }
-        - { text: "Permanently iced", correct: false }
+        - { text: "They are generally cooler, less fertile and better drained", correct: true }
+        - { text: "They are warmer, more fertile and receive more summer rain", correct: false }
+        - { text: "They remain humid because water tables lie near the surface", correct: false }
+        - { text: "They ripen grapes faster because their soils are deeper and richer", correct: false }
       explanation: |
-        **Cooler, poorer, better drained.** That is why Pic Saint-Loup
-        and inland Corbières outrun the Béziers flats.
-
+        Poorer, well-drained soils restrict vigour, while elevation and exposure can provide cooler
+        conditions and a longer ripening period. These factors often favour lower yields and greater
+        concentration.
+    fr:
+      question: "Pourquoi les sites de piémont donnent-ils souvent des vins plus concentrés que la plaine littorale dans le sud de la France ?"
+      choices:
+        - { text: "Ils sont généralement plus frais, moins fertiles et mieux drainés", correct: true }
+        - { text: "Ils sont plus chauds, plus fertiles et reçoivent davantage de pluie en été", correct: false }
+        - { text: "Ils restent humides grâce à une nappe phréatique proche de la surface", correct: false }
+        - { text: "Ils accélèrent la maturation grâce à des sols plus profonds et plus riches", correct: false }
+      explanation: |
+        Les sols pauvres et bien drainés limitent la vigueur, tandis que l’altitude et l’exposition peuvent
+        apporter de la fraîcheur et prolonger la maturation. Ces facteurs favorisent souvent des rendements
+        plus faibles et une meilleure concentration.
   - id: sfrance-wind-hazard-001
     type: mcq
     deck: France::Southern France
@@ -73,16 +105,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Besides drought, which extra climatic problem hits Southern France vines?
+      question: "Which climatic feature can both reduce fungal pressure and physically damage vines in Southern France?"
       choices:
-        - { text: "Permanent ice", correct: false }
-        - { text: "Strong winds", correct: true }
-        - { text: "A monsoon", correct: false }
-        - { text: "No wind at all", correct: false }
+        - { text: "Strong, dry winds", correct: true }
+        - { text: "High summer humidity", correct: false }
+        - { text: "Persistent morning fog", correct: false }
+        - { text: "Frequent summer hailstorms", correct: false }
       explanation: |
-        **Strong winds** — the mistral and the tramontane. They dry the
-        fruit and can snap shoots.
-
+        The mistral and tramontane help dry grapes and can limit fungal disease. When particularly strong,
+        however, they may damage shoots, interrupt flowering or increase water stress.
+    fr:
+      question: "Quel facteur climatique peut à la fois réduire la pression des maladies fongiques et endommager physiquement la vigne dans le sud de la France ?"
+      choices:
+        - { text: "Des vents forts et secs", correct: true }
+        - { text: "Une forte humidité estivale", correct: false }
+        - { text: "Des brouillards matinaux persistants", correct: false }
+        - { text: "De fréquents orages de grêle estivaux", correct: false }
+      explanation: |
+        Le mistral et la tramontane assèchent les raisins et peuvent limiter les maladies fongiques.
+        Lorsqu’ils sont très violents, ils risquent toutefois d’abîmer les rameaux, de perturber la
+        floraison ou d’accentuer le stress hydrique.
   - id: sfrance-mistral-001
     type: mcq
     deck: France::Southern France
@@ -93,16 +135,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which cool north wind reaches Southern France down the Rhône corridor?
+      question: "Which cool, dry northerly wind is especially associated with the Rhône valley and Provence?"
       choices:
-        - { text: "The foehn only", correct: false }
-        - { text: "The mistral", correct: true }
-        - { text: "A sea breeze from Brittany", correct: false }
-        - { text: "There is no north wind", correct: false }
+        - { text: "Mistral", correct: true }
+        - { text: "Tramontane", correct: false }
+        - { text: "Autan", correct: false }
+        - { text: "Marin", correct: false }
       explanation: |
-        **The mistral.** Same Rhône blast as at Châteauneuf, still
-        felt on the Languedoc plain.
-
+        The mistral accelerates down the Rhône corridor into Provence. It can cool and dry vineyards,
+        reducing disease pressure, but strong gusts can damage vines.
+    fr:
+      question: "Quel vent du nord, frais et sec, est particulièrement associé à la vallée du Rhône et à la Provence ?"
+      choices:
+        - { text: "Le mistral", correct: true }
+        - { text: "La tramontane", correct: false }
+        - { text: "L’autan", correct: false }
+        - { text: "Le marin", correct: false }
+      explanation: |
+        Le mistral s’accélère dans le couloir rhodanien et souffle jusqu’en Provence. Il peut rafraîchir et
+        assécher les vignobles, réduisant la pression des maladies, mais ses rafales peuvent endommager la
+        vigne.
   - id: sfrance-tramontane-001
     type: mcq
     deck: France::Southern France
@@ -113,16 +165,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which wind funnels between the Pyrenees and the Massif Central?
+      question: "Which cool, dry north-westerly wind strongly affects Roussillon and parts of western Languedoc?"
       choices:
-        - { text: "The mistral only", correct: false }
-        - { text: "The tramontane", correct: true }
-        - { text: "A Breton sea breeze", correct: false }
-        - { text: "There is no wind in Roussillon", correct: false }
+        - { text: "Tramontane", correct: true }
+        - { text: "Mistral", correct: false }
+        - { text: "Sirocco", correct: false }
+        - { text: "Marin", correct: false }
       explanation: |
-        **The tramontane.** Corbières and Fitou sit in that gap; the
-        rows feel it.
-
+        The tramontane is channelled between the Pyrenees and the Massif Central. It brings dry air to areas
+        including Roussillon, Fitou and Corbières.
+    fr:
+      question: "Quel vent de nord-ouest, frais et sec, affecte fortement le Roussillon et une partie du Languedoc occidental ?"
+      choices:
+        - { text: "La tramontane", correct: true }
+        - { text: "Le mistral", correct: false }
+        - { text: "Le sirocco", correct: false }
+        - { text: "Le marin", correct: false }
+      explanation: |
+        La tramontane est canalisée entre les Pyrénées et le Massif central. Elle apporte un air sec
+        notamment au Roussillon, à Fitou et dans les Corbières.
   - id: sfrance-drought-001
     type: mcq
     deck: France::Southern France
@@ -133,16 +194,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which water stress most limits Southern France growers?
+      question: "What is the principal water-related challenge during the growing season in Southern France?"
       choices:
-        - { text: "Spring frost every year", correct: false }
-        - { text: "Drought", correct: true }
-        - { text: "Too much summer rain", correct: false }
-        - { text: "A legal ban on irrigation talk", correct: false }
+        - { text: "Drought and water stress", correct: true }
+        - { text: "Waterlogged soils after persistent summer rain", correct: false }
+        - { text: "Snowmelt flooding throughout ripening", correct: false }
+        - { text: "High humidity preventing evaporation", correct: false }
       explanation: |
-        **Drought.** Warm, dry summers plus wind. Irrigation is
-        controlled, not a free tap.
-
+        Hot, dry summers, low rainfall and drying winds can create severe water stress. Irrigation is
+        regulated and water availability is an increasingly important site consideration.
+    fr:
+      question: "Quel est le principal défi lié à l’eau pendant la saison de croissance dans le sud de la France ?"
+      choices:
+        - { text: "La sécheresse et le stress hydrique", correct: true }
+        - { text: "L’engorgement des sols après des pluies estivales persistantes", correct: false }
+        - { text: "Les crues de fonte des neiges pendant toute la maturation", correct: false }
+        - { text: "Une humidité élevée empêchant l’évaporation", correct: false }
+      explanation: |
+        Les étés chauds et secs, la faible pluviométrie et les vents desséchants peuvent provoquer un stress
+        hydrique sévère. L’irrigation est réglementée et la disponibilité de l’eau devient un critère de
+        site de plus en plus important.
   - id: sfrance-floods-001
     type: mcq
     deck: France::Southern France
@@ -153,16 +224,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Despite the usual drought, what wet shock can Southern France still get?
+      question: "Despite its dry summers, which rainfall hazard can affect Mediterranean vineyards in Southern France?"
       choices:
-        - { text: "Permanent glacier melt only", correct: false }
-        - { text: "Summer floods", correct: true }
-        - { text: "A Breton monsoon every week", correct: false }
-        - { text: "No rain ever reaches the vines", correct: false }
+        - { text: "Flash flooding after intense storms, especially in autumn", correct: true }
+        - { text: "Regular flooding from summer snowmelt", correct: false }
+        - { text: "Continuous drizzle throughout the growing season", correct: false }
+        - { text: "Daily tropical downpours during ripening", correct: false }
       explanation: |
-        **Summer floods.** Mediterranean storms can dump a season’s
-        rain in a day on the Aude or the Hérault.
-
+        Mediterranean rain can fall in short, violent episodes, particularly in autumn. Parched or compacted
+        ground absorbs water poorly, so runoff and flash floods may be severe.
+    fr:
+      question: "Malgré ses étés secs, quel risque lié aux précipitations peut toucher les vignobles méditerranéens du sud de la France ?"
+      choices:
+        - { text: "Des crues soudaines après de violents orages, surtout en automne", correct: true }
+        - { text: "Des inondations régulières dues à la fonte estivale des neiges", correct: false }
+        - { text: "Une bruine continue pendant toute la saison de croissance", correct: false }
+        - { text: "Des pluies tropicales quotidiennes pendant la maturation", correct: false }
+      explanation: |
+        Les pluies méditerranéennes peuvent tomber lors d’épisodes brefs et violents, surtout en automne.
+        Les sols desséchés ou compactés absorbent mal l’eau, ce qui peut provoquer un ruissellement intense
+        et des crues soudaines.
   - id: sfrance-black-majority-001
     type: mcq
     deck: France::Southern France
@@ -173,15 +254,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which colour of grape covers most Southern France vineyard?
+      question: "Which grape colour occupies the majority of vineyard area in Southern France?"
       choices:
-        - { text: "White only", correct: false }
-        - { text: "Black", correct: true }
-        - { text: "Only grey Pinot", correct: false }
-        - { text: "No vines are black", correct: false }
+        - { text: "Black grapes", correct: true }
+        - { text: "White grapes", correct: false }
+        - { text: "Grey-skinned grapes", correct: false }
+        - { text: "The areas are approximately equal", correct: false }
       explanation: |
-        **Black.** Red and rosé own the volume; white is the minority.
-
+        Black grapes dominate plantings because the region produces large volumes of red and rosé wine.
+        White varieties remain important for both regional IGP wines and distinctive appellations.
+    fr:
+      question: "Quelle couleur de raisin occupe la majorité de la surface viticole dans le sud de la France ?"
+      choices:
+        - { text: "Les raisins noirs", correct: true }
+        - { text: "Les raisins blancs", correct: false }
+        - { text: "Les raisins gris", correct: false }
+        - { text: "Les surfaces sont à peu près équivalentes", correct: false }
+      explanation: |
+        Les cépages noirs dominent l’encépagement, car la région produit de grands volumes de vins rouges et
+        rosés. Les cépages blancs restent néanmoins importants pour les IGP régionales et certaines
+        appellations distinctives.
   - id: sfrance-local-intl-001
     type: mcq
     deck: France::Southern France
@@ -192,16 +284,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which two families of grape does Southern France plant?
+      question: "Which planting pattern is characteristic of Southern France?"
       choices:
-        - { text: "Only Riesling clones", correct: false }
-        - { text: "Local and international varieties", correct: true }
-        - { text: "Only hybrid table grapes", correct: false }
-        - { text: "No Vitis vinifera", correct: false }
+        - { text: "Mediterranean and international varieties are both widely planted", correct: true }
+        - { text: "Only traditional Mediterranean varieties may be planted", correct: false }
+        - { text: "International varieties dominate every AOC blend", correct: false }
+        - { text: "White varieties greatly outnumber black varieties", correct: false }
       explanation: |
-        **Local and international.** Grenache sits next to Merlot on
-        the same IGP map.
-
+        Traditional grapes such as Grenache, Carignan and Cinsault coexist with varieties such as Merlot,
+        Cabernet Sauvignon, Chardonnay and Sauvignon Blanc. The international grapes are particularly
+        visible in IGP wines.
+    fr:
+      question: "Quel profil d’encépagement caractérise le sud de la France ?"
+      choices:
+        - { text: "Les cépages méditerranéens et internationaux y sont tous deux largement plantés", correct: true }
+        - { text: "Seuls les cépages méditerranéens traditionnels peuvent y être plantés", correct: false }
+        - { text: "Les cépages internationaux dominent tous les assemblages d’AOC", correct: false }
+        - { text: "Les cépages blancs sont beaucoup plus nombreux que les cépages noirs", correct: false }
+      explanation: |
+        Des cépages traditionnels comme le Grenache, le Carignan et le Cinsault coexistent avec le Merlot,
+        le Cabernet Sauvignon, le Chardonnay ou le Sauvignon Blanc. Les cépages internationaux sont
+        particulièrement visibles dans les vins d’IGP.
   - id: sfrance-local-pair-001
     type: mcq
     deck: France::Southern France
@@ -212,16 +315,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which pair of local black grapes leads Southern France blends?
+      question: "Which pair is central to many quality red blends in Languedoc?"
       choices:
-        - { text: "Pinot Noir and Gamay", correct: false }
         - { text: "Grenache and Syrah", correct: true }
-        - { text: "Melon and Chenin", correct: false }
-        - { text: "Riesling and Pinot Gris", correct: false }
+        - { text: "Cabernet Franc and Gamay", correct: false }
+        - { text: "Pinot Noir and Trousseau", correct: false }
+        - { text: "Malbec and Tannat", correct: false }
       explanation: |
-        **Grenache and Syrah.** Carignan is third by hectares; those
-        two still lead the serious blends.
-
+        Grenache contributes ripe fruit, body and alcohol, while Syrah can bring colour, tannin and peppery
+        or dark-fruit character. Carignan and Mourvèdre are also important blending partners.
+    fr:
+      question: "Quel duo est au cœur de nombreux assemblages rouges de qualité en Languedoc ?"
+      choices:
+        - { text: "Grenache et Syrah", correct: true }
+        - { text: "Cabernet Franc et Gamay", correct: false }
+        - { text: "Pinot Noir et Trousseau", correct: false }
+        - { text: "Malbec et Tannat", correct: false }
+      explanation: |
+        Le Grenache apporte fruit mûr, corps et alcool, tandis que la Syrah peut fournir couleur, tanins et
+        notes poivrées ou de fruits noirs. Le Carignan et le Mourvèdre sont également des partenaires
+        d’assemblage importants.
   - id: sfrance-syrah-sites-001
     type: mcq
     deck: France::Southern France
@@ -232,16 +345,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Where in Southern France is Syrah usually at its best?
+      question: "Which sites generally help Syrah retain freshness and aromatic definition in Southern France?"
       choices:
-        - { text: "The hottest, driest coastal flats", correct: false }
-        - { text: "The cooler sites", correct: true }
-        - { text: "Only under glass", correct: false }
-        - { text: "It is banned south of Valence", correct: false }
+        - { text: "Cooler sites at altitude or with favourable exposure", correct: true }
+        - { text: "The hottest, most fertile parts of the coastal plain", correct: false }
+        - { text: "Low-lying sites sheltered from every cooling influence", correct: false }
+        - { text: "Sites selected principally for the highest possible yields", correct: false }
       explanation: |
-        **Cooler sites** — inland hills, altitude, Pic Saint-Loup.
-        Bake it on the plain and it jams.
-
+        Compared with Grenache and Mourvèdre, Syrah benefits from relatively cool sites. Altitude, aspect or
+        local climatic influence can slow ripening and preserve acidity and peppery aromatics.
+    fr:
+      question: "Quels sites aident généralement la Syrah à conserver fraîcheur et précision aromatique dans le sud de la France ?"
+      choices:
+        - { text: "Des sites plus frais, en altitude ou bien exposés", correct: true }
+        - { text: "Les secteurs les plus chauds et fertiles de la plaine littorale", correct: false }
+        - { text: "Des bas-fonds protégés de toute influence rafraîchissante", correct: false }
+        - { text: "Des sites choisis surtout pour obtenir les rendements les plus élevés", correct: false }
+      explanation: |
+        Par rapport au Grenache et au Mourvèdre, la Syrah profite de sites relativement frais. L’altitude,
+        l’exposition ou une influence climatique locale peuvent ralentir la maturation et préserver
+        l’acidité ainsi que les arômes poivrés.
   - id: sfrance-grenache-sites-001
     type: mcq
     deck: France::Southern France
@@ -252,16 +375,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Where in Southern France is Grenache usually at its best?
+      question: "Which conditions are best suited to ripening Grenache in Southern France?"
       choices:
-        - { text: "The coolest, wettest Atlantic slopes", correct: false }
-        - { text: "The warmer, drier sites", correct: true }
-        - { text: "Only in Champagne", correct: false }
-        - { text: "It cannot ripen south of Lyon", correct: false }
+        - { text: "Warm, dry sites with a long growing season", correct: true }
+        - { text: "Cool, wet sites with a short growing season", correct: false }
+        - { text: "Humid, fertile sites with frequent summer rain", correct: false }
+        - { text: "High-altitude sites with a high risk of incomplete ripening", correct: false }
       explanation: |
-        **Warmer, drier sites.** Late-ripening Grenache needs the
-        Mediterranean heat Carignan also likes.
-
+        Grenache buds early but ripens late and performs well in warm, dry Mediterranean conditions. It is
+        drought tolerant, although it can lose acidity and accumulate high sugar in excessive heat.
+    fr:
+      question: "Quelles conditions conviennent le mieux à la maturation du Grenache dans le sud de la France ?"
+      choices:
+        - { text: "Des sites chauds et secs avec une longue saison de croissance", correct: true }
+        - { text: "Des sites frais et humides avec une courte saison de croissance", correct: false }
+        - { text: "Des sites humides et fertiles avec de fréquentes pluies estivales", correct: false }
+        - { text: "Des sites de haute altitude exposés à un fort risque de sous-maturité", correct: false }
+      explanation: |
+        Le Grenache débourre tôt mais mûrit tard et réussit bien dans les conditions méditerranéennes
+        chaudes et sèches. Il tolère la sécheresse, même s’il peut perdre de l’acidité et accumuler beaucoup
+        de sucre sous une chaleur excessive.
   - id: sfrance-carignan-rank-001
     type: mcq
     deck: France::Southern France
@@ -272,15 +405,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: After Grenache and Syrah, which local black grape still covers the next-largest area?
+      question: "Which black grape was historically planted on a vast scale for high-volume wine and remains important in old-vine Languedoc-Roussillon reds?"
       choices:
-        - { text: "Pinot Noir", correct: false }
         - { text: "Carignan", correct: true }
-        - { text: "Melon", correct: false }
-        - { text: "Riesling", correct: false }
+        - { text: "Mourvèdre", correct: false }
+        - { text: "Cabernet Franc", correct: false }
+        - { text: "Pinot Noir", correct: false }
       explanation: |
-        **Carignan.** Still huge, even after decades of grubbing-up.
-
+        Carignan once covered a very large area because it could crop heavily in warm conditions. Its
+        plantings have fallen, but old vines on poor soils can give concentrated fruit for appellations such
+        as Fitou and Corbières.
+    fr:
+      question: "Quel cépage noir, autrefois planté à très grande échelle pour les vins de volume, reste important dans les rouges issus de vieilles vignes du Languedoc-Roussillon ?"
+      choices:
+        - { text: "Carignan", correct: true }
+        - { text: "Mourvèdre", correct: false }
+        - { text: "Cabernet Franc", correct: false }
+        - { text: "Pinot Noir", correct: false }
+      explanation: |
+        Le Carignan couvrait autrefois une immense surface, car il pouvait produire de forts rendements sous
+        un climat chaud. Son vignoble a reculé, mais de vieilles vignes sur sols pauvres donnent des raisins
+        concentrés dans des appellations comme Fitou et Corbières.
   - id: sfrance-carignan-profile-001
     type: mcq
     deck: France::Southern France
@@ -291,16 +436,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What is young-vine, high-crop Carignan usually like?
+      question: "What profile is most likely from high-yielding Carignan grown on fertile land?"
       choices:
-        - { text: "Pale, low tannin, and floral only", correct: false }
-        - { text: "High tannin, high acid, deep colour, and often short of fruit or finesse", correct: true }
-        - { text: "Oily, low acid, lychee", correct: false }
-        - { text: "A light Gamay picnic wine", correct: false }
+        - { text: "High acidity and tannin, deep colour, but limited fruit concentration", correct: true }
+        - { text: "Low acidity and tannin, pale colour, and intense floral aromas", correct: false }
+        - { text: "High sugar, low colour, and pronounced botrytis character", correct: false }
+        - { text: "Moderate acidity, soft tannin, and strong new-oak aromas", correct: false }
       explanation: |
-        **High tannin, high acid, deep colour, little fruit.** That is
-        the cheap-blend problem, not old-vine Fitou.
-
+        At high yields, Carignan can retain substantial acidity, tannin and colour without enough fruit
+        concentration to balance them. Lower yields and old vines can give much higher-quality results.
+    fr:
+      question: "Quel profil est le plus probable pour un Carignan à haut rendement cultivé sur un sol fertile ?"
+      choices:
+        - { text: "Acidité et tanins élevés, couleur soutenue, mais concentration fruitée limitée", correct: true }
+        - { text: "Faible acidité et peu de tanins, couleur pâle et arômes floraux intenses", correct: false }
+        - { text: "Forte teneur en sucre, faible couleur et caractère botrytisé prononcé", correct: false }
+        - { text: "Acidité moyenne, tanins souples et arômes marqués de bois neuf", correct: false }
+      explanation: |
+        À haut rendement, le Carignan peut conserver beaucoup d’acidité, de tanins et de couleur sans
+        posséder assez de concentration fruitée pour les équilibrer. Des rendements plus faibles et de
+        vieilles vignes peuvent donner des résultats nettement supérieurs.
   - id: sfrance-carignan-old-001
     type: mcq
     deck: France::Southern France
@@ -311,16 +466,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: When can Carignan make a serious Southern France red?
+      question: "Which combination is most favourable for producing high-quality Carignan?"
       choices:
-        - { text: "Only as a 20-tonne coastal crop", correct: false }
-        - { text: "Old vines on poor soils", correct: true }
-        - { text: "Only in Champagne", correct: false }
-        - { text: "It never makes quality wine", correct: false }
+        - { text: "Old vines, low yields and poor, well-drained soils", correct: true }
+        - { text: "Young vines, high yields and deep fertile soils", correct: false }
+        - { text: "Early harvest, heavy irrigation and vigorous canopies", correct: false }
+        - { text: "Shaded sites, high humidity and frequent summer rain", correct: false }
       explanation: |
-        **Old vines on poor soils.** Fitou and Corbières still have
-        those bush vines.
-
+        Old vines on poor soils naturally limit yield and can produce small, concentrated berries. Careful
+        extraction is still important because Carignan has naturally high acidity and tannin.
+    fr:
+      question: "Quelle combinaison est la plus favorable à la production d’un Carignan de qualité ?"
+      choices:
+        - { text: "Vieilles vignes, faibles rendements et sols pauvres bien drainés", correct: true }
+        - { text: "Jeunes vignes, hauts rendements et sols profonds fertiles", correct: false }
+        - { text: "Vendange précoce, irrigation abondante et forte vigueur", correct: false }
+        - { text: "Sites ombragés, humidité élevée et pluies estivales fréquentes", correct: false }
+      explanation: |
+        Les vieilles vignes sur sols pauvres limitent naturellement le rendement et peuvent produire de
+        petites baies concentrées. Une extraction soignée reste importante, car le Carignan possède
+        naturellement beaucoup d’acidité et de tanins.
   - id: sfrance-carignan-yield-001
     type: mcq
     deck: France::Southern France
@@ -331,16 +496,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Why was Carignan planted so widely in Southern France?
+      question: "Why did Carignan become so widely planted in Southern France during the era of inexpensive bulk wine?"
       choices:
-        - { text: "It cannot yield at all", correct: false }
-        - { text: "It can produce very high yields", correct: true }
-        - { text: "INAO banned every other grape", correct: false }
-        - { text: "It is a cool-climate white", correct: false }
+        - { text: "It could produce high yields in a hot, dry climate", correct: true }
+        - { text: "It ripened reliably in the coolest mountain vineyards", correct: false }
+        - { text: "It was required for every regional appellation", correct: false }
+        - { text: "It naturally produced soft, low-acid wine at high yields", correct: false }
       explanation: |
-        **Very high yields.** That is the vin de table story, not the
-        old-vine one.
-
+        Carignan combined drought tolerance with the capacity to crop heavily, making it useful for
+        inexpensive volume production. Those same high yields often diluted fruit quality.
+    fr:
+      question: "Pourquoi le Carignan a-t-il été si largement planté dans le sud de la France à l’époque des vins de masse bon marché ?"
+      choices:
+        - { text: "Il pouvait donner de hauts rendements sous un climat chaud et sec", correct: true }
+        - { text: "Il mûrissait régulièrement dans les vignobles de montagne les plus frais", correct: false }
+        - { text: "Il était obligatoire dans toutes les appellations régionales", correct: false }
+        - { text: "Il produisait naturellement des vins souples et peu acides à haut rendement", correct: false }
+      explanation: |
+        Le Carignan associait tolérance à la sécheresse et capacité à produire beaucoup, ce qui convenait
+        aux vins de volume bon marché. Ces mêmes rendements élevés diluaient souvent la qualité du fruit.
   - id: sfrance-carignan-grub-001
     type: mcq
     deck: France::Southern France
@@ -351,16 +525,28 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What has cut Carignan’s old volume role in Southern France?
+      question: "Why did Carignan plantings decline sharply in Southern France from the late twentieth century onward?"
       choices:
-        - { text: "A legal ban on the grape in every AOC", correct: false }
-        - { text: "Significantly reduced plantings", correct: true }
-        - { text: "A switch to only Riesling", correct: false }
-        - { text: "Nothing — hectares keep rising", correct: false }
+        - { text: "Vine-pull schemes and a shift away from high-volume production", correct: true }
+        - { text: "Loss of drought tolerance after clonal selection", correct: false }
+        - { text: "A regional ban on its use in red appellation wines", correct: false }
+        - { text: "Replacement by white grapes in every coastal vineyard", correct: false }
       explanation: |
-        **Significantly reduced plantings.** EU grubbing-up pulled a
-        lot of high-crop Carignan out.
-
+        EU-supported vine-pull programmes removed many productive vineyards, while producers increasingly
+        focused on lower yields and more marketable varieties. Valuable old-vine Carignan nevertheless
+        remains.
+    fr:
+      question: "Pourquoi les plantations de Carignan ont-elles fortement reculé dans le sud de la France à partir de la fin du XXe siècle ?"
+      choices:
+        - { text: "Arrachages aidés et abandon progressif de la production de masse", correct: true }
+        - { text: "Perte de sa tolérance à la sécheresse après sélection clonale", correct: false }
+        - { text: "Interdiction régionale de l’utiliser dans les AOC rouges", correct: false }
+        - { text: "Remplacement par des cépages blancs dans tous les vignobles littoraux", correct: false }
+      explanation: |
+        Les programmes d’arrachage soutenus par l’Union européenne ont supprimé de nombreuses vignes
+        productives, tandis que les producteurs se tournaient vers des rendements plus faibles et des
+        cépages plus faciles à commercialiser. De précieuses vieilles vignes de Carignan subsistent
+        néanmoins.
   - id: sfrance-carignan-legal-001
     type: mcq
     deck: France::Southern France
@@ -371,17 +557,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which local black grape is still widely legal in Southern France red AOCs?
+      question: "In which group of Southern France red AOCs does Carignan retain an important authorised role?"
       choices:
-        - { text: "Pinot Noir only", correct: false }
-        - { text: "Carignan", correct: true }
-        - { text: "Riesling", correct: false }
-        - { text: "Melon", correct: false }
+        - { text: "Corbières, Fitou and Corbières-Boutenac", correct: true }
+        - { text: "Bandol, Palette and Cassis", correct: false }
+        - { text: "Côtes de Provence, Bellet and Pierrevert", correct: false }
+        - { text: "Limoux, Picpoul de Pinet and Clairette du Languedoc", correct: false }
       explanation: |
-        **Carignan.** It is not legal in every Southern France AOC
-        (Picpoul de Pinet is white-only); it is the default in the red
-        ones.
-
+        Carignan remains central to several Languedoc appellations, notably Corbières, Fitou and
+        Corbières-Boutenac. Its importance and permitted proportions vary by specification.
+    fr:
+      question: "Dans quel groupe d’AOC rouges du sud de la France le Carignan conserve-t-il un rôle autorisé important ?"
+      choices:
+        - { text: "Corbières, Fitou et Corbières-Boutenac", correct: true }
+        - { text: "Bandol, Palette et Cassis", correct: false }
+        - { text: "Côtes de Provence, Bellet et Pierrevert", correct: false }
+        - { text: "Limoux, Picpoul de Pinet et Clairette du Languedoc", correct: false }
+      explanation: |
+        Le Carignan reste essentiel dans plusieurs appellations languedociennes, notamment Corbières, Fitou
+        et Corbières-Boutenac. Son importance et les proportions autorisées varient selon les cahiers des
+        charges.
   - id: sfrance-cinsault-001
     type: mcq
     deck: France::Southern France
@@ -392,16 +587,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: How do Southern France cellars usually use Cinsault?
+      question: "What is Cinsault’s most characteristic role in Southern France?"
       choices:
-        - { text: "100% new-oak Hermitage lookalikes", correct: false }
-        - { text: "Rosé, or red-fruit lift in a red blend", correct: true }
-        - { text: "Icewine only", correct: false }
-        - { text: "Fortified red only", correct: false }
+        - { text: "Producing rosé and adding soft red fruit to blends", correct: true }
+        - { text: "Providing deep colour and firm tannin to long-lived reds", correct: false }
+        - { text: "Supplying high acidity for traditional-method sparkling wine", correct: false }
+        - { text: "Giving pronounced herbal aromas to dry white wines", correct: false }
       explanation: |
-        **Rosé, or red fruit in a blend.** Provence pink and Languedoc
-        red both use it that way.
-
+        Cinsault has relatively thin skins and can give soft, fragrant red-fruit character. It is widely
+        suited to rosé and can lighten or perfume red blends.
+    fr:
+      question: "Quel est le rôle le plus caractéristique du Cinsault dans le sud de la France ?"
+      choices:
+        - { text: "Produire des rosés et apporter un fruit rouge souple aux assemblages", correct: true }
+        - { text: "Apporter une couleur profonde et des tanins fermes aux rouges de garde", correct: false }
+        - { text: "Fournir une forte acidité aux effervescents de méthode traditionnelle", correct: false }
+        - { text: "Donner des arômes herbacés prononcés aux vins blancs secs", correct: false }
+      explanation: |
+        Le Cinsault possède une pellicule relativement fine et peut donner un fruit rouge souple et parfumé.
+        Il convient bien au rosé et peut alléger ou parfumer les assemblages rouges.
   - id: sfrance-mourvedre-blend-001
     type: mcq
     deck: France::Southern France
@@ -412,16 +616,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which late-ripening local gives Southern France reds extra richness, colour and complexity?
+      question: "What does Mourvèdre typically contribute to a warm-site red blend in Southern France?"
       choices:
-        - { text: "Melon", correct: false }
-        - { text: "Mourvèdre", correct: true }
-        - { text: "Riesling", correct: false }
-        - { text: "Pinot Blanc", correct: false }
+        - { text: "Deep colour, firm tannin and dark-fruit or savoury complexity", correct: true }
+        - { text: "Pale colour, low tannin and delicate floral aromas", correct: false }
+        - { text: "High acidity, low alcohol and simple green-apple fruit", correct: false }
+        - { text: "Low colour, soft acidity and pronounced grapey aromas", correct: false }
       explanation: |
-        **Mourvèdre.** Bandol is the named extreme; Languedoc uses it
-        the same way in smaller doses.
-
+        Late-ripening Mourvèdre needs abundant heat. When fully ripe, it contributes colour, body, tannin
+        and dark-fruit, herbal, meaty or gamey complexity; Bandol shows its clearest regional expression.
+    fr:
+      question: "Qu’apporte typiquement le Mourvèdre à un assemblage rouge issu d’un site chaud du sud de la France ?"
+      choices:
+        - { text: "Couleur profonde, tanins fermes et complexité de fruits noirs ou d’arômes savoureux", correct: true }
+        - { text: "Couleur pâle, peu de tanins et arômes floraux délicats", correct: false }
+        - { text: "Forte acidité, faible alcool et simple fruit de pomme verte", correct: false }
+        - { text: "Faible couleur, acidité souple et arômes nettement muscatés", correct: false }
+      explanation: |
+        Le Mourvèdre, tardif, exige beaucoup de chaleur. À pleine maturité, il apporte couleur, corps,
+        tanins et une complexité de fruits noirs, d’herbes, de viande ou de gibier ; Bandol en offre
+        l’expression régionale la plus emblématique.
   - id: sfrance-igp-bordeaux-001
     type: mcq
     deck: France::Southern France
@@ -432,16 +646,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which two grapes do a lot of the work in Southern France IGP reds?
+      question: "Which pair of black international varieties is widely used for varietal or blended IGP wines in Southern France?"
       choices:
-        - { text: "Riesling and Pinot Gris", correct: false }
         - { text: "Merlot and Cabernet Sauvignon", correct: true }
-        - { text: "Melon and Chenin", correct: false }
-        - { text: "Only Carignan, by law", correct: false }
+        - { text: "Gamay and Pinot Noir", correct: false }
+        - { text: "Nebbiolo and Sangiovese", correct: false }
+        - { text: "Tannat and Cabernet Franc", correct: false }
       explanation: |
-        **Merlot and Cabernet Sauvignon.** Pays d’Oc is full of them;
-        they are not the AOC story.
-
+        Merlot and Cabernet Sauvignon are extensively planted for accessible, clearly labelled IGP wines,
+        especially Pays d’Oc. They are less central to the traditional Mediterranean AOC blend.
+    fr:
+      question: "Quel duo de cépages noirs internationaux est largement utilisé pour les vins d’IGP variétaux ou assemblés du sud de la France ?"
+      choices:
+        - { text: "Merlot et Cabernet Sauvignon", correct: true }
+        - { text: "Gamay et Pinot Noir", correct: false }
+        - { text: "Nebbiolo et Sangiovese", correct: false }
+        - { text: "Tannat et Cabernet Franc", correct: false }
+      explanation: |
+        Le Merlot et le Cabernet Sauvignon sont largement plantés pour produire des vins d’IGP accessibles
+        et clairement étiquetés, notamment en Pays d’Oc. Ils sont moins centraux dans les assemblages
+        méditerranéens traditionnels des AOC.
   - id: sfrance-modern-cellar-001
     type: mcq
     deck: France::Southern France
@@ -452,16 +676,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What changed most in Southern France cellars over recent decades?
+      question: "Which development most improved the consistency of inexpensive Southern France wines from the late twentieth century onward?"
       choices:
-        - { text: "A return to only open-air dirt floors", correct: false }
-        - { text: "Modern kit, cleaner cellars, temperature control, oxygen management, and more careful oak", correct: true }
-        - { text: "A ban on any temperature control", correct: false }
-        - { text: "Only amphorae are legal", correct: false }
+        - { text: "Cleaner wineries, temperature control and better oxygen management", correct: true }
+        - { text: "Longer uncontrolled fermentation in warm concrete vats", correct: false }
+        - { text: "Systematic oxidation before bottling", correct: false }
+        - { text: "Mandatory maturation in new oak for all wines", correct: false }
       explanation: |
-        **Modern, clean, temperature-controlled cellars.** The 1970s
-        bulk tank is not the current default.
-
+        Investment in hygiene, stainless steel, refrigeration and controlled handling reduced microbial
+        faults and preserved fruit. Better vineyard selection and more judicious oak use also raised quality
+        at higher price levels.
+    fr:
+      question: "Quelle évolution a le plus amélioré la régularité des vins bon marché du sud de la France à partir de la fin du XXe siècle ?"
+      choices:
+        - { text: "Des chais plus propres, le contrôle des températures et une meilleure gestion de l’oxygène", correct: true }
+        - { text: "Des fermentations incontrôlées plus longues dans des cuves chaudes en béton", correct: false }
+        - { text: "Une oxydation systématique avant la mise en bouteille", correct: false }
+        - { text: "Un élevage obligatoire en bois neuf pour tous les vins", correct: false }
+      explanation: |
+        Les investissements dans l’hygiène, l’inox, le froid et la maîtrise des manipulations ont réduit les
+        défauts microbiens et préservé le fruit. Une meilleure sélection parcellaire et un usage plus
+        judicieux du bois ont aussi relevé la qualité des cuvées supérieures.
   - id: sfrance-semicarbonic-001
     type: mcq
     deck: France::Southern France
@@ -472,16 +707,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which extra ferment style do some Southern France producers still use?
+      question: "Which fermentation technique is sometimes used to make Carignan-based wines fruitier and less astringent?"
       choices:
-        - { text: "Icewine only", correct: false }
         - { text: "Semi-carbonic maceration", correct: true }
-        - { text: "Boiling the must", correct: false }
-        - { text: "No skins at all, by law", correct: false }
+        - { text: "Extended post-fermentation maceration", correct: false }
+        - { text: "Whole-bunch pressing before fermentation", correct: false }
+        - { text: "Deliberate oxidative maturation under flor", correct: false }
       explanation: |
-        **Semi-carbonic maceration.** Not Beaujolais-only; Languedoc
-        uses it on Carignan.
-
+        In semi-carbonic maceration, intracellular fermentation begins in intact berries before normal yeast
+        fermentation completes the process. The technique can emphasise fresh fruit and limit harsh
+        extraction.
+    fr:
+      question: "Quelle technique de fermentation est parfois utilisée pour rendre les vins à base de Carignan plus fruités et moins astringents ?"
+      choices:
+        - { text: "La macération semi-carbonique", correct: true }
+        - { text: "Une longue macération post-fermentaire", correct: false }
+        - { text: "Le pressurage des grappes entières avant fermentation", correct: false }
+        - { text: "Un élevage oxydatif volontaire sous voile", correct: false }
+      explanation: |
+        Lors d’une macération semi-carbonique, une fermentation intracellulaire commence dans les baies
+        intactes avant que la fermentation alcoolique classique n’achève le processus. Cette technique peut
+        accentuer le fruit frais et limiter une extraction trop dure.
   - id: sfrance-semicarbonic-why-001
     type: mcq
     deck: France::Southern France
@@ -492,16 +738,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Why do some Southern France cellars use semi-carbonic maceration?
+      question: "Why can semi-carbonic maceration be useful for Carignan?"
       choices:
-        - { text: "To raise tannin in Pinot Noir", correct: false }
-        - { text: "To soften Carignan’s tannins", correct: true }
-        - { text: "To make icewine", correct: false }
-        - { text: "It is illegal on Carignan", correct: false }
+        - { text: "It emphasises fruit while limiting extraction of its firm tannins", correct: true }
+        - { text: "It increases extraction to make the wine more astringent", correct: false }
+        - { text: "It preserves residual sugar by stopping fermentation early", correct: false }
+        - { text: "It raises acidity by encouraging malolactic fermentation", correct: false }
       explanation: |
-        **To soften Carignan’s tannins.** Whole-berry ferment gives
-        fruit and less harsh frame.
-
+        Carignan can be high in tannin and acidity. Semi-carbonic maceration extracts less harsh phenolic
+        material than an intensive crushed-fruit fermentation and can give a softer, more immediately fruity
+        style.
+    fr:
+      question: "Pourquoi la macération semi-carbonique peut-elle être utile pour le Carignan ?"
+      choices:
+        - { text: "Elle accentue le fruit tout en limitant l’extraction de ses tanins fermes", correct: true }
+        - { text: "Elle augmente l’extraction afin de rendre le vin plus astringent", correct: false }
+        - { text: "Elle préserve du sucre résiduel en arrêtant tôt la fermentation", correct: false }
+        - { text: "Elle augmente l’acidité en favorisant la fermentation malolactique", correct: false }
+      explanation: |
+        Le Carignan peut posséder beaucoup de tanins et d’acidité. La macération semi-carbonique extrait
+        moins de composés phénoliques durs qu’une fermentation intensive de raisins foulés et peut donner un
+        style plus souple et immédiatement fruité.
   - id: sfrance-white-intl-001
     type: mcq
     deck: France::Southern France
@@ -512,16 +769,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which two international whites cover the most Southern France hectares?
+      question: "Which pair of international white varieties is especially important for varietal IGP wines in Southern France?"
       choices:
-        - { text: "Riesling and Pinot Gris", correct: false }
         - { text: "Chardonnay and Sauvignon Blanc", correct: true }
-        - { text: "Melon and Chenin", correct: false }
-        - { text: "Only Picpoul, by law", correct: false }
+        - { text: "Riesling and Grüner Veltliner", correct: false }
+        - { text: "Chenin Blanc and Melon", correct: false }
+        - { text: "Pinot Blanc and Sylvaner", correct: false }
       explanation: |
-        **Chardonnay and Sauvignon Blanc.** IGP Pays d’Oc volume, not
-        the Picpoul de Pinet story.
-
+        Chardonnay and Sauvignon Blanc are widely planted and easily understood by international consumers.
+        IGP rules, especially those of Pays d’Oc, allow producers to label wines by variety.
+    fr:
+      question: "Quel duo de cépages blancs internationaux est particulièrement important pour les vins variétaux d’IGP du sud de la France ?"
+      choices:
+        - { text: "Chardonnay et Sauvignon Blanc", correct: true }
+        - { text: "Riesling et Grüner Veltliner", correct: false }
+        - { text: "Chenin Blanc et Melon", correct: false }
+        - { text: "Pinot Blanc et Sylvaner", correct: false }
+      explanation: |
+        Le Chardonnay et le Sauvignon Blanc sont largement plantés et facilement identifiables par les
+        consommateurs internationaux. Les règles des IGP, notamment celles du Pays d’Oc, permettent de
+        mentionner le cépage sur l’étiquette.
   - id: sfrance-viognier-001
     type: mcq
     deck: France::Southern France
@@ -532,15 +799,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: After Chardonnay and Sauvignon Blanc, which white still ranks next in Southern France?
+      question: "Which international-style white variety is used in Southern France to make full-bodied, aromatic wines with stone-fruit character?"
       choices:
-        - { text: "Riesling", correct: false }
         - { text: "Viognier", correct: true }
         - { text: "Melon", correct: false }
+        - { text: "Folle Blanche", correct: false }
         - { text: "Aligoté", correct: false }
       explanation: |
-        **Viognier.** After Chardonnay and Sauvignon in the IGP mix.
-
+        Viognier can ripen reliably in the warm climate and produce full-bodied wines with peach, apricot
+        and floral aromas. Careful picking is needed to retain acidity and avoid excessive alcohol.
+    fr:
+      question: "Quel cépage blanc de style international est utilisé dans le sud de la France pour produire des vins corsés et aromatiques aux notes de fruits à noyau ?"
+      choices:
+        - { text: "Viognier", correct: true }
+        - { text: "Melon", correct: false }
+        - { text: "Folle Blanche", correct: false }
+        - { text: "Aligoté", correct: false }
+      explanation: |
+        Le Viognier mûrit aisément sous ce climat chaud et peut donner des vins corsés aux arômes de pêche,
+        d’abricot et de fleurs. Une date de vendange soigneusement choisie aide à préserver l’acidité et à
+        éviter un alcool excessif.
   - id: sfrance-local-whites-001
     type: mcq
     deck: France::Southern France
@@ -551,16 +829,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which local whites are the most planted in Southern France?
+      question: "Which pair represents important Mediterranean white grapes in Southern France?"
       choices:
-        - { text: "Riesling and Pinot Gris", correct: false }
-        - { text: "Muscat and Grenache Blanc", correct: true }
-        - { text: "Melon and Chenin", correct: false }
-        - { text: "Only Aligoté", correct: false }
+        - { text: "Grenache Blanc and Muscat", correct: true }
+        - { text: "Chenin Blanc and Melon", correct: false }
+        - { text: "Riesling and Gewurztraminer", correct: false }
+        - { text: "Chardonnay and Sauvignon Blanc", correct: false }
       explanation: |
-        **Muscat and Grenache Blanc.** The international whites are
-        bigger overall; these two lead the locals.
-
+        Grenache Blanc is used in many dry blends, while Muscat is important for aromatic dry wines and
+        fortified Vin Doux Naturel. Chardonnay and Sauvignon Blanc are international rather than traditional
+        Mediterranean varieties.
+    fr:
+      question: "Quel duo représente d’importants cépages blancs méditerranéens dans le sud de la France ?"
+      choices:
+        - { text: "Grenache Blanc et Muscat", correct: true }
+        - { text: "Chenin Blanc et Melon", correct: false }
+        - { text: "Riesling et Gewurztraminer", correct: false }
+        - { text: "Chardonnay et Sauvignon Blanc", correct: false }
+      explanation: |
+        Le Grenache Blanc entre dans de nombreux assemblages secs, tandis que le Muscat est important pour
+        les vins secs aromatiques et les vins doux naturels fortifiés. Le Chardonnay et le Sauvignon Blanc
+        sont des cépages internationaux, non des variétés méditerranéennes traditionnelles.
   - id: sfrance-muscat-vdn-001
     type: mcq
     deck: France::Southern France
@@ -571,16 +860,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What is Muscat’s traditional Southern France job?
+      question: "Which traditional wine style is most closely associated with Muscat in Southern France?"
       choices:
-        - { text: "100% new-oak red", correct: false }
-        - { text: "Sweet fortified wine", correct: true }
-        - { text: "Icewine only", correct: false }
-        - { text: "Sparkling Chenin", correct: false }
+        - { text: "Sweet, fortified Vin Doux Naturel", correct: true }
+        - { text: "Dry, flor-aged wine", correct: false }
+        - { text: "Traditional-method sparkling wine", correct: false }
+        - { text: "Full-bodied, tannic red wine", correct: false }
       explanation: |
-        **Sweet fortified wine** — Muscat de Rivesaltes, Frontignan,
-        Saint-Jean-de-Minervois.
-
+        Appellations such as Muscat de Rivesaltes, Muscat de Frontignan and Muscat de
+        Saint-Jean-de-Minervois preserve Muscat’s grapey aromas in sweet wines fortified during
+        fermentation.
+    fr:
+      question: "Quel style traditionnel est le plus étroitement associé au Muscat dans le sud de la France ?"
+      choices:
+        - { text: "Le vin doux naturel, doux et fortifié", correct: true }
+        - { text: "Le vin sec élevé sous voile", correct: false }
+        - { text: "Le vin effervescent de méthode traditionnelle", correct: false }
+        - { text: "Le vin rouge corsé et tannique", correct: false }
+      explanation: |
+        Des appellations comme Muscat de Rivesaltes, Muscat de Frontignan et Muscat de
+        Saint-Jean-de-Minervois préservent les arômes de raisin du Muscat dans des vins doux fortifiés
+        pendant la fermentation.
   - id: sfrance-muscat-dry-001
     type: mcq
     deck: France::Southern France
@@ -591,16 +891,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Besides VDN, what dry style is Muscat also used for in Southern France?
+      question: "Which profile is typical of a dry Muscat from Southern France?"
       choices:
-        - { text: "Tannic red only", correct: false }
-        - { text: "Dry wines with aromatic, grapey aromas", correct: true }
-        - { text: "Icewine only", correct: false }
-        - { text: "It cannot be bottled dry", correct: false }
+        - { text: "Dry, light to medium-bodied, with pronounced grapey and floral aromas", correct: true }
+        - { text: "Sweet, full-bodied, with oxidative walnut aromas", correct: false }
+        - { text: "Dry, full-bodied, with deep colour and firm tannin", correct: false }
+        - { text: "Off-dry, neutral, with high acidity and no primary fruit", correct: false }
       explanation: |
-        **Dry, aromatic, grapey wines.** A smaller line than the
-        fortified Muscats.
-
+        Muscat is strongly aromatic even when fermented dry, showing grape, orange blossom and other floral
+        notes. The dry style is distinct from the region’s fortified sweet Muscats.
+    fr:
+      question: "Quel profil est typique d’un Muscat sec du sud de la France ?"
+      choices:
+        - { text: "Sec, léger à moyennement corsé, aux arômes prononcés de raisin et de fleurs", correct: true }
+        - { text: "Doux, corsé, aux arômes oxydatifs de noix", correct: false }
+        - { text: "Sec, corsé, à la couleur profonde et aux tanins fermes", correct: false }
+        - { text: "Demi-sec, neutre, très acide et sans fruit primaire", correct: false }
+      explanation: |
+        Le Muscat reste très aromatique même vinifié sec, avec des notes de raisin, de fleur d’oranger et
+        d’autres fleurs. Ce style sec se distingue des Muscats doux fortifiés de la région.
   - id: sfrance-gb-profile-001
     type: mcq
     deck: France::Southern France
@@ -611,16 +920,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What is typical dry Grenache Blanc like in Southern France?
+      question: "Which profile best describes a typical dry wine based on Grenache Blanc?"
       choices:
-        - { text: "Light, high-acid, and 11%", correct: false }
-        - { text: "Dry, soft peach fruit, full body, low acid, and quick to oxidise", correct: true }
-        - { text: "Sparkling and bone-dry only", correct: false }
-        - { text: "Tannic red", correct: false }
+        - { text: "Full-bodied, relatively low in acidity, with stone-fruit flavours", correct: true }
+        - { text: "Light-bodied, very high in acidity, with green-herb flavours", correct: false }
+        - { text: "Sweet, botrytised, with honey and marmalade flavours", correct: false }
+        - { text: "Deeply coloured and tannic, with black-fruit flavours", correct: false }
       explanation: |
-        **Full, peachy, low acid, oxidises easily.** Blend or drink
-        young; it is not Picpoul.
-
+        Grenache Blanc can give broad, full-bodied wines with peach or other stone-fruit character and
+        modest acidity. It is prone to oxidation, so producers often protect it carefully and blend it with
+        fresher varieties.
+    fr:
+      question: "Quel profil décrit le mieux un vin sec à base de Grenache Blanc ?"
+      choices:
+        - { text: "Corsé, relativement peu acide, aux saveurs de fruits à noyau", correct: true }
+        - { text: "Léger, très acide, aux saveurs d’herbes vertes", correct: false }
+        - { text: "Doux et botrytisé, aux saveurs de miel et de marmelade", correct: false }
+        - { text: "Très coloré et tannique, aux saveurs de fruits noirs", correct: false }
+      explanation: |
+        Le Grenache Blanc peut donner des vins amples et corsés aux notes de pêche ou d’autres fruits à
+        noyau, avec une acidité modeste. Sensible à l’oxydation, il est souvent protégé avec soin et
+        assemblé à des cépages plus frais.
   - id: sfrance-picpoul-where-001
     type: mcq
     deck: France::Southern France
@@ -631,15 +951,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Where is Picpoul most prized in Southern France?
+      question: "Which appellation beside the Étang de Thau is devoted to white wine from Piquepoul Blanc?"
       choices:
-        - { text: "Bandol", correct: false }
-        - { text: "Pinet", correct: true }
-        - { text: "Côte-Rôtie", correct: false }
-        - { text: "Vouvray", correct: false }
+        - { text: "Picpoul de Pinet", correct: true }
+        - { text: "Clairette du Languedoc", correct: false }
+        - { text: "Limoux", correct: false }
+        - { text: "Cassis", correct: false }
       explanation: |
-        **Pinet** — Picpoul de Pinet, by the Thau lagoon.
-
+        Picpoul de Pinet lies around the northern side of the Étang de Thau, close to the Mediterranean. Its
+        specification permits only white wine made from Piquepoul Blanc.
+    fr:
+      question: "Quelle appellation située près de l’étang de Thau est consacrée au vin blanc de Piquepoul Blanc ?"
+      choices:
+        - { text: "Picpoul de Pinet", correct: true }
+        - { text: "Clairette du Languedoc", correct: false }
+        - { text: "Limoux", correct: false }
+        - { text: "Cassis", correct: false }
+      explanation: |
+        Picpoul de Pinet se situe autour de la rive nord de l’étang de Thau, près de la Méditerranée. Son
+        cahier des charges n’autorise que du vin blanc issu du Piquepoul Blanc.
   - id: sfrance-mauzac-where-001
     type: mcq
     deck: France::Southern France
@@ -650,16 +980,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Where is Mauzac most prized in Southern France?
+      question: "In which Southern France appellation is Mauzac historically important for sparkling wine?"
       choices:
-        - { text: "Tavel", correct: false }
         - { text: "Limoux", correct: true }
-        - { text: "Châteauneuf-du-Pape", correct: false }
-        - { text: "Muscadet", correct: false }
+        - { text: "Picpoul de Pinet", correct: false }
+        - { text: "Côtes de Provence", correct: false }
+        - { text: "Côtes du Roussillon", correct: false }
       explanation: |
-        **Limoux** — Blanquette and the traditional local sparkling
-        grape.
-
+        Mauzac is the traditional principal grape of Blanquette de Limoux and the sole grape of Blanquette
+        méthode ancestrale. It commonly gives apple and herbal aromas.
+    fr:
+      question: "Dans quelle appellation du sud de la France le Mauzac joue-t-il historiquement un rôle important pour les vins effervescents ?"
+      choices:
+        - { text: "Limoux", correct: true }
+        - { text: "Picpoul de Pinet", correct: false }
+        - { text: "Côtes de Provence", correct: false }
+        - { text: "Côtes du Roussillon", correct: false }
+      explanation: |
+        Le Mauzac est le cépage principal traditionnel de la Blanquette de Limoux et l’unique cépage de la
+        Blanquette méthode ancestrale. Il donne souvent des arômes de pomme et d’herbes.
   - id: sfrance-macabeu-where-001
     type: mcq
     deck: France::Southern France
@@ -670,16 +1009,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Where is Macabeu most prized in Southern France?
+      question: "In which part of Southern France is Macabeu particularly important for both dry and fortified wines?"
       choices:
-        - { text: "Chablis", correct: false }
         - { text: "Roussillon", correct: true }
-        - { text: "Sancerre", correct: false }
-        - { text: "Côte-Rôtie", correct: false }
+        - { text: "Provence", correct: false }
+        - { text: "Southern Rhône", correct: false }
+        - { text: "Western Languedoc around Limoux", correct: false }
       explanation: |
-        **Roussillon.** Same grape as Catalan Macabeo; still and VDN
-        both use it.
-
+        Macabeu is widely planted in Roussillon, where it contributes to dry whites and to fortified wines
+        such as Rivesaltes. It is the same variety known as Macabeo in Spain.
+    fr:
+      question: "Dans quelle partie du sud de la France le Macabeu est-il particulièrement important pour les vins secs comme pour les vins fortifiés ?"
+      choices:
+        - { text: "Le Roussillon", correct: true }
+        - { text: "La Provence", correct: false }
+        - { text: "Le Rhône méridional", correct: false }
+        - { text: "Le Languedoc occidental autour de Limoux", correct: false }
+      explanation: |
+        Le Macabeu est largement planté en Roussillon, où il entre dans les blancs secs et dans des vins
+        fortifiés comme le Rivesaltes. Il s’agit du même cépage que le Macabeo espagnol.
   - id: sfrance-rolle-where-001
     type: mcq
     deck: France::Southern France
@@ -690,16 +1038,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Where is Rolle most prized in Southern France?
+      question: "Which Southern France region is most closely associated with the white grape Rolle?"
       choices:
-        - { text: "Côte-Rôtie", correct: false }
         - { text: "Provence", correct: true }
-        - { text: "Muscadet", correct: false }
-        - { text: "Champagne", correct: false }
+        - { text: "Roussillon", correct: false }
+        - { text: "Limoux", correct: false }
+        - { text: "Northern Rhône", correct: false }
       explanation: |
-        **Provence.** Rolle is Vermentino; it leads many Provençal
-        whites.
-
+        Rolle is the Provençal name for Vermentino. It is important in dry whites across Provence,
+        contributing citrus, pear, herbal aromas and freshness.
+    fr:
+      question: "À quelle région du sud de la France le cépage blanc Rolle est-il le plus étroitement associé ?"
+      choices:
+        - { text: "La Provence", correct: true }
+        - { text: "Le Roussillon", correct: false }
+        - { text: "Limoux", correct: false }
+        - { text: "Le Rhône septentrional", correct: false }
+      explanation: |
+        Rolle est le nom provençal du Vermentino. Il est important dans les blancs secs de Provence,
+        auxquels il apporte agrumes, poire, notes herbacées et fraîcheur.
   - id: sfrance-clairette-where-001
     type: mcq
     deck: France::Southern France
@@ -710,16 +1067,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Where is Clairette most prized in Southern France?
+      question: "In which two Southern France regions is Clairette a traditional white blending variety?"
       choices:
-        - { text: "Only in Alsace", correct: false }
         - { text: "Languedoc and Provence", correct: true }
-        - { text: "Muscadet only", correct: false }
-        - { text: "Champagne only", correct: false }
+        - { text: "Roussillon and Bordeaux", correct: false }
+        - { text: "Beaujolais and Jura", correct: false }
+        - { text: "Loire and Champagne", correct: false }
       explanation: |
-        **Languedoc and Provence.** Clairette du Languedoc is the
-        named AOC; Provence blends it too.
-
+        Clairette is used in several Languedoc and Provence appellations. It can give relatively full,
+        low-acid wines and is often blended; Clairette du Languedoc also bears its name.
+    fr:
+      question: "Dans quelles deux régions du sud de la France la Clairette est-elle un cépage blanc traditionnel d’assemblage ?"
+      choices:
+        - { text: "Languedoc et Provence", correct: true }
+        - { text: "Roussillon et Bordeaux", correct: false }
+        - { text: "Beaujolais et Jura", correct: false }
+        - { text: "Loire et Champagne", correct: false }
+      explanation: |
+        La Clairette est utilisée dans plusieurs appellations du Languedoc et de Provence. Elle peut donner
+        des vins assez corsés et peu acides, souvent assemblés ; elle donne aussi son nom à Clairette du
+        Languedoc.
   - id: sfrance-picpoul-profile-001
     type: mcq
     deck: France::Southern France
@@ -730,16 +1097,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What does Picpoul de Pinet usually taste like?
+      question: "Which profile best describes Picpoul de Pinet?"
       choices:
-        - { text: "Full, oxidative, and peachy, like Grenache Blanc", correct: false }
-        - { text: "Refreshing, high acid, green and citrus fruit", correct: true }
-        - { text: "Tannic and gamey", correct: false }
-        - { text: "Sweet fortified only", correct: false }
+        - { text: "Dry, light-bodied and refreshing, with high acidity and citrus fruit", correct: true }
+        - { text: "Dry, full-bodied and low in acidity, with ripe peach and oak", correct: false }
+        - { text: "Sweet and fortified, with grapey and floral aromas", correct: false }
+        - { text: "Deeply coloured and tannic, with black fruit and spice", correct: false }
       explanation: |
-        **Refreshing, high acid, green and citrus.** Sea-breeze
-        Picpoul, not a Rhône blanc.
-
+        Piquepoul Blanc retains lively acidity in the warm coastal area. The wines are usually youthful,
+        pale and fresh, with lemon, grapefruit, green-fruit and floral notes.
+    fr:
+      question: "Quel profil décrit le mieux un Picpoul de Pinet ?"
+      choices:
+        - { text: "Sec, léger et rafraîchissant, avec une forte acidité et des agrumes", correct: true }
+        - { text: "Sec, corsé et peu acide, avec pêche mûre et bois", correct: false }
+        - { text: "Doux et fortifié, avec des arômes de raisin et de fleurs", correct: false }
+        - { text: "Très coloré et tannique, avec fruits noirs et épices", correct: false }
+      explanation: |
+        Le Piquepoul Blanc conserve une acidité vive dans cette zone littorale chaude. Les vins sont
+        généralement jeunes, pâles et frais, avec des notes de citron, de pamplemousse, de fruits verts et
+        de fleurs.
   - id: sfrance-languedoc-depts-001
     type: mcq
     deck: France::Southern France
@@ -750,16 +1127,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Languedoc sits in which three French départements?
+      question: "Which three départements form the traditional core of the Languedoc wine region, distinct from Roussillon?"
       choices:
-        - { text: "Gironde, Dordogne and Lot", correct: false }
         - { text: "Aude, Hérault and Gard", correct: true }
-        - { text: "Marne, Aube and Aisne", correct: false }
-        - { text: "Rhône, Loire and Ain", correct: false }
+        - { text: "Aude, Pyrénées-Orientales and Ariège", correct: false }
+        - { text: "Var, Vaucluse and Bouches-du-Rhône", correct: false }
+        - { text: "Gironde, Dordogne and Lot-et-Garonne", correct: false }
       explanation: |
-        **Aude, Hérault and Gard.** Pyrénées-Orientales is Roussillon,
-        not Languedoc.
-
+        Aude, Hérault and Gard form the traditional Languedoc core. Roussillon lies mainly in
+        Pyrénées-Orientales, although the broad regional Languedoc AOC extends into that département.
+    fr:
+      question: "Quels trois départements forment le cœur traditionnel du vignoble languedocien, distinct du Roussillon ?"
+      choices:
+        - { text: "Aude, Hérault et Gard", correct: true }
+        - { text: "Aude, Pyrénées-Orientales et Ariège", correct: false }
+        - { text: "Var, Vaucluse et Bouches-du-Rhône", correct: false }
+        - { text: "Gironde, Dordogne et Lot-et-Garonne", correct: false }
+      explanation: |
+        L’Aude, l’Hérault et le Gard forment le cœur traditionnel du Languedoc. Le Roussillon se situe
+        principalement dans les Pyrénées-Orientales, même si l’aire de la vaste AOC Languedoc s’étend aussi
+        dans ce département.
   - id: sfrance-roussillon-dept-001
     type: mcq
     deck: France::Southern France
@@ -770,15 +1157,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Roussillon is which French département?
+      question: "In which French département is the Roussillon wine region located?"
       choices:
-        - { text: "Hérault", correct: false }
         - { text: "Pyrénées-Orientales", correct: true }
-        - { text: "Gironde", correct: false }
-        - { text: "Marne", correct: false }
+        - { text: "Hérault", correct: false }
+        - { text: "Bouches-du-Rhône", correct: false }
+        - { text: "Alpes-Maritimes", correct: false }
       explanation: |
-        **Pyrénées-Orientales** — Perpignan to the Spanish border.
-
+        Roussillon occupies most of Pyrénées-Orientales around Perpignan, between the Mediterranean, the
+        Pyrenees and the Spanish border.
+    fr:
+      question: "Dans quel département français se situe le vignoble du Roussillon ?"
+      choices:
+        - { text: "Pyrénées-Orientales", correct: true }
+        - { text: "Hérault", correct: false }
+        - { text: "Bouches-du-Rhône", correct: false }
+        - { text: "Alpes-Maritimes", correct: false }
+      explanation: |
+        Le Roussillon occupe une grande partie des Pyrénées-Orientales autour de Perpignan, entre la
+        Méditerranée, les Pyrénées et la frontière espagnole.
   - id: sfrance-volume-languedoc-001
     type: mcq
     deck: France::Southern France
@@ -789,15 +1186,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which half of the map supplies most Southern France volume?
+      question: "Which area is the principal source of wine volume within Southern France?"
       choices:
-        - { text: "Bandol only", correct: false }
         - { text: "Languedoc", correct: true }
-        - { text: "Côte-Rôtie", correct: false }
-        - { text: "Muscadet", correct: false }
+        - { text: "Roussillon", correct: false }
+        - { text: "Provence", correct: false }
+        - { text: "The lower Rhône crus", correct: false }
       explanation: |
-        **Languedoc.** Roussillon and Provence are smaller in volume.
-
+        Languedoc contains the largest vineyard area and produces both high volumes of IGP wine and a broad
+        range of AOC wines. Roussillon and Provence are smaller production regions.
+    fr:
+      question: "Quelle zone constitue la principale source de volume de vin dans le sud de la France ?"
+      choices:
+        - { text: "Le Languedoc", correct: true }
+        - { text: "Le Roussillon", correct: false }
+        - { text: "La Provence", correct: false }
+        - { text: "Les crus du Rhône méridional", correct: false }
+      explanation: |
+        Le Languedoc possède la plus grande surface viticole et produit à la fois d’importants volumes d’IGP
+        et une vaste gamme de vins d’AOC. Le Roussillon et la Provence ont une production plus restreinte.
   - id: sfrance-lr-terrain-001
     type: mcq
     deck: France::Southern France
@@ -808,16 +1215,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: How does Languedoc–Roussillon terrain change as you leave the coast?
+      question: "How does the terrain of Languedoc-Roussillon generally change from the central coast toward the inland margins and the Spanish border?"
       choices:
-        - { text: "It becomes a flat lagoon all the way to Spain", correct: false }
-        - { text: "A large coastal plain between Béziers and Montpellier, then hillier, more rugged land inland and toward Spain", correct: true }
-        - { text: "Only alpine snowfields", correct: false }
-        - { text: "A cliffed fjord", correct: false }
+        - { text: "Broad coastal plains give way to hillier, more rugged land", correct: true }
+        - { text: "Steep mountains give way to an unbroken coastal plateau", correct: false }
+        - { text: "Rolling chalk downs give way to flat river marshes", correct: false }
+        - { text: "Volcanic slopes give way to deep alluvial basins", correct: false }
       explanation: |
-        **Coastal plain, then hills inland and toward Spain.** The
-        plain is IGP country; the hills hold the named AOCs.
-
+        A broad plain is particularly evident around Béziers and Montpellier. Farther inland and toward the
+        Pyrenees, vineyards increasingly occupy slopes, foothills and rugged valleys with varied exposures
+        and soils.
+    fr:
+      question: "Comment le relief du Languedoc-Roussillon évolue-t-il généralement depuis le littoral central vers l’intérieur et la frontière espagnole ?"
+      choices:
+        - { text: "Les vastes plaines littorales cèdent la place à des terres plus vallonnées et accidentées", correct: true }
+        - { text: "Les montagnes escarpées cèdent la place à un plateau littoral continu", correct: false }
+        - { text: "Les collines crayeuses cèdent la place à des marais fluviaux plats", correct: false }
+        - { text: "Les pentes volcaniques cèdent la place à de profonds bassins alluviaux", correct: false }
+      explanation: |
+        Une vaste plaine est particulièrement visible autour de Béziers et Montpellier. Plus à l’intérieur
+        et vers les Pyrénées, les vignes occupent davantage de pentes, de piémonts et de vallées accidentées
+        aux expositions et aux sols variés.
   - id: sfrance-languedoc-aoc-span-001
     type: mcq
     deck: France::Southern France
@@ -828,16 +1246,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: How far does the regional Languedoc AOC stretch?
+      question: "How extensive is the regional Languedoc AOC?"
       choices:
-        - { text: "Only the Médoc peninsula", correct: false }
-        - { text: "From the Spanish border to Nîmes", correct: true }
-        - { text: "Only inside Lyon’s walls", correct: false }
-        - { text: "The Loire estuary only", correct: false }
+        - { text: "It follows the Gulf of Lion for about 200 km, from near Nîmes to the Spanish border", correct: true }
+        - { text: "It follows the Rhône valley from Lyon southward to the Mediterranean coast", correct: false }
+        - { text: "It crosses inland Provence from Avignon eastward to the Italian border", correct: false }
+        - { text: "It follows the Atlantic coast from Bordeaux southward to the Spanish border", correct: false }
       explanation: |
-        **Spanish border to Nîmes.** It is a wrapper AOC, not a single
-        hillside.
-
+        The regional appellation forms a broad arc along the Gulf of Lion. Its large area explains the
+        marked variation in climate, soils, grapes and wine styles.
+    fr:
+      question: "Quelle est l’étendue de l’AOC régionale Languedoc ?"
+      choices:
+        - { text: "Elle suit le golfe du Lion sur environ 200 km, des environs de Nîmes à la frontière espagnole", correct: true }
+        - { text: "Elle suit la vallée du Rhône depuis Lyon jusqu’au littoral méditerranéen", correct: false }
+        - { text: "Elle traverse la Provence intérieure d’Avignon jusqu’à la frontière italienne", correct: false }
+        - { text: "Elle suit la côte atlantique de Bordeaux jusqu’à la frontière espagnole", correct: false }
+      explanation: |
+        L’appellation régionale forme un vaste arc le long du golfe du Lion. Son étendue explique les fortes
+        variations de climat, de sols, de cépages et de styles de vins.
   - id: sfrance-named-zone-001
     type: mcq
     deck: France::Southern France
@@ -848,16 +1275,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What can a stronger Languedoc zone add to a generic Languedoc label?
+      question: "What may certain delimited sectors add to the regional Languedoc AOC on the label?"
       choices:
-        - { text: "Nothing — only IGP is legal", correct: false }
-        - { text: "Its own geographic name", correct: true }
-        - { text: "Premier Cru, as in the Côte d’Or", correct: false }
-        - { text: "Grand Cru Classé, as in 1855", correct: false }
+        - { text: "An approved complementary geographical name", correct: true }
+        - { text: "A Burgundy-style Premier Cru classification", correct: false }
+        - { text: "A Bordeaux-style classed-growth rank", correct: false }
+        - { text: "A mandatory single-vineyard name", correct: false }
       explanation: |
-        **Its own geographic name.** Some of those zones later became
-        standalone AOCs — **Pic Saint-Loup** in 2017.
-
+        Some precisely delimited sectors may append an approved geographical designation to Languedoc,
+        subject to additional rules. This is different from a formal cru hierarchy such as Burgundy’s.
+    fr:
+      question: "Que peuvent ajouter à l’étiquette certains secteurs délimités de l’AOC régionale Languedoc ?"
+      choices:
+        - { text: "Une dénomination géographique complémentaire autorisée", correct: true }
+        - { text: "Un classement Premier Cru de type bourguignon", correct: false }
+        - { text: "Un rang de cru classé de type bordelais", correct: false }
+        - { text: "Un nom de parcelle obligatoirement mentionné", correct: false }
+      explanation: |
+        Certains secteurs précisément délimités peuvent ajouter une dénomination géographique autorisée à
+        Languedoc, sous réserve de règles supplémentaires. Il ne s’agit pas d’une hiérarchie officielle de
+        crus comme en Bourgogne.
   - id: sfrance-own-aoc-001
     type: mcq
     deck: France::Southern France
@@ -868,16 +1305,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Why can Minervois or Côtes du Roussillon skip the word Languedoc on the label?
+      question: "Why can names such as Minervois and Corbières appear without the word Languedoc on the label?"
       choices:
-        - { text: "They are only IGP", correct: false }
-        - { text: "They have their own AOC rules", correct: true }
-        - { text: "They are in Bordeaux", correct: false }
-        - { text: "INAO bans any place name", correct: false }
+        - { text: "They are independent AOCs with their own specifications", correct: true }
+        - { text: "They are informal marketing terms within Pays d’Oc", correct: false }
+        - { text: "They are complementary names permitted only with Languedoc", correct: false }
+        - { text: "They are village names within Côtes du Roussillon", correct: false }
       explanation: |
-        **They have their own AOC rules.** More specific geography,
-        their own yield and grape bars.
-
+        Minervois and Corbières each have a legally defined production area and their own rules for grapes,
+        yields and wine styles. They are not merely subdivisions printed under the regional Languedoc AOC.
+    fr:
+      question: "Pourquoi des noms comme Minervois et Corbières peuvent-ils apparaître sans le mot Languedoc sur l’étiquette ?"
+      choices:
+        - { text: "Ce sont des AOC indépendantes dotées de leurs propres cahiers des charges", correct: true }
+        - { text: "Ce sont des termes commerciaux informels au sein du Pays d’Oc", correct: false }
+        - { text: "Ce sont des dénominations complémentaires autorisées uniquement avec Languedoc", correct: false }
+        - { text: "Ce sont des noms de villages de Côtes du Roussillon", correct: false }
+      explanation: |
+        Minervois et Corbières possèdent chacun une aire de production légalement définie et leurs propres
+        règles de cépages, de rendements et de styles. Ce ne sont pas de simples subdivisions imprimées sous
+        l’AOC régionale Languedoc.
   - id: sfrance-subregional-001
     type: mcq
     deck: France::Southern France
@@ -888,16 +1335,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Below Minervois or Corbières, what is the finest official AOC step?
+      question: "Which pair consists of smaller, more tightly defined AOCs within the broader territories of Minervois and Corbières?"
       choices:
-        - { text: "The regional Languedoc wrapper only", correct: false }
-        - { text: "A sub-regional AOC such as Minervois-La Livinière", correct: true }
-        - { text: "A village climat, as in Burgundy", correct: false }
-        - { text: "There are no smaller names", correct: false }
+        - { text: "Minervois-La Livinière and Corbières-Boutenac", correct: true }
+        - { text: "Picpoul de Pinet and Clairette du Languedoc", correct: false }
+        - { text: "Fitou and Côtes du Roussillon Villages", correct: false }
+        - { text: "Pic Saint-Loup and Terrasses du Larzac", correct: false }
       explanation: |
-        **Sub-regional AOCs** — **Minervois-La Livinière**,
-        **Corbières-Boutenac**. Finer than Minervois or Corbières.
-
+        Minervois-La Livinière and Corbières-Boutenac are red-only appellations with smaller delimited areas
+        and stricter production rules than their broader parent territories.
+    fr:
+      question: "Quel duo réunit des AOC plus petites et plus précisément délimitées au sein des territoires plus vastes du Minervois et des Corbières ?"
+      choices:
+        - { text: "Minervois-La Livinière et Corbières-Boutenac", correct: true }
+        - { text: "Picpoul de Pinet et Clairette du Languedoc", correct: false }
+        - { text: "Fitou et Côtes du Roussillon Villages", correct: false }
+        - { text: "Pic Saint-Loup et Terrasses du Larzac", correct: false }
+      explanation: |
+        Minervois-La Livinière et Corbières-Boutenac sont des appellations uniquement rouges, aux aires plus
+        restreintes et aux règles de production plus strictes que celles de leurs territoires généraux.
   - id: sfrance-aoc-evolve-001
     type: mcq
     deck: France::Southern France
@@ -908,16 +1364,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What keeps changing in the Languedoc AOC map?
+      question: "Which pair illustrates former Languedoc geographical designations that later gained independent AOC status?"
       choices:
-        - { text: "All names are frozen in 1936", correct: false }
-        - { text: "Sub-regions keep applying for full AOC status", correct: true }
-        - { text: "Every AOC has been abolished", correct: false }
-        - { text: "Only IGP may exist", correct: false }
+        - { text: "Terrasses du Larzac and Pic Saint-Loup", correct: true }
+        - { text: "Corbières-Boutenac and La Livinière", correct: false }
+        - { text: "Côtes du Roussillon and Minervois", correct: false }
+        - { text: "Picpoul de Pinet and Clairette du Languedoc", correct: false }
       explanation: |
-        **Sub-regions keep applying for AOC.** Pic Saint-Loup and
-        Terrasses du Larzac walked that path.
-
+        Terrasses du Larzac became an independent AOC in 2014 and Pic Saint-Loup in 2017. Their histories
+        show how the appellation map has evolved as distinctive areas sought separate recognition.
+    fr:
+      question: "Quel duo illustre d’anciennes dénominations géographiques du Languedoc devenues ensuite des AOC indépendantes ?"
+      choices:
+        - { text: "Terrasses du Larzac et Pic Saint-Loup", correct: true }
+        - { text: "Corbières-Boutenac et La Livinière", correct: false }
+        - { text: "Côtes du Roussillon et Minervois", correct: false }
+        - { text: "Picpoul de Pinet et Clairette du Languedoc", correct: false }
+      explanation: |
+        Terrasses du Larzac est devenue une AOC indépendante en 2014 et Pic Saint-Loup en 2017. Leur
+        parcours montre comment la carte des appellations a évolué lorsque des zones distinctives ont
+        recherché une reconnaissance propre.
   - id: sfrance-languedoc-colours-001
     type: mcq
     deck: France::Southern France
@@ -928,15 +1394,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which still, dry colours do most Languedoc AOCs allow?
+      question: "Which colours may be produced under the regional Languedoc AOC?"
       choices:
-        - { text: "Red only", correct: false }
-        - { text: "Red, white, and rosé", correct: true }
-        - { text: "Sparkling only", correct: false }
-        - { text: "Orange only", correct: false }
+        - { text: "Red, rosé and white", correct: true }
+        - { text: "Red and rosé only", correct: false }
+        - { text: "White and sparkling only", correct: false }
+        - { text: "Red and fortified sweet only", correct: false }
       explanation: |
-        **Red, white, and rosé** in most names. Red is still the bulk.
-
+        The regional Languedoc AOC covers still red, rosé and white wines. More specific appellations within
+        the wider region may permit a narrower set of colours.
+    fr:
+      question: "Quelles couleurs peuvent être produites sous l’AOC régionale Languedoc ?"
+      choices:
+        - { text: "Rouge, rosé et blanc", correct: true }
+        - { text: "Rouge et rosé uniquement", correct: false }
+        - { text: "Blanc et effervescent uniquement", correct: false }
+        - { text: "Rouge et doux fortifié uniquement", correct: false }
+      explanation: |
+        L’AOC régionale Languedoc couvre des vins tranquilles rouges, rosés et blancs. Des appellations plus
+        spécifiques de la grande région peuvent autoriser un éventail de couleurs plus restreint.
   - id: sfrance-languedoc-red-001
     type: mcq
     deck: France::Southern France
@@ -947,15 +1423,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: By colour, what fills most Languedoc tanks?
+      question: "Which approximate colour split is currently reported for the regional Languedoc AOC?"
       choices:
-        - { text: "Sweet white", correct: false }
-        - { text: "Red", correct: true }
-        - { text: "Sparkling only", correct: false }
-        - { text: "Fortified Muscat only", correct: false }
+        - { text: "About 40% red, 40% rosé and 20% white", correct: true }
+        - { text: "About 80% red, 10% rosé and 10% white", correct: false }
+        - { text: "About 70% white, 25% rosé and 5% red", correct: false }
+        - { text: "About one third of each colour", correct: false }
       explanation: |
-        **Red.** White and rosé exist; they are not the volume.
-
+        Current INAO information gives an approximate split of 40% red, 40% rosé and 20% white. This
+        corrects the older simplification that regional Languedoc production is overwhelmingly red.
+    fr:
+      question: "Quelle répartition approximative par couleur est actuellement indiquée pour l’AOC régionale Languedoc ?"
+      choices:
+        - { text: "Environ 40 % de rouge, 40 % de rosé et 20 % de blanc", correct: true }
+        - { text: "Environ 80 % de rouge, 10 % de rosé et 10 % de blanc", correct: false }
+        - { text: "Environ 70 % de blanc, 25 % de rosé et 5 % de rouge", correct: false }
+        - { text: "Environ un tiers de chaque couleur", correct: false }
+      explanation: |
+        Les données actuelles de l’INAO indiquent une répartition approximative de 40 % de rouge, 40 % de
+        rosé et 20 % de blanc. Cela corrige l’ancienne simplification selon laquelle la production régionale
+        du Languedoc serait très largement rouge.
   - id: sfrance-languedoc-grapes-001
     type: mcq
     deck: France::Southern France
@@ -966,16 +1453,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which grapes make most Languedoc red?
+      question: "Which group contains the principal Mediterranean black grapes used in Languedoc red blends?"
       choices:
-        - { text: "Pinot Noir and Gamay only", correct: false }
-        - { text: "Carignan, Grenache, Syrah, and some Mourvèdre", correct: true }
-        - { text: "Riesling and Pinot Gris", correct: false }
-        - { text: "Melon only", correct: false }
+        - { text: "Grenache, Syrah, Carignan and Mourvèdre", correct: true }
+        - { text: "Merlot, Cabernet Sauvignon, Malbec and Petit Verdot", correct: false }
+        - { text: "Pinot Noir, Gamay, Trousseau and Poulsard", correct: false }
+        - { text: "Nebbiolo, Barbera, Sangiovese and Montepulciano", correct: false }
       explanation: |
-        **Carignan, Grenache, Syrah, some Mourvèdre.** The local GSM+C
-        mix, not a Bordeaux recipe.
-
+        Grenache, Syrah, Carignan and Mourvèdre form the core of many Languedoc reds, often joined by
+        Cinsault. Their proportions vary with site and appellation rules.
+    fr:
+      question: "Quel groupe réunit les principaux cépages noirs méditerranéens utilisés dans les assemblages rouges du Languedoc ?"
+      choices:
+        - { text: "Grenache, Syrah, Carignan et Mourvèdre", correct: true }
+        - { text: "Merlot, Cabernet Sauvignon, Malbec et Petit Verdot", correct: false }
+        - { text: "Pinot Noir, Gamay, Trousseau et Poulsard", correct: false }
+        - { text: "Nebbiolo, Barbera, Sangiovese et Montepulciano", correct: false }
+      explanation: |
+        Grenache, Syrah, Carignan et Mourvèdre constituent la base de nombreux rouges languedociens, souvent
+        complétée par le Cinsault. Leurs proportions varient selon le site et les règles de l’appellation.
   - id: sfrance-languedoc-hard-001
     type: mcq
     deck: France::Southern France
@@ -986,16 +1482,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Why is there no single “Languedoc taste”?
+      question: "Why is it misleading to describe a single typical style for all Languedoc AOC wines?"
       choices:
-        - { text: "INAO assigns one recipe to every tank", correct: false }
-        - { text: "Blends and large AOCs span many climates and soils", correct: true }
-        - { text: "Only one grape and one soil exist", correct: false }
-        - { text: "All wine must be 100% Syrah", correct: false }
+        - { text: "The large region combines many climates, soils, grapes and permitted colours", correct: true }
+        - { text: "Every producer must use a different grape variety", correct: false }
+        - { text: "The wines range from still to fortified within every appellation", correct: false }
+        - { text: "There are no legally defined production areas", correct: false }
       explanation: |
-        **Many blends, many climates, many soils.** A coastal Fitou
-        and a Pic Saint-Loup are not the same drink.
-
+        The regional Languedoc AOC alone extends roughly 200 km, and the wider region includes coastal
+        plains, limestone and schist hills, and cooler uplands. Site, blend and winemaking therefore produce
+        markedly different styles.
+    fr:
+      question: "Pourquoi est-il trompeur de décrire un style unique pour tous les vins d’AOC du Languedoc ?"
+      choices:
+        - { text: "La vaste région réunit de nombreux climats, sols, cépages et couleurs autorisées", correct: true }
+        - { text: "Chaque producteur doit utiliser un cépage différent", correct: false }
+        - { text: "Toutes les appellations produisent à la fois des vins tranquilles et fortifiés", correct: false }
+        - { text: "Il n’existe aucune aire de production légalement définie", correct: false }
+      explanation: |
+        La seule AOC régionale Languedoc s’étend sur environ 200 km, et la grande région comprend des
+        plaines littorales, des collines calcaires ou schisteuses et des hauteurs plus fraîches. Le site,
+        l’assemblage et la vinification donnent donc des styles très différents.
   - id: sfrance-cool-syrah-001
     type: mcq
     deck: France::Southern France
@@ -1006,16 +1513,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: In cooler Languedoc sites, which grape is usually at its best?
+      question: "Which black grape is generally favoured on relatively cool Languedoc sites because it can retain peppery aromas and freshness?"
       choices:
-        - { text: "Mourvèdre", correct: false }
         - { text: "Syrah", correct: true }
-        - { text: "Melon", correct: false }
-        - { text: "Riesling", correct: false }
+        - { text: "Mourvèdre", correct: false }
+        - { text: "Grenache", correct: false }
+        - { text: "Carignan", correct: false }
       explanation: |
-        **Syrah** — more finesse, lighter tannin. Pic Saint-Loup is
-        the named cool-ish address.
-
+        Syrah performs well where altitude, aspect or local climatic influences moderate the Mediterranean
+        heat. In very warm sites it can lose aromatic definition and become overripe.
+    fr:
+      question: "Quel cépage noir est généralement favorisé sur les sites relativement frais du Languedoc, où il peut conserver ses arômes poivrés et sa fraîcheur ?"
+      choices:
+        - { text: "Syrah", correct: true }
+        - { text: "Mourvèdre", correct: false }
+        - { text: "Grenache", correct: false }
+        - { text: "Carignan", correct: false }
+      explanation: |
+        La Syrah réussit bien là où l’altitude, l’exposition ou des influences climatiques locales modèrent
+        la chaleur méditerranéenne. Sur des sites très chauds, elle peut perdre sa précision aromatique et
+        devenir surmûrie.
   - id: sfrance-warm-mourvedre-001
     type: mcq
     deck: France::Southern France
@@ -1026,16 +1543,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: In warmer Languedoc sites, which grape is usually at its best?
+      question: "Which black grape needs the warmest Languedoc sites to ripen fully and can add tannin and savoury complexity?"
       choices:
-        - { text: "Syrah", correct: false }
         - { text: "Mourvèdre", correct: true }
-        - { text: "Riesling", correct: false }
-        - { text: "Melon", correct: false }
+        - { text: "Syrah", correct: false }
+        - { text: "Cinsault", correct: false }
+        - { text: "Merlot", correct: false }
       explanation: |
-        **Mourvèdre** — gamey, meaty, more body. Big AOCs can blend
-        that with cooler-site Syrah lots.
-
+        Mourvèdre is late budding and late ripening. Warm, sheltered sites allow it to develop ripe dark
+        fruit, firm tannin and herbal, meaty or gamey notes without green flavours.
+    fr:
+      question: "Quel cépage noir exige les sites les plus chauds du Languedoc pour mûrir pleinement et peut apporter tanins et complexité savoureuse ?"
+      choices:
+        - { text: "Mourvèdre", correct: true }
+        - { text: "Syrah", correct: false }
+        - { text: "Cinsault", correct: false }
+        - { text: "Merlot", correct: false }
+      explanation: |
+        Le Mourvèdre débourre et mûrit tard. Des sites chauds et abrités lui permettent de développer des
+        fruits noirs mûrs, des tanins fermes et des notes d’herbes, de viande ou de gibier sans saveurs
+        végétales.
   - id: sfrance-large-aoc-best-001
     type: mcq
     deck: France::Southern France
@@ -1046,16 +1573,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What are the best reds from the large Languedoc AOCs usually like?
+      question: "Which profile is most typical of a premium red from a warmer, low-yielding hillside site in Corbières or Minervois?"
       choices:
-        - { text: "Light, high-acid, and 11%", correct: false }
-        - { text: "Full, spicy, concentrated red fruit, often with oak", correct: true }
-        - { text: "Always a sweet white", correct: false }
-        - { text: "Sparkling only", correct: false }
+        - { text: "Full-bodied and concentrated, with ripe red or black fruit, spice and firm tannin", correct: true }
+        - { text: "Light-bodied and pale, with low alcohol and delicate red fruit", correct: false }
+        - { text: "Sweet and fortified, with raisined fruit and low tannin", correct: false }
+        - { text: "High in acidity and low in alcohol, with green apple and citrus", correct: false }
       explanation: |
-        **Full, spicy, concentrated red fruit, often oaked.** Corbières
-        and Minervois at the top of the range.
-
+        Low yields on poor hillside soils can give concentrated Mediterranean blends with ripe fruit, spice,
+        body and tannin. Oak may add complexity, but it is not essential to the category.
+    fr:
+      question: "Quel profil correspond le mieux à un rouge haut de gamme issu d’un coteau chaud et peu productif de Corbières ou du Minervois ?"
+      choices:
+        - { text: "Corsé et concentré, avec fruits rouges ou noirs mûrs, épices et tanins fermes", correct: true }
+        - { text: "Léger et pâle, avec peu d’alcool et un fruit rouge délicat", correct: false }
+        - { text: "Doux et fortifié, avec fruits passerillés et peu de tanins", correct: false }
+        - { text: "Très acide et peu alcoolisé, avec pomme verte et agrumes", correct: false }
+      explanation: |
+        De faibles rendements sur des sols pauvres de coteau peuvent donner des assemblages méditerranéens
+        concentrés, au fruit mûr, épicés, corsés et tanniques. Le bois peut apporter de la complexité, mais
+        il n’est pas indispensable au style.
   - id: sfrance-rose-soft-001
     type: mcq
     deck: France::Southern France
@@ -1066,16 +1603,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What are typical Southern France rosés like?
+      question: "Which profile is common among inexpensive dry rosés from Languedoc?"
       choices:
-        - { text: "Tannic, gamey, and built like Bandol rouge", correct: false }
-        - { text: "Soft and fruity", correct: true }
-        - { text: "Always a sweet VDN", correct: false }
-        - { text: "Sparkling Chenin only", correct: false }
+        - { text: "Light to medium-bodied, fruity and intended for early drinking", correct: true }
+        - { text: "Full-bodied, highly tannic and designed for long ageing", correct: false }
+        - { text: "Sweet, fortified and dominated by dried-fruit flavours", correct: false }
+        - { text: "Oxidative, nutty and matured under flor", correct: false }
       explanation: |
-        **Soft and fruity.** Provence pale and Languedoc pink both sit
-        there; Tavel is the fuller exception, taught with the Rhône.
-
+        Many high-volume Languedoc rosés are dry, fresh and fruit-forward, with modest structure and no need
+        for bottle ageing. More ambitious regional rosés can be fuller or more complex.
+    fr:
+      question: "Quel profil est courant parmi les rosés secs bon marché du Languedoc ?"
+      choices:
+        - { text: "Légers à moyennement corsés, fruités et destinés à être bus jeunes", correct: true }
+        - { text: "Corsés, très tanniques et conçus pour une longue garde", correct: false }
+        - { text: "Doux, fortifiés et dominés par les fruits secs", correct: false }
+        - { text: "Oxydatifs, marqués par la noix et élevés sous voile", correct: false }
+      explanation: |
+        De nombreux rosés de volume du Languedoc sont secs, frais et fruités, avec une structure modeste et
+        sans besoin de garde en bouteille. Des rosés régionaux plus ambitieux peuvent être plus corsés ou
+        complexes.
   - id: sfrance-cdr-name-001
     type: mcq
     deck: France::Southern France
@@ -1086,16 +1633,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: At the Pyrenean end of the Languedoc wrapper, which AOC is the most rugged?
+      question: "Where is the Côtes du Roussillon AOC located?"
       choices:
-        - { text: "Picpoul de Pinet", correct: false }
-        - { text: "Côtes du Roussillon", correct: true }
-        - { text: "Muscadet", correct: false }
-        - { text: "Tavel", correct: false }
+        - { text: "Around Perpignan, between the Mediterranean, the Pyrenees and the Aude", correct: true }
+        - { text: "Along the Hérault coast between Sète and Montpellier", correct: false }
+        - { text: "In the hills immediately east of Marseille", correct: false }
+        - { text: "On the western bank of the lower Rhône", correct: false }
       explanation: |
-        **Côtes du Roussillon** — the Pyrenean end of the map, not the
-        Béziers flats.
-
+        Côtes du Roussillon occupies much of Pyrénées-Orientales around Perpignan. Its landscape ranges from
+        coastal plain to foothills bordered by the Pyrenees, the Albères and the Corbières.
+    fr:
+      question: "Où se situe l’AOC Côtes du Roussillon ?"
+      choices:
+        - { text: "Autour de Perpignan, entre la Méditerranée, les Pyrénées et l’Aude", correct: true }
+        - { text: "Sur le littoral héraultais entre Sète et Montpellier", correct: false }
+        - { text: "Dans les collines immédiatement à l’est de Marseille", correct: false }
+        - { text: "Sur la rive occidentale du bas Rhône", correct: false }
+      explanation: |
+        Côtes du Roussillon occupe une grande partie des Pyrénées-Orientales autour de Perpignan. Son
+        paysage va de la plaine littorale aux piémonts bordés par les Pyrénées, les Albères et les
+        Corbières.
   - id: sfrance-cdr-climate-001
     type: mcq
     deck: France::Southern France
@@ -1106,16 +1663,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What climate and wine shape does Côtes du Roussillon usually have?
+      question: "Which combination best describes the growing conditions in Côtes du Roussillon?"
       choices:
-        - { text: "Cool, wet, and always light", correct: false }
-        - { text: "Bright sun, low rain, strong wind, and concentrated wines", correct: true }
-        - { text: "A Breton monsoon", correct: false }
-        - { text: "Permanent ice", correct: false }
+        - { text: "High sunshine, low rainfall and frequent tramontane wind", correct: true }
+        - { text: "Low sunshine, high summer rainfall and little wind", correct: false }
+        - { text: "Cool maritime summers and severe continental winters", correct: false }
+        - { text: "Persistent fog, high humidity and fertile waterlogged soils", correct: false }
       explanation: |
-        **Sun, drought, wind, concentrated wine.** The tramontane is
-        part of that.
-
+        Roussillon is sunny, dry and strongly influenced by the tramontane. These conditions favour full
+        ripening and concentration, while altitude in the west can bring useful freshness.
+    fr:
+      question: "Quelle combinaison décrit le mieux les conditions de culture en Côtes du Roussillon ?"
+      choices:
+        - { text: "Fort ensoleillement, faible pluviométrie et tramontane fréquente", correct: true }
+        - { text: "Faible ensoleillement, fortes pluies estivales et peu de vent", correct: false }
+        - { text: "Étés maritimes frais et hivers continentaux rigoureux", correct: false }
+        - { text: "Brouillard persistant, forte humidité et sols fertiles engorgés", correct: false }
+      explanation: |
+        Le Roussillon est ensoleillé, sec et fortement influencé par la tramontane. Ces conditions
+        favorisent une pleine maturité et la concentration, tandis que l’altitude à l’ouest peut apporter
+        une fraîcheur utile.
   - id: sfrance-cdr-villages-001
     type: mcq
     deck: France::Southern France
@@ -1126,16 +1693,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Côtes du Roussillon Villages covers which part of the parent AOC?
+      question: "How does Côtes du Roussillon Villages differ from the broader Côtes du Roussillon AOC?"
       choices:
-        - { text: "The entire coastal plain of the Hérault", correct: false }
-        - { text: "The best vineyards in the north of Côtes du Roussillon", correct: true }
-        - { text: "A Bordeaux cru classé", correct: false }
-        - { text: "A sparkling-only AOC", correct: false }
+        - { text: "It is red-only and covers a smaller northern and inland area", correct: true }
+        - { text: "It is white-only and limited to vineyards beside the sea", correct: false }
+        - { text: "It is rosé-only and covers the entire coastal plain", correct: false }
+        - { text: "It is a fortified-wine appellation centred on Banyuls", correct: false }
       explanation: |
-        **The best northern sites of Côtes du Roussillon.** Red only,
-        tighter rules than the generic name.
-
+        Côtes du Roussillon Villages is reserved for red wines from a more restricted area in the north of
+        Pyrénées-Orientales. Five delimited sectors may add their names: Caramany, Latour-de-France, Les
+        Aspres, Lesquerde and Tautavel.
+    fr:
+      question: "En quoi Côtes du Roussillon Villages diffère-t-elle de l’AOC Côtes du Roussillon plus vaste ?"
+      choices:
+        - { text: "Elle est réservée aux rouges et couvre une zone septentrionale et intérieure plus restreinte", correct: true }
+        - { text: "Elle est réservée aux blancs et limitée aux vignes proches de la mer", correct: false }
+        - { text: "Elle est réservée aux rosés et couvre toute la plaine littorale", correct: false }
+        - { text: "C’est une appellation de vins fortifiés centrée sur Banyuls", correct: false }
+      explanation: |
+        Côtes du Roussillon Villages est réservée aux vins rouges d’une aire plus restreinte au nord des
+        Pyrénées-Orientales. Cinq secteurs délimités peuvent ajouter leur nom : Caramany, Latour-de-France,
+        Les Aspres, Lesquerde et Tautavel.
   - id: sfrance-fitou-where-001
     type: mcq
     deck: France::Southern France
@@ -1146,16 +1724,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which AOC sits just north of Côtes du Roussillon Villages?
+      question: "Where is the Fitou AOC located?"
       choices:
-        - { text: "Bandol", correct: false }
-        - { text: "Fitou", correct: true }
-        - { text: "Côte-Rôtie", correct: false }
-        - { text: "Vouvray", correct: false }
+        - { text: "In two sectors in southern Aude, just north of Roussillon", correct: true }
+        - { text: "On the Hérault coast around the Étang de Thau", correct: false }
+        - { text: "In the foothills east of Nice", correct: false }
+        - { text: "On the western side of the Rhône delta", correct: false }
       explanation: |
-        **Fitou.** Two patches, one coastal and one inland, both north
-        of the Villages zone.
-
+        Fitou occupies two separate areas in southern Aude, one coastal and one inland, separated by a
+        limestone plateau. It lies immediately north of Roussillon.
+    fr:
+      question: "Où se situe l’AOC Fitou ?"
+      choices:
+        - { text: "Dans deux secteurs du sud de l’Aude, juste au nord du Roussillon", correct: true }
+        - { text: "Sur le littoral de l’Hérault autour de l’étang de Thau", correct: false }
+        - { text: "Dans les contreforts à l’est de Nice", correct: false }
+        - { text: "Sur le côté occidental du delta du Rhône", correct: false }
+      explanation: |
+        Fitou occupe deux zones distinctes dans le sud de l’Aude, l’une littorale et l’autre intérieure,
+        séparées par un plateau calcaire. L’appellation se trouve immédiatement au nord du Roussillon.
   - id: sfrance-fitou-split-001
     type: mcq
     deck: France::Southern France
@@ -1166,16 +1753,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: How is Fitou’s vineyard map divided?
+      question: "Which statement correctly compares Fitou’s two production sectors?"
       choices:
-        - { text: "One uniform plateau", correct: false }
-        - { text: "A warm coastal strip and a cooler inland zone at altitude", correct: true }
-        - { text: "Only a river island", correct: false }
-        - { text: "White-only parcels, like Picpoul", correct: false }
+        - { text: "One lies by the Leucate coast; the other lies inland below Mont Tauch", correct: true }
+        - { text: "Both form one continuous plain around Narbonne", correct: false }
+        - { text: "One is in Provence; the other is in Roussillon", correct: false }
+        - { text: "Both are high-altitude sectors on the Montagne Noire", correct: false }
       explanation: |
-        **Warm coast, cooler inland hills.** Same AOC name, two
-        climates — the coast is fuller, the hills lighter.
-
+        The coastal sector lies around the Leucate cliffs on clay-limestone soils. The inland sector below
+        Mont Tauch includes schist, limestone and sandstone and generally has more elevation.
+    fr:
+      question: "Quelle affirmation compare correctement les deux secteurs de production de Fitou ?"
+      choices:
+        - { text: "L’un se trouve sur le littoral de Leucate ; l’autre à l’intérieur, au pied du mont Tauch", correct: true }
+        - { text: "Ils forment tous deux une plaine continue autour de Narbonne", correct: false }
+        - { text: "L’un se situe en Provence ; l’autre en Roussillon", correct: false }
+        - { text: "Ils sont tous deux en haute altitude sur la Montagne Noire", correct: false }
+      explanation: |
+        Le secteur littoral se trouve autour des falaises de Leucate, sur des sols argilo-calcaires. Le
+        secteur intérieur, au pied du mont Tauch, comprend des schistes, des calcaires et des grès, avec
+        généralement davantage d’altitude.
   - id: sfrance-corbieres-where-001
     type: mcq
     deck: France::Southern France
@@ -1186,15 +1783,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which large AOC sits just north of Fitou?
+      question: "Where is the Corbières AOC located?"
       choices:
-        - { text: "Bandol", correct: false }
-        - { text: "Corbières", correct: true }
-        - { text: "Côte-Rôtie", correct: false }
-        - { text: "Muscadet", correct: false }
+        - { text: "In the Aude, south of the Aude river and toward Pyrénées-Orientales", correct: true }
+        - { text: "In the Hérault, north of the Orb and toward the Massif Central", correct: false }
+        - { text: "In the Var, east of Toulon and toward the Italian border", correct: false }
+        - { text: "In the Gard, west of the Rhône and toward the Cévennes", correct: false }
       explanation: |
-        **Corbières.** The big, broken Aude appellation above Fitou.
-
+        Corbières covers a large, rugged area in the Aude. It lies south of the Aude river and extends
+        toward the border with Pyrénées-Orientales, immediately north of Fitou in places.
+    fr:
+      question: "Où se situe l’AOC Corbières ?"
+      choices:
+        - { text: "Dans l’Aude, au sud du fleuve Aude et vers les Pyrénées-Orientales", correct: true }
+        - { text: "Dans l’Hérault, au nord de l’Orb et vers le Massif central", correct: false }
+        - { text: "Dans le Var, à l’est de Toulon et vers la frontière italienne", correct: false }
+        - { text: "Dans le Gard, à l’ouest du Rhône et vers les Cévennes", correct: false }
+      explanation: |
+        Corbières couvre une vaste zone accidentée de l’Aude. Elle se situe au sud du fleuve Aude et s’étend
+        vers la limite des Pyrénées-Orientales, juste au nord de Fitou par endroits.
   - id: sfrance-corbieres-climate-001
     type: mcq
     deck: France::Southern France
@@ -1205,16 +1812,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: How does Corbières climate sit from the coast inland?
+      question: "Why do wine styles vary substantially across the large Corbières AOC?"
       choices:
-        - { text: "Uniform heat everywhere", correct: false }
-        - { text: "Warm coastal sites and cooler, higher vineyards cooled by the tramontane", correct: true }
-        - { text: "Permanent ice", correct: false }
-        - { text: "A Breton monsoon only", correct: false }
+        - { text: "Altitude, distance from the sea, soils and exposure create contrasting mesoclimates", correct: true }
+        - { text: "The appellation requires a different grape in every commune", correct: false }
+        - { text: "All vineyards share one climate but use unrelated winemaking laws", correct: false }
+        - { text: "Only the coastal sector may produce red wine", correct: false }
       explanation: |
-        **Warm coast, cooler altitude, tramontane.** That is why one
-        AOC can taste like two.
-
+        Corbières includes warm Mediterranean sites near the coast and cooler, higher inland vineyards
+        exposed to strong winds. Its varied limestone, schist and other soils add further differences.
+    fr:
+      question: "Pourquoi les styles de vin varient-ils fortement au sein de la vaste AOC Corbières ?"
+      choices:
+        - { text: "L’altitude, la distance à la mer, les sols et l’exposition créent des mésoclimats contrastés", correct: true }
+        - { text: "L’appellation impose un cépage différent dans chaque commune", correct: false }
+        - { text: "Tous les vignobles partagent le même climat mais suivent des lois de vinification sans rapport", correct: false }
+        - { text: "Seul le secteur littoral peut produire du vin rouge", correct: false }
+      explanation: |
+        Corbières comprend des sites méditerranéens chauds près du littoral et des vignobles intérieurs plus
+        élevés, plus frais et exposés aux vents. La diversité des calcaires, schistes et autres sols
+        accentue encore les différences.
   - id: sfrance-corbieres-count-001
     type: mcq
     deck: France::Southern France
@@ -1225,16 +1842,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: About how many named terroirs is Corbières divided into?
+      question: "Which statement best describes the internal geography of Corbières AOC?"
       choices:
-        - { text: "Two, like Bordeaux banks", correct: false }
-        - { text: "Eleven", correct: true }
-        - { text: "One only", correct: false }
-        - { text: "A hundred climats", correct: false }
+        - { text: "It contains numerous contrasting sectors rather than one uniform terroir", correct: true }
+        - { text: "It is a single flat coastal plain with uniform soils", correct: false }
+        - { text: "It consists of two legally identical islands of vines", correct: false }
+        - { text: "It follows one narrow river valley from source to sea", correct: false }
       explanation: |
-        **Eleven** named zones in the usual teaching. **Boutenac** is
-        the one that became its own AOC.
-
+        Corbières is too large and varied to reduce to one exact terroir profile. Teaching materials have
+        grouped its landscapes in different ways, so understanding the coast-to-inland contrasts is more
+        useful than memorising a disputed count.
+    fr:
+      question: "Quelle affirmation décrit le mieux la géographie interne de l’AOC Corbières ?"
+      choices:
+        - { text: "Elle comprend de nombreux secteurs contrastés plutôt qu’un terroir uniforme", correct: true }
+        - { text: "Elle forme une unique plaine littorale plate aux sols uniformes", correct: false }
+        - { text: "Elle se compose de deux îlots de vignes légalement identiques", correct: false }
+        - { text: "Elle suit une seule vallée fluviale étroite de la source à la mer", correct: false }
+      explanation: |
+        Corbières est trop vaste et diverse pour être réduite à un seul profil de terroir. Les supports
+        pédagogiques regroupent ses paysages de différentes manières ; comprendre les contrastes entre
+        littoral et intérieur est donc plus utile que mémoriser un nombre contestable.
   - id: sfrance-boutenac-001
     type: mcq
     deck: France::Southern France
@@ -1245,16 +1873,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which Corbières terroir is singled out as the best, with its own AOC?
+      question: "Which statement distinguishes Corbières-Boutenac from the broader Corbières AOC?"
       choices:
-        - { text: "Picpoul de Pinet", correct: false }
-        - { text: "Boutenac", correct: true }
-        - { text: "Tavel", correct: false }
-        - { text: "Cornas", correct: false }
+        - { text: "It is a red-only AOC centred on low-yielding sites where Carignan has a required role", correct: true }
+        - { text: "It is a white-only coastal AOC based solely on Piquepoul Blanc", correct: false }
+        - { text: "It is a rosé-only sector whose wines must be released immediately", correct: false }
+        - { text: "It is an IGP for international single-variety wines", correct: false }
       explanation: |
-        **Boutenac** — Corbières-Boutenac, its own AOC. Old Carignan
-        is part of that story.
-
+        Corbières-Boutenac covers ten communes and permits only red wine from Carignan, Grenache, Syrah and
+        Mourvèdre. Carignan is central to the blend, must be hand harvested, and the wines receive at least
+        15 months’ maturation.
+    fr:
+      question: "Quelle affirmation distingue Corbières-Boutenac de l’AOC Corbières plus vaste ?"
+      choices:
+        - { text: "C’est une AOC uniquement rouge centrée sur des sites peu productifs où le Carignan joue un rôle obligatoire", correct: true }
+        - { text: "C’est une AOC côtière uniquement blanche fondée sur le seul Piquepoul Blanc", correct: false }
+        - { text: "C’est un secteur uniquement rosé dont les vins doivent être commercialisés immédiatement", correct: false }
+        - { text: "C’est une IGP destinée aux vins monocépages internationaux", correct: false }
+      explanation: |
+        Corbières-Boutenac couvre dix communes et ne produit que des rouges issus du Carignan, du Grenache,
+        de la Syrah et du Mourvèdre. Le Carignan est central dans l’assemblage, doit être vendangé à la
+        main, et les vins sont élevés au moins 15 mois.
   - id: sfrance-minervois-where-001
     type: mcq
     deck: France::Southern France
@@ -1265,15 +1904,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Where does Minervois sit relative to Corbières?
+      question: "Where is the Minervois AOC located?"
       choices:
-        - { text: "On the Mediterranean beach only", correct: false }
-        - { text: "North of Corbières", correct: true }
-        - { text: "Inside Lyon’s walls", correct: false }
-        - { text: "West of Bordeaux", correct: false }
+        - { text: "Between Narbonne and Carcassonne, from the Montagne Noire foothills toward the Canal du Midi", correct: true }
+        - { text: "Between Montpellier and Nîmes, from the Cévennes foothills toward the Mediterranean", correct: false }
+        - { text: "Between Toulon and Nice, from the Alpine foothills toward the Mediterranean", correct: false }
+        - { text: "Between Perpignan and Spain, from the Pyrenees foothills toward the coast", correct: false }
       explanation: |
-        **North of Corbières**, on the Massif Central side of the Aude.
-
+        Minervois forms a broad south-facing amphitheatre mainly in the Aude, with part in the Hérault. It
+        lies north of much of Corbières.
+    fr:
+      question: "Où se situe l’AOC Minervois ?"
+      choices:
+        - { text: "Entre Narbonne et Carcassonne, des contreforts de la Montagne Noire vers le canal du Midi", correct: true }
+        - { text: "Entre Montpellier et Nîmes, des contreforts des Cévennes vers la Méditerranée", correct: false }
+        - { text: "Entre Toulon et Nice, des contreforts alpins vers la Méditerranée", correct: false }
+        - { text: "Entre Perpignan et l’Espagne, des contreforts pyrénéens vers le littoral", correct: false }
+      explanation: |
+        Le Minervois forme un vaste amphithéâtre exposé au sud, principalement dans l’Aude et en partie dans
+        l’Hérault. Il se situe au nord d’une grande partie des Corbières.
   - id: sfrance-minervois-slopes-001
     type: mcq
     deck: France::Southern France
@@ -1284,16 +1933,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: On which slopes is Minervois planted?
+      question: "Which geographical feature most strongly defines the northern side of Minervois?"
       choices:
-        - { text: "Only on a flat Mediterranean lagoon", correct: false }
-        - { text: "The slopes of the Massif Central", correct: true }
-        - { text: "Above the snow line only", correct: false }
-        - { text: "In Champagne chalk only", correct: false }
+        - { text: "The south-facing foothills of the Montagne Noire", correct: true }
+        - { text: "The sea cliffs around Cap Canaille", correct: false }
+        - { text: "The granite terraces of the northern Rhône", correct: false }
+        - { text: "The sand dunes of the Camargue", correct: false }
       explanation: |
-        **Massif Central slopes.** Height, soil and a little Atlantic
-        air split the best sites from the rest.
-
+        The appellation rises northward onto the Montagne Noire foothills. Altitude and cool night air can
+        moderate the Mediterranean climate, while Atlantic influence increases toward the west.
+    fr:
+      question: "Quel élément géographique définit le plus fortement la partie nord du Minervois ?"
+      choices:
+        - { text: "Les contreforts méridionaux de la Montagne Noire", correct: true }
+        - { text: "Les falaises maritimes autour du cap Canaille", correct: false }
+        - { text: "Les terrasses granitiques du Rhône septentrional", correct: false }
+        - { text: "Les dunes de sable de Camargue", correct: false }
+      explanation: |
+        L’appellation s’élève au nord sur les contreforts de la Montagne Noire. L’altitude et l’air frais
+        nocturne peuvent modérer le climat méditerranéen, tandis que l’influence atlantique augmente vers
+        l’ouest.
   - id: sfrance-minervois-sub-001
     type: mcq
     deck: France::Southern France
@@ -1304,16 +1963,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Like Corbières, how is Minervois organised on the map?
+      question: "How should Minervois-La Livinière be understood in relation to Minervois?"
       choices:
-        - { text: "One undivided plateau", correct: false }
-        - { text: "It is subdivided", correct: true }
-        - { text: "Village climats, as in Burgundy", correct: false }
-        - { text: "No smaller names exist", correct: false }
+        - { text: "A smaller, separately recognised red-wine AOC within the broader territory", correct: true }
+        - { text: "A complementary name for white wines from the eastern part of the territory", correct: false }
+        - { text: "An informal village name used for rosé wines from the central plain", correct: false }
+        - { text: "An IGP subzone for varietal wines from the western part of the territory", correct: false }
       explanation: |
-        **It is subdivided.** **La Livinière** is the named step that
-        became its own AOC.
-
+        Minervois-La Livinière has its own specification and a delimited six-commune area in the foothills
+        of the Montagne Noire. It is reserved for red wines with stricter ageing requirements.
+    fr:
+      question: "Comment faut-il comprendre Minervois-La Livinière par rapport au Minervois ?"
+      choices:
+        - { text: "Une AOC rouge distincte et plus petite située dans le territoire général", correct: true }
+        - { text: "Une dénomination complémentaire pour les blancs de la partie orientale", correct: false }
+        - { text: "Un nom de village informel pour les rosés de la plaine centrale", correct: false }
+        - { text: "Une sous-zone d’IGP pour les vins variétaux de la partie occidentale", correct: false }
+      explanation: |
+        Minervois-La Livinière possède son propre cahier des charges et une aire délimitée de six communes
+        au pied de la Montagne Noire. Elle est réservée aux vins rouges avec des exigences d’élevage plus
+        strictes.
   - id: sfrance-liviniere-001
     type: mcq
     deck: France::Southern France
@@ -1324,16 +1993,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which Minervois terroir is singled out as the best, with its own AOC?
+      question: "Which profile and rule are characteristic of Minervois-La Livinière?"
       choices:
-        - { text: "Boutenac", correct: false }
-        - { text: "La Livinière", correct: true }
-        - { text: "Tavel", correct: false }
-        - { text: "Cornas", correct: false }
+        - { text: "Concentrated, age-worthy red wines matured for at least 15 months", correct: true }
+        - { text: "Fresh coastal white wines made only from Piquepoul Blanc", correct: false }
+        - { text: "Pale rosé wines released in the spring after harvest", correct: false }
+        - { text: "Sweet fortified Muscat wines with pronounced grape aromas", correct: false }
       explanation: |
-        **La Livinière** — Minervois-La Livinière. Boutenac is the
-        Corbières equivalent.
-
+        The appellation produces only red wine, principally from Grenache, Syrah and Mourvèdre. Cool
+        summer-night air descending from the causse helps balance ripeness, and the wine must be matured for
+        at least 15 months.
+    fr:
+      question: "Quel profil et quelle règle caractérisent Minervois-La Livinière ?"
+      choices:
+        - { text: "Des rouges concentrés et aptes à la garde, élevés au moins 15 mois", correct: true }
+        - { text: "Des blancs littoraux frais issus uniquement du Piquepoul Blanc", correct: false }
+        - { text: "Des rosés pâles commercialisés au printemps suivant la vendange", correct: false }
+        - { text: "Des Muscats doux fortifiés aux arômes prononcés de raisin", correct: false }
+      explanation: |
+        L’appellation ne produit que du rouge, principalement à partir de Grenache, Syrah et Mourvèdre.
+        L’air frais des nuits d’été descendant du causse équilibre la maturité, et le vin doit être élevé au
+        moins 15 mois.
   - id: sfrance-picpoul-coast-001
     type: mcq
     deck: France::Southern France
@@ -1344,16 +2024,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Why does Picpoul de Pinet keep its acidity on a warm coast?
+      question: "Which local influence helps Piquepoul Blanc retain freshness around the Étang de Thau?"
       choices:
-        - { text: "High alpine nights only", correct: false }
-        - { text: "Cooling sea breezes", correct: true }
-        - { text: "A legal ban on ripe grapes", correct: false }
-        - { text: "It is picked in January", correct: false }
+        - { text: "Marine influence and sea breezes", correct: true }
+        - { text: "Warm downslope winds from the Massif Central", correct: false }
+        - { text: "High-altitude nights above 500 metres", correct: false }
+        - { text: "Persistent fog from the Atlantic Ocean", correct: false }
       explanation: |
-        **Cooling sea breezes** off the Thau lagoon. That is why
-        Picpoul stays crisp this far south.
-
+        The low vineyards are close to the lagoon and Mediterranean. Humid maritime influence and moderated
+        temperature swings aid the long-ripening Piquepoul Blanc, while the variety itself naturally retains
+        acidity.
+    fr:
+      question: "Quelle influence locale aide le Piquepoul Blanc à conserver sa fraîcheur autour de l’étang de Thau ?"
+      choices:
+        - { text: "L’influence marine et les brises de mer", correct: true }
+        - { text: "Des vents descendants chauds venus du Massif central", correct: false }
+        - { text: "Des nuits de haute altitude au-dessus de 500 mètres", correct: false }
+        - { text: "Un brouillard persistant venu de l’océan Atlantique", correct: false }
+      explanation: |
+        Les vignobles de faible altitude sont proches de la lagune et de la Méditerranée. L’influence
+        maritime humide et les amplitudes thermiques modérées favorisent le Piquepoul Blanc tardif, tandis
+        que le cépage conserve naturellement son acidité.
   - id: sfrance-limoux-chard-001
     type: mcq
     deck: France::Southern France
@@ -1364,16 +2055,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What still white is Limoux known for?
+      question: "What distinguishes still white Limoux AOC from many other warm-climate Chardonnay wines?"
       choices:
-        - { text: "Picpoul on the beach, no oak", correct: false }
-        - { text: "Premium oaked Chardonnay", correct: true }
-        - { text: "Only sweet Muscat", correct: false }
-        - { text: "100% Syrah red", correct: false }
+        - { text: "Chardonnay-dominant blends must be fermented and matured in barrel", correct: true }
+        - { text: "The wines must be sweetened and fortified during fermentation", correct: false }
+        - { text: "Mauzac is prohibited from every style of Limoux wine", correct: false }
+        - { text: "The wines must undergo a second fermentation in bottle", correct: false }
       explanation: |
-        **Premium oaked Chardonnay.** Altitude keeps it from baking.
-        Blanquette is the sparkling story.
-
+        Limoux’s higher, climatically transitional sites help preserve freshness. For still Limoux blanc,
+        Chardonnay is dominant and the wine must be vinified and matured in barrel, producing a full,
+        complex style.
+    fr:
+      question: "Qu’est-ce qui distingue le Limoux blanc tranquille de nombreux autres Chardonnays de climat chaud ?"
+      choices:
+        - { text: "Les assemblages dominés par le Chardonnay doivent être vinifiés et élevés en barrique", correct: true }
+        - { text: "Les vins doivent être mutés pendant la fermentation", correct: false }
+        - { text: "Le Mauzac est interdit dans tous les styles de Limoux", correct: false }
+        - { text: "Les vins doivent subir une seconde fermentation en bouteille", correct: false }
+      explanation: |
+        Les sites plus élevés de Limoux, dans une zone de transition climatique, aident à préserver la
+        fraîcheur. Pour le Limoux blanc tranquille, le Chardonnay domine et le vin doit être vinifié puis
+        élevé en barrique, ce qui donne un style ample et complexe.
   - id: sfrance-igp-volume-001
     type: mcq
     deck: France::Southern France
@@ -1384,16 +2086,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which French region makes more IGP wine than any other?
+      question: "Why is Languedoc-Roussillon central to French IGP wine production?"
       choices:
-        - { text: "Champagne", correct: false }
-        - { text: "Languedoc", correct: true }
-        - { text: "Côte-Rôtie", correct: false }
-        - { text: "Muscadet", correct: false }
+        - { text: "Its very large vineyard area supplies high volumes under flexible regional IGP rules", correct: true }
+        - { text: "Its small vineyard area is reserved almost entirely for fortified wine", correct: false }
+        - { text: "Its IGP rules permit only low-yielding hillside vineyards", correct: false }
+        - { text: "Its wines cannot qualify for any AOC", correct: false }
       explanation: |
-        **Languedoc.** Pays d’Oc volume is what keeps a lot of those
-        hectares planted.
-
+        The region combines a vast planted area, a warm reliable climate and major IGP categories such as
+        Pays d’Oc. This supports large volumes while allowing wines to be marketed by grape variety.
+    fr:
+      question: "Pourquoi le Languedoc-Roussillon occupe-t-il une place centrale dans la production française de vins d’IGP ?"
+      choices:
+        - { text: "Sa très vaste surface viticole fournit de grands volumes sous des règles régionales d’IGP flexibles", correct: true }
+        - { text: "Sa petite surface viticole est presque entièrement réservée aux vins fortifiés", correct: false }
+        - { text: "Ses règles d’IGP n’autorisent que des vignobles de coteau à faible rendement", correct: false }
+        - { text: "Ses vins ne peuvent prétendre à aucune AOC", correct: false }
+      explanation: |
+        La région associe une immense surface plantée, un climat chaud et fiable, et de grandes catégories
+        d’IGP comme le Pays d’Oc. Cela permet de produire d’importants volumes tout en commercialisant les
+        vins par cépage.
   - id: sfrance-igp-survival-001
     type: mcq
     deck: France::Southern France
@@ -1404,16 +2116,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Why does IGP matter so much to Southern France growers?
+      question: "What is the principal economic role of IGP wine in Southern France?"
       choices:
-        - { text: "AOC fruit cannot be sold at all", correct: false }
-        - { text: "It is vital to the survival of grape growing there", correct: true }
-        - { text: "IGP is banned south of Lyon", correct: false }
-        - { text: "Only sparkling IGP is legal", correct: false }
+        - { text: "It provides a flexible, high-volume outlet for grapes and commercially recognisable wines", correct: true }
+        - { text: "It replaces every AOC for wines from old hillside vines", correct: false }
+        - { text: "It is used only for wines that fail basic quality controls", correct: false }
+        - { text: "It restricts producers to traditional blends and low yields", correct: false }
       explanation: |
-        **Vital to grape-growing survival.** AOC rules are tighter;
-        IGP is the volume outlet.
-
+        IGP rules generally allow more varieties, higher yields and clearer varietal labelling than AOC
+        rules. This flexibility lets growers serve broad markets while retaining a protected geographical
+        identity.
+    fr:
+      question: "Quel est le principal rôle économique des vins d’IGP dans le sud de la France ?"
+      choices:
+        - { text: "Offrir un débouché souple et important en volume pour les raisins et des vins facilement commercialisables", correct: true }
+        - { text: "Remplacer toutes les AOC pour les vins issus de vieilles vignes de coteau", correct: false }
+        - { text: "Servir uniquement aux vins qui échouent aux contrôles de qualité élémentaires", correct: false }
+        - { text: "Limiter les producteurs aux assemblages traditionnels et aux faibles rendements", correct: false }
+      explanation: |
+        Les règles des IGP autorisent généralement davantage de cépages, des rendements plus élevés et un
+        étiquetage variétal plus clair que celles des AOC. Cette souplesse permet aux producteurs de servir
+        de vastes marchés tout en conservant une identité géographique protégée.
   - id: sfrance-pays-doc-001
     type: mcq
     deck: France::Southern France
@@ -1424,16 +2147,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which IGP name covers most Southern France IGP wine?
+      question: "Which IGP covers the five départements of the former Languedoc-Roussillon region and is strongly associated with varietal wines?"
       choices:
-        - { text: "IGP Val de Loire", correct: false }
         - { text: "Pays d’Oc", correct: true }
-        - { text: "IGP Côtes Catalanes only", correct: false }
-        - { text: "Vin de France only", correct: false }
+        - { text: "Méditerranée", correct: false }
+        - { text: "Côtes Catalanes", correct: false }
+        - { text: "Terres du Midi", correct: false }
       explanation: |
-        **Pays d’Oc.** It sits beside the AOCs; it does not replace
-        them.
-
+        Pays d’Oc is the dominant regional IGP across the former Languedoc-Roussillon. It encompasses a wide
+        range of varieties and styles, from high-volume brands to more ambitious wines.
+    fr:
+      question: "Quelle IGP couvre les cinq départements de l’ancienne région Languedoc-Roussillon et est fortement associée aux vins variétaux ?"
+      choices:
+        - { text: "Pays d’Oc", correct: true }
+        - { text: "Méditerranée", correct: false }
+        - { text: "Côtes Catalanes", correct: false }
+        - { text: "Terres du Midi", correct: false }
+      explanation: |
+        Le Pays d’Oc est l’IGP régionale dominante de l’ancien Languedoc-Roussillon. Elle englobe une vaste
+        gamme de cépages et de styles, des marques de grand volume aux vins plus ambitieux.
   - id: sfrance-pays-doc-why-001
     type: mcq
     deck: France::Southern France
@@ -1444,16 +2176,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Why has Pays d’Oc been easy to sell in volume?
+      question: "Which feature has made Pays d’Oc particularly effective in international markets?"
       choices:
-        - { text: "Tighter grape lists than any AOC", correct: false }
-        - { text: "A wider grape list, varietal labels, and an easy ripe climate", correct: true }
-        - { text: "A legal ban on any sunshine", correct: false }
-        - { text: "Only one grape is allowed", correct: false }
+        - { text: "A broad grape list and widespread single-variety labelling", correct: true }
+        - { text: "A requirement to blend at least four traditional varieties", correct: false }
+        - { text: "A ban on naming the grape variety on the label", correct: false }
+        - { text: "A rule limiting production to sweet fortified wine", correct: false }
       explanation: |
-        **Wider grape list, varietal labels, easy ripe volume.** That
-        is the supermarket Southern France story.
-
+        Pays d’Oc permits many familiar international and Mediterranean grapes. More than 90% of current
+        production is reported as single-variety wine, giving consumers an accessible grape name alongside
+        the regional origin.
+    fr:
+      question: "Quelle caractéristique a rendu le Pays d’Oc particulièrement efficace sur les marchés internationaux ?"
+      choices:
+        - { text: "Une large liste de cépages et un étiquetage monocépage très répandu", correct: true }
+        - { text: "L’obligation d’assembler au moins quatre cépages traditionnels", correct: false }
+        - { text: "L’interdiction de mentionner le cépage sur l’étiquette", correct: false }
+        - { text: "Une règle limitant la production aux vins doux fortifiés", correct: false }
+      explanation: |
+        Le Pays d’Oc autorise de nombreux cépages méditerranéens et internationaux bien connus. Plus de 90 %
+        de la production actuelle serait monocépage, offrant au consommateur un nom de cépage accessible
+        associé à l’origine régionale.
   - id: sfrance-provence-hills-001
     type: mcq
     deck: France::Southern France
@@ -1464,16 +2207,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: How is the Provence landscape shaped?
+      question: "What most strongly explains Provence's patchwork of vineyard mesoclimates?"
       choices:
-        - { text: "One flat coastal sheet, like the Camargue only", correct: false }
-        - { text: "Very varied, broken up by many ranges of hills", correct: true }
-        - { text: "A high alpine ice field", correct: false }
-        - { text: "A cliffed fjord", correct: false }
+        - { text: "Broken ranges with varied aspects", correct: true }
+        - { text: "A uniformly flat coastal plain", correct: false }
+        - { text: "A single high-altitude plateau", correct: false }
+        - { text: "One continuous river valley", correct: false }
       explanation: |
-        **Broken hill ranges.** That mix of aspect and shelter is the
-        vineyard map.
-
+        Ranges such as Sainte-Baume, Sainte-Victoire and the Maures break up the region, changing exposure, altitude, soils and wind protection.
+    fr:
+      question: "Qu’est-ce qui explique surtout la mosaïque de mésoclimats viticoles en Provence ?"
+      choices:
+        - { text: "Des massifs morcelés aux expositions variées", correct: true }
+        - { text: "Une plaine littorale parfaitement uniforme", correct: false }
+        - { text: "Un unique plateau de haute altitude", correct: false }
+        - { text: "Une seule vallée fluviale continue", correct: false }
+      explanation: |
+        Des massifs comme la Sainte-Baume, la Sainte-Victoire ou les Maures morcellent la région et font varier exposition, altitude, sols et protection contre les vents.
   - id: sfrance-provence-where-001
     type: mcq
     deck: France::Southern France
@@ -1484,16 +2234,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Where does Provence sit on the Southern France coast?
+      question: "Where is the Provence wine region located?"
       choices:
-        - { text: "West of Bordeaux", correct: false }
-        - { text: "Just east of Pays d’Oc, on the Mediterranean", correct: true }
-        - { text: "On the Loire estuary", correct: false }
-        - { text: "Inside Champagne", correct: false }
+        - { text: "On the Mediterranean coast of south-eastern France", correct: true }
+        - { text: "Along the Atlantic coast south of Bordeaux", correct: false }
+        - { text: "Around the Loire estuary", correct: false }
+        - { text: "On the western side of the Pyrenees", correct: false }
       explanation: |
-        **East of Pays d’Oc, on the coast.** From the Rhône mouth
-        toward Nice.
-
+        The vineyards extend eastward from the lower Rhône toward Nice, with important areas around Aix, Marseille and the Var.
+    fr:
+      question: "Où se situe la région viticole de Provence ?"
+      choices:
+        - { text: "Sur le littoral méditerranéen du sud-est de la France", correct: true }
+        - { text: "Sur la côte atlantique au sud de Bordeaux", correct: false }
+        - { text: "Autour de l’estuaire de la Loire", correct: false }
+        - { text: "Sur le versant occidental des Pyrénées", correct: false }
+      explanation: |
+        Le vignoble s’étend depuis le bas Rhône vers Nice, avec des zones importantes autour d’Aix, Marseille et dans le Var.
   - id: sfrance-provence-shelter-001
     type: mcq
     deck: France::Southern France
@@ -1504,16 +2261,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: How do Provence’s hill ranges change the vineyard climate?
+      question: "How do Provence's hills influence vineyard conditions?"
       choices:
-        - { text: "They funnel more frost onto every row", correct: false }
-        - { text: "They shelter vines from the mistral and create a mix of local climates", correct: true }
-        - { text: "They ban any red grape", correct: false }
-        - { text: "They force irrigation", correct: false }
+        - { text: "They create sheltered sites and varied local climates", correct: true }
+        - { text: "They make every vineyard equally exposed to the mistral", correct: false }
+        - { text: "They prevent maritime influence throughout the region", correct: false }
+        - { text: "They keep all vineyards cool and humid", correct: false }
       explanation: |
-        **Mistral shelter plus mixed soils and climates.** Bandol’s
-        amphitheatre is the loud version.
-
+        Topography can shelter some sites from strong northerly winds while exposing others, producing substantial local variation within a Mediterranean climate.
+    fr:
+      question: "Comment les reliefs provençaux influencent-ils les conditions viticoles ?"
+      choices:
+        - { text: "Ils créent des sites abrités et des climats locaux variés", correct: true }
+        - { text: "Ils exposent tous les vignobles de façon identique au mistral", correct: false }
+        - { text: "Ils suppriment partout l’influence maritime", correct: false }
+        - { text: "Ils maintiennent tous les vignobles frais et humides", correct: false }
+      explanation: |
+        La topographie peut protéger certains sites des forts vents du nord tout en en exposant d’autres, créant d’importantes variations locales dans un climat méditerranéen.
   - id: sfrance-provence-rose-share-001
     type: mcq
     deck: France::Southern France
@@ -1524,15 +2288,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which colour fills most Provence bottles?
+      question: "Which wine colour dominates Provence production?"
       choices:
-        - { text: "Red only", correct: false }
         - { text: "Rosé", correct: true }
-        - { text: "Sweet white only", correct: false }
-        - { text: "Sparkling Chenin", correct: false }
+        - { text: "Red", correct: false }
+        - { text: "White", correct: false }
+        - { text: "Sparkling", correct: false }
       explanation: |
-        **Rosé.** Red and white exist; they are the minority.
-
+        Rosé accounts for the great majority of regional production, although red and white wines are important in specific appellations such as Bandol and Cassis.
+    fr:
+      question: "Quelle couleur domine la production viticole de Provence ?"
+      choices:
+        - { text: "Le rosé", correct: true }
+        - { text: "Le rouge", correct: false }
+        - { text: "Le blanc", correct: false }
+        - { text: "L’effervescent", correct: false }
+      explanation: |
+        Le rosé représente la grande majorité de la production régionale, même si les rouges et les blancs sont importants dans certaines appellations comme Bandol et Cassis.
   - id: sfrance-provence-rose-style-001
     type: mcq
     deck: France::Southern France
@@ -1543,16 +2315,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What is typical Provence rosé like?
+      question: "Which profile best describes a typical Provence rosé?"
       choices:
-        - { text: "Dark, tannic, and built like Bandol rouge", correct: false }
-        - { text: "Pale, light-bodied, dry, with delicate grapefruit and red fruit", correct: true }
-        - { text: "Always a sweet VDN", correct: false }
-        - { text: "Full, like Tavel, and always oaked", correct: false }
+        - { text: "Pale, dry and fresh, with delicate fruit", correct: true }
+        - { text: "Deeply coloured, sweet and tannic", correct: false }
+        - { text: "Full-bodied, oxidative and nutty", correct: false }
+        - { text: "High in tannin with long new-oak ageing", correct: false }
       explanation: |
-        **Pale, light, dry, grapefruit and red fruit.** Not Tavel, not
-        a red leftover.
-
+        Direct pressing or brief skin contact gives pale colour; cool fermentation preserves citrus, white-fruit, red-fruit and floral aromas.
+    fr:
+      question: "Quel profil décrit le mieux un rosé provençal typique ?"
+      choices:
+        - { text: "Pâle, sec et frais, avec un fruit délicat", correct: true }
+        - { text: "Très coloré, doux et tannique", correct: false }
+        - { text: "Corsé, oxydatif et marqué par la noix", correct: false }
+        - { text: "Très tannique avec un long élevage en bois neuf", correct: false }
+      explanation: |
+        Le pressurage direct ou une brève macération donne une couleur pâle ; la fermentation fraîche préserve les notes d’agrumes, de fruits blancs, de fruits rouges et de fleurs.
   - id: sfrance-provence-red-001
     type: mcq
     deck: France::Southern France
@@ -1563,16 +2342,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What range do Provence reds cover?
+      question: "Which range of red-wine styles is found in Provence?"
       choices:
-        - { text: "Only sweet white", correct: false }
-        - { text: "From fresh and fruity to fuller, barrel-matured styles", correct: true }
-        - { text: "Icewine only", correct: false }
-        - { text: "100% Pinot Noir, like Burgundy", correct: false }
+        - { text: "From fresh-fruited and approachable to structured and oak-matured", correct: true }
+        - { text: "From pale and floral to sweet and deliberately botrytised", correct: false }
+        - { text: "From high-acid and unoaked to sparkling and lees-aged", correct: false }
+        - { text: "From lightly fortified and grapey to oxidative and nutty", correct: false }
       explanation: |
-        **Fresh-fruity to full and barrel-aged.** Bandol is the full
-        end; everyday Côtes de Provence red is the light one.
-
+        Broad regional appellations can give accessible reds, while Bandol and Palette can produce structured wines requiring maturation.
+    fr:
+      question: "Quelle gamme de styles de vins rouges trouve-t-on en Provence ?"
+      choices:
+        - { text: "Des rouges fruités et accessibles jusqu’aux vins structurés élevés en bois", correct: true }
+        - { text: "Des rouges pâles et floraux jusqu’aux vins doux volontairement botrytisés", correct: false }
+        - { text: "Des rouges très acides sans bois jusqu’aux effervescents élevés sur lies", correct: false }
+        - { text: "Des rouges légèrement fortifiés et muscatés jusqu’aux vins oxydatifs et noisetés", correct: false }
+      explanation: |
+        Les appellations régionales peuvent donner des rouges accessibles, tandis que Bandol et Palette produisent des vins structurés nécessitant un élevage.
   - id: sfrance-provence-white-001
     type: mcq
     deck: France::Southern France
@@ -1583,16 +2369,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which two grapes give the best Provence whites their aroma?
+      question: "Which two white grapes are especially important in quality Provence whites?"
       choices:
-        - { text: "Riesling and Pinot Gris", correct: false }
         - { text: "Rolle and Clairette", correct: true }
-        - { text: "Melon and Chenin", correct: false }
-        - { text: "Only Sauvignon Blanc", correct: false }
+        - { text: "Riesling and Gewurztraminer", correct: false }
+        - { text: "Chenin Blanc and Melon", correct: false }
+        - { text: "Sauvignon Blanc and Muscadelle", correct: false }
       explanation: |
-        **Rolle and Clairette.** Rolle is Vermentino; the aromatics
-        are the point.
-
+        Rolle is the local name for Vermentino and brings aromatic fruit; Clairette is important in several appellations, including Palette and Bandol.
+    fr:
+      question: "Quels deux cépages blancs sont particulièrement importants dans les blancs provençaux de qualité ?"
+      choices:
+        - { text: "Rolle et Clairette", correct: true }
+        - { text: "Riesling et Gewurztraminer", correct: false }
+        - { text: "Chenin Blanc et Melon", correct: false }
+        - { text: "Sauvignon Blanc et Muscadelle", correct: false }
+      explanation: |
+        Rolle est le nom local du Vermentino et apporte un fruit aromatique ; Clairette joue un rôle important dans plusieurs appellations, notamment Palette et Bandol.
   - id: sfrance-cdp-largest-001
     type: mcq
     deck: France::Southern France
@@ -1603,16 +2396,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which Provence name covers the most vineyard?
+      question: "Which is the largest Provence AOC by vineyard area?"
       choices:
-        - { text: "Bandol", correct: false }
         - { text: "Côtes de Provence", correct: true }
-        - { text: "Cassis", correct: false }
-        - { text: "Palette", correct: false }
+        - { text: "Coteaux d’Aix-en-Provence", correct: false }
+        - { text: "Coteaux Varois en Provence", correct: false }
+        - { text: "Les Baux de Provence", correct: false }
       explanation: |
-        **Côtes de Provence.** Bandol, Cassis and Palette are smaller
-        named AOCs, not sub-labels of that wrapper.
-
+        Côtes de Provence is much larger than the small local AOCs and extends mainly across the Var, with several named terroir designations.
+    fr:
+      question: "Quelle est la plus grande AOC de Provence par sa superficie viticole ?"
+      choices:
+        - { text: "Côtes de Provence", correct: true }
+        - { text: "Coteaux d’Aix-en-Provence", correct: false }
+        - { text: "Coteaux Varois en Provence", correct: false }
+        - { text: "Les Baux de Provence", correct: false }
+      explanation: |
+        Côtes de Provence est beaucoup plus étendue que les petites AOC locales et couvre surtout le Var, avec plusieurs dénominations de terroir.
   - id: sfrance-cdp-rose-001
     type: mcq
     deck: France::Southern France
@@ -1623,15 +2423,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which colour fills most Côtes de Provence tanks?
+      question: "Approximately what share of Côtes de Provence production is rosé?"
       choices:
-        - { text: "Red only", correct: false }
-        - { text: "Rosé", correct: true }
-        - { text: "Sweet Muscat only", correct: false }
-        - { text: "Sparkling only", correct: false }
+        - { text: "About 90%", correct: true }
+        - { text: "About 60%", correct: false }
+        - { text: "About 30%", correct: false }
+        - { text: "Less than 10%", correct: false }
       explanation: |
-        **Rosé.** That is the pale-pink supermarket bottle.
-
+        Côtes de Provence also makes red and white wine, but pale rosé overwhelmingly dominates current production.
+    fr:
+      question: "Quelle part approximative de la production de Côtes de Provence est constituée de rosé ?"
+      choices:
+        - { text: "Environ 90 %", correct: true }
+        - { text: "Environ 60 %", correct: false }
+        - { text: "Environ 30 %", correct: false }
+        - { text: "Moins de 10 %", correct: false }
+      explanation: |
+        Côtes de Provence produit aussi des rouges et des blancs, mais le rosé pâle domine très largement la production actuelle.
   - id: sfrance-provence-crus-001
     type: mcq
     deck: France::Southern France
@@ -1642,17 +2450,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: How do Bandol, Cassis and Palette sit relative to Côtes de Provence?
+      question: "How are Bandol, Cassis and Palette classified relative to Côtes de Provence?"
       choices:
-        - { text: "They are three official sub-zones of Côtes de Provence", correct: false }
         - { text: "They are separate AOCs", correct: true }
-        - { text: "They are only IGP names", correct: false }
-        - { text: "They are in Languedoc", correct: false }
+        - { text: "They are named terroirs within Côtes de Provence", correct: false }
+        - { text: "They are IGP subzones", correct: false }
+        - { text: "They are village names within Bandol", correct: false }
       explanation: |
-        **Separate AOCs.** Côtes de Provence has its own named
-        terroirs (Sainte-Victoire, Fréjus, La Londe). Bandol and Cassis
-        are coastal; Palette sits inland near Aix.
-
+        Côtes de Provence has its own named terroir designations, including Sainte-Victoire, Fréjus and La Londe. Bandol, Cassis and Palette have independent specifications.
+    fr:
+      question: "Comment Bandol, Cassis et Palette sont-ils classés par rapport à Côtes de Provence ?"
+      choices:
+        - { text: "Ce sont des AOC distinctes", correct: true }
+        - { text: "Ce sont des dénominations de terroir de Côtes de Provence", correct: false }
+        - { text: "Ce sont des sous-zones d’IGP", correct: false }
+        - { text: "Ce sont des villages de l’AOC Bandol", correct: false }
+      explanation: |
+        Côtes de Provence possède ses propres dénominations de terroir, dont Sainte-Victoire, Fréjus et La Londe. Bandol, Cassis et Palette ont leurs propres cahiers des charges.
   - id: sfrance-bandol-rank-001
     type: mcq
     deck: France::Southern France
@@ -1663,15 +2477,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which small coastal Provence AOC is the most important for serious red?
+      question: "Which Provence AOC is most closely associated with age-worthy Mourvèdre-based red wine?"
       choices:
-        - { text: "Cassis", correct: false }
         - { text: "Bandol", correct: true }
-        - { text: "Muscadet", correct: false }
-        - { text: "Tavel", correct: false }
+        - { text: "Cassis", correct: false }
+        - { text: "Coteaux d’Aix-en-Provence", correct: false }
+        - { text: "Côtes de Provence", correct: false }
       explanation: |
-        **Bandol.** Cassis is better known for white; Palette is tiny.
-
+        Bandol's warm, sheltered terraces allow late-ripening Mourvèdre to reach the concentration needed for powerful, long-lived reds.
+    fr:
+      question: "Quelle AOC de Provence est la plus étroitement associée aux rouges de Mourvèdre aptes à la garde ?"
+      choices:
+        - { text: "Bandol", correct: true }
+        - { text: "Cassis", correct: false }
+        - { text: "Coteaux d’Aix-en-Provence", correct: false }
+        - { text: "Côtes de Provence", correct: false }
+      explanation: |
+        Les terrasses chaudes et abritées de Bandol permettent au Mourvèdre tardif d’atteindre la concentration nécessaire à des rouges puissants et de longue garde.
   - id: sfrance-bandol-where-001
     type: mcq
     deck: France::Southern France
@@ -1682,15 +2504,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Where is Bandol on the Provence coast?
+      question: "Where is the Bandol AOC located?"
       choices:
-        - { text: "West of Perpignan", correct: false }
-        - { text: "Just east of Marseille", correct: true }
-        - { text: "On the Loire estuary", correct: false }
-        - { text: "Above Lyon", correct: false }
+        - { text: "On the Mediterranean coast east of Marseille", correct: true }
+        - { text: "Inland north of Avignon", correct: false }
+        - { text: "On the coast west of Montpellier", correct: false }
+        - { text: "In the foothills north of Nice", correct: false }
       explanation: |
-        **Just east of Marseille**, around the bay of Bandol.
-
+        The vineyards form a coastal amphitheatre around Bandol in the Var, between the Sainte-Baume massif and the Mediterranean.
+    fr:
+      question: "Où se situe l’AOC Bandol ?"
+      choices:
+        - { text: "Sur le littoral méditerranéen à l’est de Marseille", correct: true }
+        - { text: "À l’intérieur des terres au nord d’Avignon", correct: false }
+        - { text: "Sur la côte à l’ouest de Montpellier", correct: false }
+        - { text: "Dans les contreforts au nord de Nice", correct: false }
+      explanation: |
+        Le vignoble forme un amphithéâtre côtier autour de Bandol, dans le Var, entre le massif de la Sainte-Baume et la Méditerranée.
   - id: sfrance-bandol-style-001
     type: mcq
     deck: France::Southern France
@@ -1701,14 +2531,290 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What are Bandol’s serious reds usually like?
+      question: "Which structural profile is typical of a high-quality Bandol red?"
       choices:
-        - { text: "Pale, light, and drunk as a spritz", correct: false }
-        - { text: "Mourvèdre-based, dark, full, powerfully tannic, needing bottle age, with bramble, meat and liquorice spice", correct: true }
-        - { text: "100% Pinot Noir", correct: false }
-        - { text: "Always a sweet white", correct: false }
+        - { text: "Full-bodied and tannic, with Mourvèdre leading the blend", correct: true }
+        - { text: "Medium-bodied and soft, with Cinsault leading the blend", correct: false }
+        - { text: "Light-bodied and high in acidity, with Pinot Noir leading the blend", correct: false }
+        - { text: "Full-bodied and low in tannin, with Grenache Blanc leading the blend", correct: false }
       explanation: |
-        **Mourvèdre, dark, full, tannic, needs age — bramble, meat,
-        liquorice.** South-facing terraces let Mourvèdre finish.
-        **Tempier** is the named house.
+        Mourvèdre provides colour, tannin and dark-fruit intensity; bottle age can develop leather, game, undergrowth and truffle complexity.
+    fr:
+      question: "Quel profil structurel est typique d’un Bandol rouge de qualité ?"
+      choices:
+        - { text: "Corsé et tannique, avec le Mourvèdre dominant l’assemblage", correct: true }
+        - { text: "Moyennement corsé et souple, avec le Cinsault dominant l’assemblage", correct: false }
+        - { text: "Léger et très acide, avec le Pinot Noir dominant l’assemblage", correct: false }
+        - { text: "Corsé et peu tannique, avec le Grenache Blanc dominant l’assemblage", correct: false }
+      explanation: |
+        Le Mourvèdre apporte couleur, tanins et intensité de fruits noirs ; la garde peut développer des notes de cuir, de gibier, de sous-bois et de truffe.
 
+  - id: sfrance-marseille-aocs-001
+    type: mcq
+    deck: France::Southern France
+    tags: [france, southern-france, provence, marseille]
+    status: reviewed
+    review:
+      fact_check: pass
+      sources: [inao]
+    en:
+      question: "Which AOCs match these locations: beside Marseille, beside Aix, and farther east on the Var coast?"
+      choices:
+        - { text: "Cassis, Palette, Bandol", correct: true }
+        - { text: "Palette, Cassis, Bandol", correct: false }
+        - { text: "Bandol, Palette, Cassis", correct: false }
+        - { text: "Cassis, Bandol, Palette", correct: false }
+      explanation: |
+        Cassis lies immediately east of Marseille, Bandol farther east on the Var coast, and Palette beside Aix-en-Provence.
+    fr:
+      question: "Quelles AOC correspondent à ces emplacements : près de Marseille, près d’Aix, puis plus à l’est sur la côte varoise ?"
+      choices:
+        - { text: "Cassis, Palette, Bandol", correct: true }
+        - { text: "Palette, Cassis, Bandol", correct: false }
+        - { text: "Bandol, Palette, Cassis", correct: false }
+        - { text: "Cassis, Bandol, Palette", correct: false }
+      explanation: |
+        Cassis se trouve immédiatement à l’est de Marseille, Bandol plus loin sur la côte varoise et Palette aux portes d’Aix-en-Provence.
+
+  - id: sfrance-cassis-where-001
+    type: mcq
+    deck: France::Southern France
+    tags: [france, southern-france, provence, cassis]
+    status: reviewed
+    review:
+      fact_check: pass
+      sources: [inao-2025]
+    en:
+      question: "Which setting best describes the Cassis AOC?"
+      choices:
+        - { text: "A coastal amphitheatre about 20 km east of Marseille", correct: true }
+        - { text: "A limestone plateau about 20 km north of Avignon", correct: false }
+        - { text: "A mountain valley about 20 km north of Nice", correct: false }
+        - { text: "An alluvial plain about 20 km west of Arles", correct: false }
+      explanation: |
+        The vineyards face the Mediterranean below Cap Canaille, with the sea strongly shaping the local setting.
+    fr:
+      question: "Quel cadre décrit le mieux l’AOC Cassis ?"
+      choices:
+        - { text: "Un amphithéâtre côtier à environ 20 km à l’est de Marseille", correct: true }
+        - { text: "Un plateau calcaire à environ 20 km au nord d’Avignon", correct: false }
+        - { text: "Une vallée de montagne à environ 20 km au nord de Nice", correct: false }
+        - { text: "Une plaine alluviale à environ 20 km à l’ouest d’Arles", correct: false }
+      explanation: |
+        Le vignoble fait face à la Méditerranée sous le cap Canaille, dans un site fortement marqué par la mer.
+
+  - id: sfrance-cassis-colour-001
+    type: mcq
+    deck: France::Southern France
+    tags: [france, southern-france, provence, cassis]
+    status: reviewed
+    review:
+      fact_check: pass
+      sources: [inao-2025]
+    en:
+      question: "Which colour is the historic and current speciality of Cassis AOC?"
+      choices:
+        - { text: "Dry white", correct: true }
+        - { text: "Age-worthy red", correct: false }
+        - { text: "Sweet white", correct: false }
+        - { text: "Sparkling rosé", correct: false }
+      explanation: |
+        White wine represents roughly 70% of production; rosé is secondary and red is very limited.
+    fr:
+      question: "Quelle couleur constitue la spécialité historique et actuelle de l’AOC Cassis ?"
+      choices:
+        - { text: "Le blanc sec", correct: true }
+        - { text: "Le rouge de garde", correct: false }
+        - { text: "Le blanc doux", correct: false }
+        - { text: "Le rosé effervescent", correct: false }
+      explanation: |
+        Le blanc représente environ 70 % de la production ; le rosé arrive ensuite et le rouge reste très minoritaire.
+
+  - id: sfrance-cassis-grapes-001
+    type: mcq
+    deck: France::Southern France
+    tags: [france, southern-france, provence, cassis, grapes]
+    status: reviewed
+    review:
+      fact_check: pass
+      sources: [inao-2025]
+    en:
+      question: "Which two principal grapes define Cassis white?"
+      choices:
+        - { text: "Marsanne and Clairette", correct: true }
+        - { text: "Rolle and Sauvignon Blanc", correct: false }
+        - { text: "Grenache Blanc and Roussanne", correct: false }
+        - { text: "Ugni Blanc and Sémillon", correct: false }
+      explanation: |
+        The current specification names Marsanne and Clairette as the principal white varieties, with Marsanne required to occupy a substantial share of plantings.
+    fr:
+      question: "Quels deux cépages principaux définissent le Cassis blanc ?"
+      choices:
+        - { text: "Marsanne et Clairette", correct: true }
+        - { text: "Rolle et Sauvignon Blanc", correct: false }
+        - { text: "Grenache Blanc et Roussanne", correct: false }
+        - { text: "Ugni Blanc et Sémillon", correct: false }
+      explanation: |
+        Le cahier des charges actuel désigne Marsanne et Clairette comme cépages blancs principaux, avec une place importante imposée à la Marsanne dans l’encépagement.
+
+  - id: sfrance-cassis-style-001
+    type: mcq
+    deck: France::Southern France
+    tags: [france, southern-france, provence, cassis]
+    status: reviewed
+    review:
+      fact_check: pass
+      sources: [inao-2025]
+    en:
+      question: "Which profile best describes a typical Cassis white?"
+      choices:
+        - { text: "Dry, textured and fresh, with floral, herbal and saline notes", correct: true }
+        - { text: "Sweet and botrytised, with honey and apricot", correct: false }
+        - { text: "Strongly oaked, low in acidity and tropical", correct: false }
+        - { text: "Oxidative and nutty after ageing under flor", correct: false }
+      explanation: |
+        Marsanne brings breadth while Clairette contributes freshness; local examples often show floral, balsamic or sea-influenced savoury notes.
+    fr:
+      question: "Quel profil décrit le mieux un Cassis blanc typique ?"
+      choices:
+        - { text: "Sec, ample et frais, avec des notes florales, herbacées et salines", correct: true }
+        - { text: "Doux et botrytisé, avec miel et abricot", correct: false }
+        - { text: "Très boisé, peu acide et tropical", correct: false }
+        - { text: "Oxydatif et marqué par la noix après un élevage sous voile", correct: false }
+      explanation: |
+        La Marsanne apporte du volume tandis que la Clairette soutient la fraîcheur ; les vins présentent souvent des notes florales, balsamiques ou salines.
+
+  - id: sfrance-bandol-rose-share-001
+    type: mcq
+    deck: France::Southern France
+    tags: [france, southern-france, provence, bandol]
+    status: reviewed
+    review:
+      fact_check: pass
+      sources: [inao-2024]
+    en:
+      question: "Despite Bandol's red-wine reputation, which colour accounts for most current production?"
+      choices:
+        - { text: "Rosé", correct: true }
+        - { text: "Red", correct: false }
+        - { text: "White", correct: false }
+        - { text: "Sparkling", correct: false }
+      explanation: |
+        Rosé represents roughly three quarters of production. Bandol red remains the appellation's benchmark for structure and ageing potential.
+    fr:
+      question: "Malgré la réputation de ses rouges, quelle couleur représente aujourd’hui la majorité de la production de Bandol ?"
+      choices:
+        - { text: "Le rosé", correct: true }
+        - { text: "Le rouge", correct: false }
+        - { text: "Le blanc", correct: false }
+        - { text: "L’effervescent", correct: false }
+      explanation: |
+        Le rosé représente environ les trois quarts de la production. Le Bandol rouge reste néanmoins la référence de l’appellation pour la structure et la garde.
+
+  - id: sfrance-bandol-ageing-001
+    type: mcq
+    deck: France::Southern France
+    tags: [france, southern-france, provence, bandol, winemaking]
+    status: reviewed
+    review:
+      fact_check: pass
+      sources: [inao-2024]
+    en:
+      question: "What minimum maturation is required for Bandol red?"
+      choices:
+        - { text: "18 months in cask or large wooden vat", correct: true }
+        - { text: "Six months in stainless steel only", correct: false }
+        - { text: "Thirty months in new barriques", correct: false }
+        - { text: "No minimum maturation", correct: false }
+      explanation: |
+        The compulsory wood maturation helps integrate Mourvèdre's substantial tannins; new oak is not required.
+    fr:
+      question: "Quel élevage minimal est exigé pour un Bandol rouge ?"
+      choices:
+        - { text: "18 mois en fût ou en foudre", correct: true }
+        - { text: "Six mois uniquement en cuve inox", correct: false }
+        - { text: "Trente mois en barriques neuves", correct: false }
+        - { text: "Aucune durée minimale", correct: false }
+      explanation: |
+        Cet élevage sous bois obligatoire aide à intégrer les tanins importants du Mourvèdre ; le bois neuf n’est pas imposé.
+
+  - id: sfrance-palette-001
+    type: mcq
+    deck: France::Southern France
+    tags: [france, southern-france, provence, palette]
+    status: reviewed
+    review:
+      fact_check: pass
+      sources: [inao-2024]
+    en:
+      question: "Which statement correctly describes Palette AOC?"
+      choices:
+        - { text: "A very small appellation beside Aix producing red, white and rosé", correct: true }
+        - { text: "A broad appellation in the Var producing mainly pale rosé", correct: false }
+        - { text: "A coastal appellation beside Marseille specialising in dry white", correct: false }
+        - { text: "A hillside appellation in the Alpilles producing all three colours", correct: false }
+      explanation: |
+        Palette covers only three communes around Le Tholonet and Aix. Reds and rosés use Mediterranean black grapes, while Clairette leads the whites.
+    fr:
+      question: "Quelle affirmation décrit correctement l’AOC Palette ?"
+      choices:
+        - { text: "Une très petite appellation près d’Aix produisant rouge, blanc et rosé", correct: true }
+        - { text: "Une vaste appellation du Var produisant surtout du rosé pâle", correct: false }
+        - { text: "Une appellation côtière près de Marseille spécialisée dans le blanc sec", correct: false }
+        - { text: "Une appellation de coteaux dans les Alpilles produisant les trois couleurs", correct: false }
+      explanation: |
+        Palette ne couvre que trois communes autour du Tholonet et d’Aix. Les rouges et rosés reposent sur des cépages noirs méditerranéens, tandis que la Clairette domine les blancs.
+
+  - id: sfrance-coteaux-aix-001
+    type: mcq
+    deck: France::Southern France
+    tags: [france, southern-france, provence, aix]
+    status: reviewed
+    review:
+      fact_check: pass
+      sources: [inao-2026]
+    en:
+      question: "Which profile best describes Coteaux d’Aix-en-Provence AOC?"
+      choices:
+        - { text: "A broad, mistral-influenced appellation strongly focused on rosé", correct: true }
+        - { text: "A tiny coastal white-wine appellation dominated by Marsanne", correct: false }
+        - { text: "A red-only appellation based on Mourvèdre", correct: false }
+        - { text: "A high-altitude sparkling-wine appellation", correct: false }
+      explanation: |
+        The AOC spans much of the western Provençal limestone zone in the Bouches-du-Rhône and Var; rosé accounts for more than four fifths of production.
+    fr:
+      question: "Quel profil décrit le mieux l’AOC Coteaux d’Aix-en-Provence ?"
+      choices:
+        - { text: "Une vaste appellation marquée par le mistral et très orientée vers le rosé", correct: true }
+        - { text: "Une minuscule appellation côtière de blancs dominés par la Marsanne", correct: false }
+        - { text: "Une appellation uniquement rouge fondée sur le Mourvèdre", correct: false }
+        - { text: "Une appellation effervescente de haute altitude", correct: false }
+      explanation: |
+        L’AOC couvre une grande partie de la Provence calcaire occidentale, dans les Bouches-du-Rhône et le Var ; le rosé représente plus de quatre cinquièmes de la production.
+
+  - id: sfrance-baux-001
+    type: mcq
+    deck: France::Southern France
+    tags: [france, southern-france, provence, baux]
+    status: reviewed
+    review:
+      fact_check: pass
+      sources: [inao-2024]
+    en:
+      question: "Where is Les Baux de Provence AOC and which colours may it produce?"
+      choices:
+        - { text: "On the Alpilles slopes; red, rosé and white", correct: true }
+        - { text: "On the Cassis coast; red, rosé and white", correct: false }
+        - { text: "In the hills north of Nice; red and rosé", correct: false }
+        - { text: "On the Camargue plain; rosé and white", correct: false }
+      explanation: |
+        The appellation covers eight communes on the slopes of the Alpilles, north-west of Aix-en-Provence, and has been independent from Coteaux d’Aix since 1995.
+    fr:
+      question: "Où se situe l’AOC Les Baux de Provence et quelles couleurs peut-elle produire ?"
+      choices:
+        - { text: "Sur les versants des Alpilles ; rouge, rosé et blanc", correct: true }
+        - { text: "Sur le littoral de Cassis ; rouge, rosé et blanc", correct: false }
+        - { text: "Dans les collines au nord de Nice ; rouge et rosé", correct: false }
+        - { text: "Dans la plaine de Camargue ; rosé et blanc", correct: false }
+      explanation: |
+        L’appellation couvre huit communes sur les versants des Alpilles, au nord-ouest d’Aix-en-Provence, et est indépendante de Coteaux d’Aix depuis 1995.
