@@ -1,4 +1,4 @@
-# Terroir Recall
+# Wine Theory Anki
 
 An open, version-controlled and bilingual **Anki deck for advanced wine study**, built
 around the knowledge expected for the WSET Level 3 Award in Wines.

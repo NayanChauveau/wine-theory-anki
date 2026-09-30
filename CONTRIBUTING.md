@@ -1,4 +1,4 @@
-# Contributing to Terroir Recall
+# Contributing to Wine Theory Anki
 
 Thank you for helping improve this open, bilingual wine-study deck. Contributions can
 be as small as a typo fix or as substantial as a reviewed chapter, but each pull request
