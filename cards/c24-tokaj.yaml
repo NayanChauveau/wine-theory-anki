@@ -13,16 +13,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Where do Tokaj’s vineyards sit in Hungary?
+      question: "Where is Hungary’s Tokaj wine region located?"
       choices:
-        - { text: "On the Great Plain only, far from any border", correct: false }
-        - { text: "In the Carpathian foothills of the far north-east, near Slovakia", correct: true }
-        - { text: "On the Lake Balaton shore", correct: false }
-        - { text: "In Villány, on the Croatian border", correct: false }
+        - { text: "In western Hungary beside Lake Balaton", correct: false }
+        - { text: "In the north-east, on the southern foothills of the Zemplén Mountains", correct: true }
+        - { text: "In southern Hungary around Villány", correct: false }
+        - { text: "In central Hungary on the Great Plain", correct: false }
       explanation: |
-        **In the Carpathian foothills of the far north-east, near
-        Slovakia.** The town of Tokaj sits where the Bodrog meets
-        the Tisza.
+        The region lies near Slovakia, where the Bodrog meets the Tisza. Its vineyards occupy protected slopes above the river plains.
+    fr:
+      question: "Où se situe la région viticole hongroise de Tokaj ?"
+      choices:
+        - { text: "Dans l’ouest de la Hongrie, près du lac Balaton", correct: false }
+        - { text: "Dans le nord-est, sur les contreforts méridionaux des monts Zemplén", correct: true }
+        - { text: "Dans le sud de la Hongrie, autour de Villány", correct: false }
+        - { text: "Dans le centre de la Hongrie, sur la Grande Plaine", correct: false }
+      explanation: |
+        La région se trouve près de la Slovaquie, au confluent de la Bodrog et de la Tisza. Les vignes occupent des coteaux protégés au-dessus des plaines fluviales.
 
   - id: tokaj-climate-001
     type: mcq
@@ -34,15 +41,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which climate label fits Tokaj?
+      question: "Which climatic pattern characterises Tokaj?"
       choices:
-        - { text: "Cool maritime, like England", correct: false }
-        - { text: "Moderate continental", correct: true }
-        - { text: "Hot Mediterranean", correct: false }
-        - { text: "Equatorial rainforest", correct: false }
+        - { text: "Cool maritime, with mild winters and rain throughout the year", correct: false }
+        - { text: "Continental, with hot dry summers, cold winters and humid autumn mornings", correct: true }
+        - { text: "Mediterranean, with mild wet winters and hot dry summers", correct: false }
+        - { text: "Continental, with cool wet summers and uniformly dry autumns", correct: false }
       explanation: |
-        **Moderate continental.** Warm summers, cold winters; autumn
-        mist from the rivers is the botrytis extra.
+        Summer warmth ripens the grapes, while cold winters reflect the inland location. Autumn humidity from the rivers can initiate noble rot.
+    fr:
+      question: "Quel régime climatique caractérise Tokaj ?"
+      choices:
+        - { text: "Maritime frais, avec des hivers doux et des pluies réparties sur l’année", correct: false }
+        - { text: "Continental, avec des étés chauds et secs, des hivers froids et des matinées automnales humides", correct: true }
+        - { text: "Méditerranéen, avec des hivers doux et humides et des étés chauds et secs", correct: false }
+        - { text: "Continental, avec des étés frais et humides et des automnes uniformément secs", correct: false }
+      explanation: |
+        La chaleur estivale assure la maturité des raisins, tandis que les hivers froids traduisent la situation continentale. L’humidité automnale des rivières peut déclencher la pourriture noble.
 
   - id: tokaj-best-sites-001
     type: mcq
@@ -54,15 +69,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which landform and aspect usually carry Tokaj’s finest parcels?
+      question: "Which vineyard setting is best suited to high-quality grapes in Tokaj?"
       choices:
-        - { text: "On a flat, frost-pocket valley floor only", correct: false }
-        - { text: "On hillside slopes with a southerly aspect", correct: true }
-        - { text: "On north-facing alpine cliffs", correct: false }
-        - { text: "In indoor glasshouses", correct: false }
+        - { text: "Low-lying north-facing land beside the rivers", correct: false }
+        - { text: "South-, south-east- or south-west-facing slopes in the Zemplén foothills", correct: true }
+        - { text: "Flat west-facing land on the Great Plain", correct: false }
+        - { text: "High north-facing slopes above 600 metres", correct: false }
       explanation: |
-        **On hillside slopes with a southerly aspect.** Height and
-        sun finish Furmint; the rivers supply the mist.
+        Sunny aspects improve ripening, while elevation and air movement reduce frost and excessive humidity compared with the valley floor.
+    fr:
+      question: "Quelle implantation du vignoble convient le mieux à la production de raisins de qualité à Tokaj ?"
+      choices:
+        - { text: "Des terrains bas exposés au nord près des rivières", correct: false }
+        - { text: "Des coteaux exposés au sud, au sud-est ou au sud-ouest sur les contreforts du Zemplén", correct: true }
+        - { text: "Des terrains plats exposés à l’ouest sur la Grande Plaine", correct: false }
+        - { text: "De hauts coteaux exposés au nord au-dessus de 600 mètres", correct: false }
+      explanation: |
+        Les expositions ensoleillées favorisent la maturité, tandis que l’altitude et la circulation de l’air réduisent le gel et l’excès d’humidité par rapport au fond de vallée.
 
   - id: tokaj-botrytis-rivers-001
     type: mcq
@@ -74,16 +97,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What supplies the autumn humidity Tokaj needs for noble rot?
+      question: "Which waters are chiefly responsible for the autumn humidity that favours noble rot in Tokaj?"
       choices:
-        - { text: "The Atlantic Gulf Stream only", correct: false }
-        - { text: "The Bodrog and the Tisza, with their tributaries", correct: true }
-        - { text: "Irrigation sprinklers on a desert", correct: false }
-        - { text: "A legal ban on dry weather", correct: false }
+        - { text: "Lake Balaton and its northern springs", correct: false }
+        - { text: "The Bodrog and Tisza rivers and their surrounding wetlands", correct: true }
+        - { text: "The Danube and Lake Fertő", correct: false }
+        - { text: "The Dráva and its Alpine tributaries", correct: false }
       explanation: |
-        **The Bodrog and the Tisza, with their tributaries.** Autumn
-        morning mist, then drier afternoons, lets Botrytis cinerea
-        shrivel berries instead of wrecking them.
+        Mist and dew provide moisture for Botrytis infection. Subsequent sunshine dries the berries and encourages shrivelling rather than destructive grey rot.
+    fr:
+      question: "Quelles eaux sont principalement responsables de l’humidité automnale qui favorise la pourriture noble à Tokaj ?"
+      choices:
+        - { text: "Le lac Balaton et ses sources septentrionales", correct: false }
+        - { text: "Les rivières Bodrog et Tisza ainsi que les zones humides environnantes", correct: true }
+        - { text: "Le Danube et le lac de Neusiedl", correct: false }
+        - { text: "La Dráva et ses affluents alpins", correct: false }
+      explanation: |
+        Les brumes et la rosée apportent l’humidité nécessaire à l’infection par le Botrytis. Le soleil qui suit sèche les baies et favorise leur passerillage plutôt qu’une pourriture grise destructrice.
 
   - id: tokaj-three-grapes-001
     type: mcq
@@ -95,15 +125,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Tokaji’s legal core is which three white grapes?
+      question: "Which three varieties dominate Tokaj’s vineyards?"
       choices:
-        - { text: "Cabernet Sauvignon, Merlot and Syrah", correct: false }
+        - { text: "Olaszrizling, Juhfark and Kékfrankos", correct: false }
         - { text: "Furmint, Hárslevelű and Sárgamuskotály", correct: true }
-        - { text: "Riesling, Silvaner and Müller-Thurgau", correct: false }
-        - { text: "Kadarka only", correct: false }
+        - { text: "Chardonnay, Riesling and Sauvignon Blanc", correct: false }
+        - { text: "Kövérszőlő, Kabar and Zéta", correct: false }
       explanation: |
-        **Furmint, Hárslevelű and Sárgamuskotály.** Furmint leads;
-        the other two add perfume.
+        These are the three principal grapes, led by Furmint. Kövérszőlő, Kabar and Zéta are also permitted but occupy much smaller areas.
+    fr:
+      question: "Quels trois cépages dominent le vignoble de Tokaj ?"
+      choices:
+        - { text: "Olaszrizling, Juhfark et Kékfrankos", correct: false }
+        - { text: "Furmint, Hárslevelű et Sárgamuskotály", correct: true }
+        - { text: "Chardonnay, Riesling et Sauvignon Blanc", correct: false }
+        - { text: "Kövérszőlő, Kabar et Zéta", correct: false }
+      explanation: |
+        Ce sont les trois cépages principaux, avec le Furmint en tête. Kövérszőlő, Kabar et Zéta sont également autorisés, mais occupent des surfaces bien plus faibles.
 
   - id: tokaj-furmint-planted-001
     type: mcq
@@ -115,14 +153,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which variety covers the most Tokaj hectares?
+      question: "Which grape has the largest planted area in Tokaj?"
       choices:
         - { text: "Hárslevelű", correct: false }
         - { text: "Furmint", correct: true }
         - { text: "Sárgamuskotály", correct: false }
-        - { text: "Kadarka", correct: false }
+        - { text: "Zéta", correct: false }
       explanation: |
-        **Furmint.** It is the workhorse for both dry wine and Aszú.
+        It accounts for about three-fifths of the region’s vines and is central to both dry wines and botrytised sweet styles.
+    fr:
+      question: "Quel cépage occupe la plus grande surface à Tokaj ?"
+      choices:
+        - { text: "Hárslevelű", correct: false }
+        - { text: "Furmint", correct: true }
+        - { text: "Sárgamuskotály", correct: false }
+        - { text: "Zéta", correct: false }
+      explanation: |
+        Il représente environ trois cinquièmes du vignoble régional et joue un rôle central dans les vins secs comme dans les liquoreux botrytisés.
 
   - id: tokaj-furmint-profile-001
     type: mcq
@@ -134,15 +181,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What is typical Tokaji Furmint like from youth into age?
+      question: "Which profile best describes high-quality dry Furmint from Tokaj?"
       choices:
-        - { text: "Low acid, jammy and pale", correct: false }
-        - { text: "Concentrated and high-acid, apple when young, nuts and honey with age", correct: true }
-        - { text: "A black grape only", correct: false }
-        - { text: "Always sparkling Muscat", correct: false }
+        - { text: "Low acidity, soft body and ripe tropical fruit", correct: false }
+        - { text: "High acidity, apple or pear fruit and strong ageing potential", correct: true }
+        - { text: "Moderate acidity, floral aromas and rapid oxidative development", correct: false }
+        - { text: "High tannin, dark fruit and a peppery finish", correct: false }
       explanation: |
-        **Concentrated and high-acid, apple when young, nuts and
-        honey with age.** The acid is why sweet Aszú stays fresh.
+        Furmint is not highly aromatic, but its marked acidity and concentration support complex honeyed and nutty development in bottle.
+    fr:
+      question: "Quel profil décrit le mieux un Furmint sec de grande qualité de Tokaj ?"
+      choices:
+        - { text: "Acidité faible, corps souple et fruits tropicaux mûrs", correct: false }
+        - { text: "Acidité élevée, pomme ou poire et fort potentiel de garde", correct: true }
+        - { text: "Acidité moyenne, arômes floraux et évolution oxydative rapide", correct: false }
+        - { text: "Tanins élevés, fruits noirs et finale poivrée", correct: false }
+      explanation: |
+        Le Furmint n’est pas très aromatique, mais son acidité marquée et sa concentration favorisent en bouteille une évolution complexe vers le miel et les fruits à coque.
 
   - id: tokaj-aszu-grape-001
     type: mcq
@@ -154,15 +209,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which grape usually leads a Tokaji Aszú?
+      question: "Which grape most commonly forms the backbone of Tokaji Aszú?"
       choices:
-        - { text: "Pinot Gris", correct: false }
+        - { text: "Hárslevelű", correct: false }
         - { text: "Furmint", correct: true }
-        - { text: "Chardonnay", correct: false }
-        - { text: "Kadarka", correct: false }
+        - { text: "Sárgamuskotály", correct: false }
+        - { text: "Kövérszőlő", correct: false }
       explanation: |
-        **Furmint.** Hárslevelű and Sárgamuskotály may join; Furmint
-        is the Aszú core.
+        Its high acidity, thick skins and strong capacity to form sound aszú berries make it especially valuable. Other permitted varieties may contribute to the blend.
+    fr:
+      question: "Quel cépage constitue le plus souvent l’ossature du Tokaji Aszú ?"
+      choices:
+        - { text: "Hárslevelű", correct: false }
+        - { text: "Furmint", correct: true }
+        - { text: "Sárgamuskotály", correct: false }
+        - { text: "Kövérszőlő", correct: false }
+      explanation: |
+        Son acidité élevée, sa peau épaisse et sa capacité à former de belles baies aszú le rendent particulièrement précieux. D’autres cépages autorisés peuvent compléter l’assemblage.
 
   - id: tokaj-furmint-botrytis-001
     type: mcq
@@ -174,16 +237,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What two ripening traits make Furmint the classic Aszú grape?
+      question: "Which pair of traits makes Furmint well suited to Tokaji Aszú production?"
       choices:
-        - { text: "Dry Furmint is illegal in Tokaj", correct: false }
-        - { text: "It ripens late and is prone to botrytis", correct: true }
-        - { text: "It never ripens at all", correct: false }
-        - { text: "It has no acidity", correct: false }
+        - { text: "Early ripening and resistance to Botrytis", correct: false }
+        - { text: "Late ripening and susceptibility to Botrytis", correct: true }
+        - { text: "Early ripening and naturally low acidity", correct: false }
+        - { text: "Late ripening and very thick, rot-resistant bunches", correct: false }
       explanation: |
-        **It ripens late and is prone to botrytis.** Dry Furmint
-        still exists and has grown in importance; Aszú is the older
-        fame.
+        Long autumn hang-time allows the berries to become infected and shrivel, while Furmint’s acidity preserves freshness in the finished sweet wine.
+    fr:
+      question: "Quelle paire de caractéristiques rend le Furmint bien adapté à la production de Tokaji Aszú ?"
+      choices:
+        - { text: "Maturité précoce et résistance au Botrytis", correct: false }
+        - { text: "Maturité tardive et sensibilité au Botrytis", correct: true }
+        - { text: "Maturité précoce et acidité naturellement faible", correct: false }
+        - { text: "Maturité tardive et grappes très épaisses résistantes à la pourriture", correct: false }
+      explanation: |
+        La longue période passée sur pied en automne permet aux baies d’être infectées puis de se concentrer, tandis que l’acidité du Furmint préserve la fraîcheur du vin doux fini.
 
   - id: tokaj-harslevelu-perfume-001
     type: mcq
@@ -195,14 +265,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: In a Furmint-led blend, Hárslevelű is valued for which quality?
+      question: "What does Hárslevelű typically contribute to a Tokaj blend?"
       choices:
-        - { text: "Deep red colour", correct: false }
-        - { text: "Perfume", correct: true }
-        - { text: "Sparkling gas", correct: false }
-        - { text: "Residual salt", correct: false }
+        - { text: "Firm tannins and black-fruit aromas", correct: false }
+        - { text: "A softer texture and linden-like perfume", correct: true }
+        - { text: "Neutral flavour and lower alcohol", correct: false }
+        - { text: "Deep colour and peppery spice", correct: false }
       explanation: |
-        **Perfume.** Linden-blossom is the usual Hárslevelű register.
+        Compared with Furmint, Hárslevelű is generally softer and more aromatic, often showing floral or linden-honey notes.
+    fr:
+      question: "Qu’apporte généralement le Hárslevelű à un assemblage de Tokaj ?"
+      choices:
+        - { text: "Des tanins fermes et des arômes de fruits noirs", correct: false }
+        - { text: "Une texture plus souple et un parfum évoquant le tilleul", correct: true }
+        - { text: "Des arômes neutres et moins d’alcool", correct: false }
+        - { text: "Une couleur profonde et des épices poivrées", correct: false }
+      explanation: |
+        Par rapport au Furmint, le Hárslevelű est généralement plus souple et plus aromatique, avec souvent des notes florales ou de miel de tilleul.
 
   - id: tokaj-harslevelu-late-001
     type: mcq
@@ -214,15 +293,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Where does Hárslevelű sit on Tokaj’s ripening calendar?
+      question: "How does Hárslevelű ripen in Tokaj?"
       choices:
-        - { text: "Early, like Chasselas", correct: false }
-        - { text: "Late-ripening", correct: true }
-        - { text: "It is picked in June only", correct: false }
-        - { text: "It never ripens", correct: false }
+        - { text: "Earlier than Sárgamuskotály", correct: false }
+        - { text: "Late, broadly alongside Furmint", correct: true }
+        - { text: "In midseason, well before Furmint", correct: false }
+        - { text: "After Furmint, once autumn frost begins", correct: false }
       explanation: |
-        **Late-ripening.** That hang-time is why it can take noble
-        rot with Furmint.
+        Its late harvest window allows full flavour development and, in suitable autumn weather, the formation of noble rot.
+    fr:
+      question: "Comment mûrit le Hárslevelű à Tokaj ?"
+      choices:
+        - { text: "Plus tôt que le Sárgamuskotály", correct: false }
+        - { text: "Tardivement, globalement en même temps que le Furmint", correct: true }
+        - { text: "À mi-saison, bien avant le Furmint", correct: false }
+        - { text: "Après le Furmint, au début des gelées automnales", correct: false }
+      explanation: |
+        Sa période de récolte tardive permet le plein développement des arômes et, lorsque l’automne s’y prête, la formation de pourriture noble.
 
   - id: tokaj-sargamuskotaly-synonym-001
     type: mcq
@@ -234,14 +321,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Sárgamuskotály is the Hungarian name for which grape?
+      question: "Sárgamuskotály is the Hungarian name for which variety?"
       choices:
-        - { text: "Cabernet Sauvignon", correct: false }
+        - { text: "Muscat of Alexandria", correct: false }
         - { text: "Muscat Blanc à Petits Grains", correct: true }
-        - { text: "Riesling", correct: false }
-        - { text: "Palomino", correct: false }
+        - { text: "Muscat Ottonel", correct: false }
+        - { text: "Morio-Muskat", correct: false }
       explanation: |
-        **Muscat Blanc à Petits Grains.** Same grape, local name.
+        This ancient, early-ripening Muscat is the most overtly aromatic of Tokaj’s principal grapes.
+    fr:
+      question: "Sárgamuskotály est le nom hongrois de quel cépage ?"
+      choices:
+        - { text: "Muscat d’Alexandrie", correct: false }
+        - { text: "Muscat Blanc à Petits Grains", correct: true }
+        - { text: "Muscat Ottonel", correct: false }
+        - { text: "Morio-Muskat", correct: false }
+      explanation: |
+        Ce Muscat ancien et précoce est le plus ouvertement aromatique des principaux cépages de Tokaj.
 
   - id: tokaj-sargamuskotaly-blend-001
     type: mcq
@@ -253,15 +349,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Why do Tokaj blends keep a little Sárgamuskotály?
+      question: "Why may Sárgamuskotály be included in a Tokaj blend?"
       choices:
-        - { text: "For deep colour and tannin", correct: false }
-        - { text: "For its aromatic lift", correct: true }
-        - { text: "Law requires 80 percent of the blend", correct: false }
-        - { text: "To make a red wine", correct: false }
+        - { text: "To increase tannin and deepen colour", correct: false }
+        - { text: "To add pronounced floral and grapey aromas", correct: true }
+        - { text: "To lower acidity and remove fruit character", correct: false }
+        - { text: "To provide neutral base wine for distillation", correct: false }
       explanation: |
-        **For its aromatic lift.** A Muscat supporting grape, not the lead
-        grape.
+        Its Muscat character can lift the aroma of blends led by the more restrained Furmint and Hárslevelű.
+    fr:
+      question: "Pourquoi peut-on inclure du Sárgamuskotály dans un assemblage de Tokaj ?"
+      choices:
+        - { text: "Pour augmenter les tanins et approfondir la couleur", correct: false }
+        - { text: "Pour apporter des arômes floraux et muscatés prononcés", correct: true }
+        - { text: "Pour réduire l’acidité et effacer le fruit", correct: false }
+        - { text: "Pour fournir un vin de base neutre destiné à la distillation", correct: false }
+      explanation: |
+        Son caractère muscaté peut rehausser le nez des assemblages dominés par les Furmint et Hárslevelű, plus discrets.
 
   - id: tokaj-styles-001
     type: mcq
@@ -273,15 +377,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which two style families does Tokaji cover?
+      question: "Which statement best describes the range of wine styles produced in Tokaj?"
       choices:
-        - { text: "Only sparkling red", correct: false }
-        - { text: "Dry wines and sweet wines", correct: true }
-        - { text: "Only fortified Muscat", correct: false }
-        - { text: "Only ice wine", correct: false }
+        - { text: "The PDO is restricted to botrytised sweet wine", correct: false }
+        - { text: "The region produces dry, late-harvest and traditional botrytised sweet wines", correct: true }
+        - { text: "The region principally produces red and rosé wines", correct: false }
+        - { text: "The PDO is restricted to traditional-method sparkling wine", correct: false }
       explanation: |
-        **Dry wines and sweet wines.** Dry Furmint is a real Tokaji
-        style, not a side note to Aszú.
+        Although Aszú created Tokaj’s historic reputation, dry Furmint and other dry whites have become an important part of modern production.
+    fr:
+      question: "Quelle affirmation décrit le mieux l’éventail des styles produits à Tokaj ?"
+      choices:
+        - { text: "L’AOP est réservée aux vins doux botrytisés", correct: false }
+        - { text: "La région produit des vins secs, des vendanges tardives et des liquoreux botrytisés traditionnels", correct: true }
+        - { text: "La région produit principalement des rouges et des rosés", correct: false }
+        - { text: "L’AOP est réservée aux effervescents de méthode traditionnelle", correct: false }
+      explanation: |
+        Si l’Aszú a fondé la réputation historique de Tokaj, le Furmint sec et les autres blancs secs occupent désormais une place importante dans la production moderne.
 
   - id: tokaj-bottle-size-001
     type: mcq
@@ -293,15 +405,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: How do finished Tokaji bottle sizes usually split by style?
+      question: "Which bottle-size pairing is most typical for Tokaji wines?"
       choices:
-        - { text: "Every wine must be 18.7 cl", correct: false }
-        - { text: "Sweet wines in 50 cl; dry wines in 75 cl", correct: true }
-        - { text: "Sweet wines only in magnum", correct: false }
-        - { text: "Dry wines only in 37.5 cl", correct: false }
+        - { text: "Dry wine in 50 cl; Aszú in 75 cl", correct: false }
+        - { text: "Dry wine in 75 cl; Aszú in 50 cl", correct: true }
+        - { text: "Dry wine in 37.5 cl; Aszú in 1 litre", correct: false }
+        - { text: "Dry wine in 1 litre; Aszú in 75 cl", correct: false }
       explanation: |
-        **Sweet wines in 50 cl; dry wines in 75 cl.** Aszú and
-        Eszencia are the classic 50 cl bottles.
+        The traditional sweet-wine bottle is commonly 50 cl, whereas dry Tokaji is widely sold in the standard 75 cl format. Other sizes are legally permitted.
+    fr:
+      question: "Quelle association de formats est la plus courante pour les vins de Tokaj ?"
+      choices:
+        - { text: "Vin sec en 50 cl ; Aszú en 75 cl", correct: false }
+        - { text: "Vin sec en 75 cl ; Aszú en 50 cl", correct: true }
+        - { text: "Vin sec en 37,5 cl ; Aszú en 1 litre", correct: false }
+        - { text: "Vin sec en 1 litre ; Aszú en 75 cl", correct: false }
+      explanation: |
+        La bouteille traditionnelle des vins doux contient généralement 50 cl, tandis que les Tokaji secs sont largement vendus au format standard de 75 cl. D’autres contenances sont autorisées.
 
   - id: tokaj-vintage-styles-001
     type: mcq
@@ -313,15 +433,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: In an ordinary Tokaj vintage, what does a producer often bottle?
+      question: "How can variation in noble-rot development affect a Tokaj producer’s range in one vintage?"
       choices:
-        - { text: "Only Eszencia", correct: false }
-        - { text: "Several styles, depending on how much noble rot set", correct: true }
-        - { text: "Only red wine", correct: false }
-        - { text: "Nothing until a perfect year", correct: false }
+        - { text: "Every parcel must be made into the same sweetness level", correct: false }
+        - { text: "Fruit can be directed into dry wine, Szamorodni or Aszú according to its condition", correct: true }
+        - { text: "Botrytised fruit must be discarded while healthy fruit becomes Aszú", correct: false }
+        - { text: "All fruit must remain unpicked unless Eszencia can be made", correct: false }
       explanation: |
-        **Several styles, depending on how much noble rot set.**
-        Dry Furmint, Szamorodni and Aszú can come from one harvest.
+        Selective picking and sorting let producers use healthy grapes, partly botrytised bunches and individual aszú berries for different styles.
+    fr:
+      question: "Comment les différences de développement de la pourriture noble peuvent-elles influencer la gamme d’un producteur de Tokaj au cours d’un même millésime ?"
+      choices:
+        - { text: "Chaque parcelle doit donner le même niveau de douceur", correct: false }
+        - { text: "Les raisins peuvent être orientés vers un vin sec, un Szamorodni ou un Aszú selon leur état", correct: true }
+        - { text: "Les raisins botrytisés doivent être écartés tandis que les raisins sains deviennent de l’Aszú", correct: false }
+        - { text: "Tous les raisins doivent rester sur pied si l’on ne peut pas produire d’Eszencia", correct: false }
+      explanation: |
+        Les tries successives permettent d’utiliser les raisins sains, les grappes partiellement botrytisées et les baies aszú individuelles pour des styles différents.
 
   - id: tokaj-harvest-sort-001
     type: mcq
@@ -333,16 +461,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: How do Tokaj growers sort fruit so more than one style is possible?
+      question: "Which sorting scheme allows Tokaj growers to produce several wine styles from one harvest?"
       choices:
-        - { text: "They pick everything in one pass into one tank", correct: false }
-        - { text: "They split the harvest into three lots by how much noble rot is on the grapes", correct: true }
-        - { text: "They buy only imported must", correct: false }
-        - { text: "They freeze the entire crop", correct: false }
+        - { text: "Separate fruit by berry colour into white, pink and red lots", correct: false }
+        - { text: "Separate healthy fruit, partly botrytised bunches and individual aszú berries", correct: true }
+        - { text: "Separate fruit solely by vineyard altitude into three lots", correct: false }
+        - { text: "Separate early-picked fruit from frozen and sun-dried fruit", correct: false }
       explanation: |
-        **They split the harvest into three lots by how much noble
-        rot is on the grapes.** Healthy fruit, part-rotted bunches,
-        and individual aszú berries.
+        Healthy grapes can supply dry or base wine, mixed bunches suit Szamorodni, and individually selected botrytised berries are reserved for Aszú.
+    fr:
+      question: "Quel tri permet aux viticulteurs de Tokaj de produire plusieurs styles à partir d’une même récolte ?"
+      choices:
+        - { text: "Séparer les raisins selon leur couleur en lots blancs, roses et rouges", correct: false }
+        - { text: "Séparer les raisins sains, les grappes partiellement botrytisées et les baies aszú individuelles", correct: true }
+        - { text: "Séparer les raisins uniquement selon l’altitude du vignoble en trois lots", correct: false }
+        - { text: "Séparer les raisins précoces des raisins gelés et séchés au soleil", correct: false }
+      explanation: |
+        Les raisins sains peuvent fournir un vin sec ou un vin de base, les grappes mixtes conviennent au Szamorodni et les baies botrytisées sélectionnées individuellement sont réservées à l’Aszú.
 
   - id: tokaj-aszu-berries-001
     type: mcq
@@ -354,15 +489,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What does aszú name in Tokaj?
+      question: "In Tokaj, what does the term aszú refer to before it names a finished wine?"
       choices:
-        - { text: "A dry sparkling wine", correct: false }
-        - { text: "Nobly rotten berries", correct: true }
-        - { text: "A black grape", correct: false }
-        - { text: "A river", correct: false }
+        - { text: "Healthy grapes picked for dry base wine", correct: false }
+        - { text: "Botrytised berries that have shrivelled on the vine", correct: true }
+        - { text: "Whole bunches containing mixed healthy and rotten fruit", correct: false }
+        - { text: "Grapes dried after harvest on straw mats", correct: false }
       explanation: |
-        **Nobly rotten berries.** Aszú the wine is built from those
-        individually picked berries.
+        Botrytis infection and water loss concentrate sugar, acidity and flavour. These selected berries are the defining raw material for Tokaji Aszú.
+    fr:
+      question: "À Tokaj, que désigne le terme aszú avant de nommer un vin fini ?"
+      choices:
+        - { text: "Des raisins sains récoltés pour le vin de base sec", correct: false }
+        - { text: "Des baies botrytisées qui se sont passerillées sur pied", correct: true }
+        - { text: "Des grappes entières mêlant raisins sains et pourris", correct: false }
+        - { text: "Des raisins séchés après récolte sur des nattes de paille", correct: false }
+      explanation: |
+        L’infection par le Botrytis et la perte d’eau concentrent les sucres, l’acidité et les arômes. Ces baies sélectionnées constituent la matière première caractéristique du Tokaji Aszú.
 
   - id: tokaj-aszu-picking-001
     type: mcq
@@ -374,16 +517,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: How are aszú berries taken off the vine in Tokaj?
+      question: "How are aszú berries traditionally harvested in Tokaj?"
       choices:
-        - { text: "Machine harvest at night only", correct: false }
-        - { text: "Pickers walk the rows several times and cut berries one by one; the rest of the crop is picked separately", correct: true }
-        - { text: "One pass of whole bunches, never sorted", correct: false }
-        - { text: "The fruit is left until spring", correct: false }
+        - { text: "Whole bunches are machine-picked in a single pass", correct: false }
+        - { text: "Individual berries are selected by hand during repeated passes through the vineyard", correct: true }
+        - { text: "Bunches are cut once and sorted only after fermentation", correct: false }
+        - { text: "Grapes are harvested frozen and pressed immediately", correct: false }
       explanation: |
-        **Pickers walk the rows several times and cut berries one by
-        one; the rest of the crop is picked separately.** That
-        remainder can become dry wine, a base wine, or Szamorodni.
+        Botrytis develops unevenly, so pickers return several times and remove only suitably shrivelled berries. The remaining fruit can serve other wine styles.
+    fr:
+      question: "Comment les baies aszú sont-elles traditionnellement récoltées à Tokaj ?"
+      choices:
+        - { text: "Les grappes entières sont vendangées mécaniquement en un seul passage", correct: false }
+        - { text: "Les baies sont sélectionnées individuellement à la main lors de passages successifs dans la vigne", correct: true }
+        - { text: "Les grappes sont coupées une seule fois et triées seulement après fermentation", correct: false }
+        - { text: "Les raisins sont récoltés gelés puis immédiatement pressés", correct: false }
+      explanation: |
+        Le Botrytis se développe de façon irrégulière : les vendangeurs repassent plusieurs fois et ne prélèvent que les baies suffisamment passerillées. Le reste des raisins peut servir à d’autres styles.
 
   - id: tokaj-szamorodni-meaning-001
     type: mcq
@@ -395,15 +545,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Szamorodni’s Polish-origin name is usually rendered in English as what?
+      question: "What does the name Szamorodni, derived from Polish, mean?"
       choices:
-        - { text: "Twice fermented", correct: false }
+        - { text: "Selected berry by berry", correct: false }
         - { text: "As it comes", correct: true }
-        - { text: "Free-run only", correct: false }
-        - { text: "Fortified", correct: false }
+        - { text: "Pressed without fermentation", correct: false }
+        - { text: "Aged beneath the ground", correct: false }
       explanation: |
-        **As it comes.** Whole bunches, not berry-by-berry aszú
-        selection.
+        The name reflects the processing of whole bunches containing whatever mixture of healthy and botrytised berries developed naturally.
+    fr:
+      question: "Que signifie le nom Szamorodni, d’origine polonaise ?"
+      choices:
+        - { text: "Sélectionné baie par baie", correct: false }
+        - { text: "Tel qu’il vient", correct: true }
+        - { text: "Pressé sans fermentation", correct: false }
+        - { text: "Élevé sous terre", correct: false }
+      explanation: |
+        Le nom renvoie au traitement de grappes entières contenant le mélange de baies saines et botrytisées qui s’est formé naturellement.
 
   - id: tokaj-szamorodni-fruit-001
     type: mcq
@@ -415,15 +573,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What fruit goes into Tokaji Szamorodni?
+      question: "Which fruit is used to make Tokaji Szamorodni?"
       choices:
-        - { text: "Only healthy, fully dry grapes", correct: false }
-        - { text: "Whole bunches that are only partly touched by noble rot", correct: true }
-        - { text: "Only hand-picked aszú berries", correct: false }
-        - { text: "Only red grapes", correct: false }
+        - { text: "Individually selected aszú berries alone", correct: false }
+        - { text: "Whole bunches containing both healthy and botrytised berries", correct: true }
+        - { text: "Healthy early-picked grapes alone", correct: false }
+        - { text: "Frozen grapes picked below −7°C", correct: false }
       explanation: |
-        **Whole bunches that are only partly touched by noble rot.**
-        The wine may finish dry or sweet.
+        Unlike Aszú, Szamorodni does not require berry-by-berry selection. The proportion of botrytised fruit helps determine whether the wine finishes dry or sweet.
+    fr:
+      question: "Quels raisins utilise-t-on pour élaborer le Tokaji Szamorodni ?"
+      choices:
+        - { text: "Uniquement des baies aszú sélectionnées individuellement", correct: false }
+        - { text: "Des grappes entières contenant des baies saines et botrytisées", correct: true }
+        - { text: "Uniquement des raisins sains récoltés précocement", correct: false }
+        - { text: "Des raisins gelés vendangés sous −7 °C", correct: false }
+      explanation: |
+        Contrairement à l’Aszú, le Szamorodni ne requiert pas de sélection baie par baie. La proportion de raisins botrytisés contribue à déterminer si le vin finit sec ou doux.
 
   - id: tokaj-dry-role-001
     type: mcq
@@ -435,15 +601,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Why have dry Tokaji wines with no botrytis become more useful to producers?
+      question: "Why have dry wines become strategically important to Tokaj producers?"
       choices:
-        - { text: "Aszú is now illegal", correct: false }
-        - { text: "They give a wine to sell when noble rot is scarce", correct: true }
-        - { text: "Dry wine is illegal in Tokaj", correct: false }
-        - { text: "They replace Eszencia by law", correct: false }
+        - { text: "They provide a simple outlet for underripe fruit", correct: false }
+        - { text: "They provide a distinct premium style and production when noble rot is limited", correct: true }
+        - { text: "They avoid the need to select vineyards by site", correct: false }
+        - { text: "They replace sweet wine in the best botrytis years", correct: false }
       explanation: |
-        **They give a wine to sell when noble rot is scarce.** Dry
-        Furmint is also a style in its own right, not only a fallback.
+        Dry Furmint is now valued in its own right, while also giving growers an outlet in years or parcels where suitable botrytis does not develop.
+    fr:
+      question: "Pourquoi les vins secs sont-ils devenus stratégiquement importants pour les producteurs de Tokaj ?"
+      choices:
+        - { text: "Ils offrent un débouché simple aux raisins insuffisamment mûrs", correct: false }
+        - { text: "Ils constituent un style haut de gamme distinct et assurent une production lorsque la pourriture noble est limitée", correct: true }
+        - { text: "Ils évitent d’avoir à sélectionner les vignobles selon leur site", correct: false }
+        - { text: "Ils remplacent les vins doux lors des meilleurs millésimes botrytisés", correct: false }
+      explanation: |
+        Le Furmint sec est désormais apprécié comme un style à part entière, tout en offrant un débouché lorsque le botrytis souhaité ne se développe pas sur certaines parcelles ou certains millésimes.
 
   - id: tokaj-dry-range-001
     type: mcq
@@ -455,16 +629,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: How wide is the dry Tokaji range?
+      question: "Which statement best describes the range of dry Tokaji wines?"
       choices:
-        - { text: "Only sparkling", correct: false }
-        - { text: "From simple, unoaked, early bottles to richer, age-worthy wines often fermented and raised in new oak", correct: true }
-        - { text: "Only sweet", correct: false }
-        - { text: "Only fortified", correct: false }
+        - { text: "All are light, neutral wines fermented in stainless steel", correct: false }
+        - { text: "Styles range from fresh, unoaked wines to concentrated, oak-matured wines capable of ageing", correct: true }
+        - { text: "All are rich wines fermented in new oak and released late", correct: false }
+        - { text: "Styles range from fortified whites to bottle-fermented sparkling reds", correct: false }
       explanation: |
-        **From simple, unoaked, early bottles to richer, age-worthy
-        wines often fermented and raised in new oak.** Steel or
-        barrique, depending on the house.
+        Vessel choice, site and fruit concentration create a broad range. The best dry Furmint can combine high acidity, depth and long ageing potential.
+    fr:
+      question: "Quelle affirmation décrit le mieux la diversité des Tokaji secs ?"
+      choices:
+        - { text: "Ce sont tous des vins légers et neutres fermentés en cuve inox", correct: false }
+        - { text: "Les styles vont de vins frais non boisés à des vins concentrés élevés sous bois et aptes à la garde", correct: true }
+        - { text: "Ce sont tous des vins riches fermentés en bois neuf et commercialisés tardivement", correct: false }
+        - { text: "Les styles vont des blancs fortifiés aux rouges effervescents de méthode traditionnelle", correct: false }
+      explanation: |
+        Le choix du contenant, le site et la concentration des raisins créent une large gamme. Les meilleurs Furmint secs peuvent associer acidité élevée, profondeur et longue garde.
 
   - id: tokaj-dry-furmint-001
     type: mcq
@@ -476,15 +657,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: A dry Tokaji labelled as a varietal white is usually which grape?
+      question: "Which grape is most commonly named on the label of a varietal dry Tokaji?"
       choices:
-        - { text: "Kadarka", correct: false }
+        - { text: "Hárslevelű", correct: false }
         - { text: "Furmint", correct: true }
-        - { text: "Pinot Noir", correct: false }
-        - { text: "Trebbiano", correct: false }
+        - { text: "Sárgamuskotály", correct: false }
+        - { text: "Kabar", correct: false }
       explanation: |
-        **Furmint.** Dry Furmint is a standard Tokaji bottling, not
-        a rumour.
+        Its dominance in the vineyard, high acidity and ability to express individual sites make it the region’s leading dry varietal wine.
+    fr:
+      question: "Quel cépage est le plus souvent indiqué sur l’étiquette d’un Tokaji sec monocépage ?"
+      choices:
+        - { text: "Hárslevelű", correct: false }
+        - { text: "Furmint", correct: true }
+        - { text: "Sárgamuskotály", correct: false }
+        - { text: "Kabar", correct: false }
+      explanation: |
+        Sa domination dans le vignoble, son acidité élevée et sa capacité à exprimer les différents sites en font le principal vin sec monocépage de la région.
 
   - id: tokaj-szaraz-001
     type: mcq
@@ -496,14 +685,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What does száraz mean on a Tokaji label?
+      question: "What does the Hungarian term száraz indicate on a Tokaji label?"
       choices:
         - { text: "Sweet", correct: false }
         - { text: "Dry", correct: true }
-        - { text: "Sparkling", correct: false }
-        - { text: "Fortified", correct: false }
+        - { text: "Late harvest", correct: false }
+        - { text: "Noble rot", correct: false }
       explanation: |
-        **Dry.** Szamorodni száraz is the dry reading.
+        For example, Száraz Szamorodni is the dry form of Szamorodni; the contrasting term édes means sweet.
+    fr:
+      question: "Que signifie le terme hongrois száraz sur une étiquette de Tokaji ?"
+      choices:
+        - { text: "Doux", correct: false }
+        - { text: "Sec", correct: true }
+        - { text: "Vendange tardive", correct: false }
+        - { text: "Pourriture noble", correct: false }
+      explanation: |
+        Par exemple, Száraz Szamorodni est la version sèche du Szamorodni ; le terme opposé édes signifie doux.
 
   - id: tokaj-edes-001
     type: mcq
@@ -515,14 +713,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What does édes mean on a Tokaji label?
+      question: "What does the Hungarian term édes indicate on a Tokaji label?"
       choices:
         - { text: "Dry", correct: false }
         - { text: "Sweet", correct: true }
-        - { text: "Rosé", correct: false }
+        - { text: "Oxidative", correct: false }
         - { text: "Sparkling", correct: false }
       explanation: |
-        **Sweet.** Szamorodni édes is the sweet reading.
+        Édes Szamorodni is the sweet form of Szamorodni; the contrasting term száraz means dry.
+    fr:
+      question: "Que signifie le terme hongrois édes sur une étiquette de Tokaji ?"
+      choices:
+        - { text: "Sec", correct: false }
+        - { text: "Doux", correct: true }
+        - { text: "Oxydatif", correct: false }
+        - { text: "Effervescent", correct: false }
+      explanation: |
+        Édes Szamorodni est la version douce du Szamorodni ; le terme opposé száraz signifie sec.
 
   - id: tokaj-dry-szamorodni-rot-001
     type: mcq
@@ -534,15 +741,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What extra character does a dry Szamorodni still show?
+      question: "Why can dry Szamorodni show botrytis-derived aromas despite having little residual sugar?"
       choices:
-        - { text: "Only green-apple fruit and no rot", correct: false }
-        - { text: "Noble-rot notes", correct: true }
-        - { text: "Red-wine tannin", correct: false }
-        - { text: "Sparkling foam", correct: false }
+        - { text: "Botrytised berries are added after bottling", correct: false }
+        - { text: "Partly botrytised bunches are fermented to dryness", correct: true }
+        - { text: "Healthy grapes are sweetened with Eszencia", correct: false }
+        - { text: "The wine is blended with young Aszú after ageing", correct: false }
       explanation: |
-        **Noble-rot notes.** The bunches were partly aszú even if
-        the wine ferments dry.
+        Fermentation consumes the sugar but does not remove the honeyed, dried-fruit and savoury compounds contributed by botrytised grapes.
+    fr:
+      question: "Pourquoi un Szamorodni sec peut-il présenter des arômes issus du botrytis malgré son faible sucre résiduel ?"
+      choices:
+        - { text: "Des baies botrytisées sont ajoutées après la mise en bouteille", correct: false }
+        - { text: "Des grappes partiellement botrytisées fermentent jusqu’à sécheresse", correct: true }
+        - { text: "Des raisins sains sont édulcorés avec de l’Eszencia", correct: false }
+        - { text: "Le vin est assemblé avec un jeune Aszú après élevage", correct: false }
+      explanation: |
+        La fermentation consomme le sucre, mais ne supprime pas les composés miellés, les fruits secs et les notes savoureuses apportés par les raisins botrytisés.
 
   - id: tokaj-szamorodni-ageing-001
     type: mcq
@@ -554,15 +769,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What is the legal ageing bar for Tokaji Szamorodni?
+      question: "What is the current minimum maturation requirement for Tokaji Szamorodni?"
       choices:
-        - { text: "Six weeks in steel only", correct: false }
-        - { text: "At least one year in cask, and two years old before release", correct: true }
-        - { text: "Ten years in bottle, no cask", correct: false }
-        - { text: "No wait at all", correct: false }
+        - { text: "Twelve months in wood; release from the fourth year", correct: false }
+        - { text: "Six months in wood; release from 1 January of the second year after harvest", correct: true }
+        - { text: "Eighteen months in wood; release in the following year", correct: false }
+        - { text: "Six months in bottle; release in the year after harvest", correct: false }
       explanation: |
-        **At least one year in cask, and two years old before
-        release.** Wood time, then a second year before it may leave.
+        The present rule is shorter than older requirements. Producers may mature the wine for much longer, particularly for traditional dry examples.
+    fr:
+      question: "Quelle est l’exigence minimale actuelle d’élevage du Tokaji Szamorodni ?"
+      choices:
+        - { text: "Douze mois sous bois ; sortie à partir de la quatrième année", correct: false }
+        - { text: "Six mois sous bois ; sortie dès le 1er janvier de la deuxième année après récolte", correct: true }
+        - { text: "Dix-huit mois sous bois ; sortie l’année suivante", correct: false }
+        - { text: "Six mois en bouteille ; sortie l’année suivant la récolte", correct: false }
+      explanation: |
+        La règle actuelle est plus courte que les anciennes exigences. Les producteurs peuvent prolonger largement l’élevage, notamment pour les versions sèches traditionnelles.
 
   - id: tokaj-szamorodni-flor-001
     type: mcq
@@ -574,16 +797,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Why are dry Szamorodni casks often left not quite full?
+      question: "Why are barrels of traditional dry Szamorodni sometimes left partially filled?"
       choices:
-        - { text: "To speed boiling", correct: false }
-        - { text: "So a flor film can grow on the wine", correct: true }
-        - { text: "Ullage is illegal in Tokaj", correct: false }
-        - { text: "To force malolactic overnight", correct: false }
+        - { text: "To retain carbon dioxide from a second fermentation", correct: false }
+        - { text: "To encourage a film of flor yeast to develop", correct: true }
+        - { text: "To stop all yeast activity immediately", correct: false }
+        - { text: "To allow fortifying spirit to evaporate", correct: false }
       explanation: |
-        **So a flor film can grow on the wine.** That film is the
-        dry-Szamorodni signature; sweet Szamorodni is not the flor
-        wine.
+        The air space permits flor growth and controlled oxidative development, contributing nutty, savoury aromas to this unfortified wine.
+    fr:
+      question: "Pourquoi les fûts de Szamorodni sec traditionnel sont-ils parfois laissés partiellement remplis ?"
+      choices:
+        - { text: "Pour retenir le dioxyde de carbone d’une seconde fermentation", correct: false }
+        - { text: "Pour favoriser le développement d’un voile de levures", correct: true }
+        - { text: "Pour interrompre immédiatement toute activité des levures", correct: false }
+        - { text: "Pour permettre l’évaporation de l’alcool de mutage", correct: false }
+      explanation: |
+        L’espace d’air permet le développement du voile et une évolution oxydative maîtrisée, qui apportent des arômes de fruits à coque et des notes savoureuses à ce vin non fortifié.
 
   - id: tokaj-szamorodni-fino-001
     type: mcq
@@ -595,15 +825,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which famous wine is dry Szamorodni often likened to?
+      question: "Which wine style provides the closest common comparison for traditional dry Szamorodni?"
       choices:
-        - { text: "Vintage Port", correct: false }
+        - { text: "Amontillado Sherry", correct: false }
         - { text: "Fino Sherry", correct: true }
-        - { text: "Red Burgundy", correct: false }
-        - { text: "Champagne", correct: false }
+        - { text: "Vin Jaune", correct: false }
+        - { text: "Madeira Sercial", correct: false }
       explanation: |
-        **Fino Sherry.** Both sit under a flor film; Szamorodni is
-        not fortified.
+        Both can mature beneath flor and develop yeasty, nutty flavours. Dry Szamorodni differs because it is not fortified and its fruit may include noble rot.
+    fr:
+      question: "Quel style de vin constitue la comparaison la plus courante avec le Szamorodni sec traditionnel ?"
+      choices:
+        - { text: "Xérès Amontillado", correct: false }
+        - { text: "Xérès Fino", correct: true }
+        - { text: "Vin jaune", correct: false }
+        - { text: "Madère Sercial", correct: false }
+      explanation: |
+        Les deux peuvent évoluer sous voile et développer des arômes de levure et de fruits à coque. Le Szamorodni sec s’en distingue car il n’est pas fortifié et peut provenir de raisins botrytisés.
 
   - id: tokaj-flor-which-001
     type: mcq
@@ -615,15 +853,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: A flor veil in Tokaj belongs to which style, not Aszú?
+      question: "Which Tokaji style is traditionally associated with ageing under flor?"
       choices:
-        - { text: "Aszú", correct: false }
-        - { text: "Dry Szamorodni", correct: true }
-        - { text: "Eszencia", correct: false }
-        - { text: "Late Harvest only", correct: false }
+        - { text: "Édes Szamorodni", correct: false }
+        - { text: "Száraz Szamorodni", correct: true }
+        - { text: "Tokaji Aszú", correct: false }
+        - { text: "Tokaji Eszencia", correct: false }
       explanation: |
-        **Dry Szamorodni.** Sweet Szamorodni, Aszú and Eszencia are
-        not flor wines.
+        Dry conditions allow flor to survive on the wine’s surface. Sweet Szamorodni, Aszú and Eszencia are not defined by biological ageing.
+    fr:
+      question: "Quel style de Tokaji est traditionnellement associé à un élevage sous voile ?"
+      choices:
+        - { text: "Édes Szamorodni", correct: false }
+        - { text: "Száraz Szamorodni", correct: true }
+        - { text: "Tokaji Aszú", correct: false }
+        - { text: "Tokaji Eszencia", correct: false }
+      explanation: |
+        Le faible niveau de sucre permet au voile de se maintenir à la surface du vin. Le Szamorodni doux, l’Aszú et l’Eszencia ne sont pas définis par un élevage biologique.
 
   - id: tokaj-sweet-oxidative-001
     type: mcq
@@ -635,15 +881,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: If a sweet Tokaji is raised without flor, what character can it pick up?
+      question: "What can give traditionally matured sweet Tokaji an oxidative character?"
       choices:
-        - { text: "Sparkling foam", correct: false }
-        - { text: "An oxidative note", correct: true }
-        - { text: "Red colour", correct: false }
-        - { text: "Zero sugar", correct: false }
+        - { text: "Bottle fermentation under crown cap", correct: false }
+        - { text: "Oxygen exposure in incompletely filled casks without protective flor", correct: true }
+        - { text: "Carbonic maceration of intact bunches", correct: false }
+        - { text: "Early bottling under strongly reducing conditions", correct: false }
       explanation: |
-        **An oxidative note.** No flor veil, plus ullage, lets air
-        mark the wine.
+        Because high sugar prevents a stable flor layer, ullage exposes the wine directly to oxygen and can create nutty, caramelised notes.
+    fr:
+      question: "Qu’est-ce qui peut donner un caractère oxydatif à un Tokaji doux élevé traditionnellement ?"
+      choices:
+        - { text: "Une fermentation en bouteille sous capsule couronne", correct: false }
+        - { text: "Une exposition à l’oxygène dans des fûts incomplètement remplis sans voile protecteur", correct: true }
+        - { text: "Une macération carbonique de grappes entières", correct: false }
+        - { text: "Une mise précoce dans des conditions fortement réductrices", correct: false }
+      explanation: |
+        Comme la forte teneur en sucre empêche la formation d’un voile stable, l’espace d’air expose directement le vin à l’oxygène et peut créer des notes de fruits à coque et de caramel.
 
   - id: tokaj-fill-casks-001
     type: mcq
@@ -655,15 +909,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: How do many cellars now treat sweet Tokaji casks to keep oxidation down?
+      question: "Which cellar practice helps producers retain a fresher, less oxidative style in sweet Tokaji?"
       choices:
-        - { text: "They leave a large ullage on purpose", correct: false }
-        - { text: "They fill the casks", correct: true }
-        - { text: "They boil the wine", correct: false }
-        - { text: "They ban oak", correct: false }
+        - { text: "Leaving substantial ullage throughout maturation", correct: false }
+        - { text: "Keeping maturation vessels topped up", correct: true }
+        - { text: "Holding the wine beneath a permanent flor layer", correct: false }
+        - { text: "Aerating the wine repeatedly before bottling", correct: false }
       explanation: |
-        **They fill the casks.** A full barrel is the modern, fresher
-        sweet-Tokaji habit.
+        A full vessel limits oxygen contact, preserving primary fruit and freshness. This contrasts with older oxidative handling in partially filled casks.
+    fr:
+      question: "Quelle pratique de cave aide les producteurs à conserver un style plus frais et moins oxydatif dans les Tokaji doux ?"
+      choices:
+        - { text: "Maintenir un espace d’air important pendant tout l’élevage", correct: false }
+        - { text: "Ouiller les contenants d’élevage", correct: true }
+        - { text: "Conserver le vin sous un voile permanent", correct: false }
+        - { text: "Aérer régulièrement le vin avant la mise", correct: false }
+      explanation: |
+        Un contenant plein limite le contact avec l’oxygène et préserve le fruit primaire et la fraîcheur. Cette approche s’oppose à l’ancien élevage oxydatif en fûts partiellement remplis.
 
   - id: tokaj-aszu-method-001
     type: mcq
@@ -675,17 +937,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: How does Tokaji Aszú begin in the cellar?
+      question: "Which process defines the production of Tokaji Aszú?"
       choices:
-        - { text: "Only free-run aszú juice, never a base wine", correct: false }
-        - { text: "A base wine from healthy grapes, then aszú berries macerated in that wine before, during or after the ferment", correct: true }
-        - { text: "The grapes are boiled", correct: false }
-        - { text: "Red grapes are carbonic-macerated", correct: false }
+        - { text: "Pressing aszú berries directly and fermenting only their free-run juice", correct: false }
+        - { text: "Macerating selected aszú berries in must, fermenting must or wine from the same vintage", correct: true }
+        - { text: "Fermenting whole partly botrytised bunches without berry selection", correct: false }
+        - { text: "Drying healthy bunches after harvest before direct pressing", correct: false }
       explanation: |
-        **A base wine from healthy grapes, then aszú berries
-        macerated in that wine before, during or after the ferment.**
-        The mix is pressed and then raised in oak. Eszencia is the
-        free-run aszú juice, not this soak.
+        After maceration, the mixture is pressed and fermentation continues or restarts. Direct free-run juice from aszú berries is instead the basis of Eszencia.
+    fr:
+      question: "Quel procédé définit l’élaboration du Tokaji Aszú ?"
+      choices:
+        - { text: "Presser directement les baies aszú et fermenter uniquement leur jus de goutte", correct: false }
+        - { text: "Faire macérer des baies aszú sélectionnées dans du moût, du moût en fermentation ou du vin du même millésime", correct: true }
+        - { text: "Fermenter des grappes entières partiellement botrytisées sans sélection des baies", correct: false }
+        - { text: "Sécher des grappes saines après récolte avant pressurage direct", correct: false }
+      explanation: |
+        Après la macération, le mélange est pressé et la fermentation se poursuit ou redémarre. Le jus de goutte direct des baies aszú sert, lui, de base à l’Eszencia.
 
   - id: tokaj-aszu-maceration-001
     type: mcq
@@ -697,14 +965,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: How long do aszú berries usually soak in the Tokaji base wine?
+      question: "For approximately how long are aszú berries commonly macerated in the liquid used to make Tokaji Aszú?"
       choices:
-        - { text: "Twelve months", correct: false }
-        - { text: "12 to 60 hours", correct: true }
-        - { text: "Six minutes", correct: false }
-        - { text: "Five years", correct: false }
+        - { text: "Two to six hours", correct: false }
+        - { text: "Twelve to sixty hours", correct: true }
+        - { text: "Five to ten days", correct: false }
+        - { text: "Three to six months", correct: false }
       explanation: |
-        **12 to 60 hours.** A short soak, then press.
+        This relatively short extraction transfers sugar, flavour and some phenolic material before the mixture is pressed. Exact practice varies by producer.
+    fr:
+      question: "Pendant combien de temps environ les baies aszú macèrent-elles généralement dans le liquide destiné au Tokaji Aszú ?"
+      choices:
+        - { text: "Deux à six heures", correct: false }
+        - { text: "Douze à soixante heures", correct: true }
+        - { text: "Cinq à dix jours", correct: false }
+        - { text: "Trois à six mois", correct: false }
+      explanation: |
+        Cette extraction relativement courte transfère les sucres, les arômes et une partie des composés phénoliques avant le pressurage. La pratique exacte varie selon les producteurs.
 
   - id: tokaj-aszu-paste-001
     type: mcq
@@ -716,15 +993,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Before modern whole-berry work, aszú fruit went into the base wine as what?
+      question: "How were selected aszú berries traditionally prepared before maceration?"
       choices:
-        - { text: "Left as whole frozen clusters", correct: false }
-        - { text: "Crushed to a paste", correct: true }
-        - { text: "Distilled first", correct: false }
-        - { text: "Dried on mats in the sun only", correct: false }
+        - { text: "Kept as intact frozen bunches", correct: false }
+        - { text: "Crushed into an aszú paste", correct: true }
+        - { text: "Dried on straw for three months", correct: false }
+        - { text: "Distilled into grape spirit", correct: false }
       explanation: |
-        **Crushed to a paste.** The old aszú dough went into the
-        base wine.
+        Crushing increased extraction into the base liquid. Many modern producers instead macerate whole berries to obtain a gentler phenolic profile.
+    fr:
+      question: "Comment préparait-on traditionnellement les baies aszú sélectionnées avant la macération ?"
+      choices:
+        - { text: "Elles restaient sous forme de grappes entières gelées", correct: false }
+        - { text: "Elles étaient écrasées en pâte d’aszú", correct: true }
+        - { text: "Elles séchaient sur paille pendant trois mois", correct: false }
+        - { text: "Elles étaient distillées en eau-de-vie de raisin", correct: false }
+      explanation: |
+        L’écrasement augmentait l’extraction dans le liquide de base. De nombreux producteurs modernes font plutôt macérer les baies entières afin d’obtenir un profil phénolique plus délicat.
 
   - id: tokaj-aszu-whole-001
     type: mcq
@@ -736,15 +1021,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Why do many Tokaj cellars now soak aszú berries uncrushed?
+      question: "Why may a modern Tokaj producer macerate whole aszú berries rather than a crushed paste?"
       choices:
-        - { text: "To add more colour", correct: false }
-        - { text: "To avoid pulling bitter flavours", correct: true }
-        - { text: "Law requires a paste", correct: false }
-        - { text: "To make a dry red", correct: false }
+        - { text: "To maximise extraction of seed tannins", correct: false }
+        - { text: "To reduce extraction of bitter phenolic compounds", correct: true }
+        - { text: "To prevent any transfer of sugar", correct: false }
+        - { text: "To create carbon dioxide inside intact bunches", correct: false }
       explanation: |
-        **To avoid pulling bitter flavours.** Whole berries, shorter
-        harshness.
+        Gentler extraction can preserve purity of fruit while still transferring the concentrated sugars and botrytis-derived flavours.
+    fr:
+      question: "Pourquoi un producteur moderne de Tokaj peut-il faire macérer les baies aszú entières plutôt qu’une pâte écrasée ?"
+      choices:
+        - { text: "Pour maximiser l’extraction des tanins des pépins", correct: false }
+        - { text: "Pour réduire l’extraction de composés phénoliques amers", correct: true }
+        - { text: "Pour empêcher tout transfert de sucre", correct: false }
+        - { text: "Pour créer du dioxyde de carbone dans les grappes intactes", correct: false }
+      explanation: |
+        Une extraction plus douce peut préserver la pureté du fruit tout en transférant les sucres concentrés et les arômes issus du botrytis.
 
   - id: tokaj-aszu-sweetness-001
     type: mcq
@@ -756,16 +1049,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What mainly sets how sweet a Tokaji Aszú will be?
+      question: "Which production choice most directly raises the potential sweetness and concentration of Tokaji Aszú?"
       choices:
-        - { text: "The colour of the bottle", correct: false }
-        - { text: "How many aszú berries go into the base wine", correct: true }
-        - { text: "Chaptalisation after bottling", correct: false }
-        - { text: "Adding grape must only at service", correct: false }
+        - { text: "Using a larger volume of base wine for the same quantity of berries", correct: false }
+        - { text: "Using a higher proportion of aszú berries to base liquid", correct: true }
+        - { text: "Picking the healthy grapes earlier for the base wine", correct: false }
+        - { text: "Shortening the final period of wood maturation", correct: false }
       explanation: |
-        **How many aszú berries go into the base wine.** Today’s
-        label is a residual-sugar band; the dose of aszú is still
-        what built that sugar.
+        Historically, the number of puttony of berries added to a Gönc cask expressed this ratio. Current legal labelling is tied to residual sugar.
+    fr:
+      question: "Quel choix de production augmente le plus directement la douceur potentielle et la concentration du Tokaji Aszú ?"
+      choices:
+        - { text: "Utiliser davantage de vin de base pour une même quantité de baies", correct: false }
+        - { text: "Augmenter la proportion de baies aszú par rapport au liquide de base", correct: true }
+        - { text: "Récolter plus tôt les raisins sains destinés au vin de base", correct: false }
+        - { text: "Raccourcir la durée finale de l’élevage sous bois", correct: false }
+      explanation: |
+        Historiquement, le nombre de puttony de baies ajouté à un fût de Gönc exprimait ce rapport. L’étiquetage légal actuel est lié au sucre résiduel.
 
   - id: tokaj-puttony-001
     type: mcq
@@ -777,15 +1077,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What is the historic Hungarian unit for Aszú sweetness?
+      question: "What was a puttony in the traditional production of Tokaji Aszú?"
       choices:
-        - { text: "The amphora", correct: false }
-        - { text: "The puttony", correct: true }
-        - { text: "The pipe", correct: false }
-        - { text: "The barrique only", correct: false }
+        - { text: "A 136-litre cask for the base wine", correct: false }
+        - { text: "A harvesting hod holding roughly 23–25 kg of aszú berries", correct: true }
+        - { text: "A cellar measure of residual sugar", correct: false }
+        - { text: "A small oak barrel used for Eszencia", correct: false }
       explanation: |
-        **The puttony.** Once a hod of aszú tipped into a Gönc
-        cask; the word remains on the 5 and 6 puttonyos labels.
+        The number of hods added to a 136-litre Gönc cask historically indicated the wine’s concentration and eventual sweetness.
+    fr:
+      question: "Qu’était un puttony dans la production traditionnelle du Tokaji Aszú ?"
+      choices:
+        - { text: "Un fût de 136 litres destiné au vin de base", correct: false }
+        - { text: "Une hotte de vendange contenant environ 23 à 25 kg de baies aszú", correct: true }
+        - { text: "Une mesure de cave du sucre résiduel", correct: false }
+        - { text: "Un petit fût de chêne destiné à l’Eszencia", correct: false }
+      explanation: |
+        Le nombre de hottes ajouté à un fût de Gönc de 136 litres indiquait historiquement la concentration et la douceur finale du vin.
 
   - id: tokaj-aszu-profile-001
     type: mcq
@@ -797,15 +1105,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What does classic Tokaji Aszú look and taste like?
+      question: "Which profile is most typical of Tokaji Aszú?"
       choices:
-        - { text: "Pale, low-acid, and only green apple", correct: false }
-        - { text: "Deep amber, high acid, orange peel, apricot and honey", correct: true }
-        - { text: "Inky, tannic and black-fruited", correct: false }
-        - { text: "Always sparkling and dry", correct: false }
+        - { text: "Pale lemon, low acidity, fresh apple and little sweetness", correct: false }
+        - { text: "Gold to amber, high acidity, apricot, orange peel and honey", correct: true }
+        - { text: "Deep ruby, high tannin, black fruit and pepper", correct: false }
+        - { text: "Pale pink, medium acidity, strawberry and residual carbon dioxide", correct: false }
       explanation: |
-        **Deep amber, high acid, orange peel, apricot and honey.**
-        The acid is what carries the sugar.
+        Noble rot and berry shrivelling create intense dried-fruit and honeyed flavours, while Furmint’s acidity balances the high sugar.
+    fr:
+      question: "Quel profil est le plus typique du Tokaji Aszú ?"
+      choices:
+        - { text: "Jaune pâle, acidité faible, pomme fraîche et peu de douceur", correct: false }
+        - { text: "Doré à ambré, acidité élevée, abricot, écorce d’orange et miel", correct: true }
+        - { text: "Rubis profond, tanins élevés, fruits noirs et poivre", correct: false }
+        - { text: "Rose pâle, acidité moyenne, fraise et gaz carbonique résiduel", correct: false }
+      explanation: |
+        La pourriture noble et le passerillage des baies créent des arômes intenses de fruits secs et de miel, tandis que l’acidité du Furmint équilibre la forte teneur en sucre.
 
   - id: tokaj-aszu-concentration-001
     type: mcq
@@ -817,15 +1133,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What happens to Tokaji Aszú as the sweetness band rises?
+      question: "How does a 6-puttonyos Tokaji Aszú generally differ from a 5-puttonyos example?"
       choices:
-        - { text: "The wine becomes drier and paler", correct: false }
-        - { text: "The wine becomes more concentrated and intense", correct: true }
-        - { text: "Alcohol is legally capped at 5 percent", correct: false }
-        - { text: "Colour is stripped out", correct: false }
+        - { text: "It is drier and legally lower in residual sugar", correct: false }
+        - { text: "It is sweeter and generally more concentrated and intense", correct: true }
+        - { text: "It is fortified and therefore higher in alcohol", correct: false }
+        - { text: "It is made from whole bunches rather than selected berries", correct: false }
       explanation: |
-        **The wine becomes more concentrated and intense.** Six
-        puttonyos is denser than five.
+        The 6-puttonyos indication requires at least 150 g/L residual sugar, compared with the 120 g/L minimum applying to Aszú generally.
+    fr:
+      question: "En quoi un Tokaji Aszú 6 puttonyos diffère-t-il généralement d’un 5 puttonyos ?"
+      choices:
+        - { text: "Il est plus sec et légalement moins riche en sucre résiduel", correct: false }
+        - { text: "Il est plus doux et généralement plus concentré et intense", correct: true }
+        - { text: "Il est fortifié et donc plus alcoolisé", correct: false }
+        - { text: "Il est produit à partir de grappes entières plutôt que de baies sélectionnées", correct: false }
+      explanation: |
+        La mention 6 puttonyos exige au moins 150 g/L de sucre résiduel, contre un minimum général de 120 g/L pour l’Aszú.
 
   - id: tokaj-eszencia-rarity-001
     type: mcq
@@ -837,15 +1161,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What is Tokaji Eszencia, in the market sense?
+      question: "How is Tokaji Eszencia positioned commercially?"
       choices:
-        - { text: "The everyday dry house white", correct: false }
-        - { text: "A very rare sweet wine, seldom seen outside Tokaj", correct: true }
-        - { text: "A cheap sparkling red", correct: false }
-        - { text: "A fortified Muscat from the Great Plain", correct: false }
+        - { text: "As the region’s principal inexpensive dry white", correct: false }
+        - { text: "As an exceptionally rare, intensely sweet wine made in tiny quantities", correct: true }
+        - { text: "As a widely produced medium-sweet blending wine", correct: false }
+        - { text: "As Tokaj’s standard traditional-method sparkling wine", correct: false }
       explanation: |
-        **A very rare sweet wine, seldom seen outside Tokaj.** It is
-        not a dry white.
+        Very little juice drains naturally from the selected berries, and fermentation is extremely slow, making production scarce and costly.
+    fr:
+      question: "Comment le Tokaji Eszencia se positionne-t-il commercialement ?"
+      choices:
+        - { text: "Comme le principal blanc sec peu coûteux de la région", correct: false }
+        - { text: "Comme un vin exceptionnellement rare et intensément doux, produit en quantités infimes", correct: true }
+        - { text: "Comme un vin d’assemblage demi-doux largement produit", correct: false }
+        - { text: "Comme l’effervescent de méthode traditionnelle standard de Tokaj", correct: false }
+      explanation: |
+        Très peu de jus s’écoule naturellement des baies sélectionnées et la fermentation est extrêmement lente, ce qui rend la production rare et coûteuse.
 
   - id: tokaj-eszencia-freerun-001
     type: mcq
@@ -857,15 +1189,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What liquid is Tokaji Eszencia made from?
+      question: "What is the source of the juice used for Tokaji Eszencia?"
       choices:
-        - { text: "A dry Furmint fermented in steel", correct: false }
-        - { text: "The free-run juice of aszú berries", correct: true }
-        - { text: "Red Kadarka skins", correct: false }
-        - { text: "Distilled aszú paste", correct: false }
+        - { text: "The first pressing of healthy Furmint bunches", correct: false }
+        - { text: "Free-run juice released by the weight of collected aszú berries", correct: true }
+        - { text: "The liquid remaining after Aszú maceration and pressing", correct: false }
+        - { text: "Concentrated must obtained by heating late-harvest grapes", correct: false }
       explanation: |
-        **The free-run juice of aszú berries.** Gravity only — not
-        the Aszú soak in a base wine, and not a dry white.
+        The selected berries are not pressed for this wine. Their own weight releases a tiny volume of exceptionally concentrated must.
+    fr:
+      question: "D’où provient le jus utilisé pour le Tokaji Eszencia ?"
+      choices:
+        - { text: "Du premier pressurage de grappes saines de Furmint", correct: false }
+        - { text: "Du jus de goutte libéré sous le poids des baies aszú recueillies", correct: true }
+        - { text: "Du liquide restant après macération et pressurage de l’Aszú", correct: false }
+        - { text: "De moût concentré par chauffage de raisins vendangés tardivement", correct: false }
+      explanation: |
+        Les baies sélectionnées ne sont pas pressées pour ce vin. Leur propre poids libère un volume infime de moût exceptionnellement concentré.
 
   - id: tokaj-eszencia-ferment-001
     type: mcq
@@ -877,15 +1217,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Why can a Tokaji Eszencia ferment for years and still sit under 5% alcohol?
+      question: "Why does Tokaji Eszencia ferment extremely slowly and usually retain very low alcohol?"
       choices:
-        - { text: "Law caps every Eszencia at 15%", correct: false }
-        - { text: "The must is so sweet that yeast barely works", correct: true }
-        - { text: "It is diluted with water", correct: false }
-        - { text: "It is a dry wine", correct: false }
+        - { text: "The must lacks fermentable sugar", correct: false }
+        - { text: "Its enormous sugar concentration inhibits yeast activity", correct: true }
+        - { text: "Fermentation is stopped by adding grape spirit", correct: false }
+        - { text: "The wine is filtered before any yeast becomes active", correct: false }
       explanation: |
-        **The must is so sweet that yeast barely works.** Years of
-        ferment, and the wine may still be under 5% abv.
+        Extreme osmotic pressure makes conditions hostile to yeast. Fermentation may continue for years while converting only a small proportion of the sugar.
+    fr:
+      question: "Pourquoi le Tokaji Eszencia fermente-t-il extrêmement lentement et conserve-t-il généralement très peu d’alcool ?"
+      choices:
+        - { text: "Le moût ne contient pas de sucre fermentescible", correct: false }
+        - { text: "Son énorme concentration en sucre inhibe l’activité des levures", correct: true }
+        - { text: "La fermentation est interrompue par ajout d’eau-de-vie", correct: false }
+        - { text: "Le vin est filtré avant toute activité des levures", correct: false }
+      explanation: |
+        La pression osmotique extrême rend le milieu hostile aux levures. La fermentation peut se poursuivre pendant des années tout en ne transformant qu’une faible part du sucre.
 
   - id: tokaj-eszencia-sugar-001
     type: mcq
@@ -897,15 +1245,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What legal minimum attaches to Tokaji Eszencia?
+      question: "What is the minimum residual sugar required for Tokaji Eszencia?"
       choices:
-        - { text: "450 g/L of alcohol", correct: false }
-        - { text: "450 g/L residual sugar", correct: true }
-        - { text: "12% alcohol by law", correct: false }
-        - { text: "60 g/L sugar, like old 3 puttonyos Aszú", correct: false }
+        - { text: "180 g/L", correct: false }
+        - { text: "450 g/L", correct: true }
+        - { text: "120 g/L", correct: false }
+        - { text: "150 g/L", correct: false }
       explanation: |
-        **450 g/L residual sugar.** That number is sugar, not
-        alcohol; Eszencia often stays well under 5% abv.
+        This exceptionally high threshold distinguishes free-run Eszencia from Aszú, whose general minimum is 120 g/L.
+    fr:
+      question: "Quelle est la teneur minimale en sucre résiduel exigée pour le Tokaji Eszencia ?"
+      choices:
+        - { text: "180 g/L", correct: false }
+        - { text: "450 g/L", correct: true }
+        - { text: "120 g/L", correct: false }
+        - { text: "150 g/L", correct: false }
+      explanation: |
+        Ce seuil exceptionnellement élevé distingue l’Eszencia de jus de goutte de l’Aszú, dont le minimum général est de 120 g/L.
 
   - id: tokaj-eszencia-style-001
     type: mcq
@@ -917,15 +1273,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: How does Tokaji Eszencia stay drinkable despite huge sweetness?
+      question: "What prevents Tokaji Eszencia from tasting merely cloying despite its extreme sugar level?"
       choices:
-        - { text: "By adding soda", correct: false }
-        - { text: "Very high acidity, and it can keep that freshness for a century or more", correct: true }
-        - { text: "By being served warm", correct: false }
-        - { text: "It has no acid", correct: false }
+        - { text: "High tannin and fortification", correct: false }
+        - { text: "Very high acidity and intense flavour concentration", correct: true }
+        - { text: "Low acidity and deliberate dilution", correct: false }
+        - { text: "Carbonation and a high serving temperature", correct: false }
       explanation: |
-        **Very high acidity, and it can keep that freshness for a
-        century or more.** Concentration plus acid, not dilution.
+        Acidity provides balance and, together with sugar and concentration, gives well-made Eszencia an extraordinary capacity to age for decades.
+    fr:
+      question: "Qu’est-ce qui empêche le Tokaji Eszencia de paraître simplement écœurant malgré son taux de sucre extrême ?"
+      choices:
+        - { text: "Des tanins élevés et le mutage", correct: false }
+        - { text: "Une acidité très élevée et une forte concentration aromatique", correct: true }
+        - { text: "Une acidité faible et une dilution volontaire", correct: false }
+        - { text: "L’effervescence et une température de service élevée", correct: false }
+      explanation: |
+        L’acidité apporte l’équilibre et, avec le sucre et la concentration, confère aux grands Eszencia une extraordinaire capacité de garde pendant des décennies.
 
   - id: tokaj-late-harvest-fruit-001
     type: mcq
@@ -937,15 +1301,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: How are Tokaj’s modern sweet wines, besides Aszú, usually grown?
+      question: "Which fruit is typically used for Tokaj Late Harvest wines?"
       choices:
-        - { text: "From red grapes only", correct: false }
-        - { text: "From grapes left a long time on the vine, sometimes with botrytis", correct: true }
-        - { text: "Only from ice-wine presses in January", correct: false }
-        - { text: "By adding sugar to dry Furmint", correct: false }
+        - { text: "Early-picked grapes with high acidity and no shrivelling", correct: false }
+        - { text: "Late-picked, concentrated grapes that may include some botrytised fruit", correct: true }
+        - { text: "Individually selected aszú berries exclusively", correct: false }
+        - { text: "Frozen grapes harvested and pressed below −7°C", correct: false }
       explanation: |
-        **From grapes left a long time on the vine, sometimes with
-        botrytis.** Hang-time first; rot is optional.
+        Longer hang-time raises sugar and flavour concentration. Botrytis may contribute, but unlike Aszú it is not required to be selected berry by berry.
+    fr:
+      question: "Quels raisins utilise-t-on généralement pour les vins Late Harvest de Tokaj ?"
+      choices:
+        - { text: "Des raisins précoces très acides et non passerillés", correct: false }
+        - { text: "Des raisins vendangés tardivement et concentrés, pouvant inclure une part de fruits botrytisés", correct: true }
+        - { text: "Exclusivement des baies aszú sélectionnées individuellement", correct: false }
+        - { text: "Des raisins gelés récoltés et pressés sous −7 °C", correct: false }
+      explanation: |
+        La prolongation de la maturation sur pied augmente les sucres et la concentration aromatique. Le botrytis peut intervenir, mais il n’est pas nécessaire de sélectionner les baies une par une comme pour l’Aszú.
 
   - id: tokaj-late-harvest-ferment-001
     type: mcq
@@ -957,15 +1329,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: When a Tokaj Late Harvest wine uses botrytis fruit, how does the cellar work differ from Aszú?
+      question: "Which process distinguishes Tokaj Late Harvest from Tokaji Aszú?"
       choices:
-        - { text: "They must use the aszú soak in a base wine", correct: false }
-        - { text: "The botrytised grapes are fermented as fruit, not soaked as aszú berries in a base wine", correct: true }
-        - { text: "They are always fortified", correct: false }
-        - { text: "They are distilled", correct: false }
+        - { text: "Selected berries macerate separately in a base liquid", correct: false }
+        - { text: "The harvested fruit ferments directly without a separate aszú maceration", correct: true }
+        - { text: "Partly botrytised whole bunches mature beneath flor", correct: false }
+        - { text: "Free-run juice drains from selected berries without pressing", correct: false }
       explanation: |
-        **The botrytised grapes are fermented as fruit, not soaked
-        as aszú berries in a base wine.** No aszú maceration.
+        Aszú requires separately selected berries to be extracted in must, fermenting must or wine; Late Harvest does not use this two-part process.
+    fr:
+      question: "Quel procédé distingue le Tokaj Late Harvest du Tokaji Aszú ?"
+      choices:
+        - { text: "Des baies sélectionnées macèrent séparément dans un liquide de base", correct: false }
+        - { text: "Les raisins récoltés fermentent directement, sans macération aszú séparée", correct: true }
+        - { text: "Des grappes entières partiellement botrytisées vieillissent sous voile", correct: false }
+        - { text: "Le jus s’écoule de baies sélectionnées sans pressurage", correct: false }
+      explanation: |
+        L’Aszú exige l’extraction de baies sélectionnées séparément dans du moût, du moût en fermentation ou du vin ; le Late Harvest n’emploie pas ce procédé en deux parties.
 
   - id: tokaj-late-harvest-age-001
     type: mcq
@@ -977,15 +1357,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: How does the ageing of Tokaj Late Harvest often compare with Aszú?
+      question: "How does maturation of Tokaj Late Harvest generally compare with that of Tokaji Aszú?"
       choices:
-        - { text: "They must wait ten years", correct: false }
-        - { text: "They may be matured for less time", correct: true }
-        - { text: "They are released only after a century", correct: false }
-        - { text: "Oak is banned", correct: false }
+        - { text: "It must spend longer in wood than Aszú", correct: false }
+        - { text: "It is generally released earlier and is not subject to Aszú’s 18-month wood minimum", correct: true }
+        - { text: "It must spend the same minimum time in wood and bottle", correct: false }
+        - { text: "It cannot be released until ten years after harvest", correct: false }
       explanation: |
-        **They may be matured for less time.** Earlier to bottle
-        than Aszú.
+        The style is commonly intended to preserve fresh fruit and reach the market sooner, whereas Aszú must undergo extended wood maturation.
+    fr:
+      question: "Comment l’élevage d’un Tokaj Late Harvest se compare-t-il généralement à celui d’un Tokaji Aszú ?"
+      choices:
+        - { text: "Il doit rester plus longtemps sous bois que l’Aszú", correct: false }
+        - { text: "Il est généralement commercialisé plus tôt et n’est pas soumis aux 18 mois minimum sous bois de l’Aszú", correct: true }
+        - { text: "Il doit respecter la même durée minimale sous bois et en bouteille", correct: false }
+        - { text: "Il ne peut être commercialisé que dix ans après la récolte", correct: false }
+      explanation: |
+        Ce style cherche souvent à préserver le fruit frais et à arriver plus tôt sur le marché, tandis que l’Aszú doit subir un élevage prolongé sous bois.
 
   - id: tokaj-late-harvest-label-001
     type: mcq
@@ -997,14 +1385,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What English words usually label Tokaj’s modern sweet wines that are not Aszú?
+      question: "Which expression commonly identifies Tokaj’s modern, early-release sweet style outside the traditional Aszú and Szamorodni categories?"
       choices:
-        - { text: "Premier Cru", correct: false }
+        - { text: "Aszú Eszencia", correct: false }
         - { text: "Late Harvest", correct: true }
-        - { text: "Icewine only", correct: false }
-        - { text: "Cream Sherry", correct: false }
+        - { text: "Fordítás", correct: false }
+        - { text: "Száraz", correct: false }
       explanation: |
-        **Late Harvest.** Not Aszú, not Eszencia.
+        Labels may use the English expression or its Hungarian equivalent. These wines often emphasise ripe fruit and a shorter maturation period.
+    fr:
+      question: "Quelle expression identifie couramment le style doux moderne de Tokaj, commercialisé assez tôt en dehors des catégories traditionnelles Aszú et Szamorodni ?"
+      choices:
+        - { text: "Aszú Eszencia", correct: false }
+        - { text: "Late Harvest", correct: true }
+        - { text: "Fordítás", correct: false }
+        - { text: "Száraz", correct: false }
+      explanation: |
+        Les étiquettes peuvent employer l’expression anglaise ou son équivalent hongrois. Ces vins mettent souvent l’accent sur le fruit mûr et un élevage plus court.
 
   - id: tokaj-rules-2013-001
     type: mcq
@@ -1016,15 +1413,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: The rewrite that dropped 3- and 4-puttonyos Aszú took effect in which year?
+      question: "Which major rule changed for Tokaji Aszú beginning with the 2013 vintage?"
       choices:
-        - { text: "1855", correct: false }
-        - { text: "2013", correct: true }
-        - { text: "1970", correct: false }
-        - { text: "2020", correct: false }
+        - { text: "The minimum residual sugar fell from 120 to 60 g/L", correct: false }
+        - { text: "The minimum residual sugar became 120 g/L for every Aszú", correct: true }
+        - { text: "All puttonyos indications became compulsory", correct: false }
+        - { text: "Wood maturation was abolished", correct: false }
       explanation: |
-        **2013.** That rewrite is why Aszú now wears only 5 and 6
-        puttonyos.
+        The new floor matched the former 5-puttonyos threshold. This made the old lower-sugar 3- and 4-puttonyos styles commercially obsolete.
+    fr:
+      question: "Quelle règle majeure a changé pour le Tokaji Aszú à partir du millésime 2013 ?"
+      choices:
+        - { text: "Le sucre résiduel minimal est passé de 120 à 60 g/L", correct: false }
+        - { text: "Le sucre résiduel minimal est devenu 120 g/L pour tout Aszú", correct: true }
+        - { text: "Toutes les mentions de puttonyos sont devenues obligatoires", correct: false }
+        - { text: "L’élevage sous bois a été supprimé", correct: false }
+      explanation: |
+        Ce nouveau minimum correspondait à l’ancien seuil du 5 puttonyos. Il a rendu commercialement obsolètes les anciens styles 3 et 4 puttonyos, moins doux.
 
   - id: tokaj-old-bottles-001
     type: mcq
@@ -1036,15 +1441,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Why can a Tokaji Aszú bottle still show 3 or 4 puttonyos?
+      question: "What does a 3- or 4-puttonyos indication usually signal on a bottle of Tokaji Aszú found today?"
       choices:
-        - { text: "Current law still prints 3 and 4 on new Aszú", correct: false }
-        - { text: "It was made under the pre-2013 rules, and older vintages remain in circulation", correct: true }
-        - { text: "Those numbers mean dry wine", correct: false }
-        - { text: "Puttonyos were invented in 2020", correct: false }
+        - { text: "A current Aszú with at least 150 g/L residual sugar", correct: false }
+        - { text: "A wine made under the older tiered sugar rules", correct: true }
+        - { text: "A dry Szamorodni bottled in the Aszú format", correct: false }
+        - { text: "An Eszencia produced without botrytis", correct: false }
       explanation: |
-        **It was made under the pre-2013 rules, and older vintages
-        remain in circulation.** New Aszú is 5 or 6 puttonyos only.
+        Before the 2013 vintage, 3 and 4 puttonyos corresponded to minimums of 60 and 90 g/L respectively, so older bottles remain in circulation.
+    fr:
+      question: "Que signale généralement une mention 3 ou 4 puttonyos sur une bouteille de Tokaji Aszú rencontrée aujourd’hui ?"
+      choices:
+        - { text: "Un Aszú actuel contenant au moins 150 g/L de sucre résiduel", correct: false }
+        - { text: "Un vin élaboré sous l’ancien système de seuils de sucre", correct: true }
+        - { text: "Un Szamorodni sec embouteillé au format de l’Aszú", correct: false }
+        - { text: "Une Eszencia produite sans botrytis", correct: false }
+      explanation: |
+        Avant le millésime 2013, les mentions 3 et 4 puttonyos correspondaient respectivement à des minimums de 60 et 90 g/L ; ces bouteilles anciennes restent donc en circulation.
 
   - id: tokaj-aszu-old-sugar-001
     type: mcq
@@ -1056,15 +1469,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What residual-sugar floor did Tokaji Aszú need before the 2013 rewrite?
+      question: "What were the minimum residual-sugar levels for 3- and 4-puttonyos Aszú under the pre-2013 system?"
       choices:
-        - { text: "450 g/L", correct: false }
-        - { text: "60 g/L", correct: true }
-        - { text: "12 g/L", correct: false }
-        - { text: "No sugar was allowed", correct: false }
+        - { text: "45 and 60 g/L", correct: false }
+        - { text: "60 and 90 g/L", correct: true }
+        - { text: "90 and 120 g/L", correct: false }
+        - { text: "120 and 150 g/L", correct: false }
       explanation: |
-        **60 g/L.** That was the old 3-puttonyos floor. Current Aszú
-        starts much sweeter.
+        The scale then continued to 120 g/L for 5 puttonyos and 150 g/L for 6 puttonyos. Current Aszú starts at 120 g/L.
+    fr:
+      question: "Quels étaient les taux minimaux de sucre résiduel des Aszú 3 et 4 puttonyos dans le système antérieur à 2013 ?"
+      choices:
+        - { text: "45 et 60 g/L", correct: false }
+        - { text: "60 et 90 g/L", correct: true }
+        - { text: "90 et 120 g/L", correct: false }
+        - { text: "120 et 150 g/L", correct: false }
+      explanation: |
+        L’échelle se poursuivait avec 120 g/L pour le 5 puttonyos et 150 g/L pour le 6 puttonyos. L’Aszú actuel commence à 120 g/L.
 
   - id: tokaj-puttonyos-current-001
     type: mcq
@@ -1076,15 +1497,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which puttonyos bands may a current Tokaji Aszú legally carry?
+      question: "Which statement correctly describes current puttonyos labelling for Tokaji Aszú?"
       choices:
-        - { text: "Any number from 3 to 6", correct: false }
-        - { text: "5 and 6 puttonyos only", correct: true }
-        - { text: "1 and 2 only", correct: false }
-        - { text: "Puttonyos are banned", correct: false }
+        - { text: "Every Aszú must display a number from 3 to 6", correct: false }
+        - { text: "The number is optional; 6 puttonyos requires at least 150 g/L residual sugar", correct: true }
+        - { text: "Puttonyos numbers are prohibited on all new Aszú", correct: false }
+        - { text: "Any Aszú above 120 g/L must be labelled 6 puttonyos", correct: false }
       explanation: |
-        **5 and 6 puttonyos only.** The 3–6 scale is the pre-2013
-        label; new Aszú cannot wear 3 or 4.
+        All Aszú must contain at least 120 g/L residual sugar. In practice, 5 and 6 puttonyos are the familiar modern indications, but a number is not compulsory.
+    fr:
+      question: "Quelle affirmation décrit correctement l’étiquetage actuel en puttonyos du Tokaji Aszú ?"
+      choices:
+        - { text: "Tout Aszú doit afficher un nombre compris entre 3 et 6", correct: false }
+        - { text: "Le nombre est facultatif ; la mention 6 puttonyos exige au moins 150 g/L de sucre résiduel", correct: true }
+        - { text: "Les nombres de puttonyos sont interdits sur tous les nouveaux Aszú", correct: false }
+        - { text: "Tout Aszú dépassant 120 g/L doit porter la mention 6 puttonyos", correct: false }
+      explanation: |
+        Tout Aszú doit contenir au moins 120 g/L de sucre résiduel. En pratique, 5 et 6 puttonyos sont les mentions modernes habituelles, mais l’indication d’un nombre n’est pas obligatoire.
 
   - id: tokaj-aszu-old-ageing-001
     type: mcq
@@ -1096,15 +1525,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What oak-and-release clock applied to Aszú before the 2013 rewrite?
+      question: "How did the minimum wood maturation for Tokaji Aszú change with the rules applying from the 2013 vintage?"
       choices:
-        - { text: "Six weeks in steel", correct: false }
-        - { text: "24 months in oak, and no release before January of the fourth year after harvest", correct: true }
-        - { text: "18 months in bottle only, with no oak", correct: false }
-        - { text: "No ageing at all", correct: false }
+        - { text: "It increased from 18 to 24 months", correct: false }
+        - { text: "It decreased from 24 to 18 months", correct: true }
+        - { text: "It decreased from 18 to 6 months", correct: false }
+        - { text: "It changed from wood ageing to bottle ageing", correct: false }
       explanation: |
-        **24 months in oak, and no release before January of the
-        fourth year after harvest.** That was the old Aszú clock.
+        The change shortened the mandatory time in wood while preserving a substantial maturation period before release. Producers may age wines longer.
+    fr:
+      question: "Comment la durée minimale d’élevage sous bois du Tokaji Aszú a-t-elle évolué avec les règles applicables à partir du millésime 2013 ?"
+      choices:
+        - { text: "Elle est passée de 18 à 24 mois", correct: false }
+        - { text: "Elle est passée de 24 à 18 mois", correct: true }
+        - { text: "Elle est passée de 18 à 6 mois", correct: false }
+        - { text: "L’élevage sous bois a été remplacé par un élevage en bouteille", correct: false }
+      explanation: |
+        La modification a raccourci le passage obligatoire sous bois tout en maintenant un élevage conséquent avant commercialisation. Les producteurs peuvent prolonger cette durée.
 
   - id: tokaj-aszu-eszencia-sugar-001
     type: mcq
@@ -1116,17 +1553,23 @@ cards:
       fact_check: pass
       sources: [spec]
     en:
-      question: What residual-sugar floor did Aszú Eszencia need before the 2013 rewrite?
+      question: "How did the former Aszú Eszencia category differ analytically from today’s Tokaji Eszencia?"
       choices:
-        - { text: "60 g/L", correct: false }
-        - { text: "180 g/L", correct: true }
-        - { text: "120 g/L", correct: false }
-        - { text: "450 g/L", correct: false }
+        - { text: "It required 120 g/L rather than 150 g/L residual sugar", correct: false }
+        - { text: "It began at 180 g/L rather than Eszencia’s 450 g/L residual sugar", correct: true }
+        - { text: "It had no residual-sugar requirement", correct: false }
+        - { text: "It required 450 g/L but also compulsory fortification", correct: false }
       explanation: |
-        **180 g/L.** Pre-2013 Aszú Eszencia began at 180 g/L, above
-        the current Aszú floor of 120 g/L and below free-run
-        Tokaji Eszencia at 450 g/L. The 2013 rewrite dropped the
-        Aszú Eszencia name.
+        Aszú Eszencia was a very rich tier of macerated Aszú, not the minimally fermented free-run juice called Eszencia. The former category is no longer current.
+    fr:
+      question: "En quoi l’ancienne catégorie Aszú Eszencia différait-elle analytiquement du Tokaji Eszencia actuel ?"
+      choices:
+        - { text: "Elle exigeait 120 g/L au lieu de 150 g/L de sucre résiduel", correct: false }
+        - { text: "Elle commençait à 180 g/L, contre 450 g/L pour l’Eszencia", correct: true }
+        - { text: "Elle n’imposait aucun seuil de sucre résiduel", correct: false }
+        - { text: "Elle exigeait 450 g/L ainsi qu’un mutage obligatoire", correct: false }
+      explanation: |
+        Aszú Eszencia était un niveau très riche d’Aszú élaboré par macération, et non le jus de goutte très peu fermenté appelé Eszencia. Cette ancienne catégorie n’est plus actuelle.
 
   - id: tokaj-aszu-min-sugar-001
     type: mcq
@@ -1138,16 +1581,23 @@ cards:
       fact_check: pass
       sources: [spec]
     en:
-      question: What residual-sugar floor does Tokaji Aszú need after the 2013 rewrite?
+      question: "What is the current minimum residual sugar for Tokaji Aszú?"
       choices:
-        - { text: "60 g/L", correct: false }
+        - { text: "90 g/L", correct: false }
         - { text: "120 g/L", correct: true }
+        - { text: "150 g/L", correct: false }
         - { text: "180 g/L", correct: false }
-        - { text: "450 g/L", correct: false }
       explanation: |
-        **120 g/L.** The 2013 Aszú minimum is the old 5-puttonyos
-        residual-sugar band. Current Aszú labels are 5 or 6
-        puttonyos. Pre-2013 Aszú could start at 60 g/L.
+        This general minimum has applied since the 2013 vintage. A 6-puttonyos indication requires the higher threshold of 150 g/L.
+    fr:
+      question: "Quelle est la teneur minimale actuelle en sucre résiduel du Tokaji Aszú ?"
+      choices:
+        - { text: "90 g/L", correct: false }
+        - { text: "120 g/L", correct: true }
+        - { text: "150 g/L", correct: false }
+        - { text: "180 g/L", correct: false }
+      explanation: |
+        Ce minimum général s’applique depuis le millésime 2013. La mention 6 puttonyos exige le seuil supérieur de 150 g/L.
 
   - id: tokaj-five-puttonyos-sugar-001
     type: mcq
@@ -1159,16 +1609,23 @@ cards:
       fact_check: pass
       sources: [spec]
     en:
-      question: On the pre-2013 Aszú scale, which puttonyos band began at 120 g/L residual sugar?
+      question: "Why is the current 120 g/L minimum for Tokaji Aszú associated with 5 puttonyos?"
       choices:
-        - { text: "3 puttonyos", correct: false }
-        - { text: "5 puttonyos", correct: true }
-        - { text: "4 puttonyos", correct: false }
-        - { text: "6 puttonyos", correct: false }
+        - { text: "It was the old minimum for 4-puttonyos Aszú", correct: false }
+        - { text: "It was the old minimum for 5-puttonyos Aszú", correct: true }
+        - { text: "It is the current minimum for 6-puttonyos Aszú", correct: false }
+        - { text: "It was the old minimum for Aszú Eszencia", correct: false }
       explanation: |
-        **5 puttonyos.** On the pre-2013 scale, 5 puttonyos began
-        at 120 g/L. The 2013 rewrite made 120 g/L the Aszú
-        minimum, so current Aszú is labelled 5 or 6 puttonyos.
+        The 2013 reform adopted the former 5-puttonyos threshold as the floor for the entire Aszú category.
+    fr:
+      question: "Pourquoi le minimum actuel de 120 g/L du Tokaji Aszú est-il associé au niveau 5 puttonyos ?"
+      choices:
+        - { text: "Il correspondait à l’ancien minimum du 4 puttonyos", correct: false }
+        - { text: "Il correspondait à l’ancien minimum du 5 puttonyos", correct: true }
+        - { text: "Il constitue le minimum actuel du 6 puttonyos", correct: false }
+        - { text: "Il correspondait à l’ancien minimum de l’Aszú Eszencia", correct: false }
+      explanation: |
+        La réforme de 2013 a adopté l’ancien seuil du 5 puttonyos comme minimum pour l’ensemble de la catégorie Aszú.
 
   - id: tokaj-below-aszu-label-001
     type: mcq
@@ -1180,17 +1637,23 @@ cards:
       fact_check: pass
       sources: [spec]
     en:
-      question: Under the 2013 Tokaj rules, wines below the 120 g/L Aszú residual-sugar floor may be sold as which styles?
+      question: "A sweet Tokaj wine contains less than the 120 g/L required for Aszú. Which category may fit, depending on how it was made?"
       choices:
-        - { text: "Aszú at 5 puttonyos only", correct: false }
-        - { text: "Late Harvest or Szamorodni, depending on how the wine is made", correct: true }
-        - { text: "Aszú Eszencia", correct: false }
-        - { text: "Only free-run Eszencia", correct: false }
+        - { text: "Six-puttonyos Aszú or Eszencia", correct: false }
+        - { text: "Late Harvest or Édes Szamorodni", correct: true }
+        - { text: "Aszú Eszencia or dry Furmint", correct: false }
+        - { text: "Eszencia or Száraz Szamorodni", correct: false }
       explanation: |
-        **Late Harvest or Szamorodni, depending on how the wine
-        is made.** Under the 2013 rules a wine under 120 g/L
-        cannot be Aszú. Late Harvest is the modern sweet path;
-        Szamorodni is the whole-bunch, part-rotted path.
+        Late Harvest is made by direct fermentation of late-picked fruit, while sweet Szamorodni uses whole bunches containing healthy and botrytised berries.
+    fr:
+      question: "Un vin doux de Tokaj contient moins des 120 g/L exigés pour l’Aszú. Quelle catégorie peut convenir selon sa méthode d’élaboration ?"
+      choices:
+        - { text: "Aszú 6 puttonyos ou Eszencia", correct: false }
+        - { text: "Late Harvest ou Édes Szamorodni", correct: true }
+        - { text: "Aszú Eszencia ou Furmint sec", correct: false }
+        - { text: "Eszencia ou Száraz Szamorodni", correct: false }
+      explanation: |
+        Le Late Harvest provient de la fermentation directe de raisins vendangés tardivement, tandis que le Szamorodni doux utilise des grappes entières mêlant baies saines et botrytisées.
 
   - id: tokaj-aszu-eszencia-abolished-001
     type: mcq
@@ -1202,16 +1665,23 @@ cards:
       fact_check: pass
       sources: [spec]
     en:
-      question: Which Tokaj category name did the 2013 rewrite abolish?
+      question: "Which former Tokaj category must not be confused with the still-current free-run wine Eszencia?"
       choices:
-        - { text: "Szamorodni", correct: false }
+        - { text: "Édes Szamorodni", correct: false }
         - { text: "Aszú Eszencia", correct: true }
-        - { text: "Eszencia, the free-run juice wine", correct: false }
         - { text: "Late Harvest", correct: false }
+        - { text: "Fordítás", correct: false }
       explanation: |
-        **Aszú Eszencia.** The 2013 rewrite dropped Aszú Eszencia as
-        a legal category. Free-run Tokaji Eszencia remains a
-        separate wine at 450 g/L residual sugar.
+        Aszú Eszencia was removed from the current range of wine types; Tokaji Eszencia remains a separate speciality made from naturally released aszú juice.
+    fr:
+      question: "Quelle ancienne catégorie de Tokaj ne faut-il pas confondre avec le vin de goutte Eszencia, toujours actuel ?"
+      choices:
+        - { text: "Édes Szamorodni", correct: false }
+        - { text: "Aszú Eszencia", correct: true }
+        - { text: "Late Harvest", correct: false }
+        - { text: "Fordítás", correct: false }
+      explanation: |
+        Aszú Eszencia a été retiré de la gamme actuelle des types de vins ; Tokaji Eszencia reste une spécialité distincte issue du jus libéré naturellement par les baies aszú.
 
   - id: tokaj-aszu-oak-current-001
     type: mcq
@@ -1223,15 +1693,23 @@ cards:
       fact_check: pass
       sources: [spec]
     en:
-      question: How long must Tokaji Aszú stay in oak under the 2013 rules?
+      question: "What is the current minimum period of wood maturation for Tokaji Aszú?"
       choices:
-        - { text: "24 months", correct: false }
-        - { text: "18 months", correct: true }
-        - { text: "Six weeks in steel only", correct: false }
-        - { text: "No oak at all", correct: false }
+        - { text: "Six months", correct: false }
+        - { text: "Eighteen months", correct: true }
+        - { text: "Twenty-four months", correct: false }
+        - { text: "Thirty-six months", correct: false }
       explanation: |
-        **18 months.** The 2013 rewrite cut the Aszú oak stay from
-        the old 24-month rule to 18 months.
+        The minimum was reduced from 24 months for wines from the 2013 vintage onward, although many producers choose longer maturation.
+    fr:
+      question: "Quelle est la durée minimale actuelle d’élevage sous bois du Tokaji Aszú ?"
+      choices:
+        - { text: "Six mois", correct: false }
+        - { text: "Dix-huit mois", correct: true }
+        - { text: "Vingt-quatre mois", correct: false }
+        - { text: "Trente-six mois", correct: false }
+      explanation: |
+        Le minimum a été réduit par rapport aux anciens 24 mois à partir du millésime 2013, même si de nombreux producteurs prolongent l’élevage.
 
   - id: tokaj-aszu-release-current-001
     type: mcq
@@ -1243,13 +1721,20 @@ cards:
       fact_check: pass
       sources: [spec]
     en:
-      question: From which date may Tokaji Aszú be released under the 2013 rules?
+      question: "When may Tokaji Aszú be released at the earliest?"
       choices:
-        - { text: "January of the fourth year after harvest", correct: false }
-        - { text: "January of the third year after harvest", correct: true }
-        - { text: "The day after ferment", correct: false }
-        - { text: "Ten years after harvest only", correct: false }
+        - { text: "On 1 January of the second year following harvest", correct: false }
+        - { text: "On 1 January of the third year following harvest", correct: true }
+        - { text: "Immediately after completing 18 months in wood", correct: false }
+        - { text: "On 1 January of the fifth year following harvest", correct: false }
       explanation: |
-        **January of the third year after harvest.** The 2013
-        release gate is one year earlier than the old January of
-        the fourth year after harvest.
+        For example, an Aszú from the 2023 harvest cannot be released before 1 January 2026, even if its minimum wood maturation is complete earlier.
+    fr:
+      question: "À partir de quelle date un Tokaji Aszú peut-il être commercialisé au plus tôt ?"
+      choices:
+        - { text: "Le 1er janvier de la deuxième année suivant la récolte", correct: false }
+        - { text: "Le 1er janvier de la troisième année suivant la récolte", correct: true }
+        - { text: "Dès la fin des dix-huit mois sous bois", correct: false }
+        - { text: "Le 1er janvier de la cinquième année suivant la récolte", correct: false }
+      explanation: |
+        Par exemple, un Aszú issu de la récolte 2023 ne peut pas être commercialisé avant le 1er janvier 2026, même si son élevage minimal sous bois s’achève plus tôt.

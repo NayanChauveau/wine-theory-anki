@@ -22,7 +22,7 @@
 # Agents : mettre à jour ce fichier après chaque lot (voir STUDY_CARD_QUALITY.md).
 # Lots ≤ 40 cartes. Un chapitre à la fois.
 
-updated: 2026-09-29
+updated: 2026-09-30
 
 chapters:
   c13-bordeaux:
@@ -1811,7 +1811,130 @@ chapters:
       austria-dac-now-001: { isolation: revised, credibility: revised, length: pass, why: revised, sense: revised, status: agent-fixed, human: pending }
       austria-dac-agree-001: { isolation: pass, credibility: revised, length: pass, why: revised, sense: revised, status: agent-fixed, human: pending }
       austria-non-dac-state-001: { isolation: revised, credibility: revised, length: pass, why: revised, sense: revised, status: agent-fixed, human: pending }
-  c25-greece: { file: cards/c25-greece.yaml, status: pending }
+  c24-tokaj:
+    file: cards/c24-tokaj.yaml
+    status: awaiting-human
+    agent_wave: 2026-09-30
+    counts:
+      cards: 62
+      agent_fixed: 62
+      agent_pass: 0
+      human_ok: 0
+    note: >
+      Relecture complète EN/FR et actualisation factuelle du 2026-09-30.
+      Les 62 cartes ont été traduites et leurs stems, leurres, longueurs et
+      explications repris. Les règles actuelles de Szamorodni, Aszú,
+      puttonyos et Eszencia ont été distinguées des seuils historiques ; les
+      formulations absolues erronées sur les mentions 3 et 4 puttonyos ont
+      été supprimées.
+    cards:
+      tokaj-location-001: { isolation: pass, credibility: revised, length: pass, why: revised, sense: revised, status: agent-fixed, human: pending }
+      tokaj-climate-001: { isolation: pass, credibility: revised, length: pass, why: revised, sense: revised, status: agent-fixed, human: pending }
+      tokaj-best-sites-001: { isolation: pass, credibility: revised, length: pass, why: revised, sense: revised, status: agent-fixed, human: pending }
+      tokaj-botrytis-rivers-001: { isolation: pass, credibility: revised, length: pass, why: revised, sense: revised, status: agent-fixed, human: pending }
+      tokaj-three-grapes-001: { isolation: revised, credibility: revised, length: pass, why: revised, sense: revised, status: agent-fixed, human: pending }
+      tokaj-furmint-planted-001: { isolation: pass, credibility: pass, length: pass, why: revised, sense: revised, status: agent-fixed, human: pending }
+      tokaj-furmint-profile-001: { isolation: pass, credibility: revised, length: revised, why: revised, sense: revised, status: agent-fixed, human: pending }
+      tokaj-aszu-grape-001: { isolation: pass, credibility: revised, length: pass, why: revised, sense: revised, status: agent-fixed, human: pending }
+      tokaj-furmint-botrytis-001: { isolation: pass, credibility: revised, length: pass, why: revised, sense: revised, status: agent-fixed, human: pending }
+      tokaj-harslevelu-perfume-001: { isolation: pass, credibility: revised, length: pass, why: revised, sense: revised, status: agent-fixed, human: pending }
+      tokaj-harslevelu-late-001: { isolation: pass, credibility: revised, length: pass, why: revised, sense: revised, status: agent-fixed, human: pending }
+      tokaj-sargamuskotaly-synonym-001: { isolation: pass, credibility: revised, length: pass, why: revised, sense: revised, status: agent-fixed, human: pending }
+      tokaj-sargamuskotaly-blend-001: { isolation: pass, credibility: revised, length: pass, why: revised, sense: revised, status: agent-fixed, human: pending }
+      tokaj-styles-001: { isolation: revised, credibility: revised, length: pass, why: revised, sense: revised, status: agent-fixed, human: pending }
+      tokaj-bottle-size-001: { isolation: pass, credibility: revised, length: pass, why: revised, sense: revised, status: agent-fixed, human: pending }
+      tokaj-vintage-styles-001: { isolation: revised, credibility: revised, length: revised, why: revised, sense: revised, status: agent-fixed, human: pending }
+      tokaj-harvest-sort-001: { isolation: pass, credibility: revised, length: revised, why: revised, sense: revised, status: agent-fixed, human: pending }
+      tokaj-aszu-berries-001: { isolation: pass, credibility: revised, length: pass, why: revised, sense: revised, status: agent-fixed, human: pending }
+      tokaj-aszu-picking-001: { isolation: pass, credibility: revised, length: revised, why: revised, sense: revised, status: agent-fixed, human: pending }
+      tokaj-szamorodni-meaning-001: { isolation: pass, credibility: revised, length: pass, why: revised, sense: revised, status: agent-fixed, human: pending }
+      tokaj-szamorodni-fruit-001: { isolation: pass, credibility: revised, length: pass, why: revised, sense: revised, status: agent-fixed, human: pending }
+      tokaj-dry-role-001: { isolation: revised, credibility: revised, length: pass, why: revised, sense: revised, status: agent-fixed, human: pending }
+      tokaj-dry-range-001: { isolation: pass, credibility: revised, length: revised, why: revised, sense: revised, status: agent-fixed, human: pending }
+      tokaj-dry-furmint-001: { isolation: pass, credibility: revised, length: pass, why: revised, sense: revised, status: agent-fixed, human: pending }
+      tokaj-szaraz-001: { isolation: pass, credibility: pass, length: pass, why: revised, sense: revised, status: agent-fixed, human: pending }
+      tokaj-edes-001: { isolation: pass, credibility: pass, length: pass, why: revised, sense: revised, status: agent-fixed, human: pending }
+      tokaj-dry-szamorodni-rot-001: { isolation: revised, credibility: revised, length: pass, why: revised, sense: revised, status: agent-fixed, human: pending }
+      tokaj-szamorodni-ageing-001: { isolation: revised, credibility: revised, length: revised, why: revised, sense: revised, status: agent-fixed, human: pending }
+      tokaj-szamorodni-flor-001: { isolation: pass, credibility: revised, length: pass, why: revised, sense: revised, status: agent-fixed, human: pending }
+      tokaj-szamorodni-fino-001: { isolation: pass, credibility: revised, length: pass, why: revised, sense: revised, status: agent-fixed, human: pending }
+      tokaj-flor-which-001: { isolation: revised, credibility: revised, length: pass, why: revised, sense: revised, status: agent-fixed, human: pending }
+      tokaj-sweet-oxidative-001: { isolation: revised, credibility: revised, length: pass, why: revised, sense: revised, status: agent-fixed, human: pending }
+      tokaj-fill-casks-001: { isolation: pass, credibility: revised, length: pass, why: revised, sense: revised, status: agent-fixed, human: pending }
+      tokaj-aszu-method-001: { isolation: revised, credibility: revised, length: revised, why: revised, sense: revised, status: agent-fixed, human: pending }
+      tokaj-aszu-maceration-001: { isolation: pass, credibility: revised, length: pass, why: revised, sense: revised, status: agent-fixed, human: pending }
+      tokaj-aszu-paste-001: { isolation: pass, credibility: revised, length: pass, why: revised, sense: revised, status: agent-fixed, human: pending }
+      tokaj-aszu-whole-001: { isolation: pass, credibility: revised, length: pass, why: revised, sense: revised, status: agent-fixed, human: pending }
+      tokaj-aszu-sweetness-001: { isolation: pass, credibility: revised, length: pass, why: revised, sense: revised, status: agent-fixed, human: pending }
+      tokaj-puttony-001: { isolation: revised, credibility: revised, length: pass, why: revised, sense: revised, status: agent-fixed, human: pending }
+      tokaj-aszu-profile-001: { isolation: pass, credibility: revised, length: pass, why: revised, sense: revised, status: agent-fixed, human: pending }
+      tokaj-aszu-concentration-001: { isolation: revised, credibility: revised, length: pass, why: revised, sense: revised, status: agent-fixed, human: pending }
+      tokaj-eszencia-rarity-001: { isolation: pass, credibility: revised, length: pass, why: revised, sense: revised, status: agent-fixed, human: pending }
+      tokaj-eszencia-freerun-001: { isolation: pass, credibility: revised, length: pass, why: revised, sense: revised, status: agent-fixed, human: pending }
+      tokaj-eszencia-ferment-001: { isolation: pass, credibility: revised, length: pass, why: revised, sense: revised, status: agent-fixed, human: pending }
+      tokaj-eszencia-sugar-001: { isolation: pass, credibility: revised, length: pass, why: revised, sense: revised, status: agent-fixed, human: pending }
+      tokaj-eszencia-style-001: { isolation: pass, credibility: revised, length: revised, why: revised, sense: revised, status: agent-fixed, human: pending }
+      tokaj-late-harvest-fruit-001: { isolation: revised, credibility: revised, length: pass, why: revised, sense: revised, status: agent-fixed, human: pending }
+      tokaj-late-harvest-ferment-001: { isolation: revised, credibility: revised, length: revised, why: revised, sense: revised, status: agent-fixed, human: pending }
+      tokaj-late-harvest-age-001: { isolation: revised, credibility: revised, length: pass, why: revised, sense: revised, status: agent-fixed, human: pending }
+      tokaj-late-harvest-label-001: { isolation: revised, credibility: revised, length: pass, why: revised, sense: revised, status: agent-fixed, human: pending }
+      tokaj-rules-2013-001: { isolation: revised, credibility: revised, length: pass, why: revised, sense: revised, status: agent-fixed, human: pending }
+      tokaj-old-bottles-001: { isolation: revised, credibility: revised, length: pass, why: revised, sense: revised, status: agent-fixed, human: pending }
+      tokaj-aszu-old-sugar-001: { isolation: revised, credibility: revised, length: pass, why: revised, sense: revised, status: agent-fixed, human: pending }
+      tokaj-puttonyos-current-001: { isolation: revised, credibility: revised, length: pass, why: revised, sense: revised, status: agent-fixed, human: pending }
+      tokaj-aszu-old-ageing-001: { isolation: revised, credibility: revised, length: revised, why: revised, sense: revised, status: agent-fixed, human: pending }
+      tokaj-aszu-eszencia-sugar-001: { isolation: revised, credibility: revised, length: pass, why: revised, sense: revised, status: agent-fixed, human: pending }
+      tokaj-aszu-min-sugar-001: { isolation: revised, credibility: pass, length: pass, why: revised, sense: revised, status: agent-fixed, human: pending }
+      tokaj-five-puttonyos-sugar-001: { isolation: revised, credibility: revised, length: pass, why: revised, sense: revised, status: agent-fixed, human: pending }
+      tokaj-below-aszu-label-001: { isolation: revised, credibility: revised, length: revised, why: revised, sense: revised, status: agent-fixed, human: pending }
+      tokaj-aszu-eszencia-abolished-001: { isolation: revised, credibility: revised, length: pass, why: revised, sense: revised, status: agent-fixed, human: pending }
+      tokaj-aszu-oak-current-001: { isolation: revised, credibility: pass, length: pass, why: revised, sense: revised, status: agent-fixed, human: pending }
+      tokaj-aszu-release-current-001: { isolation: revised, credibility: revised, length: pass, why: revised, sense: revised, status: agent-fixed, human: pending }
+  c25-greece:
+    file: cards/c25-greece.yaml
+    status: awaiting-human
+    agent_wave: 2026-09-30
+    counts:
+      cards: 29
+      agent_fixed: 29
+      agent_pass: 0
+      human_ok: 0
+    note: >
+      Passe complète EN/FR : stems autonomes, leurres crédibles et explications
+      causales. Exactitude revue pour Naoussa, Nemea et Santorini. Correction
+      majeure : l’AOP Santorini ne couvre ni rouge ni rosé ; mise à jour à plus
+      de 300 cépages indigènes et clarification des termes traditionnels OPAP,
+      AOQS et POP. Relecture humaine encore ouverte.
+    cards:
+      greece-export-trio-001: { isolation: revised, credibility: revised, length: pass, why: revised, sense: revised, status: agent-fixed, human: pending }
+      greece-climate-001: { isolation: revised, credibility: revised, length: pass, why: revised, sense: revised, status: agent-fixed, human: pending }
+      greece-east-drought-001: { isolation: revised, credibility: revised, length: pass, why: revised, sense: revised, status: agent-fixed, human: pending }
+      greece-native-count-001: { isolation: revised, credibility: revised, length: pass, why: revised, sense: revised, status: agent-fixed, human: pending }
+      greece-natives-adapted-001: { isolation: revised, credibility: revised, length: pass, why: revised, sense: revised, status: agent-fixed, human: pending }
+      greece-pdo-natives-001: { isolation: revised, credibility: revised, length: pass, why: revised, sense: revised, status: agent-fixed, human: pending }
+      naoussa-macedonia-001: { isolation: revised, credibility: revised, length: pass, why: revised, sense: revised, status: agent-fixed, human: pending }
+      naoussa-altitude-001: { isolation: revised, credibility: revised, length: pass, why: revised, sense: revised, status: agent-fixed, human: pending }
+      naoussa-xinomavro-only-001: { isolation: revised, credibility: revised, length: pass, why: revised, sense: revised, status: agent-fixed, human: pending }
+      xinomavro-nebbiolo-001: { isolation: revised, credibility: revised, length: pass, why: revised, sense: revised, status: agent-fixed, human: pending }
+      xinomavro-profile-001: { isolation: revised, credibility: revised, length: pass, why: revised, sense: revised, status: agent-fixed, human: pending }
+      xinomavro-modern-001: { isolation: revised, credibility: revised, length: pass, why: revised, sense: revised, status: agent-fixed, human: pending }
+      nemea-location-001: { isolation: revised, credibility: revised, length: pass, why: revised, sense: revised, status: agent-fixed, human: pending }
+      nemea-agiorgitiko-001: { isolation: revised, credibility: revised, length: pass, why: revised, sense: revised, status: agent-fixed, human: pending }
+      nemea-altitude-range-001: { isolation: revised, credibility: revised, length: pass, why: revised, sense: revised, status: agent-fixed, human: pending }
+      nemea-mid-slope-001: { isolation: revised, credibility: revised, length: pass, why: revised, sense: revised, status: agent-fixed, human: pending }
+      nemea-valley-floor-001: { isolation: revised, credibility: revised, length: pass, why: revised, sense: revised, status: agent-fixed, human: pending }
+      nemea-high-slopes-001: { isolation: revised, credibility: revised, length: pass, why: revised, sense: revised, status: agent-fixed, human: pending }
+      nemea-best-profile-001: { isolation: revised, credibility: revised, length: pass, why: revised, sense: revised, status: agent-fixed, human: pending }
+      santorini-island-001: { isolation: revised, credibility: revised, length: pass, why: revised, sense: revised, status: agent-fixed, human: pending }
+      santorini-kouloura-001: { isolation: revised, credibility: revised, length: pass, why: revised, sense: revised, status: agent-fixed, human: pending }
+      santorini-styles-allowed-001: { isolation: revised, credibility: revised, length: pass, why: revised, sense: revised, status: agent-fixed, human: pending }
+      santorini-assyrtiko-fame-001: { isolation: revised, credibility: revised, length: pass, why: revised, sense: revised, status: agent-fixed, human: pending }
+      santorini-dry-profile-001: { isolation: revised, credibility: revised, length: pass, why: revised, sense: revised, status: agent-fixed, human: pending }
+      santorini-vinsanto-name-001: { isolation: revised, credibility: revised, length: pass, why: revised, sense: revised, status: agent-fixed, human: pending }
+      santorini-vinsanto-method-001: { isolation: revised, credibility: revised, length: pass, why: revised, sense: revised, status: agent-fixed, human: pending }
+      santorini-vinsanto-taste-001: { isolation: revised, credibility: revised, length: pass, why: revised, sense: revised, status: agent-fixed, human: pending }
+      greece-aoqs-001: { isolation: revised, credibility: revised, length: pass, why: revised, sense: revised, status: agent-fixed, human: pending }
+      greece-pop-001: { isolation: revised, credibility: revised, length: pass, why: revised, sense: revised, status: agent-fixed, human: pending }
   c26-italy-introduction: { file: cards/c26-italy-introduction.yaml, status: pending }
   c32-usa-introduction: { file: cards/c32-usa-introduction.yaml, status: pending }
   c41-sparkling-production:

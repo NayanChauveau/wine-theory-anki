@@ -14,16 +14,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which three Greek varieties — and home PDOs — lead the export conversation?
+      question: "Which set correctly pairs three internationally prominent Greek grapes with their benchmark PDOs?"
       choices:
-        - { text: "Sangiovese from Chianti, Tempranillo from Rioja, Pinot from Burgundy", correct: false }
-        - { text: "Xinomavro from Naoussa, Agiorgitiko from Nemea, Assyrtiko from Santorini", correct: true }
-        - { text: "Tannat from Madiran, Malbec from Cahors, Ugni from Gascogne", correct: false }
-        - { text: "Only Retsina from everywhere, with no PDO grape", correct: false }
+        - { text: "Xinomavro–Nemea, Agiorgitiko–Santorini, Assyrtiko–Naoussa", correct: false }
+        - { text: "Xinomavro–Naoussa, Agiorgitiko–Nemea, Assyrtiko–Santorini", correct: true }
+        - { text: "Xinomavro–Santorini, Agiorgitiko–Naoussa, Assyrtiko–Nemea", correct: false }
+        - { text: "Xinomavro–Rapsani, Agiorgitiko–Naoussa, Assyrtiko–Amyndeon", correct: false }
       explanation: |
-        The three names to lock are **Xinomavro / Naoussa**, **Agiorgitiko /
-        Nemea** and **Assyrtiko / Santorini**. Greece has many more natives;
-        these are the ones that travel.
+        These three grape–place associations provide a useful framework for Greece’s best-known exports: two contrasting reds and one distinctive white.
+    fr:
+      question: "Quel groupe associe correctement trois cépages grecs de renommée internationale à leurs AOP de référence ?"
+      choices:
+        - { text: "Xinomavro–Nemea, Agiorgitiko–Santorini, Assyrtiko–Naoussa", correct: false }
+        - { text: "Xinomavro–Naoussa, Agiorgitiko–Nemea, Assyrtiko–Santorini", correct: true }
+        - { text: "Xinomavro–Santorini, Agiorgitiko–Naoussa, Assyrtiko–Nemea", correct: false }
+        - { text: "Xinomavro–Rapsani, Agiorgitiko–Naoussa, Assyrtiko–Amyndeon", correct: false }
+      explanation: |
+        Ces trois associations entre cépage et origine offrent un bon cadre pour retenir les exportations grecques les plus célèbres : deux rouges très différents et un blanc singulier.
 
   - id: greece-climate-001
     type: mcq
@@ -35,16 +42,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which climate sketch best fits most Greek vineyards?
+      question: "Which broad climatic pattern characterises most Greek wine regions?"
       choices:
-        - { text: "Cool maritime, like England, with no summer heat", correct: false }
-        - { text: "Hot Mediterranean, eased by altitude, the sea, and sometimes fierce island winds", correct: true }
-        - { text: "High-alpine snowfields with no dry season", correct: false }
-        - { text: "Equatorial rainforest, wet every afternoon", correct: false }
+        - { text: "Cool maritime conditions moderated chiefly by Atlantic rain", correct: false }
+        - { text: "Hot Mediterranean conditions moderated locally by altitude, seas and winds", correct: true }
+        - { text: "Warm continental conditions with abundant summer rainfall", correct: false }
+        - { text: "Cool continental conditions with short, wet growing seasons", correct: false }
       explanation: |
-        Summers can sit **above 30 °C**. Height, the sea and the **meltemi**-style
-        island winds take the edge off — and can also shred an untrained canopy.
-        Drought is the other constant, especially in the east.
+        Summers are generally hot and dry. Elevation, maritime influence and winds can slow ripening and preserve acidity in favourable sites.
+    fr:
+      question: "Quel grand régime climatique caractérise la plupart des régions viticoles grecques ?"
+      choices:
+        - { text: "Des conditions maritimes fraîches surtout modérées par les pluies atlantiques", correct: false }
+        - { text: "Des conditions méditerranéennes chaudes, localement modérées par l’altitude, les mers et les vents", correct: true }
+        - { text: "Des conditions continentales chaudes avec d’abondantes pluies estivales", correct: false }
+        - { text: "Des conditions continentales fraîches avec des saisons courtes et humides", correct: false }
+      explanation: |
+        Les étés sont généralement chauds et secs. L’altitude, l’influence maritime et les vents peuvent ralentir la maturation et préserver l’acidité sur les sites favorables.
 
   - id: greece-east-drought-001
     type: mcq
@@ -56,16 +70,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Why is eastern Greece especially drought-prone?
+      question: "Why are many vineyards in eastern Greece particularly exposed to drought?"
       choices:
-        - { text: "It sits in a tropical monsoon that never stops", correct: false }
-        - { text: "It lies in the rain shadow of the Pindos, with little water to irrigate", correct: true }
-        - { text: "The Pindos make the east the wettest side of the country", correct: false }
-        - { text: "EU law bans any rainfall east of Athens", correct: false }
+        - { text: "Warm Aegean currents prevent winter rainfall", correct: false }
+        - { text: "The Pindus Mountains create a rain shadow from moist westerly winds", correct: true }
+        - { text: "Northern mountains channel all rainfall toward the east", correct: false }
+        - { text: "Volcanic soils prevent any water from reaching vine roots", correct: false }
       explanation: |
-        Westerlies drop their water on the **Pindos**. The east is the **rain
-        shadow** — dry soils, little irrigation water. That is why drought-tough
-        natives matter there.
+        Moist air loses much of its rain on Greece’s western side as it crosses the Pindus range, leaving eastern areas drier and with limited irrigation water.
+    fr:
+      question: "Pourquoi de nombreux vignobles de l’est de la Grèce sont-ils particulièrement exposés à la sécheresse ?"
+      choices:
+        - { text: "Les courants chauds de la mer Égée empêchent les pluies hivernales", correct: false }
+        - { text: "Le massif du Pinde crée une ombre pluviométrique face aux vents humides d’ouest", correct: true }
+        - { text: "Les montagnes du nord dirigent toutes les précipitations vers l’est", correct: false }
+        - { text: "Les sols volcaniques empêchent toute eau d’atteindre les racines", correct: false }
+      explanation: |
+        L’air humide perd une grande partie de ses précipitations sur le versant occidental de la Grèce en franchissant le Pinde, laissant l’est plus sec et disposant de peu d’eau d’irrigation.
 
   - id: greece-native-count-001
     type: mcq
@@ -77,15 +98,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: About how many grape varieties are native to Greece?
+      question: "Approximately how many indigenous grape varieties are found in Greece?"
       choices:
-        - { text: "Fewer than ten, all French", correct: false }
-        - { text: "More than two hundred", correct: true }
-        - { text: "Exactly three, and no others exist", correct: false }
-        - { text: "None — Greece only grows Cabernet", correct: false }
+        - { text: "Around 30", correct: false }
+        - { text: "More than 300", correct: true }
+        - { text: "Around 100", correct: false }
+        - { text: "Around 150", correct: false }
       explanation: |
-        Counts sit **above 200** named natives. Only a handful are widely
-        bottled; the rest are the genetic attic behind those three export stars.
+        Only a fraction is widely commercialised, but this unusually large genetic resource underpins Greece’s regional diversity.
+    fr:
+      question: "Combien de cépages indigènes trouve-t-on approximativement en Grèce ?"
+      choices:
+        - { text: "Environ 30", correct: false }
+        - { text: "Plus de 300", correct: true }
+        - { text: "Environ 100", correct: false }
+        - { text: "Environ 150", correct: false }
+      explanation: |
+        Seule une fraction est largement commercialisée, mais cette ressource génétique exceptionnellement riche fonde la diversité régionale grecque.
 
   - id: greece-natives-adapted-001
     type: mcq
@@ -97,16 +126,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What is the practical gift of those native Greek varieties?
+      question: "Why are many indigenous Greek varieties valuable in the country’s warmest, driest vineyards?"
       choices:
-        - { text: "They only ripen in a cool, wet English summer", correct: false }
-        - { text: "They cope with heat, drought and poor, dry soils", correct: true }
-        - { text: "They need constant irrigation or they die", correct: false }
-        - { text: "They cannot hold acidity in the sun", correct: false }
+        - { text: "They require high rainfall to complete ripening", correct: false }
+        - { text: "They are adapted to heat, drought and dry, low-fertility soils", correct: true }
+        - { text: "They ripen only where summers remain cool", correct: false }
+        - { text: "They naturally produce low-acid wines in every site", correct: false }
       explanation: |
-        Centuries of selection in a **hot, dry** country left grapes that still
-        make wine when French imports would cook or wilt. Assyrtiko keeping acid
-        on Santorini’s lava is the showpiece.
+        Long local adaptation helps vines survive water stress while still producing balanced fruit. Assyrtiko’s ability to retain acidity in Santorini is a leading example.
+    fr:
+      question: "Pourquoi de nombreux cépages indigènes grecs sont-ils précieux dans les vignobles les plus chauds et les plus secs du pays ?"
+      choices:
+        - { text: "Ils exigent de fortes précipitations pour achever leur maturation", correct: false }
+        - { text: "Ils sont adaptés à la chaleur, à la sécheresse et aux sols secs et peu fertiles", correct: true }
+        - { text: "Ils ne mûrissent que lorsque les étés restent frais", correct: false }
+        - { text: "Ils produisent naturellement des vins peu acides sur tous les sites", correct: false }
+      explanation: |
+        Une longue adaptation locale aide les vignes à supporter le stress hydrique tout en donnant des raisins équilibrés. La capacité de l’Assyrtiko à conserver son acidité à Santorin en est un exemple majeur.
 
   - id: greece-pdo-natives-001
     type: mcq
@@ -118,16 +154,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What do most Greek PDOs insist on for grapes?
+      question: "Which pattern is common among Greece’s best-known wine PDOs?"
       choices:
-        - { text: "Only international varieties, never a native", correct: false }
-        - { text: "Native varieties as the core of the wine", correct: true }
-        - { text: "A mandatory 50% Cabernet Sauvignon", correct: false }
-        - { text: "No named grape at all", correct: false }
+        - { text: "They are based principally on international varieties", correct: false }
+        - { text: "They link a delimited origin to one or more indigenous varieties", correct: true }
+        - { text: "They permit every Greek and international grape without restriction", correct: false }
+        - { text: "They classify wines only by ageing time rather than origin", correct: false }
       explanation: |
-        Naoussa is **Xinomavro**, Nemea **Agiorgitiko**, Santorini **Assyrtiko**
-        (with room for other local whites in some bottlings). The PDO idea here
-        is **place + native**, not a Bordeaux blend with a Greek sticker.
+        Naoussa centres on Xinomavro, Nemea on Agiorgitiko and Santorini on Assyrtiko with other local white grapes permitted in specified proportions.
+    fr:
+      question: "Quel schéma est courant parmi les AOP viticoles grecques les plus connues ?"
+      choices:
+        - { text: "Elles reposent principalement sur des cépages internationaux", correct: false }
+        - { text: "Elles associent une origine délimitée à un ou plusieurs cépages indigènes", correct: true }
+        - { text: "Elles autorisent sans restriction tous les cépages grecs et internationaux", correct: false }
+        - { text: "Elles classent les vins uniquement selon leur durée d’élevage et non selon leur origine", correct: false }
+      explanation: |
+        Naoussa repose sur le Xinomavro, Nemea sur l’Agiorgitiko et Santorini sur l’Assyrtiko, avec d’autres cépages blancs locaux autorisés dans des proportions définies.
 
   - id: naoussa-macedonia-001
     type: mcq
@@ -139,15 +182,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Where is Naoussa PDO?
+      question: "Where is PDO Naoussa located?"
       choices:
-        - { text: "On Santorini in the Aegean", correct: false }
-        - { text: "In Macedonia, in the north of mainland Greece", correct: true }
-        - { text: "On the southern tip of the Peloponnese only", correct: false }
-        - { text: "In Crete, next to the Libyan Sea", correct: false }
+        - { text: "In the northern Peloponnese", correct: false }
+        - { text: "In Macedonia in northern mainland Greece", correct: true }
+        - { text: "On the Aegean island of Santorini", correct: false }
+        - { text: "In central Greece near Athens", correct: false }
       explanation: |
-        **Naoussa** sits in **Macedonia**, inland from the Thermaic Gulf. It is
-        not the island or the Peloponnese.
+        The vineyards occupy the south-eastern slopes of Mount Vermio in the regional unit of Imathia.
+    fr:
+      question: "Où se situe l’AOP Naoussa ?"
+      choices:
+        - { text: "Dans le nord du Péloponnèse", correct: false }
+        - { text: "En Macédoine, dans le nord de la Grèce continentale", correct: true }
+        - { text: "Sur l’île égéenne de Santorin", correct: false }
+        - { text: "Dans le centre de la Grèce, près d’Athènes", correct: false }
+      explanation: |
+        Les vignobles occupent les versants sud-est du mont Vermio, dans le district d’Imathie.
 
   - id: naoussa-altitude-001
     type: mcq
@@ -159,15 +210,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What is distinctive about Naoussa’s vineyard sites?
+      question: "Which site description best fits the vineyards of PDO Naoussa?"
       choices:
-        - { text: "They are all at sea level on a hot beach", correct: false }
-        - { text: "They climb toward about 400 m and run cooler than the land around them", correct: true }
-        - { text: "They sit above 2 000 m and never ripen red grapes", correct: false }
-        - { text: "There are no slopes, only a flooded delta", correct: false }
+        - { text: "Flat coastal land from sea level to 100 metres", correct: false }
+        - { text: "Hilly south-eastern slopes of Mount Vermio at roughly 150–400 metres", correct: true }
+        - { text: "High plateaux above 900 metres in the Pindus", correct: false }
+        - { text: "Low volcanic terraces around an Aegean caldera", correct: false }
       explanation: |
-        Slopes up to roughly **400 m** give Naoussa a **cooler** pocket in a hot
-        country — enough to keep Xinomavro’s acid and tannin.
+        Altitude, aspect and varied soils create distinct mesoclimates, helping late-ripening Xinomavro retain acidity in a generally warm country.
+    fr:
+      question: "Quelle description correspond le mieux aux vignobles de l’AOP Naoussa ?"
+      choices:
+        - { text: "Terrains côtiers plats du niveau de la mer à 100 mètres", correct: false }
+        - { text: "Versants vallonnés sud-est du mont Vermio, à environ 150–400 mètres", correct: true }
+        - { text: "Hauts plateaux du Pinde au-dessus de 900 mètres", correct: false }
+        - { text: "Basses terrasses volcaniques autour d’une caldeira égéenne", correct: false }
+      explanation: |
+        L’altitude, l’exposition et la diversité des sols créent des mésoclimats distincts, qui aident le Xinomavro tardif à conserver son acidité dans un pays globalement chaud.
 
   - id: naoussa-xinomavro-only-001
     type: mcq
@@ -179,15 +238,23 @@ cards:
       fact_check: pass
       sources: [spec]
     en:
-      question: What may a Naoussa PDO red be made from?
+      question: "Which grape and colour are required for PDO Naoussa?"
       choices:
-        - { text: "Any red grape, including Cabernet only", correct: false }
-        - { text: "Xinomavro alone", correct: true }
-        - { text: "Agiorgitiko alone", correct: false }
-        - { text: "Only white Assyrtiko", correct: false }
+        - { text: "Agiorgitiko for red and rosé wines", correct: false }
+        - { text: "Xinomavro for red wines", correct: true }
+        - { text: "Xinomavro blended with Negoska for red wines", correct: false }
+        - { text: "Assyrtiko for dry white wines", correct: false }
       explanation: |
-        **Naoussa** is a **100% Xinomavro** red PDO. Agiorgitiko is Nemea;
-        Assyrtiko is the Santorini white.
+        The appellation is exclusively red and requires 100% Xinomavro. Other northern PDOs use the grape differently, including in blends.
+    fr:
+      question: "Quel cépage et quelle couleur sont exigés pour l’AOP Naoussa ?"
+      choices:
+        - { text: "Agiorgitiko pour les rouges et les rosés", correct: false }
+        - { text: "Xinomavro pour les rouges", correct: true }
+        - { text: "Xinomavro assemblé au Negoska pour les rouges", correct: false }
+        - { text: "Assyrtiko pour les blancs secs", correct: false }
+      explanation: |
+        L’appellation est exclusivement rouge et exige 100 % de Xinomavro. D’autres AOP du nord emploient ce cépage différemment, notamment en assemblage.
 
   - id: xinomavro-nebbiolo-001
     type: mcq
@@ -199,16 +266,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which better-known grape is Xinomavro most often likened to?
+      question: "Which internationally familiar variety is most often used as a stylistic comparison for Xinomavro?"
       choices:
-        - { text: "Gewürztraminer", correct: false }
+        - { text: "Sangiovese", correct: false }
         - { text: "Nebbiolo", correct: true }
-        - { text: "Müller-Thurgau", correct: false }
-        - { text: "Ugni Blanc", correct: false }
+        - { text: "Pinot Noir", correct: false }
+        - { text: "Syrah", correct: false }
       explanation: |
-        **Xinomavro** shares Nebbiolo’s trick: **pale colour, fierce tannin and
-        acid**, and a long life. The name even hints at it — *ximo* sour, *mavro*
-        black.
+        Both can combine relatively pale colour with high acidity, firm tannins, complex savoury aromas and long ageing potential.
+    fr:
+      question: "Quel cépage internationalement connu sert le plus souvent de comparaison stylistique au Xinomavro ?"
+      choices:
+        - { text: "Sangiovese", correct: false }
+        - { text: "Nebbiolo", correct: true }
+        - { text: "Pinot Noir", correct: false }
+        - { text: "Syrah", correct: false }
+      explanation: |
+        Tous deux peuvent associer une couleur relativement pâle à une acidité élevée, des tanins fermes, des arômes savoureux complexes et une longue garde.
 
   - id: xinomavro-profile-001
     type: mcq
@@ -220,16 +294,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What is the classic Xinomavro profile?
+      question: "Which profile is typical of traditionally styled Xinomavro from Naoussa?"
       choices:
-        - { text: "Deep purple, low tannin, banana and candy from carbonic maceration", correct: false }
-        - { text: "High tannin and acid, a colour that fades to tawny, little fresh fruit, then spice and earth with age", correct: true }
-        - { text: "Sweet, low-acid white with no tannin", correct: false }
-        - { text: "Only flor, almond and brine", correct: false }
+        - { text: "Deep colour, low acidity, soft tannins and jammy black fruit", correct: false }
+        - { text: "Pale colour, high acidity, firm tannins and red-fruit, tomato and olive notes", correct: true }
+        - { text: "Medium colour, low tannins, floral perfume and residual sweetness", correct: false }
+        - { text: "Deep colour, high alcohol, low tannins and pronounced coconut", correct: false }
       explanation: |
-        Young Xinomavro can smell more **tomato leaf and olive** than cherry.
-        With time it goes **tawny, spicy and earthy** — again the Nebbiolo
-        rhyme. It is not a Nouveau or a fino.
+        Extended ageing can soften the structure and develop dried fruit, tobacco, earth, mushroom and spice.
+    fr:
+      question: "Quel profil est typique d’un Xinomavro de Naoussa de style traditionnel ?"
+      choices:
+        - { text: "Couleur profonde, acidité faible, tanins souples et fruits noirs confiturés", correct: false }
+        - { text: "Couleur pâle, acidité élevée, tanins fermes et notes de fruits rouges, tomate et olive", correct: true }
+        - { text: "Couleur moyenne, tanins faibles, parfum floral et sucre résiduel", correct: false }
+        - { text: "Couleur profonde, alcool élevé, tanins faibles et noix de coco prononcée", correct: false }
+      explanation: |
+        Un élevage prolongé peut assouplir la structure et faire apparaître des fruits séchés, du tabac, des notes terreuses, du champignon et des épices.
 
   - id: xinomavro-modern-001
     type: mcq
@@ -241,16 +322,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: How have some newer Naoussa producers shifted the old Xinomavro mould?
+      question: "How do many modern-style Naoussa wines differ from the most traditional expression?"
       choices:
-        - { text: "They banned oak and made only white wine", correct: false }
-        - { text: "Deeper colour, gentler tannin, and sometimes new oak", correct: true }
-        - { text: "They replaced Xinomavro with Pinotage by law", correct: false }
-        - { text: "They only bottle sparkling rosé under flor", correct: false }
+        - { text: "Paler colour, firmer tannins and less ripe fruit", correct: false }
+        - { text: "Deeper colour, riper fruit, softer tannins and more evident oak", correct: true }
+        - { text: "More residual sugar and no maturation before release", correct: false }
+        - { text: "More international grapes and less Xinomavro", correct: false }
       explanation: |
-        Shorter extraction, riper fruit and **new barriques** can make a darker,
-        less austere wine. Traditionalists still chase the pale, long-lived
-        style. Both sit in the PDO if the grape is Xinomavro.
+        Riper picking, adjusted extraction and oak choices can make Xinomavro more approachable on release while retaining acidity and ageing potential.
+    fr:
+      question: "En quoi de nombreux Naoussa de style moderne diffèrent-ils de l’expression la plus traditionnelle ?"
+      choices:
+        - { text: "Couleur plus pâle, tanins plus fermes et fruit moins mûr", correct: false }
+        - { text: "Couleur plus profonde, fruit plus mûr, tanins plus souples et bois plus marqué", correct: true }
+        - { text: "Davantage de sucre résiduel et aucune maturation avant la vente", correct: false }
+        - { text: "Davantage de cépages internationaux et moins de Xinomavro", correct: false }
+      explanation: |
+        Une récolte plus mûre, une extraction adaptée et les choix d’élevage peuvent rendre le Xinomavro plus accessible dès sa sortie tout en maintenant son acidité et son potentiel de garde.
 
   - id: nemea-location-001
     type: mcq
@@ -262,16 +350,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Where is Nemea?
+      question: "Where is PDO Nemea located?"
       choices:
-        - { text: "On the island of Santorini only", correct: false }
-        - { text: "In the northern Peloponnese, near the isthmus that joins it to the mainland", correct: true }
-        - { text: "In Macedonia, next to Naoussa", correct: false }
-        - { text: "On the French Riviera", correct: false }
+        - { text: "In Macedonia near Mount Vermio", correct: false }
+        - { text: "In the northern Peloponnese, west of the Corinth isthmus", correct: true }
+        - { text: "On Santorini and Thirasia", correct: false }
+        - { text: "In Epirus near the Albanian border", correct: false }
       explanation: |
-        **Nemea** is the red heart of the **Peloponnese**, just south of the
-        Corinth isthmus. Hercules and the Nemean lion are the tourist story;
-        **Agiorgitiko** is the wine story.
+        The appellation surrounds Nemea in Corinthia and contains Greece’s largest PDO red-wine vineyard zone.
+    fr:
+      question: "Où se situe l’AOP Nemea ?"
+      choices:
+        - { text: "En Macédoine, près du mont Vermio", correct: false }
+        - { text: "Dans le nord du Péloponnèse, près de Corinthe", correct: true }
+        - { text: "Sur Santorin et Thirassía", correct: false }
+        - { text: "En Épire, près de la frontière albanaise", correct: false }
+      explanation: |
+        L’appellation entoure Némée, en Corinthie, et constitue la plus grande zone grecque de vignobles rouges en AOP.
 
   - id: nemea-agiorgitiko-001
     type: mcq
@@ -283,15 +378,23 @@ cards:
       fact_check: pass
       sources: [spec]
     en:
-      question: What may a Nemea PDO red be made from?
+      question: "Which grape variety is required for PDO Nemea?"
       choices:
-        - { text: "Xinomavro alone", correct: false }
-        - { text: "Agiorgitiko alone", correct: true }
-        - { text: "Only Cabernet Sauvignon", correct: false }
-        - { text: "Assyrtiko with flor ageing", correct: false }
+        - { text: "Xinomavro", correct: false }
+        - { text: "Agiorgitiko", correct: true }
+        - { text: "Mavrodaphne", correct: false }
+        - { text: "Limnio", correct: false }
       explanation: |
-        **Nemea** is **100% Agiorgitiko** (St George’s grape). Xinomavro stays
-        in the north.
+        The appellation covers dry and sweet red wines made from Agiorgitiko. Rosé from the variety cannot carry the Nemea PDO.
+    fr:
+      question: "Quel cépage est exigé pour l’AOP Nemea ?"
+      choices:
+        - { text: "Xinomavro", correct: false }
+        - { text: "Agiorgitiko", correct: true }
+        - { text: "Mavrodaphne", correct: false }
+        - { text: "Limnio", correct: false }
+      explanation: |
+        L’appellation couvre des vins rouges secs et doux issus de l’Agiorgitiko. Les rosés de ce cépage ne peuvent pas porter l’AOP Nemea.
 
   - id: nemea-altitude-range-001
     type: mcq
@@ -303,15 +406,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: How spread out are Nemea’s vineyard heights?
+      question: "What is the approximate elevation range of Nemea’s three main vineyard zones?"
       choices:
-        - { text: "All vines sit at exactly sea level", correct: false }
-        - { text: "From about 230 m up to about 900 m", correct: true }
-        - { text: "Only above the treeline at 2 500 m", correct: false }
-        - { text: "There is no slope; it is one flooded lake", correct: false }
+        - { text: "Sea level to 250 metres", correct: false }
+        - { text: "About 250 to 800 metres", correct: true }
+        - { text: "About 700 to 1,300 metres", correct: false }
+        - { text: "About 1,000 to 1,600 metres", correct: false }
       explanation: |
-        That **230–900 m** spread is why Nemea can make jammy early reds and
-        tighter, fresher fruit from the same grape.
+        The broad elevation range creates warm lowland, intermediate hillside and cooler mountain zones, giving Agiorgitiko markedly different expressions.
+    fr:
+      question: "Quelle est l’amplitude approximative des trois principales zones altitudinales du vignoble de Nemea ?"
+      choices:
+        - { text: "Du niveau de la mer à 250 mètres", correct: false }
+        - { text: "Environ 250 à 800 mètres", correct: true }
+        - { text: "Environ 700 à 1 300 mètres", correct: false }
+        - { text: "Environ 1 000 à 1 600 mètres", correct: false }
+      explanation: |
+        Cette large amplitude crée des zones de plaine chaudes, des coteaux intermédiaires et des secteurs montagneux plus frais, donnant des expressions très différentes de l’Agiorgitiko.
 
   - id: nemea-mid-slope-001
     type: mcq
@@ -323,16 +434,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Where in that range does the best Nemea red fruit usually come from?
+      question: "Which Nemea zone is most associated with concentrated, balanced Agiorgitiko suitable for premium red wine?"
       choices:
-        - { text: "The hottest valley floor only", correct: false }
-        - { text: "The middle of the altitude band", correct: true }
-        - { text: "Only the very highest, coldest ridge", correct: false }
-        - { text: "A greenhouse on the Athens ring road", correct: false }
+        - { text: "The warm alluvial plain at roughly 250–350 metres", correct: false }
+        - { text: "The semi-mountainous zone at roughly 350–600 metres", correct: true }
+        - { text: "The coolest mountain zone at roughly 600–800 metres", correct: false }
+        - { text: "The coastal zone below 100 metres", correct: false }
       explanation: |
-        Mid-slope is the **Goldilocks** belt: ripe but not cooked, tannin with
-        some polish. Floor fruit goes jammy; the top is often better in a blend
-        or a rosé.
+        Intermediate elevations commonly combine reliable ripeness with fresher acidity and less fertile, better-drained soils than the plain.
+    fr:
+      question: "Quelle zone de Nemea est le plus associée à un Agiorgitiko concentré et équilibré, adapté aux rouges haut de gamme ?"
+      choices:
+        - { text: "La plaine alluviale chaude, vers 250–350 mètres", correct: false }
+        - { text: "La zone semi-montagneuse, vers 350–600 mètres", correct: true }
+        - { text: "La zone montagneuse la plus fraîche, vers 600–800 mètres", correct: false }
+        - { text: "La zone côtière sous 100 mètres", correct: false }
+      explanation: |
+        Les altitudes intermédiaires associent généralement une maturité fiable à une acidité plus fraîche et à des sols moins fertiles et mieux drainés que ceux de la plaine.
 
   - id: nemea-valley-floor-001
     type: mcq
@@ -344,15 +462,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What are lower-slope Nemea reds often like?
+      question: "Which style is commonly produced from Agiorgitiko grown on Nemea’s warm lower plain?"
       choices:
-        - { text: "Austere, pale and built for 30 years, like old Naoussa", correct: false }
-        - { text: "Jammy and fruity, aimed at early drinking", correct: true }
-        - { text: "Always bone-dry whites from Assyrtiko", correct: false }
-        - { text: "Fortified under flor", correct: false }
+        - { text: "Firm, high-acid wines requiring long bottle ageing", correct: false }
+        - { text: "Ripe, soft, fruity reds intended for relatively early drinking", correct: true }
+        - { text: "Pale, high-tannin wines dominated by tomato and olive", correct: false }
+        - { text: "Lean, mineral whites with high alcohol and citrus fruit", correct: false }
       explanation: |
-        Extra heat on the **floor** pushes Agiorgitiko into **cooked red fruit**.
-        Useful, simple bottles — not the structured mid-slope style.
+        Warmth and deeper fertile soils encourage earlier ripening and generous fruit. These wines usually have medium acidity and softer tannins.
+    fr:
+      question: "Quel style produit-on couramment avec l’Agiorgitiko cultivé dans la plaine chaude de Nemea ?"
+      choices:
+        - { text: "Des vins fermes et très acides exigeant une longue garde", correct: false }
+        - { text: "Des rouges mûrs, souples et fruités destinés à être bus relativement jeunes", correct: true }
+        - { text: "Des vins pâles et tanniques dominés par la tomate et l’olive", correct: false }
+        - { text: "Des blancs tendus et minéraux, riches en alcool et en agrumes", correct: false }
+      explanation: |
+        La chaleur et les sols plus profonds et fertiles favorisent une maturité précoce et un fruit généreux. Ces vins présentent généralement une acidité moyenne et des tanins plus souples.
 
   - id: nemea-high-slopes-001
     type: mcq
@@ -364,15 +490,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What does high-elevation Nemea fruit typically bring?
+      question: "How does Agiorgitiko from Nemea’s highest zone generally differ from fruit grown on the lower plain?"
       choices:
-        - { text: "Low acid, fat tannin and no use in a blend", correct: false }
-        - { text: "Higher acid, less polished tannin — freshness in a red, or a good rosé", correct: true }
-        - { text: "Only icewine after a hard freeze every year", correct: false }
-        - { text: "Mandatory new-oak Cabernet flavour", correct: false }
+        - { text: "It ripens earlier and gives softer, fuller wines", correct: false }
+        - { text: "It ripens later and tends to retain more acidity and freshness", correct: true }
+        - { text: "It develops more sugar but less acidity because nights are warmer", correct: false }
+        - { text: "It is restricted by the PDO to sweet-wine production", correct: false }
       explanation: |
-        Up high the grape keeps **acid** and the tannin can stay a bit **green**.
-        Blenders use it for lift; much of it is **rosé** rather than a grand red.
+        The cooler mountain zone can give lighter, fresher reds or fruit for rosé outside the Nemea PDO; achieving full tannin ripeness is more difficult in cooler years.
+    fr:
+      question: "En quoi l’Agiorgitiko de la zone la plus élevée de Nemea diffère-t-il généralement de celui de la plaine ?"
+      choices:
+        - { text: "Il mûrit plus tôt et donne des vins plus souples et plus corsés", correct: false }
+        - { text: "Il mûrit plus tard et tend à conserver davantage d’acidité et de fraîcheur", correct: true }
+        - { text: "Il accumule plus de sucre mais moins d’acidité, car les nuits sont plus chaudes", correct: false }
+        - { text: "L’AOP le réserve à la production de vins doux", correct: false }
+      explanation: |
+        La zone montagneuse plus fraîche peut donner des rouges plus légers et frais ou des raisins destinés à des rosés hors AOP Nemea ; la pleine maturité des tanins est plus difficile lors des années fraîches.
 
   - id: nemea-best-profile-001
     type: mcq
@@ -384,16 +518,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What do the best mid-slope Nemea reds usually show?
+      question: "Which profile best describes a premium, age-worthy Agiorgitiko from Nemea?"
       choices:
-        - { text: "Pale tawny, searing acid, no fruit, no oak", correct: false }
-        - { text: "Deep ruby, smooth high tannin, modest acid, red fruit and sweet spice, happy in new oak and in bottle", correct: true }
-        - { text: "Only spritzy white with no tannin", correct: false }
-        - { text: "Banana and kirsch from carbonic maceration", correct: false }
+        - { text: "Pale colour, high acidity, severe tannins and tomato aromas", correct: false }
+        - { text: "Deep colour, concentrated red fruit, sweet spice and firm ripe tannins", correct: true }
+        - { text: "Light colour, low tannins, floral aromas and residual sweetness", correct: false }
+        - { text: "Deep colour, low acidity, soft tannins and simple jammy fruit", correct: false }
       explanation: |
-        Good Agiorgitiko is the **softer** Greek red next to Xinomavro: **ruby,
-        plush tannin, red fruit, sweet spice**, and it takes **oak**. It is not
-        the pale Nebbiolo twin.
+        Careful site selection and oak maturation can produce structured wines with complex red-fruit, spice and chocolate notes and several years of bottle ageing potential.
+    fr:
+      question: "Quel profil décrit le mieux un Agiorgitiko haut de gamme de Nemea apte à la garde ?"
+      choices:
+        - { text: "Couleur pâle, acidité élevée, tanins sévères et arômes de tomate", correct: false }
+        - { text: "Couleur profonde, fruits rouges concentrés, épices douces et tanins fermes mais mûrs", correct: true }
+        - { text: "Couleur légère, tanins faibles, arômes floraux et sucre résiduel", correct: false }
+        - { text: "Couleur profonde, acidité faible, tanins souples et fruit simplement confituré", correct: false }
+      explanation: |
+        Une sélection rigoureuse des sites et un élevage sous bois peuvent produire des vins structurés aux notes complexes de fruits rouges, d’épices et de chocolat, capables de vieillir plusieurs années.
 
   - id: santorini-island-001
     type: mcq
@@ -405,15 +546,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What is Santorini, in vineyard terms?
+      question: "Which description best characterises Santorini’s vineyard environment?"
       choices:
-        - { text: "A flat river plain in Macedonia", correct: false }
-        - { text: "A windy volcanic island in the Aegean", correct: true }
-        - { text: "A granite hill in Beaujolais", correct: false }
-        - { text: "A limestone coast in Champagne", correct: false }
+        - { text: "A sheltered limestone valley with abundant summer rain", correct: false }
+        - { text: "A dry, windy Aegean island with volcanic soils", correct: true }
+        - { text: "A cool continental plateau with granite soils", correct: false }
+        - { text: "A humid river plain with deep alluvial soils", correct: false }
       explanation: |
-        **Santorini** is the flooded caldera in the **Cyclades**: black volcanic
-        soils, almost no water, and a wind that never really stops.
+        Very low rainfall, strong winds, poor volcanic soils and old vines combine to limit yields and concentrate the fruit.
+    fr:
+      question: "Quelle description caractérise le mieux l’environnement viticole de Santorin ?"
+      choices:
+        - { text: "Une vallée calcaire abritée avec d’abondantes pluies estivales", correct: false }
+        - { text: "Une île égéenne sèche et venteuse aux sols volcaniques", correct: true }
+        - { text: "Un plateau continental frais aux sols granitiques", correct: false }
+        - { text: "Une plaine fluviale humide aux sols alluviaux profonds", correct: false }
+      explanation: |
+        Les très faibles précipitations, les vents forts, les sols volcaniques pauvres et les vieilles vignes limitent ensemble les rendements et concentrent les raisins.
 
   - id: santorini-kouloura-001
     type: mcq
@@ -425,16 +574,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: How are many Santorini vines trained, and why?
+      question: "Why are many Santorini vines trained into low basket-shaped kouloura?"
       choices:
-        - { text: "High pergolas so the wind can tear the fruit off", correct: false }
-        - { text: "Low basket coils (kouloura), fruit tucked inside, against the wind", correct: true }
-        - { text: "Tall VSP walls for a grape harvester", correct: false }
-        - { text: "Unpruned hedges with no shape at all", correct: false }
+        - { text: "To expose bunches fully to the strongest winds", correct: false }
+        - { text: "To shelter grapes from wind-blown sand and damaging winds", correct: true }
+        - { text: "To make mechanical harvesting easier", correct: false }
+        - { text: "To increase humidity around the bunches", correct: false }
       explanation: |
-        The **kouloura** is a wreath of old wood on the ground. Grapes hang in
-        the **shelter** of the basket so the **meltemi** does not sandblast them.
-        A high trellis would lose the crop.
+        Canes are woven into a low coil and the fruit develops inside it. This also helps the vines cope with the island’s dry, exposed conditions.
+    fr:
+      question: "Pourquoi de nombreuses vignes de Santorin sont-elles conduites en kouloura, une corbeille basse ?"
+      choices:
+        - { text: "Pour exposer pleinement les grappes aux vents les plus forts", correct: false }
+        - { text: "Pour protéger les raisins du sable porté par le vent et des vents destructeurs", correct: true }
+        - { text: "Pour faciliter les vendanges mécaniques", correct: false }
+        - { text: "Pour augmenter l’humidité autour des grappes", correct: false }
+      explanation: |
+        Les sarments sont tressés en une couronne basse et les raisins se développent à l’intérieur. Cette forme aide aussi les vignes à supporter les conditions sèches et exposées de l’île.
 
   - id: santorini-styles-allowed-001
     type: mcq
@@ -446,16 +602,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which styles can a Santorini PDO wine be?
+      question: "Which wine types are covered by PDO Santorini?"
       choices:
-        - { text: "Only sparkling red, never white", correct: false }
-        - { text: "White or red, dry or sweet", correct: true }
-        - { text: "Only fortified wine under flor", correct: false }
-        - { text: "Only icewine", correct: false }
+        - { text: "Dry white, dry red and rosé wines", correct: false }
+        - { text: "Dry white and sweet wines made from dried white grapes", correct: true }
+        - { text: "Dry white and traditional-method sparkling wines", correct: false }
+        - { text: "Red wines and sweet fortified wines from black grapes", correct: false }
       explanation: |
-        The PDO is not a single colour or sweetness. **Dry Assyrtiko** carries
-        the fame; **Vinsanto** is the sweet one; a little red exists. Flor and
-        ice are other countries.
+        The PDO does not cover red or rosé wine. Its dry whites require at least 85% Assyrtiko; its dried-grape sweet wines include Vinsanto.
+    fr:
+      question: "Quels types de vins sont couverts par l’AOP Santorini ?"
+      choices:
+        - { text: "Blancs secs, rouges secs et rosés", correct: false }
+        - { text: "Blancs secs et vins doux issus de raisins blancs séchés", correct: true }
+        - { text: "Blancs secs et effervescents de méthode traditionnelle", correct: false }
+        - { text: "Rouges et vins doux fortifiés issus de cépages noirs", correct: false }
+      explanation: |
+        L’AOP ne couvre ni les rouges ni les rosés. Ses blancs secs exigent au moins 85 % d’Assyrtiko ; ses vins doux de raisins séchés comprennent le Vinsanto.
 
   - id: santorini-assyrtiko-fame-001
     type: mcq
@@ -467,16 +630,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which Santorini style has the highest reputation?
+      question: "Which style is chiefly responsible for Santorini’s international wine reputation?"
       choices:
-        - { text: "Pale rosé from Pinot Noir", correct: false }
-        - { text: "Dry white from Assyrtiko", correct: true }
-        - { text: "Nouveau Gamay released in November", correct: false }
-        - { text: "Cream sherry under flor", correct: false }
+        - { text: "Dry red from Mavrotragano", correct: false }
+        - { text: "Dry white based on Assyrtiko", correct: true }
+        - { text: "Rosé based on Mandilaria", correct: false }
+        - { text: "Sparkling white based on Athiri", correct: false }
       explanation: |
-        **Assyrtiko** dry white — citrus, stone fruit, electric acid, a salty
-        volcanic edge — is the bottle people mean. Vinsanto is admired but
-        smaller.
+        PDO Santorini dry white contains at least 85% Assyrtiko, and many leading examples are varietal. Vinsanto is also prestigious but produced in smaller quantities.
+    fr:
+      question: "Quel style est principalement à l’origine de la réputation internationale des vins de Santorin ?"
+      choices:
+        - { text: "Rouge sec de Mavrotragano", correct: false }
+        - { text: "Blanc sec à base d’Assyrtiko", correct: true }
+        - { text: "Rosé à base de Mandilaria", correct: false }
+        - { text: "Blanc effervescent à base d’Athiri", correct: false }
+      explanation: |
+        Le blanc sec AOP Santorini contient au moins 85 % d’Assyrtiko et de nombreuses grandes cuvées sont monocépages. Le Vinsanto est également prestigieux, mais produit en plus petites quantités.
 
   - id: santorini-dry-profile-001
     type: mcq
@@ -488,16 +658,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What do dry Santorini whites typically taste like?
+      question: "Which profile is typical of dry Assyrtiko from Santorini?"
       choices:
-        - { text: "Low acid, flabby tropical juice with no perfume", correct: false }
-        - { text: "Ripe citrus and stone fruit, concentrated, with high acidity", correct: true }
-        - { text: "Butter and coconut from 200% new oak only", correct: false }
-        - { text: "Banana and cinnamon from carbonic maceration", correct: false }
+        - { text: "Low acidity, light body, low alcohol and floral perfume", correct: false }
+        - { text: "High acidity, high alcohol, concentrated citrus fruit and saline mineral character", correct: true }
+        - { text: "Medium acidity, residual sweetness, tropical fruit and low alcohol", correct: false }
+        - { text: "High tannin, dark fruit, pepper and pronounced new oak", correct: false }
       explanation: |
-        Heat plus volcanic stress gives **concentration**; the grape keeps
-        **high acid**, so the wine stays taut. Oak can appear, but the point is
-        citrus, peach and that saline snap.
+        Assyrtiko retains striking acidity despite the island’s heat. Low yields and old vines contribute body, concentration and strong ageing potential.
+    fr:
+      question: "Quel profil est typique d’un Assyrtiko sec de Santorin ?"
+      choices:
+        - { text: "Acidité faible, corps léger, alcool modéré et parfum floral", correct: false }
+        - { text: "Acidité élevée, alcool élevé, agrumes concentrés et caractère minéral salin", correct: true }
+        - { text: "Acidité moyenne, sucre résiduel, fruits tropicaux et alcool faible", correct: false }
+        - { text: "Tanins élevés, fruits noirs, poivre et bois neuf prononcé", correct: false }
+      explanation: |
+        L’Assyrtiko conserve une acidité remarquable malgré la chaleur de l’île. Les faibles rendements et les vieilles vignes contribuent au corps, à la concentration et au fort potentiel de garde.
 
   - id: santorini-vinsanto-name-001
     type: mcq
@@ -509,15 +686,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What is the name of Santorini’s PDO sweet wine?
+      question: "Which name identifies Santorini’s traditional sweet wine made from sun-dried white grapes?"
       choices:
-        - { text: "Tokaji Aszú", correct: false }
+        - { text: "Nykteri", correct: false }
         - { text: "Vinsanto", correct: true }
-        - { text: "Sauternes", correct: false }
-        - { text: "Icewine", correct: false }
+        - { text: "Vin Santo", correct: false }
+        - { text: "Commandaria", correct: false }
       explanation: |
-        **Vinsanto** (one word, often) is Santorini’s sun-dried sweet wine — not
-        Tuscany’s **Vin Santo**, though the names rhyme, and not a Tokaj aszú.
+        The single-word Greek term belongs to PDO Santorini and should not be confused with Tuscany’s Vin Santo.
+    fr:
+      question: "Quel nom désigne le vin doux traditionnel de Santorin élaboré à partir de raisins blancs séchés au soleil ?"
+      choices:
+        - { text: "Nykteri", correct: false }
+        - { text: "Vinsanto", correct: true }
+        - { text: "Vin Santo", correct: false }
+        - { text: "Commandaria", correct: false }
+      explanation: |
+        Le terme grec écrit en un seul mot appartient à l’AOP Santorini et ne doit pas être confondu avec le Vin Santo toscan.
 
   - id: santorini-vinsanto-method-001
     type: mcq
@@ -529,16 +714,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: How is Santorini Vinsanto usually concentrated and aged?
+      question: "Which production sequence is required for Santorini Vinsanto?"
       choices:
-        - { text: "Noble rot on the vine, then no oak at all", correct: false }
-        - { text: "Sun-dried up to about two weeks, then oak for at least two years", correct: true }
-        - { text: "Frozen on the vine and pressed as eiswein", correct: false }
-        - { text: "Fortified mid-ferment like Port", correct: false }
+        - { text: "Noble rot on the vine followed by biological ageing", correct: false }
+        - { text: "Sun-drying the grapes followed by at least 24 months of oxidative maturation", correct: true }
+        - { text: "Freezing grapes on the vine followed by immediate bottling", correct: false }
+        - { text: "Drying grapes indoors followed by carbonic maceration", correct: false }
       explanation: |
-        Bunches **dry in the sun** (passerillage off the vine) for up to
-        **14 days**, then the wine must see **oak for a two-year minimum** —
-        many houses leave it much longer.
+        The grapes commonly dry for roughly 8–12 days, concentrating both sugar and acidity. Many wines remain in wood far longer than the legal minimum.
+    fr:
+      question: "Quelle séquence de production est exigée pour le Vinsanto de Santorin ?"
+      choices:
+        - { text: "Pourriture noble sur pied suivie d’un élevage biologique", correct: false }
+        - { text: "Séchage des raisins au soleil suivi d’au moins 24 mois d’élevage oxydatif", correct: true }
+        - { text: "Gel des raisins sur pied suivi d’une mise immédiate", correct: false }
+        - { text: "Séchage des raisins en intérieur suivi d’une macération carbonique", correct: false }
+      explanation: |
+        Les raisins sèchent généralement pendant environ 8 à 12 jours, ce qui concentre à la fois le sucre et l’acidité. De nombreux vins restent sous bois bien plus longtemps que le minimum légal.
 
   - id: santorini-vinsanto-taste-001
     type: mcq
@@ -550,15 +742,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What keeps aged Vinsanto from tasting only like dessert syrup?
+      question: "Which combination best explains the balance and flavour development of aged Santorini Vinsanto?"
       choices:
-        - { text: "A complete lack of residual sugar", correct: false }
-        - { text: "Assyrtiko’s high acidity, with older bottles showing caramel and nuts", correct: true }
-        - { text: "Flor yeast that eats all the sugar", correct: false }
-        - { text: "A legal ban on any oak", correct: false }
+        - { text: "Low acidity balances the sugar, while flor creates almond notes", correct: false }
+        - { text: "High acidity balances the sugar, while oxidative ageing develops caramel and nut flavours", correct: true }
+        - { text: "Fortification removes sweetness, while stainless steel creates toast", correct: false }
+        - { text: "Carbonation balances the sugar, while new oak creates fresh citrus", correct: false }
       explanation: |
-        The same **acid** that defines dry Assyrtiko holds up the sweetness.
-        Long oak adds an **oxidative** caramel-and-nut note. It is not fino.
+        Sun-drying concentrates Assyrtiko’s acidity as well as its sugar. Long maturation adds dried fruit, honey, coffee, spice and oxidative complexity.
+    fr:
+      question: "Quelle combinaison explique le mieux l’équilibre et l’évolution aromatique d’un Vinsanto de Santorin âgé ?"
+      choices:
+        - { text: "Une faible acidité équilibre le sucre, tandis que le voile apporte l’amande", correct: false }
+        - { text: "Une acidité élevée équilibre le sucre, tandis que l’élevage oxydatif développe le caramel et les fruits à coque", correct: true }
+        - { text: "Le mutage supprime la douceur, tandis que l’inox crée des notes grillées", correct: false }
+        - { text: "L’effervescence équilibre le sucre, tandis que le bois neuf apporte des agrumes frais", correct: false }
+      explanation: |
+        Le séchage au soleil concentre l’acidité de l’Assyrtiko autant que son sucre. Le long élevage apporte fruits séchés, miel, café, épices et complexité oxydative.
 
   - id: greece-aoqs-001
     type: mcq
@@ -570,16 +770,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What was the older French-style label for Greece’s superior GI wines?
+      question: "Which traditional Greek wine term corresponds to PDO and was historically rendered in French as AOQS?"
       choices:
-        - { text: "Vin de France", correct: false }
-        - { text: "Appellation d'origine de qualité supérieure (AOQS)", correct: true }
-        - { text: "AVA", correct: false }
-        - { text: "DOCG Classico only", correct: false }
+        - { text: "OPE — Appellation d’origine contrôlée", correct: false }
+        - { text: "OPAP (ΟΠΑΠ) — the traditional superior-quality designation", correct: true }
+        - { text: "Topikos Oinos — regional wine", correct: false }
+        - { text: "Kava — extended maturation", correct: false }
       explanation: |
-        **AOQS** is the **old French wording** for Greece’s top GI (alongside
-        OPAP), not a separate modern rung next to PDO. Bottles now show **PDO /
-        PGI** and, at home, the Greek **POP** line.
+        OPAP is the Greek traditional term; AOQS is its French rendering. It belongs to the PDO framework rather than forming a separate modern tier.
+    fr:
+      question: "Quel terme traditionnel grec correspond à l’AOP et était historiquement rendu en français par AOQS ?"
+      choices:
+        - { text: "OPE — Appellation d’origine contrôlée", correct: false }
+        - { text: "OPAP (ΟΠΑΠ) — l’ancienne désignation de qualité supérieure", correct: true }
+        - { text: "Topikos Oinos — vin régional", correct: false }
+        - { text: "Kava — élevage prolongé", correct: false }
+      explanation: |
+        OPAP est le terme traditionnel grec ; AOQS en est la traduction française. Il relève du cadre AOP et ne constitue pas un échelon moderne distinct.
 
   - id: greece-pop-001
     type: mcq
@@ -591,12 +798,20 @@ cards:
       fact_check: pass
       sources: [spec]
     en:
-      question: What Greek phrase is the domestic stand-in for PDO?
+      question: "What does the Greek abbreviation ΠΟΠ (POP) mean on a wine label?"
       choices:
-        - { text: "Indicazione geografica tipica", correct: false }
-        - { text: "Prostatevomeni Onomasia Proelefsis (POP)", correct: true }
-        - { text: "Vin de Pays", correct: false }
-        - { text: "Qualitätswein", correct: false }
+        - { text: "Protected Geographical Indication", correct: false }
+        - { text: "Protected Designation of Origin", correct: true }
+        - { text: "Traditional Speciality Guaranteed", correct: false }
+        - { text: "Wine without geographical indication", correct: false }
       explanation: |
-        **POP** — *προστατευόμενη ονομασία προέλευσης* — is PDO in Greek, used
-        on the home market. IGT and Vin de Pays are other countries’ PGI words.
+        It abbreviates Prostatevomeni Onomasia Proelefsis, the Greek-language equivalent of the EU term PDO.
+    fr:
+      question: "Que signifie l’abréviation grecque ΠΟΠ (POP) sur une étiquette de vin ?"
+      choices:
+        - { text: "Indication géographique protégée", correct: false }
+        - { text: "Appellation d’origine protégée", correct: true }
+        - { text: "Spécialité traditionnelle garantie", correct: false }
+        - { text: "Vin sans indication géographique", correct: false }
+      explanation: |
+        Elle abrège Prostatevomeni Onomasia Proelefsis, l’équivalent grec du terme européen AOP.
