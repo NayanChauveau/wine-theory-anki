@@ -205,8 +205,12 @@ This internal migration is not required for ordinary card or code contributions.
 
 ## Releases
 
-Maintainers create a release by pushing a `vX.Y.Z` tag. GitHub Actions runs all checks,
-builds `wset3-vin-en.apkg` and `wset3-vin-fr.apkg`, and attaches both files to the GitHub
+Every successful push to `main` updates the rolling **Latest main build** release. GitHub
+Actions replaces its `wset3-vin-en.apkg` and `wset3-vin-fr.apkg` assets with the packages
+built from that commit.
+
+Maintainers create a permanent, versioned release by pushing a `vX.Y.Z` tag. The same
+workflow runs all checks, builds both packages and attaches them to a separate GitHub
 release.
 
 Stable note GUIDs are derived from the permanent card ID and language. That is why ID

@@ -232,8 +232,14 @@ uv run wset3-anki schema
 ## Releases
 
 Pull requests and pushes run the full quality gate and build both language packages in
-GitHub Actions. Pushing a `vX.Y.Z` tag creates a GitHub release and attaches the English
-and French `.apkg` files.
+GitHub Actions. Every successful push to `main` updates a rolling **Latest main build**
+release and replaces its English and French `.apkg` files. This is the release targeted
+by the [latest GitHub release](../../releases/latest) download link near the top of this
+README.
+
+Pushing a `vX.Y.Z` tag creates a separate, versioned GitHub release with the same two
+packages. Versioned releases provide permanent milestones; the rolling release always
+tracks the newest successful build from `main`.
 
 Because card IDs, model IDs and deck IDs are stable, releases remain compatible with
 previous imports. Contributors must therefore never rename a released card ID merely to
