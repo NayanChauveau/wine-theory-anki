@@ -13,15 +13,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What does “Southern Italy” cover on the wine map?
+      question: "Which group best represents the principal wine regions of Southern Italy and the islands?"
       choices:
-        - { text: "Only Piedmont and Veneto", correct: false }
-        - { text: "South of Lazio to the tip, including Puglia and Sicily", correct: true }
-        - { text: "Only Alto Adige", correct: false }
-        - { text: "The Loire valley", correct: false }
+        - { text: "Piedmont, Lombardy, Veneto, Trentino, Friuli and Liguria", correct: false }
+        - { text: "Campania, Basilicata, Puglia, Calabria, Sicily and Sardinia", correct: true }
+        - { text: "Tuscany, Umbria, Marche, Lazio, Abruzzo and Emilia-Romagna", correct: false }
+        - { text: "Alsace, Jura, Savoie, Champagne, Bordeaux and Burgundy", correct: false }
       explanation: |
-        **South of Lazio to the tip, including Puglia and Sicily.**
-        Campania and Basilicata sit in that block too.
+        Southern Italy includes the mainland south of Lazio plus the major wine-producing islands. Each
+        region has distinct grapes and conditions, so ‘the south’ is a broad geographic grouping rather
+        than one uniform style.
+    fr:
+      question: "Quel groupe représente le mieux les principales régions viticoles du sud de l’Italie et des îles ?"
+      choices:
+        - { text: "Piémont, Lombardie, Vénétie, Trentin, Frioul et Ligurie", correct: false }
+        - { text: "Campanie, Basilicate, Pouilles, Calabre, Sicile et Sardaigne", correct: true }
+        - { text: "Toscane, Ombrie, Marches, Latium, Abruzzes et Émilie-Romagne", correct: false }
+        - { text: "Alsace, Jura, Savoie, Champagne, Bordeaux et Bourgogne", correct: false }
+      explanation: |
+        Le sud de l’Italie comprend la partie continentale située au sud du Latium ainsi que les grandes
+        îles viticoles. Chaque région possède ses cépages et ses conditions propres : « le Sud » est
+        donc un vaste ensemble géographique, pas un style uniforme.
 
   - id: sitaly-climate-001
     type: mcq
@@ -33,16 +45,28 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: How does Southern Italy’s climate change from inland to the sea?
+      question: "Which site factors most often moderate Southern Italy’s generally hot Mediterranean climate?"
       choices:
-        - { text: "Cool and wet everywhere", correct: false }
-        - { text: "Hot and dry inland, more humid on the coast; Apennine height and Puglian sea breezes take the edge off", correct: true }
-        - { text: "Alpine ice only", correct: false }
-        - { text: "A Breton monsoon", correct: false }
+        - { text: "Low latitude and enclosed valleys", correct: false }
+        - { text: "Altitude and maritime influence", correct: true }
+        - { text: "High yields and fertile soils", correct: false }
+        - { text: "Persistent summer rain and cloud", correct: false }
       explanation: |
-        **Hot and dry inland, more humid on the coast; Apennine
-        height and Puglian sea breezes take the edge off.** Etna and
-        the Puglian flats are the two extremes.
+        Elevation lowers temperatures and increases diurnal range, while proximity to the sea can bring
+        cooling breezes. These effects help preserve acidity and extend ripening in places such as
+        inland Campania, Vulture and Etna.
+    fr:
+      question: "Quels facteurs de site modèrent le plus souvent le climat méditerranéen généralement chaud du sud de l’Italie ?"
+      choices:
+        - { text: "La faible latitude et les vallées encaissées", correct: false }
+        - { text: "L’altitude et l’influence maritime", correct: true }
+        - { text: "Les rendements élevés et les sols fertiles", correct: false }
+        - { text: "Les pluies et la nébulosité estivales persistantes", correct: false }
+      explanation: |
+        L’altitude abaisse les températures et accroît l’amplitude thermique quotidienne, tandis que la
+        proximité de la mer peut apporter des brises rafraîchissantes. Ces effets aident à préserver
+        l’acidité et à prolonger la maturation, notamment dans l’intérieur de la Campanie, au Vulture et
+        sur l’Etna.
 
   - id: sitaly-agri-001
     type: mcq
@@ -54,15 +78,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What is the south’s main rural economy?
+      question: "What is the central viticultural risk in the hottest, driest parts of Southern Italy?"
       choices:
-        - { text: "Only ski tourism", correct: false }
-        - { text: "Agriculture", correct: true }
-        - { text: "Offshore oil only", correct: false }
-        - { text: "No farming at all", correct: false }
+        - { text: "Autumn rain diluting late-ripening grapes", correct: false }
+        - { text: "Drought stress that can stop ripening and reduce yield", correct: true }
+        - { text: "Excessive vigour caused by abundant summer rainfall", correct: false }
+        - { text: "Persistent spring frost on the coastal plains", correct: false }
       explanation: |
-        **Agriculture.** Grapes are one crop among wheat, olives and
-        vegetables.
+        Heat alone does not guarantee balanced ripeness. Where water is scarce, severe drought can shut
+        down photosynthesis; site choice, old deep-rooted vines and permitted irrigation can therefore
+        be important.
+    fr:
+      question: "Quel est le principal risque viticole dans les secteurs les plus chauds et les plus secs du sud de l’Italie ?"
+      choices:
+        - { text: "Les pluies d’automne diluant les cépages tardifs", correct: false }
+        - { text: "Un stress hydrique pouvant bloquer la maturation et réduire le rendement", correct: true }
+        - { text: "Une vigueur excessive due à d’abondantes pluies estivales", correct: false }
+        - { text: "Un gel de printemps persistant dans les plaines côtières", correct: false }
+      explanation: |
+        La chaleur ne garantit pas à elle seule une maturité équilibrée. Lorsque l’eau manque, une
+        sécheresse sévère peut interrompre la photosynthèse ; le choix du site, les vieilles vignes aux
+        racines profondes et l’irrigation lorsqu’elle est autorisée peuvent donc compter.
 
   - id: sitaly-volume-001
     type: mcq
@@ -74,15 +110,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which two southern areas make the serious volumes of wine?
+      question: "Which two southern regions are especially important for Italy’s large-volume wine production?"
       choices:
-        - { text: "Valle d’Aosta and Liguria", correct: false }
+        - { text: "Basilicata and Molise", correct: false }
         - { text: "Puglia and Sicily", correct: true }
-        - { text: "Only Barolo", correct: false }
-        - { text: "Champagne", correct: false }
+        - { text: "Campania and Valle d’Aosta", correct: false }
+        - { text: "Liguria and Trentino", correct: false }
       explanation: |
-        **Puglia and Sicily.** Campania is the DOCG count, not the
-        litre count.
+        Puglia and Sicily have extensive vineyard areas and supply substantial volumes at regional IGT
+        and DOC level. Both also contain lower-yielding sites capable of distinctive premium wines.
+    fr:
+      question: "Quelles sont les deux régions du Sud particulièrement importantes pour la production italienne de vin en grand volume ?"
+      choices:
+        - { text: "La Basilicate et le Molise", correct: false }
+        - { text: "Les Pouilles et la Sicile", correct: true }
+        - { text: "La Campanie et la Vallée d’Aoste", correct: false }
+        - { text: "La Ligurie et le Trentin", correct: false }
+      explanation: |
+        Les Pouilles et la Sicile possèdent de vastes surfaces viticoles et fournissent d’importants
+        volumes sous IGT régionale et DOC. Toutes deux comptent aussi des sites à faibles rendements
+        capables de produire des vins haut de gamme distinctifs.
 
   - id: sitaly-bush-001
     type: mcq
@@ -94,15 +141,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: How were southern vines traditionally trained against the sun?
+      question: "Why can low-trained bush vines remain well suited to hot, dry southern sites?"
       choices:
-        - { text: "High pergola only", correct: false }
-        - { text: "Low bush vines, leaves shading the fruit", correct: true }
-        - { text: "Ungrafted desert posts", correct: false }
-        - { text: "Indoor only", correct: false }
+        - { text: "They raise bunches high above the ground to increase ventilation", correct: false }
+        - { text: "The canopy shades fruit and the free-standing form suits dry, windy sites", correct: true }
+        - { text: "They place fruit in a uniform zone for mechanical harvesting", correct: false }
+        - { text: "They promote a large canopy in fertile, rain-fed vineyards", correct: false }
       explanation: |
-        **Low bush vines, leaves shading the fruit.** The old
-        Puglian and Sicilian picture.
+        Traditional alberello vines sit close to the ground and can shelter bunches from intense sun and
+        wind. They are labour-intensive, so they are most defensible on old or quality-focused
+        vineyards.
+    fr:
+      question: "Pourquoi les vignes basses conduites en gobelet peuvent-elles rester bien adaptées aux sites chauds et secs du Sud ?"
+      choices:
+        - { text: "Elles élèvent les grappes pour augmenter leur ventilation", correct: false }
+        - { text: "Le feuillage ombrage les raisins ; le gobelet convient aux sites secs et venteux", correct: true }
+        - { text: "Elles alignent les raisins dans une zone adaptée à la vendange mécanique", correct: false }
+        - { text: "Elles favorisent un vaste feuillage dans les vignobles fertiles et pluvieux", correct: false }
+      explanation: |
+        Les vignes traditionnelles en alberello restent près du sol et peuvent protéger les grappes d’un
+        soleil et d’un vent intenses. Elles demandent beaucoup de main-d’œuvre ; elles se justifient
+        donc surtout dans les vieilles vignes ou les parcelles axées sur la qualité.
 
   - id: sitaly-cordon-001
     type: mcq
@@ -114,15 +173,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which training is now the southern default?
+      question: "Why have cordon-trained, trellised systems replaced many traditional bush vines in productive southern vineyards?"
       choices:
-        - { text: "Only free-standing bush", correct: false }
-        - { text: "Cordon training and trellising", correct: true }
-        - { text: "No wires at all", correct: false }
-        - { text: "Pergola on every new hectare", correct: false }
+        - { text: "They shelter bunches from sun more effectively than low bush vines", correct: false }
+        - { text: "They reduce labour and make mechanisation easier", correct: true }
+        - { text: "They restrict yields without pruning or crop management", correct: false }
+        - { text: "They preserve old vines better than free-standing systems", correct: false }
       explanation: |
-        **Cordon training and trellising.** Bush survives on old
-        plots and windy sites.
+        Trellising organises shoots and fruit into accessible rows, allowing more operations to be
+        mechanised. The trade-off is that exposed canopies require careful management in intense heat.
+    fr:
+      question: "Pourquoi les systèmes palissés conduits en cordon ont-ils remplacé de nombreux gobelets traditionnels dans les vignobles productifs du Sud ?"
+      choices:
+        - { text: "Ils abritent mieux les grappes du soleil que les gobelets bas", correct: false }
+        - { text: "Ils réduisent le travail et facilitent la mécanisation", correct: true }
+        - { text: "Ils limitent les rendements sans taille ni gestion de la récolte", correct: false }
+        - { text: "Ils préservent mieux les vieilles vignes que les systèmes autoportants", correct: false }
+      explanation: |
+        Le palissage organise les rameaux et les raisins en rangs accessibles, ce qui permet de
+        mécaniser davantage d’opérations. En contrepartie, les couverts végétaux exposés demandent une
+        gestion attentive sous une chaleur intense.
 
   - id: sitaly-mech-001
     type: mcq
@@ -134,15 +204,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Why did Puglia adopt cordon and trellis so widely?
+      question: "Which feature has particularly favoured mechanised viticulture on much of Puglia’s plains?"
       choices:
-        - { text: "The law bans any tractor", correct: false }
-        - { text: "The flat plain can be mechanised", correct: true }
-        - { text: "There is no flat land", correct: false }
-        - { text: "Only hand-work is legal", correct: false }
+        - { text: "Small, fragmented terraces on steep slopes", correct: false }
+        - { text: "Large, relatively flat vineyard areas", correct: true }
+        - { text: "Old bush vines planted at irregular spacing", correct: false }
+        - { text: "Mixed vineyards with narrow access routes", correct: false }
       explanation: |
-        **The flat plain can be mechanised.** Volume Puglia is
-        tractor country.
+        Compared with steep or fragmented regions, Puglia’s broad plains can accommodate regular
+        trellised rows and machinery. This supports efficient, high-volume production, although quality
+        depends on yield and canopy control.
+    fr:
+      question: "Quelle caractéristique a particulièrement favorisé la mécanisation de la viticulture dans une grande partie des plaines des Pouilles ?"
+      choices:
+        - { text: "De petites terrasses morcelées sur des pentes raides", correct: false }
+        - { text: "De vastes surfaces viticoles relativement planes", correct: true }
+        - { text: "De vieux gobelets plantés à intervalles irréguliers", correct: false }
+        - { text: "Des vignes complantées aux voies d’accès étroites", correct: false }
+      explanation: |
+        Par rapport aux régions escarpées ou morcelées, les vastes plaines des Pouilles se prêtent aux
+        rangs palissés réguliers et aux machines. Cela favorise une production efficace et volumique,
+        dont la qualité dépend toutefois de la maîtrise des rendements et du couvert végétal.
 
   - id: sitaly-campania-docg-001
     type: mcq
@@ -154,14 +236,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which southern region has the most DOCGs?
+      question: "Which set correctly matches three leading Campania DOCGs with their principal grape?"
       choices:
-        - { text: "Puglia", correct: false }
-        - { text: "Campania", correct: true }
-        - { text: "Valle d’Aosta", correct: false }
-        - { text: "Liguria", correct: false }
+        - { text: "Soave—Garganega; Barolo—Nebbiolo; Gavi—Cortese", correct: false }
+        - { text: "Fiano di Avellino—Fiano; Greco di Tufo—Greco; Taurasi—Aglianico", correct: true }
+        - { text: "Verdicchio di Matelica—Verdicchio; Conero—Montepulciano; Frascati—Malvasia", correct: false }
+        - { text: "Etna—Nerello Mascalese; Sicilia—Nero d’Avola; Cerasuolo di Vittoria—Frappato", correct: false }
       explanation: |
-        **Campania** — Taurasi, Fiano d’Avellino, Greco di Tufo.
+        The elevated Avellino area is the source of Campania’s best-known white DOCGs, Fiano di Avellino
+        and Greco di Tufo, and of Taurasi, a structured Aglianico-based red.
+    fr:
+      question: "Quelle série associe correctement trois DOCG majeures de Campanie à leur cépage principal ?"
+      choices:
+        - { text: "Soave—Garganega ; Barolo—Nebbiolo ; Gavi—Cortese", correct: false }
+        - { text: "Fiano di Avellino—Fiano ; Greco di Tufo—Greco ; Taurasi—Aglianico", correct: true }
+        - { text: "Verdicchio di Matelica—Verdicchio ; Conero—Montepulciano ; Frascati—Malvasia", correct: false }
+        - { text: "Etna—Nerello Mascalese ; Sicilia—Nero d’Avola ; Cerasuolo di Vittoria—Frappato", correct: false }
+      explanation: |
+        La zone élevée d’Avellino produit les deux DOCG blanches les plus connues de Campanie, Fiano di
+        Avellino et Greco di Tufo, ainsi que Taurasi, un rouge structuré à base d’Aglianico.
 
   - id: sitaly-campania-land-001
     type: mcq
@@ -173,15 +266,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What mix of land does Campania offer vines?
+      question: "How do Campania’s inland hills benefit late-ripening grapes such as Aglianico?"
       choices:
-        - { text: "One flat desert only", correct: false }
-        - { text: "Mountains, valleys and coastal plains", correct: true }
-        - { text: "Alpine ice only", correct: false }
-        - { text: "A single river island", correct: false }
+        - { text: "They accelerate sugar accumulation through warmer nights", correct: false }
+        - { text: "Elevation lengthens ripening while helping retain acidity", correct: true }
+        - { text: "They shorten the season by exposing vines to stronger heat", correct: false }
+        - { text: "They increase humidity and encourage earlier harvesting", correct: false }
       explanation: |
-        **Mountains, valleys, coastal plains.** Vesuvius to the
-        Irpinia hills.
+        Campania is warm, but inland elevation and large day–night temperature ranges moderate heat. A
+        long season helps late-ripening Aglianico reach flavour maturity without losing all its acidity.
+    fr:
+      question: "En quoi les collines intérieures de Campanie favorisent-elles les cépages tardifs comme l’Aglianico ?"
+      choices:
+        - { text: "Elles accélèrent l’accumulation des sucres par des nuits plus chaudes", correct: false }
+        - { text: "L’altitude prolonge la maturation tout en aidant à conserver l’acidité", correct: true }
+        - { text: "Elles raccourcissent la saison en exposant les vignes à plus de chaleur", correct: false }
+        - { text: "Elles augmentent l’humidité et favorisent une vendange plus précoce", correct: false }
+      explanation: |
+        La Campanie est chaude, mais l’altitude intérieure et les fortes amplitudes thermiques
+        quotidiennes modèrent la chaleur. Une longue saison aide l’Aglianico tardif à atteindre sa
+        maturité aromatique sans perdre toute son acidité.
 
   - id: sitaly-campania-range-001
     type: mcq
@@ -193,15 +297,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What does Campania’s mix of mountains, valleys and coast allow in the vineyard?
+      question: "Why can Campania successfully produce both fresh whites and powerful reds?"
       choices:
-        - { text: "Only one white grape", correct: false }
-        - { text: "A wide range of black and white varieties", correct: true }
-        - { text: "No Vitis vinifera", correct: false }
-        - { text: "Only icewine", correct: false }
+        - { text: "Its coastal plain concentrates vineyards in similarly warm conditions", correct: false }
+        - { text: "Its varied elevations, aspects and maritime influences create diverse mesoclimates", correct: true }
+        - { text: "Its limestone soils impose one consistent ripening pattern", correct: false }
+        - { text: "Its harvest dates are standardised across the region", correct: false }
       explanation: |
-        **A wide range of black and white varieties.** Fiano, Greco
-        and Aglianico share the same region.
+        Coastal influence, inland valleys, mountains and volcanic or limestone-derived soils create
+        markedly different growing conditions. This diversity supports grapes ranging from high-acid
+        Greco to late-ripening Aglianico.
+    fr:
+      question: "Pourquoi la Campanie peut-elle produire à la fois des blancs frais et des rouges puissants ?"
+      choices:
+        - { text: "Sa plaine côtière concentre les vignobles dans des conditions chaudes similaires", correct: false }
+        - { text: "La diversité des altitudes, expositions et influences maritimes crée des mésoclimats variés", correct: true }
+        - { text: "Ses sols calcaires imposent un schéma de maturation uniforme", correct: false }
+        - { text: "Les dates de vendange sont standardisées dans toute la région", correct: false }
+      explanation: |
+        L’influence côtière, les vallées intérieures, les montagnes et les sols d’origine volcanique ou
+        calcaire créent des conditions très différentes. Cette diversité convient à des cépages allant
+        du Greco acide à l’Aglianico tardif.
 
   - id: sitaly-fiano-greco-001
     type: mcq
@@ -213,15 +329,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which two whites are Campania’s quality pair?
+      question: "Which two local white grapes underpin Campania’s best-known dry white DOCGs?"
       choices:
-        - { text: "Trebbiano and Malvasia only", correct: false }
+        - { text: "Garganega and Trebbiano di Soave", correct: false }
         - { text: "Fiano and Greco", correct: true }
-        - { text: "Moscato and Cortese", correct: false }
-        - { text: "Pinot Grigio and Friulano", correct: false }
+        - { text: "Vermentino and Vernaccia", correct: false }
+        - { text: "Cortese and Arneis", correct: false }
       explanation: |
-        **Fiano and Greco.** Falanghina exists; these two are the
-        quality pair.
+        Fiano is the key grape of Fiano di Avellino DOCG, while Greco leads Greco di Tufo DOCG. Both can
+        combine concentration with freshness and develop complexity in bottle.
+    fr:
+      question: "Quels sont les deux cépages blancs locaux à la base des DOCG blanches sèches les plus connues de Campanie ?"
+      choices:
+        - { text: "Garganega et Trebbiano di Soave", correct: false }
+        - { text: "Fiano et Greco", correct: true }
+        - { text: "Vermentino et Vernaccia", correct: false }
+        - { text: "Cortese et Arneis", correct: false }
+      explanation: |
+        Le Fiano est le cépage clé de Fiano di Avellino DOCG, tandis que le Greco domine Greco di Tufo
+        DOCG. Tous deux peuvent allier concentration et fraîcheur, puis gagner en complexité en
+        bouteille.
 
   - id: sitaly-fiano-docg-001
     type: mcq
@@ -233,14 +360,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which DOCG is the usual home of the best Fiano?
+      question: "Which DOCG is Campania’s principal reference point for dry Fiano?"
       choices:
         - { text: "Greco di Tufo DOCG", correct: false }
-        - { text: "Fiano d’Avellino DOCG", correct: true }
-        - { text: "Soave DOC", correct: false }
-        - { text: "Gavi DOCG", correct: false }
+        - { text: "Fiano di Avellino DOCG", correct: true }
+        - { text: "Aglianico del Taburno DOCG", correct: false }
+        - { text: "Taurasi DOCG", correct: false }
       explanation: |
-        **Fiano d’Avellino DOCG.** Greco has its own town: Tufo.
+        Fiano di Avellino DOCG is centred on the inland province of Avellino. Elevation helps the grape
+        retain freshness despite Campania’s southern latitude.
+    fr:
+      question: "Quelle DOCG constitue la principale référence de Campanie pour le Fiano sec ?"
+      choices:
+        - { text: "Greco di Tufo DOCG", correct: false }
+        - { text: "Fiano di Avellino DOCG", correct: true }
+        - { text: "Aglianico del Taburno DOCG", correct: false }
+        - { text: "Taurasi DOCG", correct: false }
+      explanation: |
+        Fiano di Avellino DOCG est centrée sur la province intérieure d’Avellino. L’altitude aide le
+        cépage à conserver sa fraîcheur malgré la latitude méridionale de la Campanie.
 
   - id: sitaly-greco-docg-001
     type: mcq
@@ -252,14 +390,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which DOCG is the usual home of the best Greco?
+      question: "Which DOCG is Campania’s principal reference point for dry Greco?"
       choices:
-        - { text: "Fiano d’Avellino DOCG", correct: false }
+        - { text: "Fiano di Avellino DOCG", correct: false }
         - { text: "Greco di Tufo DOCG", correct: true }
-        - { text: "Orvieto DOC", correct: false }
-        - { text: "Frascati DOC", correct: false }
+        - { text: "Aglianico del Vulture DOC", correct: false }
+        - { text: "Salice Salentino DOC", correct: false }
       explanation: |
-        **Greco di Tufo DOCG.** Volcanic Irpinia, not the coast.
+        Greco di Tufo DOCG takes its name from both the grape and the town of Tufo. The best wines
+        combine high acidity and concentration and can evolve in bottle.
+    fr:
+      question: "Quelle DOCG constitue la principale référence de Campanie pour le Greco sec ?"
+      choices:
+        - { text: "Fiano di Avellino DOCG", correct: false }
+        - { text: "Greco di Tufo DOCG", correct: true }
+        - { text: "Aglianico del Vulture DOC", correct: false }
+        - { text: "Salice Salentino DOC", correct: false }
+      explanation: |
+        Greco di Tufo DOCG tire son nom à la fois du cépage et de la commune de Tufo. Les meilleurs vins
+        associent acidité élevée et concentration et peuvent évoluer en bouteille.
 
   - id: sitaly-fiano-style-001
     type: mcq
@@ -271,16 +420,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What is typical young Fiano like?
+      question: "Which profile best describes a good young Fiano di Avellino?"
       choices:
-        - { text: "Bone-dry, 11%, and only green apple", correct: false }
-        - { text: "Medium to full, medium acid, stone fruit, melon and mango", correct: true }
-        - { text: "Tannic and gamey", correct: false }
-        - { text: "Always sparkling", correct: false }
+        - { text: "Light-bodied, low in acidity, neutral and intended for very early drinking", correct: false }
+        - { text: "Medium- to full-bodied and fresh, with citrus, stone-fruit and waxy notes", correct: true }
+        - { text: "Deeply coloured, highly tannic and black-fruited", correct: false }
+        - { text: "Sweet, sparkling and dominated by Muscat aromas", correct: false }
       explanation: |
-        **Medium to full, medium acid, stone fruit, melon and
-        mango.** Most is drunk young; better bottles see oak and
-        age toward wax and honey.
+        Fiano can give relatively textured, concentrated whites while retaining refreshing acidity. With
+        bottle age, high-quality examples may develop honeyed, waxy and nutty complexity.
+    fr:
+      question: "Quel profil décrit le mieux un bon Fiano di Avellino jeune ?"
+      choices:
+        - { text: "Léger, peu acide, neutre et destiné à être bu très jeune", correct: false }
+        - { text: "Moyennement corsé à corsé et frais, sur les agrumes, les fruits à noyau et des notes cireuses", correct: true }
+        - { text: "Très coloré, très tannique et marqué par les fruits noirs", correct: false }
+        - { text: "Doux, effervescent et dominé par les arômes muscatés", correct: false }
+      explanation: |
+        Le Fiano peut donner des blancs assez texturés et concentrés tout en conservant une acidité
+        rafraîchissante. Avec l’âge, les meilleurs exemples peuvent développer une complexité miellée,
+        cireuse et de fruits à coque.
 
   - id: sitaly-greco-style-001
     type: mcq
@@ -292,15 +451,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: How does Greco sit next to Fiano in the glass?
+      question: "Compared with Fiano, what profile is typical of young Greco di Tufo?"
       choices:
-        - { text: "Fatter, lower acid, and more mango", correct: false }
-        - { text: "Leaner, higher acid, green apple, stone fruit and passion fruit", correct: true }
-        - { text: "Always a red wine", correct: false }
-        - { text: "Sweet and fortified", correct: false }
+        - { text: "Softer acidity and overtly tropical sweetness", correct: false }
+        - { text: "Higher acidity and a firmer, leaner profile with citrus and stone fruit", correct: true }
+        - { text: "Lower acidity with pronounced red-cherry aromas", correct: false }
+        - { text: "Deep colour and high tannin from skin contact", correct: false }
       explanation: |
-        **Leaner, higher acid, green apple, stone fruit and passion
-        fruit.** Fiano is the broader one.
+        Greco di Tufo is commonly high in acidity and can feel more structured or austere than Fiano.
+        Citrus, green or stone fruit and mineral or smoky nuances are typical reference points.
+    fr:
+      question: "Par rapport au Fiano, quel profil est typique d’un Greco di Tufo jeune ?"
+      choices:
+        - { text: "Une acidité plus douce et une sucrosité franchement tropicale", correct: false }
+        - { text: "Une acidité plus élevée et un profil plus ferme et élancé, sur les agrumes et les fruits à noyau", correct: true }
+        - { text: "Une acidité plus faible avec des arômes prononcés de cerise rouge", correct: false }
+        - { text: "Une couleur profonde et des tanins élevés dus au contact avec les peaux", correct: false }
+      explanation: |
+        Greco di Tufo présente couramment une acidité élevée et peut sembler plus structuré ou austère
+        que le Fiano. Agrumes, fruits verts ou à noyau et nuances minérales ou fumées sont des repères
+        typiques.
 
   - id: sitaly-greco-cellar-001
     type: mcq
@@ -312,15 +482,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: How is most Greco fermented?
+      question: "Which winemaking approach best preserves the fresh fruit of most Greco di Tufo?"
       choices:
-        - { text: "Warm, oxidatively, in new barrique", correct: false }
-        - { text: "In stainless steel; some houses use old oak and lees stirring", correct: true }
-        - { text: "On skins for a month, by law", correct: false }
-        - { text: "Boiled", correct: false }
+        - { text: "Hot fermentation with deliberate oxidation in new oak", correct: false }
+        - { text: "Cool fermentation in inert vessels, sometimes followed by lees ageing", correct: true }
+        - { text: "Month-long carbonic maceration of whole red bunches", correct: false }
+        - { text: "Fortification before fermentation begins", correct: false }
       explanation: |
-        **In stainless steel; some houses use old oak and lees
-        stirring.** Texture, not makeup.
+        Temperature-controlled stainless steel is common because it retains fruit and freshness. Some
+        producers build texture through lees contact or use neutral oak without making overt oak flavour
+        the defining feature.
+    fr:
+      question: "Quelle approche de vinification préserve le mieux le fruit frais de la plupart des Greco di Tufo ?"
+      choices:
+        - { text: "Une fermentation chaude avec oxydation volontaire en fût neuf", correct: false }
+        - { text: "Une fermentation fraîche en cuve inerte, parfois suivie d’un élevage sur lies", correct: true }
+        - { text: "Une macération carbonique d’un mois en grappes entières rouges", correct: false }
+        - { text: "Un mutage avant le début de la fermentation", correct: false }
+      explanation: |
+        La cuve inox thermorégulée est courante, car elle conserve le fruit et la fraîcheur. Certains
+        producteurs apportent de la texture par un contact avec les lies ou utilisent du bois neutre
+        sans faire des arômes de chêne la caractéristique dominante.
 
   - id: sitaly-greco-age-001
     type: mcq
@@ -332,15 +514,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What can bottle-aged Greco pick up?
+      question: "Which tertiary notes can develop in high-quality Greco di Tufo with bottle age?"
       choices:
-        - { text: "Only residual sugar", correct: false }
-        - { text: "Honey and mushroom notes", correct: true }
-        - { text: "A legal ban on any development", correct: false }
-        - { text: "Lychee and roses only", correct: false }
+        - { text: "Fresh lemon, green apple and white flowers", correct: false }
+        - { text: "Honey, wax and savoury or mushroom nuances", correct: true }
+        - { text: "Vanilla, coconut and toast from dominant new oak", correct: false }
+        - { text: "Petrol, lime cordial and pronounced floral perfume", correct: false }
       explanation: |
-        **Honey and mushroom notes** on the best bottles. Not every
-        supermarket Greco.
+        Greco’s acidity and concentration can support bottle development. Primary fruit becomes less
+        prominent as honeyed, waxy and savoury complexity emerges.
+    fr:
+      question: "Quelles notes tertiaires peuvent apparaître dans un Greco di Tufo de qualité avec l’âge en bouteille ?"
+      choices:
+        - { text: "Citron frais, pomme verte et fleurs blanches", correct: false }
+        - { text: "Miel, cire et nuances savoureuses ou de champignon", correct: true }
+        - { text: "Vanille, noix de coco et toast dus à un fût neuf dominant", correct: false }
+        - { text: "Pétrole, cordial de citron vert et parfum floral prononcé", correct: false }
+      explanation: |
+        L’acidité et la concentration du Greco peuvent soutenir une évolution en bouteille. Le fruit
+        primaire s’efface progressivement au profit d’une complexité miellée, cireuse et savoureuse.
 
   - id: sitaly-aglianico-001
     type: mcq
@@ -352,15 +544,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which black grape is Campania’s prestige red?
+      question: "Which combination makes Aglianico both demanding in the vineyard and valuable for ageworthy southern reds?"
       choices:
-        - { text: "Schiava", correct: false }
-        - { text: "Aglianico", correct: true }
-        - { text: "Corvina", correct: false }
-        - { text: "Pinotage", correct: false }
+        - { text: "Early ripening, low acidity and low tannin", correct: false }
+        - { text: "Late ripening, high acidity and high tannin", correct: true }
+        - { text: "Thin skins, low colour and Muscat aromas", correct: false }
+        - { text: "Naturally high sugar with almost no phenolics", correct: false }
       explanation: |
-        **Aglianico.** The south’s answer to Nebbiolo — late,
-        tannic, high acid.
+        Aglianico needs a long, warm season to ripen its grapes and tannins. Its natural acidity, tannin
+        and flavour concentration give wines such as Taurasi and Aglianico del Vulture strong ageing
+        potential.
+    fr:
+      question: "Quelle combinaison rend l’Aglianico à la fois exigeant dans le vignoble et précieux pour les rouges de garde du Sud ?"
+      choices:
+        - { text: "Maturité précoce, faible acidité et faibles tanins", correct: false }
+        - { text: "Maturité tardive, acidité élevée et tanins élevés", correct: true }
+        - { text: "Pellicule fine, faible couleur et arômes muscatés", correct: false }
+        - { text: "Richesse naturelle en sucre avec presque aucun composé phénolique", correct: false }
+      explanation: |
+        L’Aglianico a besoin d’une saison longue et chaude pour mûrir ses raisins et ses tanins. Son
+        acidité naturelle, ses tanins et sa concentration aromatique confèrent à des vins comme Taurasi
+        et Aglianico del Vulture un fort potentiel de garde.
 
   - id: sitaly-aglianico-style-001
     type: mcq
@@ -372,16 +576,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What is typical Campania Aglianico like?
+      question: "Which profile best describes a high-quality, youthful Campania Aglianico?"
       choices:
-        - { text: "Pale, low tannin, and floral only", correct: false }
-        - { text: "Deep colour, high acid, high tannin, black fruit, oak-aged and able to pick up forest-floor notes", correct: true }
-        - { text: "A white grape", correct: false }
-        - { text: "Always a sweet sparkling", correct: false }
+        - { text: "Pale colour, high acidity, low tannin and sour red fruit", correct: false }
+        - { text: "Deep colour, high acidity and tannin, with black fruit and savoury spice", correct: true }
+        - { text: "Deep colour, low acidity, soft tannin and sweet dried-fruit notes", correct: false }
+        - { text: "Medium colour, moderate acidity and tannin, with fresh plum fruit", correct: false }
       explanation: |
-        **Deep colour, high acid, high tannin, black fruit, oak-aged
-        and able to pick up forest-floor notes.** Mastroberardino
-        is the named extra.
+        Aglianico produces deeply coloured, structured reds. Oak and bottle ageing can soften the
+        tannins and add leather, tobacco, earth or forest-floor complexity to the dark fruit.
+    fr:
+      question: "Quel profil décrit le mieux un Aglianico de Campanie jeune et de qualité ?"
+      choices:
+        - { text: "Couleur pâle, acidité élevée, faibles tanins et fruits rouges acidulés", correct: false }
+        - { text: "Couleur profonde, acidité et tanins élevés, avec fruits noirs et épices savoureuses", correct: true }
+        - { text: "Couleur profonde, faible acidité, tanins souples et fruits séchés doux", correct: false }
+        - { text: "Couleur moyenne, acidité et tanins modérés, avec prune fraîche", correct: false }
+      explanation: |
+        L’Aglianico produit des rouges profondément colorés et structurés. L’élevage sous bois et en
+        bouteille peut assouplir les tanins et ajouter des nuances de cuir, tabac, terre ou sous-bois au
+        fruit noir.
 
   - id: sitaly-taurasi-001
     type: mcq
@@ -393,14 +607,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which Campania DOCG is Aglianico’s top address?
+      question: "Which Campania DOCG is the principal benchmark for ageworthy Aglianico?"
       choices:
-        - { text: "Barolo DOCG", correct: false }
+        - { text: "Fiano di Avellino DOCG", correct: false }
         - { text: "Taurasi DOCG", correct: true }
-        - { text: "Chianti Classico DOCG", correct: false }
-        - { text: "Prosecco DOC", correct: false }
+        - { text: "Greco di Tufo DOCG", correct: false }
+        - { text: "Cerasuolo di Vittoria DOCG", correct: false }
       explanation: |
-        **Taurasi DOCG.** Irpinia, not the Amalfi beach.
+        Taurasi DOCG is an inland Campania red based principally on Aglianico. Its firm acidity and
+        tannins generally require maturation and reward bottle age.
+    fr:
+      question: "Quelle DOCG de Campanie est la principale référence pour l’Aglianico de garde ?"
+      choices:
+        - { text: "Fiano di Avellino DOCG", correct: false }
+        - { text: "Taurasi DOCG", correct: true }
+        - { text: "Greco di Tufo DOCG", correct: false }
+        - { text: "Cerasuolo di Vittoria DOCG", correct: false }
+      explanation: |
+        Taurasi DOCG est un rouge de l’intérieur de la Campanie fondé principalement sur l’Aglianico.
+        Son acidité et ses tanins fermes exigent généralement une maturation et récompensent le
+        vieillissement en bouteille.
 
   - id: sitaly-basilicata-where-001
     type: mcq
@@ -412,14 +638,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Where is Basilicata relative to Campania?
+      question: "Where is Basilicata’s principal quality-wine zone located?"
       choices:
-        - { text: "North of Piedmont", correct: false }
-        - { text: "Immediately south of Campania", correct: true }
-        - { text: "On the Adriatic of Veneto", correct: false }
-        - { text: "Inside Rome", correct: false }
+        - { text: "On the flat Adriatic coast around Bari", correct: false }
+        - { text: "Around Monte Vulture in the region’s mountainous north", correct: true }
+        - { text: "On Sicily’s western coast near Marsala", correct: false }
+        - { text: "Beside Lake Garda in the Alpine foothills", correct: false }
       explanation: |
-        **Immediately south of Campania.** The instep of the boot.
+        Basilicata lies between Campania, Puglia and Calabria. Its best-known wine zone surrounds the
+        extinct volcano Monte Vulture in the north, where altitude moderates the southern latitude.
+    fr:
+      question: "Où se situe la principale zone de vins de qualité de Basilicate ?"
+      choices:
+        - { text: "Sur la côte adriatique plane autour de Bari", correct: false }
+        - { text: "Autour du Monte Vulture, dans le nord montagneux de la région", correct: true }
+        - { text: "Sur la côte occidentale de la Sicile près de Marsala", correct: false }
+        - { text: "Près du lac de Garde, au pied des Alpes", correct: false }
+      explanation: |
+        La Basilicate se trouve entre la Campanie, les Pouilles et la Calabre. Sa zone viticole la plus
+        connue entoure le volcan éteint Monte Vulture, au nord, où l’altitude modère la latitude
+        méridionale.
 
   - id: sitaly-vulture-001
     type: mcq
@@ -431,16 +669,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What is Basilicata’s vineyard landscape?
+      question: "Why can Monte Vulture produce fresher, more structured wines than its southern latitude suggests?"
       choices:
-        - { text: "A flat coastal lagoon only", correct: false }
-        - { text: "Very mountainous, with vines up to about 900 m around the extinct volcano Monte Vulture", correct: true }
-        - { text: "Indoor only", correct: false }
-        - { text: "A desert at sea level", correct: false }
+        - { text: "Warm nights accelerate sugar accumulation and soften acidity", correct: false }
+        - { text: "High elevations and large diurnal ranges slow ripening", correct: true }
+        - { text: "Fertile alluvial soils consistently raise yields", correct: false }
+        - { text: "Strong maritime humidity delays water stress", correct: false }
       explanation: |
-        **Very mountainous, with vines up to about 900 m around the
-        extinct volcano Monte Vulture.** That height is why
-        Aglianico still has acid.
+        Vulture vineyards climb the slopes of an extinct volcano, and many sites are several hundred
+        metres above sea level. Cool nights preserve acidity and lengthen the ripening season for
+        Aglianico.
+    fr:
+      question: "Pourquoi le Monte Vulture peut-il produire des vins plus frais et structurés que ne le suggère sa latitude méridionale ?"
+      choices:
+        - { text: "Des nuits chaudes accélèrent les sucres et adoucissent l’acidité", correct: false }
+        - { text: "Les hautes altitudes et les fortes amplitudes thermiques ralentissent la maturation", correct: true }
+        - { text: "Des sols alluviaux fertiles augmentent régulièrement les rendements", correct: false }
+        - { text: "Une forte humidité maritime retarde le stress hydrique", correct: false }
+      explanation: |
+        Les vignobles du Vulture gravissent les pentes d’un volcan éteint et de nombreux sites se
+        situent à plusieurs centaines de mètres d’altitude. Les nuits fraîches préservent l’acidité et
+        allongent la maturation de l’Aglianico.
 
   - id: sitaly-basilicata-grape-001
     type: mcq
@@ -452,14 +701,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which grape leads Basilicata?
+      question: "Which grape is responsible for Basilicata’s best-known structured red wines?"
       choices:
-        - { text: "Prosecco’s Glera", correct: false }
+        - { text: "Negroamaro", correct: false }
         - { text: "Aglianico", correct: true }
-        - { text: "Schiava", correct: false }
-        - { text: "Melon", correct: false }
+        - { text: "Nero d’Avola", correct: false }
+        - { text: "Montepulciano", correct: false }
       explanation: |
-        **Aglianico** again — same grape as Taurasi, cooler sites.
+        Aglianico is the defining black grape of the Vulture zone. The combination of a late-ripening
+        variety, elevation and volcanic terrain can yield powerful yet fresh, long-lived reds.
+    fr:
+      question: "Quel cépage est à l’origine des rouges structurés les plus connus de Basilicate ?"
+      choices:
+        - { text: "Negroamaro", correct: false }
+        - { text: "Aglianico", correct: true }
+        - { text: "Nero d’Avola", correct: false }
+        - { text: "Montepulciano", correct: false }
+      explanation: |
+        L’Aglianico est le cépage noir emblématique de la zone du Vulture. L’association d’une variété
+        tardive, de l’altitude et d’un terrain volcanique peut donner des rouges puissants mais frais et
+        aptes à une longue garde.
 
   - id: sitaly-vulture-docg-001
     type: mcq
@@ -471,15 +732,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which is Basilicata’s flagship wine?
+      question: "Which designation is the DOCG category for Basilicata’s top dry Aglianico wines from Vulture?"
       choices:
-        - { text: "Soave DOC", correct: false }
-        - { text: "Aglianico del Vulture DOCG", correct: true }
-        - { text: "Frascati DOC", correct: false }
-        - { text: "Barolo DOCG", correct: false }
+        - { text: "Aglianico del Vulture DOC", correct: false }
+        - { text: "Aglianico del Vulture Superiore DOCG", correct: true }
+        - { text: "Primitivo di Manduria Dolce Naturale DOCG", correct: false }
+        - { text: "Aglianico del Taburno DOCG", correct: false }
       explanation: |
-        **Aglianico del Vulture DOCG.** Paternoster is a checkable
-        name.
+        Aglianico del Vulture and Aglianico del Vulture Superiore are distinct protected designations:
+        the former is DOC, while the Superiore category is DOCG. Omitting ‘Superiore’ gives the wrong
+        classification.
+    fr:
+      question: "Quelle dénomination correspond à la catégorie DOCG des meilleurs Aglianico secs du Vulture en Basilicate ?"
+      choices:
+        - { text: "Aglianico del Vulture DOC", correct: false }
+        - { text: "Aglianico del Vulture Superiore DOCG", correct: true }
+        - { text: "Primitivo di Manduria Dolce Naturale DOCG", correct: false }
+        - { text: "Aglianico del Taburno DOCG", correct: false }
+      explanation: |
+        Aglianico del Vulture et Aglianico del Vulture Superiore sont deux dénominations protégées
+        distinctes : la première est une DOC, tandis que la catégorie Superiore est une DOCG. Omettre «
+        Superiore » donne une classification erronée.
 
   - id: sitaly-puglia-agri-001
     type: mcq
@@ -491,15 +764,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What kind of wine country is Puglia?
+      question: "What best explains Puglia’s ability to produce both inexpensive wine and concentrated premium reds?"
       choices:
-        - { text: "A handful of alpine clos", correct: false }
-        - { text: "A vast agricultural zone that grows huge grape volumes", correct: true }
-        - { text: "Only icewine plots", correct: false }
-        - { text: "No vines at all", correct: false }
+        - { text: "Uniform soils and one variety planted at similar yields", correct: false }
+        - { text: "Extensive mechanisable plains alongside lower-yielding old-vine and quality-focused sites", correct: true }
+        - { text: "A cool continental climate with a short growing season", correct: false }
+        - { text: "Oak maturation as the main divide between commercial and premium wine", correct: false }
       explanation: |
-        **A vast agricultural zone that grows huge grape volumes.**
-        The heel of the boot.
+        Puglia’s broad plains and warm climate support reliable, efficient production. Concentrated
+        premium wines depend more on restrained yields, suitable sites and, in some cases, old bush
+        vines.
+    fr:
+      question: "Qu’est-ce qui explique le mieux la capacité des Pouilles à produire à la fois des vins bon marché et des rouges haut de gamme concentrés ?"
+      choices:
+        - { text: "Des sols uniformes et un seul cépage cultivé à des rendements similaires", correct: false }
+        - { text: "De vastes plaines mécanisables, mais aussi des vieilles vignes à faibles rendements et des sites axés sur la qualité", correct: true }
+        - { text: "Un climat continental frais assorti d’une courte saison", correct: false }
+        - { text: "L’élevage sous bois comme principale différence entre vins commerciaux et haut de gamme", correct: false }
+      explanation: |
+        Les vastes plaines et le climat chaud des Pouilles favorisent une production régulière et
+        efficace. Les vins haut de gamme concentrés dépendent davantage de rendements maîtrisés, de
+        sites adaptés et, parfois, de vieilles vignes en gobelet.
 
   - id: sitaly-puglia-hot-001
     type: mcq
@@ -511,14 +796,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which word fits Puglia’s climate?
+      question: "Which description best fits Puglia’s growing conditions?"
       choices:
-        - { text: "Cool maritime", correct: false }
-        - { text: "Hot", correct: true }
-        - { text: "High alpine", correct: false }
-        - { text: "Polar", correct: false }
+        - { text: "Warm and humid, with frequent summer rain", correct: false }
+        - { text: "Hot and dry, with local Adriatic and Ionian sea breezes", correct: true }
+        - { text: "Hot and continental, with little maritime influence", correct: false }
+        - { text: "Mild and cloudy, with low summer sunshine", correct: false }
       explanation: |
-        **Hot.** Sea breezes help; it is still a bake.
+        Puglia forms Italy’s south-eastern heel between the Adriatic and Ionian seas. Heat and sunshine
+        make ripening reliable, while coastal airflow can reduce heat stress and disease pressure.
+    fr:
+      question: "Quelle description correspond le mieux aux conditions de culture des Pouilles ?"
+      choices:
+        - { text: "Chaudes et humides, avec de fréquentes pluies estivales", correct: false }
+        - { text: "Chaudes et sèches, avec des brises adriatiques et ioniennes locales", correct: true }
+        - { text: "Chaudes et continentales, avec peu d’influence maritime", correct: false }
+        - { text: "Douces et nuageuses, avec un faible ensoleillement estival", correct: false }
+      explanation: |
+        Les Pouilles forment le talon sud-est de l’Italie, entre l’Adriatique et la mer Ionienne. La
+        chaleur et l’ensoleillement assurent la maturité, tandis que l’air côtier peut réduire le stress
+        thermique et la pression des maladies.
 
   - id: sitaly-puglia-black-001
     type: mcq
@@ -530,15 +827,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Why do black grapes dominate Puglia?
+      question: "Why are black grapes especially prominent in Puglia’s warm vineyards?"
       choices:
-        - { text: "A legal ban on any white", correct: false }
-        - { text: "The hot climate ripens them reliably", correct: true }
-        - { text: "It is a cool-climate region", correct: false }
-        - { text: "Only Riesling is legal", correct: false }
+        - { text: "Black grapes retain more acidity because they ripen earlier", correct: false }
+        - { text: "Heat and sunshine reliably ripen grapes for deeply coloured, full-bodied reds", correct: true }
+        - { text: "Coastal humidity prevents white grapes from flowering", correct: false }
+        - { text: "Red varieties give higher yields under severe drought", correct: false }
       explanation: |
-        **The hot climate ripens them reliably.** Whites exist;
-        reds own the hectares.
+        Warm, sunny conditions suit late- or fully ripening black grapes such as Negroamaro and
+        Primitivo. Puglia also makes whites, so the predominance of red varieties is climatic and
+        commercial, not an absolute rule.
+    fr:
+      question: "Pourquoi les cépages noirs occupent-ils une place particulièrement importante dans les vignobles chauds des Pouilles ?"
+      choices:
+        - { text: "Les cépages noirs conservent plus d’acidité car ils mûrissent plus tôt", correct: false }
+        - { text: "La chaleur et le soleil mûrissent aisément des cépages donnant des rouges colorés et corsés", correct: true }
+        - { text: "L’humidité côtière empêche la floraison des cépages blancs", correct: false }
+        - { text: "Les variétés rouges donnent de meilleurs rendements en forte sécheresse", correct: false }
+      explanation: |
+        Les conditions chaudes et ensoleillées conviennent à des cépages noirs comme le Negroamaro et le
+        Primitivo. Les Pouilles produisent aussi des blancs : la prédominance des variétés rouges relève
+        du climat et du marché, pas d’une règle absolue.
 
   - id: sitaly-puglia-pair-001
     type: mcq
@@ -550,15 +859,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which two grapes are Puglia’s headline reds?
+      question: "Which two black grapes are most strongly associated with Puglia’s distinctive red wines?"
       choices:
         - { text: "Nebbiolo and Barbera", correct: false }
         - { text: "Negroamaro and Primitivo", correct: true }
         - { text: "Corvina and Rondinella", correct: false }
-        - { text: "Pinot Noir and Gamay", correct: false }
+        - { text: "Sangiovese and Canaiolo", correct: false }
       explanation: |
-        **Negroamaro and Primitivo.** Primitivo is Zinfandel’s
-        cousin.
+        Negroamaro is particularly associated with Salento and Salice Salentino, while Primitivo is
+        prominent around Manduria and Gioia del Colle. Both can give ripe, full-bodied wines.
+    fr:
+      question: "Quels sont les deux cépages noirs les plus fortement associés aux rouges distinctifs des Pouilles ?"
+      choices:
+        - { text: "Nebbiolo et Barbera", correct: false }
+        - { text: "Negroamaro et Primitivo", correct: true }
+        - { text: "Corvina et Rondinella", correct: false }
+        - { text: "Sangiovese et Canaiolo", correct: false }
+      explanation: |
+        Le Negroamaro est particulièrement associé au Salento et à Salice Salentino, tandis que le
+        Primitivo est important autour de Manduria et de Gioia del Colle. Tous deux peuvent donner des
+        vins mûrs et corsés.
 
   - id: sitaly-puglia-igt-001
     type: mcq
@@ -570,15 +890,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: How are Puglia’s simple, high-yield reds usually labelled?
+      question: "Why is Puglia IGT useful to producers of high-volume or innovative Puglian wines?"
       choices:
-        - { text: "Taurasi DOCG", correct: false }
-        - { text: "Puglia IGT", correct: true }
-        - { text: "Barolo DOCG", correct: false }
-        - { text: "Only Champagne AOC", correct: false }
+        - { text: "It imposes longer ageing than the principal local DOCs", correct: false }
+        - { text: "It offers broad regional sourcing and flexible grape or blending options", correct: true }
+        - { text: "It restricts producers to traditional local blends", correct: false }
+        - { text: "It narrows sourcing to one delimited commune", correct: false }
       explanation: |
-        **Puglia IGT** — early-drinking, fruity volume. High yield on
-        the hot plain, not a high-altitude story.
+        The regional IGT can accommodate varietal wines and blends from across Puglia under less
+        prescriptive rules than many smaller denominations. IGT indicates origin and rules, not
+        automatically low quality.
+    fr:
+      question: "Pourquoi Puglia IGT est-elle utile aux producteurs de vins des Pouilles à grand volume ou de style innovant ?"
+      choices:
+        - { text: "Elle impose un élevage plus long que les principales DOC locales", correct: false }
+        - { text: "Elle offre une origine régionale large et une certaine souplesse de cépages ou d’assemblage", correct: true }
+        - { text: "Elle limite les producteurs aux assemblages locaux traditionnels", correct: false }
+        - { text: "Elle restreint l’origine à une seule commune délimitée", correct: false }
+      explanation: |
+        L’IGT régionale peut accueillir des vins de cépage et des assemblages provenant de l’ensemble
+        des Pouilles selon des règles moins prescriptives que de nombreuses petites dénominations. IGT
+        indique une origine et des règles, pas automatiquement une qualité faible.
 
   - id: sitaly-negroamaro-yield-001
     type: mcq
@@ -590,14 +922,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: When can Negroamaro make a serious Puglian red?
+      question: "Which vineyard decision is most important for producing concentrated Negroamaro rather than dilute, inexpensive wine?"
       choices:
-        - { text: "Only at 20 tonnes a hectare", correct: false }
-        - { text: "When yields are kept in check", correct: true }
-        - { text: "It never makes quality wine", correct: false }
-        - { text: "Only as a white", correct: false }
+        - { text: "Increasing crop size to delay sugar accumulation", correct: false }
+        - { text: "Controlling yields and achieving balanced ripeness", correct: true }
+        - { text: "Harvesting early to minimise phenolic development", correct: false }
+        - { text: "Selecting fertile soils to promote vigorous growth", correct: false }
       explanation: |
-        **When yields are kept in check.** Same grape, two wines.
+        Negroamaro can crop generously in Puglia’s warm climate. Limiting yield and avoiding severe
+        drought stress improve concentration and help tannins and flavours ripen together.
+    fr:
+      question: "Quelle décision viticole est la plus importante pour produire un Negroamaro concentré plutôt qu’un vin dilué et bon marché ?"
+      choices:
+        - { text: "Augmenter la charge pour ralentir l’accumulation des sucres", correct: false }
+        - { text: "Maîtriser les rendements et atteindre une maturité équilibrée", correct: true }
+        - { text: "Vendanger tôt pour limiter le développement phénolique", correct: false }
+        - { text: "Choisir des sols fertiles pour favoriser une forte vigueur", correct: false }
+      explanation: |
+        Le Negroamaro peut produire abondamment dans le climat chaud des Pouilles. Limiter le rendement
+        et éviter un stress hydrique sévère améliorent la concentration et aident les tanins et les
+        arômes à mûrir ensemble.
 
   - id: sitaly-negroamaro-style-001
     type: mcq
@@ -609,15 +953,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What is better Negroamaro like?
+      question: "Which profile best describes a good dry Negroamaro from Salento?"
       choices:
-        - { text: "Light, 11%, and spritzy", correct: false }
-        - { text: "Full, medium tannin, medium acid, high alcohol, baked red and black fruit", correct: true }
-        - { text: "Always a sweet white", correct: false }
-        - { text: "Pale and herbal only", correct: false }
+        - { text: "Pale, light-bodied and dominated by tart green fruit", correct: false }
+        - { text: "Full-bodied, with ripe red and black fruit, moderate acidity and tannin, and high alcohol", correct: true }
+        - { text: "Sweet, sparkling and strongly muscat-scented", correct: false }
+        - { text: "Very high in acidity but almost colourless and tannin-free", correct: false }
       explanation: |
-        **Full, medium tannin, medium acid, high alcohol, baked red
-        and black fruit.** Heat plus a smaller crop.
+        Negroamaro translates roughly as ‘black bitter’, and good examples can combine dark colour and
+        ripe fruit with a subtly bitter or dried-herb finish. Excessive yields make the wine simpler.
+    fr:
+      question: "Quel profil décrit le mieux un bon Negroamaro sec du Salento ?"
+      choices:
+        - { text: "Pâle, léger et dominé par des fruits verts acidulés", correct: false }
+        - { text: "Corsé, sur les fruits rouges et noirs mûrs, avec acidité et tanins modérés et alcool élevé", correct: true }
+        - { text: "Doux, effervescent et fortement muscaté", correct: false }
+        - { text: "Très acide, mais presque incolore et dépourvu de tanins", correct: false }
+      explanation: |
+        Negroamaro signifie approximativement « noir amer » ; les bons exemples peuvent associer couleur
+        profonde et fruit mûr à une finale légèrement amère ou herbacée. Des rendements excessifs
+        donnent un vin plus simple.
 
   - id: sitaly-salice-001
     type: mcq
@@ -629,14 +984,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which DOC is a usual address for better Negroamaro?
+      question: "Which Puglian DOC is a classic source of Negroamaro-led red and rosato wines?"
       choices:
-        - { text: "Barolo DOCG", correct: false }
+        - { text: "Primitivo di Manduria DOC", correct: false }
         - { text: "Salice Salentino DOC", correct: true }
-        - { text: "Soave DOC", correct: false }
-        - { text: "Gavi DOCG", correct: false }
+        - { text: "Castel del Monte Bombino Nero DOCG", correct: false }
+        - { text: "Locorotondo DOC", correct: false }
       explanation: |
-        **Salice Salentino DOC**, in the Salento heel.
+        Salice Salentino lies on the Salento peninsula and is strongly associated with Negroamaro. The
+        denomination includes several styles, so its name should not be treated as a synonym for one
+        grape or one red-wine formula.
+    fr:
+      question: "Quelle DOC des Pouilles est une source classique de rouges et de rosatos dominés par le Negroamaro ?"
+      choices:
+        - { text: "Primitivo di Manduria DOC", correct: false }
+        - { text: "Salice Salentino DOC", correct: true }
+        - { text: "Castel del Monte Bombino Nero DOCG", correct: false }
+        - { text: "Locorotondo DOC", correct: false }
+      explanation: |
+        Salice Salentino se trouve dans la péninsule du Salento et est fortement associée au Negroamaro.
+        La dénomination comprend plusieurs styles : son nom n’est donc pas synonyme d’un seul cépage ni
+        d’une unique formule de vin rouge.
 
   - id: sitaly-primitivo-style-001
     type: mcq
@@ -648,16 +1016,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What are the best Primitivos like?
+      question: "Which profile best describes a ripe dry Primitivo from Puglia?"
       choices:
-        - { text: "Lean, high acid, and green", correct: false }
-        - { text: "Full, medium tannin, medium acid, high alcohol, very ripe berry fruit", correct: true }
-        - { text: "Always sparkling", correct: false }
-        - { text: "A white wine", correct: false }
+        - { text: "Medium-bodied, high in acidity and led by tart red fruit", correct: false }
+        - { text: "Full-bodied and high in alcohol, with ripe plum, blackberry and often sweet spice", correct: true }
+        - { text: "Full-bodied, low in alcohol and dominated by herbaceous notes", correct: false }
+        - { text: "Pale, fragrant and lightly tannic, with sour-cherry fruit", correct: false }
       explanation: |
-        **Full, medium tannin, medium acid, high alcohol, very ripe
-        berry fruit.** Manduria and Gioia del Colle are the named
-        extras.
+        Primitivo accumulates sugar readily and can produce powerful, fruit-rich reds with moderate
+        acidity and tannin. Careful harvest timing is needed to retain freshness and avoid jammy
+        imbalance.
+    fr:
+      question: "Quel profil décrit le mieux un Primitivo sec et mûr des Pouilles ?"
+      choices:
+        - { text: "Moyennement corsé, très acide et dominé par des fruits rouges acidulés", correct: false }
+        - { text: "Corsé et riche en alcool, avec prune mûre, mûre et souvent des épices douces", correct: true }
+        - { text: "Corsé, peu alcoolisé et dominé par des notes herbacées", correct: false }
+        - { text: "Pâle, parfumé et peu tannique, avec un fruit de griotte", correct: false }
+      explanation: |
+        Le Primitivo accumule facilement du sucre et peut produire des rouges puissants et fruités, à
+        l’acidité et aux tanins modérés. Une date de vendange précise est nécessaire pour conserver la
+        fraîcheur et éviter un déséquilibre confituré.
 
   - id: sitaly-sicily-volume-001
     type: mcq
@@ -669,15 +1048,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: How does Sicily sit next to Puglia for grape volume?
+      question: "What most strongly supports Sicily’s role as a major source of both bulk and branded wine?"
       choices:
-        - { text: "It grows almost no grapes", correct: false }
-        - { text: "It also grows vast quantities", correct: true }
-        - { text: "Only icewine is legal", correct: false }
-        - { text: "Vines are banned", correct: false }
+        - { text: "A tiny vineyard area confined to one volcano", correct: false }
+        - { text: "A very large vineyard area, abundant sunshine and many mechanisable sites", correct: true }
+        - { text: "A cool, rainy climate that restricts grape yields", correct: false }
+        - { text: "A rule limiting production to one indigenous variety", correct: false }
       explanation: |
-        **It also grows vast quantities.** IGT and Sicilia DOC take
-        most of it.
+        Sicily combines scale, reliable ripening and varied terrain. Large volumes coexist with premium
+        wines from distinctive places such as Etna and with quality-focused regional bottlings.
+    fr:
+      question: "Qu’est-ce qui explique le mieux le rôle majeur de la Sicile comme source de vins en vrac et de marques ?"
+      choices:
+        - { text: "Une minuscule surface viticole limitée à un seul volcan", correct: false }
+        - { text: "Une très grande surface viticole, un fort ensoleillement et de nombreux sites mécanisables", correct: true }
+        - { text: "Un climat frais et pluvieux qui limite les rendements", correct: false }
+        - { text: "Une règle limitant la production à un seul cépage autochtone", correct: false }
+      explanation: |
+        La Sicile associe échelle, maturité régulière et terrains variés. Les grands volumes coexistent
+        avec des vins haut de gamme issus de lieux distinctifs comme l’Etna et avec des cuvées
+        régionales axées sur la qualité.
 
   - id: sitaly-terre-001
     type: mcq
@@ -689,15 +1079,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Under which IGT do most Sicilian grapes land?
+      question: "Which broad geographical indication gives Sicilian producers flexible options for regional varietal wines and blends?"
       choices:
-        - { text: "Toscana IGT", correct: false }
+        - { text: "Puglia IGT", correct: false }
         - { text: "Terre Siciliane IGT", correct: true }
-        - { text: "Puglia IGT only", correct: false }
-        - { text: "Champagne AOC", correct: false }
+        - { text: "Toscana IGT", correct: false }
+        - { text: "Vigneti delle Dolomiti IGT", correct: false }
       explanation: |
-        **Terre Siciliane IGT** (the old Terre di Sicilia wording).
-        The volume bin.
+        Terre Siciliane IGT covers the island and permits a wide range of grapes and styles. It is
+        useful for commercially accessible varietal wines as well as blends that fall outside more
+        prescriptive DOC rules.
+    fr:
+      question: "Quelle indication géographique large offre aux producteurs siciliens des options souples pour les vins de cépage et assemblages régionaux ?"
+      choices:
+        - { text: "Puglia IGT", correct: false }
+        - { text: "Terre Siciliane IGT", correct: true }
+        - { text: "Toscana IGT", correct: false }
+        - { text: "Vigneti delle Dolomiti IGT", correct: false }
+      explanation: |
+        Terre Siciliane IGT couvre l’île et autorise de nombreux cépages et styles. Elle convient aux
+        vins de cépage commercialement accessibles comme aux assemblages qui sortent des règles plus
+        prescriptives des DOC.
 
   - id: sitaly-sicilia-doc-001
     type: mcq
@@ -709,14 +1111,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: If yields come down a little, which island-wide DOC can that fruit take?
+      question: "What is the key distinction between Sicilia DOC and Terre Siciliane IGT?"
       choices:
-        - { text: "Barolo DOCG", correct: false }
-        - { text: "Sicilia DOC", correct: true }
-        - { text: "Chianti Classico DOCG", correct: false }
-        - { text: "Only Vin de France", correct: false }
+        - { text: "The IGT has stricter grape and yield requirements", correct: false }
+        - { text: "Sicilia DOC operates under a more prescriptive island-wide production code", correct: true }
+        - { text: "The DOC restricts production to the slopes of Mount Etna", correct: false }
+        - { text: "The IGT requires longer maturation before release", correct: false }
       explanation: |
-        **Sicilia DOC.** One step up from the IGT bin.
+        Both indications can cover wines sourced across Sicily, but Sicilia DOC has its own DOC
+        production rules. The hierarchy alone does not guarantee sensory quality; producer choices and
+        vineyard source still matter.
+    fr:
+      question: "Quelle est la différence essentielle entre Sicilia DOC et Terre Siciliane IGT ?"
+      choices:
+        - { text: "L’IGT impose des règles de cépages et de rendements plus strictes", correct: false }
+        - { text: "Sicilia DOC relève d’un cahier des charges insulaire plus prescriptif", correct: true }
+        - { text: "La DOC limite la production aux pentes de l’Etna", correct: false }
+        - { text: "L’IGT exige une maturation plus longue avant la commercialisation", correct: false }
+      explanation: |
+        Les deux indications peuvent couvrir des vins issus de toute la Sicile, mais Sicilia DOC possède
+        son propre cahier des charges de DOC. La hiérarchie ne garantit pas à elle seule la qualité
+        gustative ; les choix du producteur et l’origine des raisins comptent toujours.
 
   - id: sitaly-nda-001
     type: mcq
@@ -728,14 +1143,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which black grape leads Sicily’s volume reds?
+      question: "Which indigenous black grape is most widely associated with Sicily’s ripe, fruit-forward red wines?"
       choices:
-        - { text: "Nebbiolo", correct: false }
+        - { text: "Aglianico", correct: false }
         - { text: "Nero d’Avola", correct: true }
-        - { text: "Pinot Noir", correct: false }
-        - { text: "Schiava", correct: false }
+        - { text: "Negroamaro", correct: false }
+        - { text: "Sagrantino", correct: false }
       explanation: |
-        **Nero d’Avola.** The island’s workhorse red.
+        Nero d’Avola is Sicily’s emblematic black grape and appears in both inexpensive varietal wines
+        and more concentrated examples. It also partners Frappato in Cerasuolo di Vittoria DOCG.
+    fr:
+      question: "Quel cépage noir autochtone est le plus associé aux rouges siciliens mûrs et fruités ?"
+      choices:
+        - { text: "Aglianico", correct: false }
+        - { text: "Nero d’Avola", correct: true }
+        - { text: "Negroamaro", correct: false }
+        - { text: "Sagrantino", correct: false }
+      explanation: |
+        Le Nero d’Avola est le cépage noir emblématique de la Sicile et apparaît aussi bien dans des
+        vins de cépage bon marché que dans des exemples plus concentrés. Il est également assemblé au
+        Frappato dans Cerasuolo di Vittoria DOCG.
 
   - id: sitaly-nda-style-001
     type: mcq
@@ -747,16 +1174,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What is everyday Nero d’Avola like?
+      question: "Which profile best describes a typical fruit-forward Nero d’Avola?"
       choices:
-        - { text: "Pale, high acid, and built like Barolo", correct: false }
-        - { text: "Medium to full, medium tannin, medium acid, plum and black cherry, usually fruity and early-drinking", correct: true }
-        - { text: "Always a sweet white", correct: false }
-        - { text: "Sparkling only", correct: false }
+        - { text: "Pale, light-bodied and sharply acidic, with little ripe fruit", correct: false }
+        - { text: "Medium- to full-bodied, with plum and black-cherry fruit, moderate acidity and tannin", correct: true }
+        - { text: "White, floral and high in residual sugar", correct: false }
+        - { text: "Very high in tannin and acidity, with no primary fruit", correct: false }
       explanation: |
-        **Medium to full, medium tannin, medium acid, plum and black
-        cherry, usually fruity and early-drinking.** Better houses
-        make a denser, more complex version.
+        Warm sites bring Nero d’Avola to ripe plum and dark-cherry flavours. Styles range from soft,
+        unoaked early-drinking wines to more concentrated and structured examples.
+    fr:
+      question: "Quel profil décrit le mieux un Nero d’Avola typique axé sur le fruit ?"
+      choices:
+        - { text: "Pâle, léger et très acide, avec peu de fruit mûr", correct: false }
+        - { text: "Moyennement corsé à corsé, sur la prune et la cerise noire, avec acidité et tanins modérés", correct: true }
+        - { text: "Blanc, floral et riche en sucre résiduel", correct: false }
+        - { text: "Très tannique et très acide, sans aucun fruit primaire", correct: false }
+      explanation: |
+        Les sites chauds donnent au Nero d’Avola des saveurs mûres de prune et de cerise noire. Les
+        styles vont de vins souples, non boisés et à boire jeunes à des exemples plus concentrés et
+        structurés.
 
   - id: sitaly-sicily-white-sell-001
     type: mcq
@@ -768,15 +1205,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: How are Sicily’s local whites usually sold?
+      question: "Which trio consists of important indigenous white grapes of Sicily?"
       choices:
-        - { text: "Only as a red blend", correct: false }
-        - { text: "As varietal bottles or as blends", correct: true }
-        - { text: "Only as icewine", correct: false }
-        - { text: "They may not be labelled", correct: false }
+        - { text: "Cortese, Arneis and Timorasso", correct: false }
+        - { text: "Catarratto, Grillo and Inzolia", correct: true }
+        - { text: "Garganega, Glera and Durella", correct: false }
+        - { text: "Verdicchio, Pecorino and Passerina", correct: false }
       explanation: |
-        **As varietal bottles or as blends.** Grillo, Catarratto,
-        Inzolia.
+        Catarratto is widely planted, while Grillo and Inzolia are important in both dry wines and,
+        historically, Marsala production. Producers may bottle these grapes varietally or blend them.
+    fr:
+      question: "Quel trio réunit d’importants cépages blancs autochtones de Sicile ?"
+      choices:
+        - { text: "Cortese, Arneis et Timorasso", correct: false }
+        - { text: "Catarratto, Grillo et Inzolia", correct: true }
+        - { text: "Garganega, Glera et Durella", correct: false }
+        - { text: "Verdicchio, Pecorino et Passerina", correct: false }
+      explanation: |
+        Le Catarratto est largement planté, tandis que le Grillo et l’Inzolia sont importants dans les
+        vins secs et, historiquement, dans la production de Marsala. Les producteurs peuvent les mettre
+        en bouteille seuls ou les assembler.
 
   - id: sitaly-sicily-white-style-001
     type: mcq
@@ -788,14 +1236,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What style do Sicily’s local whites usually take?
+      question: "Which approach is common for fresh, inexpensive dry whites from Sicily?"
       choices:
-        - { text: "Heavy new oak and tropical jam", correct: false }
-        - { text: "Unoaked, with citrus and stone fruit", correct: true }
-        - { text: "Tannic red", correct: false }
-        - { text: "Always fortified", correct: false }
+        - { text: "Long oxidative ageing in new oak to suppress fruit", correct: false }
+        - { text: "Protective stainless-steel fermentation to retain citrus and stone fruit", correct: true }
+        - { text: "Extended extraction from black grape skins", correct: false }
+        - { text: "Fortification followed by decades in a solera", correct: false }
       explanation: |
-        **Unoaked citrus and stone fruit.** Steel, not barrique.
+        Cool, inert fermentation limits oxidation and preserves primary fruit. Harvest timing and cooler
+        sites are important because Sicily’s heat can otherwise reduce acidity.
+    fr:
+      question: "Quelle approche est courante pour les blancs secs, frais et bon marché de Sicile ?"
+      choices:
+        - { text: "Un long élevage oxydatif en fût neuf pour supprimer le fruit", correct: false }
+        - { text: "Une fermentation protectrice en inox pour préserver agrumes et fruits à noyau", correct: true }
+        - { text: "Une extraction prolongée sur des pellicules de raisins noirs", correct: false }
+        - { text: "Un mutage suivi de décennies en solera", correct: false }
+      explanation: |
+        Une fermentation fraîche en milieu inerte limite l’oxydation et préserve le fruit primaire. La
+        date de vendange et les sites plus frais comptent, car la chaleur sicilienne peut sinon diminuer
+        l’acidité.
 
   - id: sitaly-sicily-syrah-001
     type: mcq
@@ -807,15 +1267,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Besides the locals, which international red has done especially well in Sicily?
+      question: "Which blend defines Sicily’s only DOCG, Cerasuolo di Vittoria?"
       choices:
-        - { text: "Pinot Noir", correct: false }
-        - { text: "Syrah", correct: true }
-        - { text: "Gamay", correct: false }
-        - { text: "Riesling", correct: false }
+        - { text: "Nerello Mascalese with Nerello Cappuccio", correct: false }
+        - { text: "Nero d’Avola with Frappato", correct: true }
+        - { text: "Primitivo with Negroamaro", correct: false }
+        - { text: "Aglianico with Piedirosso", correct: false }
       explanation: |
-        **Syrah.** Chardonnay is planted too; Syrah is the one that
-        likes the heat.
+        Cerasuolo di Vittoria DOCG combines Nero d’Avola’s colour and structure with the more fragrant,
+        lighter Frappato. ‘Cerasuolo’ here refers to the cherry-like colour and character, not Abruzzo’s
+        rosato denomination.
+    fr:
+      question: "Quel assemblage définit l’unique DOCG de Sicile, Cerasuolo di Vittoria ?"
+      choices:
+        - { text: "Nerello Mascalese avec Nerello Cappuccio", correct: false }
+        - { text: "Nero d’Avola avec Frappato", correct: true }
+        - { text: "Primitivo avec Negroamaro", correct: false }
+        - { text: "Aglianico avec Piedirosso", correct: false }
+      explanation: |
+        Cerasuolo di Vittoria DOCG associe la couleur et la structure du Nero d’Avola au Frappato, plus
+        léger et parfumé. Ici, « Cerasuolo » évoque la couleur et le caractère de cerise, et non la
+        dénomination de rosato des Abruzzes.
 
   - id: sitaly-etna-001
     type: mcq
@@ -827,15 +1299,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which Sicilian DOC is the usual source of the island’s finest still wines?
+      question: "Which Sicilian denomination is defined by high-altitude vineyards on an active volcano?"
       choices:
-        - { text: "Prosecco DOC", correct: false }
+        - { text: "Marsala DOC", correct: false }
         - { text: "Etna DOC", correct: true }
-        - { text: "Chianti DOCG", correct: false }
-        - { text: "Soave DOC", correct: false }
+        - { text: "Cerasuolo di Vittoria DOCG", correct: false }
+        - { text: "Pantelleria DOC", correct: false }
       explanation: |
-        **Etna DOC.** Passopisciaro and Tenuta delle Terre Nere are
-        the named extras.
+        Etna DOC vineyards lie on the volcano’s slopes. Altitude, aspect, lava-derived soils and old
+        vines create numerous distinct sites, locally identified by named contrade.
+    fr:
+      question: "Quelle dénomination sicilienne se définit par des vignobles d’altitude sur un volcan actif ?"
+      choices:
+        - { text: "Marsala DOC", correct: false }
+        - { text: "Etna DOC", correct: true }
+        - { text: "Cerasuolo di Vittoria DOCG", correct: false }
+        - { text: "Pantelleria DOC", correct: false }
+      explanation: |
+        Les vignobles d’Etna DOC se trouvent sur les pentes du volcan. Altitude, exposition, sols issus
+        des laves et vieilles vignes créent de nombreux sites distincts, localement identifiés par des
+        contrade nommées.
 
   - id: sitaly-etna-vines-001
     type: mcq
@@ -847,15 +1330,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: How are Etna’s best vines typically farmed?
+      question: "Which combination best explains the freshness and site expression of premium Etna wines?"
       choices:
-        - { text: "High-yield coastal bush at sea level", correct: false }
-        - { text: "Old, low-yielding vines at high altitude", correct: true }
-        - { text: "Indoor only", correct: false }
-        - { text: "Twenty tonnes a hectare", correct: false }
+        - { text: "Low altitude, fertile clay and generous yields", correct: false }
+        - { text: "High altitude, large diurnal range, volcanic soils and often old low-yielding vines", correct: true }
+        - { text: "Moderate altitude, limestone soils and maritime humidity", correct: false }
+        - { text: "Late harvesting, new-oak ageing and warm cellar temperatures", correct: false }
       explanation: |
-        **Old, low-yielding vines at high altitude.** That is the
-        Etna difference.
+        Etna’s altitude and cool nights preserve acidity at a southern latitude. Its patchwork of lava
+        flows, aspects and old vines contributes marked variation between sites.
+    fr:
+      question: "Quelle combinaison explique le mieux la fraîcheur et l’expression du site dans les grands vins de l’Etna ?"
+      choices:
+        - { text: "Une faible altitude, des argiles fertiles et des rendements généreux", correct: false }
+        - { text: "Une haute altitude, une forte amplitude thermique, des sols volcaniques et souvent de vieilles vignes peu productives", correct: true }
+        - { text: "Une altitude modérée, des sols calcaires et une humidité maritime", correct: false }
+        - { text: "Une vendange tardive, du fût neuf et des chais maintenus chauds", correct: false }
+      explanation: |
+        L’altitude et les nuits fraîches de l’Etna préservent l’acidité à une latitude méridionale. La
+        mosaïque de coulées de lave, d’expositions et de vieilles vignes contribue à de nettes
+        variations entre les sites.
 
   - id: sitaly-etna-reds-001
     type: mcq
@@ -867,14 +1361,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which two grapes make Etna red?
+      question: "Which grape composition is required for Etna Rosso DOC?"
       choices:
-        - { text: "Nero d’Avola and Syrah only", correct: false }
-        - { text: "Nerello Mascalese and Nerello Cappuccio", correct: true }
-        - { text: "Sangiovese and Colorino", correct: false }
-        - { text: "Corvina and Rondinella", correct: false }
+        - { text: "At least 80% Nero d’Avola, with up to 20% Frappato", correct: false }
+        - { text: "At least 80% Nerello Mascalese, with up to 20% Nerello Cappuccio", correct: true }
+        - { text: "At least 60% Carricante, with up to 40% Catarratto", correct: false }
+        - { text: "At least 85% Aglianico, with up to 15% Piedirosso", correct: false }
       explanation: |
-        **Nerello Mascalese and Nerello Cappuccio.** Mascalese leads.
+        The current production code requires a minimum of 80% Nerello Mascalese and permits 0–20%
+        Nerello Cappuccio, also called Nerello Mantellato. This applies to the red and rosato styles.
+    fr:
+      question: "Quelle composition de cépages est exigée pour Etna Rosso DOC ?"
+      choices:
+        - { text: "Au moins 80 % de Nero d’Avola, avec jusqu’à 20 % de Frappato", correct: false }
+        - { text: "Au moins 80 % de Nerello Mascalese, avec jusqu’à 20 % de Nerello Cappuccio", correct: true }
+        - { text: "Au moins 60 % de Carricante, avec jusqu’à 40 % de Catarratto", correct: false }
+        - { text: "Au moins 85 % d’Aglianico, avec jusqu’à 15 % de Piedirosso", correct: false }
+      explanation: |
+        Le cahier des charges actuel exige au moins 80 % de Nerello Mascalese et autorise 0 à 20 % de
+        Nerello Cappuccio, également appelé Nerello Mantellato. Cette règle vaut pour les styles rouge
+        et rosato.
 
   - id: sitaly-etna-red-style-001
     type: mcq
@@ -886,16 +1392,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What are blended Etna reds like?
+      question: "Which profile best describes a youthful, high-quality Etna Rosso?"
       choices:
-        - { text: "Baked, jammy, and low acid", correct: false }
-        - { text: "Fragrant, high acid, high tannin, sour red cherry, cranberry, raspberry, sometimes dried herbs", correct: true }
-        - { text: "Always a sweet white", correct: false }
-        - { text: "Pale and sparkling only", correct: false }
+        - { text: "Opaque, jammy and low in acidity and tannin", correct: false }
+        - { text: "Pale to medium colour, fragrant sour-red fruit, high acidity and firm tannins", correct: true }
+        - { text: "Sweet, fortified and dominated by dried grapes", correct: false }
+        - { text: "Full-bodied, low-acid and strongly coconut-flavoured", correct: false }
       explanation: |
-        **Fragrant, high acid, high tannin, sour red cherry,
-        cranberry, raspberry, sometimes dried herbs.** More
-        Burgundy-shaped than a hot Nero d’Avola.
+        Nerello Mascalese can look relatively pale while delivering substantial acidity and tannin. Red
+        cherry, cranberry, floral, herbal and mineral notes are common reference points.
+    fr:
+      question: "Quel profil décrit le mieux un Etna Rosso jeune et de qualité ?"
+      choices:
+        - { text: "Opaque, confituré, peu acide et peu tannique", correct: false }
+        - { text: "Couleur pâle à moyenne, fruits rouges acidulés parfumés, acidité élevée et tanins fermes", correct: true }
+        - { text: "Doux, muté et dominé par les raisins séchés", correct: false }
+        - { text: "Corsé, peu acide et fortement marqué par la noix de coco", correct: false }
+      explanation: |
+        Le Nerello Mascalese peut paraître assez pâle tout en offrant une acidité et des tanins
+        importants. Cerise rouge, canneberge, notes florales, herbacées et minérales sont des repères
+        fréquents.
 
   - id: sitaly-etna-age-001
     type: mcq
@@ -907,15 +1423,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What happens to Etna red with bottle age?
+      question: "How does high-quality Etna Rosso typically evolve with bottle age?"
       choices:
-        - { text: "Tannin hardens and fruit vanishes", correct: false }
-        - { text: "Tannins soften and mushroom notes can appear", correct: true }
-        - { text: "It must be drunk the week it is bottled", correct: false }
-        - { text: "It turns white", correct: false }
+        - { text: "Its tannins become firmer as fresh fruit intensifies", correct: false }
+        - { text: "Tannins soften as dried-fruit, earthy and savoury notes develop", correct: true }
+        - { text: "Its acidity drops rapidly while colour becomes deeper", correct: false }
+        - { text: "Its primary fruit remains unchanged while tannins disappear", correct: false }
       explanation: |
-        **Tannins soften and mushroom notes can appear.** The pale
-        Nerello frame ages.
+        High acidity and firm tannin provide the structure for ageing. Primary red fruit becomes more
+        subdued while tertiary earthy and savoury aromas emerge.
+    fr:
+      question: "Comment un Etna Rosso de qualité évolue-t-il généralement en bouteille ?"
+      choices:
+        - { text: "Ses tanins se raffermissent tandis que le fruit frais s’intensifie", correct: false }
+        - { text: "Les tanins s’assouplissent ; des notes séchées, terreuses et savoureuses apparaissent", correct: true }
+        - { text: "Son acidité chute rapidement tandis que sa couleur s’intensifie", correct: false }
+        - { text: "Son fruit primaire reste inchangé tandis que les tanins disparaissent", correct: false }
+      explanation: |
+        Une acidité élevée et des tanins fermes fournissent la structure nécessaire à la garde. Le fruit
+        rouge primaire s’atténue tandis qu’apparaissent des arômes tertiaires terreux et savoureux.
 
   - id: sitaly-etna-white-001
     type: mcq
@@ -927,13 +1453,24 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What are the better Etna whites like?
+      question: "Which pairing correctly describes Etna Bianco DOC?"
       choices:
-        - { text: "Fat, low acid, and tropical", correct: false }
-        - { text: "Medium body, high acid, citrus, often stony or steely, able to pick up honey and wax", correct: true }
-        - { text: "Tannic red", correct: false }
-        - { text: "Always sparkling", correct: false }
+        - { text: "Catarratto-led; soft, floral and moderate in acidity", correct: false }
+        - { text: "Carricante-led; high in acidity, with citrus and stony or saline notes", correct: true }
+        - { text: "Grillo-led; full-bodied, oaked and tropical-fruited", correct: false }
+        - { text: "Zibibbo-led; aromatic, grapey and moderate in acidity", correct: false }
       explanation: |
-        **Medium body, high acid, citrus, often stony or steely,
-        able to pick up honey and wax.** Carricante is the usual
-        grape.
+        Etna Bianco requires at least 60% Carricante; Catarratto may contribute up to 40%, with limited
+        other non-aromatic white grapes. Carricante’s high acidity supports bottle ageing and the
+        development of waxy or honeyed complexity.
+    fr:
+      question: "Quelle association décrit correctement Etna Bianco DOC ?"
+      choices:
+        - { text: "Dominé par le Catarratto ; souple, floral et modérément acide", correct: false }
+        - { text: "Dominé par le Carricante ; très acide, sur les agrumes et des notes pierreuses ou salines", correct: true }
+        - { text: "Dominé par le Grillo ; corsé, boisé et marqué par les fruits tropicaux", correct: false }
+        - { text: "Dominé par le Zibibbo ; aromatique, muscaté et modérément acide", correct: false }
+      explanation: |
+        Etna Bianco exige au moins 60 % de Carricante ; le Catarratto peut représenter jusqu’à 40 %,
+        avec une part limitée d’autres cépages blancs non aromatiques. L’acidité élevée du Carricante
+        favorise la garde et le développement d’une complexité cireuse ou miellée.

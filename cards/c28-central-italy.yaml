@@ -801,15 +801,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: How do southern Tuscan vineyards sit next to Chianti?
+      question: "How do the principal vineyard areas of southern Tuscany generally differ from Chianti Classico?"
       choices:
-        - { text: "Higher, wetter, and alpine", correct: false }
-        - { text: "Lower and warmer, with cool south-west maritime breezes", correct: true }
-        - { text: "Indoor only", correct: false }
-        - { text: "Permanently iced", correct: false }
+        - { text: "They are higher, colder and farther from maritime influence", correct: false }
+        - { text: "They are generally lower and warmer, with some cooling from the Tyrrhenian Sea", correct: true }
+        - { text: "They are flat Alpine valleys with short summers", correct: false }
+        - { text: "They receive no cooling influence at any elevation", correct: false }
       explanation: |
-        **Lower, warmer, SW sea air.** Montalcino and Montepulciano
-        sit in that belt.
+        Montalcino and Montepulciano accumulate more heat than many Chianti Classico sites, supporting
+        fuller Sangiovese. Elevation and maritime air still preserve acidity in favourable vineyards.
+    fr:
+      question: "Comment les principales zones viticoles du sud de la Toscane diffèrent-elles généralement de Chianti Classico ?"
+      choices:
+        - { text: "Elles sont plus élevées, plus froides et plus éloignées de l’influence maritime", correct: false }
+        - { text: "Elles sont généralement plus basses et chaudes, avec un certain rafraîchissement de la mer Tyrrhénienne", correct: true }
+        - { text: "Ce sont des vallées alpines plates aux étés courts", correct: false }
+        - { text: "Elles ne reçoivent aucune influence rafraîchissante, quelle que soit l’altitude", correct: false }
+      explanation: |
+        Montalcino et Montepulciano accumulent davantage de chaleur que de nombreux sites de Chianti
+        Classico, donnant un Sangiovese plus corsé. L’altitude et l’air maritime préservent néanmoins
+        l’acidité dans les vignobles favorables.
 
   - id: citaly-south-names-001
     type: mcq
@@ -821,15 +832,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: South of Chianti, which two Sangiovese DOCGs matter most?
+      question: "Which two DOCGs are southern Tuscany’s benchmark Sangiovese-based reds?"
       choices:
-        - { text: "Barolo and Barbaresco", correct: false }
+        - { text: "Chianti Rufina and Carmignano", correct: false }
         - { text: "Brunello di Montalcino and Vino Nobile di Montepulciano", correct: true }
-        - { text: "Soave and Prosecco", correct: false }
-        - { text: "Gavi and Asti", correct: false }
+        - { text: "Bolgheri Sassicaia and Morellino di Scansano", correct: false }
+        - { text: "Montefalco Sagrantino and Conero Riserva", correct: false }
       explanation: |
-        **Brunello and Vino Nobile.** Both Sangiovese stories, warmer
-        than Chianti.
+        Brunello requires pure Sangiovese, while Vino Nobile permits blending. Both impose longer
+        maturation than their corresponding Rosso DOCs.
+    fr:
+      question: "Quelles sont les deux DOCG de référence du sud de la Toscane pour les rouges à base de Sangiovese ?"
+      choices:
+        - { text: "Chianti Rufina et Carmignano", correct: false }
+        - { text: "Brunello di Montalcino et Vino Nobile di Montepulciano", correct: true }
+        - { text: "Bolgheri Sassicaia et Morellino di Scansano", correct: false }
+        - { text: "Montefalco Sagrantino et Conero Riserva", correct: false }
+      explanation: |
+        Brunello exige du Sangiovese pur, tandis que Vino Nobile autorise l’assemblage. Tous deux
+        imposent une maturation plus longue que leurs DOC Rosso correspondantes.
 
   - id: citaly-south-style-001
     type: mcq
@@ -841,14 +862,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: How do Brunello and Vino Nobile usually sit next to Chianti?
+      question: "How do Brunello di Montalcino and Vino Nobile di Montepulciano usually compare with basic Chianti?"
       choices:
-        - { text: "Lighter and sweeter", correct: false }
-        - { text: "More intense and fuller-bodied", correct: true }
-        - { text: "Always white", correct: false }
-        - { text: "Identical, by law", correct: false }
+        - { text: "They are lighter, paler and intended for earlier drinking", correct: false }
+        - { text: "They are generally fuller, more concentrated and more age-worthy", correct: true }
+        - { text: "They are sweet wines made from dried grapes", correct: false }
+        - { text: "They are lower in tannin because Sangiovese is excluded", correct: false }
       explanation: |
-        **More intense, fuller.** Warmer sites, thicker Sangiovese.
+        Warmer sites, lower yields and stricter maturation support greater structure and complexity.
+        Producer and vintage remain important.
+    fr:
+      question: "Comment Brunello di Montalcino et Vino Nobile di Montepulciano se comparent-ils généralement à un Chianti de base ?"
+      choices:
+        - { text: "Ils sont plus légers, plus pâles et destinés à être bus plus tôt", correct: false }
+        - { text: "Ils sont généralement plus corsés, concentrés et aptes à la garde", correct: true }
+        - { text: "Ce sont des vins doux issus de raisins séchés", correct: false }
+        - { text: "Ils sont moins tanniques parce que le Sangiovese est exclu", correct: false }
+      explanation: |
+        Des sites plus chauds, des rendements plus faibles et une maturation plus stricte favorisent
+        davantage de structure et de complexité. Le producteur et le millésime restent déterminants.
 
   - id: citaly-brunello-law-001
     type: mcq
@@ -860,15 +892,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What are Brunello di Montalcino’s two hard legal bars?
+      question: "Which combination correctly states the main production rules for Brunello di Montalcino DOCG?"
       choices:
-        - { text: "Any grape, six weeks in steel", correct: false }
-        - { text: "100% Sangiovese, and five years’ ageing with at least two in oak", correct: true }
-        - { text: "No oak and no wait", correct: false }
-        - { text: "It must be a white blend", correct: false }
+        - { text: "At least 70% Sangiovese and two years before release", correct: false }
+        - { text: "100% Sangiovese and release in the fifth year, including two years in oak", correct: true }
+        - { text: "At least 90% Sangiovese and 30 months of maturation", correct: false }
+        - { text: "100% Cabernet Sauvignon and five years in new barriques", correct: false }
       explanation: |
-        **100% Sangiovese; 5 years, 2 in wood.** Biondi-Santi is the
-        named extra.
+        Release begins on 1 January of the fifth year after harvest. The wine must spend at least two
+        years in oak and four months in bottle; Riserva is released one year later.
+    fr:
+      question: "Quelle combinaison énonce correctement les principales règles de Brunello di Montalcino DOCG ?"
+      choices:
+        - { text: "Au moins 70 % de Sangiovese et deux ans avant commercialisation", correct: false }
+        - { text: "100 % de Sangiovese et sortie la cinquième année, dont deux ans en chêne", correct: true }
+        - { text: "Au moins 90 % de Sangiovese et 30 mois de maturation", correct: false }
+        - { text: "100 % de Cabernet Sauvignon et cinq ans en barriques neuves", correct: false }
+      explanation: |
+        La commercialisation commence le 1er janvier de la cinquième année après la vendange. Le vin
+        doit passer au moins deux ans en chêne et quatre mois en bouteille ; la Riserva sort un an plus
+        tard.
 
   - id: citaly-nobile-law-001
     type: mcq
@@ -880,15 +923,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: How does Vino Nobile di Montepulciano differ legally from Brunello?
+      question: "How do the principal rules for Vino Nobile di Montepulciano differ from those for Brunello?"
       choices:
-        - { text: "It must be 100% Cabernet", correct: false }
-        - { text: "Sangiovese may be blended, and the wine needs two years before release", correct: true }
-        - { text: "It is white-only", correct: false }
-        - { text: "No ageing is required", correct: false }
+        - { text: "Vino Nobile requires pure Sangiovese and five years of ageing", correct: false }
+        - { text: "Vino Nobile permits up to 30% other authorised red grapes and requires two years’ maturation", correct: true }
+        - { text: "Vino Nobile is based on the Montepulciano grape", correct: false }
+        - { text: "Vino Nobile requires no maturation before release", correct: false }
       explanation: |
-        **Blend allowed; two years.** Not Brunello’s 100% / five-year
-        bar.
+        Sangiovese, locally called Prugnolo Gentile, must form at least 70%. The two-year period can be
+        divided among wood, other vessels and bottle according to specified options.
+    fr:
+      question: "En quoi les principales règles de Vino Nobile di Montepulciano diffèrent-elles de celles de Brunello ?"
+      choices:
+        - { text: "Vino Nobile exige du Sangiovese pur et cinq ans d’élevage", correct: false }
+        - { text: "Vino Nobile autorise jusqu’à 30 % d’autres cépages noirs admis et exige deux ans de maturation", correct: true }
+        - { text: "Vino Nobile repose sur le cépage Montepulciano", correct: false }
+        - { text: "Vino Nobile n’exige aucune maturation avant commercialisation", correct: false }
+      explanation: |
+        Le Sangiovese, appelé localement Prugnolo Gentile, doit représenter au moins 70 %. La période de
+        deux ans peut être répartie entre bois, autres contenants et bouteille selon des options
+        définies.
 
   - id: citaly-declass-when-001
     type: mcq
@@ -900,15 +954,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: When might a Brunello or Vino Nobile house drop to the DOC below?
+      question: "Why might a Montalcino or Montepulciano producer sell suitable fruit under the corresponding Rosso DOC?"
       choices:
-        - { text: "Only in a perfect vintage", correct: false }
-        - { text: "In a particularly poor vintage", correct: true }
-        - { text: "Declassification is illegal", correct: false }
-        - { text: "Only if the wine is sparkling", correct: false }
+        - { text: "Rosso requires longer ageing and lower yields", correct: false }
+        - { text: "To release a fresher wine earlier or redirect lots not chosen for the flagship DOCG", correct: true }
+        - { text: "The Rosso DOC requires international grapes", correct: false }
+        - { text: "DOCG fruit must be reclassified in every warm vintage", correct: false }
       explanation: |
-        **A poor vintage** — or young vines, or a second wine. The
-        DOC is the safety net.
+        Rosso di Montalcino and Rosso di Montepulciano have earlier release dates and less demanding
+        ageing rules. The choice is not limited to poor vintages.
+    fr:
+      question: "Pourquoi un producteur de Montalcino ou de Montepulciano peut-il commercialiser des raisins adaptés sous la DOC Rosso correspondante ?"
+      choices:
+        - { text: "Rosso exige un élevage plus long et des rendements plus faibles", correct: false }
+        - { text: "Pour sortir plus tôt un vin frais ou réorienter des lots non retenus pour la DOCG phare", correct: true }
+        - { text: "La DOC Rosso exige des cépages internationaux", correct: false }
+        - { text: "Les raisins DOCG doivent être déclassés lors de chaque millésime chaud", correct: false }
+      explanation: |
+        Rosso di Montalcino et Rosso di Montepulciano possèdent des dates de sortie plus précoces et des
+        règles d’élevage moins exigeantes. Ce choix ne se limite pas aux mauvais millésimes.
 
   - id: citaly-rosso-001
     type: mcq
@@ -920,15 +984,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which two Rosso DOCs catch fruit that misses Brunello or Vino Nobile?
+      question: "Which pair identifies the earlier-drinking DOC reds associated with Brunello and Vino Nobile?"
       choices:
-        - { text: "Barolo DOCG and Barbaresco DOCG", correct: false }
+        - { text: "Chianti DOCG and Toscana IGT", correct: false }
         - { text: "Rosso di Montalcino DOC and Rosso di Montepulciano DOC", correct: true }
-        - { text: "Chianti Classico Gran Selezione", correct: false }
-        - { text: "Only IGT Sicilia", correct: false }
+        - { text: "Morellino di Scansano DOCG and Bolgheri DOC", correct: false }
+        - { text: "Montefalco Rosso DOC and Rosso Conero DOC", correct: false }
       explanation: |
-        **Rosso di Montalcino and Rosso di Montepulciano.** Earlier
-        drinking, same hills.
+        Both Rosso denominations offer a less mature, usually less expensive expression of their
+        respective territories and Sangiovese-based styles.
+    fr:
+      question: "Quelle paire identifie les rouges DOC à boire plus jeunes associés à Brunello et à Vino Nobile ?"
+      choices:
+        - { text: "Chianti DOCG et Toscana IGT", correct: false }
+        - { text: "Rosso di Montalcino DOC et Rosso di Montepulciano DOC", correct: true }
+        - { text: "Morellino di Scansano DOCG et Bolgheri DOC", correct: false }
+        - { text: "Montefalco Rosso DOC et Rosso Conero DOC", correct: false }
+      explanation: |
+        Les deux dénominations Rosso offrent une expression moins longuement élevée et généralement
+        moins chère de leurs territoires respectifs et de leurs styles à base de Sangiovese.
 
   - id: citaly-coast-001
     type: mcq
@@ -940,14 +1014,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What shape and cooling does the Tuscan seaboard have?
+      question: "Which combination characterises much of Tuscany’s coastal wine zone?"
       choices:
-        - { text: "A high alpine wall", correct: false }
-        - { text: "Relatively flat and cooled by sea breezes", correct: true }
-        - { text: "A desert with no wind", correct: false }
-        - { text: "Permanently iced", correct: false }
+        - { text: "High Alpine slopes and a cold continental climate", correct: false }
+        - { text: "Relatively low, open land moderated by Tyrrhenian sea breezes", correct: true }
+        - { text: "Humid river deltas with persistent summer rain", correct: false }
+        - { text: "North-facing Apennine valleys isolated from the sea", correct: false }
       explanation: |
-        **Flat, sea-cooled.** Bolgheri and the Maremma.
+        The coast is warmer than the inland hills, but maritime air moderates heat and supports a long
+        ripening season for later-ripening international grapes.
+    fr:
+      question: "Quelle combinaison caractérise une grande partie de la zone viticole côtière de Toscane ?"
+      choices:
+        - { text: "Hauts versants alpins et climat continental froid", correct: false }
+        - { text: "Terrains relativement bas et ouverts, modérés par les brises de la mer Tyrrhénienne", correct: true }
+        - { text: "Deltas fluviaux humides aux pluies estivales persistantes", correct: false }
+        - { text: "Vallées apennines exposées au nord et isolées de la mer", correct: false }
+      explanation: |
+        La côte est plus chaude que les collines intérieures, mais l’air maritime modère la chaleur et
+        favorise une longue maturation des cépages internationaux tardifs.
 
   - id: citaly-coast-grapes-001
     type: mcq
@@ -959,15 +1044,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which grapes define the Tuscan coast more than inland Chianti?
+      question: "Which grapes are particularly important for premium red wines on the Tuscan coast?"
       choices:
-        - { text: "Nebbiolo and Barbera only", correct: false }
-        - { text: "Bordeaux black varieties and other internationals", correct: true }
-        - { text: "Only Garganega", correct: false }
-        - { text: "Riesling only", correct: false }
+        - { text: "Nebbiolo, Barbera and Dolcetto", correct: false }
+        - { text: "Cabernet Sauvignon, Merlot, Cabernet Franc and Syrah", correct: true }
+        - { text: "Corvina, Rondinella and Molinara", correct: false }
+        - { text: "Aglianico, Negroamaro and Primitivo", correct: false }
       explanation: |
-        **Cabernet, Merlot and friends.** Sassicaia started that
-        story.
+        Bordeaux varieties dominate many Bolgheri wines, while Syrah performs well in warmer coastal
+        sectors. Sangiovese remains present but is less dominant than inland.
+    fr:
+      question: "Quels cépages sont particulièrement importants pour les rouges haut de gamme de la côte toscane ?"
+      choices:
+        - { text: "Nebbiolo, Barbera et Dolcetto", correct: false }
+        - { text: "Cabernet Sauvignon, Merlot, Cabernet Franc et Syrah", correct: true }
+        - { text: "Corvina, Rondinella et Molinara", correct: false }
+        - { text: "Aglianico, Negroamaro et Primitivo", correct: false }
+      explanation: |
+        Les cépages bordelais dominent de nombreux vins de Bolgheri, tandis que la Syrah réussit dans
+        les secteurs côtiers plus chauds. Le Sangiovese reste présent, mais moins dominant qu’à
+        l’intérieur.
 
   - id: citaly-super-where-001
     type: mcq
@@ -979,15 +1075,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: On which part of Tuscany was the first Super-Tuscan born?
+      question: "In which Tuscan area did Sassicaia, the pioneering Super-Tuscan, originate?"
       choices:
-        - { text: "In Barolo", correct: false }
-        - { text: "On the Tuscan coast", correct: true }
-        - { text: "On Sicily", correct: false }
-        - { text: "In Soave", correct: false }
+        - { text: "The high hills of Chianti Rufina", correct: false }
+        - { text: "Bolgheri on the Tuscan coast", correct: true }
+        - { text: "The commune of Montalcino", correct: false }
+        - { text: "The hills around Montepulciano", correct: false }
       explanation: |
-        **The coast** — Bolgheri / Sassicaia, not inland Chianti
-        (though Super-Tuscans later appeared there too).
+        Sassicaia demonstrated the potential of Bordeaux varieties in Bolgheri’s maritime climate and
+        gravelly soils.
+    fr:
+      question: "Dans quelle zone toscane Sassicaia, pionnier des Super-Toscans, est-il né ?"
+      choices:
+        - { text: "Les hautes collines de Chianti Rufina", correct: false }
+        - { text: "Bolgheri sur la côte toscane", correct: true }
+        - { text: "La commune de Montalcino", correct: false }
+        - { text: "Les collines autour de Montepulciano", correct: false }
+      explanation: |
+        Sassicaia a démontré le potentiel des cépages bordelais dans le climat maritime et les sols
+        graveleux de Bolgheri.
 
   - id: citaly-super-grape-001
     type: mcq
@@ -999,15 +1105,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which grape filled the first Super-Tuscan bottle?
+      question: "Which grape leads the traditional blend of Sassicaia?"
       choices:
-        - { text: "100% Sangiovese, like Brunello", correct: false }
+        - { text: "Sangiovese", correct: false }
         - { text: "Cabernet Sauvignon", correct: true }
-        - { text: "Moscato only", correct: false }
-        - { text: "Corvina", correct: false }
+        - { text: "Nebbiolo", correct: false }
+        - { text: "Montepulciano", correct: false }
       explanation: |
-        **Cabernet Sauvignon** — **Sassicaia**. Later bottles blend
-        or use Merlot (**Ornellaia**, **Masseto**).
+        Cabernet Sauvignon is blended with a smaller share of Cabernet Franc. The wine’s success helped
+        establish international varieties on the Tuscan coast.
+    fr:
+      question: "Quel cépage domine l’assemblage traditionnel de Sassicaia ?"
+      choices:
+        - { text: "Sangiovese", correct: false }
+        - { text: "Cabernet Sauvignon", correct: true }
+        - { text: "Nebbiolo", correct: false }
+        - { text: "Montepulciano", correct: false }
+      explanation: |
+        Le Cabernet Sauvignon est assemblé à une plus faible proportion de Cabernet Franc. Le succès du
+        vin a contribué à établir les cépages internationaux sur la côte toscane.
 
   - id: citaly-super-price-001
     type: mcq
@@ -1019,15 +1135,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Under which old legal class did Sassicaia first sell at a premium?
+      question: "Under which lowly former legal category was Sassicaia initially sold despite its premium price and reputation?"
       choices:
         - { text: "Chianti Classico DOCG", correct: false }
         - { text: "Vino da tavola", correct: true }
-        - { text: "Champagne AOC", correct: false }
-        - { text: "Barolo DOCG", correct: false }
+        - { text: "Bolgheri DOCG", correct: false }
+        - { text: "Toscana DOC", correct: false }
       explanation: |
-        **Vino da tavola** — premium price, no PDO. Later bottles
-        moved to IGT, then Bolgheri.
+        The mismatch between legal status and perceived quality became central to the Super-Tuscan
+        story. Later IGT and DOC rules accommodated many of these wines.
+    fr:
+      question: "Sous quelle ancienne catégorie juridique modeste Sassicaia a-t-il d’abord été commercialisé malgré son prix et sa réputation élevés ?"
+      choices:
+        - { text: "Chianti Classico DOCG", correct: false }
+        - { text: "Vino da tavola", correct: true }
+        - { text: "Bolgheri DOCG", correct: false }
+        - { text: "Toscana DOC", correct: false }
+      explanation: |
+        Le décalage entre statut juridique et qualité perçue est devenu central dans l’histoire des
+        Super-Toscans. Les règles ultérieures des IGT et DOC ont accueilli nombre de ces vins.
 
   - id: citaly-super-why-001
     type: mcq
@@ -1039,15 +1165,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What did Super-Tuscans change about how the world ranked Italian red?
+      question: "What did the success of the Super-Tuscans demonstrate about Italian wine classification?"
       choices:
-        - { text: "They proved Italy could only make cheap fiasco", correct: false }
-        - { text: "They reset the idea that Italy could make world-class reds again", correct: true }
-        - { text: "They abolished Sangiovese", correct: false }
-        - { text: "They were only white", correct: false }
+        - { text: "Only DOCG wines could command premium prices", correct: false }
+        - { text: "A wine outside traditional DOC rules could still achieve world-class quality", correct: true }
+        - { text: "International grapes could not ripen in Tuscany", correct: false }
+        - { text: "Vino da tavola guaranteed stricter yields than DOCG", correct: false }
       explanation: |
-        **They put Italy back on the fine-wine map.** The 1970s–80s
-        turning point.
+        Producers prioritised vineyard and winemaking choices over compliance with restrictive rules.
+        Market success helped drive recognition through Toscana IGT and coastal DOCs.
+    fr:
+      question: "Qu’a démontré le succès des Super-Toscans au sujet de la classification des vins italiens ?"
+      choices:
+        - { text: "Seuls les vins DOCG pouvaient atteindre des prix élevés", correct: false }
+        - { text: "Un vin hors des règles DOC traditionnelles pouvait néanmoins atteindre une qualité mondiale", correct: true }
+        - { text: "Les cépages internationaux ne pouvaient pas mûrir en Toscane", correct: false }
+        - { text: "Vino da tavola garantissait des rendements plus stricts que DOCG", correct: false }
+      explanation: |
+        Les producteurs ont privilégié leurs choix viticoles et œnologiques plutôt que le respect de
+        règles restrictives. Le succès commercial a favorisé leur reconnaissance via Toscana IGT et les
+        DOC côtières.
 
   - id: citaly-super-blend-001
     type: mcq
@@ -1059,15 +1196,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which grape family usually leads a Super-Tuscan blend?
+      question: "Which grape family commonly leads coastal Super-Tuscan blends?"
       choices:
-        - { text: "Only Moscato", correct: false }
-        - { text: "International varieties", correct: true }
-        - { text: "Only Corvina", correct: false }
-        - { text: "White grapes only", correct: false }
+        - { text: "Aromatic German white varieties", correct: false }
+        - { text: "International black varieties, especially Bordeaux grapes", correct: true }
+        - { text: "Only indigenous grapes from Piemonte", correct: false }
+        - { text: "Traditional Valpolicella dried-grape varieties", correct: false }
       explanation: |
-        **International varieties.** Sangiovese can join
-        (**Tignanello**); it is not the usual lead.
+        Cabernet Sauvignon, Merlot and Cabernet Franc are common, although the informal Super-Tuscan
+        term also covers some premium Sangiovese-based wines outside old appellation rules.
+    fr:
+      question: "Quelle famille de cépages domine souvent les assemblages de Super-Toscans côtiers ?"
+      choices:
+        - { text: "Les cépages blancs aromatiques allemands", correct: false }
+        - { text: "Les cépages noirs internationaux, surtout bordelais", correct: true }
+        - { text: "Uniquement les cépages indigènes du Piémont", correct: false }
+        - { text: "Les cépages traditionnels de raisins séchés de Valpolicella", correct: false }
+      explanation: |
+        Cabernet Sauvignon, Merlot et Cabernet Franc sont courants, même si le terme informel
+        Super-Toscan couvre aussi certains grands vins à base de Sangiovese hors des anciennes règles
+        d’appellation.
 
   - id: citaly-super-label-001
     type: mcq
@@ -1079,15 +1227,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which three legal names commonly carry Super-Tuscans?
+      question: "Which set contains three geographical indications commonly used for premium Tuscan coastal or Super-Tuscan wines?"
       choices:
-        - { text: "Barolo DOCG only", correct: false }
-        - { text: "Toscana IGT, Bolgheri DOC, or Maremma Toscana DOC", correct: true }
-        - { text: "Chianti Classico only, by law", correct: false }
-        - { text: "Champagne AOC", correct: false }
+        - { text: "Chianti DOCG, Barolo DOCG and Soave DOC", correct: false }
+        - { text: "Toscana IGT, Bolgheri DOC and Maremma Toscana DOC", correct: true }
+        - { text: "Trevenezie IGT, Trentino DOC and Gavi DOCG", correct: false }
+        - { text: "Etna DOC, Sicilia DOC and Terre Siciliane IGT", correct: false }
       explanation: |
-        **Toscana IGT, Bolgheri, Maremma Toscana.** The old vino da
-        tavola path is mostly gone.
+        The informal term Super-Tuscan is not a legal category. The actual label depends on origin,
+        grapes and compliance with a specific production code.
+    fr:
+      question: "Quel ensemble réunit trois indications géographiques couramment utilisées pour les grands vins côtiers toscans ou Super-Toscans ?"
+      choices:
+        - { text: "Chianti DOCG, Barolo DOCG et Soave DOC", correct: false }
+        - { text: "Toscana IGT, Bolgheri DOC et Maremma Toscana DOC", correct: true }
+        - { text: "Trevenezie IGT, Trentino DOC et Gavi DOCG", correct: false }
+        - { text: "Etna DOC, Sicilia DOC et Terre Siciliane IGT", correct: false }
+      explanation: |
+        Le terme informel Super-Toscan n’est pas une catégorie juridique. L’étiquette réelle dépend de
+        l’origine, des cépages et du respect d’un cahier des charges précis.
 
   - id: citaly-bolgheri-permit-001
     type: mcq
@@ -1099,15 +1257,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What do Bolgheri DOC and Maremma Toscana DOC allow that old Chianti rules did not?
+      question: "What do Bolgheri DOC and Maremma Toscana DOC permit that historic inland Tuscan rules once restricted?"
       choices:
-        - { text: "White grapes only", correct: false }
-        - { text: "Wines made entirely from non-Italian grapes such as Cabernet, Merlot and Syrah", correct: true }
-        - { text: "No international grapes at all", correct: false }
-        - { text: "Only sparkling", correct: false }
+        - { text: "Only wines made from pure Sangiovese", correct: false }
+        - { text: "Wines based entirely on international grapes such as Cabernet, Merlot or Syrah", correct: true }
+        - { text: "Only sweet white wines from dried grapes", correct: false }
+        - { text: "Red wines without a defined geographical origin", correct: false }
       explanation: |
-        **100% international varieties.** That is why Sassicaia now
-        has a home as Bolgheri Sassicaia.
+        Their production codes recognise varieties suited to the coast. Bolgheri is especially
+        associated with Bordeaux-style blends, while Maremma allows a broad range of styles.
+    fr:
+      question: "Qu’autorisent Bolgheri DOC et Maremma Toscana DOC que les anciennes règles toscanes de l’intérieur limitaient autrefois ?"
+      choices:
+        - { text: "Uniquement des vins issus de Sangiovese pur", correct: false }
+        - { text: "Des vins reposant entièrement sur des cépages internationaux comme Cabernet, Merlot ou Syrah", correct: true }
+        - { text: "Uniquement des blancs doux de raisins séchés", correct: false }
+        - { text: "Des rouges sans origine géographique définie", correct: false }
+      explanation: |
+        Leurs cahiers des charges reconnaissent les cépages adaptés à la côte. Bolgheri est surtout
+        associé aux assemblages de style bordelais, tandis que Maremma autorise une large gamme de
+        styles.
 
   - id: citaly-umbria-climate-001
     type: mcq
@@ -1119,15 +1288,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: How does Umbria’s climate sit next to Tuscany’s?
+      question: "How does landlocked Umbria’s climate generally differ from western Tuscany’s?"
       choices:
-        - { text: "Much cooler and maritime", correct: false }
-        - { text: "Similar, but more continental, with no Mediterranean influence", correct: true }
-        - { text: "Tropical", correct: false }
-        - { text: "Identical in every breeze", correct: false }
+        - { text: "It is more maritime and has milder temperature extremes", correct: false }
+        - { text: "It is more continental because it lacks direct Mediterranean influence", correct: true }
+        - { text: "It is uniformly colder because all vineyards exceed 1,000 metres", correct: false }
+        - { text: "It is tropical because the Apennines trap summer rain", correct: false }
       explanation: |
-        **Similar but more continental** — inland, no sea. Hotter
-        summers, colder winters.
+        Summers can be hot and winters colder than near the Tuscan coast. Elevation and lakes create
+        important local moderation.
+    fr:
+      question: "Comment le climat de l’Ombrie enclavée diffère-t-il généralement de celui de la Toscane occidentale ?"
+      choices:
+        - { text: "Il est plus maritime et présente des températures extrêmes plus faibles", correct: false }
+        - { text: "Il est plus continental faute d’influence méditerranéenne directe", correct: true }
+        - { text: "Il est uniformément plus froid parce que tous les vignobles dépassent 1 000 mètres", correct: false }
+        - { text: "Il est tropical parce que les Apennins retiennent les pluies estivales", correct: false }
+      explanation: |
+        Les étés peuvent être chauds et les hivers plus froids que près de la côte toscane. L’altitude
+        et les lacs créent d’importantes modérations locales.
 
   - id: citaly-umbria-where-001
     type: mcq
@@ -1139,14 +1318,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Where is Umbria between the two coasts?
+      question: "Where is Umbria located within Central Italy?"
       choices:
-        - { text: "On Sicily", correct: false }
-        - { text: "Between Tuscany and Marche", correct: true }
-        - { text: "North of Bolzano", correct: false }
-        - { text: "West of Piedmont", correct: false }
+        - { text: "On the Tyrrhenian coast west of Tuscany", correct: false }
+        - { text: "Inland between Tuscany, Marche and Lazio", correct: true }
+        - { text: "On the Adriatic coast north of Veneto", correct: false }
+        - { text: "On an island south of Sicily", correct: false }
       explanation: |
-        **Between Tuscany and Marche** — the landlocked centre.
+        Umbria is Italy’s only landlocked region that does not border another country. Its vineyards
+        occupy valleys and hills within the central Apennine system.
+    fr:
+      question: "Où se situe l’Ombrie en Italie centrale ?"
+      choices:
+        - { text: "Sur la côte tyrrhénienne à l’ouest de la Toscane", correct: false }
+        - { text: "À l’intérieur des terres, entre Toscane, Marches et Latium", correct: true }
+        - { text: "Sur la côte adriatique au nord de la Vénétie", correct: false }
+        - { text: "Sur une île au sud de la Sicile", correct: false }
+      explanation: |
+        L’Ombrie est la seule région italienne enclavée qui ne borde pas un autre pays. Ses vignobles
+        occupent des vallées et des collines du système apennin central.
 
   - id: citaly-orvieto-name-001
     type: mcq
@@ -1158,15 +1348,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which Umbrian DOC is the volume white everyone knows?
+      question: "Which Umbrian denomination is best known for high-volume white wine?"
       choices:
-        - { text: "Barolo DOCG", correct: false }
+        - { text: "Montefalco Sagrantino DOCG", correct: false }
         - { text: "Orvieto DOC", correct: true }
-        - { text: "Prosecco DOC", correct: false }
-        - { text: "Soave DOC", correct: false }
+        - { text: "Frascati DOC", correct: false }
+        - { text: "Verdicchio dei Castelli di Jesi DOC", correct: false }
       explanation: |
-        **Orvieto DOC.** Sagrantino is more prestigious; Orvieto is
-        the volume name.
+        The zone surrounds Orvieto and extends partly into Lazio. Production ranges from simple dry
+        whites to more concentrated Classico and sweet styles.
+    fr:
+      question: "Quelle dénomination ombrienne est surtout connue pour ses volumes importants de vin blanc ?"
+      choices:
+        - { text: "Montefalco Sagrantino DOCG", correct: false }
+        - { text: "Orvieto DOC", correct: true }
+        - { text: "Frascati DOC", correct: false }
+        - { text: "Verdicchio dei Castelli di Jesi DOC", correct: false }
+      explanation: |
+        La zone entoure Orvieto et s’étend en partie dans le Latium. La production va des blancs secs
+        simples aux Classico plus concentrés et aux styles doux.
 
   - id: citaly-orvieto-what-001
     type: mcq
@@ -1178,15 +1378,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Orvieto is which colour and grape mix?
+      question: "Which grape combination commonly forms the basis of Orvieto DOC?"
       choices:
-        - { text: "A 100% Sangiovese red", correct: false }
-        - { text: "A white from Grechetto, Trebbiano and often other local grapes", correct: true }
-        - { text: "A sparkling Nebbiolo", correct: false }
-        - { text: "A fortified Muscat", correct: false }
+        - { text: "Verdicchio and Pecorino, with other permitted whites", correct: false }
+        - { text: "Grechetto and Trebbiano Toscano, with other permitted whites", correct: true }
+        - { text: "Fiano and Greco, with other permitted white grapes", correct: false }
+        - { text: "Garganega and Glera, with other permitted white grapes", correct: false }
       explanation: |
-        **White: Grechetto, Trebbiano, plus locals.** Grechetto is
-        the quality grape.
+        The production code centres on Grechetto and Trebbiano Toscano, locally known as Procanico.
+        Their proportions and supporting varieties vary by wine.
+    fr:
+      question: "Quelle combinaison de cépages constitue couramment la base d’Orvieto DOC ?"
+      choices:
+        - { text: "Verdicchio et Pecorino, avec d’autres blancs autorisés", correct: false }
+        - { text: "Grechetto et Trebbiano Toscano, avec d’autres blancs autorisés", correct: true }
+        - { text: "Fiano et Greco, avec d’autres cépages blancs autorisés", correct: false }
+        - { text: "Garganega et Glera, avec d’autres cépages blancs autorisés", correct: false }
+      explanation: |
+        Le cahier des charges repose sur le Grechetto et le Trebbiano Toscano, appelé localement
+        Procanico. Leurs proportions et les cépages complémentaires varient selon le vin.
 
   - id: citaly-orvieto-style-001
     type: mcq
@@ -1198,14 +1408,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What is typical Orvieto like?
+      question: "Which profile is typical of inexpensive dry Orvieto?"
       choices:
-        - { text: "Full, oaky, and tropical", correct: false }
-        - { text: "Light-bodied, medium-to-high acid, ripe grapefruit and peach", correct: true }
-        - { text: "Tannic and gamey", correct: false }
-        - { text: "Always sweet", correct: false }
+        - { text: "Full body, low acidity and pronounced new oak", correct: false }
+        - { text: "Light body, fresh acidity and citrus or stone-fruit flavours", correct: true }
+        - { text: "Deep colour, high tannin and black fruit", correct: false }
+        - { text: "Sweetness, high alcohol and oxidative nut aromas", correct: false }
       explanation: |
-        **Light, fresh, grapefruit and peach.** A steel-tank white.
+        High yields and protective stainless-steel winemaking favour an approachable early-drinking
+        style. Better sites and more Grechetto can add texture and concentration.
+    fr:
+      question: "Quel profil est typique d’un Orvieto sec bon marché ?"
+      choices:
+        - { text: "Corps puissant, faible acidité et bois neuf prononcé", correct: false }
+        - { text: "Corps léger, acidité fraîche et arômes d’agrumes ou de fruits à noyau", correct: true }
+        - { text: "Couleur profonde, tanins élevés et fruits noirs", correct: false }
+        - { text: "Douceur, alcool élevé et arômes oxydatifs de fruits à coque", correct: false }
+      explanation: |
+        Les rendements élevés et une vinification protectrice en inox favorisent un style accessible à
+        boire jeune. De meilleurs sites et davantage de Grechetto peuvent apporter texture et
+        concentration.
 
   - id: citaly-orvieto-grechetto-001
     type: mcq
@@ -1217,15 +1439,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What usually marks a better Orvieto in the blend?
+      question: "What commonly distinguishes a higher-quality Orvieto blend?"
       choices:
-        - { text: "More Trebbiano and no Grechetto", correct: false }
-        - { text: "A higher share of Grechetto", correct: true }
-        - { text: "100% Cabernet", correct: false }
-        - { text: "No local grapes at all", correct: false }
+        - { text: "A larger share of neutral high-yielding Trebbiano", correct: false }
+        - { text: "A larger share of textured, flavourful Grechetto", correct: true }
+        - { text: "Compulsory fermentation in new oak", correct: false }
+        - { text: "A majority of black grapes", correct: false }
       explanation: |
-        **More Grechetto.** Trebbiano fills volume; Grechetto fills
-        flavour.
+        Grechetto can contribute body, stone fruit and a subtle bitter-almond note. Yield control and
+        site quality remain at least as important as blend percentage.
+    fr:
+      question: "Qu’est-ce qui distingue souvent un assemblage d’Orvieto de meilleure qualité ?"
+      choices:
+        - { text: "Une plus forte proportion de Trebbiano neutre à haut rendement", correct: false }
+        - { text: "Une plus forte proportion de Grechetto texturé et savoureux", correct: true }
+        - { text: "Une fermentation obligatoire en bois neuf", correct: false }
+        - { text: "Une majorité de cépages noirs", correct: false }
+      explanation: |
+        Le Grechetto peut apporter corps, fruits à noyau et une légère note d’amande amère. La maîtrise
+        des rendements et la qualité du site restent au moins aussi importantes que sa proportion.
 
   - id: citaly-orvieto-steel-001
     type: mcq
@@ -1237,14 +1469,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: In which vessel and at what temperature is Orvieto usually fermented?
+      question: "Which winemaking approach is common for fresh, dry Orvieto?"
       choices:
-        - { text: "Warm, oxidatively, in new barrique", correct: false }
-        - { text: "Protectively, cool, in stainless steel", correct: true }
-        - { text: "On skins for a month", correct: false }
-        - { text: "Boiled", correct: false }
+        - { text: "Warm oxidative fermentation in open casks", correct: false }
+        - { text: "Cool protective fermentation in stainless steel", correct: true }
+        - { text: "Extended skin fermentation followed by fortification", correct: false }
+        - { text: "Bottle fermentation with prolonged lees ageing", correct: false }
       explanation: |
-        **Cool, protective, stainless steel.** Same idea as Gavi.
+        Cool temperatures and protection from oxygen retain delicate fruit aromas, while stainless steel
+        avoids masking them with oak.
+    fr:
+      question: "Quelle approche de vinification est courante pour un Orvieto sec et frais ?"
+      choices:
+        - { text: "Fermentation chaude et oxydative en fûts ouverts", correct: false }
+        - { text: "Fermentation fraîche et protectrice en cuves inox", correct: true }
+        - { text: "Longue fermentation pelliculaire suivie d’un mutage", correct: false }
+        - { text: "Fermentation en bouteille avec long élevage sur lies", correct: false }
+      explanation: |
+        Les basses températures et la protection contre l’oxygène conservent les arômes délicats du
+        fruit, tandis que l’inox évite de les masquer par le bois.
 
   - id: citaly-sagrantino-name-001
     type: mcq
@@ -1256,15 +1499,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which Umbrian DOCG is the prestige red, not the volume white?
+      question: "Which DOCG is Umbria’s benchmark varietal Sagrantino wine?"
       choices:
-        - { text: "Orvieto DOC", correct: false }
-        - { text: "Sagrantino di Montefalco DOCG", correct: true }
-        - { text: "Frascati DOC", correct: false }
-        - { text: "Prosecco DOC", correct: false }
+        - { text: "Sagrantino di Montefalco DOCG", correct: false }
+        - { text: "Montefalco Sagrantino DOCG", correct: true }
+        - { text: "Montefalco Rosso DOCG", correct: false }
+        - { text: "Sagrantino d’Orvieto DOCG", correct: false }
       explanation: |
-        **Sagrantino di Montefalco DOCG.** Tiny, tannic, not the
-        volume white.
+        The protected name is Montefalco Sagrantino DOCG. It covers dry and passito wines made from 100%
+        Sagrantino.
+    fr:
+      question: "Quelle DOCG constitue la référence ombrienne pour le Sagrantino monocépage ?"
+      choices:
+        - { text: "Sagrantino di Montefalco DOCG", correct: false }
+        - { text: "Montefalco Sagrantino DOCG", correct: true }
+        - { text: "Montefalco Rosso DOCG", correct: false }
+        - { text: "Sagrantino d’Orvieto DOCG", correct: false }
+      explanation: |
+        Le nom protégé est Montefalco Sagrantino DOCG. Il couvre des vins secs et passito issus de 100 %
+        de Sagrantino.
 
   - id: citaly-sagrantino-grape-001
     type: mcq
@@ -1276,15 +1529,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What skin trait of Sagrantino drives the tannin in Montefalco’s prestige red?
+      question: "Which grape characteristic explains the formidable tannins of dry Montefalco Sagrantino?"
       choices:
-        - { text: "No skins at all", correct: false }
-        - { text: "Thick skins", correct: true }
-        - { text: "Paper-thin skins like Schiava", correct: false }
-        - { text: "Only white-grape skins", correct: false }
+        - { text: "Thin skins with very little phenolic material", correct: false }
+        - { text: "Thick skins exceptionally rich in tannins", correct: true }
+        - { text: "Naturally low acidity and no seeds", correct: false }
+        - { text: "A tendency to lose colour before véraison", correct: false }
       explanation: |
-        **Thick skins.** That is why Sagrantino di Montefalco is so
-        tannic.
+        Long maturation is required to integrate the grape’s phenolic power. High concentration and
+        acidity give the best wines substantial ageing potential.
+    fr:
+      question: "Quelle caractéristique du raisin explique les tanins redoutables d’un Montefalco Sagrantino sec ?"
+      choices:
+        - { text: "Des pellicules fines contenant très peu de matière phénolique", correct: false }
+        - { text: "Des pellicules épaisses exceptionnellement riches en tanins", correct: true }
+        - { text: "Une acidité naturellement faible et l’absence de pépins", correct: false }
+        - { text: "Une tendance à perdre sa couleur avant la véraison", correct: false }
+      explanation: |
+        Une longue maturation est nécessaire pour intégrer la puissance phénolique du cépage. Une forte
+        concentration et l’acidité donnent aux meilleurs vins un important potentiel de garde.
 
   - id: citaly-lazio-where-001
     type: mcq
@@ -1296,14 +1559,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which region is Rome’s wine country, bordering Tuscany on the south?
+      question: "Which Central Italian region surrounds Rome and lies south of Tuscany?"
       choices:
-        - { text: "Piedmont", correct: false }
+        - { text: "Umbria", correct: false }
         - { text: "Lazio", correct: true }
-        - { text: "Alto Adige", correct: false }
-        - { text: "Valle d’Aosta", correct: false }
+        - { text: "Marche", correct: false }
+        - { text: "Abruzzo", correct: false }
       explanation: |
-        **Lazio** — Rome’s region, then Campania further south.
+        Lazio reaches from the Apennines to the Tyrrhenian coast. Its best-known wines at this level are
+        whites from hills south-east of Rome.
+    fr:
+      question: "Quelle région d’Italie centrale entoure Rome et se situe au sud de la Toscane ?"
+      choices:
+        - { text: "L’Ombrie", correct: false }
+        - { text: "Le Latium", correct: true }
+        - { text: "Les Marches", correct: false }
+        - { text: "Les Abruzzes", correct: false }
+      explanation: |
+        Le Latium s’étend des Apennins à la côte tyrrhénienne. À ce niveau, ses vins les plus connus
+        sont des blancs issus des collines au sud-est de Rome.
 
   - id: citaly-frascati-name-001
     type: mcq
@@ -1315,14 +1589,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which Castelli Romani white is the Lazio bottle most people recognise?
+      question: "Which denomination is Lazio’s best-known dry white wine?"
       choices:
-        - { text: "Barolo DOCG", correct: false }
+        - { text: "Orvieto DOC", correct: false }
         - { text: "Frascati DOC", correct: true }
-        - { text: "Prosecco DOC", correct: false }
-        - { text: "Soave Classico DOC", correct: false }
+        - { text: "Soave DOC", correct: false }
+        - { text: "Gavi DOCG", correct: false }
       explanation: |
-        **Frascati DOC.** The Roman hillside white.
+        Frascati comes from the volcanic Castelli Romani hills south-east of Rome. Superior and sweet
+        Cannellino categories also exist under DOCG names.
+    fr:
+      question: "Quelle dénomination correspond au vin blanc sec le plus connu du Latium ?"
+      choices:
+        - { text: "Orvieto DOC", correct: false }
+        - { text: "Frascati DOC", correct: true }
+        - { text: "Soave DOC", correct: false }
+        - { text: "Gavi DOCG", correct: false }
+      explanation: |
+        Frascati provient des collines volcaniques des Castelli Romani au sud-est de Rome. Des
+        catégories Superiore et Cannellino doux existent également sous des noms DOCG.
 
   - id: citaly-frascati-hills-001
     type: mcq
@@ -1334,14 +1619,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Where do Frascati vines sit relative to Rome?
+      question: "Where are the vineyards of Frascati located?"
       choices:
-        - { text: "On the Po delta", correct: false }
-        - { text: "In the hills south of Rome", correct: true }
-        - { text: "Inside Bolzano", correct: false }
-        - { text: "On Sicily", correct: false }
+        - { text: "On the flat Adriatic coast north of Ancona", correct: false }
+        - { text: "In the volcanic hills south-east of Rome", correct: true }
+        - { text: "On the Tuscan coast around Bolgheri", correct: false }
+        - { text: "In the high Apennines of Abruzzo", correct: false }
       explanation: |
-        **In the hills south of Rome** — the Castelli Romani.
+        The Castelli Romani landscape combines elevation, volcanic soils and nearby lakes, helping
+        moderate the warm climate.
+    fr:
+      question: "Où se trouvent les vignobles de Frascati ?"
+      choices:
+        - { text: "Sur la côte adriatique plate au nord d’Ancône", correct: false }
+        - { text: "Dans les collines volcaniques au sud-est de Rome", correct: true }
+        - { text: "Sur la côte toscane autour de Bolgheri", correct: false }
+        - { text: "Dans les hauts Apennins des Abruzzes", correct: false }
+      explanation: |
+        Le paysage des Castelli Romani associe altitude, sols volcaniques et lacs voisins, ce qui aide à
+        modérer le climat chaud.
 
   - id: citaly-frascati-cool-001
     type: mcq
@@ -1353,15 +1649,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What two features keep Frascati from baking?
+      question: "Which local factors help Frascati retain freshness despite Lazio’s warm climate?"
       choices:
-        - { text: "Desert wind only", correct: false }
-        - { text: "Altitude and nearby lakes", correct: true }
-        - { text: "A legal ban on sunshine", correct: false }
-        - { text: "Indoor air-con", correct: false }
+        - { text: "Atlantic currents and permanent cloud", correct: false }
+        - { text: "Hill elevation and the moderating influence of nearby lakes", correct: true }
+        - { text: "Very northerly latitude and Alpine shade", correct: false }
+        - { text: "Desert winds and complete absence of rainfall", correct: false }
       explanation: |
-        **Altitude and nearby lakes.** That is why a white ripens
-        this far south.
+        Cooling at elevation slows ripening, while lakes reduce temperature extremes. Good sites can
+        therefore preserve useful acidity.
+    fr:
+      question: "Quels facteurs locaux aident Frascati à conserver sa fraîcheur malgré le climat chaud du Latium ?"
+      choices:
+        - { text: "Les courants atlantiques et une nébulosité permanente", correct: false }
+        - { text: "L’altitude des collines et l’influence modératrice des lacs voisins", correct: true }
+        - { text: "Une latitude très septentrionale et l’ombre des Alpes", correct: false }
+        - { text: "Les vents désertiques et l’absence totale de pluie", correct: false }
+      explanation: |
+        La fraîcheur de l’altitude ralentit la maturation, tandis que les lacs réduisent les
+        températures extrêmes. Les bons sites peuvent ainsi conserver une acidité utile.
 
   - id: citaly-frascati-grapes-001
     type: mcq
@@ -1373,14 +1679,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Frascati’s blend is built on which two local whites?
+      question: "Which grape families form the traditional basis of Frascati?"
       choices:
-        - { text: "Sangiovese and Cabernet", correct: false }
-        - { text: "Malvasia and Trebbiano", correct: true }
-        - { text: "Nebbiolo and Barbera", correct: false }
+        - { text: "Cortese and Moscato", correct: false }
+        - { text: "Malvasia and Trebbiano varieties", correct: true }
+        - { text: "Garganega and Glera", correct: false }
         - { text: "Fiano and Greco", correct: false }
       explanation: |
-        **Malvasia and Trebbiano.** Malvasia brings the blossom.
+        Malvasia Bianca di Candia and Malvasia del Lazio contribute aroma and body, while permitted
+        Trebbiano types support freshness and volume.
+    fr:
+      question: "Quelles familles de cépages constituent la base traditionnelle de Frascati ?"
+      choices:
+        - { text: "Cortese et Moscato", correct: false }
+        - { text: "Les variétés de Malvasia et de Trebbiano", correct: true }
+        - { text: "Garganega et Glera", correct: false }
+        - { text: "Fiano et Greco", correct: false }
+      explanation: |
+        La Malvasia Bianca di Candia et la Malvasia del Lazio apportent parfum et corps, tandis que les
+        types de Trebbiano autorisés soutiennent la fraîcheur et le volume.
 
   - id: citaly-frascati-style-001
     type: mcq
@@ -1392,16 +1709,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What is typical Frascati like?
+      question: "Which profile is typical of youthful dry Frascati?"
       choices:
-        - { text: "Full, tannic, and built like Brunello", correct: false }
-        - { text: "Fresh, fruity, medium body, medium-to-high acid, citrus, with Malvasia sometimes adding orange blossom", correct: true }
-        - { text: "Always a sweet VDN", correct: false }
-        - { text: "Sparkling Nebbiolo", correct: false }
+        - { text: "Full body, low acidity and strong new oak", correct: false }
+        - { text: "Light to medium body, fresh acidity, citrus and subtle floral notes", correct: true }
+        - { text: "Deep colour, high tannin and black fruit", correct: false }
+        - { text: "Sweetness, high alcohol and oxidative nut aromas", correct: false }
       explanation: |
-        **Fresh, fruity, medium body, medium-to-high acid, citrus,
-        with Malvasia sometimes adding orange blossom.** A Roman
-        trattoria white.
+        Protective fermentation usually preserves fresh fruit. Malvasia can add orange-blossom perfume,
+        while high yields may make basic examples neutral.
+    fr:
+      question: "Quel profil est typique d’un Frascati sec et jeune ?"
+      choices:
+        - { text: "Corps puissant, faible acidité et bois neuf marqué", correct: false }
+        - { text: "Corps léger à moyen, acidité fraîche, agrumes et légères notes florales", correct: true }
+        - { text: "Couleur profonde, tanins élevés et fruits noirs", correct: false }
+        - { text: "Douceur, alcool élevé et arômes oxydatifs de fruits à coque", correct: false }
+      explanation: |
+        Une vinification protectrice préserve généralement le fruit frais. La Malvasia peut apporter un
+        parfum de fleur d’oranger, tandis que des rendements élevés rendent parfois les exemples simples
+        plus neutres.
 
   - id: citaly-marche-where-001
     type: mcq
@@ -1413,15 +1740,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: On which side of the Apennines is Marche?
+      question: "Where is Marche located in relation to the Apennines?"
       choices:
-        - { text: "The Tyrrhenian west, like Tuscany", correct: false }
-        - { text: "The eastern, Adriatic side", correct: true }
-        - { text: "Only on Sicily", correct: false }
-        - { text: "North of Bolzano", correct: false }
+        - { text: "On their western Tyrrhenian side", correct: false }
+        - { text: "On their eastern side facing the Adriatic", correct: true }
+        - { text: "North of the Alps on the Austrian border", correct: false }
+        - { text: "On an island in the Mediterranean", correct: false }
       explanation: |
-        **The eastern, Adriatic side.** Opposite Tuscany across the
-        ridge.
+        Mountain influence cools inland valleys, while the Adriatic affects coastal hills. The region
+        lies east of Umbria.
+    fr:
+      question: "Où se situent les Marches par rapport aux Apennins ?"
+      choices:
+        - { text: "Sur leur versant occidental tourné vers la mer Tyrrhénienne", correct: false }
+        - { text: "Sur leur versant oriental face à l’Adriatique", correct: true }
+        - { text: "Au nord des Alpes, à la frontière autrichienne", correct: false }
+        - { text: "Sur une île de la Méditerranée", correct: false }
+      explanation: |
+        L’influence montagnarde rafraîchit les vallées intérieures, tandis que l’Adriatique agit sur les
+        collines côtières. La région se trouve à l’est de l’Ombrie.
 
   - id: citaly-marche-white-001
     type: mcq
@@ -1433,15 +1770,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which white grape made Marche’s name?
+      question: "Which white grape is most strongly associated with Marche?"
       choices:
         - { text: "Garganega", correct: false }
         - { text: "Verdicchio", correct: true }
-        - { text: "Moscato", correct: false }
         - { text: "Cortese", correct: false }
+        - { text: "Friulano", correct: false }
       explanation: |
-        **Verdicchio.** The amphora bottle is the souvenir; the grape
-        is the fact.
+        Verdicchio produces fresh, high-acid whites in Castelli di Jesi and the smaller inland Matelica
+        zone. The best examples can age.
+    fr:
+      question: "Quel cépage blanc est le plus fortement associé aux Marches ?"
+      choices:
+        - { text: "Garganega", correct: false }
+        - { text: "Verdicchio", correct: true }
+        - { text: "Cortese", correct: false }
+        - { text: "Friulano", correct: false }
+      explanation: |
+        Le Verdicchio donne des blancs frais et très acides à Castelli di Jesi et dans la plus petite
+        zone intérieure de Matelica. Les meilleurs exemples peuvent vieillir.
 
   - id: citaly-jesi-001
     type: mcq
@@ -1453,15 +1800,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which Marche DOC is the high-volume Verdicchio address, not inland Matelica?
+      question: "Which Marche denomination is the larger-volume source of Verdicchio compared with inland Matelica?"
       choices:
-        - { text: "Soave Classico DOC", correct: false }
+        - { text: "Verdicchio di Soave DOC", correct: false }
         - { text: "Verdicchio dei Castelli di Jesi DOC", correct: true }
-        - { text: "Orvieto DOC", correct: false }
-        - { text: "Gavi DOCG", correct: false }
+        - { text: "Conero Riserva DOCG", correct: false }
+        - { text: "Offida Rosso DOCG", correct: false }
       explanation: |
-        **Verdicchio dei Castelli di Jesi.** Matelica is the inland
-        extra.
+        Castelli di Jesi occupies lower hills nearer the Adriatic and produces far more wine. Matelica’s
+        enclosed valley is cooler and more continental.
+    fr:
+      question: "Quelle dénomination des Marches produit le plus grand volume de Verdicchio par rapport à Matelica, située à l’intérieur ?"
+      choices:
+        - { text: "Verdicchio di Soave DOC", correct: false }
+        - { text: "Verdicchio dei Castelli di Jesi DOC", correct: true }
+        - { text: "Conero Riserva DOCG", correct: false }
+        - { text: "Offida Rosso DOCG", correct: false }
+      explanation: |
+        Castelli di Jesi occupe des collines plus basses proches de l’Adriatique et produit beaucoup
+        plus de vin. La vallée encaissée de Matelica est plus fraîche et continentale.
 
   - id: citaly-verdicchio-style-001
     type: mcq
@@ -1473,16 +1830,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What is typical young Verdicchio like?
+      question: "Which profile is typical of youthful dry Verdicchio?"
       choices:
-        - { text: "Low acid, oaky, and tropical", correct: false }
-        - { text: "High acid, green apple and lemon, sometimes fennel and almond", correct: true }
-        - { text: "Tannic and gamey", correct: false }
-        - { text: "Always sweet", correct: false }
+        - { text: "Low acidity, tropical fruit and pronounced new oak", correct: false }
+        - { text: "High acidity, lemon and green apple, often with fennel or almond", correct: true }
+        - { text: "Deep colour, high tannin and black cherry", correct: false }
+        - { text: "Sweetness, low alcohol and grapey perfume", correct: false }
       explanation: |
-        **High acid, green apple, lemon, sometimes fennel and
-        almond.** Simple bottles stay fruity; the best add honey and
-        almond with age.
+        The grape’s acidity supports freshness and ageing. Better wines can gain texture and develop
+        honeyed or nutty complexity in bottle.
+    fr:
+      question: "Quel profil est typique d’un Verdicchio sec et jeune ?"
+      choices:
+        - { text: "Faible acidité, fruits tropicaux et bois neuf prononcé", correct: false }
+        - { text: "Acidité élevée, citron et pomme verte, souvent avec fenouil ou amande", correct: true }
+        - { text: "Couleur profonde, tanins élevés et cerise noire", correct: false }
+        - { text: "Douceur, faible alcool et parfum muscaté", correct: false }
+      explanation: |
+        L’acidité du cépage favorise la fraîcheur et la garde. Les meilleurs vins peuvent gagner en
+        texture et développer une complexité miellée ou de fruits à coque en bouteille.
 
   - id: citaly-marche-red-001
     type: mcq
@@ -1494,15 +1860,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: A typical Marche rosso is a blend of which two black grapes?
+      question: "Which two grapes commonly form red blends in Marche?"
       choices:
         - { text: "Nebbiolo and Barbera", correct: false }
         - { text: "Montepulciano and Sangiovese", correct: true }
         - { text: "Corvina and Rondinella", correct: false }
-        - { text: "Pinot Noir and Gamay", correct: false }
+        - { text: "Aglianico and Primitivo", correct: false }
       explanation: |
-        **Montepulciano and Sangiovese.** Not Vino Nobile — that is
-        a Tuscan place, not this grape.
+        Montepulciano contributes colour and body, while Sangiovese adds acidity and fragrant red fruit.
+        Their proportions vary by denomination.
+    fr:
+      question: "Quels sont les deux cépages couramment assemblés dans les rouges des Marches ?"
+      choices:
+        - { text: "Nebbiolo et Barbera", correct: false }
+        - { text: "Montepulciano et Sangiovese", correct: true }
+        - { text: "Corvina et Rondinella", correct: false }
+        - { text: "Aglianico et Primitivo", correct: false }
+      explanation: |
+        Le Montepulciano apporte couleur et corps, tandis que le Sangiovese ajoute acidité et fruits
+        rouges parfumés. Leurs proportions varient selon la dénomination.
 
   - id: citaly-conero-001
     type: mcq
@@ -1514,14 +1890,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which coastal Marche DOCG is the prestige Montepulciano-led red?
+      question: "Which coastal Marche DOCG is a premium, Montepulciano-led red?"
       choices:
-        - { text: "Barolo DOCG", correct: false }
-        - { text: "Conero DOCG", correct: true }
-        - { text: "Chianti Classico DOCG", correct: false }
-        - { text: "Taurasi DOCG", correct: false }
+        - { text: "Conero DOCG", correct: false }
+        - { text: "Conero Riserva DOCG", correct: true }
+        - { text: "Rosso Conero DOCG", correct: false }
+        - { text: "Montepulciano del Conero DOCG", correct: false }
       explanation: |
-        **Conero DOCG** — Montepulciano-led, on the Ancona coast.
+        The exact protected name is Conero Riserva DOCG. The broader, younger denomination is Rosso
+        Conero DOC.
+    fr:
+      question: "Quelle DOCG côtière des Marches correspond à un rouge haut de gamme dominé par le Montepulciano ?"
+      choices:
+        - { text: "Conero DOCG", correct: false }
+        - { text: "Conero Riserva DOCG", correct: true }
+        - { text: "Rosso Conero DOCG", correct: false }
+        - { text: "Montepulciano del Conero DOCG", correct: false }
+      explanation: |
+        Le nom protégé exact est Conero Riserva DOCG. La dénomination plus large et plus jeune est Rosso
+        Conero DOC.
 
   - id: citaly-abruzzo-where-001
     type: mcq
@@ -1533,14 +1920,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Heading south down the Adriatic from Marche, which region comes next?
+      question: "Which region lies immediately south of Marche along the Adriatic coast?"
       choices:
-        - { text: "Piedmont", correct: false }
+        - { text: "Lazio", correct: false }
         - { text: "Abruzzo", correct: true }
-        - { text: "Alto Adige", correct: false }
-        - { text: "Valle d’Aosta", correct: false }
+        - { text: "Umbria", correct: false }
+        - { text: "Tuscany", correct: false }
       explanation: |
-        **Abruzzo.** Still Adriatic, still Montepulciano country.
+        Abruzzo stretches from the central Apennines to the Adriatic. Mountain and sea breezes moderate
+        vineyards on hills between them.
+    fr:
+      question: "Quelle région se situe immédiatement au sud des Marches le long de la côte adriatique ?"
+      choices:
+        - { text: "Le Latium", correct: false }
+        - { text: "Les Abruzzes", correct: true }
+        - { text: "L’Ombrie", correct: false }
+        - { text: "La Toscane", correct: false }
+      explanation: |
+        Les Abruzzes s’étendent des Apennins centraux à l’Adriatique. Les brises de montagne et de mer
+        modèrent les vignobles situés sur les collines intermédiaires.
 
   - id: citaly-abruzzo-grape-001
     type: mcq
@@ -1552,15 +1950,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Abruzzo’s fame rests on which black grape?
+      question: "Which black grape is the flagship variety of Abruzzo?"
       choices:
-        - { text: "Nebbiolo", correct: false }
+        - { text: "Sangiovese", correct: false }
         - { text: "Montepulciano", correct: true }
+        - { text: "Nebbiolo", correct: false }
         - { text: "Corvina", correct: false }
-        - { text: "Schiava", correct: false }
       explanation: |
-        **Montepulciano.** Trebbiano d’Abruzzo exists; this is the
-        famous one.
+        The grape Montepulciano should not be confused with the Tuscan town in Vino Nobile di
+        Montepulciano, which is based on Sangiovese.
+    fr:
+      question: "Quel cépage noir est l’emblème des Abruzzes ?"
+      choices:
+        - { text: "Sangiovese", correct: false }
+        - { text: "Montepulciano", correct: true }
+        - { text: "Nebbiolo", correct: false }
+        - { text: "Corvina", correct: false }
+      explanation: |
+        Le cépage Montepulciano ne doit pas être confondu avec la ville toscane de Vino Nobile di
+        Montepulciano, vin qui repose sur le Sangiovese.
 
   - id: citaly-mda-001
     type: mcq
@@ -1572,15 +1980,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which DOC is Abruzzo’s famous red?
+      question: "Which denomination is Abruzzo’s principal red wine by volume?"
       choices:
         - { text: "Vino Nobile di Montepulciano DOCG", correct: false }
         - { text: "Montepulciano d’Abruzzo DOC", correct: true }
-        - { text: "Barolo DOCG", correct: false }
-        - { text: "Soave DOC", correct: false }
+        - { text: "Rosso Conero DOC", correct: false }
+        - { text: "Morellino di Scansano DOCG", correct: false }
       explanation: |
-        **Montepulciano d’Abruzzo DOC.** Vino Nobile is Sangiovese in
-        Tuscany — different word, different wine.
+        The name means Montepulciano from Abruzzo and refers to the grape, not the Tuscan town. It
+        covers a broad range from simple fruity wine to age-worthy subzone bottlings.
+    fr:
+      question: "Quelle dénomination constitue le principal vin rouge des Abruzzes en volume ?"
+      choices:
+        - { text: "Vino Nobile di Montepulciano DOCG", correct: false }
+        - { text: "Montepulciano d’Abruzzo DOC", correct: true }
+        - { text: "Rosso Conero DOC", correct: false }
+        - { text: "Morellino di Scansano DOCG", correct: false }
+      explanation: |
+        Le nom signifie Montepulciano des Abruzzes et désigne le cépage, non la ville toscane. Il couvre
+        une vaste gamme allant du vin fruité simple aux cuvées de sous-zone aptes à la garde.
 
   - id: citaly-montepulciano-style-001
     type: mcq
@@ -1592,13 +2010,22 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What is typical Montepulciano (the grape) like?
+      question: "Which profile is typical of Montepulciano, the grape, when yields are controlled?"
       choices:
-        - { text: "Pale, high acid, and low tannin, like Sangiovese", correct: false }
-        - { text: "Deep colour, high tannin, medium acid, black plum and cherry", correct: true }
-        - { text: "A white grape only", correct: false }
-        - { text: "Always sparkling", correct: false }
+        - { text: "Pale colour, low tannin and delicate floral fruit", correct: false }
+        - { text: "Deep colour, firm tannins, moderate acidity and ripe black plum or cherry", correct: true }
+        - { text: "Light body, high acidity and citrus fruit", correct: false }
+        - { text: "Sweetness, low alcohol and grapey perfume", correct: false }
       explanation: |
-        **Deep colour, high tannin, medium acid, black plum and
-        cherry.** Many bottles are unoaked and simple; the denser
-        ones see a little oak.
+        The variety can give generous fruit and colour at high yields, but lower yields and careful
+        extraction produce more concentrated, structured wines.
+    fr:
+      question: "Quel profil est typique du Montepulciano, le cépage, lorsque les rendements sont maîtrisés ?"
+      choices:
+        - { text: "Couleur pâle, faibles tanins et fruit floral délicat", correct: false }
+        - { text: "Couleur profonde, tanins fermes, acidité modérée et prune noire ou cerise mûre", correct: true }
+        - { text: "Corps léger, acidité élevée et agrumes", correct: false }
+        - { text: "Douceur, faible alcool et parfum muscaté", correct: false }
+      explanation: |
+        Le cépage peut donner beaucoup de fruit et de couleur à haut rendement, mais des rendements plus
+        faibles et une extraction attentive produisent des vins plus concentrés et structurés.
