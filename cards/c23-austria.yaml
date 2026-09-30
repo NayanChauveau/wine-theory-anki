@@ -13,25 +13,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Austrian vines cluster toward which side of the country, not the high Alps?
+      question: "Where are Austria’s principal wine-growing areas concentrated?"
       choices:
-        - { text: "Only on the high western Alps", correct: false }
+        - { text: "In the Alpine west", correct: false }
         - { text: "In the east", correct: true }
-        - { text: "Evenly, including Vorarlberg", correct: false }
-        - { text: "Only on the Italian border in the far south", correct: false }
+        - { text: "Along the central Alpine ridge", correct: false }
+        - { text: "In the far south-west", correct: false }
       explanation: |
-        **In the east.** Niederösterreich, Burgenland, Steiermark and Wien
-        sit on that side; the west is mountain country.
+        Austria’s main vineyards lie in Niederösterreich, Burgenland, Steiermark and Wien; the mountainous west has very little vineyard area.
     fr:
-      question: De quel côté de l’Autriche les vignes se concentrent-elles, plutôt que dans les hautes Alpes ?
+      question: "Où se concentrent les principales régions viticoles autrichiennes ?"
       choices:
-        - { text: "Seulement dans les hautes Alpes de l’ouest", correct: false }
-        - { text: "À l’est", correct: true }
-        - { text: "Partout à parts égales, Vorarlberg compris", correct: false }
-        - { text: "Seulement à la frontière italienne, tout au sud", correct: false }
+        - { text: "Dans l’ouest alpin", correct: false }
+        - { text: "Dans l’est", correct: true }
+        - { text: "Le long de la chaîne alpine centrale", correct: false }
+        - { text: "À l’extrême sud-ouest", correct: false }
       explanation: |
-        **À l’est.** La Basse-Autriche, le Burgenland, la Styrie et Vienne
-        sont de ce côté ; l’ouest est montagneux.
+        Les principaux vignobles se trouvent en Basse-Autriche, au Burgenland, en Styrie et à Vienne ; l’ouest montagneux compte très peu de vignes.
 
   - id: austria-climate-001
     type: mcq
@@ -43,15 +41,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which climate type describes the vineyards of eastern Austria?
+      question: "Which broad climate type characterises Austria’s main eastern vineyards?"
       choices:
-        - { text: "Cool maritime, like Muscadet", correct: false }
+        - { text: "Cool maritime", correct: false }
         - { text: "Cool continental", correct: true }
-        - { text: "Hot Mediterranean, like the southern Rhône", correct: false }
-        - { text: "Equatorial rainforest", correct: false }
+        - { text: "Warm maritime", correct: false }
+        - { text: "Mediterranean", correct: false }
       explanation: |
-        **Cool continental.** Winters bite; summers are the ripening
-        window. Burgenland then picks up extra Pannonian warmth.
+        The vineyards experience cold winters and warm, relatively dry summers, with marked seasonal temperature differences.
+    fr:
+      question: "Quel grand type de climat caractérise les principaux vignobles de l’est de l’Autriche ?"
+      choices:
+        - { text: "Maritime frais", correct: false }
+        - { text: "Continental frais", correct: true }
+        - { text: "Maritime chaud", correct: false }
+        - { text: "Méditerranéen", correct: false }
+      explanation: |
+        Les hivers sont froids et les étés chauds et relativement secs, avec de forts écarts de température entre les saisons.
 
   - id: austria-winds-001
     type: mcq
@@ -63,16 +69,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which wind pattern shapes eastern Austria’s vineyards?
+      question: "Which combination of airflows helps explain climatic differences within eastern Austria?"
       choices:
-        - { text: "Only a drying mistral from the Mediterranean", correct: false }
-        - { text: "Cooling northerlies in the north, and warming easterlies near the Hungarian border", correct: true }
-        - { text: "Atlantic westerlies that soak the whole country", correct: false }
-        - { text: "No wind at all", correct: false }
+        - { text: "Atlantic air from the west and föhn winds from the south", correct: false }
+        - { text: "Cool northerly air and warm Pannonian air from the east", correct: true }
+        - { text: "Mediterranean air from the south and Atlantic air from the north", correct: false }
+        - { text: "Warm Alpine air from the west and cool Pannonian air from the east", correct: false }
       explanation: |
-        **Cooling northerlies in the north, and warming easterlies near
-        the Hungarian border.** Weinviertel feels the first; Burgenland
-        the Pannonian second.
+        Northern areas retain freshness, while the Pannonian influence raises temperatures toward Burgenland and the Hungarian border.
+    fr:
+      question: "Quelle combinaison de masses d’air contribue aux différences climatiques dans l’est de l’Autriche ?"
+      choices:
+        - { text: "L’air atlantique de l’ouest et le foehn du sud", correct: false }
+        - { text: "L’air frais du nord et l’air pannonien chaud de l’est", correct: true }
+        - { text: "L’air méditerranéen du sud et l’air atlantique du nord", correct: false }
+        - { text: "L’air alpin chaud de l’ouest et l’air pannonien frais de l’est", correct: false }
+      explanation: |
+        Le nord conserve davantage de fraîcheur, tandis que l’influence pannonienne augmente les températures vers le Burgenland et la frontière hongroise.
 
   - id: austria-vintage-swing-001
     type: mcq
@@ -84,16 +97,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: How do year-to-year weather swings in Austria compare with more northerly European wine regions?
+      question: "Which pair of weather hazards can directly reduce an Austrian crop within a single growing season?"
       choices:
-        - { text: "Austria’s swings are far wilder than in Germany or Champagne", correct: false }
-        - { text: "Austria’s year-to-year weather swings are smaller", correct: true }
-        - { text: "Austria has no vintage variation at all", correct: false }
-        - { text: "Only the west coast swings; the east never does", correct: false }
+        - { text: "Winter rain and autumn fog", correct: false }
+        - { text: "Spring frost and hail", correct: true }
+        - { text: "Warm nights and a long autumn", correct: false }
+        - { text: "Dry weather and cool nights", correct: false }
       explanation: |
-        **Austria’s year-to-year weather swings are smaller.** Hail and
-        frost still hit, but the inland east is steadier than cooler,
-        more northerly neighbours.
+        Frost can damage young shoots soon after budburst, while hail can destroy leaves and grapes later in the season.
+    fr:
+      question: "Quelle paire d’aléas météorologiques peut directement réduire une récolte autrichienne au cours d’un même cycle végétatif ?"
+      choices:
+        - { text: "Pluies hivernales et brouillard automnal", correct: false }
+        - { text: "Gelées printanières et grêle", correct: true }
+        - { text: "Nuits chaudes et long automne", correct: false }
+        - { text: "Temps sec et nuits fraîches", correct: false }
+      explanation: |
+        Le gel peut endommager les jeunes pousses peu après le débourrement, tandis que la grêle peut détruire feuilles et raisins plus tard dans la saison.
 
   - id: austria-gv-lead-001
     type: mcq
@@ -105,15 +125,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which grape covers the most Austrian vineyard?
+      question: "Which grape variety has the largest planted area in Austria?"
       choices:
-        - { text: "Roter Veltliner", correct: false }
-        - { text: "Grüner Veltliner", correct: true }
         - { text: "Welschriesling", correct: false }
+        - { text: "Grüner Veltliner", correct: true }
         - { text: "Zweigelt", correct: false }
+        - { text: "Riesling", correct: false }
       explanation: |
-        **Grüner Veltliner** — roughly a third of the national vineyard.
-        **Roter Veltliner** is a different, much rarer white.
+        It accounts for roughly one-third of Austria’s vineyard area and is the country’s signature white variety.
+    fr:
+      question: "Quel cépage occupe la plus grande surface plantée en Autriche ?"
+      choices:
+        - { text: "Welschriesling", correct: false }
+        - { text: "Grüner Veltliner", correct: true }
+        - { text: "Zweigelt", correct: false }
+        - { text: "Riesling", correct: false }
+      explanation: |
+        Il représente environ un tiers du vignoble autrichien et constitue le cépage blanc emblématique du pays.
 
   - id: austria-gv-yield-001
     type: mcq
@@ -125,15 +153,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What are high-yield Austrian Grüner Veltliner wines typically like?
+      question: "What style does Grüner Veltliner tend to produce when cropped at high yields?"
       choices:
-        - { text: "Dense, tannic reds", correct: false }
-        - { text: "Fresh but simple", correct: true }
-        - { text: "Always botrytis-sweet", correct: false }
-        - { text: "Heavy, oaky and low in acid", correct: false }
+        - { text: "Concentrated, spicy and full-bodied", correct: false }
+        - { text: "Light, fresh and relatively neutral", correct: true }
+        - { text: "Rich, sweet and botrytised", correct: false }
+        - { text: "Deeply coloured and tannic", correct: false }
       explanation: |
-        **Fresh but simple.** Pushed yields strip the pepper and
-        concentration; the wine stays light and clean.
+        High yields dilute flavour concentration; controlled yields are needed for fuller body and Grüner’s characteristic spice.
+    fr:
+      question: "Quel style le Grüner Veltliner tend-il à produire lorsque les rendements sont élevés ?"
+      choices:
+        - { text: "Concentré, épicé et corsé", correct: false }
+        - { text: "Léger, frais et relativement neutre", correct: true }
+        - { text: "Riche, liquoreux et botrytisé", correct: false }
+        - { text: "Très coloré et tannique", correct: false }
+      explanation: |
+        Les rendements élevés diluent la concentration aromatique ; des rendements maîtrisés sont nécessaires pour obtenir plus de corps et l’expression épicée typique du Grüner.
 
   - id: austria-gv-youth-001
     type: mcq
@@ -145,16 +181,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What does careful, lower-yield Austrian Grüner Veltliner typically show in youth?
+      question: "Which profile best describes a high-quality young Grüner Veltliner?"
       choices:
-        - { text: "Low acid, jammy red fruit, and no spice", correct: false }
-        - { text: "Full body, concentration, high acidity, citrus or stone fruit, and a hint of white pepper", correct: true }
-        - { text: "Only lychee and residual sugar", correct: false }
-        - { text: "Deep colour and bramble, like Zweigelt", correct: false }
+        - { text: "Low acidity, soft texture and baked apple", correct: false }
+        - { text: "High acidity, citrus or stone fruit and white pepper", correct: true }
+        - { text: "High tannin, black fruit and liquorice", correct: false }
+        - { text: "Medium acidity, floral aromas and pronounced sweetness", correct: false }
       explanation: |
-        **Full body, concentration, high acidity, citrus or stone fruit,
-        and a hint of white pepper.** That pepper is the Grüner tell,
-        not Roter Veltliner.
+        Better examples can also be concentrated and full-bodied; white pepper is a classic varietal marker.
+    fr:
+      question: "Quel profil décrit le mieux un Grüner Veltliner jeune de grande qualité ?"
+      choices:
+        - { text: "Acidité faible, texture souple et pomme cuite", correct: false }
+        - { text: "Acidité élevée, agrumes ou fruits à noyau et poivre blanc", correct: true }
+        - { text: "Tanins élevés, fruits noirs et réglisse", correct: false }
+        - { text: "Acidité moyenne, arômes floraux et douceur prononcée", correct: false }
+      explanation: |
+        Les meilleurs exemples peuvent aussi être concentrés et corsés ; le poivre blanc est un marqueur variétal classique.
 
   - id: austria-gv-age-001
     type: mcq
@@ -166,15 +209,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which extra notes can bottle-aged Austrian Grüner Veltliner take on?
+      question: "Which aromas can develop as high-quality Grüner Veltliner ages in bottle?"
       choices:
-        - { text: "Tar and roses only", correct: false }
+        - { text: "Violet and black pepper", correct: false }
         - { text: "Honey and toast", correct: true }
-        - { text: "Mature Grüner Veltliner never leaves primary lemon", correct: false }
-        - { text: "Only new-oak coconut", correct: false }
+        - { text: "Banana and bubblegum", correct: false }
+        - { text: "Cassis and cedar", correct: false }
       explanation: |
-        **Honey and toast.** The best Danube bottles repay a cellar
-        the way a serious Riesling does.
+        Concentrated examples with high acidity can develop these tertiary notes while retaining freshness.
+    fr:
+      question: "Quels arômes peuvent apparaître avec le vieillissement en bouteille d’un Grüner Veltliner de grande qualité ?"
+      choices:
+        - { text: "Violette et poivre noir", correct: false }
+        - { text: "Miel et pain grillé", correct: true }
+        - { text: "Banane et chewing-gum", correct: false }
+        - { text: "Cassis et cèdre", correct: false }
+      explanation: |
+        Les vins concentrés dotés d’une acidité élevée peuvent développer ces notes tertiaires tout en conservant leur fraîcheur.
 
   - id: austria-gv-vessels-001
     type: mcq
@@ -186,16 +237,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: In which vessels is Austrian Grüner Veltliner usually fermented and aged?
+      question: "Which vessel choices are most typical for Austrian Grüner Veltliner?"
       choices:
-        - { text: "Only new 100% barrique, by law", correct: false }
-        - { text: "Mostly stainless steel, with old large oak casks common and some barrique ageing", correct: true }
-        - { text: "Only chestnut amphorae", correct: false }
-        - { text: "Oak is banned on Grüner Veltliner", correct: false }
+        - { text: "New barriques for every quality level", correct: false }
+        - { text: "Stainless steel or large neutral oak, with some barrique for fuller styles", correct: true }
+        - { text: "Concrete only, because wood is prohibited", correct: false }
+        - { text: "Small acacia barrels followed by amphora ageing", correct: false }
       explanation: |
-        **Mostly stainless steel, with old large oak casks common and
-        some barrique ageing.** Steel keeps the pepper; old foudres
-        are the Wachau/Kremstal habit; new barrique is the extra.
+        Neutral vessels preserve varietal fruit and spice; selected richer wines may gain texture and flavour from smaller oak.
+    fr:
+      question: "Quels contenants sont les plus courants pour le Grüner Veltliner autrichien ?"
+      choices:
+        - { text: "Des barriques neuves pour tous les niveaux de qualité", correct: false }
+        - { text: "L’inox ou de grands fûts neutres, avec parfois la barrique pour les styles plus riches", correct: true }
+        - { text: "Uniquement le béton, car le bois est interdit", correct: false }
+        - { text: "De petits fûts d’acacia suivis d’un élevage en amphore", correct: false }
+      explanation: |
+        Les contenants neutres préservent le fruit et les épices du cépage ; certains vins plus opulents gagnent en texture et en arômes dans de petits fûts.
 
   - id: austria-welschriesling-rank-001
     type: mcq
@@ -207,15 +265,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: After Grüner Veltliner, which white — not Riesling — covers the next-largest Austrian area?
+      question: "Which is Austria’s second most planted white grape variety?"
       choices:
         - { text: "Riesling", correct: false }
         - { text: "Welschriesling", correct: true }
-        - { text: "Roter Veltliner", correct: false }
         - { text: "Chardonnay", correct: false }
+        - { text: "Sauvignon Blanc", correct: false }
       explanation: |
-        **Welschriesling** — not Riesling, and not related to it.
-        Riesling is the quality third white, on far fewer hectares.
+        Despite its name, it is unrelated to Riesling; it is used for both fresh dry wines and botrytised sweet wines.
+    fr:
+      question: "Quel est le deuxième cépage blanc le plus planté d’Autriche ?"
+      choices:
+        - { text: "Riesling", correct: false }
+        - { text: "Welschriesling", correct: true }
+        - { text: "Chardonnay", correct: false }
+        - { text: "Sauvignon Blanc", correct: false }
+      explanation: |
+        Malgré son nom, il n’est pas apparenté au Riesling ; il sert à produire des vins secs et frais comme des vins liquoreux botrytisés.
 
   - id: austria-welschriesling-dry-001
     type: mcq
@@ -227,16 +293,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What is typical dry Austrian Welschriesling like?
+      question: "Which profile is typical of inexpensive dry Austrian Welschriesling?"
       choices:
-        - { text: "Oaky, tropical, and low in acid", correct: false }
-        - { text: "Fresh and simple, with citrus, green apple and high acidity", correct: true }
-        - { text: "Tannic and peppery, like Blaufränkisch", correct: false }
-        - { text: "Always a TBA-level sweet wine", correct: false }
+        - { text: "Full body, low acidity and tropical fruit", correct: false }
+        - { text: "Light body, high acidity, citrus and green apple", correct: true }
+        - { text: "Medium body, medium acidity and floral fruit", correct: false }
+        - { text: "Full body, high acidity and waxy stone fruit", correct: false }
       explanation: |
-        **Fresh and simple, with citrus, green apple and high acidity.**
-        Dry bottles are the everyday white; the same grape also makes
-        lake-side sweet wine.
+        Dry Welschriesling is generally fresh, simple and intended for early drinking.
+    fr:
+      question: "Quel profil est typique d’un Welschriesling autrichien sec et peu coûteux ?"
+      choices:
+        - { text: "Corps puissant, acidité faible et fruits tropicaux", correct: false }
+        - { text: "Corps léger, acidité élevée, agrumes et pomme verte", correct: true }
+        - { text: "Corps moyen, acidité moyenne et fruit floral", correct: false }
+        - { text: "Corps puissant, acidité élevée et fruits à noyau cireux", correct: false }
+      explanation: |
+        Le Welschriesling sec est généralement frais, simple et destiné à être bu jeune.
 
   - id: austria-welschriesling-botrytis-001
     type: mcq
@@ -248,16 +321,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Around Neusiedlersee, Welschriesling is prized for which kind of dessert wine?
+      question: "Around Neusiedlersee, for which premium style is Welschriesling especially valued?"
       choices:
-        - { text: "Fortified red, like Port", correct: false }
-        - { text: "Botrytised dessert wines", correct: true }
-        - { text: "Only bone-dry Sekt", correct: false }
-        - { text: "Orange wine from skins only", correct: false }
+        - { text: "Traditional-method sparkling wine", correct: false }
+        - { text: "Botrytised sweet wine", correct: true }
+        - { text: "Skin-contact dry wine", correct: false }
+        - { text: "Fortified sweet wine", correct: false }
       explanation: |
-        **Botrytised dessert wines.** Around Neusiedlersee the grape
-        takes noble rot cleanly; dry Welschriesling stays the simple
-        extra.
+        The humid autumn conditions around the shallow lake favour noble rot, and Welschriesling retains balancing acidity.
+    fr:
+      question: "Autour du Neusiedlersee, pour quel style haut de gamme le Welschriesling est-il particulièrement apprécié ?"
+      choices:
+        - { text: "Vin effervescent de méthode traditionnelle", correct: false }
+        - { text: "Vin liquoreux botrytisé", correct: true }
+        - { text: "Vin sec de macération", correct: false }
+        - { text: "Vin doux fortifié", correct: false }
+      explanation: |
+        Les conditions automnales humides autour de ce lac peu profond favorisent la pourriture noble, tandis que le Welschriesling conserve une acidité équilibrante.
 
   - id: austria-riesling-rank-001
     type: mcq
@@ -269,17 +349,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: After Grüner and Welschriesling, which third white still matters on the Danube terraces?
+      question: "Which variety joins Grüner Veltliner as a source of top-quality dry white wines on Austria’s Danube terraces?"
       choices:
-        - { text: "Grüner Veltliner", correct: false }
+        - { text: "Welschriesling", correct: false }
         - { text: "Riesling", correct: true }
-        - { text: "Roter Veltliner", correct: false }
-        - { text: "Zweigelt", correct: false }
+        - { text: "Muscat Ottonel", correct: false }
+        - { text: "Neuburger", correct: false }
       explanation: |
-        **Riesling.** Third white by area, after Grüner Veltliner
-        and Welschriesling. The Danube terraces are where it
-        shines; it does not outrank Grüner on hectares or as
-        Austria’s lead white.
+        It occupies far less land than Grüner Veltliner but produces some of Austria’s finest age-worthy dry whites along the Danube.
+    fr:
+      question: "Quel cépage rejoint le Grüner Veltliner parmi les grands vins blancs secs des terrasses autrichiennes du Danube ?"
+      choices:
+        - { text: "Welschriesling", correct: false }
+        - { text: "Riesling", correct: true }
+        - { text: "Muscat Ottonel", correct: false }
+        - { text: "Neuburger", correct: false }
+      explanation: |
+        Il occupe bien moins de surface que le Grüner Veltliner, mais donne certains des meilleurs blancs secs de garde d’Autriche le long du Danube.
 
   - id: austria-riesling-danube-001
     type: mcq
@@ -291,15 +377,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: From which Austrian regions do the finest Rieslings usually come?
+      question: "Which group of Austrian regions is most strongly associated with premium Riesling?"
       choices:
-        - { text: "Weinviertel only", correct: false }
+        - { text: "Weinviertel, Mittelburgenland and Rosalia", correct: false }
         - { text: "Wachau, Kamptal and Kremstal", correct: true }
-        - { text: "Only the flats around Neusiedlersee", correct: false }
-        - { text: "Weststeiermark only", correct: false }
+        - { text: "Neusiedlersee, Eisenberg and Rust", correct: false }
+        - { text: "Weststeiermark, Carnuntum and Thermenregion", correct: false }
       explanation: |
-        **Wachau, Kamptal and Kremstal.** The dry Danube trio — not
-        the sweet lake, and not Weinviertel’s Grüner-only DAC.
+        Their Danube-side and tributary vineyards provide warm days, cool nights and suitable sites for concentrated, high-acid Riesling.
+    fr:
+      question: "Quel groupe de régions autrichiennes est le plus étroitement associé au Riesling haut de gamme ?"
+      choices:
+        - { text: "Weinviertel, Mittelburgenland et Rosalia", correct: false }
+        - { text: "Wachau, Kamptal et Kremstal", correct: true }
+        - { text: "Neusiedlersee, Eisenberg et Rust", correct: false }
+        - { text: "Weststeiermark, Carnuntum et Thermenregion", correct: false }
+      explanation: |
+        Leurs vignobles proches du Danube et de ses affluents offrent des journées chaudes, des nuits fraîches et des sites adaptés à des Rieslings concentrés et très acides.
 
   - id: austria-riesling-style-001
     type: mcq
@@ -311,16 +405,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What style do Austrian Rieslings usually take?
+      question: "Which profile best describes premium Austrian Riesling?"
       choices:
-        - { text: "Off-dry and feather-light, like a Mosel Kabinett", correct: false }
-        - { text: "Dry, medium to full-bodied, ripe peach fruit, and the best bottles can age", correct: true }
-        - { text: "Always a botrytis dessert wine", correct: false }
-        - { text: "Sparkling red only", correct: false }
+        - { text: "Sweet, light-bodied, floral and moderate in acidity", correct: false }
+        - { text: "Dry, medium- to full-bodied, peachy and high in acidity", correct: true }
+        - { text: "Dry, full-bodied, tropical and marked by new oak", correct: false }
+        - { text: "Off-dry, light-bodied, neutral and lightly sparkling", correct: false }
       explanation: |
-        **Dry, medium to full-bodied, ripe peach fruit, and the best
-        bottles can age.** Austrian Riesling is a dry table wine, not
-        a German residual-sugar bottle.
+        Concentration and acidity give the best examples strong ageing potential.
+    fr:
+      question: "Quel profil décrit le mieux un Riesling autrichien haut de gamme ?"
+      choices:
+        - { text: "Doux, léger, floral et doté d’une acidité moyenne", correct: false }
+        - { text: "Sec, moyennement corsé à corsé, marqué par la pêche et très acide", correct: true }
+        - { text: "Sec, corsé, tropical et marqué par le bois neuf", correct: false }
+        - { text: "Demi-sec, léger, neutre et légèrement effervescent", correct: false }
+      explanation: |
+        La concentration et l’acidité confèrent aux meilleurs exemples un fort potentiel de garde.
 
   - id: austria-other-whites-001
     type: mcq
@@ -332,16 +433,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Besides Grüner Veltliner, Welschriesling and Riesling, which three extra whites are commonly planted in Austria?
+      question: "Which set contains three other important white varieties grown in Austria?"
       choices:
-        - { text: "Nebbiolo, Sangiovese and Corvina", correct: false }
-        - { text: "Chardonnay, Müller-Thurgau and Sauvignon Blanc", correct: true }
-        - { text: "Only Roter Veltliner, and nothing else", correct: false }
-        - { text: "Zweigelt, Blaufränkisch and St Laurent", correct: false }
+        - { text: "Chenin Blanc, Viognier and Sémillon", correct: false }
+        - { text: "Chardonnay, Pinot Blanc and Sauvignon Blanc", correct: true }
+        - { text: "Albariño, Furmint and Assyrtiko", correct: false }
+        - { text: "Pinot Gris, Marsanne and Vermentino", correct: false }
       explanation: |
-        **Chardonnay, Müller-Thurgau and Sauvignon Blanc.** Pinot
-        Blanc is another regular; the three named here are the usual
-        extras on the list.
+        Chardonnay and Pinot Blanc are widespread, while Sauvignon Blanc is especially important in Steiermark.
+    fr:
+      question: "Quel groupe réunit trois autres cépages blancs importants cultivés en Autriche ?"
+      choices:
+        - { text: "Chenin Blanc, Viognier et Sémillon", correct: false }
+        - { text: "Chardonnay, Pinot Blanc et Sauvignon Blanc", correct: true }
+        - { text: "Albariño, Furmint et Assyrtiko", correct: false }
+        - { text: "Pinot Gris, Marsanne et Vermentino", correct: false }
+      explanation: |
+        Le Chardonnay et le Pinot Blanc sont largement répandus, tandis que le Sauvignon Blanc est particulièrement important en Styrie.
 
   - id: austria-sb-name-001
     type: mcq
@@ -353,15 +461,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Styria’s rising international white is which variety, not a Veltliner?
+      question: "Which aromatic white variety has built a strong reputation in Steiermark?"
       choices:
-        - { text: "Müller-Thurgau", correct: false }
+        - { text: "Gewürztraminer", correct: false }
         - { text: "Sauvignon Blanc", correct: true }
-        - { text: "Roter Veltliner", correct: false }
-        - { text: "Zweigelt", correct: false }
+        - { text: "Muskateller", correct: false }
+        - { text: "Scheurebe", correct: false }
       explanation: |
-        **Sauvignon Blanc.** The plantings that people talk about sit
-        in the south, not on the Danube terraces.
+        Steiermark produces vivid, high-acid examples ranging from fresh regional wines to complex, age-worthy single-vineyard bottlings.
+    fr:
+      question: "Quel cépage blanc aromatique s’est forgé une solide réputation en Styrie ?"
+      choices:
+        - { text: "Gewürztraminer", correct: false }
+        - { text: "Sauvignon Blanc", correct: true }
+        - { text: "Muskateller", correct: false }
+        - { text: "Scheurebe", correct: false }
+      explanation: |
+        La Styrie produit des vins expressifs et très acides, depuis les cuvées régionales fraîches jusqu’aux vins parcellaires complexes et aptes à la garde.
 
   - id: austria-sb-styria-001
     type: mcq
@@ -373,15 +489,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: In which Austrian region has Sauvignon Blanc built its name?
+      question: "In which Austrian federal state is Sauvignon Blanc a leading quality variety?"
       choices:
-        - { text: "Wachau", correct: false }
-        - { text: "Steiermark, in the south", correct: true }
-        - { text: "Weinviertel only", correct: false }
-        - { text: "The high western Alps", correct: false }
+        - { text: "Burgenland", correct: false }
+        - { text: "Steiermark", correct: true }
+        - { text: "Niederösterreich", correct: false }
+        - { text: "Wien", correct: false }
       explanation: |
-        **Steiermark, in the south** — Südsteiermark in particular.
-        Wachau’s story is Grüner Veltliner and Riesling.
+        Its hilly southern vineyards and significant diurnal range help Sauvignon Blanc retain acidity while developing intense aromas.
+    fr:
+      question: "Dans quel Land autrichien le Sauvignon Blanc est-il un cépage qualitatif majeur ?"
+      choices:
+        - { text: "Burgenland", correct: false }
+        - { text: "Styrie", correct: true }
+        - { text: "Basse-Autriche", correct: false }
+        - { text: "Vienne", correct: false }
+      explanation: |
+        Ses vignobles vallonnés du sud et leur forte amplitude thermique diurne aident le Sauvignon Blanc à conserver son acidité tout en développant des arômes intenses.
 
   - id: austria-zweigelt-rank-001
     type: mcq
@@ -393,16 +517,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which black grape covers the most Austrian vineyard?
+      question: "Which is Austria’s most planted black grape variety?"
       choices:
         - { text: "Blaufränkisch", correct: false }
         - { text: "Zweigelt", correct: true }
         - { text: "St Laurent", correct: false }
         - { text: "Pinot Noir", correct: false }
       explanation: |
-        **Zweigelt.** Most planted black, and second overall behind
-        Grüner Veltliner. Blaufränkisch is the prestige red, not the
-        hectare leader.
+        It is Austria’s leading black variety nationally, although Blaufränkisch is particularly important for premium reds in Burgenland.
+    fr:
+      question: "Quel est le cépage noir le plus planté d’Autriche ?"
+      choices:
+        - { text: "Blaufränkisch", correct: false }
+        - { text: "Zweigelt", correct: true }
+        - { text: "St Laurent", correct: false }
+        - { text: "Pinot Noir", correct: false }
+      explanation: |
+        C’est le premier cépage noir du pays en surface, même si le Blaufränkisch est particulièrement important pour les rouges haut de gamme du Burgenland.
 
   - id: austria-zweigelt-parents-001
     type: mcq
@@ -414,15 +545,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Zweigelt is a crossing of which two Austrian black grapes?
+      question: "Which two varieties were crossed to create Zweigelt?"
       choices:
-        - { text: "Grüner Veltliner and Riesling", correct: false }
+        - { text: "Pinot Noir and Blaufränkisch", correct: false }
         - { text: "Blaufränkisch and St Laurent", correct: true }
-        - { text: "Pinot Noir and Gamay", correct: false }
-        - { text: "Cabernet Sauvignon and Merlot", correct: false }
+        - { text: "St Laurent and Cabernet Sauvignon", correct: false }
+        - { text: "Blaufränkisch and Merlot", correct: false }
       explanation: |
-        **Blaufränkisch and St Laurent.** Friedrich Zweigelt made the
-        cross at Klosterneuburg in 1922.
+        The crossing combines Blaufränkisch’s colour and acidity with St Laurent’s fruit and earlier ripening.
+    fr:
+      question: "Quels deux cépages ont été croisés pour créer le Zweigelt ?"
+      choices:
+        - { text: "Pinot Noir et Blaufränkisch", correct: false }
+        - { text: "Blaufränkisch et St Laurent", correct: true }
+        - { text: "St Laurent et Cabernet Sauvignon", correct: false }
+        - { text: "Blaufränkisch et Merlot", correct: false }
+      explanation: |
+        Le croisement associe la couleur et l’acidité du Blaufränkisch au fruit et à la maturité plus précoce du St Laurent.
 
   - id: austria-zweigelt-style-001
     type: mcq
@@ -434,15 +573,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which Austrian black grape typically gives deep colour, soft tannins and bramble fruit?
+      question: "Which profile is most typical of Zweigelt?"
       choices:
-        - { text: "Blaufränkisch", correct: false }
-        - { text: "Zweigelt", correct: true }
-        - { text: "Grüner Veltliner", correct: false }
-        - { text: "Welschriesling", correct: false }
+        - { text: "Pale colour, high tannin and redcurrant", correct: false }
+        - { text: "Deep colour, soft tannins and bramble fruit", correct: true }
+        - { text: "Medium colour, high tannin and black pepper", correct: false }
+        - { text: "Deep colour, high acidity and sour cherry", correct: false }
       explanation: |
-        **Zweigelt.** Deep, soft and brambly. Blaufränkisch is the
-        other red — medium tannin, high acid, peppery sour cherry.
+        Zweigelt’s accessible texture suits both inexpensive fruity wines and more concentrated oak-aged examples.
+    fr:
+      question: "Quel profil est le plus typique du Zweigelt ?"
+      choices:
+        - { text: "Couleur pâle, tanins élevés et groseille", correct: false }
+        - { text: "Couleur profonde, tanins souples et fruits de ronce", correct: true }
+        - { text: "Couleur moyenne, tanins élevés et poivre noir", correct: false }
+        - { text: "Couleur profonde, acidité élevée et griotte", correct: false }
+      explanation: |
+        La texture accessible du Zweigelt convient aussi bien aux vins fruités peu coûteux qu’aux cuvées plus concentrées élevées sous bois.
 
   - id: austria-bf-prestige-001
     type: mcq
@@ -454,15 +601,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Burgenland’s prestige red, more structured than Zweigelt, is which grape?
+      question: "Which variety is particularly associated with structured, premium red wines from Burgenland?"
       choices:
         - { text: "Zweigelt", correct: false }
         - { text: "Blaufränkisch", correct: true }
-        - { text: "Roter Veltliner", correct: false }
-        - { text: "Welschriesling", correct: false }
+        - { text: "St Laurent", correct: false }
+        - { text: "Blauburger", correct: false }
       explanation: |
-        **Blaufränkisch.** Zweigelt wins on hectares; Blaufränkisch
-        wins on reputation, especially in Burgenland.
+        Its acidity, tannin and peppery dark-cherry fruit make it well suited to age-worthy wines, especially in Mittelburgenland and Eisenberg.
+    fr:
+      question: "Quel cépage est particulièrement associé aux rouges structurés et haut de gamme du Burgenland ?"
+      choices:
+        - { text: "Zweigelt", correct: false }
+        - { text: "Blaufränkisch", correct: true }
+        - { text: "St Laurent", correct: false }
+        - { text: "Blauburger", correct: false }
+      explanation: |
+        Son acidité, ses tanins et ses arômes poivrés de cerise noire se prêtent aux vins de garde, notamment à Mittelburgenland et Eisenberg.
 
   - id: austria-bf-style-001
     type: mcq
@@ -474,16 +629,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What is typical Austrian Blaufränkisch like in the glass?
+      question: "Which structural and flavour profile is typical of Austrian Blaufränkisch?"
       choices:
-        - { text: "Deep colour, soft tannins and sweet bramble only", correct: false }
-        - { text: "Medium tannin, high acidity, and a peppery sour-cherry flavour", correct: true }
-        - { text: "A white grape with no tannin", correct: false }
-        - { text: "Always a botrytis dessert wine", correct: false }
+        - { text: "Low acidity, soft tannins and jammy plum", correct: false }
+        - { text: "High acidity, medium to high tannins and peppery cherry fruit", correct: true }
+        - { text: "High acidity, low tannins and strawberry fruit", correct: false }
+        - { text: "Medium acidity, high tannins and pronounced mint", correct: false }
       explanation: |
-        **Medium tannin, high acidity, and a peppery sour-cherry
-        flavour.** Do not swap that line with Zweigelt’s softer
-        bramble profile.
+        Better examples combine this firm structure with concentration and oak-derived complexity.
+    fr:
+      question: "Quel profil de structure et d’arômes est typique du Blaufränkisch autrichien ?"
+      choices:
+        - { text: "Acidité faible, tanins souples et prune confiturée", correct: false }
+        - { text: "Acidité élevée, tanins moyens à élevés et cerise poivrée", correct: true }
+        - { text: "Acidité élevée, tanins faibles et fraise", correct: false }
+        - { text: "Acidité moyenne, tanins élevés et menthe prononcée", correct: false }
+      explanation: |
+        Les meilleurs exemples associent cette structure ferme à de la concentration et à la complexité apportée par le bois.
 
   - id: austria-st-laurent-001
     type: mcq
@@ -495,15 +657,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which Austrian black grape is often likened to Pinot Noir, not to Zweigelt’s bramble?
+      question: "Which Austrian black variety commonly produces Pinot Noir-like wines with red-fruit character and fresh acidity?"
       choices:
-        - { text: "Zweigelt", correct: false }
+        - { text: "Blaufränkisch", correct: false }
         - { text: "St Laurent", correct: true }
-        - { text: "Grüner Veltliner", correct: false }
-        - { text: "Welschriesling", correct: false }
+        - { text: "Zweigelt", correct: false }
+        - { text: "Roesler", correct: false }
       explanation: |
-        **St Laurent.** A local Pinot-shaped red — darker than many
-        Burgundies, still in that cherry-and-savoury family.
+        It can give aromatic, relatively deep-coloured wines with red or dark fruit, fresh acidity and a resemblance to Pinot Noir.
+    fr:
+      question: "Quel cépage noir autrichien produit souvent des vins proches du Pinot Noir, marqués par les fruits rouges et une acidité fraîche ?"
+      choices:
+        - { text: "Blaufränkisch", correct: false }
+        - { text: "St Laurent", correct: true }
+        - { text: "Zweigelt", correct: false }
+        - { text: "Roesler", correct: false }
+      explanation: |
+        Il peut donner des vins aromatiques, assez colorés, aux fruits rouges ou noirs, dotés d’une acidité fraîche et rappelant le Pinot Noir.
 
   - id: austria-st-laurent-oak-001
     type: mcq
@@ -515,15 +685,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: How common is oak on Austrian St Laurent?
+      question: "What is a common maturation choice for premium Austrian St Laurent?"
       choices:
-        - { text: "Oak is illegal on St Laurent", correct: false }
-        - { text: "Oak is common", correct: true }
-        - { text: "Only chestnut is allowed", correct: false }
-        - { text: "The wine must stay in steel for ten years", correct: false }
+        - { text: "Early bottling without maturation", correct: false }
+        - { text: "Oak maturation", correct: true }
+        - { text: "Extended ageing under flor", correct: false }
+        - { text: "Oxidative ageing in open vats", correct: false }
       explanation: |
-        **Oak is common.** Cellars treat St Laurent much as they
-        treat Pinot Noir.
+        Producers often use oak to add texture and spice to premium St Laurent, while managing extraction so its fruit is not overwhelmed.
+    fr:
+      question: "Quel choix d’élevage est courant pour un St Laurent autrichien haut de gamme ?"
+      choices:
+        - { text: "Une mise en bouteille précoce sans élevage", correct: false }
+        - { text: "Un élevage sous bois", correct: true }
+        - { text: "Un long élevage sous voile", correct: false }
+        - { text: "Un élevage oxydatif en cuves ouvertes", correct: false }
+      explanation: |
+        Les producteurs emploient souvent le bois pour apporter texture et épices aux St Laurent haut de gamme, tout en limitant l’extraction afin de préserver le fruit.
 
   - id: austria-red-blend-001
     type: mcq
@@ -535,16 +713,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which blending practice is now common among Austrian reds?
+      question: "Which blending approach is used for some modern Austrian red wines?"
       choices:
-        - { text: "Only Grüner Veltliner with Riesling", correct: false }
-        - { text: "Local black grapes blended with Pinot Noir, Cabernet Sauvignon and Merlot", correct: true }
-        - { text: "Blending any red is illegal", correct: false }
-        - { text: "Only Welschriesling with Chardonnay", correct: false }
+        - { text: "Only local varieties such as Zweigelt and Blaufränkisch", correct: false }
+        - { text: "Local varieties combined with Pinot Noir, Merlot or Cabernet Sauvignon", correct: true }
+        - { text: "Only international varieties, with local grapes excluded", correct: false }
+        - { text: "White and black local varieties in equal proportions", correct: false }
       explanation: |
-        **Local black grapes blended with Pinot Noir, Cabernet
-        Sauvignon and Merlot.** Zweigelt or Blaufränkisch stay in the
-        mix; the internationals are the extra.
+        International grapes can add structure or complexity while Zweigelt or Blaufränkisch retains an Austrian identity.
+    fr:
+      question: "Quel type d’assemblage est utilisé pour certains rouges autrichiens modernes ?"
+      choices:
+        - { text: "Uniquement des cépages locaux comme le Zweigelt et le Blaufränkisch", correct: false }
+        - { text: "Des cépages locaux associés au Pinot Noir, au Merlot ou au Cabernet Sauvignon", correct: true }
+        - { text: "Uniquement des cépages internationaux, sans cépage local", correct: false }
+        - { text: "Des cépages locaux blancs et noirs en proportions égales", correct: false }
+      explanation: |
+        Les cépages internationaux peuvent apporter structure ou complexité, tandis que le Zweigelt ou le Blaufränkisch maintient une identité autrichienne.
 
   - id: austria-pdo-states-001
     type: mcq
@@ -556,16 +741,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which four federal states produce Austria’s Qualitätswein and DAC wines?
+      question: "Which statement correctly describes Austria’s generic wine-growing regions for Qualitätswein?"
       choices:
-        - { text: "Tyrol, Salzburg, Vorarlberg and Carinthia", correct: false }
-        - { text: "Niederösterreich, Burgenland, Steiermark and Wien", correct: true }
-        - { text: "Only Wachau and the Mosel", correct: false }
-        - { text: "Bavaria, Baden, Alsace and Tokaj", correct: false }
+        - { text: "Only Niederösterreich and Burgenland qualify", correct: false }
+        - { text: "All nine federal states qualify, although four account for nearly all vineyard area", correct: true }
+        - { text: "Only the four largest federal states qualify", correct: false }
+        - { text: "Every DAC is a generic federal-state region", correct: false }
       explanation: |
-        **Niederösterreich, Burgenland, Steiermark and Wien.** Those
-        four Bundesländer are the protected-origin map. DAC is the
-        modern PDO-style label inside that map.
+        Niederösterreich, Burgenland, Steiermark and Wien are the principal regions; the five western states form the much smaller Bergland area.
+    fr:
+      question: "Quelle affirmation décrit correctement les régions viticoles génériques autrichiennes pour le Qualitätswein ?"
+      choices:
+        - { text: "Seuls la Basse-Autriche et le Burgenland sont admis", correct: false }
+        - { text: "Les neuf Länder sont admis, même si quatre concentrent presque tout le vignoble", correct: true }
+        - { text: "Seuls les quatre plus grands Länder sont admis", correct: false }
+        - { text: "Chaque DAC constitue une région générique correspondant à un Land", correct: false }
+      explanation: |
+        La Basse-Autriche, le Burgenland, la Styrie et Vienne sont les régions principales ; les cinq Länder occidentaux forment la très petite zone du Bergland.
 
   - id: austria-volume-states-001
     type: mcq
@@ -577,15 +769,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Austria’s volume comes mainly from which two eastern Bundesländer?
+      question: "Which two federal states contain most of Austria’s vineyard area?"
       choices:
-        - { text: "Steiermark and Wien only", correct: false }
+        - { text: "Steiermark and Wien", correct: false }
         - { text: "Niederösterreich and Burgenland", correct: true }
-        - { text: "Tyrol and Vorarlberg", correct: false }
-        - { text: "Only Wien", correct: false }
+        - { text: "Burgenland and Steiermark", correct: false }
+        - { text: "Niederösterreich and Wien", correct: false }
       explanation: |
-        **Niederösterreich and Burgenland.** Steiermark and Wien
-        matter for style; they are small on volume.
+        Together they dominate Austrian plantings; Steiermark and Wien are important but much smaller.
+    fr:
+      question: "Quels deux Länder regroupent la majeure partie du vignoble autrichien ?"
+      choices:
+        - { text: "La Styrie et Vienne", correct: false }
+        - { text: "La Basse-Autriche et le Burgenland", correct: true }
+        - { text: "Le Burgenland et la Styrie", correct: false }
+        - { text: "La Basse-Autriche et Vienne", correct: false }
+      explanation: |
+        Ils dominent ensemble les surfaces viticoles autrichiennes ; la Styrie et Vienne sont importantes mais bien plus petites.
 
   - id: austria-noe-export-001
     type: mcq
@@ -597,16 +797,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which Austrian federal wine state leads production and exports?
+      question: "Which federal state has Austria’s largest vineyard area?"
       choices:
-        - { text: "Wien", correct: false }
+        - { text: "Burgenland", correct: false }
         - { text: "Niederösterreich", correct: true }
         - { text: "Steiermark", correct: false }
-        - { text: "Tyrol", correct: false }
+        - { text: "Wien", correct: false }
       explanation: |
-        **Niederösterreich.** The large eastern state — Wachau,
-        Kremstal, Kamptal and Weinviertel sit inside it. Weinviertel
-        is the biggest single region; the state is bigger still.
+        Lower Austria contains well over half of the national vineyard and includes major regions such as Weinviertel, Wachau, Kamptal and Kremstal.
+    fr:
+      question: "Quel Land possède la plus grande surface viticole d’Autriche ?"
+      choices:
+        - { text: "Burgenland", correct: false }
+        - { text: "Basse-Autriche", correct: true }
+        - { text: "Styrie", correct: false }
+        - { text: "Vienne", correct: false }
+      explanation: |
+        Elle regroupe largement plus de la moitié du vignoble national et comprend notamment Weinviertel, Wachau, Kamptal et Kremstal.
 
   - id: austria-noe-sites-001
     type: mcq
@@ -618,16 +825,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Niederösterreich fruit is mostly grown along which river, and north toward which neighbour?
+      question: "Where are Niederösterreich’s principal vineyards located?"
       choices:
-        - { text: "Only on alpine ice above Innsbruck", correct: false }
-        - { text: "Along the Danube, and further north toward the Slovak border", correct: true }
-        - { text: "Only around Neusiedlersee", correct: false }
-        - { text: "Only in Südsteiermark", correct: false }
+        - { text: "Around Lake Neusiedl and along the Hungarian border", correct: false }
+        - { text: "Along the Danube and across the north-east toward the Czech and Slovak borders", correct: true }
+        - { text: "On the southern Alpine slopes toward Slovenia", correct: false }
+        - { text: "Around Vienna and exclusively within the city boundary", correct: false }
       explanation: |
-        **Along the Danube, and further north toward the Slovak
-        border.** Danube belt first; Weinviertel is the northern
-        bulk.
+        The Danube corridor contains several premium regions, while the large Weinviertel lies farther north-east.
+    fr:
+      question: "Où se situent les principaux vignobles de Basse-Autriche ?"
+      choices:
+        - { text: "Autour du lac de Neusiedl et le long de la frontière hongroise", correct: false }
+        - { text: "Le long du Danube et dans le nord-est vers les frontières tchèque et slovaque", correct: true }
+        - { text: "Sur les versants alpins du sud en direction de la Slovénie", correct: false }
+        - { text: "Autour de Vienne et exclusivement dans les limites de la ville", correct: false }
+      explanation: |
+        Le couloir du Danube rassemble plusieurs régions prestigieuses, tandis que le vaste Weinviertel s’étend plus au nord-est.
 
   - id: austria-wachau-state-001
     type: mcq
@@ -639,15 +853,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: In which Austrian federal state does Wachau sit?
+      question: "In which Austrian federal state is Wachau located?"
       choices:
         - { text: "Burgenland", correct: false }
         - { text: "Niederösterreich", correct: true }
         - { text: "Steiermark", correct: false }
         - { text: "Wien", correct: false }
       explanation: |
-        **Niederösterreich.** The gorge between Melk and Krems, on
-        the Danube — not the Hungarian-border lake country.
+        Wachau follows a narrow stretch of the Danube west of Krems in Lower Austria.
+    fr:
+      question: "Dans quel Land autrichien se trouve la Wachau ?"
+      choices:
+        - { text: "Burgenland", correct: false }
+        - { text: "Basse-Autriche", correct: true }
+        - { text: "Styrie", correct: false }
+        - { text: "Vienne", correct: false }
+      explanation: |
+        La Wachau suit une étroite portion du Danube à l’ouest de Krems.
 
   - id: austria-wachau-dry-001
     type: mcq
@@ -659,15 +881,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What is Wachau best known for?
+      question: "For which wines is Wachau best known?"
       choices:
-        - { text: "Botrytis sweet wines, like Neusiedlersee", correct: false }
-        - { text: "High-quality dry wines from Riesling or Grüner Veltliner", correct: true }
-        - { text: "Only Blaufränkisch reds", correct: false }
-        - { text: "Fortified Muscat", correct: false }
+        - { text: "Botrytised Welschriesling and Muscat", correct: false }
+        - { text: "Dry Grüner Veltliner and Riesling", correct: true }
+        - { text: "Red Zweigelt and Blaufränkisch", correct: false }
+        - { text: "Sparkling Chardonnay and Pinot Noir", correct: false }
       explanation: |
-        **High-quality dry wines from Riesling or Grüner Veltliner.**
-        The Danube dry-white story; the sweet lake is Burgenland.
+        The best wines combine concentration, high acidity and pronounced fruit from steep Danube-side vineyards.
+    fr:
+      question: "Pour quels vins la Wachau est-elle surtout réputée ?"
+      choices:
+        - { text: "Welschriesling et Muscat botrytisés", correct: false }
+        - { text: "Grüner Veltliner et Riesling secs", correct: true }
+        - { text: "Zweigelt et Blaufränkisch rouges", correct: false }
+        - { text: "Chardonnay et Pinot Noir effervescents", correct: false }
+      explanation: |
+        Les meilleurs vins associent concentration, acidité élevée et fruit intense grâce aux vignobles escarpés qui bordent le Danube.
 
   - id: austria-noe-eight-001
     type: mcq
@@ -679,15 +909,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Wachau, Kremstal, Kamptal and Weinviertel sit among how many Niederösterreich sub-regions?
+      question: "How many specific wine-growing regions does Niederösterreich contain?"
       choices:
-        - { text: "Two, like Bordeaux banks", correct: false }
+        - { text: "Six", correct: false }
         - { text: "Eight", correct: true }
-        - { text: "One only", correct: false }
-        - { text: "A hundred climats", correct: false }
+        - { text: "Ten", correct: false }
+        - { text: "Twelve", correct: false }
       explanation: |
-        **Eight** — Wachau, Kremstal, Kamptal, Traisental, Wagram,
-        Weinviertel, Carnuntum and Thermenregion.
+        They are Wachau, Kremstal, Kamptal, Traisental, Wagram, Weinviertel, Carnuntum and Thermenregion; all now have DAC status.
+    fr:
+      question: "Combien de régions viticoles spécifiques compte la Basse-Autriche ?"
+      choices:
+        - { text: "Six", correct: false }
+        - { text: "Huit", correct: true }
+        - { text: "Dix", correct: false }
+        - { text: "Douze", correct: false }
+      explanation: |
+        Il s’agit de Wachau, Kremstal, Kamptal, Traisental, Wagram, Weinviertel, Carnuntum et Thermenregion ; toutes ont désormais le statut DAC.
 
   - id: austria-wachau-slopes-001
     type: mcq
@@ -699,16 +937,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: How are Wachau vineyards typically sited?
+      question: "Which vineyard setting is characteristic of Wachau?"
       choices:
-        - { text: "Flat, lake-side, and foggy, like Neusiedlersee", correct: false }
-        - { text: "Steep, often terraced, south-facing slopes beside the Danube", correct: true }
-        - { text: "Indoor only", correct: false }
-        - { text: "On a coastal sandbar", correct: false }
+        - { text: "Flat, fertile plains beside a shallow lake", correct: false }
+        - { text: "Steep, often terraced slopes beside the Danube", correct: true }
+        - { text: "Gently rolling loess hills far from any river", correct: false }
+        - { text: "High plateaux above the Alpine tree line", correct: false }
       explanation: |
-        **Steep, often terraced, south-facing slopes beside the
-        Danube.** Stone terraces above the river; not the Burgenland
-        flats.
+        Good exposure aids ripening, while the river and cool air from side valleys moderate temperatures and help preserve acidity.
+    fr:
+      question: "Quelle implantation du vignoble est caractéristique de la Wachau ?"
+      choices:
+        - { text: "Des plaines fertiles et plates au bord d’un lac peu profond", correct: false }
+        - { text: "Des coteaux escarpés, souvent en terrasses, au bord du Danube", correct: true }
+        - { text: "De douces collines de lœss éloignées de toute rivière", correct: false }
+        - { text: "De hauts plateaux au-dessus de la limite des arbres", correct: false }
+      explanation: |
+        La bonne exposition favorise la maturation, tandis que le fleuve et l’air frais des vallées latérales modèrent les températures et préservent l’acidité.
 
   - id: austria-wachau-dac-001
     type: mcq
@@ -720,16 +965,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which Danube-valley region has been an Austrian DAC since the 2020 vintage?
+      question: "Which statement about Wachau’s legal status is correct?"
       choices:
-        - { text: "Wachau never joined the DAC system", correct: false }
-        - { text: "Wachau", correct: true }
-        - { text: "Only the Mosel", correct: false }
-        - { text: "Tokaj", correct: false }
+        - { text: "It remains outside the DAC system", correct: false }
+        - { text: "It has had DAC status since the 2020 vintage", correct: true }
+        - { text: "It became Austria’s first DAC in 2002", correct: false }
+        - { text: "It is a subregion of Kremstal DAC", correct: false }
       explanation: |
-        **Wachau.** Wachau DAC starts with the 2020 vintage. DAC is
-        Austria’s modern PDO-style origin label. Steinfeder,
-        Federspiel and Smaragd remain a separate local style code.
+        Wachau DAC uses a three-level origin hierarchy: regional wine, village wine and single-vineyard wine.
+    fr:
+      question: "Quelle affirmation sur le statut juridique de la Wachau est correcte ?"
+      choices:
+        - { text: "Elle reste en dehors du système DAC", correct: false }
+        - { text: "Elle possède le statut DAC depuis le millésime 2020", correct: true }
+        - { text: "Elle est devenue la première DAC autrichienne en 2002", correct: false }
+        - { text: "Elle constitue une sous-région de Kremstal DAC", correct: false }
+      explanation: |
+        Wachau DAC applique une hiérarchie d’origine à trois niveaux : vin régional, vin de village et vin parcellaire.
 
   - id: austria-wachau-vinea-001
     type: mcq
@@ -741,16 +993,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What do Steinfeder, Federspiel and Smaragd name on a Wachau bottle?
+      question: "What are Steinfeder, Federspiel and Smaragd?"
       choices:
-        - { text: "National Prädikat ranks, identical to German law", correct: false }
-        - { text: "A regional Vinea Wachau style code, not Austria’s national wine law", correct: true }
-        - { text: "The three federal states of Austria", correct: false }
-        - { text: "Sweetness levels for Neusiedlersee dessert wine", correct: false }
+        - { text: "National Prädikat categories based on must weight", correct: false }
+        - { text: "Vinea Wachau categories for dry wines, based chiefly on alcohol", correct: true }
+        - { text: "Wachau DAC origin levels from region to vineyard", correct: false }
+        - { text: "Legal sweetness levels used by every Austrian DAC", correct: false }
       explanation: |
-        **A regional Vinea Wachau style code, not Austria’s national
-        wine law.** Light, classic and rich dry whites (by alcohol).
-        The national origin word is DAC / Qualitätswein.
+        These protected terms are used by association members; they are distinct from both national quality levels and the DAC origin hierarchy.
+    fr:
+      question: "Que désignent Steinfeder, Federspiel et Smaragd ?"
+      choices:
+        - { text: "Des Prädikats nationaux fondés sur le poids de moût", correct: false }
+        - { text: "Des catégories de Vinea Wachau pour les vins secs, fondées surtout sur l’alcool", correct: true }
+        - { text: "Les niveaux d’origine de Wachau DAC, de la région à la parcelle", correct: false }
+        - { text: "Des niveaux de douceur légaux employés par toutes les DAC autrichiennes", correct: false }
+      explanation: |
+        Ces termes protégés sont réservés aux membres de l’association et se distinguent des niveaux qualitatifs nationaux comme de la hiérarchie d’origine DAC.
 
   - id: austria-wachau-neighbours-001
     type: mcq
@@ -762,15 +1021,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Heading downstream from Wachau, which DAC sits next on the Danube?
+      question: "Which DAC immediately follows Wachau downstream along the Danube?"
       choices:
-        - { text: "Weinviertel DAC", correct: false }
+        - { text: "Kamptal DAC", correct: false }
         - { text: "Kremstal DAC", correct: true }
-        - { text: "Südsteiermark DAC", correct: false }
-        - { text: "Neusiedlersee DAC", correct: false }
+        - { text: "Traisental DAC", correct: false }
+        - { text: "Wagram DAC", correct: false }
       explanation: |
-        **Kremstal DAC.** Kamptal is not immediately east of Wachau;
-        it sits north of Kremstal, along the Kamp around Langenlois.
+        Krems and its surrounding vineyards lie directly east of Wachau; Kamptal follows the Kamp tributary farther north.
+    fr:
+      question: "Quelle DAC succède immédiatement à la Wachau en aval du Danube ?"
+      choices:
+        - { text: "Kamptal DAC", correct: false }
+        - { text: "Kremstal DAC", correct: true }
+        - { text: "Traisental DAC", correct: false }
+        - { text: "Wagram DAC", correct: false }
+      explanation: |
+        Krems et les vignobles alentour se situent juste à l’est de la Wachau ; Kamptal remonte la vallée de la Kamp plus au nord.
 
   - id: austria-kamp-krem-style-001
     type: mcq
@@ -782,15 +1049,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: How do Kamptal DAC and Kremstal DAC whites usually sit next to Wachau?
+      question: "How do the leading dry whites of Kamptal and Kremstal compare stylistically with those of Wachau?"
       choices:
-        - { text: "Always sweet, like Neusiedlersee", correct: false }
-        - { text: "In a similar dry style and quality", correct: true }
-        - { text: "Kamptal and Kremstal DAC wines are only red blends", correct: false }
-        - { text: "Kamptal and Kremstal DAC wines are sparkling only, by law", correct: false }
+        - { text: "They are generally sweeter and lower in acidity", correct: false }
+        - { text: "They can achieve a similarly high-quality, concentrated dry style", correct: true }
+        - { text: "They must be lighter and unoaked by law", correct: false }
+        - { text: "They are principally botrytised dessert wines", correct: false }
       explanation: |
-        **In a similar dry style and quality.** Same Danube dry-white
-        idea; Wachau is the more famous gorge.
+        Grüner Veltliner and Riesling from the best sites combine ripe fruit with high acidity and can age well.
+    fr:
+      question: "Comment les grands blancs secs de Kamptal et Kremstal se comparent-ils stylistiquement à ceux de la Wachau ?"
+      choices:
+        - { text: "Ils sont généralement plus doux et moins acides", correct: false }
+        - { text: "Ils peuvent atteindre un style sec, concentré et d’un niveau qualitatif comparable", correct: true }
+        - { text: "Ils doivent légalement être plus légers et non boisés", correct: false }
+        - { text: "Ce sont principalement des vins liquoreux botrytisés", correct: false }
+      explanation: |
+        Les Grüner Veltliner et Riesling des meilleurs sites associent fruit mûr, acidité élevée et potentiel de garde.
 
   - id: austria-kamp-krem-grapes-001
     type: mcq
@@ -802,15 +1077,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which two grapes lead Kamptal DAC and Kremstal DAC wines?
+      question: "Which two varieties are central to Kamptal DAC and Kremstal DAC?"
       choices:
-        - { text: "Zweigelt and Blaufränkisch only", correct: false }
+        - { text: "Welschriesling and Sauvignon Blanc", correct: false }
         - { text: "Grüner Veltliner and Riesling", correct: true }
-        - { text: "Roter Veltliner and Müller-Thurgau only", correct: false }
-        - { text: "Welschriesling and Furmint only", correct: false }
+        - { text: "Pinot Blanc and Chardonnay", correct: false }
+        - { text: "Zweigelt and Blaufränkisch", correct: false }
       explanation: |
-        **Grüner Veltliner and Riesling.** Same pair as Wachau’s
-        prestige dry whites — not Weinviertel’s Grüner-only DAC rule.
+        Both DACs permit these varieties for their regional, village and single-vineyard wines.
+    fr:
+      question: "Quels deux cépages sont au cœur de Kamptal DAC et Kremstal DAC ?"
+      choices:
+        - { text: "Welschriesling et Sauvignon Blanc", correct: false }
+        - { text: "Grüner Veltliner et Riesling", correct: true }
+        - { text: "Pinot Blanc et Chardonnay", correct: false }
+        - { text: "Zweigelt et Blaufränkisch", correct: false }
+      explanation: |
+        Les deux DAC autorisent ces cépages pour leurs vins régionaux, de village et parcellaires.
 
   - id: austria-weinviertel-size-001
     type: mcq
@@ -822,16 +1105,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which single Austrian wine region covers the most vineyard?
+      question: "Which is Austria’s largest specific wine-growing region by vineyard area?"
       choices:
         - { text: "Wachau", correct: false }
-        - { text: "Weinviertel DAC", correct: true }
+        - { text: "Weinviertel", correct: true }
+        - { text: "Neusiedlersee", correct: false }
         - { text: "Südsteiermark", correct: false }
-        - { text: "Wien", correct: false }
       explanation: |
-        **Weinviertel DAC.** Largest Gebiet. Niederösterreich the
-        federal state is bigger because Weinviertel sits inside it.
-        Wachau is famous and small.
+        This large region occupies the north-east of Niederösterreich and is strongly associated with Grüner Veltliner.
+    fr:
+      question: "Quelle est la plus grande région viticole spécifique d’Autriche en superficie ?"
+      choices:
+        - { text: "Wachau", correct: false }
+        - { text: "Weinviertel", correct: true }
+        - { text: "Neusiedlersee", correct: false }
+        - { text: "Südsteiermark", correct: false }
+      explanation: |
+        Cette vaste région occupe le nord-est de la Basse-Autriche et est fortement associée au Grüner Veltliner.
 
   - id: austria-weinviertel-first-001
     type: mcq
@@ -843,15 +1133,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: The 2002 DAC that opened Austria’s PDO-style labels was which region?
+      question: "Which region introduced Austria’s first DAC, beginning with the 2002 vintage?"
       choices:
         - { text: "Wachau", correct: false }
-        - { text: "Weinviertel DAC", correct: true }
-        - { text: "Tokaj", correct: false }
-        - { text: "Südsteiermark", correct: false }
+        - { text: "Weinviertel", correct: true }
+        - { text: "Kamptal", correct: false }
+        - { text: "Mittelburgenland", correct: false }
       explanation: |
-        **Weinviertel DAC** — created in 2002. DAC is the modern
-        PDO-style origin label. Wachau joined much later (2020).
+        Weinviertel DAC was the first appellation built around a legally defined regional style, based on Grüner Veltliner.
+    fr:
+      question: "Quelle région a inauguré la première DAC autrichienne à partir du millésime 2002 ?"
+      choices:
+        - { text: "Wachau", correct: false }
+        - { text: "Weinviertel", correct: true }
+        - { text: "Kamptal", correct: false }
+        - { text: "Mittelburgenland", correct: false }
+      explanation: |
+        Weinviertel DAC fut la première appellation fondée sur un style régional défini par la loi, à base de Grüner Veltliner.
 
   - id: austria-weinviertel-grape-001
     type: mcq
@@ -863,15 +1161,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which grape may a Weinviertel DAC wine be made from?
+      question: "Which grape variety is required for Weinviertel DAC?"
       choices:
-        - { text: "Riesling only", correct: false }
-        - { text: "Only Grüner Veltliner", correct: true }
-        - { text: "Roter Veltliner only", correct: false }
-        - { text: "Zweigelt only", correct: false }
+        - { text: "Riesling", correct: false }
+        - { text: "Grüner Veltliner", correct: true }
+        - { text: "Welschriesling", correct: false }
+        - { text: "Pinot Blanc", correct: false }
       explanation: |
-        **Only Grüner Veltliner.** Other grapes from the same hills
-        drop to a Niederösterreich state label. Not Roter Veltliner.
+        Wines from other permitted varieties may use the broader Niederösterreich origin but not Weinviertel DAC.
+    fr:
+      question: "Quel cépage est obligatoire pour Weinviertel DAC ?"
+      choices:
+        - { text: "Riesling", correct: false }
+        - { text: "Grüner Veltliner", correct: true }
+        - { text: "Welschriesling", correct: false }
+        - { text: "Pinot Blanc", correct: false }
+      explanation: |
+        Les vins issus d’autres cépages autorisés peuvent revendiquer l’origine plus large Niederösterreich, mais pas Weinviertel DAC.
 
   - id: austria-weinviertel-tiers-001
     type: mcq
@@ -883,16 +1189,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which two quality tiers divide Weinviertel DAC?
+      question: "Which two principal styles appear under the Weinviertel DAC designation?"
       choices:
-        - { text: "Steinfeder and Smaragd", correct: false }
-        - { text: "Klassik and Reserve", correct: true }
-        - { text: "Kabinett and Eiswein only", correct: false }
-        - { text: "Grand Cru and Premier Cru", correct: false }
+        - { text: "Federspiel and Smaragd", correct: false }
+        - { text: "Weinviertel DAC and Weinviertel DAC Reserve", correct: true }
+        - { text: "Kabinett and Spätlese", correct: false }
+        - { text: "Village and Grand Cru only", correct: false }
       explanation: |
-        **Klassik and Reserve.** Those are Weinviertel DAC words.
-        Steinfeder / Federspiel / Smaragd belong to Wachau’s local
-        code, not this DAC.
+        The first is the classic fresh, peppery style; Reserve is fuller, higher in alcohol and capable of development.
+    fr:
+      question: "Quels sont les deux principaux styles portant la dénomination Weinviertel DAC ?"
+      choices:
+        - { text: "Federspiel et Smaragd", correct: false }
+        - { text: "Weinviertel DAC et Weinviertel DAC Reserve", correct: true }
+        - { text: "Kabinett et Spätlese", correct: false }
+        - { text: "Village et Grand Cru uniquement", correct: false }
+      explanation: |
+        Le premier correspond au style classique frais et poivré ; Reserve est plus corsé, plus alcoolisé et apte à évoluer.
 
   - id: austria-weinviertel-klassik-001
     type: mcq
@@ -904,15 +1217,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What is typical Weinviertel DAC Klassik like?
+      question: "Which profile is required for the classic Weinviertel DAC style?"
       choices:
-        - { text: "Heavy, sweet, and strongly oaked", correct: false }
-        - { text: "Light, fresh and fruity, with no discernible oak", correct: true }
-        - { text: "A tannic Blaufränkisch red", correct: false }
-        - { text: "Always a botrytis dessert wine", correct: false }
+        - { text: "Sweet, botrytised and full-bodied", correct: false }
+        - { text: "Dry, fruity and peppery, without noticeable oak or botrytis", correct: true }
+        - { text: "Dry, neutral and strongly oaked", correct: false }
+        - { text: "Off-dry, floral and low in acidity", correct: false }
       explanation: |
-        **Light, fresh and fruity, with no discernible oak.** The
-        everyday peppery Grüner from Austria’s largest region.
+        The designation aims to express the fresh, spicy regional character of Grüner Veltliner.
+    fr:
+      question: "Quel profil est exigé pour le style classique de Weinviertel DAC ?"
+      choices:
+        - { text: "Doux, botrytisé et corsé", correct: false }
+        - { text: "Sec, fruité et poivré, sans bois ni botrytis perceptibles", correct: true }
+        - { text: "Sec, neutre et fortement boisé", correct: false }
+        - { text: "Demi-sec, floral et peu acide", correct: false }
+      explanation: |
+        La dénomination cherche à exprimer le caractère régional frais et épicé du Grüner Veltliner.
 
   - id: austria-weinviertel-reserve-001
     type: mcq
@@ -924,16 +1245,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: How does Weinviertel DAC Reserve differ from Klassik?
+      question: "What distinguishes Weinviertel DAC Reserve from the classic style?"
       choices:
-        - { text: "Reserve must be a red wine with no alcohol minimum", correct: false }
-        - { text: "Reserve has a higher minimum alcohol than Klassik, and oak ageing is allowed", correct: true }
-        - { text: "Oak is banned, and Reserve must be sweeter", correct: false }
-        - { text: "Reserve may only be made from Riesling", correct: false }
+        - { text: "Lower alcohol and a lighter, earlier-release style", correct: false }
+        - { text: "Higher alcohol and a fuller style that may show oak", correct: true }
+        - { text: "Greater sweetness and compulsory botrytis character", correct: false }
+        - { text: "A different grape and mandatory bottle ageing", correct: false }
       explanation: |
-        **Reserve has a higher minimum alcohol than Klassik, and oak
-        ageing is allowed.** Still Grüner Veltliner; just a richer
-        tier.
+        Reserve must be dry, powerful and long, and may display subtle oak or botrytis character.
+    fr:
+      question: "Qu’est-ce qui distingue Weinviertel DAC Reserve du style classique ?"
+      choices:
+        - { text: "Moins d’alcool et un style plus léger commercialisé tôt", correct: false }
+        - { text: "Plus d’alcool et un style plus corsé pouvant révéler le bois", correct: true }
+        - { text: "Davantage de douceur et un caractère botrytisé obligatoire", correct: false }
+        - { text: "Un autre cépage et un élevage en bouteille obligatoire", correct: false }
+      explanation: |
+        Reserve doit être sec, puissant et long, et peut présenter de discrètes notes boisées ou botrytisées.
 
   - id: austria-burgenland-map-001
     type: mcq
@@ -945,15 +1273,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which Austrian state lines the Hungarian border, south-east of Vienna?
+      question: "Which Austrian federal state borders Hungary south-east of Vienna and surrounds much of Lake Neusiedl?"
       choices:
-        - { text: "Tyrol", correct: false }
+        - { text: "Steiermark", correct: false }
         - { text: "Burgenland", correct: true }
-        - { text: "Wachau", correct: false }
-        - { text: "On the Italian border south of Steiermark", correct: false }
+        - { text: "Niederösterreich", correct: false }
+        - { text: "Kärnten", correct: false }
       explanation: |
-        **Burgenland.** Pannonian warmth; the lake and the red
-        hills are here, not on the Danube terraces.
+        Warm Pannonian influence and the lake help make it Austria’s key state for full-bodied reds and botrytised sweet wines.
+    fr:
+      question: "Quel Land autrichien borde la Hongrie au sud-est de Vienne et entoure une grande partie du lac de Neusiedl ?"
+      choices:
+        - { text: "Styrie", correct: false }
+        - { text: "Burgenland", correct: true }
+        - { text: "Basse-Autriche", correct: false }
+        - { text: "Carinthie", correct: false }
+      explanation: |
+        L’influence pannonienne chaude et le lac en font le Land autrichien de référence pour les rouges corsés et les liquoreux botrytisés.
 
   - id: austria-burgenland-fame-001
     type: mcq
@@ -965,16 +1301,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Beside the Hungarian border, Burgenland’s fame rests on which two wine types?
+      question: "Which two wine categories are most closely associated with Burgenland?"
       choices:
-        - { text: "Only dry Danube Riesling and Grüner Veltliner", correct: false }
-        - { text: "Top-quality sweet wines and red wines", correct: true }
-        - { text: "Only alpine icewine from Tyrol", correct: false }
-        - { text: "Only Sekt from Wien", correct: false }
+        - { text: "Light sparkling wines and neutral dry whites", correct: false }
+        - { text: "Full-bodied reds and high-quality sweet wines", correct: true }
+        - { text: "Pale rosés and fortified wines", correct: false }
+        - { text: "Skin-contact whites and carbonic reds", correct: false }
       explanation: |
-        **Top-quality sweet wines and red wines.** Neusiedlersee for
-        the sweet bottles; Blaufränkisch and Zweigelt for the reds.
-        Dry Danube whites are a Wachau / Kremstal / Kamptal story.
+        Warm sites ripen black grapes fully, while humid lake-side areas can support reliable noble rot.
+    fr:
+      question: "Quelles deux catégories de vins sont le plus étroitement associées au Burgenland ?"
+      choices:
+        - { text: "Effervescents légers et blancs secs neutres", correct: false }
+        - { text: "Rouges corsés et vins doux de grande qualité", correct: true }
+        - { text: "Rosés pâles et vins fortifiés", correct: false }
+        - { text: "Blancs de macération et rouges de macération carbonique", correct: false }
+      explanation: |
+        Les sites chauds permettent une pleine maturité des cépages noirs, tandis que les zones humides proches du lac peuvent favoriser une pourriture noble régulière.
 
   - id: austria-burgenland-dry-white-001
     type: mcq
@@ -986,15 +1329,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Besides sweet wines and reds, which extra style does Burgenland bottle?
+      question: "Which statement correctly describes the wine styles of Leithaberg DAC in Burgenland?"
       choices:
-        - { text: "Only fortified red", correct: false }
-        - { text: "Dry whites", correct: true }
-        - { text: "No still wine at all", correct: false }
-        - { text: "Only icewine from frozen Danube terraces", correct: false }
+        - { text: "It permits sweet white wine only", correct: false }
+        - { text: "It permits both dry white wine and Blaufränkisch red wine", correct: true }
+        - { text: "It permits Zweigelt rosé and sparkling wine only", correct: false }
+        - { text: "It permits only white blends dominated by Welschriesling", correct: false }
       explanation: |
-        **Dry whites.** They exist; they are not what made the
-        region’s name.
+        Leithaberg was an early Austrian DAC to define regionally typical styles in both colours.
+    fr:
+      question: "Quelle affirmation décrit correctement les styles de Leithaberg DAC dans le Burgenland ?"
+      choices:
+        - { text: "Elle autorise uniquement les vins blancs doux", correct: false }
+        - { text: "Elle autorise les blancs secs ainsi que les rouges de Blaufränkisch", correct: true }
+        - { text: "Elle autorise uniquement le rosé de Zweigelt et les effervescents", correct: false }
+        - { text: "Elle autorise seulement les assemblages blancs dominés par le Welschriesling", correct: false }
+      explanation: |
+        Leithaberg fut l’une des premières DAC autrichiennes à définir des styles régionaux typiques dans les deux couleurs.
 
   - id: austria-burgenland-white-grapes-001
     type: mcq
@@ -1006,16 +1357,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: A dry Burgenland white is typically which mix, not a Danube Riesling?
+      question: "Which set contains the permitted principal white varieties for Leithaberg DAC?"
       choices:
-        - { text: "Nebbiolo and Sangiovese only", correct: false }
-        - { text: "Pinot Blanc, Welschriesling, Grüner Veltliner and Chardonnay", correct: true }
-        - { text: "Only Roter Veltliner", correct: false }
-        - { text: "Zweigelt and St Laurent only", correct: false }
+        - { text: "Riesling, Welschriesling, Furmint and Sauvignon Blanc", correct: false }
+        - { text: "Pinot Blanc, Chardonnay, Neuburger and Grüner Veltliner", correct: true }
+        - { text: "Grüner Veltliner, Riesling, Muskateller and Traminer", correct: false }
+        - { text: "Chardonnay, Pinot Gris, Welschriesling and Müller-Thurgau", correct: false }
       explanation: |
-        **Pinot Blanc, Welschriesling, Grüner Veltliner and
-        Chardonnay.** The dry-white supporting cast; sweet bottles
-        often lean on Welschriesling.
+        Leithaberg DAC whites may be varietal or blends based on these grapes and are typically dry and mineral in style.
+    fr:
+      question: "Quel groupe réunit les principaux cépages blancs autorisés pour Leithaberg DAC ?"
+      choices:
+        - { text: "Riesling, Welschriesling, Furmint et Sauvignon Blanc", correct: false }
+        - { text: "Pinot Blanc, Chardonnay, Neuburger et Grüner Veltliner", correct: true }
+        - { text: "Grüner Veltliner, Riesling, Muskateller et Traminer", correct: false }
+        - { text: "Chardonnay, Pinot Gris, Welschriesling et Müller-Thurgau", correct: false }
+      explanation: |
+        Les blancs de Leithaberg DAC peuvent être monocépages ou assemblés à partir de ces variétés et présentent généralement un style sec et minéral.
 
   - id: austria-neusiedlersee-sweet-001
     type: mcq
@@ -1027,15 +1385,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Burgenland’s botrytis belt clusters around which shallow lake?
+      question: "Which body of water is central to Burgenland’s production of botrytised sweet wines?"
       choices:
-        - { text: "Bodensee", correct: false }
-        - { text: "Neusiedlersee", correct: true }
-        - { text: "Attersee", correct: false }
-        - { text: "Balaton", correct: false }
+        - { text: "The Danube", correct: false }
+        - { text: "Lake Neusiedl", correct: true }
+        - { text: "Lake Constance", correct: false }
+        - { text: "The Kamp", correct: false }
       explanation: |
-        **Neusiedlersee.** Lake-side noble rot — the opposite
-        landscape from Wachau’s dry terraces.
+        Its shallow water and surrounding wetlands generate autumn humidity and mist that encourage noble rot in nearby vineyards.
+    fr:
+      question: "Quelle étendue d’eau joue un rôle central dans la production de liquoreux botrytisés du Burgenland ?"
+      choices:
+        - { text: "Le Danube", correct: false }
+        - { text: "Le lac de Neusiedl", correct: true }
+        - { text: "Le lac de Constance", correct: false }
+        - { text: "La Kamp", correct: false }
+      explanation: |
+        Ses eaux peu profondes et les zones humides environnantes génèrent une humidité et des brumes automnales qui favorisent la pourriture noble dans les vignobles voisins.
 
   - id: austria-neusiedlersee-lake-001
     type: mcq
@@ -1047,15 +1413,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: The large, very shallow lake in northern Burgenland is called what?
+      question: "Which physical feature of Lake Neusiedl most directly supports nearby sweet-wine production?"
       choices:
-        - { text: "The Bodensee", correct: false }
-        - { text: "Neusiedlersee", correct: true }
-        - { text: "The Danube gorge at Dürnstein", correct: false }
-        - { text: "A DAC in Steiermark", correct: false }
+        - { text: "Its great depth stores winter cold", correct: false }
+        - { text: "Its shallow water and surrounding wetlands create autumn humidity", correct: true }
+        - { text: "Its high altitude delays budburst", correct: false }
+        - { text: "Its fast current dries the vineyards", correct: false }
       explanation: |
-        **Neusiedlersee.** Shared with Hungary (Fertő); the
-        shallows feed the autumn mist.
+        This humidity encourages Botrytis infection, especially in low-lying vineyards close to the lake.
+    fr:
+      question: "Quelle caractéristique physique du lac de Neusiedl favorise le plus directement la production de vins doux à proximité ?"
+      choices:
+        - { text: "Sa grande profondeur emmagasine le froid hivernal", correct: false }
+        - { text: "Ses eaux peu profondes et les zones humides alentour créent une humidité automnale", correct: true }
+        - { text: "Sa haute altitude retarde le débourrement", correct: false }
+        - { text: "Son courant rapide assèche les vignobles", correct: false }
+      explanation: |
+        Cette humidité favorise l’infection par le Botrytis, surtout dans les vignobles bas proches du lac.
 
   - id: austria-sweet-sites-001
     type: mcq
@@ -1067,15 +1441,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Botrytis fruit by Neusiedlersee is usually grown on which landform, not a high plateau?
+      question: "Where are Burgenland vineyards intended for botrytised sweet wine commonly sited?"
       choices:
-        - { text: "On high, dry plateaux far from any water", correct: false }
-        - { text: "On low-lying ground near the lake", correct: true }
-        - { text: "Only on Wachau stone terraces", correct: false }
-        - { text: "Indoor only", correct: false }
+        - { text: "On exposed hilltops far south of the lake", correct: false }
+        - { text: "On low-lying land close to Lake Neusiedl", correct: true }
+        - { text: "On steep terraces above the Danube", correct: false }
+        - { text: "On high limestone slopes near the Alps", correct: false }
       explanation: |
-        **On low-lying ground near the lake.** Height here is for
-        reds; the sweet sites stay down in the mist.
+        Proximity to the lake and wetlands increases autumn humidity, improving the chance of noble rot.
+    fr:
+      question: "Où se situent généralement les vignes du Burgenland destinées aux vins liquoreux botrytisés ?"
+      choices:
+        - { text: "Sur des sommets exposés loin au sud du lac", correct: false }
+        - { text: "Sur des terrains bas proches du lac de Neusiedl", correct: true }
+        - { text: "Sur des terrasses escarpées au-dessus du Danube", correct: false }
+        - { text: "Sur de hauts coteaux calcaires près des Alpes", correct: false }
+      explanation: |
+        La proximité du lac et des zones humides augmente l’humidité automnale et les chances de pourriture noble.
 
   - id: austria-noble-rot-mist-001
     type: mcq
@@ -1087,15 +1469,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Low ground by Neusiedlersee favours dessert wine because autumn brings what from the lake?
+      question: "Which autumn weather pattern best promotes noble rot around Lake Neusiedl?"
       choices:
-        - { text: "Dry alpine föhn that prevents botrytis", correct: false }
-        - { text: "Autumn mists that promote noble rot", correct: true }
-        - { text: "Salt spray that makes flor sherry", correct: false }
-        - { text: "Permanent snow that forces Eiswein only", correct: false }
+        - { text: "Dry mornings followed by wet, cool afternoons", correct: false }
+        - { text: "Humid or misty mornings followed by drier afternoons", correct: true }
+        - { text: "Continuous heavy rain throughout the day", correct: false }
+        - { text: "Persistent hot, dry winds day and night", correct: false }
       explanation: |
-        **Autumn mists that promote noble rot.** Fog plus residual
-        warmth is the botrytis engine.
+        Morning moisture initiates Botrytis, while drier conditions limit grey rot and allow berries to shrivel and concentrate.
+    fr:
+      question: "Quel régime météorologique automnal favorise le mieux la pourriture noble autour du lac de Neusiedl ?"
+      choices:
+        - { text: "Des matinées sèches suivies d’après-midi fraîches et humides", correct: false }
+        - { text: "Des matinées humides ou brumeuses suivies d’après-midi plus secs", correct: true }
+        - { text: "Des pluies abondantes et continues toute la journée", correct: false }
+        - { text: "Des vents chauds et secs persistants jour et nuit", correct: false }
+      explanation: |
+        L’humidité matinale déclenche le Botrytis, tandis que l’assèchement limite la pourriture grise et permet aux baies de se concentrer.
 
   - id: austria-botrytis-every-year-001
     type: mcq
@@ -1107,15 +1497,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Compared with Sauternes or the Mosel, noble rot at Neusiedlersee is how reliable?
+      question: "Why is noble rot relatively reliable around Lake Neusiedl?"
       choices:
-        - { text: "Noble rot fails most years, like a cool, dry Mosel autumn", correct: false }
-        - { text: "Noble rot is almost guaranteed every year", correct: true }
-        - { text: "Botrytis is illegal in Burgenland", correct: false }
-        - { text: "Noble rot occurs only once a decade", correct: false }
+        - { text: "Alpine altitude creates frequent summer rain", correct: false }
+        - { text: "The shallow lake regularly supplies autumn humidity", correct: true }
+        - { text: "Dry Pannonian winds keep grape skins permanently wet", correct: false }
+        - { text: "Deep water keeps vineyards cool throughout autumn", correct: false }
       explanation: |
-        **Noble rot is almost guaranteed every year.** The shallow lake
-        makes it far more reliable than in Sauternes or Germany.
+        Reliability still varies by site and year; not every parcel develops ideal noble rot annually.
+    fr:
+      question: "Pourquoi la pourriture noble est-elle relativement régulière autour du lac de Neusiedl ?"
+      choices:
+        - { text: "L’altitude alpine provoque de fréquentes pluies estivales", correct: false }
+        - { text: "Le lac peu profond fournit régulièrement une humidité automnale", correct: true }
+        - { text: "Les vents pannoniens secs maintiennent en permanence la peau des raisins humide", correct: false }
+        - { text: "La grande profondeur de l’eau garde les vignobles frais tout l’automne", correct: false }
+      explanation: |
+        La régularité varie néanmoins selon les sites et les années ; toutes les parcelles ne développent pas chaque année une pourriture noble idéale.
 
   - id: austria-sweet-welschriesling-001
     type: mcq
@@ -1127,16 +1525,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Lake-side Austrian dessert wine is most often made from which white, not Riesling?
+      question: "Which grape is widely used for botrytised sweet wines around Lake Neusiedl?"
       choices:
-        - { text: "Riesling only, as on the Mosel", correct: false }
+        - { text: "Riesling", correct: false }
         - { text: "Welschriesling", correct: true }
-        - { text: "Roter Veltliner only", correct: false }
-        - { text: "Zweigelt only", correct: false }
+        - { text: "Grüner Veltliner", correct: false }
+        - { text: "Sauvignon Blanc", correct: false }
       explanation: |
-        **Welschriesling.** A different grape from Riesling. Dry
-        bottles are simple; by the lake the same variety takes
-        botrytis.
+        Its high acidity balances the intense sweetness and concentrated flavours produced by noble rot.
+    fr:
+      question: "Quel cépage est largement utilisé pour les vins liquoreux botrytisés autour du lac de Neusiedl ?"
+      choices:
+        - { text: "Riesling", correct: false }
+        - { text: "Welschriesling", correct: true }
+        - { text: "Grüner Veltliner", correct: false }
+        - { text: "Sauvignon Blanc", correct: false }
+      explanation: |
+        Son acidité élevée équilibre la douceur intense et les arômes concentrés issus de la pourriture noble.
 
   - id: austria-red-higher-ground-001
     type: mcq
@@ -1148,16 +1553,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Burgenland’s finest reds grow on which ground, not the misty Neusiedlersee flats?
+      question: "Why are many of Burgenland’s best red-wine vineyards on higher ground away from Lake Neusiedl?"
       choices:
-        - { text: "Only the lake-side flats used for noble rot", correct: false }
-        - { text: "Higher ground away from Neusiedlersee", correct: true }
-        - { text: "Only Wachau’s stone terraces", correct: false }
-        - { text: "Indoor glasshouses beside Vienna", correct: false }
+        - { text: "Higher ground increases botrytis and residual sugar", correct: false }
+        - { text: "Better drainage and lower humidity favour healthy, concentrated black grapes", correct: true }
+        - { text: "Lower temperatures prevent black grapes from ripening", correct: false }
+        - { text: "DAC rules prohibit red grapes near the lake", correct: false }
       explanation: |
-        **Higher ground away from Neusiedlersee.** The flats feed
-        noble rot; the reds want drier, higher sites such as the
-        Leithaberg slopes.
+        The low, humid lake-side sites better suit botrytised sweet wine than premium dry red production.
+    fr:
+      question: "Pourquoi nombre des meilleurs vignobles rouges du Burgenland se trouvent-ils en hauteur, loin du lac de Neusiedl ?"
+      choices:
+        - { text: "La hauteur augmente le botrytis et le sucre résiduel", correct: false }
+        - { text: "Un meilleur drainage et une humidité moindre favorisent des raisins noirs sains et concentrés", correct: true }
+        - { text: "Les températures plus basses empêchent les cépages noirs de mûrir", correct: false }
+        - { text: "Les règles DAC interdisent les cépages noirs près du lac", correct: false }
+      explanation: |
+        Les sites bas et humides proches du lac conviennent mieux aux liquoreux botrytisés qu’aux grands rouges secs.
 
   - id: austria-red-south-hills-001
     type: mcq
@@ -1169,17 +1581,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Besides higher ground off Neusiedlersee, Burgenland’s finest reds also come from where?
+      question: "Which pair of southern Burgenland DACs is strongly associated with Blaufränkisch?"
       choices:
-        - { text: "Only the Seewinkel salt pans", correct: false }
-        - { text: "Hills further south", correct: true }
-        - { text: "Only the high western Alps", correct: false }
-        - { text: "Kamptal, immediately east of Wachau", correct: false }
+        - { text: "Neusiedlersee and Rosalia", correct: false }
+        - { text: "Mittelburgenland and Eisenberg", correct: true }
+        - { text: "Leithaberg and Ruster Ausbruch", correct: false }
+        - { text: "Wachau and Kamptal", correct: false }
       explanation: |
-        **Hills further south.** Mittelburgenland and Eisenberg sit
-        in that southern hill country. The lake flats stay with the
-        sweet wines. Kamptal is north of Kremstal, not a Burgenland
-        red zone.
+        Both focus on Blaufränkisch, with warm sites ripening the grape and local conditions preserving its acidity and savoury character.
+    fr:
+      question: "Quelle paire de DAC du sud du Burgenland est fortement associée au Blaufränkisch ?"
+      choices:
+        - { text: "Neusiedlersee et Rosalia", correct: false }
+        - { text: "Mittelburgenland et Eisenberg", correct: true }
+        - { text: "Leithaberg et Ruster Ausbruch", correct: false }
+        - { text: "Wachau et Kamptal", correct: false }
+      explanation: |
+        Toutes deux mettent le Blaufränkisch au premier plan ; les sites chauds assurent sa maturité tandis que les conditions locales préservent son acidité et son caractère savoureux.
 
   - id: austria-burgenland-zweigelt-plant-001
     type: mcq
@@ -1191,16 +1609,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which black grape is Burgenland’s everyday workhorse red?
+      question: "Which Austrian variety commonly supplies fruity, approachable red wines in Burgenland?"
       choices:
-        - { text: "Blaufränkisch", correct: false }
-        - { text: "Zweigelt", correct: true }
         - { text: "St Laurent", correct: false }
-        - { text: "Pinot Noir", correct: false }
+        - { text: "Zweigelt", correct: true }
+        - { text: "Blaufränkisch", correct: false }
+        - { text: "Cabernet Sauvignon", correct: false }
       explanation: |
-        **Zweigelt.** Soft, deep and brambly — the everyday
-        Burgenland red. Blaufränkisch is the structured prestige
-        grape and sits slightly ahead on the state’s hectares.
+        Its deep colour, ripe bramble fruit and relatively soft tannins make it suitable for accessible everyday reds as well as more ambitious wines.
+    fr:
+      question: "Quel cépage autrichien produit couramment des rouges fruités et accessibles dans le Burgenland ?"
+      choices:
+        - { text: "St Laurent", correct: false }
+        - { text: "Zweigelt", correct: true }
+        - { text: "Blaufränkisch", correct: false }
+        - { text: "Cabernet Sauvignon", correct: false }
+      explanation: |
+        Sa couleur profonde, ses fruits de ronce mûrs et ses tanins assez souples conviennent aux rouges quotidiens accessibles comme à des vins plus ambitieux.
 
   - id: austria-burgenland-local-reds-001
     type: mcq
@@ -1212,16 +1637,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Besides Zweigelt, which two local black grapes are also planted in Burgenland?
+      question: "Which pair consists of indigenous or locally developed black varieties important in Burgenland?"
       choices:
-        - { text: "Grüner Veltliner and Welschriesling", correct: false }
+        - { text: "Pinot Noir and Merlot", correct: false }
         - { text: "Blaufränkisch and St Laurent", correct: true }
-        - { text: "Nebbiolo and Sangiovese", correct: false }
-        - { text: "Roter Veltliner and Müller-Thurgau", correct: false }
+        - { text: "Cabernet Sauvignon and Syrah", correct: false }
+        - { text: "Gamay and Pinotage", correct: false }
       explanation: |
-        **Blaufränkisch and St Laurent.** Blaufränkisch is the
-        peppery prestige red; St Laurent is the Pinot-shaped local.
-        Zweigelt stays the soft, brambly workhorse.
+        They join Zweigelt among Austria’s key local black varieties; Blaufränkisch is especially important for structured Burgenland reds.
+    fr:
+      question: "Quelle paire réunit deux cépages noirs indigènes ou développés localement importants dans le Burgenland ?"
+      choices:
+        - { text: "Pinot Noir et Merlot", correct: false }
+        - { text: "Blaufränkisch et St Laurent", correct: true }
+        - { text: "Cabernet Sauvignon et Syrah", correct: false }
+        - { text: "Gamay et Pinotage", correct: false }
+      explanation: |
+        Ils rejoignent le Zweigelt parmi les principaux cépages noirs locaux ; le Blaufränkisch est particulièrement important pour les rouges structurés du Burgenland.
 
   - id: austria-burgenland-intl-reds-001
     type: mcq
@@ -1233,15 +1665,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which international black grapes join the local reds in Burgenland?
+      question: "Which set contains international black varieties grown in Burgenland?"
       choices:
-        - { text: "Only Furmint and Hárslevelű", correct: false }
+        - { text: "Nebbiolo, Sangiovese and Tempranillo", correct: false }
         - { text: "Pinot Noir, Merlot and Cabernet Sauvignon", correct: true }
-        - { text: "Only Gamay, by law", correct: false }
-        - { text: "Only Grüner Veltliner", correct: false }
+        - { text: "Touriga Nacional, Malbec and Carmenère", correct: false }
+        - { text: "Gamay, Grenache and Mourvèdre", correct: false }
       explanation: |
-        **Pinot Noir, Merlot and Cabernet Sauvignon.** They appear
-        as varietals or in blends with Zweigelt or Blaufränkisch.
+        They may be bottled varietally or blended with local grapes such as Zweigelt and Blaufränkisch.
+    fr:
+      question: "Quel groupe réunit des cépages noirs internationaux cultivés dans le Burgenland ?"
+      choices:
+        - { text: "Nebbiolo, Sangiovese et Tempranillo", correct: false }
+        - { text: "Pinot Noir, Merlot et Cabernet Sauvignon", correct: true }
+        - { text: "Touriga Nacional, Malbec et Carmenère", correct: false }
+        - { text: "Gamay, Grenache et Mourvèdre", correct: false }
+      explanation: |
+        Ils peuvent être vinifiés seuls ou assemblés avec des cépages locaux comme le Zweigelt et le Blaufränkisch.
 
   - id: austria-neusiedlersee-dac-001
     type: mcq
@@ -1253,18 +1693,23 @@ cards:
       fact_check: pass
       sources: [aoc-site]
     en:
-      question: Which Burgenland DAC is dedicated to dry Zweigelt?
+      question: "Which styles may currently use the Neusiedlersee DAC designation?"
       choices:
-        - { text: "Around Neusiedlersee DAC", correct: false }
-        - { text: "Neusiedlersee DAC", correct: true }
-        - { text: "Mittelburgenland DAC", correct: false }
-        - { text: "Eisenberg DAC", correct: false }
+        - { text: "Only dry red wines made solely from Blaufränkisch", correct: false }
+        - { text: "Zweigelt-based red wines and qualifying sweet wines", correct: true }
+        - { text: "Only botrytised Welschriesling", correct: false }
+        - { text: "Dry Grüner Veltliner and Riesling only", correct: false }
       explanation: |
-        **Neusiedlersee DAC.** Dry reds under that name are
-        Zweigelt. The wording is Neusiedlersee, not “Around
-        Neusiedlersee”. Carnuntum also bottles dry Zweigelt,
-        but that DAC sits in Niederösterreich. Mittelburgenland
-        and Eisenberg are dedicated to Blaufränkisch.
+        The DAC began with fruity or Reserve red wines based on Zweigelt; eligible regional sweet wines were added from 2020.
+    fr:
+      question: "Quels styles peuvent aujourd’hui porter la dénomination Neusiedlersee DAC ?"
+      choices:
+        - { text: "Uniquement des rouges secs issus exclusivement de Blaufränkisch", correct: false }
+        - { text: "Des rouges à base de Zweigelt et des vins doux répondant au cahier des charges", correct: true }
+        - { text: "Uniquement du Welschriesling botrytisé", correct: false }
+        - { text: "Uniquement des Grüner Veltliner et Riesling secs", correct: false }
+      explanation: |
+        La DAC concernait d’abord des rouges fruités ou Reserve à base de Zweigelt ; les vins doux régionaux admissibles l’ont rejointe à partir de 2020.
 
   - id: austria-mittelburgenland-001
     type: mcq
@@ -1276,18 +1721,23 @@ cards:
       fact_check: pass
       sources: [aoc-site]
     en:
-      question: Which DAC around Deutschkreutz and Horitschon is dedicated to Blaufränkisch?
+      question: "Which DAC centred on Deutschkreutz and Horitschon specialises in Blaufränkisch?"
       choices:
-        - { text: "Neusiedlersee DAC", correct: false }
+        - { text: "Leithaberg DAC", correct: false }
         - { text: "Mittelburgenland DAC", correct: true }
-        - { text: "Wachau DAC", correct: false }
-        - { text: "Weinviertel DAC", correct: false }
+        - { text: "Neusiedlersee DAC", correct: false }
+        - { text: "Rosalia DAC", correct: false }
       explanation: |
-        **Mittelburgenland DAC** — sometimes called
-        Blaufränkischland, around Deutschkreutz, Horitschon,
-        Neckenmarkt and Lutzmannsburg. Eisenberg is a smaller
-        southern Blaufränkisch DAC. Neusiedlersee DAC is the
-        dry-Zweigelt label.
+        The region’s warm, sheltered sites produce deeply coloured, structured Blaufränkisch in classic and Reserve styles.
+    fr:
+      question: "Quelle DAC centrée autour de Deutschkreutz et Horitschon est spécialisée dans le Blaufränkisch ?"
+      choices:
+        - { text: "Leithaberg DAC", correct: false }
+        - { text: "Mittelburgenland DAC", correct: true }
+        - { text: "Neusiedlersee DAC", correct: false }
+        - { text: "Rosalia DAC", correct: false }
+      explanation: |
+        Les sites chauds et abrités de la région donnent des Blaufränkisch colorés et structurés, en styles classique et Reserve.
 
   - id: austria-landwein-001
     type: mcq
@@ -1299,16 +1749,23 @@ cards:
       fact_check: pass
       sources: [spec]
     en:
-      question: What traditional word labels an Austrian PGI wine?
+      question: "Which traditional term denotes Austrian wine with a Protected Geographical Indication (PGI)?"
       choices:
-        - { text: "Qualitätswein", correct: false }
+        - { text: "Wein", correct: false }
         - { text: "Landwein", correct: true }
-        - { text: "Grand Cru", correct: false }
-        - { text: "Smaragd", correct: false }
+        - { text: "Qualitätswein", correct: false }
+        - { text: "Prädikatswein", correct: false }
       explanation: |
-        **Landwein.** That is Austria’s PGI word. Qualitätswein and
-        DAC sit above it as PDO; Smaragd is a Wachau style code, not
-        a national class.
+        It is the traditional Austrian term for the PGI tier, below Qualitätswein with PDO status.
+    fr:
+      question: "Quel terme traditionnel désigne un vin autrichien bénéficiant d’une indication géographique protégée (IGP) ?"
+      choices:
+        - { text: "Wein", correct: false }
+        - { text: "Landwein", correct: true }
+        - { text: "Qualitätswein", correct: false }
+        - { text: "Prädikatswein", correct: false }
+      explanation: |
+        C’est le terme traditionnel autrichien pour le niveau IGP, situé sous le Qualitätswein bénéficiant d’une AOP.
 
   - id: austria-wein-label-001
     type: mcq
@@ -1320,16 +1777,23 @@ cards:
       fact_check: pass
       sources: [spec]
     en:
-      question: Which one-word class marks Austrian wine with no origin claim?
+      question: "Which Austrian wine category carries no protected geographical indication?"
       choices:
-        - { text: "DAC", correct: false }
-        - { text: "Wein", correct: true }
         - { text: "Landwein", correct: false }
-        - { text: "Smaragd", correct: false }
+        - { text: "Wein", correct: true }
+        - { text: "Qualitätswein", correct: false }
+        - { text: "DAC", correct: false }
       explanation: |
-        **Wein** (often Wein aus Österreich). Landwein is the
-        PGI step; DAC is a PDO origin label. Smaragd is a
-        Wachau style code, not a national class.
+        It is the basic category without a protected origin; Landwein is PGI, while Qualitätswein and DAC wines have PDO status.
+    fr:
+      question: "Quelle catégorie de vin autrichien ne porte aucune indication géographique protégée ?"
+      choices:
+        - { text: "Landwein", correct: false }
+        - { text: "Wein", correct: true }
+        - { text: "Qualitätswein", correct: false }
+        - { text: "DAC", correct: false }
+      explanation: |
+        C’est la catégorie de base sans origine protégée ; Landwein correspond à l’IGP, tandis que Qualitätswein et les vins DAC relèvent de l’AOP.
 
   - id: austria-pdo-map-001
     type: mcq
@@ -1341,17 +1805,23 @@ cards:
       fact_check: pass
       sources: [aoc-site]
     en:
-      question: An Austrian PDO name may identify which kind of origin?
+      question: "At which two broad geographical levels can Austrian Qualitätswein origin be declared?"
       choices:
-        - { text: "Only a German Anbaugebiet", correct: false }
-        - { text: "A Bundesland or a Gebiet/DAC", correct: true }
-        - { text: "Only a Tokaj village", correct: false }
-        - { text: "No place name is allowed", correct: false }
+        - { text: "Municipality or delimited single vineyard", correct: false }
+        - { text: "Generic region or specific wine-growing region", correct: true }
+        - { text: "PGI zone or cross-border territory", correct: false }
+        - { text: "Administrative district or river valley", correct: false }
       explanation: |
-        **A Bundesland or a Gebiet/DAC.** A bottle may wear
-        Niederösterreich, Burgenland, Steiermark or Wien, or a
-        smaller Gebiet that is now a DAC, such as Wachau or
-        Weinviertel.
+        Generic regions correspond to federal states; a wine meeting a DAC profile may use the relevant specific origin.
+    fr:
+      question: "À quels deux grands niveaux géographiques l’origine d’un Qualitätswein autrichien peut-elle être déclarée ?"
+      choices:
+        - { text: "Commune ou parcelle officiellement délimitée", correct: false }
+        - { text: "Land générique ou région viticole spécifique", correct: true }
+        - { text: "Zone IGP ou territoire viticole transfrontalier", correct: false }
+        - { text: "District administratif ou vallée fluviale", correct: false }
+      explanation: |
+        Les régions génériques correspondent aux Länder ; un vin conforme au profil d’une DAC peut porter l’origine spécifique concernée.
 
   - id: austria-pdo-two-001
     type: mcq
@@ -1363,16 +1833,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which pair of Austrian labels are both PDO?
+      question: "How does DAC relate to Qualitätswein in Austria?"
       choices:
-        - { text: "Landwein and Wein", correct: false }
-        - { text: "Qualitätswein and DAC", correct: true }
-        - { text: "Steinfeder and Smaragd", correct: false }
-        - { text: "Grand Cru and Premier Cru", correct: false }
+        - { text: "It is the Austrian PGI category", correct: false }
+        - { text: "It is Qualitätswein with a defined regional profile", correct: true }
+        - { text: "It is a Prädikat based on must weight", correct: false }
+        - { text: "It is a category reserved for sweet wine", correct: false }
       explanation: |
-        **Qualitätswein and DAC.** DAC is regionally typical
-        Qualitätswein, not a separate EU category. Landwein is
-        PGI; Wein carries no origin claim.
+        DAC is not a separate higher tier: it adds origin-specific varieties, styles and production rules.
+    fr:
+      question: "Quel est le rapport entre DAC et Qualitätswein en Autriche ?"
+      choices:
+        - { text: "C’est la catégorie IGP autrichienne", correct: false }
+        - { text: "C’est un Qualitätswein au profil régional défini", correct: true }
+        - { text: "C’est un Prädikat fondé sur le poids de moût", correct: false }
+        - { text: "C’est une catégorie réservée aux vins doux", correct: false }
+      explanation: |
+        La DAC n’est pas un échelon supérieur distinct : elle ajoute des règles propres à l’origine sur les cépages, les styles et la production.
 
   - id: austria-qw-scope-001
     type: mcq
@@ -1384,17 +1861,23 @@ cards:
       fact_check: pass
       sources: [aoc-site]
     en:
-      question: May Austrian Qualitätswein use a Bundesland name, or only a DAC Gebiet?
+      question: "A wine qualifies as Austrian Qualitätswein but not for its local DAC. Which origin may it generally use if the relevant rules are met?"
       choices:
-        - { text: "Only a DAC Gebiet, never a Bundesland", correct: false }
-        - { text: "A Bundesland name or a Gebiet name", correct: true }
-        - { text: "Only the word Smaragd", correct: false }
-        - { text: "Only a German Anbaugebiet", correct: false }
+        - { text: "The DAC name regardless of style", correct: false }
+        - { text: "The broader federal-state wine-growing region", correct: true }
+        - { text: "Any neighbouring DAC", correct: false }
+        - { text: "No Austrian origin at all", correct: false }
       explanation: |
-        **A Bundesland name or a Gebiet name.** The wine may
-        say Niederösterreich or Weinviertel. DAC marks typicity
-        for a Gebiet; it does not ban a state label on
-        Qualitätswein.
+        For example, a non-DAC wine from a Niederösterreich specific region may be labelled with the generic Niederösterreich origin if it satisfies those requirements.
+    fr:
+      question: "Un vin est admis comme Qualitätswein autrichien mais ne respecte pas le cahier des charges de sa DAC locale. Quelle origine peut-il généralement utiliser s’il respecte les règles correspondantes ?"
+      choices:
+        - { text: "Le nom de la DAC quel que soit son style", correct: false }
+        - { text: "La région viticole générique plus large correspondant au Land", correct: true }
+        - { text: "N’importe quelle DAC voisine", correct: false }
+        - { text: "Aucune origine autrichienne", correct: false }
+      explanation: |
+        Par exemple, un vin non-DAC d’une région spécifique de Basse-Autriche peut porter l’origine générique Niederösterreich s’il en respecte les exigences.
 
   - id: austria-qw-grape-list-001
     type: mcq
@@ -1406,16 +1889,23 @@ cards:
       fact_check: pass
       sources: [aoc-site]
     en:
-      question: May Austrian Qualitätswein be made from any Vitis vinifera?
+      question: "Which rule applies to grape varieties used for Austrian Qualitätswein?"
       choices:
-        - { text: "Yes — any vinifera grown anywhere", correct: false }
-        - { text: "No — only grapes on a closed official list", correct: true }
-        - { text: "Only Grüner Veltliner is legal", correct: false }
-        - { text: "Only hybrid grapes are allowed", correct: false }
+        - { text: "Any Vitis vinifera variety is automatically allowed", correct: false }
+        - { text: "Only varieties on the official quality-wine list may be used", correct: true }
+        - { text: "Only indigenous Austrian crossings may be used", correct: false }
+        - { text: "Each wine must contain Grüner Veltliner", correct: false }
       explanation: |
-        **No — only grapes on a closed official list.** The
-        roster is set in Austrian wine law. It is not “any
-        vine that happens to be vinifera.”
+        Individual DACs can impose a narrower set of permitted varieties for their regionally typical wines.
+    fr:
+      question: "Quelle règle s’applique aux cépages employés pour le Qualitätswein autrichien ?"
+      choices:
+        - { text: "Tout cépage de Vitis vinifera est automatiquement admis", correct: false }
+        - { text: "Seuls les cépages inscrits sur la liste officielle des variétés de qualité peuvent être utilisés", correct: true }
+        - { text: "Seuls les croisements autrichiens indigènes sont admis", correct: false }
+        - { text: "Chaque vin doit contenir du Grüner Veltliner", correct: false }
+      explanation: |
+        Chaque DAC peut imposer une liste plus restreinte pour ses vins régionaux typiques.
 
   - id: austria-qw-any-style-001
     type: mcq
@@ -1427,16 +1917,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which constraint does Austrian Qualitätswein place on colour or sweetness?
+      question: "What does the term Qualitätswein alone tell you about an Austrian wine’s sweetness?"
       choices:
-        - { text: "It must be dry white Grüner Veltliner", correct: false }
-        - { text: "None — still or sparkling, dry or sweet, any colour", correct: true }
-        - { text: "It must be a botrytis dessert wine", correct: false }
-        - { text: "It must be red Zweigelt", correct: false }
+        - { text: "It must be dry", correct: false }
+        - { text: "It may be dry or sweet", correct: true }
+        - { text: "It must be medium-sweet", correct: false }
+        - { text: "It must be a botrytised dessert wine", correct: false }
       explanation: |
-        **None — still or sparkling, dry or sweet, any colour.**
-        Qualitätswein is a quality class, not a style recipe.
-        DAC rules then lock grapes and style for a named region.
+        Qualitätswein is an origin and quality category, not a sweetness indication; additional terms or the wine’s style provide that information.
+    fr:
+      question: "Que révèle à lui seul le terme Qualitätswein sur la douceur d’un vin autrichien ?"
+      choices:
+        - { text: "Il doit être sec", correct: false }
+        - { text: "Il peut être sec ou doux", correct: true }
+        - { text: "Il doit être demi-doux", correct: false }
+        - { text: "Il doit être un vin liquoreux botrytisé", correct: false }
+      explanation: |
+        Qualitätswein est une catégorie d’origine et de qualité, non une indication de douceur ; d’autres mentions ou le style du vin apportent cette information.
 
   - id: austria-qw-pradikat-001
     type: mcq
@@ -1448,17 +1945,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: May Austrian Qualitätswein also carry a Prädikat mention?
+      question: "How does Prädikatswein relate to Qualitätswein in Austria?"
       choices:
-        - { text: "No — only the Vinea Wachau words Steinfeder and Smaragd", correct: false }
-        - { text: "Yes — a Prädikat level", correct: true }
-        - { text: "Only Grand Cru and Premier Cru", correct: false }
-        - { text: "Only a mandatory Sekt dosage scale", correct: false }
+        - { text: "It is the PGI tier below Qualitätswein", correct: false }
+        - { text: "It is Qualitätswein with extra ripeness or harvest requirements", correct: true }
+        - { text: "It is DAC wine with compulsory oak ageing", correct: false }
+        - { text: "It is Qualitätswein made by the traditional method", correct: false }
       explanation: |
-        **Yes — a Prädikat level.** Kabinett through TBA and
-        Eiswein can appear on Austrian Qualitätswein. Steinfeder
-        and Smaragd remain a Wachau style code, not that
-        national scale.
+        Enrichment is prohibited, and each Prädikat has its own minimum must weight and production conditions.
+    fr:
+      question: "Quel est le rapport entre Prädikatswein et Qualitätswein en Autriche ?"
+      choices:
+        - { text: "C’est le niveau IGP inférieur au Qualitätswein", correct: false }
+        - { text: "C’est un Qualitätswein soumis à des exigences supplémentaires de maturité ou de récolte", correct: true }
+        - { text: "C’est un vin DAC avec élevage sous bois obligatoire", correct: false }
+        - { text: "C’est un Qualitätswein élaboré selon la méthode traditionnelle", correct: false }
+      explanation: |
+        L’enrichissement est interdit et chaque Prädikat possède un poids de moût minimal et des conditions de production propres.
 
   - id: austria-pradikat-extras-001
     type: mcq
@@ -1470,16 +1973,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Besides the German Prädikat rungs, Austria adds which two extra names?
+      question: "Which term is a current Austrian Prädikat category but not a German Prädikat category?"
       choices:
-        - { text: "Steinfeder and Smaragd only", correct: false }
-        - { text: "Ausbruch and Strohwein (Schilfwein)", correct: true }
-        - { text: "Klassik and Reserve only", correct: false }
-        - { text: "Grand Cru and Premier Cru", correct: false }
+        - { text: "Kabinett", correct: false }
+        - { text: "Strohwein (or Schilfwein)", correct: true }
+        - { text: "Ausbruch", correct: false }
+        - { text: "Grosses Gewächs", correct: false }
       explanation: |
-        **Ausbruch and Strohwein (Schilfwein).** The shared rungs
-        with Germany stay Kabinett, Spätlese, Auslese, Beerenauslese,
-        Eiswein and Trockenbeerenauslese.
+        It is made from grapes dried on straw or reeds, or hung to air-dry. Ausbruch is no longer a separate national Prädikat category.
+    fr:
+      question: "Quel terme correspond à une catégorie autrichienne actuelle de Prädikat, mais pas à une catégorie allemande de Prädikat ?"
+      choices:
+        - { text: "Kabinett", correct: false }
+        - { text: "Strohwein (ou Schilfwein)", correct: true }
+        - { text: "Ausbruch", correct: false }
+        - { text: "Grosses Gewächs", correct: false }
+      explanation: |
+        Il est élaboré à partir de raisins séchés sur de la paille ou des roseaux, ou suspendus pour sécher à l’air. Ausbruch n’est plus un Prädikat national distinct.
 
   - id: austria-ausbruch-001
     type: mcq
@@ -1491,16 +2001,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Where does Ausbruch sit on Austria’s Prädikat ladder?
+      question: "What is Ruster Ausbruch DAC under current Austrian law?"
       choices:
-        - { text: "Below Kabinett", correct: false }
-        - { text: "Between Beerenauslese and Trockenbeerenauslese", correct: true }
-        - { text: "It replaces Eiswein", correct: false }
-        - { text: "It is a Wachau alcohol band, like Smaragd", correct: false }
+        - { text: "A national Prädikat positioned between BA and TBA", correct: false }
+        - { text: "A sweet Rust DAC meeting TBA production requirements", correct: true }
+        - { text: "A dry Rust DAC based principally on Blaufränkisch", correct: false }
+        - { text: "A Burgenland straw wine with no restricted origin", correct: false }
       explanation: |
-        **Between Beerenauslese and Trockenbeerenauslese.** Rust on
-        the west shore of Neusiedlersee is the named historic home
-        (Ruster Ausbruch).
+        It uses selectively harvested, naturally shrivelled botrytised white grapes grown in the Free City of Rust.
+    fr:
+      question: "Qu’est-ce que Ruster Ausbruch DAC dans la législation autrichienne actuelle ?"
+      choices:
+        - { text: "Un Prädikat national placé entre BA et TBA", correct: false }
+        - { text: "Une DAC liquoreuse de Rust répondant aux exigences de production de la TBA", correct: true }
+        - { text: "Une DAC sèche de Rust principalement issue de Blaufränkisch", correct: false }
+        - { text: "Un vin de paille du Burgenland sans origine restreinte", correct: false }
+      explanation: |
+        Elle utilise des raisins blancs botrytisés, naturellement passerillés et récoltés par tries dans la ville libre de Rust.
 
   - id: austria-strohwein-001
     type: mcq
@@ -1512,16 +2029,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: How are the grapes for Strohwein or Schilfwein concentrated?
+      question: "How are grapes concentrated for Austrian Strohwein or Schilfwein?"
       choices:
-        - { text: "They are frozen on the vine, like Eiswein", correct: false }
-        - { text: "Bunches are dried on straw or reed beds", correct: true }
-        - { text: "They must be fortified like Port", correct: false }
-        - { text: "They must stay on Wachau terraces under snow", correct: false }
+        - { text: "They freeze naturally on the vine before pressing", correct: false }
+        - { text: "They are dried on straw or reeds, or hung to air-dry", correct: true }
+        - { text: "They are affected by noble rot beside Lake Neusiedl", correct: false }
+        - { text: "Their must is concentrated by reverse osmosis", correct: false }
       explanation: |
-        **Bunches are dried on straw or reed beds.** Water leaves
-        the berries; sugar concentrates. That is not noble rot and
-        not a freeze.
+        Water loss concentrates sugars, acidity and flavours before fermentation.
+    fr:
+      question: "Comment concentre-t-on les raisins destinés au Strohwein ou Schilfwein autrichien ?"
+      choices:
+        - { text: "Ils gèlent naturellement sur pied avant le pressurage", correct: false }
+        - { text: "Ils sèchent sur de la paille ou des roseaux, ou sont suspendus pour sécher à l’air", correct: true }
+        - { text: "Ils sont atteints de pourriture noble au bord du lac de Neusiedl", correct: false }
+        - { text: "Leur moût est concentré par osmose inverse", correct: false }
+      explanation: |
+        La perte d’eau concentre les sucres, l’acidité et les arômes avant la fermentation.
 
   - id: austria-dac-now-001
     type: mcq
@@ -1533,17 +2057,23 @@ cards:
       fact_check: pass
       sources: [aoc-site]
     en:
-      question: Do Austria’s named wine Gebiete still sit outside the DAC system?
+      question: "Which statement describes Austria’s current DAC coverage?"
       choices:
-        - { text: "Yes — the Gebiete remain plain Qualitätswein only", correct: false }
-        - { text: "No — the Gebiete are DACs now", correct: true }
-        - { text: "DAC exists only in Germany", correct: false }
-        - { text: "Only Wien is a DAC", correct: false }
+        - { text: "Only Niederösterreich’s regions have DAC status", correct: false }
+        - { text: "All specific wine-growing regions now have a DAC designation", correct: true }
+        - { text: "DAC status applies only to red-wine regions", correct: false }
+        - { text: "Wachau and Thermenregion remain permanently outside the system", correct: false }
       explanation: |
-        **No — the Gebiete are DACs now.** The old leftover
-        Qualitätswein-only Gebiete have joined. Wachau has been
-        a DAC since the 2020 vintage. Kremstal is the next DAC
-        on the Danube; Kamptal sits north of Kremstal.
+        The system expanded over time; Wachau joined from 2020 and Thermenregion completed the coverage from the 2023 vintage.
+    fr:
+      question: "Quelle affirmation décrit la couverture actuelle du système DAC en Autriche ?"
+      choices:
+        - { text: "Seules les régions de Basse-Autriche possèdent le statut DAC", correct: false }
+        - { text: "Toutes les régions viticoles spécifiques disposent désormais d’une dénomination DAC", correct: true }
+        - { text: "Le statut DAC ne s’applique qu’aux régions de vins rouges", correct: false }
+        - { text: "Wachau et Thermenregion restent définitivement hors du système", correct: false }
+      explanation: |
+        Le système s’est étendu progressivement ; Wachau l’a rejoint à partir de 2020 et Thermenregion a achevé la couverture avec le millésime 2023.
 
   - id: austria-dac-agree-001
     type: mcq
@@ -1555,16 +2085,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: A region becomes a DAC when its growers agree on what?
+      question: "What does a regional committee principally define when establishing an Austrian DAC profile?"
       choices:
-        - { text: "Only a minimum bottle price", correct: false }
-        - { text: "Grape varieties, a wine style, and accompanying rules", correct: true }
-        - { text: "A ban on all white grapes", correct: false }
-        - { text: "Copying German Anbaugebiet borders", correct: false }
+        - { text: "A single producer and fixed retail price", correct: false }
+        - { text: "Permitted varieties, wine styles and production rules", correct: true }
+        - { text: "A national sweetness level and bottle shape only", correct: false }
+        - { text: "The same rules used by every other DAC", correct: false }
       explanation: |
-        **Grape varieties, a wine style, and accompanying rules.**
-        That local agreement is then written into the DAC decree.
-        Bottles that miss it drop the Gebiet name.
+        The resulting regulations aim to codify wines judged typical of that specific origin.
+    fr:
+      question: "Que définit principalement un comité régional lors de l’établissement du profil d’une DAC autrichienne ?"
+      choices:
+        - { text: "Un producteur unique et un prix de vente fixe", correct: false }
+        - { text: "Les cépages autorisés, les styles de vins et les règles de production", correct: true }
+        - { text: "Uniquement un niveau national de douceur et une forme de bouteille", correct: false }
+        - { text: "Les mêmes règles que toutes les autres DAC", correct: false }
+      explanation: |
+        La réglementation qui en résulte vise à codifier les vins considérés comme typiques de cette origine précise.
 
   - id: austria-non-dac-state-001
     type: mcq
@@ -1576,14 +2113,20 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: If a Qualitätswein misses its region’s DAC rules, which origin name may it use?
+      question: "What defines Wiener Gemischter Satz DAC?"
       choices:
-        - { text: "The DAC Gebiet name anyway", correct: false }
-        - { text: "Only the relevant federal-state name", correct: true }
-        - { text: "Only a German Anbaugebiet name", correct: false }
-        - { text: "No origin word at all, by law", correct: false }
+        - { text: "A finished blend of separately vinified white wines", correct: false }
+        - { text: "A field blend from different white varieties grown together in Vienna", correct: true }
+        - { text: "A blend of red and white grapes sourced across Austria", correct: false }
+        - { text: "A single-variety Grüner Veltliner from the Danube", correct: false }
       explanation: |
-        **Only the relevant federal-state name.** A Weinviertel
-        Riesling cannot be Weinviertel DAC (Grüner only), so it is
-        Niederösterreich. A non-DAC Burgenland red is Burgenland,
-        not Mittelburgenland or Neusiedlersee.
+        The varieties are planted, harvested and processed together; rules also limit how much any one variety may dominate.
+    fr:
+      question: "Qu’est-ce qui définit Wiener Gemischter Satz DAC ?"
+      choices:
+        - { text: "Un assemblage final de vins blancs vinifiés séparément", correct: false }
+        - { text: "Un assemblage complanté de différents cépages blancs cultivés ensemble à Vienne", correct: true }
+        - { text: "Un assemblage de raisins rouges et blancs provenant de toute l’Autriche", correct: false }
+        - { text: "Un Grüner Veltliner monocépage issu du Danube", correct: false }
+      explanation: |
+        Les cépages sont plantés, vendangés et vinifiés ensemble ; les règles limitent aussi la proportion maximale d’un seul cépage.
