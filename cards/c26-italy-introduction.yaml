@@ -13,15 +13,25 @@ cards:
       fact_check: pass
       sources: [spec]
     en:
-      question: What is the Italian legal term that matches the EU’s PDO?
+      question: "Which Italian legal term is equivalent to the EU category PDO?"
       choices:
-        - { text: "Indicazione geografica tipica", correct: false }
-        - { text: "Denominazione di origine protetta (DOP)", correct: true }
-        - { text: "Vino da tavola", correct: false }
-        - { text: "Appellation d'origine protégée", correct: false }
+        - { text: "Indicazione Geografica Protetta (IGP)", correct: false }
+        - { text: "Denominazione di Origine Protetta (DOP)", correct: true }
+        - { text: "Indicazione Geografica Tipica (IGT)", correct: false }
+        - { text: "Vino without a geographical indication", correct: false }
       explanation: |
-        EU **PDO** is **DOP** in Italian. On bottles you still meet **DOC** and
-        **DOCG**, the two domestic PDO rungs. IGT is the PGI side; AOP is French.
+        DOP is the Italian wording for PDO. DOC and DOCG are protected Italian traditional terms used
+        within this EU category, whereas IGP and IGT correspond to PGI.
+    fr:
+      question: "Quel terme juridique italien équivaut à la catégorie européenne AOP ?"
+      choices:
+        - { text: "Indicazione Geografica Protetta (IGP)", correct: false }
+        - { text: "Denominazione di Origine Protetta (DOP)", correct: true }
+        - { text: "Indicazione Geografica Tipica (IGT)", correct: false }
+        - { text: "Vino sans indication géographique", correct: false }
+      explanation: |
+        DOP est l’équivalent italien d’AOP. DOC et DOCG sont des mentions traditionnelles italiennes
+        protégées au sein de cette catégorie européenne, tandis qu’IGP et IGT correspondent à l’IGP.
 
   - id: italy-doc-docg-001
     type: mcq
@@ -33,17 +43,26 @@ cards:
       fact_check: pass
       sources: [spec]
     en:
-      question: What are Italy’s two PDO rungs below the EU DOP umbrella?
+      question: "Which two traditional Italian terms identify wines in the EU PDO category?"
       choices:
-        - { text: "IGT and Vino da tavola only", correct: false }
+        - { text: "IGP and IGT", correct: false }
         - { text: "DOC and DOCG", correct: true }
-        - { text: "AOC and VDQS", correct: false }
-        - { text: "AVA and county", correct: false }
+        - { text: "Classico and Riserva", correct: false }
+        - { text: "Superiore and Passito", correct: false }
       explanation: |
-        **DOC** (*denominazione di origine controllata*) and **DOCG** (*… e
-        garantita*) are the two Italian PDO levels. IGT is PGI. The 1963 law
-        created DOC; DOCG arrived later as the tighter “guaranteed” tier
-        (Barolo, Brunello, and so on).
+        DOC means Denominazione di Origine Controllata; DOCG adds e Garantita. Both are traditional
+        Italian PDO terms, not two separate categories above the EU system.
+    fr:
+      question: "Quelles sont les deux mentions traditionnelles italiennes qui identifient des vins relevant de la catégorie européenne AOP ?"
+      choices:
+        - { text: "IGP et IGT", correct: false }
+        - { text: "DOC et DOCG", correct: true }
+        - { text: "Classico et Riserva", correct: false }
+        - { text: "Superiore et Passito", correct: false }
+      explanation: |
+        DOC signifie Denominazione di Origine Controllata ; DOCG ajoute e Garantita. Ce sont deux
+        mentions traditionnelles italiennes relevant de l’AOP, et non deux catégories situées au-dessus
+        du système européen.
 
   - id: italy-doc-rules-001
     type: mcq
@@ -55,16 +74,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What does a DOC mainly police?
+      question: "What does an Italian DOC production specification typically regulate?"
       choices:
-        - { text: "Only the colour of the capsule", correct: false }
-        - { text: "Place of origin plus allowed grapes and how the wine is made", correct: true }
-        - { text: "A ministry tasting in Rome for every bottle, and nothing else", correct: false }
-        - { text: "A ban on any named grape variety", correct: false }
+        - { text: "Only the place where the wine is bottled", correct: false }
+        - { text: "Origin, permitted grapes, yields and production methods", correct: true }
+        - { text: "Only the final alcohol and residual sugar", correct: false }
+        - { text: "Retail price, bottle shape and export market", correct: false }
       explanation: |
-        A **DOC** draws a map and then limits **varieties, yields and methods**.
-        The extra ministry tasting and in-zone bottling are the **DOCG** add-ons,
-        not the base DOC idea.
+        A DOC links a delimited origin to a detailed production code. Depending on the denomination, it
+        can also set rules for ageing, alcohol, wine style and labelling.
+    fr:
+      question: "Que réglemente généralement le cahier des charges d’une DOC italienne ?"
+      choices:
+        - { text: "Uniquement le lieu de mise en bouteille", correct: false }
+        - { text: "L’origine, les cépages autorisés, les rendements et les méthodes de production", correct: true }
+        - { text: "Uniquement l’alcool final et le sucre résiduel", correct: false }
+        - { text: "Le prix de vente, la forme de la bouteille et le marché d’exportation", correct: false }
+      explanation: |
+        Une DOC relie une origine délimitée à un cahier des charges précis. Selon l’appellation,
+        celui-ci peut aussi fixer des règles d’élevage, de degré alcoolique, de style et d’étiquetage.
 
   - id: italy-docg-extra-001
     type: mcq
@@ -76,16 +104,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What extra duties sit on a DOCG compared with a DOC?
+      question: "Which control is particularly associated with DOCG wines at certification and bottling?"
       choices:
-        - { text: "None — the words are interchangeable", correct: false }
-        - { text: "Bottling in the production zone and a Ministry of Agriculture tasting", correct: true }
-        - { text: "Compulsory fortification with grape spirit", correct: false }
-        - { text: "A ban on any ageing in wood", correct: false }
+        - { text: "Optional analysis followed by an unnumbered regional label", correct: false }
+        - { text: "Systematic analytical and sensory checks plus a numbered government seal", correct: true }
+        - { text: "Compulsory fortification followed by inspection in Rome", correct: false }
+        - { text: "Approval based solely on the producer’s vineyard declaration", correct: false }
       explanation: |
-        **DOCG** keeps the DOC rulebook and adds **in-zone bottling** plus an
-        official **tasting**. The pink DOCG seal on the neck is the visible
-        token. It is not a Port or a barrique ban.
+        Italian rules require systematic analytical and organoleptic certification for DOCG lots, and
+        the bottle carries an official numbered strip or seal. DOC wines are also controlled, but their
+        plans can differ according to production volume and risk.
+    fr:
+      question: "Quel contrôle est particulièrement associé aux vins DOCG lors de la certification et de la mise en bouteille ?"
+      choices:
+        - { text: "Une analyse facultative suivie d’une étiquette régionale non numérotée", correct: false }
+        - { text: "Des contrôles analytiques et organoleptiques systématiques, plus une vignette d’État numérotée", correct: true }
+        - { text: "Un mutage obligatoire suivi d’une inspection à Rome", correct: false }
+        - { text: "Une approbation fondée uniquement sur la déclaration parcellaire du producteur", correct: false }
+      explanation: |
+        La réglementation italienne impose une certification analytique et organoleptique systématique
+        des lots DOCG, puis une bande ou vignette officielle numérotée sur la bouteille. Les DOC sont
+        également contrôlées, mais leur plan de contrôle peut varier selon le volume et le risque.
 
   - id: italy-igp-igt-001
     type: mcq
@@ -97,16 +136,25 @@ cards:
       fact_check: pass
       sources: [spec]
     en:
-      question: Which pair of terms marks an Italian PGI wine?
+      question: "Which pair links the EU and traditional Italian terms for a Protected Geographical Indication?"
       choices:
-        - { text: "DOC and DOCG", correct: false }
+        - { text: "DOP and DOCG", correct: false }
         - { text: "IGP and IGT", correct: true }
-        - { text: "AOP and AOC", correct: false }
-        - { text: "AVA and VdP", correct: false }
+        - { text: "DOC and Classico", correct: false }
+        - { text: "Riserva and Superiore", correct: false }
       explanation: |
-        **IGP** is the EU PGI label; **IGT** (*indicazione geografica tipica*)
-        is the older Italian name still on Super-Tuscans and other freer blends.
-        DOC/DOCG are PDO.
+        IGP is the current Italian form of the EU PGI category. IGT, Indicazione Geografica Tipica, is
+        the protected traditional term that remains common on labels.
+    fr:
+      question: "Quelle paire associe le terme européen et la mention traditionnelle italienne correspondant à une indication géographique protégée ?"
+      choices:
+        - { text: "DOP et DOCG", correct: false }
+        - { text: "IGP et IGT", correct: true }
+        - { text: "DOC et Classico", correct: false }
+        - { text: "Riserva et Superiore", correct: false }
+      explanation: |
+        IGP est la forme italienne actuelle de la catégorie européenne IGP. IGT, Indicazione Geografica
+        Tipica, est la mention traditionnelle protégée qui reste courante sur les étiquettes.
 
   - id: italy-classico-001
     type: mcq
@@ -118,16 +166,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What does Classico mean on an Italian label?
+      question: "What does Classico indicate when it forms part of an Italian wine denomination?"
       choices:
-        - { text: "The wine is sparkling", correct: false }
-        - { text: "The grapes come only from the original, historic core of the appellation", correct: true }
-        - { text: "The wine is a first vintage from a new cellar", correct: false }
-        - { text: "The wine was aged under flor", correct: false }
+        - { text: "A longer-aged version of the standard wine", correct: false }
+        - { text: "Production in the denomination’s historic core zone", correct: true }
+        - { text: "A wine made exclusively from indigenous grapes", correct: false }
+        - { text: "The highest official quality tier in every DOCG", correct: false }
       explanation: |
-        **Classico** is geography: Chianti Classico is the old hill zone, Soave
-        Classico the original basalt slopes, Valpolicella Classico the historic
-        communes — not a fizz or a flor style.
+        The term is geographical rather than a guarantee of ageing or rank. Examples include the
+        historic zones of Chianti Classico, Soave Classico and Valpolicella Classico.
+    fr:
+      question: "Que signifie Classico lorsqu’il fait partie d’une dénomination viticole italienne ?"
+      choices:
+        - { text: "Une version élevée plus longtemps que le vin standard", correct: false }
+        - { text: "Une production issue du noyau historique de la dénomination", correct: true }
+        - { text: "Un vin élaboré exclusivement avec des cépages autochtones", correct: false }
+        - { text: "Le niveau qualitatif officiel le plus élevé de chaque DOCG", correct: false }
+      explanation: |
+        Cette mention est géographique : elle ne garantit ni une durée d’élevage ni un rang qualitatif.
+        On la rencontre notamment pour les zones historiques de Chianti Classico, Soave Classico et
+        Valpolicella Classico.
 
   - id: italy-riserva-001
     type: mcq
@@ -139,13 +197,24 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What does Riserva usually add, compared with the base DOC/DOCG?
+      question: "What does Riserva normally require compared with the corresponding base Italian wine?"
       choices:
-        - { text: "A sweeter residual-sugar band only", correct: false }
-        - { text: "Higher minimum alcohol and a longer ageing period", correct: true }
-        - { text: "A legal ban on the named grape", correct: false }
-        - { text: "Compulsory carbonic maceration", correct: false }
+        - { text: "A prescribed increase in residual sugar", correct: false }
+        - { text: "A longer minimum maturation period set by the denomination", correct: true }
+        - { text: "Exclusive use of new small oak barrels", correct: false }
+        - { text: "Production from the historic Classico zone", correct: false }
       explanation: |
-        **Riserva** is extra time and usually a touch more alcohol — Chianti
-        Classico Riserva, Barolo Riserva, and so on. Exact months are written
-        into each disciplinare. It is not a sweetness or carbonic term.
+        The exact period and any additional requirements are set by each production code. Some
+        denominations also demand a higher minimum alcohol, but Riserva does not by itself prescribe
+        sweetness, new oak or a particular subzone.
+    fr:
+      question: "Qu’exige normalement la mention Riserva par rapport au vin italien de base correspondant ?"
+      choices:
+        - { text: "Une augmentation définie du sucre résiduel", correct: false }
+        - { text: "Une durée minimale de maturation plus longue fixée par la dénomination", correct: true }
+        - { text: "L’emploi exclusif de petites barriques neuves", correct: false }
+        - { text: "Une production issue de la zone historique Classico", correct: false }
+      explanation: |
+        La durée exacte et les éventuelles exigences supplémentaires sont fixées par chaque cahier des
+        charges. Certaines dénominations imposent aussi un degré alcoolique minimal supérieur, mais
+        Riserva ne prescrit en soi ni douceur, ni bois neuf, ni sous-zone particulière.

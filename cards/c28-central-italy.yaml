@@ -13,15 +13,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What mountain range dominates Central Italy south of the Po?
+      question: "Which mountain chain forms the geographic spine of Central Italy?"
       choices:
-        - { text: "The Alps only", correct: false }
-        - { text: "The Apennines, running the length of the peninsula", correct: true }
-        - { text: "The Vosges", correct: false }
-        - { text: "There are no mountains", correct: false }
+        - { text: "The Alps", correct: false }
+        - { text: "The Apennines", correct: true }
+        - { text: "The Pyrenees", correct: false }
+        - { text: "The Dolomites alone", correct: false }
       explanation: |
-        **The Apennines.** Chianti, Umbria and Marche hang off those
-        folds.
+        The Apennines run along the peninsula and create elevation, varied exposures and a climatic
+        divide between the Tyrrhenian and Adriatic sides.
+    fr:
+      question: "Quelle chaîne de montagnes forme l’épine dorsale géographique de l’Italie centrale ?"
+      choices:
+        - { text: "Les Alpes", correct: false }
+        - { text: "Les Apennins", correct: true }
+        - { text: "Les Pyrénées", correct: false }
+        - { text: "Les seules Dolomites", correct: false }
+      explanation: |
+        Les Apennins parcourent la péninsule et créent de l’altitude, des expositions variées et une
+        séparation climatique entre les versants tyrrhénien et adriatique.
 
   - id: citaly-plant-hills-001
     type: mcq
@@ -33,14 +43,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: On which Central Italian landform are the vines usually found?
+      question: "Where are many of Central Italy’s quality vineyards planted?"
       choices:
-        - { text: "Only on a coastal desert", correct: false }
-        - { text: "In the hills and valleys of the Apennines", correct: true }
-        - { text: "Indoor only", correct: false }
-        - { text: "On the Po delta only", correct: false }
+        - { text: "On waterlogged coastal flats", correct: false }
+        - { text: "On Apennine hills, foothills and valleys", correct: true }
+        - { text: "Only on high plateaux above 1,200 metres", correct: false }
+        - { text: "Exclusively on volcanic islands", correct: false }
       explanation: |
-        **Apennine hills and valleys.** Altitude is the cooling tool.
+        Slopes offer drainage, sunlight and cooling with elevation. Fertile valley floors generally
+        favour higher yields and simpler wine.
+    fr:
+      question: "Où sont plantés de nombreux vignobles de qualité d’Italie centrale ?"
+      choices:
+        - { text: "Sur des plaines côtières gorgées d’eau", correct: false }
+        - { text: "Sur les collines, contreforts et vallées des Apennins", correct: true }
+        - { text: "Uniquement sur de hauts plateaux au-dessus de 1 200 mètres", correct: false }
+        - { text: "Exclusivement sur des îles volcaniques", correct: false }
+      explanation: |
+        Les pentes offrent drainage, ensoleillement et fraîcheur liée à l’altitude. Les fonds de vallée
+        fertiles favorisent généralement des rendements supérieurs et des vins plus simples.
 
   - id: citaly-cool-001
     type: mcq
@@ -52,15 +73,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What two things moderate heat in Central Italy?
+      question: "Which two influences most commonly moderate summer heat in Central Italian vineyards?"
       choices:
-        - { text: "Indoor air-con only", correct: false }
-        - { text: "Apennine-foothill altitude, or coastal sea breezes", correct: true }
-        - { text: "A legal ban on sunshine", correct: false }
-        - { text: "Permanent ice", correct: false }
+        - { text: "Atlantic fog and polar winds", correct: false }
+        - { text: "Elevation in the Apennine hills and sea breezes near the coast", correct: true }
+        - { text: "Permanent cloud and glacial lakes", correct: false }
+        - { text: "Monsoon rain and desert winds", correct: false }
       explanation: |
-        **Height inland, sea air on the coast.** Montalcino feels the
-        first; Bolgheri the second.
+        Altitude increases diurnal range inland, while maritime air cools western and eastern coastal
+        zones. Their importance varies greatly by region and site.
+    fr:
+      question: "Quelles sont les deux influences qui modèrent le plus souvent la chaleur estivale dans les vignobles d’Italie centrale ?"
+      choices:
+        - { text: "Le brouillard atlantique et les vents polaires", correct: false }
+        - { text: "L’altitude des collines apennines et les brises marines près des côtes", correct: true }
+        - { text: "Une nébulosité permanente et des lacs glaciaires", correct: false }
+        - { text: "Les pluies de mousson et les vents désertiques", correct: false }
+      explanation: |
+        L’altitude augmente l’amplitude thermique quotidienne à l’intérieur des terres, tandis que l’air
+        maritime rafraîchit les zones côtières occidentales et orientales. Leur importance varie
+        fortement selon la région et le site.
 
   - id: citaly-tuscany-where-001
     type: mcq
@@ -72,15 +104,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which side of Central Italy does Tuscany occupy?
+      question: "Where is Tuscany located within Central Italy?"
       choices:
-        - { text: "The Adriatic north-east only", correct: false }
-        - { text: "Down the western coast of Central Italy", correct: true }
-        - { text: "On Sicily", correct: false }
-        - { text: "North of Bolzano", correct: false }
+        - { text: "On the Adriatic coast east of the Apennines", correct: false }
+        - { text: "On the western side, facing the Tyrrhenian Sea", correct: true }
+        - { text: "In the Po plain immediately south of the Alps", correct: false }
+        - { text: "At the toe of the Italian peninsula", correct: false }
       explanation: |
-        **West coast of Central Italy** — Tyrrhenian side, Florence
-        to the Maremma.
+        Tuscany extends from the Apennines to the Tyrrhenian coast. Its inland hills and maritime plain
+        support markedly different wine styles.
+    fr:
+      question: "Où se situe la Toscane en Italie centrale ?"
+      choices:
+        - { text: "Sur la côte adriatique, à l’est des Apennins", correct: false }
+        - { text: "Sur le versant occidental, face à la mer Tyrrhénienne", correct: true }
+        - { text: "Dans la plaine du Pô, immédiatement au sud des Alpes", correct: false }
+        - { text: "À la pointe de la botte italienne", correct: false }
+      explanation: |
+        La Toscane s’étend des Apennins à la côte tyrrhénienne. Ses collines intérieures et sa plaine
+        maritime produisent des styles de vins très différents.
 
   - id: citaly-tuscany-three-001
     type: mcq
@@ -92,16 +134,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What three landscapes make up Tuscany?
+      question: "Which sequence correctly describes Tuscany’s principal vineyard landscapes from north and inland toward the coast?"
       choices:
-        - { text: "One flat lagoon only", correct: false }
-        - { text: "Mountainous Chianti in the north, hills and valleys to the south, and a flat coastal plain", correct: true }
-        - { text: "Only alpine ice", correct: false }
-        - { text: "A single river island", correct: false }
+        - { text: "Flat delta, high desert and tropical coast", correct: false }
+        - { text: "Apennine foothills, rolling southern hills and a flatter coastal zone", correct: true }
+        - { text: "Alpine glaciers, volcanic islands and river marshes", correct: false }
+        - { text: "Granite plateau, slate valley and chalk plain", correct: false }
       explanation: |
-        **North Chianti mountains, southern hills, coastal plain.**
-        Three climates; Sangiovese leads inland, internationals the
-        coast.
+        Chianti occupies northern and central hills, Montalcino and Montepulciano lie farther south and
+        east, and the Maremma and Bolgheri sectors face the coast.
+    fr:
+      question: "Quelle succession décrit correctement les principaux paysages viticoles toscans, du nord et de l’intérieur vers la côte ?"
+      choices:
+        - { text: "Delta plat, haut désert et côte tropicale", correct: false }
+        - { text: "Contreforts apennins, collines méridionales ondulées et zone côtière plus plate", correct: true }
+        - { text: "Glaciers alpins, îles volcaniques et marais fluviaux", correct: false }
+        - { text: "Plateau granitique, vallée d’ardoise et plaine crayeuse", correct: false }
+      explanation: |
+        Chianti occupe les collines du nord et du centre, Montalcino et Montepulciano se trouvent plus
+        au sud et à l’est, tandis que la Maremme et Bolgheri font face à la côte.
 
   - id: citaly-sangiovese-lead-001
     type: mcq
@@ -113,15 +164,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which black grape is Tuscany’s prestige lead inland?
+      question: "Which black grape underpins Tuscany’s most important traditional inland red wines?"
       choices:
         - { text: "Nebbiolo", correct: false }
         - { text: "Sangiovese", correct: true }
         - { text: "Corvina", correct: false }
         - { text: "Aglianico", correct: false }
       explanation: |
-        **Sangiovese.** Cabernet is the Super-Tuscan extra, not the
-        regional lead.
+        Sangiovese is central to Chianti, Brunello di Montalcino and Vino Nobile di Montepulciano,
+        though local biotypes and blending rules vary.
+    fr:
+      question: "Quel cépage noir constitue la base des principaux rouges traditionnels de l’intérieur de la Toscane ?"
+      choices:
+        - { text: "Nebbiolo", correct: false }
+        - { text: "Sangiovese", correct: true }
+        - { text: "Corvina", correct: false }
+        - { text: "Aglianico", correct: false }
+      explanation: |
+        Le Sangiovese est au cœur de Chianti, Brunello di Montalcino et Vino Nobile di Montepulciano,
+        même si les biotypes locaux et les règles d’assemblage varient.
 
   - id: citaly-sangiovese-profile-001
     type: mcq
@@ -133,16 +194,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What is typical Tuscan Sangiovese like in the glass?
+      question: "Which profile is typical of quality Tuscan Sangiovese?"
       choices:
-        - { text: "Low acid, low tannin, and deep inky colour", correct: false }
-        - { text: "High tannin, high acid, red cherry, plum and dried herbs", correct: true }
-        - { text: "A white grape", correct: false }
-        - { text: "Sweet and sparkling only", correct: false }
+        - { text: "Deep colour, low acidity, soft tannins and jammy black fruit", correct: false }
+        - { text: "High acidity and tannins, with sour cherry, plum and dried-herb notes", correct: true }
+        - { text: "Pale colour, residual sweetness and grapey perfume", correct: false }
+        - { text: "Full body, low tannin and dried-grape flavours", correct: false }
       explanation: |
-        **High tannin, high acid, cherry, plum, dried herbs.** It is
-        late-ripening and usually sees oak; those sit in the Why, not
-        the SAT line.
+        The grape’s acidity and tannins support food pairing and bottle ageing. Site, extraction and oak
+        can move the style from fragrant and medium-bodied to powerful and concentrated.
+    fr:
+      question: "Quel profil est typique d’un Sangiovese toscan de qualité ?"
+      choices:
+        - { text: "Couleur profonde, faible acidité, tanins souples et fruits noirs confiturés", correct: false }
+        - { text: "Acidité et tanins élevés, avec griotte, prune et notes d’herbes séchées", correct: true }
+        - { text: "Couleur pâle, sucre résiduel et parfum muscaté", correct: false }
+        - { text: "Corps puissant, faibles tanins et arômes de raisins séchés", correct: false }
+      explanation: |
+        L’acidité et les tanins du cépage favorisent les accords à table et la garde. Le site,
+        l’extraction et le bois peuvent faire varier le style d’un vin parfumé et moyennement corsé à un
+        vin puissant et concentré.
 
   - id: citaly-sangiovese-oak-001
     type: mcq
@@ -154,15 +225,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which two oak formats do Tuscan cellars use on Sangiovese?
+      question: "Which wood-ageing options are commonly used for premium Tuscan Sangiovese?"
       choices:
-        - { text: "Only chestnut amphorae", correct: false }
-        - { text: "Small barrels and/or larger casks", correct: true }
-        - { text: "No oak is legal", correct: false }
-        - { text: "Only new 100% barrique, by law", correct: false }
+        - { text: "Only new 225-litre barrels are permitted", correct: false }
+        - { text: "Large traditional casks, smaller barrels or a combination", correct: true }
+        - { text: "Oak is prohibited for every Tuscan denomination", correct: false }
+        - { text: "Only acacia vessels may be used", correct: false }
       explanation: |
-        **Small barrels and/or large casks.** Brunello houses still
-        argue that split.
+        Large casks give less overt oak flavour, while smaller barrels can add spice, toast and faster
+        oxygen exposure. Rules differ by denomination and category.
+    fr:
+      question: "Quelles options d’élevage sous bois sont couramment employées pour le Sangiovese toscan haut de gamme ?"
+      choices:
+        - { text: "Seules les barriques neuves de 225 litres sont autorisées", correct: false }
+        - { text: "Grands foudres traditionnels, petits fûts ou combinaison des deux", correct: true }
+        - { text: "Le bois est interdit dans toutes les dénominations toscanes", correct: false }
+        - { text: "Seuls les contenants en acacia peuvent être employés", correct: false }
+      explanation: |
+        Les grands foudres marquent moins le vin, tandis que les petits fûts peuvent apporter épices,
+        notes grillées et échanges d’oxygène plus rapides. Les règles varient selon la dénomination et
+        la catégorie.
 
   - id: citaly-sangiovese-age-001
     type: mcq
@@ -174,14 +256,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: After years in bottle, which savoury register can Sangiovese show?
+      question: "Which tertiary aromas can develop as high-quality Tuscan Sangiovese ages?"
       choices:
-        - { text: "Lychee and roses only", correct: false }
-        - { text: "Meaty, gamey aromas", correct: true }
-        - { text: "A legal ban on any development", correct: false }
-        - { text: "It always stays primary cherry", correct: false }
+        - { text: "Fresh grape, banana and bubble gum", correct: false }
+        - { text: "Leather, earth, dried herbs and game", correct: true }
+        - { text: "Gooseberry, cut grass and asparagus", correct: false }
+        - { text: "Coconut, pineapple and vanilla alone", correct: false }
       explanation: |
-        **Meaty and gamey.** The mature Chianti / Brunello register.
+        Youthful cherry and plum become more dried and savoury with bottle age, while tannins soften and
+        integrate.
+    fr:
+      question: "Quels arômes tertiaires peuvent apparaître avec le vieillissement d’un Sangiovese toscan de grande qualité ?"
+      choices:
+        - { text: "Raisin frais, banane et bonbon anglais", correct: false }
+        - { text: "Cuir, terre, herbes séchées et gibier", correct: true }
+        - { text: "Groseille à maquereau, herbe coupée et asperge", correct: false }
+        - { text: "Noix de coco, ananas et vanille uniquement", correct: false }
+      explanation: |
+        Les arômes juvéniles de cerise et de prune deviennent plus séchés et savoureux avec la garde,
+        tandis que les tanins s’assouplissent et s’intègrent.
 
   - id: citaly-tuscany-red-001
     type: mcq
@@ -193,15 +286,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which colour of grape covers most Tuscan hectares?
+      question: "Which grape colour accounts for the large majority of Tuscany’s vineyard area?"
       choices:
-        - { text: "White only", correct: false }
-        - { text: "Black, with a little white", correct: true }
-        - { text: "Only grey Pinot", correct: false }
-        - { text: "No black grapes are legal", correct: false }
+        - { text: "White grapes used mainly for aromatic wine", correct: false }
+        - { text: "Black grapes led by Sangiovese", correct: true }
+        - { text: "Grey-skinned grapes led by Pinot Grigio", correct: false }
+        - { text: "Equal areas of white and black grapes", correct: false }
       explanation: |
-        **Black, plus some white.** Vernaccia di San Gimignano is the
-        named white extra.
+        Tuscany’s international identity is dominated by red wine. White varieties remain important
+        locally, including Vernaccia and Vermentino.
+    fr:
+      question: "Quelle couleur de raisin représente la grande majorité du vignoble toscan ?"
+      choices:
+        - { text: "Les cépages blancs destinés surtout aux vins aromatiques", correct: false }
+        - { text: "Les cépages noirs dominés par le Sangiovese", correct: true }
+        - { text: "Les cépages gris dominés par le Pinot Grigio", correct: false }
+        - { text: "Des surfaces égales de cépages blancs et noirs", correct: false }
+      explanation: |
+        L’identité internationale de la Toscane est dominée par les vins rouges. Les cépages blancs
+        restent importants localement, notamment la Vernaccia et le Vermentino.
 
   - id: citaly-chianti-where-001
     type: mcq
@@ -213,14 +316,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Between which cities do Chianti’s Apennine foothills sit?
+      question: "Which description best defines the broad Chianti DOCG production area?"
       choices:
-        - { text: "Rome, Naples and Bari", correct: false }
-        - { text: "Pisa, Florence and Siena", correct: true }
-        - { text: "Venice, Trieste and Udine", correct: false }
-        - { text: "Turin, Alba and Asti", correct: false }
+        - { text: "Only the historic hills between Florence and Siena", correct: false }
+        - { text: "A large part of central Tuscany across six provinces", correct: true }
+        - { text: "The coastal strip around Bolgheri alone", correct: false }
+        - { text: "The municipality of Montalcino alone", correct: false }
       explanation: |
-        **Pisa, Florence and Siena.** The historic Chianti triangle.
+        Chianti DOCG extends well beyond the historic Chianti Classico zone and covers areas in Arezzo,
+        Florence, Pisa, Pistoia, Prato and Siena.
+    fr:
+      question: "Quelle description définit le mieux la vaste zone de production de Chianti DOCG ?"
+      choices:
+        - { text: "Uniquement les collines historiques entre Florence et Sienne", correct: false }
+        - { text: "Une grande partie de la Toscane centrale répartie sur six provinces", correct: true }
+        - { text: "La seule bande côtière autour de Bolgheri", correct: false }
+        - { text: "La seule commune de Montalcino", correct: false }
+      explanation: |
+        Chianti DOCG s’étend largement au-delà de la zone historique de Chianti Classico et couvre des
+        secteurs des provinces d’Arezzo, Florence, Pise, Pistoia, Prato et Sienne.
 
   - id: citaly-chianti-seven-001
     type: mcq
@@ -232,15 +346,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: How many named sub-zones sit under Chianti DOCG?
+      question: "How many named subzones does Chianti DOCG have following the 2026 addition of Terre di Vinci?"
       choices:
-        - { text: "Two, like Bordeaux banks", correct: false }
-        - { text: "Seven", correct: true }
-        - { text: "One only", correct: false }
-        - { text: "A hundred climats", correct: false }
+        - { text: "Seven", correct: false }
+        - { text: "Eight", correct: true }
+        - { text: "Nine", correct: false }
+        - { text: "Eleven", correct: false }
       explanation: |
-        **Seven** (Rufina, Colli Senesi, and the others). Chianti
-        Classico is a separate DOCG, not one of the seven.
+        Terre di Vinci joined Colli Aretini, Colli Fiorentini, Colli Senesi, Colline Pisane, Montalbano,
+        Montespertoli and Rufina. Chianti Classico remains a separate DOCG.
+    fr:
+      question: "Combien de sous-zones nommées Chianti DOCG compte-t-elle depuis l’ajout de Terre di Vinci en 2026 ?"
+      choices:
+        - { text: "Sept", correct: false }
+        - { text: "Huit", correct: true }
+        - { text: "Neuf", correct: false }
+        - { text: "Onze", correct: false }
+      explanation: |
+        Terre di Vinci a rejoint Colli Aretini, Colli Fiorentini, Colli Senesi, Colline Pisane,
+        Montalbano, Montespertoli et Rufina. Chianti Classico reste une DOCG distincte.
 
   - id: citaly-chianti-grape-001
     type: mcq
@@ -252,14 +376,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which variety has to be the majority grape in Chianti?
+      question: "Which grape must form the principal component of red Chianti DOCG?"
       choices:
-        - { text: "Cabernet Sauvignon only", correct: false }
+        - { text: "Cabernet Sauvignon", correct: false }
         - { text: "Sangiovese", correct: true }
-        - { text: "Nebbiolo", correct: false }
-        - { text: "Corvina", correct: false }
+        - { text: "Merlot", correct: false }
+        - { text: "Montepulciano", correct: false }
       explanation: |
-        **Sangiovese.** Blending partners are allowed; it still leads.
+        Other authorised Tuscan grapes may contribute within the production code’s limits, but
+        Sangiovese defines the wine’s structure and identity.
+    fr:
+      question: "Quel cépage doit constituer la composante principale du Chianti DOCG rouge ?"
+      choices:
+        - { text: "Cabernet Sauvignon", correct: false }
+        - { text: "Sangiovese", correct: true }
+        - { text: "Merlot", correct: false }
+        - { text: "Montepulciano", correct: false }
+      explanation: |
+        D’autres cépages toscans autorisés peuvent participer dans les limites du cahier des charges,
+        mais le Sangiovese définit la structure et l’identité du vin.
 
   - id: citaly-chianti-blend-001
     type: mcq
@@ -271,15 +406,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Is a typical Chianti a single-variety wine or a blend?
+      question: "Why are many Chianti DOCG wines blends rather than pure Sangiovese?"
       choices:
-        - { text: "Always 100% Cabernet", correct: false }
-        - { text: "Often a blend", correct: true }
-        - { text: "Blending is illegal", correct: false }
-        - { text: "Only white grapes may be blended", correct: false }
+        - { text: "The denomination prohibits varietal Sangiovese", correct: false }
+        - { text: "Permitted grapes can adjust colour, fruit, tannin or aroma", correct: true }
+        - { text: "White grapes must always form at least half of the wine", correct: false }
+        - { text: "Cabernet Sauvignon is compulsory in every subzone", correct: false }
       explanation: |
-        **Often a blend.** Canaiolo, Colorino, and sometimes a little
-        Cabernet or Merlot sit beside Sangiovese.
+        Traditional local and international varieties may complement Sangiovese, although varietal
+        Sangiovese is also possible when the applicable rules are met.
+    fr:
+      question: "Pourquoi de nombreux Chianti DOCG sont-ils des assemblages plutôt que des Sangiovese purs ?"
+      choices:
+        - { text: "La dénomination interdit le Sangiovese monocépage", correct: false }
+        - { text: "Les cépages autorisés peuvent ajuster la couleur, le fruit, les tanins ou les arômes", correct: true }
+        - { text: "Les cépages blancs doivent toujours constituer au moins la moitié du vin", correct: false }
+        - { text: "Le Cabernet Sauvignon est obligatoire dans chaque sous-zone", correct: false }
+      explanation: |
+        Des cépages locaux traditionnels et internationaux peuvent compléter le Sangiovese, même si un
+        Sangiovese monocépage reste possible lorsque les règles applicables sont respectées.
 
   - id: citaly-chianti-docg-001
     type: mcq
@@ -291,14 +436,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What name do high-volume Chiantis from the wide zone usually wear?
+      question: "Which denomination identifies red wine from the broad Chianti production area without a subzone?"
       choices:
-        - { text: "Brunello di Montalcino DOCG", correct: false }
+        - { text: "Chianti Classico DOCG", correct: false }
         - { text: "Chianti DOCG", correct: true }
-        - { text: "Barolo DOCG", correct: false }
-        - { text: "Only IGT Sicilia", correct: false }
+        - { text: "Toscana DOC", correct: false }
+        - { text: "Brunello di Montalcino DOCG", correct: false }
       explanation: |
-        **Chianti DOCG.** The generic wrapper, not a sub-zone word.
+        Generic Chianti DOCG covers a much larger area than Chianti Classico and accounts for
+        substantial production. A subzone may be added only when its stricter origin and production
+        rules are met.
+    fr:
+      question: "Quelle dénomination identifie un rouge issu de la vaste zone de Chianti sans mention de sous-zone ?"
+      choices:
+        - { text: "Chianti Classico DOCG", correct: false }
+        - { text: "Chianti DOCG", correct: true }
+        - { text: "Toscana DOC", correct: false }
+        - { text: "Brunello di Montalcino DOCG", correct: false }
+      explanation: |
+        Chianti DOCG générique couvre une zone bien plus vaste que Chianti Classico et représente une
+        production importante. Une sous-zone ne peut être ajoutée que si ses règles plus strictes
+        d’origine et de production sont respectées.
 
   - id: citaly-chianti-subzone-001
     type: mcq
@@ -310,14 +468,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: How can a tighter Chianti name the map more precisely?
+      question: "What does a Chianti DOCG subzone name such as Rufina indicate?"
       choices:
-        - { text: "It must drop any place name", correct: false }
-        - { text: "By adding the sub-zone if the fruit is from there", correct: true }
-        - { text: "By writing Premier Cru", correct: false }
-        - { text: "Only as Vin de France", correct: false }
+        - { text: "The wine was merely bottled in that area", correct: false }
+        - { text: "The grapes and production meet the rules of a smaller delimited area", correct: true }
+        - { text: "The wine is automatically a Gran Selezione", correct: false }
+        - { text: "The blend contains only international grapes", correct: false }
       explanation: |
-        **Add the sub-zone** — Chianti Rufina, Chianti Colli Senesi.
+        Subzones have defined boundaries and more specific requirements than generic Chianti. The
+        indication communicates origin rather than a guaranteed score or style.
+    fr:
+      question: "Que signifie une sous-zone de Chianti DOCG comme Rufina ?"
+      choices:
+        - { text: "Le vin a simplement été mis en bouteille dans ce secteur", correct: false }
+        - { text: "Les raisins et la production respectent les règles d’une zone délimitée plus petite", correct: true }
+        - { text: "Le vin est automatiquement une Gran Selezione", correct: false }
+        - { text: "L’assemblage contient uniquement des cépages internationaux", correct: false }
+      explanation: |
+        Les sous-zones possèdent des limites définies et des exigences plus précises que Chianti
+        générique. La mention communique une origine et non une note ou un style garanti.
 
   - id: citaly-chianti-best-sub-001
     type: mcq
@@ -329,16 +498,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Besides the Classico DOCG, which two Chianti names are the usual quality picks?
+      question: "Which pair contains two established Chianti DOCG subzones with strong reputations for quality?"
       choices:
+        - { text: "Montalcino and Montepulciano", correct: false }
+        - { text: "Rufina and Colli Senesi", correct: true }
+        - { text: "Bolgheri and Maremma", correct: false }
         - { text: "Barolo and Barbaresco", correct: false }
-        - { text: "Chianti Rufina and Chianti Colli Senesi", correct: true }
-        - { text: "Soave and Valpolicella", correct: false }
-        - { text: "Etna and Vittoria", correct: false }
       explanation: |
-        **Rufina and Colli Senesi.** Rufina is the cooler, higher
-        one; Colli Senesi is the large Siena-side zone. Classico is
-        not a Chianti sub-zone.
+        Rufina’s elevated sites often give fragrant, high-acid wines, while Colli Senesi surrounds
+        important southern Tuscan wine territory. Neither is part of the separate Chianti Classico DOCG.
+    fr:
+      question: "Quelle paire réunit deux sous-zones établies de Chianti DOCG jouissant d’une solide réputation qualitative ?"
+      choices:
+        - { text: "Montalcino et Montepulciano", correct: false }
+        - { text: "Rufina et Colli Senesi", correct: true }
+        - { text: "Bolgheri et Maremma", correct: false }
+        - { text: "Barolo et Barbaresco", correct: false }
+      explanation: |
+        Les sites élevés de Rufina donnent souvent des vins parfumés et très acides, tandis que Colli
+        Senesi entoure d’importants territoires viticoles du sud toscan. Aucune ne fait partie de la
+        DOCG distincte Chianti Classico.
 
   - id: citaly-classico-not-sub-001
     type: mcq
@@ -350,15 +529,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: How does Chianti Classico sit relative to Chianti’s seven sub-zones?
+      question: "What is the legal relationship between Chianti Classico and Chianti DOCG?"
       choices:
-        - { text: "It is one of the seven", correct: false }
-        - { text: "It is a separate DOCG, not a Chianti sub-zone", correct: true }
-        - { text: "It is only an IGT", correct: false }
-        - { text: "It is in Piedmont", correct: false }
+        - { text: "Chianti Classico is one of Chianti’s eight subzones", correct: false }
+        - { text: "Chianti Classico is a separate DOCG with its own production code", correct: true }
+        - { text: "Chianti Classico is an IGT within Chianti", correct: false }
+        - { text: "Chianti Classico is merely an ageing term", correct: false }
       explanation: |
-        **A separate DOCG.** The black rooster zone is not “Chianti
-        + Classico” as a sub-zone.
+        Since 1996, Chianti Classico has been legally independent. Its historic territory lies between
+        Florence and Siena and cannot simultaneously produce generic Chianti DOCG.
+    fr:
+      question: "Quelle est la relation juridique entre Chianti Classico et Chianti DOCG ?"
+      choices:
+        - { text: "Chianti Classico est l’une des huit sous-zones de Chianti", correct: false }
+        - { text: "Chianti Classico est une DOCG distincte dotée de son propre cahier des charges", correct: true }
+        - { text: "Chianti Classico est une IGT au sein de Chianti", correct: false }
+        - { text: "Chianti Classico est une simple mention d’élevage", correct: false }
+      explanation: |
+        Depuis 1996, Chianti Classico est juridiquement indépendant. Son territoire historique se situe
+        entre Florence et Sienne et ne peut pas produire simultanément du Chianti DOCG générique.
 
   - id: citaly-classico-high-001
     type: mcq
@@ -370,14 +559,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Do Chianti Classico vines sit higher or lower than generic Chianti?
+      question: "How do many Chianti Classico vineyards compare with the broader Chianti zone?"
       choices:
-        - { text: "Lower, on a coastal flat", correct: false }
-        - { text: "At higher altitude", correct: true }
-        - { text: "Below sea level", correct: false }
-        - { text: "There is no height difference", correct: false }
+        - { text: "They lie mainly on warmer coastal flats", correct: false }
+        - { text: "They occupy relatively elevated, well-drained hills", correct: true }
+        - { text: "They are restricted to fertile valley floors", correct: false }
+        - { text: "They sit entirely below 100 metres", correct: false }
       explanation: |
-        **Higher.** That is why Classico stays fresher.
+        The historic zone is a hilly plateau, commonly around 200–600 metres. Its cooler nights and
+        poorer soils can help retain acidity and control vigour.
+    fr:
+      question: "Comment de nombreux vignobles de Chianti Classico se comparent-ils à ceux de la vaste zone de Chianti ?"
+      choices:
+        - { text: "Ils se trouvent surtout dans des plaines côtières plus chaudes", correct: false }
+        - { text: "Ils occupent des collines relativement élevées et bien drainées", correct: true }
+        - { text: "Ils sont limités aux fonds de vallée fertiles", correct: false }
+        - { text: "Ils se situent tous sous 100 mètres", correct: false }
+      explanation: |
+        La zone historique forme un plateau vallonné, souvent situé entre 200 et 600 mètres. Ses nuits
+        plus fraîches et ses sols plus pauvres peuvent préserver l’acidité et maîtriser la vigueur.
 
   - id: citaly-classico-effect-001
     type: mcq
@@ -389,15 +589,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What does Chianti Classico’s extra height do in the glass?
+      question: "What stylistic effect is commonly associated with Chianti Classico’s higher hill sites?"
       choices:
-        - { text: "It bakes all the acid out", correct: false }
-        - { text: "More acidity and more herbal aromas", correct: true }
-        - { text: "It forces a sweet wine", correct: false }
-        - { text: "It bans Sangiovese", correct: false }
+        - { text: "Lower acidity and more jammy fruit", correct: false }
+        - { text: "Fresher acidity and more floral or herbal definition", correct: true }
+        - { text: "Higher residual sugar and lower tannin", correct: false }
+        - { text: "Darker colour caused solely by altitude", correct: false }
       explanation: |
-        **More acid, more herbs.** The hill signature versus a warm
-        Colli Senesi bottle.
+        Cooler temperatures slow ripening and preserve freshness. Sangiovese still needs favourable
+        exposure to mature its tannins fully.
+    fr:
+      question: "Quel effet stylistique est couramment associé aux sites de coteau plus élevés de Chianti Classico ?"
+      choices:
+        - { text: "Acidité plus faible et fruit plus confituré", correct: false }
+        - { text: "Acidité plus fraîche et définition florale ou herbacée plus nette", correct: true }
+        - { text: "Sucre résiduel plus élevé et tanins plus faibles", correct: false }
+        - { text: "Couleur plus profonde causée uniquement par l’altitude", correct: false }
+      explanation: |
+        Les températures plus fraîches ralentissent la maturation et préservent la fraîcheur. Le
+        Sangiovese exige néanmoins une bonne exposition pour mûrir pleinement ses tanins.
 
   - id: citaly-classico-12-001
     type: mcq
@@ -409,14 +619,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: How long must Chianti Classico age before release?
+      question: "What is the earliest permitted release date for standard Chianti Classico?"
       choices:
-        - { text: "No wait at all", correct: false }
-        - { text: "12 months", correct: true }
-        - { text: "Five years, like Brunello", correct: false }
-        - { text: "Ten years in new oak", correct: false }
+        - { text: "1 March in the year after harvest", correct: false }
+        - { text: "1 October in the year after harvest", correct: true }
+        - { text: "1 January in the third year after harvest", correct: false }
+        - { text: "1 January in the fifth year after harvest", correct: false }
       explanation: |
-        **12 months.** Riserva and Gran Selezione wait longer.
+        The rule gives the wine roughly a year of maturation but is expressed as a release date rather
+        than a simple twelve-month requirement.
+    fr:
+      question: "Quelle est la première date de commercialisation autorisée pour un Chianti Classico standard ?"
+      choices:
+        - { text: "Le 1er mars de l’année suivant la récolte", correct: false }
+        - { text: "Le 1er octobre de l’année suivant la récolte", correct: true }
+        - { text: "Le 1er janvier de la troisième année suivant la récolte", correct: false }
+        - { text: "Le 1er janvier de la cinquième année suivant la récolte", correct: false }
+      explanation: |
+        La règle accorde au vin environ un an de maturation, mais s’exprime sous la forme d’une date de
+        commercialisation plutôt que d’une simple exigence de douze mois.
 
   - id: citaly-classico-riserva-001
     type: mcq
@@ -428,14 +649,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What is Chianti Classico Riserva’s legal ageing?
+      question: "What minimum maturation is required for Chianti Classico Riserva?"
       choices:
-        - { text: "Six weeks in steel", correct: false }
+        - { text: "18 months with no bottle requirement", correct: false }
         - { text: "24 months, including at least 3 months in bottle", correct: true }
-        - { text: "No bottle time is allowed", correct: false }
-        - { text: "Ten years, all in barrique", correct: false }
+        - { text: "30 months, including at least 6 months in bottle", correct: false }
+        - { text: "Five years, including two in oak", correct: false }
       explanation: |
-        **24 months, ≥3 in bottle.** Gran Selezione sits above that.
+        The period is calculated from 1 January after the harvest. The code does not prescribe that the
+        wine spend all or any fixed portion of the remaining time in oak.
+    fr:
+      question: "Quelle maturation minimale est exigée pour Chianti Classico Riserva ?"
+      choices:
+        - { text: "18 mois sans exigence de bouteille", correct: false }
+        - { text: "24 mois, dont au moins 3 mois en bouteille", correct: true }
+        - { text: "30 mois, dont au moins 6 mois en bouteille", correct: false }
+        - { text: "Cinq ans, dont deux sous bois", correct: false }
+      explanation: |
+        La période est calculée à partir du 1er janvier suivant la récolte. Le cahier des charges
+        n’impose pas que le vin passe tout ou partie fixe du temps restant sous bois.
 
   - id: citaly-gran-selezione-001
     type: mcq
@@ -447,14 +679,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which word sits above Riserva on a Chianti Classico label?
+      question: "Which category sits above Riserva within Chianti Classico DOCG?"
       choices:
-        - { text: "IGT only", correct: false }
+        - { text: "Superiore", correct: false }
         - { text: "Gran Selezione", correct: true }
-        - { text: "Premier Cru", correct: false }
-        - { text: "Cru Bourgeois", correct: false }
+        - { text: "Classico Storico", correct: false }
+        - { text: "Vigna Riserva", correct: false }
       explanation: |
-        **Gran Selezione.** Above Riserva, from 2014.
+        Gran Selezione is the denomination’s most restrictive category, with estate-grown fruit, longer
+        maturation and tighter grape-composition rules.
+    fr:
+      question: "Quelle catégorie se situe au-dessus de Riserva au sein de Chianti Classico DOCG ?"
+      choices:
+        - { text: "Superiore", correct: false }
+        - { text: "Gran Selezione", correct: true }
+        - { text: "Classico Storico", correct: false }
+        - { text: "Vigna Riserva", correct: false }
+      explanation: |
+        Gran Selezione est la catégorie la plus restrictive de la dénomination, avec des raisins de
+        l’exploitation, une maturation plus longue et des règles d’encépagement plus strictes.
 
   - id: citaly-gs-rules-001
     type: mcq
@@ -466,15 +709,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What extra bars sit on Chianti Classico Gran Selezione?
+      question: "Which combination is required for Chianti Classico Gran Selezione?"
       choices:
-        - { text: "Any fruit from anywhere in Italy", correct: false }
-        - { text: "Estate-grown fruit and six months more ageing than Riserva", correct: true }
-        - { text: "No ageing at all", correct: false }
-        - { text: "It must be white", correct: false }
+        - { text: "Purchased fruit, 24 months ageing and at least 80% Sangiovese", correct: false }
+        - { text: "Estate-grown fruit, 30 months ageing and a higher Sangiovese requirement", correct: true }
+        - { text: "Any Tuscan fruit, 12 months ageing and compulsory Cabernet", correct: false }
+        - { text: "Dried grapes, 36 months ageing and fortification", correct: false }
       explanation: |
-        **Estate fruit, six months more than Riserva** (30 months).
-        UGAs are a later map extra.
+        Current rules specify at least 90% Sangiovese, with only authorised indigenous black grapes for
+        the remainder, plus at least 3 months in bottle within the 30-month maturation.
+    fr:
+      question: "Quelle combinaison est exigée pour Chianti Classico Gran Selezione ?"
+      choices:
+        - { text: "Raisins achetés, 24 mois d’élevage et au moins 80 % de Sangiovese", correct: false }
+        - { text: "Raisins de l’exploitation, 30 mois d’élevage et proportion de Sangiovese plus élevée", correct: true }
+        - { text: "Tout raisin toscan, 12 mois d’élevage et Cabernet obligatoire", correct: false }
+        - { text: "Raisins séchés, 36 mois d’élevage et mutage", correct: false }
+      explanation: |
+        Les règles actuelles fixent au moins 90 % de Sangiovese, seuls des cépages noirs indigènes
+        autorisés pouvant compléter l’assemblage, ainsi qu’au moins 3 mois en bouteille dans les 30 mois
+        de maturation.
 
   - id: citaly-gs-oak-law-001
     type: mcq
@@ -486,14 +740,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What does the Gran Selezione law say about oak?
+      question: "What does the Chianti Classico Gran Selezione production code require regarding oak?"
       choices:
-        - { text: "100% new barrique is mandatory", correct: false }
-        - { text: "Nothing — oak is the producer’s choice", correct: true }
-        - { text: "Oak is banned", correct: false }
-        - { text: "Only chestnut is legal", correct: false }
+        - { text: "At least 18 months in new barriques", correct: false }
+        - { text: "No specific vessel or minimum time in oak", correct: true }
+        - { text: "Maturation only in large Slavonian casks", correct: false }
+        - { text: "No contact with wood at any stage", correct: false }
       explanation: |
-        **No oak rule.** Ageing time is fixed; the vessel is not.
+        The code fixes total maturation and bottle ageing, but producers choose whether and how to use
+        wood. Oak character is therefore a stylistic decision, not a category requirement.
+    fr:
+      question: "Qu’impose le cahier des charges de Chianti Classico Gran Selezione concernant le bois ?"
+      choices:
+        - { text: "Au moins 18 mois en barriques neuves", correct: false }
+        - { text: "Aucun contenant précis ni durée minimale sous bois", correct: true }
+        - { text: "Élevage uniquement en grands foudres de Slavonie", correct: false }
+        - { text: "Aucun contact avec le bois à quelque étape que ce soit", correct: false }
+      explanation: |
+        Le cahier des charges fixe la maturation totale et l’élevage en bouteille, mais les producteurs
+        choisissent s’ils utilisent du bois et comment. Le caractère boisé relève donc du style, pas de
+        la catégorie.
 
   - id: citaly-gs-oak-practice-001
     type: mcq
@@ -505,15 +771,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: In practice, do Gran Selezione wines see oak?
+      question: "Why do many Gran Selezione producers use oak even though it is not legally required?"
       choices:
-        - { text: "Almost never", correct: false }
-        - { text: "The vast majority spend at least part of their time in oak", correct: true }
-        - { text: "Oak is illegal on them", correct: false }
-        - { text: "They are all sparkling", correct: false }
+        - { text: "Oak is needed to raise the wine’s residual sugar", correct: false }
+        - { text: "Controlled oxygen and wood can soften tannins and add complexity", correct: true }
+        - { text: "Oak converts permitted grapes into Sangiovese", correct: false }
+        - { text: "Barrels are required to create carbonation", correct: false }
       explanation: |
-        **Most see some oak.** The law is silent; the cellars are
-        not.
+        Sangiovese’s tannins and concentration can benefit from maturation in large casks or smaller
+        barrels. Vessel age and size determine how strongly oak flavours the wine.
+    fr:
+      question: "Pourquoi de nombreux producteurs de Gran Selezione utilisent-ils le bois alors qu’il n’est pas légalement obligatoire ?"
+      choices:
+        - { text: "Le bois est nécessaire pour augmenter le sucre résiduel", correct: false }
+        - { text: "L’oxygène maîtrisé et le bois peuvent assouplir les tanins et ajouter de la complexité", correct: true }
+        - { text: "Le bois transforme les cépages autorisés en Sangiovese", correct: false }
+        - { text: "Les fûts sont nécessaires pour créer l’effervescence", correct: false }
+      explanation: |
+        Les tanins et la concentration du Sangiovese peuvent profiter d’un élevage en grands foudres ou
+        en petits fûts. L’âge et la taille du contenant déterminent l’intensité du goût boisé.
 
   - id: citaly-south-tuscany-001
     type: mcq
@@ -1326,4 +1602,3 @@ cards:
         **Deep colour, high tannin, medium acid, black plum and
         cherry.** Many bottles are unoaked and simple; the denser
         ones see a little oak.
-
