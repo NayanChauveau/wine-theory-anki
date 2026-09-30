@@ -1,1485 +1,2217 @@
 # yaml-language-server: $schema=../schema/cards.schema.json
 # source: C19 (import/inbox/c19-northern-rhone.yaml)
 # deck: France::Northern Rhône
+# Full adversarial quality review and French translation.
 
 cards:
   - id: nrhone-valley-001
     type: mcq
-    deck: France::Northern Rhône
-    tags: [france, northern-rhone]
+    deck: "France::Northern Rhône"
+    tags: ["france","northern-rhone"]
     status: reviewed
     source_id: c19-0001
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: How is the Northern Rhône valley shaped?
+      question: "Which description best fits the Northern Rhône’s vineyard landscape?"
       choices:
-        - { text: "A wide, flat alluvial plain far from any river", correct: false }
-        - { text: "Narrow and steep", correct: true }
-        - { text: "A high alpine plateau above the treeline", correct: false }
-        - { text: "A Mediterranean lagoon, like the Camargue", correct: false }
+        - { text: "A broad alluvial plain with isolated hills", correct: false }
+        - { text: "A narrow river corridor bordered by steep slopes", correct: true }
+        - { text: "A gently rolling limestone basin", correct: false }
+        - { text: "A high plateau separated from the river", correct: false }
       explanation: |
-        **Narrow, steep, vines by the river.** Côte-Rôtie and Hermitage
-        hang off the bank; this is not the broad southern plain.
-
+        The Rhône cuts a confined corridor between the Massif Central and the Alps. Many leading sites occupy
+        steep slopes immediately above the river.
+    fr:
+      question: "Quelle description correspond le mieux au paysage viticole du Rhône septentrional ?"
+      choices:
+        - { text: "Une vaste plaine alluviale ponctuée de collines", correct: false }
+        - { text: "Un étroit couloir fluvial bordé de coteaux escarpés", correct: true }
+        - { text: "Un bassin calcaire aux faibles ondulations", correct: false }
+        - { text: "Un haut plateau séparé du fleuve", correct: false }
+      explanation: |
+        Le Rhône traverse un couloir resserré entre le Massif central et les Alpes. De nombreux grands terroirs
+        occupent les coteaux escarpés qui dominent directement le fleuve.
   - id: nrhone-best-aspect-001
     type: mcq
-    deck: France::Northern Rhône
-    tags: [france, northern-rhone]
+    deck: "France::Northern Rhône"
+    tags: ["france","northern-rhone"]
     status: reviewed
     source_id: c19-0002
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: Which sites usually make the best Northern Rhône wine?
+      question: "Which exposure most often favours full ripening on the Northern Rhône’s steep slopes?"
       choices:
-        - { text: "North-facing valley floors", correct: false }
-        - { text: "Steep slopes that face south", correct: true }
-        - { text: "Only west-facing Vosges summits", correct: false }
-        - { text: "Indoor greenhouses", correct: false }
+        - { text: "Flat sites on the valley floor", correct: false }
+        - { text: "Warm slopes facing south or south-east", correct: true }
+        - { text: "High slopes facing due north", correct: false }
+        - { text: "Low sites shaded through the afternoon", correct: false }
       explanation: |
-        **Steep, south-facing slopes** — **Hermitage** behind Tain, the
-        **Côte Brune / Blonde** at Ampuis. Syrah needs that sun.
-
+        At this northerly latitude, a warm exposure increases sunlight and heat accumulation. Côte-Rôtie and
+        Hermitage both illustrate the value of well-exposed slopes.
+    fr:
+      question: "Quelle exposition favorise le plus souvent une maturité complète sur les coteaux escarpés du Rhône septentrional ?"
+      choices:
+        - { text: "Les terrains plats du fond de vallée", correct: false }
+        - { text: "Les coteaux chauds exposés au sud ou au sud-est", correct: true }
+        - { text: "Les hauts de coteau orientés plein nord", correct: false }
+        - { text: "Les bas de pente ombragés l’après-midi", correct: false }
+      explanation: |
+        À cette latitude septentrionale, une exposition chaude augmente l’ensoleillement et l’accumulation de
+        chaleur. Côte-Rôtie et Hermitage illustrent tous deux l’intérêt de coteaux bien exposés.
   - id: nrhone-lateral-001
     type: mcq
-    deck: France::Northern Rhône
-    tags: [france, northern-rhone]
+    deck: "France::Northern Rhône"
+    tags: ["france","northern-rhone"]
     status: reviewed
     source_id: c19-0003
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: Where, relative to the main river, do many top Northern Rhône vineyards sit?
+      question: "Where are many of the Northern Rhône’s leading vineyard sites found?"
       choices:
-        - { text: "Only on the Mediterranean coast", correct: false }
-        - { text: "In the side valleys that feed the Rhône", correct: true }
-        - { text: "Only inside Lyon’s walls", correct: false }
-        - { text: "On the west face of the Vosges", correct: false }
+        - { text: "On fertile flats beside the river", correct: false }
+        - { text: "On steep slopes above the Rhône and its side valleys", correct: true }
+        - { text: "On broad plateaux far from the valley", correct: false }
+        - { text: "On low coastal terraces near the Mediterranean", correct: false }
       explanation: |
-        **Lateral valleys** off the main trench. Those folds hide vines
-        from the worst of the north wind.
-
+        The best-known vineyards use steep, well-exposed ground overlooking the Rhône or short tributary
+        valleys. The slope improves exposure and drainage but makes cultivation difficult.
+    fr:
+      question: "Où se trouvent de nombreux grands terroirs du Rhône septentrional ?"
+      choices:
+        - { text: "Sur les terres fertiles et planes au bord du fleuve", correct: false }
+        - { text: "Sur les coteaux escarpés dominant le Rhône et ses vallées latérales", correct: true }
+        - { text: "Sur de vastes plateaux éloignés de la vallée", correct: false }
+        - { text: "Sur de basses terrasses littorales proches de la Méditerranée", correct: false }
+      explanation: |
+        Les vignobles les plus réputés occupent des pentes raides et bien exposées dominant le Rhône ou de
+        courtes vallées affluentes. La pente améliore l’exposition et le drainage, mais complique le travail.
   - id: nrhone-wind-shelter-001
     type: mcq
-    deck: France::Northern Rhône
-    tags: [france, northern-rhone]
+    deck: "France::Northern Rhône"
+    tags: ["france","northern-rhone"]
     status: reviewed
     source_id: c19-0004
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: What do the side valleys do for Northern Rhône vines?
+      question: "How can a side valley benefit a Northern Rhône vineyard exposed to northerly winds?"
       choices:
-        - { text: "They funnel more frost onto every row", correct: false }
-        - { text: "They shelter the vines from the cold north wind", correct: true }
-        - { text: "They make irrigation illegal", correct: false }
-        - { text: "They force a legal white-only AOC", correct: false }
+        - { text: "By funnelling the strongest gusts towards the vines", correct: false }
+        - { text: "By sheltering a site from the full force of the wind", correct: true }
+        - { text: "By increasing maritime humidity throughout summer", correct: false }
+        - { text: "By preventing cold air from draining downslope", correct: false }
       explanation: |
-        **Shelter from the cold northerly wind.** The mistral still
-        blows; the side valley just takes the edge off.
-
+        Local folds in the relief can reduce exposure to the mistral. This protection is valuable because
+        violent gusts can damage shoots even though the dry wind also limits disease.
+    fr:
+      question: "Comment une vallée latérale peut-elle avantager un vignoble du Rhône septentrional exposé aux vents du nord ?"
+      choices:
+        - { text: "En canalisant les rafales les plus fortes vers les vignes", correct: false }
+        - { text: "En protégeant le site de toute la force du vent", correct: true }
+        - { text: "En augmentant l’humidité maritime pendant tout l’été", correct: false }
+        - { text: "En empêchant l’air froid de s’écouler le long des pentes", correct: false }
+      explanation: |
+        Les replis du relief peuvent réduire l’exposition au mistral. Cette protection est utile car les
+        violentes rafales peuvent endommager les rameaux, même si ce vent sec limite aussi les maladies.
   - id: nrhone-mistral-name-001
     type: mcq
-    deck: France::Northern Rhône
-    tags: [france, northern-rhone, climate]
+    deck: "France::Northern Rhône"
+    tags: ["france","northern-rhone","climate"]
     status: reviewed
     source_id: c19-0005
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: What is the cold north wind that funnels down the Rhône called?
+      question: "What is the cold, dry northerly wind that funnels down the Rhône Valley?"
       choices:
-        - { text: "The foehn", correct: false }
+        - { text: "The tramontane", correct: false }
         - { text: "The mistral", correct: true }
-        - { text: "The zonda", correct: false }
-        - { text: "The sirocco", correct: false }
+        - { text: "The autan", correct: false }
+        - { text: "The foehn", correct: false }
       explanation: |
-        **The mistral** — cold, dry, violent. It dries rot and can snap
-        shoots.
-
+        The mistral accelerates through the Rhône corridor. It can dry vineyards rapidly after rain but can also
+        damage foliage and shoots.
+    fr:
+      question: "Comment s’appelle le vent froid et sec du nord qui s’engouffre dans la vallée du Rhône ?"
+      choices:
+        - { text: "La tramontane", correct: false }
+        - { text: "Le mistral", correct: true }
+        - { text: "L’autan", correct: false }
+        - { text: "Le foehn", correct: false }
+      explanation: |
+        Le mistral accélère dans le couloir rhodanien. Il peut sécher rapidement le vignoble après la pluie,
+        mais aussi endommager le feuillage et les rameaux.
   - id: nrhone-mistral-threat-001
     type: mcq
-    deck: France::Northern Rhône
-    tags: [france, northern-rhone, climate]
+    deck: "France::Northern Rhône"
+    tags: ["france","northern-rhone","climate"]
     status: reviewed
     source_id: c19-0006
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: Why do growers still treat the mistral as a vineyard threat?
+      question: "What is the principal direct danger of a violent mistral in a Northern Rhône vineyard?"
       choices:
-        - { text: "It only brings warm rain", correct: false }
-        - { text: "It can break canes and damage the vines", correct: true }
-        - { text: "It is banned by INAO", correct: false }
-        - { text: "It never reaches Ampuis", correct: false }
+        - { text: "It traps humid air and increases downy mildew", correct: false }
+        - { text: "It can break shoots and damage foliage", correct: true }
+        - { text: "It brings warm rain during flowering", correct: false }
+        - { text: "It prevents grapes from developing colour", correct: false }
       explanation: |
-        **It can damage the vines** — snapped shoots, shredded leaves.
-        The same wind also dries the fruit after rain.
-
+        Young growth is vulnerable to strong gusts, particularly on exposed slopes. Stakes and careful training
+        help keep the canopy secure.
+    fr:
+      question: "Quel est le principal danger direct d’un mistral violent dans un vignoble du Rhône septentrional ?"
+      choices:
+        - { text: "Il emprisonne l’air humide et favorise le mildiou", correct: false }
+        - { text: "Il peut casser les rameaux et abîmer le feuillage", correct: true }
+        - { text: "Il apporte des pluies chaudes pendant la floraison", correct: false }
+        - { text: "Il empêche les raisins de développer leur couleur", correct: false }
+      explanation: |
+        Les jeunes pousses sont vulnérables aux fortes rafales, surtout sur les coteaux exposés. Les échalas et
+        une conduite attentive permettent de maintenir la végétation.
   - id: nrhone-stakes-001
     type: mcq
-    deck: France::Northern Rhône
-    tags: [france, northern-rhone]
+    deck: "France::Northern Rhône"
+    tags: ["france","northern-rhone"]
     status: reviewed
     source_id: c19-0007
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: How are Northern Rhône vines usually held up against the mistral?
+      question: "Which support system is traditional on the Northern Rhône’s steep, windy slopes?"
       choices:
-        - { text: "Ungrafted bush vines with no support, by law", correct: false }
-        - { text: "On individual stakes, or a tepee of stakes", correct: true }
-        - { text: "Only high Pergola systems", correct: false }
-        - { text: "They are never trained", correct: false }
+        - { text: "High pergolas spanning several rows", correct: false }
+        - { text: "Individual stakes or groups of stakes forming a tepee", correct: true }
+        - { text: "Untrained gobelet vines without support", correct: false }
+        - { text: "Wide horizontal trellises on tall posts", correct: false }
       explanation: |
-        **Single stakes or a tepee (échalas).** Classic Côte-Rôtie /
-        Hermitage kit. A wire trellis would catch more wind.
-
+        Échalas support each vine securely and suit narrow terraces where tractors and broad trellises are
+        impractical. Several stakes may be tied together at the top.
+    fr:
+      question: "Quel système de soutien est traditionnel sur les coteaux escarpés et venteux du Rhône septentrional ?"
+      choices:
+        - { text: "De hautes pergolas couvrant plusieurs rangs", correct: false }
+        - { text: "Des échalas individuels ou réunis en forme de tipi", correct: true }
+        - { text: "Des vignes en gobelet sans aucun support", correct: false }
+        - { text: "De larges palissages horizontaux sur des piquets élevés", correct: false }
+      explanation: |
+        Les échalas maintiennent solidement chaque cep et conviennent aux terrasses étroites où les tracteurs et
+        les larges palissages sont peu pratiques. Plusieurs piquets peuvent être liés à leur sommet.
   - id: nrhone-climate-001
     type: mcq
-    deck: France::Northern Rhône
-    tags: [france, northern-rhone, climate]
+    deck: "France::Northern Rhône"
+    tags: ["france","northern-rhone","climate"]
     status: reviewed
     source_id: c19-0008
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: Which climate description fits the Northern Rhône?
+      question: "How is the climate of the Northern Rhône best described?"
       choices:
-        - { text: "Cool maritime, like Muscadet", correct: false }
-        - { text: "Moderate continental", correct: true }
-        - { text: "Hot desert, like the Atacama", correct: false }
-        - { text: "High alpine only", correct: false }
+        - { text: "Cool maritime with mild, wet summers", correct: false }
+        - { text: "Moderate continental with Mediterranean influences", correct: true }
+        - { text: "Fully Mediterranean with very mild winters", correct: false }
+        - { text: "Alpine with a very short growing season", correct: false }
       explanation: |
-        **Moderate continental**, kin to Beaujolais. **Châteauneuf**
-        country farther south is a warmer, more Mediterranean story.
-
+        The north has greater seasonal variation and more regular rainfall than the southern valley, while
+        warmer, drier Mediterranean influences become more evident towards Valence.
+    fr:
+      question: "Comment décrire au mieux le climat du Rhône septentrional ?"
+      choices:
+        - { text: "Océanique frais avec des étés doux et humides", correct: false }
+        - { text: "Continental modéré avec des influences méditerranéennes", correct: true }
+        - { text: "Entièrement méditerranéen avec des hivers très doux", correct: false }
+        - { text: "Alpin avec une saison végétative très courte", correct: false }
+      explanation: |
+        Le nord connaît des variations saisonnières plus marquées et des pluies plus régulières que le sud de la
+        vallée, tandis que les influences méditerranéennes plus chaudes et sèches augmentent vers Valence.
   - id: nrhone-syrah-only-001
     type: mcq
-    deck: France::Northern Rhône
-    tags: [france, northern-rhone, grapes]
+    deck: "France::Northern Rhône"
+    tags: ["france","northern-rhone","grapes"]
     status: reviewed
     source_id: c19-0010
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: Which is the only black grape the Northern Rhône crus allow?
+      question: "Which black grape variety underpins all red crus of the Northern Rhône?"
       choices:
         - { text: "Grenache", correct: false }
         - { text: "Syrah", correct: true }
         - { text: "Mourvèdre", correct: false }
-        - { text: "Pinot Noir", correct: false }
+        - { text: "Gamay", correct: false }
       explanation: |
-        **Syrah only.** Whites can join some reds (Viognier at
-        Côte-Rôtie); no Grenache corridor.
-
+        Syrah is the sole black variety of the northern crus. Some appellations permit limited white grapes in a
+        red blend, but no second black variety.
+    fr:
+      question: "Quel cépage noir constitue la base de tous les crus rouges du Rhône septentrional ?"
+      choices:
+        - { text: "Le Grenache", correct: false }
+        - { text: "La Syrah", correct: true }
+        - { text: "Le Mourvèdre", correct: false }
+        - { text: "Le Gamay", correct: false }
+      explanation: |
+        La Syrah est l’unique cépage noir des crus septentrionaux. Certaines appellations autorisent une faible
+        proportion de cépages blancs dans le rouge, mais aucun autre cépage noir.
   - id: nrhone-syrah-limit-001
     type: mcq
-    deck: France::Northern Rhône
-    tags: [france, northern-rhone, grapes]
+    deck: "France::Northern Rhône"
+    tags: ["france","northern-rhone","grapes"]
     status: reviewed
     source_id: c19-0011
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: Which Rhône grape is hanging on at the northern edge of where it still ripens?
+      question: "Which Rhône variety approaches its reliable northern ripening limit in Côte-Rôtie?"
       choices:
         - { text: "Grenache", correct: false }
         - { text: "Syrah", correct: true }
         - { text: "Mourvèdre", correct: false }
-        - { text: "Muscat of Alexandria", correct: false }
+        - { text: "Cinsault", correct: false }
       explanation: |
-        **Syrah.** Côte-Rôtie is about as far north as it reliably
-        finishes. That is why aspect and the roasted slope matter.
-
+        Syrah needs the warmth of Côte-Rôtie’s steep, sunny slopes to ripen consistently this far north. Cooler
+        or poorly exposed sites risk herbaceous, austere fruit.
+    fr:
+      question: "Quel cépage rhodanien approche sa limite septentrionale de maturation fiable en Côte-Rôtie ?"
+      choices:
+        - { text: "Le Grenache", correct: false }
+        - { text: "La Syrah", correct: true }
+        - { text: "Le Mourvèdre", correct: false }
+        - { text: "Le Cinsault", correct: false }
+      explanation: |
+        La Syrah a besoin de la chaleur des coteaux escarpés et ensoleillés de Côte-Rôtie pour mûrir
+        régulièrement aussi loin au nord. Les sites plus frais ou mal exposés risquent de donner des raisins
+        végétaux et austères.
   - id: nrhone-syrah-profile-001
     type: mcq
-    deck: France::Northern Rhône
-    tags: [france, northern-rhone, grapes]
+    deck: "France::Northern Rhône"
+    tags: ["france","northern-rhone","grapes"]
     status: reviewed
     source_id: c19-0012
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: What shape do Northern Rhône Syrahs usually have?
+      question: "Which profile is most typical of a high-quality Northern Rhône Syrah?"
       choices:
-        - { text: "Pale, low tannin, and always sweet", correct: false }
-        - { text: "Deep colour, medium to high tannin, black fruit, sometimes black pepper or flowers", correct: true }
-        - { text: "Oily, low acid, lychee", correct: false }
-        - { text: "Light Gamay, for chilling", correct: false }
+        - { text: "Pale colour, low tannin and sweet red fruit", correct: false }
+        - { text: "Deep colour, firm tannin, black fruit and peppery or floral notes", correct: true }
+        - { text: "Medium colour, soft tannin and baked red fruit", correct: false }
+        - { text: "Deep colour, low acidity and pronounced coconut aromas", correct: false }
       explanation: |
-        **Deep, medium–high tannin, black fruit, pepper or floral.**
-        **Guigal** and **Jaboulet** sit in that family. Not southern GSM
-        warmth.
-
+        The combination of black fruit, pepper or violet and firm structure is a northern Syrah signature.
+        Bottle age can add leather, savoury spice and game.
+    fr:
+      question: "Quel profil correspond le mieux à une Syrah de qualité du Rhône septentrional ?"
+      choices:
+        - { text: "Robe pâle, peu de tanins et fruits rouges doux", correct: false }
+        - { text: "Robe profonde, tanins fermes, fruits noirs et notes poivrées ou florales", correct: true }
+        - { text: "Robe moyenne, tanins souples et fruits rouges cuits", correct: false }
+        - { text: "Robe profonde, faible acidité et arômes marqués de noix de coco", correct: false }
+      explanation: |
+        L’association de fruits noirs, de poivre ou de violette et d’une structure ferme caractérise la Syrah
+        septentrionale. La garde peut apporter du cuir, des épices savoureuses et des notes de gibier.
   - id: nrhone-syrah-oak-001
     type: mcq
-    deck: France::Northern Rhône
-    tags: [france, northern-rhone]
+    deck: "France::Northern Rhône"
+    tags: ["france","northern-rhone"]
     status: reviewed
     source_id: c19-0013
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: Who decides how much new oak a Northern Rhône Syrah sees?
+      question: "What chiefly determines the amount of new oak used for a Northern Rhône Syrah?"
       choices:
-        - { text: "INAO — 100% new barrique is mandatory", correct: false }
-        - { text: "The winemaker", correct: true }
-        - { text: "Oak is banned", correct: false }
-        - { text: "Only white wines may see oak", correct: false }
+        - { text: "A fixed requirement applying to every northern cru", correct: false }
+        - { text: "The producer’s intended style and the wine’s concentration", correct: true }
+        - { text: "A regional rule based only on alcohol level", correct: false }
+        - { text: "The proportion of white grapes in the blend", correct: false }
       explanation: |
-        **The winemaker.** **Guigal La-Las** see plenty of new oak;
-        others stay in older foudres. Not a single house style.
-
+        Appellation rules do not impose one oak regime. Producers may choose older foudres, smaller barrels or
+        new oak according to fruit concentration and house style.
+    fr:
+      question: "Qu’est-ce qui détermine principalement la proportion de bois neuf utilisée pour une Syrah du Rhône septentrional ?"
+      choices:
+        - { text: "Une obligation fixe commune à tous les crus septentrionaux", correct: false }
+        - { text: "Le style recherché par le producteur et la concentration du vin", correct: true }
+        - { text: "Une règle régionale fondée uniquement sur le degré alcoolique", correct: false }
+        - { text: "La proportion de cépages blancs dans l’assemblage", correct: false }
+      explanation: |
+        Les cahiers des charges n’imposent pas un régime d’élevage unique. Selon la concentration du fruit et le
+        style de la maison, le producteur peut choisir des foudres anciens, de petites barriques ou du bois
+        neuf.
   - id: nrhone-coferment-001
     type: mcq
-    deck: France::Northern Rhône
-    tags: [france, northern-rhone]
+    deck: "France::Northern Rhône"
+    tags: ["france","northern-rhone"]
     status: reviewed
     source_id: c19-0014
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: In which Northern Rhône cru is Syrah still often fermented with Viognier?
+      question: "In which Northern Rhône cru is Syrah especially associated with co-fermented Viognier?"
       choices:
-        - { text: "Nowhere — it is banned in every cru", correct: false }
+        - { text: "Hermitage", correct: false }
         - { text: "Côte-Rôtie", correct: true }
-        - { text: "Only in Champagne", correct: false }
-        - { text: "Only on Muscadet", correct: false }
+        - { text: "Cornas", correct: false }
+        - { text: "Crozes-Hermitage", correct: false }
       explanation: |
-        **Côte-Rôtie.** Hermitage and Saint-Joseph do it far less.
-
+        Côte-Rôtie uniquely permits Viognier alongside Syrah, up to a legal ceiling of 20%. In practice many
+        wines use much less or none.
+    fr:
+      question: "Dans quel cru du Rhône septentrional la Syrah est-elle particulièrement associée à la cofermentation avec le Viognier ?"
+      choices:
+        - { text: "Hermitage", correct: false }
+        - { text: "Côte-Rôtie", correct: true }
+        - { text: "Cornas", correct: false }
+        - { text: "Crozes-Hermitage", correct: false }
+      explanation: |
+        Côte-Rôtie est le seul cru rouge septentrional à autoriser le Viognier aux côtés de la Syrah, jusqu’à un
+        plafond légal de 20 %. En pratique, de nombreux vins en utilisent bien moins, voire pas du tout.
   - id: nrhone-white-in-red-001
     type: mcq
-    deck: France::Northern Rhône
-    tags: [france, northern-rhone]
+    deck: "France::Northern Rhône"
+    tags: ["france","northern-rhone"]
     status: reviewed
     source_id: c19-0015
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: What is the main reason Côte-Rôtie growers ferment Viognier with Syrah?
+      question: "What can a small proportion of Viognier contribute to Côte-Rôtie?"
       choices:
-        - { text: "To turn the wine rosé by law", correct: false }
-        - { text: "Aromatic lift", correct: true }
-        - { text: "To strip all tannin", correct: false }
-        - { text: "White grapes are illegal in every red", correct: false }
+        - { text: "More tannin and darker colour", correct: false }
+        - { text: "Floral aroma and a finer impression of texture", correct: true }
+        - { text: "Higher acidity and lower potential alcohol", correct: false }
+        - { text: "More extraction during extended maceration", correct: false }
       explanation: |
-        **Aromatic lift.** Colour-stability talk is extra. **Guigal**
-        Côte-Rôtie is the named floral example.
-
+        When planted and vinified with Syrah, Viognier can heighten aromatic finesse and floral lift. It is an
+        option rather than a compulsory component.
+    fr:
+      question: "Que peut apporter une faible proportion de Viognier à un Côte-Rôtie ?"
+      choices:
+        - { text: "Davantage de tanins et une couleur plus sombre", correct: false }
+        - { text: "Des arômes floraux et une impression de texture plus fine", correct: true }
+        - { text: "Une acidité plus élevée et un degré alcoolique potentiel plus faible", correct: false }
+        - { text: "Une extraction accrue pendant une longue macération", correct: false }
+      explanation: |
+        Lorsqu’il est complanté et vinifié avec la Syrah, le Viognier peut renforcer la finesse aromatique et
+        les notes florales. Il s’agit d’une possibilité, non d’un élément obligatoire.
   - id: nrhone-viognier-profile-001
     type: mcq
-    deck: France::Northern Rhône
-    tags: [france, northern-rhone, grapes]
+    deck: "France::Northern Rhône"
+    tags: ["france","northern-rhone","grapes"]
     status: reviewed
     source_id: c19-0016
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: What does Northern Rhône Viognier usually taste like?
+      question: "Which profile is most typical of ripe Northern Rhône Viognier?"
       choices:
-        - { text: "Light, high acid, 11%, green apple", correct: false }
-        - { text: "Full, low acid, high alcohol, blossom and apricot / stone fruit", correct: true }
-        - { text: "Tannic red, like Hermitage", correct: false }
-        - { text: "Steely and smoky, like Savennières", correct: false }
+        - { text: "Light body, high acidity and green-apple aromas", correct: false }
+        - { text: "Full body, moderate to low acidity and apricot or floral aromas", correct: true }
+        - { text: "Medium body, high acidity and citrus-mineral aromas", correct: false }
+        - { text: "Full body, high tannin and black-fruit aromas", correct: false }
       explanation: |
-        **Full, low acid, high alcohol, blossom and apricot.** That is
-        **Condrieu**. Not a Chablis frame.
-
+        Viognier develops its distinctive stone-fruit and blossom aromas at high ripeness. Condrieu can
+        therefore combine generous body and alcohol with relatively modest acidity.
+    fr:
+      question: "Quel profil correspond le mieux à un Viognier mûr du Rhône septentrional ?"
+      choices:
+        - { text: "Corps léger, acidité élevée et arômes de pomme verte", correct: false }
+        - { text: "Corps ample, acidité modérée à faible et arômes d’abricot ou de fleurs", correct: true }
+        - { text: "Corps moyen, acidité élevée et arômes d’agrumes et de pierre", correct: false }
+        - { text: "Corps ample, tanins élevés et arômes de fruits noirs", correct: false }
+      explanation: |
+        Le Viognier développe ses arômes caractéristiques de fruits à noyau et de fleurs à forte maturité.
+        Condrieu peut ainsi associer ampleur, alcool généreux et acidité relativement modeste.
   - id: nrhone-viognier-ripe-001
     type: mcq
-    deck: France::Northern Rhône
-    tags: [france, northern-rhone, grapes]
+    deck: "France::Northern Rhône"
+    tags: ["france","northern-rhone","grapes"]
     status: reviewed
     source_id: c19-0017
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: Why do growers hang Viognier so late that alcohol climbs and acid drops?
+      question: "Why is achieving full flavour ripeness important for Viognier in the Northern Rhône?"
       choices:
-        - { text: "It is picked green every year, by law", correct: false }
-        - { text: "The signature aromas only arrive late, when sugars are already high", correct: true }
-        - { text: "INAO forces chaptalisation to 16%", correct: false }
-        - { text: "It is a red grape", correct: false }
+        - { text: "Its tannins remain aggressively astringent until very late", correct: false }
+        - { text: "Its characteristic stone-fruit aromas develop at relatively high sugar levels", correct: true }
+        - { text: "Its colour remains red until the final days before harvest", correct: false }
+        - { text: "Its acidity rises sharply during the last stage of ripening", correct: false }
       explanation: |
-        **Aromas come late**, so growers hang fruit into high sugar —
-        alcohol up, acid down. Pick earlier and you lose the apricot.
-
+        Picking too early can give neutral fruit, while waiting for aromatic ripeness can mean high potential
+        alcohol and falling acidity. Harvest timing is therefore a key balance.
+    fr:
+      question: "Pourquoi est-il important d’atteindre une pleine maturité aromatique avec le Viognier dans le Rhône septentrional ?"
+      choices:
+        - { text: "Ses tanins restent très astringents jusqu’à une date tardive", correct: false }
+        - { text: "Ses arômes caractéristiques de fruits à noyau se développent à des teneurs en sucre assez élevées", correct: true }
+        - { text: "Sa couleur reste rouge jusqu’aux derniers jours avant la vendange", correct: false }
+        - { text: "Son acidité augmente fortement pendant la dernière phase de maturation", correct: false }
+      explanation: |
+        Une récolte trop précoce peut donner un fruit neutre, tandis qu’attendre la maturité aromatique entraîne
+        souvent un degré alcoolique potentiel élevé et une baisse d’acidité. La date de vendange est donc un
+        équilibre essentiel.
   - id: nrhone-viognier-handle-001
     type: mcq
-    deck: France::Northern Rhône
-    tags: [france, northern-rhone]
+    deck: "France::Northern Rhône"
+    tags: ["france","northern-rhone"]
     status: reviewed
     source_id: c19-0018
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: What cellar fault appears if Viognier is worked too hard?
+      question: "Which cellar risk requires careful handling of Viognier must in the Northern Rhône?"
       choices:
-        - { text: "It never oxidises and can be beaten", correct: false }
-        - { text: "An oily weight that buries the fruit", correct: true }
-        - { text: "It must be boiled", correct: false }
-        - { text: "It is illegal to press", correct: false }
+        - { text: "Excessive tannin extraction from thick skins", correct: false }
+        - { text: "Oxidation and loss of delicate aromatic freshness", correct: true }
+        - { text: "A compulsory second alcoholic fermentation", correct: false }
+        - { text: "Failure to develop red colour during maceration", correct: false }
       explanation: |
-        **Oily weight can smother the blossom.** Gentle press, careful
-        lees — **Vernay** Condrieu is the quiet handling story.
-
+        Viognier must is sensitive to oxidation and can lose aromatic definition. Protective pressing and
+        controlled handling help preserve its fruit and floral character.
+    fr:
+      question: "Quel risque de cave impose une manipulation attentive du moût de Viognier dans le Rhône septentrional ?"
+      choices:
+        - { text: "Une extraction excessive des tanins de pellicules épaisses", correct: false }
+        - { text: "L’oxydation et la perte de fraîcheur aromatique", correct: true }
+        - { text: "Une seconde fermentation alcoolique obligatoire", correct: false }
+        - { text: "L’absence de développement de couleur rouge pendant la macération", correct: false }
+      explanation: |
+        Le moût de Viognier est sensible à l’oxydation et peut perdre sa précision aromatique. Un pressurage
+        protecteur et des manipulations maîtrisées préservent son caractère fruité et floral.
   - id: nrhone-viognier-oak-001
     type: mcq
-    deck: France::Northern Rhône
-    tags: [france, northern-rhone]
+    deck: "France::Northern Rhône"
+    tags: ["france","northern-rhone"]
     status: reviewed
     source_id: c19-0019
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: How is new oak used on Northern Rhône Viognier now?
+      question: "How is oak best understood in the production of Northern Rhône Viognier?"
       choices:
-        - { text: "It is banned", correct: false }
-        - { text: "More domaines use it, but a heavy toast easily buries the fruit", correct: true }
-        - { text: "100% new oak is mandatory", correct: false }
-        - { text: "Only reds may see oak", correct: false }
+        - { text: "New oak is compulsory for every Condrieu", correct: false }
+        - { text: "Producers may use it, but strong oak can mask the variety’s perfume", correct: true }
+        - { text: "Oak is prohibited throughout the Northern Rhône", correct: false }
+        - { text: "Only neutral oak is permitted for late-picked fruit", correct: false }
       explanation: |
-        **Increasing, and easy to overdo.** The fruit is already loud;
-        more toast is not always more Condrieu.
-
+        Fermentation or maturation in barrel can add texture, but Viognier’s aromatic character is easily
+        obscured by pronounced toast. Usage depends on the producer’s style.
+    fr:
+      question: "Comment faut-il comprendre l’emploi du bois dans l’élaboration du Viognier du Rhône septentrional ?"
+      choices:
+        - { text: "Le bois neuf est obligatoire pour tout Condrieu", correct: false }
+        - { text: "Les producteurs peuvent en utiliser, mais un boisé marqué peut masquer le parfum du cépage", correct: true }
+        - { text: "Le bois est interdit dans tout le Rhône septentrional", correct: false }
+        - { text: "Seul le bois neutre est autorisé pour les raisins vendangés tardivement", correct: false }
+      explanation: |
+        La fermentation ou l’élevage en fût peut apporter de la texture, mais le caractère aromatique du
+        Viognier est facilement dominé par une chauffe prononcée. L’usage dépend du style du producteur.
   - id: nrhone-viognier-offdry-001
     type: mcq
-    deck: France::Northern Rhône
-    tags: [france, northern-rhone]
+    deck: "France::Northern Rhône"
+    tags: ["france","northern-rhone"]
     status: reviewed
     source_id: c19-0020
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: Besides dry Condrieu, what other Viognier style appears?
+      question: "Which wine style defines Condrieu AOC?"
       choices:
-        - { text: "Sparkling red only", correct: false }
-        - { text: "Some off-dry wine from late-picked fruit", correct: true }
-        - { text: "Fortified, like Port", correct: false }
-        - { text: "Icewine every January", correct: false }
+        - { text: "Sweet sparkling Viognier", correct: false }
+        - { text: "Still dry white Viognier", correct: true }
+        - { text: "Fortified sweet Viognier", correct: false }
+        - { text: "Skin-fermented amber Viognier", correct: false }
       explanation: |
-        **Off-dry, late-harvest** lots exist. They are the minority next
-        to dry Condrieu.
-
+        Condrieu is a still white appellation devoted to Viognier. Its ripe fruit and low acidity can give an
+        impression of richness even when the wine is dry.
+    fr:
+      question: "Quel style de vin définit l’AOC Condrieu ?"
+      choices:
+        - { text: "Un Viognier effervescent doux", correct: false }
+        - { text: "Un Viognier blanc sec tranquille", correct: true }
+        - { text: "Un Viognier doux fortifié", correct: false }
+        - { text: "Un Viognier orange vinifié avec les pellicules", correct: false }
+      explanation: |
+        Condrieu est une appellation de vin blanc tranquille consacrée au Viognier. La maturité du fruit et la
+        faible acidité peuvent donner une impression de richesse même lorsque le vin est sec.
   - id: nrhone-other-whites-001
     type: mcq
-    deck: France::Northern Rhône
-    tags: [france, northern-rhone, grapes]
+    deck: "France::Northern Rhône"
+    tags: ["france","northern-rhone","grapes"]
     status: reviewed
     source_id: c19-0021
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: Besides Viognier, which two whites grow in the Northern Rhône?
+      question: "Besides Viognier, which two white varieties are central to the Northern Rhône?"
       choices:
-        - { text: "Riesling and Gewurztraminer", correct: false }
+        - { text: "Clairette and Grenache Blanc", correct: false }
         - { text: "Marsanne and Roussanne", correct: true }
-        - { text: "Melon and Chenin", correct: false }
-        - { text: "Chardonnay only", correct: false }
+        - { text: "Chenin Blanc and Melon", correct: false }
+        - { text: "Sauvignon Blanc and Sémillon", correct: false }
       explanation: |
-        **Marsanne and Roussanne** (two s, two n). Hermitage and
-        Saint-Joseph whites are that pair, not Condrieu’s Viognier.
-
+        Marsanne and Roussanne make the whites of Hermitage, Crozes-Hermitage, Saint-Joseph and Saint-Péray.
+        Condrieu and Château-Grillet instead focus on Viognier.
+    fr:
+      question: "Outre le Viognier, quels deux cépages blancs sont essentiels dans le Rhône septentrional ?"
+      choices:
+        - { text: "La Clairette et le Grenache Blanc", correct: false }
+        - { text: "La Marsanne et la Roussanne", correct: true }
+        - { text: "Le Chenin Blanc et le Melon", correct: false }
+        - { text: "Le Sauvignon Blanc et le Sémillon", correct: false }
+      explanation: |
+        La Marsanne et la Roussanne produisent les blancs d’Hermitage, Crozes-Hermitage, Saint-Joseph et
+        Saint-Péray. Condrieu et Château-Grillet se consacrent au Viognier.
   - id: nrhone-mr-blend-001
     type: mcq
-    deck: France::Northern Rhône
-    tags: [france, northern-rhone, grapes]
+    deck: "France::Northern Rhône"
+    tags: ["france","northern-rhone","grapes"]
     status: reviewed
     source_id: c19-0022
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: How are Marsanne and Roussanne usually bottled in the Northern Rhône?
+      question: "How are Marsanne and Roussanne commonly used in Northern Rhône whites?"
       choices:
-        - { text: "Only as 100% Viognier", correct: false }
-        - { text: "Blended with each other", correct: true }
-        - { text: "Only as sparkling red", correct: false }
-        - { text: "They are illegal to blend", correct: false }
+        - { text: "Only as separate single-variety wines", correct: false }
+        - { text: "Often blended, although varietal examples also exist", correct: true }
+        - { text: "Only as minor additions to Viognier", correct: false }
+        - { text: "Only for traditional-method sparkling wine", correct: false }
       explanation: |
-        **Usually blended.** Single-variety bottles exist; the house
-        default is the pair.
-
+        Marsanne supplies much of the region’s white-wine volume and is frequently partnered with Roussanne.
+        Appellation rules also allow producers to bottle either variety alone in several crus.
+    fr:
+      question: "Comment la Marsanne et la Roussanne sont-elles couramment utilisées dans les blancs du Rhône septentrional ?"
+      choices:
+        - { text: "Uniquement en vins monocépages séparés", correct: false }
+        - { text: "Souvent assemblées, même s’il existe aussi des cuvées monocépages", correct: true }
+        - { text: "Uniquement comme appoint au Viognier", correct: false }
+        - { text: "Uniquement pour des vins effervescents de méthode traditionnelle", correct: false }
+      explanation: |
+        La Marsanne fournit une grande part du volume de blanc régional et est fréquemment associée à la
+        Roussanne. Dans plusieurs crus, les règles permettent aussi de vinifier l’un ou l’autre cépage seul.
   - id: nrhone-mr-roles-001
     type: mcq
-    deck: France::Northern Rhône
-    tags: [france, northern-rhone, grapes]
+    deck: "France::Northern Rhône"
+    tags: ["france","northern-rhone","grapes"]
     status: reviewed
     source_id: c19-0023
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: What does each of Marsanne and Roussanne bring to a Northern Rhône white blend?
+      question: "What complementary roles can Marsanne and Roussanne play in a Northern Rhône white blend?"
       choices:
-        - { text: "Marsanne: acid and perfume; Roussanne: only colour", correct: false }
-        - { text: "Marsanne: richness and weight; Roussanne: acidity and perfumed fruit", correct: true }
-        - { text: "Both are neutral, like Ugni Blanc", correct: false }
-        - { text: "Neither may be used in white wine", correct: false }
+        - { text: "Marsanne adds high acidity; Roussanne adds neutral alcohol", correct: false }
+        - { text: "Marsanne adds body; Roussanne adds perfume and freshness", correct: true }
+        - { text: "Marsanne adds tannin; Roussanne adds deep colour", correct: false }
+        - { text: "Marsanne adds sweetness; Roussanne prevents fermentation", correct: false }
       explanation: |
-        **Marsanne = weight; Roussanne = acid and perfume.** That is why
-        the blend is more complete than either grape alone.
-
+        Marsanne tends to give weight, moderate acidity and nutty development. Roussanne can bring a more
+        aromatic profile and additional freshness, although both vary with site and ripeness.
+    fr:
+      question: "Quels rôles complémentaires la Marsanne et la Roussanne peuvent-elles jouer dans un assemblage blanc du Rhône septentrional ?"
+      choices:
+        - { text: "La Marsanne apporte une forte acidité ; la Roussanne, un alcool neutre", correct: false }
+        - { text: "La Marsanne apporte du corps ; la Roussanne, du parfum et de la fraîcheur", correct: true }
+        - { text: "La Marsanne apporte des tanins ; la Roussanne, une couleur profonde", correct: false }
+        - { text: "La Marsanne apporte du sucre ; la Roussanne empêche la fermentation", correct: false }
+      explanation: |
+        La Marsanne donne généralement du volume, une acidité modérée et une évolution vers les fruits secs. La
+        Roussanne peut apporter davantage de parfum et de fraîcheur, même si les deux varient selon le terroir
+        et la maturité.
   - id: nrhone-mr-age-001
     type: mcq
-    deck: France::Northern Rhône
-    tags: [france, northern-rhone]
+    deck: "France::Northern Rhône"
+    tags: ["france","northern-rhone"]
     status: reviewed
     source_id: c19-0024
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: How do Marsanne–Roussanne whites usually compare with Viognier for perfume?
+      question: "How do mature Marsanne–Roussanne whites usually differ from Viognier-led whites?"
       choices:
-        - { text: "Louder perfume than Condrieu", correct: false }
-        - { text: "Less aromatic than Viognier", correct: true }
-        - { text: "They have no perfume at all, by law", correct: false }
-        - { text: "They are red wines", correct: false }
+        - { text: "They are generally more overtly floral and exotic", correct: false }
+        - { text: "They are less exuberantly aromatic and can develop nutty, honeyed complexity", correct: true }
+        - { text: "They remain neutral and cannot benefit from bottle age", correct: false }
+        - { text: "They develop the tannic structure of a red Syrah", correct: false }
       explanation: |
-        **Less perfume than Viognier; better long-term, toward
-        hazelnut.** Old **Hermitage blanc** (Jaboulet, Chapoutier) is
-        the checkable bottle.
-
+        Their youthful perfume is usually subtler than Viognier’s, but top Hermitage blanc can gain hazelnut,
+        honey and waxy complexity over many years.
+    fr:
+      question: "Comment les blancs mûrs de Marsanne et Roussanne se distinguent-ils généralement des blancs dominés par le Viognier ?"
+      choices:
+        - { text: "Ils sont généralement plus intensément floraux et exotiques", correct: false }
+        - { text: "Ils sont moins exubérants et peuvent développer une complexité de fruits secs et de miel", correct: true }
+        - { text: "Ils restent neutres et ne bénéficient jamais de la garde", correct: false }
+        - { text: "Ils développent la structure tannique d’une Syrah rouge", correct: false }
+      explanation: |
+        Leur parfum de jeunesse est souvent plus discret que celui du Viognier, mais les meilleurs Hermitage
+        blancs peuvent acquérir avec le temps des notes de noisette, de miel et de cire.
   - id: nrhone-cdr-001
     type: mcq
-    deck: France::Northern Rhône
-    tags: [france, northern-rhone]
+    deck: "France::Northern Rhône"
+    tags: ["france","northern-rhone"]
     status: reviewed
     source_id: c19-0025
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: Which southern-sounding AOC can also be bottled from Northern Rhône fruit?
+      question: "Which regional AOC can be used for wine made in both the Northern and Southern Rhône?"
       choices:
-        - { text: "Côtes de Provence", correct: false }
+        - { text: "Côtes du Vivarais", correct: false }
         - { text: "Côtes du Rhône", correct: true }
-        - { text: "Cahors", correct: false }
-        - { text: "Muscadet", correct: false }
+        - { text: "Grignan-les-Adhémar", correct: false }
+        - { text: "Ventoux", correct: false }
       explanation: |
-        **Côtes du Rhône** is valley-wide. Northern fruit can wear it
-        when it misses a cru.
-
+        Côtes du Rhône spans the valley, although most production comes from the south. Northern producers may
+        use it for suitable fruit outside or declassified from a cru.
+    fr:
+      question: "Quelle AOC régionale peut être utilisée pour des vins produits aussi bien dans le Rhône septentrional que méridional ?"
+      choices:
+        - { text: "Côtes du Vivarais", correct: false }
+        - { text: "Côtes du Rhône", correct: true }
+        - { text: "Grignan-les-Adhémar", correct: false }
+        - { text: "Ventoux", correct: false }
+      explanation: |
+        L’AOC Côtes du Rhône couvre l’ensemble de la vallée, même si l’essentiel de la production vient du sud.
+        Les producteurs septentrionaux peuvent l’utiliser pour des raisins adaptés hors cru ou déclassés.
   - id: nrhone-cru-system-001
     type: mcq
-    deck: France::Northern Rhône
-    tags: [france, northern-rhone]
+    deck: "France::Northern Rhône"
+    tags: ["france","northern-rhone"]
     status: reviewed
     source_id: c19-0026
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: Where do most Northern Rhône bottles actually come from?
+      question: "How are the Northern Rhône’s best-known wines usually identified geographically?"
       choices:
-        - { text: "Only IGP, with no crus", correct: false }
-        - { text: "One of the cru appellations", correct: true }
-        - { text: "Only Bordeaux châteaux", correct: false }
-        - { text: "Vin de France is the only name", correct: false }
+        - { text: "By a single valley-wide IGP only", correct: false }
+        - { text: "By one of eight individual cru appellations", correct: true }
+        - { text: "By a village name added to Côtes du Rhône Villages", correct: false }
+        - { text: "By a vineyard classification from premier to grand cru", correct: false }
       explanation: |
-        **The crus** — Côte-Rôtie, Hermitage, Crozes, Saint-Joseph, and
-        the rest. Generic Côtes du Rhône is the leftover, not the
-        default.
-
+        The north is dominated in reputation by eight communal crus, from Côte-Rôtie to Saint-Péray. Generic
+        Côtes du Rhône also exists, but there is no Burgundy-style cru ranking.
+    fr:
+      question: "Comment les vins les plus connus du Rhône septentrional sont-ils généralement identifiés géographiquement ?"
+      choices:
+        - { text: "Par une unique IGP couvrant toute la vallée", correct: false }
+        - { text: "Par l’une des huit appellations de cru distinctes", correct: true }
+        - { text: "Par un nom de village ajouté à Côtes du Rhône Villages", correct: false }
+        - { text: "Par un classement des vignobles de premier à grand cru", correct: false }
+      explanation: |
+        La réputation du nord repose sur huit crus communaux, de Côte-Rôtie à Saint-Péray. L’AOC Côtes du Rhône
+        existe aussi, mais il n’y a pas de classement des parcelles à la bourguignonne.
   - id: nrhone-crus-tiny-001
     type: mcq
-    deck: France::Northern Rhône
-    tags: [france, northern-rhone]
+    deck: "France::Northern Rhône"
+    tags: ["france","northern-rhone"]
     status: reviewed
     source_id: c19-0027
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: How big are most Northern Rhône crus?
+      question: "How does the area of most Northern Rhône crus compare with major regional appellations?"
       choices:
-        - { text: "The size of the Médoc", correct: false }
-        - { text: "Often tiny", correct: true }
-        - { text: "They cover half of France", correct: false }
-        - { text: "There are no crus", correct: false }
+        - { text: "Most cover tens of thousands of hectares", correct: false }
+        - { text: "Most are small and tightly delimited", correct: true }
+        - { text: "Most extend across the entire Rhône Valley", correct: false }
+        - { text: "Most share one continuous production area", correct: false }
       explanation: |
-        **Tiny** — **Château-Grillet**, **Cornas**, **Côte-Rôtie** are
-        postage stamps next to Crozes.
-
+        Château-Grillet, Hermitage, Cornas and Condrieu are all compact appellations. Crozes-Hermitage and
+        Saint-Joseph are the notable larger exceptions.
+    fr:
+      question: "Comment la superficie de la plupart des crus du Rhône septentrional se compare-t-elle à celle des grandes appellations régionales ?"
+      choices:
+        - { text: "La plupart couvrent plusieurs dizaines de milliers d’hectares", correct: false }
+        - { text: "La plupart sont petits et précisément délimités", correct: true }
+        - { text: "La plupart s’étendent sur toute la vallée du Rhône", correct: false }
+        - { text: "La plupart partagent une seule aire de production continue", correct: false }
+      explanation: |
+        Château-Grillet, Hermitage, Cornas et Condrieu sont des appellations de petite taille. Crozes-Hermitage
+        et Saint-Joseph constituent les principales exceptions plus étendues.
   - id: nrhone-big-crus-001
     type: mcq
-    deck: France::Northern Rhône
-    tags: [france, northern-rhone]
+    deck: "France::Northern Rhône"
+    tags: ["france","northern-rhone"]
     status: reviewed
     source_id: c19-0028
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: Which two Northern Rhône crus actually cover serious hectare counts?
+      question: "Which two Northern Rhône crus have the largest vineyard areas?"
       choices:
-        - { text: "Château-Grillet and Cornas", correct: false }
-        - { text: "Saint-Joseph and Crozes-Hermitage", correct: true }
-        - { text: "Côte-Rôtie and Hermitage only", correct: false }
         - { text: "Condrieu and Château-Grillet", correct: false }
+        - { text: "Saint-Joseph and Crozes-Hermitage", correct: true }
+        - { text: "Côte-Rôtie and Hermitage", correct: false }
+        - { text: "Cornas and Saint-Péray", correct: false }
       explanation: |
-        **Saint-Joseph** and **Crozes-Hermitage** are the big maps.
-        Hermitage itself is a small hill.
-
+        Crozes-Hermitage is the largest northern cru, while the long Saint-Joseph zone is also extensive. Their
+        size helps explain the wide range of sites and styles.
+    fr:
+      question: "Quels sont les deux crus du Rhône septentrional possédant les plus vastes superficies viticoles ?"
+      choices:
+        - { text: "Condrieu et Château-Grillet", correct: false }
+        - { text: "Saint-Joseph et Crozes-Hermitage", correct: true }
+        - { text: "Côte-Rôtie et Hermitage", correct: false }
+        - { text: "Cornas et Saint-Péray", correct: false }
+      explanation: |
+        Crozes-Hermitage est le plus vaste cru septentrional, tandis que la longue aire de Saint-Joseph est
+        également étendue. Leur taille contribue à la diversité des terroirs et des styles.
   - id: nrhone-ampuis-001
     type: mcq
-    deck: France::Northern Rhône
-    tags: [france, northern-rhone]
+    deck: "France::Northern Rhône"
+    tags: ["france","northern-rhone"]
     status: reviewed
     source_id: c19-0029
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: Which town sits under Côte-Rôtie?
+      question: "Which town is at the centre of Côte-Rôtie?"
       choices:
         - { text: "Tain-l’Hermitage", correct: false }
         - { text: "Ampuis", correct: true }
-        - { text: "Nantes", correct: false }
-        - { text: "Beaune", correct: false }
+        - { text: "Tournon-sur-Rhône", correct: false }
+        - { text: "Saint-Péray", correct: false }
       explanation: |
-        **Ampuis.** **Guigal**’s cellar is the postcard. Tain is
-        Hermitage.
-
+        Ampuis lies below Côte-Rôtie’s famous slopes on the right bank. Tain-l’Hermitage is instead associated
+        with the Hermitage hill.
+    fr:
+      question: "Quelle commune se trouve au cœur de Côte-Rôtie ?"
+      choices:
+        - { text: "Tain-l’Hermitage", correct: false }
+        - { text: "Ampuis", correct: true }
+        - { text: "Tournon-sur-Rhône", correct: false }
+        - { text: "Saint-Péray", correct: false }
+      explanation: |
+        Ampuis se situe au pied des célèbres coteaux de Côte-Rôtie, sur la rive droite. Tain-l’Hermitage est en
+        revanche associé à la colline de l’Hermitage.
   - id: nrhone-cr-north-001
     type: mcq
-    deck: France::Northern Rhône
-    tags: [france, northern-rhone]
+    deck: "France::Northern Rhône"
+    tags: ["france","northern-rhone"]
     status: reviewed
     source_id: c19-0030
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: Which is the northernmost Northern Rhône cru?
+      question: "Which is the northernmost cru of the Rhône Valley?"
       choices:
-        - { text: "Cornas", correct: false }
+        - { text: "Condrieu", correct: false }
         - { text: "Côte-Rôtie", correct: true }
-        - { text: "Gigondas", correct: false }
-        - { text: "Muscadet", correct: false }
+        - { text: "Saint-Joseph", correct: false }
+        - { text: "Cornas", correct: false }
       explanation: |
-        **Côte-Rôtie** — first cru as you leave Lyon. Cornas is the
-        southern end of the north.
-
+        Côte-Rôtie begins only a short distance south of Lyon and is the valley’s northernmost appellation.
+        Condrieu follows immediately downstream.
+    fr:
+      question: "Quel est le cru le plus septentrional de la vallée du Rhône ?"
+      choices:
+        - { text: "Condrieu", correct: false }
+        - { text: "Côte-Rôtie", correct: true }
+        - { text: "Saint-Joseph", correct: false }
+        - { text: "Cornas", correct: false }
+      explanation: |
+        Côte-Rôtie commence à peu de distance au sud de Lyon et constitue l’appellation la plus septentrionale
+        de la vallée. Condrieu lui succède immédiatement en aval.
   - id: nrhone-cr-name-001
     type: mcq
-    deck: France::Northern Rhône
-    tags: [france, northern-rhone]
+    deck: "France::Northern Rhône"
+    tags: ["france","northern-rhone"]
     status: reviewed
     source_id: c19-0031
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: What does Côte-Rôtie literally mean?
+      question: "What does the name Côte-Rôtie mean?"
       choices:
-        - { text: "Frozen slope", correct: false }
+        - { text: "Golden slope", correct: false }
         - { text: "Roasted slope", correct: true }
-        - { text: "White castle", correct: false }
-        - { text: "Little hermitage", correct: false }
+        - { text: "Terraced slope", correct: false }
+        - { text: "Northern slope", correct: false }
       explanation: |
-        **Roasted slope** — the south/south-east face cooks in the sun.
-        That is the name, not a toast level.
-
+        The name evokes the intense sun received by the steep, well-exposed vineyards above Ampuis. It does not
+        refer to oak toasting.
+    fr:
+      question: "Que signifie le nom Côte-Rôtie ?"
+      choices:
+        - { text: "Coteau doré", correct: false }
+        - { text: "Coteau rôti", correct: true }
+        - { text: "Coteau en terrasses", correct: false }
+        - { text: "Coteau du nord", correct: false }
+      explanation: |
+        Le nom évoque l’ensoleillement intense reçu par les vignobles escarpés et bien exposés au-dessus
+        d’Ampuis. Il ne fait pas référence à la chauffe des fûts.
   - id: nrhone-cr-colour-001
     type: mcq
-    deck: France::Northern Rhône
-    tags: [france, northern-rhone]
+    deck: "France::Northern Rhône"
+    tags: ["france","northern-rhone"]
     status: reviewed
     source_id: c19-0032
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: What colours may Côte-Rôtie bottle?
+      question: "Which wine colour is permitted under Côte-Rôtie AOC?"
       choices:
-        - { text: "White and sparkling only", correct: false }
+        - { text: "White only", correct: false }
         - { text: "Red only", correct: true }
-        - { text: "Rosé only", correct: false }
-        - { text: "Any colour, including orange", correct: false }
+        - { text: "Red and white", correct: false }
+        - { text: "Red and rosé", correct: false }
       explanation: |
-        **Red only.** Viognier goes into the red ferment; there is no
-        Côte-Rôtie blanc.
-
+        Côte-Rôtie is a red-wine appellation. Viognier may accompany Syrah in the red blend, but it cannot be
+        bottled as Côte-Rôtie blanc.
+    fr:
+      question: "Quelle couleur de vin est autorisée sous l’AOC Côte-Rôtie ?"
+      choices:
+        - { text: "Blanc uniquement", correct: false }
+        - { text: "Rouge uniquement", correct: true }
+        - { text: "Rouge et blanc", correct: false }
+        - { text: "Rouge et rosé", correct: false }
+      explanation: |
+        Côte-Rôtie est une appellation de vin rouge. Le Viognier peut accompagner la Syrah dans l’assemblage
+        rouge, mais ne peut pas être mis en bouteille comme Côte-Rôtie blanc.
   - id: nrhone-cr-grapes-001
     type: mcq
-    deck: France::Northern Rhône
-    tags: [france, northern-rhone]
+    deck: "France::Northern Rhône"
+    tags: ["france","northern-rhone"]
     status: reviewed
     source_id: c19-0033
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: Which grapes may go into Côte-Rôtie?
+      question: "Which varieties are authorised in Côte-Rôtie?"
       choices:
-        - { text: "Grenache and Mourvèdre only", correct: false }
-        - { text: "Syrah, and Viognier in small amounts", correct: true }
-        - { text: "Pinot Noir only", correct: false }
-        - { text: "Marsanne only", correct: false }
+        - { text: "Syrah and Marsanne", correct: false }
+        - { text: "Syrah and Viognier", correct: true }
+        - { text: "Syrah and Roussanne", correct: false }
+        - { text: "Syrah and Grenache", correct: false }
       explanation: |
-        **Syrah + optional Viognier.** The white is not a separate
-        bottling.
-
+        Syrah is the principal and only black variety; Viognier may form up to 20% of the blend. No separate
+        white Côte-Rôtie is produced.
+    fr:
+      question: "Quels cépages sont autorisés en Côte-Rôtie ?"
+      choices:
+        - { text: "Syrah et Marsanne", correct: false }
+        - { text: "Syrah et Viognier", correct: true }
+        - { text: "Syrah et Roussanne", correct: false }
+        - { text: "Syrah et Grenache", correct: false }
+      explanation: |
+        La Syrah est le cépage principal et l’unique cépage noir ; le Viognier peut représenter jusqu’à 20 % de
+        l’assemblage. Il n’existe pas de Côte-Rôtie blanc distinct.
   - id: nrhone-cr-viognier-how-001
     type: mcq
-    deck: France::Northern Rhône
-    tags: [france, northern-rhone]
+    deck: "France::Northern Rhône"
+    tags: ["france","northern-rhone"]
     status: reviewed
     source_id: c19-0034
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: How does Viognier enter a Côte-Rôtie?
+      question: "How is Viognier traditionally incorporated into some Côte-Rôtie wines?"
       choices:
-        - { text: "As a late dose of sweet reserve, after malo", correct: false }
-        - { text: "In small amounts, fermented with the Syrah", correct: true }
-        - { text: "As a 100% white AOC", correct: false }
-        - { text: "It is banned", correct: false }
+        - { text: "It is added as sweet reserve after fermentation", correct: false }
+        - { text: "It is planted with Syrah and often co-fermented with it", correct: true }
+        - { text: "It is matured separately and added only after bottling", correct: false }
+        - { text: "It is used solely to make a separate white wine", correct: false }
       explanation: |
-        **Small amount, co-fermented.** You do not splash it in after
-        the red is dry.
-
+        Traditional mixed plantings allow the two varieties to be harvested and fermented together. Producers
+        may also omit Viognier, and modern practice varies.
+    fr:
+      question: "Comment le Viognier est-il traditionnellement intégré à certains Côte-Rôtie ?"
+      choices:
+        - { text: "Il est ajouté comme réserve sucrée après fermentation", correct: false }
+        - { text: "Il est complanté avec la Syrah et souvent cofermenté avec elle", correct: true }
+        - { text: "Il est élevé séparément puis ajouté après la mise en bouteille", correct: false }
+        - { text: "Il sert uniquement à produire un vin blanc distinct", correct: false }
+      explanation: |
+        La complantation traditionnelle permet de vendanger et de fermenter les deux cépages ensemble. Les
+        producteurs peuvent aussi ne pas utiliser de Viognier, et les pratiques modernes varient.
   - id: nrhone-cr-viognier-pct-001
     type: mcq
-    deck: France::Northern Rhône
-    tags: [france, northern-rhone]
+    deck: "France::Northern Rhône"
+    tags: ["france","northern-rhone"]
     status: reviewed
     source_id: c19-0035
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: What is the legal Viognier ceiling in Côte-Rôtie?
+      question: "What is the maximum permitted proportion of Viognier in Côte-Rôtie?"
       choices:
-        - { text: "0% — white grapes are banned", correct: false }
-        - { text: "Up to 20%", correct: true }
-        - { text: "At least 51%", correct: false }
-        - { text: "100%", correct: false }
+        - { text: "10%", correct: false }
+        - { text: "20%", correct: true }
+        - { text: "30%", correct: false }
+        - { text: "49%", correct: false }
       explanation: |
-        **Up to 20%.** Most domaines use far less, or none. The cap is
-        not the house recipe.
-
+        The legal ceiling is 20%, but most blends contain much less. The figure is a maximum, not a target or a
+        minimum.
+    fr:
+      question: "Quelle est la proportion maximale de Viognier autorisée en Côte-Rôtie ?"
+      choices:
+        - { text: "10 %", correct: false }
+        - { text: "20 %", correct: true }
+        - { text: "30 %", correct: false }
+        - { text: "49 %", correct: false }
+      explanation: |
+        Le plafond légal est de 20 %, mais la plupart des assemblages en contiennent bien moins. Il s’agit d’un
+        maximum, non d’un objectif ni d’un minimum.
   - id: nrhone-cr-style-001
     type: mcq
-    deck: France::Northern Rhône
-    tags: [france, northern-rhone]
+    deck: "France::Northern Rhône"
+    tags: ["france","northern-rhone"]
     status: reviewed
     source_id: c19-0036
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: How does Côte-Rôtie usually sit next to Hermitage in the glass?
+      question: "How does Côte-Rôtie typically differ stylistically from Hermitage?"
       choices:
-        - { text: "Lighter, paler, and always sweet", correct: false }
-        - { text: "Deep, full, spicy, with more floral lift and a finer texture than Hermitage", correct: true }
-        - { text: "Identical, by AOC law", correct: false }
-        - { text: "It is a white wine", correct: false }
+        - { text: "It is usually sweeter and lower in acidity", correct: false }
+        - { text: "It is often more perfumed and finely textured", correct: true }
+        - { text: "It is normally lighter in colour and without tannin", correct: false }
+        - { text: "It is generally fuller and more powerful", correct: false }
       explanation: |
-        **Deep, full, spicy**, plus **floral freshness and finer
-        texture** than Hermitage. Viognier and the schist/mica slope
-        help that lift.
-
+        Both can be structured, ageworthy Syrah, but Côte-Rôtie is especially associated with floral perfume and
+        refined tannin. Hermitage is the classic benchmark for greater mass and power.
+    fr:
+      question: "Comment Côte-Rôtie se distingue-t-il généralement d’Hermitage sur le plan stylistique ?"
+      choices:
+        - { text: "Il est généralement plus doux et moins acide", correct: false }
+        - { text: "Il est souvent plus parfumé et doté d’une texture plus fine", correct: true }
+        - { text: "Il est habituellement plus pâle et dépourvu de tanins", correct: false }
+        - { text: "Il est généralement plus ample et plus puissant", correct: false }
+      explanation: |
+        Les deux peuvent être des Syrah structurées et de longue garde, mais Côte-Rôtie est particulièrement
+        associé au parfum floral et à des tanins raffinés. Hermitage reste la référence classique de puissance
+        et de densité.
   - id: nrhone-condrieu-colour-001
     type: mcq
-    deck: France::Northern Rhône
-    tags: [france, northern-rhone]
+    deck: "France::Northern Rhône"
+    tags: ["france","northern-rhone"]
     status: reviewed
     source_id: c19-0037
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: What colours may Condrieu bottle?
+      question: "Which wine colour is permitted under Condrieu AOC?"
       choices:
-        - { text: "Red only, like Côte-Rôtie", correct: false }
+        - { text: "Red only", correct: false }
         - { text: "White only", correct: true }
-        - { text: "Rosé only", correct: false }
-        - { text: "Any colour", correct: false }
+        - { text: "White and red", correct: false }
+        - { text: "White and rosé", correct: false }
       explanation: |
-        **White only.** 100% Viognier. No Condrieu rouge.
-
+        Condrieu is exclusively a still white appellation. Its neighbour Côte-Rôtie is red only, despite
+        permitting some Viognier in the blend.
+    fr:
+      question: "Quelle couleur de vin est autorisée sous l’AOC Condrieu ?"
+      choices:
+        - { text: "Rouge uniquement", correct: false }
+        - { text: "Blanc uniquement", correct: true }
+        - { text: "Blanc et rouge", correct: false }
+        - { text: "Blanc et rosé", correct: false }
+      explanation: |
+        Condrieu est exclusivement une appellation de vin blanc tranquille. Sa voisine Côte-Rôtie ne produit que
+        du rouge, malgré l’autorisation d’un peu de Viognier dans l’assemblage.
   - id: nrhone-condrieu-grape-001
     type: mcq
-    deck: France::Northern Rhône
-    tags: [france, northern-rhone]
+    deck: "France::Northern Rhône"
+    tags: ["france","northern-rhone"]
     status: reviewed
     source_id: c19-0038
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: Which grape is Condrieu allowed to be?
+      question: "Which variety must be used for Condrieu AOC?"
       choices:
-        - { text: "Marsanne and Roussanne only", correct: false }
-        - { text: "Viognier only", correct: true }
-        - { text: "Syrah", correct: false }
-        - { text: "Chardonnay", correct: false }
+        - { text: "Marsanne", correct: false }
+        - { text: "Viognier", correct: true }
+        - { text: "Roussanne", correct: false }
+        - { text: "Clairette", correct: false }
       explanation: |
-        **Viognier only.** That is the AOC.
-
+        Condrieu is made solely from Viognier. Marsanne and Roussanne dominate the other white crus of the
+        Northern Rhône.
+    fr:
+      question: "Quel cépage doit être utilisé pour l’AOC Condrieu ?"
+      choices:
+        - { text: "Marsanne", correct: false }
+        - { text: "Viognier", correct: true }
+        - { text: "Roussanne", correct: false }
+        - { text: "Clairette", correct: false }
+      explanation: |
+        Condrieu est élaboré exclusivement à partir de Viognier. La Marsanne et la Roussanne dominent les autres
+        crus blancs du Rhône septentrional.
   - id: nrhone-condrieu-best-001
     type: mcq
-    deck: France::Northern Rhône
-    tags: [france, northern-rhone]
+    deck: "France::Northern Rhône"
+    tags: ["france","northern-rhone"]
     status: reviewed
     source_id: c19-0039
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: Which Condrieu vineyards usually make the finest wine?
+      question: "Which vineyard conditions most favour high-quality Condrieu?"
       choices:
-        - { text: "High-crop valley-floor young vines", correct: false }
-        - { text: "Low-yielding old vines on steep, well-exposed terraces", correct: true }
-        - { text: "Only the Médoc gravel", correct: false }
-        - { text: "Indoor tunnels", correct: false }
+        - { text: "Deep fertile soils on cool valley flats", correct: false }
+        - { text: "Low yields on steep, warm and well-exposed terraces", correct: true }
+        - { text: "High yields on shaded north-facing slopes", correct: false }
+        - { text: "Wet clay soils beside the river", correct: false }
       explanation: |
-        **Old vines, low yield, steep terraces.** **Château-Grillet**
-        and the best **Vernay** sites sit in that picture.
-
+        Steep terraces over poor, often granitic soils control vigour and maximise exposure. Low yields help
+        concentrate a variety that can otherwise become broad and dilute.
+    fr:
+      question: "Quelles conditions viticoles favorisent le plus un Condrieu de qualité ?"
+      choices:
+        - { text: "Des sols profonds et fertiles sur des terrains frais et plats", correct: false }
+        - { text: "De faibles rendements sur des terrasses escarpées, chaudes et bien exposées", correct: true }
+        - { text: "De forts rendements sur des coteaux ombragés orientés au nord", correct: false }
+        - { text: "Des sols argileux humides au bord du fleuve", correct: false }
+      explanation: |
+        Les terrasses escarpées aux sols pauvres, souvent granitiques, limitent la vigueur et maximisent
+        l’exposition. De faibles rendements concentrent un cépage qui peut sinon devenir large et dilué.
   - id: nrhone-grillet-001
     type: mcq
-    deck: France::Northern Rhône
-    tags: [france, northern-rhone]
+    deck: "France::Northern Rhône"
+    tags: ["france","northern-rhone"]
     status: reviewed
     source_id: c19-0040
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: Which white AOC is the single-estate Château-Grillet carved out of?
+      question: "How is Château-Grillet related to Condrieu?"
       choices:
-        - { text: "Côte-Rôtie", correct: false }
-        - { text: "Condrieu", correct: true }
-        - { text: "Champagne", correct: false }
-        - { text: "Vouvray", correct: false }
+        - { text: "It is Condrieu’s largest cooperative brand", correct: false }
+        - { text: "It is a tiny separate Viognier cru within Condrieu’s area", correct: true }
+        - { text: "It is the red-wine sector of Condrieu", correct: false }
+        - { text: "It is a village name within Saint-Joseph", correct: false }
       explanation: |
-        **One-property AOC inside Condrieu**, 100% Viognier — **not**
-        inside Côte-Rôtie, and **not** a red. The wine is Condrieu’s
-        neighbour, not Ampuis Syrah.
-
+        Château-Grillet has its own small AOC for Viognier, geographically surrounded by Condrieu vineyards. It
+        is legally distinct rather than a Condrieu lieu-dit.
+    fr:
+      question: "Quel est le lien entre Château-Grillet et Condrieu ?"
+      choices:
+        - { text: "C’est la plus grande marque coopérative de Condrieu", correct: false }
+        - { text: "C’est un minuscule cru distinct de Viognier enclavé dans l’aire de Condrieu", correct: true }
+        - { text: "C’est le secteur de vins rouges de Condrieu", correct: false }
+        - { text: "C’est une dénomination villageoise de Saint-Joseph", correct: false }
+      explanation: |
+        Château-Grillet possède sa propre petite AOC de Viognier, géographiquement entourée par le vignoble de
+        Condrieu. Il s’agit d’une appellation juridiquement distincte, non d’un lieu-dit de Condrieu.
   - id: nrhone-stjo-where-001
     type: mcq
-    deck: France::Northern Rhône
-    tags: [france, northern-rhone]
+    deck: "France::Northern Rhône"
+    tags: ["france","northern-rhone"]
     status: reviewed
     source_id: c19-0041
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: Where does Saint-Joseph run along the Rhône?
+      question: "Where is the Saint-Joseph AOC situated?"
       choices:
-        - { text: "Only east of Tain, on the Hermitage hill", correct: false }
-        - { text: "The west bank, between Condrieu and Tournon", correct: true }
-        - { text: "The Nantais sand", correct: false }
-        - { text: "Inside Châteauneuf-du-Pape", correct: false }
+        - { text: "On the left bank around the Hermitage hill", correct: false }
+        - { text: "Along a long stretch of the right bank south of Condrieu", correct: true }
+        - { text: "On both banks immediately around Avignon", correct: false }
+        - { text: "On the southern plain east of Orange", correct: false }
       explanation: |
-        **West bank, Condrieu down to Tournon.** A long, thin AOC — that
-        is why quality swings so hard.
-
+        Saint-Joseph follows the right bank for roughly 60 kilometres, from the northern sector near Condrieu
+        through the historic slopes around Tournon and Mauves.
+    fr:
+      question: "Où se situe l’AOC Saint-Joseph ?"
+      choices:
+        - { text: "Sur la rive gauche autour de la colline de l’Hermitage", correct: false }
+        - { text: "Le long d’une vaste portion de la rive droite au sud de Condrieu", correct: true }
+        - { text: "Sur les deux rives immédiatement autour d’Avignon", correct: false }
+        - { text: "Dans la plaine méridionale à l’est d’Orange", correct: false }
+      explanation: |
+        Saint-Joseph suit la rive droite sur environ 60 kilomètres, depuis le secteur nord proche de Condrieu
+        jusqu’aux coteaux historiques autour de Tournon et Mauves.
   - id: nrhone-stjo-red-001
     type: mcq
-    deck: France::Northern Rhône
-    tags: [france, northern-rhone]
+    deck: "France::Northern Rhône"
+    tags: ["france","northern-rhone"]
     status: reviewed
     source_id: c19-0042
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: What is most Saint-Joseph in the glass?
+      question: "Which style accounts for most Saint-Joseph production?"
       choices:
-        - { text: "Sweet white Viognier", correct: false }
+        - { text: "White Viognier", correct: false }
         - { text: "Red Syrah", correct: true }
-        - { text: "Sparkling Melon", correct: false }
-        - { text: "Rosé Pinot Noir", correct: false }
+        - { text: "White Marsanne–Roussanne", correct: false }
+        - { text: "Traditional-method sparkling white", correct: false }
       explanation: |
-        **Red Syrah** is the volume. White exists; it is the side
-        project.
-
+        Red wine based on Syrah dominates the appellation. A smaller quantity of white Saint-Joseph is made from
+        Marsanne and Roussanne.
+    fr:
+      question: "Quel style représente l’essentiel de la production de Saint-Joseph ?"
+      choices:
+        - { text: "Le Viognier blanc", correct: false }
+        - { text: "La Syrah rouge", correct: true }
+        - { text: "Le blanc de Marsanne et Roussanne", correct: false }
+        - { text: "Le blanc effervescent de méthode traditionnelle", correct: false }
+      explanation: |
+        Le vin rouge à base de Syrah domine l’appellation. Une quantité plus faible de Saint-Joseph blanc est
+        produite à partir de Marsanne et de Roussanne.
   - id: nrhone-stjo-white-001
     type: mcq
-    deck: France::Northern Rhône
-    tags: [france, northern-rhone]
+    deck: "France::Northern Rhône"
+    tags: ["france","northern-rhone"]
     status: reviewed
     source_id: c19-0043
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: Which grapes make Saint-Joseph blanc?
+      question: "Which varieties are used for Saint-Joseph blanc?"
       choices:
-        - { text: "Pinot Noir", correct: false }
-        - { text: "Marsanne and/or Roussanne", correct: true }
-        - { text: "Orange from Gewurztraminer", correct: false }
-        - { text: "There is no white Saint-Joseph", correct: false }
+        - { text: "Viognier only", correct: false }
+        - { text: "Marsanne and Roussanne", correct: true }
+        - { text: "Clairette and Grenache Blanc", correct: false }
+        - { text: "Chardonnay and Aligoté", correct: false }
       explanation: |
-        **White Marsanne / Roussanne.** Not Viognier — that is Condrieu.
-
+        The white wines use the Northern Rhône’s Marsanne–Roussanne pairing. Viognier instead defines Condrieu
+        and Château-Grillet.
+    fr:
+      question: "Quels cépages sont utilisés pour le Saint-Joseph blanc ?"
+      choices:
+        - { text: "Le Viognier uniquement", correct: false }
+        - { text: "La Marsanne et la Roussanne", correct: true }
+        - { text: "La Clairette et le Grenache Blanc", correct: false }
+        - { text: "Le Chardonnay et l’Aligoté", correct: false }
+      explanation: |
+        Les vins blancs reposent sur l’association septentrionale de Marsanne et Roussanne. Le Viognier définit
+        plutôt Condrieu et Château-Grillet.
   - id: nrhone-stjo-best-001
     type: mcq
-    deck: France::Northern Rhône
-    tags: [france, northern-rhone]
+    deck: "France::Northern Rhône"
+    tags: ["france","northern-rhone"]
     status: reviewed
     source_id: c19-0044
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: Where do the serious Saint-Joseph reds usually come from?
+      question: "Which Saint-Joseph sites generally produce the most concentrated reds?"
       choices:
-        - { text: "Only the valley-floor sand by the motorway", correct: false }
-        - { text: "Terraces near Tournon, and the steep ground just south of Condrieu", correct: true }
-        - { text: "The Médoc gravel", correct: false }
-        - { text: "Only the plateau above the valley, for volume", correct: false }
+        - { text: "Deep soils on broad valley flats", correct: false }
+        - { text: "Steep granite terraces near Tournon and Mauves", correct: true }
+        - { text: "High fertile plateaux far above the river", correct: false }
+        - { text: "Cool alluvial sites beside the Rhône", correct: false }
       explanation: |
-        **Terraces near Tournon**, plus the old core **south of
-        Condrieu**. **Gonon** is the named Tournon-side example.
-
+        Steep, thin-soiled granite terraces restrict yields and give the best exposure. The long appellation
+        also includes easier sites capable of lighter wines.
+    fr:
+      question: "Quels terroirs de Saint-Joseph produisent généralement les rouges les plus concentrés ?"
+      choices:
+        - { text: "Les sols profonds des vastes terrains plats de la vallée", correct: false }
+        - { text: "Les terrasses granitiques escarpées du cœur historique autour de Tournon et Mauves", correct: true }
+        - { text: "Les hauts plateaux fertiles très éloignés du fleuve", correct: false }
+        - { text: "Les sites alluviaux frais au bord du Rhône", correct: false }
+      explanation: |
+        Les terrasses granitiques escarpées aux sols minces limitent les rendements et offrent la meilleure
+        exposition. La longue appellation comprend aussi des sites plus faciles donnant des vins plus légers.
   - id: nrhone-stjo-best-style-001
     type: mcq
-    deck: France::Northern Rhône
-    tags: [france, northern-rhone]
+    deck: "France::Northern Rhône"
+    tags: ["france","northern-rhone"]
     status: reviewed
     source_id: c19-0045
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: How close can the best Saint-Joseph reds get to Hermitage?
+      question: "How can top Saint-Joseph reds compare with Hermitage?"
       choices:
-        - { text: "They are legally identical, by INAO", correct: false }
-        - { text: "The best can show similar intensity and structure", correct: true }
-        - { text: "They are always lighter than generic Crozes", correct: false }
-        - { text: "They are white only", correct: false }
+        - { text: "They can approach its concentration and structure, with less mass", correct: false }
+        - { text: "They are normally fuller, more tannic and longer-lived", correct: true }
+        - { text: "They are always made by carbonic maceration", correct: false }
+        - { text: "They are legally identical except for the label", correct: false }
       explanation: |
-        **Similar intensity and structure** on the best terraces — still
-        Saint-Joseph, not the Hermitage hill. **Gonon** is the usual
-        comparison.
-
+        The best granite sites can yield serious, ageworthy Syrah, although Hermitage generally remains more
+        powerful and concentrated. Site and producer are crucial in Saint-Joseph.
+    fr:
+      question: "Comment les meilleurs Saint-Joseph rouges peuvent-ils se comparer à Hermitage ?"
+      choices:
+        - { text: "Ils peuvent approcher sa concentration et sa structure, avec moins de masse", correct: false }
+        - { text: "Ils sont habituellement plus amples, plus tanniques et de plus longue garde", correct: true }
+        - { text: "Ils sont toujours élaborés par macération carbonique", correct: false }
+        - { text: "Ils sont juridiquement identiques, hormis l’étiquette", correct: false }
+      explanation: |
+        Les meilleurs terroirs granitiques peuvent donner des Syrah sérieuses et de garde, même si Hermitage
+        reste généralement plus puissant et concentré. Le terroir et le producteur sont déterminants à
+        Saint-Joseph.
   - id: nrhone-stjo-volume-sites-001
     type: mcq
-    deck: France::Northern Rhône
-    tags: [france, northern-rhone]
+    deck: "France::Northern Rhône"
+    tags: ["france","northern-rhone"]
     status: reviewed
     source_id: c19-0046
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: Where does high-volume Saint-Joseph grow?
+      question: "Which Saint-Joseph sites are most likely to give lighter, higher-volume wines?"
       choices:
-        - { text: "Only the granite terraces of Hermitage", correct: false }
-        - { text: "Fertile flatter valley-floor sites and the plateaux above the valley", correct: true }
-        - { text: "Only Château-Grillet", correct: false }
-        - { text: "The Nantais", correct: false }
+        - { text: "The steepest old granite terraces", correct: false }
+        - { text: "Gentler slopes and deeper soils outside the historic core", correct: true }
+        - { text: "The warmest south-facing terraces near Mauves", correct: false }
+        - { text: "The lowest-yielding parcels on decomposed granite", correct: false }
       explanation: |
-        **Valley floor and plateau** — easier farming, bigger crops, less
-        of the granite terrace story.
-
+        The appellation’s expansion brought in sites that are easier to farm and more fertile than the old
+        terraces. Higher yields and less favourable exposure can reduce concentration.
+    fr:
+      question: "Quels terroirs de Saint-Joseph sont les plus susceptibles de donner des vins plus légers et produits en plus grand volume ?"
+      choices:
+        - { text: "Les plus anciennes terrasses granitiques très escarpées", correct: false }
+        - { text: "Les pentes plus douces et les sols plus profonds hors du cœur historique", correct: true }
+        - { text: "Les terrasses les plus chaudes orientées au sud près de Mauves", correct: false }
+        - { text: "Les parcelles aux plus faibles rendements sur granite décomposé", correct: false }
+      explanation: |
+        L’extension de l’appellation a intégré des sites plus faciles à cultiver et plus fertiles que les
+        anciennes terrasses. Des rendements plus élevés et une exposition moins favorable peuvent réduire la
+        concentration.
   - id: nrhone-stjo-volume-style-001
     type: mcq
-    deck: France::Northern Rhône
-    tags: [france, northern-rhone]
+    deck: "France::Northern Rhône"
+    tags: ["france","northern-rhone"]
     status: reviewed
     source_id: c19-0047
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: What are high-volume Saint-Joseph reds usually like?
+      question: "Which profile is most typical of lighter, higher-volume Saint-Joseph red?"
       choices:
-        - { text: "Fuller than Hermitage, with 15 years of new oak", correct: false }
-        - { text: "Lighter, often with some carbonic maceration, and a peppery Syrah perfume", correct: true }
-        - { text: "Always sweet Viognier", correct: false }
-        - { text: "Fortified", correct: false }
+        - { text: "Full-bodied, densely tannic and built for long ageing", correct: false }
+        - { text: "Medium-bodied, peppery and fruit-driven for relatively early drinking", correct: true }
+        - { text: "Pale, sweet and low in acidity", correct: false }
+        - { text: "Heavily extracted with dominant new-oak flavours", correct: false }
       explanation: |
-        **Lighter, sometimes carbonic, pepper-led.** Easy Syrah, not
-        **La Chapelle**.
-
+        Syrah from easier, higher-yielding sites can retain pepper and fresh dark fruit without the
+        concentration of the best granite terraces.
+    fr:
+      question: "Quel profil correspond le mieux à un Saint-Joseph rouge plus léger et produit en plus grand volume ?"
+      choices:
+        - { text: "Corsé, très tannique et destiné à une longue garde", correct: false }
+        - { text: "De corps moyen, poivré et fruité, à boire relativement jeune", correct: true }
+        - { text: "Pâle, doux et peu acide", correct: false }
+        - { text: "Très extrait avec un boisé neuf dominant", correct: false }
+      explanation: |
+        La Syrah issue de sites plus faciles et plus productifs peut conserver le poivre et la fraîcheur du
+        fruit noir sans atteindre la concentration des meilleures terrasses granitiques.
   - id: nrhone-lightest-001
     type: mcq
-    deck: France::Northern Rhône
-    tags: [france, northern-rhone]
+    deck: "France::Northern Rhône"
+    tags: ["france","northern-rhone"]
     status: reviewed
     source_id: c19-0048
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: Which Northern Rhône reds are usually the lightest in body?
+      question: "Where are some of the Northern Rhône’s lightest red styles most likely to originate?"
       choices:
-        - { text: "Hermitage from the hill", correct: false }
-        - { text: "The high-volume Saint-Joseph reds", correct: true }
-        - { text: "Cornas from the granite amphitheatre", correct: false }
-        - { text: "There are no light reds", correct: false }
+        - { text: "The Hermitage hill and the warmest Cornas slopes", correct: false }
+        - { text: "Higher-volume Saint-Joseph sites and the southern Crozes-Hermitage plain", correct: true }
+        - { text: "The steepest Côte-Rôtie and northern Crozes terraces", correct: false }
+        - { text: "The lowest-yielding old vines of Cornas", correct: false }
       explanation: |
-        **High-volume Saint-Joseph.** Crozes can be light too; the long,
-        diluted Saint-Joseph map is the usual source of the lightest
-        reds.
-
+        Less favourable exposure, deeper soils and higher yields can produce supple Syrah for earlier drinking.
+        Appellation name alone does not determine weight.
+    fr:
+      question: "D’où proviennent le plus souvent certains des rouges les plus légers du Rhône septentrional ?"
+      choices:
+        - { text: "De la colline de l’Hermitage et des coteaux les plus chauds de Cornas", correct: false }
+        - { text: "Des sites productifs de Saint-Joseph et de la plaine méridionale de Crozes-Hermitage", correct: true }
+        - { text: "Des coteaux les plus raides de Côte-Rôtie et du nord de Crozes", correct: false }
+        - { text: "Des vieilles vignes aux plus faibles rendements de Cornas", correct: false }
+      explanation: |
+        Une exposition moins favorable, des sols plus profonds et des rendements supérieurs peuvent produire des
+        Syrah souples à boire plus jeunes. Le seul nom de l’appellation ne détermine pas le corps du vin.
   - id: nrhone-hermitage-where-001
     type: mcq
-    deck: France::Northern Rhône
-    tags: [france, northern-rhone]
+    deck: "France::Northern Rhône"
+    tags: ["france","northern-rhone"]
     status: reviewed
     source_id: c19-0049
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: Where does the Hermitage hill sit?
+      question: "Where is the Hermitage vineyard situated?"
       choices:
-        - { text: "West of Ampuis only", correct: false }
-        - { text: "A steep south-facing slope behind Tain-l’Hermitage", correct: true }
-        - { text: "On the Atlantic at Saint-Nazaire", correct: false }
-        - { text: "Inside Condrieu", correct: false }
+        - { text: "On the right bank above Ampuis", correct: false }
+        - { text: "On a steep south-facing hill behind Tain-l’Hermitage", correct: true }
+        - { text: "On the right bank west of Avignon", correct: false }
+        - { text: "On a broad plateau south of Montélimar", correct: false }
       explanation: |
-        **Steep south face behind Tain.** **La Chapelle**, **Le Méal**,
-        **Les Bessards** hang on that hill.
-
+        The compact Hermitage hill rises above Tain on the left bank. Its strong southerly exposure helps Syrah
+        and the white varieties ripen at this latitude.
+    fr:
+      question: "Où se situe le vignoble de l’Hermitage ?"
+      choices:
+        - { text: "Sur la rive droite au-dessus d’Ampuis", correct: false }
+        - { text: "Sur le coteau exposé au sud derrière Tain-l’Hermitage", correct: true }
+        - { text: "Sur la rive droite à l’ouest d’Avignon", correct: false }
+        - { text: "Sur un vaste plateau au sud de Montélimar", correct: false }
+      explanation: |
+        La colline compacte de l’Hermitage domine Tain, sur la rive gauche. Sa forte exposition méridionale
+        favorise la maturité de la Syrah et des cépages blancs à cette latitude.
   - id: nrhone-lieu-dit-001
     type: mcq
-    deck: France::Northern Rhône
-    tags: [france, northern-rhone]
+    deck: "France::Northern Rhône"
+    tags: ["france","northern-rhone"]
     status: reviewed
     source_id: c19-0050
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: What is a lieu-dit?
+      question: "What is a lieu-dit in a French vineyard?"
       choices:
-        - { text: "A sparkling-only AOC", correct: false }
-        - { text: "A named vineyard site", correct: true }
-        - { text: "A legal sweetness band", correct: false }
-        - { text: "A grape clone number", correct: false }
+        - { text: "A legally defined sweetness category", correct: false }
+        - { text: "A traditional named site within a larger area", correct: true }
+        - { text: "A compulsory blend of several varieties", correct: false }
+        - { text: "A regional classification above AOC", correct: false }
       explanation: |
-        **A named site** — not always its own AOC. Hermitage is a
-        patchwork of them (**Bessards**, **Méal**, **Greffieux**).
-
+        A lieu-dit identifies a named place whose boundaries and reputation may predate modern appellation law.
+        It is not automatically a separate AOC or quality rank.
+    fr:
+      question: "Qu’est-ce qu’un lieu-dit dans un vignoble français ?"
+      choices:
+        - { text: "Une catégorie légale de sucrosité", correct: false }
+        - { text: "Un site traditionnel nommé au sein d’une aire plus vaste", correct: true }
+        - { text: "Un assemblage obligatoire de plusieurs cépages", correct: false }
+        - { text: "Un classement régional supérieur à l’AOC", correct: false }
+      explanation: |
+        Un lieu-dit désigne un endroit nommé dont les limites et la réputation peuvent être antérieures au droit
+        moderne des appellations. Il ne constitue pas automatiquement une AOC distincte ni un niveau de qualité.
   - id: nrhone-hermitage-ld-001
     type: mcq
-    deck: France::Northern Rhône
-    tags: [france, northern-rhone]
+    deck: "France::Northern Rhône"
+    tags: ["france","northern-rhone"]
     status: reviewed
     source_id: c19-0051
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: How is the Hermitage hill divided on the ground?
+      question: "How is the small Hermitage hill organised geographically?"
       choices:
-        - { text: "One legal clone, no named sites", correct: false }
-        - { text: "A set of lieux-dits", correct: true }
-        - { text: "Twelve communes, like Beaujolais crus", correct: false }
-        - { text: "It is a single undivided field", correct: false }
+        - { text: "As one uniform parcel without site names", correct: false }
+        - { text: "As a patchwork of named lieux-dits", correct: true }
+        - { text: "As a group of village denominations", correct: false }
+        - { text: "As a hierarchy of premiers and grands crus", correct: false }
       explanation: |
-        **Lieux-dits** — **Bessards**, **Méal**, **Greffieux**, **La
-        Chapelle**. The hill is a patchwork, not one soil.
-
+        Names such as Les Bessards, Le Méal and Les Greffieux identify parts of the hill with different soils,
+        slopes and exposures.
+    fr:
+      question: "Comment la petite colline de l’Hermitage est-elle organisée géographiquement ?"
+      choices:
+        - { text: "Comme une parcelle uniforme dépourvue de noms de sites", correct: false }
+        - { text: "Comme une mosaïque de lieux-dits nommés", correct: true }
+        - { text: "Comme un ensemble de dénominations villageoises", correct: false }
+        - { text: "Comme une hiérarchie de premiers et grands crus", correct: false }
+      explanation: |
+        Des noms comme Les Bessards, Le Méal et Les Greffieux désignent des secteurs de la colline aux sols,
+        pentes et expositions différents.
   - id: nrhone-hermitage-ld-why-001
     type: mcq
-    deck: France::Northern Rhône
-    tags: [france, northern-rhone]
+    deck: "France::Northern Rhône"
+    tags: ["france","northern-rhone"]
     status: reviewed
     source_id: c19-0052
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: Why do Hermitage lieux-dits matter in the glass?
+      question: "Why can different Hermitage lieux-dits produce contrasting wine components?"
       choices:
-        - { text: "INAO assigns one flavour to the whole hill", correct: false }
-        - { text: "Steepness and aspect change, so body and style shift from plot to plot", correct: true }
-        - { text: "They are only tourist names", correct: false }
-        - { text: "They are illegal to mention", correct: false }
+        - { text: "Each is required to use a different grape variety", correct: false }
+        - { text: "Their soils, slope and exposure vary across the hill", correct: true }
+        - { text: "Each follows a separate minimum ageing law", correct: false }
+        - { text: "Their harvest dates are fixed by a quality ranking", correct: false }
       explanation: |
-        **Different steepness and aspect → different body and style.**
-        Granite **Bessards** is not the same drink as **Méal**.
-
+        Granite is prominent in western sites such as Les Bessards, while other sectors contain more clay,
+        limestone or alluvium. Producers can use these differences when assembling a cuvée.
+    fr:
+      question: "Pourquoi différents lieux-dits de l’Hermitage peuvent-ils fournir des composantes de vin contrastées ?"
+      choices:
+        - { text: "Chacun doit utiliser un cépage différent", correct: false }
+        - { text: "Leurs sols, leur pente et leur exposition varient sur la colline", correct: true }
+        - { text: "Chacun suit une durée minimale d’élevage distincte", correct: false }
+        - { text: "Leurs dates de vendange sont fixées par un classement qualitatif", correct: false }
+      explanation: |
+        Le granite domine dans des secteurs occidentaux comme Les Bessards, tandis que d’autres comportent
+        davantage d’argile, de calcaire ou d’alluvions. Les producteurs peuvent exploiter ces différences lors
+        de l’assemblage.
   - id: nrhone-hermitage-blend-001
     type: mcq
-    deck: France::Northern Rhône
-    tags: [france, northern-rhone]
+    deck: "France::Northern Rhône"
+    tags: ["france","northern-rhone"]
     status: reviewed
     source_id: c19-0053
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: How have Hermitage reds traditionally been assembled?
+      question: "How have many traditional Hermitage reds been composed?"
       choices:
-        - { text: "Single-site bottles only, by law", correct: false }
-        - { text: "As blends of several lieux-dits", correct: true }
-        - { text: "From one legal clone on the valley floor", correct: false }
-        - { text: "Hermitage is white only", correct: false }
+        - { text: "From one mandatory lieu-dit", correct: false }
+        - { text: "By blending wine from several lieux-dits", correct: true }
+        - { text: "By blending Hermitage with Crozes-Hermitage", correct: false }
+        - { text: "From one officially ranked grape clone", correct: false }
       explanation: |
-        **Blends of several lieux-dits** are the old house style.
-        Single-site bottles exist now (**Chapoutier** parcellaire); they
-        are the newer exception.
-
+        Combining parcels can balance the structure, perfume and texture supplied by different parts of the
+        hill. Site-specific bottlings also exist.
+    fr:
+      question: "Comment de nombreux Hermitage rouges traditionnels ont-ils été composés ?"
+      choices:
+        - { text: "À partir d’un seul lieu-dit obligatoire", correct: false }
+        - { text: "Par l’assemblage de vins issus de plusieurs lieux-dits", correct: true }
+        - { text: "Par l’assemblage d’Hermitage et de Crozes-Hermitage", correct: false }
+        - { text: "À partir d’un unique clone officiellement classé", correct: false }
+      explanation: |
+        L’assemblage de parcelles peut équilibrer la structure, le parfum et la texture apportés par les
+        différents secteurs de la colline. Il existe aussi des cuvées parcellaires.
   - id: nrhone-fullest-001
     type: mcq
-    deck: France::Northern Rhône
-    tags: [france, northern-rhone]
+    deck: "France::Northern Rhône"
+    tags: ["france","northern-rhone"]
     status: reviewed
     source_id: c19-0054
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: Which Northern Rhône red is usually the fullest in body?
+      question: "Which Northern Rhône appellation is the classic benchmark for the fullest-bodied red?"
       choices:
-        - { text: "High-volume Saint-Joseph", correct: false }
+        - { text: "Saint-Joseph", correct: false }
         - { text: "Hermitage", correct: true }
-        - { text: "Generic Côtes du Rhône", correct: false }
+        - { text: "Côtes du Rhône", correct: false }
         - { text: "Condrieu", correct: false }
       explanation: |
-        **Hermitage.** Cornas can be as dense; Hermitage is still the
-        fullest classic reference.
-
+        Hermitage combines warm exposure, low yields and structured Syrah to produce powerful, long-lived reds.
+        Cornas can also be very full-bodied, but Hermitage is the standard reference.
+    fr:
+      question: "Quelle appellation du Rhône septentrional constitue la référence classique pour le rouge le plus corsé ?"
+      choices:
+        - { text: "Saint-Joseph", correct: false }
+        - { text: "Hermitage", correct: true }
+        - { text: "Côtes du Rhône", correct: false }
+        - { text: "Condrieu", correct: false }
+      explanation: |
+        Hermitage associe exposition chaude, faibles rendements et Syrah structurée pour produire des rouges
+        puissants et de longue garde. Cornas peut aussi être très corsé, mais Hermitage reste la référence.
   - id: nrhone-hermitage-white-in-red-001
     type: mcq
-    deck: France::Northern Rhône
-    tags: [france, northern-rhone]
+    deck: "France::Northern Rhône"
+    tags: ["france","northern-rhone"]
     status: reviewed
     source_id: c19-0055
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: Which whites may go into a Hermitage Syrah ferment?
+      question: "Which white varieties may accompany Syrah in Hermitage rouge?"
       choices:
-        - { text: "Viognier only", correct: false }
+        - { text: "Viognier and Roussanne", correct: false }
         - { text: "Marsanne and Roussanne", correct: true }
-        - { text: "Chardonnay", correct: false }
-        - { text: "No white grape is legal", correct: false }
+        - { text: "Viognier and Marsanne", correct: false }
+        - { text: "Clairette and Grenache Blanc", correct: false }
       explanation: |
-        **Marsanne and Roussanne** — not Viognier. That is Côte-Rôtie’s
-        white.
-
+        Hermitage permits Marsanne and Roussanne in red wine up to a combined maximum of 15%. Many producers
+        nevertheless make pure Syrah.
+    fr:
+      question: "Quels cépages blancs peuvent accompagner la Syrah dans un Hermitage rouge ?"
+      choices:
+        - { text: "Viognier et Roussanne", correct: false }
+        - { text: "Marsanne et Roussanne", correct: true }
+        - { text: "Viognier et Marsanne", correct: false }
+        - { text: "Clairette et Grenache Blanc", correct: false }
+      explanation: |
+        Hermitage autorise la Marsanne et la Roussanne dans le rouge jusqu’à un maximum cumulé de 15 %. De
+        nombreux producteurs élaborent néanmoins une Syrah pure.
   - id: nrhone-hermitage-white-pct-001
     type: mcq
-    deck: France::Northern Rhône
-    tags: [france, northern-rhone]
+    deck: "France::Northern Rhône"
+    tags: ["france","northern-rhone"]
     status: reviewed
     source_id: c19-0056
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: What is the legal ceiling for Marsanne and Roussanne in Hermitage rouge?
+      question: "What is the maximum combined proportion of Marsanne and Roussanne permitted in Hermitage rouge?"
       choices:
-        - { text: "0%", correct: false }
-        - { text: "Up to 15%", correct: true }
-        - { text: "At least 51%", correct: false }
-        - { text: "100%", correct: false }
+        - { text: "10%", correct: false }
+        - { text: "15%", correct: true }
+        - { text: "20%", correct: false }
+        - { text: "30%", correct: false }
       explanation: |
-        **Up to 15%.** Many domaines use none. The cap is not the recipe.
-
+        The 15% ceiling is optional rather than a recipe. White grapes historically grew among Syrah, but many
+        modern reds contain none.
+    fr:
+      question: "Quelle est la proportion maximale cumulée de Marsanne et de Roussanne autorisée dans un Hermitage rouge ?"
+      choices:
+        - { text: "10 %", correct: false }
+        - { text: "15 %", correct: true }
+        - { text: "20 %", correct: false }
+        - { text: "30 %", correct: false }
+      explanation: |
+        Le plafond de 15 % est une possibilité et non une recette. Les cépages blancs étaient historiquement
+        complantés avec la Syrah, mais de nombreux rouges modernes n’en contiennent pas.
   - id: nrhone-hermitage-colours-001
     type: mcq
-    deck: France::Northern Rhône
-    tags: [france, northern-rhone]
+    deck: "France::Northern Rhône"
+    tags: ["france","northern-rhone"]
     status: reviewed
     source_id: c19-0057
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: What colours may Hermitage bottle?
+      question: "Which wine colours are produced under Hermitage AOC?"
       choices:
         - { text: "Red only", correct: false }
         - { text: "Red and white", correct: true }
-        - { text: "Rosé only", correct: false }
-        - { text: "Sparkling only", correct: false }
+        - { text: "White and rosé", correct: false }
+        - { text: "Red and rosé", correct: false }
       explanation: |
-        **Red and white.** The white is a serious wine, not an afterthought.
-
+        Hermitage produces both ageworthy Syrah-based reds and substantial Marsanne–Roussanne whites. Rosé is
+        not part of the appellation.
+    fr:
+      question: "Quelles couleurs de vin sont produites sous l’AOC Hermitage ?"
+      choices:
+        - { text: "Rouge uniquement", correct: false }
+        - { text: "Rouge et blanc", correct: true }
+        - { text: "Blanc et rosé", correct: false }
+        - { text: "Rouge et rosé", correct: false }
+      explanation: |
+        Hermitage produit à la fois des rouges de garde à base de Syrah et des blancs importants de Marsanne et
+        Roussanne. Le rosé ne fait pas partie de l’appellation.
   - id: nrhone-hermitage-blanc-001
     type: mcq
-    deck: France::Northern Rhône
-    tags: [france, northern-rhone]
+    deck: "France::Northern Rhône"
+    tags: ["france","northern-rhone"]
     status: reviewed
     source_id: c19-0058
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: Which grapes make Hermitage blanc?
+      question: "Which varieties are used for Hermitage blanc?"
       choices:
-        - { text: "Viognier only", correct: false }
+        - { text: "Viognier and Marsanne", correct: false }
         - { text: "Marsanne and Roussanne", correct: true }
-        - { text: "Chenin Blanc", correct: false }
-        - { text: "Melon", correct: false }
+        - { text: "Clairette and Bourboulenc", correct: false }
+        - { text: "Grenache Blanc and Roussanne", correct: false }
       explanation: |
-        **Marsanne and Roussanne.** **Chante-Alouette** and **Chevalier
-        de Sterimberg** are the named whites.
-
+        Marsanne commonly leads and Roussanne may add perfume and freshness. The best examples can develop for
+        many years in bottle.
+    fr:
+      question: "Quels cépages sont utilisés pour l’Hermitage blanc ?"
+      choices:
+        - { text: "Viognier et Marsanne", correct: false }
+        - { text: "Marsanne et Roussanne", correct: true }
+        - { text: "Clairette et Bourboulenc", correct: false }
+        - { text: "Grenache Blanc et Roussanne", correct: false }
+      explanation: |
+        La Marsanne domine souvent et la Roussanne peut apporter parfum et fraîcheur. Les meilleurs exemples
+        peuvent évoluer pendant de nombreuses années en bouteille.
   - id: nrhone-hermitage-white-share-001
     type: mcq
-    deck: France::Northern Rhône
-    tags: [france, northern-rhone]
+    deck: "France::Northern Rhône"
+    tags: ["france","northern-rhone"]
     status: reviewed
     source_id: c19-0060
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: Roughly what share of Hermitage is white?
+      question: "How important is white wine within Hermitage production?"
       choices:
-        - { text: "Almost all of it", correct: false }
-        - { text: "About a third", correct: true }
-        - { text: "None — white is banned", correct: false }
-        - { text: "Exactly 80%", correct: false }
+        - { text: "It is virtually the entire production", correct: false }
+        - { text: "It is a substantial minority, roughly around one third", correct: true }
+        - { text: "It is permitted only in exceptional vintages", correct: false }
+        - { text: "It is a token experimental category below one percent", correct: false }
       explanation: |
-        **About a third** — more than a token sliver, still a red hill.
-
+        Hermitage is famous for red Syrah, but its Marsanne–Roussanne white is a major historic style rather
+        than a curiosity. Annual proportions can vary.
+    fr:
+      question: "Quelle est l’importance du vin blanc dans la production d’Hermitage ?"
+      choices:
+        - { text: "Il représente presque toute la production", correct: false }
+        - { text: "Il constitue une minorité importante, autour d’un tiers", correct: true }
+        - { text: "Il n’est autorisé que lors de millésimes exceptionnels", correct: false }
+        - { text: "Il s’agit d’une catégorie expérimentale inférieure à un pour cent", correct: false }
+      explanation: |
+        Hermitage est célèbre pour sa Syrah rouge, mais son blanc de Marsanne et Roussanne est un style
+        historique majeur, non une curiosité. Les proportions annuelles peuvent varier.
   - id: nrhone-crozes-vol-001
     type: mcq
-    deck: France::Northern Rhône
-    tags: [france, northern-rhone]
+    deck: "France::Northern Rhône"
+    tags: ["france","northern-rhone"]
     status: reviewed
     source_id: c19-0061
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: Which Northern Rhône AOC pours the most wine?
+      question: "Which Northern Rhône cru produces the largest volume of wine?"
       choices:
-        - { text: "Château-Grillet", correct: false }
+        - { text: "Saint-Joseph", correct: false }
         - { text: "Crozes-Hermitage", correct: true }
         - { text: "Côte-Rôtie", correct: false }
-        - { text: "Cornas", correct: false }
+        - { text: "Hermitage", correct: false }
       explanation: |
-        **Crozes-Hermitage** is the volume cru — the big map around the
-        Hermitage hill.
-
+        Crozes-Hermitage is the largest northern cru by vineyard area and production. Its varied terrain
+        produces a broad range of quality and price.
+    fr:
+      question: "Quel cru du Rhône septentrional produit le plus grand volume de vin ?"
+      choices:
+        - { text: "Saint-Joseph", correct: false }
+        - { text: "Crozes-Hermitage", correct: true }
+        - { text: "Côte-Rôtie", correct: false }
+        - { text: "Hermitage", correct: false }
+      explanation: |
+        Crozes-Hermitage est le plus vaste cru septentrional en superficie et en production. La diversité de ses
+        terroirs entraîne une large gamme de qualités et de prix.
   - id: nrhone-crozes-where-001
     type: mcq
-    deck: France::Northern Rhône
-    tags: [france, northern-rhone]
+    deck: "France::Northern Rhône"
+    tags: ["france","northern-rhone"]
     status: reviewed
     source_id: c19-0062
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: Where do Crozes-Hermitage vines sit relative to the Hermitage hill?
+      question: "Where is Crozes-Hermitage situated in relation to the Hermitage hill?"
       choices:
-        - { text: "Only on the Hermitage granite itself", correct: false }
-        - { text: "On mixed ground around that hill", correct: true }
-        - { text: "Only in Ampuis", correct: false }
-        - { text: "On the Atlantic coast", correct: false }
+        - { text: "Only on the same south-facing hillside", correct: false }
+        - { text: "Across a large area surrounding the hill", correct: true }
+        - { text: "On the opposite bank around Tournon", correct: false }
+        - { text: "Immediately north of Côte-Rôtie", correct: false }
       explanation: |
-        **Around the hill**, on mixed terrain — not the AOC Hermitage
-        slope itself.
-
+        The appellation surrounds, but does not include, the Hermitage AOC and extends across 11 communes on the
+        left bank.
+    fr:
+      question: "Où se situe Crozes-Hermitage par rapport à la colline de l’Hermitage ?"
+      choices:
+        - { text: "Uniquement sur le même coteau exposé au sud", correct: false }
+        - { text: "Dans une vaste aire entourant la colline", correct: true }
+        - { text: "Sur la rive opposée autour de Tournon", correct: false }
+        - { text: "Immédiatement au nord de Côte-Rôtie", correct: false }
+      explanation: |
+        L’appellation entoure l’AOC Hermitage sans l’inclure et s’étend sur onze communes de la rive gauche.
   - id: nrhone-crozes-relief-001
     type: mcq
-    deck: France::Northern Rhône
-    tags: [france, northern-rhone]
+    deck: "France::Northern Rhône"
+    tags: ["france","northern-rhone"]
     status: reviewed
     source_id: c19-0063
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: How does Crozes-Hermitage relief change from north to south of the hill?
+      question: "How does Crozes-Hermitage terrain generally differ between its northern and southern sectors?"
       choices:
-        - { text: "North is a flat plain; south is all cliff", correct: false }
-        - { text: "North sits on slopes; south sits on a flatter plain", correct: true }
-        - { text: "It is a plateau of identical height", correct: false }
-        - { text: "There is no Crozes south of Tain", correct: false }
+        - { text: "The north is flat while the south is steep", correct: false }
+        - { text: "The north has more slopes while the south is dominated by flatter plains", correct: true }
+        - { text: "Both sectors consist of one uniform south-facing hill", correct: false }
+        - { text: "The north is coastal while the south is alpine", correct: false }
       explanation: |
-        **North: slopes. South: flatter plain.** That split drives the
-        light vs concentrated Crozes story.
-
+        Northern sites include granite slopes continuing the hill country, whereas broad alluvial terraces and
+        plains become more important to the south.
+    fr:
+      question: "Comment le relief de Crozes-Hermitage diffère-t-il généralement entre les secteurs nord et sud ?"
+      choices:
+        - { text: "Le nord est plat tandis que le sud est escarpé", correct: false }
+        - { text: "Le nord est plus pentu ; le sud, dominé par des plaines", correct: true }
+        - { text: "Les deux secteurs forment une seule colline uniforme exposée au sud", correct: false }
+        - { text: "Le nord est littoral tandis que le sud est alpin", correct: false }
+      explanation: |
+        Les terroirs septentrionaux comprennent des coteaux granitiques prolongeant les reliefs, tandis que de
+        vastes terrasses alluviales et des plaines prennent davantage d’importance au sud.
   - id: nrhone-crozes-grapes-001
     type: mcq
-    deck: France::Northern Rhône
-    tags: [france, northern-rhone]
+    deck: "France::Northern Rhône"
+    tags: ["france","northern-rhone"]
     status: reviewed
     source_id: c19-0064
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: What may a Crozes-Hermitage red contain?
+      question: "What may be included in a Crozes-Hermitage red?"
       choices:
-        - { text: "Grenache only", correct: false }
-        - { text: "Syrah, plus up to 15% Marsanne and/or Roussanne", correct: true }
-        - { text: "Pinot Noir only", correct: false }
-        - { text: "Viognier at 51%", correct: false }
+        - { text: "Syrah with up to 15% Viognier", correct: false }
+        - { text: "Syrah with up to 15% Marsanne and Roussanne", correct: true }
+        - { text: "Grenache with up to 15% Syrah", correct: false }
+        - { text: "Syrah with up to 20% Grenache", correct: false }
       explanation: |
-        **Syrah, and up to 15% Marsanne/Roussanne** — the same white
-        door as Hermitage, not Côte-Rôtie’s Viognier.
-
+        Syrah must form the red wine, with Marsanne and Roussanne permitted up to a combined 15%. Viognier is
+        the white partner associated with Côte-Rôtie instead.
+    fr:
+      question: "Que peut contenir un Crozes-Hermitage rouge ?"
+      choices:
+        - { text: "De la Syrah avec jusqu’à 15 % de Viognier", correct: false }
+        - { text: "De la Syrah avec jusqu’à 15 % de Marsanne et Roussanne", correct: true }
+        - { text: "Du Grenache avec jusqu’à 15 % de Syrah", correct: false }
+        - { text: "De la Syrah avec jusqu’à 20 % de Grenache", correct: false }
+      explanation: |
+        La Syrah constitue le rouge, avec la Marsanne et la Roussanne autorisées jusqu’à un total de 15 %. Le
+        Viognier est plutôt le partenaire blanc associé à Côte-Rôtie.
   - id: nrhone-crozes-range-001
     type: mcq
-    deck: France::Northern Rhône
-    tags: [france, northern-rhone]
+    deck: "France::Northern Rhône"
+    tags: ["france","northern-rhone"]
     status: reviewed
     source_id: c19-0065
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: How uniform are Crozes-Hermitage quality, style and price?
+      question: "Why do Crozes-Hermitage wines span a wide range of style and price?"
       choices:
-        - { text: "Identical, by AOC law", correct: false }
-        - { text: "They swing hard with the site", correct: true }
-        - { text: "Every bottle is grand-cru priced", correct: false }
-        - { text: "Only one domaine may bottle it", correct: false }
+        - { text: "The AOC imposes four official quality ranks", correct: false }
+        - { text: "Its large area contains contrasting sites and yields", correct: true }
+        - { text: "Each commune must use a different grape variety", correct: false }
+        - { text: "Only half the area may produce wine each year", correct: false }
       explanation: |
-        **They vary wildly with location.** A southern-plain tank is not
-        a northern-slope Crozes.
-
+        The appellation includes steep northern slopes and broad southern plains, as well as producers with
+        different yield and winemaking ambitions.
+    fr:
+      question: "Pourquoi les Crozes-Hermitage couvrent-ils une large gamme de styles et de prix ?"
+      choices:
+        - { text: "L’AOC impose quatre niveaux qualitatifs officiels", correct: false }
+        - { text: "Sa vaste superficie réunit des terroirs et des rendements contrastés", correct: true }
+        - { text: "Chaque commune doit utiliser un cépage différent", correct: false }
+        - { text: "Seule la moitié de l’aire peut produire chaque année", correct: false }
+      explanation: |
+        L’appellation comprend des coteaux escarpés au nord et de vastes plaines au sud, ainsi que des
+        producteurs aux rendements et aux ambitions de vinification différents.
   - id: nrhone-crozes-south-001
     type: mcq
-    deck: France::Northern Rhône
-    tags: [france, northern-rhone]
+    deck: "France::Northern Rhône"
+    tags: ["france","northern-rhone"]
     status: reviewed
     source_id: c19-0066
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: Where do the lighter Crozes-Hermitage reds usually grow?
+      question: "Which Crozes-Hermitage sites most often produce lighter, earlier-drinking reds?"
       choices:
-        - { text: "The granite of Bessards", correct: false }
-        - { text: "Higher-yielding flatter sites to the south", correct: true }
-        - { text: "Only Ampuis", correct: false }
-        - { text: "The Nantais", correct: false }
+        - { text: "Low-yield granite slopes in the north", correct: false }
+        - { text: "Higher-yielding flatter sites in the south", correct: true }
+        - { text: "The Hermitage lieux-dits of Bessards and Méal", correct: false }
+        - { text: "The steepest terraces beside Tournon", correct: false }
       explanation: |
-        **The southern flats**, higher yields. Easy Syrah, not the
-        northern slope.
-
+        Deeper alluvial soils and easier mechanisation on the southern plain can support higher yields. The
+        resulting Syrah is often fruit-forward and less tannic.
+    fr:
+      question: "Quels terroirs de Crozes-Hermitage produisent le plus souvent des rouges plus légers et à boire jeunes ?"
+      choices:
+        - { text: "Les coteaux granitiques du nord aux faibles rendements", correct: false }
+        - { text: "Les terrains plus plats et plus productifs du sud", correct: true }
+        - { text: "Les lieux-dits de l’Hermitage Bessards et Méal", correct: false }
+        - { text: "Les terrasses les plus escarpées près de Tournon", correct: false }
+      explanation: |
+        Les sols alluviaux plus profonds et la mécanisation plus facile de la plaine méridionale peuvent
+        favoriser des rendements supérieurs. La Syrah obtenue est souvent plus fruitée et moins tannique.
   - id: nrhone-crozes-north-001
     type: mcq
-    deck: France::Northern Rhône
-    tags: [france, northern-rhone]
+    deck: "France::Northern Rhône"
+    tags: ["france","northern-rhone"]
     status: reviewed
     source_id: c19-0067
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: How do Crozes-Hermitage reds from the northern slopes usually differ from the southern flats?
+      question: "How do reds from the better northern Crozes-Hermitage slopes usually compare with those from the southern plain?"
       choices:
-        - { text: "The lightest, carbonic picnic wines", correct: false }
-        - { text: "More concentrated, complex and tannic", correct: true }
-        - { text: "Always white", correct: false }
-        - { text: "Fortified", correct: false }
+        - { text: "They are generally lighter and less tannic", correct: false }
+        - { text: "They are generally more concentrated and structured", correct: true }
+        - { text: "They are normally sweeter and lower in alcohol", correct: false }
+        - { text: "They are required to contain more white grapes", correct: false }
       explanation: |
-        **More concentrated, complex, tannic.** Closer to the Hermitage
-        idea, still Crozes on the label.
-
+        Slope, poorer soils and lower yields can give northern wines greater concentration, tannin and ageing
+        potential than high-volume southern examples.
+    fr:
+      question: "Comment les rouges des meilleurs coteaux du nord de Crozes-Hermitage se comparent-ils généralement à ceux de la plaine méridionale ?"
+      choices:
+        - { text: "Ils sont généralement plus légers et moins tanniques", correct: false }
+        - { text: "Ils sont généralement plus concentrés et structurés", correct: true }
+        - { text: "Ils sont habituellement plus doux et moins alcoolisés", correct: false }
+        - { text: "Ils doivent contenir davantage de cépages blancs", correct: false }
+      explanation: |
+        La pente, les sols plus pauvres et les rendements plus faibles peuvent donner aux vins du nord davantage
+        de concentration, de tanins et de potentiel de garde que les cuvées méridionales de volume.
   - id: nrhone-crozes-oak-001
     type: mcq
-    deck: France::Northern Rhône
-    tags: [france, northern-rhone]
+    deck: "France::Northern Rhône"
+    tags: ["france","northern-rhone"]
     status: reviewed
     source_id: c19-0068
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: Which Crozes-Hermitage lots are most likely to see oak?
+      question: "Which Crozes-Hermitage reds are most likely to receive noticeable oak maturation?"
       choices:
-        - { text: "Every tank, by AOC law", correct: false }
-        - { text: "Some of the more expensive cuvées", correct: true }
-        - { text: "Oak is banned", correct: false }
-        - { text: "Only the whites", correct: false }
+        - { text: "Simple high-volume wines intended for early drinking", correct: false }
+        - { text: "More concentrated, premium cuvées", correct: true }
+        - { text: "All wines because the AOC requires it", correct: false }
+        - { text: "Only wines containing white grapes", correct: false }
       explanation: |
-        **Some pricier lots.** The volume southern wine often stays in
-        tank.
-
+        Oak is a stylistic choice rather than an appellation requirement. Producers are more likely to use it
+        when the fruit has enough concentration to remain in balance.
+    fr:
+      question: "Quels Crozes-Hermitage rouges sont les plus susceptibles de recevoir un élevage sous bois perceptible ?"
+      choices:
+        - { text: "Les vins simples de grand volume destinés à être bus jeunes", correct: false }
+        - { text: "Les cuvées haut de gamme les plus concentrées", correct: true }
+        - { text: "Tous les vins, car l’AOC l’impose", correct: false }
+        - { text: "Uniquement les vins contenant des cépages blancs", correct: false }
+      explanation: |
+        Le bois relève d’un choix stylistique et non d’une obligation de l’appellation. Les producteurs
+        l’emploient plus volontiers lorsque le fruit est assez concentré pour conserver son équilibre.
   - id: nrhone-crozes-colours-001
     type: mcq
-    deck: France::Northern Rhône
-    tags: [france, northern-rhone]
+    deck: "France::Northern Rhône"
+    tags: ["france","northern-rhone"]
     status: reviewed
     source_id: c19-0069
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: What colours does Crozes-Hermitage mostly bottle?
+      question: "Which wine colours are produced under Crozes-Hermitage AOC?"
       choices:
-        - { text: "White only", correct: false }
-        - { text: "Mostly red, with some white", correct: true }
-        - { text: "Rosé only", correct: false }
-        - { text: "Sparkling only", correct: false }
+        - { text: "Red only", correct: false }
+        - { text: "Mostly red, plus some white", correct: true }
+        - { text: "White and rosé only", correct: false }
+        - { text: "Red, white and rosé in similar proportions", correct: false }
       explanation: |
-        **Mostly red, some white.** Same Marsanne/Roussanne pair as
-        Hermitage blanc.
-
+        Syrah-based red dominates production. A smaller amount of dry white is made from Marsanne and Roussanne;
+        rosé is not authorised.
+    fr:
+      question: "Quelles couleurs de vin sont produites sous l’AOC Crozes-Hermitage ?"
+      choices:
+        - { text: "Rouge uniquement", correct: false }
+        - { text: "Principalement rouge, avec un peu de blanc", correct: true }
+        - { text: "Blanc et rosé uniquement", correct: false }
+        - { text: "Rouge, blanc et rosé en proportions comparables", correct: false }
+      explanation: |
+        Le rouge à base de Syrah domine la production. Une quantité plus faible de blanc sec est élaborée à
+        partir de Marsanne et de Roussanne ; le rosé n’est pas autorisé.
   - id: nrhone-cornas-south-001
     type: mcq
-    deck: France::Northern Rhône
-    tags: [france, northern-rhone]
+    deck: "France::Northern Rhône"
+    tags: ["france","northern-rhone"]
     status: reviewed
     source_id: c19-0070
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: Which is the southernmost Northern Rhône cru?
+      question: "Which is the southernmost red-wine cru of the Northern Rhône?"
       choices:
         - { text: "Côte-Rôtie", correct: false }
         - { text: "Cornas", correct: true }
-        - { text: "Condrieu", correct: false }
-        - { text: "Muscadet", correct: false }
+        - { text: "Saint-Joseph", correct: false }
+        - { text: "Hermitage", correct: false }
       explanation: |
-        **Cornas.** After that you are heading toward the southern
-        valley. Côte-Rôtie is the opposite end.
-
+        Cornas lies just north of Saint-Péray near Valence. Saint-Péray extends farther south but produces only
+        white wine, so Cornas is specifically the southernmost red cru.
+    fr:
+      question: "Quel est le cru de vin rouge le plus méridional du Rhône septentrional ?"
+      choices:
+        - { text: "Côte-Rôtie", correct: false }
+        - { text: "Cornas", correct: true }
+        - { text: "Saint-Joseph", correct: false }
+        - { text: "Hermitage", correct: false }
+      explanation: |
+        Cornas se situe juste au nord de Saint-Péray, près de Valence. Saint-Péray s’étend plus au sud mais ne
+        produit que du blanc : Cornas est donc précisément le cru rouge le plus méridional.
   - id: nrhone-cornas-colour-001
     type: mcq
-    deck: France::Northern Rhône
-    tags: [france, northern-rhone]
+    deck: "France::Northern Rhône"
+    tags: ["france","northern-rhone"]
     status: reviewed
     source_id: c19-0071
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: What colours may Cornas bottle?
+      question: "Which wine colour is permitted under Cornas AOC?"
       choices:
-        - { text: "White and rosé", correct: false }
+        - { text: "Red and white", correct: false }
         - { text: "Red only", correct: true }
-        - { text: "Any colour", correct: false }
-        - { text: "Sparkling only", correct: false }
+        - { text: "Red and rosé", correct: false }
+        - { text: "White only", correct: false }
       explanation: |
-        **Red only.** No Cornas blanc, and no white grapes in the ferment.
-
+        Cornas is exclusively red and must be made from Syrah. Neighbouring Saint-Péray provides the local
+        contrast with white Marsanne and Roussanne.
+    fr:
+      question: "Quelle couleur de vin est autorisée sous l’AOC Cornas ?"
+      choices:
+        - { text: "Rouge et blanc", correct: false }
+        - { text: "Rouge uniquement", correct: true }
+        - { text: "Rouge et rosé", correct: false }
+        - { text: "Blanc uniquement", correct: false }
+      explanation: |
+        Cornas produit exclusivement du rouge à partir de Syrah. Saint-Péray, l’appellation voisine, offre le
+        contraste local avec des blancs de Marsanne et Roussanne.
   - id: nrhone-cornas-warm-001
     type: mcq
-    deck: France::Northern Rhône
-    tags: [france, northern-rhone]
+    deck: "France::Northern Rhône"
+    tags: ["france","northern-rhone"]
     status: reviewed
     source_id: c19-0072
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: Which Northern Rhône cru is usually the warmest?
+      question: "Which red cru generally has the warmest mesoclimate in the Northern Rhône?"
       choices:
         - { text: "Côte-Rôtie", correct: false }
         - { text: "Cornas", correct: true }
-        - { text: "Château-Grillet", correct: false }
-        - { text: "Muscadet Sèvre-et-Maine", correct: false }
+        - { text: "Saint-Joseph", correct: false }
+        - { text: "Crozes-Hermitage", correct: false }
       explanation: |
-        **Cornas** — farthest south in the north, in a sun-trap
-        amphitheatre.
-
+        Cornas lies far south and its sheltered amphitheatre receives strong sun. This helps Syrah achieve deep
+        colour, ripe tannin and substantial body.
+    fr:
+      question: "Quel cru rouge possède généralement le mésoclimat le plus chaud du Rhône septentrional ?"
+      choices:
+        - { text: "Côte-Rôtie", correct: false }
+        - { text: "Cornas", correct: true }
+        - { text: "Saint-Joseph", correct: false }
+        - { text: "Crozes-Hermitage", correct: false }
+      explanation: |
+        Cornas se situe très au sud et son amphithéâtre abrité reçoit un fort ensoleillement. La Syrah peut
+        ainsi atteindre une couleur profonde, des tanins mûrs et un corps important.
   - id: nrhone-cornas-where-001
     type: mcq
-    deck: France::Northern Rhône
-    tags: [france, northern-rhone]
+    deck: "France::Northern Rhône"
+    tags: ["france","northern-rhone"]
     status: reviewed
     source_id: c19-0073
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: Where do Cornas vines sit?
+      question: "Where are the Cornas vineyards planted?"
       choices:
-        - { text: "On the Hermitage hill behind Tain", correct: false }
-        - { text: "On south-facing slopes of the Rhône’s side valleys", correct: true }
-        - { text: "On the Nantais sand", correct: false }
-        - { text: "Inside Ampuis only", correct: false }
+        - { text: "On the left-bank plain around Tain", correct: false }
+        - { text: "On steep east- and south-east-facing slopes above the right bank", correct: true }
+        - { text: "On the right-bank flats opposite Châteauneuf-du-Pape", correct: false }
+        - { text: "On north-facing limestone plateaux above Ampuis", correct: false }
       explanation: |
-        **South-facing slopes in the lateral valleys.** That is the
-        amphitheatre, not the Hermitage granite.
-
+        The vineyards form a natural amphitheatre on the eastern edge of the Massif Central. Narrow terraces
+        rise above the village of Cornas.
+    fr:
+      question: "Où sont plantées les vignes de Cornas ?"
+      choices:
+        - { text: "Dans la plaine de la rive gauche autour de Tain", correct: false }
+        - { text: "Sur des coteaux escarpés orientés à l’est et au sud-est au-dessus de la rive droite", correct: true }
+        - { text: "Sur les terrains plats de la rive droite face à Châteauneuf-du-Pape", correct: false }
+        - { text: "Sur des plateaux calcaires orientés au nord au-dessus d’Ampuis", correct: false }
+      explanation: |
+        Le vignoble forme un amphithéâtre naturel sur le bord oriental du Massif central. D’étroites terrasses
+        s’élèvent au-dessus du village de Cornas.
   - id: nrhone-cornas-site-001
     type: mcq
-    deck: France::Northern Rhône
-    tags: [france, northern-rhone]
+    deck: "France::Northern Rhône"
+    tags: ["france","northern-rhone"]
     status: reviewed
     source_id: c19-0074
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: What is a typical Cornas slope like?
+      question: "Which site conditions help Cornas produce powerful, ripe Syrah?"
       choices:
-        - { text: "Open to the mistral, north-facing, and cool", correct: false }
-        - { text: "Sheltered, well-exposed, sun-baked, and south-facing", correct: true }
-        - { text: "A foggy river flat", correct: false }
-        - { text: "Above the snow line", correct: false }
+        - { text: "Exposed north-facing slopes with deep wet soils", correct: false }
+        - { text: "Sheltered, sunny slopes with thin granitic soils", correct: true }
+        - { text: "Cool alluvial flats with high yields", correct: false }
+        - { text: "High limestone plateaux shaded in the afternoon", correct: false }
       explanation: |
-        **Sheltered, well-exposed, sun-baked, south-facing.** That is
-        why it is the warm pocket.
-
+        The amphitheatre limits cold-wind exposure while steep, sunny, freely draining sites promote ripeness
+        and concentration.
+    fr:
+      question: "Quelles conditions de terroir permettent à Cornas de produire une Syrah puissante et mûre ?"
+      choices:
+        - { text: "Des coteaux exposés au nord avec des sols profonds et humides", correct: false }
+        - { text: "Des coteaux ensoleillés et abrités aux sols granitiques minces", correct: true }
+        - { text: "Des terrains alluviaux frais aux rendements élevés", correct: false }
+        - { text: "De hauts plateaux calcaires ombragés l’après-midi", correct: false }
+      explanation: |
+        L’amphithéâtre limite l’exposition aux vents froids, tandis que les sites escarpés, ensoleillés et bien
+        drainés favorisent la maturité et la concentration.
   - id: nrhone-cornas-grape-001
     type: mcq
-    deck: France::Northern Rhône
-    tags: [france, northern-rhone]
+    deck: "France::Northern Rhône"
+    tags: ["france","northern-rhone"]
     status: reviewed
     source_id: c19-0075
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: Which grapes may Cornas use?
+      question: "Which grape variety is authorised in Cornas?"
       choices:
-        - { text: "Syrah plus 20% Viognier", correct: false }
+        - { text: "Syrah and Viognier", correct: false }
         - { text: "Syrah only", correct: true }
-        - { text: "Grenache and Mourvèdre", correct: false }
-        - { text: "Marsanne only", correct: false }
+        - { text: "Syrah and Marsanne", correct: false }
+        - { text: "Grenache and Syrah", correct: false }
       explanation: |
-        **Syrah only.** No white in the ferment — unlike Côte-Rôtie or
-        Hermitage.
-
+        Cornas is the only northern red cru restricted entirely to Syrah with no permitted white component. Its
+        wines are consequently a clear expression of ripe northern Syrah.
+    fr:
+      question: "Quel cépage est autorisé à Cornas ?"
+      choices:
+        - { text: "Syrah et Viognier", correct: false }
+        - { text: "Syrah uniquement", correct: true }
+        - { text: "Syrah et Marsanne", correct: false }
+        - { text: "Grenache et Syrah", correct: false }
+      explanation: |
+        Cornas est le seul cru rouge septentrional limité entièrement à la Syrah, sans composante blanche
+        autorisée. Ses vins offrent ainsi une expression nette de Syrah mûre du nord.
   - id: nrhone-cornas-style-001
     type: mcq
-    deck: France::Northern Rhône
-    tags: [france, northern-rhone]
+    deck: "France::Northern Rhône"
+    tags: ["france","northern-rhone"]
     status: reviewed
     source_id: c19-0076
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: What shape is Cornas in the glass next to Hermitage?
+      question: "How does Cornas typically compare with Hermitage?"
       choices:
-        - { text: "Pale, light, and always sweet", correct: false }
-        - { text: "Deep and full, in a similar style and quality band", correct: true }
-        - { text: "A white Viognier", correct: false }
-        - { text: "A chilled Gamay picnic wine", correct: false }
+        - { text: "It is normally lighter, softer and intended for early drinking", correct: false }
+        - { text: "It can be similarly powerful, dark and ageworthy, often with a robust character", correct: true }
+        - { text: "It is more floral because Viognier is compulsory", correct: false }
+        - { text: "It is lower in tannin because only Syrah is allowed", correct: false }
       explanation: |
-        **Deep, full, Hermitage-adjacent.** **Clape** and **Allemand**
-        are the named check. Not high-volume Saint-Joseph.
-
+        Both appellations can produce dense, long-lived Syrah. Cornas is often described as more rugged in
+        youth, while top examples gain complexity as their tannins soften.
+    fr:
+      question: "Comment Cornas se compare-t-il généralement à Hermitage ?"
+      choices:
+        - { text: "Il est normalement plus léger, plus souple et destiné à être bu jeune", correct: false }
+        - { text: "Il peut être aussi puissant, sombre et apte à la garde, avec un caractère souvent robuste", correct: true }
+        - { text: "Il est plus floral car le Viognier y est obligatoire", correct: false }
+        - { text: "Il est moins tannique car seule la Syrah est autorisée", correct: false }
+      explanation: |
+        Les deux appellations peuvent produire des Syrah denses et de longue garde. Cornas est souvent plus
+        robuste dans sa jeunesse, puis les meilleurs exemples gagnent en complexité lorsque leurs tanins
+        s’assouplissent.
+  - id: nrhone-saint-peray-grapes-001
+    type: mcq
+    deck: "France::Northern Rhône"
+    tags: ["france", "northern-rhone", "saint-peray", "grapes"]
+    status: reviewed
+    review:
+      fact_check: pass
+      sources: ["vins-rhone.com/en/cotes-du-rhone-cru-aoc-saint-peray"]
+    en:
+      question: "Which varieties are authorised for Saint-Péray?"
+      choices:
+        - { text: "Viognier and Marsanne", correct: false }
+        - { text: "Marsanne and Roussanne", correct: true }
+        - { text: "Clairette and Grenache Blanc", correct: false }
+        - { text: "Chardonnay and Aligoté", correct: false }
+      explanation: |
+        Saint-Péray is the white-wine neighbour immediately south of Cornas. Marsanne commonly dominates,
+        with Roussanne adding aromatic detail and freshness.
+    fr:
+      question: "Quels cépages sont autorisés à Saint-Péray ?"
+      choices:
+        - { text: "Viognier et Marsanne", correct: false }
+        - { text: "Marsanne et Roussanne", correct: true }
+        - { text: "Clairette et Grenache Blanc", correct: false }
+        - { text: "Chardonnay et Aligoté", correct: false }
+      explanation: |
+        Saint-Péray est l’appellation de vin blanc située immédiatement au sud de Cornas. La Marsanne domine
+        souvent, tandis que la Roussanne apporte davantage de précision aromatique et de fraîcheur.
+  - id: nrhone-saint-peray-styles-001
+    type: mcq
+    deck: "France::Northern Rhône"
+    tags: ["france", "northern-rhone", "saint-peray", "sparkling"]
+    status: reviewed
+    review:
+      fact_check: pass
+      sources: ["vins-rhone.com/en/cotes-du-rhone-cru-aoc-saint-peray"]
+    en:
+      question: "Which wine styles may be produced under Saint-Péray AOC?"
+      choices:
+        - { text: "Still red and rosé", correct: false }
+        - { text: "Still white and traditional-method sparkling white", correct: true }
+        - { text: "Still white and sweet fortified white", correct: false }
+        - { text: "Traditional-method sparkling rosé only", correct: false }
+      explanation: |
+        Most Saint-Péray is still dry white, but the appellation also has a long tradition of sparkling wine.
+        Only a small proportion is now made by the traditional method.
+    fr:
+      question: "Quels styles de vin peuvent être produits sous l’AOC Saint-Péray ?"
+      choices:
+        - { text: "Rouge tranquille et rosé", correct: false }
+        - { text: "Blanc tranquille et blanc effervescent de méthode traditionnelle", correct: true }
+        - { text: "Blanc tranquille et blanc doux fortifié", correct: false }
+        - { text: "Rosé effervescent de méthode traditionnelle uniquement", correct: false }
+      explanation: |
+        La majorité des Saint-Péray sont des blancs secs tranquilles, mais l’appellation possède aussi une
+        longue tradition de vins effervescents. Seule une faible proportion est aujourd’hui élaborée selon la
+        méthode traditionnelle.

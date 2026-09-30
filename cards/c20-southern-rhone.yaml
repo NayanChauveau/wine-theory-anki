@@ -1,1362 +1,1981 @@
 # yaml-language-server: $schema=../schema/cards.schema.json
 # source: C20 (import/inbox/c20-southern-rhone.yaml)
 # deck: France::Southern Rhône
+# Full adversarial quality review and French translation.
 
 cards:
   - id: srhone-valence-001
     type: mcq
-    deck: France::Southern Rhône
-    tags: [france, southern-rhone]
+    deck: "France::Southern Rhône"
+    tags: ["france","southern-rhone"]
     status: reviewed
     source_id: c20-0001
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: Which town sits at the north edge of the Southern Rhône?
+      question: "Which town broadly marks the northern gateway to the Southern Rhône wine area?"
       choices:
-        - { text: "Nantes", correct: false }
-        - { text: "Valence", correct: true }
-        - { text: "Beaune", correct: false }
-        - { text: "Bordeaux", correct: false }
+        - { text: "Valence", correct: false }
+        - { text: "Montélimar", correct: true }
+        - { text: "Vienne", correct: false }
+        - { text: "Tain-l’Hermitage", correct: false }
       explanation: |
-        **Valence** marks the step from Cornas country into the broader
-        southern valley.
-
+        The valley opens into plains and gentler hills around Montélimar. Valence is more closely associated
+        with the southern end of the Northern Rhône.
+    fr:
+      question: "Quelle ville marque approximativement la porte d’entrée septentrionale du vignoble du Rhône méridional ?"
+      choices:
+        - { text: "Valence", correct: false }
+        - { text: "Montélimar", correct: true }
+        - { text: "Vienne", correct: false }
+        - { text: "Tain-l’Hermitage", correct: false }
+      explanation: |
+        La vallée s’élargit en plaines et collines plus douces autour de Montélimar. Valence est plutôt associée
+        à l’extrémité sud du Rhône septentrional.
   - id: srhone-flatter-001
     type: mcq
-    deck: France::Southern Rhône
-    tags: [france, southern-rhone]
+    deck: "France::Southern Rhône"
+    tags: ["france","southern-rhone"]
     status: reviewed
     source_id: c20-0002
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: How does Southern Rhône terrain sit next to the Northern Rhône?
+      question: "How does the Southern Rhône’s relief generally differ from that of the Northern Rhône?"
       choices:
-        - { text: "Steeper and narrower", correct: false }
-        - { text: "Much flatter", correct: true }
-        - { text: "High alpine only", correct: false }
-        - { text: "A cliffed fjord", correct: false }
+        - { text: "It is dominated by narrower and steeper river walls", correct: false }
+        - { text: "It has more plains, plateaux and gently sloping hills", correct: true }
+        - { text: "It consists mainly of high-altitude granite terraces", correct: false }
+        - { text: "It has one continuous south-facing slope", correct: false }
       explanation: |
-        **Much flatter.** Hermitage is a wall; Châteauneuf is a plateau
-        of galets.
-
+        The valley broadens south of Montélimar. Important vineyards occur on terraces and hills as well as
+        plains, but extreme slopes are less dominant than in the north.
+    fr:
+      question: "Comment le relief du Rhône méridional diffère-t-il généralement de celui du Rhône septentrional ?"
+      choices:
+        - { text: "Il est dominé par des parois fluviales plus étroites et plus raides", correct: false }
+        - { text: "Il comprend davantage de plaines, de plateaux et de collines aux pentes douces", correct: true }
+        - { text: "Il se compose surtout de terrasses granitiques d’altitude", correct: false }
+        - { text: "Il forme un seul coteau continu exposé au sud", correct: false }
+      explanation: |
+        La vallée s’élargit au sud de Montélimar. Des vignobles importants occupent terrasses et collines autant
+        que plaines, mais les pentes extrêmes dominent moins qu’au nord.
   - id: srhone-stones-001
     type: mcq
-    deck: France::Southern Rhône
-    tags: [france, southern-rhone, soil]
+    deck: "France::Southern Rhône"
+    tags: ["france","southern-rhone","soil"]
     status: reviewed
     source_id: c20-0003
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: What covers many of the best Southern Rhône vineyard floors?
+      question: "Which description best reflects Southern Rhône vineyard soils?"
       choices:
-        - { text: "Deep fertile silt only", correct: false }
-        - { text: "Very stony soils", correct: true }
-        - { text: "Only peat", correct: false }
-        - { text: "Blue clay like Pomerol", correct: false }
+        - { text: "They are uniformly deep and fertile alluvium", correct: false }
+        - { text: "They vary: clay, limestone, sand, gravel and rounded stones", correct: true }
+        - { text: "They consist almost entirely of granite and schist", correct: false }
+        - { text: "They are dominated by waterlogged peat", correct: false }
       explanation: |
-        **Very stony soils** — galets, gravel, limestone rubble. Not
-        every hectare; the best sites lean that way.
-
+        The south has no single soil type. Châteauneuf-du-Pape alone includes galets over clay as well as sand,
+        sandstone and limestone.
+    fr:
+      question: "Quelle description correspond le mieux aux sols viticoles du Rhône méridional ?"
+      choices:
+        - { text: "Ils sont uniformément constitués d’alluvions profondes et fertiles", correct: false }
+        - { text: "Ils sont variés : argile, calcaire, sable, graviers et galets roulés", correct: true }
+        - { text: "Ils se composent presque entièrement de granite et de schiste", correct: false }
+        - { text: "Ils sont dominés par des tourbières gorgées d’eau", correct: false }
+      explanation: |
+        Le sud ne possède pas un type de sol unique. Châteauneuf-du-Pape comprend à lui seul des galets sur
+        argile, mais aussi du sable, du grès et du calcaire.
   - id: srhone-stones-heat-001
     type: mcq
-    deck: France::Southern Rhône
-    tags: [france, southern-rhone, soil]
+    deck: "France::Southern Rhône"
+    tags: ["france","southern-rhone","soil"]
     status: reviewed
     source_id: c20-0004
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: What do the Southern Rhône’s stony vineyard floors do for ripening?
+      question: "How can a surface layer of stones influence ripening in the Southern Rhône?"
       choices:
-        - { text: "They keep the ground ice-cold", correct: false }
-        - { text: "They store the day’s heat and give it back, helping grapes finish", correct: true }
-        - { text: "They ban any sugar ripeness", correct: false }
-        - { text: "They force irrigation", correct: false }
+        - { text: "It keeps the soil permanently cool", correct: false }
+        - { text: "It absorbs daytime heat and releases it after sunset", correct: true }
+        - { text: "It prevents roots from reaching water reserves", correct: false }
+        - { text: "It increases rainfall around the bunches", correct: false }
       explanation: |
-        **They store heat and warm the vineyard.** Galets after a July
-        day are still hot at dusk.
-
+        Rounded stones warm strongly in the sun and can extend heat around the vine into the evening. Their
+        importance varies with site and is not the only factor in ripening.
+    fr:
+      question: "Comment une couche de pierres en surface peut-elle influencer la maturation dans le Rhône méridional ?"
+      choices:
+        - { text: "Elle maintient le sol constamment frais", correct: false }
+        - { text: "Elle absorbe la chaleur du jour et la restitue après le coucher du soleil", correct: true }
+        - { text: "Elle empêche les racines d’atteindre les réserves d’eau", correct: false }
+        - { text: "Elle augmente les précipitations autour des grappes", correct: false }
+      explanation: |
+        Les galets chauffent fortement au soleil et peuvent prolonger la chaleur autour du cep en soirée. Leur
+        importance varie selon le site et ils ne constituent pas le seul facteur de maturation.
   - id: srhone-galets-001
     type: mcq
-    deck: France::Southern Rhône
-    tags: [france, southern-rhone, soil]
+    deck: "France::Southern Rhône"
+    tags: ["france","southern-rhone","soil"]
     status: reviewed
     source_id: c20-0005
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: How complete is the stone carpet on some Châteauneuf-du-Pape sites?
+      question: "What are the galets roulés associated with some Châteauneuf-du-Pape vineyards?"
       choices:
-        - { text: "There are never any stones", correct: false }
-        - { text: "Galets can cover the soil surface completely", correct: true }
-        - { text: "Only a dusting of sand", correct: false }
-        - { text: "The AOC bans any pebble", correct: false }
+        - { text: "Thin plates of local schist", correct: false }
+        - { text: "Large rounded stones deposited by the Rhône", correct: true }
+        - { text: "Sharp fragments of decomposed granite", correct: false }
+        - { text: "Soft chalk pebbles formed in the vineyard", correct: false }
       explanation: |
-        **A full galet carpet** on some plots — the postcard
-        Châteauneuf. Other parcels are sand or clay with fewer stones.
-
+        These rounded river stones can form a dense surface cover over clay-rich soils. Other Châteauneuf
+        parcels are sandy or limestone-rich and may show few galets.
+    fr:
+      question: "Que sont les galets roulés associés à certaines parcelles de Châteauneuf-du-Pape ?"
+      choices:
+        - { text: "De fines plaques de schiste local", correct: false }
+        - { text: "De gros galets arrondis déposés par le Rhône", correct: true }
+        - { text: "Des fragments anguleux de granite décomposé", correct: false }
+        - { text: "Des cailloux de craie tendre formés dans le vignoble", correct: false }
+      explanation: |
+        Ces galets fluviaux peuvent former une couverture dense au-dessus de sols riches en argile. D’autres
+        parcelles de Châteauneuf sont sableuses ou calcaires et présentent peu de galets.
   - id: srhone-climate-001
     type: mcq
-    deck: France::Southern Rhône
-    tags: [france, southern-rhone, climate]
+    deck: "France::Southern Rhône"
+    tags: ["france","southern-rhone","climate"]
     status: reviewed
     source_id: c20-0006
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: Which climate description fits the Southern Rhône?
+      question: "Which climate best describes the Southern Rhône?"
       choices:
-        - { text: "Cool maritime, like Muscadet", correct: false }
-        - { text: "Mediterranean — mild winters, warm dry summers", correct: true }
-        - { text: "High alpine only", correct: false }
-        - { text: "Moderate continental, like Beaujolais", correct: false }
+        - { text: "Cool maritime with rainfall evenly spread through summer", correct: false }
+        - { text: "Mediterranean, with warm dry summers and generally mild winters", correct: true }
+        - { text: "Moderate continental with short cool summers", correct: false }
+        - { text: "Alpine with frequent summer frost", correct: false }
       explanation: |
-        **Mediterranean.** That is why Grenache ripens here and struggles
-        on Côte-Rôtie.
-
+        Strong sunshine and summer dryness favour late-ripening Grenache and Mourvèdre. Drought, heat and the
+        mistral are important hazards.
+    fr:
+      question: "Quel climat décrit le mieux le Rhône méridional ?"
+      choices:
+        - { text: "Océanique frais avec des pluies estivales régulières", correct: false }
+        - { text: "Méditerranéen, avec des étés chauds et secs et des hivers généralement doux", correct: true }
+        - { text: "Continental modéré avec des étés courts et frais", correct: false }
+        - { text: "Alpin avec de fréquentes gelées estivales", correct: false }
+      explanation: |
+        Le fort ensoleillement et la sécheresse estivale favorisent le Grenache et le Mourvèdre tardifs. La
+        sécheresse, la chaleur et le mistral sont des risques importants.
   - id: srhone-drought-001
     type: mcq
-    deck: France::Southern Rhône
-    tags: [france, southern-rhone, climate]
+    deck: "France::Southern Rhône"
+    tags: ["france","southern-rhone","climate"]
     status: reviewed
     source_id: c20-0007
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: Besides the mistral, which water stress is a major Southern Rhône hazard?
+      question: "Which growing-season hazard is especially important in the Southern Rhône’s Mediterranean climate?"
       choices:
-        - { text: "Annual flooding from the Loire", correct: false }
-        - { text: "Drought", correct: true }
-        - { text: "Permanent ice", correct: false }
-        - { text: "Monsoon", correct: false }
+        - { text: "Persistent waterlogging", correct: false }
+        - { text: "Drought and water stress", correct: true }
+        - { text: "Insufficient winter dormancy every year", correct: false }
+        - { text: "Lack of sunlight during ripening", correct: false }
       explanation: |
-        **Drought.** Warm, dry summers plus stones that drain. Irrigation
-        is tightly controlled, not a free tap.
-
+        Hot, dry summers and freely draining stony soils can leave vines short of water. Old vines and deeper
+        clay reserves may improve resilience.
+    fr:
+      question: "Quel risque de la saison végétative est particulièrement important dans le climat méditerranéen du Rhône méridional ?"
+      choices:
+        - { text: "L’engorgement permanent des sols", correct: false }
+        - { text: "La sécheresse et le stress hydrique", correct: true }
+        - { text: "L’absence systématique de dormance hivernale", correct: false }
+        - { text: "Le manque d’ensoleillement pendant la maturation", correct: false }
+      explanation: |
+        Les étés chauds et secs et les sols caillouteux très drainants peuvent priver la vigne d’eau. Les
+        vieilles vignes et les réserves des argiles profondes peuvent améliorer la résistance.
   - id: srhone-mistral-south-001
     type: mcq
-    deck: France::Southern Rhône
-    tags: [france, southern-rhone, climate]
+    deck: "France::Southern Rhône"
+    tags: ["france","southern-rhone","climate"]
     status: reviewed
     source_id: c20-0007
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: Which wind is a major climatic threat in the Southern Rhône?
+      question: "Which wind strongly influences the Southern Rhône?"
       choices:
-        - { text: "The foehn only", correct: false }
+        - { text: "The autan", correct: false }
         - { text: "The mistral", correct: true }
-        - { text: "A sea breeze from Brittany", correct: false }
-        - { text: "There is no wind", correct: false }
+        - { text: "The tramontane", correct: false }
+        - { text: "The foehn", correct: false }
       explanation: |
-        **The mistral.** Same north wind as up-valley, harder here.
-
+        This cold, dry northerly can reduce fungal pressure and clear skies, but violent gusts may damage vines
+        and increase evaporation.
+    fr:
+      question: "Quel vent influence fortement le Rhône méridional ?"
+      choices:
+        - { text: "L’autan", correct: false }
+        - { text: "Le mistral", correct: true }
+        - { text: "La tramontane", correct: false }
+        - { text: "Le foehn", correct: false }
+      explanation: |
+        Ce vent du nord froid et sec peut réduire la pression des maladies et dégager le ciel, mais ses rafales
+        violentes risquent d’abîmer les vignes et d’accroître l’évaporation.
   - id: srhone-mistral-why-001
     type: mcq
-    deck: France::Southern Rhône
-    tags: [france, southern-rhone, climate]
+    deck: "France::Southern Rhône"
+    tags: ["france","southern-rhone","climate"]
     status: reviewed
     source_id: c20-0008
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: Why does the mistral hit the Southern Rhône harder than Ampuis or Tain?
+      question: "Why are many Southern Rhône vineyards highly exposed to the mistral?"
       choices:
-        - { text: "The law bans any windbreak", correct: false }
-        - { text: "The wind has more fetch and the land is too flat to shelter the vines", correct: true }
-        - { text: "There is no mistral south of Valence", correct: false }
-        - { text: "Slopes are steeper than Hermitage", correct: false }
+        - { text: "Dense forest traps the wind over every site", correct: false }
+        - { text: "The broad, open valley offers less shelter than the northern slopes", correct: true }
+        - { text: "The Mediterranean reverses the wind towards the north", correct: false }
+        - { text: "High humidity intensifies every northerly breeze", correct: false }
       explanation: |
-        **More speed, less slope shelter.** The north has walls; the
-        south is a corridor.
-
+        South of Montélimar the valley broadens, giving the wind a long, unobstructed path. Local hills and
+        windbreaks can still create protection.
+    fr:
+      question: "Pourquoi de nombreux vignobles du Rhône méridional sont-ils très exposés au mistral ?"
+      choices:
+        - { text: "La forêt dense emprisonne le vent sur chaque site", correct: false }
+        - { text: "La vallée large et ouverte offre moins d’abri que les coteaux septentrionaux", correct: true }
+        - { text: "La Méditerranée renverse le vent vers le nord", correct: false }
+        - { text: "Une forte humidité intensifie chaque brise du nord", correct: false }
+      explanation: |
+        Au sud de Montélimar, la vallée s’élargit et offre au vent un long couloir dégagé. Les collines et les
+        haies locales peuvent néanmoins apporter une protection.
   - id: srhone-windbreaks-001
     type: mcq
-    deck: France::Southern Rhône
-    tags: [france, southern-rhone]
+    deck: "France::Southern Rhône"
+    tags: ["france","southern-rhone"]
     status: reviewed
     source_id: c20-0009
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: How do Southern Rhône growers blunt the mistral?
+      question: "Which vineyard feature can reduce mistral damage in the Southern Rhône?"
       choices:
-        - { text: "By banning Grenache", correct: false }
-        - { text: "By planting or building wind-breaks", correct: true }
-        - { text: "By irrigating every hour", correct: false }
-        - { text: "By training vines twenty metres high", correct: false }
+        - { text: "Drainage ditches running downslope", correct: false }
+        - { text: "Rows of trees or walls acting as windbreaks", correct: true }
+        - { text: "High-density planting without supports", correct: false }
+        - { text: "Bare soil kept free of vegetation", correct: false }
       explanation: |
-        **Wind-breaks** — cypress, poplar, walls. The rows still feel
-        the wind; they just do not take the full blast.
-
+        Cypress, poplar and built walls can slow gusts around exposed parcels. They reduce rather than eliminate
+        the wind.
+    fr:
+      question: "Quel aménagement viticole peut réduire les dégâts du mistral dans le Rhône méridional ?"
+      choices:
+        - { text: "Des fossés de drainage dans le sens de la pente", correct: false }
+        - { text: "Des rangées d’arbres ou des murs servant de brise-vent", correct: true }
+        - { text: "Une forte densité de plantation sans support", correct: false }
+        - { text: "Un sol nu maintenu sans végétation", correct: false }
+      explanation: |
+        Des cyprès, des peupliers ou des murs peuvent ralentir les rafales autour des parcelles exposées. Ils
+        atténuent le vent sans le supprimer.
   - id: srhone-grenache-train-001
     type: mcq
-    deck: France::Southern Rhône
-    tags: [france, southern-rhone]
+    deck: "France::Southern Rhône"
+    tags: ["france","southern-rhone"]
     status: reviewed
     source_id: c20-0010
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: How is Grenache usually trained against the mistral?
+      question: "Which training system is traditionally well suited to Grenache in the Southern Rhône?"
       choices:
-        - { text: "On a high pergola only", correct: false }
-        - { text: "Low, as a bush vine close to the ground", correct: true }
-        - { text: "Ungrafted, with no trunk", correct: false }
-        - { text: "It is never trained", correct: false }
+        - { text: "A tall overhead pergola", correct: false }
+        - { text: "Low, free-standing gobelet", correct: true }
+        - { text: "A single stake on very steep terraces", correct: false }
+        - { text: "A high vertical trellis with a long trunk", correct: false }
       explanation: |
-        **Low goblet / bush.** A short trunk sits out of the worst
-        gusts and in the galet heat.
-
+        Grenache’s strong, upright growth suits bush training. A low gobelet also reduces wind exposure and
+        shades bunches from intense sun.
+    fr:
+      question: "Quel système de conduite convient traditionnellement bien au Grenache dans le Rhône méridional ?"
+      choices:
+        - { text: "Une haute pergola couvrant les rangs", correct: false }
+        - { text: "Un gobelet bas et autoportant", correct: true }
+        - { text: "Un échalas individuel sur des terrasses très raides", correct: false }
+        - { text: "Un haut palissage vertical à tronc long", correct: false }
+      explanation: |
+        Le port dressé et robuste du Grenache convient au gobelet. Une conduite basse réduit aussi l’exposition
+        au vent et protège les grappes du soleil intense.
   - id: srhone-syrah-trellis-001
     type: mcq
-    deck: France::Southern Rhône
-    tags: [france, southern-rhone]
+    deck: "France::Southern Rhône"
+    tags: ["france","southern-rhone"]
     status: reviewed
     source_id: c20-0010
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: How does Syrah usually get support in the Southern Rhône?
+      question: "Why is Syrah commonly trellised in the Southern Rhône?"
       choices:
-        - { text: "It is never trained", correct: false }
-        - { text: "On a trellis", correct: true }
-        - { text: "Only as a free-standing bush, like all Grenache", correct: false }
-        - { text: "Under glass", correct: false }
+        - { text: "Its shoots need support and an organised canopy", correct: false }
+        - { text: "It can ripen only when trained above two metres", correct: true }
+        - { text: "Appellation law prohibits bush-trained Syrah", correct: false }
+        - { text: "Trellising automatically protects it from drought", correct: false }
       explanation: |
-        **Trellising.** Syrah’s upright growth and thinner wood need the
-        wires; Grenache’s bush does not.
-
+        Syrah has less self-supporting growth than Grenache. Wires help manage shoots and fruit exposure,
+        especially on sites that permit mechanisation.
+    fr:
+      question: "Pourquoi la Syrah est-elle couramment palissée dans le Rhône méridional ?"
+      choices:
+        - { text: "Ses rameaux ont besoin de soutien et d’une végétation organisée", correct: false }
+        - { text: "Elle ne peut mûrir que si elle est conduite à plus de deux mètres", correct: true }
+        - { text: "Le cahier des charges interdit la Syrah en gobelet", correct: false }
+        - { text: "Le palissage la protège automatiquement de la sécheresse", correct: false }
+      explanation: |
+        La Syrah se soutient moins naturellement que le Grenache. Les fils facilitent la conduite des rameaux et
+        l’exposition des grappes, surtout sur les sites mécanisables.
   - id: srhone-blends-001
     type: mcq
-    deck: France::Southern Rhône
-    tags: [france, southern-rhone]
+    deck: "France::Southern Rhône"
+    tags: ["france","southern-rhone"]
     status: reviewed
     source_id: c20-0011
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: How do Southern Rhône reds usually differ from Northern Rhône crus in the glass composition?
+      question: "How do Southern Rhône reds usually differ from Northern Rhône reds in their varietal composition?"
       choices:
-        - { text: "They must be 100% Syrah, like Cornas", correct: false }
-        - { text: "They are often complex blends", correct: true }
-        - { text: "Only one white grape is legal", correct: false }
-        - { text: "Blending is banned", correct: false }
+        - { text: "They are normally pure Syrah", correct: false }
+        - { text: "They are commonly blends led by Grenache", correct: true }
+        - { text: "They are normally pure Mourvèdre", correct: false }
+        - { text: "They exclude all secondary varieties", correct: false }
       explanation: |
-        **Complex blends** — Grenache with Syrah, Mourvèdre, Cinsault…
-        The north is a Syrah (or Viognier) story.
-
+        Grenache often leads, supported by Syrah, Mourvèdre, Cinsault and other authorised grapes. Northern red
+        crus instead centre on Syrah.
+    fr:
+      question: "Comment les rouges du Rhône méridional diffèrent-ils généralement des rouges septentrionaux par leur composition variétale ?"
+      choices:
+        - { text: "Ils sont habituellement composés uniquement de Syrah", correct: false }
+        - { text: "Ce sont couramment des assemblages dominés par le Grenache", correct: true }
+        - { text: "Ils sont habituellement composés uniquement de Mourvèdre", correct: false }
+        - { text: "Ils excluent tous les cépages secondaires", correct: false }
+      explanation: |
+        Le Grenache domine souvent, complété par la Syrah, le Mourvèdre, le Cinsault et d’autres cépages
+        autorisés. Les crus rouges septentrionaux reposent au contraire sur la Syrah.
   - id: srhone-dozen-001
     type: mcq
-    deck: France::Southern Rhône
-    tags: [france, southern-rhone]
+    deck: "France::Southern Rhône"
+    tags: ["france","southern-rhone"]
     status: reviewed
     source_id: c20-0012
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: How wide is the legal grape list for a typical Southern Rhône blend?
+      question: "How broad are the permitted grape lists in many Southern Rhône appellations?"
       choices:
-        - { text: "Exactly one, like Cornas", correct: false }
-        - { text: "More than a dozen, depending on the AOC", correct: true }
-        - { text: "Two only, forever", correct: false }
-        - { text: "None — only oak chips", correct: false }
+        - { text: "They are limited to Syrah and Grenache", correct: false }
+        - { text: "They can include numerous principal and secondary varieties", correct: true }
+        - { text: "They require exactly three varieties in every wine", correct: false }
+        - { text: "They permit only one variety chosen by each commune", correct: false }
       explanation: |
-        **More than a dozen** in the wider south; Châteauneuf’s list is
-        the extreme. Not a one-grape valley.
-
+        The south preserves a long tradition of mixed plantings and blending. Exact lists and proportions differ
+        by appellation, so no single recipe applies throughout the region.
+    fr:
+      question: "Quelle est l’ampleur des listes de cépages autorisés dans de nombreuses appellations du Rhône méridional ?"
+      choices:
+        - { text: "Elles se limitent à la Syrah et au Grenache", correct: false }
+        - { text: "Elles peuvent comprendre de nombreux cépages principaux et secondaires", correct: true }
+        - { text: "Elles imposent exactement trois cépages dans chaque vin", correct: false }
+        - { text: "Elles n’autorisent qu’un cépage choisi par chaque commune", correct: false }
+      explanation: |
+        Le sud conserve une longue tradition de complantation et d’assemblage. Les listes et proportions exactes
+        varient selon l’appellation : aucune recette unique ne s’applique à toute la région.
   - id: srhone-grenache-area-001
     type: mcq
-    deck: France::Southern Rhône
-    tags: [france, southern-rhone, grapes]
+    deck: "France::Southern Rhône"
+    tags: ["france","southern-rhone","grapes"]
     status: reviewed
     source_id: c20-0013
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: Which grape covers by far the most Southern Rhône vineyard?
+      question: "Which black variety occupies the largest vineyard area in the Southern Rhône?"
       choices:
         - { text: "Syrah", correct: false }
         - { text: "Grenache", correct: true }
         - { text: "Mourvèdre", correct: false }
-        - { text: "Viognier", correct: false }
+        - { text: "Cinsault", correct: false }
       explanation: |
-        **Grenache.** Syrah and Mourvèdre matter in the blend; they do
-        not own the hectares.
-
+        Grenache’s tolerance of heat, drought and wind makes it central to the region. Syrah and Mourvèdre
+        commonly reinforce its colour, tannin and complexity.
+    fr:
+      question: "Quel cépage noir occupe la plus grande superficie dans le Rhône méridional ?"
+      choices:
+        - { text: "La Syrah", correct: false }
+        - { text: "Le Grenache", correct: true }
+        - { text: "Le Mourvèdre", correct: false }
+        - { text: "Le Cinsault", correct: false }
+      explanation: |
+        La tolérance du Grenache à la chaleur, à la sécheresse et au vent en fait le cépage central de la
+        région. Syrah et Mourvèdre renforcent souvent sa couleur, ses tanins et sa complexité.
   - id: srhone-grenache-why-001
     type: mcq
-    deck: France::Southern Rhône
-    tags: [france, southern-rhone, grapes]
+    deck: "France::Southern Rhône"
+    tags: ["france","southern-rhone","grapes"]
     status: reviewed
     source_id: c20-0015
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: Why does Grenache ripen reliably in the Southern Rhône when it fails further north?
+      question: "Why does Grenache ripen more reliably in the Southern Rhône than in the Northern Rhône?"
       choices:
-        - { text: "Cool maritime summers", correct: false }
-        - { text: "Warm summers let it finish", correct: true }
-        - { text: "It is a cool-climate grape", correct: false }
-        - { text: "INAO heats the vineyards", correct: false }
+        - { text: "It requires a short, cool growing season", correct: false }
+        - { text: "It benefits from the south’s long, warm growing season", correct: true }
+        - { text: "It ripens before all other Rhône varieties", correct: false }
+        - { text: "It needs high summer rainfall to complete ripening", correct: false }
       explanation: |
-        **Warm summers.** Grenache is late; the Mediterranean season is
-        what it needs.
-
+        Grenache is late ripening and needs sustained heat. The Mediterranean south supplies a longer, warmer
+        season than the cooler northern slopes.
+    fr:
+      question: "Pourquoi le Grenache mûrit-il plus régulièrement dans le Rhône méridional que septentrional ?"
+      choices:
+        - { text: "Il exige une saison végétative courte et fraîche", correct: false }
+        - { text: "Il profite de la longue et chaude saison végétative du sud", correct: true }
+        - { text: "Il mûrit avant tous les autres cépages rhodaniens", correct: false }
+        - { text: "Il a besoin de fortes pluies estivales pour achever sa maturation", correct: false }
+      explanation: |
+        Le Grenache est tardif et demande une chaleur prolongée. Le sud méditerranéen offre une saison plus
+        longue et plus chaude que les coteaux septentrionaux plus frais.
   - id: srhone-grenache-flavour-001
     type: mcq
-    deck: France::Southern Rhône
-    tags: [france, southern-rhone, grapes]
+    deck: "France::Southern Rhône"
+    tags: ["france","southern-rhone","grapes"]
     status: reviewed
     source_id: c20-0016
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: What fruit does ripe Southern Rhône Grenache usually show?
+      question: "Which flavour profile is typical of ripe Southern Rhône Grenache?"
       choices:
-        - { text: "Green bell pepper and tomato leaf", correct: false }
-        - { text: "Concentrated, spiced red fruit", correct: true }
-        - { text: "Lychee and roses", correct: false }
-        - { text: "Cassis and cedar only", correct: false }
+        - { text: "Blackcurrant, mint and firm herbaceous tannin", correct: false }
+        - { text: "Concentrated red fruit with warm spice and dried-herb notes", correct: true }
+        - { text: "High-acid citrus with green-apple aromas", correct: false }
+        - { text: "Violet, black pepper and dense black fruit only", correct: false }
       explanation: |
-        **Spiced red fruit** — strawberry, raspberry, garrigue spice.
-        **Rayas** is the loud version.
-
+        Ripe Grenache commonly shows strawberry or raspberry fruit, generous alcohol and garrigue-like spice.
+        Its colour and tannin are usually moderate.
+    fr:
+      question: "Quel profil aromatique est typique d’un Grenache mûr du Rhône méridional ?"
+      choices:
+        - { text: "Cassis, menthe et tanins végétaux fermes", correct: false }
+        - { text: "Fruits rouges concentrés avec épices chaudes et herbes sèches", correct: true }
+        - { text: "Agrumes très acides avec arômes de pomme verte", correct: false }
+        - { text: "Violette, poivre noir et fruits noirs denses uniquement", correct: false }
+      explanation: |
+        Le Grenache mûr présente souvent des fruits comme la fraise ou la framboise, un alcool généreux et des
+        épices évoquant la garrigue. Sa couleur et ses tanins restent généralement modérés.
   - id: srhone-grenache-baked-001
     type: mcq
-    deck: France::Southern Rhône
-    tags: [france, southern-rhone, grapes]
+    deck: "France::Southern Rhône"
+    tags: ["france","southern-rhone","grapes"]
     status: reviewed
     source_id: c20-0017
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: What happens to Grenache if the site or the pick is too hot?
+      question: "What can happen when Grenache becomes overripe in a very hot Southern Rhône site?"
       choices:
-        - { text: "It stays green and herbaceous", correct: false }
-        - { text: "The fruit can turn baked and jammy", correct: true }
-        - { text: "Alcohol disappears", correct: false }
-        - { text: "It becomes a white wine", correct: false }
+        - { text: "Its fruit becomes increasingly herbaceous", correct: false }
+        - { text: "Its fruit can become jammy and its alcohol unbalanced", correct: true }
+        - { text: "Its acidity rises while sugar falls", correct: false }
+        - { text: "Its tannins become markedly greener", correct: false }
       explanation: |
-        **Baked, jammy fruit** — the cheap Châteauneuf fault. Heat plus
-        high yield is the usual path there.
-
+        Excessive heat and delayed picking can push sugar faster than flavour balance, producing baked fruit and
+        high alcohol. Site choice and harvest timing are critical.
+    fr:
+      question: "Que peut-il se produire lorsque le Grenache devient surmûr sur un terroir très chaud du Rhône méridional ?"
+      choices:
+        - { text: "Son fruit devient de plus en plus végétal", correct: false }
+        - { text: "Son fruit peut devenir confituré et son alcool déséquilibré", correct: true }
+        - { text: "Son acidité augmente tandis que le sucre diminue", correct: false }
+        - { text: "Ses tanins deviennent nettement plus verts", correct: false }
+      explanation: |
+        Une chaleur excessive et une vendange trop tardive peuvent faire progresser le sucre plus vite que
+        l’équilibre aromatique, donnant des fruits cuits et un alcool élevé. Le choix du site et la date de
+        récolte sont essentiels.
   - id: srhone-syrah-role-001
     type: mcq
-    deck: France::Southern Rhône
-    tags: [france, southern-rhone, grapes]
+    deck: "France::Southern Rhône"
+    tags: ["france","southern-rhone","grapes"]
     status: reviewed
     source_id: c20-0018
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: In a Southern Rhône red, what structural job does Syrah usually take?
+      question: "What does Syrah commonly contribute to a Grenache-led Southern Rhône red?"
       choices:
-        - { text: "Only residual sugar", correct: false }
-        - { text: "Extra colour and tannin", correct: true }
-        - { text: "A floral Viognier note", correct: false }
-        - { text: "It is banned in the south", correct: false }
+        - { text: "Lower colour and softer tannin", correct: false }
+        - { text: "Deeper colour, firmer tannin and dark fruit", correct: true }
+        - { text: "Higher residual sugar and lower alcohol", correct: false }
+        - { text: "Floral white-fruit aromas and less structure", correct: false }
       explanation: |
-        **Colour and tannin** — the frame Grenache often lacks. Not a
-        Côte-Rôtie bottle on its own down here.
-
+        Syrah supplies colour and structure that Grenache may lack, together with dark fruit and pepper. Its
+        proportion depends on site and producer.
+    fr:
+      question: "Qu’apporte couramment la Syrah à un rouge du Rhône méridional dominé par le Grenache ?"
+      choices:
+        - { text: "Une couleur plus claire et des tanins plus souples", correct: false }
+        - { text: "Une couleur plus profonde, des tanins plus fermes et des fruits noirs", correct: true }
+        - { text: "Davantage de sucre résiduel et moins d’alcool", correct: false }
+        - { text: "Des arômes floraux de fruits blancs et moins de structure", correct: false }
+      explanation: |
+        La Syrah apporte la couleur et la structure qui peuvent manquer au Grenache, ainsi que des fruits noirs
+        et du poivre. Sa proportion dépend du terroir et du producteur.
   - id: srhone-syrah-hot-001
     type: mcq
-    deck: France::Southern Rhône
-    tags: [france, southern-rhone, grapes]
+    deck: "France::Southern Rhône"
+    tags: ["france","southern-rhone","grapes"]
     status: reviewed
     source_id: c20-0019
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: On the hottest Southern Rhône parcels, which red grape is most likely to suffer?
+      question: "Why is Syrah often placed on relatively cooler Southern Rhône sites?"
       choices:
-        - { text: "Grenache", correct: false }
-        - { text: "Syrah", correct: true }
-        - { text: "Mourvèdre, which loves shade", correct: false }
-        - { text: "No grape minds heat", correct: false }
+        - { text: "It needs more heat than Grenache to ripen", correct: false }
+        - { text: "Extreme heat can reduce its freshness and aromatic definition", correct: true }
+        - { text: "It cannot tolerate any wind exposure", correct: false }
+        - { text: "Cool sites guarantee lower yields by law", correct: false }
       explanation: |
-        **Syrah.** It wants a slightly cooler slot than Grenache. Plant
-        it on a baked galet field and it can jam or lose perfume.
-
+        Syrah ripens earlier than Grenache and Mourvèdre. On the hottest parcels it can accumulate sugar rapidly
+        and produce broad, jammy flavours.
+    fr:
+      question: "Pourquoi la Syrah est-elle souvent plantée sur des terroirs relativement plus frais du Rhône méridional ?"
+      choices:
+        - { text: "Elle demande davantage de chaleur que le Grenache pour mûrir", correct: false }
+        - { text: "Une chaleur extrême peut lui faire perdre fraîcheur et précision aromatique", correct: true }
+        - { text: "Elle ne tolère aucune exposition au vent", correct: false }
+        - { text: "Les sites frais garantissent légalement des rendements plus faibles", correct: false }
+      explanation: |
+        La Syrah mûrit plus tôt que le Grenache et le Mourvèdre. Sur les parcelles les plus chaudes, elle peut
+        accumuler rapidement du sucre et donner des arômes larges et confiturés.
   - id: srhone-mourvedre-limit-001
     type: mcq
-    deck: France::Southern Rhône
-    tags: [france, southern-rhone, grapes]
+    deck: "France::Southern Rhône"
+    tags: ["france","southern-rhone","grapes"]
     status: reviewed
     source_id: c20-0020
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: Which Southern Rhône grape is hanging on at the northern edge of where it still ripens?
+      question: "Which important Southern Rhône variety approaches its reliable northern ripening limit in the region?"
       choices:
-        - { text: "Melon", correct: false }
+        - { text: "Cinsault", correct: false }
         - { text: "Mourvèdre", correct: true }
-        - { text: "Riesling", correct: false }
-        - { text: "Pinot Noir", correct: false }
+        - { text: "Syrah", correct: false }
+        - { text: "Carignan", correct: false }
       explanation: |
-        **Mourvèdre.** The south is about as far north as it reliably
-        finishes — Bandol is easier; Châteauneuf is the stretch.
-
+        Mourvèdre is very late ripening and needs strong heat into autumn. The warmest sites of
+        Châteauneuf-du-Pape can ripen it successfully, but cooler sites may not.
+    fr:
+      question: "Quel cépage important du Rhône méridional approche dans la région sa limite septentrionale de maturation fiable ?"
+      choices:
+        - { text: "Le Cinsault", correct: false }
+        - { text: "Le Mourvèdre", correct: true }
+        - { text: "La Syrah", correct: false }
+        - { text: "Le Carignan", correct: false }
+      explanation: |
+        Le Mourvèdre est très tardif et exige une forte chaleur jusqu’en automne. Les terroirs les plus chauds
+        de Châteauneuf-du-Pape peuvent bien le mûrir, contrairement aux sites plus frais.
   - id: srhone-mourvedre-profile-001
     type: mcq
-    deck: France::Southern Rhône
-    tags: [france, southern-rhone, grapes]
+    deck: "France::Southern Rhône"
+    tags: ["france","southern-rhone","grapes"]
     status: reviewed
     source_id: c20-0021
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: What does ripe Mourvèdre usually look and taste like in the Southern Rhône?
+      question: "Which profile best describes fully ripe Mourvèdre in a Southern Rhône blend?"
       choices:
-        - { text: "Pale, low tannin, and floral only", correct: false }
-        - { text: "Deep colour, very high tannin, dense black fruit, and a gamey note when ripe", correct: true }
-        - { text: "Oily, low acid, lychee", correct: false }
-        - { text: "A light Gamay picnic wine", correct: false }
+        - { text: "Pale colour, soft tannin and delicate red fruit", correct: false }
+        - { text: "Deep colour, high tannin, black fruit and savoury or gamey notes", correct: true }
+        - { text: "Medium colour, low acidity and floral white fruit", correct: false }
+        - { text: "Light body, high acidity and simple strawberry fruit", correct: false }
       explanation: |
-        **Deep, very tannic, black fruit, gamey when ripe.** Underripe
-        it is just green and hard.
-
+        Mourvèdre adds colour, tannin and dense black-fruit character. When fully ripe it can develop
+        distinctive meaty, earthy complexity; underripe fruit is hard and herbal.
+    fr:
+      question: "Quel profil décrit le mieux un Mourvèdre pleinement mûr dans un assemblage du Rhône méridional ?"
+      choices:
+        - { text: "Robe pâle, tanins souples et fruits rouges délicats", correct: false }
+        - { text: "Robe profonde, tanins élevés, fruits noirs et notes savoureuses ou animales", correct: true }
+        - { text: "Robe moyenne, faible acidité et fruits blancs floraux", correct: false }
+        - { text: "Corps léger, acidité élevée et simples arômes de fraise", correct: false }
+      explanation: |
+        Le Mourvèdre apporte couleur, tanins et densité de fruits noirs. À pleine maturité, il peut développer
+        une complexité carnée et terreuse ; insuffisamment mûr, il devient dur et végétal.
   - id: srhone-mourvedre-cdp-001
     type: mcq
-    deck: France::Southern Rhône
-    tags: [france, southern-rhone, grapes]
+    deck: "France::Southern Rhône"
+    tags: ["france","southern-rhone","grapes"]
     status: reviewed
     source_id: c20-0022
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: Where in the Southern Rhône is ripe, gamey Mourvèdre most prized?
+      question: "In which Southern Rhône cru does Mourvèdre play a particularly important role in some top blends?"
       choices:
-        - { text: "Muscadet Sèvre-et-Maine", correct: false }
+        - { text: "Beaumes-de-Venise", correct: false }
         - { text: "Châteauneuf-du-Pape", correct: true }
-        - { text: "Côte-Rôtie", correct: false }
-        - { text: "Vouvray", correct: false }
+        - { text: "Gigondas", correct: false }
+        - { text: "Vacqueyras", correct: false }
       explanation: |
-        **Châteauneuf-du-Pape.** **Beaucastel** is the named
-        Mourvèdre-heavy house.
-
+        The warmest Châteauneuf sites can ripen substantial proportions of Mourvèdre. Château de Beaucastel is a
+        well-known example of a Mourvèdre-rich blend.
+    fr:
+      question: "Dans quel cru du Rhône méridional le Mourvèdre joue-t-il un rôle particulièrement important dans certains grands assemblages ?"
+      choices:
+        - { text: "Beaumes-de-Venise", correct: false }
+        - { text: "Châteauneuf-du-Pape", correct: true }
+        - { text: "Gigondas", correct: false }
+        - { text: "Vacqueyras", correct: false }
+      explanation: |
+        Les terroirs les plus chauds de Châteauneuf peuvent mûrir une proportion importante de Mourvèdre.
+        Château de Beaucastel constitue un exemple connu d’assemblage riche en Mourvèdre.
   - id: srhone-cinsault-001
     type: mcq
-    deck: France::Southern Rhône
-    tags: [france, southern-rhone, grapes]
+    deck: "France::Southern Rhône"
+    tags: ["france","southern-rhone","grapes"]
     status: reviewed
     source_id: c20-0023
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: Which Southern Rhône black grape is used for red fruit rather than structure?
+      question: "What is Cinsault’s usual contribution to a Southern Rhône blend?"
       choices:
-        - { text: "Mourvèdre", correct: false }
-        - { text: "Cinsault", correct: true }
-        - { text: "Pinot Noir", correct: false }
-        - { text: "Cabernet Sauvignon", correct: false }
+        - { text: "Dense colour and very high tannin", correct: false }
+        - { text: "Fresh red fruit and softness", correct: true }
+        - { text: "High acidity and citrus aroma", correct: false }
+        - { text: "Black fruit and gamey structure", correct: false }
       explanation: |
-        **Cinsault** — red fruit, not tannin. Syrah and Mourvèdre do
-        the frame; Carignan is another blender, not this fruit role.
-
+        Cinsault is valued for perfume, red fruit and supple texture rather than power. It is useful in both
+        reds and rosés.
+    fr:
+      question: "Quel est l’apport habituel du Cinsault dans un assemblage du Rhône méridional ?"
+      choices:
+        - { text: "Une couleur dense et des tanins très élevés", correct: false }
+        - { text: "Des fruits rouges frais et de la souplesse", correct: true }
+        - { text: "Une forte acidité et des arômes d’agrumes", correct: false }
+        - { text: "Des fruits noirs et une structure animale", correct: false }
+      explanation: |
+        Le Cinsault est apprécié pour son parfum, ses fruits rouges et sa texture souple plutôt que pour sa
+        puissance. Il est utile aussi bien dans les rouges que dans les rosés.
   - id: srhone-cinsault-rose-001
     type: mcq
-    deck: France::Southern Rhône
-    tags: [france, southern-rhone, grapes]
+    deck: "France::Southern Rhône"
+    tags: ["france","southern-rhone","grapes"]
     status: reviewed
     source_id: c20-0024
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: In which Southern Rhône style is Cinsault most often the partner to Grenache?
+      question: "In which Southern Rhône style is Cinsault especially useful alongside Grenache?"
       choices:
-        - { text: "100% new-oak Hermitage lookalikes", correct: false }
-        - { text: "Fresh, fruity rosés", correct: true }
-        - { text: "Icewine only", correct: false }
-        - { text: "Fortified red", correct: false }
+        - { text: "Powerful, long-macerated reds", correct: false }
+        - { text: "Fresh, fruit-driven rosés", correct: true }
+        - { text: "Oxidative dry whites", correct: false }
+        - { text: "Sweet fortified Muscat", correct: false }
       explanation: |
-        **Fresh, fruity rosés** — Tavel, Lirac, and a lot of Côtes du
-        Rhône pink. Fresh red fruit, not a tannin bomb.
-
+        Its red-fruit perfume and moderate tannin suit rosé production. Tavel and Lirac commonly use it within
+        broader blends.
+    fr:
+      question: "Dans quel style du Rhône méridional le Cinsault est-il particulièrement utile aux côtés du Grenache ?"
+      choices:
+        - { text: "Les rouges puissants à longue macération", correct: false }
+        - { text: "Les rosés frais et fruités", correct: true }
+        - { text: "Les blancs secs oxydatifs", correct: false }
+        - { text: "Les Muscats doux fortifiés", correct: false }
+      explanation: |
+        Son parfum de fruits rouges et ses tanins modérés conviennent à l’élaboration du rosé. Tavel et Lirac
+        l’utilisent couramment dans des assemblages plus larges.
   - id: srhone-winemaking-varied-001
     type: mcq
-    deck: France::Southern Rhône
-    tags: [france, southern-rhone]
+    deck: "France::Southern Rhône"
+    tags: ["france","southern-rhone"]
     status: reviewed
     source_id: c20-0025
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: How uniform is Southern Rhône winemaking?
+      question: "Why is there no single standard red-winemaking recipe in the Southern Rhône?"
       choices:
-        - { text: "One legal recipe for every tank", correct: false }
-        - { text: "It is highly varied", correct: true }
-        - { text: "Only carbonic maceration is legal", correct: false }
-        - { text: "Only new barrique is legal", correct: false }
+        - { text: "Every appellation requires a different vessel", correct: false }
+        - { text: "Grape varieties, sites and intended styles vary widely", correct: true }
+        - { text: "All producers must change method each vintage", correct: false }
+        - { text: "Only experimental wines may use blends", correct: false }
       explanation: |
-        **Highly varied** — from cool steel to open wooden vats. The
-        grape mix already forces options.
-
+        A producer may handle delicate Grenache differently from tannic Mourvèdre and then blend the lots. Style
+        ranges from early-drinking fruit to deeply structured reds.
+    fr:
+      question: "Pourquoi n’existe-t-il pas une recette unique de vinification des rouges dans le Rhône méridional ?"
+      choices:
+        - { text: "Chaque appellation impose un contenant différent", correct: false }
+        - { text: "Les cépages, les terroirs et les styles recherchés varient fortement", correct: true }
+        - { text: "Tous les producteurs doivent changer de méthode chaque millésime", correct: false }
+        - { text: "Seuls les vins expérimentaux peuvent être assemblés", correct: false }
+      explanation: |
+        Un producteur peut vinifier différemment un Grenache délicat et un Mourvèdre tannique avant d’assembler
+        les lots. Les styles vont du rouge fruité à boire jeune au vin profondément structuré.
   - id: srhone-balance-001
     type: mcq
-    deck: France::Southern Rhône
-    tags: [france, southern-rhone]
+    deck: "France::Southern Rhône"
+    tags: ["france","southern-rhone"]
     status: reviewed
     source_id: c20-0026
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: Which two traits must a Southern Rhône cellar usually keep in check?
+      question: "Which balance is a central challenge when making powerful Southern Rhône reds?"
       choices:
-        - { text: "Residual sugar and CO₂ only", correct: false }
-        - { text: "High tannin and high alcohol", correct: true }
-        - { text: "A legal 9% alcohol cap", correct: false }
-        - { text: "Zero colour", correct: false }
+        - { text: "Keeping colour while eliminating all tannin", correct: false }
+        - { text: "Achieving ripe structure without excessive extraction or alcohol", correct: true }
+        - { text: "Retaining residual sugar while preventing fruit ripeness", correct: false }
+        - { text: "Producing low alcohol through longer maceration", correct: false }
       explanation: |
-        **High tannin and high alcohol.** Ripe Grenache and Mourvèdre
-        both push those numbers; balance is the work.
-
+        Warm conditions and late-ripening grapes can deliver high sugar and tannin. Harvest timing and
+        extraction must preserve freshness and avoid heaviness.
+    fr:
+      question: "Quel équilibre constitue un défi central dans l’élaboration des rouges puissants du Rhône méridional ?"
+      choices:
+        - { text: "Conserver la couleur tout en éliminant tous les tanins", correct: false }
+        - { text: "Obtenir une structure mûre sans extraction ni alcool excessifs", correct: true }
+        - { text: "Conserver du sucre résiduel tout en empêchant la maturité du fruit", correct: false }
+        - { text: "Produire peu d’alcool grâce à une macération plus longue", correct: false }
+      explanation: |
+        Les conditions chaudes et les cépages tardifs peuvent apporter beaucoup de sucre et de tanins. La date
+        de vendange et l’extraction doivent préserver la fraîcheur et éviter la lourdeur.
   - id: srhone-fresh-path-001
     type: mcq
-    deck: France::Southern Rhône
-    tags: [france, southern-rhone]
+    deck: "France::Southern Rhône"
+    tags: ["france","southern-rhone"]
     status: reviewed
     source_id: c20-0027
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: Which cellar path keeps a Southern Rhône red lighter and fruitier?
+      question: "Which approach is best suited to a lighter, fruit-driven Southern Rhône red?"
       choices:
-        - { text: "A 30-day open-vat roast, then new oak", correct: false }
-        - { text: "A cold pre-ferment soak and élevage in stainless steel", correct: true }
-        - { text: "Fortification on skins", correct: false }
-        - { text: "Boiling the must", correct: false }
+        - { text: "Long hot maceration followed by new oak", correct: false }
+        - { text: "Moderate extraction with relatively cool fermentation and tank ageing", correct: true }
+        - { text: "Extended skin contact followed by oxidative ageing", correct: false }
+        - { text: "Late harvesting followed by fortification", correct: false }
       explanation: |
-        **Cold soak + steel** — less extraction, lower apparent tannin.
-        The other house style is the opposite.
-
+        Shorter or gentler extraction protects Grenache and Cinsault fruit, while inert vessels avoid adding
+        weight or oak flavour.
+    fr:
+      question: "Quelle approche convient le mieux à un rouge du Rhône méridional léger et axé sur le fruit ?"
+      choices:
+        - { text: "Une longue macération chaude suivie d’un élevage en bois neuf", correct: false }
+        - { text: "Une extraction modérée avec fermentation relativement fraîche et élevage en cuve", correct: true }
+        - { text: "Un contact prolongé avec les pellicules suivi d’un élevage oxydatif", correct: false }
+        - { text: "Une vendange tardive suivie d’un mutage", correct: false }
+      explanation: |
+        Une extraction plus courte ou plus douce préserve le fruit du Grenache et du Cinsault, tandis que les
+        contenants inertes évitent d’ajouter du poids ou des arômes boisés.
   - id: srhone-extract-path-001
     type: mcq
-    deck: France::Southern Rhône
-    tags: [france, southern-rhone]
+    deck: "France::Southern Rhône"
+    tags: ["france","southern-rhone"]
     status: reviewed
     source_id: c20-0027
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: Which cellar path builds a more extracted, structured Southern Rhône red?
+      question: "Which approach is most likely to produce a structured Southern Rhône red for ageing?"
       choices:
-        - { text: "Only carbonic maceration in steel", correct: false }
-        - { text: "A warm, extractive ferment in traditional open vats, then large old oak", correct: true }
-        - { text: "No skins at all", correct: false }
-        - { text: "Icewine only", correct: false }
+        - { text: "Very short maceration and immediate bottling", correct: false }
+        - { text: "Ripe fruit, controlled warm fermentation and longer skin contact", correct: true }
+        - { text: "Early picking followed by cold sterile filtration", correct: false }
+        - { text: "Direct pressing without skin contact", correct: false }
       explanation: |
-        **Warm open ferment + large old oak.** That is the traditional
-        Châteauneuf / Gigondas frame.
-
+        Longer, carefully managed extraction can build tannin and depth from Syrah and Mourvèdre. Large old oak
+        may then mature the wine without dominating its fruit.
+    fr:
+      question: "Quelle approche est la plus susceptible de produire un rouge du Rhône méridional structuré et destiné à la garde ?"
+      choices:
+        - { text: "Une macération très courte suivie d’une mise immédiate", correct: false }
+        - { text: "Des raisins mûrs, une fermentation chaude et une longue macération", correct: true }
+        - { text: "Une récolte précoce suivie d’une filtration stérile à froid", correct: false }
+        - { text: "Un pressurage direct sans contact avec les pellicules", correct: false }
+      explanation: |
+        Une extraction plus longue et maîtrisée peut construire les tanins et la profondeur de la Syrah et du
+        Mourvèdre. De grands foudres anciens peuvent ensuite élever le vin sans dominer son fruit.
   - id: srhone-blend-lots-001
     type: mcq
-    deck: France::Southern Rhône
-    tags: [france, southern-rhone]
+    deck: "France::Southern Rhône"
+    tags: ["france","southern-rhone"]
     status: reviewed
     source_id: c20-0028
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: How do many Southern Rhône domaines assemble the final red?
+      question: "Why might a Southern Rhône producer ferment grape varieties or parcels separately?"
       choices:
-        - { text: "From one tank, one grape, one method only", correct: false }
-        - { text: "By blending lots that were fermented in different ways", correct: true }
-        - { text: "By adding water until 9%", correct: false }
-        - { text: "Blending is illegal", correct: false }
+        - { text: "To prevent any final blending", correct: false }
+        - { text: "To tailor extraction to each lot before assembling the final wine", correct: true }
+        - { text: "To comply with a rule requiring one vessel per grape", correct: false }
+        - { text: "To lower the legal yield after harvest", correct: false }
       explanation: |
-        **Different ferment lots in one blend.** A steel Grenache and an
-        open-vat Mourvèdre can share a bottle.
-
+        Grenache, Syrah and Mourvèdre respond differently to extraction and ripen at different times. Separate
+        lots give the producer more control over the final balance.
+    fr:
+      question: "Pourquoi un producteur du Rhône méridional peut-il fermenter séparément les cépages ou les parcelles ?"
+      choices:
+        - { text: "Pour empêcher tout assemblage final", correct: false }
+        - { text: "Pour adapter l’extraction à chaque lot avant de composer le vin final", correct: true }
+        - { text: "Pour respecter une règle imposant un contenant par cépage", correct: false }
+        - { text: "Pour réduire le rendement légal après la récolte", correct: false }
+      explanation: |
+        Grenache, Syrah et Mourvèdre réagissent différemment à l’extraction et ne mûrissent pas au même moment.
+        Des lots séparés offrent davantage de contrôle sur l’équilibre final.
   - id: srhone-new-oak-001
     type: mcq
-    deck: France::Southern Rhône
-    tags: [france, southern-rhone]
+    deck: "France::Southern Rhône"
+    tags: ["france","southern-rhone"]
     status: reviewed
     source_id: c20-0029
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: How do Southern Rhône domaines treat new oak?
+      question: "Why do some Southern Rhône producers limit new oak for Grenache-led wines?"
       choices:
-        - { text: "It is mandatory on every Grenache", correct: false }
-        - { text: "Some use it; others think it buries Grenache", correct: true }
-        - { text: "Oak is banned", correct: false }
-        - { text: "Only whites may see oak", correct: false }
+        - { text: "New oak always lowers alcohol", correct: false }
+        - { text: "Strong oak flavours can mask Grenache’s red fruit and spice", correct: true }
+        - { text: "New oak removes all tannin from the blend", correct: false }
+        - { text: "Grenache cannot complete fermentation in wood", correct: false }
       explanation: |
-        **Split camp.** New oak can swamp Grenache’s red fruit. Foudres
-        and old barrels are the other school.
-
+        Large old foudres or concrete allow maturation with little overt oak flavour. Other producers use new
+        barrels selectively for concentrated cuvées.
+    fr:
+      question: "Pourquoi certains producteurs du Rhône méridional limitent-ils le bois neuf pour les vins dominés par le Grenache ?"
+      choices:
+        - { text: "Le bois neuf réduit toujours l’alcool", correct: false }
+        - { text: "Un boisé marqué peut masquer les fruits rouges et les épices du Grenache", correct: true }
+        - { text: "Le bois neuf retire tous les tanins de l’assemblage", correct: false }
+        - { text: "Le Grenache ne peut pas achever sa fermentation sous bois", correct: false }
+      explanation: |
+        Les grands foudres anciens ou le béton permettent un élevage sans arômes boisés marqués. D’autres
+        producteurs utilisent sélectivement des barriques neuves pour leurs cuvées concentrées.
   - id: srhone-style-range-001
     type: mcq
-    deck: France::Southern Rhône
-    tags: [france, southern-rhone]
+    deck: "France::Southern Rhône"
+    tags: ["france","southern-rhone"]
     status: reviewed
     source_id: c20-0030
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: How wide is the Southern Rhône red style range?
+      question: "Which statement best describes the range of Southern Rhône red styles?"
       choices:
-        - { text: "Only one legal flavour, like a clone", correct: false }
-        - { text: "From light-medium, fresh, low-tannin fruit to full, tannic reds with spice, meat or earth", correct: true }
-        - { text: "Only sweet white", correct: false }
-        - { text: "Only sparkling", correct: false }
+        - { text: "All appellations produce one uniform full-bodied style", correct: false }
+        - { text: "Styles range from supple, fruit-driven wines to powerful ageworthy reds", correct: true }
+        - { text: "The region produces only light rosé-like reds", correct: false }
+        - { text: "Style depends solely on the percentage of Syrah", correct: false }
       explanation: |
-        **Picnic Côtes du Rhône to a dense Châteauneuf or Gigondas.**
-        Same valley, not one wine.
-
+        Generic Côtes du Rhône can be simple and early drinking, while top cru wines may be concentrated, tannic
+        and complex. Site, yield, blend and winemaking all matter.
+    fr:
+      question: "Quelle affirmation décrit le mieux la diversité des rouges du Rhône méridional ?"
+      choices:
+        - { text: "Toutes les appellations produisent un style corsé uniforme", correct: false }
+        - { text: "Les styles vont des vins souples et fruités aux rouges puissants de garde", correct: true }
+        - { text: "La région ne produit que des rouges légers proches du rosé", correct: false }
+        - { text: "Le style dépend uniquement de la proportion de Syrah", correct: false }
+      explanation: |
+        Un Côtes du Rhône générique peut être simple et à boire jeune, tandis que les meilleurs crus sont
+        concentrés, tanniques et complexes. Terroir, rendement, assemblage et vinification comptent tous.
   - id: srhone-white-grapes-001
     type: mcq
-    deck: France::Southern Rhône
-    tags: [france, southern-rhone, grapes]
+    deck: "France::Southern Rhône"
+    tags: ["france","southern-rhone","grapes"]
     status: reviewed
     source_id: c20-0031
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: Which whites are extra to Viognier, Marsanne and Roussanne in the south?
+      question: "Which group contains three important white varieties especially associated with the Southern Rhône?"
       choices:
-        - { text: "Riesling, Gewurztraminer, Pinot Gris", correct: false }
-        - { text: "Clairette, Grenache Blanc, and Bourboulenc", correct: true }
-        - { text: "Melon only", correct: false }
-        - { text: "Chenin only", correct: false }
+        - { text: "Marsanne, Roussanne and Viognier", correct: false }
+        - { text: "Clairette, Grenache Blanc and Bourboulenc", correct: true }
+        - { text: "Chenin Blanc, Melon and Folle Blanche", correct: false }
+        - { text: "Sauvignon Blanc, Sémillon and Muscadelle", correct: false }
       explanation: |
-        **Clairette, Grenache Blanc, Bourboulenc.** Marsanne, Roussanne
-        and Viognier can appear too; those three are the southern extras.
-
+        The three southern varieties join Marsanne, Roussanne and Viognier in many appellations. Exact blends
+        and authorised lists vary.
+    fr:
+      question: "Quel groupe réunit trois cépages blancs particulièrement associés au Rhône méridional ?"
+      choices:
+        - { text: "Marsanne, Roussanne et Viognier", correct: false }
+        - { text: "Clairette, Grenache Blanc et Bourboulenc", correct: true }
+        - { text: "Chenin Blanc, Melon et Folle Blanche", correct: false }
+        - { text: "Sauvignon Blanc, Sémillon et Muscadelle", correct: false }
+      explanation: |
+        Ces trois cépages méridionaux rejoignent Marsanne, Roussanne et Viognier dans de nombreuses
+        appellations. Les assemblages et listes autorisées varient.
   - id: srhone-white-profile-001
     type: mcq
-    deck: France::Southern Rhône
-    tags: [france, southern-rhone]
+    deck: "France::Southern Rhône"
+    tags: ["france","southern-rhone"]
     status: reviewed
     source_id: c20-0032
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: What shape do the best Southern Rhône whites usually have?
+      question: "Which profile is typical of a high-quality Southern Rhône dry white?"
       choices:
-        - { text: "Light, high acid, 11%, no texture", correct: false }
-        - { text: "Rich, full, high alcohol, low-to-medium acid, quiet fruit, rarely new oak", correct: true }
-        - { text: "Sparkling and bone-dry only", correct: false }
-        - { text: "Tannic red", correct: false }
+        - { text: "Light body, very high acidity and green fruit", correct: false }
+        - { text: "Full body, moderate acidity and ripe stone-fruit or herbal notes", correct: true }
+        - { text: "High tannin, deep colour and black fruit", correct: false }
+        - { text: "Low alcohol, residual sugar and pronounced floral sweetness", correct: false }
       explanation: |
-        **Rich, full, high alcohol, low-to-medium acid, subtle fruit,
-        little new oak.** Châteauneuf blanc is the loud example.
-
+        Warm conditions and varieties such as Grenache Blanc and Roussanne give body and ripeness. Producers
+        must protect freshness; oak may be used but is not essential.
+    fr:
+      question: "Quel profil est typique d’un blanc sec de qualité du Rhône méridional ?"
+      choices:
+        - { text: "Corps léger, acidité très élevée et fruits verts", correct: false }
+        - { text: "Corps ample, acidité modérée et notes mûres de fruits à noyau ou d’herbes", correct: true }
+        - { text: "Tanins élevés, couleur profonde et fruits noirs", correct: false }
+        - { text: "Faible alcool, sucre résiduel et douceur florale prononcée", correct: false }
+      explanation: |
+        Les conditions chaudes et des cépages comme le Grenache Blanc et la Roussanne apportent corps et
+        maturité. Les producteurs doivent préserver la fraîcheur ; le bois peut être utilisé sans être
+        indispensable.
   - id: srhone-white-share-001
     type: mcq
-    deck: France::Southern Rhône
-    tags: [france, southern-rhone]
+    deck: "France::Southern Rhône"
+    tags: ["france","southern-rhone"]
     status: reviewed
     source_id: c20-0033
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: How large is still white wine in the Southern Rhône mix?
+      question: "How important is still white wine in overall Southern Rhône production?"
       choices:
-        - { text: "The majority of the harvest", correct: false }
-        - { text: "A relatively small share", correct: true }
-        - { text: "White is banned", correct: false }
-        - { text: "Only white is legal", correct: false }
+        - { text: "It represents the majority", correct: false }
+        - { text: "It forms a relatively small minority", correct: true }
+        - { text: "It is prohibited below cru level", correct: false }
+        - { text: "It equals red production in volume", correct: false }
       explanation: |
-        **A small share.** Red (and some rosé) owns the volume.
-
+        Red wine dominates the region and rosé is also significant. Dry white is important stylistically but
+        remains a much smaller share.
+    fr:
+      question: "Quelle est l’importance du vin blanc tranquille dans la production globale du Rhône méridional ?"
+      choices:
+        - { text: "Il représente la majorité", correct: false }
+        - { text: "Il constitue une minorité relativement faible", correct: true }
+        - { text: "Il est interdit en dessous du niveau cru", correct: false }
+        - { text: "Son volume égale celui du rouge", correct: false }
+      explanation: |
+        Le rouge domine la région et le rosé est également important. Le blanc sec compte sur le plan
+        stylistique mais représente une part bien plus faible.
   - id: srhone-generic-aocs-001
     type: mcq
-    deck: France::Southern Rhône
-    tags: [france, southern-rhone]
+    deck: "France::Southern Rhône"
+    tags: ["france","southern-rhone"]
     status: reviewed
     source_id: c20-0034
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: What are the two generic Southern Rhône AOCs below the crus?
+      question: "Which two broad appellations form the base of the Southern Rhône AOC hierarchy?"
       choices:
-        - { text: "Côte-Rôtie and Hermitage", correct: false }
+        - { text: "Ventoux and Luberon", correct: false }
         - { text: "Côtes du Rhône and Côtes du Rhône Villages", correct: true }
-        - { text: "Muscadet and Gros Plant", correct: false }
-        - { text: "AOC Loire and IGP only", correct: false }
+        - { text: "Châteauneuf-du-Pape and Gigondas", correct: false }
+        - { text: "Grignan-les-Adhémar and Côtes du Vivarais", correct: false }
       explanation: |
-        **Côtes du Rhône** and **Côtes du Rhône Villages.** The named
-        crus sit above that ladder.
-
+        Côtes du Rhône is the regional foundation, followed by the more restricted Côtes du Rhône Villages.
+        Named villages and individual crus provide greater geographic precision.
+    fr:
+      question: "Quelles sont les deux appellations générales formant la base de la hiérarchie des AOC du Rhône méridional ?"
+      choices:
+        - { text: "Ventoux et Luberon", correct: false }
+        - { text: "Côtes du Rhône et Côtes du Rhône Villages", correct: true }
+        - { text: "Châteauneuf-du-Pape et Gigondas", correct: false }
+        - { text: "Grignan-les-Adhémar et Côtes du Vivarais", correct: false }
+      explanation: |
+        Côtes du Rhône constitue la base régionale, suivi de Côtes du Rhône Villages, plus restrictif. Les
+        dénominations géographiques et les crus apportent ensuite davantage de précision.
   - id: srhone-cdr-half-001
     type: mcq
-    deck: France::Southern Rhône
-    tags: [france, southern-rhone]
+    deck: "France::Southern Rhône"
+    tags: ["france","southern-rhone"]
     status: reviewed
     source_id: c20-0035
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: How much of Southern Rhône AOC volume is plain Côtes du Rhône?
+      question: "Which appellation accounts for the largest share of Southern Rhône AOC wine?"
       choices:
-        - { text: "A tiny sliver, like Château-Grillet", correct: false }
-        - { text: "More than half", correct: true }
-        - { text: "None — only crus exist", correct: false }
-        - { text: "Exactly 5%", correct: false }
+        - { text: "Côtes du Rhône Villages", correct: false }
+        - { text: "Côtes du Rhône", correct: true }
+        - { text: "Châteauneuf-du-Pape", correct: false }
+        - { text: "Gigondas", correct: false }
       explanation: |
-        **More than half.** The everyday bottle is Côtes du Rhône, not
-        Châteauneuf.
-
+        The broad regional Côtes du Rhône AOC supplies the volume base of the valley. Villages and crus cover
+        progressively smaller, more delimited areas.
+    fr:
+      question: "Quelle appellation représente la plus grande part des vins AOC du Rhône méridional ?"
+      choices:
+        - { text: "Côtes du Rhône Villages", correct: false }
+        - { text: "Côtes du Rhône", correct: true }
+        - { text: "Châteauneuf-du-Pape", correct: false }
+        - { text: "Gigondas", correct: false }
+      explanation: |
+        La vaste AOC régionale Côtes du Rhône fournit la base du volume de la vallée. Villages et crus couvrent
+        des aires progressivement plus petites et délimitées.
   - id: srhone-cdr-style-001
     type: mcq
-    deck: France::Southern Rhône
-    tags: [france, southern-rhone]
+    deck: "France::Southern Rhône"
+    tags: ["france","southern-rhone"]
     status: reviewed
     source_id: c20-0036
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: What is a typical generic Côtes du Rhône like?
+      question: "Which profile is most typical of an inexpensive generic Côtes du Rhône red?"
       choices:
-        - { text: "Full, tannic, and built like a 20-year Châteauneuf", correct: false }
-        - { text: "Medium-bodied, fruity, and simple", correct: true }
-        - { text: "Always a dessert wine", correct: false }
-        - { text: "White only", correct: false }
+        - { text: "Full-bodied, highly tannic and intended for long ageing", correct: false }
+        - { text: "Medium-bodied, fruity and designed for early drinking", correct: true }
+        - { text: "Light-bodied, sweet and low in alcohol", correct: false }
+        - { text: "Deeply coloured with dominant new oak", correct: false }
       explanation: |
-        **Medium, fruity, simple.** The supermarket Rhône. Serious
-        domaines exist; they are not the volume.
-
+        Grenache-led blends commonly deliver ripe red fruit, spice and moderate structure. Ambitious producers
+        can exceed this simple benchmark.
+    fr:
+      question: "Quel profil est le plus typique d’un Côtes du Rhône rouge générique peu coûteux ?"
+      choices:
+        - { text: "Corsé, très tannique et destiné à une longue garde", correct: false }
+        - { text: "De corps moyen, fruité et conçu pour être bu jeune", correct: true }
+        - { text: "Léger, doux et peu alcoolisé", correct: false }
+        - { text: "Très coloré avec un bois neuf dominant", correct: false }
+      explanation: |
+        Les assemblages dominés par le Grenache offrent couramment fruits rouges mûrs, épices et structure
+        modérée. Des producteurs ambitieux peuvent dépasser ce profil simple.
   - id: srhone-cdr-colours-001
     type: mcq
-    deck: France::Southern Rhône
-    tags: [france, southern-rhone]
+    deck: "France::Southern Rhône"
+    tags: ["france","southern-rhone"]
     status: reviewed
     source_id: c20-0037
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: Which colours may Côtes du Rhône bottle?
+      question: "Which wine colours may be produced under Côtes du Rhône AOC?"
       choices:
         - { text: "Red only", correct: false }
-        - { text: "White, red, and rosé", correct: true }
-        - { text: "Sparkling only", correct: false }
-        - { text: "Orange only", correct: false }
+        - { text: "Red, white and rosé", correct: true }
+        - { text: "Red and white only", correct: false }
+        - { text: "Red and rosé only", correct: false }
       explanation: |
-        **White, red, and rosé.** Red is the bulk.
-
+        The regional appellation covers all three still colours, although red accounts for the great majority of
+        production.
+    fr:
+      question: "Quelles couleurs de vin peuvent être produites sous l’AOC Côtes du Rhône ?"
+      choices:
+        - { text: "Rouge uniquement", correct: false }
+        - { text: "Rouge, blanc et rosé", correct: true }
+        - { text: "Rouge et blanc uniquement", correct: false }
+        - { text: "Rouge et rosé uniquement", correct: false }
+      explanation: |
+        L’appellation régionale couvre les trois couleurs de vins tranquilles, même si le rouge représente la
+        grande majorité de la production.
   - id: srhone-villages-rules-001
     type: mcq
-    deck: France::Southern Rhône
-    tags: [france, southern-rhone]
+    deck: "France::Southern Rhône"
+    tags: ["france","southern-rhone"]
     status: reviewed
     source_id: c20-0038
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: What extra legal bars sit on Côtes du Rhône Villages versus generic Côtes du Rhône?
+      question: "How does Côtes du Rhône Villages generally differ from generic Côtes du Rhône?"
       choices:
-        - { text: "Lower alcohol and higher yields", correct: false }
-        - { text: "A higher minimum alcohol, a lower maximum yield, and more Grenache, Syrah and Mourvèdre in the blend", correct: true }
-        - { text: "No Grenache is allowed", correct: false }
-        - { text: "It must be sparkling", correct: false }
+        - { text: "It permits higher yields and a broader origin", correct: false }
+        - { text: "It has lower maximum yields and stricter production rules", correct: true }
+        - { text: "It excludes Grenache from red blends", correct: false }
+        - { text: "It requires every wine to name a commune", correct: false }
       explanation: |
-        **Stricter alcohol and yield, and a bigger GSM share.** That is
-        the Villages step, not a cru yet.
-
+        Villages comes from a smaller approved area and imposes tighter yield and composition requirements. A
+        geographical name is an additional, separate level of precision.
+    fr:
+      question: "Comment Côtes du Rhône Villages diffère-t-il généralement du Côtes du Rhône générique ?"
+      choices:
+        - { text: "Il autorise des rendements plus élevés et une origine plus vaste", correct: false }
+        - { text: "Il impose des rendements plus faibles et des règles plus strictes", correct: true }
+        - { text: "Il exclut le Grenache des assemblages rouges", correct: false }
+        - { text: "Il impose à chaque vin de nommer une commune", correct: false }
+      explanation: |
+        Villages provient d’une aire agréée plus restreinte et impose des exigences plus strictes de rendement
+        et de composition. Une dénomination géographique constitue un niveau de précision supplémentaire.
   - id: srhone-named-village-001
     type: mcq
-    deck: France::Southern Rhône
-    tags: [france, southern-rhone]
+    deck: "France::Southern Rhône"
+    tags: ["france","southern-rhone"]
     status: reviewed
     source_id: c20-0039
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: If a village name is printed after Côtes du Rhône Villages, where must the fruit come from?
+      question: "What does a geographical name after Côtes du Rhône Villages indicate?"
       choices:
-        - { text: "Anywhere in the Côtes du Rhône zone", correct: false }
-        - { text: "100% from that named village", correct: true }
-        - { text: "Only from Châteauneuf", correct: false }
-        - { text: "The name is decorative", correct: false }
+        - { text: "The wine may come from anywhere in the regional AOC", correct: false }
+        - { text: "The grapes come from the delimited area authorised for that name", correct: true }
+        - { text: "The wine has passed an official sensory ranking", correct: false }
+        - { text: "The producer owns vines in an individual cru", correct: false }
       explanation: |
-        **100% from the named village.** Sablet, Visan, Valréas — the
-        fruit has to match the word.
-
+        The named area may be one commune or a group of communes, so it is more precise to refer to its legal
+        delimitation than to one village boundary.
+    fr:
+      question: "Qu’indique une dénomination géographique placée après Côtes du Rhône Villages ?"
+      choices:
+        - { text: "Le vin peut provenir de toute l’AOC régionale", correct: false }
+        - { text: "Les raisins proviennent de l’aire délimitée autorisée pour ce nom", correct: true }
+        - { text: "Le vin a réussi un classement sensoriel officiel", correct: false }
+        - { text: "Le producteur possède des vignes dans un cru distinct", correct: false }
+      explanation: |
+        L’aire nommée peut correspondre à une commune ou à plusieurs communes : il est donc plus précis de
+        parler de sa délimitation légale que des limites d’un seul village.
   - id: srhone-village-example-001
     type: mcq
-    deck: France::Southern Rhône
-    tags: [france, southern-rhone]
+    deck: "France::Southern Rhône"
+    tags: ["france","southern-rhone"]
     status: reviewed
     source_id: c20-0040
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: Which label is still a named Côtes du Rhône Villages, not a cru?
+      question: "Which label is a current Côtes du Rhône Villages with geographical name rather than a cru?"
       choices:
-        - { text: "Châteauneuf-du-Pape", correct: false }
+        - { text: "Côtes du Rhône Villages Cairanne", correct: false }
         - { text: "Côtes du Rhône Villages Sablet", correct: true }
-        - { text: "Côte-Rôtie", correct: false }
-        - { text: "Cornas", correct: false }
+        - { text: "Côtes du Rhône Villages Laudun", correct: false }
+        - { text: "Côtes du Rhône Villages Vacqueyras", correct: false }
       explanation: |
-        **Sablet** (or Visan, Valréas). **Cairanne** is a cru since
-        2016, so it is no longer a Villages name.
-
+        Sablet remains one of the 21 authorised geographical names. Cairanne and Laudun have since gained their
+        own cru AOCs.
+    fr:
+      question: "Quelle étiquette correspond actuellement à un Côtes du Rhône Villages avec dénomination géographique plutôt qu’à un cru ?"
+      choices:
+        - { text: "Côtes du Rhône Villages Cairanne", correct: false }
+        - { text: "Côtes du Rhône Villages Sablet", correct: true }
+        - { text: "Côtes du Rhône Villages Laudun", correct: false }
+        - { text: "Côtes du Rhône Villages Vacqueyras", correct: false }
+      explanation: |
+        Sablet reste l’une des 21 dénominations géographiques autorisées. Cairanne et Laudun ont depuis obtenu
+        leur propre AOC de cru.
   - id: srhone-best-below-cru-001
     type: mcq
-    deck: France::Southern Rhône
-    tags: [france, southern-rhone]
+    deck: "France::Southern Rhône"
+    tags: ["france","southern-rhone"]
     status: reviewed
     source_id: c20-0041
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: Below the crus, which Southern Rhône bottles are usually the most serious?
+      question: "Which category gives the greatest geographic precision below an individual Southern Rhône cru?"
       choices:
-        - { text: "Generic IGP only", correct: false }
-        - { text: "Village-named Côtes du Rhône Villages", correct: true }
-        - { text: "Vin de France with no place", correct: false }
-        - { text: "There is nothing below a cru", correct: false }
+        - { text: "Generic Côtes du Rhône", correct: false }
+        - { text: "Named Côtes du Rhône Villages", correct: true }
+        - { text: "Côtes du Rhône without a commune", correct: false }
+        - { text: "A valley-wide Vin de France", correct: false }
       explanation: |
-        **Named Villages** sit under Gigondas / Vacqueyras / Cairanne,
-        above anonymous Côtes du Rhône.
-
+        A named Villages wine comes from a specifically delimited area and generally follows stricter rules than
+        generic Côtes du Rhône or unnamed Villages.
+    fr:
+      question: "Quelle catégorie offre la plus grande précision géographique en dessous d’un cru individuel du Rhône méridional ?"
+      choices:
+        - { text: "Côtes du Rhône générique", correct: false }
+        - { text: "Côtes du Rhône Villages avec dénomination", correct: true }
+        - { text: "Côtes du Rhône sans nom de commune", correct: false }
+        - { text: "Vin de France couvrant toute la vallée", correct: false }
+      explanation: |
+        Un Villages avec dénomination provient d’une aire précisément délimitée et suit généralement des règles
+        plus strictes qu’un Côtes du Rhône générique ou qu’un Villages sans nom.
   - id: srhone-village-vs-cdr-001
     type: mcq
-    deck: France::Southern Rhône
-    tags: [france, southern-rhone]
+    deck: "France::Southern Rhône"
+    tags: ["france","southern-rhone"]
     status: reviewed
     source_id: c20-0042
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: How does a named Villages red usually sit next to generic Côtes du Rhône?
+      question: "How does a typical named Côtes du Rhône Villages red compare with generic Côtes du Rhône?"
       choices:
-        - { text: "Lighter, sweeter, and always white", correct: false }
-        - { text: "More body, more structure, and more spiced red fruit", correct: true }
-        - { text: "Identical, by law", correct: false }
-        - { text: "It must be sparkling", correct: false }
+        - { text: "It is normally lighter and lower in alcohol", correct: false }
+        - { text: "It generally has more concentration and structure", correct: true }
+        - { text: "It must be sweeter and aged in oak", correct: false }
+        - { text: "It is required to use only Syrah", correct: false }
       explanation: |
-        **More body, structure, and spiced red fruit.** Lower yields and
-        the GSM floor show.
-
+        Lower yields, a narrower origin and stricter blend rules can produce more body and intensity, though
+        producer and vintage still matter.
+    fr:
+      question: "Comment un Côtes du Rhône Villages rouge avec dénomination se compare-t-il généralement à un Côtes du Rhône générique ?"
+      choices:
+        - { text: "Il est normalement plus léger et moins alcoolisé", correct: false }
+        - { text: "Il présente généralement davantage de concentration et de structure", correct: true }
+        - { text: "Il doit être plus doux et élevé sous bois", correct: false }
+        - { text: "Il doit être élaboré uniquement à partir de Syrah", correct: false }
+      explanation: |
+        Des rendements plus faibles, une origine plus restreinte et des règles d’assemblage plus strictes
+        peuvent donner davantage de corps et d’intensité, même si producteur et millésime restent déterminants.
   - id: srhone-cru-apply-001
     type: mcq
-    deck: France::Southern Rhône
-    tags: [france, southern-rhone]
+    deck: "France::Southern Rhône"
+    tags: ["france","southern-rhone"]
     status: reviewed
     source_id: c20-0043
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: What legal next step can a named Villages commune take?
+      question: "What can happen when a named Côtes du Rhône Villages area demonstrates a distinct identity and sustained quality?"
       choices:
-        - { text: "It must become an IGP", correct: false }
-        - { text: "It can apply for cru status", correct: true }
-        - { text: "It is banned from any further rank", correct: false }
-        - { text: "It must drop the village name", correct: false }
+        - { text: "It automatically becomes a grand cru", correct: false }
+        - { text: "It may seek recognition as a separate cru AOC", correct: true }
+        - { text: "It must return to generic Côtes du Rhône", correct: false }
+        - { text: "It becomes an IGP without geographic rules", correct: false }
       explanation: |
-        **Apply for cru.** **Cairanne** and **Gigondas** walked that
-        path. Not automatic.
-
+        Promotion is neither automatic nor simply a producer vote; it requires a formal recognition process.
+        Cairanne and, in 2024, Laudun illustrate this route.
+    fr:
+      question: "Que peut-il se produire lorsqu’une aire de Côtes du Rhône Villages avec dénomination démontre une identité propre et une qualité durable ?"
+      choices:
+        - { text: "Elle devient automatiquement grand cru", correct: false }
+        - { text: "Elle peut demander sa reconnaissance comme AOC de cru distincte", correct: true }
+        - { text: "Elle doit revenir au Côtes du Rhône générique", correct: false }
+        - { text: "Elle devient une IGP sans règles géographiques", correct: false }
+      explanation: |
+        La promotion n’est ni automatique ni un simple vote de producteurs : elle exige une procédure officielle
+        de reconnaissance. Cairanne et, en 2024, Laudun illustrent ce parcours.
   - id: srhone-cdp-bank-001
     type: mcq
-    deck: France::Southern Rhône
-    tags: [france, southern-rhone]
+    deck: "France::Southern Rhône"
+    tags: ["france","southern-rhone"]
     status: reviewed
     source_id: c20-0044
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: On which bank of the Rhône does Châteauneuf-du-Pape sit?
+      question: "On which side of the Rhône is Châteauneuf-du-Pape situated?"
       choices:
-        - { text: "Only the west bank, like Tavel", correct: false }
-        - { text: "The east bank", correct: true }
-        - { text: "Both banks equally, like Bordeaux", correct: false }
-        - { text: "It is not on the Rhône", correct: false }
+        - { text: "The right bank west of the river", correct: false }
+        - { text: "The left bank east of the river", correct: true }
+        - { text: "Both banks in equal proportions", correct: false }
+        - { text: "An island within the river", correct: false }
       explanation: |
-        **East bank.** Tavel and Lirac face it across the river.
-
+        The appellation spreads across five communes on the left bank near Avignon. Tavel and Lirac lie across
+        the Rhône on the right bank.
+    fr:
+      question: "De quel côté du Rhône se situe Châteauneuf-du-Pape ?"
+      choices:
+        - { text: "Sur la rive droite à l’ouest du fleuve", correct: false }
+        - { text: "Sur la rive gauche à l’est du fleuve", correct: true }
+        - { text: "À parts égales sur les deux rives", correct: false }
+        - { text: "Sur une île au milieu du fleuve", correct: false }
+      explanation: |
+        L’appellation s’étend sur cinq communes de la rive gauche près d’Avignon. Tavel et Lirac se trouvent en
+        face, sur la rive droite.
   - id: srhone-cdp-size-001
     type: mcq
-    deck: France::Southern Rhône
-    tags: [france, southern-rhone]
+    deck: "France::Southern Rhône"
+    tags: ["france","southern-rhone"]
     status: reviewed
     source_id: c20-0045
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: Which named Rhône cru covers the most vineyard?
+      question: "Which individual Rhône cru has the largest vineyard area?"
       choices:
-        - { text: "Château-Grillet", correct: false }
+        - { text: "Gigondas", correct: false }
         - { text: "Châteauneuf-du-Pape", correct: true }
-        - { text: "Cornas", correct: false }
-        - { text: "Côte-Rôtie", correct: false }
+        - { text: "Crozes-Hermitage", correct: false }
+        - { text: "Saint-Joseph", correct: false }
       explanation: |
-        **Châteauneuf-du-Pape.** Crozes is a large northern cru;
-        Châteauneuf is the biggest named cru in the valley.
-
+        Châteauneuf-du-Pape exceeds even Crozes-Hermitage in vineyard area. Its size and varied soils help
+        explain its stylistic diversity.
+    fr:
+      question: "Quel cru individuel de la vallée du Rhône possède la plus grande superficie viticole ?"
+      choices:
+        - { text: "Gigondas", correct: false }
+        - { text: "Châteauneuf-du-Pape", correct: true }
+        - { text: "Crozes-Hermitage", correct: false }
+        - { text: "Saint-Joseph", correct: false }
+      explanation: |
+        Châteauneuf-du-Pape dépasse même Crozes-Hermitage en superficie. Sa taille et la diversité de ses sols
+        contribuent à sa diversité stylistique.
   - id: srhone-cdp-first-aoc-001
     type: mcq
-    deck: France::Southern Rhône
-    tags: [france, southern-rhone]
+    deck: "France::Southern Rhône"
+    tags: ["france","southern-rhone"]
     status: reviewed
     source_id: c20-0046
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: Which French wine area is famously among the first to receive AOC status, in 1936?
+      question: "Why is Châteauneuf-du-Pape historically important to the French appellation system?"
       choices:
-        - { text: "Muscadet only, in 2005", correct: false }
-        - { text: "Châteauneuf-du-Pape", correct: true }
-        - { text: "IGP Pays d’Oc", correct: false }
-        - { text: "Vin de France", correct: false }
+        - { text: "It was the first wine promoted from IGP to DOCG", correct: false }
+        - { text: "It was among the first AOCs recognised by decree in 1936", correct: true }
+        - { text: "It created the Côtes du Rhône Villages category in 1971", correct: false }
+        - { text: "It was the first appellation to permit Syrah", correct: false }
       explanation: |
-        **Châteauneuf-du-Pape, 1936** — the pioneer AOC story. A few
-        other 1936 names exist; this is the one the valley owns.
-
+        Producer-led rules developed before the national AOC system and influenced later controls of origin and
+        production. Formal AOC recognition came in 1936.
+    fr:
+      question: "Pourquoi Châteauneuf-du-Pape est-il historiquement important dans le système français des appellations ?"
+      choices:
+        - { text: "Il fut le premier vin promu d’IGP en DOCG", correct: false }
+        - { text: "Il figura parmi les premières AOC reconnues par décret en 1936", correct: true }
+        - { text: "Il créa la catégorie Côtes du Rhône Villages en 1971", correct: false }
+        - { text: "Il fut la première appellation à autoriser la Syrah", correct: false }
+      explanation: |
+        Des règles élaborées par les producteurs avant le système national des AOC ont influencé les contrôles
+        ultérieurs de l’origine et de la production. La reconnaissance officielle en AOC date de 1936.
   - id: srhone-cdp-flat-001
     type: mcq
-    deck: France::Southern Rhône
-    tags: [france, southern-rhone]
+    deck: "France::Southern Rhône"
+    tags: ["france","southern-rhone"]
     status: reviewed
     source_id: c20-0047
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: How steep is most of Châteauneuf-du-Pape?
+      question: "How does Châteauneuf-du-Pape’s relief generally compare with the steep Northern Rhône crus?"
       choices:
-        - { text: "A Hermitage-style wall", correct: false }
-        - { text: "Notably flat", correct: true }
-        - { text: "Above the snow line", correct: false }
-        - { text: "A river gorge only", correct: false }
+        - { text: "It is dominated by equally steep terraced walls", correct: false }
+        - { text: "It consists mainly of plateaux, terraces and gentle slopes", correct: true }
+        - { text: "It lies entirely on a low floodplain", correct: false }
+        - { text: "It is a high-altitude mountain vineyard", correct: false }
       explanation: |
-        **Notably flat.** Aspect still shifts a little; it is not a
-        terraced northern cru.
-
+        The terrain is varied but generally much less steep than Côte-Rôtie or Hermitage. Small changes in
+        elevation and aspect still affect exposure and drainage.
+    fr:
+      question: "Comment le relief de Châteauneuf-du-Pape se compare-t-il généralement aux crus escarpés du Rhône septentrional ?"
+      choices:
+        - { text: "Il est dominé par des parois en terrasses tout aussi raides", correct: false }
+        - { text: "Il se compose surtout de plateaux, de terrasses et de pentes douces", correct: true }
+        - { text: "Il se situe entièrement dans une basse plaine inondable", correct: false }
+        - { text: "Il s’agit d’un vignoble de haute montagne", correct: false }
+      explanation: |
+        Le relief est varié mais généralement bien moins raide qu’à Côte-Rôtie ou Hermitage. De faibles
+        différences d’altitude et d’exposition influencent néanmoins l’ensoleillement et le drainage.
   - id: srhone-cdp-aspect-001
     type: mcq
-    deck: France::Southern Rhône
-    tags: [france, southern-rhone]
+    deck: "France::Southern Rhône"
+    tags: ["france","southern-rhone"]
     status: reviewed
     source_id: c20-0048
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: What small site detail most changes how Syrah and Mourvèdre behave in Châteauneuf?
+      question: "Which site factors help explain differences in ripening within Châteauneuf-du-Pape?"
       choices:
-        - { text: "The négociant brand colour", correct: false }
-        - { text: "Small variations in aspect", correct: true }
-        - { text: "A legal ban on any slope", correct: false }
-        - { text: "Whether the wine is sparkling", correct: false }
+        - { text: "Only distance from the producer’s cellar", correct: false }
+        - { text: "Soil, aspect, elevation and water-holding capacity", correct: true }
+        - { text: "An official ranking of each vineyard", correct: false }
+        - { text: "A fixed harvest date for all five communes", correct: false }
       explanation: |
-        **Small aspect shifts.** On a flat map, a slightly cooler face
-        is what lets Syrah or Mourvèdre finish without baking.
-
+        Sandy, limestone and galet-covered clay sites retain heat and water differently. Even modest changes in
+        exposure can matter for Syrah and Mourvèdre.
+    fr:
+      question: "Quels facteurs de terroir expliquent les différences de maturation au sein de Châteauneuf-du-Pape ?"
+      choices:
+        - { text: "Uniquement la distance jusqu’à la cave du producteur", correct: false }
+        - { text: "Le sol, l’exposition, l’altitude et la capacité de rétention d’eau", correct: true }
+        - { text: "Un classement officiel de chaque vignoble", correct: false }
+        - { text: "Une date de vendange fixe pour les cinq communes", correct: false }
+      explanation: |
+        Les terroirs sableux, calcaires ou d’argile couverte de galets ne retiennent ni la chaleur ni l’eau de
+        la même manière. Même de faibles variations d’exposition comptent pour Syrah et Mourvèdre.
   - id: srhone-cdp-diversity-001
     type: mcq
-    deck: France::Southern Rhône
-    tags: [france, southern-rhone]
+    deck: "France::Southern Rhône"
+    tags: ["france","southern-rhone"]
     status: reviewed
     source_id: c20-0049
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: Why can two Châteauneufs from the same vintage drink so differently?
+      question: "Why can Châteauneuf-du-Pape reds vary markedly in style?"
       choices:
-        - { text: "INAO assigns one recipe to every domaine", correct: false }
-        - { text: "A large AOC, mixed soils and aspects, and a long permitted grape list", correct: true }
-        - { text: "There is only one grape and one soil", correct: false }
-        - { text: "All wine must be 100% Syrah", correct: false }
+        - { text: "Every producer must use a different prescribed variety", correct: false }
+        - { text: "The large area, varied soils and broad grape list allow many combinations", correct: true }
+        - { text: "Each commune has a separate quality classification", correct: false }
+        - { text: "The appellation alternates between red-only and white-only vintages", correct: false }
       explanation: |
-        **Size, soils, aspect, and many legal grapes** (classically
-        taught as 13; the list has grown). That is the diversity, not a
-        tasting-room slogan.
-
+        Grenache may dominate alone or be blended with varying proportions of Syrah, Mourvèdre and traditional
+        secondary grapes across contrasting sites.
+    fr:
+      question: "Pourquoi les Châteauneuf-du-Pape rouges peuvent-ils présenter des styles très différents ?"
+      choices:
+        - { text: "Chaque producteur doit utiliser un cépage imposé différent", correct: false }
+        - { text: "La vaste aire, les sols variés et la large liste de cépages permettent de nombreuses combinaisons", correct: true }
+        - { text: "Chaque commune possède un classement qualitatif distinct", correct: false }
+        - { text: "L’appellation alterne millésimes uniquement rouges et uniquement blancs", correct: false }
+      explanation: |
+        Le Grenache peut dominer seul ou être assemblé en proportions variables avec Syrah, Mourvèdre et des
+        cépages secondaires traditionnels sur des terroirs contrastés.
   - id: srhone-cdp-grenache-001
     type: mcq
-    deck: France::Southern Rhône
-    tags: [france, southern-rhone, grapes]
+    deck: "France::Southern Rhône"
+    tags: ["france","southern-rhone","grapes"]
     status: reviewed
     source_id: c20-0050
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: Which grape usually leads a Châteauneuf-du-Pape blend?
+      question: "Which variety usually leads a Châteauneuf-du-Pape red blend?"
       choices:
-        - { text: "Viognier", correct: false }
+        - { text: "Syrah", correct: false }
         - { text: "Grenache", correct: true }
-        - { text: "Pinot Noir", correct: false }
-        - { text: "Melon", correct: false }
+        - { text: "Mourvèdre", correct: false }
+        - { text: "Cinsault", correct: false }
       explanation: |
-        **Grenache.** Some bottles are 100% Grenache (**Rayas**); others
-        are GSM. The grape still leads.
-
+        Grenache noir is the dominant planting and supplies ripe red fruit, body and alcohol. Other varieties
+        add colour, tannin, freshness or aromatic complexity.
+    fr:
+      question: "Quel cépage domine généralement l’assemblage d’un Châteauneuf-du-Pape rouge ?"
+      choices:
+        - { text: "La Syrah", correct: false }
+        - { text: "Le Grenache", correct: true }
+        - { text: "Le Mourvèdre", correct: false }
+        - { text: "Le Cinsault", correct: false }
+      explanation: |
+        Le Grenache noir domine l’encépagement et apporte fruits rouges mûrs, corps et alcool. Les autres
+        cépages ajoutent couleur, tanins, fraîcheur ou complexité aromatique.
   - id: srhone-cdp-pure-grenache-001
     type: mcq
-    deck: France::Southern Rhône
-    tags: [france, southern-rhone, grapes]
+    deck: "France::Southern Rhône"
+    tags: ["france","southern-rhone","grapes"]
     status: reviewed
     source_id: c20-0051
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: A minority of Châteauneuf-du-Pape is bottled as a single variety. Which grape is that?
+      question: "Which variety is used for the best-known single-variety Châteauneuf-du-Pape reds?"
       choices:
-        - { text: "Syrah only", correct: false }
+        - { text: "Mourvèdre", correct: false }
         - { text: "Grenache", correct: true }
-        - { text: "Viognier", correct: false }
-        - { text: "Pinot Noir", correct: false }
+        - { text: "Syrah", correct: false }
+        - { text: "Counoise", correct: false }
       explanation: |
-        **Grenache.** **Rayas** is the named 100% example. Most houses
-        still blend.
-
+        Most producers blend, but some make pure Grenache from suitable old vines and sites. Château Rayas is
+        the classic reference.
+    fr:
+      question: "Quel cépage est utilisé pour les Châteauneuf-du-Pape rouges monocépages les plus connus ?"
+      choices:
+        - { text: "Le Mourvèdre", correct: false }
+        - { text: "Le Grenache", correct: true }
+        - { text: "La Syrah", correct: false }
+        - { text: "La Counoise", correct: false }
+      explanation: |
+        La plupart des producteurs assemblent, mais certains élaborent un Grenache pur à partir de vieilles
+        vignes et de terroirs adaptés. Château Rayas est la référence classique.
   - id: srhone-mourvedre-blend-001
     type: mcq
-    deck: France::Southern Rhône
-    tags: [france, southern-rhone, grapes]
+    deck: "France::Southern Rhône"
+    tags: ["france","southern-rhone","grapes"]
     status: reviewed
     source_id: c20-0052
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: What do Châteauneuf producers usually want from a Mourvèdre portion?
+      question: "What can Mourvèdre contribute to a Châteauneuf-du-Pape blend?"
       choices:
-        - { text: "A lychee and rose perfume", correct: false }
-        - { text: "A gamey, meaty note", correct: true }
-        - { text: "A legal 9% alcohol cap", correct: false }
-        - { text: "Only residual sugar", correct: false }
+        - { text: "Pale colour and delicate floral sweetness", correct: false }
+        - { text: "Colour, tannin and savoury, meaty complexity", correct: true }
+        - { text: "Lower alcohol and pronounced citrus acidity", correct: false }
+        - { text: "Simple red fruit without additional structure", correct: false }
       explanation: |
-        **A gamey, meaty note** — plus colour and tannin. **Beaucastel**
-        is the house that leans on it.
-
+        Fully ripe Mourvèdre reinforces Grenache’s structure and ageing capacity. Its proportion is highest on
+        sites warm enough to ripen this late variety.
+    fr:
+      question: "Que peut apporter le Mourvèdre à un assemblage de Châteauneuf-du-Pape ?"
+      choices:
+        - { text: "Une couleur pâle et une douceur florale délicate", correct: false }
+        - { text: "Couleur, tanins et complexité savoureuse et carnée", correct: true }
+        - { text: "Moins d’alcool et une acidité d’agrumes prononcée", correct: false }
+        - { text: "De simples fruits rouges sans structure supplémentaire", correct: false }
+      explanation: |
+        Le Mourvèdre pleinement mûr renforce la structure du Grenache et son potentiel de garde. Sa proportion
+        est plus élevée sur les terroirs assez chauds pour mûrir ce cépage tardif.
   - id: srhone-cdp-best-001
     type: mcq
-    deck: France::Southern Rhône
-    tags: [france, southern-rhone]
+    deck: "France::Southern Rhône"
+    tags: ["france","southern-rhone"]
     status: reviewed
     source_id: c20-0053
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: What shape do the best Châteauneuf-du-Pape reds usually have?
+      question: "Which profile best describes a high-quality Châteauneuf-du-Pape red?"
       choices:
-        - { text: "Light, high-acid, and 11%", correct: false }
-        - { text: "Full, richly textured, high alcohol, concentrated spiced red fruit", correct: true }
-        - { text: "Sparkling and bone-dry only", correct: false }
-        - { text: "Always a sweet white", correct: false }
+        - { text: "Light-bodied, low-alcohol and sharply acidic", correct: false }
+        - { text: "Full-bodied, high in alcohol, concentrated and spicy", correct: true }
+        - { text: "Medium-sweet, pale and intended for immediate drinking", correct: false }
+        - { text: "Firmly tannic but without ripe fruit or aroma", correct: false }
       explanation: |
-        **Full, rich, high alcohol, concentrated spiced red fruit.**
-        That is the serious bottle, not the dilute supermarket one.
-
+        The best examples combine ripe red and black fruit, spice, substantial body and balanced tannin.
+        Concentration and freshness prevent high alcohol from feeling heavy.
+    fr:
+      question: "Quel profil décrit le mieux un Châteauneuf-du-Pape rouge de qualité ?"
+      choices:
+        - { text: "Léger, peu alcoolisé et très acide", correct: false }
+        - { text: "Corsé, riche en alcool, concentré et épicé", correct: true }
+        - { text: "Demi-doux, pâle et destiné à être bu immédiatement", correct: false }
+        - { text: "Très tannique mais dépourvu de fruit mûr et d’arômes", correct: false }
+      explanation: |
+        Les meilleurs exemples associent fruits rouges et noirs mûrs, épices, corps important et tanins
+        équilibrés. Concentration et fraîcheur empêchent l’alcool élevé de paraître lourd.
   - id: srhone-cdp-lesser-001
     type: mcq
-    deck: France::Southern Rhône
-    tags: [france, southern-rhone]
+    deck: "France::Southern Rhône"
+    tags: ["france","southern-rhone"]
     status: reviewed
     source_id: c20-0054
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: What two faults often mark a weak Châteauneuf-du-Pape?
+      question: "Which combination most often makes an ambitious Châteauneuf-du-Pape red feel unbalanced?"
       choices:
-        - { text: "Green tannin and 11% alcohol", correct: false }
-        - { text: "Dilute fruit and high alcohol", correct: true }
-        - { text: "Excessive residual CO₂", correct: false }
-        - { text: "A legal ban on Grenache", correct: false }
+        - { text: "Concentrated fruit with fresh acidity", correct: false }
+        - { text: "Dilute fruit combined with high alcohol", correct: true }
+        - { text: "Ripe tannin supported by sufficient fruit", correct: false }
+        - { text: "Moderate oak integrated into a dense wine", correct: false }
       explanation: |
-        **Dilute fruit and high alcohol** — heat plus high yield. The
-        galets ripen sugar even when the crop is too big.
-
+        High sugar ripeness cannot compensate for excessive yields or weak fruit concentration. The result may
+        feel hot yet thin.
+    fr:
+      question: "Quelle combinaison déséquilibre le plus souvent un Châteauneuf-du-Pape rouge ambitieux ?"
+      choices:
+        - { text: "Un fruit concentré avec une acidité fraîche", correct: false }
+        - { text: "Un fruit dilué associé à un alcool élevé", correct: true }
+        - { text: "Des tanins mûrs soutenus par suffisamment de fruit", correct: false }
+        - { text: "Un boisé modéré intégré à un vin dense", correct: false }
+      explanation: |
+        Une forte maturité en sucre ne compense pas des rendements excessifs ou un fruit peu concentré. Le vin
+        peut alors paraître à la fois brûlant et mince.
   - id: srhone-cdp-colours-001
     type: mcq
-    deck: France::Southern Rhône
-    tags: [france, southern-rhone]
+    deck: "France::Southern Rhône"
+    tags: ["france","southern-rhone"]
     status: reviewed
     source_id: c20-0055
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: Which colours may Châteauneuf-du-Pape bottle?
+      question: "Which wine colours are authorised under Châteauneuf-du-Pape AOC?"
       choices:
         - { text: "Red only", correct: false }
-        - { text: "Red, and a little white", correct: true }
-        - { text: "Rosé only, like Tavel", correct: false }
-        - { text: "Sparkling only", correct: false }
+        - { text: "Red and white", correct: true }
+        - { text: "Red and rosé", correct: false }
+        - { text: "Red, white and rosé", correct: false }
       explanation: |
-        **Red, and a little white.** Official rosé is not a CdP colour.
-
+        The appellation produces still red and white wines. Red dominates; rosé cannot use the
+        Châteauneuf-du-Pape name.
+    fr:
+      question: "Quelles couleurs de vin sont autorisées sous l’AOC Châteauneuf-du-Pape ?"
+      choices:
+        - { text: "Rouge uniquement", correct: false }
+        - { text: "Rouge et blanc", correct: true }
+        - { text: "Rouge et rosé", correct: false }
+        - { text: "Rouge, blanc et rosé", correct: false }
+      explanation: |
+        L’appellation produit des vins tranquilles rouges et blancs. Le rouge domine ; le rosé ne peut pas
+        porter le nom Châteauneuf-du-Pape.
   - id: srhone-west-crus-001
     type: mcq
-    deck: France::Southern Rhône
-    tags: [france, southern-rhone]
+    deck: "France::Southern Rhône"
+    tags: ["france","southern-rhone"]
     status: reviewed
     source_id: c20-0056
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: Which two Southern Rhône crus sit on the west bank of the river?
+      question: "Which Southern Rhône crus lie on the right bank, west of the Rhône?"
       choices:
-        - { text: "Gigondas and Vacqueyras", correct: false }
-        - { text: "Tavel and Lirac", correct: true }
-        - { text: "Côte-Rôtie and Condrieu", correct: false }
-        - { text: "Cornas and Saint-Joseph", correct: false }
+        - { text: "Gigondas, Vacqueyras and Cairanne", correct: false }
+        - { text: "Tavel, Lirac and Laudun", correct: true }
+        - { text: "Vinsobres, Rasteau and Beaumes-de-Venise", correct: false }
+        - { text: "Châteauneuf-du-Pape, Gigondas and Tavel", correct: false }
       explanation: |
-        **Tavel and Lirac** face Châteauneuf across the water. The
-        other southern crus sit east, in the hills.
-
+        Tavel and Lirac are long-established right-bank crus, joined by Laudun after its recognition as a
+        separate cru in 2024.
+    fr:
+      question: "Quels crus du Rhône méridional se situent sur la rive droite, à l’ouest du Rhône ?"
+      choices:
+        - { text: "Gigondas, Vacqueyras et Cairanne", correct: false }
+        - { text: "Tavel, Lirac et Laudun", correct: true }
+        - { text: "Vinsobres, Rasteau et Beaumes-de-Venise", correct: false }
+        - { text: "Châteauneuf-du-Pape, Gigondas et Tavel", correct: false }
+      explanation: |
+        Tavel et Lirac sont des crus historiques de la rive droite, rejoints par Laudun après sa reconnaissance
+        comme cru distinct en 2024.
   - id: srhone-tavel-lirac-fame-001
     type: mcq
-    deck: France::Southern Rhône
-    tags: [france, southern-rhone]
+    deck: "France::Southern Rhône"
+    tags: ["france","southern-rhone"]
     status: reviewed
     source_id: c20-0057
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: What style made Tavel and Lirac’s name?
+      question: "Which wine style established the reputations of Tavel and Lirac?"
       choices:
-        - { text: "Sweet fortified Muscat", correct: false }
+        - { text: "Dry white", correct: false }
         - { text: "Rosé", correct: true }
-        - { text: "100% Syrah, like Cornas", correct: false }
-        - { text: "Sparkling Chenin", correct: false }
+        - { text: "Sweet fortified red", correct: false }
+        - { text: "Sparkling white", correct: false }
       explanation: |
-        **Rosé.** Tavel is rosé-only; Lirac is famous for pink but also
-        bottles red and white.
-
+        Tavel is entirely devoted to rosé. Lirac also produces red and white, but its full-flavoured rosé has
+        long been a signature style.
+    fr:
+      question: "Quel style de vin a établi la réputation de Tavel et de Lirac ?"
+      choices:
+        - { text: "Le blanc sec", correct: false }
+        - { text: "Le rosé", correct: true }
+        - { text: "Le rouge doux fortifié", correct: false }
+        - { text: "Le blanc effervescent", correct: false }
+      explanation: |
+        Tavel se consacre entièrement au rosé. Lirac produit aussi du rouge et du blanc, mais son rosé vineux
+        constitue depuis longtemps un style emblématique.
   - id: srhone-west-rose-001
     type: mcq
-    deck: France::Southern Rhône
-    tags: [france, southern-rhone]
+    deck: "France::Southern Rhône"
+    tags: ["france","southern-rhone"]
     status: reviewed
     source_id: c20-0058
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: What is the typical make-up and profile of Tavel and Lirac rosé?
+      question: "Which profile best describes traditional Tavel and full-bodied Lirac rosé?"
       choices:
-        - { text: "Pale, 11%, and drunk only as a spritz", correct: false }
-        - { text: "Grenache-and-Cinsault based, full, intense, and able to gain complexity in bottle", correct: true }
-        - { text: "Always a sweet VDN", correct: false }
-        - { text: "100% new-oak Hermitage copies", correct: false }
+        - { text: "Very pale, light-bodied and neutral", correct: false }
+        - { text: "Deeply coloured, structured and intensely flavoured", correct: true }
+        - { text: "Sweet, fortified and dominated by Muscat", correct: false }
+        - { text: "High-acid sparkling wine with delicate citrus", correct: false }
       explanation: |
-        **Grenache and Cinsault, full, intense, bottle-ageable.** These
-        are not Provençal pale picnic pinks.
-
+        Grenache-led blends with Cinsault and other varieties can yield substantial rosés that accompany food
+        and may gain savoury complexity with short bottle age.
+    fr:
+      question: "Quel profil décrit le mieux le Tavel traditionnel et les Lirac rosés corsés ?"
+      choices:
+        - { text: "Très pâles, légers et neutres", correct: false }
+        - { text: "Colorés, structurés et intensément aromatiques", correct: true }
+        - { text: "Doux, fortifiés et dominés par le Muscat", correct: false }
+        - { text: "Effervescents très acides aux délicats arômes d’agrumes", correct: false }
+      explanation: |
+        Les assemblages dominés par le Grenache avec Cinsault et d’autres cépages peuvent donner des rosés
+        substantiels, adaptés à table et capables de gagner en complexité savoureuse après une courte garde.
   - id: srhone-tavel-only-001
     type: mcq
-    deck: France::Southern Rhône
-    tags: [france, southern-rhone]
+    deck: "France::Southern Rhône"
+    tags: ["france","southern-rhone"]
     status: reviewed
     source_id: c20-0059
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: Which colour is legal in Tavel?
+      question: "Which wine colour is authorised under Tavel AOC?"
       choices:
-        - { text: "Red, white, and rosé", correct: false }
+        - { text: "Red only", correct: false }
         - { text: "Rosé only", correct: true }
-        - { text: "White only", correct: false }
-        - { text: "Fortified red only", correct: false }
+        - { text: "Red and rosé", correct: false }
+        - { text: "Rosé and white", correct: false }
       explanation: |
-        **Rosé only.** That is Tavel’s legal box. Lirac is the flexible
-        neighbour.
-
+        Tavel is the Rhône’s specialist rosé cru. Its generally deeper colour and fuller body distinguish it
+        from many pale Mediterranean rosés.
+    fr:
+      question: "Quelle couleur de vin est autorisée sous l’AOC Tavel ?"
+      choices:
+        - { text: "Rouge uniquement", correct: false }
+        - { text: "Rosé uniquement", correct: true }
+        - { text: "Rouge et rosé", correct: false }
+        - { text: "Rosé et blanc", correct: false }
+      explanation: |
+        Tavel est le cru rhodanien spécialisé dans le rosé. Sa couleur généralement plus soutenue et son corps
+        plus ample le distinguent de nombreux rosés méditerranéens pâles.
   - id: srhone-lirac-colours-001
     type: mcq
-    deck: France::Southern Rhône
-    tags: [france, southern-rhone]
+    deck: "France::Southern Rhône"
+    tags: ["france","southern-rhone"]
     status: reviewed
     source_id: c20-0059
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: Which colours may Lirac bottle?
+      question: "Which wine colours are authorised under Lirac AOC?"
       choices:
-        - { text: "Rosé only, like Tavel", correct: false }
-        - { text: "Rosé, red, and white", correct: true }
-        - { text: "Sparkling only", correct: false }
-        - { text: "Sweet Muscat only", correct: false }
+        - { text: "Rosé only", correct: false }
+        - { text: "Red, white and rosé", correct: true }
+        - { text: "Red and white only", correct: false }
+        - { text: "White and rosé only", correct: false }
       explanation: |
-        **Rosé, red, and white.** The still reds and whites sit in a
-        Châteauneuf-like shape, just across the river.
-
+        Lirac produces all three still colours on the right bank. This makes it more stylistically varied than
+        neighbouring rosé-only Tavel.
+    fr:
+      question: "Quelles couleurs de vin sont autorisées sous l’AOC Lirac ?"
+      choices:
+        - { text: "Rosé uniquement", correct: false }
+        - { text: "Rouge, blanc et rosé", correct: true }
+        - { text: "Rouge et blanc uniquement", correct: false }
+        - { text: "Blanc et rosé uniquement", correct: false }
+      explanation: |
+        Lirac produit les trois couleurs de vins tranquilles sur la rive droite. Il est donc plus varié que
+        Tavel, son voisin consacré uniquement au rosé.
   - id: srhone-east-crus-001
     type: mcq
-    deck: France::Southern Rhône
-    tags: [france, southern-rhone]
+    deck: "France::Southern Rhône"
+    tags: ["france","southern-rhone"]
     status: reviewed
     source_id: c20-0060
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: Besides Tavel and Lirac, where do the Southern Rhône crus sit relative to Châteauneuf-du-Pape?
+      question: "Where are many of the Southern Rhône’s Grenache-led red crus concentrated?"
       choices:
-        - { text: "Only on the Atlantic coast", correct: false }
-        - { text: "In and around the hills to the east", correct: true }
-        - { text: "Inside Lyon’s walls", correct: false }
-        - { text: "Only on the west bank, like Tavel", correct: false }
+        - { text: "On the right bank around Tavel", correct: false }
+        - { text: "In the hills east and north-east of Châteauneuf-du-Pape", correct: true }
+        - { text: "On the steep granite slopes north of Valence", correct: false }
+        - { text: "On the coastal plain south of Marseille", correct: false }
       explanation: |
-        **Hills to the east** — Gigondas, Vacqueyras, Cairanne,
-        Beaumes-de-Venise, Rasteau, Vinsobres. Not a west-bank story.
-
+        Gigondas, Vacqueyras, Beaumes-de-Venise, Rasteau and Cairanne cluster in the Vaucluse hills. Vinsobres
+        lies farther north-east, while Laudun, Lirac and Tavel are on the right bank.
+    fr:
+      question: "Où se concentrent de nombreux crus rouges du Rhône méridional dominés par le Grenache ?"
+      choices:
+        - { text: "Sur la rive droite autour de Tavel", correct: false }
+        - { text: "Dans les collines à l’est et au nord-est de Châteauneuf-du-Pape", correct: true }
+        - { text: "Sur les coteaux granitiques escarpés au nord de Valence", correct: false }
+        - { text: "Dans la plaine littorale au sud de Marseille", correct: false }
+      explanation: |
+        Gigondas, Vacqueyras, Beaumes-de-Venise, Rasteau et Cairanne se regroupent dans les collines du
+        Vaucluse. Vinsobres est plus au nord-est, tandis que Laudun, Lirac et Tavel sont sur la rive droite.
   - id: srhone-old-crus-001
     type: mcq
-    deck: France::Southern Rhône
-    tags: [france, southern-rhone]
+    deck: "France::Southern Rhône"
+    tags: ["france","southern-rhone"]
     status: reviewed
     source_id: c20-0061
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: Besides Châteauneuf-du-Pape, which two southern crus have the longest standing?
+      question: "After Châteauneuf-du-Pape, which pair gained cru status before the later wave of eastern Southern Rhône promotions?"
       choices:
         - { text: "Cairanne and Vinsobres", correct: false }
         - { text: "Gigondas and Vacqueyras", correct: true }
-        - { text: "Côte-Rôtie and Hermitage", correct: false }
-        - { text: "Muscadet and Vouvray", correct: false }
+        - { text: "Rasteau and Beaumes-de-Venise", correct: false }
+        - { text: "Laudun and Cairanne", correct: false }
       explanation: |
-        **Gigondas** (1971) and **Vacqueyras** (1990). Cairanne and the
-        others were promoted later.
-
+        Gigondas became a cru in 1971 and Vacqueyras in 1990. Beaumes-de-Venise, Vinsobres, Rasteau and Cairanne
+        followed later, with Laudun recognised in 2024.
+    fr:
+      question: "Après Châteauneuf-du-Pape, quelle paire a obtenu le statut de cru avant la vague plus récente de promotions dans l’est du Rhône méridional ?"
+      choices:
+        - { text: "Cairanne et Vinsobres", correct: false }
+        - { text: "Gigondas et Vacqueyras", correct: true }
+        - { text: "Rasteau et Beaumes-de-Venise", correct: false }
+        - { text: "Laudun et Cairanne", correct: false }
+      explanation: |
+        Gigondas est devenu cru en 1971 et Vacqueyras en 1990. Beaumes-de-Venise, Vinsobres, Rasteau et Cairanne
+        ont suivi, puis Laudun a été reconnu en 2024.
   - id: srhone-other-cru-style-001
     type: mcq
-    deck: France::Southern Rhône
-    tags: [france, southern-rhone]
+    deck: "France::Southern Rhône"
+    tags: ["france","southern-rhone"]
     status: reviewed
     source_id: c20-0062
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: What do Gigondas, Vacqueyras and the later southern crus usually taste like?
+      question: "Which profile is common among the leading Grenache-based Southern Rhône red crus?"
       choices:
-        - { text: "Light Gamay picnic wines", correct: false }
-        - { text: "Grenache-led reds, full and spicy, in a Châteauneuf-like shape", correct: true }
-        - { text: "100% Syrah, like Cornas", correct: false }
-        - { text: "Always a sweet white", correct: false }
+        - { text: "Light body, low alcohol and simple red fruit", correct: false }
+        - { text: "Full body, ripe red and black fruit, spice and firm structure", correct: true }
+        - { text: "High acidity, pale colour and pronounced green flavours", correct: false }
+        - { text: "Medium sweetness with floral Muscat aromas", correct: false }
       explanation: |
-        **Grenache-led, full, spicy, Châteauneuf-like.** Site and yield
-        still split the best from the ordinary.
-
+        Gigondas, Vacqueyras and several later crus share the broad family resemblance of ripe Grenache blends,
+        but altitude, soil and blend create meaningful differences.
+    fr:
+      question: "Quel profil est courant parmi les principaux crus rouges du Rhône méridional à base de Grenache ?"
+      choices:
+        - { text: "Corps léger, faible alcool et simples fruits rouges", correct: false }
+        - { text: "Corps ample, fruits rouges et noirs mûrs, épices et structure ferme", correct: true }
+        - { text: "Forte acidité, couleur pâle et arômes végétaux prononcés", correct: false }
+        - { text: "Demi-doux avec des arômes floraux de Muscat", correct: false }
+      explanation: |
+        Gigondas, Vacqueyras et plusieurs crus plus récents partagent la famille stylistique des assemblages
+        mûrs de Grenache, mais altitude, sol et assemblage créent de réelles différences.
   - id: srhone-other-cru-quality-001
     type: mcq
-    deck: France::Southern Rhône
-    tags: [france, southern-rhone]
+    deck: "France::Southern Rhône"
+    tags: ["france","southern-rhone"]
     status: reviewed
     source_id: c20-0063
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: How do the best bottles from Gigondas or Vacqueyras sit next to Châteauneuf?
+      question: "How can top Gigondas or Vacqueyras compare in quality with Châteauneuf-du-Pape?"
       choices:
-        - { text: "They are legally a lower quality tier", correct: false }
-        - { text: "Many match a good Châteauneuf", correct: true }
-        - { text: "They are always lighter and sweeter", correct: false }
-        - { text: "They may not be red", correct: false }
+        - { text: "Their cru status imposes a lower quality ceiling", correct: false }
+        - { text: "They can equal a good Châteauneuf-du-Pape", correct: true }
+        - { text: "They must be lighter and intended for earlier drinking", correct: false }
+        - { text: "They cannot achieve comparable concentration", correct: false }
       explanation: |
-        **Many match a good Châteauneuf.** The name on the label is not
-        a quality ceiling. **Saint Cosme** (Gigondas) is a checkable
-        example.
-
+        Appellation prestige and price do not set an absolute quality hierarchy. Strong sites and producers in
+        Gigondas or Vacqueyras can deliver comparable complexity and ageing potential.
+    fr:
+      question: "Comment les meilleurs Gigondas ou Vacqueyras peuvent-ils se comparer en qualité à Châteauneuf-du-Pape ?"
+      choices:
+        - { text: "Leur statut de cru impose un plafond qualitatif inférieur", correct: false }
+        - { text: "Ils peuvent égaler un bon Châteauneuf-du-Pape", correct: true }
+        - { text: "Ils doivent être plus légers et destinés à être bus plus jeunes", correct: false }
+        - { text: "Ils ne peuvent pas atteindre une concentration comparable", correct: false }
+      explanation: |
+        Le prestige et le prix de l’appellation ne fixent pas une hiérarchie qualitative absolue. De grands
+        terroirs et producteurs de Gigondas ou Vacqueyras peuvent offrir une complexité et une garde
+        comparables.
   - id: srhone-cru-colours-001
     type: mcq
-    deck: France::Southern Rhône
-    tags: [france, southern-rhone]
+    deck: "France::Southern Rhône"
+    tags: ["france","southern-rhone"]
     status: reviewed
     source_id: c20-0064
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: Which colours do the Southern Rhône crus besides Châteauneuf mainly bottle?
+      question: "Which statement best describes the colours produced by Southern Rhône crus?"
       choices:
-        - { text: "White only", correct: false }
-        - { text: "Mainly red; a few also allow white and rosé", correct: true }
-        - { text: "Sparkling only", correct: false }
-        - { text: "Fortified red only", correct: false }
+        - { text: "Every cru produces red only", correct: false }
+        - { text: "Red dominates, but authorised colours vary by cru", correct: true }
+        - { text: "Every cru must produce all three still colours", correct: false }
+        - { text: "White dominates except in Châteauneuf-du-Pape", correct: false }
       explanation: |
-        **Mainly red; some also allow white and rosé.** Tavel is the
-        rosé-only exception. Gigondas now has a white too.
-
+        Tavel is rosé only; Châteauneuf-du-Pape is red and white; Lirac and Vacqueyras allow three colours;
+        Gigondas now also permits white. Each specification must be checked.
+    fr:
+      question: "Quelle affirmation décrit le mieux les couleurs produites par les crus du Rhône méridional ?"
+      choices:
+        - { text: "Chaque cru produit uniquement du rouge", correct: false }
+        - { text: "Le rouge domine, mais les couleurs autorisées varient selon le cru", correct: true }
+        - { text: "Chaque cru doit produire les trois couleurs tranquilles", correct: false }
+        - { text: "Le blanc domine sauf à Châteauneuf-du-Pape", correct: false }
+      explanation: |
+        Tavel est uniquement rosé ; Châteauneuf-du-Pape produit rouge et blanc ; Lirac et Vacqueyras autorisent
+        trois couleurs ; Gigondas permet désormais aussi le blanc. Il faut vérifier chaque cahier des charges.
   - id: srhone-muscat-vdn-001
     type: mcq
-    deck: France::Southern Rhône
-    tags: [france, southern-rhone]
+    deck: "France::Southern Rhône"
+    tags: ["france","southern-rhone"]
     status: reviewed
     source_id: c20-0065
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: ["known-fact"]
     en:
-      question: Which Southern Rhône wine is a fortified Muscat?
+      question: "Which Southern Rhône appellation produces a sweet fortified wine from Muscat Blanc à Petits Grains?"
       choices:
-        - { text: "Tavel", correct: false }
+        - { text: "Rasteau Vin Doux Naturel", correct: false }
         - { text: "Muscat de Beaumes-de-Venise", correct: true }
-        - { text: "Cornas", correct: false }
-        - { text: "Côte-Rôtie", correct: false }
+        - { text: "Beaumes-de-Venise rouge", correct: false }
+        - { text: "Châteauneuf-du-Pape blanc", correct: false }
       explanation: |
-        **Muscat de Beaumes-de-Venise** — a sweet VDN. **Rasteau** is
-        the other southern fortified (Grenache), so Muscat is not the
-        only VDN in the valley.
+        Muscat de Beaumes-de-Venise is a vin doux naturel made by fortifying fermenting must to retain grape
+        sugar. Rasteau also makes VDN, but chiefly from Grenache.
+    fr:
+      question: "Quelle appellation du Rhône méridional produit un vin doux fortifié à partir de Muscat Blanc à Petits Grains ?"
+      choices:
+        - { text: "Rasteau Vin Doux Naturel", correct: false }
+        - { text: "Muscat de Beaumes-de-Venise", correct: true }
+        - { text: "Beaumes-de-Venise rouge", correct: false }
+        - { text: "Châteauneuf-du-Pape blanc", correct: false }
+      explanation: |
+        Muscat de Beaumes-de-Venise est un vin doux naturel obtenu par mutage du moût en fermentation afin de
+        conserver du sucre de raisin. Rasteau produit aussi du VDN, mais principalement à partir de Grenache.
