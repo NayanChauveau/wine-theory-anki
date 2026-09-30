@@ -1,96 +1,253 @@
-# WSET 3 VIN — Anki deck
+# Terroir Recall
 
-Collaborative, version-controlled Anki deck for the **WSET Level 3 Award in Wines**.
+An open, version-controlled and bilingual **Anki deck for advanced wine study**, built
+around the knowledge expected for the WSET Level 3 Award in Wines.
 
-Source of truth is YAML on GitHub. A small Python toolchain builds `.apkg` files you can import with **File → Import**. No Anki add-on required to contribute.
+The cards are written independently in English and French, stored as YAML, reviewed in
+Git, and compiled into standard `.apkg` packages. You can download a ready-made deck,
+build it locally, or import and synchronize it with AnkiWeb in one command.
 
-**This project is not affiliated with, endorsed by, or connected to the Wine & Spirit Education Trust (WSET).** WSET is a registered trademark of the Wine & Spirit Education Trust. Cards are independently authored. Do not copy official textbooks, workbooks, or exam papers.
+> **Projet francophone ?** Le paquet français, les noms de paquets et l’interface des
+> cartes sont localisés. Le code et la documentation du dépôt restent principalement en
+> anglais pour faciliter les contributions internationales.
 
-Deck évolutif et traduisible (EN / FR) pour le WSET 3 VIN. Les cartes vivent en YAML ; le build produit des paquets Anki.
+> [!IMPORTANT]
+> This is an independent study aid. It is **not affiliated with, endorsed by, or connected
+> to the Wine & Spirit Education Trust (WSET)**. WSET is a registered trademark of the
+> Wine & Spirit Education Trust. No official textbooks, workbooks or exam questions are
+> reproduced here.
 
-## Study with the deck
+## What the project provides
 
-1. Download the latest `.apkg` from [GitHub Releases](https://github.com/) (or build it locally).
-2. In Anki: **File → Import** and choose one of:
-   - `wset3-vin-en.apkg` — English
-   - `wset3-vin-fr.apkg` — French
-3. To update later, import the new package. Note GUIDs are stable, so Anki **updates** existing cards instead of duplicating them or resetting scheduling.
+- English and French Anki packages generated from the same card IDs.
+- MCQ, basic and cloze cards with localized deck names and interfaces.
+- Shuffled MCQ choices on every review.
+- Stable note identifiers, so importing a newer release updates existing notes without
+  creating duplicates or resetting their scheduling.
+- Schema validation, tests and automated release builds.
+- A review workflow for factual accuracy, credible distractors and natural French.
 
-MCQ cards shuffle their choices each review. Tap a letter to answer; the back marks your pick.
+The project is a work in progress. English coverage is currently broader than French
+coverage. Draft cards are excluded from normal builds, and cards without a `fr:` block
+are omitted from the French package.
 
-Draft cards are excluded from release builds. Cards without a `fr:` block are omitted from the French package.
+## Use the ready-made deck
 
-## Build locally
+The easiest option does not require Python or any development tools.
 
-Requires [uv](https://docs.astral.sh/uv/) and Python 3.12+.
+1. Download `wset3-vin-en.apkg` or `wset3-vin-fr.apkg` from the
+   [latest GitHub release](../../releases/latest).
+2. Open Anki Desktop.
+3. Choose **File → Import**, select the downloaded package, and confirm the import.
+4. Synchronize Anki if you also study on AnkiMobile, AnkiDroid or another computer.
+
+Choose the English or French package according to the language in which you want to
+study. Importing both is supported, but creates separate English and French notes and
+deck trees.
+
+### Updating an existing installation
+
+Download and import the newer `.apkg` in the same way. Released card IDs are permanent,
+and the generated Anki GUIDs are deterministic. Anki can therefore update the existing
+notes while retaining review history and scheduling.
+
+As with any Anki collection change, keeping a recent backup is sensible. Anki creates
+automatic backups, which can be managed from the profile screen.
+
+## Build from source
+
+### Requirements
+
+- [Python 3.12 or later](https://www.python.org/downloads/)
+- [uv](https://docs.astral.sh/uv/getting-started/installation/)
+- `make` for the short commands below; every command also has a direct `uv` equivalent
+
+From the repository root:
 
 ```bash
 uv sync --extra dev
 make check
-uv run wset3-anki build --lang all --out dist/
+make build
 ```
 
-### Build, import and sync in one command
+The generated packages are written to `dist/`:
 
-Install the **AnkiConnect** add-on once in Anki Desktop with code
-`2055492159`, then restart Anki. After that:
+```text
+dist/wset3-vin-en.apkg
+dist/wset3-vin-fr.apkg
+```
+
+To build only one language:
+
+```bash
+uv run wset3-anki build --lang en --out dist
+uv run wset3-anki build --lang fr --out dist
+```
+
+Normal builds skip `status: draft` cards. For local editorial previews only, you can add
+`--include-drafts`.
+
+### Useful commands
+
+| Command | Purpose |
+| --- | --- |
+| `make check` | Run linting, formatting checks, type checks, schema validation and tests |
+| `make build` | Build both English and French `.apkg` packages |
+| `make push` | Build French, import it into Anki Desktop and sync AnkiWeb |
+| `make push ANKI_LANG=en` | Build, import and sync the English package |
+| `make push ANKI_LANG=all` | Build, import and sync both language packages |
+| `uv run wset3-anki validate` | Validate only the card YAML files |
+| `uv run wset3-anki schema` | Regenerate `schema/cards.schema.json` after a schema change |
+
+If `make` is unavailable, use the equivalent commands directly:
+
+```bash
+uv run wset3-anki check
+uv run wset3-anki build --lang all --out dist
+uv run wset3-anki push --lang fr --out dist
+```
+
+## Build, import and sync with AnkiConnect
+
+[`make push`](#useful-commands) provides the shortest local publishing workflow. It
+builds the selected package, starts Anki Desktop when possible, imports the `.apkg`, and
+asks Anki to synchronize the active profile with AnkiWeb.
+
+### One-time setup
+
+1. Install [Anki Desktop](https://apps.ankiweb.net/) and connect the intended profile to
+   your AnkiWeb account.
+2. In Anki, open **Tools → Add-ons → Get Add-ons**.
+3. Enter the AnkiConnect add-on code **`2055492159`**. See the
+   [AnkiWeb add-on page](https://ankiweb.net/shared/info/2055492159) or the
+   [AnkiConnect repository](https://github.com/FooSoft/anki-connect) for details.
+4. Restart Anki Desktop once so the add-on is loaded.
+
+You can then publish the French package with:
 
 ```bash
 make push
 ```
 
-This builds the French package, opens Anki Desktop if needed, imports the
-`.apkg`, and synchronizes the collection with AnkiWeb. To push another language:
+Or select another language:
 
 ```bash
 make push ANKI_LANG=en
 make push ANKI_LANG=all
 ```
 
-Anki Desktop must already be connected to the intended AnkiWeb account. The
-command talks only to AnkiConnect on `127.0.0.1` by default. For a custom
-endpoint or API key, set `ANKI_CONNECT_URL` or `ANKI_CONNECT_KEY`.
+The command prints the number of imported notes and confirms the AnkiWeb sync when it
+finishes.
 
-`make check` is the quality gate (Ruff + types + YAML schema + tests), the Python equivalent of ESLint + TypeScript + Prettier.
+> [!WARNING]
+> The final sync concerns the **entire active Anki profile**, not only this deck. Before
+> running `make push`, make sure Anki Desktop is using the intended profile and AnkiWeb
+> account. Resolve any pending one-way sync prompt in Anki itself first.
 
-| Command | Result |
-| --- | --- |
-| `wset3-anki build --lang en` | `dist/wset3-vin-en.apkg` |
-| `wset3-anki build --lang fr` | `dist/wset3-vin-fr.apkg` |
-| `wset3-anki build --lang all` | both |
-| `wset3-anki build --include-drafts` | also emit `status: draft` cards |
-| `wset3-anki push --lang fr` | build, import into Anki Desktop, sync AnkiWeb |
+By default the tool contacts AnkiConnect only on `http://127.0.0.1:8765`. Do not expose
+an unauthenticated AnkiConnect endpoint to the public internet. Advanced installations
+can set a custom endpoint or API key:
 
-Anki deck tree is localized at build time. English: `WSET 3 Wine::France::Bordeaux`. French: `WSET 3 VIN::France::Bordeaux` (and `Bourgogne`, `Allemagne`, `ASD`, … where the name actually changes).
+```bash
+ANKI_CONNECT_URL=http://127.0.0.1:8765 \
+ANKI_CONNECT_KEY=your-key \
+make push
+```
+
+To require Anki to be opened manually instead of allowing the command to launch it:
+
+```bash
+uv run wset3-anki push --lang fr --out dist --no-launch
+```
+
+### AnkiConnect troubleshooting
+
+- **Cannot reach AnkiConnect:** confirm that add-on `2055492159` is installed, restart
+  Anki, and leave Anki Desktop open while retrying.
+- **Anki cannot be launched automatically:** open it manually and run the command again,
+  or use `--no-launch`.
+- **Synchronization fails:** check that the active Anki profile is connected to AnkiWeb
+  and complete any sync or conflict prompt directly in Anki.
+- **Custom AnkiConnect configuration:** set `ANKI_CONNECT_URL` and, if configured in the
+  add-on, `ANKI_CONNECT_KEY`.
+
+## Contributing
+
+Contributions are welcome: factual corrections, better distractors, clearer explanations,
+French translations, new cards, templates, tests and tooling all help.
+
+If you have found a problem but do not want to edit YAML, use the structured
+[issue templates](../../issues/new/choose) to report a card or a build problem.
+
+Before editing cards, read:
+
+- [CONTRIBUTING.md](CONTRIBUTING.md) for the development and pull-request workflow;
+- [CONTENT_GUIDELINES.md](CONTENT_GUIDELINES.md) for authorship and card-writing rules;
+- [import/STUDY_CARD_QUALITY.md](import/STUDY_CARD_QUALITY.md) for the chapter review rubric.
+
+The short version is:
+
+1. Fork the repository and create a focused branch.
+2. Edit the existing chapter file in `cards/`; do not create one file per card.
+3. Use original wording and public, checkable sources. Never copy WSET course materials
+   or exam questions.
+4. Give new facts `status: draft`. Never rename or reuse a released card `id`.
+5. If a card is bilingual, keep the same choice count and correct-choice index in `en:`
+   and `fr:`.
+6. Run `make check`.
+7. Open a focused pull request explaining what changed, why, and which sources support
+   factual corrections.
+
+Small corrections can go directly to a pull request. For a large new chapter, a schema
+change or a substantial workflow change, open an issue first so the approach can be
+agreed before a large amount of work is written.
+
+You do **not** need Anki or AnkiConnect to contribute card content. They are only needed
+to preview or automatically import a built package.
 
 ## Repository layout
 
+```text
+cards/                  YAML source of truth, one file per source chapter
+import/                 Migration ledger and editorial quality-review material
+schema/                 Generated JSON Schema for card YAML
+templates/              Anki HTML, CSS, JavaScript and localized UI/deck names
+src/wset3_anki/         Validator, builder and AnkiConnect integration
+tests/                  Unit and integration tests
+.github/                CI, release workflow and pull-request template
+dist/                   Locally generated packages; not source
 ```
-cards/                 YAML source (one file per Cxx chapter)
-schema/                JSON Schema for editor + CI (generated)
-templates/mcq/         QCM front/back HTML + CSS
-templates/ui/          UI strings (Pourquoi / Why, …)
-src/wset3_anki/        validate + build CLI
-tests/
+
+The stable `deck:` values in YAML remain in English, for example
+`France::Burgundy`. Display names are localized at build time, producing paths such as
+`WSET 3 Wine::France::Burgundy` and `WSET 3 VIN::France::Bourgogne`.
+
+Editors with YAML language-server support can use `schema/cards.schema.json` for inline
+validation. If `src/wset3_anki/schema.py` changes, regenerate and commit the schema:
+
+```bash
+uv run wset3-anki schema
 ```
 
-## Tooling (JS → this repo)
+## Releases
 
-| JavaScript | Here |
-| --- | --- |
-| TypeScript / `tsc` | Pydantic + JSON Schema on YAML; basedpyright on Python |
-| ESLint | `ruff check` |
-| Prettier | `ruff format` |
-| `npm test` | `pytest` |
-| `npm run lint` | `make check` / `uv run wset3-anki check` |
+Pull requests and pushes run the full quality gate and build both language packages in
+GitHub Actions. Pushing a `vX.Y.Z` tag creates a GitHub release and attaches the English
+and French `.apkg` files.
 
-While you edit `cards/*.yaml`, Cursor/VS Code validates against `schema/cards.schema.json` (Red Hat YAML extension). After changing the Python schema, run `uv run wset3-anki schema` and commit the updated JSON Schema.
+Because card IDs, model IDs and deck IDs are stable, releases remain compatible with
+previous imports. Contributors must therefore never rename a released card ID merely to
+improve its wording.
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) and [CONTENT_GUIDELINES.md](CONTENT_GUIDELINES.md) before adding cards.
+## License and attribution
 
-Agents: start with [AGENTS.md](AGENTS.md). Cursor also loads [`.cursor/rules/`](.cursor/rules/).
+- Code in `src/`, `templates/`, tests and automation is licensed under the
+  [MIT License](LICENSE).
+- Card content in `cards/` is licensed under
+  [CC BY-SA 4.0](LICENSE-CONTENT).
 
-## License
+If you redistribute or adapt the cards, provide appropriate attribution and distribute
+your card-content changes under the same CC BY-SA 4.0 license.
 
-- **Code** (`src/`, `templates/`, CI): [MIT](LICENSE)
-- **Card content** (`cards/`): [CC BY-SA 4.0](LICENSE-CONTENT)
+WSET is a registered trademark of the Wine & Spirit Education Trust. This independent
+project is not affiliated with, endorsed by, or connected to WSET.

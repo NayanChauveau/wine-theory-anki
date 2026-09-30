@@ -1,0 +1,74 @@
+name: Build or import bug
+description: Report a problem with validation, package generation, AnkiConnect or synchronization
+title: "[Bug] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please remove API keys, account details and other secrets from logs before
+        submitting them.
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Installation or dependencies
+        - Card validation
+        - Package build
+        - Manual Anki import
+        - AnkiConnect / make push
+        - AnkiWeb synchronization
+        - Card rendering
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: command
+    attributes:
+      label: Command
+      description: The exact command that failed, if applicable.
+      placeholder: make push ANKI_LANG=fr
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Include enough detail for another contributor to reproduce the problem.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+
+  - type: textarea
+    id: output
+    attributes:
+      label: Error output
+      description: Paste relevant output after removing secrets and personal data.
+      render: shell
+
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: Operating system, Python version, Anki version and AnkiConnect version when relevant.
+      placeholder: macOS 15, Python 3.13, Anki 25.x, AnkiConnect 2055492159
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I have searched existing issues for the same problem.
+          required: true
+        - label: I have removed API keys and personal information from this report.
+          required: true

@@ -1,0 +1,84 @@
+name: Card problem or correction
+description: Report a factual, editorial, translation or card-quality problem
+title: "[Card] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping improve the deck. Please identify the card precisely and
+        use public sources for factual corrections. Do not quote WSET course materials.
+
+  - type: input
+    id: card-id
+    attributes:
+      label: Card ID
+      description: The permanent YAML `id`, visible in the source file.
+      placeholder: bordeaux-left-bank-001
+    validations:
+      required: true
+
+  - type: input
+    id: chapter
+    attributes:
+      label: Chapter or YAML file
+      placeholder: cards/c13-bordeaux.yaml
+    validations:
+      required: true
+
+  - type: dropdown
+    id: problem-type
+    attributes:
+      label: Problem type
+      options:
+        - Factual error or outdated fact
+        - Ambiguous question
+        - Weak or giveaway distractors
+        - Incorrect or unclear explanation
+        - English wording
+        - French translation
+        - Formatting or rendering
+        - Other
+    validations:
+      required: true
+
+  - type: dropdown
+    id: language
+    attributes:
+      label: Language affected
+      options:
+        - English
+        - French
+        - Both
+        - Not language-specific
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is wrong?
+      description: Explain the problem and why it matters to a learner.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Suggested correction
+      description: Optional proposed wording or answer.
+
+  - type: textarea
+    id: sources
+    attributes:
+      label: Public sources
+      description: Link primary, checkable sources for factual claims. Do not cite paid course materials.
+      placeholder: One URL per line
+
+  - type: checkboxes
+    id: copyright
+    attributes:
+      label: Copyright confirmation
+      options:
+        - label: I have not copied wording from WSET books, workbooks, SAT materials or exam papers.
+          required: true
