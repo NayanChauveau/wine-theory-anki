@@ -13,16 +13,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which climate pattern does Portugal show from the Atlantic coast to the inland valleys?
+      question: "Which broad climatic pattern best describes mainland Portugal’s wine regions?"
       choices:
-        - { text: "A maritime belt along much of the country, and hot, dry continental weather inland", correct: true }
-        - { text: "Only cool alpine weather, like Savoie", correct: false }
-        - { text: "A single hot desert climate in every DOC", correct: false }
-        - { text: "Only a polar growing season", correct: false }
+        - { text: "Atlantic influence is strongest near the coast, while inland regions are hotter and more continental", correct: true }
+        - { text: "Mediterranean influence produces uniformly hot and dry conditions from north to south", correct: false }
+        - { text: "Mountain barriers make the coast continental and the eastern valleys maritime", correct: false }
+        - { text: "Atlantic influence remains dominant in the eastern valleys because Portugal is relatively narrow", correct: false }
       explanation: |
-        **A maritime belt along much of the country, and hot, dry
-        continental weather inland.** The west feels the Atlantic;
-        the Douro Superior and inland plains bake.
+        The Atlantic moderates temperatures and brings more rain to western and northern vineyards.
+        Farther inland, mountain shelter and distance from the ocean produce hotter, drier summers
+        and greater temperature extremes.
+    fr:
+      question: "Quel grand schéma climatique décrit le mieux les régions viticoles du Portugal continental ?"
+      choices:
+        - { text: "L’influence atlantique domine près du littoral, tandis que l’intérieur est plus chaud et continental", correct: true }
+        - { text: "L’influence méditerranéenne crée partout des conditions uniformément chaudes et sèches", correct: false }
+        - { text: "Les montagnes rendent le littoral continental et les vallées orientales maritimes", correct: false }
+        - { text: "L’influence atlantique reste dominante dans les vallées orientales, car le Portugal est relativement étroit", correct: false }
+      explanation: |
+        L’Atlantique modère les températures et apporte davantage de pluie aux vignobles de l’ouest
+        et du nord. Plus loin dans les terres, l’abri des montagnes et l’éloignement de l’océan
+        entraînent des étés plus chauds et plus secs ainsi que de plus forts écarts de température.
 
   - id: portugal-heat-moderate-001
     type: mcq
@@ -34,15 +45,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What two factors take the edge off high summer temperatures in Portuguese vineyards?
+      question: "Which two influences most often preserve freshness in otherwise warm Portuguese vineyards?"
       choices:
-        - { text: "Indoor air-con only", correct: false }
-        - { text: "The Atlantic, and altitude", correct: true }
-        - { text: "A legal ban on sunshine", correct: false }
-        - { text: "The Humboldt Current", correct: false }
+        - { text: "Fertile soils and high yields", correct: false }
+        - { text: "Atlantic air and vineyard altitude", correct: true }
+        - { text: "South-facing slopes and low rainfall", correct: false }
+        - { text: "Mountain shelter and late pruning", correct: false }
       explanation: |
-        **The Atlantic, and altitude.** Sea air cools the west;
-        height cools inland slopes.
+        Cool Atlantic air moderates many coastal regions, while elevation lowers temperatures and
+        widens the day–night range inland. Both can slow ripening and help grapes retain acidity.
+    fr:
+      question: "Quelles sont les deux influences qui préservent le plus souvent la fraîcheur dans les vignobles portugais par ailleurs chauds ?"
+      choices:
+        - { text: "Des sols fertiles et des rendements élevés", correct: false }
+        - { text: "L’air atlantique et l’altitude", correct: true }
+        - { text: "Des pentes exposées au sud et de faibles précipitations", correct: false }
+        - { text: "L’abri des montagnes et une taille tardive", correct: false }
+      explanation: |
+        L’air frais de l’Atlantique modère de nombreuses régions côtières, tandis que l’altitude
+        abaisse les températures et accroît l’amplitude thermique diurne à l’intérieur. Ces deux
+        influences peuvent ralentir la maturation et aider les raisins à conserver leur acidité.
 
   - id: portugal-style-diversity-001
     type: mcq
@@ -54,16 +76,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What climatic contrast helps explain Portugal's wide range of still-wine styles?
+      question: "How does Portugal’s climatic range contribute to its diversity of still wines?"
       choices:
-        - { text: "Identical temperatures in every DOC", correct: false }
-        - { text: "A legal cap of one style per country", correct: false }
-        - { text: "Large temperature differences from the wet coast to the hot interior", correct: true }
-        - { text: "No summer heat anywhere", correct: false }
+        - { text: "Cooler, wetter regions favour fresher styles, while hot inland regions can produce fuller-bodied wines", correct: true }
+        - { text: "Cooler regions favour fortified reds, while inland regions are limited to sparkling whites", correct: false }
+        - { text: "Coastal humidity requires sweet wines, while inland drought requires rosé", correct: false }
+        - { text: "Cool coastal regions favour fuller reds, while inland heat favours lighter high-acid whites", correct: false }
       explanation: |
-        **Large temperature differences from the wet coast to the
-        hot interior.** Vinho Verde and inland Alentejo do not share
-        a growing season.
+        The cool, rainy north-west can give light, high-acid wines, whereas warm inland areas such
+        as the Douro and Alentejo can ripen grapes for concentrated reds. Altitude and local
+        exposure create further variation.
+    fr:
+      question: "Comment la diversité climatique du Portugal contribue-t-elle à celle de ses vins tranquilles ?"
+      choices:
+        - { text: "Les régions plus fraîches et humides favorisent des styles frais, tandis que l’intérieur chaud peut donner des vins plus puissants", correct: true }
+        - { text: "Les régions fraîches favorisent les rouges fortifiés, tandis que l’intérieur se limite aux blancs effervescents", correct: false }
+        - { text: "L’humidité côtière impose des vins doux, tandis que la sécheresse intérieure impose des rosés", correct: false }
+        - { text: "Les régions côtières fraîches favorisent les rouges puissants, tandis que la chaleur intérieure favorise les blancs légers et acides", correct: false }
+      explanation: |
+        Le nord-ouest frais et pluvieux peut donner des vins légers et acides, tandis que des zones
+        intérieures chaudes comme le Douro et l’Alentejo peuvent mûrir des raisins destinés à des
+        rouges concentrés. L’altitude et l’exposition locale ajoutent encore de la diversité.
 
   - id: portugal-vinho-verde-where-001
     type: mcq
@@ -75,15 +108,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: In which part of Portugal does the Vinho Verde region sit?
+      question: "Where is the Vinho Verde DOP located?"
       choices:
-        - { text: "Only on the Alentejo plains", correct: false }
-        - { text: "In the north-west, in the Minho", correct: true }
-        - { text: "On Madeira alone", correct: false }
-        - { text: "Only in the Douro gorge", correct: false }
+        - { text: "In north-west Portugal, between the Spanish border and the Atlantic coast", correct: true }
+        - { text: "In the upper Douro Valley beside the Spanish border", correct: false }
+        - { text: "On the southern plains surrounding Évora", correct: false }
+        - { text: "Along the Atlantic coast immediately south of Lisbon", correct: false }
       explanation: |
-        **In the north-west, in the Minho.** Vinho Verde is a place
-        name, not a synonym for unripe “green” wine.
+        Vinho Verde occupies the Minho and neighbouring river valleys of north-west Portugal. It is
+        a geographical denomination, not a general term for young or underripe wine.
+    fr:
+      question: "Où se situe la DOP Vinho Verde ?"
+      choices:
+        - { text: "Dans le nord-ouest du Portugal, entre la frontière espagnole et le littoral atlantique", correct: true }
+        - { text: "Dans le haut Douro, près de la frontière espagnole", correct: false }
+        - { text: "Sur les plaines méridionales qui entourent Évora", correct: false }
+        - { text: "Le long du littoral atlantique immédiatement au sud de Lisbonne", correct: false }
+      explanation: |
+        Vinho Verde occupe le Minho et les vallées fluviales voisines du nord-ouest du Portugal. Il
+        s’agit d’une appellation géographique, et non d’un terme général désignant un vin jeune ou
+        issu de raisins peu mûrs.
 
   - id: portugal-vv-maritime-001
     type: mcq
@@ -95,15 +139,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Sitting on the rainy Minho coast, Vinho Verde sits in which climate class?
+      question: "Which climate best describes most of the Vinho Verde region?"
       choices:
-        - { text: "Hot continental, like the Douro Superior", correct: false }
-        - { text: "Moderate maritime", correct: true }
-        - { text: "High alpine ice", correct: false }
-        - { text: "A rainless desert", correct: false }
+        - { text: "Warm Mediterranean with mild, dry winters", correct: false }
+        - { text: "Moderate maritime with high rainfall", correct: true }
+        - { text: "Hot continental with a large annual temperature range", correct: false }
+        - { text: "Cool continental with dry summers and severe winters", correct: false }
       explanation: |
-        **Moderate maritime.** Cool-to-moderate Atlantic weather,
-        not inland Douro heat and not Port-lodge ageing.
+        The nearby Atlantic moderates temperatures and supplies abundant rainfall. Conditions vary
+        within the large region, and Monção e Melgaço is warmer and drier because mountains reduce
+        the ocean’s influence.
+    fr:
+      question: "Quel climat décrit le mieux la majeure partie de la région de Vinho Verde ?"
+      choices:
+        - { text: "Méditerranéen chaud avec des hivers doux et secs", correct: false }
+        - { text: "Maritime modéré avec de fortes précipitations", correct: true }
+        - { text: "Continental chaud avec une forte amplitude thermique annuelle", correct: false }
+        - { text: "Continental frais avec des étés secs et des hivers rigoureux", correct: false }
+      explanation: |
+        La proximité de l’Atlantique modère les températures et apporte des pluies abondantes. Les
+        conditions varient dans cette vaste région : Monção e Melgaço est plus chaud et plus sec,
+        car les montagnes réduisent l’influence océanique.
 
   - id: portugal-vv-atlantic-001
     type: mcq
@@ -115,15 +171,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Why is the Vinho Verde region's climate moderate and maritime?
+      question: "Why does the Atlantic strongly influence most Vinho Verde vineyards?"
       choices:
-        - { text: "Because the Serra da Estrela blocks every cloud", correct: false }
-        - { text: "Because the vineyards sit in southern Alentejo", correct: false }
-        - { text: "Because the vineyards sit close to the Atlantic", correct: true }
-        - { text: "Because a law bans wind", correct: false }
+        - { text: "The region lies on exposed valleys and lowlands in Portugal’s north-west", correct: true }
+        - { text: "The Serra do Marão funnels hot continental air toward the coast", correct: false }
+        - { text: "The vineyards occupy a high plateau exposed to prevailing westerly winds", correct: false }
+        - { text: "The region occupies a narrow basin east of Portugal’s main ranges", correct: false }
       explanation: |
-        **Because the vineyards sit close to the Atlantic.** The
-        Minho coast is open to ocean weather.
+        Much of Vinho Verde is open to moist air arriving from the nearby Atlantic. That exposure
+        keeps temperatures moderate but also creates high rainfall and humidity.
+    fr:
+      question: "Pourquoi l’Atlantique influence-t-il fortement la plupart des vignobles de Vinho Verde ?"
+      choices:
+        - { text: "La région occupe des vallées et des terres basses exposées du nord-ouest du Portugal", correct: true }
+        - { text: "La Serra do Marão canalise l’air continental chaud vers le littoral", correct: false }
+        - { text: "Les vignobles occupent un haut plateau exposé aux vents dominants d’ouest", correct: false }
+        - { text: "La région se trouve dans un bassin étroit à l’est des principales chaînes portugaises", correct: false }
+      explanation: |
+        Une grande partie de Vinho Verde est ouverte à l’air humide venu de l’Atlantique voisin.
+        Cette exposition maintient des températures modérées, mais entraîne également de fortes
+        précipitations et une humidité élevée.
 
   - id: portugal-vv-rainfall-001
     type: mcq
@@ -135,15 +202,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Compared with inland Portugal, what water fact defines the Minho vineyard year?
+      question: "How does rainfall in Vinho Verde generally compare with Portugal’s inland wine regions?"
       choices:
-        - { text: "Extreme drought, like southern Alentejo", correct: false }
-        - { text: "High annual rainfall", correct: true }
-        - { text: "Permanent frost", correct: false }
-        - { text: "No humidity at all", correct: false }
+        - { text: "It is lower and concentrated entirely in summer", correct: false }
+        - { text: "It is higher, with substantial rain during the growing season", correct: true }
+        - { text: "It is similar in total but falls mainly as winter snow", correct: false }
+        - { text: "It is lower, but coastal fog supplies most vine water", correct: false }
       explanation: |
-        **High annual rainfall.** That wet Minho year is the
-        vineyard problem, not Port pipe ageing.
+        Vinho Verde is one of Portugal’s wettest wine regions. Rain and humidity support vigorous
+        growth but increase fungal-disease pressure, especially if the canopy is dense.
+    fr:
+      question: "Comment les précipitations de Vinho Verde se comparent-elles généralement à celles des régions viticoles de l’intérieur du Portugal ?"
+      choices:
+        - { text: "Elles sont plus faibles et entièrement concentrées en été", correct: false }
+        - { text: "Elles sont plus abondantes, y compris pendant la saison de croissance", correct: true }
+        - { text: "Le total est similaire, mais elles tombent surtout sous forme de neige hivernale", correct: false }
+        - { text: "Elles sont plus faibles, mais le brouillard côtier fournit l’essentiel de l’eau aux vignes", correct: false }
+      explanation: |
+        Vinho Verde est l’une des régions viticoles les plus humides du Portugal. La pluie et
+        l’humidité favorisent une forte vigueur, mais augmentent la pression des maladies fongiques,
+        surtout lorsque la canopée est dense.
 
   - id: portugal-vv-rain-risks-001
     type: mcq
@@ -155,15 +233,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Wet Minho summers push Vinho Verde growers to fight which two problems?
+      question: "Which two vineyard problems are most directly encouraged by Vinho Verde’s high rainfall?"
       choices:
-        - { text: "Excessive canopy growth, and disease pressure", correct: true }
-        - { text: "Only sunburn, and no disease", correct: false }
-        - { text: "A legal ban on leaves", correct: false }
-        - { text: "Permanent drought", correct: false }
+        - { text: "Low vigour and slow canopy growth", correct: false }
+        - { text: "Sunburn and rapid acid loss", correct: false }
+        - { text: "Excessive vegetative growth and fungal disease", correct: true }
+        - { text: "Winter drought and poor budburst", correct: false }
       explanation: |
-        **Excessive canopy growth, and disease pressure.** Water
-        pushes shoots; humidity pushes rot and mildew.
+        Water availability drives vigorous shoot and leaf growth, while humidity favours downy
+        mildew, powdery mildew and bunch rot. Growers therefore need good canopy aeration and timely
+        disease control.
+    fr:
+      question: "Quels sont les deux problèmes viticoles les plus directement favorisés par les fortes précipitations de Vinho Verde ?"
+      choices:
+        - { text: "Une faible vigueur et une croissance lente de la canopée", correct: false }
+        - { text: "Les brûlures du soleil et la perte rapide d’acidité", correct: false }
+        - { text: "Une croissance végétative excessive et les maladies fongiques", correct: true }
+        - { text: "La sécheresse hivernale et un mauvais débourrement", correct: false }
+      explanation: |
+        L’eau disponible stimule la croissance des rameaux et des feuilles, tandis que l’humidité
+        favorise le mildiou, l’oïdium et la pourriture des grappes. Une bonne aération de la canopée
+        et une protection phytosanitaire au bon moment sont donc nécessaires.
 
   - id: portugal-vv-canopy-001
     type: mcq
@@ -175,15 +265,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: In the wet Minho, what vineyard tool keeps canopies open and fruit healthier?
+      question: "Which vineyard practice is most useful for limiting fungal pressure in humid Vinho Verde?"
       choices:
-        - { text: "A ban on all pruning", correct: false }
-        - { text: "Moving the DOC to Alentejo", correct: false }
-        - { text: "Effective canopy management", correct: true }
-        - { text: "Fortifying every wine as Port", correct: false }
+        - { text: "Retaining a large, dense canopy to slow sugar accumulation", correct: false }
+        - { text: "Opening the canopy to improve airflow and spray penetration", correct: true }
+        - { text: "Increasing irrigation immediately before harvest", correct: false }
+        - { text: "Reducing row spacing to trap warm, moist air", correct: false }
       explanation: |
-        **Effective canopy management.** Open the leaf wall so air
-        can dry the fruit.
+        Shoot positioning, trimming and selective leaf removal help air move through the canopy and
+        allow treatments to reach the fruit zone. Faster drying after rain reduces the conditions in
+        which fungi thrive.
+    fr:
+      question: "Quelle pratique viticole est la plus utile pour limiter la pression des maladies fongiques dans la région humide de Vinho Verde ?"
+      choices:
+        - { text: "Conserver une canopée vaste et dense pour ralentir l’accumulation de sucre", correct: false }
+        - { text: "Ouvrir la canopée afin d’améliorer l’aération et la pénétration des traitements", correct: true }
+        - { text: "Augmenter l’irrigation juste avant les vendanges", correct: false }
+        - { text: "Réduire l’écartement des rangs pour retenir un air chaud et humide", correct: false }
+      explanation: |
+        Le positionnement des rameaux, le rognage et un effeuillage sélectif favorisent la
+        circulation de l’air et permettent aux traitements d’atteindre la zone fructifère. Un
+        séchage plus rapide après la pluie réduit les conditions favorables aux champignons.
 
   - id: portugal-vv-pergola-001
     type: mcq
@@ -195,15 +297,28 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which traditional training have modern Vinho Verde vineyards largely left behind?
+      question: "What was a key advantage and disadvantage of Vinho Verde’s traditional high ramada or pergola systems?"
       choices:
-        - { text: "Only low bush vines, like Priorat", correct: false }
-        - { text: "Pergola (high ramada) training", correct: true }
-        - { text: "Only icewine wires", correct: false }
-        - { text: "Hydroponics only", correct: false }
+        - { text: "They improved aeration but made vineyard work and mechanisation difficult", correct: true }
+        - { text: "They increased bunch shading but made machine harvesting straightforward", correct: false }
+        - { text: "They reduced vine vigour but exposed fruit to wet soils", correct: false }
+        - { text: "They accelerated ripening but prevented air movement around bunches", correct: false }
       explanation: |
-        **Pergola (high ramada) training.** Old Minho vines hung
-        high; newer blocks dropped that roof.
+        High training lifted bunches away from damp ground and allowed air beneath the canopy.
+        However, the height and irregular layout made pruning, spraying and harvesting labour-
+        intensive, encouraging a shift toward modern trellises.
+    fr:
+      question: "Quels étaient le principal avantage et le principal inconvénient des conduites hautes traditionnelles en ramada ou en pergola à Vinho Verde ?"
+      choices:
+        - { text: "Elles amélioraient l’aération, mais compliquaient le travail et la mécanisation", correct: true }
+        - { text: "Elles augmentaient l’ombrage des grappes, mais facilitaient les vendanges mécaniques", correct: false }
+        - { text: "Elles réduisaient la vigueur, mais exposaient les fruits aux sols humides", correct: false }
+        - { text: "Elles accéléraient la maturation, mais empêchaient l’air de circuler autour des grappes", correct: false }
+      explanation: |
+        La conduite haute éloignait les grappes du sol humide et permettait à l’air de circuler sous
+        la canopée. Mais la hauteur et la disposition irrégulière rendaient la taille, les
+        traitements et les vendanges très exigeants en main-d’œuvre, ce qui a favorisé l’adoption de
+        palissages modernes.
 
   - id: portugal-vv-vsp-001
     type: mcq
@@ -215,15 +330,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which training and pruning system is now typical in Vinho Verde?
+      question: "Which training system is common in modern, mechanisable Vinho Verde vineyards?"
       choices:
-        - { text: "Only unrepaired pergola", correct: false }
-        - { text: "Goblet with no wires", correct: false }
-        - { text: "No training at all", correct: false }
-        - { text: "Spur-pruned vertical shoot positioning (VSP)", correct: true }
+        - { text: "Low-density bush vines without wires", correct: false }
+        - { text: "Spur-pruned vertical shoot positioning", correct: true }
+        - { text: "Single stakes with shoots trailing on the ground", correct: false }
+        - { text: "High ramadas supported by trees", correct: false }
       explanation: |
-        **Spur-pruned vertical shoot positioning (VSP).** A wired
-        hedge, not a ramada roof.
+        Vertical shoot positioning creates regular rows and an open, manageable canopy. It is easier
+        to prune, spray and harvest mechanically than traditional high or irregular training
+        systems.
+    fr:
+      question: "Quel mode de conduite est courant dans les vignobles modernes et mécanisables de Vinho Verde ?"
+      choices:
+        - { text: "Des vignes en gobelet peu denses et sans fils", correct: false }
+        - { text: "Une taille en cordon avec palissage vertical des rameaux", correct: true }
+        - { text: "Des échalas individuels avec des rameaux traînant au sol", correct: false }
+        - { text: "De hautes ramadas soutenues par des arbres", correct: false }
+      explanation: |
+        Le palissage vertical des rameaux crée des rangs réguliers et une canopée ouverte, facile à
+        gérer. Il se prête mieux à la taille, aux traitements et aux vendanges mécaniques que les
+        conduites hautes ou irrégulières traditionnelles.
 
   - id: portugal-vv-vsp-why-001
     type: mcq
@@ -235,15 +362,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Why did Vinho Verde growers adopt spur-pruned VSP?
+      question: "Why is vertical shoot positioning particularly useful in Vinho Verde?"
       choices:
-        - { text: "To force every wine into a Port pipe", correct: false }
-        - { text: "To open the canopy for airflow, healthier fruit, and mechanisation", correct: true }
-        - { text: "To raise humidity around the fruit", correct: false }
-        - { text: "To ban machines from the vineyard", correct: false }
+        - { text: "It shades the fruit zone to delay ripening and retain acidity", correct: false }
+        - { text: "It keeps shoots organised for aeration and mechanised work", correct: true }
+        - { text: "It forces vines to retain more water after rain", correct: false }
+        - { text: "It delays drying so botrytis can develop uniformly", correct: false }
       explanation: |
-        **To open the canopy for airflow, healthier fruit, and
-        mechanisation.** Dry fruit, cleaner grapes, tractor rows.
+        Keeping shoots upright produces a narrow leaf wall that can be trimmed and opened around the
+        fruit. The system improves access, airflow and spray coverage while allowing machinery
+        between rows.
+    fr:
+      question: "Pourquoi le palissage vertical des rameaux est-il particulièrement utile à Vinho Verde ?"
+      choices:
+        - { text: "Il ombrage la zone fructifère pour retarder la maturation et préserver l’acidité", correct: false }
+        - { text: "Il organise les rameaux pour améliorer l’aération et faciliter la mécanisation", correct: true }
+        - { text: "Il force les vignes à retenir davantage d’eau après la pluie", correct: false }
+        - { text: "Il ralentit le séchage afin que le botrytis se développe uniformément", correct: false }
+      explanation: |
+        Le maintien des rameaux à la verticale forme une paroi foliaire étroite que l’on peut rogner
+        et ouvrir autour des fruits. Le système améliore l’accès, l’aération et la couverture des
+        traitements tout en permettant le passage des machines.
 
   - id: portugal-vv-classic-001
     type: mcq
@@ -255,16 +394,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What is classic generic Vinho Verde white like in the glass?
+      question: "Which profile best fits a classic inexpensive white Vinho Verde?"
       choices:
-        - { text: "Deep gold, low acid, and 15% alcohol", correct: false }
-        - { text: "Pale lemon, high acidity, and low alcohol, about 8% to 11.5%", correct: true }
-        - { text: "A 20-year tawny, aged in pipe", correct: false }
-        - { text: "Inky, tannic, and built like Baga", correct: false }
+        - { text: "Pale colour, high acidity, low alcohol and often a slight spritz", correct: true }
+        - { text: "Deep gold, low acidity, high alcohol and pronounced new oak", correct: false }
+        - { text: "Medium colour, moderate acidity, full body and oxidative nuttiness", correct: false }
+        - { text: "Amber colour, firm tannin, dried fruit and extended skin contact", correct: false }
       explanation: |
-        **Pale lemon, high acidity, and low alcohol, about 8% to
-        11.5%.** That is the light generic bottle, not Alvarinho
-        from Monção e Melgaço.
+        Early-drinking examples emphasise citrus or green fruit, refreshing acidity and modest
+        alcohol. A small amount of carbon dioxide can heighten the impression of freshness.
+    fr:
+      question: "Quel profil correspond le mieux à un Vinho Verde blanc classique et peu coûteux ?"
+      choices:
+        - { text: "Robe pâle, acidité élevée, faible alcool et souvent un léger perlant", correct: true }
+        - { text: "Robe dorée soutenue, faible acidité, alcool élevé et bois neuf marqué", correct: false }
+        - { text: "Robe moyenne, acidité modérée, corps puissant et notes oxydatives de fruits à coque", correct: false }
+        - { text: "Robe ambrée, tanins fermes, fruits séchés et longue macération pelliculaire", correct: false }
+      explanation: |
+        Les cuvées à boire jeunes privilégient les agrumes ou les fruits verts, une acidité
+        rafraîchissante et un degré d’alcool modeste. Une petite quantité de dioxyde de carbone peut
+        accentuer la sensation de fraîcheur.
 
   - id: portugal-vv-offdry-001
     type: mcq
@@ -276,16 +425,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: When a classic Vinho Verde white sits at the low-alcohol end, how dry is it usually?
+      question: "Why may a light, high-acid Vinho Verde retain a small amount of residual sugar?"
       choices:
-        - { text: "Always bone-dry, like a Grand Cru Riesling", correct: false }
-        - { text: "Always a 20% Port", correct: false }
-        - { text: "Off-dry", correct: true }
-        - { text: "Always a late-harvest sticky", correct: false }
+        - { text: "To balance sharp acidity while keeping the wine refreshing", correct: true }
+        - { text: "To provide enough sugar for fortification in bottle", correct: false }
+        - { text: "To replace acidity lost during prolonged barrel ageing", correct: false }
+        - { text: "To encourage biological ageing under flor", correct: false }
       explanation: |
-        **Off-dry.** A little sugar softens the high acid at 8–9%
-        alcohol. Drier, stronger bottles wear a variety or
-        sub-region name.
+        A little residual sugar can soften the perception of high acidity without making the wine
+        taste overtly sweet. The combination is common in accessible, low-alcohol styles intended
+        for early drinking.
+    fr:
+      question: "Pourquoi un Vinho Verde léger et acide peut-il conserver un peu de sucre résiduel ?"
+      choices:
+        - { text: "Pour équilibrer une acidité vive tout en gardant un caractère rafraîchissant", correct: true }
+        - { text: "Pour fournir assez de sucre en vue d’un mutage en bouteille", correct: false }
+        - { text: "Pour remplacer l’acidité perdue pendant un long élevage en fût", correct: false }
+        - { text: "Pour favoriser un élevage biologique sous voile", correct: false }
+      explanation: |
+        Un peu de sucre résiduel peut adoucir la perception d’une forte acidité sans rendre le vin
+        franchement doux. Cette combinaison est fréquente dans les styles accessibles, peu
+        alcoolisés et destinés à être bus jeunes.
 
   - id: portugal-vv-label-cue-001
     type: mcq
@@ -297,15 +457,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: How can a label signal a fuller Vinho Verde than the classic light style?
+      question: "What does the name Vinho Verde identify on a wine label?"
       choices:
-        - { text: "By writing Vintage Port", correct: false }
-        - { text: "By omitting any place name", correct: false }
-        - { text: "By naming a grape variety, a sub-region, or an authorised quality term", correct: true }
-        - { text: "By claiming Madeira", correct: false }
+        - { text: "A protected geographical origin in north-west Portugal", correct: true }
+        - { text: "Any Portuguese wine bottled in the year after harvest", correct: false }
+        - { text: "A national sweetness category for low-alcohol whites", correct: false }
+        - { text: "A production method that requires retained carbon dioxide", correct: false }
       explanation: |
-        **By naming a grape variety, a sub-region, or an authorised
-        quality term.** Those words mark a different, riper bottling.
+        Vinho Verde is a DOP with defined boundaries, authorised grapes and production rules. Its
+        name does not mean that every wine must be green, youthful, lightly sparkling or white.
+    fr:
+      question: "Que désigne le nom Vinho Verde sur une étiquette ?"
+      choices:
+        - { text: "Une origine géographique protégée du nord-ouest du Portugal", correct: true }
+        - { text: "Tout vin portugais mis en bouteille l’année suivant la récolte", correct: false }
+        - { text: "Une catégorie nationale de douceur pour les blancs peu alcoolisés", correct: false }
+        - { text: "Une méthode de production imposant de conserver du dioxyde de carbone", correct: false }
+      explanation: |
+        Vinho Verde est une DOP aux limites, aux cépages autorisés et aux règles de production
+        définis. Son nom ne signifie pas que tous les vins doivent être verts, jeunes, légèrement
+        effervescents ou blancs.
 
   - id: portugal-vv-label-abv-001
     type: mcq
@@ -317,15 +488,28 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: If a Vinho Verde label names a variety, a sub-region, or a quality term, how high may the alcohol go?
+      question: "Why can Alvarinho from Monção e Melgaço be fuller and higher in alcohol than a light generic Vinho Verde?"
       choices:
-        - { text: "Stuck at 8% by law", correct: false }
-        - { text: "Up to about 14%", correct: true }
-        - { text: "20%, like Port", correct: false }
-        - { text: "Alcohol is banned on those labels", correct: false }
+        - { text: "The subregion is warmer and drier, allowing more complete ripening", correct: true }
+        - { text: "The subregion lies closest to the Atlantic and receives the most rain", correct: false }
+        - { text: "Alvarinho is harvested before veraison to preserve neutral flavours", correct: false }
+        - { text: "The wines must be fortified before fermentation is complete", correct: false }
       explanation: |
-        **Up to about 14%.** Generic light Vinho Verde stays lower;
-        a named variety or sub-region can climb.
+        Mountains partly shelter Monção e Melgaço from Atlantic weather, giving hotter, drier
+        summers and a wide day–night range. Alvarinho can therefore achieve ripe flavour and sugar
+        while retaining balancing acidity.
+    fr:
+      question: "Pourquoi un Alvarinho de Monção e Melgaço peut-il être plus puissant et plus alcoolisé qu’un Vinho Verde générique léger ?"
+      choices:
+        - { text: "La sous-région est plus chaude et plus sèche, ce qui permet une maturation plus complète", correct: true }
+        - { text: "La sous-région est la plus proche de l’Atlantique et reçoit le plus de pluie", correct: false }
+        - { text: "L’Alvarinho est récolté avant la véraison pour préserver des arômes neutres", correct: false }
+        - { text: "Les vins doivent être mutés avant la fin de la fermentation", correct: false }
+      explanation: |
+        Les montagnes abritent en partie Monção e Melgaço des influences atlantiques, donnant des
+        étés plus chauds et plus secs et une forte amplitude thermique diurne. L’Alvarinho peut
+        ainsi atteindre une bonne maturité aromatique et en sucre tout en conservant une acidité
+        équilibrante.
 
   - id: portugal-vv-grapes-001
     type: mcq
@@ -337,15 +521,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which local white grapes usually make generic Vinho Verde, rather than the Alvarinho specialty?
+      question: "Which trio contains important white grapes of Vinho Verde?"
       choices:
-        - { text: "Only Alvarinho from every parish", correct: false }
-        - { text: "Loureiro and Arinto", correct: true }
-        - { text: "Only Encruzado", correct: false }
-        - { text: "Only Palomino", correct: false }
+        - { text: "Loureiro, Arinto and Trajadura", correct: true }
+        - { text: "Encruzado, Bical and Fernão Pires", correct: false }
+        - { text: "Antão Vaz, Roupeiro and Aragonês", correct: false }
+        - { text: "Viosinho, Rabigato and Gouveio", correct: false }
       explanation: |
-        **Loureiro and Arinto.** Alvarinho is a Monção e Melgaço
-        specialty, not the default blend for the whole Minho.
+        Loureiro can bring floral citrus aromas, Arinto contributes acidity and Trajadura adds
+        softer ripe fruit. Alvarinho is another major variety, especially in Monção e Melgaço.
+    fr:
+      question: "Quel trio réunit d’importants cépages blancs de Vinho Verde ?"
+      choices:
+        - { text: "Loureiro, Arinto et Trajadura", correct: true }
+        - { text: "Encruzado, Bical et Fernão Pires", correct: false }
+        - { text: "Antão Vaz, Roupeiro et Aragonês", correct: false }
+        - { text: "Viosinho, Rabigato et Gouveio", correct: false }
+      explanation: |
+        Le Loureiro peut apporter des notes florales et citronnées, l’Arinto de l’acidité et le
+        Trajadura un fruit mûr plus souple. L’Alvarinho est un autre cépage majeur, particulièrement
+        à Monção e Melgaço.
 
   - id: portugal-vv-spritz-001
     type: mcq
@@ -357,15 +552,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What traditional texture marks many white Vinho Verde wines?
+      question: "What effect does a slight spritz have on a youthful white Vinho Verde?"
       choices:
-        - { text: "Flor, like Fino", correct: false }
-        - { text: "A slight spritz that lifts the freshness", correct: true }
-        - { text: "Ten years in pipe, like tawny Port", correct: false }
-        - { text: "Heavy new-oak cream only", correct: false }
+        - { text: "It increases the perception of freshness", correct: true }
+        - { text: "It softens tannin extracted during skin fermentation", correct: false }
+        - { text: "It creates the nutty aromas of oxidative ageing", correct: false }
+        - { text: "It raises alcohol through a full second fermentation", correct: false }
       explanation: |
-        **A slight spritz that lifts the freshness.** A prickle,
-        not Champagne-method foam and not Port oxidation.
+        A small amount of dissolved carbon dioxide gives a gentle prickle and reinforces the wine’s
+        refreshing character. It is not the same as the sustained pressure of a fully sparkling
+        wine.
+    fr:
+      question: "Quel effet un léger perlant produit-il dans un Vinho Verde blanc jeune ?"
+      choices:
+        - { text: "Il renforce la sensation de fraîcheur", correct: true }
+        - { text: "Il assouplit les tanins extraits pendant une fermentation avec les pellicules", correct: false }
+        - { text: "Il crée les arômes de fruits à coque d’un élevage oxydatif", correct: false }
+        - { text: "Il élève l’alcool grâce à une seconde fermentation complète", correct: false }
+      explanation: |
+        Une petite quantité de dioxyde de carbone dissous apporte un léger picotement et renforce le
+        caractère rafraîchissant du vin. Elle ne correspond pas à la pression durable d’un véritable
+        vin effervescent.
 
   - id: portugal-alvarinho-subregion-001
     type: mcq
@@ -377,17 +584,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: The historic specialty home of varietal Alvarinho in Vinho Verde is which sub-region?
+      question: "Which Vinho Verde subregion is most closely associated with Alvarinho?"
       choices:
-        - { text: "Anywhere in Alentejo", correct: false }
-        - { text: "Only in Bairrada", correct: false }
         - { text: "Monção e Melgaço", correct: true }
-        - { text: "In the Douro Superior only", correct: false }
+        - { text: "Basto", correct: false }
+        - { text: "Paiva", correct: false }
+        - { text: "Amarante", correct: false }
       explanation: |
-        **Monção e Melgaço.** That is still the prestige address
-        and the name you see with Alvarinho on the label; since the
-        mid-2010s the grape may also be bottled as varietal Vinho
-        Verde from other sub-regions.
+        Monção e Melgaço lies in the Minho Valley on the Spanish border. Its mountain shelter and
+        warmer, drier summers make it especially favourable for ripe, structured Alvarinho.
+    fr:
+      question: "Quelle sous-région de Vinho Verde est la plus étroitement associée à l’Alvarinho ?"
+      choices:
+        - { text: "Monção e Melgaço", correct: true }
+        - { text: "Basto", correct: false }
+        - { text: "Paiva", correct: false }
+        - { text: "Amarante", correct: false }
+      explanation: |
+        Monção e Melgaço se situe dans la vallée du Minho, à la frontière espagnole. L’abri des
+        montagnes et les étés plus chauds et secs y sont particulièrement favorables à un Alvarinho
+        mûr et structuré.
 
   - id: portugal-alvarinho-style-001
     type: mcq
@@ -399,16 +615,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: How does Vinho Verde Alvarinho usually sit next to a generic Loureiro–Arinto Vinho Verde?
+      question: "Which profile best describes a serious Alvarinho from Monção e Melgaço?"
       choices:
-        - { text: "Lower alcohol and greener fruit", correct: false }
-        - { text: "Slightly higher alcohol, with riper, more tropical aromas", correct: true }
-        - { text: "Always fortified as white Port", correct: false }
-        - { text: "Always red and tannic", correct: false }
+        - { text: "Structured and ripe, with citrus to tropical fruit and firm acidity", correct: true }
+        - { text: "Very light and neutral, with low acidity and compulsory spritz", correct: false }
+        - { text: "Deeply coloured and tannic, with black fruit and high alcohol", correct: false }
+        - { text: "Oxidative and nutty, with low acidity and extended cask ageing", correct: false }
       explanation: |
-        **Slightly higher alcohol, with riper, more tropical
-        aromas.** Warmer, drier Monção e Melgaço, not the light
-        spritzy generic.
+        Alvarinho can combine concentration and ripe fruit with freshness, and the best examples can
+        develop in bottle. This is distinct from the simplest low-alcohol generic Vinho Verde style.
+    fr:
+      question: "Quel profil décrit le mieux un Alvarinho ambitieux de Monção e Melgaço ?"
+      choices:
+        - { text: "Structuré et mûr, aux fruits allant des agrumes au tropical et à l’acidité ferme", correct: true }
+        - { text: "Très léger et neutre, avec peu d’acidité et un perlant obligatoire", correct: false }
+        - { text: "Profondément coloré et tannique, avec des fruits noirs et un alcool élevé", correct: false }
+        - { text: "Oxydatif et marqué par la noix, avec peu d’acidité et un long élevage en fût", correct: false }
+      explanation: |
+        L’Alvarinho peut associer concentration, fruit mûr et fraîcheur, et les meilleurs exemples
+        peuvent évoluer en bouteille. Ce style se distingue du Vinho Verde générique le plus simple
+        et peu alcoolisé.
 
   - id: portugal-vv-colours-001
     type: mcq
@@ -420,15 +646,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Besides white wine, which colours does the Vinho Verde region also bottle?
+      question: "Which wine colours may be produced under the Vinho Verde DOP?"
       choices:
-        - { text: "Only icewine", correct: false }
-        - { text: "Only Port", correct: false }
-        - { text: "Only Madeira", correct: false }
-        - { text: "Red and rosé", correct: true }
+        - { text: "White only", correct: false }
+        - { text: "White and rosé only", correct: false }
+        - { text: "White, rosé and red", correct: true }
+        - { text: "White and red only", correct: false }
       explanation: |
-        **Red and rosé.** The DOC is not white-only, and it is not
-        a Port lodge category.
+        White wine dominates exports, but the denomination also covers rosé and red. Local black
+        grapes such as Vinhão and Espadeiro give distinctive regional styles.
+    fr:
+      question: "Quelles couleurs de vin peuvent être produites sous la DOP Vinho Verde ?"
+      choices:
+        - { text: "Blanc uniquement", correct: false }
+        - { text: "Blanc et rosé uniquement", correct: false }
+        - { text: "Blanc, rosé et rouge", correct: true }
+        - { text: "Blanc et rouge uniquement", correct: false }
+      explanation: |
+        Le blanc domine les exportations, mais l’appellation couvre également le rosé et le rouge.
+        Des cépages noirs locaux comme le Vinhão et l’Espadeiro donnent des styles régionaux
+        distinctifs.
 
   - id: portugal-vv-red-001
     type: mcq
@@ -440,15 +677,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What are typical red Vinho Verde wines like?
+      question: "Which profile is traditionally associated with red Vinho Verde made from Vinhão?"
       choices:
-        - { text: "Pale and low-tannin, like Schiava", correct: false }
-        - { text: "Deeply coloured and tannic", correct: true }
-        - { text: "Always a 20-year tawny", correct: false }
-        - { text: "Always white", correct: false }
+        - { text: "Deep colour, high acidity and firm tannin", correct: true }
+        - { text: "Pale colour, low acidity and soft tannin", correct: false }
+        - { text: "Medium colour, low tannin and sweet oak", correct: false }
+        - { text: "Medium colour, soft tannin and low acidity", correct: false }
       explanation: |
-        **Deeply coloured and tannic.** Vinhão (Sousão) is the usual
-        black grape behind that inky Minho red.
+        Vinhão has deeply pigmented flesh and can produce intensely coloured, high-acid, tannic
+        reds. Modern producers may manage extraction carefully to make the style more approachable.
+    fr:
+      question: "Quel profil est traditionnellement associé à un Vinho Verde rouge issu de Vinhão ?"
+      choices:
+        - { text: "Couleur profonde, acidité élevée et tanins fermes", correct: true }
+        - { text: "Couleur pâle, faible acidité et tanins souples", correct: false }
+        - { text: "Couleur moyenne, tanins souples et bois doux", correct: false }
+        - { text: "Couleur moyenne, tanins souples et faible acidité", correct: false }
+      explanation: |
+        Le Vinhão possède une pulpe fortement pigmentée et peut donner des rouges intensément
+        colorés, acides et tanniques. Les producteurs modernes peuvent travailler l’extraction avec
+        mesure pour rendre ce style plus accessible.
 
   - id: portugal-vv-rose-001
     type: mcq
@@ -460,15 +708,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What are typical rosé Vinho Verde wines like?
+      question: "Which profile best fits a youthful rosé Vinho Verde?"
       choices:
-        - { text: "Oxidative and nutty, like tawny Port", correct: false }
-        - { text: "Heavily tannic, like underripe Baga", correct: false }
-        - { text: "Fresh and fruity", correct: true }
-        - { text: "Fortified only", correct: false }
+        - { text: "Fresh red fruit, high acidity and a light body", correct: true }
+        - { text: "Dried black fruit, firm tannin and long oak ageing", correct: false }
+        - { text: "Walnut, caramel and deliberate oxidation", correct: false }
+        - { text: "Ripe tropical fruit, low acidity and full body", correct: false }
       explanation: |
-        **Fresh and fruity.** A pink Minho bottle, not a Douro
-        lodge wine.
+        Rosé Vinho Verde is generally made for early drinking, with bright berry fruit and
+        refreshing acidity. Some examples retain a little residual sugar or carbon dioxide to
+        enhance accessibility.
+    fr:
+      question: "Quel profil correspond le mieux à un jeune Vinho Verde rosé ?"
+      choices:
+        - { text: "Fruits rouges frais, acidité élevée et corps léger", correct: true }
+        - { text: "Fruits noirs séchés, tanins fermes et long élevage sous bois", correct: false }
+        - { text: "Noix, caramel et oxydation volontaire", correct: false }
+        - { text: "Fruits tropicaux mûrs, faible acidité et corps puissant", correct: false }
+      explanation: |
+        Le Vinho Verde rosé est généralement destiné à être bu jeune, avec des fruits rouges
+        éclatants et une acidité rafraîchissante. Certaines cuvées conservent un peu de sucre
+        résiduel ou de dioxyde de carbone pour gagner en accessibilité.
 
   - id: portugal-douro-1756-001
     type: mcq
@@ -480,15 +740,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which Portuguese wine region was formally demarcated in 1756?
+      question: "Why is 1756 a landmark date for the Douro?"
       choices:
-        - { text: "Vinho Verde", correct: false }
-        - { text: "The Douro", correct: true }
-        - { text: "Alentejo", correct: false }
-        - { text: "Bairrada", correct: false }
+        - { text: "The Port-producing area was formally demarcated and regulated", correct: true }
+        - { text: "The first Vinho Verde subregions were legally established", correct: false }
+        - { text: "The modern Douro still-wine denomination was first recognised", correct: false }
+        - { text: "The region adopted France’s national appellation system", correct: false }
       explanation: |
-        **The Douro.** The 1756 Pombaline law (Marquis of Pombal)
-        set the valley’s bounds. That is the checkable date.
+        Royal measures introduced boundaries and controls for the Port trade in 1756. The Douro is
+        therefore one of the world’s earliest formally demarcated wine regions.
+    fr:
+      question: "Pourquoi 1756 est-elle une date majeure pour le Douro ?"
+      choices:
+        - { text: "La zone de production du Porto a été officiellement délimitée et réglementée", correct: true }
+        - { text: "Les premières sous-régions de Vinho Verde ont été légalement établies", correct: false }
+        - { text: "L’appellation moderne des vins tranquilles du Douro a été reconnue pour la première fois", correct: false }
+        - { text: "La région a adopté le système national français des appellations", correct: false }
+      explanation: |
+        Des mesures royales ont instauré en 1756 des limites et des contrôles pour le commerce du
+        Porto. Le Douro compte ainsi parmi les premières régions viticoles officiellement délimitées
+        au monde.
 
   - id: portugal-douro-porto-001
     type: mcq
@@ -500,15 +771,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: How far inland of Porto does the Douro wine region begin?
+      question: "Where does the Douro wine region begin in relation to the city of Porto?"
       choices:
-        - { text: "On the Atlantic beach at Porto", correct: false }
-        - { text: "About 80 km east of Porto", correct: true }
-        - { text: "800 km south, in the Algarve", correct: false }
-        - { text: "Inside Lisbon only", correct: false }
+        - { text: "On the Atlantic coast within the city", correct: false }
+        - { text: "Roughly 80 kilometres inland, beyond the Serra do Marão", correct: true }
+        - { text: "Immediately south of Lisbon across the Tagus", correct: false }
+        - { text: "On the Spanish plateau east of Salamanca", correct: false }
       explanation: |
-        **About 80 km east of Porto.** The Marão wall sits between
-        the city and the vineyards.
+        The vineyards begin well inland from Porto, beyond mountain barriers that reduce Atlantic
+        influence. Port took the city’s name because it was historically shipped from the coastal
+        trading centre.
+    fr:
+      question: "Où commence la région viticole du Douro par rapport à la ville de Porto ?"
+      choices:
+        - { text: "Sur le littoral atlantique, dans la ville même", correct: false }
+        - { text: "À environ 80 kilomètres dans les terres, au-delà de la Serra do Marão", correct: true }
+        - { text: "Immédiatement au sud de Lisbonne, de l’autre côté du Tage", correct: false }
+        - { text: "Sur le plateau espagnol à l’est de Salamanque", correct: false }
+      explanation: |
+        Les vignobles commencent loin à l’intérieur des terres, au-delà de barrières montagneuses
+        qui réduisent l’influence atlantique. Le Porto tient son nom de la ville côtière depuis
+        laquelle il était historiquement expédié.
 
   - id: portugal-douro-span-001
     type: mcq
@@ -520,15 +803,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Between which landmarks does the Douro wine region run?
+      question: "Between which two broad landmarks does the Douro demarcated region extend?"
       choices:
-        - { text: "From the Algarve to the Alentejo coast", correct: false }
-        - { text: "Only the Minho river mouth", correct: false }
-        - { text: "From Lisbon to Sintra", correct: false }
-        - { text: "From the Marão mountains to the Spanish frontier", correct: true }
+        - { text: "The Serra do Marão and the Spanish border", correct: true }
+        - { text: "The Atlantic coast and the city of Coimbra", correct: false }
+        - { text: "The Minho River and the Serra da Estrela", correct: false }
+        - { text: "The Tagus estuary and the Alentejo plains", correct: false }
       explanation: |
-        **From the Marão mountains to the Spanish frontier.** The
-        valley then climbs into the hot Douro Superior.
+        The region follows the Douro and its tributaries eastward from the mountain barrier toward
+        Spain. Its three subregions are Baixo Corgo, Cima Corgo and Douro Superior.
+    fr:
+      question: "Entre quels grands repères la région délimitée du Douro s’étend-elle ?"
+      choices:
+        - { text: "La Serra do Marão et la frontière espagnole", correct: true }
+        - { text: "Le littoral atlantique et la ville de Coimbra", correct: false }
+        - { text: "Le Minho et la Serra da Estrela", correct: false }
+        - { text: "L’estuaire du Tage et les plaines de l’Alentejo", correct: false }
+      explanation: |
+        La région suit le Douro et ses affluents vers l’est, depuis la barrière montagneuse jusqu’à
+        l’Espagne. Ses trois sous-régions sont Baixo Corgo, Cima Corgo et Douro Superior.
 
   - id: portugal-douro-port-001
     type: mcq
@@ -540,15 +833,28 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Even with the rise of table reds, which fortified wine still leads Douro output?
+      question: "How do Port and unfortified Douro DOP wine differ despite sharing the same region?"
       choices:
-        - { text: "Only Vinho Verde", correct: false }
-        - { text: "Port", correct: true }
-        - { text: "Only sparkling Baga", correct: false }
-        - { text: "Only white Encruzado", correct: false }
+        - { text: "Port is fortified during fermentation; Douro still wine ferments without that mutage", correct: true }
+        - { text: "Port and Douro DOP rely on separate authorised grape lists", correct: false }
+        - { text: "Port is produced in the western subregion; Douro DOP in the eastern subregions", correct: false }
+        - { text: "Port requires long cask ageing; Douro DOP must be released without wood", correct: false }
       explanation: |
-        **Port.** Unfortified Douro reds matter, but fortified wine
-        still leads the valley’s output.
+        Both categories can draw on the same steep vineyards and indigenous grapes. Port
+        fermentation is stopped with grape spirit, retaining sugar and raising alcohol, whereas dry
+        Douro wines generally ferment to dryness.
+    fr:
+      question: "En quoi le Porto et le vin non fortifié de DOP Douro diffèrent-ils malgré leur région commune ?"
+      choices:
+        - { text: "Le Porto est muté pendant la fermentation ; le vin tranquille du Douro fermente sans ce mutage", correct: true }
+        - { text: "Le Porto et la DOP Douro reposent sur deux listes distinctes de cépages autorisés", correct: false }
+        - { text: "Le Porto est produit dans la sous-région occidentale ; la DOP Douro dans les sous-régions orientales", correct: false }
+        - { text: "Le Porto exige un long élevage en fût ; la DOP Douro doit être commercialisée sans bois", correct: false }
+      explanation: |
+        Les deux catégories peuvent provenir des mêmes vignobles escarpés et des mêmes cépages
+        indigènes. La fermentation du Porto est interrompue par l’ajout d’eau-de-vie, ce qui
+        conserve du sucre et élève le degré d’alcool, tandis que les Douro secs fermentent
+        généralement jusqu’à épuisement des sucres.
 
   - id: portugal-douro-five-001
     type: mcq
@@ -560,16 +866,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which five black grapes do Port and unfortified Douro reds share?
+      question: "Which set contains five leading black grapes used for both Port and Douro reds?"
       choices:
-        - { text: "Only Baga and Bical", correct: false }
         - { text: "Touriga Nacional, Touriga Franca, Tinta Roriz, Tinta Barroca and Tinto Cão", correct: true }
-        - { text: "Only Palomino and Pedro Ximénez", correct: false }
-        - { text: "Pinot Noir, Gamay, Schiava, Dolcetto and Lambrusco", correct: false }
+        - { text: "Baga, Jaen, Alfrocheiro, Trincadeira and Castelão", correct: false }
+        - { text: "Aragonês, Alicante Bouschet, Syrah, Moreto and Castelão", correct: false }
+        - { text: "Loureiro, Arinto, Alvarinho, Trajadura and Avesso", correct: false }
       explanation: |
-        **Touriga Nacional, Touriga Franca, Tinta Roriz, Tinta
-        Barroca and Tinto Cão.** Tinta Roriz is Tempranillo. The
-        same five feed table red and Port.
+        These five varieties are widely regarded as the core black grapes of the Douro. They are
+        commonly blended because each contributes a different balance of colour, aroma, body,
+        acidity and tannin.
+    fr:
+      question: "Quel groupe réunit cinq grands cépages noirs employés à la fois pour le Porto et les rouges du Douro ?"
+      choices:
+        - { text: "Touriga Nacional, Touriga Franca, Tinta Roriz, Tinta Barroca et Tinto Cão", correct: true }
+        - { text: "Baga, Jaen, Alfrocheiro, Trincadeira et Castelão", correct: false }
+        - { text: "Aragonês, Alicante Bouschet, Syrah, Moreto et Castelão", correct: false }
+        - { text: "Loureiro, Arinto, Alvarinho, Trajadura et Avesso", correct: false }
+      explanation: |
+        Ces cinq variétés sont largement considérées comme le noyau des cépages noirs du Douro.
+        Elles sont souvent assemblées, car chacune apporte un équilibre différent de couleur,
+        d’arômes, de corps, d’acidité et de tanins.
 
   - id: portugal-touriga-nacional-001
     type: mcq
@@ -581,15 +898,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Among Touriga Franca, Tinta Roriz, Tinto Cão and Tinta Barroca, which fifth grape is the quality flagship?
+      question: "Which Douro grape is particularly valued for intense colour, perfume and tannic structure?"
       choices:
-        - { text: "Baga", correct: false }
-        - { text: "Alvarinho", correct: false }
+        - { text: "Tinta Barroca", correct: false }
         - { text: "Touriga Nacional", correct: true }
-        - { text: "Palomino", correct: false }
+        - { text: "Tinta Roriz", correct: false }
+        - { text: "Touriga Franca", correct: false }
       explanation: |
-        **Touriga Nacional.** Touriga Franca covers more hectares;
-        Nacional is the quality flagship.
+        Touriga Nacional produces small, thick-skinned berries and concentrated wines with floral
+        and dark-fruit aromas. Its quality is high, but naturally low yields limit the proportion
+        available for many blends.
+    fr:
+      question: "Quel cépage du Douro est particulièrement apprécié pour sa couleur intense, son parfum et sa structure tannique ?"
+      choices:
+        - { text: "Tinta Barroca", correct: false }
+        - { text: "Touriga Nacional", correct: true }
+        - { text: "Tinta Roriz", correct: false }
+        - { text: "Touriga Franca", correct: false }
+      explanation: |
+        Le Touriga Nacional produit de petites baies à pellicule épaisse et des vins concentrés aux
+        arômes floraux et de fruits noirs. Sa qualité est élevée, mais ses faibles rendements
+        naturels limitent sa proportion disponible dans de nombreux assemblages.
 
   - id: portugal-tn-traits-001
     type: mcq
@@ -601,15 +930,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What are Touriga Nacional's main vineyard and wine traits?
+      question: "Which viticultural trait is characteristic of Touriga Nacional?"
       choices:
-        - { text: "Huge yields and pale colour", correct: false }
-        - { text: "Low yields, and wines with intense colour, flavour and high tannin", correct: true }
-        - { text: "A white grape only", correct: false }
-        - { text: "No tannin and no colour", correct: false }
+        - { text: "Naturally high yields of large, thin-skinned berries", correct: false }
+        - { text: "Low yields of small, thick-skinned berries", correct: true }
+        - { text: "Early ripening with little colour or tannin", correct: false }
+        - { text: "High susceptibility to drought because of shallow roots", correct: false }
       explanation: |
-        **Low yields, and wines with intense colour, flavour and
-        high tannin.** That density is why it leads Douro blends.
+        Small berries give a high skin-to-juice ratio, contributing colour, aroma and tannin. The
+        variety’s low productivity can favour concentration but also makes it relatively costly to
+        grow.
+    fr:
+      question: "Quel trait viticole caractérise le Touriga Nacional ?"
+      choices:
+        - { text: "Des rendements naturellement élevés de grosses baies à pellicule fine", correct: false }
+        - { text: "De faibles rendements de petites baies à pellicule épaisse", correct: true }
+        - { text: "Une maturation précoce avec peu de couleur et de tanins", correct: false }
+        - { text: "Une forte sensibilité à la sécheresse due à des racines superficielles", correct: false }
+      explanation: |
+        Les petites baies donnent un rapport pellicule-jus élevé qui favorise la couleur, les arômes
+        et les tanins. La faible productivité du cépage peut renforcer la concentration, mais rend
+        aussi sa culture relativement coûteuse.
 
   - id: portugal-douro-red-001
     type: mcq
@@ -621,16 +962,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What is a typical unfortified Douro red like?
+      question: "Which profile best fits a premium dry red from the Douro?"
       choices:
-        - { text: "Pale, low-tannin, and spritzy, like generic Vinho Verde", correct: false }
-        - { text: "Deep colour, full body, high ripe tannin and rich black fruit, the best often with subtle new-oak toast", correct: true }
-        - { text: "A 20-year tawny aged only in lodge pipes", correct: false }
-        - { text: "Always a white from Encruzado", correct: false }
+        - { text: "Deep colour, ripe black fruit, full body and firm tannin", correct: true }
+        - { text: "Pale colour, tart red fruit, light body and low tannin", correct: false }
+        - { text: "Medium colour, floral fruit, low alcohol and slight spritz", correct: false }
+        - { text: "Amber colour, dried fruit, low tannin and oxidative nuttiness", correct: false }
       explanation: |
-        **Deep colour, full body, high ripe tannin and rich black
-        fruit, the best often with subtle new-oak toast.** That is
-        Douro DOC red, not a Port ageing grade.
+        Warm, dry slopes and low-yielding indigenous varieties can produce concentrated, structured
+        reds. Careful extraction and oak maturation can add polish without obscuring the fruit.
+    fr:
+      question: "Quel profil correspond le mieux à un rouge sec haut de gamme du Douro ?"
+      choices:
+        - { text: "Couleur profonde, fruits noirs mûrs, corps puissant et tanins fermes", correct: true }
+        - { text: "Couleur pâle, fruits rouges acidulés, corps léger et peu de tanins", correct: false }
+        - { text: "Couleur moyenne, fruit floral, faible alcool et léger perlant", correct: false }
+        - { text: "Couleur ambrée, fruits séchés, peu de tanins et notes oxydatives de noix", correct: false }
+      explanation: |
+        Les pentes chaudes et sèches et les cépages indigènes à faible rendement peuvent donner des
+        rouges concentrés et structurés. Une extraction mesurée et un élevage sous bois peuvent les
+        polir sans masquer le fruit.
 
   - id: portugal-douro-white-001
     type: mcq
@@ -642,15 +993,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What can high-altitude Douro whites show?
+      question: "Why are many high-quality Douro whites sourced from higher vineyards?"
       choices:
-        - { text: "Always a 20-year white Port profile", correct: false }
-        - { text: "Fresh varietal fruit and medium to high acidity", correct: true }
-        - { text: "No acid, like baked southern Alentejo", correct: false }
-        - { text: "Only Baga tannin", correct: false }
+        - { text: "Lower temperatures help retain acidity and fresh fruit", correct: true }
+        - { text: "Higher temperatures guarantee greater alcohol and lower acidity", correct: false }
+        - { text: "Greater humidity slows sugar accumulation and regularly encourages noble rot", correct: false }
+        - { text: "Deeper fertile soils increase yields and neutralise aroma", correct: false }
       explanation: |
-        **Fresh varietal fruit and medium to high acidity.** Height
-        keeps the whites crisp. They are still wines, not white Port.
+        Elevation moderates the Douro’s heat and creates cooler nights. Grapes such as Rabigato,
+        Viosinho and Gouveio can therefore retain freshness while developing flavour.
+    fr:
+      question: "Pourquoi de nombreux blancs de qualité du Douro proviennent-ils de vignobles élevés ?"
+      choices:
+        - { text: "Des températures plus basses aident à préserver l’acidité et le fruit frais", correct: true }
+        - { text: "Des températures plus élevées garantissent davantage d’alcool et moins d’acidité", correct: false }
+        - { text: "Une plus forte humidité ralentit l’accumulation de sucre et favorise régulièrement la pourriture noble", correct: false }
+        - { text: "Des sols fertiles plus profonds augmentent les rendements et neutralisent les arômes", correct: false }
+      explanation: |
+        L’altitude modère la chaleur du Douro et crée des nuits plus fraîches. Des cépages comme le
+        Rabigato, le Viosinho et le Gouveio peuvent ainsi conserver leur fraîcheur tout en
+        développant leurs arômes.
 
   - id: portugal-dao-where-001
     type: mcq
@@ -662,14 +1024,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: The mountainous inland belt about 80 km south of the Douro is which region?
+      question: "Where is the Dão DOP located?"
       choices:
-        - { text: "The Algarve", correct: false }
-        - { text: "Vinho Verde", correct: false }
-        - { text: "Dão", correct: true }
-        - { text: "Madeira", correct: false }
+        - { text: "In a mountainous inland basin south of the Douro", correct: true }
+        - { text: "On the Atlantic coast north of the Minho River", correct: false }
+        - { text: "On low plains immediately east of Lisbon", correct: false }
+        - { text: "Along the Spanish border within Douro Superior", correct: false }
       explanation: |
-        **Dão.** Granite hills around Viseu, not the Douro terraces.
+        Dão lies around Viseu in central northern Portugal. Mountains enclose much of the region,
+        reducing maritime influence while vineyards at elevation retain freshness.
+    fr:
+      question: "Où se situe la DOP Dão ?"
+      choices:
+        - { text: "Dans un bassin montagneux de l’intérieur, au sud du Douro", correct: true }
+        - { text: "Sur le littoral atlantique au nord du Minho", correct: false }
+        - { text: "Sur des plaines basses immédiatement à l’est de Lisbonne", correct: false }
+        - { text: "Le long de la frontière espagnole, dans le Douro Superior", correct: false }
+      explanation: |
+        Le Dão se trouve autour de Viseu, dans le centre-nord du Portugal. Les montagnes entourent
+        une grande partie de la région, réduisant l’influence maritime, tandis que l’altitude des
+        vignobles préserve la fraîcheur.
 
   - id: portugal-dao-altitude-001
     type: mcq
@@ -681,16 +1055,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Dão fruit usually comes from which band of hill and slope, not the Douro terraces?
+      question: "Which landscape best characterises the Dão vineyard region?"
       choices:
-        - { text: "Only on the Douro river terraces", correct: false }
-        - { text: "On gentler hills and slopes, between about 200 m and 400 m", correct: true }
-        - { text: "Below sea level", correct: false }
-        - { text: "Only above 1,500 m", correct: false }
+        - { text: "Elevated granite hills and valleys enclosed by mountain ranges", correct: true }
+        - { text: "Low coastal dunes exposed directly to Atlantic storms", correct: false }
+        - { text: "Steep schist terraces descending to the Douro River", correct: false }
+        - { text: "Broad, hot plains with little variation in altitude", correct: false }
       explanation: |
-        **On gentler hills and slopes, between about 200 m and
-        400 m.** The high Serra da Estrela is the backdrop, not the
-        usual vine floor.
+        Dão vineyards are dispersed across granitic uplands and river valleys rather than
+        concentrated on Douro-like terraces. Altitude and varied exposure create important
+        mesoclimatic differences.
+    fr:
+      question: "Quel paysage caractérise le mieux la région viticole du Dão ?"
+      choices:
+        - { text: "Des collines et vallées granitiques élevées, entourées de chaînes montagneuses", correct: true }
+        - { text: "De basses dunes côtières directement exposées aux tempêtes atlantiques", correct: false }
+        - { text: "Des terrasses abruptes de schiste descendant vers le Douro", correct: false }
+        - { text: "De vastes plaines chaudes avec peu de variations d’altitude", correct: false }
+      explanation: |
+        Les vignobles du Dão sont dispersés sur des terres granitiques élevées et dans des vallées
+        fluviales, plutôt que concentrés sur des terrasses comme dans le Douro. L’altitude et les
+        différentes expositions créent d’importantes variations mésoclimatiques.
 
   - id: portugal-dao-climate-001
     type: mcq
@@ -702,16 +1087,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What seasonal climate does Dão have?
+      question: "Which seasonal pattern best describes the Dão climate?"
       choices:
-        - { text: "Warm, wet winters and cold, wet summers", correct: false }
-        - { text: "A rainless desert year-round", correct: false }
-        - { text: "Cold, wet winters and warm, dry summers, with a wide day-night temperature swing", correct: true }
-        - { text: "Only cool maritime weather, like Vinho Verde", correct: false }
+        - { text: "Cold, rainy winters and hot, dry summers", correct: true }
+        - { text: "Mild, dry winters and cool, wet summers", correct: false }
+        - { text: "Warm, humid winters and uniformly wet summers", correct: false }
+        - { text: "Cool, dry winters and foggy maritime summers", correct: false }
       explanation: |
-        **Cold, wet winters and warm, dry summers, with a wide
-        day-night temperature swing.** Mountains shelter Dão from
-        the wettest Atlantic weather.
+        Mountain shelter gives Dão a continental tendency despite its western latitude. Elevation
+        and cool nights help grapes retain acidity during the hot, dry growing season.
+    fr:
+      question: "Quel régime saisonnier décrit le mieux le climat du Dão ?"
+      choices:
+        - { text: "Des hivers froids et pluvieux et des étés chauds et secs", correct: true }
+        - { text: "Des hivers doux et secs et des étés frais et humides", correct: false }
+        - { text: "Des hivers chauds et humides et des étés uniformément pluvieux", correct: false }
+        - { text: "Des hivers frais et secs et des étés maritimes brumeux", correct: false }
+      explanation: |
+        L’abri des montagnes donne au Dão une tendance continentale malgré sa longitude occidentale.
+        L’altitude et les nuits fraîches aident les raisins à conserver leur acidité pendant la
+        saison de croissance chaude et sèche.
 
   - id: portugal-dao-ripening-001
     type: mcq
@@ -723,15 +1118,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which Portuguese region's mountain-ringed climate is credited with especially even ripening for quality grapes?
+      question: "How do Dão’s mountains and elevation affect grape ripening?"
       choices:
-        - { text: "Only the hottest Alentejo floor", correct: false }
-        - { text: "Madeira's estufagem lodges", correct: false }
-        - { text: "The rainy Vinho Verde coast alone", correct: false }
-        - { text: "Dão", correct: true }
+        - { text: "They shelter vineyards from some Atlantic weather while preserving cool nights", correct: true }
+        - { text: "They funnel Atlantic air into the basin while retaining warm nights", correct: false }
+        - { text: "They eliminate spring-frost risk and make rainfall uniform", correct: false }
+        - { text: "They intensify afternoon heat and accelerate acid loss", correct: false }
       explanation: |
-        **Dão.** Dry summers and a wide diurnal swing suit ripe but
-        fresh reds, not Port-lodge heat.
+        Surrounding ranges reduce direct maritime influence, while elevated sites cool after sunset.
+        Grapes can develop ripe flavours and tannins without losing all their acidity.
+    fr:
+      question: "Comment les montagnes et l’altitude du Dão influencent-elles la maturation des raisins ?"
+      choices:
+        - { text: "Elles abritent les vignobles d’une partie des influences atlantiques tout en maintenant des nuits fraîches", correct: true }
+        - { text: "Elles canalisent l’air atlantique dans le bassin tout en conservant des nuits chaudes", correct: false }
+        - { text: "Elles éliminent le risque de gel printanier et uniformisent les précipitations", correct: false }
+        - { text: "Elles intensifient la chaleur de l’après-midi et accélèrent la perte d’acidité", correct: false }
+      explanation: |
+        Les chaînes environnantes réduisent l’influence maritime directe, tandis que les sites
+        élevés se rafraîchissent après le coucher du soleil. Les raisins peuvent développer des
+        arômes et des tanins mûrs sans perdre toute leur acidité.
 
   - id: portugal-dao-red-001
     type: mcq
@@ -743,16 +1149,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What is a typical Dão red like compared with a powerful Douro red?
+      question: "How does a typical Dão red often differ from a powerful Douro red?"
       choices:
-        - { text: "Softer tannins, high acidity and delicate red-fruit aromas", correct: true }
-        - { text: "Always a spritzy Vinho Verde white", correct: false }
-        - { text: "A 20-year tawny aged in pipe", correct: false }
-        - { text: "Inky, jammy, and baked like southern Alentejo", correct: false }
+        - { text: "It is generally fresher and more perfumed, with a lighter structure", correct: true }
+        - { text: "It is generally sweeter and more alcoholic because fermentation is stopped", correct: false }
+        - { text: "It is generally darker and more tannic because the climate is hotter", correct: false }
+        - { text: "It is generally lower in acidity because vineyards lie closer to sea level", correct: false }
       explanation: |
-        **Softer tannins, high acidity and delicate red-fruit
-        aromas.** Dão stays a red region; it is just finer-boned
-        than Douro.
+        Dão can produce structured wines, especially from Touriga Nacional, but altitude and
+        granitic sites often give vibrant acidity, floral aromas and finer tannins compared with the
+        warmest Douro vineyards.
+    fr:
+      question: "En quoi un rouge typique du Dão diffère-t-il souvent d’un rouge puissant du Douro ?"
+      choices:
+        - { text: "Il est généralement plus frais et plus parfumé, avec une structure plus légère", correct: true }
+        - { text: "Il est généralement plus doux et plus alcoolisé, car sa fermentation est interrompue", correct: false }
+        - { text: "Il est généralement plus sombre et plus tannique, car le climat est plus chaud", correct: false }
+        - { text: "Il est généralement moins acide, car les vignobles sont plus proches du niveau de la mer", correct: false }
+      explanation: |
+        Le Dão peut produire des vins structurés, surtout à partir de Touriga Nacional, mais
+        l’altitude et les sites granitiques donnent souvent une acidité vive, des arômes floraux et
+        des tanins plus fins que dans les vignobles les plus chauds du Douro.
 
   - id: portugal-dao-improve-grapes-001
     type: mcq
@@ -764,16 +1181,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which black grapes did Dão vineyard-improvement schemes especially promote?
+      question: "Which set contains four important black grapes of the Dão?"
       choices:
-        - { text: "Only Palomino", correct: false }
         - { text: "Touriga Nacional, Tinta Roriz, Jaen and Alfrocheiro", correct: true }
-        - { text: "Only Baga", correct: false }
-        - { text: "Only Riesling", correct: false }
+        - { text: "Baga, Castelão, Alicante Bouschet and Trincadeira", correct: false }
+        - { text: "Touriga Franca, Tinta Barroca, Tinto Cão and Sousão", correct: false }
+        - { text: "Alvarinho, Loureiro, Arinto and Trajadura", correct: false }
       explanation: |
-        **Touriga Nacional, Tinta Roriz, Jaen and Alfrocheiro.**
-        Nacional is native to Dão; the schemes selected it and its
-        partners in place of mixed old field blends. Jaen is Mencía.
+        These four grapes form the core of many Dão reds. Touriga Nacional brings perfume and
+        structure, Tinta Roriz body, Jaen fragrant fruit and Alfrocheiro colour and freshness.
+    fr:
+      question: "Quel groupe réunit quatre cépages noirs importants du Dão ?"
+      choices:
+        - { text: "Touriga Nacional, Tinta Roriz, Jaen et Alfrocheiro", correct: true }
+        - { text: "Baga, Castelão, Alicante Bouschet et Trincadeira", correct: false }
+        - { text: "Touriga Franca, Tinta Barroca, Tinto Cão et Sousão", correct: false }
+        - { text: "Alvarinho, Loureiro, Arinto et Trajadura", correct: false }
+      explanation: |
+        Ces quatre cépages forment le cœur de nombreux rouges du Dão. Le Touriga Nacional apporte
+        parfum et structure, le Tinta Roriz du corps, le Jaen un fruit parfumé et l’Alfrocheiro de
+        la couleur et de la fraîcheur.
 
   - id: portugal-dao-improve-why-001
     type: mcq
@@ -785,15 +1212,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What prompted the wider planting of Touriga Nacional, Tinta Roriz, Jaen and Alfrocheiro in Dão?
+      question: "Which Spanish grape name refers to the same variety known as Jaen in the Dão?"
       choices:
-        - { text: "A ban on all Portuguese grapes", correct: false }
-        - { text: "Port lodge rules in Vila Nova de Gaia", correct: false }
-        - { text: "Vineyard improvement schemes", correct: true }
-        - { text: "A switch to white grapes only", correct: false }
+        - { text: "Mencía", correct: true }
+        - { text: "Tempranillo", correct: false }
+        - { text: "Garnacha", correct: false }
+        - { text: "Graciano", correct: false }
       explanation: |
-        **Vineyard improvement schemes.** Quality selections, not a
-        new foreign invasion.
+        DNA work has established Jaen and Mencía as the same variety. In the Dão it can give
+        aromatic, fresh reds with red-fruit and floral character.
+    fr:
+      question: "Quel nom de cépage espagnol désigne la même variété que le Jaen du Dão ?"
+      choices:
+        - { text: "Mencía", correct: true }
+        - { text: "Tempranillo", correct: false }
+        - { text: "Garnacha", correct: false }
+        - { text: "Graciano", correct: false }
+      explanation: |
+        Les analyses ADN ont établi que Jaen et Mencía sont une même variété. Dans le Dão, elle peut
+        donner des rouges aromatiques et frais aux notes de fruits rouges et de fleurs.
 
   - id: portugal-alfrocheiro-001
     type: mcq
@@ -805,15 +1242,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What are Alfrocheiro wines typically like?
+      question: "What can Alfrocheiro contribute to a Dão red blend?"
       choices:
-        - { text: "Always a pale white", correct: false }
-        - { text: "Deep in colour, with intense blackberry and strawberry", correct: true }
-        - { text: "Fortified only", correct: false }
-        - { text: "No fruit, only flor", correct: false }
+        - { text: "Deep colour, berry fruit and fresh acidity", correct: true }
+        - { text: "Pale colour, low acidity and neutral flavour", correct: false }
+        - { text: "High residual sugar and oxidative walnut aromas", correct: false }
+        - { text: "Low tannin, low colour and pronounced spritz", correct: false }
       explanation: |
-        **Deep in colour, with intense blackberry and strawberry.**
-        A Dão blending colour, not a Port grade.
+        Alfrocheiro is valued for colour, fragrant blackberry or strawberry fruit and acidity. It is
+        commonly blended with Touriga Nacional, Tinta Roriz and Jaen.
+    fr:
+      question: "Que peut apporter l’Alfrocheiro à un assemblage rouge du Dão ?"
+      choices:
+        - { text: "Une couleur profonde, des fruits rouges ou noirs et une acidité fraîche", correct: true }
+        - { text: "Une couleur pâle, une faible acidité et des arômes neutres", correct: false }
+        - { text: "Un sucre résiduel élevé et des arômes oxydatifs de noix", correct: false }
+        - { text: "Peu de tanins, peu de couleur et un perlant prononcé", correct: false }
+      explanation: |
+        L’Alfrocheiro est apprécié pour sa couleur, ses arômes parfumés de mûre ou de fraise et son
+        acidité. Il est couramment assemblé au Touriga Nacional, au Tinta Roriz et au Jaen.
 
   - id: portugal-encruzado-001
     type: mcq
@@ -825,15 +1272,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Dão’s prestige still white is usually which local grape, not Minho Alvarinho?
+      question: "Which white grape is most closely associated with high-quality Dão wines?"
       choices:
-        - { text: "Baga", correct: false }
-        - { text: "Palomino", correct: false }
-        - { text: "Only Alvarinho from the Minho", correct: false }
         - { text: "Encruzado", correct: true }
+        - { text: "Alvarinho", correct: false }
+        - { text: "Antão Vaz", correct: false }
+        - { text: "Loureiro", correct: false }
       explanation: |
-        **Encruzado.** Dão’s prestige white, not Minho Alvarinho
-        and not Bairrada Bical.
+        Encruzado is the Dão’s flagship white variety. It can combine citrus and stone-fruit
+        flavours with firm acidity, body and the capacity to develop in bottle.
+    fr:
+      question: "Quel cépage blanc est le plus étroitement associé aux vins de qualité du Dão ?"
+      choices:
+        - { text: "Encruzado", correct: true }
+        - { text: "Alvarinho", correct: false }
+        - { text: "Antão Vaz", correct: false }
+        - { text: "Loureiro", correct: false }
+      explanation: |
+        L’Encruzado est le cépage blanc emblématique du Dão. Il peut associer agrumes et fruits à
+        noyau à une acidité ferme, du corps et une capacité à évoluer en bouteille.
 
   - id: portugal-encruzado-range-001
     type: mcq
@@ -845,14 +1302,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which Dão white can be made light and fresh or richer and barrel-fermented?
+      question: "Which two winemaking approaches are both used successfully for Dão Encruzado?"
       choices:
-        - { text: "Baga", correct: false }
-        - { text: "Encruzado", correct: true }
-        - { text: "Touriga Nacional", correct: false }
-        - { text: "Alvarinho only", correct: false }
+        - { text: "Cool fermentation in inert vessels or fermentation and maturation in oak", correct: true }
+        - { text: "Carbonic maceration or early fortification with grape spirit", correct: false }
+        - { text: "Biological ageing under flor or long oxidative maturation", correct: false }
+        - { text: "Appassimento before pressing or second fermentation in bottle", correct: false }
       explanation: |
-        **Encruzado.** Steel or cask; still a white, not Port.
+        Protected fermentation in steel highlights fresh fruit, while barrel fermentation and lees
+        work can build texture and complexity. Encruzado’s acidity allows richer styles to remain
+        balanced.
+    fr:
+      question: "Quelles sont les deux approches de vinification employées avec succès pour l’Encruzado du Dão ?"
+      choices:
+        - { text: "Fermentation fraîche en cuve inerte ou fermentation et élevage sous bois", correct: true }
+        - { text: "Macération carbonique ou mutage précoce à l’eau-de-vie de raisin", correct: false }
+        - { text: "Élevage biologique sous voile ou longue maturation oxydative", correct: false }
+        - { text: "Passerillage avant pressurage ou seconde fermentation en bouteille", correct: false }
+      explanation: |
+        Une fermentation protectrice en cuve met en avant le fruit frais, tandis que la fermentation
+        en fût et le travail sur lies peuvent apporter texture et complexité. L’acidité de
+        l’Encruzado permet aux styles plus riches de conserver leur équilibre.
 
   - id: portugal-bairrada-where-001
     type: mcq
@@ -864,14 +1334,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: The region on the Atlantic side of Dão is which one?
+      question: "Where is the Bairrada DOP located?"
       choices:
-        - { text: "Douro Superior", correct: false }
-        - { text: "Bairrada", correct: true }
-        - { text: "Alentejo", correct: false }
-        - { text: "Madeira", correct: false }
+        - { text: "On the Atlantic side of the Dão, south of Porto", correct: true }
+        - { text: "In the upper Douro beside the Spanish border", correct: false }
+        - { text: "On the Alentejo plains east of Évora", correct: false }
+        - { text: "In the Minho Valley north of Vinho Verde", correct: false }
       explanation: |
-        **Bairrada.** Coastal Beira, west of the Dão mountains.
+        Bairrada lies in central western Portugal between the Atlantic coast and the Dão. Its ocean
+        exposure gives a distinctly maritime climate.
+    fr:
+      question: "Où se situe la DOP Bairrada ?"
+      choices:
+        - { text: "Du côté atlantique du Dão, au sud de Porto", correct: true }
+        - { text: "Dans le haut Douro, près de la frontière espagnole", correct: false }
+        - { text: "Sur les plaines de l’Alentejo à l’est d’Évora", correct: false }
+        - { text: "Dans la vallée du Minho, au nord de Vinho Verde", correct: false }
+      explanation: |
+        Bairrada se trouve dans le centre-ouest du Portugal, entre le littoral atlantique et le Dão.
+        Son exposition à l’océan lui donne un climat nettement maritime.
 
   - id: portugal-bairrada-climate-001
     type: mcq
@@ -883,15 +1364,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Open to the Atlantic, Bairrada’s year is which climate class?
+      question: "Which climate best describes Bairrada?"
       choices:
-        - { text: "A rainless desert", correct: false }
-        - { text: "High alpine ice", correct: false }
-        - { text: "Maritime, with rainy winters and warm summers", correct: true }
-        - { text: "Identical to the inland Douro Superior", correct: false }
+        - { text: "Temperate maritime, with rainy winters and warm summers moderated by Atlantic winds", correct: true }
+        - { text: "Hot continental, with very dry winters and little Atlantic influence", correct: false }
+        - { text: "Cool continental, with short summers and frequent winter snow", correct: false }
+        - { text: "Warm Mediterranean, with mild winters and uniformly dry summers", correct: false }
       explanation: |
-        **Maritime, with rainy winters and warm summers.** Open to
-        the Atlantic, wetter than sheltered Dão.
+        Atlantic winds moderate summer heat, while rainfall and humidity remain important. The
+        region’s wide day–night range during ripening can help grapes retain acidity.
+    fr:
+      question: "Quel climat décrit le mieux Bairrada ?"
+      choices:
+        - { text: "Maritime tempéré, aux hivers pluvieux et aux étés chauds modérés par les vents atlantiques", correct: true }
+        - { text: "Continental chaud, aux hivers très secs et à la faible influence atlantique", correct: false }
+        - { text: "Continental frais, aux étés courts et aux fréquentes neiges hivernales", correct: false }
+        - { text: "Méditerranéen chaud, aux hivers doux et aux étés uniformément secs", correct: false }
+      explanation: |
+        Les vents atlantiques modèrent la chaleur estivale, tandis que les pluies et l’humidité
+        restent importantes. La forte amplitude thermique diurne pendant la maturation peut aider
+        les raisins à conserver leur acidité.
 
   - id: portugal-bairrada-harvest-rain-001
     type: mcq
@@ -903,15 +1395,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What harvest-time problem hits Bairrada, especially on late grapes such as Baga?
+      question: "Why can autumn rain be particularly problematic for Baga in Bairrada?"
       choices:
-        - { text: "Permanent drought, like southern Alentejo", correct: false }
-        - { text: "Rain at harvest", correct: true }
-        - { text: "Spring-only frost with no rain", correct: false }
-        - { text: "A legal ban on picking", correct: false }
+        - { text: "Baga ripens late, so growers may face rain before full phenolic maturity", correct: true }
+        - { text: "Baga ripens early, but its thin skins split readily after rain", correct: false }
+        - { text: "Baga has very low acidity, and rain increases its potential alcohol", correct: false }
+        - { text: "Baga requires noble rot, which Atlantic rain prevents from developing", correct: false }
       explanation: |
-        **Rain at harvest.** Late Baga is still hanging when
-        Atlantic fronts arrive.
+        Waiting for Baga’s tannins and flavours to ripen can expose the crop to wet harvest weather
+        and rot. Picking too early avoids some risk but can leave severe acidity and astringency.
+    fr:
+      question: "Pourquoi les pluies automnales peuvent-elles être particulièrement problématiques pour le Baga à Bairrada ?"
+      choices:
+        - { text: "Le Baga mûrit tard : la pluie peut arriver avant sa pleine maturité phénolique", correct: true }
+        - { text: "Le Baga mûrit tôt, mais sa pellicule fine éclate facilement après la pluie", correct: false }
+        - { text: "Le Baga possède une très faible acidité, que la pluie transforme en alcool potentiel", correct: false }
+        - { text: "Le Baga exige la pourriture noble, dont la pluie atlantique empêche le développement", correct: false }
+      explanation: |
+        Attendre la maturité des tanins et des arômes du Baga peut exposer la récolte aux pluies et
+        à la pourriture. Une récolte trop précoce évite une partie du risque, mais peut laisser une
+        acidité sévère et une forte astringence.
 
   - id: portugal-baga-lead-001
     type: mcq
@@ -923,15 +1426,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: "Late, thick-skinned, and the grape of Bairrada reds: which variety?"
+      question: "Which black grape defines traditional red Bairrada?"
       choices:
-        - { text: "Touriga Nacional only", correct: false }
         - { text: "Baga", correct: true }
-        - { text: "Palomino", correct: false }
-        - { text: "Alvarinho", correct: false }
+        - { text: "Touriga Franca", correct: false }
+        - { text: "Trincadeira", correct: false }
+        - { text: "Castelão", correct: false }
       explanation: |
-        **Baga.** Bairrada’s lead red, not Douro’s Touriga Nacional
-        and not a white.
+        Baga is Bairrada’s leading local black grape. In suitable clay-limestone sites and when
+        fully ripe, it can produce deeply coloured, tannic wines with high acidity and long ageing
+        potential.
+    fr:
+      question: "Quel cépage noir définit les rouges traditionnels de Bairrada ?"
+      choices:
+        - { text: "Baga", correct: true }
+        - { text: "Touriga Franca", correct: false }
+        - { text: "Trincadeira", correct: false }
+        - { text: "Castelão", correct: false }
+      explanation: |
+        Le Baga est le principal cépage noir local de Bairrada. Sur des sites argilo-calcaires
+        adaptés et lorsqu’il atteint sa pleine maturité, il peut donner des vins profondément
+        colorés et tanniques, dotés d’une acidité élevée et d’un long potentiel de garde.
 
   - id: portugal-baga-skins-001
     type: mcq
@@ -943,15 +1458,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What berry traits of Baga drive the colour and tannin of Bairrada reds?
+      question: "Which combination of grape traits explains Baga’s firm structure?"
       choices:
-        - { text: "Early ripening and paper-thin skins", correct: false }
-        - { text: "A white grape with no skins", correct: false }
-        - { text: "Late ripening, with small, thick-skinned berries", correct: true }
-        - { text: "No skins at all", correct: false }
+        - { text: "Late ripening and small, thick-skinned berries", correct: true }
+        - { text: "Early ripening and large, thin-skinned berries", correct: false }
+        - { text: "Late ripening and naturally colourless skins", correct: false }
+        - { text: "Early ripening and low skin-to-juice ratio", correct: false }
       explanation: |
-        **Late ripening, with small, thick-skinned berries.** Deep
-        colour and high tannin follow those skins.
+        Small, thick-skinned berries provide abundant colour and tannin, while the variety also
+        retains high acidity. Its late ripening makes site selection and harvest timing critical.
+    fr:
+      question: "Quelle combinaison de caractéristiques du raisin explique la structure ferme du Baga ?"
+      choices:
+        - { text: "Une maturation tardive et de petites baies à pellicule épaisse", correct: true }
+        - { text: "Une maturation précoce et de grosses baies à pellicule fine", correct: false }
+        - { text: "Une maturation tardive et des pellicules naturellement incolores", correct: false }
+        - { text: "Une maturation précoce et un faible rapport pellicule-jus", correct: false }
+      explanation: |
+        Les petites baies à pellicule épaisse fournissent beaucoup de couleur et de tanins, tandis
+        que le cépage conserve aussi une forte acidité. Sa maturation tardive rend le choix du site
+        et de la date de récolte déterminants.
 
   - id: portugal-baga-underripe-001
     type: mcq
@@ -963,16 +1489,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What happens if Baga is picked underripe in Bairrada?
+      question: "What is the main risk when Baga is harvested before full phenolic ripeness?"
       choices:
-        - { text: "The wine becomes a sweet white Port", correct: false }
-        - { text: "Acid and tannin both vanish", correct: false }
-        - { text: "The wine is high in acidity, with harsh, astringent tannins", correct: true }
-        - { text: "It must be labelled Vinho Verde", correct: false }
+        - { text: "High acidity combined with hard, astringent tannins", correct: true }
+        - { text: "Low acidity combined with jammy fruit and high alcohol", correct: false }
+        - { text: "Pale colour combined with low tannin and neutral aroma", correct: false }
+        - { text: "High residual sugar combined with oxidative flavours", correct: false }
       explanation: |
-        **The wine is high in acidity, with harsh, astringent
-        tannins.** Green Baga bites. That is a pick date, not a
-        Port category.
+        Baga naturally has strong acidity and tannin. If its skins and seeds are insufficiently
+        ripe, the resulting wine can taste green and aggressively astringent.
+    fr:
+      question: "Quel est le principal risque lorsque le Baga est récolté avant sa pleine maturité phénolique ?"
+      choices:
+        - { text: "Une acidité élevée associée à des tanins durs et astringents", correct: true }
+        - { text: "Une faible acidité associée à un fruit confituré et un alcool élevé", correct: false }
+        - { text: "Une couleur pâle associée à peu de tanins et des arômes neutres", correct: false }
+        - { text: "Un sucre résiduel élevé associé à des saveurs oxydatives", correct: false }
+      explanation: |
+        Le Baga possède naturellement une forte acidité et beaucoup de tanins. Si ses pellicules et
+        ses pépins ne sont pas assez mûrs, le vin peut présenter un caractère végétal et une
+        astringence agressive.
 
   - id: portugal-baga-late-pick-001
     type: mcq
@@ -984,15 +1520,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What does a later Baga pick in Bairrada usually give?
+      question: "What is the principal trade-off when growers delay harvesting Baga in Bairrada?"
       choices:
-        - { text: "Always a pale rosé with no fruit", correct: false }
-        - { text: "A softer wine with rich black-fruit aromas", correct: true }
-        - { text: "Only flor", correct: false }
-        - { text: "Guaranteed rain-free fruit", correct: false }
+        - { text: "Riper fruit and tannins, but greater exposure to autumn rain and rot", correct: true }
+        - { text: "Higher acidity and greener tannins, but less exposure to autumn rain", correct: false }
+        - { text: "Lower sugar and paler colour, but greater resistance to fungal disease", correct: false }
+        - { text: "More residual sugar and lower alcohol, but less flavour concentration", correct: false }
       explanation: |
-        **A softer wine with rich black-fruit aromas.** More hang
-        time tames the tannin — if the rain holds off.
+        Extra hang time can soften tannins and develop richer black-fruit flavours. Because Baga is
+        late-ripening in a maritime region, waiting also increases the chance of rain and disease.
+    fr:
+      question: "Quel est le principal compromis lorsqu’un viticulteur retarde la récolte du Baga à Bairrada ?"
+      choices:
+        - { text: "Un fruit et des tanins plus mûrs, mais une exposition accrue aux pluies et à la pourriture automnales", correct: true }
+        - { text: "Une acidité plus élevée et des tanins plus verts, mais une moindre exposition aux pluies automnales", correct: false }
+        - { text: "Moins de sucre et une couleur plus pâle, mais une meilleure résistance aux maladies fongiques", correct: false }
+        - { text: "Davantage de sucre résiduel et moins d’alcool, mais une concentration aromatique plus faible", correct: false }
+      explanation: |
+        Un temps de maturation supplémentaire peut assouplir les tanins et développer des arômes
+        plus riches de fruits noirs. Comme le Baga est tardif dans une région maritime, attendre
+        augmente aussi le risque de pluie et de maladie.
 
   - id: portugal-baga-softer-001
     type: mcq
@@ -1004,16 +1551,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: How do Bairrada cellars often soften Baga?
+      question: "Which cellar approach can make Baga’s tannic structure more approachable?"
       choices:
-        - { text: "By fortifying it like Vintage Port", correct: false }
-        - { text: "By a ten-year estufagem", correct: false }
-        - { text: "By banning all blending", correct: false }
-        - { text: "Gentler crushing and maceration, and blending with other black grapes", correct: true }
+        - { text: "Gentle extraction, ripe fruit and judicious blending", correct: true }
+        - { text: "Early fortification and prolonged oxidative ageing", correct: false }
+        - { text: "Direct pressing followed by cool white-wine fermentation", correct: false }
+        - { text: "Extended extraction from underripe skins and seeds", correct: false }
       explanation: |
-        **Gentler crushing and maceration, and blending with other
-        black grapes.** Less skin time, plus partners. Luís Pato
-        is a named Baga address for both stern and softer bottles.
+        Avoiding harsh crushing and over-extraction limits bitter tannins. Fully ripe fruit,
+        controlled maceration and blending with softer varieties can produce a balanced wine without
+        removing Baga’s identity.
+    fr:
+      question: "Quelle approche en cave peut rendre la structure tannique du Baga plus accessible ?"
+      choices:
+        - { text: "Une extraction douce, des raisins mûrs et un assemblage judicieux", correct: true }
+        - { text: "Un mutage précoce et un long élevage oxydatif", correct: false }
+        - { text: "Un pressurage direct suivi d’une fermentation fraîche de vin blanc", correct: false }
+        - { text: "Une extraction prolongée à partir de pellicules et de pépins insuffisamment mûrs", correct: false }
+      explanation: |
+        Éviter un foulage brutal et une extraction excessive limite les tanins amers. Des raisins
+        pleinement mûrs, une macération maîtrisée et l’assemblage avec des cépages plus souples
+        peuvent donner un vin équilibré sans effacer l’identité du Baga.
 
   - id: portugal-bairrada-other-black-001
     type: mcq
@@ -1025,15 +1583,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Bairrada cellars also use which mix of local and international black grapes next to Baga?
+      question: "Which set contains black grapes that may complement Baga in Bairrada?"
       choices:
-        - { text: "Only Palomino and Pedro Ximénez", correct: false }
-        - { text: "Touriga Nacional, Alfrocheiro, Cabernet Sauvignon, Merlot and Syrah", correct: true }
-        - { text: "Only Alvarinho", correct: false }
-        - { text: "Only Pinot Blanc", correct: false }
+        - { text: "Touriga Nacional, Alfrocheiro, Merlot and Syrah", correct: true }
+        - { text: "Touriga Franca, Tinta Barroca, Tinto Cão and Sousão", correct: false }
+        - { text: "Aragonês, Trincadeira, Alicante Bouschet and Moreto", correct: false }
+        - { text: "Alvarinho, Loureiro, Arinto and Trajadura", correct: false }
       explanation: |
-        **Touriga Nacional, Alfrocheiro, Cabernet Sauvignon, Merlot
-        and Syrah.** Locals and internationals sit beside Baga.
+        Bairrada permits both Portuguese and international black grapes. They can add perfume, fruit
+        or softer texture to Baga-based wines, though Baga remains the regional reference.
+    fr:
+      question: "Quel groupe réunit des cépages noirs susceptibles de compléter le Baga à Bairrada ?"
+      choices:
+        - { text: "Touriga Nacional, Alfrocheiro, Merlot et Syrah", correct: true }
+        - { text: "Touriga Franca, Tinta Barroca, Tinto Cão et Sousão", correct: false }
+        - { text: "Aragonês, Trincadeira, Alicante Bouschet et Moreto", correct: false }
+        - { text: "Alvarinho, Loureiro, Arinto et Trajadura", correct: false }
+      explanation: |
+        Bairrada autorise des cépages noirs portugais comme internationaux. Ils peuvent apporter
+        parfum, fruit ou texture plus souple aux vins à base de Baga, même si celui-ci reste la
+        référence régionale.
 
   - id: portugal-bairrada-white-001
     type: mcq
@@ -1045,15 +1614,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which grapes usually lead Bairrada whites?
+      question: "Which set contains important white grapes of Bairrada?"
       choices:
-        - { text: "Only Encruzado", correct: false }
-        - { text: "Indigenous varieties such as Bical and Maria Gomes", correct: true }
-        - { text: "Only Baga", correct: false }
-        - { text: "Only Riesling", correct: false }
+        - { text: "Bical, Maria Gomes and Arinto", correct: true }
+        - { text: "Alvarinho, Loureiro and Trajadura", correct: false }
+        - { text: "Antão Vaz, Roupeiro and Rabo de Ovelha", correct: false }
+        - { text: "Rabigato, Viosinho and Gouveio", correct: false }
       explanation: |
-        **Indigenous varieties such as Bical and Maria Gomes.**
-        Maria Gomes is Fernão Pires. Encruzado is the Dão white.
+        Bical and Maria Gomes, the local name for Fernão Pires, are widely associated with Bairrada
+        whites; Arinto contributes acidity. The region also has an important traditional-method
+        sparkling-wine sector.
+    fr:
+      question: "Quel groupe réunit d’importants cépages blancs de Bairrada ?"
+      choices:
+        - { text: "Bical, Maria Gomes et Arinto", correct: true }
+        - { text: "Alvarinho, Loureiro et Trajadura", correct: false }
+        - { text: "Antão Vaz, Roupeiro et Rabo de Ovelha", correct: false }
+        - { text: "Rabigato, Viosinho et Gouveio", correct: false }
+      explanation: |
+        Le Bical et le Maria Gomes, nom local du Fernão Pires, sont largement associés aux blancs de
+        Bairrada ; l’Arinto apporte de l’acidité. La région possède aussi un important secteur
+        d’effervescents de méthode traditionnelle.
 
   - id: portugal-alentejo-where-001
     type: mcq
@@ -1065,15 +1646,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: In which part of Portugal does Alentejo lie?
+      question: "Where is the Alentejo wine region located?"
       choices:
-        - { text: "In the north-west Minho only", correct: false }
-        - { text: "On the Douro terraces only", correct: false }
-        - { text: "In the south-east", correct: true }
-        - { text: "Inside Porto", correct: false }
+        - { text: "Across southern Portugal, mainly east and south-east of Lisbon", correct: true }
+        - { text: "Along the rainy north-west coast beside the Minho River", correct: false }
+        - { text: "In the mountain basin between the Dão and the Douro", correct: false }
+        - { text: "On the narrow Atlantic strip immediately north of Porto", correct: false }
       explanation: |
-        **In the south-east.** A wide inland sweep toward Spain,
-        not Vinho Verde and not the Douro gorge.
+        Alentejo covers a large, mostly inland part of southern Portugal. Its broad plains, warm
+        climate and extensive vineyards support both regional blends and large-scale production.
+    fr:
+      question: "Où se situe la région viticole de l’Alentejo ?"
+      choices:
+        - { text: "Dans le sud du Portugal, surtout à l’est et au sud-est de Lisbonne", correct: true }
+        - { text: "Le long du littoral pluvieux du nord-ouest, près du Minho", correct: false }
+        - { text: "Dans le bassin montagneux situé entre le Dão et le Douro", correct: false }
+        - { text: "Sur l’étroite bande atlantique immédiatement au nord de Porto", correct: false }
+      explanation: |
+        L’Alentejo couvre une grande partie, surtout intérieure, du sud du Portugal. Ses vastes
+        plaines, son climat chaud et l’étendue de ses vignobles permettent aussi bien des
+        assemblages régionaux qu’une production en grand volume.
 
   - id: portugal-alentejo-subregions-001
     type: mcq
@@ -1085,15 +1677,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: How many sub-regions does Alentejo DOC spread across?
+      question: "How many subregions make up the Alentejo DOP?"
       choices:
-        - { text: "One beach only", correct: false }
-        - { text: "Twenty-one, like Alsace", correct: false }
-        - { text: "None — it is only a Vinho Regional", correct: false }
+        - { text: "Five", correct: false }
+        - { text: "Seven", correct: false }
         - { text: "Eight", correct: true }
+        - { text: "Ten", correct: false }
       explanation: |
-        **Eight.** Portalegre in the São Mamede hills is the cool
-        northern one; Moura and Granja-Amareleja sit hotter south.
+        The eight are Borba, Évora, Granja-Amareleja, Moura, Portalegre, Redondo, Reguengos and
+        Vidigueira. Their altitude, soils and local shelter create meaningful differences within the
+        large region.
+    fr:
+      question: "Combien de sous-régions composent la DOP Alentejo ?"
+      choices:
+        - { text: "Cinq", correct: false }
+        - { text: "Sept", correct: false }
+        - { text: "Huit", correct: true }
+        - { text: "Dix", correct: false }
+      explanation: |
+        Il s’agit de Borba, Évora, Granja-Amareleja, Moura, Portalegre, Redondo, Reguengos et
+        Vidigueira. Leur altitude, leurs sols et leurs abris locaux créent des différences
+        significatives au sein de cette vaste région.
 
   - id: portugal-alentejo-warm-001
     type: mcq
@@ -1105,15 +1709,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What kind of growing season does Alentejo have overall?
+      question: "Which growing conditions are a central challenge in much of Alentejo?"
       choices:
-        - { text: "Cool maritime, like Vinho Verde", correct: false }
-        - { text: "A warm growing season", correct: true }
-        - { text: "Polar", correct: false }
-        - { text: "No summer heat", correct: false }
+        - { text: "High summer heat and limited water availability", correct: true }
+        - { text: "Persistent summer rain and low disease pressure", correct: false }
+        - { text: "Short cool summers and incomplete flowering", correct: false }
+        - { text: "Frequent coastal fog and slow sugar accumulation", correct: false }
       explanation: |
-        **A warm growing season.** Alentejo heat is the point,
-        unlike the wet Minho.
+        Many sites experience hot, dry summers and recurring drought pressure. Growers use suitable
+        varieties, water-conscious viticulture and, where permitted, carefully managed irrigation.
+    fr:
+      question: "Quelles conditions de croissance constituent une difficulté majeure dans une grande partie de l’Alentejo ?"
+      choices:
+        - { text: "Une forte chaleur estivale et une disponibilité en eau limitée", correct: true }
+        - { text: "Des pluies estivales persistantes et une faible pression des maladies", correct: false }
+        - { text: "Des étés courts et frais et une floraison incomplète", correct: false }
+        - { text: "Un brouillard côtier fréquent et une lente accumulation du sucre", correct: false }
+      explanation: |
+        De nombreux sites connaissent des étés chauds et secs ainsi qu’un risque récurrent de
+        sécheresse. Les viticulteurs emploient des cépages adaptés, une gestion économe de l’eau et,
+        lorsque c’est autorisé, une irrigation soigneusement maîtrisée.
 
   - id: portugal-alentejo-north-south-001
     type: mcq
@@ -1125,15 +1740,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: How does Alentejo's climate change from north to south?
+      question: "What is the broad climatic trend from northern to southern Alentejo?"
       choices:
-        - { text: "Hotter and drier in the north; cooler and wetter in the south", correct: false }
-        - { text: "Cooler and wetter in the north; hotter and drier in the south", correct: true }
-        - { text: "Identical rainfall in every sub-region", correct: false }
-        - { text: "Only alpine ice in the south", correct: false }
+        - { text: "The north is generally cooler and wetter; the south generally hotter and drier", correct: true }
+        - { text: "The north is generally hotter and drier; the south generally cooler and wetter", correct: false }
+        - { text: "The north is maritime; the south has a cool continental climate", correct: false }
+        - { text: "The north and south have identical temperatures and rainfall", correct: false }
       explanation: |
-        **Cooler and wetter in the north; hotter and drier in the
-        south.** Portalegre vs the southern plains.
+        Latitude contributes to a broad north–south gradient, but altitude and mountain shelter
+        create important exceptions. Vidigueira, for example, is relatively mild despite being the
+        southernmost subregion.
+    fr:
+      question: "Quelle est la tendance climatique générale du nord au sud de l’Alentejo ?"
+      choices:
+        - { text: "Le nord est généralement plus frais et humide ; le sud plus chaud et sec", correct: true }
+        - { text: "Le nord est généralement plus chaud et sec ; le sud plus frais et humide", correct: false }
+        - { text: "Le nord est maritime ; le sud possède un climat continental frais", correct: false }
+        - { text: "Le nord et le sud ont des températures et des précipitations identiques", correct: false }
+      explanation: |
+        La latitude contribue à une tendance générale nord-sud, mais l’altitude et l’abri des
+        montagnes créent d’importantes exceptions. Vidigueira, par exemple, est relativement
+        tempérée bien qu’elle soit la sous-région la plus méridionale.
 
   - id: portugal-alentejo-styles-001
     type: mcq
@@ -1145,16 +1772,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: How do Alentejo wine styles usually change from north to south?
+      question: "Why can Portalegre produce fresher, more elegant Alentejo wines than many lower sites?"
       choices:
-        - { text: "Only Port in the north", correct: false }
-        - { text: "Only Vinho Verde spritz in the south", correct: false }
-        - { text: "More elegant wines in the north; richer wines in the south", correct: true }
-        - { text: "Identical bottles in every sub-region", correct: false }
+        - { text: "Its vineyards climb the Serra de São Mamede and benefit from altitude", correct: true }
+        - { text: "Its vineyards lie beside the Atlantic and receive persistent sea fog", correct: false }
+        - { text: "Its vineyards occupy fertile valley floors with very high yields", correct: false }
+        - { text: "Its vineyards are sheltered at the lowest elevation in Alentejo", correct: false }
       explanation: |
-        **More elegant wines in the north; richer wines in the
-        south.** Height and rain in Portalegre; bake on the southern
-        plains.
+        Portalegre occupies elevated slopes in northern Alentejo. Cooler temperatures and a larger
+        day–night range can preserve acidity and perfume in both red and white grapes.
+    fr:
+      question: "Pourquoi Portalegre peut-elle produire des vins de l’Alentejo plus frais et plus élégants que de nombreux sites plus bas ?"
+      choices:
+        - { text: "Ses vignobles grimpent sur la Serra de São Mamede et bénéficient de l’altitude", correct: true }
+        - { text: "Ses vignobles bordent l’Atlantique et reçoivent un brouillard marin persistant", correct: false }
+        - { text: "Ses vignobles occupent des fonds de vallée fertiles aux rendements très élevés", correct: false }
+        - { text: "Ses vignobles sont abrités à l’altitude la plus basse de l’Alentejo", correct: false }
+      explanation: |
+        Portalegre occupe des pentes élevées dans le nord de l’Alentejo. Des températures plus
+        basses et une forte amplitude thermique diurne peuvent préserver l’acidité et le parfum des
+        raisins noirs comme blancs.
 
   - id: portugal-alentejo-blend-001
     type: mcq
@@ -1166,15 +1803,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which three grapes typically build an Alentejo red blend?
+      question: "Which trio forms a classic basis for Alentejo red blends?"
       choices:
-        - { text: "Only Baga and Bical", correct: false }
         - { text: "Aragonês, Trincadeira and Alicante Bouschet", correct: true }
-        - { text: "Only Alvarinho", correct: false }
-        - { text: "Pinot Noir, Gamay and Schiava", correct: false }
+        - { text: "Baga, Jaen and Alfrocheiro", correct: false }
+        - { text: "Touriga Franca, Tinta Barroca and Tinto Cão", correct: false }
+        - { text: "Alvarinho, Loureiro and Arinto", correct: false }
       explanation: |
-        **Aragonês, Trincadeira and Alicante Bouschet.** Aragonês
-        is Tempranillo (Tinta Roriz in the north).
+        Aragonês, the local name for Tempranillo, supplies ripe fruit and body; Trincadeira adds
+        spicy fruit and tannin; Alicante Bouschet reinforces colour and structure.
+    fr:
+      question: "Quel trio constitue une base classique des assemblages rouges de l’Alentejo ?"
+      choices:
+        - { text: "Aragonês, Trincadeira et Alicante Bouschet", correct: true }
+        - { text: "Baga, Jaen et Alfrocheiro", correct: false }
+        - { text: "Touriga Franca, Tinta Barroca et Tinto Cão", correct: false }
+        - { text: "Alvarinho, Loureiro et Arinto", correct: false }
+      explanation: |
+        L’Aragonês, nom local du Tempranillo, apporte fruit mûr et corps ; le Trincadeira des fruits
+        épicés et des tanins ; l’Alicante Bouschet renforce la couleur et la structure.
 
   - id: portugal-trincadeira-001
     type: mcq
@@ -1186,16 +1833,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Alentejo’s Trincadeira is valued because it is which kind of grape in a hot, dry vineyard?
+      question: "Why is Trincadeira well suited to many warm, dry Alentejo sites?"
       choices:
-        - { text: "A thin-skinned white that hates heat", correct: false }
-        - { text: "Drought-tolerant, with spicy red-berry flavour and high tannin", correct: true }
-        - { text: "No tannin and no flavour", correct: false }
-        - { text: "Used only in Vinho Verde spritz", correct: false }
+        - { text: "It tolerates drought and can retain spicy red-fruit character", correct: true }
+        - { text: "It needs persistent humidity to ripen its very thick bunches", correct: false }
+        - { text: "It is an early-ripening white grape with naturally low acidity", correct: false }
+        - { text: "It requires cool maritime summers to avoid high tannin", correct: false }
       explanation: |
-        **Drought-tolerant, with spicy red-berry flavour and high
-        tannin.** A fit for Alentejo heat; Tinta Amarela is the
-        Douro name.
+        Trincadeira performs well under heat and water stress and can give fragrant, spicy, tannic
+        reds. Its susceptibility to rot makes dry conditions especially helpful.
+    fr:
+      question: "Pourquoi le Trincadeira est-il bien adapté à de nombreux sites chauds et secs de l’Alentejo ?"
+      choices:
+        - { text: "Il tolère la sécheresse et peut conserver un fruit rouge épicé", correct: true }
+        - { text: "Il a besoin d’une humidité persistante pour mûrir ses grappes très compactes", correct: false }
+        - { text: "C’est un cépage blanc précoce naturellement peu acide", correct: false }
+        - { text: "Il exige des étés maritimes frais pour éviter des tanins élevés", correct: false }
+      explanation: |
+        Le Trincadeira supporte bien la chaleur et le stress hydrique et peut donner des rouges
+        parfumés, épicés et tanniques. Sa sensibilité à la pourriture rend les conditions sèches
+        particulièrement favorables.
 
   - id: portugal-alicante-bouschet-001
     type: mcq
@@ -1207,17 +1864,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What is Alicante Bouschet, as used in Alentejo reds?
+      question: "What distinguishes Alicante Bouschet from most black wine grapes?"
       choices:
-        - { text: "A native Portuguese white grape", correct: false }
-        - { text: "A Port ageing grade", correct: false }
-        - { text: "A French teinturier (red-fleshed) grape that adds deep colour and tannin", correct: true }
-        - { text: "A thin-skinned, pale grape with no colour", correct: false }
+        - { text: "Its flesh as well as its skins is pigmented", correct: true }
+        - { text: "Its skins are dark but its juice is naturally sweet", correct: false }
+        - { text: "Its skins are deeply coloured but its pulp remains clear", correct: false }
+        - { text: "Its pulp is pale but contains unusually high acidity", correct: false }
       explanation: |
-        **A French teinturier (red-fleshed) grape that adds deep
-        colour and tannin.** Henri Bouschet bred it in France;
-        Alentejo adopted it. Herdade do Mouchão is a named Alicante
-        Bouschet estate.
+        Alicante Bouschet is a teinturier grape with red-coloured flesh. It is used in Alentejo
+        blends to deepen colour and add body and tannic structure.
+    fr:
+      question: "Qu’est-ce qui distingue l’Alicante Bouschet de la plupart des cépages noirs ?"
+      choices:
+        - { text: "Sa pulpe est pigmentée comme ses pellicules", correct: true }
+        - { text: "Ses pellicules sont foncées, mais son jus est naturellement doux", correct: false }
+        - { text: "Ses pellicules sont profondément colorées, mais sa pulpe reste claire", correct: false }
+        - { text: "Sa pulpe est pâle, mais possède une acidité exceptionnellement élevée", correct: false }
+      explanation: |
+        L’Alicante Bouschet est un cépage teinturier à la pulpe rouge. Il est employé dans les
+        assemblages de l’Alentejo pour approfondir la couleur et apporter du corps et une structure
+        tannique.
 
   - id: portugal-alentejo-newer-001
     type: mcq
@@ -1229,15 +1895,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Recent Alentejo plantings have favoured which local flagship plus which Rhône international?
+      question: "Which pairing represents an important Portuguese grape and an international grape planted in modern Alentejo?"
       choices:
-        - { text: "Only Palomino", correct: false }
-        - { text: "Only Baga", correct: false }
         - { text: "Touriga Nacional and Syrah", correct: true }
-        - { text: "Only Riesling", correct: false }
+        - { text: "Baga and Pinot Noir", correct: false }
+        - { text: "Alvarinho and Riesling", correct: false }
+        - { text: "Jaen and Gamay", correct: false }
       explanation: |
-        **Touriga Nacional and Syrah.** Additions beside Aragonês,
-        Trincadeira and Alicante Bouschet, not a switch to Baga.
+        Touriga Nacional brings perfume and structure, while heat-tolerant Syrah can produce ripe,
+        spicy fruit. Both supplement the established Aragonês, Trincadeira and Alicante Bouschet
+        base.
+    fr:
+      question: "Quelle paire associe un important cépage portugais et un cépage international plantés dans l’Alentejo moderne ?"
+      choices:
+        - { text: "Touriga Nacional et Syrah", correct: true }
+        - { text: "Baga et Pinot Noir", correct: false }
+        - { text: "Alvarinho et Riesling", correct: false }
+        - { text: "Jaen et Gamay", correct: false }
+      explanation: |
+        Le Touriga Nacional apporte parfum et structure, tandis que la Syrah, adaptée à la chaleur,
+        peut donner un fruit mûr et épicé. Tous deux complètent la base établie d’Aragonês, de
+        Trincadeira et d’Alicante Bouschet.
 
   - id: portugal-alentejo-blend-style-001
     type: mcq
@@ -1249,17 +1927,28 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What is a typical Alentejo red blend like?
+      question: "Which profile best fits a typical ripe Alentejo red blend?"
       choices:
-        - { text: "Pale, spritzy and light, like generic Vinho Verde", correct: false }
-        - { text: "Deep colour, full body, ripe fruit, and high but soft tannin", correct: true }
-        - { text: "Harsh green tannin, like underripe Baga", correct: false }
-        - { text: "A 20-year tawny aged only in lodge pipes", correct: false }
+        - { text: "Deep colour, full body, ripe fruit and abundant but soft tannin", correct: true }
+        - { text: "Pale colour, light body, tart fruit and low alcohol", correct: false }
+        - { text: "Medium colour, slight spritz, high acidity and low tannin", correct: false }
+        - { text: "Amber colour, dried fruit, oxidative nuttiness and low tannin", correct: false }
       explanation: |
-        **Deep colour, full body, ripe fruit, and high but soft
-        tannin.** Southern Alentejo heat ripens Aragonês,
-        Trincadeira and Alicante Bouschet; Alentejo tannin is
-        ripe, not green Baga grip and not a Port ageing grade.
+        Warm, sunny conditions promote ripe fruit and high sugar, while blending varieties helps
+        shape colour, aroma and texture. Better examples retain freshness through site choice,
+        harvest timing and careful extraction.
+    fr:
+      question: "Quel profil correspond le mieux à un assemblage rouge mûr typique de l’Alentejo ?"
+      choices:
+        - { text: "Couleur profonde, corps puissant, fruit mûr et tanins abondants mais souples", correct: true }
+        - { text: "Couleur pâle, corps léger, fruit acidulé et faible alcool", correct: false }
+        - { text: "Couleur moyenne, léger perlant, acidité élevée et peu de tanins", correct: false }
+        - { text: "Couleur ambrée, fruits séchés, notes oxydatives de noix et peu de tanins", correct: false }
+      explanation: |
+        Les conditions chaudes et ensoleillées favorisent un fruit mûr et une forte accumulation de
+        sucre, tandis que l’assemblage permet d’ajuster couleur, arômes et texture. Les meilleurs
+        vins préservent leur fraîcheur grâce au choix du site, à la date de récolte et à une
+        extraction mesurée.
 
   - id: portugal-alentejo-white-grapes-001
     type: mcq
@@ -1271,17 +1960,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which three local whites usually make Alentejo still whites?
+      question: "Which trio contains important local white grapes of Alentejo?"
       choices:
-        - { text: "Only Encruzado", correct: false }
-        - { text: "Only Alvarinho from the Minho", correct: false }
         - { text: "Arinto, Antão Vaz and Roupeiro", correct: true }
-        - { text: "Only Baga and Bical", correct: false }
+        - { text: "Alvarinho, Loureiro and Trajadura", correct: false }
+        - { text: "Bical, Maria Gomes and Cercial", correct: false }
+        - { text: "Rabigato, Viosinho and Códega", correct: false }
       explanation: |
-        **Arinto, Antão Vaz and Roupeiro.** Arinto holds the acid
-        in Alentejo heat; Antão Vaz is the local workhorse; Roupeiro
-        (Síria) adds floral perfume. Encruzado is Dão; Alvarinho
-        is Minho.
+        Arinto contributes acidity, Antão Vaz body and ripe fruit, and Roupeiro aromatic lift. Their
+        different strengths make them useful blending partners in a warm region.
+    fr:
+      question: "Quel trio réunit d’importants cépages blancs locaux de l’Alentejo ?"
+      choices:
+        - { text: "Arinto, Antão Vaz et Roupeiro", correct: true }
+        - { text: "Alvarinho, Loureiro et Trajadura", correct: false }
+        - { text: "Bical, Maria Gomes et Cercial", correct: false }
+        - { text: "Rabigato, Viosinho et Códega", correct: false }
+      explanation: |
+        L’Arinto apporte de l’acidité, l’Antão Vaz du corps et un fruit mûr, et le Roupeiro un
+        caractère plus aromatique. Leurs qualités différentes les rendent complémentaires dans les
+        assemblages d’une région chaude.
 
   - id: portugal-alentejo-white-001
     type: mcq
@@ -1293,17 +1991,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What fruit and structure do typical Alentejo whites show?
+      question: "How can an Alentejo producer preserve freshness in white wine despite the region’s heat?"
       choices:
-        - { text: "Always fortified, like white Port", correct: false }
-        - { text: "Fruity and floral, with medium to high acidity", correct: true }
-        - { text: "Heavy tannin and no fruit, like underripe Baga", correct: false }
-        - { text: "Flor and nuts, like Fino", correct: false }
+        - { text: "Choose cooler sites, harvest before acidity falls and ferment at controlled temperature", correct: true }
+        - { text: "Delay harvest until acidity is minimal and ferment without temperature control", correct: false }
+        - { text: "Use prolonged skin extraction to replace lost acidity with tannin", correct: false }
+        - { text: "Expose the must to oxygen before a warm fermentation", correct: false }
       explanation: |
-        **Fruity and floral, with medium to high acidity.**
-        Roupeiro and Antão Vaz supply the perfume; Arinto keeps
-        Alentejo whites fresh in a warm year. Alentejo whites
-        are still wines, not Port and not a Minho spritz.
+        Altitude, earlier picking and protective cool fermentation help retain acidity and fresh
+        fruit. Arinto is also valuable in blends because it naturally contributes acidity.
+    fr:
+      question: "Comment un producteur de l’Alentejo peut-il préserver la fraîcheur d’un vin blanc malgré la chaleur régionale ?"
+      choices:
+        - { text: "Choisir des sites frais, récolter avant la chute de l’acidité et fermenter à température contrôlée", correct: true }
+        - { text: "Retarder la récolte jusqu’à une acidité minimale et fermenter sans contrôle des températures", correct: false }
+        - { text: "Employer une longue extraction pelliculaire pour remplacer l’acidité perdue par des tanins", correct: false }
+        - { text: "Exposer le moût à l’oxygène avant une fermentation chaude", correct: false }
+      explanation: |
+        L’altitude, une récolte plus précoce et une fermentation fraîche à l’abri de l’oxygène
+        contribuent à conserver l’acidité et le fruit frais. L’Arinto est aussi précieux dans les
+        assemblages grâce à son acidité naturelle.
 
   - id: portugal-alentejo-white-oak-001
     type: mcq
@@ -1315,18 +2022,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: How do some Alentejo cellars use oak on white wine?
+      question: "What can barrel fermentation or maturation add to an Alentejo white?"
       choices:
-        - { text: "Every white must stay in steel, by law", correct: false }
-        - { text: "Ferment or age some whites in oak for extra depth and complexity", correct: true }
-        - { text: "A ten-year estufagem, like Madeira", correct: false }
-        - { text: "Only lodge pipes, like tawny Port", correct: false }
+        - { text: "Greater body, texture and spice", correct: true }
+        - { text: "Higher natural acidity and lower alcohol", correct: false }
+        - { text: "A slight spritz and lower colour", correct: false }
+        - { text: "Firm skin tannins and deeper red colour", correct: false }
       explanation: |
-        **Ferment or age some whites in oak for extra depth and
-        complexity.** Oak is optional, not a DOC duty; many
-        Alentejo whites stay in steel. Esporão Reserva Branco
-        is a named barrel-fermented Antão Vaz–Arinto–Roupeiro
-        example.
+        Oak and lees contact can broaden texture and add toast or spice to ripe white fruit.
+        Producers need sufficient acidity and measured oak to prevent the wine from seeming heavy.
+    fr:
+      question: "Que peuvent apporter la fermentation ou l’élevage en fût à un blanc de l’Alentejo ?"
+      choices:
+        - { text: "Davantage de corps, de texture et d’épices", correct: true }
+        - { text: "Une acidité naturelle plus élevée et moins d’alcool", correct: false }
+        - { text: "Un léger perlant et une couleur moins soutenue", correct: false }
+        - { text: "Des tanins pelliculaires fermes et une couleur rouge plus profonde", correct: false }
+      explanation: |
+        Le bois et le contact avec les lies peuvent élargir la texture et ajouter des notes grillées
+        ou épicées au fruit blanc mûr. Il faut une acidité suffisante et un boisé mesuré pour éviter
+        que le vin paraisse lourd.
 
   - id: portugal-vr-alentejano-volume-001
     type: mcq
@@ -1338,17 +2053,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which Vinho Regional is the usual high-volume label for Alentejo wine?
+      question: "Which broad geographical indication covers wines from the wider Alentejo area?"
       choices:
-        - { text: "Vinho Regional Alentejano", correct: true }
-        - { text: "Vinho Regional Minho only", correct: false }
-        - { text: "Vinho Regional Duriense only", correct: false }
-        - { text: "Vinho Regional Algarve only", correct: false }
+        - { text: "IGP Alentejano", correct: true }
+        - { text: "IGP Duriense", correct: false }
+        - { text: "IGP Terras do Dão", correct: false }
+        - { text: "IGP Beira Atlântico", correct: false }
       explanation: |
-        **Vinho Regional Alentejano.** The wide Alentejo VR is
-        the usual volume label around Alentejo DOC. It is not a
-        claim that Alentejano outproduces every other Portuguese
-        region.
+        IGP Alentejano, traditionally labelled Vinho Regional Alentejano, covers a wider area and
+        offers more flexible production rules than the Alentejo DOP.
+    fr:
+      question: "Quelle large indication géographique couvre les vins de l’ensemble de la zone de l’Alentejo ?"
+      choices:
+        - { text: "IGP Alentejano", correct: true }
+        - { text: "IGP Duriense", correct: false }
+        - { text: "IGP Terras do Dão", correct: false }
+        - { text: "IGP Beira Atlântico", correct: false }
+      explanation: |
+        L’IGP Alentejano, traditionnellement étiquetée Vinho Regional Alentejano, couvre une zone
+        plus vaste et offre des règles de production plus souples que la DOP Alentejo.
 
   - id: portugal-vr-alentejano-map-001
     type: mcq
@@ -1360,17 +2083,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: How does Vinho Regional Alentejano sit on the map next to Alentejo DOC?
+      question: "How does the geographical scope of IGP Alentejano compare with Alentejo DOP?"
       choices:
-        - { text: "Vinho Regional Alentejano is a tiny island inside one DOC parish", correct: false }
-        - { text: "Vinho Regional Alentejano matches the Douro gorge and nothing else", correct: false }
-        - { text: "Vinho Regional Alentejano is drawn around Alentejo DOC, but covers a much wider area", correct: true }
-        - { text: "Vinho Regional Alentejano is only the Minho coast", correct: false }
+        - { text: "The IGP covers a wider area surrounding the DOP zones", correct: true }
+        - { text: "The IGP is limited to a single village within Portalegre", correct: false }
+        - { text: "The IGP follows the same boundary but permits higher yields", correct: false }
+        - { text: "The IGP covers a smaller zone nested within the DOP", correct: false }
       explanation: |
-        **Vinho Regional Alentejano is drawn around Alentejo DOC,
-        but covers a much wider area.** Alentejo DOC’s eight
-        sub-regions sit inside a broader Alentejano map that
-        also takes land the DOC does not.
+        The regional IGP encompasses the broader Alentejo, while DOP production must meet tighter
+        geographical and technical requirements. This gives IGP producers greater sourcing
+        flexibility.
+    fr:
+      question: "Comment l’étendue géographique de l’IGP Alentejano se compare-t-elle à celle de la DOP Alentejo ?"
+      choices:
+        - { text: "L’IGP couvre une zone plus vaste autour des secteurs de la DOP", correct: true }
+        - { text: "L’IGP se limite à un seul village au sein de Portalegre", correct: false }
+        - { text: "L’IGP suit la même limite, mais autorise des rendements plus élevés", correct: false }
+        - { text: "L’IGP couvre une zone plus petite incluse dans la DOP", correct: false }
+      explanation: |
+        L’IGP régionale englobe l’Alentejo au sens large, tandis que la production en DOP doit
+        respecter des exigences géographiques et techniques plus strictes. L’IGP offre donc
+        davantage de souplesse d’approvisionnement.
 
   - id: portugal-vr-rules-001
     type: mcq
@@ -1382,17 +2115,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Compared with a Portuguese DOC, how tight are Vinho Regional grape rules?
+      question: "Why might an Alentejo producer choose IGP Alentejano rather than Alentejo DOP?"
       choices:
-        - { text: "Stricter than every DOC, with one grape only", correct: false }
-        - { text: "More liberal, with a wider list of grapes, especially international varieties", correct: true }
-        - { text: "Identical to Vintage Port lodge rules", correct: false }
-        - { text: "A ban on all French grapes", correct: false }
+        - { text: "The IGP generally permits a broader range of grapes and production choices", correct: true }
+        - { text: "The IGP guarantees a higher official quality rank than the DOP", correct: false }
+        - { text: "The IGP requires estate-grown fruit but permits more subregional names", correct: false }
+        - { text: "The IGP requires longer maturation but permits fewer grape varieties", correct: false }
       explanation: |
-        **More liberal, with a wider list of grapes, especially
-        international varieties.** A VR can bottle Syrah or
-        Cabernet more freely than a DOC recipe. The trade-off is
-        a broader place name.
+        IGP rules protect regional origin but are usually more flexible than DOP specifications.
+        Producers may use that freedom for international grapes, blends or styles not covered by the
+        DOP.
+    fr:
+      question: "Pourquoi un producteur de l’Alentejo pourrait-il choisir l’IGP Alentejano plutôt que la DOP Alentejo ?"
+      choices:
+        - { text: "L’IGP autorise généralement une gamme plus large de cépages et de choix de production", correct: true }
+        - { text: "L’IGP garantit un rang qualitatif officiel supérieur à la DOP", correct: false }
+        - { text: "L’IGP exige des raisins du domaine, mais autorise davantage de noms de sous-régions", correct: false }
+        - { text: "L’IGP exige un élevage plus long, mais autorise moins de cépages", correct: false }
+      explanation: |
+        Les règles d’une IGP protègent l’origine régionale, mais sont généralement plus souples que
+        le cahier des charges d’une DOP. Un producteur peut employer cette liberté pour des cépages
+        internationaux, des assemblages ou des styles non couverts par la DOP.
 
   - id: portugal-vr-other-001
     type: mcq
@@ -1404,16 +2147,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Besides Vinho Regional Alentejano, which three Vinho Regional names are the other main ones?
+      question: "Which set correctly matches three Portuguese regions with their broad IGP names?"
       choices:
-        - { text: "Minho, Duriense and Algarve only", correct: false }
-        - { text: "Lisboa, Península de Setúbal and Tejo", correct: true }
-        - { text: "Trás-os-Montes, Beira Interior and Algarve only", correct: false }
-        - { text: "Açores, Madeira and Minho only", correct: false }
+        - { text: "Douro—Duriense; Dão—Terras do Dão; Bairrada—Beira Atlântico", correct: true }
+        - { text: "Douro—Minho; Dão—Alentejano; Bairrada—Lisboa", correct: false }
+        - { text: "Douro—Tejo; Dão—Duriense; Bairrada—Terras do Dão", correct: false }
+        - { text: "Douro—Beira Atlântico; Dão—Minho; Bairrada—Algarve", correct: false }
       explanation: |
-        **Lisboa, Península de Setúbal and Tejo.** Those three
-        sit around Lisbon. Minho, Duriense and Algarve are also
-        VRs, but they are not this trio.
+        Portugal’s IGP system uses broad regional indications alongside more tightly specified DOPs.
+        The traditional phrase Vinho Regional may still appear on labels for an IGP wine.
+    fr:
+      question: "Quel groupe associe correctement trois régions portugaises à leur large IGP ?"
+      choices:
+        - { text: "Douro—Duriense ; Dão—Terras do Dão ; Bairrada—Beira Atlântico", correct: true }
+        - { text: "Douro—Minho ; Dão—Alentejano ; Bairrada—Lisboa", correct: false }
+        - { text: "Douro—Tejo ; Dão—Duriense ; Bairrada—Terras do Dão", correct: false }
+        - { text: "Douro—Beira Atlântico ; Dão—Minho ; Bairrada—Algarve", correct: false }
+      explanation: |
+        Le système portugais des IGP emploie de vastes indications régionales aux côtés de DOP aux
+        cahiers des charges plus stricts. La mention traditionnelle Vinho Regional peut encore
+        apparaître sur l’étiquette d’un vin d’IGP.
 
   - id: portugal-vr-lisboa-where-001
     type: mcq
@@ -1425,16 +2178,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Where does Vinho Regional Lisboa run?
+      question: "Where does the Lisboa IGP extend?"
       choices:
-        - { text: "Only in the Douro gorge", correct: false }
-        - { text: "In a coastal strip stretching north from Lisbon", correct: true }
-        - { text: "Only south of the Algarve beaches", correct: false }
-        - { text: "Only on the inland Alentejo plains", correct: false }
+        - { text: "Along the Atlantic coast north of Lisbon", correct: true }
+        - { text: "Along the Douro east of the Serra do Marão", correct: false }
+        - { text: "Across the Minho Valley beside the Spanish border", correct: false }
+        - { text: "Across the inland plains east of Évora", correct: false }
       explanation: |
-        **In a coastal strip stretching north from Lisbon.**
-        VR Lisboa (once Estremadura) follows the Atlantic shore
-        toward Óbidos and Torres Vedras, not the Douro terraces.
+        Lisboa is a long coastal region running north from the capital. Atlantic influence varies
+        with exposure and shelter, supporting a wide range of grapes and wine styles.
+    fr:
+      question: "Où s’étend l’IGP Lisboa ?"
+      choices:
+        - { text: "Le long du littoral atlantique au nord de Lisbonne", correct: true }
+        - { text: "Le long du Douro à l’est de la Serra do Marão", correct: false }
+        - { text: "Dans la vallée du Minho, près de la frontière espagnole", correct: false }
+        - { text: "Sur les plaines intérieures à l’est d’Évora", correct: false }
+      explanation: |
+        Lisboa est une longue région côtière qui s’étend au nord de la capitale. L’influence
+        atlantique varie selon l’exposition et l’abri, ce qui permet une large gamme de cépages et
+        de styles de vin.
 
   - id: portugal-vr-setubal-where-001
     type: mcq
@@ -1446,16 +2209,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Where does Vinho Regional Península de Setúbal sit?
+      question: "Where is the Península de Setúbal IGP located?"
       choices:
-        - { text: "North of Porto only", correct: false }
-        - { text: "On Madeira only", correct: false }
-        - { text: "Immediately south of Lisbon, across the Tagus", correct: true }
-        - { text: "In the rainy Minho only", correct: false }
+        - { text: "Immediately south of Lisbon, across the Tagus estuary", correct: true }
+        - { text: "North of Porto between the Minho and Spanish border", correct: false }
+        - { text: "Inland around Viseu within the Dão basin", correct: false }
+        - { text: "East of the Serra do Marão in Douro Superior", correct: false }
       explanation: |
-        **Immediately south of Lisbon, across the Tagus.** The
-        Setúbal peninsula faces Lisbon over the estuary. Palmela
-        and Setúbal DOC sit on the same peninsula.
+        The Setúbal Peninsula lies just south of Lisbon. It also contains the Palmela and Setúbal
+        DOPs, the latter renowned for fortified Moscatel.
+    fr:
+      question: "Où se situe l’IGP Península de Setúbal ?"
+      choices:
+        - { text: "Immédiatement au sud de Lisbonne, de l’autre côté de l’estuaire du Tage", correct: true }
+        - { text: "Au nord de Porto, entre le Minho et la frontière espagnole", correct: false }
+        - { text: "À l’intérieur des terres autour de Viseu, dans le bassin du Dão", correct: false }
+        - { text: "À l’est de la Serra do Marão, dans le Douro Superior", correct: false }
+      explanation: |
+        La péninsule de Setúbal se trouve juste au sud de Lisbonne. Elle comprend également les DOP
+        Palmela et Setúbal, cette dernière étant réputée pour son Moscatel fortifié.
 
   - id: portugal-vr-tejo-where-001
     type: mcq
@@ -1467,16 +2239,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Where does Vinho Regional Tejo sit?
+      question: "Which description best locates the Tejo IGP?"
       choices:
-        - { text: "North-east of Lisbon, inland along the Tagus", correct: true }
-        - { text: "On the Minho coast only", correct: false }
-        - { text: "In the Douro Superior only", correct: false }
-        - { text: "Only on Algarve beaches", correct: false }
+        - { text: "Inland from Lisbon along the Tagus River", correct: true }
+        - { text: "On the Atlantic coast north of Porto", correct: false }
+        - { text: "In the mountain basin enclosed around Viseu", correct: false }
+        - { text: "On the upper Douro beside the Spanish border", correct: false }
       explanation: |
-        **North-east of Lisbon, inland along the Tagus.** Tejo
-        (once Ribatejo) follows the river around Santarém, not
-        the Minho and not the Douro Superior.
+        The Tejo region follows the Tagus through central Portugal north-east of Lisbon. River
+        plains and higher surrounding sites support both large-volume and more ambitious wines.
+    fr:
+      question: "Quelle description situe le mieux l’IGP Tejo ?"
+      choices:
+        - { text: "À l’intérieur des terres depuis Lisbonne, le long du Tage", correct: true }
+        - { text: "Sur le littoral atlantique au nord de Porto", correct: false }
+        - { text: "Dans le bassin montagneux qui entoure Viseu", correct: false }
+        - { text: "Dans le haut Douro, près de la frontière espagnole", correct: false }
+      explanation: |
+        La région du Tejo suit le Tage dans le centre du Portugal, au nord-est de Lisbonne. Les
+        plaines fluviales et les sites plus élevés environnants permettent aussi bien des vins de
+        grand volume que des cuvées plus ambitieuses.
 
   - id: portugal-dop-001
     type: mcq
@@ -1488,17 +2270,26 @@ cards:
       fact_check: pass
       sources: [spec]
     en:
-      question: On a Portuguese bottle, which phrase is the official PDO wording?
+      question: "What does DOP stand for on a Portuguese wine label?"
       choices:
-        - { text: "Denominação Geográfica Protegida (DOP)", correct: false }
-        - { text: "Denominação de Origem Protegida (DOP)", correct: true }
-        - { text: "Indicação Geográfica Protegida (IGP)", correct: false }
-        - { text: "Vinho, with no place name", correct: false }
+        - { text: "Denominação de Origem Protegida", correct: true }
+        - { text: "Denominação Oficial de Produção", correct: false }
+        - { text: "Designação de Origem Portuguesa", correct: false }
+        - { text: "Distrito Oficial de Proveniência", correct: false }
       explanation: |
-        **Denominação de Origem Protegida (DOP).** EU PDO in
-        Portuguese is *origem protegida*, not *geográfica*.
-        Geográfica belongs to IGP. Bottles still often show the
-        older DOC wording.
+        DOP is Portugal’s wording for the EU Protected Designation of Origin category. It links the
+        wine to a delimited place and an approved product specification.
+    fr:
+      question: "Que signifie DOP sur une étiquette de vin portugais ?"
+      choices:
+        - { text: "Denominação de Origem Protegida", correct: true }
+        - { text: "Denominação Oficial de Produção", correct: false }
+        - { text: "Designação de Origem Portuguesa", correct: false }
+        - { text: "Distrito Oficial de Proveniência", correct: false }
+      explanation: |
+        DOP est la formulation portugaise correspondant à la catégorie européenne Appellation
+        d’Origine Protégée. Elle relie le vin à un lieu délimité et à un cahier des charges
+        approuvé.
 
   - id: portugal-doc-001
     type: mcq
@@ -1510,17 +2301,25 @@ cards:
       fact_check: pass
       sources: [spec]
     en:
-      question: Which older Portuguese name still stands in for PDO on many bottles?
+      question: "Which traditional Portuguese term may be used for a wine within the DOP category?"
       choices:
-        - { text: "Vinho Regional only", correct: false }
-        - { text: "Vin de Pays", correct: false }
-        - { text: "Denominação de Origem Controlada (DOC)", correct: true }
-        - { text: "DOCG", correct: false }
+        - { text: "Denominação de Origem Controlada", correct: true }
+        - { text: "Indicação Geográfica Protegida", correct: false }
+        - { text: "Vinho Regional", correct: false }
+        - { text: "Vinho without a geographical indication", correct: false }
       explanation: |
-        **Denominação de Origem Controlada (DOC).** Portugal
-        kept the familiar DOC letters under the EU DOP umbrella,
-        as France kept AOC. Vinho Regional is PGI; DOCG is
-        Italian.
+        DOC, Denominação de Origem Controlada, is the established traditional term for many
+        Portuguese appellations. Legally these wines sit within the EU DOP framework.
+    fr:
+      question: "Quelle mention portugaise traditionnelle peut être employée pour un vin relevant de la catégorie DOP ?"
+      choices:
+        - { text: "Denominação de Origem Controlada", correct: true }
+        - { text: "Indicação Geográfica Protegida", correct: false }
+        - { text: "Vinho Regional", correct: false }
+        - { text: "Vinho sans indication géographique", correct: false }
+      explanation: |
+        DOC, Denominação de Origem Controlada, est la mention traditionnelle établie pour de
+        nombreuses appellations portugaises. Juridiquement, ces vins relèvent du cadre européen DOP.
 
   - id: portugal-igp-001
     type: mcq
@@ -1532,16 +2331,26 @@ cards:
       fact_check: pass
       sources: [spec]
     en:
-      question: On a Portuguese bottle, which phrase is the official PGI wording?
+      question: "What does IGP stand for on a Portuguese wine label?"
       choices:
-        - { text: "Denominação de Origem Protegida (DOP)", correct: false }
-        - { text: "Indicação Geográfica Protegida (IGP)", correct: true }
-        - { text: "Vinho, with no map at all", correct: false }
-        - { text: "Appellation d'origine protégée", correct: false }
+        - { text: "Indicação Geográfica Protegida", correct: true }
+        - { text: "Identificação Geral de Proveniência", correct: false }
+        - { text: "Indicação Garantida de Produção", correct: false }
+        - { text: "Inscrição Geográfica Portuguesa", correct: false }
       explanation: |
-        **Indicação Geográfica Protegida (IGP).** EU PGI in
-        Portuguese. DOP/DOC is the tighter PDO tier; lone Vinho
-        has no geography. AOP is French.
+        IGP is Portugal’s wording for the EU Protected Geographical Indication category. It protects
+        a regional origin while normally allowing more flexibility than a DOP.
+    fr:
+      question: "Que signifie IGP sur une étiquette de vin portugais ?"
+      choices:
+        - { text: "Indicação Geográfica Protegida", correct: true }
+        - { text: "Identificação Geral de Proveniência", correct: false }
+        - { text: "Indicação Garantida de Produção", correct: false }
+        - { text: "Inscrição Geográfica Portuguesa", correct: false }
+      explanation: |
+        IGP est la formulation portugaise correspondant à la catégorie européenne Indication
+        Géographique Protégée. Elle protège une origine régionale tout en offrant généralement
+        davantage de souplesse qu’une DOP.
 
   - id: portugal-vr-term-001
     type: mcq
@@ -1553,16 +2362,26 @@ cards:
       fact_check: pass
       sources: [spec]
     en:
-      question: Which older Portuguese phrase still appears as a synonym for IGP?
+      question: "Which traditional label term may identify a Portuguese IGP wine?"
       choices:
-        - { text: "Denominação de Origem Controlada", correct: false }
         - { text: "Vinho Regional", correct: true }
-        - { text: "Vinho, with no geographical indication", correct: false }
-        - { text: "Denominazione di origine controllata e garantita", correct: false }
+        - { text: "Denominação de Origem Controlada", correct: false }
+        - { text: "Vinho de Pago", correct: false }
+        - { text: "Denominação de Origem Calificada", correct: false }
       explanation: |
-        **Vinho Regional.** VR is the everyday IGP wording on
-        Portuguese bottles (Alentejano, Lisboa, Tejo). DOC is
-        PDO. Lone Vinho sits below both.
+        Vinho Regional remains a recognised traditional expression for the IGP category. A label may
+        therefore show names such as Vinho Regional Alentejano or the equivalent IGP wording.
+    fr:
+      question: "Quelle mention traditionnelle peut identifier un vin portugais d’IGP ?"
+      choices:
+        - { text: "Vinho Regional", correct: true }
+        - { text: "Denominação de Origem Controlada", correct: false }
+        - { text: "Vino de Pago", correct: false }
+        - { text: "Denominación de Origen Calificada", correct: false }
+      explanation: |
+        Vinho Regional reste une expression traditionnelle reconnue pour la catégorie IGP. Une
+        étiquette peut donc porter une mention comme Vinho Regional Alentejano ou la formulation IGP
+        équivalente.
 
   - id: portugal-vinho-001
     type: mcq
@@ -1574,16 +2393,25 @@ cards:
       fact_check: pass
       sources: [spec]
     en:
-      question: What does the lone word Vinho mean on a Portuguese label?
+      question: "What does the category Vinho indicate in Portugal’s geographical hierarchy?"
       choices:
-        - { text: "The wine is automatically a DOC", correct: false }
-        - { text: "Wine with no geographical indication", correct: true }
-        - { text: "A Port ageing grade", correct: false }
-        - { text: "Only sparkling wine from Bairrada", correct: false }
+        - { text: "Wine without DOP or IGP protection", correct: true }
+        - { text: "Wine from any DOP that has not been oak-aged", correct: false }
+        - { text: "Wine from a single estate within an IGP", correct: false }
+        - { text: "Wine meeting the highest national origin category", correct: false }
       explanation: |
-        **Wine with no geographical indication.** Grapes may
-        come from anywhere in the country; a Vinho label cannot
-        claim a DOC or VR place. Vinho is not a Port category.
+        Vinho is the generic category without a protected geographical indication. It does not by
+        itself signal a particular grape, style, sweetness or quality level.
+    fr:
+      question: "Que désigne la catégorie Vinho dans la hiérarchie géographique portugaise ?"
+      choices:
+        - { text: "Un vin sans protection DOP ni IGP", correct: true }
+        - { text: "Un vin de n’importe quelle DOP qui n’a pas été élevé sous bois", correct: false }
+        - { text: "Un vin issu d’un seul domaine au sein d’une IGP", correct: false }
+        - { text: "Un vin relevant de la catégorie d’origine nationale la plus élevée", correct: false }
+      explanation: |
+        Vinho est la catégorie générique sans indication géographique protégée. Elle ne signale en
+        elle-même ni cépage, ni style, ni niveau de douceur, ni niveau qualitatif particulier.
 
   - id: portugal-vinho-rose-001
     type: mcq
@@ -1595,15 +2423,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which everyday style has sold well as Portuguese Vinho with no GI?
+      question: "Which statement best describes a Portuguese wine labelled simply Vinho?"
       choices:
-        - { text: "Only Vintage Port", correct: false }
-        - { text: "Only barrel-fermented Encruzado from Dão", correct: false }
-        - { text: "Inexpensive, fruity, off-dry rosé", correct: true }
-        - { text: "Only icewine", correct: false }
+        - { text: "Any colour or style, without a protected geographical origin", correct: true }
+        - { text: "It must be an inexpensive off-dry rosé made from a prescribed national blend", correct: false }
+        - { text: "It must be a fortified wine produced in the Douro demarcated region", correct: false }
+        - { text: "It must be a varietal wine from one of the official DOP subregions", correct: false }
       explanation: |
-        **Inexpensive, fruity, off-dry rosé.** Cheap off-dry
-        pink wine, not a GI, is the usual commercial win for
-        lone Vinho. Sogrape’s Mateus Rosé (launched 1942, Vila
-        Real) is a named branded example of the style, not a
-        DOC rule.
+        Generic Vinho has historically included successful branded rosés, but the category is not
+        defined by rosé colour or sweetness. Its defining point is the absence of DOP or IGP
+        protection.
+
+    fr:
+      question: "Quelle affirmation décrit le mieux un vin portugais simplement étiqueté Vinho ?"
+      choices:
+        - { text: "Toute couleur et tout style, sans origine géographique protégée", correct: true }
+        - { text: "Il doit être un rosé demi-sec peu coûteux issu d’un assemblage national imposé", correct: false }
+        - { text: "Il doit être un vin fortifié produit dans la région délimitée du Douro", correct: false }
+        - { text: "Il doit être un vin de cépage issu d’une sous-région officielle de DOP", correct: false }
+      explanation: |
+        La catégorie générique Vinho a historiquement compris des rosés de marque à succès, mais
+        elle n’est définie ni par la couleur rosée ni par la douceur. Son élément déterminant est
+        l’absence de protection DOP ou IGP.

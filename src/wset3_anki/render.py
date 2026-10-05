@@ -14,7 +14,11 @@ LETTERS = "ABCDEFGHIJ"
 
 @lru_cache(maxsize=1)
 def _md() -> markdown.Markdown:
-    return markdown.Markdown(extensions=["extra", "sane_lists", "nl2br"])
+    # Markdown's normal soft line breaks must remain soft: YAML literal blocks
+    # are wrapped for source readability, and browsers should reflow those
+    # lines to the available card width. Blank lines still create paragraphs,
+    # while an intentional hard break can be written with Markdown syntax.
+    return markdown.Markdown(extensions=["extra", "sane_lists"])
 
 
 def render_markdown(text: str) -> str:

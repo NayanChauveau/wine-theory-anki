@@ -106,6 +106,23 @@ def test_render_markdown_bold() -> None:
     assert "<strong>mouth-watering</strong>" in render_markdown("**mouth-watering**")
 
 
+def test_render_markdown_soft_wrapped_lines_reflow() -> None:
+    rendered = render_markdown(
+        "A domain can farm many scattered parcels planted with\n"
+        "several grape varieties. Harvest can span several weeks."
+    )
+
+    assert "<br" not in rendered
+    assert rendered.startswith("<p>")
+    assert rendered.endswith("</p>")
+
+
+def test_render_markdown_blank_line_starts_a_new_paragraph() -> None:
+    rendered = render_markdown("First paragraph.\n\nSecond paragraph.")
+
+    assert rendered == "<p>First paragraph.</p>\n<p>Second paragraph.</p>"
+
+
 def test_mcq_choices_carry_stable_indexes() -> None:
     card = make_mcq()
     front = render_choices_front(card.en.choices, card.id)

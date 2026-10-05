@@ -22,6 +22,10 @@ Quality pass on a whole chapter (foils, length, Why, French sense, isolated stem
 - **Choice length** must not give the answer away. The keyed choice must not be the obvious longest or the only detailed sentence. Prefer a short key and put the extra clause in Why; or write foils of the same class at a similar length. A glance at the block should not pick the winner.
 - Use `basic` for a simple prompt/response and `cloze` for lists you must recall in order (AOCs, grapes).
 - Markdown is allowed in questions and explanations (`**bold**`, lists, short paragraphs).
+- A single newline inside a Markdown paragraph is only source wrapping and is
+  reflowed by Anki to fit the screen. Use a blank line to start a real new
+  paragraph; use Markdown's explicit hard-break syntax only when the visual
+  line break is intentional.
 - Always quote choice `text` if it contains a comma: `{ text: "High alcohol, low acidity", correct: false }`. Otherwise YAML treats the comma as a new key.
 
 ## IDs, decks, and status

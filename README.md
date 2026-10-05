@@ -31,6 +31,9 @@ The project is a work in progress. English coverage is currently broader than Fr
 coverage. Draft cards are excluded from normal builds, and cards without a `fr:` block
 are omitted from the French package.
 
+See the [project roadmap and completion checklist](ROADMAP.md) for the current migration,
+translation and quality-review status.
+
 ## Use the ready-made deck
 
 The easiest option does not require Python or any development tools.

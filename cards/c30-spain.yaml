@@ -802,13 +802,13 @@ cards:
       question: "Quelle approche de vinification convient le mieux à un Tempranillo concentré destiné à vieillir en bouteille ?"
       choices:
         - { text: "Une courte macération suivie d’une mise immédiate", correct: false }
-        - { text: "Une extraction complète suivie d’un élevage en fût et en bouteille", correct: true }
+        - { text: "Une extraction poussée suivie d’un élevage en fût et en bouteille", correct: true }
         - { text: "Un pressurage direct suivi d’une fermentation fraîche", correct: false }
         - { text: "Une prise de mousse suivie d’une commercialisation rapide", correct: false }
       explanation: |
-        Un Tempranillo mûr peut supporter une extraction importante et un élevage sous bois. Le
-        temps passé en fût puis en bouteille permet aux tanins de s’intégrer et aux arômes
-        tertiaires savoureux de se développer.
+        Un Tempranillo mûr peut se prêter à une extraction importante et à un élevage sous bois. Le
+        temps passé en fût puis en bouteille permet aux tanins de s’intégrer et à des arômes
+        tertiaires complexes de se développer.
 
   - id: spain-tempranillo-blend-001
     type: mcq
@@ -962,7 +962,7 @@ cards:
       question: "Quel profil décrit le mieux un rouge haut de gamme typique de Priorat ?"
       choices:
         - { text: "Robe pâle, corps léger et faible alcool", correct: false }
-        - { text: "Corps plein, forte concentration et alcool élevé", correct: true }
+        - { text: "Corps puissant, forte concentration et alcool élevé", correct: true }
         - { text: "Corps léger, caractère végétal et forte acidité", correct: false }
         - { text: "Demi-doux, peu tannique et floral", correct: false }
       explanation: |
@@ -1127,7 +1127,7 @@ cards:
         - { text: "Robe moyenne, faible alcool et griotte", correct: false }
       explanation: |
         Les sites chauds permettent à ce cépage tardif de développer une couleur profonde, des
-        tanins élevés, un corps plein et un fruit noir généreux. Le degré d’alcool est souvent élevé
+        tanins élevés, un corps puissant et un fruit noir généreux. Le degré d’alcool est souvent élevé
         et l’acidité modérée.
 
   - id: spain-graciano-map-001
@@ -1350,7 +1350,7 @@ cards:
       explanation: |
         Le Cariñena peut apporter à la fois une forte acidité, des tanins fermes et beaucoup de
         couleur. De vieilles vignes aux rendements limités peuvent aussi donner un fruit concentré
-        aux nuances savoureuses.
+        aux notes épicées et herbacées.
 
   - id: spain-carinena-blend-001
     type: mcq
@@ -2000,27 +2000,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: "How can premium Albariño differ from a simple, early-drinking Rías Baixas style?"
+      question: "Which production choice can give premium Rías Baixas Albariño more texture and complexity?"
       choices:
-        - { text: "It must be sweetened before bottling", correct: false }
-        - { text: "It can gain body and complexity from lees or bottle ageing", correct: true }
-        - { text: "It becomes a tannic red through longer maceration", correct: false }
-        - { text: "It loses acidity through mandatory fortification", correct: false }
+        - { text: "Early clarification and immediate bottling", correct: false }
+        - { text: "Lees ageing and bottle maturation", correct: true }
+        - { text: "Brief cold settling and rapid release", correct: false }
+        - { text: "Direct pressing and early filtration", correct: false }
       explanation: |
         Concentrated fruit, lees contact and time in bottle can produce fuller texture and more
         complex savoury aromas while the grape’s acidity preserves freshness.
 
     fr:
-      question: "En quoi un Albariño haut de gamme peut-il différer d’un Rías Baixas simple destiné à être bu jeune ?"
+      question: "Quel choix de production peut apporter davantage de texture et de complexité à un Albariño haut de gamme de Rías Baixas ?"
       choices:
-        - { text: "Il doit être édulcoré avant la mise en bouteille", correct: false }
-        - { text: "Il peut gagner en corps et en complexité grâce aux lies ou à la garde en bouteille", correct: true }
-        - { text: "Il devient rouge et tannique après une macération plus longue", correct: false }
-        - { text: "Il perd son acidité à la suite d’un mutage obligatoire", correct: false }
+        - { text: "Clarification précoce et mise en bouteille immédiate", correct: false }
+        - { text: "Élevage sur lies et garde en bouteille", correct: true }
+        - { text: "Débourbage bref et commercialisation rapide", correct: false }
+        - { text: "Pressurage direct et filtration précoce", correct: false }
       explanation: |
         Un fruit concentré, le contact avec les lies et le temps passé en bouteille peuvent donner
-        une texture plus ample et des arômes plus complexes et légèrement évolués, tandis que l’acidité du
-        cépage préserve la fraîcheur.
+        une texture plus ample et des arômes plus complexes et légèrement évolués, tandis que
+        l’acidité du cépage préserve la fraîcheur.
 
   - id: spain-airen-workhorse-001
     type: mcq
@@ -2546,6 +2546,17 @@ cards:
         Castilla y León contains Ribera del Duero, Rueda, Toro and several other denominations. It
         should not be confused with Castilla-La Mancha on the southern plateau.
 
+    fr:
+      question: "Quelle communauté autonome couvre la majeure partie de la Meseta septentrionale et le bassin moyen du Duero ?"
+      choices:
+        - { text: "Castilla-La Mancha", correct: false }
+        - { text: "Castilla y León", correct: true }
+        - { text: "La Rioja", correct: false }
+        - { text: "Aragón", correct: false }
+      explanation: |
+        Castilla y León comprend Ribera del Duero, Rueda, Toro et plusieurs autres dénominations. Il
+        ne faut pas la confondre avec Castilla-La Mancha, située sur le plateau méridional.
+
   - id: spain-rioja-city-001
     type: mcq
     deck: Spain
@@ -2565,6 +2576,17 @@ cards:
       explanation: |
         Logroño lies on the Ebro and near the meeting point of Rioja’s western and eastern zones.
         Haro, farther west, is another historic centre for bodegas.
+
+    fr:
+      question: "Quelle ville est le principal centre commercial de la région viticole de Rioja ?"
+      choices:
+        - { text: "Valladolid", correct: false }
+        - { text: "Logroño", correct: true }
+        - { text: "Pontevedra", correct: false }
+        - { text: "Murcia", correct: false }
+      explanation: |
+        Logroño se trouve sur l’Èbre, près de la jonction entre les zones occidentales et orientales
+        de Rioja. Plus à l’ouest, Haro constitue un autre centre historique de bodegas.
 
   - id: spain-rioja-zonas-count-001
     type: mcq
@@ -2586,6 +2608,18 @@ cards:
         The three zone names can appear on labels when the relevant requirements are met. Rioja
         Oriental replaced the former official name Rioja Baja.
 
+    fr:
+      question: "Quel groupe réunit les trois zones de production officielles de Rioja ?"
+      choices:
+        - { text: "Rioja Norte, Rioja Centro et Rioja Sur", correct: false }
+        - { text: "Rioja Alta, Rioja Alavesa et Rioja Oriental", correct: true }
+        - { text: "Rioja Superior, Rioja Clásica et Rioja Baja", correct: false }
+        - { text: "Rioja Cantábrica, Rioja del Ebro et Rioja Mediterránea", correct: false }
+      explanation: |
+        Ces trois noms de zone peuvent figurer sur l’étiquette lorsque les conditions
+        correspondantes sont respectées. Rioja Oriental a remplacé l’ancienne dénomination
+        officielle Rioja Baja.
+
   - id: spain-rioja-zonas-001
     type: mcq
     deck: Spain
@@ -2605,6 +2639,18 @@ cards:
       explanation: |
         The Consejo Regulador adopted Rioja Oriental to replace Rioja Baja. The zone lies mainly
         east of Logroño and has a warmer, drier influence than western Rioja.
+
+    fr:
+      question: "Quel est le nom officiel actuel de la zone de Rioja autrefois appelée Rioja Baja ?"
+      choices:
+        - { text: "Rioja del Ebro", correct: false }
+        - { text: "Rioja Oriental", correct: true }
+        - { text: "Rioja Inferior", correct: false }
+        - { text: "Rioja Mediterránea", correct: false }
+      explanation: |
+        Le Consejo Regulador a adopté le nom Rioja Oriental pour remplacer Rioja Baja. Cette zone se
+        trouve principalement à l’est de Logroño et subit une influence plus chaude et plus sèche
+        que l’ouest de Rioja.
 
   - id: spain-alavesa-map-001
     type: mcq
@@ -2626,6 +2672,17 @@ cards:
         Rioja Alavesa forms the northern part of western Rioja and lies within the Basque province
         of Álava. Its elevated sites receive relatively strong Atlantic influence.
 
+    fr:
+      question: "Quelle zone de Rioja se trouve principalement au nord de l’Èbre, au pied des monts Cantabriques ?"
+      choices:
+        - { text: "Rioja Oriental", correct: false }
+        - { text: "Rioja Alavesa", correct: true }
+        - { text: "Rioja Alta", correct: false }
+        - { text: "Rioja Baja", correct: false }
+      explanation: |
+        Rioja Alavesa forme la partie nord de l’ouest de Rioja et appartient à la province basque
+        d’Álava. Ses sites élevés reçoivent une influence atlantique relativement marquée.
+
   - id: spain-alavesa-style-001
     type: mcq
     deck: Spain
@@ -2645,6 +2702,18 @@ cards:
       explanation: |
         Higher elevation and Atlantic influence generally support freshness and aromatic finesse.
         Producer choices and individual sites create many exceptions to this broad comparison.
+
+    fr:
+      question: "Quel profil est traditionnellement associé à Rioja Alavesa par comparaison avec la Rioja Oriental plus chaude ?"
+      choices:
+        - { text: "Plus de corps, moins d’acidité et des fruits noirs plus mûrs", correct: false }
+        - { text: "Corps plus léger, acidité plus fraîche et davantage de finesse", correct: true }
+        - { text: "Alcool plus élevé, arômes plus discrets et acidité plus souple", correct: false }
+        - { text: "Fruit plus doux, tanins plus faibles et caractère oxydatif", correct: false }
+      explanation: |
+        Une altitude supérieure et l’influence atlantique favorisent généralement la fraîcheur et la
+        finesse aromatique. Les choix du producteur et les particularités de chaque site créent
+        cependant de nombreuses exceptions.
 
   - id: spain-alta-map-001
     type: mcq
@@ -2666,6 +2735,17 @@ cards:
         Rioja Alta occupies much of western Rioja on the Ebro’s south side. Its elevated vineyards
         combine continental conditions with Atlantic moderation.
 
+    fr:
+      question: "Quelle zone de Rioja se trouve principalement à l’ouest de Logroño et au sud de l’Èbre ?"
+      choices:
+        - { text: "Rioja Alavesa", correct: false }
+        - { text: "Rioja Alta", correct: true }
+        - { text: "Rioja Oriental", correct: false }
+        - { text: "Rioja Baja", correct: false }
+      explanation: |
+        Rioja Alta occupe une grande partie de l’ouest de Rioja sur la rive sud de l’Èbre. Ses
+        vignobles élevés associent des conditions continentales à une modération atlantique.
+
   - id: spain-alavesa-area-001
     type: mcq
     deck: Spain
@@ -2686,6 +2766,17 @@ cards:
         Rioja Alavesa is geographically compact compared with Rioja Alta and Rioja Oriental. Its
         reputation is nevertheless disproportionate to its planted area.
 
+    fr:
+      question: "Laquelle des trois zones officielles de Rioja possède la plus petite surface de vignoble ?"
+      choices:
+        - { text: "Rioja Oriental", correct: false }
+        - { text: "Rioja Alavesa", correct: true }
+        - { text: "Rioja Alta", correct: false }
+        - { text: "Rioja Baja", correct: false }
+      explanation: |
+        Rioja Alavesa est géographiquement plus compacte que Rioja Alta et Rioja Oriental. Sa
+        réputation dépasse néanmoins largement sa part de la surface plantée.
+
   - id: spain-rioja-west-altitude-001
     type: mcq
     deck: Spain
@@ -2705,6 +2796,18 @@ cards:
       explanation: |
         Rioja Alta and Rioja Alavesa sit farther west and include many elevated sites. Atlantic
         influence and cool nights help Tempranillo retain acidity.
+
+    fr:
+      question: "Quel couple réunit les zones occidentales de Rioja, généralement plus fraîches et plus élevées ?"
+      choices:
+        - { text: "Rioja Oriental et Rioja Baja", correct: false }
+        - { text: "Rioja Alta et Rioja Alavesa", correct: true }
+        - { text: "Rioja Alta et Rioja Oriental", correct: false }
+        - { text: "Rioja Alavesa et Rioja Oriental", correct: false }
+      explanation: |
+        Rioja Alta et Rioja Alavesa sont situées plus à l’ouest et comprennent de nombreux sites
+        d’altitude. L’influence atlantique et les nuits fraîches aident le Tempranillo à conserver
+        son acidité.
 
   - id: spain-rioja-moderate-001
     type: mcq
@@ -2727,6 +2830,18 @@ cards:
         increases diurnal range. The Cantabrian Mountains still provide important shelter from heavy
         rain.
 
+    fr:
+      question: "Quelle combinaison tempère le plus la chaleur estivale dans l’ouest de Rioja ?"
+      choices:
+        - { text: "Humidité méditerranéenne et faible altitude", correct: false }
+        - { text: "Influence atlantique et altitude des vignobles", correct: true }
+        - { text: "Vents chauds d’est et sols fertiles de fond de vallée", correct: false }
+        - { text: "Faibles précipitations et versants sud abrités", correct: false }
+      explanation: |
+        Les perturbations atlantiques peuvent entrer par l’ouest, tandis que l’altitude abaisse les
+        températures moyennes et accroît l’amplitude thermique. Les monts Cantabriques protègent
+        néanmoins la région des pluies les plus fortes.
+
   - id: spain-rioja-cantabrian-001
     type: mcq
     deck: Spain
@@ -2746,6 +2861,17 @@ cards:
       explanation: |
         The Cantabrian Mountains form a barrier to the north. This rain shadow helps Rioja achieve
         reliable ripening despite its proximity to the Atlantic coast.
+
+    fr:
+      question: "Quelle chaîne de montagnes protège Rioja des conditions fraîches et humides venant du golfe de Gascogne ?"
+      choices:
+        - { text: "Le Sistema Central", correct: false }
+        - { text: "Les monts Cantabriques", correct: true }
+        - { text: "La Sierra Nevada", correct: false }
+        - { text: "Les Montes de Toledo", correct: false }
+      explanation: |
+        Les monts Cantabriques forment une barrière au nord. L’ombre pluviométrique qui en résulte
+        permet une maturation régulière malgré la proximité relative de l’Atlantique.
 
   - id: spain-oriental-map-001
     type: mcq
@@ -2767,6 +2893,17 @@ cards:
         Rioja Oriental is the easternmost and generally warmest zone. It was officially known as
         Rioja Baja before the name change.
 
+    fr:
+      question: "Quelle zone de Rioja s’étend à l’est de Logroño dans la partie plus chaude du bas Èbre ?"
+      choices:
+        - { text: "Rioja Alta", correct: false }
+        - { text: "Rioja Oriental", correct: true }
+        - { text: "Rioja Alavesa", correct: false }
+        - { text: "Rioja Cantábrica", correct: false }
+      explanation: |
+        Rioja Oriental est la zone la plus orientale et généralement la plus chaude. Avant le
+        changement de nom, elle était officiellement appelée Rioja Baja.
+
   - id: spain-oriental-climate-001
     type: mcq
     deck: Spain
@@ -2786,6 +2923,18 @@ cards:
       explanation: |
         Distance from the Atlantic and lower elevation make the eastern zone warmer and drier.
         Continental temperature variation remains important inland.
+
+    fr:
+      question: "En quoi le climat de Rioja Oriental diffère-t-il généralement de celui de Rioja Alta et Rioja Alavesa ?"
+      choices:
+        - { text: "Il est plus frais, plus humide et davantage atlantique", correct: false }
+        - { text: "Il est plus chaud, plus sec et davantage influencé par la Méditerranée", correct: true }
+        - { text: "Il est plus frais, plus sec et nettement plus continental", correct: false }
+        - { text: "Il est plus humide, plus chaud et moins exposé à la sécheresse", correct: false }
+      explanation: |
+        L’éloignement de l’Atlantique et une altitude plus faible rendent la zone orientale plus
+        chaude et plus sèche. Les variations de température continentales restent importantes dans
+        les terres.
 
   - id: spain-rioja-drought-001
     type: mcq
@@ -2807,6 +2956,18 @@ cards:
         Rainfall is lower and evapotranspiration higher than in western Rioja. Irrigation is
         permitted under regulated conditions and is increasingly important in dry years.
 
+    fr:
+      question: "Quelle contrainte environnementale limite le plus souvent les rendements en Rioja Oriental ?"
+      choices:
+        - { text: "Des pluies excessives pendant toute la saison végétative", correct: false }
+        - { text: "La sécheresse et la faible disponibilité en eau", correct: true }
+        - { text: "Un brouillard côtier persistant pendant la floraison", correct: false }
+        - { text: "Des argiles gorgées d’eau après les orages estivaux", correct: false }
+      explanation: |
+        Les précipitations sont plus faibles et l’évapotranspiration plus élevée que dans l’ouest de
+        Rioja. L’irrigation est autorisée dans un cadre réglementé et prend davantage d’importance
+        pendant les années sèches.
+
   - id: spain-rioja-tempranillo-lead-001
     type: mcq
     deck: Spain
@@ -2826,6 +2987,17 @@ cards:
       explanation: |
         Tempranillo is the foundation of most Rioja reds. Garnacha, Graciano and Mazuelo can add
         body, aroma, acidity, colour or tannin in blends.
+
+    fr:
+      question: "Quel cépage représente la plus grande part des plantations noires de la DOCa Rioja ?"
+      choices:
+        - { text: "Garnacha Tinta", correct: false }
+        - { text: "Tempranillo", correct: true }
+        - { text: "Graciano", correct: false }
+        - { text: "Mazuelo", correct: false }
+      explanation: |
+        Le Tempranillo constitue la base de la plupart des rouges de Rioja. Dans les assemblages,
+        Garnacha, Graciano et Mazuelo peuvent apporter corps, arômes, acidité, couleur ou tanins.
 
   - id: spain-rioja-tempranillo-west-001
     type: mcq
@@ -2847,6 +3019,18 @@ cards:
         Cooler nights and Atlantic influence in the western zones slow acid loss. Warm eastern sites
         can give riper fruit and fuller body.
 
+    fr:
+      question: "Où le Tempranillo a-t-il le plus de chances de conserver une acidité fraîche et un fruit rouge précis en Rioja ?"
+      choices:
+        - { text: "Sur les sites bas et chauds de Rioja Oriental", correct: false }
+        - { text: "Sur les sites plus élevés de Rioja Alta et Rioja Alavesa", correct: true }
+        - { text: "Dans les fonds de vallée fertiles du bas Èbre", correct: false }
+        - { text: "Dans les vignobles les plus secs exposés au sud près d’Alfaro", correct: false }
+      explanation: |
+        Les nuits plus fraîches et l’influence atlantique des zones occidentales ralentissent la
+        perte d’acidité. Les sites orientaux plus chauds peuvent donner un fruit plus mûr et
+        davantage de corps.
+
   - id: spain-rioja-tempranillo-profile-001
     type: mcq
     deck: Spain
@@ -2866,6 +3050,18 @@ cards:
       explanation: |
         Tempranillo commonly gives medium acidity and tannin with red-fruit flavours. Oak and bottle
         ageing can add vanilla, leather and savoury complexity.
+
+    fr:
+      question: "Quel profil est caractéristique d’un Tempranillo cultivé sur un site équilibré de Rioja ?"
+      choices:
+        - { text: "Peu de tanins, robe pâle et fruits tropicaux", correct: false }
+        - { text: "Tanins moyens, prune rouge et fraise", correct: true }
+        - { text: "Très forte acidité et fruit vert végétal", correct: false }
+        - { text: "Robe profonde et arômes floraux de Muscat", correct: false }
+      explanation: |
+        Le Tempranillo donne généralement une acidité et des tanins moyens avec des arômes de fruits
+        rouges. L’élevage sous bois et en bouteille peut ajouter vanille, cuir et complexité
+        tertiaire.
 
   - id: spain-rioja-garnacha-blend-001
     type: mcq
@@ -2887,6 +3083,17 @@ cards:
         Garnacha ripens readily in warmer sites and contributes generous fruit, body and alcohol.
         Its tannin and colour are generally less intense than Mazuelo’s.
 
+    fr:
+      question: "Qu’apporte couramment la Garnacha à un assemblage de Rioja dominé par le Tempranillo ?"
+      choices:
+        - { text: "Davantage d’acidité et moins d’alcool", correct: false }
+        - { text: "Corps, alcool et fruits rouges mûrs", correct: true }
+        - { text: "Robe profonde et tanins très fermes", correct: false }
+        - { text: "Arômes végétaux et corps plus léger", correct: false }
+      explanation: |
+        La Garnacha mûrit facilement sur les sites chauds et apporte un fruit généreux, du corps et
+        de l’alcool. Ses tanins et sa couleur sont généralement moins intenses que ceux du Mazuelo.
+
   - id: spain-rioja-garnacha-east-001
     type: mcq
     deck: Spain
@@ -2906,6 +3113,17 @@ cards:
       explanation: |
         Garnacha is well adapted to the warmer, drier conditions of Rioja Oriental. It can be
         blended with Tempranillo or used for varietal reds and rosados.
+
+    fr:
+      question: "Dans quelle zone de Rioja la Garnacha a-t-elle traditionnellement joué le rôle le plus important ?"
+      choices:
+        - { text: "Rioja Alta", correct: false }
+        - { text: "Rioja Oriental", correct: true }
+        - { text: "Rioja Alavesa", correct: false }
+        - { text: "Rioja Cantábrica", correct: false }
+      explanation: |
+        La Garnacha est bien adaptée aux conditions plus chaudes et plus sèches de Rioja Oriental.
+        Elle peut être assemblée au Tempranillo ou produire des rouges et des rosados de cépage.
 
   - id: spain-rioja-support-001
     type: mcq
@@ -2927,6 +3145,18 @@ cards:
         Mazuelo contributes acidity, colour and tannin, while Graciano adds freshness, perfume and
         ageing potential. Both occupy much less vineyard area than Tempranillo.
 
+    fr:
+      question: "Quels deux cépages traditionnels de Rioja complètent souvent Tempranillo et Garnacha dans les assemblages rouges ?"
+      choices:
+        - { text: "Bobal et Monastrell", correct: false }
+        - { text: "Mazuelo et Graciano", correct: true }
+        - { text: "Mencía et Prieto Picudo", correct: false }
+        - { text: "Cabernet Franc et Petit Verdot", correct: false }
+      explanation: |
+        Le Mazuelo apporte acidité, couleur et tanins, tandis que le Graciano ajoute fraîcheur,
+        parfum et aptitude à la garde. Tous deux occupent beaucoup moins de surface que le
+        Tempranillo.
+
   - id: spain-rioja-semicarb-001
     type: mcq
     deck: Spain
@@ -2946,6 +3176,18 @@ cards:
       explanation: |
         Rioja Alavesa is particularly associated with cosechero wines fermented with whole bunches.
         The method creates vivid fruit and soft tannins for early drinking.
+
+    fr:
+      question: "Quelle zone de Rioja possède une forte tradition de rouges jeunes issus de macération carbonique ou semi-carbonique ?"
+      choices:
+        - { text: "Rioja Oriental", correct: false }
+        - { text: "Rioja Alavesa", correct: true }
+        - { text: "Rioja Alta", correct: false }
+        - { text: "Rioja Baja", correct: false }
+      explanation: |
+        Rioja Alavesa est particulièrement associée aux vins de cosechero fermentés avec des grappes
+        entières. La méthode donne un fruit éclatant et des tanins souples pour une consommation
+        précoce.
 
   - id: spain-rioja-semicarb-style-001
     type: mcq
@@ -2968,6 +3210,18 @@ cards:
         limited skin extraction keeps tannins soft. These wines are not designed for prolonged
         maturation.
 
+    fr:
+      question: "Quel profil résulte d’une macération carbonique ou semi-carbonique dans un jeune rouge de Rioja ?"
+      choices:
+        - { text: "Tanins fermes, fruit discret et arômes oxydatifs", correct: false }
+        - { text: "Fruit rouge éclatant, tanins faibles et consommation précoce", correct: true }
+        - { text: "Robe profonde, tanins élevés et long caractère boisé", correct: false }
+        - { text: "Arômes de noix, faible acidité et sucre résiduel", correct: false }
+      explanation: |
+        La fermentation intracellulaire dans les baies intactes produit des arômes caractéristiques
+        de fruit frais, tandis qu’une extraction pelliculaire limitée maintient des tanins souples.
+        Ces vins ne sont pas destinés à un long élevage.
+
   - id: spain-rioja-age-ferment-001
     type: mcq
     deck: Spain
@@ -2987,6 +3241,18 @@ cards:
       explanation: |
         Destemming and crushing allow controlled extraction during alcoholic fermentation.
         Maceration length and cap management can then be adjusted to the desired structure.
+
+    fr:
+      question: "Comment les raisins sont-ils généralement préparés pour un rouge structuré de Rioja destiné à vieillir ?"
+      choices:
+        - { text: "Les grappes entières sont enfermées pour une macération carbonique", correct: false }
+        - { text: "Ils sont éraflés et foulés avant la fermentation", correct: true }
+        - { text: "Ils sont pressés immédiatement sans contact pelliculaire", correct: false }
+        - { text: "Ils sont séchés après la récolte avant le mutage", correct: false }
+      explanation: |
+        L’éraflage et le foulage permettent de maîtriser l’extraction pendant la fermentation
+        alcoolique. La durée de macération et le travail du chapeau peuvent ensuite être adaptés à
+        la structure recherchée.
 
   - id: spain-rioja-extract-how-001
     type: mcq
@@ -3008,6 +3274,18 @@ cards:
         More time on the skins and active pumping over or punching down extract additional colour,
         tannin and flavour. Excessive extraction can make the wine coarse.
 
+    fr:
+      question: "Quel choix augmenterait l’extraction dans un rouge moderne de Rioja ?"
+      choices:
+        - { text: "Une courte macération avec peu de travail du chapeau", correct: false }
+        - { text: "Une macération plus longue avec un travail plus intense du chapeau", correct: true }
+        - { text: "Un pressurage direct avant la fermentation alcoolique", correct: false }
+        - { text: "Un débourbage à froid suivi d’une fermentation sans pellicules", correct: false }
+      explanation: |
+        Un contact prolongé avec les pellicules et des remontages ou pigeages actifs extraient
+        davantage de couleur, de tanins et d’arômes. Une extraction excessive peut rendre le vin
+        grossier.
+
   - id: spain-rioja-extract-result-001
     type: mcq
     deck: Spain
@@ -3027,6 +3305,18 @@ cards:
       explanation: |
         Extended, active skin contact extracts more anthocyanins and tannins. Ripe fruit and careful
         handling are needed to keep that structure balanced.
+
+    fr:
+      question: "Quel est le résultat probable d’une macération longue et d’un travail intense du chapeau dans un rouge de Rioja ?"
+      choices:
+        - { text: "Une robe plus pâle et moins de tanins", correct: false }
+        - { text: "Une robe plus profonde et une structure tannique plus importante", correct: true }
+        - { text: "Moins d’alcool et davantage de sucre résiduel", correct: false }
+        - { text: "Moins de concentration fruitée et une maturité plus précoce", correct: false }
+      explanation: |
+        Un contact pelliculaire prolongé et actif extrait davantage d’anthocyanes et de tanins. Un
+        fruit mûr et une manipulation soigneuse sont nécessaires pour maintenir l’équilibre de cette
+        structure.
 
   - id: spain-rioja-elegant-001
     type: mcq
@@ -3048,6 +3338,17 @@ cards:
         Earlier picking at balanced ripeness, careful extraction and less dominant oak can emphasise
         site, freshness and fine tannin rather than sheer power.
 
+    fr:
+      question: "Quelle approche reflète la recherche d’un style rouge plus élégant par certains producteurs de Rioja ?"
+      choices:
+        - { text: "Des vendanges plus tardives et un maximum d’arômes de bois neuf", correct: false }
+        - { text: "Une extraction plus douce et un boisé plus discret", correct: true }
+        - { text: "Des rendements plus élevés et une maturation plus courte", correct: false }
+        - { text: "Une oxydation volontaire avant la fermentation", correct: false }
+      explanation: |
+        Une récolte à maturité équilibrée, une extraction soignée et un bois moins dominant peuvent
+        mettre en avant le site, la fraîcheur et des tanins fins plutôt que la seule puissance.
+
   - id: spain-rioja-american-oak-001
     type: mcq
     deck: Spain
@@ -3067,6 +3368,18 @@ cards:
       explanation: |
         American oak became a hallmark of traditional Rioja, often contributing vanilla, coconut and
         sweet spice. Older barrels and long bottle ageing soften its impact.
+
+    fr:
+      question: "Quelle origine de chêne est la plus étroitement associée aux rouges traditionnels de Rioja longuement élevés ?"
+      choices:
+        - { text: "Chêne de Slavonie", correct: false }
+        - { text: "Chêne américain", correct: true }
+        - { text: "Châtaignier", correct: false }
+        - { text: "Acacia", correct: false }
+      explanation: |
+        Le chêne américain est devenu une signature de la Rioja traditionnelle, apportant souvent
+        vanille, noix de coco et épices douces. Des fûts plus anciens et un long élevage en
+        bouteille en atténuent l’impact.
 
   - id: spain-rioja-french-oak-001
     type: mcq
@@ -3088,6 +3401,17 @@ cards:
         French oak is now widespread, either alone or alongside American oak. Barrel age, size and
         toast level matter as much as geographical origin.
 
+    fr:
+      question: "Quel choix de bois est courant dans la Rioja moderne lorsqu’un producteur recherche un grain plus fin et moins de noix de coco ?"
+      choices:
+        - { text: "Une majorité de chêne américain neuf", correct: false }
+        - { text: "Du chêne français ou provenant d’autres forêts européennes", correct: true }
+        - { text: "Des fûts de châtaignier non séché", correct: false }
+        - { text: "Des fûts d’acacia pour un long élevage des rouges", correct: false }
+      explanation: |
+        Le chêne français est aujourd’hui répandu, seul ou associé au chêne américain. L’âge et la
+        taille du fût ainsi que son niveau de chauffe comptent autant que son origine géographique.
+
   - id: spain-rioja-french-spice-001
     type: mcq
     deck: Spain
@@ -3107,6 +3431,18 @@ cards:
       explanation: |
         French oak is often perceived as less overtly sweet and coconut-like than American oak. Its
         finer-grained tannin can also shape texture.
+
+    fr:
+      question: "Par rapport au chêne américain neuf, quel caractère le chêne français apporte-t-il plus volontiers à un Rioja ?"
+      choices:
+        - { text: "Davantage de noix de coco et de vanille douce", correct: false }
+        - { text: "Des notes plus discrètes de cèdre, de pain grillé et d’épices", correct: true }
+        - { text: "Une acidité plus élevée et moins d’alcool", correct: false }
+        - { text: "Un fruit plus mûr et des tanins de raisin plus souples", correct: false }
+      explanation: |
+        Le chêne français est souvent perçu comme moins ouvertement doux et marqué par la noix de
+        coco que le chêne américain. Ses tanins au grain plus fin peuvent également façonner la
+        texture.
 
   - id: spain-rioja-white-list-001
     type: mcq
@@ -3128,6 +3464,17 @@ cards:
         Rioja expanded its authorised white varieties to encourage a broader range of styles. Viura
         remains the region’s dominant traditional white grape.
 
+    fr:
+      question: "Quel groupe réunit trois cépages internationaux ou non traditionnels autorisés pour les Riojas blancs ?"
+      choices:
+        - { text: "Albariño, Godello et Treixadura", correct: false }
+        - { text: "Chardonnay, Sauvignon Blanc et Verdejo", correct: true }
+        - { text: "Airén, Palomino et Pedro Ximénez", correct: false }
+        - { text: "Riesling, Chenin Blanc et Pinot Gris", correct: false }
+      explanation: |
+        La Rioja a élargi sa liste de cépages blancs autorisés afin d’encourager une plus grande
+        diversité de styles. Le Viura reste le principal cépage blanc traditionnel de la région.
+
   - id: spain-rioja-viura-lead-001
     type: mcq
     deck: Spain
@@ -3147,6 +3494,17 @@ cards:
       explanation: |
         Viura occupies most of Rioja’s white vineyard area and supports both fresh, unoaked wines
         and long-lived barrel-aged styles.
+
+    fr:
+      question: "Quel cépage reste le principal cépage blanc de Rioja malgré l’élargissement de la liste autorisée ?"
+      choices:
+        - { text: "Verdejo", correct: false }
+        - { text: "Viura", correct: true }
+        - { text: "Chardonnay", correct: false }
+        - { text: "Sauvignon Blanc", correct: false }
+      explanation: |
+        Le Viura occupe la majorité de la surface de cépages blancs en Rioja et peut produire aussi
+        bien des vins frais non boisés que des styles élevés en fût et aptes à une longue garde.
 
   - id: spain-rioja-white-trad-how-001
     type: mcq
@@ -3168,6 +3526,18 @@ cards:
         Extended time in oak, historically American oak, develops savoury and oxidative complexity.
         The style relies on Viura’s ability to evolve over a long period.
 
+    fr:
+      question: "Quel mode d’élevage définit le style traditionnel des Riojas blancs ?"
+      choices:
+        - { text: "Un bref élevage en cuve inerte à l’abri de l’oxygène", correct: false }
+        - { text: "Un long élevage en chêne américain avec une oxydation maîtrisée", correct: true }
+        - { text: "Un élevage biologique sous voile dans des fûts non remplis", correct: false }
+        - { text: "Une seconde fermentation en bouteille suivie d’un élevage sur lies", correct: false }
+      explanation: |
+        Un long passage sous bois, historiquement en chêne américain, développe une complexité
+        évoluée et oxydative. Ce style repose sur la capacité du Viura à évoluer pendant une longue
+        période.
+
   - id: spain-rioja-white-trad-style-001
     type: mcq
     deck: Spain
@@ -3187,6 +3557,17 @@ cards:
       explanation: |
         Long oak and bottle ageing deepen the colour and move the wine away from primary fruit
         towards nuts, toast, spice and other tertiary aromas.
+
+    fr:
+      question: "Quel profil caractérise un Rioja blanc élevé dans le style traditionnel ?"
+      choices:
+        - { text: "Robe citron pâle et arômes simples d’agrumes et de fleurs", correct: false }
+        - { text: "Robe dorée soutenue avec noix, épices et vanille", correct: true }
+        - { text: "Robe presque incolore avec groseille à maquereau et herbe intenses", correct: false }
+        - { text: "Robe ambrée, tanins élevés et fruits noirs séchés", correct: false }
+      explanation: |
+        Un long élevage sous bois puis en bouteille approfondit la couleur et fait évoluer le vin du
+        fruit primaire vers la noix, le pain grillé, les épices et d’autres arômes tertiaires.
 
   - id: spain-rioja-white-modern-001
     type: mcq
@@ -3208,6 +3589,18 @@ cards:
         Reductive handling and temperature-controlled fermentation preserve citrus, orchard-fruit
         and floral aromas. Many examples are released young with little or no oak.
 
+    fr:
+      question: "Comment les Riojas blancs modernes axés sur le fruit sont-ils généralement protégés pendant leur élaboration ?"
+      choices:
+        - { text: "Par une oxydation volontaire avant la fermentation", correct: false }
+        - { text: "En limitant l’oxygène pendant une fermentation fraîche", correct: true }
+        - { text: "Par un mutage avant l’élevage en fût", correct: false }
+        - { text: "Par un élevage sous voile après la fermentation", correct: false }
+      explanation: |
+        Un travail à l’abri de l’oxygène et une fermentation à température contrôlée préservent les
+        agrumes, les fruits du verger et les fleurs. De nombreux vins sont commercialisés jeunes,
+        avec peu ou pas de bois.
+
   - id: spain-rioja-white-middle-001
     type: mcq
     deck: Spain
@@ -3227,6 +3620,18 @@ cards:
       explanation: |
         Fermentation in barrel integrates oak and can build body without requiring years of
         oxidative maturation. Lees contact may add further texture.
+
+    fr:
+      question: "Quelle technique peut apporter de la texture à un Rioja blanc tout en conservant un fruit plus frais qu’un long élevage oxydatif ?"
+      choices:
+        - { text: "La macération carbonique de grappes entières", correct: false }
+        - { text: "La fermentation en fût", correct: true }
+        - { text: "Le mutage suivi d’un élevage en solera", correct: false }
+        - { text: "Le séchage des raisins au soleil avant le pressurage", correct: false }
+      explanation: |
+        La fermentation en fût intègre le bois et peut donner davantage de corps sans exiger
+        plusieurs années d’élevage oxydatif. Le contact avec les lies peut encore renforcer la
+        texture.
 
   - id: spain-navarra-map-001
     type: mcq
@@ -3248,6 +3653,17 @@ cards:
         Navarra lies immediately north and east of Rioja. Its considerable north–south range creates
         marked differences in rainfall and temperature.
 
+    fr:
+      question: "Quelle DO s’étend du bassin de l’Èbre vers les contreforts pyrénéens, à côté de Rioja ?"
+      choices:
+        - { text: "Calatayud", correct: false }
+        - { text: "Navarra", correct: true }
+        - { text: "Bierzo", correct: false }
+        - { text: "Somontano", correct: false }
+      explanation: |
+        Navarra se trouve immédiatement au nord et à l’est de Rioja. Sa grande extension du nord au
+        sud entraîne des différences marquées de pluviométrie et de température.
+
   - id: spain-navarra-climate-001
     type: mcq
     deck: Spain
@@ -3267,6 +3683,17 @@ cards:
       explanation: |
         Atlantic and mountain influences strengthen towards the north, bringing cooler conditions
         and more rain. The Ebro-side south is warmer and drier.
+
+    fr:
+      question: "Comment le climat évolue-t-il du sud vers le nord de la Navarre ?"
+      choices:
+        - { text: "Il devient plus chaud et plus sec vers les Pyrénées", correct: false }
+        - { text: "Il devient plus frais et plus humide vers les Pyrénées", correct: true }
+        - { text: "Il devient plus maritime et plus chaud vers l’Èbre", correct: false }
+        - { text: "Il devient plus frais mais plus sec vers les Pyrénées", correct: false }
+      explanation: |
+        Les influences atlantiques et montagnardes se renforcent vers le nord, apportant davantage
+        de fraîcheur et de pluie. Le sud, du côté de l’Èbre, est plus chaud et plus sec.
 
   - id: spain-navarra-tempranillo-001
     type: mcq
@@ -3288,6 +3715,18 @@ cards:
         Garnacha is Navarra’s emblematic variety and Tempranillo is also extensive. Their relative
         annual production can vary, so the pair is more useful than a volatile single-year ranking.
 
+    fr:
+      question: "Quel couple de cépages noirs locaux représente plus de la moitié du vignoble de Navarre ?"
+      choices:
+        - { text: "Mazuelo et Graciano", correct: false }
+        - { text: "Garnacha et Tempranillo", correct: true }
+        - { text: "Monastrell et Bobal", correct: false }
+        - { text: "Mencía et Prieto Picudo", correct: false }
+      explanation: |
+        La Garnacha est le cépage emblématique de la Navarre et le Tempranillo y est également très
+        présent. Leur production relative varie selon les années ; retenir le couple est donc plus
+        utile qu’un classement annuel instable.
+
   - id: spain-navarra-red-focus-001
     type: mcq
     deck: Spain
@@ -3307,6 +3746,17 @@ cards:
       explanation: |
         Red wine leads production, while rosado remains a major and historically important category.
         White wine represents a smaller but significant share.
+
+    fr:
+      question: "Quelle couleur représente actuellement la plus grande part de la production de la DO Navarra ?"
+      choices:
+        - { text: "Blanc", correct: false }
+        - { text: "Rouge", correct: true }
+        - { text: "Rosado", correct: false }
+        - { text: "Orange", correct: false }
+      explanation: |
+        Les rouges dominent la production, tandis que le rosado reste une catégorie importante et
+        historique. Les blancs représentent une part plus faible mais significative.
 
   - id: spain-navarra-temp-blend-001
     type: mcq
@@ -3328,6 +3778,17 @@ cards:
         Cabernet Sauvignon and Merlot were widely planted during Navarra’s modernisation and can add
         black fruit and structure to local red blends.
 
+    fr:
+      question: "Quel couple international est couramment assemblé au Tempranillo dans les rouges modernes de Navarre ?"
+      choices:
+        - { text: "Syrah et Pinot Noir", correct: false }
+        - { text: "Cabernet Sauvignon et Merlot", correct: true }
+        - { text: "Malbec et Carmenère", correct: false }
+        - { text: "Nebbiolo et Sangiovese", correct: false }
+      explanation: |
+        Cabernet Sauvignon et Merlot ont été largement plantés pendant la modernisation du vignoble
+        navarrais et peuvent ajouter fruits noirs et structure aux assemblages locaux.
+
   - id: spain-navarra-style-range-001
     type: mcq
     deck: Spain
@@ -3347,6 +3808,18 @@ cards:
       explanation: |
         Navarra makes inexpensive Joven wines as well as oak-matured Crianza, Reserva and Gran
         Reserva styles. Both local and international varieties may be used.
+
+    fr:
+      question: "Quelle affirmation décrit le mieux la gamme de styles de vins rouges produits en Navarre ?"
+      choices:
+        - { text: "La production se limite à des rouges pâles sans élevage en bois", correct: false }
+        - { text: "Des rouges jeunes jusqu’aux reservas élevés en fût", correct: true }
+        - { text: "Les rouges doivent être doux et fortifiés", correct: false }
+        - { text: "Les rouges sont produits uniquement par macération carbonique", correct: false }
+      explanation: |
+        La Navarre produit aussi bien des vins Joven peu coûteux que des Crianza, Reserva et Gran
+        Reserva élevés sous bois. Des cépages locaux comme internationaux peuvent entrer dans leur
+        composition.
 
   - id: spain-navarra-rosado-pick-001
     type: mcq
@@ -3368,6 +3841,18 @@ cards:
         Earlier picking preserves freshness and keeps sugar levels in check. This supports a
         refreshing dry rosado rather than the power required for an age-worthy red.
 
+    fr:
+      question: "Pourquoi récolte-t-on souvent les raisins destinés à un rosado de Navarre frais plus tôt que ceux destinés à un rouge corsé ?"
+      choices:
+        - { text: "Pour maximiser le sucre et réduire l’acidité", correct: false }
+        - { text: "Pour préserver l’acidité et limiter l’alcool potentiel", correct: true }
+        - { text: "Pour augmenter les tanins avant le pressurage", correct: false }
+        - { text: "Pour favoriser le passerillage sur pied", correct: false }
+      explanation: |
+        Une récolte plus précoce préserve la fraîcheur et limite l’accumulation de sucre. Elle
+        convient donc à un rosé sec et rafraîchissant plutôt qu’à la puissance recherchée dans un
+        rouge de garde.
+
   - id: spain-navarra-rosado-handle-001
     type: mcq
     deck: Spain
@@ -3387,6 +3872,18 @@ cards:
       explanation: |
         Limited skin contact gives the desired colour without excessive tannin. Cool fermentation
         and oxygen protection retain Garnacha’s red-fruit aromas.
+
+    fr:
+      question: "Quelle approche de vinification convient le mieux à un rosado de Navarre frais et fruité ?"
+      choices:
+        - { text: "Fermentation à température élevée après une longue macération pelliculaire", correct: false }
+        - { text: "Brève macération pelliculaire, puis fermentation fraîche à l’abri de l’oxygène", correct: true }
+        - { text: "Long élevage oxydatif en fûts de chêne américain", correct: false }
+        - { text: "Mutage avant la fin de la fermentation", correct: false }
+      explanation: |
+        Une macération limitée apporte la couleur voulue sans excès de tanins. Une fermentation
+        fraîche et la protection contre l’oxygène préservent les arômes de fruits rouges du
+        Garnacha.
 
   - id: spain-navarra-white-share-001
     type: mcq
@@ -3408,6 +3905,18 @@ cards:
         Chardonnay leads Navarra’s white-grape production and can make both fresh unoaked wines and
         richer barrel-fermented styles. Sauvignon Blanc is also planted.
 
+    fr:
+      question: "Quel cépage blanc international est particulièrement important dans la Navarre moderne ?"
+      choices:
+        - { text: "Riesling", correct: false }
+        - { text: "Chardonnay", correct: true }
+        - { text: "Sémillon", correct: false }
+        - { text: "Pinot Gris", correct: false }
+      explanation: |
+        Le Chardonnay est le premier cépage blanc de Navarre. Il peut donner aussi bien des vins
+        frais sans bois que des styles plus riches fermentés en fût. Le Sauvignon Blanc est
+        également planté.
+
   - id: spain-navarra-white-grapes-001
     type: mcq
     deck: Spain
@@ -3427,6 +3936,17 @@ cards:
       explanation: |
         Traditional Viura shares the vineyard with international Chardonnay and Sauvignon Blanc.
         Garnacha Blanca and Moscatel de Grano Menudo are also authorised.
+
+    fr:
+      question: "Quel groupe réunit trois cépages blancs importants en Navarre ?"
+      choices:
+        - { text: "Albariño, Godello et Treixadura", correct: false }
+        - { text: "Viura, Chardonnay et Sauvignon Blanc", correct: true }
+        - { text: "Palomino, Pedro Ximénez et Moscatel", correct: false }
+        - { text: "Verdejo, Airén et Xarel·lo", correct: false }
+      explanation: |
+        Le Viura traditionnel partage le vignoble avec les cépages internationaux Chardonnay et
+        Sauvignon Blanc. Le Garnacha Blanca et le Moscatel de Grano Menudo sont également autorisés.
 
   - id: spain-aragon-ebro-south-001
     type: mcq
@@ -3448,6 +3968,17 @@ cards:
         Cariñena and Calatayud occupy warm, dry continental sites south-west of Zaragoza. Both are
         strongly associated with Garnacha.
 
+    fr:
+      question: "Quelles sont les deux DO situées au sud de l’Èbre en Aragon ?"
+      choices:
+        - { text: "Navarra et Somontano", correct: false }
+        - { text: "Cariñena et Calatayud", correct: true }
+        - { text: "Bierzo et Toro", correct: false }
+        - { text: "Jumilla et Yecla", correct: false }
+      explanation: |
+        Cariñena et Calatayud occupent des sites continentaux chauds et secs au sud-ouest de
+        Saragosse. Toutes deux sont étroitement associées au Garnacha.
+
   - id: spain-carinena-calatayud-climate-001
     type: mcq
     deck: Spain
@@ -3467,6 +3998,18 @@ cards:
       explanation: |
         Their inland position gives hot summers, cold winters and limited rainfall. Altitude and
         cool nights can help preserve acidity in the best sites.
+
+    fr:
+      question: "Quel climat caractérise globalement Cariñena et Calatayud ?"
+      choices:
+        - { text: "Maritime frais avec d’abondantes pluies estivales", correct: false }
+        - { text: "Continental chaud et sec, avec de forts écarts de température", correct: true }
+        - { text: "Méditerranéen humide aux nuits douces", correct: false }
+        - { text: "Continental frais avec des pluies estivales régulières", correct: false }
+      explanation: |
+        Leur situation à l’intérieur des terres entraîne des étés chauds, des hivers froids et de
+        faibles précipitations. Dans les meilleurs sites, l’altitude et les nuits fraîches
+        contribuent à préserver l’acidité.
 
   - id: spain-carinena-calatayud-grape-001
     type: mcq
@@ -3488,6 +4031,18 @@ cards:
         Garnacha is well adapted to the regions’ heat, dryness and wind. Old vines at altitude can
         give concentrated fruit with valuable freshness.
 
+    fr:
+      question: "Quel cépage noir est particulièrement important à la fois à Cariñena et à Calatayud ?"
+      choices:
+        - { text: "Mencía", correct: false }
+        - { text: "Garnacha Tinta", correct: true }
+        - { text: "Monastrell", correct: false }
+        - { text: "Tempranillo", correct: false }
+      explanation: |
+        Le Garnacha est bien adapté à la chaleur, à la sécheresse et au vent de ces régions. De
+        vieilles vignes en altitude peuvent donner des fruits concentrés tout en conservant une
+        précieuse fraîcheur.
+
   - id: spain-carinena-calatayud-cheap-001
     type: mcq
     deck: Spain
@@ -3507,6 +4062,17 @@ cards:
       explanation: |
         High-volume wines usually emphasise ripe fruit and accessibility. Short maturation in inert
         vessels or used oak keeps cost and tannin modest.
+
+    fr:
+      question: "Quel style est typique d’un Garnacha d’entrée de gamme de Cariñena ou de Calatayud ?"
+      choices:
+        - { text: "Un vin très tannique exigeant une longue garde en bouteille", correct: false }
+        - { text: "Un rouge fruité destiné à être bu jeune", correct: true }
+        - { text: "Un rouge doux fortifié élevé en solera", correct: false }
+        - { text: "Un rouge pâle et oxydatif élevé sous voile", correct: false }
+      explanation: |
+        Les vins de gros volume privilégient généralement le fruit mûr et l’accessibilité. Un bref
+        élevage en cuve inerte ou en fûts usagés maintient des coûts et des tanins modérés.
 
   - id: spain-carinena-calatayud-oldvine-001
     type: mcq
@@ -3528,6 +4094,18 @@ cards:
         Old bush vines on poor, elevated soils crop at low levels and can deliver more concentrated
         fruit. Cariñena contributes additional structure in some blends.
 
+    fr:
+      question: "Quel matériel végétal est à la base de nombreux rouges haut de gamme de Cariñena et de Calatayud ?"
+      choices:
+        - { text: "De jeunes cépages internationaux à haut rendement", correct: false }
+        - { text: "De vieilles vignes peu productives de Garnacha et de Cariñena", correct: true }
+        - { text: "Des cépages blancs irrigués sur des fonds de vallée fertiles", correct: false }
+        - { text: "Du Tempranillo récolté tôt sur des sites côtiers ombragés", correct: false }
+      explanation: |
+        De vieilles vignes en gobelet, installées sur des sols pauvres et en altitude, produisent
+        peu et peuvent donner des fruits plus concentrés. Le Cariñena apporte davantage de structure
+        dans certains assemblages.
+
   - id: spain-carinena-calatayud-intensity-001
     type: mcq
     deck: Spain
@@ -3547,6 +4125,18 @@ cards:
       explanation: |
         Low yields and abundant sunshine build concentration, while altitude can retain acidity.
         Garnacha supplies ripe fruit and alcohol; Cariñena can add tannin and colour.
+
+    fr:
+      question: "Quel profil correspond le mieux à un rouge haut de gamme issu de vieilles vignes de Cariñena ou de Calatayud ?"
+      choices:
+        - { text: "Corps léger, alcool faible et fruit délicatement floral", correct: false }
+        - { text: "Fruit mûr concentré, corps puissant et structure marquée", correct: true }
+        - { text: "Acidité faible, tanins faibles et saveurs neutres", correct: false }
+        - { text: "Demi-sec avec des arômes oxydatifs de fruits à coque", correct: false }
+      explanation: |
+        Les faibles rendements et l’ensoleillement abondant favorisent la concentration, tandis que
+        l’altitude peut préserver l’acidité. Le Garnacha apporte fruit mûr et alcool ; le Cariñena
+        peut renforcer les tanins et la couleur.
 
   - id: spain-carinena-do-lead-001
     type: mcq
@@ -3568,6 +4158,18 @@ cards:
         The Cariñena grape, also called Carignan, is authorised but is not the denomination’s
         dominant variety. Garnacha is more extensive and central to many wines.
 
+    fr:
+      question: "Bien que la DO Cariñena porte le nom d’un cépage, quelle variété est la plus étroitement associée à l’identité de son vignoble ?"
+      choices:
+        - { text: "Mencía", correct: false }
+        - { text: "Garnacha Tinta", correct: true }
+        - { text: "Monastrell", correct: false }
+        - { text: "Bobal", correct: false }
+      explanation: |
+        Le cépage Cariñena, aussi appelé Carignan, est autorisé mais n’est pas la variété dominante
+        de l’appellation. Le Garnacha occupe une superficie plus importante et tient une place
+        centrale dans de nombreux vins.
+
   - id: spain-catalunya-map-001
     type: mcq
     deck: Spain
@@ -3587,6 +4189,17 @@ cards:
       explanation: |
         Catalunya stretches from the Pyrenees to the Mediterranean coast and includes Penedès,
         Priorat and numerous other denominations.
+
+    fr:
+      question: "Quelle région viticole espagnole occupe l’extrémité nord-est du pays, à la frontière française et au bord de la Méditerranée ?"
+      choices:
+        - { text: "Galice", correct: false }
+        - { text: "Catalogne", correct: true }
+        - { text: "Castille-et-León", correct: false }
+        - { text: "Murcie", correct: false }
+      explanation: |
+        La Catalogne s’étend des Pyrénées au littoral méditerranéen et comprend le Penedès, le
+        Priorat et de nombreuses autres appellations.
 
   - id: spain-catalunya-vines-001
     type: mcq
@@ -3608,6 +4221,18 @@ cards:
         Penedès and surrounding districts between Barcelona and Tarragona contain extensive
         vineyards. Other important Catalan areas lie farther inland or north.
 
+    fr:
+      question: "Où se concentre une grande partie du vignoble catalan ?"
+      choices:
+        - { text: "Sur le littoral atlantique humide au nord de Vigo", correct: false }
+        - { text: "Dans les plaines et collines au sud-ouest de Barcelone", correct: true }
+        - { text: "Sur le haut plateau autour de Madrid", correct: false }
+        - { text: "Dans l’intérieur aride à l’ouest de Murcie", correct: false }
+      explanation: |
+        Le Penedès et les districts voisins, entre Barcelone et Tarragone, possèdent de vastes
+        vignobles. D’autres zones catalanes importantes se trouvent plus loin vers l’intérieur ou
+        vers le nord.
+
   - id: spain-catalunya-generic-do-001
     type: mcq
     deck: Spain
@@ -3627,6 +4252,17 @@ cards:
       explanation: |
         DO Catalunya provides a broad regional identity and permits blending across a much wider
         area than the local Catalan denominations.
+
+    fr:
+      question: "Quelle appellation régionale permet aux vins tranquilles de provenir d’une grande partie de la Catalogne ?"
+      choices:
+        - { text: "DO Penedès", correct: false }
+        - { text: "DO Catalunya", correct: true }
+        - { text: "DOQ Priorat", correct: false }
+        - { text: "DO Montsant", correct: false }
+      explanation: |
+        La DO Catalunya offre une identité régionale large et autorise les assemblages provenant
+        d’une zone beaucoup plus étendue que les appellations catalanes locales.
 
   - id: spain-catalunya-do-why-001
     type: mcq
@@ -3648,6 +4284,17 @@ cards:
         A broad sourcing area helps producers achieve consistent volume and style while retaining a
         Catalan geographical indication.
 
+    fr:
+      question: "Quelle souplesse commerciale la DO Catalunya offre-t-elle ?"
+      choices:
+        - { text: "Elle limite chaque vin à une parcelle d’un seul village", correct: false }
+        - { text: "Elle permet des assemblages régionaux et des vins tranquilles de marque en grand volume", correct: true }
+        - { text: "Elle impose une seconde fermentation en bouteille à tous les vins", correct: false }
+        - { text: "Elle réserve la production aux vins doux fortifiés", correct: false }
+      explanation: |
+        Une vaste zone d’approvisionnement aide les producteurs à obtenir des volumes et un style
+        réguliers tout en conservant une indication géographique catalane.
+
   - id: spain-cava-catalunya-001
     type: mcq
     deck: Spain
@@ -3667,6 +4314,17 @@ cards:
       explanation: |
         Cava may legally come from several separated Spanish zones, but the great majority is
         produced in Catalunya, especially around Sant Sadurní d’Anoia.
+
+    fr:
+      question: "Quelle appellation espagnole de vin effervescent a son principal centre de production en Catalogne ?"
+      choices:
+        - { text: "Rueda Espumoso", correct: false }
+        - { text: "Cava", correct: true }
+        - { text: "Rioja Espumoso", correct: false }
+        - { text: "Vino de Aguja", correct: false }
+      explanation: |
+        Le Cava peut légalement provenir de plusieurs zones espagnoles distinctes, mais sa grande
+        majorité est produite en Catalogne, notamment autour de Sant Sadurní d’Anoia.
 
   - id: spain-penedes-map-001
     type: mcq
@@ -3688,6 +4346,17 @@ cards:
         Penedès lies between Barcelona and Tarragona. Its elevation rises from coastal areas towards
         inland hills, creating a range of mesoclimates.
 
+    fr:
+      question: "Quelle DO s’étend du littoral méditerranéen aux collines situées au sud-ouest de Barcelone ?"
+      choices:
+        - { text: "Empordà", correct: false }
+        - { text: "Penedès", correct: true }
+        - { text: "Terra Alta", correct: false }
+        - { text: "Costers del Segre", correct: false }
+      explanation: |
+        Le Penedès se situe entre Barcelone et Tarragone. L’altitude augmente depuis la zone côtière
+        jusqu’aux collines de l’intérieur, ce qui crée une diversité de mésoclimats.
+
   - id: spain-penedes-zones-001
     type: mcq
     deck: Spain
@@ -3707,6 +4376,18 @@ cards:
       explanation: |
         Penedès stretches from maritime sites to inland vineyards above 600 metres. The DO now
         recognises ten zones rather than relying on a simple three-band map.
+
+    fr:
+      question: "Qu’est-ce qui explique le mieux la diversité des mésoclimats de la DO Penedès ?"
+      choices:
+        - { text: "Une altitude et une distance à la mer uniformes", correct: false }
+        - { text: "Les variations d’altitude et d’exposition à la Méditerranée", correct: true }
+        - { text: "Des pluies atlantiques persistantes dans toute la région", correct: false }
+        - { text: "Un unique plateau plat protégé par les montagnes", correct: false }
+      explanation: |
+        Le Penedès s’étend de sites maritimes à des vignobles de l’intérieur situés au-dessus de 600
+        mètres. La DO reconnaît désormais dix zones, plutôt que de s’appuyer sur une simple division
+        en trois bandes.
 
   - id: spain-penedes-coast-001
     type: mcq
@@ -3728,6 +4409,17 @@ cards:
         The Mediterranean keeps winters mild, while summers are warm and relatively dry. Inland
         elevation creates cooler conditions elsewhere in the DO.
 
+    fr:
+      question: "Quel climat décrit le mieux les vignobles côtiers de basse altitude du Penedès ?"
+      choices:
+        - { text: "Continental frais avec de fortes gelées hivernales", correct: false }
+        - { text: "Méditerranéen chaud, modéré par la proximité de la mer", correct: true }
+        - { text: "Maritime modéré dominé par les pluies atlantiques", correct: false }
+        - { text: "Continental chaud sans influence maritime", correct: false }
+      explanation: |
+        La Méditerranée adoucit les hivers, tandis que les étés sont chauds et relativement secs.
+        Plus loin dans les terres, l’altitude crée des conditions plus fraîches.
+
   - id: spain-penedes-hills-001
     type: mcq
     deck: Spain
@@ -3747,6 +4439,18 @@ cards:
       explanation: |
         Higher sites have lower average temperatures, more frequent rainfall and a wider gap between
         day and night. These conditions can preserve acidity and delay ripening.
+
+    fr:
+      question: "En quoi les vignobles du Penedès situés au-dessus d’environ 600 mètres diffèrent-ils des sites côtiers plus bas ?"
+      choices:
+        - { text: "Ils sont plus chauds, avec une amplitude thermique plus faible", correct: false }
+        - { text: "Ils sont plus frais, avec une amplitude thermique plus forte", correct: true }
+        - { text: "Ils sont plus secs, car l’altitude bloque les précipitations", correct: false }
+        - { text: "Leurs nuits sont plus douces grâce à une plus forte influence maritime", correct: false }
+      explanation: |
+        Les sites élevés présentent des températures moyennes plus basses, des précipitations plus
+        fréquentes et un écart plus marqué entre le jour et la nuit. Ces conditions peuvent
+        préserver l’acidité et retarder la maturation.
 
   - id: spain-penedes-style-range-001
     type: mcq
@@ -3769,6 +4473,18 @@ cards:
         recognises ten distinct zones. Numerous local and international varieties exploit that
         range.
 
+    fr:
+      question: "Pourquoi le Penedès peut-il produire une gamme particulièrement large de styles de vin ?"
+      choices:
+        - { text: "Un climat uniforme assure une maturation similaire de tous les cépages", correct: false }
+        - { text: "L’influence côtière et les variations d’altitude créent des mésoclimats divers", correct: true }
+        - { text: "La DO limite la production à un seul cépage neutre", correct: false }
+        - { text: "Tous les vignobles occupent le même sol alluvial plat", correct: false }
+      explanation: |
+        L’appellation s’étend de vignobles maritimes chauds à des collines bien plus fraîches dans
+        l’intérieur et reconnaît dix zones distinctes. De nombreux cépages locaux et internationaux
+        tirent parti de cette diversité.
+
   - id: spain-penedes-cava-grapes-001
     type: mcq
     deck: Spain
@@ -3788,6 +4504,18 @@ cards:
       explanation: |
         All three are widely grown in Penedès and form the historic basis of Cava. Xarel·lo is also
         increasingly valued for serious still white wines.
+
+    fr:
+      question: "Quel trio de cépages traditionnels relie le Penedès à l’histoire des vins effervescents catalans ?"
+      choices:
+        - { text: "Albariño, Godello et Treixadura", correct: false }
+        - { text: "Macabeo, Xarel·lo et Parellada", correct: true }
+        - { text: "Verdejo, Viura et Airén", correct: false }
+        - { text: "Palomino, Pedro Ximénez et Moscatel", correct: false }
+      explanation: |
+        Ces trois cépages sont largement cultivés dans le Penedès et constituent la base historique
+        du Cava. Le Xarel·lo est aussi de plus en plus apprécié pour des vins blancs tranquilles
+        ambitieux.
 
   - id: spain-penedes-white-intl-001
     type: mcq
@@ -3809,6 +4537,18 @@ cards:
         Penedès combines its local white grapes with a broad authorised range. Chardonnay and
         Sauvignon Blanc are well established, while aromatic varieties broaden the style spectrum.
 
+    fr:
+      question: "Quel groupe réunit trois cépages blancs internationaux autorisés dans la DO Penedès ?"
+      choices:
+        - { text: "Sémillon, Marsanne et Roussanne", correct: false }
+        - { text: "Chardonnay, Sauvignon Blanc et Gewurztraminer", correct: true }
+        - { text: "Albariño, Godello et Loureiro", correct: false }
+        - { text: "Furmint, Assyrtiko et Grüner Veltliner", correct: false }
+      explanation: |
+        Le Penedès associe ses cépages blancs locaux à une vaste gamme de variétés autorisées. Le
+        Chardonnay et le Sauvignon Blanc sont bien implantés, tandis que des cépages aromatiques
+        élargissent la palette de styles.
+
   - id: spain-penedes-black-intl-001
     type: mcq
     deck: Spain
@@ -3828,6 +4568,18 @@ cards:
       explanation: |
         Cabernet Sauvignon and Merlot represent international plantings, while Ull de Llebre is the
         Catalan name for Tempranillo. Garnacha, Samsó and Sumoll are among the local alternatives.
+
+    fr:
+      question: "Quel groupe réunit des cépages noirs importants du Penedès ?"
+      choices:
+        - { text: "Nebbiolo, Sangiovese et Aglianico", correct: false }
+        - { text: "Cabernet Sauvignon, Merlot et Ull de Llebre", correct: true }
+        - { text: "Touriga Nacional, Baga et Trincadeira", correct: false }
+        - { text: "Xinomavro, Agiorgitiko et Mavrodaphne", correct: false }
+      explanation: |
+        Le Cabernet Sauvignon et le Merlot représentent les plantations internationales, tandis
+        qu’Ull de Llebre est le nom catalan du Tempranillo. Garnacha, Samsó et Sumoll comptent parmi
+        les autres cépages locaux.
 
   - id: spain-penedes-ull-001
     type: mcq
@@ -3849,6 +4601,17 @@ cards:
         Ull de Llebre means ‘hare’s eye’ in Catalan. The other options are regional Tempranillo
         synonyms used elsewhere in Spain.
 
+    fr:
+      question: "Comment appelle-t-on couramment le Tempranillo dans le Penedès et ailleurs en Catalogne ?"
+      choices:
+        - { text: "Tinta de Toro", correct: false }
+        - { text: "Ull de Llebre", correct: true }
+        - { text: "Cencibel", correct: false }
+        - { text: "Tinto Fino", correct: false }
+      explanation: |
+        Ull de Llebre signifie « œil de lièvre » en catalan. Les autres réponses sont des synonymes
+        régionaux du Tempranillo employés ailleurs en Espagne.
+
   - id: spain-priorat-map-001
     type: mcq
     deck: Spain
@@ -3868,6 +4631,18 @@ cards:
       explanation: |
         Priorat is a compact, mountainous region inland from Tarragona. DO Montsant largely
         surrounds it, but Priorat has its own distinctive slate soils and DOQ status.
+
+    fr:
+      question: "Quelle appellation catalane occupe les collines escarpées de l’intérieur, à l’ouest de Tarragone ?"
+      choices:
+        - { text: "Empordà", correct: false }
+        - { text: "Priorat", correct: true }
+        - { text: "Penedès", correct: false }
+        - { text: "Alella", correct: false }
+      explanation: |
+        Le Priorat est une petite région montagneuse située à l’intérieur des terres depuis
+        Tarragone. La DO Montsant l’entoure en grande partie, mais le Priorat possède ses sols
+        d’ardoise caractéristiques et le statut de DOQ.
 
   - id: spain-priorat-climate-001
     type: mcq
@@ -3889,6 +4664,18 @@ cards:
         Priorat is warm, sunny and dry, though altitude and orientation create cooler sites. Drought
         and heat make low yields common.
 
+    fr:
+      question: "Quel régime climatique décrit le mieux le Priorat pendant la saison de croissance ?"
+      choices:
+        - { text: "Des étés frais avec des pluies atlantiques régulières", correct: false }
+        - { text: "Des étés longs, chauds et secs, avec peu de précipitations", correct: true }
+        - { text: "Des étés doux avec un brouillard côtier persistant", correct: false }
+        - { text: "Des étés courts avec de fréquents orages de montagne", correct: false }
+      explanation: |
+        Le Priorat est chaud, ensoleillé et sec, même si l’altitude et l’orientation créent des
+        sites plus frais. La sécheresse et la chaleur expliquent la fréquence des faibles
+        rendements.
+
   - id: spain-priorat-grapes-fit-001
     type: mcq
     deck: Spain
@@ -3908,6 +4695,18 @@ cards:
       explanation: |
         These late-ripening Mediterranean varieties benefit from sustained warmth. Old vines and
         elevation can temper vigour and help the wines retain balance.
+
+    fr:
+      question: "Pourquoi le Garnacha et le Cariñena sont-ils bien adaptés au climat du Priorat ?"
+      choices:
+        - { text: "Ils mûrissent tous deux tôt et exigent une saison courte et fraîche", correct: false }
+        - { text: "Ils peuvent mûrir tard au cours d’une saison longue, chaude et sèche", correct: true }
+        - { text: "Ils ont tous deux besoin d’étés humides pour éviter les brûlures", correct: false }
+        - { text: "Ils conservent tous deux peu de sucre même sous une chaleur intense", correct: false }
+      explanation: |
+        Ces cépages méditerranéens à maturation tardive bénéficient d’une chaleur prolongée. Les
+        vieilles vignes et l’altitude peuvent modérer leur vigueur et aider les vins à conserver
+        leur équilibre.
 
   - id: spain-priorat-vine-age-001
     type: mcq
@@ -3929,6 +4728,18 @@ cards:
         Garnacha supplies ripe fruit, alcohol and body, while Cariñena can add acidity, colour and
         tannic structure. Old plots of both are highly valued.
 
+    fr:
+      question: "Quels sont les deux cépages qui forment le cœur classique des vieilles vignes du Priorat ?"
+      choices:
+        - { text: "Tempranillo et Graciano", correct: false }
+        - { text: "Garnacha et Cariñena", correct: true }
+        - { text: "Monastrell et Bobal", correct: false }
+        - { text: "Cabernet Sauvignon et Merlot", correct: false }
+      explanation: |
+        Le Garnacha apporte fruit mûr, alcool et corps, tandis que le Cariñena peut renforcer
+        l’acidité, la couleur et la structure tannique. Les vieilles parcelles de ces deux cépages
+        sont très recherchées.
+
   - id: spain-priorat-llicorella-name-001
     type: mcq
     deck: Spain
@@ -3948,6 +4759,17 @@ cards:
       explanation: |
         Llicorella is a fractured slate-and-mica soil associated with many of Priorat’s leading
         sites. It is stony, low in nutrients and difficult to cultivate.
+
+    fr:
+      question: "Quel est le nom local du sol d’ardoise caractéristique du Priorat ?"
+      choices:
+        - { text: "Albariza", correct: false }
+        - { text: "Llicorella", correct: true }
+        - { text: "Terra rossa", correct: false }
+        - { text: "Galestro", correct: false }
+      explanation: |
+        La llicorella est un sol d’ardoise fracturée mêlée de mica, associé à de nombreux sites
+        réputés du Priorat. Il est pierreux, pauvre en nutriments et difficile à travailler.
 
   - id: spain-priorat-llicorella-what-001
     type: mcq
@@ -3969,6 +4791,17 @@ cards:
         The dark slate fractures into thin layers and contains reflective mica. Roots can follow
         fissures deep into the ground in search of water.
 
+    fr:
+      question: "De quel matériau la llicorella du Priorat est-elle constituée ?"
+      choices:
+        - { text: "Une craie blanche tendre riche en carbonate de calcium", correct: false }
+        - { text: "De l’ardoise fracturée mêlée de mica", correct: true }
+        - { text: "Une argile profonde et fertile sur calcaire", correct: false }
+        - { text: "Un sable granitique grossier près du littoral", correct: false }
+      explanation: |
+        L’ardoise sombre se fracture en fines couches et contient du mica réfléchissant. Les racines
+        peuvent suivre les fissures profondément dans le sol à la recherche d’eau.
+
   - id: spain-priorat-llicorella-heat-001
     type: mcq
     deck: Spain
@@ -3988,6 +4821,18 @@ cards:
       explanation: |
         Dark slate absorbs solar energy and reflective mica increases light around the canopy. This
         assists ripening but can intensify heat and drought stress.
+
+    fr:
+      question: "Comment la llicorella peut-elle influencer la maturation dans les vignobles du Priorat ?"
+      choices:
+        - { text: "Elle rafraîchit les grappes en retenant l’eau en surface", correct: false }
+        - { text: "Elle absorbe et réfléchit la chaleur autour des vignes", correct: true }
+        - { text: "Elle bloque le soleil grâce à une végétation dense au sol", correct: false }
+        - { text: "Sa surface claire renvoie la chaleur loin de la canopée", correct: false }
+      explanation: |
+        L’ardoise sombre absorbe l’énergie solaire et le mica réfléchissant accroît la lumière
+        autour de la canopée. Cela favorise la maturation, mais peut accentuer le stress lié à la
+        chaleur et à la sécheresse.
 
   - id: spain-priorat-llicorella-water-001
     type: mcq
@@ -4009,6 +4854,18 @@ cards:
         The surface is dry and stony, but fractured rock permits roots to penetrate deeply. Access
         to stored moisture helps established vines survive prolonged drought.
 
+    fr:
+      question: "Comment les vignes peuvent-elles trouver de l’eau sur les sites secs de llicorella du Priorat ?"
+      choices:
+        - { text: "Des racines superficielles captent les fréquentes pluies estivales", correct: false }
+        - { text: "Les racines suivent les fissures de l’ardoise jusqu’à l’humidité en profondeur", correct: true }
+        - { text: "L’ardoise superficielle stocke beaucoup d’eau près de la surface", correct: false }
+        - { text: "Le brouillard côtier quotidien fournit l’essentiel de l’eau", correct: false }
+      explanation: |
+        La surface est sèche et pierreuse, mais la roche fracturée permet aux racines de descendre
+        profondément. L’accès à l’humidité stockée aide les vignes établies à survivre à une
+        sécheresse prolongée.
+
   - id: spain-priorat-handwork-001
     type: mcq
     deck: Spain
@@ -4028,6 +4885,18 @@ cards:
       explanation: |
         Many vineyards occupy steep terraces or slopes and retain old, free-standing vines. Pruning,
         cultivation and harvest therefore require extensive manual labour.
+
+    fr:
+      question: "Quelle configuration du vignoble limite le plus la mécanisation dans le Priorat ?"
+      choices:
+        - { text: "Des vignes palissées et largement espacées dans une vaste plaine", correct: false }
+        - { text: "Des pentes raides plantées de vignes en gobelet irrégulières", correct: true }
+        - { text: "Des vignes palissées basses sur des terrasses peu inclinées", correct: false }
+        - { text: "Des rangs conduits en hauteur sur un large fond de vallée", correct: false }
+      explanation: |
+        De nombreux vignobles occupent des terrasses ou des pentes escarpées et conservent de
+        vieilles vignes non palissées. Taille, travail du sol et vendanges exigent donc beaucoup de
+        main-d’œuvre.
 
   - id: spain-priorat-cost-001
     type: mcq
@@ -4049,6 +4918,18 @@ cards:
         Hand work on inaccessible slopes demands many hours per hectare. Low yields mean those costs
         are spread over relatively few bottles.
 
+    fr:
+      question: "Quel facteur viticole contribue le plus directement aux coûts de production élevés du Priorat ?"
+      choices:
+        - { text: "De grosses récoltes mécanisées sur terrain plat", correct: false }
+        - { text: "Un travail très manuel sur des pentes raides", correct: true }
+        - { text: "De fortes pluies exigeant un drainage constant", correct: false }
+        - { text: "Une maturation rapide qui raccourcit les vendanges", correct: false }
+      explanation: |
+        Le travail manuel sur des pentes difficiles d’accès exige de nombreuses heures par hectare.
+        Comme les rendements sont faibles, ces coûts se répartissent sur relativement peu de
+        bouteilles.
+
   - id: spain-priorat-yield-001
     type: mcq
     deck: Spain
@@ -4068,6 +4949,18 @@ cards:
       explanation: |
         Water scarcity, low soil fertility and old bush vines limit bunch number and berry size.
         Careful farming is still needed because very low yield alone does not guarantee balance.
+
+    fr:
+      question: "Pourquoi les rendements sont-ils naturellement faibles dans de nombreux vieux vignobles du Priorat ?"
+      choices:
+        - { text: "Des sols fertiles et une eau abondante stimulent la croissance de la canopée", correct: false }
+        - { text: "Les sols pauvres d’ardoise, la sécheresse et les vieilles vignes limitent la production", correct: true }
+        - { text: "Des étés frais empêchent la floraison la plupart des années", correct: false }
+        - { text: "Une plantation dense crée un ombrage excessif", correct: false }
+      explanation: |
+        La rareté de l’eau, la faible fertilité du sol et les vieilles vignes en gobelet limitent le
+        nombre de grappes et la taille des baies. Une viticulture attentive reste nécessaire : un
+        très faible rendement ne garantit pas à lui seul l’équilibre.
 
   - id: spain-priorat-yield-style-001
     type: mcq
@@ -4089,6 +4982,18 @@ cards:
         Few small berries can give intense fruit and a high skin-to-juice ratio. Warm conditions
         then support deep colour, tannin and elevated alcohol.
 
+    fr:
+      question: "Quelle est la principale conséquence des vieilles vignes à faible rendement du Priorat sur le style du vin ?"
+      choices:
+        - { text: "Des arômes dilués et un corps très léger", correct: false }
+        - { text: "Des saveurs concentrées et une structure puissante", correct: true }
+        - { text: "Un faible alcool potentiel et des arômes neutres", correct: false }
+        - { text: "Un sucre résiduel élevé et peu de tanins", correct: false }
+      explanation: |
+        Un petit nombre de baies de faible taille peut donner un fruit intense et un rapport
+        pellicule-jus élevé. Les conditions chaudes favorisent ensuite une couleur profonde, des
+        tanins marqués et un degré d’alcool élevé.
+
   - id: spain-priorat-price-001
     type: mcq
     deck: Spain
@@ -4108,6 +5013,18 @@ cards:
       explanation: |
         Difficult manual farming produces little fruit per hectare, while premium selection and oak
         maturation add further cost. Strong demand also supports prices.
+
+    fr:
+      question: "Quelle combinaison explique le mieux le prix généralement élevé des vins du Priorat ?"
+      choices:
+        - { text: "Des rendements élevés et des vendanges rapidement mécanisées", correct: false }
+        - { text: "De faibles rendements et des vignobles escarpés exigeant beaucoup de travail manuel", correct: true }
+        - { text: "Un foncier peu coûteux et un élevage minimal en cave", correct: false }
+        - { text: "De vastes vignobles fertiles et des raisins bon marché", correct: false }
+      explanation: |
+        La viticulture manuelle difficile produit peu de raisins par hectare, tandis que la
+        sélection haut de gamme et l’élevage sous bois ajoutent encore des coûts. La forte demande
+        soutient également les prix.
 
   - id: spain-priorat-structure-001
     type: mcq
@@ -4129,6 +5046,18 @@ cards:
         Ripe Garnacha and Cariñena from low-yielding sites give concentrated fruit and substantial
         structure. Better wines balance their power with acidity and fine tannins.
 
+    fr:
+      question: "Quel profil structurel est typique d’un rouge haut de gamme du Priorat ?"
+      choices:
+        - { text: "Corps léger, tanins faibles et faible alcool", correct: false }
+        - { text: "Corps puissant, tanins fermes et alcool élevé", correct: true }
+        - { text: "Corps léger, acidité élevée et couleur peu intense", correct: false }
+        - { text: "Demi-sec, peu tannique et de couleur pâle", correct: false }
+      explanation: |
+        Le Garnacha et le Cariñena mûrs issus de sites peu productifs donnent un fruit concentré et
+        une structure importante. Les meilleurs vins équilibrent leur puissance par l’acidité et des
+        tanins fins.
+
   - id: spain-priorat-oak-001
     type: mcq
     deck: Spain
@@ -4148,6 +5077,18 @@ cards:
       explanation: |
         Ripe grapes give dense dark-fruit flavours, while maturation in French oak may add toast,
         cedar and spice. The amount of new oak varies by producer.
+
+    fr:
+      question: "Quelle association aromatique est courante dans un rouge moderne haut de gamme du Priorat ?"
+      choices:
+        - { text: "Des agrumes délicats sans marque du bois", correct: false }
+        - { text: "Des fruits noirs concentrés avec des notes grillées et épicées", correct: true }
+        - { text: "De la pomme verte avec les arômes floraux du Muscat", correct: false }
+        - { text: "De la noix oxydative avec une forte salinité", correct: false }
+      explanation: |
+        Des raisins mûrs donnent des arômes denses de fruits noirs, tandis qu’un élevage en chêne
+        français peut apporter des notes grillées, de cèdre et d’épices. La proportion de bois neuf
+        varie selon le producteur.
 
   - id: spain-priorat-cab-001
     type: mcq
@@ -4169,6 +5110,18 @@ cards:
         Cabernet Sauvignon can add black fruit and tannic structure. Merlot and Syrah are also
         authorised, though local old-vine varieties define the region’s identity.
 
+    fr:
+      question: "Quel cépage noir international entre dans certains assemblages du Priorat aux côtés du Garnacha et du Cariñena ?"
+      choices:
+        - { text: "Pinot Noir", correct: false }
+        - { text: "Cabernet Sauvignon", correct: true }
+        - { text: "Gamay", correct: false }
+        - { text: "Nebbiolo", correct: false }
+      explanation: |
+        Le Cabernet Sauvignon peut apporter des fruits noirs et une structure tannique. Le Merlot et
+        la Syrah sont également autorisés, même si les vieux cépages locaux définissent l’identité
+        de la région.
+
   - id: spain-priorat-other-colours-001
     type: mcq
     deck: Spain
@@ -4188,6 +5141,17 @@ cards:
       explanation: |
         Red wine dominates Priorat’s reputation and production, but the denomination also permits
         white and rosado styles from authorised varieties.
+
+    fr:
+      question: "Quelle affirmation sur les couleurs de vin de la DOQ Priorat est exacte ?"
+      choices:
+        - { text: "L’appellation autorise exclusivement le vin rouge", correct: false }
+        - { text: "Des blancs et des rosados peuvent être produits en plus des rouges", correct: true }
+        - { text: "La loi impose que le vin blanc soit effervescent", correct: false }
+        - { text: "Le rosado doit être fortifié avant la mise en bouteille", correct: false }
+      explanation: |
+        Le vin rouge domine la réputation et la production du Priorat, mais l’appellation autorise
+        aussi les blancs et les rosados issus de cépages approuvés.
 
   - id: spain-duero-course-001
     type: mcq
@@ -4209,6 +5173,17 @@ cards:
         The Duero links several major Spanish regions, including Ribera del Duero, Rueda and Toro,
         before entering Portugal’s Douro Valley.
 
+    fr:
+      question: "Quel fleuve traverse la Castille-et-León avant de poursuivre vers l’ouest au Portugal ?"
+      choices:
+        - { text: "L’Èbre", correct: false }
+        - { text: "Le Duero", correct: true }
+        - { text: "Le Miño", correct: false }
+        - { text: "Le Júcar", correct: false }
+      explanation: |
+        Le Duero relie plusieurs grandes régions espagnoles, dont Ribera del Duero, Rueda et Toro,
+        avant d’entrer dans la vallée portugaise du Douro.
+
   - id: spain-duero-douro-001
     type: mcq
     deck: Spain
@@ -4228,6 +5203,17 @@ cards:
       explanation: |
         The Spanish Duero becomes the Portuguese Douro, the river associated with Port and Douro
         still wines farther downstream.
+
+    fr:
+      question: "Comment le Duero s’appelle-t-il après son entrée au Portugal ?"
+      choices:
+        - { text: "Tejo", correct: false }
+        - { text: "Douro", correct: true }
+        - { text: "Minho", correct: false }
+        - { text: "Guadiana", correct: false }
+      explanation: |
+        Le Duero espagnol devient le Douro au Portugal, fleuve associé plus en aval au Porto et aux
+        vins tranquilles du Douro.
 
   - id: spain-ribera-climate-001
     type: mcq
@@ -4249,6 +5235,18 @@ cards:
         The high continental plateau produces severe winter cold, spring-frost risk and intense
         summer sun. A short growing season makes ripening demanding.
 
+    fr:
+      question: "Quel régime climatique caractérise Ribera del Duero ?"
+      choices:
+        - { text: "Des hivers doux et humides et des étés frais et brumeux", correct: false }
+        - { text: "Des hivers très froids et des étés courts, chauds et secs", correct: true }
+        - { text: "Des hivers chauds et humides et de longs étés pluvieux", correct: false }
+        - { text: "Des hivers doux et des nuits uniformément chaudes", correct: false }
+      explanation: |
+        Le haut plateau continental connaît un froid hivernal rigoureux, un risque de gelées
+        printanières et un intense soleil estival. La courte saison de croissance rend la maturation
+        difficile.
+
   - id: spain-ribera-mountains-001
     type: mcq
     deck: Spain
@@ -4268,6 +5266,18 @@ cards:
       explanation: |
         Mountain barriers and the inland location strengthen continental extremes. Elevation then
         creates a large diurnal range during the growing season.
+
+    fr:
+      question: "Comment les montagnes environnantes influencent-elles Ribera del Duero ?"
+      choices:
+        - { text: "Elles canalisent l’air maritime humide vers les vignobles", correct: false }
+        - { text: "Elles renforcent l’isolement vis-à-vis des influences maritimes", correct: true }
+        - { text: "Elles atténuent les gelées hivernales dans tout le bassin", correct: false }
+        - { text: "Elles créent un climat côtier chaud le long du fleuve", correct: false }
+      explanation: |
+        Les barrières montagneuses et la situation intérieure accentuent les extrêmes continentaux.
+        L’altitude crée en outre une forte amplitude thermique diurne pendant la saison de
+        croissance.
 
   - id: spain-ribera-altitude-001
     type: mcq
@@ -4289,6 +5299,17 @@ cards:
         Ribera is one of Spain’s highest major red-wine regions. Elevation lowers night temperatures
         despite strong daytime sunshine.
 
+    fr:
+      question: "Quelle est la principale caractéristique topographique des vignobles de Ribera del Duero ?"
+      choices:
+        - { text: "La plupart se trouvent dans de basses plaines côtières", correct: false }
+        - { text: "Beaucoup se situent entre 750 et 1 000 mètres", correct: true }
+        - { text: "La plupart occupent des terrasses fluviales sous 200 mètres", correct: false }
+        - { text: "Les vignes poussent surtout sur des îles fluviales humides", correct: false }
+      explanation: |
+        Ribera del Duero est l’une des grandes régions espagnoles de vin rouge les plus élevées.
+        Malgré un fort ensoleillement diurne, l’altitude abaisse les températures nocturnes.
+
   - id: spain-ribera-nights-001
     type: mcq
     deck: Spain
@@ -4308,6 +5329,18 @@ cards:
       explanation: |
         Lower night temperatures reduce malic-acid respiration and extend ripening. Grapes can
         develop colour and tannin while retaining valuable freshness.
+
+    fr:
+      question: "Quel est le principal avantage des nuits fraîches pendant la maturation à Ribera del Duero ?"
+      choices:
+        - { text: "Elles accélèrent la respiration et réduisent l’acidité", correct: false }
+        - { text: "Elles ralentissent la perte d’acidité et préservent la fraîcheur du fruit", correct: true }
+        - { text: "Elles augmentent l’accumulation de sucre pendant la journée", correct: false }
+        - { text: "Elles accélèrent la maturité phénolique en réchauffant les grappes", correct: false }
+      explanation: |
+        Des températures nocturnes basses réduisent la respiration de l’acide malique et prolongent
+        la maturation. Les raisins peuvent développer couleur et tanins tout en conservant une
+        précieuse fraîcheur.
 
   - id: spain-ribera-colours-001
     type: mcq
@@ -4329,6 +5362,17 @@ cards:
         White Ribera del Duero made principally from Albillo Mayor joined the established red and
         rosado or clarete categories in 2019.
 
+    fr:
+      question: "Quelles couleurs de vin sont actuellement couvertes par l’appellation Ribera del Duero ?"
+      choices:
+        - { text: "Exclusivement rouge et rosado", correct: false }
+        - { text: "Rouge, rosado ou clarete, et blanc", correct: true }
+        - { text: "Exclusivement blanc et effervescent", correct: false }
+        - { text: "Rouge, blanc et vin doux fortifié", correct: false }
+      explanation: |
+        Les Ribera del Duero blancs, principalement issus d’Albillo Mayor, ont rejoint en 2019 les
+        catégories déjà établies de rouges et de rosados ou claretes.
+
   - id: spain-ribera-red-lead-001
     type: mcq
     deck: Spain
@@ -4348,6 +5392,18 @@ cards:
       explanation: |
         The denomination is internationally known for structured Tempranillo-based reds. Rosado or
         clarete and Albillo Mayor white wines form much smaller categories.
+
+    fr:
+      question: "Quelle couleur de vin domine la production de Ribera del Duero ?"
+      choices:
+        - { text: "Blanc", correct: false }
+        - { text: "Rouge", correct: true }
+        - { text: "Rosado", correct: false }
+        - { text: "Orange", correct: false }
+      explanation: |
+        L’appellation est connue internationalement pour ses rouges structurés à base de
+        Tempranillo. Les rosados ou claretes et les blancs d’Albillo Mayor représentent des
+        catégories bien plus modestes.
 
   - id: spain-ribera-tempranillo-001
     type: mcq
@@ -4369,6 +5425,17 @@ cards:
         Tinto Fino and Tinta del País refer to the region’s Tempranillo. The local vine material is
         valued for producing deeply coloured, tannic wines at high altitude.
 
+    fr:
+      question: "Quelle paire réunit deux noms locaux du Tempranillo à Ribera del Duero ?"
+      choices:
+        - { text: "Cencibel et Ull de Llebre", correct: false }
+        - { text: "Tinto Fino et Tinta del País", correct: true }
+        - { text: "Tinta de Toro et Mazuelo", correct: false }
+        - { text: "Samsó et Cariñena", correct: false }
+      explanation: |
+        Tinto Fino et Tinta del País désignent le Tempranillo de la région. Le matériel végétal
+        local est réputé pour produire, en altitude, des vins profondément colorés et tanniques.
+
   - id: spain-ribera-solo-temp-001
     type: mcq
     deck: Spain
@@ -4388,6 +5455,18 @@ cards:
       explanation: |
         Tempranillo must account for at least three quarters of the blend, and many premium examples
         are varietal. Other authorised grapes may supply the remainder.
+
+    fr:
+      question: "Quelle proportion minimale de Tempranillo un Ribera del Duero rouge doit-il contenir ?"
+      choices:
+        - { text: "Au moins 50 %", correct: false }
+        - { text: "Au moins 75 %", correct: true }
+        - { text: "Au moins 85 %", correct: false }
+        - { text: "Au moins 95 %", correct: false }
+      explanation: |
+        Le Tempranillo doit représenter au moins les trois quarts de l’assemblage, et de nombreuses
+        cuvées haut de gamme sont monocépages. D’autres cépages autorisés peuvent compléter
+        l’assemblage.
 
   - id: spain-ribera-red-style-001
     type: mcq
@@ -4409,6 +5488,18 @@ cards:
         High-altitude sun ripens Tempranillo skins and flavours, while cool nights retain freshness.
         Premium examples can support oak and extended bottle ageing.
 
+    fr:
+      question: "Quel profil structurel est typique d’un Ribera del Duero rouge ?"
+      choices:
+        - { text: "Couleur pâle, tanins faibles et faible alcool", correct: false }
+        - { text: "Couleur profonde, tanins fermes et corps puissant", correct: true }
+        - { text: "Couleur pâle, acidité élevée et corps léger", correct: false }
+        - { text: "Demi-sec, peu tannique et au fruit floral", correct: false }
+      explanation: |
+        En altitude, le soleil fait mûrir les pellicules et les arômes du Tempranillo, tandis que
+        les nuits fraîches préservent la fraîcheur. Les meilleurs exemples se prêtent à un élevage
+        sous bois et à une longue garde en bouteille.
+
   - id: spain-ribera-authorised-grapes-001
     type: mcq
     deck: Spain
@@ -4428,6 +5519,18 @@ cards:
       explanation: |
         These international varieties may complement the required Tempranillo majority. Garnacha
         Tinta is another authorised black grape, while Albillo Mayor is the local white.
+
+    fr:
+      question: "Quel groupe réunit trois cépages d’assemblage autorisés dans les Ribera del Duero rouges ?"
+      choices:
+        - { text: "Bobal, Monastrell et Mencía", correct: false }
+        - { text: "Cabernet Sauvignon, Merlot et Malbec", correct: true }
+        - { text: "Graciano, Mazuelo et Bobal", correct: false }
+        - { text: "Pinot Noir, Syrah et Petit Verdot", correct: false }
+      explanation: |
+        Ces cépages internationaux peuvent compléter la majorité obligatoire de Tempranillo. Le
+        Garnacha Tinta est un autre cépage noir autorisé, tandis que l’Albillo Mayor est le cépage
+        blanc local.
 
   - id: spain-ribera-garnacha-rosado-001
     type: mcq
@@ -4449,6 +5552,18 @@ cards:
         Garnacha can contribute red fruit, body and alcohol. Rosado or clarete must be based on
         authorised black varieties even though some white grapes may be included.
 
+    fr:
+      question: "Quel cépage noir traditionnel peut compléter le Tempranillo dans un rosado ou un clarete de Ribera del Duero ?"
+      choices:
+        - { text: "Mencía", correct: false }
+        - { text: "Garnacha Tinta", correct: true }
+        - { text: "Monastrell", correct: false }
+        - { text: "Bobal", correct: false }
+      explanation: |
+        Le Garnacha peut apporter des fruits rouges, du corps et de l’alcool. Le rosado ou clarete
+        doit être principalement issu de cépages noirs autorisés, même si certains cépages blancs
+        peuvent y entrer.
+
   - id: spain-ribera-modern-extraction-001
     type: mcq
     deck: Spain
@@ -4468,6 +5583,18 @@ cards:
       explanation: |
         Longer maceration and pumping over or punching down extract colour and tannin from ripe
         Tempranillo skins. Oak maturation can then integrate the structure.
+
+    fr:
+      question: "Quelle technique peut renforcer la concentration et la structure d’un Ribera del Duero rouge moderne ?"
+      choices:
+        - { text: "Un pressurage direct avant fermentation", correct: false }
+        - { text: "Une macération prolongée avec un travail actif du chapeau", correct: true }
+        - { text: "Une fermentation fraîche sans les pellicules", correct: false }
+        - { text: "Un mutage précoce pour conserver du sucre résiduel", correct: false }
+      explanation: |
+        Une macération plus longue, accompagnée de remontages ou de pigeages, extrait couleur et
+        tanins des pellicules mûres du Tempranillo. L’élevage sous bois peut ensuite assouplir et
+        intégrer cette structure.
 
   - id: spain-ribera-french-oak-001
     type: mcq
@@ -4489,6 +5616,17 @@ cards:
         French barriques can add fine-grained tannin, toast and spice. Producers vary the proportion
         of new wood to avoid overwhelming concentrated fruit.
 
+    fr:
+      question: "Quel choix d’élevage est courant pour un Ribera del Duero moderne haut de gamme ?"
+      choices:
+        - { text: "De grands foudres américains anciens, sans passage en barrique", correct: false }
+        - { text: "De petites barriques de chêne français, avec une part de bois neuf", correct: true }
+        - { text: "Des jarres d’argile non revêtues exposées à l’oxygène", correct: false }
+        - { text: "Des fûts de châtaignier destinés à un élevage biologique", correct: false }
+      explanation: |
+        Les barriques françaises peuvent apporter des tanins fins et des notes grillées et épicées.
+        Les producteurs modulent la proportion de bois neuf pour ne pas dominer le fruit concentré.
+
   - id: spain-toro-climate-001
     type: mcq
     deck: Spain
@@ -4508,6 +5646,18 @@ cards:
       explanation: |
         Toro experiences hot, dry days and strong sunshine, but its elevation produces a large
         diurnal range. Winters are cold and rainfall is limited.
+
+    fr:
+      question: "Quelle description climatique convient le mieux à Toro, sur la Meseta occidentale ?"
+      choices:
+        - { text: "Maritime frais avec d’abondantes pluies estivales", correct: false }
+        - { text: "Continental chaud, avec un soleil intense et des nuits fraîches", correct: true }
+        - { text: "Maritime chaud avec des étés doux et humides", correct: false }
+        - { text: "Méditerranéen frais avec une faible amplitude thermique diurne", correct: false }
+      explanation: |
+        Toro connaît des journées chaudes et sèches et un fort ensoleillement, mais son altitude
+        crée une importante amplitude thermique diurne. Les hivers sont froids et les précipitations
+        limitées.
 
   - id: spain-toro-tinta-de-toro-001
     type: mcq
@@ -4529,6 +5679,18 @@ cards:
         Tinta de Toro is the local Tempranillo name and vine population. It produces deeply
         coloured, powerful reds under Toro’s hot continental conditions.
 
+    fr:
+      question: "Quel cépage est appelé localement Tinta de Toro ?"
+      choices:
+        - { text: "Garnacha Tinta", correct: false }
+        - { text: "Tempranillo", correct: true }
+        - { text: "Mencía", correct: false }
+        - { text: "Monastrell", correct: false }
+      explanation: |
+        Tinta de Toro est le nom local du Tempranillo et de sa population de vignes. Dans les
+        conditions continentales chaudes de Toro, il produit des rouges puissants et profondément
+        colorés.
+
   - id: spain-toro-red-profile-001
     type: mcq
     deck: Spain
@@ -4548,6 +5710,18 @@ cards:
       explanation: |
         Intense sun and low yields readily produce high sugar and concentrated flavours. Careful
         extraction and earlier picking can preserve balance.
+
+    fr:
+      question: "Quel profil est typique d’un rouge mûr issu de Tinta de Toro ?"
+      choices:
+        - { text: "Corps léger, alcool faible et délicats fruits rouges", correct: false }
+        - { text: "Corps puissant, alcool élevé et fruits noirs concentrés", correct: true }
+        - { text: "Couleur pâle, acidité élevée et fruit herbacé", correct: false }
+        - { text: "Demi-sec, tanins faibles et arômes floraux", correct: false }
+      explanation: |
+        Un soleil intense et de faibles rendements entraînent facilement une forte accumulation de
+        sucre et des arômes concentrés. Une extraction mesurée et une récolte plus précoce peuvent
+        préserver l’équilibre.
 
   - id: spain-toro-body-cause-001
     type: mcq
@@ -4569,6 +5743,18 @@ cards:
         Abundant heat and sun build sugar, while old bush vines often carry small crops. The result
         is concentrated fruit, full body and elevated alcohol.
 
+    fr:
+      question: "Quelle combinaison au vignoble produit le plus directement le style rouge traditionnel puissant de Toro ?"
+      choices:
+        - { text: "Des journées fraîches et nuageuses et des vignes palissées à haut rendement", correct: false }
+        - { text: "Un soleil intense et des vignes en gobelet à faible rendement", correct: true }
+        - { text: "Des pluies fréquentes et des sols fertiles de fond de vallée", correct: false }
+        - { text: "Une récolte précoce et des canopées vigoureuses irriguées", correct: false }
+      explanation: |
+        La chaleur et le soleil abondants favorisent l’accumulation de sucre, tandis que les
+        vieilles vignes en gobelet portent souvent de petites récoltes. Il en résulte un fruit
+        concentré, un corps puissant et un degré d’alcool élevé.
+
   - id: spain-toro-ageing-potential-001
     type: mcq
     deck: Spain
@@ -4588,6 +5774,18 @@ cards:
       explanation: |
         Dense fruit, tannin and suitable acidity can withstand oak maturation and evolve towards
         savoury tertiary aromas. Balance matters more than power alone.
+
+    fr:
+      question: "Pourquoi les meilleurs rouges de Toro peuvent-ils bien évoluer en bouteille ?"
+      choices:
+        - { text: "Leurs faibles tanins et leur faible acidité ralentissent leur évolution", correct: false }
+        - { text: "Leur fruit concentré et leurs tanins fermes leur apportent de la structure", correct: true }
+        - { text: "Le sucre résiduel protège leur couleur pâle", correct: false }
+        - { text: "Un alcool modéré préserve le fruit primaire pendant une longue garde", correct: false }
+      explanation: |
+        Un fruit dense, des tanins et une acidité suffisante permettent un élevage sous bois, puis
+        une évolution vers des arômes tertiaires. L’équilibre compte davantage que la seule
+        puissance.
 
   - id: spain-toro-colours-001
     type: mcq
@@ -4609,6 +5807,17 @@ cards:
         Red wine dominates Toro, but the specification also covers white and rosado. Tempranillo-
         based reds remain the region’s principal reputation.
 
+    fr:
+      question: "Outre le rouge, quelles couleurs de vin tranquille peuvent être produites sous la DOP Toro ?"
+      choices:
+        - { text: "Blanc", correct: false }
+        - { text: "Blanc et rosado", correct: true }
+        - { text: "Rosado", correct: false }
+        - { text: "Blanc et effervescent", correct: false }
+      explanation: |
+        Le rouge domine à Toro, mais le cahier des charges couvre aussi les blancs et les rosados.
+        Les rouges à base de Tempranillo restent au cœur de la réputation régionale.
+
   - id: spain-rueda-location-focus-001
     type: mcq
     deck: Spain
@@ -4628,6 +5837,18 @@ cards:
       explanation: |
         Rueda lies on the northern Meseta between the Toro and Ribera del Duero areas. It is best
         known for fresh, aromatic dry whites led by Verdejo.
+
+    fr:
+      question: "Quelle association indique correctement la situation de Rueda et son principal style de vin ?"
+      choices:
+        - { text: "Galice ; blancs maritimes dominés par l’Albariño", correct: false }
+        - { text: "Castille-et-León ; blancs secs dominés par le Verdejo", correct: true }
+        - { text: "Murcie ; rouges puissants dominés par le Monastrell", correct: false }
+        - { text: "Catalogne ; effervescents dominés par le Xarel·lo", correct: false }
+      explanation: |
+        Rueda se situe sur la Meseta septentrionale, entre les zones de Toro et de Ribera del Duero.
+        La région est surtout connue pour ses blancs secs frais et aromatiques dominés par le
+        Verdejo.
 
   - id: spain-rueda-climate-001
     type: mcq
@@ -4649,6 +5870,18 @@ cards:
         Vineyards at roughly 600–800 metres cool markedly after sunset. Slower night-time acid
         respiration balances the intense daytime sunshine.
 
+    fr:
+      question: "Comment l’altitude de Rueda aide-t-elle les raisins blancs à conserver leur fraîcheur dans un climat continental ensoleillé ?"
+      choices:
+        - { text: "Elle élève les températures nocturnes et accélère la perte d’acidité", correct: false }
+        - { text: "Elle crée des nuits fraîches et une forte amplitude thermique diurne", correct: true }
+        - { text: "Elle apporte un brouillard marin persistant tout l’été", correct: false }
+        - { text: "Elle accroît l’humidité autour des grappes compactes", correct: false }
+      explanation: |
+        Les vignobles situés à environ 600–800 mètres se rafraîchissent nettement après le coucher
+        du soleil. Le ralentissement de la respiration nocturne des acides compense l’intense
+        ensoleillement diurne.
+
   - id: spain-rueda-blend-rule-001
     type: mcq
     deck: Spain
@@ -4668,6 +5901,17 @@ cards:
       explanation: |
         Verdejo and Sauvignon Blanc are classed as principal white varieties. The remaining
         proportion may come from other authorised grapes, subject to the specification.
+
+    fr:
+      question: "Selon les règles actuelles de Rueda, quels cépages doivent constituer ensemble au moins 75 % d’un blanc tranquille standard ?"
+      choices:
+        - { text: "Viura et Palomino", correct: false }
+        - { text: "Verdejo et Sauvignon Blanc", correct: true }
+        - { text: "Chardonnay et Viognier", correct: false }
+        - { text: "Albariño et Godello", correct: false }
+      explanation: |
+        Le Verdejo et le Sauvignon Blanc sont classés comme cépages blancs principaux. Le reste peut
+        provenir d’autres cépages autorisés, dans les limites du cahier des charges.
 
   - id: spain-northwest-climate-001
     type: mcq
@@ -4689,6 +5933,18 @@ cards:
         Moist Atlantic systems moderate temperatures and bring frequent rain to Galicia. Conditions
         become more continental eastward towards Bierzo.
 
+    fr:
+      question: "Pourquoi le nord-ouest de l’Espagne est-il généralement plus frais et plus humide que le plateau central ?"
+      choices:
+        - { text: "Les vents méditerranéens apportent un air continental sec", correct: false }
+        - { text: "Les systèmes météo atlantiques apportent une influence maritime", correct: true }
+        - { text: "Les monts Cantabriques canalisent l’air sec venu de l’est", correct: false }
+        - { text: "La faible latitude raccourcit la saison de croissance", correct: false }
+      explanation: |
+        Les systèmes atlantiques humides modèrent les températures et apportent des pluies
+        fréquentes en Galice. Vers l’est, en direction de Bierzo, les conditions deviennent plus
+        continentales.
+
   - id: spain-rias-baixas-parra-001
     type: mcq
     deck: Spain
@@ -4708,6 +5964,18 @@ cards:
       explanation: |
         Lifting shoots and grapes on pergolas encourages air movement and keeps fruit away from
         moist ground, reducing fungal pressure after rain.
+
+    fr:
+      question: "Quel est le principal avantage de la conduite haute en parra dans la région humide de Rías Baixas ?"
+      choices:
+        - { text: "Elle maintient les grappes près du sol humide", correct: false }
+        - { text: "Elle améliore la circulation de l’air autour des grappes surélevées", correct: true }
+        - { text: "Elle maximise l’ombre dans un climat frais et nuageux", correct: false }
+        - { text: "Elle facilite la récolte des vignes en gobelet peu denses", correct: false }
+      explanation: |
+        La conduite des rameaux et des raisins sur des pergolas favorise la circulation de l’air et
+        éloigne les fruits du sol humide, ce qui réduit la pression des maladies fongiques après la
+        pluie.
 
   - id: spain-rias-baixas-fresh-style-001
     type: mcq
@@ -4729,6 +5997,18 @@ cards:
         Temperature control and protection from oxygen retain Albariño’s citrus, stone-fruit and
         floral aromas. Most examples are released without obvious oak.
 
+    fr:
+      question: "Quelle approche en cave préserve le mieux le style classique, frais, d’un Albariño de Rías Baixas ?"
+      choices:
+        - { text: "Une fermentation chaude et oxydative en vieux fûts", correct: false }
+        - { text: "Une fermentation fraîche à l’abri de l’oxygène en cuves inertes", correct: true }
+        - { text: "Une longue macération pelliculaire suivie d’un mutage", correct: false }
+        - { text: "Un élevage biologique dans des fûts partiellement remplis", correct: false }
+      explanation: |
+        Le contrôle de la température et la protection contre l’oxygène préservent les arômes
+        d’agrumes, de fruits à noyau et de fleurs de l’Albariño. La plupart des vins sont
+        commercialisés sans marque évidente du bois.
+
   - id: spain-rias-baixas-textured-style-001
     type: mcq
     deck: Spain
@@ -4748,6 +6028,18 @@ cards:
       explanation: |
         Lees contact adds body and savoury complexity, while carefully judged oak can broaden
         texture. The grape’s high acidity helps keep richer examples balanced.
+
+    fr:
+      question: "Quelles techniques peuvent donner un Albariño de Rías Baixas plus ample et plus texturé ?"
+      choices:
+        - { text: "Une filtration précoce et une mise immédiate en bouteille", correct: false }
+        - { text: "Un élevage ou un bâtonnage sur lies, éventuellement complété par un bois discret", correct: true }
+        - { text: "Une macération carbonique et une fermentation à température élevée", correct: false }
+        - { text: "Un mutage suivi d’un élevage en solera", correct: false }
+      explanation: |
+        Le contact avec les lies apporte du corps et une complexité plus évoluée, tandis qu’un usage
+        mesuré du bois peut élargir la texture. L’acidité élevée du cépage aide les cuvées riches à
+        conserver leur équilibre.
 
   - id: spain-rias-baixas-colour-balance-001
     type: mcq
@@ -4769,6 +6061,17 @@ cards:
         Rías Baixas is overwhelmingly associated with white wine, especially Albariño. Local black
         varieties are authorised, but red production is limited.
 
+    fr:
+      question: "Quelle place le vin rouge occupe-t-il dans la production de Rías Baixas ?"
+      choices:
+        - { text: "Il représente la majorité du volume embouteillé", correct: false }
+        - { text: "Il est autorisé, mais reste très minoritaire", correct: true }
+        - { text: "Son volume égale celui du blanc d’Albariño", correct: false }
+        - { text: "Il constitue le principal style exporté par l’appellation", correct: false }
+      explanation: |
+        Rías Baixas est presque entièrement associée au vin blanc, en particulier à l’Albariño. Des
+        cépages noirs locaux sont autorisés, mais la production de rouge demeure limitée.
+
   - id: spain-bierzo-setting-001
     type: mcq
     deck: Spain
@@ -4788,6 +6091,18 @@ cards:
       explanation: |
         Bierzo occupies a sheltered basin in north-west Castilla y León. It receives more Atlantic
         influence than the central plateau but remains warmer and drier than coastal Galicia.
+
+    fr:
+      question: "Quelle description situe le mieux Bierzo ?"
+      choices:
+        - { text: "Une plaine côtière méditerranéenne au sud de Valence", correct: false }
+        - { text: "Un bassin du nord-ouest entre la Galice et la Meseta", correct: true }
+        - { text: "Une haute vallée des Pyrénées centrales", correct: false }
+        - { text: "Un plateau aride immédiatement au sud de Madrid", correct: false }
+      explanation: |
+        Bierzo occupe un bassin abrité du nord-ouest de la Castille-et-León. La région reçoit
+        davantage d’influence atlantique que le plateau central, mais reste plus chaude et plus
+        sèche que la Galice côtière.
 
   - id: spain-bierzo-old-vines-001
     type: mcq
@@ -4809,6 +6124,18 @@ cards:
         Old hillside vines crop at low levels and can give concentrated, perfumed fruit. Altitude
         and poor soils help preserve freshness and limit vigour.
 
+    fr:
+      question: "Quelle origine viticole est la plus associée aux Mencía haut de gamme de Bierzo ?"
+      choices:
+        - { text: "De jeunes vignes irriguées sur des fonds de vallée fertiles", correct: false }
+        - { text: "De vieilles vignes sur des pentes raides et pierreuses", correct: true }
+        - { text: "Des vignes à haut rendement sur des pergolas côtières humides", correct: false }
+        - { text: "De nouvelles plantations sur des sols alluviaux profonds", correct: false }
+      explanation: |
+        Les vieilles vignes de coteau produisent peu et peuvent donner des fruits concentrés et
+        parfumés. L’altitude et les sols pauvres aident à préserver la fraîcheur et à limiter la
+        vigueur.
+
   - id: spain-bierzo-oak-choice-001
     type: mcq
     deck: Spain
@@ -4828,6 +6155,17 @@ cards:
       explanation: |
         Mencía’s floral, herbal and vivid fruit character can be delicate. Restrained oak or larger
         vessels add texture without dominating those aromas.
+
+    fr:
+      question: "Quel est le principal risque d’un élevage marqué en bois neuf pour un Mencía de Bierzo ?"
+      choices:
+        - { text: "Il augmente l’acidité naturelle du vin", correct: false }
+        - { text: "Il peut masquer le parfum et le fruit frais du Mencía", correct: true }
+        - { text: "Il empêche les tanins de s’assouplir", correct: false }
+        - { text: "Il peut réduire la couleur tout en renforçant les arômes floraux", correct: false }
+      explanation: |
+        Le caractère floral, herbacé et intensément fruité du Mencía peut être délicat. Un boisé
+        mesuré ou de plus grands contenants apportent de la texture sans dominer ces arômes.
 
   - id: spain-levante-location-001
     type: mcq
@@ -4849,6 +6187,17 @@ cards:
         The Levante includes coastal and inland zones around Valencia, Alicante and Murcia. Warm
         Mediterranean or hot semi-arid conditions are common.
 
+    fr:
+      question: "Que désigne le Levante dans la géographie viticole espagnole ?"
+      choices:
+        - { text: "Le nord-ouest atlantique autour de la Galice", correct: false }
+        - { text: "L’est et le sud-est méditerranéens", correct: true }
+        - { text: "Le haut bassin de l’Èbre autour de la Rioja et de la Navarre", correct: false }
+        - { text: "Le plateau septentrional le long du Duero", correct: false }
+      explanation: |
+        Le Levante comprend les zones côtières et intérieures autour de Valence, Alicante et Murcie.
+        Les conditions méditerranéennes chaudes ou semi-arides sont courantes.
+
   - id: spain-valencia-diversity-001
     type: mcq
     deck: Spain
@@ -4868,6 +6217,18 @@ cards:
       explanation: |
         Valencia’s subzones range from warm coastal or lowland sites to cooler high-elevation
         vineyards. Numerous local and international varieties broaden the possibilities.
+
+    fr:
+      question: "Pourquoi la DOP Valencia produit-elle une gamme particulièrement large de styles de vin ?"
+      choices:
+        - { text: "Une zone compacte possède un seul climat et un seul cépage", correct: false }
+        - { text: "Ses sous-zones contrastées et ses nombreux cépages autorisés", correct: true }
+        - { text: "Ses sous-zones partagent un seul cépage et un seul style", correct: false }
+        - { text: "Tous les vignobles se trouvent à la même altitude côtière", correct: false }
+      explanation: |
+        Les sous-zones de Valencia vont de sites côtiers ou de plaine chauds à des vignobles
+        d’altitude plus frais. De nombreux cépages locaux et internationaux élargissent encore les
+        possibilités.
 
   - id: spain-valencia-local-grapes-001
     type: mcq
@@ -4889,6 +6250,17 @@ cards:
         Merseguera is associated with higher sites, Moscatel supports aromatic sweet and dry wines,
         and Monastrell thrives in warmer southern areas.
 
+    fr:
+      question: "Quel groupe réunit trois cépages qui jouent un rôle important dans la DOP Valencia ?"
+      choices:
+        - { text: "Albariño, Godello et Mencía", correct: false }
+        - { text: "Merseguera, Moscatel et Monastrell", correct: true }
+        - { text: "Verdejo, Tinta de Toro et Graciano", correct: false }
+        - { text: "Xarel·lo, Parellada et Ull de Llebre", correct: false }
+      explanation: |
+        Le Merseguera est associé aux sites les plus élevés, le Moscatel permet des vins secs ou
+        doux aromatiques et le Monastrell prospère dans les zones méridionales plus chaudes.
+
   - id: spain-valencia-monastrell-001
     type: mcq
     deck: Spain
@@ -4908,6 +6280,18 @@ cards:
       explanation: |
         Clariano lies in the warmer south of the denomination, where late-ripening, drought-tolerant
         Monastrell can achieve full flavour and tannin.
+
+    fr:
+      question: "Quel cépage noir est particulièrement associé à la chaude sous-zone de Clariano, à Valencia ?"
+      choices:
+        - { text: "Mencía", correct: false }
+        - { text: "Monastrell", correct: true }
+        - { text: "Graciano", correct: false }
+        - { text: "Tempranillo", correct: false }
+      explanation: |
+        Clariano se situe dans la partie la plus chaude, au sud de l’appellation. Le Monastrell,
+        tardif et résistant à la sécheresse, peut y atteindre une pleine maturité aromatique et
+        tannique.
 
   - id: spain-valencia-merseguera-001
     type: mcq
@@ -4929,6 +6313,17 @@ cards:
         Alto Turia’s elevation helps Merseguera retain acidity in a warm latitude. The variety
         usually gives light, subtly aromatic dry whites.
 
+    fr:
+      question: "Quel cépage blanc traditionnel est associé à la sous-zone élevée d’Alto Turia, à Valencia ?"
+      choices:
+        - { text: "Albariño", correct: false }
+        - { text: "Merseguera", correct: true }
+        - { text: "Palomino", correct: false }
+        - { text: "Xarel·lo", correct: false }
+      explanation: |
+        À cette latitude chaude, l’altitude d’Alto Turia aide le Merseguera à conserver son acidité.
+        Ce cépage donne généralement des blancs secs légers et subtilement aromatiques.
+
   - id: spain-moscatel-de-valencia-001
     type: mcq
     deck: Spain
@@ -4948,6 +6343,17 @@ cards:
       explanation: |
         Moscatel de Alejandría thrives in Valencia’s warm Mediterranean conditions and gives
         pronounced grape, orange-blossom and citrus aromas.
+
+    fr:
+      question: "Quel cépage constitue la base aromatique du traditionnel Moscatel de Valencia doux ?"
+      choices:
+        - { text: "Moscatel de Grano Menudo", correct: false }
+        - { text: "Moscatel de Alejandría", correct: true }
+        - { text: "Pedro Ximénez", correct: false }
+        - { text: "Malvasía Aromática", correct: false }
+      explanation: |
+        Le Moscatel de Alejandría prospère dans les conditions méditerranéennes chaudes de Valence
+        et donne des arômes prononcés de raisin, de fleur d’oranger et d’agrumes.
 
   - id: spain-jumilla-yecla-style-range-001
     type: mcq
@@ -4969,6 +6375,18 @@ cards:
         Protective winemaking can produce accessible ripe-fruited wines, while old vines, controlled
         yields and oak support powerful premium styles.
 
+    fr:
+      question: "Quelle gamme décrit le mieux les Monastrell contemporains de Jumilla et Yecla ?"
+      choices:
+        - { text: "Des rosados secs pâles aux effervescents de méthode traditionnelle", correct: false }
+        - { text: "Des rouges jeunes et fruités aux vins concentrés élevés sous bois", correct: true }
+        - { text: "Des rouges légers, peu alcoolisés et très acides", correct: false }
+        - { text: "Des vins doux fortifiés élevés sous voile", correct: false }
+      explanation: |
+        Une vinification protectrice peut donner des vins accessibles au fruit mûr, tandis que de
+        vieilles vignes, des rendements maîtrisés et un élevage sous bois permettent des styles haut
+        de gamme puissants.
+
   - id: spain-castilla-la-mancha-volume-001
     type: mcq
     deck: Spain
@@ -4988,6 +6406,18 @@ cards:
       explanation: |
         The region combines enormous vineyard area with broad, relatively flat terrain. Modern
         wineries can process large volumes efficiently despite low rainfall.
+
+    fr:
+      question: "Pourquoi la Castille-La Manche joue-t-elle un rôle central dans la production espagnole de vin en grand volume ?"
+      choices:
+        - { text: "Ses petits vignobles escarpés exigent beaucoup de travail manuel", correct: false }
+        - { text: "Son immense plateau accueille de vastes vignobles mécanisables", correct: true }
+        - { text: "Son climat atlantique humide assure des rendements constamment élevés", correct: false }
+        - { text: "Ses appellations sont spécialisées dans les vins haut de gamme de longue garde", correct: false }
+      explanation: |
+        La région associe une immense superficie viticole à un relief vaste et relativement plat.
+        Malgré les faibles précipitations, les caves modernes peuvent traiter efficacement de gros
+        volumes.
 
   - id: spain-la-mancha-location-001
     type: mcq
@@ -5009,6 +6439,17 @@ cards:
         La Mancha occupies a large part of Castilla-La Mancha on Spain’s southern plateau. The
         climate is hot, dry and strongly continental.
 
+    fr:
+      question: "Où se situe la zone de production de la DOP La Mancha ?"
+      choices:
+        - { text: "Sur la Meseta septentrionale, le long du haut Duero", correct: false }
+        - { text: "Sur la Meseta méridionale, principalement au sud de Madrid", correct: true }
+        - { text: "Sur le littoral atlantique autour des rías galiciennes", correct: false }
+        - { text: "Le long de la côte méditerranéenne au nord de Barcelone", correct: false }
+      explanation: |
+        La Mancha occupe une grande partie de la Castille-La Manche, sur le plateau méridional
+        espagnol. Le climat est chaud, sec et fortement continental.
+
   - id: spain-la-mancha-scale-001
     type: mcq
     deck: Spain
@@ -5028,6 +6469,17 @@ cards:
       explanation: |
         La Mancha covers a vast portion of the southern Meseta and is among the world’s largest
         delimited wine regions by vineyard area.
+
+    fr:
+      question: "Quelle DOP espagnole se distingue particulièrement par l’immense superficie de sa zone de production ?"
+      choices:
+        - { text: "Bierzo", correct: false }
+        - { text: "La Mancha", correct: true }
+        - { text: "Priorat", correct: false }
+        - { text: "Rías Baixas", correct: false }
+      explanation: |
+        La Mancha couvre une vaste partie de la Meseta méridionale et compte parmi les plus grandes
+        régions viticoles délimitées au monde par la superficie de son vignoble.
 
   - id: spain-airen-style-001
     type: mcq
@@ -5049,6 +6501,18 @@ cards:
         Cool fermentation and protected handling can produce clean apple, citrus and subtle floral
         notes. Airén is generally less aromatic and less acidic than Verdejo or Albariño.
 
+    fr:
+      question: "Quel profil décrit le mieux un jeune Airén de La Mancha soigneusement vinifié ?"
+      choices:
+        - { text: "Très aromatique, puissant et fortement boisé", correct: false }
+        - { text: "Léger, assez neutre et modérément acide", correct: true }
+        - { text: "Profondément coloré, tannique et riche en fruits noirs", correct: false }
+        - { text: "Doux, floral et naturellement peu alcoolisé", correct: false }
+      explanation: |
+        Une fermentation fraîche et un travail à l’abri de l’oxygène peuvent donner de nettes notes
+        de pomme, d’agrumes et de fleurs discrètes. L’Airén est généralement moins aromatique et
+        moins acide que le Verdejo ou l’Albariño.
+
   - id: spain-la-mancha-diversification-001
     type: mcq
     deck: Spain
@@ -5068,6 +6532,17 @@ cards:
       explanation: |
         Airén remains the largest variety, but its area has fallen substantially. Tempranillo and a
         wide range of other black and white grapes now broaden production.
+
+    fr:
+      question: "Quelle évolution à long terme décrit le mieux l’encépagement de La Mancha ?"
+      choices:
+        - { text: "L’Airén progresse tandis que les cépages noirs disparaissent", correct: false }
+        - { text: "Moins d’Airén et des plantations plus diversifiées", correct: true }
+        - { text: "Le Tempranillo a été entièrement remplacé par des cépages blancs", correct: false }
+        - { text: "La région abandonne le vin tranquille au profit de l’effervescent", correct: false }
+      explanation: |
+        L’Airén reste le premier cépage, mais sa superficie a nettement diminué. Le Tempranillo et
+        une large gamme d’autres cépages noirs et blancs diversifient désormais la production.
 
   - id: spain-la-mancha-international-grapes-001
     type: mcq
@@ -5089,6 +6564,17 @@ cards:
         These varieties supplement extensive local plantings such as Airén and Tempranillo, locally
         called Cencibel. They support both varietal wines and blends.
 
+    fr:
+      question: "Quel groupe réunit des cépages internationaux autorisés dans la DOP La Mancha ?"
+      choices:
+        - { text: "Nebbiolo, Sangiovese, Furmint, Assyrtiko et Riesling", correct: false }
+        - { text: "Cabernet Sauvignon, Merlot, Syrah, Chardonnay et Sauvignon Blanc", correct: true }
+        - { text: "Touriga Nacional, Baga, Arinto, Alvarinho et Fernão Pires", correct: false }
+        - { text: "Pinotage, Zinfandel, Torrontés, Carmenère et Malbec", correct: false }
+      explanation: |
+        Ces cépages complètent les importantes plantations locales d’Airén et de Tempranillo, appelé
+        ici Cencibel. Ils permettent aussi bien des vins monocépages que des assemblages.
+
   - id: spain-la-mancha-value-quality-001
     type: mcq
     deck: Spain
@@ -5108,6 +6594,18 @@ cards:
       explanation: |
         Modern presses, refrigerated fermentation and better oxygen management preserve fruit and
         prevent faults. Technical expertise helps wineries handle large harvests consistently.
+
+    fr:
+      question: "Qu’est-ce qui a le plus amélioré la régularité des vins peu coûteux de La Mancha ?"
+      choices:
+        - { text: "Le retour à des fermentations chaudes dans des cuves ouvertes en béton", correct: false }
+        - { text: "Les investissements dans le contrôle des températures et le matériel moderne", correct: true }
+        - { text: "L’obligation d’un long élevage en chêne français neuf", correct: false }
+        - { text: "Une hygiène de cave moins stricte pour favoriser l’oxydation", correct: false }
+      explanation: |
+        Les pressoirs modernes, les fermentations réfrigérées et une meilleure gestion de l’oxygène
+        préservent le fruit et préviennent les défauts. Le savoir-faire technique aide les caves à
+        traiter régulièrement de grandes récoltes.
 
   - id: spain-vino-de-pago-definition-001
     type: mcq
@@ -5129,6 +6627,18 @@ cards:
         A pago is a delimited rural site or estate whose soils and mesoclimate distinguish it from
         its surroundings. Recognition is separate from the regional DO hierarchy.
 
+    fr:
+      question: "Quel concept géographique définit une DOP espagnole Vino de Pago ?"
+      choices:
+        - { text: "Un vaste assemblage régional provenant de plusieurs provinces", correct: false }
+        - { text: "Un domaine ou site reconnu aux conditions naturelles distinctives", correct: true }
+        - { text: "Une catégorie de village disponible dans chaque DOCa", correct: false }
+        - { text: "Une catégorie nationale de vin sans origine géographique", correct: false }
+      explanation: |
+        Un pago est un site rural ou un domaine délimité dont les sols et le mésoclimat le
+        distinguent de ses environs. Sa reconnaissance est indépendante de la hiérarchie de la DO
+        régionale.
+
   - id: spain-valdepenas-setting-001
     type: mcq
     deck: Spain
@@ -5148,6 +6658,17 @@ cards:
       explanation: |
         Valdepeñas lies on the southern Meseta within Castilla-La Mancha. Summers are hot and dry,
         winters cold, and water availability is a major constraint.
+
+    fr:
+      question: "Quelle association décrit correctement la DOP Valdepeñas ?"
+      choices:
+        - { text: "Au nord de la Rioja ; maritime frais", correct: false }
+        - { text: "Au sud de La Mancha ; continental chaud", correct: true }
+        - { text: "À l’ouest de Rías Baixas ; atlantique humide", correct: false }
+        - { text: "À l’est du Penedès ; côtier chaud", correct: false }
+      explanation: |
+        Valdepeñas se situe sur la Meseta méridionale, en Castille-La Manche. Les étés sont chauds
+        et secs, les hivers froids et la disponibilité en eau constitue une contrainte majeure.
 
   - id: spain-valdepenas-cencibel-001
     type: mcq
@@ -5169,6 +6690,17 @@ cards:
         Cencibel is the local Tempranillo synonym. It forms the basis of Valdepeñas reds ranging
         from youthful fruit-led wines to oak-aged styles.
 
+    fr:
+      question: "Quel cépage est appelé Cencibel à Valdepeñas ?"
+      choices:
+        - { text: "Garnacha", correct: false }
+        - { text: "Tempranillo", correct: true }
+        - { text: "Monastrell", correct: false }
+        - { text: "Bobal", correct: false }
+      explanation: |
+        Cencibel est le synonyme local du Tempranillo. Il est à la base des rouges de Valdepeñas,
+        des vins jeunes et fruités aux styles élevés sous bois.
+
   - id: spain-valdepenas-style-range-001
     type: mcq
     deck: Spain
@@ -5188,6 +6720,17 @@ cards:
       explanation: |
         Temperature control supports inexpensive fruit-forward styles, while riper Cencibel and
         maturation can produce more structured Crianza and Reserva wines.
+
+    fr:
+      question: "Quelle gamme représente le mieux les vins rouges de Valdepeñas ?"
+      choices:
+        - { text: "Des rouges pâles de macération carbonique et des vins doux fortifiés", correct: false }
+        - { text: "Des rouges frais jusqu’aux vins élevés sous bois", correct: true }
+        - { text: "Des rouges légers et acides élevés sous voile", correct: false }
+        - { text: "Des rouges effervescents et des rosados demi-secs", correct: false }
+      explanation: |
+        Le contrôle des températures permet des styles fruités peu coûteux, tandis qu’un Cencibel
+        plus mûr et un élevage adapté peuvent produire des Crianza et Reserva plus structurés.
 
   - id: spain-ageing-terms-purpose-001
     type: mcq
@@ -5209,6 +6752,17 @@ cards:
         The terms regulate time in maturation, including specified periods in oak for still wines.
         Exact requirements may be stricter within an individual denomination.
 
+    fr:
+      question: "Que communiquent principalement les mentions Crianza, Reserva et Gran Reserva sur l’étiquette d’un vin espagnol ?"
+      choices:
+        - { text: "Une hiérarchie fixe de qualité des sols viticoles", correct: false }
+        - { text: "Des conditions minimales d’élevage pour un vin éligible", correct: true }
+        - { text: "La proportion de Tempranillo dans l’assemblage", correct: false }
+        - { text: "Un classement national de la réputation des producteurs", correct: false }
+      explanation: |
+        Ces mentions encadrent la durée totale d’élevage, dont une période déterminée sous bois pour
+        les vins tranquilles. Une appellation donnée peut imposer des exigences plus strictes.
+
   - id: spain-generic-vino-001
     type: mcq
     deck: Spain
@@ -5229,6 +6783,17 @@ cards:
         Vino is the generic category without PDO or PGI protection. A Vino de la Tierra has an IGP
         and therefore a defined geographical origin.
 
+    fr:
+      question: "Quelle catégorie espagnole peut désigner un vin sans indication géographique protégée ?"
+      choices:
+        - { text: "Vino de la Tierra", correct: false }
+        - { text: "Vino", correct: true }
+        - { text: "Denominación de Origen", correct: false }
+        - { text: "Vino de Pago", correct: false }
+      explanation: |
+        Vino est la catégorie générique sans protection AOP ni IGP. Un Vino de la Tierra possède une
+        IGP et donc une origine géographique définie.
+
   - id: spain-dop-meaning-001
     type: mcq
     deck: Spain
@@ -5248,6 +6813,18 @@ cards:
       explanation: |
         DOP is the Spanish expression for the EU Protected Designation of Origin category.
         Traditional Spanish terms such as DO and DOCa sit within this framework.
+
+    fr:
+      question: "Que signifie DOP dans le système espagnol de classification des vins ?"
+      choices:
+        - { text: "Denominación Oficial de Producción", correct: false }
+        - { text: "Denominación de Origen Protegida", correct: true }
+        - { text: "Distrito de Origen Prioritario", correct: false }
+        - { text: "Designación Oficial de Pago", correct: false }
+      explanation: |
+        DOP est l’expression espagnole correspondant à la catégorie européenne Appellation d’Origine
+        Protégée. Les mentions espagnoles traditionnelles telles que DO et DOCa s’inscrivent dans ce
+        cadre.
 
   - id: spain-dop-terms-001
     type: mcq
@@ -5270,6 +6847,18 @@ cards:
         DOP terms. They describe different protected structures, not a simple three-step quality
         ladder.
 
+    fr:
+      question: "Quel groupe réunit trois mentions traditionnelles espagnoles employées au sein de la catégorie DOP ?"
+      choices:
+        - { text: "Vino, Vino de Mesa et Vino de la Tierra", correct: false }
+        - { text: "DO, DOCa et Vino de Pago", correct: true }
+        - { text: "IGP, Vino et Vino de la Tierra", correct: false }
+        - { text: "Joven, Crianza et Reserva", correct: false }
+      explanation: |
+        Denominación de Origen, Denominación de Origen Calificada et Vino de Pago sont des mentions
+        DOP traditionnelles. Elles désignent différentes structures protégées, et non une simple
+        échelle de qualité en trois niveaux.
+
   - id: spain-do-specification-001
     type: mcq
     deck: Spain
@@ -5289,6 +6878,17 @@ cards:
       explanation: |
         A pliego de condiciones delimits the area and sets rules such as varieties, yields, wine
         styles and analytical limits. Requirements differ among denominations.
+
+    fr:
+      question: "Que définit principalement le cahier des charges d’une DO espagnole ?"
+      choices:
+        - { text: "La réputation des producteurs et le prix de vente", correct: false }
+        - { text: "L’origine, les cépages autorisés et les règles de production", correct: true }
+        - { text: "Une note de dégustation nationale pour chaque millésime", correct: false }
+        - { text: "La même durée d’élevage pour tous les vins", correct: false }
+      explanation: |
+        Un pliego de condiciones délimite la zone et fixe notamment les cépages, les rendements, les
+        styles de vin et les limites analytiques. Les exigences diffèrent selon les appellations.
 
   - id: spain-doca-ten-years-001
     type: mcq
@@ -5310,6 +6910,18 @@ cards:
         Ten years of prior DO recognition is one statutory condition. DOCa also requires stricter
         control, including bottling within registered wineries in the delimited area.
 
+    fr:
+      question: "Depuis combien de temps une appellation doit-elle généralement être reconnue comme DO avant de pouvoir prétendre au statut DOCa ?"
+      choices:
+        - { text: "Au moins cinq ans", correct: false }
+        - { text: "Au moins dix ans", correct: true }
+        - { text: "Au moins vingt ans", correct: false }
+        - { text: "Au moins vingt-cinq ans", correct: false }
+      explanation: |
+        Dix années de reconnaissance préalable comme DO constituent une condition légale. Le statut
+        DOCa impose aussi des contrôles plus stricts, dont la mise en bouteille dans des caves
+        inscrites au sein de la zone délimitée.
+
   - id: spain-doca-pair-001
     type: mcq
     deck: Spain
@@ -5329,6 +6941,17 @@ cards:
       explanation: |
         Rioja uses DOCa, while Priorat uses the Catalan form DOQ. Both sit within the EU DOP
         category.
+
+    fr:
+      question: "Quelles sont les deux appellations qui utilisent la mention espagnole DOCa ou son équivalent catalan DOQ ?"
+      choices:
+        - { text: "Ribera del Duero et Rueda", correct: false }
+        - { text: "Rioja et Priorat", correct: true }
+        - { text: "Cava et Penedès", correct: false }
+        - { text: "Jerez et Montilla-Moriles", correct: false }
+      explanation: |
+        La Rioja utilise DOCa, tandis que le Priorat emploie la forme catalane DOQ. Toutes deux
+        relèvent de la catégorie européenne DOP.
 
   - id: spain-priorat-doq-term-001
     type: mcq
@@ -5350,6 +6973,17 @@ cards:
         Denominació d’Origen Qualificada is the Catalan wording corresponding to Denominación de
         Origen Calificada. The legal level is equivalent.
 
+    fr:
+      question: "Pourquoi le Priorat utilise-t-il DOQ plutôt que DOCa sur ses étiquettes ?"
+      choices:
+        - { text: "DOQ est une catégorie européenne distincte, supérieure à DOP", correct: false }
+        - { text: "DOQ est l’équivalent en langue catalane de DOCa", correct: true }
+        - { text: "DOQ désigne un vin issu de vieilles vignes", correct: false }
+        - { text: "DOQ s’applique aux vins fortifiés catalans", correct: false }
+      explanation: |
+        Denominació d’Origen Qualificada est la formulation catalane correspondant à Denominación de
+        Origen Calificada. Leur niveau juridique est équivalent.
+
   - id: spain-vino-de-pago-control-001
     type: mcq
     deck: Spain
@@ -5369,6 +7003,17 @@ cards:
       explanation: |
         The grapes must come from the recognised pago, and production and storage must remain
         distinct from other wines. This protects the identity of the individual site.
+
+    fr:
+      question: "Quelle règle de production est essentielle pour un Vino de Pago espagnol ?"
+      choices:
+        - { text: "Les raisins peuvent être achetés dans toute la communauté autonome", correct: false }
+        - { text: "Les raisins du domaine et le vin qui en est issu sont traités séparément", correct: true }
+        - { text: "Le vin doit être élevé cinq ans avant sa commercialisation", correct: false }
+        - { text: "L’assemblage doit contenir un cépage international", correct: false }
+      explanation: |
+        Les raisins doivent provenir du pago reconnu, et la production comme le stockage doivent
+        rester séparés des autres vins. Cette règle protège l’identité du site individuel.
 
   - id: spain-vino-de-la-tierra-001
     type: mcq
@@ -5390,6 +7035,17 @@ cards:
         Vino de la Tierra is a protected geographical indication with broader rules than a DOP.
         Examples include Castilla and Castilla y León.
 
+    fr:
+      question: "Quelle mention traditionnelle espagnole correspond à la catégorie européenne IGP ?"
+      choices:
+        - { text: "Denominación de Origen", correct: false }
+        - { text: "Vino de la Tierra", correct: true }
+        - { text: "Vino de Pago", correct: false }
+        - { text: "Denominación de Origen Calificada", correct: false }
+      explanation: |
+        Vino de la Tierra est une indication géographique protégée aux règles plus larges qu’une
+        DOP. Castilla et Castilla y León en sont deux exemples.
+
   - id: spain-joven-meaning-001
     type: mcq
     deck: Spain
@@ -5409,6 +7065,18 @@ cards:
       explanation: |
         Joven usually describes a young, fruit-led wine released with little or no oak. The exact
         use is less prescriptive than the protected ageing terms.
+
+    fr:
+      question: "Que signifie généralement Joven sur un vin tranquille espagnol ?"
+      choices:
+        - { text: "Un long élevage sous bois dépassant les minima d’un Reserva", correct: false }
+        - { text: "Une commercialisation précoce sans atteindre le minimum d’élevage d’un Crianza", correct: true }
+        - { text: "Un vin issu d’un seul pago reconnu", correct: false }
+        - { text: "Un vin doux dont la fermentation a été interrompue", correct: false }
+      explanation: |
+        Joven décrit généralement un vin jeune, fruité, commercialisé avec peu ou pas de passage
+        sous bois. Son emploi est moins strictement encadré que celui des mentions d’élevage
+        protégées.
 
   - id: spain-red-ageing-minima-001
     type: mcq
@@ -5430,6 +7098,18 @@ cards:
         These are national baseline periods. The clock combines oak and other maturation, and
         individual DOP specifications may demand more.
 
+    fr:
+      question: "Quelle suite donne les durées totales minimales nationales d’élevage des rouges Crianza, Reserva et Gran Reserva ?"
+      choices:
+        - { text: "12, 24 et 36 mois", correct: false }
+        - { text: "24, 36 et 60 mois", correct: true }
+        - { text: "18, 30 et 48 mois", correct: false }
+        - { text: "24, 48 et 72 mois", correct: false }
+      explanation: |
+        Il s’agit des durées nationales minimales. Elles additionnent le temps sous bois et les
+        autres phases d’élevage, et les cahiers des charges de certaines DOP peuvent imposer
+        davantage.
+
   - id: spain-red-oak-minima-001
     type: mcq
     deck: Spain
@@ -5449,6 +7129,17 @@ cards:
       explanation: |
         The national baseline rises from six to twelve to eighteen months in oak. Rioja and Ribera
         del Duero, for example, require twenty-four months of oak for red Gran Reserva.
+
+    fr:
+      question: "Quelle suite donne les durées minimales nationales sous bois des rouges Crianza, Reserva et Gran Reserva ?"
+      choices:
+        - { text: "3, 6 et 12 mois", correct: false }
+        - { text: "6, 12 et 18 mois", correct: true }
+        - { text: "6, 18 et 24 mois", correct: false }
+        - { text: "12, 18 et 36 mois", correct: false }
+      explanation: |
+        Le minimum national passe de six à douze puis à dix-huit mois sous bois. La Rioja et Ribera
+        del Duero exigent par exemple vingt-quatre mois sous bois pour un Gran Reserva rouge.
 
   - id: spain-white-ageing-minima-001
     type: mcq
@@ -5470,6 +7161,17 @@ cards:
         White and rosado wines have shorter national baselines than reds. Each of these three terms
         also requires at least six months in oak.
 
+    fr:
+      question: "Quelle suite de durées totales d’élevage s’applique au niveau national aux blancs Crianza, Reserva et Gran Reserva ?"
+      choices:
+        - { text: "12, 18 et 36 mois", correct: false }
+        - { text: "18, 24 et 48 mois", correct: true }
+        - { text: "24, 36 et 60 mois", correct: false }
+        - { text: "18, 30 et 54 mois", correct: false }
+      explanation: |
+        Les blancs et les rosados ont des durées nationales minimales plus courtes que les rouges.
+        Chacune de ces trois mentions exige aussi au moins six mois sous bois.
+
   - id: spain-ageing-regional-exceptions-001
     type: mcq
     deck: Spain
@@ -5489,3 +7191,15 @@ cards:
       explanation: |
         National law establishes minimum periods, but a DOP can demand longer maturation. Red Gran
         Reserva in Rioja and Ribera del Duero illustrates this with a longer oak requirement.
+
+    fr:
+      question: "Pourquoi faut-il vérifier l’appellation en plus de la mention Crianza, Reserva ou Gran Reserva sur une étiquette espagnole ?"
+      choices:
+        - { text: "Chaque producteur choisit ses propres minima légaux", correct: false }
+        - { text: "Les règles d’une DOP peuvent dépasser les durées nationales minimales d’élevage", correct: true }
+        - { text: "Ces mentions indiquent les cépages et non l’élevage", correct: false }
+        - { text: "Ces mentions n’ont aucun sens juridique au sein d’une DOP", correct: false }
+      explanation: |
+        La loi nationale fixe des durées minimales, mais une DOP peut exiger un élevage plus long.
+        Les Gran Reserva rouges de la Rioja et de Ribera del Duero l’illustrent par une durée sous
+        bois supérieure.

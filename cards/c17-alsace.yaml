@@ -946,28 +946,29 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Why do Alsace winemakers usually favour techniques that preserve primary fruit and floral aromas?
+      question: Which cellar programme best suits a dry Alsace Riesling intended to retain primary fruit, floral definition and lively acidity?
       choices:
-        - { text: "Most wines are intended to show strong new-oak character", correct: false }
-        - { text: "Many of the region’s principal varieties are aromatic", correct: true }
-        - { text: "The principal varieties benefit from full malolactic conversion", correct: false }
-        - { text: "Long oxidative ageing is compulsory for white wines", correct: false }
+        - { text: "Warm barrel fermentation, full malolactic conversion and new oak", correct: false }
+        - { text: "Cool fermentation in neutral vessels, with malolactic conversion blocked", correct: true }
+        - { text: "Cool barrel fermentation, lees stirring and partial malolactic conversion", correct: false }
+        - { text: "Oxidative handling followed by long maturation in old oak", correct: false }
       explanation: |
-        Riesling, Gewurztraminer and Muscat are valued for distinctive primary aromas;
-        Pinot Gris also gives a recognisable rich profile. Cool fermentation, neutral
-        vessels and blocked malolactic conversion can help retain that identity.
+        Cool fermentation limits the loss of volatile fruit and floral aromas, while
+        stainless steel or old foudres avoid adding obvious oak flavour. Preventing
+        malolactic conversion preserves acidity and avoids buttery notes. This is a common
+        objective for dry Alsace Riesling, not a compulsory recipe for every producer.
     fr:
-      question: Pourquoi les vinificateurs alsaciens privilégient-ils généralement les techniques qui préservent les arômes primaires de fruit et de fleurs ?
+      question: Quel protocole de cave convient le mieux à un Riesling sec d’Alsace visant un fruit net, des notes florales précises et une acidité vive ?
       choices:
-        - { text: "La plupart des vins doivent exprimer un boisé neuf marqué", correct: false }
-        - { text: "Beaucoup des principaux cépages régionaux sont aromatiques", correct: true }
-        - { text: "Les principaux cépages gagnent à effectuer une fermentation malolactique complète", correct: false }
-        - { text: "Un long élevage oxydatif est obligatoire pour les vins blancs", correct: false }
+        - { text: "Fermentation chaude en fût, fermentation malolactique complète et bois neuf", correct: false }
+        - { text: "Fermentation fraîche en contenant neutre, sans fermentation malolactique", correct: true }
+        - { text: "Fermentation fraîche en fût, bâtonnage et fermentation malolactique partielle", correct: false }
+        - { text: "Vinification oxydative suivie d’un long élevage en vieux foudre", correct: false }
       explanation: |
-        Le Riesling, le Gewurztraminer et le Muscat sont recherchés pour leurs arômes
-        primaires distinctifs ; le Pinot Gris possède lui aussi un profil riche bien
-        reconnaissable. Une fermentation fraîche, des contenants neutres et le blocage de
-        la fermentation malolactique contribuent à préserver cette identité.
+        Une fermentation fraîche limite la perte des arômes volatils de fruit et de fleurs,
+        tandis que l’inox ou les vieux foudres évitent un boisé marqué. L’absence de
+        fermentation malolactique préserve l’acidité et évite les notes beurrées. Il s’agit
+        d’un objectif courant pour le Riesling sec d’Alsace, et non d’une recette obligatoire.
 
   - id: alsace-foudre-001
     type: mcq
