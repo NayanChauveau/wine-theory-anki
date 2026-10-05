@@ -14,18 +14,28 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Roughly which latitudes hold most of the world’s wine vineyards — and why?
+      question: "Within which latitude bands are most established wine regions found?"
       choices:
-        - { text: "0–10°, because vines need a tropical wet season", correct: false }
-        - { text: "About 30–50°, which gives a warm season plus a real winter rest", correct: true }
-        - { text: "70–80°, where the polar night ripens thick skins", correct: false }
-        - { text: "Any latitude is equal if you irrigate", correct: false }
+        - { text: "Roughly 30–50° north and south of the equator", correct: true }
+        - { text: "Roughly 20–40° north and south of the equator", correct: false }
+        - { text: "Roughly 40–60° north and south of the equator", correct: false }
+        - { text: "Roughly 10–30° north and south of the equator", correct: false }
       explanation: |
-        Between about **30° and 50°** the vine gets enough summer warmth to ripen
-        and a **winter dormancy** to reset. The equator is too even and often too
-        wet; the high Arctic has no ripening season. Chile, Bordeaux, Barossa and
-        the Mosel all sit in that band.
-
+        Between about 30° and 50°, the growing season is usually warm and long enough to ripen
+        grapes while winter permits dormancy. Altitude, ocean currents and modern techniques allow
+        important exceptions outside these bands.
+    fr:
+      question: "Dans quelles bandes de latitude se trouvent la plupart des régions viticoles établies ?"
+      choices:
+        - { text: "Environ 30–50° au nord et au sud de l’équateur", correct: true }
+        - { text: "Environ 20–40° au nord et au sud de l’équateur", correct: false }
+        - { text: "Environ 40–60° au nord et au sud de l’équateur", correct: false }
+        - { text: "Environ 10–30° au nord et au sud de l’équateur", correct: false }
+      explanation: |
+        Entre environ 30° et 50°, la saison de croissance est généralement assez chaude et longue
+        pour mûrir les raisins, tandis que l’hiver permet la dormance. L’altitude, les courants
+        océaniques et les techniques modernes autorisent d’importantes exceptions hors de ces
+        bandes.
   - id: climate-definition-001
     type: mcq
     deck: The Growing Environment
@@ -36,16 +46,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What is a region’s climate, in vineyard terms?
+      question: "What does climate describe in a vineyard context?"
       choices:
-        - { text: "This week’s forecast for Saturday’s picking", correct: false }
-        - { text: "The long-run pattern of temperature, sunlight and rainfall", correct: true }
-        - { text: "Only the soil type under the vines", correct: false }
-        - { text: "The brand of weather station in the cellar", correct: false }
+        - { text: "The long-term pattern of temperature, sunlight and rainfall", correct: true }
+        - { text: "The atmospheric conditions throughout one particular vintage", correct: false }
+        - { text: "The typical weather experienced only during the ripening period", correct: false }
+        - { text: "The unusual weather events recorded during the past decade", correct: false }
       explanation: |
-        **Climate** is the **multi-year average** of heat, light and rain. One
-        stormy harvest is **weather**, not a change of climate.
-
+        Climate describes typical conditions over a long period. A frost, heatwave or wet harvest in
+        one year is weather and can make a vintage depart sharply from the climatic average.
+    fr:
+      question: "Que décrit le climat dans le contexte d’un vignoble ?"
+      choices:
+        - { text: "Le régime à long terme des températures, de l’ensoleillement et des précipitations", correct: true }
+        - { text: "Les conditions atmosphériques pendant un millésime particulier", correct: false }
+        - { text: "La météo habituelle pendant la seule période de maturation", correct: false }
+        - { text: "Les événements météorologiques inhabituels de la dernière décennie", correct: false }
+      explanation: |
+        Le climat décrit les conditions habituelles sur une longue période. Un gel, une canicule ou
+        des vendanges pluvieuses au cours d’une année relèvent de la météo et peuvent fortement
+        éloigner un millésime de la moyenne climatique.
   - id: weather-definition-001
     type: mcq
     deck: The Growing Environment
@@ -56,17 +76,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: How is weather different from climate?
+      question: "What does weather describe in a vineyard context?"
       choices:
-        - { text: "They are the same word in viticulture", correct: false }
-        - { text: "Weather is the year-to-year swing around that climatic average", correct: true }
-        - { text: "Weather is only soil temperature at 2 m depth", correct: false }
-        - { text: "Climate changes every afternoon; weather never does", correct: false }
+        - { text: "Atmospheric conditions at a particular place and time", correct: true }
+        - { text: "Average atmospheric conditions measured over several decades", correct: false }
+        - { text: "The usual seasonal contrast between summer and winter", correct: false }
+        - { text: "The normal temperature and rainfall range of a wine region", correct: false }
       explanation: |
-        **Weather** is this vintage’s frost, heatwave or rain versus the usual
-        pattern. 2003 in Europe was weather on a continental climate, not a new
-        climate class.
-
+        Weather is the rain, frost, heat, wind and other conditions actually experienced at a given
+        time, including during a particular vintage. Climate is the longer-term pattern around which
+        those conditions vary.
+    fr:
+      question: "Que décrit la météo dans le contexte d’un vignoble ?"
+      choices:
+        - { text: "Les conditions atmosphériques en un lieu et à un moment donnés", correct: true }
+        - { text: "La moyenne des conditions atmosphériques sur plusieurs décennies", correct: false }
+        - { text: "Le contraste saisonnier habituel entre l’été et l’hiver", correct: false }
+        - { text: "La plage normale de températures et de pluies d’une région viticole", correct: false }
+      explanation: |
+        La météo correspond à la pluie, au gel, à la chaleur, au vent et aux autres conditions
+        réellement observées à un moment donné, notamment pendant un millésime. Le climat est le
+        régime à plus long terme autour duquel elles varient.
   - id: temperature-factors-001
     type: mcq
     deck: The Growing Environment
@@ -77,17 +107,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which set of factors most shapes a vineyard’s typical temperature?
+      question: "Which set consists entirely of major natural controls on vineyard temperature?"
       choices:
-        - { text: "Capsule colour, cork brand and label font", correct: false }
-        - { text: "Latitude, altitude, ocean currents, fog, soil and aspect", correct: true }
-        - { text: "Only the winemaker’s fermentation temperature", correct: false }
-        - { text: "Moon phase and the day of the week", correct: false }
+        - { text: "Latitude, altitude, ocean influence and aspect", correct: true }
+        - { text: "Latitude, rainfall, soil fertility and rootstock", correct: false }
+        - { text: "Altitude, soil drainage, planting density and grape variety", correct: false }
+        - { text: "Aspect, humidity, pruning system and crop level", correct: false }
       explanation: |
-        Heat at the vine is a stack: **how far from the poles**, **how high**,
-        **what water and fog do**, **how the soil stores heat**, and **which way
-        the slope faces**. Tank temperature is winemaking, not site climate.
-
+        Latitude governs solar energy, altitude generally lowers temperature, oceans moderate nearby
+        land and aspect changes exposure to sunlight. Soil and wind can further modify a site’s
+        temperature.
+    fr:
+      question: "Quel groupe se compose uniquement de grandes influences naturelles sur la température d’un vignoble ?"
+      choices:
+        - { text: "Latitude, altitude, influence océanique et exposition", correct: true }
+        - { text: "Latitude, précipitations, fertilité du sol et porte-greffe", correct: false }
+        - { text: "Altitude, drainage du sol, densité de plantation et cépage", correct: false }
+        - { text: "Exposition, humidité, mode de taille et charge en raisins", correct: false }
+      explanation: |
+        La latitude gouverne l’énergie solaire, l’altitude abaisse généralement la température, les
+        océans modèrent les terres voisines et l’exposition modifie la quantité de soleil reçue. Le
+        sol et le vent peuvent encore nuancer la température du site.
   - id: altitude-lapse-001
     type: mcq
     deck: The Growing Environment
@@ -98,16 +138,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: About how fast does temperature fall as you climb?
+      question: "What average temperature change is commonly associated with gaining 100 metres of altitude?"
       choices:
-        - { text: "10 °C for every extra metre", correct: false }
-        - { text: "About 0.6 °C for every 100 m of altitude", correct: true }
-        - { text: "Temperature always rises with height", correct: false }
-        - { text: "Altitude has no effect inside 2 000 m", correct: false }
+        - { text: "A fall of about 0.6 °C", correct: true }
+        - { text: "A rise of about 0.6 °C", correct: false }
+        - { text: "A fall of about 3 °C", correct: false }
+        - { text: "No measurable change", correct: false }
       explanation: |
-        The standard lapse rate is roughly **0.6 °C / 100 m**. That is why
-        Mendoza’s Uco Valley and Etna’s high slopes stay cooler than the valley
-        floor. It is an average, not a law for every inversion night.
+        Air temperature falls by roughly 0.6 °C per 100 metres under average conditions. Local
+        inversions, wind and topography can temporarily produce different results, so this is a
+        useful rule of thumb rather than a fixed law.
+    fr:
+      question: "Quelle variation moyenne de température associe-t-on couramment à un gain d’altitude de 100 mètres ?"
+      choices:
+        - { text: "Une baisse d’environ 0,6 °C", correct: true }
+        - { text: "Une hausse d’environ 0,6 °C", correct: false }
+        - { text: "Une baisse d’environ 3 °C", correct: false }
+        - { text: "Aucune variation mesurable", correct: false }
+      explanation: |
+        Dans des conditions moyennes, la température de l’air baisse d’environ 0,6 °C tous les 100
+        mètres. Les inversions, le vent et la topographie peuvent temporairement produire un
+        résultat différent : il s’agit donc d’un ordre de grandeur, non d’une loi absolue.
 
   - id: ocean-currents-001
     type: mcq
@@ -119,17 +170,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: How do ocean currents change a coastal vineyard climate?
+      question: "Why can a cold ocean current cool vineyards near the coast?"
       choices:
-        - { text: "They only affect fish, never air temperature", correct: false }
-        - { text: "They warm or cool the air that sits over and beside the water", correct: true }
-        - { text: "They set the legal maximum alcohol", correct: false }
-        - { text: "They replace the need for any rainfall", correct: false }
+        - { text: "It cools marine air that fog and onshore breezes can carry inland", correct: true }
+        - { text: "It warms marine air slowly and releases that heat during summer days", correct: false }
+        - { text: "It reduces ocean salinity, causing the sea to absorb less solar energy", correct: false }
+        - { text: "It blocks onshore winds and traps cooler continental air at the coast", correct: false }
       explanation: |
-        Cold streams (Humboldt off Chile, California Current) chill the air;
-        the Gulf Stream keeps western Europe milder than its latitude suggests.
-        The current works through the **air**, not by watering the vines.
-
+        A cold current chills the air above it; fog or sea breezes can then move that cool air over
+        coastal vineyards. The Humboldt and California Currents are important examples.
+    fr:
+      question: "Pourquoi un courant océanique froid peut-il rafraîchir les vignobles proches du littoral ?"
+      choices:
+        - { text: "Il refroidit l’air marin que le brouillard et les brises peuvent pousser vers les terres", correct: true }
+        - { text: "Il réchauffe lentement l’air marin et restitue cette chaleur pendant les journées d’été", correct: false }
+        - { text: "Il réduit la salinité de l’océan, qui absorbe alors moins d’énergie solaire", correct: false }
+        - { text: "Il bloque les vents marins et retient l’air continental frais sur le littoral", correct: false }
+      explanation: |
+        Un courant froid refroidit l’air qui le surplombe ; le brouillard ou les brises marines
+        peuvent ensuite transporter cet air frais vers les vignobles côtiers. Les courants de
+        Humboldt et de Californie en sont deux exemples importants.
   - id: fog-cooling-001
     type: mcq
     deck: The Growing Environment
@@ -140,16 +200,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What does regular fog usually do to a vineyard?
+      question: "What is the usual effect of regular coastal fog on grape ripening?"
       choices:
-        - { text: "It raises daily maxima by several degrees", correct: false }
-        - { text: "It cools the site and stretches the ripening season", correct: true }
-        - { text: "It is only a tasting-note for Sauvignon Blanc", correct: false }
-        - { text: "It forbids any vine from setting fruit", correct: false }
+        - { text: "It reduces sunlight and temperature, slowing ripening", correct: true }
+        - { text: "It raises daytime temperature and accelerates acid loss", correct: false }
+        - { text: "It increases solar radiation while lowering humidity", correct: false }
+        - { text: "It shortens the growing season by advancing budburst", correct: false }
       explanation: |
-        Fog is a **sunshade and an air-conditioner**. Carneros, the Petaluma Gap
-        and Casablanca live on it. Too much wet fog can also invite rot — the
-        cooling is the exam point.
+        Fog blocks part of the sunlight and brings cool marine air, extending the ripening period
+        and helping grapes retain acidity. Persistent moisture can also increase fungal-disease
+        pressure.
+    fr:
+      question: "Quel est l’effet habituel d’un brouillard côtier régulier sur la maturation des raisins ?"
+      choices:
+        - { text: "Il réduit l’ensoleillement et la température, ce qui ralentit la maturation", correct: true }
+        - { text: "Il élève la température diurne et accélère la perte d’acidité", correct: false }
+        - { text: "Il augmente le rayonnement solaire tout en réduisant l’humidité", correct: false }
+        - { text: "Il raccourcit la saison de croissance en avançant le débourrement", correct: false }
+      explanation: |
+        Le brouillard bloque une partie du soleil et apporte de l’air marin frais, prolongeant la
+        maturation et aidant les raisins à conserver leur acidité. Une humidité persistante peut
+        aussi accroître la pression des maladies fongiques.
 
   - id: fog-examples-001
     type: mcq
@@ -161,17 +232,28 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which pair is the usual textbook example of fog-cooled wine coasts?
+      question: "Which pair of wine regions is notably cooled by Pacific fog or cool marine air?"
       choices:
-        - { text: "Chablis and the Mosel terraces", correct: false }
-        - { text: "Coastal California and Casablanca in Chile", correct: true }
-        - { text: "Central Otago and Tokaj", correct: false }
-        - { text: "Cognac and Champagne only", correct: false }
+        - { text: "Coastal California and Chile’s Casablanca Valley", correct: true }
+        - { text: "Bordeaux’s Médoc and the Loire’s Muscadet area", correct: false }
+        - { text: "Germany’s Mosel and Austria’s Wachau", correct: false }
+        - { text: "Barossa Valley and South Australia’s Riverland", correct: false }
       explanation: |
-        The **Pacific** fog bank shapes many California AVAs and Chile’s
-        **Casablanca**. Chablis and the Mosel are cool for latitude and aspect,
-        not Pacific fog.
-
+        Cold Pacific currents help create fog and cool air along parts of California and coastal
+        Chile. The other pairs may have maritime, river or inland influences, but are not both
+        cooled by the Pacific.
+    fr:
+      question: "Quelle paire de régions viticoles est notamment rafraîchie par le brouillard ou l’air marin frais du Pacifique ?"
+      choices:
+        - { text: "Le littoral californien et la vallée chilienne de Casablanca", correct: true }
+        - { text: "Le Médoc bordelais et la région du Muscadet dans la Loire", correct: false }
+        - { text: "La Moselle allemande et la Wachau autrichienne", correct: false }
+        - { text: "La Barossa Valley et la Riverland en Australie-Méridionale", correct: false }
+      explanation: |
+        Les courants froids du Pacifique contribuent à créer du brouillard et de l’air frais dans
+        certaines parties de la Californie et du Chili côtier. Les autres paires peuvent subir des
+        influences maritimes, fluviales ou continentales, mais ne sont pas toutes deux rafraîchies
+        par le Pacifique.
   - id: aspect-equator-001
     type: mcq
     deck: The Growing Environment
@@ -182,17 +264,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: How does aspect change ripening?
+      question: "Which slope orientation generally receives the most direct sunlight during the growing season?"
       choices:
-        - { text: "The pole-facing side always ripens first", correct: false }
-        - { text: "The equator-facing slope gets more sun and heat", correct: true }
-        - { text: "Aspect only matters below sea level", correct: false }
-        - { text: "North and south faces are identical at every latitude", correct: false }
+        - { text: "A slope facing towards the equator", correct: true }
+        - { text: "A slope facing towards the nearest pole", correct: false }
+        - { text: "An east-facing slope because it receives morning sun", correct: false }
+        - { text: "A west-facing slope because it receives afternoon sun", correct: false }
       explanation: |
-        Face the **equator** (south in Europe, north in the southern hemisphere)
-        and the vine sees more hours of useful sun. A pole-facing bank stays
-        greener and later.
-
+        Equator-facing slopes receive sunlight at a more favourable angle: south-facing in the
+        northern hemisphere and north-facing in the southern hemisphere. The benefit is greatest in
+        cooler regions.
+    fr:
+      question: "Quelle orientation de pente reçoit généralement le plus de soleil direct pendant la saison de croissance ?"
+      choices:
+        - { text: "Une pente tournée vers l’équateur", correct: true }
+        - { text: "Une pente tournée vers le pôle le plus proche", correct: false }
+        - { text: "Une pente tournée vers l’est, car elle reçoit le soleil du matin", correct: false }
+        - { text: "Une pente tournée vers l’ouest, car elle reçoit le soleil de l’après-midi", correct: false }
+      explanation: |
+        Les pentes tournées vers l’équateur reçoivent le soleil sous un angle plus favorable : vers
+        le sud dans l’hémisphère Nord et vers le nord dans l’hémisphère Sud. Cet avantage est
+        particulièrement important dans les régions fraîches.
   - id: aspect-mosel-001
     type: mcq
     deck: The Growing Environment
@@ -203,17 +295,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which cool region is the stock example of living off a good aspect?
+      question: "What is the main ripening benefit of the Mosel’s steep, south-facing slopes?"
       choices:
-        - { text: "The flat sands of the Landes", correct: false }
-        - { text: "The Mosel Valley", correct: true }
-        - { text: "The floor of Death Valley", correct: false }
-        - { text: "The Netherlands polders", correct: false }
+        - { text: "They maximise the solar energy received by the vines", correct: true }
+        - { text: "They drain cold air away from vines on the upper slope", correct: false }
+        - { text: "They shed water quickly and restrict excessive vine vigour", correct: false }
+        - { text: "They expose vines to wind and preserve acidity during summer", correct: false }
       explanation: |
-        **Mosel** Riesling hangs on **steep, south-facing slate**. Without that
-        aspect the latitude would barely ripen. The river also reflects light —
-        a named helper, not the whole story.
-
+        The favourable aspect and steep angle improve interception of sunlight in this cool,
+        northerly region. River reflection and heat-retaining slate can provide further help in
+        ripening Riesling.
+    fr:
+      question: "Quel est le principal avantage des pentes raides orientées au sud pour la maturation en Moselle ?"
+      choices:
+        - { text: "Elles maximisent l’énergie solaire reçue par les vignes", correct: true }
+        - { text: "Elles évacuent l’air froid loin des vignes situées en haut de pente", correct: false }
+        - { text: "Elles drainent vite l’eau et limitent la vigueur excessive de la vigne", correct: false }
+        - { text: "Elles exposent les vignes au vent et préservent l’acidité en été", correct: false }
+      explanation: |
+        L’exposition favorable et la forte pente améliorent l’interception du soleil dans cette
+        région fraîche et septentrionale. La réflexion de la rivière et la capacité de l’ardoise à
+        retenir la chaleur peuvent encore favoriser la maturation du Riesling.
   - id: continentality-define-001
     type: mcq
     deck: The Growing Environment
@@ -224,16 +326,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What does continentality measure?
+      question: "What does continentality measure in climate studies?"
       choices:
-        - { text: "How far a cellar is from the nearest city", correct: false }
-        - { text: "The gap between winter and summer temperatures", correct: true }
-        - { text: "Only annual rainfall in millimetres", correct: false }
-        - { text: "The number of AOCs in a country", correct: false }
+        - { text: "The difference between average winter and summer temperatures", correct: true }
+        - { text: "The difference between daytime and night-time temperatures", correct: false }
+        - { text: "The total rainfall during the growing season", correct: false }
+        - { text: "The distance between a vineyard and the equator", correct: false }
       explanation: |
-        **Continentality** is the **winter–summer swing**. Inland Mendoza or
-        Washington can be fiercely continental; an island like Rías Baixas is
-        not.
+        Continentality concerns the annual temperature range. Inland regions generally heat and cool
+        more rapidly than coastal regions, creating hotter summers and colder winters.
+    fr:
+      question: "Que mesure la continentalité en climatologie ?"
+      choices:
+        - { text: "L’écart entre les températures moyennes de l’hiver et de l’été", correct: true }
+        - { text: "L’écart entre les températures diurnes et nocturnes", correct: false }
+        - { text: "Le total des précipitations pendant la saison de croissance", correct: false }
+        - { text: "La distance entre un vignoble et l’équateur", correct: false }
+      explanation: |
+        La continentalité concerne l’amplitude thermique annuelle. Les régions intérieures se
+        réchauffent et se refroidissent généralement plus vite que les régions côtières, ce qui
+        donne des étés plus chauds et des hivers plus froids.
 
   - id: continentality-water-001
     type: mcq
@@ -245,17 +357,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What is the main brake on continentality, and why?
+      question: "Why do large bodies of water reduce a nearby region’s continentality?"
       choices:
-        - { text: "Nearby cities, because tarmac stores no heat", correct: false }
-        - { text: "Large bodies of water, which heat and cool more slowly than land", correct: true }
-        - { text: "Only the colour of the cellar door", correct: false }
-        - { text: "A legal cap on winter temperatures", correct: false }
+        - { text: "Water heats and cools slowly, moderating seasonal extremes", correct: true }
+        - { text: "Reflected sunlight raises winter and summer temperatures equally", correct: false }
+        - { text: "Sea breezes widen the temperature range between day and night", correct: false }
+        - { text: "Evaporation increases summer heat and intensifies winter cold", correct: false }
       explanation: |
-        **Seas and big lakes** are thermal batteries. They flatten the annual
-        range, which is why maritime Bordeaux is milder in winter and cooler in
-        high summer than an inland plateau at the same latitude.
-
+        Seas and large lakes store and release heat slowly. Nearby vineyards therefore tend to
+        experience cooler summers, milder winters and a smaller annual temperature range than inland
+        sites.
+    fr:
+      question: "Pourquoi les grandes étendues d’eau réduisent-elles la continentalité d’une région voisine ?"
+      choices:
+        - { text: "L’eau se réchauffe et se refroidit lentement, ce qui modère les extrêmes saisonniers", correct: true }
+        - { text: "La lumière réfléchie élève autant les températures hivernales qu’estivales", correct: false }
+        - { text: "Les brises marines accentuent l’écart de température entre le jour et la nuit", correct: false }
+        - { text: "L’évaporation renforce la chaleur estivale et intensifie le froid hivernal", correct: false }
+      explanation: |
+        Les mers et les grands lacs emmagasinent et libèrent lentement la chaleur. Les vignobles
+        voisins connaissent donc généralement des étés plus frais, des hivers plus doux et une
+        amplitude thermique annuelle plus faible que les sites intérieurs.
   - id: sunlight-factors-001
     type: mcq
     deck: The Growing Environment
@@ -266,16 +388,28 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which three site factors most change how much sunlight a vineyard sees?
+      question: "Which set consists entirely of major controls on the sunlight received by a vineyard?"
       choices:
-        - { text: "Cork grade, capsule and case wood", correct: false }
-        - { text: "Seas or lakes, latitude, and aspect", correct: true }
-        - { text: "Only the yeast strain", correct: false }
-        - { text: "Bottle shape and punt depth", correct: false }
+        - { text: "Latitude, cloud cover and aspect", correct: true }
+        - { text: "Latitude, annual rainfall and soil fertility", correct: false }
+        - { text: "Altitude, wind speed and soil drainage", correct: false }
+        - { text: "Humidity, diurnal range and soil pH", correct: false }
       explanation: |
-        **Water** reflects and cools, **latitude** sets day length, **aspect**
-        aims the slope at the sun. Yeast is a cellar choice.
-
+        Latitude affects day length and solar angle, clouds block radiation, and aspect determines
+        how directly a slope faces the sun. Row orientation and canopy management can modify
+        exposure at vine level.
+    fr:
+      question: "Quel groupe se compose uniquement de grandes influences sur l’ensoleillement reçu par un vignoble ?"
+      choices:
+        - { text: "Latitude, couverture nuageuse et exposition", correct: true }
+        - { text: "Latitude, précipitations annuelles et fertilité du sol", correct: false }
+        - { text: "Altitude, vitesse du vent et drainage du sol", correct: false }
+        - { text: "Humidité, amplitude thermique diurne et pH du sol", correct: false }
+      explanation: |
+        La latitude influence la durée du jour et l’angle du soleil, les nuages bloquent le
+        rayonnement et l’exposition détermine à quel point une pente fait face au soleil.
+        L’orientation des rangs et la gestion de la canopée peuvent modifier l’exposition au niveau
+        de la vigne.
   - id: latitude-daylength-001
     type: mcq
     deck: The Growing Environment
@@ -286,17 +420,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: How does higher latitude change summer sunlight?
+      question: "How does increasing latitude affect seasonal day length?"
       choices:
-        - { text: "Summer days get shorter as you leave the equator", correct: false }
-        - { text: "Summer day length stretches the farther you are from the equator", correct: true }
-        - { text: "Latitude never changes day length", correct: false }
-        - { text: "The poles have 12-hour days all year", correct: false }
+        - { text: "Summer days lengthen and winter days shorten", correct: true }
+        - { text: "Both summer and winter days become shorter", correct: false }
+        - { text: "Day length stays closer to twelve hours all year", correct: false }
+        - { text: "Seasonal variation disappears in the southern hemisphere", correct: false }
       explanation: |
-        High-latitude summers have **long days** — extra photosynthetic hours
-        even when the sun is weaker. That is how German Riesling and Washington
-        Cabernet still ripen.
-
+        Farther from the equator, the contrast between summer and winter day length increases. Long
+        summer days can partly compensate for the lower angle of the sun in high-latitude vineyards.
+    fr:
+      question: "Comment une latitude plus élevée influence-t-elle la durée saisonnière des jours ?"
+      choices:
+        - { text: "Les jours d’été s’allongent et les jours d’hiver raccourcissent", correct: true }
+        - { text: "Les jours d’été comme les jours d’hiver deviennent plus courts", correct: false }
+        - { text: "La durée du jour reste plus proche de douze heures toute l’année", correct: false }
+        - { text: "Les variations saisonnières disparaissent dans l’hémisphère Sud", correct: false }
+      explanation: |
+        Plus on s’éloigne de l’équateur, plus le contraste entre la durée des jours d’été et d’hiver
+        augmente. Les longues journées estivales peuvent compenser en partie l’angle solaire plus
+        faible des vignobles de haute latitude.
   - id: latitude-daylength-examples-001
     type: mcq
     deck: The Growing Environment
@@ -307,15 +450,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which pair is cited for using those long high-latitude summer days?
+      question: "Which pair benefits from long summer days at relatively high latitude?"
       choices:
-        - { text: "Equatorial Uganda and coastal Ecuador", correct: false }
-        - { text: "Germany (Riesling) and Washington State (Cabernet)", correct: true }
-        - { text: "Singapore and northern Brazil", correct: false }
-        - { text: "Only vineyards inside the Arctic Circle", correct: false }
+        - { text: "German vineyards and Washington State", correct: true }
+        - { text: "Northern Chile and South Australia", correct: false }
+        - { text: "Sicily and the Western Cape", correct: false }
+        - { text: "Mendoza and Central Valley, Chile", correct: false }
       explanation: |
-        **Mosel / Rheingau Riesling** and **Washington Cabernet** are the usual
-        pair: cool or continental sites that still see long June–July days.
+        Germany and Washington lie relatively far from the equator. Their long summer days provide
+        extended photosynthetic time even where temperatures are cool or the growing season is
+        comparatively short.
+    fr:
+      question: "Quelle paire bénéficie de longues journées d’été à une latitude relativement élevée ?"
+      choices:
+        - { text: "Les vignobles allemands et l’État de Washington", correct: true }
+        - { text: "Le nord du Chili et l’Australie-Méridionale", correct: false }
+        - { text: "La Sicile et le Cap-Occidental", correct: false }
+        - { text: "Mendoza et la Vallée Centrale chilienne", correct: false }
+      explanation: |
+        L’Allemagne et l’État de Washington se trouvent relativement loin de l’équateur. Leurs
+        longues journées d’été prolongent la photosynthèse, même lorsque les températures sont
+        fraîches ou la saison de croissance assez courte.
 
   - id: aspect-steep-equator-001
     type: mcq
@@ -327,16 +482,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which aspect details help grapes ripen in a cool place?
+      question: "Which site combination most strongly promotes ripening in a cool region?"
       choices:
-        - { text: "Flat land facing the pole, in permanent shade", correct: false }
-        - { text: "Steeper slopes that face toward the equator", correct: true }
-        - { text: "Any slope, as long as it faces due west at the equator", correct: false }
-        - { text: "A north face in Germany and a south face in New Zealand, both equally warm", correct: false }
+        - { text: "A steep slope facing the equator", correct: true }
+        - { text: "A gentle slope facing the nearest pole", correct: false }
+        - { text: "A flat site shaded during the afternoon", correct: false }
+        - { text: "A valley floor receiving frequent cold-air drainage", correct: false }
       explanation: |
-        **Steep + equator-facing** stacks more energy per hectare. A gentle
-        pole-facing bank in the Mosel would struggle; a matching north face in
-        Central Otago is the warm one.
+        An equator-facing aspect receives more direct radiation, and a steep angle can improve
+        interception when the sun is low. Cold valley floors and pole-facing slopes tend to ripen
+        more slowly.
+    fr:
+      question: "Quelle combinaison de site favorise le plus fortement la maturation dans une région fraîche ?"
+      choices:
+        - { text: "Une pente raide tournée vers l’équateur", correct: true }
+        - { text: "Une pente douce tournée vers le pôle le plus proche", correct: false }
+        - { text: "Un site plat ombragé pendant l’après-midi", correct: false }
+        - { text: "Un fond de vallée qui reçoit fréquemment de l’air froid", correct: false }
+      explanation: |
+        Une exposition vers l’équateur reçoit un rayonnement plus direct, et une forte pente peut
+        mieux l’intercepter lorsque le soleil est bas. Les fonds de vallée froids et les pentes
+        tournées vers le pôle mûrissent généralement plus lentement.
 
   - id: fungal-damp-001
     type: mcq
@@ -348,17 +514,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What weather most encourages fungal disease in the vineyard?
+      question: "Which combination creates the greatest fungal-disease pressure in a vine canopy?"
       choices:
-        - { text: "A long run of dry wind after rain has already drained", correct: false }
-        - { text: "Damp, still conditions after rainfall", correct: true }
-        - { text: "Only snow in January", correct: false }
-        - { text: "Desert heat with no humidity at all", correct: false }
+        - { text: "Long periods of wetness, warm conditions and little airflow", correct: true }
+        - { text: "Brief periods of wetness, warm conditions and strong airflow", correct: false }
+        - { text: "Long periods of wetness, cool conditions and strong airflow", correct: false }
+        - { text: "A dry canopy, warm conditions and little airflow", correct: false }
       explanation: |
-        **Wet leaves and still air** after rain are a gift to downy mildew,
-        botrytis and the rest. Wind and a quick dry-out cut the risk. Dry heat
-        is a different problem (sunburn, water stress).
-
+        Wet plant tissue and humid, still air favour diseases such as downy mildew and botrytis.
+        Open canopies and drying winds shorten the time for which leaves and bunches remain wet.
+    fr:
+      question: "Quelle combinaison crée la plus forte pression des maladies fongiques dans la canopée ?"
+      choices:
+        - { text: "De longues périodes humides, de la chaleur et peu de circulation d’air", correct: true }
+        - { text: "De brèves périodes humides, de la chaleur et une forte circulation d’air", correct: false }
+        - { text: "De longues périodes humides, du froid et une forte circulation d’air", correct: false }
+        - { text: "Une canopée sèche, de la chaleur et peu de circulation d’air", correct: false }
+      explanation: |
+        Les tissus végétaux mouillés et un air humide et immobile favorisent des maladies comme le
+        mildiou et le botrytis. Les canopées ouvertes et les vents asséchants réduisent la durée
+        pendant laquelle feuilles et grappes restent humides.
   - id: irrigation-when-001
     type: mcq
     deck: The Growing Environment
@@ -369,16 +544,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What do growers use when rainfall is not enough?
+      question: "Which vineyard is most likely to require regular irrigation?"
       choices:
-        - { text: "They must abandon the vineyard", correct: false }
-        - { text: "Irrigation", correct: true }
-        - { text: "Only extra sulphur dust, which replaces water", correct: false }
-        - { text: "A legal ban on any water in the EU", correct: false }
+        - { text: "A warm, dry site with free-draining soil and small water reserves", correct: true }
+        - { text: "A warm site with reliable summer rain and water-retentive soil", correct: false }
+        - { text: "A cool maritime site with regular rain and deep clay soil", correct: false }
+        - { text: "A cool site with ample winter rain and water-retentive subsoil", correct: false }
       explanation: |
-        **Irrigation** (drip in most New World deserts, sometimes regulated in
-        Europe) stands in for missing rain. It is a tool, not a flavouring.
-
+        Irrigation is most useful where rainfall and stored soil water cannot meet the vine’s needs.
+        Actual use also depends on water rights and appellation rules, and excessive irrigation can
+        encourage vigour or dilute fruit.
+    fr:
+      question: "Quel vignoble est le plus susceptible de nécessiter une irrigation régulière ?"
+      choices:
+        - { text: "Un site chaud et sec, au sol drainant et aux faibles réserves en eau", correct: true }
+        - { text: "Un site chaud, régulièrement arrosé en été et au sol qui retient l’eau", correct: false }
+        - { text: "Un site maritime frais, régulièrement arrosé et doté d’un sol argileux profond", correct: false }
+        - { text: "Un site frais, bien arrosé en hiver et doté d’un sous-sol qui retient l’eau", correct: false }
+      explanation: |
+        L’irrigation est surtout utile lorsque les précipitations et les réserves hydriques du sol
+        ne couvrent pas les besoins de la vigne. Son emploi dépend aussi des droits sur l’eau et des
+        règles de l’appellation ; un excès d’eau peut favoriser la vigueur ou diluer les fruits.
   - id: sprinkler-tradeoff-001
     type: mcq
     deck: The Growing Environment
@@ -389,17 +575,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What is the usual trade-off of overhead sprinklers versus drip?
+      question: "What is a major disadvantage of overhead sprinklers compared with drip irrigation?"
       choices:
-        - { text: "Sprinklers are always illegal and never cheaper", correct: false }
-        - { text: "They cost less to install but waste water and wet the canopy, raising disease risk", correct: true }
-        - { text: "They use no water and never wet the leaves", correct: false }
-        - { text: "They are identical to drip in every way", correct: false }
+        - { text: "Greater evaporative loss and wetter vine canopies", correct: true }
+        - { text: "Greater risk of blocked emitters near individual vines", correct: false }
+        - { text: "A narrow wetted zone that can concentrate vine roots", correct: false }
+        - { text: "Inability to cover a whole vineyard during a frost", correct: false }
       explanation: |
-        **Sprinklers** are cheap kit and useful against frost, but they throw
-        water on leaves like rain. **Drip** is stingier and keeps the canopy
-        drier. That is the exam contrast.
-
+        Sprinklers distribute water broadly, so evaporation and runoff can be high and wet foliage
+        can favour disease. Drip systems target the root zone more precisely, although sprinklers
+        can also be useful for frost protection.
+    fr:
+      question: "Quel est un inconvénient majeur de l’aspersion par rapport à l’irrigation goutte à goutte ?"
+      choices:
+        - { text: "Une plus forte évaporation et une canopée davantage mouillée", correct: true }
+        - { text: "Un risque supérieur d’obstruction des goutteurs près de chaque vigne", correct: false }
+        - { text: "Une zone humide étroite qui peut concentrer les racines de la vigne", correct: false }
+        - { text: "L’impossibilité de couvrir tout un vignoble pendant un épisode de gel", correct: false }
+      explanation: |
+        L’aspersion répartit largement l’eau : l’évaporation et le ruissellement peuvent être
+        importants, et le feuillage mouillé peut favoriser les maladies. Le goutte-à-goutte cible
+        plus précisément la zone racinaire, même si l’aspersion peut aussi servir contre le gel.
   - id: continental-autumn-drop-001
     type: mcq
     deck: The Growing Environment
@@ -410,16 +606,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: When does temperature often fall away fast in a continental climate?
+      question: "Why can autumn be hazardous for late-ripening grapes in a continental climate?"
       choices:
-        - { text: "Only in midsummer", correct: false }
-        - { text: "In autumn", correct: true }
-        - { text: "Never — continental sites stay tropical all year", correct: false }
-        - { text: "Only at the winter solstice on the equator", correct: false }
+        - { text: "Temperatures may fall rapidly and frost can end ripening", correct: true }
+        - { text: "Nearby oceans keep nights warm and extend the season", correct: false }
+        - { text: "Summer heat normally continues unchanged into winter", correct: false }
+        - { text: "Autumn rainfall always raises sugar concentration", correct: false }
       explanation: |
-        Inland air has no sea to buffer it. **Autumn** can crash from warm days
-        to frost risk — a problem for late varieties in places like Tokaj or
-        parts of Austria.
+        Without a large body of water to release stored heat, inland temperatures can decline
+        quickly after summer. Late varieties may fail to ripen fully before frost or severe cold.
+    fr:
+      question: "Pourquoi l’automne peut-il menacer les raisins tardifs dans un climat continental ?"
+      choices:
+        - { text: "Les températures peuvent chuter rapidement et le gel interrompre la maturation", correct: true }
+        - { text: "Les océans voisins maintiennent les nuits chaudes et prolongent la saison", correct: false }
+        - { text: "La chaleur estivale se poursuit normalement sans changement jusqu’en hiver", correct: false }
+        - { text: "Les pluies automnales augmentent toujours la concentration en sucre", correct: false }
+      explanation: |
+        Sans grande étendue d’eau pour restituer la chaleur emmagasinée, les températures
+        intérieures peuvent baisser rapidement après l’été. Les cépages tardifs risquent de ne pas
+        atteindre leur pleine maturité avant le gel ou le grand froid.
 
   - id: continental-cool-varieties-001
     type: mcq
@@ -431,17 +637,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which ripening habit fits a cool continental site best?
+      question: "Which growth-cycle traits reduce risk in a cool continental vineyard?"
       choices:
-        - { text: "Buds very early and hangs until December", correct: false }
-        - { text: "Buds late (misses spring frost) and ripens early (beats the autumn crash)", correct: true }
-        - { text: "Needs a six-month hang like late Cabernet in a cool valley", correct: false }
-        - { text: "Only tropical varieties with no dormancy", correct: false }
+        - { text: "Late budding and early ripening", correct: true }
+        - { text: "Early budding and late ripening", correct: false }
+        - { text: "Early budding and a very long ripening season", correct: false }
+        - { text: "Late budding and very late ripening", correct: false }
       explanation: |
-        **Late budbreak + early ripening** dodges spring frost and finishes
-        before the continental autumn collapse. Grüner Veltliner and some
-        Riesling sites play that game; late Cabernet in a cool inland valley
-        often does not.
+        Late budburst reduces exposure to spring frost, while early ripening helps grapes mature
+        before temperatures collapse in autumn. Few varieties combine both traits perfectly, so site
+        choice remains important.
+    fr:
+      question: "Quels traits du cycle végétatif réduisent les risques dans un vignoble continental frais ?"
+      choices:
+        - { text: "Un débourrement tardif et une maturation précoce", correct: true }
+        - { text: "Un débourrement précoce et une maturation tardive", correct: false }
+        - { text: "Un débourrement précoce et une très longue maturation", correct: false }
+        - { text: "Un débourrement tardif et une maturation très tardive", correct: false }
+      explanation: |
+        Un débourrement tardif réduit l’exposition au gel printanier, tandis qu’une maturation
+        précoce aide les raisins à mûrir avant la chute des températures automnales. Peu de cépages
+        réunissent parfaitement ces deux qualités ; le choix du site reste donc important.
 
   - id: continental-dry-summer-001
     type: mcq
@@ -453,17 +669,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which climate type is most associated with very dry summers?
+      question: "Which statement correctly distinguishes continentality from a Mediterranean rainfall pattern?"
       choices:
-        - { text: "Maritime, raining every month alike", correct: false }
-        - { text: "Continental", correct: true }
-        - { text: "Equatorial rainforest", correct: false }
-        - { text: "Always Mediterranean with winter drought only", correct: false }
+        - { text: "Continentality concerns annual temperature range; Mediterranean climates typically have dry summers", correct: true }
+        - { text: "Continentality means dry summers; Mediterranean describes a large day–night temperature range", correct: false }
+        - { text: "Continentality concerns total rainfall; Mediterranean describes winter temperature alone", correct: false }
+        - { text: "The two terms are interchangeable descriptions of hot, dry vineyards", correct: false }
       explanation: |
-        **Continental** interiors often have a **dry summer** and weather that
-        arrives as storms, not a drizzle every week. Maritime zones leak rain
-        through the year. Mediterranean is the winter-rain / summer-dry pattern
-        — related but not the same word.
+        A continental climate is defined by strong seasonal temperature contrast, not by one
+        universal rainfall pattern. Mediterranean climates are specifically associated with warm to
+        hot, dry summers and wetter winters.
+    fr:
+      question: "Quelle affirmation distingue correctement la continentalité d’un régime de précipitations méditerranéen ?"
+      choices:
+        - { text: "La continentalité concerne l’amplitude thermique annuelle ; le climat méditerranéen possède généralement des étés secs", correct: true }
+        - { text: "La continentalité signifie des étés secs ; le climat méditerranéen désigne une forte amplitude thermique diurne", correct: false }
+        - { text: "La continentalité concerne les précipitations totales ; le climat méditerranéen décrit uniquement la température hivernale", correct: false }
+        - { text: "Les deux termes sont interchangeables pour décrire des vignobles chauds et secs", correct: false }
+      explanation: |
+        Un climat continental se définit par de forts contrastes saisonniers de température, et non
+        par un régime universel de précipitations. Le climat méditerranéen est spécifiquement
+        associé à des étés chauds et secs et à des hivers plus humides.
 
   - id: maritime-rain-year-001
     type: mcq
@@ -475,15 +701,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: When does a maritime climate usually get its rain?
+      question: "How is rainfall commonly distributed in a maritime climate?"
       choices:
-        - { text: "Only in a two-week monsoon", correct: false }
-        - { text: "Fairly evenly through the year", correct: true }
-        - { text: "Never — maritime means desert", correct: false }
-        - { text: "Only as snow in July", correct: false }
+        - { text: "Across the year, including during the growing season", correct: true }
+        - { text: "Almost entirely during a short summer wet season", correct: false }
+        - { text: "Only during winter, followed by a rainless growing season", correct: false }
+        - { text: "Mainly as snow after the harvest", correct: false }
       explanation: |
-        **Maritime** rain is **spread out** — Bordeaux in a wet June, England
-        most months. That is why rot and dilution are standing threats there.
+        Maritime regions often receive rain in every season. Growing-season rainfall reduces drought
+        risk but can disrupt flowering or harvest and raise fungal-disease pressure.
+    fr:
+      question: "Comment les précipitations sont-elles couramment réparties dans un climat maritime ?"
+      choices:
+        - { text: "Tout au long de l’année, y compris pendant la saison de croissance", correct: true }
+        - { text: "Presque entièrement pendant une courte saison humide estivale", correct: false }
+        - { text: "Uniquement en hiver, puis aucune pluie pendant la saison de croissance", correct: false }
+        - { text: "Principalement sous forme de neige après les vendanges", correct: false }
+      explanation: |
+        Les régions maritimes reçoivent souvent des pluies en toute saison. Les précipitations
+        pendant la croissance réduisent le risque de sécheresse, mais peuvent perturber la floraison
+        ou les vendanges et accroître la pression des maladies fongiques.
 
   - id: maritime-moderate-001
     type: mcq
@@ -495,16 +732,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What does that year-round maritime rain do to sunlight and temperature?
+      question: "How does a nearby ocean generally affect a maritime region’s temperatures?"
       choices:
-        - { text: "It makes both more extreme than in the desert", correct: false }
-        - { text: "It moderates them — cloud and water flatten the highs and lows", correct: true }
-        - { text: "It has no effect on either", correct: false }
-        - { text: "It raises every summer above 40 °C", correct: false }
+        - { text: "It moderates summer heat and winter cold", correct: true }
+        - { text: "It increases both summer heat and winter cold", correct: false }
+        - { text: "It raises daytime temperatures but lowers night-time temperatures", correct: false }
+        - { text: "It affects rainfall but not temperature", correct: false }
       explanation: |
-        Cloud and a nearby ocean **clip heat spikes and deep chills**. The same
-        moisture that risks rot also stops Bordeaux feeling like Mendoza in
-        January or July.
+        Ocean water changes temperature slowly, so it absorbs heat in summer and releases it in
+        winter. Coastal regions therefore tend to have a smaller annual temperature range than
+        inland regions.
+    fr:
+      question: "Comment un océan voisin influence-t-il généralement les températures d’une région maritime ?"
+      choices:
+        - { text: "Il modère la chaleur estivale et le froid hivernal", correct: true }
+        - { text: "Il accentue à la fois la chaleur estivale et le froid hivernal", correct: false }
+        - { text: "Il élève les températures diurnes, mais abaisse les températures nocturnes", correct: false }
+        - { text: "Il influence les précipitations, mais pas la température", correct: false }
+      explanation: |
+        L’eau océanique change lentement de température : elle absorbe de la chaleur en été et en
+        restitue en hiver. Les régions côtières possèdent donc généralement une amplitude thermique
+        annuelle plus faible que les régions intérieures.
 
   - id: maritime-season-length-001
     type: mcq
@@ -516,17 +764,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: How does a maritime climate usually affect the length of the growing season?
+      question: "Why can a maritime climate support a relatively long growing season?"
       choices:
-        - { text: "It shortens it to a few hot weeks", correct: false }
-        - { text: "It stretches the season, because the sea keeps spring and autumn milder", correct: true }
-        - { text: "It forbids any ripening after 1 August", correct: false }
-        - { text: "It has no effect on season length", correct: false }
+        - { text: "Milder spring and autumn conditions reduce the risk of seasonal cold", correct: true }
+        - { text: "Hotter summer conditions make every grape variety ripen early", correct: false }
+        - { text: "A large annual temperature range delays both budburst and harvest", correct: false }
+        - { text: "Low winter rainfall keeps vines growing without a dormant period", correct: false }
       explanation: |
-        Water **buffers** the start and end of the year, so buds and leaves can
-        work over a **longer, gentler** season. That is why late varieties still
-        finish in Bordeaux more often than in a sharp continental autumn.
-
+        The ocean reduces severe spring and autumn cold, extending the period in which vines can
+        grow and grapes can ripen. Rain and humidity can nevertheless make that long season risky.
+    fr:
+      question: "Pourquoi un climat maritime peut-il permettre une saison de croissance relativement longue ?"
+      choices:
+        - { text: "La douceur du printemps et de l’automne réduit le risque de froid saisonnier", correct: true }
+        - { text: "La chaleur estivale fait mûrir précocement tous les cépages", correct: false }
+        - { text: "Une forte amplitude thermique annuelle retarde le débourrement et les vendanges", correct: false }
+        - { text: "La faible pluviométrie hivernale maintient la vigne en croissance sans dormance", correct: false }
+      explanation: |
+        L’océan atténue les grands froids du printemps et de l’automne, ce qui prolonge la période
+        pendant laquelle les vignes peuvent pousser et les raisins mûrir. La pluie et l’humidité
+        peuvent néanmoins rendre cette longue saison risquée.
   - id: site-factors-producer-001
     type: mcq
     deck: The Growing Environment
@@ -537,17 +794,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which site facts does a grower have to weigh before planting?
+      question: "Which set of environmental factors is most useful when assessing a site before planting?"
       choices:
-        - { text: "Only the colour of the tasting room", correct: false }
-        - { text: "Typical heat, rain, sunlight, how rich the soil is, and how it drains", correct: true }
-        - { text: "Only the brand of destemmer they will buy in ten years", correct: false }
-        - { text: "Capsule length and label foil", correct: false }
+        - { text: "Temperature, sunlight, water availability, fertility and drainage", correct: true }
+        - { text: "Temperature, vineyard size, labour supply, yield and drainage", correct: false }
+        - { text: "Sunlight, water rights, grape price, fertility and market access", correct: false }
+        - { text: "Rainfall, planting cost, winery capacity, slope and bottle price", correct: false }
       explanation: |
-        Planting is a bet on **heat, water, light, fertility and drainage**. Get
-        those wrong and no clever ferment will save the fruit. Cellar kit comes
-        later.
-
+        The site’s heat, light, water and soil determine whether a variety can ripen balanced fruit
+        and how vigorously the vines will grow. Commercial and logistical factors matter to a
+        business, but do not describe the growing environment itself.
+    fr:
+      question: "Quel groupe de facteurs environnementaux est le plus utile pour évaluer un site avant sa plantation ?"
+      choices:
+        - { text: "Température, ensoleillement, disponibilité en eau, fertilité et drainage", correct: true }
+        - { text: "Température, superficie, main-d’œuvre, rendement et drainage", correct: false }
+        - { text: "Ensoleillement, droits sur l’eau, prix du raisin, fertilité et accès au marché", correct: false }
+        - { text: "Précipitations, coût de plantation, capacité de la cave, pente et prix de la bouteille", correct: false }
+      explanation: |
+        La chaleur, la lumière, l’eau et le sol du site déterminent si un cépage peut mûrir des
+        raisins équilibrés et avec quelle vigueur la vigne poussera. Les facteurs commerciaux et
+        logistiques comptent pour l’entreprise, mais ne décrivent pas le milieu de culture lui-même.
   - id: vigour-rain-fertile-001
     type: mcq
     deck: The Growing Environment
@@ -558,17 +825,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What happens when a vineyard has both plenty of rain and very fertile soil?
+      question: "What is the main viticultural risk of combining abundant water with highly fertile soil?"
       choices:
-        - { text: "The vines always shut down and set no crop", correct: false }
-        - { text: "Canopies can run too wild; pruning and density alone often cannot hold them", correct: true }
-        - { text: "The soil turns to desert sand within a year", correct: false }
-        - { text: "Irrigation becomes illegal", correct: false }
+        - { text: "Excessive vigour, shading and increased disease pressure", correct: true }
+        - { text: "Insufficient shoot growth and premature leaf fall", correct: false }
+        - { text: "Very low yields caused by weak nutrient uptake", correct: false }
+        - { text: "Rapid water stress during the early growing season", correct: false }
       explanation: |
-        Water plus food equals **vigour**: shade, rot, thin fruit. Winter pruning
-        and close planting help, but they are often **not enough** on their own —
-        cover crops, a stingier water regime or a less vigorous rootstock usually
-        have to join in.
+        Water and nutrients stimulate canopy growth. Dense shade can delay fruit ripening and retain
+        humidity, so growers may use cover crops, less vigorous rootstocks and active canopy
+        management.
+    fr:
+      question: "Quel est le principal risque viticole lorsque l’eau est abondante et le sol très fertile ?"
+      choices:
+        - { text: "Une vigueur excessive, de l’ombrage et une pression accrue des maladies", correct: true }
+        - { text: "Une croissance insuffisante des rameaux et une chute précoce des feuilles", correct: false }
+        - { text: "De très faibles rendements dus à une mauvaise absorption des nutriments", correct: false }
+        - { text: "Un stress hydrique rapide au début de la saison de croissance", correct: false }
+      explanation: |
+        L’eau et les nutriments stimulent la croissance de la canopée. Une ombre dense peut retarder
+        la maturation et retenir l’humidité ; le viticulteur peut donc recourir aux couverts
+        végétaux, à des porte-greffes moins vigoureux et à une gestion active de la canopée.
 
   - id: coulure-millerandage-001
     type: mcq
@@ -580,17 +857,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What weather at flowering most often causes coulure and millerandage?
+      question: "Which conditions during flowering create the greatest risk of coulure and millerandage?"
       choices:
-        - { text: "A long run of dry, settled heat", correct: false }
-        - { text: "Cold, cloudy or rainy days while the flowers are open", correct: true }
-        - { text: "Only snow in January, never in June", correct: false }
-        - { text: "Drought in August after the berries are already ripe", correct: false }
+        - { text: "Cool, cloudy and rainy weather", correct: true }
+        - { text: "Warm, dry and settled weather", correct: false }
+        - { text: "Warm, humid weather with good airflow", correct: false }
+        - { text: "Cool but clear, dry weather with light winds", correct: false }
       explanation: |
-        **Coulure** (flowers abort) and **millerandage** (shot berries) hit when
-        pollination is wet or cold — classic on Merlot in a raw Bordeaux June.
-        August drought is a ripening problem, not a flowering one.
-
+        Cold, cloud and rain can disrupt pollination and fruit set. Coulure leaves flowers or young
+        berries unfertilised, while millerandage creates bunches with berries of uneven size and
+        maturity.
+    fr:
+      question: "Quelles conditions pendant la floraison créent le plus grand risque de coulure et de millerandage ?"
+      choices:
+        - { text: "Un temps frais, nuageux et pluvieux", correct: true }
+        - { text: "Un temps chaud, sec et stable", correct: false }
+        - { text: "Un temps chaud et humide avec une bonne circulation d’air", correct: false }
+        - { text: "Un temps frais, mais clair et sec, accompagné de vents légers", correct: false }
+      explanation: |
+        Le froid, les nuages et la pluie peuvent perturber la pollinisation et la nouaison. La
+        coulure laisse des fleurs ou de jeunes baies non fécondées, tandis que le millerandage
+        produit des grappes aux baies de taille et de maturité inégales.
   - id: harvest-dry-001
     type: mcq
     deck: The Growing Environment
@@ -601,15 +888,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Why is dry weather the usual hope at harvest?
+      question: "Why is dry weather usually preferred as grapes approach harvest?"
       choices:
-        - { text: "Rain just before picking concentrates flavour", correct: false }
-        - { text: "Late rain swells berries, dilutes flavour, and invites rot", correct: true }
-        - { text: "Dry air stops all ripening overnight", correct: false }
-        - { text: "Grapes cannot be picked unless it is raining", correct: false }
+        - { text: "It limits berry swelling, dilution and fungal rot", correct: true }
+        - { text: "It increases water uptake and lowers sugar concentration", correct: false }
+        - { text: "It stops phenolic ripening while preserving green flavours", correct: false }
+        - { text: "It guarantees that acidity will rise before picking", correct: false }
       explanation: |
-        A downpour on ripe fruit is a **dilution and rot** event. Growers then
-        race, sort, or watch a vintage slip. Dry days keep skins intact.
+        Heavy rain can swell ripe berries, dilute flavours and split skins, while humidity
+        encourages rot. A dry period allows growers to wait for maturity with less pressure to pick
+        immediately.
+    fr:
+      question: "Pourquoi préfère-t-on généralement un temps sec à l’approche des vendanges ?"
+      choices:
+        - { text: "Il limite le gonflement des baies, la dilution et la pourriture fongique", correct: true }
+        - { text: "Il augmente l’absorption d’eau et réduit la concentration en sucre", correct: false }
+        - { text: "Il arrête la maturité phénolique tout en préservant les arômes végétaux", correct: false }
+        - { text: "Il garantit une hausse de l’acidité avant la récolte", correct: false }
+      explanation: |
+        De fortes pluies peuvent gonfler les baies mûres, diluer les arômes et fendre les
+        pellicules, tandis que l’humidité favorise la pourriture. Une période sèche permet
+        d’attendre la maturité avec moins de pression pour récolter immédiatement.
 
   - id: harvest-early-weather-001
     type: mcq
@@ -621,17 +920,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What may push a grower to pick earlier than they first planned?
+      question: "Which forecast most strongly justifies picking sound grapes slightly before ideal maturity?"
       choices:
-        - { text: "A guarantee of six more perfect weeks", correct: false }
-        - { text: "A forecast of poor weather that would damage hanging fruit", correct: true }
-        - { text: "A legal ban on picking in September", correct: false }
-        - { text: "The need to wait for icewine temperatures in every region", correct: false }
+        - { text: "Prolonged rain, hail or frost that threatens the crop", correct: true }
+        - { text: "Several dry, settled days with progressively cooler nights", correct: false }
+        - { text: "Mild, dry weather followed by another stable week", correct: false }
+        - { text: "Brief cloud cover followed by warm and breezy conditions", correct: false }
       explanation: |
-        A storm on the radar can mean **picking underripe-but-sound** beats
-        waiting for extra hang time and losing the crop. Icewine is a specialist
-        delay, not the default.
-
+        Harvest timing balances additional ripening against the risk of crop damage. Slightly less
+        mature but healthy grapes may be preferable to fruit diluted, split or destroyed by incoming
+        weather.
+    fr:
+      question: "Quelles prévisions justifient le mieux de vendanger des raisins sains un peu avant leur maturité idéale ?"
+      choices:
+        - { text: "Des pluies durables, de la grêle ou du gel menaçant la récolte", correct: true }
+        - { text: "Plusieurs jours secs et stables accompagnés de nuits de plus en plus fraîches", correct: false }
+        - { text: "Un temps doux et sec suivi d’une autre semaine stable", correct: false }
+        - { text: "Un bref passage nuageux suivi d’un temps chaud et venteux", correct: false }
+      explanation: |
+        La date de récolte met en balance une maturation supplémentaire et le risque de perdre la
+        récolte. Des raisins un peu moins mûrs, mais sains, peuvent être préférables à des fruits
+        dilués, fendus ou détruits par une météo imminente.
   - id: harvest-method-factors-001
     type: mcq
     deck: The Growing Environment
@@ -642,13 +951,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What mainly decides how a vineyard is picked?
+      question: "Which vineyard is most likely to require hand harvesting rather than machine harvesting?"
       choices:
-        - { text: "Only the colour of the tractor", correct: false }
-        - { text: "How it is planted, labour, slope, the weather, and the style of wine wanted", correct: true }
-        - { text: "A single EU rule that every vine must be machine-harvested", correct: false }
-        - { text: "The punt depth of the bottle", correct: false }
+        - { text: "Steep terraces where several selective passes are needed", correct: true }
+        - { text: "Wide, level rows with even ripening and scarce labour", correct: false }
+        - { text: "A large, accessible block scheduled for picking at night", correct: false }
+        - { text: "A level, high-yielding block that must be picked quickly", correct: false }
       explanation: |
-        Steep Mosel slate is not a machine job; a flat Central Valley row is.
-        **Planting, people, topography, weather and the winemaking brief** all
-        weigh in. There is no one legal method.
+        Machines need accessible, suitably spaced rows and are efficient when fruit can be collected
+        in one rapid pass. Steep terraces may be inaccessible, while selective picking requires
+        people to choose individual bunches.
+    fr:
+      question: "Quel vignoble est le plus susceptible d’exiger des vendanges manuelles plutôt que mécaniques ?"
+      choices:
+        - { text: "Des terrasses raides nécessitant plusieurs passages sélectifs", correct: true }
+        - { text: "De larges rangs sur terrain plat, avec une maturité homogène et peu de main-d’œuvre", correct: false }
+        - { text: "Une grande parcelle accessible dont la récolte est prévue de nuit", correct: false }
+        - { text: "Une parcelle plane à haut rendement qui doit être récoltée rapidement", correct: false }
+      explanation: |
+        Les machines exigent des rangs accessibles et convenablement espacés ; elles sont efficaces
+        lorsque les raisins peuvent être ramassés en un seul passage rapide. Les terrasses raides
+        peuvent être inaccessibles, tandis qu’une récolte sélective exige de choisir les grappes à
+        la main.

@@ -18,8 +18,8 @@ or rejected.
 | Measure | Complete | Remaining | Progress |
 | --- | ---: | ---: | ---: |
 | Legacy source notes resolved | 2,236 / 4,075 | 1,839 | 54.9% |
-| Cards with French | 1,881 / 2,364 | 483 | 79.6% |
-| Release-eligible cards with French | 1,881 / 2,359 | 478 | 79.7% |
+| Cards with French | 1,959 / 2,364 | 405 | 82.9% |
+| Release-eligible cards with French | 1,959 / 2,359 | 400 | 83.0% |
 | Draft cards | — | 5 | — |
 
 To obtain the live migration count, run:
@@ -29,7 +29,7 @@ uv run wset3-anki import-status
 ```
 
 All translated MCQs currently have matching English and French choice counts and correct
-answer indexes. Twenty-four completed chapter passes are recorded as `awaiting-human` in
+answer indexes. Twenty-seven completed chapter passes are recorded as `awaiting-human` in
 the quality ledger; agent review is complete for those chapters, but human sign-off remains
 open.
 
@@ -52,26 +52,33 @@ open.
 - [x] Record the bilingual chapter pass in `import/quality-review.yaml`.
 - [ ] Build and inspect the complete Portuguese section in Anki.
 
-### 3. Translate other chapters whose English source migration is already complete
+### 3. SAT, Growing Environment and Price of Wine — editorial passes complete
+
+- [x] Resolve the available English source notes.
+- [x] Run a full factual and adversarial quality pass on all 6 SAT cards.
+- [x] Run a full factual and adversarial quality pass on all 31 Growing Environment cards.
+- [x] Rewrite and quality-check all 44 Price of Wine cards.
+- [x] Complete and align the French translations in all three chapters.
+- [x] Record all three chapter passes in `import/quality-review.yaml`.
+- [ ] Build and inspect all three sections in Anki.
+
+### 4. Translate other chapters whose English source migration is already complete
 
 These chapters can be translated now without getting ahead of pending English source
 notes.
 
 | Chapter | Missing French cards |
 | --- | ---: |
-| SAT | 3 |
-| Growing Environment | 31 |
-| Price of Wine | 44 |
 | Wine and the Law | 46 |
 | USA Introduction | 6 |
 | Pacific Northwest | 50 |
-| **Subtotal** | **180** |
+| **Subtotal** | **102** |
 
 - [ ] Translate each chapter in its existing YAML file.
 - [ ] Recheck English and French together for sense, difficulty and answer alignment.
 - [ ] Add or complete its entry in `import/quality-review.yaml`.
 
-### 4. Finish partially migrated English chapters before translating them
+### 5. Finish partially migrated English chapters before translating them
 
 Project rules require all pending English source notes in a chapter to be resolved before
 starting or completing its French pass.
@@ -89,7 +96,7 @@ starting or completing its French pass.
 - [ ] Translate only after the chapter reaches zero pending source notes.
 - [ ] Complete the bilingual quality ledger entry.
 
-### 5. Migrate untouched legacy-source chapters
+### 6. Migrate untouched legacy-source chapters
 
 | Chapter | Pending source notes |
 | --- | ---: |

@@ -10,79 +10,80 @@ cards:
     tags: [sat, acidity]
     status: reviewed
     en:
-      question: Which of the following best describes a wine with high acidity?
+      question: "Which sensation is the most reliable guide to a wine’s acidity level?"
       choices:
-        - { text: "Flabby and short", correct: false }
-        - { text: "Mouth-watering, with a lingering finish", correct: true }
-        - { text: "Bitter and astringent", correct: false }
-        - { text: "Sweet with low alcohol", correct: false }
+        - { text: "The amount and duration of salivation", correct: true }
+        - { text: "A drying grip on the gums", correct: false }
+        - { text: "Warmth at the back of the throat", correct: false }
+        - { text: "The thickness of the wine’s texture", correct: false }
       explanation: |
-        High acidity makes a wine **mouth-watering** and helps the finish last.
-        Do not confuse acidity with tannin (astringency) or with sweetness.
+        Acidity stimulates saliva: the quicker and more persistent the mouth-watering response, the
+        higher the perceived acidity. Tannin dries the gums, while alcohol produces warmth.
     fr:
-      question: Quelle description correspond le mieux à un vin à acidité élevée ?
+      question: "Quelle sensation constitue l’indicateur le plus fiable du niveau d’acidité d’un vin ?"
       choices:
-        - { text: "Mou et court", correct: false }
-        - { text: "Salivant, avec une finale persistante", correct: true }
-        - { text: "Amer et astringent", correct: false }
-        - { text: "Sucré et peu alcoolisé", correct: false }
+        - { text: "La quantité et la durée de la salivation", correct: true }
+        - { text: "Une sensation asséchante sur les gencives", correct: false }
+        - { text: "Une chaleur au fond de la gorge", correct: false }
+        - { text: "L’épaisseur de la texture du vin", correct: false }
       explanation: |
-        Une acidité élevée **fait saliver** et allonge la finale.
-        Ne pas confondre avec le tanin (astringence) ni avec le sucré.
-
+        L’acidité stimule la salivation : plus la bouche salive rapidement et longtemps, plus
+        l’acidité perçue est élevée. Les tanins assèchent les gencives, tandis que l’alcool procure
+        une sensation de chaleur.
   - id: sat-tannin-001
     type: mcq
     deck: SAT
     tags: [sat, tannin]
     status: reviewed
     en:
-      question: What is the main tactile impression of high tannin on the palate?
+      question: "Which sensation most directly indicates tannin on the palate?"
       choices:
-        - { text: "A mouth-watering, sharp sensation on the sides of the tongue", correct: false }
-        - { text: "A warming, burning sensation at the back of the throat", correct: false }
-        - { text: "A drying, astringent grip on the gums and tongue", correct: true }
-        - { text: "A thick, oily coating that feels sweet", correct: false }
+        - { text: "A drying, astringent grip on the gums", correct: true }
+        - { text: "Persistent salivation after swallowing", correct: false }
+        - { text: "A warming sensation in the throat", correct: false }
+        - { text: "A sweet taste on the tip of the tongue", correct: false }
       explanation: |
-        Tannin is felt as **dryness and grip**, especially on the gums and tongue.
-        Acidity makes you salivate; alcohol feels warming. They are separate SAT assessments.
+        Tannin binds with proteins in saliva, creating dryness and grip that are often easiest to
+        feel on the gums. Acidity causes salivation, and alcohol contributes warmth.
     fr:
-      question: Quelle est la principale sensation tactile d’un tanin élevé ?
+      question: "Quelle sensation indique le plus directement la présence de tanins en bouche ?"
       choices:
-        - { text: "Une sensation vive et salivante sur les côtés de la langue", correct: false }
-        - { text: "Une sensation de chaleur brûlante au fond de la gorge", correct: false }
-        - { text: "Une assèchement astringent sur les gencives et la langue", correct: true }
-        - { text: "Un enrobage gras et sucré", correct: false }
+        - { text: "Une sensation asséchante et astringente sur les gencives", correct: true }
+        - { text: "Une salivation persistante qui se prolonge après avoir avalé", correct: false }
+        - { text: "Une sensation de chaleur dans la gorge", correct: false }
+        - { text: "Un goût sucré sur le bout de la langue", correct: false }
       explanation: |
-        Le tanin se perçoit comme une **sensation d’assèchement et de grip**, surtout sur les gencives.
-        L’acidité fait saliver ; l’alcool réchauffe. Ce sont des critères SAT distincts.
-
+        Les tanins se lient aux protéines de la salive et créent une sensation d’assèchement et
+        d’accroche, souvent plus facile à percevoir sur les gencives. L’acidité fait saliver et
+        l’alcool apporte de la chaleur.
   - id: sat-climate-001
     type: mcq
     deck: SAT
     tags: [sat, climate]
     status: reviewed
     en:
-      question: Which set of structural clues most often points to a cool-climate still wine?
+      question: "Which structural profile most strongly suggests grapes ripened in relatively cool conditions?"
       choices:
-        - { text: "High alcohol, low acidity, ripe cooked fruit", correct: false }
-        - { text: "Moderate to high acidity, lighter body, fresh primary fruit", correct: true }
-        - { text: "Deep colour, high tannin, and obvious new oak on every wine", correct: false }
-        - { text: "Residual sugar with low acidity and baked fruit", correct: false }
+        - { text: "High acidity, moderate alcohol and a lighter body", correct: true }
+        - { text: "Low acidity, high alcohol and a full body", correct: false }
+        - { text: "Moderate acidity, high alcohol and a full body", correct: false }
+        - { text: "Low acidity, moderate alcohol and a lighter body", correct: false }
       explanation: |
-        Cooler ripening usually keeps **acidity higher**, alcohol and body more moderate, and fruit in a
-        fresher register. Warm climates tend toward riper fruit, higher alcohol, and softer acidity.
+        Cooler conditions generally slow sugar accumulation and acid loss, so wines often combine
+        fresher acidity with less alcohol and body. Variety, yield and winemaking can modify the
+        pattern, so it is evidence rather than proof of origin.
     fr:
-      question: Quel ensemble d'indices structurels évoque le plus souvent un vin tranquille de climat frais ?
+      question: "Quel profil structurel suggère le plus fortement que les raisins ont mûri dans des conditions relativement fraîches ?"
       choices:
-        - { text: "Alcool élevé, acidité basse, fruits cuits", correct: false }
-        - { text: "Acidité moyenne à élevée, corps plus léger, fruits primaires frais", correct: true }
-        - { text: "Couleur profonde, tanin élevé et bois neuf systématique", correct: false }
-        - { text: "Sucre résiduel, acidité basse et fruits rôtis", correct: false }
+        - { text: "Acidité élevée, alcool modéré et corps plutôt léger", correct: true }
+        - { text: "Faible acidité, alcool élevé et corps puissant", correct: false }
+        - { text: "Acidité moyenne, alcool élevé et corps puissant", correct: false }
+        - { text: "Faible acidité, alcool modéré et corps plutôt léger", correct: false }
       explanation: |
-        Une maturité plus fraîche conserve souvent **plus d’acidité**, un alcool et un corps plus
-        modérés, et un fruit plus primaires. Les climats chauds poussent vers un fruit plus mûr,
-        plus d’alcool et une acidité plus souple.
-
+        Des conditions fraîches ralentissent généralement l’accumulation de sucre et la perte
+        d’acidité : les vins associent donc souvent une acidité plus vive à moins d’alcool et de
+        corps. Le cépage, le rendement et la vinification peuvent modifier ce schéma ; il s’agit
+        d’un indice, non d’une preuve d’origine.
   - id: sat-medium-plus-minus-001
     type: mcq
     deck: SAT
@@ -93,17 +94,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: How should you keep medium (+) and medium (−) from becoming a default SAT score?
+      question: "When medium(−), medium and medium(+) appear on the same WSET Level 3 SAT scale, how should they be used?"
       choices:
-        - { text: "Start every scale on medium (+) and never use low or high", correct: false }
-        - { text: "First choose low, medium or high; only then split a medium into (+) or (−)", correct: true }
-        - { text: "Use only the plus and minus marks and ignore low, medium and high", correct: false }
-        - { text: "Score appearance, nose and palate with a single shared number", correct: false }
+        - { text: "As three distinct points between the two ends of that scale", correct: true }
+        - { text: "As interchangeable labels for an uncertain middle assessment", correct: false }
+        - { text: "As confidence ratings attached to a single medium assessment", correct: false }
+        - { text: "As quality levels that replace the scale’s descriptive terms", correct: false }
       explanation: |
-        The three-step scale comes first: **low / medium / high**. The **(+) / (−)**
-        marks only refine a **medium**. Jumping straight to medium (+) on every wine
-        makes the tasting sheet meaningless.
-
+        The three medium values provide finer discrimination between the ends of a scale. They are
+        separate assessment points, not confidence ratings; the taster chooses the one that best
+        fits the wine.
+    fr:
+      question: "Lorsque medium(−), medium et medium(+) figurent sur une même échelle de l’ASD de niveau 3, comment faut-il les employer ?"
+      choices:
+        - { text: "Comme trois niveaux distincts entre les deux extrémités de l’échelle", correct: true }
+        - { text: "Comme des termes interchangeables pour une évaluation moyenne incertaine", correct: false }
+        - { text: "Comme des degrés de confiance associés à une seule évaluation moyenne", correct: false }
+        - { text: "Comme des niveaux de qualité remplaçant les termes descriptifs de l’échelle", correct: false }
+      explanation: |
+        Les trois niveaux intermédiaires permettent de mieux distinguer les vins entre les
+        extrémités d’une échelle. Il ne s’agit pas de degrés de confiance : le dégustateur choisit
+        le niveau qui correspond le mieux au vin.
   - id: sat-white-colour-001
     type: mcq
     deck: SAT
@@ -114,17 +125,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Where do you judge the colour of a white wine in the glass?
+      question: "Which procedure gives the most representative assessment of a white wine’s colour?"
       choices:
-        - { text: "On the dry rim only, where the film is thinnest", correct: false }
-        - { text: "Through a decent depth of liquid in the core of the bowl, glass tilted", correct: true }
-        - { text: "Through the bottle before you pull the cork", correct: false }
-        - { text: "Only after stirring the wine with a silver spoon", correct: false }
+        - { text: "Tilt the glass over a white surface and view a useful depth of wine", correct: true }
+        - { text: "Keep the glass upright over white and judge the deepest central area", correct: false }
+        - { text: "Tilt the glass over a dark surface and judge only the thinnest rim", correct: false }
+        - { text: "Swirl the glass first and assess the colour against a direct light", correct: false }
       explanation: |
-        Tilt the glass (about **45°**) and look into the **core of the bowl**, where
-        there is enough wine to show hue. The watery rim of a white is too thin and
-        reads almost colourless.
-
+        A white background and a tilted glass make hue and intensity easier to compare. The almost
+        colourless outer rim is too shallow to be representative, whereas a useful depth of wine
+        shows the colour clearly.
+    fr:
+      question: "Quelle méthode donne l’évaluation la plus représentative de la couleur d’un vin blanc ?"
+      choices:
+        - { text: "Incliner le verre sur un fond blanc et observer une épaisseur suffisante de vin", correct: true }
+        - { text: "Garder le verre droit sur fond blanc et juger la zone centrale la plus profonde", correct: false }
+        - { text: "Incliner le verre sur un fond sombre et juger uniquement le bord le plus fin", correct: false }
+        - { text: "Faire d’abord tourner le vin et évaluer sa couleur face à une lumière directe", correct: false }
+      explanation: |
+        Un fond blanc et un verre incliné facilitent la comparaison de la teinte et de l’intensité.
+        Le bord extérieur, presque incolore, est trop mince pour être représentatif ; une épaisseur
+        suffisante montre clairement la couleur.
   - id: sat-red-colour-001
     type: mcq
     deck: SAT
@@ -135,13 +156,24 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Where do you judge the colour of a red wine in the glass?
+      question: "Why is the hue of a deeply coloured red wine usually easier to assess near the rim?"
       choices:
-        - { text: "Straight down through the darkest part of the core", correct: false }
-        - { text: "At the rim, with the glass tilted, because the core is too dense", correct: true }
-        - { text: "Only against a black tablecloth", correct: false }
-        - { text: "By the stain it leaves on a napkin", correct: false }
+        - { text: "A thinner layer of wine reveals subtle differences in hue", correct: true }
+        - { text: "Extra oxygen at the rim immediately changes the wine’s true hue", correct: false }
+        - { text: "The white background strengthens pigments only at the glass edge", correct: false }
+        - { text: "Tilting the glass concentrates suspended pigments around the rim", correct: false }
       explanation: |
-        A red’s **core** is often so pigmented it looks black. Tilt the glass and
-        read hue at the **rim**, where the film is thinner — brick, ruby, purple
-        show there. Whites are the other way round.
+        A dense core can look almost opaque and conceal distinctions such as purple, ruby or garnet.
+        Tilting the glass over white creates a thinner band at the edge in which those differences
+        remain visible.
+    fr:
+      question: "Pourquoi la teinte d’un vin rouge profondément coloré est-elle généralement plus facile à évaluer près du bord ?"
+      choices:
+        - { text: "Une couche de vin plus fine révèle les nuances subtiles de teinte", correct: true }
+        - { text: "L’oxygène supplémentaire au bord modifie aussitôt la teinte réelle du vin", correct: false }
+        - { text: "Le fond blanc renforce les pigments uniquement sur le pourtour du verre", correct: false }
+        - { text: "L’inclinaison du verre concentre les pigments en suspension près du bord", correct: false }
+      explanation: |
+        Un centre dense peut sembler presque opaque et masquer des nuances comme le pourpre, le
+        rubis ou le grenat. Incliner le verre sur fond blanc crée au bord une bande plus fine dans
+        laquelle ces différences restent visibles.

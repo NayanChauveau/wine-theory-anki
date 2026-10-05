@@ -13,16 +13,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which set covers the main cost buckets that build a bottle’s price?
+      question: "Which list best captures the broad influences that build a wine’s final selling price?"
       choices:
-        - { text: "Only the colour of the capsule", correct: false }
-        - { text: "Growing, making, packing, moving and selling, tax, the retailer, and the market", correct: true }
-        - { text: "Only the punt depth of the bottle", correct: false }
-        - { text: "Only the winemaker’s tasting fee", correct: false }
+        - { text: "Grape growing, winemaking, packaging, route to market, taxes, retail margin and market forces", correct: true }
+        - { text: "Land value, vineyard labour, grape variety, vintage, bottle age, critic score and serving temperature", correct: false }
+        - { text: "Grape price, oak treatment, bottle weight, export distance, alcohol level, restaurant service and vintage", correct: false }
+        - { text: "Vineyard yield, cellar equipment, closure type, storage time, exchange rate, label design and appellation", correct: false }
       explanation: |
-        Price is a stack: **grapes, cellar, pack, logistics, duty, the shop’s
-        margin, and what buyers will pay**. Miss one bucket and the shelf price
-        makes no sense.
+        The final price accumulates costs from vineyard to consumer, then reflects taxes and margins
+        along the route to market. Supply, demand and reputation can move the selling price well
+        above—or occasionally below—the underlying cost stack.
+    fr:
+      question: "Quelle liste résume le mieux les grandes influences qui composent le prix de vente final d’un vin ?"
+      choices:
+        - { text: "Viticulture, vinification, conditionnement, circuit commercial, taxes, marge du détaillant et forces du marché", correct: true }
+        - { text: "Valeur du terrain, main-d’œuvre viticole, cépage, millésime, âge en bouteille, note des critiques et température de service", correct: false }
+        - { text: "Prix du raisin, usage du bois, poids de la bouteille, distance d’exportation, degré d’alcool, service au restaurant et millésime", correct: false }
+        - { text: "Rendement, équipement de cave, type de bouchage, stockage, taux de change, graphisme de l’étiquette et appellation", correct: false }
+      explanation: |
+        Le prix final additionne les coûts du vignoble jusqu’au consommateur, puis les taxes et les
+        marges du circuit commercial. L’offre, la demande et la réputation peuvent porter le prix de
+        vente bien au-dessus — ou parfois au-dessous — de cet empilement de coûts.
 
   - id: price-plant-costs-001
     type: mcq
@@ -34,16 +45,28 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What do you actually pay to establish a vineyard?
+      question: "Which group consists mainly of capital costs incurred when establishing a vineyard?"
       choices:
-        - { text: "Only the harvest crates, nothing else", correct: false }
-        - { text: "Land (dearer in famous places), soil work, vines and a trellis", correct: true }
-        - { text: "Only a cork order for year one", correct: false }
-        - { text: "Nothing — vines plant themselves", correct: false }
+        - { text: "Seasonal pickers, fuel, crop insurance and annual pruning", correct: false }
+        - { text: "Land, site preparation, vine material and trellising", correct: true }
+        - { text: "Fermentation vessels, barrels, bottling equipment and warehouse space", correct: false }
+        - { text: "Labels, closures, cartons and distributor commissions", correct: false }
       explanation: |
-        **Land** in Napa or the Côte d’Or can dwarf every other line. Then come
-        ripping, plants and posts. That capital sits there for years before a
-        crop.
+        Before a commercial crop is produced, the grower must secure the land, prepare it, plant
+        vines and install any support system. Land can dominate the investment in prestigious
+        regions, while the young vineyard generates little or no income for several years.
+    fr:
+      question: "Quel groupe réunit principalement des investissements nécessaires à la création d’un vignoble ?"
+      choices:
+        - { text: "Vendangeurs saisonniers, carburant, assurance récolte et taille annuelle", correct: false }
+        - { text: "Terrain, préparation du site, plants de vigne et palissage", correct: true }
+        - { text: "Cuves, fûts, matériel de mise en bouteille et espace de stockage", correct: false }
+        - { text: "Étiquettes, bouchages, cartons et commissions du distributeur", correct: false }
+      explanation: |
+        Avant d’obtenir une récolte commercialisable, le viticulteur doit disposer du terrain, le
+        préparer, planter les vignes et installer leur éventuel système de soutien. Dans les régions
+        prestigieuses, le foncier peut dominer l’investissement, tandis que les jeunes vignes ne
+        rapportent presque rien pendant plusieurs années.
 
   - id: price-labour-largest-001
     type: mcq
@@ -55,15 +78,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Once a vineyard is planted, what is usually the biggest running cost?
+      question: "What is commonly the largest annual operating cost in an established vineyard?"
       choices:
-        - { text: "The label designer’s font licence", correct: false }
+        - { text: "Replacement vine material", correct: false }
+        - { text: "Routine laboratory analysis", correct: false }
         - { text: "Labour", correct: true }
-        - { text: "Only the cellar door biscuits", correct: false }
-        - { text: "A legal cap on sunlight", correct: false }
+        - { text: "Bottle packaging", correct: false }
       explanation: |
-        **People** — pruning, canopy, picking — eat the budget on an established
-        site, especially where a machine cannot go.
+        Pruning, canopy work and harvesting require many hours of skilled or seasonal work. Labour
+        becomes especially expensive where steep slopes, selective picking or vineyard layout
+        prevent mechanisation.
+    fr:
+      question: "Quel est souvent le principal coût d’exploitation annuel d’un vignoble établi ?"
+      choices:
+        - { text: "Le remplacement des pieds morts", correct: false }
+        - { text: "Les analyses courantes en laboratoire", correct: false }
+        - { text: "La main-d’œuvre", correct: true }
+        - { text: "Le conditionnement en bouteille", correct: false }
+      explanation: |
+        La taille, les travaux en vert et les vendanges exigent de nombreuses heures de travail
+        qualifié ou saisonnier. La main-d’œuvre devient particulièrement coûteuse lorsque les
+        pentes, le besoin de sélection ou la disposition des vignes empêchent la mécanisation.
 
   - id: price-labour-cheap-001
     type: mcq
@@ -75,15 +110,28 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: How do growers usually keep that labour bill down?
+      question: "Which strategy most directly reduces a vineyard’s labour cost?"
       choices:
-        - { text: "By hiring a full permanent crew for every quiet winter week", correct: false }
-        - { text: "Seasonal casual workers, or machines", correct: true }
-        - { text: "By banning all pruning", correct: false }
-        - { text: "By paying everyone in leftover corks", correct: false }
+        - { text: "Employing a permanent crew sized for the busiest week of harvest", correct: false }
+        - { text: "Replacing all canopy work with additional cellar equipment", correct: false }
+        - { text: "Increasing bottle weight to support a higher selling price", correct: false }
+        - { text: "Using seasonal workers and mechanising suitable operations", correct: true }
       explanation: |
-        A **casual harvest crew** or a **tractor** replaces year-round wages.
-        Quality and slope decide which option is even possible.
+        A seasonal workforce limits wages during quiet periods, while machines can reduce the hours
+        needed for tasks such as pruning or harvesting. Terrain, vineyard design, desired
+        selectivity and capital cost determine whether mechanisation is practical.
+    fr:
+      question: "Quelle stratégie réduit le plus directement le coût de la main-d’œuvre viticole ?"
+      choices:
+        - { text: "Employer une équipe permanente dimensionnée pour la semaine la plus chargée des vendanges", correct: false }
+        - { text: "Remplacer tous les travaux en vert par davantage de matériel de cave", correct: false }
+        - { text: "Alourdir les bouteilles afin de soutenir un prix de vente supérieur", correct: false }
+        - { text: "Employer des saisonniers et mécaniser les opérations qui s’y prêtent", correct: true }
+      explanation: |
+        Une main-d’œuvre saisonnière limite les salaires pendant les périodes calmes, tandis que les
+        machines peuvent réduire les heures nécessaires à la taille ou aux vendanges. Le relief, la
+        conception du vignoble, le niveau de sélection recherché et le coût d’investissement
+        déterminent si la mécanisation est réaliste.
 
   - id: price-share-kit-001
     type: mcq
@@ -95,15 +143,28 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: How else can neighbouring growers cut labour or machine costs?
+      question: "How can neighbouring growers reduce the cost of machinery used only briefly each year?"
       choices:
-        - { text: "By each buying a unused harvester that sits idle", correct: false }
-        - { text: "By sharing crews or sharing machines", correct: true }
-        - { text: "By never speaking to the next estate", correct: false }
-        - { text: "By a law that forbids cooperatives", correct: false }
+        - { text: "By sharing or jointly hiring machinery and specialist crews", correct: true }
+        - { text: "By each buying enough equipment for the maximum possible crop", correct: false }
+        - { text: "By replacing vineyard machinery with longer maturation in bottle", correct: false }
+        - { text: "By moving every vineyard operation into the winery", correct: false }
       explanation: |
-        A **shared harvester** or a pooled pruning gang spreads the capital.
-        Co-ops exist for the same reason.
+        Sharing a harvester, sprayer or specialist crew spreads a large fixed cost over more
+        hectares and more users. Contractors and co-operatives can offer the same economy without
+        each grower owning underused equipment.
+    fr:
+      question: "Comment des viticulteurs voisins peuvent-ils réduire le coût d’un matériel employé seulement quelques jours par an ?"
+      choices:
+        - { text: "En partageant ou en louant ensemble du matériel et des équipes spécialisées", correct: true }
+        - { text: "En achetant chacun assez de matériel pour la récolte maximale possible", correct: false }
+        - { text: "En remplaçant le matériel viticole par un élevage en bouteille plus long", correct: false }
+        - { text: "En transférant toutes les opérations viticoles dans la cave", correct: false }
+      explanation: |
+        Partager une machine à vendanger, un pulvérisateur ou une équipe spécialisée répartit un
+        coût fixe important sur davantage d’hectares et d’utilisateurs. Les prestataires et les
+        coopératives peuvent offrir la même économie sans que chaque viticulteur possède un matériel
+        peu utilisé.
 
   - id: price-steep-no-saving-001
     type: mcq
@@ -115,15 +176,28 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Where do those labour-saving tricks mostly fail?
+      question: "Which vineyard is least able to benefit from mechanisation and shared equipment?"
       choices:
-        - { text: "On a flat Central Valley grid", correct: false }
-        - { text: "On steep or isolated sites a machine cannot reach", correct: true }
-        - { text: "Only in underground cellars", correct: false }
-        - { text: "On every site equally", correct: false }
+        - { text: "A large block with wide, level rows near a machinery contractor", correct: false }
+        - { text: "A steep, terraced site reached only by a narrow track", correct: true }
+        - { text: "A level vineyard planted in regular rows beside the winery", correct: false }
+        - { text: "A consolidated vineyard with several growers sharing one harvester", correct: false }
       explanation: |
-        **Mosel slate**, Priorat llicorella, Douro terraces: no cheap harvester,
-        and a casual crew costs more to house. Isolation adds the same penalty.
+        Steep terraces, irregular rows and difficult access can exclude standard tractors and
+        harvesters. Such sites often require slow hand work and may also impose extra transport or
+        accommodation costs for crews.
+    fr:
+      question: "Quel vignoble peut le moins profiter de la mécanisation et du partage de matériel ?"
+      choices:
+        - { text: "Une grande parcelle aux rangs larges et plats, proche d’un prestataire", correct: false }
+        - { text: "Un site raide en terrasses, accessible uniquement par une voie étroite", correct: true }
+        - { text: "Un vignoble plat aux rangs réguliers, situé à côté de la cave", correct: false }
+        - { text: "Un vignoble regroupé où plusieurs producteurs partagent une machine à vendanger", correct: false }
+      explanation: |
+        Les terrasses raides, les rangs irréguliers et les accès difficiles peuvent exclure les
+        tracteurs et machines à vendanger classiques. Ces sites exigent souvent un travail manuel
+        lent et peuvent aussi entraîner des frais supplémentaires de transport ou d’hébergement des
+        équipes.
 
   - id: price-grape-market-001
     type: mcq
@@ -135,15 +209,28 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Besides the work of growing them, what else sets the price of grapes?
+      question: "Why can two grape parcels with similar production costs command very different prices?"
       choices:
-        - { text: "Only the colour of the picking crate", correct: false }
-        - { text: "The market — what buyers will pay for that name and vintage", correct: true }
-        - { text: "A single worldwide grape tariff that never moves", correct: false }
-        - { text: "The punt depth of the bottle they might one day fill", correct: false }
+        - { text: "Grape prices are fixed internationally according to vineyard area", correct: false }
+        - { text: "Production cost always determines a single regional grape price", correct: false }
+        - { text: "Demand for origin, variety, producer or vintage can differ sharply", correct: true }
+        - { text: "Packaging cost is charged to the grapes before they reach the winery", correct: false }
       explanation: |
-        **Demand** for Napa Cabernet or cheap bulk Airén moves the fruit price
-        independently of how hard the year was to farm.
+        Grape price reflects what buyers expect to earn from the resulting wine, not only the cost
+        of farming. A sought-after appellation, variety or vintage can attract intense competition,
+        whereas fruit from an oversupplied category may struggle to cover its costs.
+    fr:
+      question: "Pourquoi deux parcelles aux coûts de production comparables peuvent-elles produire des raisins vendus à des prix très différents ?"
+      choices:
+        - { text: "Le prix du raisin est fixé à l’échelle mondiale selon la superficie du vignoble", correct: false }
+        - { text: "Le coût de production détermine toujours un prix régional unique", correct: false }
+        - { text: "La demande pour une origine, un cépage, un producteur ou un millésime peut fortement varier", correct: true }
+        - { text: "Le coût du conditionnement est facturé aux raisins avant leur arrivée à la cave", correct: false }
+      explanation: |
+        Le prix du raisin reflète ce que les acheteurs espèrent gagner avec le vin obtenu, et pas
+        seulement le coût de la culture. Une appellation, un cépage ou un millésime recherché peut
+        susciter une forte concurrence, tandis qu’une catégorie excédentaire peut peiner à couvrir
+        ses coûts.
 
   - id: price-winery-kit-001
     type: mcq
@@ -155,15 +242,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What is the most obvious cellar cost?
+      question: "Which expense is a direct capital cost of equipping a winery?"
       choices:
-        - { text: "Buying and looking after tanks, presses and the rest of the kit", correct: true }
-        - { text: "Only the tasting-room flowers", correct: false }
-        - { text: "A fee paid to the moon", correct: false }
-        - { text: "Nothing — wineries have no equipment", correct: false }
+        - { text: "Distributor margin in the export market", correct: false }
+        - { text: "Excise duty collected when the wine is sold", correct: false }
+        - { text: "Annual hand-pruning of the estate vineyard", correct: false }
+        - { text: "Presses, tanks, pumps and refrigeration", correct: true }
       explanation: |
-        **Stainless, presses, pumps, a bottling line** are capital that rusts
-        and needs people. The pretty shop is extra.
+        Winemaking requires equipment that must be bought, financed, maintained and eventually
+        replaced. The cost per bottle depends partly on how intensively the winery can use that
+        equipment across the year.
+    fr:
+      question: "Quelle dépense constitue un investissement direct dans l’équipement d’une cave ?"
+      choices:
+        - { text: "La marge du distributeur sur le marché d’exportation", correct: false }
+        - { text: "Les droits d’accise perçus lors de la vente du vin", correct: false }
+        - { text: "La taille manuelle annuelle du vignoble du domaine", correct: false }
+        - { text: "Les pressoirs, cuves, pompes et installations frigorifiques", correct: true }
+      explanation: |
+        La vinification exige du matériel qu’il faut acheter, financer, entretenir puis remplacer.
+        Son coût par bouteille dépend notamment de l’intensité de son utilisation au cours de
+        l’année.
 
   - id: price-shared-bottling-001
     type: mcq
@@ -175,15 +274,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which cellar kit is commonly shared to avoid buying it twice?
+      question: "Which winery operation is commonly outsourced or shared because its equipment is used intermittently?"
       choices:
-        - { text: "Every estate’s private bottling hall, unused 11 months a year", correct: false }
-        - { text: "A mobile or co-op bottling line", correct: true }
-        - { text: "A personal icewine press required by law", correct: false }
-        - { text: "A gold-plated destemmer for each barrel", correct: false }
+        - { text: "Bottling on a mobile or co-operative line", correct: true }
+        - { text: "Monitoring every fermentation during its active phase", correct: false }
+        - { text: "Cleaning tanks immediately after each transfer", correct: false }
+        - { text: "Managing the producer’s own maturation cellar", correct: false }
       explanation: |
-        A **truck-mounted bottling line** or a **co-op hall** is the classic
-        share. You do not need your own line for one week a year.
+        A bottling line is expensive but may be needed for only a few days or weeks. A mobile
+        contractor or co-operative facility allows producers to pay for capacity when required
+        rather than finance a line that stands idle.
+    fr:
+      question: "Quelle opération de cave est souvent sous-traitée ou mutualisée parce que son matériel sert de façon intermittente ?"
+      choices:
+        - { text: "La mise en bouteille sur une ligne mobile ou coopérative", correct: true }
+        - { text: "Le suivi de chaque fermentation pendant sa phase active", correct: false }
+        - { text: "Le nettoyage des cuves immédiatement après chaque transfert", correct: false }
+        - { text: "La gestion du chai d’élevage propre au producteur", correct: false }
+      explanation: |
+        Une ligne de mise en bouteille coûte cher, mais peut ne servir que quelques jours ou
+        semaines. Un prestataire mobile ou une installation coopérative permet de payer la capacité
+        nécessaire sans financer une ligne inutilisée le reste du temps.
 
   - id: price-time-in-cellar-001
     type: mcq
@@ -195,15 +306,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Besides kit, what cellar cost do people forget?
+      question: "Besides equipment, which factor can substantially increase a winery’s cost before release?"
       choices:
-        - { text: "The time the wine sits unsold before release", correct: true }
-        - { text: "Only the colour of the tank paint", correct: false }
-        - { text: "A tax on empty barrels that never applies", correct: false }
-        - { text: "The winemaker’s hat size", correct: false }
+        - { text: "Selling the wine en primeur before it is bottled", correct: false }
+        - { text: "Extending maturation in tank, barrel or bottle", correct: true }
+        - { text: "Using a lighter bottle for a high-volume wine", correct: false }
+        - { text: "Buying grapes under a fixed-price contract", correct: false }
       explanation: |
-        **Ageing** is money asleep: warehouse, insurance, and cash you cannot
-        use. Barolo or vintage Port prices that wait.
+        Long maturation occupies vessels and storage space, requires monitoring and delays income.
+        Styles with lengthy ageing requirements therefore carry costs even when the wine needs
+        little active handling.
+    fr:
+      question: "Outre le matériel, quel facteur peut fortement accroître les coûts d’une cave avant la mise en vente ?"
+      choices:
+        - { text: "Vendre le vin en primeur avant sa mise en bouteille", correct: false }
+        - { text: "Prolonger l’élevage en cuve, en fût ou en bouteille", correct: true }
+        - { text: "Employer une bouteille plus légère pour un vin de grand volume", correct: false }
+        - { text: "Acheter les raisins avec un contrat à prix fixe", correct: false }
+      explanation: |
+        Un élevage long immobilise des contenants et de l’espace, exige un suivi et retarde les
+        recettes. Les styles soumis à de longues durées d’élevage supportent donc des coûts même
+        lorsque le vin demande peu d’interventions.
 
   - id: price-stock-tied-001
     type: mcq
@@ -215,15 +338,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Why does long cellar time show up in the bottle price?
+      question: "Why does holding wine for several years before sale create a financing cost?"
       choices:
-        - { text: "Storage is free and stock can be sold the next morning", correct: false }
-        - { text: "Warehouses cost money, and capital sits in unsold wine", correct: true }
-        - { text: "The law refunds every month of ageing", correct: false }
-        - { text: "Time in barrel legally reduces the tax to zero", correct: false }
+        - { text: "Ageing automatically increases the excise rate every month", correct: false }
+        - { text: "The wine cannot be insured until it has been released", correct: false }
+        - { text: "Cash invested in the wine remains tied up while storage also costs money", correct: true }
+        - { text: "Mature wine must be repurchased from the distributor before bottling", correct: false }
       explanation: |
-        You pay **rent on silence**. That delay is built into Rioja Gran Reserva
-        or Champagne that cannot ship tomorrow.
+        The producer has already paid for grapes, labour and cellar work but cannot yet recover that
+        cash through sales. Warehousing, insurance, evaporation losses and the opportunity cost of
+        capital all accumulate during the wait.
+    fr:
+      question: "Pourquoi conserver un vin plusieurs années avant sa vente crée-t-il un coût de financement ?"
+      choices:
+        - { text: "L’élevage augmente automatiquement les droits d’accise chaque mois", correct: false }
+        - { text: "Le vin ne peut pas être assuré avant sa mise en vente", correct: false }
+        - { text: "L’argent investi reste immobilisé tandis que le stockage entraîne aussi des frais", correct: true }
+        - { text: "Le vin élevé doit être racheté au distributeur avant sa mise en bouteille", correct: false }
+      explanation: |
+        Le producteur a déjà payé les raisins, la main-d’œuvre et le travail de cave, mais ne peut
+        pas encore récupérer cet argent par la vente. Le stockage, l’assurance, les pertes par
+        évaporation et le coût d’opportunité du capital s’accumulent pendant l’attente.
 
   - id: price-packaging-parts-001
     type: mcq
@@ -235,15 +370,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which packaging pieces add to the cost of a bottle?
+      question: "Which set consists entirely of normal packaging costs for bottled wine?"
       choices:
-        - { text: "Only the wine itself, never glass or paper", correct: false }
-        - { text: "Glass, label, capsule, closure and carton — design and buying them", correct: true }
-        - { text: "Only a handwritten tag with no bottle", correct: false }
-        - { text: "A legal ban on any label", correct: false }
+        - { text: "Vines, posts, wire, harvest bins and vineyard labour", correct: false }
+        - { text: "Tanks, presses, pumps, barrels and refrigeration", correct: false }
+        - { text: "Freight, excise duty, distributor commission and retail margin", correct: false }
+        - { text: "Bottle, closure, label, capsule and shipping carton", correct: true }
       explanation: |
-        **Heavy glass and a designer label** can rival the juice in a cheap
-        wine. Closure and shipper carton join the bill.
+        Packaging includes both the design and purchase of the materials that contain, identify and
+        protect the wine. For inexpensive wine, glass and other packaging can represent a
+        substantial share of the production cost.
+    fr:
+      question: "Quel groupe se compose uniquement de coûts ordinaires de conditionnement d’un vin en bouteille ?"
+      choices:
+        - { text: "Plants, piquets, fils, caisses de vendange et main-d’œuvre viticole", correct: false }
+        - { text: "Cuves, pressoirs, pompes, fûts et installations frigorifiques", correct: false }
+        - { text: "Transport, droits d’accise, commission du distributeur et marge du détaillant", correct: false }
+        - { text: "Bouteille, bouchage, étiquette, capsule et carton d’expédition", correct: true }
+      explanation: |
+        Le conditionnement comprend la conception et l’achat des matériaux qui contiennent,
+        identifient et protègent le vin. Pour un vin peu cher, le verre et les autres éléments
+        peuvent représenter une part importante du coût de production.
 
   - id: price-heavy-bottle-001
     type: mcq
@@ -255,15 +402,28 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which packs cost more to buy and to ship?
+      question: "Why do unusually shaped or heavy wine bottles tend to cost more than standard lightweight bottles?"
       choices:
-        - { text: "A standard light bottle in a plain case", correct: false }
-        - { text: "Odd-shaped or very heavy bottles", correct: true }
-        - { text: "A bag-in-box with no extra glass", correct: false }
-        - { text: "No container at all", correct: false }
+        - { text: "They use more material and add weight or inefficiency during transport", correct: true }
+        - { text: "They reduce the number of labels and closures needed per bottle", correct: false }
+        - { text: "They allow more bottles to fit on each pallet and lower freight cost", correct: false }
+        - { text: "They eliminate the need for protective cartons during distribution", correct: false }
       explanation: |
-        A **trophy bottle** costs more glass and more freight. The light
-        Bordeaux bottle exists because weight is money.
+        More glass raises the purchase cost and shipping weight; unusual dimensions can also reduce
+        packing and pallet efficiency. A distinctive bottle may support positioning, but it carries
+        financial and environmental costs.
+    fr:
+      question: "Pourquoi les bouteilles particulièrement lourdes ou de forme inhabituelle coûtent-elles généralement plus cher que les bouteilles légères standard ?"
+      choices:
+        - { text: "Elles utilisent davantage de matière et alourdissent ou compliquent le transport", correct: true }
+        - { text: "Elles réduisent le nombre d’étiquettes et de bouchages nécessaires par bouteille", correct: false }
+        - { text: "Elles permettent de placer davantage de bouteilles sur chaque palette et réduisent le fret", correct: false }
+        - { text: "Elles suppriment le besoin de cartons protecteurs pendant la distribution", correct: false }
+      explanation: |
+        Une plus grande quantité de verre augmente le prix d’achat et le poids transporté ; des
+        dimensions atypiques peuvent aussi réduire l’efficacité des cartons et des palettes. Une
+        bouteille distinctive peut soutenir le positionnement du vin, mais elle a un coût financier
+        et environnemental.
 
   - id: price-bottle-in-market-001
     type: mcq
@@ -275,15 +435,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: How can a producer sometimes cut packaging and freight cost?
+      question: "How can shipping wine in bulk and bottling it near the destination reduce cost?"
       choices:
-        - { text: "By shipping empty air in heavy glass", correct: false }
-        - { text: "By bottling in the country where the wine will be sold", correct: true }
-        - { text: "By a law that forbids bulk transport", correct: false }
-        - { text: "By using only hand-blown crystal for every litre", correct: false }
+        - { text: "It removes all taxes because bulk wine is not an alcoholic product", correct: false }
+        - { text: "It transports less packaging weight and can use large, efficient bottling lines", correct: true }
+        - { text: "It guarantees a higher grape price in the country of origin", correct: false }
+        - { text: "It removes the need for labels, closures and cartons in the destination market", correct: false }
       explanation: |
-        **Bulk to the market**, then bottle there: less glass across an ocean.
-        Australian and Chilean brands have long done this into the UK.
+        A flexitank or tanker carries wine without shipping thousands of individual glass bottles.
+        Large destination-market facilities can then bottle and package efficiently, particularly
+        for high-volume brands.
+    fr:
+      question: "Comment l’expédition du vin en vrac et sa mise en bouteille près du marché de destination peuvent-elles réduire les coûts ?"
+      choices:
+        - { text: "Elles suppriment toutes les taxes, car le vin en vrac n’est pas un produit alcoolisé", correct: false }
+        - { text: "Elles transportent moins de conditionnement et permettent d’utiliser de grandes lignes efficaces", correct: true }
+        - { text: "Elles garantissent un prix du raisin supérieur dans le pays d’origine", correct: false }
+        - { text: "Elles suppriment le besoin d’étiquettes, de bouchages et de cartons sur le marché de destination", correct: false }
+      explanation: |
+        Une citerne souple ou rigide transporte le vin sans acheminer des milliers de bouteilles en
+        verre. De grandes installations situées sur le marché de destination peuvent ensuite
+        conditionner efficacement le vin, notamment pour les marques de grand volume.
 
   - id: price-in-market-limits-001
     type: mcq
@@ -295,15 +467,28 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Why is bottling in the destination market not always possible?
+      question: "What can prevent a producer from shipping wine in bulk for bottling in the destination market?"
       choices:
-        - { text: "It is free and legal for every two-hectare domaine", correct: false }
-        - { text: "You need scale, and some AOCs insist on bottling at origin", correct: true }
-        - { text: "Only icewine may travel in bulk", correct: false }
-        - { text: "The WTO bans all bulk wine", correct: false }
+        - { text: "Bulk transport always makes small premium lots more profitable", correct: false }
+        - { text: "Destination bottling is required for every European appellation", correct: false }
+        - { text: "The volume may be too small, or origin rules may require local bottling", correct: true }
+        - { text: "Wine cannot legally cross a border before it has finished bottle ageing", correct: false }
       explanation: |
-        A **tiny estate** cannot fill a tanker. **Champagne, many crus, DOCG
-        rules** want the cork put in at home. Scale plus the law decide.
+        Bulk shipment needs enough volume to justify the logistics and may conflict with an
+        appellation’s production rules. Producers may also bottle at origin to retain control or
+        support an estate-bottled image.
+    fr:
+      question: "Qu’est-ce qui peut empêcher un producteur d’expédier son vin en vrac pour le mettre en bouteille sur le marché de destination ?"
+      choices:
+        - { text: "Le transport en vrac améliore toujours la rentabilité des petits lots haut de gamme", correct: false }
+        - { text: "Toutes les appellations européennes exigent une mise en bouteille à destination", correct: false }
+        - { text: "Le volume peut être insuffisant ou les règles d’origine imposer une mise en bouteille locale", correct: true }
+        - { text: "Un vin ne peut pas franchir une frontière avant d’avoir achevé son élevage en bouteille", correct: false }
+      explanation: |
+        L’expédition en vrac exige assez de volume pour justifier la logistique et peut être
+        incompatible avec le cahier des charges d’une appellation. Un producteur peut aussi
+        embouteiller à l’origine pour conserver le contrôle ou valoriser l’image d’un vin mis en
+        bouteille au domaine.
 
   - id: price-tax-everywhere-001
     type: mcq
@@ -315,15 +500,28 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: How do governments usually treat wine at the till?
+      question: "How can taxation change the retail price of the same wine between countries?"
       choices:
-        - { text: "Almost none tax alcohol, and rates never differ", correct: false }
-        - { text: "Nearly all tax it, and the rates vary wildly by country", correct: true }
-        - { text: "Tax is illegal under every wine PDO", correct: false }
-        - { text: "Only water is taxed, never wine", correct: false }
+        - { text: "Every country applies the same alcohol duty and sales-tax rate", correct: false }
+        - { text: "Only imported wine is subject to any form of consumption tax", correct: false }
+        - { text: "Appellation rules determine one tax rate for all destination markets", correct: false }
+        - { text: "Excise duties and consumption taxes vary substantially by market", correct: true }
       explanation: |
-        **Duty and VAT** are why the same Burgundy costs a different number in
-        Stockholm and in Beaune.
+        Governments choose different alcohol duties and sales or value-added taxes. These charges
+        enter the local price structure, so an identical ex-cellar wine can reach consumers at very
+        different prices.
+    fr:
+      question: "Comment la fiscalité peut-elle modifier le prix de détail d’un même vin d’un pays à l’autre ?"
+      choices:
+        - { text: "Tous les pays appliquent les mêmes taux d’accise et de taxe sur la consommation", correct: false }
+        - { text: "Seuls les vins importés sont soumis à une forme de taxe sur la consommation", correct: false }
+        - { text: "Les règles de l’appellation déterminent un taux unique pour tous les marchés", correct: false }
+        - { text: "Les droits d’accise et les taxes sur la consommation varient fortement selon le marché", correct: true }
+      explanation: |
+        Les pouvoirs publics fixent des droits sur l’alcool ainsi que des taxes sur les ventes ou la
+        valeur ajoutée différents. Ces prélèvements entrent dans la structure locale du prix : un
+        même vin au départ de la cave peut donc atteindre le consommateur à des prix très
+        différents.
 
   - id: price-tax-why-001
     type: mcq
@@ -335,15 +533,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Why do states tax alcoholic drinks?
+      question: "What are two common policy reasons for taxing alcoholic drinks?"
       choices:
-        - { text: "Only to decorate the stamp", correct: false }
-        - { text: "To raise the shelf price (and so cool demand) and to raise revenue", correct: true }
-        - { text: "Because wine is legally classified as a vegetable", correct: false }
-        - { text: "To make wine cheaper than water", correct: false }
+        - { text: "To raise public revenue and discourage harmful consumption through higher prices", correct: true }
+        - { text: "To guarantee producer margins and remove competition between retailers", correct: false }
+        - { text: "To lower the consumer price and stimulate alcohol consumption", correct: false }
+        - { text: "To replace appellation law and determine permitted grape varieties", correct: false }
       explanation: |
-        Excise is both a **health lever** and a **cash register**. Nordic
-        monopolies make the first obvious; most treasuries like the second.
+        Alcohol taxes provide government revenue and can be used as a public-health measure because
+        higher prices tend to restrain demand. The balance between those aims varies by
+        jurisdiction.
+    fr:
+      question: "Quelles sont deux raisons courantes de politique publique pour taxer les boissons alcoolisées ?"
+      choices:
+        - { text: "Procurer des recettes publiques et décourager la consommation nocive en relevant les prix", correct: true }
+        - { text: "Garantir la marge des producteurs et supprimer la concurrence entre détaillants", correct: false }
+        - { text: "Réduire le prix payé par le consommateur et stimuler la consommation d’alcool", correct: false }
+        - { text: "Remplacer le droit des appellations et déterminer les cépages autorisés", correct: false }
+      explanation: |
+        Les taxes sur l’alcool procurent des recettes publiques et peuvent servir d’instrument de
+        santé publique, car une hausse du prix tend à freiner la demande. L’équilibre entre ces deux
+        objectifs varie selon les juridictions.
 
   - id: price-retail-margin-001
     type: mcq
@@ -355,15 +565,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What do shops add to the landed cost of a wine?
+      question: "Why does a retailer add a margin to the wine’s landed cost?"
       choices:
-        - { text: "Nothing — retail is a charity", correct: false }
-        - { text: "A margin so the store can make a profit", correct: true }
-        - { text: "A legal requirement to sell below cost", correct: false }
-        - { text: "Only a tax refund to the drinker", correct: false }
+        - { text: "To reimburse the producer for all vineyard establishment costs", correct: false }
+        - { text: "To cover operating costs, stock risk and profit for the retail business", correct: true }
+        - { text: "To replace excise duty with a voluntary payment to the government", correct: false }
+        - { text: "To make the shelf price identical in every competing store", correct: false }
       explanation: |
-        **Shops mark up** to pay rent, staff and risk. That is why the ex-cellar
-        number and the shelf sticker are not the same.
+        The retailer must pay for premises, staff, storage, marketing, losses and capital tied up in
+        stock. Its margin also provides profit, so the shelf price is higher than the wine’s
+        delivered wholesale cost.
+    fr:
+      question: "Pourquoi un détaillant ajoute-t-il une marge au coût rendu du vin ?"
+      choices:
+        - { text: "Pour rembourser au producteur tous les investissements de création du vignoble", correct: false }
+        - { text: "Pour couvrir ses frais d’exploitation, le risque lié au stock et son bénéfice", correct: true }
+        - { text: "Pour remplacer les droits d’accise par un versement volontaire à l’État", correct: false }
+        - { text: "Pour rendre le prix en rayon identique dans tous les magasins concurrents", correct: false }
+      explanation: |
+        Le détaillant doit financer ses locaux, son personnel, le stockage, la commercialisation,
+        les pertes et le capital immobilisé dans les stocks. Sa marge doit aussi dégager un bénéfice
+        : le prix en rayon dépasse donc le prix de gros livré.
 
   - id: price-restaurant-001
     type: mcq
@@ -375,15 +597,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Why is the same bottle usually dearer in a restaurant than in a shop?
+      question: "Why is a bottle generally priced higher in a restaurant than in a retail shop?"
       choices:
-        - { text: "Restaurants are legally banned from making a profit on wine", correct: false }
-        - { text: "They take a bigger margin, and the price also pays for the room and the service", correct: true }
-        - { text: "Wine is always cheaper with a meal", correct: false }
-        - { text: "Shops are forbidden to discount", correct: false }
+        - { text: "Restaurants pay no wholesale price and create the entire bottle price themselves", correct: false }
+        - { text: "Retailers must sell wine at cost, while restaurants may charge any tax rate", correct: false }
+        - { text: "The restaurant margin helps fund service, glassware, premises and slower stock turnover", correct: true }
+        - { text: "Wine acquires a different legal appellation when it is served with food", correct: false }
       explanation: |
-        A list price funds **glassware, sommelier time, breakage and the night
-        out**, not just the liquid. Two- or three-times retail is common.
+        A restaurant sells an experience and service as well as the liquid. Staff, glassware,
+        storage, breakage, premises and bottles that may remain on the list for a long time are
+        reflected in the mark-up.
+    fr:
+      question: "Pourquoi une bouteille est-elle généralement vendue plus cher au restaurant que chez un caviste ?"
+      choices:
+        - { text: "Le restaurant ne paie aucun prix de gros et crée lui-même tout le prix de la bouteille", correct: false }
+        - { text: "Le caviste doit vendre au prix coûtant, tandis que le restaurant choisit le taux de taxe", correct: false }
+        - { text: "La marge finance le service, les verres, les locaux et une rotation plus lente", correct: true }
+        - { text: "Le vin acquiert une autre appellation légale lorsqu’il est servi avec un repas", correct: false }
+      explanation: |
+        Le restaurant vend une expérience et un service en plus du liquide. Le personnel, les
+        verres, le stockage, la casse, les locaux et les bouteilles qui peuvent rester longtemps sur
+        la carte se répercutent dans la marge.
 
   - id: price-market-forces-top-001
     type: mcq
@@ -395,15 +629,28 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What is the widest force sitting on top of all those costs?
+      question: "Which factor can move a wine’s selling price furthest away from its production cost?"
       choices:
-        - { text: "The colour of the capsule alone", correct: false }
-        - { text: "What the destination market is willing to pay", correct: true }
-        - { text: "A single global price set in 1855 that never moves", correct: false }
-        - { text: "The winemaker’s shoe size", correct: false }
+        - { text: "The accounting method used to depreciate vineyard posts", correct: false }
+        - { text: "The number of cartons ordered for one bottling run", correct: false }
+        - { text: "The timing of routine laboratory analysis", correct: false }
+        - { text: "What the target market is willing to pay", correct: true }
       explanation: |
-        **Market forces** can lift a wine far above its cost stack — or leave a
-        perfectly made bottle unsold. Costs set a floor; buyers set the ceiling.
+        Costs influence the minimum sustainable price, but they do not dictate what buyers will pay.
+        Reputation, fashion, critical attention, scarcity and competing alternatives can create a
+        much higher market value—or leave a costly wine unsold.
+    fr:
+      question: "Quel facteur peut éloigner le plus fortement le prix de vente d’un vin de son coût de production ?"
+      choices:
+        - { text: "La méthode comptable employée pour amortir les piquets du vignoble", correct: false }
+        - { text: "Le nombre de cartons commandés pour une mise en bouteille", correct: false }
+        - { text: "Le calendrier des analyses courantes en laboratoire", correct: false }
+        - { text: "Le prix que le marché visé est disposé à payer", correct: true }
+      explanation: |
+        Les coûts influencent le prix minimal viable, mais ne dictent pas ce que les acheteurs
+        accepteront de payer. Réputation, mode, critiques, rareté et produits concurrents peuvent
+        créer une valeur marchande beaucoup plus élevée — ou laisser invendu un vin coûteux à
+        produire.
 
   - id: price-scarcity-premium-001
     type: mcq
@@ -415,15 +662,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: When can the shelf price sit far above the cost of making the wine?
+      question: "Under which market conditions can a wine sell far above its production cost?"
       choices:
-        - { text: "Only when nobody wants the bottle", correct: false }
-        - { text: "When demand is high and supply is tight", correct: true }
-        - { text: "Only when tax is zero and rent is free", correct: false }
-        - { text: "Never — price always equals cost", correct: false }
+        - { text: "Strong demand for a wine whose available supply is limited", correct: true }
+        - { text: "Weak demand for a wine produced in persistent surplus", correct: false }
+        - { text: "Falling demand combined with rapidly expanding production", correct: false }
+        - { text: "Stable demand for a wine that can be supplied without constraint", correct: false }
       explanation: |
-        **Scarce + wanted** is how a few hundred litres become a four-figure
-        bottle. Cost is then a footnote.
+        When many buyers compete for relatively few bottles, price can rise until demand matches the
+        limited supply. The reverse—surplus wine with weak demand—can force prices down even when
+        production was expensive.
+    fr:
+      question: "Dans quelles conditions de marché un vin peut-il se vendre très au-dessus de son coût de production ?"
+      choices:
+        - { text: "Une forte demande pour un vin disponible en quantité limitée", correct: true }
+        - { text: "Une faible demande pour un vin produit en excédent persistant", correct: false }
+        - { text: "Une demande en baisse associée à une production en forte expansion", correct: false }
+        - { text: "Une demande stable pour un vin dont l’offre peut augmenter sans contrainte", correct: false }
+      explanation: |
+        Lorsque de nombreux acheteurs se disputent relativement peu de bouteilles, le prix peut
+        monter jusqu’à ce que la demande rejoigne l’offre limitée. À l’inverse, un excédent de vin
+        peu demandé peut faire chuter les prix même si sa production a coûté cher.
 
   - id: price-bordeaux-demand-001
     type: mcq
@@ -435,16 +694,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which wines are the usual example of scarcity plus global demand?
+      question: "Which category is a classic example of high global demand meeting limited supply?"
       choices:
-        - { text: "Basic bulk Airén from La Mancha", correct: false }
-        - { text: "Top Bordeaux classed-growth wines", correct: true }
-        - { text: "Any supermarket house white", correct: false }
-        - { text: "Unlabelled tank samples", correct: false }
+        - { text: "High-volume generic wine from a large irrigated region", correct: false }
+        - { text: "The leading classified-growth wines of Bordeaux", correct: true }
+        - { text: "An expanding private-label range made from surplus bulk wine", correct: false }
+        - { text: "A widely available entry-level brand blended across regions", correct: false }
       explanation: |
-        **Premier and classed growths** with tiny production and a world list
-        are the usual example: price **rises** when demand outruns the crop.
-        Bulk Airén is the opposite problem.
+        Production from a particular top estate and vintage is finite, while collectors and drinkers
+        may compete globally for it. The resulting price reflects scarcity, reputation and demand
+        far more than winemaking cost alone.
+    fr:
+      question: "Quelle catégorie constitue un exemple classique de forte demande mondiale face à une offre limitée ?"
+      choices:
+        - { text: "Un vin générique de grand volume issu d’une vaste région irriguée", correct: false }
+        - { text: "Les principaux crus classés de Bordeaux", correct: true }
+        - { text: "Une gamme de marque de distributeur en expansion, issue d’excédents de vin en vrac", correct: false }
+        - { text: "Une marque d’entrée de gamme largement disponible, assemblée entre plusieurs régions", correct: false }
+      explanation: |
+        La production d’un grand domaine et d’un millésime donnés est limitée, tandis que
+        collectionneurs et amateurs du monde entier peuvent se la disputer. Le prix obtenu reflète
+        bien davantage la rareté, la réputation et la demande que le seul coût de vinification.
 
   - id: price-mosel-abandon-001
     type: mcq
@@ -456,16 +726,28 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Where have some vineyards been pulled because the wine would not pay?
+      question: "Why have some steep Mosel vineyards historically fallen out of production?"
       choices:
-        - { text: "Every hectare of the Médoc first growths", correct: false }
-        - { text: "Some steep Mosel sites", correct: true }
-        - { text: "Only underground Champagne caves", correct: false }
-        - { text: "The Napa floor at any price", correct: false }
+        - { text: "Their flat terrain made mechanised farming too inexpensive", correct: false }
+        - { text: "Their grapes were legally excluded from all German wine categories", correct: false }
+        - { text: "The price obtainable for the wine did not cover intensive manual farming", correct: true }
+        - { text: "Their high yields made the resulting wine impossible to sell", correct: false }
       explanation: |
-        **Hand-worked slate** costs a fortune. If the bottle cannot sell for
-        enough, the terrace goes to scrub. That is demand too **low**, not too
-        high.
+        Very steep vineyards can require extensive hand labour. Where a site lacks enough demand or
+        reputation to support a compensating bottle price, farming may become uneconomic even if the
+        site can produce sound wine.
+    fr:
+      question: "Pourquoi certaines vignes escarpées de Moselle ont-elles historiquement cessé d’être exploitées ?"
+      choices:
+        - { text: "Leur terrain plat rendait la mécanisation trop peu coûteuse", correct: false }
+        - { text: "Leurs raisins étaient exclus de toutes les catégories de vin allemand", correct: false }
+        - { text: "Le prix obtenu pour le vin ne couvrait pas une viticulture manuelle intensive", correct: true }
+        - { text: "Leurs rendements élevés rendaient le vin produit impossible à vendre", correct: false }
+      explanation: |
+        Les vignobles très raides peuvent exiger énormément de travail manuel. Lorsqu’un site ne
+        bénéficie pas d’une demande ou d’une réputation suffisante pour soutenir le prix de la
+        bouteille, sa culture peut devenir non rentable même s’il est capable de produire un vin
+        correct.
 
   - id: price-three-producers-001
     type: mcq
@@ -477,15 +759,28 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What are the three usual kinds of wine producer?
+      question: "Which trio represents three broad wine-producer business models?"
       choices:
-        - { text: "Only restaurants, shops and bars", correct: false }
-        - { text: "Co-operatives, merchants and estates", correct: true }
-        - { text: "Only governments and charities", correct: false }
-        - { text: "Only icewine specialists", correct: false }
+        - { text: "Grower co-operatives, merchants and estates", correct: true }
+        - { text: "Importers, restaurants and specialist retailers", correct: false }
+        - { text: "Brokers, logistics companies and auction houses", correct: false }
+        - { text: "Glass manufacturers, bottlers and distributors", correct: false }
       explanation: |
-        **Co-op, négociant/merchant, domaine/estate** is the exam trio. Most
-        bottles you meet were made by one of those three.
+        A co-operative pools its members’ production, a merchant buys grapes, must or wine, and an
+        estate primarily vinifies grapes from its own vineyards. Real businesses can combine models,
+        but the distinction clarifies control, scale and sourcing.
+    fr:
+      question: "Quel trio représente trois grands modèles économiques de producteurs de vin ?"
+      choices:
+        - { text: "Coopératives de viticulteurs, négociants et domaines", correct: true }
+        - { text: "Importateurs, restaurants et cavistes spécialisés", correct: false }
+        - { text: "Courtiers, entreprises de logistique et maisons de vente aux enchères", correct: false }
+        - { text: "Verriers, embouteilleurs et distributeurs", correct: false }
+      explanation: |
+        Une coopérative rassemble la production de ses adhérents, un négociant achète des raisins,
+        du moût ou du vin, et un domaine vinifie principalement les raisins de ses propres vignes.
+        Dans la réalité, une entreprise peut combiner plusieurs modèles, mais cette distinction
+        éclaire le contrôle, l’échelle et l’approvisionnement.
 
   - id: price-coop-define-001
     type: mcq
@@ -497,15 +792,28 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What is a wine co-operative?
+      question: "What distinguishes a wine co-operative from an independently owned merchant?"
       choices:
-        - { text: "A shop that only sells corks", correct: false }
-        - { text: "A winery owned by its members, usually the growers", correct: true }
-        - { text: "A merchant that never takes grapes", correct: false }
-        - { text: "A single-vineyard estate with no members", correct: false }
+        - { text: "It buys wine only on the open market and owns no production facilities", correct: false }
+        - { text: "It is owned collectively by members who normally supply grapes or must", correct: true }
+        - { text: "It must make wine only from vineyards owned by one family", correct: false }
+        - { text: "It acts solely as a broker and never processes grapes", correct: false }
       explanation: |
-        Growers **pool fruit and kit**. La Chablisienne or the big southern
-        French co-ops are the picture: the members own the cellar.
+        Grower-members pool fruit and invest collectively in winery equipment, technical staff,
+        marketing or sales. The precise rules differ, but member ownership and shared facilities are
+        central to the co-operative model.
+    fr:
+      question: "Qu’est-ce qui distingue une coopérative viticole d’un négociant indépendant ?"
+      choices:
+        - { text: "Elle achète uniquement du vin sur le marché libre et ne possède aucun outil de production", correct: false }
+        - { text: "Elle appartient collectivement à des adhérents qui fournissent généralement des raisins ou du moût", correct: true }
+        - { text: "Elle doit vinifier uniquement les raisins des vignes appartenant à une même famille", correct: false }
+        - { text: "Elle intervient seulement comme courtier et ne transforme jamais les raisins", correct: false }
+      explanation: |
+        Les viticulteurs adhérents mettent leurs raisins en commun et investissent collectivement
+        dans le matériel, le personnel technique, la commercialisation ou la vente. Les règles
+        précises varient, mais la propriété par les adhérents et la mutualisation des installations
+        sont au cœur du modèle coopératif.
 
   - id: price-coop-buyer-001
     type: mcq
@@ -517,15 +825,28 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What is the main comfort a co-op offers a small grower?
+      question: "What is a major economic benefit of co-operative membership for a small grape grower?"
       choices:
-        - { text: "No one will ever buy their grapes", correct: false }
-        - { text: "A guaranteed buyer for the fruit", correct: true }
-        - { text: "A legal ban on delivering any crop", correct: false }
-        - { text: "They must sell only in another country", correct: false }
+        - { text: "The grower can avoid every vineyard production cost", correct: false }
+        - { text: "The co-operative guarantees the same price in every vintage", correct: false }
+        - { text: "Membership provides an established outlet for the grower’s crop", correct: true }
+        - { text: "The grower retains exclusive use of all co-operative equipment", correct: false }
       explanation: |
-        Membership means the cellar **must take** the grapes (rules vary). That
-        beats hunting a négociant every October.
+        Subject to the co-operative’s rules, members have a dependable route for their grapes and
+        need not build a winery or find an individual buyer each year. Payment level and quality
+        incentives can still vary.
+    fr:
+      question: "Quel est un avantage économique majeur de l’adhésion à une coopérative pour un petit viticulteur ?"
+      choices:
+        - { text: "Le viticulteur évite tous les coûts de production du vignoble", correct: false }
+        - { text: "La coopérative garantit le même prix à chaque millésime", correct: false }
+        - { text: "L’adhésion procure un débouché établi pour la récolte du viticulteur", correct: true }
+        - { text: "Le viticulteur conserve l’usage exclusif de tout le matériel coopératif", correct: false }
+      explanation: |
+        Sous réserve des règles de la coopérative, les adhérents disposent d’un débouché fiable pour
+        leurs raisins et n’ont pas à construire leur propre cave ni à chercher chaque année un
+        acheteur. Le niveau de rémunération et les incitations à la qualité peuvent néanmoins
+        varier.
 
   - id: price-coop-quality-risk-001
     type: mcq
@@ -537,15 +858,28 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What quality headache can a co-op cellar face?
+      question: "Why can grape quality be difficult for a co-operative winemaker to control?"
       choices:
-        - { text: "Members always deliver identical grand-cru fruit", correct: false }
-        - { text: "The winemakers may not fully control what members bring in", correct: true }
-        - { text: "Co-ops are legally banned from sorting", correct: false }
-        - { text: "They never receive any grapes", correct: false }
+        - { text: "Co-operatives are unable to set delivery standards for members", correct: false }
+        - { text: "Every member farms the same parcels with identical methods", correct: false }
+        - { text: "Co-operative wineries are prohibited from sorting incoming grapes", correct: false }
+        - { text: "Fruit arrives from many independently managed member vineyards", correct: true }
       explanation: |
-        Payment by **kilo** tempts overcropped, underripe fruit. Good co-ops
-        pay for quality; weak ones sit on a mixed pile they did not grow.
+        The cellar team does not directly manage every member’s yields, harvest date or vineyard
+        work. Effective co-operatives use specifications, advice, selective intake and quality-
+        related payments to align growers with the desired wine style.
+    fr:
+      question: "Pourquoi la qualité des raisins peut-elle être difficile à maîtriser pour le vinificateur d’une coopérative ?"
+      choices:
+        - { text: "Les coopératives ne peuvent fixer aucune norme de livraison aux adhérents", correct: false }
+        - { text: "Tous les adhérents cultivent les mêmes parcelles avec des méthodes identiques", correct: false }
+        - { text: "Les caves coopératives n’ont pas le droit de trier les raisins reçus", correct: false }
+        - { text: "Les raisins proviennent de nombreuses exploitations gérées indépendamment", correct: true }
+      explanation: |
+        L’équipe de cave ne dirige pas directement les rendements, la date de vendange ou les
+        travaux viticoles de chaque adhérent. Les coopératives efficaces emploient des cahiers des
+        charges, du conseil, une réception sélective et une rémunération liée à la qualité afin
+        d’aligner les producteurs sur le style recherché.
 
   - id: price-coop-quality-range-001
     type: mcq
@@ -557,16 +891,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What quality should you expect from co-operative wines?
+      question: "What quality range can wines from co-operatives achieve?"
       choices:
-        - { text: "Always the worst wine in the region, by law", correct: false }
-        - { text: "Any level — some co-ops bottle the best wine of their place", correct: true }
-        - { text: "Only fortified wine under flor", correct: false }
-        - { text: "Only sparkling red", correct: false }
+        - { text: "From inexpensive bulk wine to some of a region’s leading bottlings", correct: true }
+        - { text: "Mainly basic wine because shared ownership prevents parcel selection", correct: false }
+        - { text: "Uniformly premium wine because shared equipment ensures quality", correct: false }
+        - { text: "Only mid-market wine because the model prevents either extreme", correct: false }
       explanation: |
-        **La Chablisienne**, Produttori del Barbaresco, some Alsace and Rhône
-        co-ops sit at the top of the village. Others are bulk. The structure
-        does not set the quality.
+        The ownership structure does not determine wine quality. Scale, member incentives, vineyard
+        holdings, technical skill and selection can support either high-volume basic wine or
+        distinguished site-specific bottlings.
+    fr:
+      question: "Quelle gamme de qualité les vins de coopérative peuvent-ils atteindre ?"
+      choices:
+        - { text: "Du vin en vrac peu cher jusqu’à certaines des meilleures cuvées d’une région", correct: true }
+        - { text: "Surtout des vins simples, car la propriété collective empêche la sélection parcellaire", correct: false }
+        - { text: "Des vins uniformément haut de gamme, car le matériel partagé garantit la qualité", correct: false }
+        - { text: "Uniquement des vins de milieu de gamme, car le modèle interdit les deux extrêmes", correct: false }
+      explanation: |
+        La structure de propriété ne détermine pas la qualité du vin. L’échelle, les incitations
+        offertes aux adhérents, les vignobles, les compétences techniques et la sélection peuvent
+        produire aussi bien un vin de volume simple qu’une grande cuvée parcellaire.
 
   - id: price-coop-europe-001
     type: mcq
@@ -578,15 +923,28 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Where are grape-grower co-ops most typical?
+      question: "In which setting have grower co-operatives been particularly important?"
       choices:
-        - { text: "Only in New Zealand’s corporate estates", correct: false }
-        - { text: "In Europe", correct: true }
-        - { text: "Only in underground cellars in Australia", correct: false }
-        - { text: "They do not exist anywhere", correct: false }
+        - { text: "Regions dominated by a few vertically integrated estates with very large holdings", correct: false }
+        - { text: "European regions with many small, fragmented vineyard holdings", correct: true }
+        - { text: "Markets where growers are prohibited from pooling grapes or equipment", correct: false }
+        - { text: "Regions without enough vineyard area to support a shared winery", correct: false }
       explanation: |
-        **Southern France, Italy, Germany, Spain** — tiny family holdings made
-        the co-op the default cellar. New World average farms are larger.
+        Co-operatives became important in many European regions where individual holdings were too
+        small to justify a separate winery and sales operation. They also exist elsewhere; the
+        pattern is economic rather than exclusively geographic.
+    fr:
+      question: "Dans quel contexte les coopératives de viticulteurs ont-elles joué un rôle particulièrement important ?"
+      choices:
+        - { text: "Les régions dominées par quelques domaines intégrés possédant de très grandes surfaces", correct: false }
+        - { text: "Les régions européennes comptant de nombreuses petites exploitations morcelées", correct: true }
+        - { text: "Les marchés où la mutualisation des raisins et du matériel est interdite", correct: false }
+        - { text: "Les régions sans assez de vignes pour alimenter une cave commune", correct: false }
+      explanation: |
+        Les coopératives sont devenues importantes dans de nombreuses régions européennes où les
+        exploitations individuelles étaient trop petites pour justifier chacune une cave et une
+        structure commerciale. Elles existent aussi ailleurs : cette logique est économique, pas
+        exclusivement géographique.
 
   - id: price-coop-europe-why-001
     type: mcq
@@ -598,15 +956,28 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Why did Europe grow so many co-ops?
+      question: "Why does fragmented vineyard ownership favour the co-operative model?"
       choices:
-        - { text: "Every European estate is too large to need neighbours", correct: false }
-        - { text: "Average holdings are too small to run a cellar on their own", correct: true }
-        - { text: "EU law bans private wineries", correct: false }
-        - { text: "There are no grapes in Europe", correct: false }
+        - { text: "Small holdings consistently produce more grapes than large wineries can process", correct: false }
+        - { text: "Fragmentation eliminates the need for specialist winemaking and sales staff", correct: false }
+        - { text: "Growers can share winery investment, expertise and access to markets", correct: true }
+        - { text: "Each member must build a separate cellar before joining the co-operative", correct: false }
       explanation: |
-        Inheritance split Burgundy and the Languedoc into **postage stamps**. A
-        shared press is the only economic cellar.
+        Pooling grapes and capital gives small growers access to presses, tanks, technical teams,
+        bottling and marketing that may be uneconomic individually. Shared scale can lower unit
+        costs and strengthen bargaining power.
+    fr:
+      question: "Pourquoi le morcellement de la propriété viticole favorise-t-il le modèle coopératif ?"
+      choices:
+        - { text: "Les petites exploitations produisent toujours plus de raisins que les grandes caves ne peuvent en traiter", correct: false }
+        - { text: "Le morcellement supprime le besoin de personnel spécialisé en vinification et en vente", correct: false }
+        - { text: "Les viticulteurs peuvent mutualiser l’investissement, les compétences et l’accès aux marchés", correct: true }
+        - { text: "Chaque adhérent doit construire sa propre cave avant de rejoindre la coopérative", correct: false }
+      explanation: |
+        La mise en commun des raisins et du capital donne aux petits viticulteurs accès à des
+        pressoirs, des cuves, des équipes techniques, une ligne de mise en bouteille et une
+        commercialisation qui seraient parfois non rentables individuellement. Cette échelle
+        partagée peut réduire les coûts unitaires et renforcer leur pouvoir de négociation.
 
   - id: price-merchant-role-001
     type: mcq
@@ -618,15 +989,28 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What does a wine merchant (négociant) actually buy?
+      question: "What normally defines a wine merchant as a producer?"
       choices:
-        - { text: "Only empty bottles from a glassworks", correct: false }
-        - { text: "Grapes, juice or finished wine from growers or co-ops", correct: true }
-        - { text: "Only the estate they already own, never a kilo more", correct: false }
-        - { text: "Only tax stamps", correct: false }
+        - { text: "Owning every vineyard that supplies every bottle", correct: false }
+        - { text: "Providing vineyard labour without buying grapes or wine", correct: false }
+        - { text: "Selling only finished bottles made and branded by other producers", correct: false }
+        - { text: "Buying grapes, must or wine to make, blend, mature or bottle under its business", correct: true }
       explanation: |
-        The **négociant** is a blender and a brand: fruit or wine in, a label
-        out. Jadot, Drouhin, the big Australian brands all play this game.
+        A merchant sources material from growers, co-operatives or other producers and creates value
+        through selection, winemaking, blending, maturation, bottling or branding. The merchant may
+        also own vineyards, so the models can overlap.
+    fr:
+      question: "Qu’est-ce qui définit normalement le négociant en tant que producteur de vin ?"
+      choices:
+        - { text: "Il possède toutes les vignes qui fournissent chacune de ses bouteilles", correct: false }
+        - { text: "Il fournit de la main-d’œuvre viticole sans acheter de raisins ni de vin", correct: false }
+        - { text: "Il vend seulement des bouteilles terminées et commercialisées par d’autres producteurs", correct: false }
+        - { text: "Il achète raisins, moût ou vin pour vinifier, assembler, élever ou embouteiller", correct: true }
+      explanation: |
+        Le négociant s’approvisionne auprès de viticulteurs, de coopératives ou d’autres producteurs
+        et crée de la valeur par la sélection, la vinification, l’assemblage, l’élevage, la mise en
+        bouteille ou la marque. Il peut aussi posséder des vignes : les modèles peuvent donc se
+        chevaucher.
 
   - id: price-merchant-contracts-001
     type: mcq
@@ -638,15 +1022,28 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Why can a merchant often steer fruit quality more tightly than a classic co-op?
+      question: "How can supply contracts give a merchant more control over purchased grapes?"
       choices:
-        - { text: "They must take every member’s grapes by statute", correct: false }
-        - { text: "They buy on contract and can walk away from a bad lot", correct: true }
-        - { text: "They are banned from writing contracts", correct: false }
-        - { text: "They never taste the fruit", correct: false }
+        - { text: "They can specify variety, vineyard practices, ripeness and acceptance standards", correct: true }
+        - { text: "They force the merchant to accept every parcel regardless of agreed quality", correct: false }
+        - { text: "They transfer all winery decisions permanently to the grape grower", correct: false }
+        - { text: "They guarantee an identical crop size and quality in every vintage", correct: false }
       explanation: |
-        A **contract** can specify ripeness, variety, even vineyard. A co-op
-        membership is a political promise to take the crop.
+        A contract can define how grapes are grown, when they are picked and the conditions for
+        acceptance or payment. It cannot remove weather risk, but it can align suppliers with the
+        merchant’s intended style and quality.
+    fr:
+      question: "Comment les contrats d’approvisionnement peuvent-ils donner au négociant davantage de contrôle sur les raisins achetés ?"
+      choices:
+        - { text: "Ils peuvent préciser le cépage, les pratiques viticoles, la maturité et les critères d’acceptation", correct: true }
+        - { text: "Ils obligent le négociant à accepter chaque lot, quelle que soit la qualité convenue", correct: false }
+        - { text: "Ils transfèrent définitivement toutes les décisions de cave au viticulteur", correct: false }
+        - { text: "Ils garantissent une récolte de volume et de qualité identiques à chaque millésime", correct: false }
+      explanation: |
+        Un contrat peut définir la manière dont les raisins sont cultivés, leur date de récolte et
+        les conditions de leur acceptation ou de leur rémunération. Il ne supprime pas le risque
+        climatique, mais peut aligner les fournisseurs sur le style et la qualité recherchés par le
+        négociant.
 
   - id: price-merchant-supply-risk-001
     type: mcq
@@ -658,15 +1055,28 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What supply problem hits merchants when a region is short of grapes?
+      question: "What supply risk does a merchant face when regional grape demand exceeds the crop?"
       choices:
-        - { text: "Fruit is always surplus and free", correct: false }
-        - { text: "They can pick more carefully — but they may not find enough kilos at all", correct: true }
-        - { text: "The law forces growers to over-deliver", correct: false }
-        - { text: "Merchants may not buy grapes, only corks", correct: false }
+        - { text: "The merchant must purchase all available fruit at a fixed low price", correct: false }
+        - { text: "The merchant may struggle to secure enough suitable grapes at an acceptable price", correct: true }
+        - { text: "The merchant gains unlimited blending material from neighbouring regions", correct: false }
+        - { text: "The shortage automatically permits any origin to appear on the label", correct: false }
       explanation: |
-        In a tiny vintage, growers keep the best for the **domaine**. The
-        négociant who wanted a regular brand volume is left short.
+        In a short crop or highly competitive region, suppliers may retain fruit or sell to the
+        highest bidder. A merchant needing consistent volume and style may have to pay more, accept
+        less suitable material or reduce production.
+    fr:
+      question: "Quel risque d’approvisionnement menace un négociant lorsque la demande régionale de raisins dépasse la récolte ?"
+      choices:
+        - { text: "Le négociant doit acheter tous les raisins disponibles à un prix fixe et bas", correct: false }
+        - { text: "Il peut peiner à obtenir assez de raisins adaptés à un prix acceptable", correct: true }
+        - { text: "Il obtient une quantité illimitée de vins d’assemblage provenant des régions voisines", correct: false }
+        - { text: "La pénurie autorise automatiquement toute origine sur l’étiquette", correct: false }
+      explanation: |
+        Lors d’une petite récolte ou dans une région très concurrentielle, les fournisseurs peuvent
+        conserver leurs raisins ou les vendre au plus offrant. Un négociant qui recherche un volume
+        et un style réguliers devra parfois payer davantage, accepter une matière moins adaptée ou
+        réduire sa production.
 
   - id: price-merchant-scale-001
     type: mcq
@@ -678,15 +1088,28 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: On what scale do merchants work?
+      question: "Across what range of scales can wine merchants operate?"
       choices:
-        - { text: "Only one legal size, 10 000 hl exactly", correct: false }
-        - { text: "From tiny premium lots to huge multi-wine brands", correct: true }
-        - { text: "Only as a single-barrel hobby", correct: false }
-        - { text: "They are banned from blending more than one wine", correct: false }
+        - { text: "Only as high-volume companies making several national brands", correct: false }
+        - { text: "Only as small specialists buying a few premium barrels", correct: false }
+        - { text: "From small premium selections to large multi-brand businesses", correct: true }
+        - { text: "At one legally prescribed volume within each appellation", correct: false }
       explanation: |
-        A **micro-négociant** in Vosne and a **global brand** in the Central
-        Valley are the same job at different volumes.
+        The merchant model describes sourcing, not a fixed size. A small négociant may select a few
+        barrels from named sites, while a large company can assemble consistent brands from many
+        growers and regions.
+    fr:
+      question: "À quelles échelles les négociants en vin peuvent-ils travailler ?"
+      choices:
+        - { text: "Uniquement comme entreprises de grand volume possédant plusieurs marques nationales", correct: false }
+        - { text: "Uniquement comme petits spécialistes achetant quelques fûts haut de gamme", correct: false }
+        - { text: "Des petites sélections haut de gamme jusqu’aux grandes entreprises multimarques", correct: true }
+        - { text: "À un volume unique fixé par la loi dans chaque appellation", correct: false }
+      explanation: |
+        Le modèle du négociant décrit un mode d’approvisionnement, pas une taille fixe. Un petit
+        négociant peut sélectionner quelques fûts issus de lieux-dits, tandis qu’une grande
+        entreprise peut assembler des marques régulières à partir de nombreux viticulteurs et
+        régions.
 
   - id: price-merchant-where-001
     type: mcq
@@ -698,16 +1121,29 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Where are large merchant brands especially common?
+      question: "Where is the large-scale branded merchant model especially prominent?"
       choices:
-        - { text: "Only inside a Burgundy grand cru wall", correct: false }
-        - { text: "Outside Europe, where bigger holdings feed fewer suppliers", correct: true }
-        - { text: "They do not exist outside a French village", correct: false }
-        - { text: "Only in Antarctica", correct: false }
+        - { text: "In fragmented European regions dominated by small grower co-operatives", correct: false }
+        - { text: "In appellations where every branded wine must be estate bottled", correct: false }
+        - { text: "In regions where purchased grapes and inter-regional blends are prohibited", correct: false }
+        - { text: "In many non-European regions with larger vineyards and branded production", correct: true }
       explanation: |
-        **Négociants** are central in Burgundy and Bordeaux. The useful contrast
-        is **large branded merchants** on bigger New World farms — fewer growers
-        per litre — not a claim that France has no merchants.
+        Large holdings and flexible regional sourcing can make it easier to assemble substantial
+        volumes for branded wine in many New World regions. Europe also has major
+        merchants—especially in places such as Bordeaux and Burgundy—so this is a tendency, not an
+        exclusive rule.
+    fr:
+      question: "Où le modèle du négociant de grande taille produisant des marques est-il particulièrement présent ?"
+      choices:
+        - { text: "Dans les régions européennes morcelées dominées par de petites coopératives de viticulteurs", correct: false }
+        - { text: "Dans les appellations où chaque marque doit obligatoirement être mise en bouteille au domaine", correct: false }
+        - { text: "Dans les régions où l’achat de raisins et les assemblages interrégionaux sont interdits", correct: false }
+        - { text: "Dans de nombreuses régions non européennes aux vignobles plus vastes et à la production de marque", correct: true }
+      explanation: |
+        De grandes exploitations et une plus grande souplesse d’approvisionnement régional peuvent
+        faciliter la constitution de volumes importants pour les marques dans de nombreuses régions
+        du Nouveau Monde. L’Europe possède aussi de grands négociants, notamment à Bordeaux et en
+        Bourgogne : il s’agit d’une tendance, pas d’une règle exclusive.
 
   - id: price-merchant-why-new-world-001
     type: mcq
@@ -719,15 +1155,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Why is that big-merchant model easier outside Europe?
+      question: "Why can larger average vineyard holdings simplify sourcing for a merchant?"
       choices:
-        - { text: "Vineyards are smaller and you must visit 400 families", correct: false }
-        - { text: "Average holdings are larger, so one buyer deals with fewer growers", correct: true }
-        - { text: "There are no grapes outside Europe", correct: false }
-        - { text: "Contracts are illegal in the New World", correct: false }
+        - { text: "A given volume can be negotiated with fewer growers and contracts", correct: true }
+        - { text: "Larger vineyards eliminate vintage variation and supply risk", correct: false }
+        - { text: "Each grower must sell the entire crop to a single merchant", correct: false }
+        - { text: "Large holdings remove the need to specify grape quality", correct: false }
       explanation: |
-        A **200 ha** Australian block is one conversation. A **0.3 ha**
-        Burgundian strip is four hundred conversations.
+        Buying a target volume from a few large suppliers reduces the number of negotiations,
+        inspections and deliveries compared with sourcing the same amount from many fragmented
+        holdings. It does not remove the need for quality control.
+    fr:
+      question: "Pourquoi des exploitations viticoles de plus grande taille peuvent-elles simplifier l’approvisionnement d’un négociant ?"
+      choices:
+        - { text: "Un volume donné peut être négocié avec moins de viticulteurs et de contrats", correct: true }
+        - { text: "Les grandes exploitations suppriment les variations de millésime et le risque de pénurie", correct: false }
+        - { text: "Chaque viticulteur doit vendre toute sa récolte à un seul négociant", correct: false }
+        - { text: "Les grandes surfaces suppriment le besoin de fixer des critères de qualité", correct: false }
+      explanation: |
+        Acheter le volume recherché auprès de quelques grands fournisseurs réduit le nombre de
+        négociations, d’inspections et de livraisons par rapport au même approvisionnement issu de
+        nombreuses petites exploitations. Cela ne supprime pas le besoin de contrôler la qualité.
 
   - id: price-brands-merchants-001
     type: mcq
@@ -739,15 +1187,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which producer type sits behind many of the biggest wine brands?
+      question: "Why are merchants well suited to producing large, consistent wine brands?"
       choices:
-        - { text: "A two-barrel family estate only", correct: false }
-        - { text: "Merchants", correct: true }
-        - { text: "Only municipal water companies", correct: false }
-        - { text: "Only restaurant sommeliers", correct: false }
+        - { text: "They must use grapes from one small estate in every vintage", correct: false }
+        - { text: "They can source and blend across multiple suppliers to maintain volume and style", correct: true }
+        - { text: "They are prohibited from adjusting blends when the vintage changes", correct: false }
+        - { text: "They avoid contracts and rely on one parcel for the entire brand", correct: false }
       explanation: |
-        A **brand** needs volume and a blend that tastes the same next year.
-        That is a merchant’s job, not a 4 ha domaine’s.
+        Access to several vineyards, growers or regions gives a merchant options when yields and
+        flavours change. Blending those components helps deliver the scale and recognisable house
+        style expected of a major brand.
+    fr:
+      question: "Pourquoi les négociants sont-ils bien adaptés à la production de grandes marques de vin régulières ?"
+      choices:
+        - { text: "Ils doivent employer les raisins d’un seul petit domaine à chaque millésime", correct: false }
+        - { text: "Ils diversifient leurs sources et leurs assemblages pour maintenir volume et style", correct: true }
+        - { text: "Ils n’ont pas le droit d’ajuster les assemblages lorsque le millésime change", correct: false }
+        - { text: "Ils évitent les contrats et font reposer toute la marque sur une seule parcelle", correct: false }
+      explanation: |
+        L’accès à plusieurs vignobles, viticulteurs ou régions donne au négociant des solutions
+        lorsque les rendements et les saveurs changent. L’assemblage de ces composantes aide à
+        fournir le volume et le style reconnaissable attendus d’une grande marque.
 
   - id: price-negociant-name-001
     type: mcq
@@ -759,15 +1219,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What is the French word for that merchant?
+      question: "Which French term denotes a wine merchant who buys grapes, must or wine?"
       choices:
         - { text: "Domaine", correct: false }
+        - { text: "Courtier", correct: false }
         - { text: "Négociant", correct: true }
-        - { text: "Climat", correct: false }
-        - { text: "Lieudit", correct: false }
+        - { text: "Tonnelier", correct: false }
       explanation: |
-        **Négociant** (often *négociant-éleveur*) buys, ages and bottles.
-        **Domaine** is the estate word.
+        A négociant buys wine or raw material and may vinify, mature, blend and bottle it. A domaine
+        is an estate, a courtier is a broker, and a tonnelier makes barrels.
+    fr:
+      question: "Quel terme français désigne un marchand de vin qui achète des raisins, du moût ou du vin ?"
+      choices:
+        - { text: "Domaine", correct: false }
+        - { text: "Courtier", correct: false }
+        - { text: "Négociant", correct: true }
+        - { text: "Tonnelier", correct: false }
+      explanation: |
+        Un négociant achète du vin ou de la matière première et peut la vinifier, l’élever,
+        l’assembler et la mettre en bouteille. Un domaine est une exploitation viticole, un courtier
+        sert d’intermédiaire et un tonnelier fabrique des fûts.
 
   - id: price-estate-define-001
     type: mcq
@@ -779,15 +1250,28 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What makes a producer an estate, not a merchant?
+      question: "Which sourcing model best describes an estate wine producer?"
       choices:
-        - { text: "They buy all their fruit on the spot market", correct: false }
-        - { text: "They make wine only from grapes they grow", correct: true }
-        - { text: "They never own a vine", correct: false }
-        - { text: "They only print labels for other people", correct: false }
+        - { text: "It bottles wine purchased from several unrelated producers", correct: false }
+        - { text: "It brokers sales without growing grapes or making wine", correct: false }
+        - { text: "It buys most grapes anonymously on the spot market", correct: false }
+        - { text: "It makes wine primarily from grapes grown in its own vineyards", correct: true }
       explanation: |
-        An **estate / domaine** bottles **its own grapes**. A merchant buys
-        fruit or wine in. The two jobs are not the same.
+        The estate model integrates grape growing and winemaking under one business, usually using
+        its own vineyards. Legal wording and occasional purchased fruit vary by region, so the key
+        distinction is control of the estate crop rather than an absolute global labelling rule.
+    fr:
+      question: "Quel modèle d’approvisionnement décrit le mieux un domaine viticole ?"
+      choices:
+        - { text: "Il met en bouteille des vins achetés à plusieurs producteurs indépendants", correct: false }
+        - { text: "Il négocie des ventes sans cultiver de raisins ni produire de vin", correct: false }
+        - { text: "Il achète la majorité de ses raisins anonymement sur le marché spot", correct: false }
+        - { text: "Il élabore principalement du vin avec les raisins de ses propres vignes", correct: true }
+      explanation: |
+        Le modèle du domaine réunit la viticulture et la vinification au sein d’une même entreprise,
+        généralement à partir de ses propres vignes. Les mentions légales et l’achat occasionnel de
+        raisins varient selon les régions : la distinction essentielle est la maîtrise de la récolte
+        du domaine, et non une règle d’étiquetage universelle et absolue.
 
   - id: price-estate-scale-001
     type: mcq
@@ -799,15 +1283,28 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which producer type usually works on the smallest scale?
+      question: "Why is an estate’s production volume often more constrained than a merchant’s?"
       choices:
-        - { text: "Global merchant brands", correct: false }
-        - { text: "Estates", correct: true }
-        - { text: "National supermarket buyers", correct: false }
-        - { text: "Shipping lines", correct: false }
+        - { text: "Its output is tied mainly to the area and yield of its own vineyards", correct: true }
+        - { text: "It can replace a short crop with unlimited purchased bulk wine", correct: false }
+        - { text: "Its production is set by the number of retailers in the destination market", correct: false }
+        - { text: "It must bottle the same volume regardless of the vintage", correct: false }
       explanation: |
-        A **domaine** is sized to its vines. Merchants and big co-ops can be
-        industrial.
+        An estate cannot easily expand beyond the crop delivered by its own land, and that crop
+        changes with weather and yield decisions. A merchant can potentially source from more
+        suppliers, subject to availability and labelling rules.
+    fr:
+      question: "Pourquoi le volume de production d’un domaine est-il souvent plus contraint que celui d’un négociant ?"
+      choices:
+        - { text: "Sa production dépend principalement de la superficie et du rendement de ses propres vignes", correct: true }
+        - { text: "Il peut compenser une petite récolte avec une quantité illimitée de vin en vrac acheté", correct: false }
+        - { text: "Sa production est fixée par le nombre de détaillants du marché de destination", correct: false }
+        - { text: "Il doit mettre en bouteille le même volume quel que soit le millésime", correct: false }
+      explanation: |
+        Un domaine ne peut pas facilement dépasser la récolte fournie par ses propres terres,
+        laquelle varie avec la météo et les choix de rendement. Un négociant peut éventuellement
+        s’approvisionner auprès de davantage de fournisseurs, sous réserve de la disponibilité et
+        des règles d’étiquetage.
 
   - id: price-estate-control-001
     type: mcq
@@ -819,15 +1316,28 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What does that small estate scale usually buy you?
+      question: "What potential advantage comes from integrating estate vineyards and winery management?"
       choices:
-        - { text: "The least control over farming and the cellar", correct: false }
-        - { text: "The tightest control from vine to bottle", correct: true }
-        - { text: "A legal ban on visiting the vineyard", correct: false }
-        - { text: "More blending options than a global merchant", correct: false }
+        - { text: "The estate gains access to more blending sources than any merchant", correct: false }
+        - { text: "One producer can coordinate decisions from vineyard through bottling", correct: true }
+        - { text: "The estate avoids all capital and labour costs in the vineyard", correct: false }
+        - { text: "Vintage conditions no longer affect grape quality or volume", correct: false }
       explanation: |
-        One team **grows and makes**. That is the domaine pitch. Blending
-        options are fewer, not more.
+        A single team can align pruning, yields, harvest timing and winemaking with the intended
+        style. Integration creates the opportunity for close control, although it does not guarantee
+        quality or remove weather and management risk.
+    fr:
+      question: "Quel avantage potentiel apporte l’intégration de la gestion des vignes et de la cave au sein d’un domaine ?"
+      choices:
+        - { text: "Le domaine accède à davantage de sources d’assemblage que n’importe quel négociant", correct: false }
+        - { text: "Un même producteur peut coordonner ses décisions du vignoble jusqu’à la mise en bouteille", correct: true }
+        - { text: "Le domaine évite tous les coûts d’investissement et de main-d’œuvre dans les vignes", correct: false }
+        - { text: "Les conditions du millésime ne modifient plus la qualité ni le volume des raisins", correct: false }
+      explanation: |
+        Une même équipe peut accorder la taille, les rendements, la date des vendanges et la
+        vinification au style recherché. L’intégration donne la possibilité d’un contrôle étroit,
+        mais ne garantit pas la qualité et ne supprime ni le risque climatique ni le risque de
+        mauvaise gestion.
 
   - id: price-estate-blend-limit-001
     type: mcq
@@ -839,15 +1349,28 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What is the estate’s structural disadvantage?
+      question: "What is a common sourcing disadvantage for an estate relying on its own crop?"
       choices:
-        - { text: "Unlimited fruit from 400 growers", correct: false }
-        - { text: "Fewer blending options because they rely on their own crop", correct: true }
-        - { text: "They must buy every grape in the village", correct: false }
-        - { text: "They cannot print a label", correct: false }
+        - { text: "It must blend grapes from every grower in the region", correct: false }
+        - { text: "It cannot identify the vineyards from which its grapes came", correct: false }
+        - { text: "It has fewer replacement lots when part of its crop disappoints", correct: true }
+        - { text: "It is required to sell all wine before the harvest finishes", correct: false }
       explanation: |
-        If the **east-facing plot fails**, there is no tanker of backup juice.
-        A négociant can phone the next valley.
+        An estate has only the components produced by its own vineyards unless rules and business
+        choices permit outside purchases. A merchant sourcing widely can have more options to
+        replace a weak lot or rebalance a blend.
+    fr:
+      question: "Quel désavantage d’approvisionnement rencontre souvent un domaine qui dépend de sa propre récolte ?"
+      choices:
+        - { text: "Il doit assembler les raisins de tous les viticulteurs de la région", correct: false }
+        - { text: "Il ne peut pas identifier les parcelles d’origine de ses raisins", correct: false }
+        - { text: "Il dispose de moins de lots de remplacement si une partie de sa récolte déçoit", correct: true }
+        - { text: "Il doit vendre tout son vin avant la fin des vendanges", correct: false }
+      explanation: |
+        Un domaine ne dispose que des composantes produites par ses propres vignes, sauf si les
+        règles et ses choix commerciaux autorisent des achats extérieurs. Un négociant qui
+        s’approvisionne largement peut avoir davantage de solutions pour remplacer un lot faible ou
+        rééquilibrer un assemblage.
 
   - id: price-estate-poor-vintage-001
     type: mcq
@@ -859,15 +1382,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: When does that lack of blending fruit hurt most?
+      question: "When is an estate’s limited access to alternative blending material most damaging?"
       choices:
-        - { text: "In a perfect, even vintage with surplus", correct: false }
-        - { text: "In a poor growing year", correct: true }
-        - { text: "Only when the label is gold", correct: false }
-        - { text: "Never — estates always have spare regions", correct: false }
+        - { text: "When a strong, even vintage produces healthy fruit across all parcels", correct: false }
+        - { text: "When stable weather gives the estate both normal yield and desired maturity", correct: false }
+        - { text: "When demand is steady and the cellar carries reserve stock from earlier years", correct: false }
+        - { text: "When frost, rot or poor ripening reduces the quality or volume of its own crop", correct: true }
       explanation: |
-        A **rot year** or a frost year leaves the domaine with what it grew.
-        The merchant can still assemble a brand from somewhere else.
+        A difficult vintage can damage several estate parcels at once, leaving little sound fruit to
+        select or blend. A merchant may have access to unaffected suppliers, though shortages and
+        appellation rules can still limit those options.
+    fr:
+      question: "Quand l’accès limité d’un domaine à d’autres lots d’assemblage est-il le plus pénalisant ?"
+      choices:
+        - { text: "Lorsqu’un millésime homogène et réussi produit des raisins sains sur toutes les parcelles", correct: false }
+        - { text: "Lorsqu’une météo stable procure au domaine un rendement normal et la maturité recherchée", correct: false }
+        - { text: "Lorsque la demande reste stable et que la cave possède des vins de réserve de millésimes antérieurs", correct: false }
+        - { text: "Lorsque le gel, la pourriture ou une mauvaise maturation réduit la qualité ou le volume de sa récolte", correct: true }
+      explanation: |
+        Un millésime difficile peut toucher plusieurs parcelles du domaine à la fois et laisser peu
+        de raisins sains à sélectionner ou à assembler. Un négociant peut accéder à des fournisseurs
+        épargnés, même si les pénuries et les règles d’appellation limitent aussi ses possibilités.
 
   - id: price-domaine-word-001
     type: mcq
@@ -879,14 +1414,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which French word is often used for an estate?
+      question: "Which French term is commonly used for a wine estate?"
       choices:
-        - { text: "Négociant", correct: false }
         - { text: "Domaine", correct: true }
+        - { text: "Négociant", correct: false }
         - { text: "Courtier", correct: false }
         - { text: "Tonnelier", correct: false }
       explanation: |
-        **Domaine** (Burgundy, Loire, Alsace) means the farm that bottles its
-        own grapes. Bordeaux more often says *château*. A négociant is the
-        buyer; a courtier is the broker.
+        Domaine commonly denotes an estate that grows grapes and makes wine, particularly in regions
+        such as Burgundy, the Loire and Alsace. Château is frequent in Bordeaux; négociant means
+        merchant, courtier broker and tonnelier barrel maker.
 
+    fr:
+      question: "Quel terme français est couramment employé pour désigner une exploitation viticole qui produit du vin ?"
+      choices:
+        - { text: "Domaine", correct: true }
+        - { text: "Négociant", correct: false }
+        - { text: "Courtier", correct: false }
+        - { text: "Tonnelier", correct: false }
+      explanation: |
+        Domaine désigne couramment une exploitation qui cultive des raisins et produit du vin,
+        notamment en Bourgogne, dans la Loire et en Alsace. Château est fréquent à Bordeaux ;
+        négociant désigne un marchand, courtier un intermédiaire et tonnelier un fabricant de fûts.

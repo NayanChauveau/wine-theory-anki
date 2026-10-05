@@ -767,7 +767,131 @@ chapters:
 
 # Chapitres pas encore passés sur ces deux barres (ajouter `cards:`
 # quand une vague FR + qualité démarre).
-  c01-sat: { file: cards/c01-sat.yaml, status: pending }
+  c01-sat:
+    file: cards/c01-sat.yaml
+    status: awaiting-human
+    agent_wave: 2026-10-05
+    counts:
+      cards: 6
+      agent_fixed: 6
+      agent_pass: 0
+      human_ok: 0
+    note: >
+      Passe adversariale complète et traduction française intégrale. Les cartes de
+      dégustation ont été recadrées sur des sensations et méthodes observables ; les
+      leurres ont été équilibrés et la portée des échelles SAT précisée.
+    cards:
+      sat-acidity-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      sat-tannin-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      sat-climate-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      sat-medium-plus-minus-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      sat-white-colour-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      sat-red-colour-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+  c04-growing-environment:
+    file: cards/c04-growing-environment.yaml
+    status: awaiting-human
+    agent_wave: 2026-10-05
+    counts:
+      cards: 31
+      agent_fixed: 31
+      agent_pass: 0
+      human_ok: 0
+    note: >
+      Passe factuelle et adversariale complète, suivie de la traduction française.
+      Distinction corrigée entre continentalité et régime méditerranéen ; mécanismes
+      climatiques, facteurs du site, floraison et vendanges ont reçu des leurres
+      homogènes et des explications autonomes.
+    cards:
+      climate-latitude-band-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      climate-definition-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      weather-definition-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      temperature-factors-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      altitude-lapse-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      ocean-currents-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      fog-cooling-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      fog-examples-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      aspect-equator-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      aspect-mosel-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      continentality-define-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      continentality-water-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      sunlight-factors-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      latitude-daylength-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      latitude-daylength-examples-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      aspect-steep-equator-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      fungal-damp-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      irrigation-when-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      sprinkler-tradeoff-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      continental-autumn-drop-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      continental-cool-varieties-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      continental-dry-summer-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      maritime-rain-year-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      maritime-moderate-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      maritime-season-length-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      site-factors-producer-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      vigour-rain-fertile-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      coulure-millerandage-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      harvest-dry-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      harvest-early-weather-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      harvest-method-factors-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+  c10-price-of-wine:
+    file: cards/c10-price-of-wine.yaml
+    status: awaiting-human
+    agent_wave: 2026-10-05
+    counts:
+      cards: 44
+      agent_fixed: 44
+      agent_pass: 0
+      human_ok: 0
+    note: >
+      Réécriture adversariale complète avant traduction française. Les anciens
+      leurres caricaturaux ont été remplacés par des scénarios économiques
+      comparables ; coûts viticoles et de cave, fiscalité, marges, offre et demande,
+      coopératives, négociants et domaines ont été recadrés sans absolus trompeurs.
+    cards:
+      price-seven-brackets-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      price-plant-costs-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      price-labour-largest-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      price-labour-cheap-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      price-share-kit-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      price-steep-no-saving-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      price-grape-market-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      price-winery-kit-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      price-shared-bottling-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      price-time-in-cellar-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      price-stock-tied-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      price-packaging-parts-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      price-heavy-bottle-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      price-bottle-in-market-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      price-in-market-limits-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      price-tax-everywhere-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      price-tax-why-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      price-retail-margin-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      price-restaurant-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      price-market-forces-top-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      price-scarcity-premium-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      price-bordeaux-demand-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      price-mosel-abandon-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      price-three-producers-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      price-coop-define-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      price-coop-buyer-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      price-coop-quality-risk-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      price-coop-quality-range-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      price-coop-europe-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      price-coop-europe-why-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      price-merchant-role-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      price-merchant-contracts-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      price-merchant-supply-risk-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      price-merchant-scale-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      price-merchant-where-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      price-merchant-why-new-world-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      price-brands-merchants-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      price-negociant-name-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      price-estate-define-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      price-estate-scale-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      price-estate-control-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      price-estate-blend-limit-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      price-estate-poor-vintage-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      price-domaine-word-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
   c12-france-introduction:
     file: cards/c12-france-introduction.yaml
     status: awaiting-human
