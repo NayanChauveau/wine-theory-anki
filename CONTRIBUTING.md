@@ -26,6 +26,7 @@ another change that would affect many contributors or existing users.
 Requirements:
 
 - Python 3.12 or later
+- Node.js 18 or later for the JavaScript behavior tests (CI uses Node.js 22)
 - [uv](https://docs.astral.sh/uv/getting-started/installation/)
 - `make` for convenience; direct `uv run` commands work on systems without it
 

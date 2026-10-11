@@ -9,6 +9,7 @@ function wset3ShuffleChoices(reveal) {
     var order = reveal ? wset3LoadOrder(key, n) : wset3NewOrder(n, key);
     if (!reveal) {
       wset3SaveOrder(key, order);
+      wset3Write(wset3PickKey(key), null);
     }
     wset3ApplyOrder(box, order);
     if (reveal) {
@@ -39,10 +40,25 @@ function wset3NewOrder(n, key) {
   if (seeded) {
     return seeded;
   }
-  var stored = wset3Read(key);
-  if (stored && stored.length === n) {
-    return stored;
+  var previous = wset3Read(key);
+  var order;
+  // Rejection sampling avoids repeating the previous permutation. The bounded
+  // fallback also terminates if a client provides a broken/constant RNG.
+  for (var attempt = 0; attempt < 8; attempt++) {
+    order = wset3RandomOrder(n);
+    if (!wset3ValidOrder(previous, n) || !wset3SameOrder(order, previous)) {
+      return order;
+    }
   }
+  if (n > 1) {
+    var tmp = order[0];
+    order[0] = order[1];
+    order[1] = tmp;
+  }
+  return order;
+}
+
+function wset3RandomOrder(n) {
   var order = wset3Identity(n);
   var i;
   for (i = n - 1; i > 0; i--) {
@@ -55,15 +71,30 @@ function wset3NewOrder(n, key) {
 }
 
 function wset3LoadOrder(key, n) {
-  var stored = wset3Read(key);
-  if (stored && stored.length === n) {
-    return stored;
-  }
   var seeded = wset3DroidOrder(n);
   if (seeded) {
     return seeded;
   }
+  var stored = wset3Read(key);
+  if (wset3ValidOrder(stored, n)) {
+    return stored;
+  }
   return wset3Identity(n);
+}
+
+function wset3ValidOrder(order, n) {
+  if (!Array.isArray(order) || order.length !== n) return false;
+  for (var i = 0; i < n; i++) {
+    if (order.indexOf(i) === -1) return false;
+  }
+  return true;
+}
+
+function wset3SameOrder(a, b) {
+  for (var i = 0; i < a.length; i++) {
+    if (a[i] !== b[i]) return false;
+  }
+  return true;
 }
 
 function wset3Identity(n) {
@@ -79,10 +110,18 @@ function wset3DroidOrder(n) {
     if (!window.AnkiDroidJS || !AnkiDroidJS.ankiGetCardId || !AnkiDroidJS.ankiGetCardReps) {
       return null;
     }
-    return wset3SeededOrder(
-      n,
-      String(AnkiDroidJS.ankiGetCardId()) + ":" + String(AnkiDroidJS.ankiGetCardReps())
-    );
+    var card = String(AnkiDroidJS.ankiGetCardId());
+    var reps = Number(AnkiDroidJS.ankiGetCardReps());
+    if (!isFinite(reps) || reps < 0 || Math.floor(reps) !== reps) return null;
+    // Reproduce both faces even when AnkiDroid isolates their storage. The first
+    // choice advances through a card-specific permutation at each new review,
+    // so consecutive review counts cannot produce the same complete order.
+    var cycle = wset3SeededOrder(n, card);
+    var first = cycle[reps % n];
+    var order = wset3SeededOrder(n, card + ":" + reps);
+    order.splice(order.indexOf(first), 1);
+    order.unshift(first);
+    return order;
   } catch (e) {
     return null;
   }

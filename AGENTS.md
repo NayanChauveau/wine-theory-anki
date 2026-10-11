@@ -56,3 +56,15 @@ uv run wset3-anki import-status
 | `templates/` | Anki HTML/CSS + UI strings |
 | `src/wset3_anki/` | Validate + build CLI |
 | `tests/` | Schema, GUID, i18n, CLI |
+
+## MCQ shuffle compatibility
+
+- Each new front presentation draws a fresh choice order, excluding the immediately
+  preceding order. The back must retain the front order and the selected choice identity.
+- Clear the previous selection before presenting the question again. The legacy
+  synchronous AnkiDroid fallback reconstructs the same order on both sides and changes
+  it when the review count increments.
+- Apply these rules to both monolingual and bilingual MCQ templates. Preserve published
+  card IDs, GUIDs, model IDs and scheduling data.
+- Verify the shipped JavaScript behavior with `tests/js/mcq-shuffle.test.cjs` through
+  `make check`; checking only that a shuffle function appears in HTML is insufficient.
