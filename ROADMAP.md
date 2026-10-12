@@ -9,7 +9,7 @@ the two machine-readable editorial ledgers:
   quality pass: isolation, credible distractors, balanced choice length, useful
   explanations and natural French.
 
-The figures below are a snapshot from **2026-10-05**. Source notes and finished cards are
+The figures below are a snapshot from **2026-10-12**. Source notes and finished cards are
 different units: one source note may be split into several cards, merged with another note
 or rejected.
 
@@ -18,8 +18,8 @@ or rejected.
 | Measure | Complete | Remaining | Progress |
 | --- | ---: | ---: | ---: |
 | Legacy source notes resolved | 2,236 / 4,075 | 1,839 | 54.9% |
-| Cards with French | 1,959 / 2,364 | 405 | 82.9% |
-| Release-eligible cards with French | 1,959 / 2,359 | 400 | 83.0% |
+| Cards with French | 2,005 / 2,364 | 359 | 84.8% |
+| Release-eligible cards with French | 2,005 / 2,359 | 354 | 85.0% |
 | Draft cards | — | 5 | — |
 
 To obtain the live migration count, run:
@@ -29,7 +29,7 @@ uv run wset3-anki import-status
 ```
 
 All translated MCQs currently have matching English and French choice counts and correct
-answer indexes. Twenty-seven completed chapter passes are recorded as `awaiting-human` in
+answer indexes. Twenty-eight completed chapter passes are recorded as `awaiting-human` in
 the quality ledger; agent review is complete for those chapters, but human sign-off remains
 open.
 
@@ -52,15 +52,16 @@ open.
 - [x] Record the bilingual chapter pass in `import/quality-review.yaml`.
 - [ ] Build and inspect the complete Portuguese section in Anki.
 
-### 3. SAT, Growing Environment and Price of Wine — editorial passes complete
+### 3. SAT, Growing Environment, Price of Wine and Wine and the Law — editorial passes complete
 
 - [x] Resolve the available English source notes.
 - [x] Run a full factual and adversarial quality pass on all 6 SAT cards.
 - [x] Run a full factual and adversarial quality pass on all 31 Growing Environment cards.
 - [x] Rewrite and quality-check all 44 Price of Wine cards.
-- [x] Complete and align the French translations in all three chapters.
-- [x] Record all three chapter passes in `import/quality-review.yaml`.
-- [ ] Build and inspect all three sections in Anki.
+- [x] Rewrite, fact-check and quality-check all 46 Wine and the Law cards in lots of ten.
+- [x] Complete and align the French translations in all four chapters.
+- [x] Record all four chapter passes in `import/quality-review.yaml`.
+- [ ] Build and inspect all four sections in Anki.
 
 ### 4. Translate other chapters whose English source migration is already complete
 
@@ -69,10 +70,9 @@ notes.
 
 | Chapter | Missing French cards |
 | --- | ---: |
-| Wine and the Law | 46 |
 | USA Introduction | 6 |
 | Pacific Northwest | 50 |
-| **Subtotal** | **102** |
+| **Subtotal** | **56** |
 
 - [ ] Translate each chapter in its existing YAML file.
 - [ ] Recheck English and French together for sense, difficulty and answer alignment.

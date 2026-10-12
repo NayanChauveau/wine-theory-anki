@@ -13,15 +13,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What is the first job of food-and-drink law?
+      question: "What is the primary public-health purpose of food and drink safety law?"
       choices:
-        - { text: "To pick the winning grape variety for each village", correct: false }
-        - { text: "To keep what is sold safe and fit to drink", correct: true }
-        - { text: "To ban all labels", correct: false }
-        - { text: "To set a single world wine price", correct: false }
+        - { text: "To prescribe the sensory style of every product", correct: false }
+        - { text: "To prevent unsafe products from being placed on the market", correct: true }
+        - { text: "To give every producer the same retail price", correct: false }
+        - { text: "To reserve all place names for premium products", correct: false }
       explanation: |
-        Before terroir stories come **safety**: the bottle must not poison
-        anyone. Style rules sit on top of that floor.
+        Food law sets a basic safety floor: products that are injurious to health or unfit for human
+        consumption must not be sold. Rules protecting origins, label terms or styles serve
+        different purposes on top of that foundation.
+    fr:
+      question: "Quel est le principal objectif de santé publique de la législation sur la sécurité des aliments et des boissons ?"
+      choices:
+        - { text: "Imposer le profil sensoriel de chaque produit", correct: false }
+        - { text: "Empêcher la mise sur le marché de produits dangereux", correct: true }
+        - { text: "Donner le même prix de détail à tous les producteurs", correct: false }
+        - { text: "Réserver tous les noms de lieux aux produits haut de gamme", correct: false }
+      explanation: |
+        Le droit alimentaire fixe un socle de sécurité : un produit dangereux pour la santé ou
+        impropre à la consommation ne doit pas être vendu. La protection des origines, des mentions
+        ou des styles répond à d’autres objectifs qui s’ajoutent à ce socle.
 
   - id: law-so2-example-001
     type: mcq
@@ -33,15 +45,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which wine-safety topic do regulators watch especially closely?
+      question: "Which regulated winemaking issue is directly linked to allergen or intolerance labelling?"
       choices:
-        - { text: "The colour of the capsule foil", correct: false }
-        - { text: "Sulphur dioxide (SO₂)", correct: true }
-        - { text: "The punt depth of the bottle", correct: false }
-        - { text: "The winemaker’s hat size", correct: false }
+        - { text: "Permitted enrichment before fermentation", correct: false }
+        - { text: "Minimum ageing before release", correct: false }
+        - { text: "The presence of sulphur dioxide and sulphites", correct: true }
+        - { text: "The use of oak vessels during maturation", correct: false }
       explanation: |
-        **SO₂** is both a useful antiseptic and a toxin in excess — and a
-        trigger for some asthmatics. That is why it is capped and labelled.
+        Sulphur dioxide is a valuable antioxidant and antimicrobial agent, but sulphites can provoke
+        reactions in sensitive people. Regulations therefore set limits and require a declaration
+        once the relevant threshold is reached.
+    fr:
+      question: "Quel aspect réglementé de la vinification est directement lié à l’étiquetage des allergènes ou intolérances ?"
+      choices:
+        - { text: "L’enrichissement autorisé avant la fermentation", correct: false }
+        - { text: "La durée minimale d’élevage avant la mise en vente", correct: false }
+        - { text: "La présence de dioxyde de soufre et de sulfites", correct: true }
+        - { text: "L’emploi de contenants en bois pendant l’élevage", correct: false }
+      explanation: |
+        Le dioxyde de soufre est un antioxydant et un antimicrobien précieux, mais les sulfites
+        peuvent provoquer des réactions chez les personnes sensibles. La réglementation fixe donc
+        des limites et impose une déclaration à partir du seuil applicable.
 
   - id: law-so2-toxic-001
     type: mcq
@@ -53,15 +77,28 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Why must SO₂ levels be watched?
+      question: "Why do wine laws set maximum permitted levels for sulphur dioxide?"
       choices:
-        - { text: "SO₂ has no effect on people at any dose", correct: false }
-        - { text: "High levels can be toxic", correct: true }
-        - { text: "The law requires unlimited SO₂ in every wine", correct: false }
-        - { text: "SO₂ is only a colour, never a chemical", correct: false }
+        - { text: "Excessive exposure can cause adverse health effects", correct: true }
+        - { text: "Any detectable amount makes fermentation impossible", correct: false }
+        - { text: "Sulphur dioxide always raises the wine’s alcohol level", correct: false }
+        - { text: "Every addition permanently removes the wine’s acidity", correct: false }
       explanation: |
-        Over a threshold, sulphites **hurt**. Legal maxima exist for that
-        reason, not as a flavour fashion.
+        The risk depends on dose and individual sensitivity; sulphites are particularly relevant for
+        susceptible consumers, including some people with asthma. Legal maxima manage that risk
+        while still allowing useful protective amounts in wine.
+    fr:
+      question: "Pourquoi la législation viticole fixe-t-elle des teneurs maximales en dioxyde de soufre ?"
+      choices:
+        - { text: "Une exposition excessive peut avoir des effets nocifs sur la santé", correct: true }
+        - { text: "Toute quantité détectable rend la fermentation impossible", correct: false }
+        - { text: "Le dioxyde de soufre augmente toujours le degré d’alcool", correct: false }
+        - { text: "Chaque ajout supprime définitivement l’acidité du vin", correct: false }
+      explanation: |
+        Le risque dépend de la dose et de la sensibilité individuelle ; les sulfites concernent
+        particulièrement certains consommateurs sensibles, notamment des personnes asthmatiques. Les
+        plafonds légaux limitent ce risque tout en autorisant des doses utiles à la protection du
+        vin.
 
   - id: law-contains-sulphites-001
     type: mcq
@@ -73,15 +110,27 @@ cards:
       fact_check: pass
       sources: [spec]
     en:
-      question: What labelling step do most countries take on SO₂?
+      question: "At approximately what total sulphite level does a wine generally require a sulphite declaration in the EU, UK and US?"
       choices:
-        - { text: "A ban on mentioning sulphur at all", correct: false }
-        - { text: "The words “contains sulphites” (or similar) on the label", correct: true }
-        - { text: "A requirement to print the full chemical formula only in Latin", correct: false }
-        - { text: "SO₂ must be hidden from the buyer", correct: false }
+        - { text: "Around 1 mg/L", correct: false }
+        - { text: "Around 5 mg/L", correct: false }
+        - { text: "Around 50 mg/L", correct: false }
+        - { text: "Around 10 mg/L", correct: true }
       explanation: |
-        Above a low threshold (in the EU, **10 mg/L**) the label must warn
-        **contains sulphites**. It is an allergen notice, not a quality score.
+        The trigger is about 10 mg/L of total SO₂: EU and UK rules require declaration above that
+        level, while US rules use 10 ppm or more. Exact wording and the treatment of the boundary
+        depend on the jurisdiction.
+    fr:
+      question: "À partir de quelle teneur totale approximative un vin doit-il généralement porter une mention relative aux sulfites dans l’UE, au Royaume-Uni et aux États-Unis ?"
+      choices:
+        - { text: "Environ 1 mg/L", correct: false }
+        - { text: "Environ 5 mg/L", correct: false }
+        - { text: "Environ 50 mg/L", correct: false }
+        - { text: "Environ 10 mg/L", correct: true }
+      explanation: |
+        Le seuil se situe autour de 10 mg/L de SO₂ total : l’UE et le Royaume-Uni imposent une
+        déclaration au-dessus de cette teneur, tandis que les États-Unis parlent de 10 ppm ou plus.
+        Le libellé exact et le traitement de la valeur limite dépendent de la juridiction.
 
   - id: law-yeast-so2-001
     type: mcq
@@ -93,15 +142,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Why do almost all wines still need that sulphite line?
+      question: "Why can a wine with no added sulphur still require a sulphite declaration?"
       choices:
-        - { text: "Fermentation itself makes some SO₂, even if you add none", correct: true }
-        - { text: "Yeast never produces any sulphur compound", correct: false }
-        - { text: "The words are optional decoration", correct: false }
-        - { text: "Only sparkling wine ferments", correct: false }
+        - { text: "The declaration depends only on the colour of the wine", correct: false }
+        - { text: "Yeasts can produce sulphites naturally during fermentation", correct: true }
+        - { text: "Every closure releases a fixed legal dose of sulphur dioxide", correct: false }
+        - { text: "Alcohol converts into sulphur dioxide after bottling", correct: false }
       explanation: |
-        Yeasts **generate sulphites** as they work. A “no added sulphur” wine
-        can still sit over the labelling trigger. True zero is rare.
+        Fermentation can create naturally occurring sulphites, and their level varies between wines
+        and batches. ‘No added sulphites’ therefore does not mean zero sulphites or automatically
+        exempt the finished wine from labelling rules.
+    fr:
+      question: "Pourquoi un vin sans ajout de soufre peut-il tout de même devoir porter une mention relative aux sulfites ?"
+      choices:
+        - { text: "La déclaration dépend uniquement de la couleur du vin", correct: false }
+        - { text: "Les levures peuvent produire naturellement des sulfites pendant la fermentation", correct: true }
+        - { text: "Chaque bouchage libère une dose légale fixe de dioxyde de soufre", correct: false }
+        - { text: "L’alcool se transforme en dioxyde de soufre après la mise en bouteille", correct: false }
+      explanation: |
+        La fermentation peut produire des sulfites naturellement présents, dont la teneur varie
+        selon les vins et les lots. « Sans sulfites ajoutés » ne signifie donc ni absence totale de
+        sulfites ni exemption automatique des règles d’étiquetage.
 
   - id: law-label-truth-001
     type: mcq
@@ -113,15 +174,28 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What must the person who puts a wine on sale guarantee about the pack?
+      question: "What must the business responsible for marketing a wine ensure about its label?"
       choices:
-        - { text: "That every claim on it is a joke", correct: false }
-        - { text: "That descriptions and claims are accurate", correct: true }
-        - { text: "That the region named is always fictional", correct: false }
-        - { text: "That vintage is optional and may be invented", correct: false }
+        - { text: "Every optional claim appears in the largest type", correct: false }
+        - { text: "The label uses the same design in every export market", correct: false }
+        - { text: "The information is accurate, compliant and not misleading", correct: true }
+        - { text: "Only the producer’s brand name can be verified", correct: false }
       explanation: |
-        The **bottler / brand owner** owns the truth of the label: vintage,
-        variety, place. Fraud starts when that contract breaks.
+        A wine label is a set of claims to consumers and regulators. Responsibility varies with the
+        supply chain and jurisdiction, but mandatory particulars and voluntary statements must
+        comply with the applicable rules and must not mislead.
+    fr:
+      question: "Que doit garantir l’entreprise responsable de la commercialisation d’un vin au sujet de son étiquette ?"
+      choices:
+        - { text: "Chaque mention facultative figure dans les caractères les plus grands", correct: false }
+        - { text: "L’étiquette conserve le même graphisme sur tous les marchés d’exportation", correct: false }
+        - { text: "Les informations sont exactes, conformes et non trompeuses", correct: true }
+        - { text: "Seul le nom de marque du producteur peut être vérifié", correct: false }
+      explanation: |
+        Une étiquette de vin rassemble des affirmations destinées aux consommateurs et aux
+        autorités. La responsabilité varie selon le circuit commercial et la juridiction, mais les
+        mentions obligatoires comme facultatives doivent respecter les règles applicables et ne pas
+        induire en erreur.
 
   - id: law-label-checkable-001
     type: mcq
@@ -133,15 +207,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What does that accuracy duty force onto the wording of a label?
+      question: "Why must regulated wine-label claims be clear and verifiable?"
       choices:
-        - { text: "It can be vague poetry that nobody can test", correct: false }
-        - { text: "The information must be clear and checkable", correct: true }
-        - { text: "Only a painting, never words", correct: false }
-        - { text: "A different vintage on every bottle in the case", correct: false }
+        - { text: "So compliance can be checked against records and the wine itself", correct: true }
+        - { text: "So every producer is forced to use identical branding", correct: false }
+        - { text: "So subjective marketing language becomes a legal guarantee of quality", correct: false }
+        - { text: "So the same claim can mean something different in every market", correct: false }
       explanation: |
-        Inspectors need a **testable claim**: 85% from X, vintage Y. A mood
-        board is not a GI.
+        Claims such as origin, vintage, grape variety or alcohol level must have a defined meaning
+        and supporting evidence. Traceability and analysis allow authorities to test whether the
+        label matches the product.
+    fr:
+      question: "Pourquoi les mentions réglementées d’une étiquette de vin doivent-elles être claires et vérifiables ?"
+      choices:
+        - { text: "Pour contrôler leur conformité à partir des registres et du vin lui-même", correct: true }
+        - { text: "Pour obliger tous les producteurs à employer la même identité graphique", correct: false }
+        - { text: "Pour transformer tout argument publicitaire subjectif en garantie légale de qualité", correct: false }
+        - { text: "Pour qu’une même mention puisse changer de sens sur chaque marché", correct: false }
+      explanation: |
+        Les mentions d’origine, de millésime, de cépage ou de degré d’alcool doivent posséder un
+        sens défini et être étayées. La traçabilité et les analyses permettent aux autorités de
+        vérifier que l’étiquette correspond bien au produit.
 
   - id: law-gi-and-style-001
     type: mcq
@@ -153,15 +239,28 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which two label ideas matter most for integrity?
+      question: "Which pair contains two types of wine-label information commonly protected by law?"
       choices:
-        - { text: "Font and foil colour only", correct: false }
-        - { text: "Geographical indications, and legally defined quality or style words", correct: true }
-        - { text: "The winemaker’s favourite song", correct: false }
-        - { text: "A ban on any place name", correct: false }
+        - { text: "Bottle weight and capsule colour", correct: false }
+        - { text: "Retail price and critic score", correct: false }
+        - { text: "Brand typography and serving temperature", correct: false }
+        - { text: "Geographical origins and regulated traditional terms", correct: true }
       explanation: |
-        **Chablis** and **Gran Reserva** are protected strings. They are why
-        GI and style terms sit at the centre of wine law.
+        Names such as Chablis identify protected origins, while regulated terms can describe a
+        recognised production or ageing method, quality, colour or historical type. Their conditions
+        of use are legal claims, not free-form promotion.
+    fr:
+      question: "Quelle paire réunit deux types d’informations souvent protégés par la législation viticole ?"
+      choices:
+        - { text: "Le poids de la bouteille et la couleur de la capsule", correct: false }
+        - { text: "Le prix de détail et la note d’un critique", correct: false }
+        - { text: "La typographie de la marque et la température de service", correct: false }
+        - { text: "Les origines géographiques et les mentions traditionnelles réglementées", correct: true }
+      explanation: |
+        Des noms comme Chablis identifient des origines protégées, tandis que les mentions
+        réglementées peuvent désigner une méthode reconnue de production ou d’élevage, une qualité,
+        une couleur ou un type historique. Leurs conditions d’emploi constituent des règles
+        juridiques, pas une promotion libre.
 
   - id: law-why-gi-001
     type: mcq
@@ -173,15 +272,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Why do place names show up so often on wine labels?
+      question: "What is the essential idea behind protecting a wine geographical indication?"
       choices:
-        - { text: "Where the grapes grew can shape style and quality", correct: true }
-        - { text: "Place has no effect on wine at all", correct: false }
-        - { text: "GIs are only a tax on empty bottles", correct: false }
-        - { text: "The WTO bans all geography on labels", correct: false }
+        - { text: "It guarantees that every wine from the place has the same quality", correct: false }
+        - { text: "It ranks all producers within the region from best to worst", correct: false }
+        - { text: "It links a protected origin to qualities, reputation or characteristics of the wine", correct: true }
+        - { text: "It converts the place name into one company’s private trade mark", correct: false }
       explanation: |
-        **Origin** is a shortcut for climate, grape and method. That is worth
-        protecting — and worth faking, which is why the law exists.
+        A GI tells consumers that a product comes from a defined origin and has a recognised
+        connection to it. Protection prevents producers outside the rules from exploiting the name
+        and the reputation built around it.
+    fr:
+      question: "Quelle idée essentielle justifie la protection d’une indication géographique viticole ?"
+      choices:
+        - { text: "Elle garantit une qualité identique pour tous les vins du lieu", correct: false }
+        - { text: "Elle classe tous les producteurs de la région du meilleur au moins bon", correct: false }
+        - { text: "Elle relie une origine protégée aux qualités, à la réputation ou aux caractéristiques du vin", correct: true }
+        - { text: "Elle transforme le nom du lieu en marque privée d’une seule entreprise", correct: false }
+      explanation: |
+        Une indication géographique signale qu’un produit vient d’une origine délimitée et possède
+        un lien reconnu avec celle-ci. Sa protection empêche les producteurs qui n’en respectent pas
+        les règles de profiter du nom et de la réputation qui lui est associée.
 
   - id: law-gi-define-001
     type: mcq
@@ -193,15 +304,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: In plain language, what is a GI?
+      question: "Which description best defines a geographical indication for wine?"
       choices:
-        - { text: "A yeast strain patented in one cellar", correct: false }
-        - { text: "A named vineyard area inside a country", correct: true }
-        - { text: "A tax code for corks", correct: false }
-        - { text: "A tasting note category", correct: false }
+        - { text: "A private brand name registered by one wine company", correct: false }
+        - { text: "A protected name identifying origin and an attributable quality, reputation or characteristic", correct: true }
+        - { text: "A vineyard ownership map with no connection to the finished wine", correct: false }
+        - { text: "A production method that carries no requirement concerning origin", correct: false }
       explanation: |
-        A **geographical indication** is a **map with a name**: Bordeaux, Napa
-        Valley, La Romanée. Not a recipe and not a brand.
+        A GI may refer to a region, specific place or, exceptionally, a country. The protected name
+        identifies wine whose quality, reputation or another characteristic is attributable to that
+        geographical origin.
+    fr:
+      question: "Quelle description définit le mieux une indication géographique viticole ?"
+      choices:
+        - { text: "Un nom de marque privé déposé par une seule entreprise viticole", correct: false }
+        - { text: "Un nom protégé qui identifie une origine et une qualité, réputation ou caractéristique attribuable", correct: true }
+        - { text: "Un plan de propriété des vignes sans lien avec le vin terminé", correct: false }
+        - { text: "Une méthode de production dépourvue de toute exigence d’origine", correct: false }
+      explanation: |
+        Une indication géographique peut désigner une région, un lieu précis ou, exceptionnellement,
+        un pays. Le nom protégé identifie un vin dont la qualité, la réputation ou une autre
+        caractéristique est attribuable à cette origine géographique.
 
   - id: law-gi-size-001
     type: mcq
@@ -213,15 +336,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: How large can a GI be?
+      question: "How much can the geographical scale of a wine GI vary?"
       choices:
-        - { text: "Always exactly 100 hectares", correct: false }
-        - { text: "From a whole region such as Bordeaux to a single vineyard such as La Romanée", correct: true }
-        - { text: "Always an entire continent", correct: false }
-        - { text: "GIs may not name a place smaller than a country", correct: false }
+        - { text: "It must always cover an entire country", correct: false }
+        - { text: "It must always match one administrative commune", correct: false }
+        - { text: "It can range from a broad region to a single-vineyard appellation", correct: true }
+        - { text: "It cannot protect an area smaller than 100 hectares", correct: false }
       explanation: |
-        **Bordeaux AOC** is a sea of vines; **La Romanée** is a closet. Both
-        are GIs. Size is not the definition.
+        Geographical scale is not what defines a GI. Bordeaux covers a vast regional area, while La
+        Romanée is a tiny single-vineyard appellation; both are protected origins with their own
+        specifications.
+    fr:
+      question: "Dans quelle mesure l’échelle géographique d’une indication géographique viticole peut-elle varier ?"
+      choices:
+        - { text: "Elle doit toujours couvrir un pays entier", correct: false }
+        - { text: "Elle doit toujours correspondre à une commune administrative", correct: false }
+        - { text: "Elle peut aller d’une vaste région jusqu’à une appellation limitée à un seul vignoble", correct: true }
+        - { text: "Elle ne peut pas protéger une aire inférieure à 100 hectares", correct: false }
+      explanation: |
+        Ce n’est pas l’échelle qui définit une indication géographique. Bordeaux couvre une vaste
+        aire régionale, tandis que La Romanée est une minuscule appellation limitée à un seul
+        vignoble ; les deux sont des origines protégées dotées de leur propre cahier des charges.
 
   - id: law-fraud-premium-001
     type: mcq
@@ -233,16 +368,28 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What extra risk sits on wines that sell for a fortune?
+      question: "Why are rare, expensive wines especially attractive targets for fraud?"
       choices:
-        - { text: "They cannot legally be faked", correct: false }
-        - { text: "Fraud — the name is worth stealing", correct: true }
-        - { text: "They are exempt from all labelling law", correct: false }
-        - { text: "Counterfeits only target water", correct: false }
+        - { text: "Their high market value can make counterfeiting highly profitable", correct: true }
+        - { text: "Premium wines are exempt from traceability and labelling controls", correct: false }
+        - { text: "Their appellations permit any producer to use the same identity", correct: false }
+        - { text: "Expensive bottles cannot be authenticated through records or analysis", correct: false }
       explanation: |
-        **Rudy Kurniawan** and fake DRC bottles are the grim anecdote: the
-        more the name is worth, the more someone will print it on the wrong
-        wine.
+        A prestigious name and scarce bottle can command far more than the liquid costs, creating a
+        strong incentive to falsify labels, refill bottles or misrepresent provenance. Traceability,
+        secure packaging and an auditable chain of custody help reduce that risk.
+    fr:
+      question: "Pourquoi les vins rares et chers constituent-ils des cibles particulièrement attrayantes pour la fraude ?"
+      choices:
+        - { text: "Leur forte valeur marchande peut rendre la contrefaçon très rentable", correct: true }
+        - { text: "Les vins haut de gamme sont exemptés des contrôles de traçabilité et d’étiquetage", correct: false }
+        - { text: "Leurs appellations permettent à tout producteur d’employer la même identité", correct: false }
+        - { text: "Les bouteilles chères ne peuvent être authentifiées par des registres ou des analyses", correct: false }
+      explanation: |
+        Un nom prestigieux et une bouteille rare peuvent valoir bien davantage que le liquide, ce
+        qui incite à falsifier les étiquettes, remplir d’anciennes bouteilles ou mentir sur la
+        provenance. La traçabilité, les conditionnements sécurisés et une chaîne de possession
+        vérifiable réduisent ce risque.
 
   - id: law-gi-multi-jurisdiction-001
     type: mcq
@@ -254,16 +401,28 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Why does GI law get messy so fast?
+      question: "Why can cross-border wine production and trade complicate GI compliance?"
       choices:
-        - { text: "Only one country ever makes or sells wine", correct: false }
-        - { text: "Grapes, bottling and sale can sit under more than one country’s rules", correct: true }
-        - { text: "GIs are unwritten and never enforced", correct: false }
-        - { text: "The WTO banned all place names", correct: false }
+        - { text: "The bottling country automatically replaces every rule of origin", correct: false }
+        - { text: "TRIPS provides one detailed production code used unchanged worldwide", correct: false }
+        - { text: "Only the law of the final retail market can apply to a GI claim", correct: false }
+        - { text: "Origin, processing, bottling and sale may fall under different legal systems", correct: true }
       explanation: |
-        Bulk Chilean wine bottled in the UK, or a US brand using a French
-        word, crosses **two legal systems**. That is why a single local AOC
-        text is not enough.
+        A wine may originate in one country, be shipped in bulk, bottled elsewhere and sold in
+        several markets. International agreements set a framework, but producers must still satisfy
+        the relevant origin protection, production and labelling rules in each jurisdiction.
+    fr:
+      question: "Pourquoi la production et le commerce transfrontaliers peuvent-ils compliquer le respect des indications géographiques ?"
+      choices:
+        - { text: "Le pays de mise en bouteille remplace automatiquement toutes les règles d’origine", correct: false }
+        - { text: "L’accord sur les ADPIC fournit un code de production détaillé et identique partout", correct: false }
+        - { text: "Seul le droit du marché de détail final peut s’appliquer à une mention d’origine", correct: false }
+        - { text: "L’origine, la transformation, la mise en bouteille et la vente peuvent relever de droits différents", correct: true }
+      explanation: |
+        Un vin peut provenir d’un pays, être expédié en vrac, mis en bouteille ailleurs puis vendu
+        sur plusieurs marchés. Les accords internationaux établissent un cadre, mais le producteur
+        doit encore respecter les règles applicables de protection de l’origine, de production et
+        d’étiquetage dans chaque juridiction.
 
   - id: law-wto-gi-001
     type: mcq
@@ -275,15 +434,28 @@ cards:
       fact_check: pass
       sources: [spec]
     en:
-      question: What shared GI frame do the big producing countries work under?
+      question: "Which WTO agreement provides the international baseline for protecting geographical indications?"
       choices:
-        - { text: "A private tasting club with no legal force", correct: false }
-        - { text: "The WTO’s GI system (TRIPS), which they have signed up to", correct: true }
-        - { text: "Only municipal parking rules", correct: false }
-        - { text: "A ban on any international agreement", correct: false }
+        - { text: "The Common Agricultural Policy", correct: false }
+        - { text: "The Codex Alimentarius wine standard", correct: false }
+        - { text: "The TRIPS Agreement", correct: true }
+        - { text: "The EU wine-market rules", correct: false }
       explanation: |
-        **TRIPS** at the **WTO** is the treaty that makes “Champagne” more
-        than a French hobby-horse. Members agree to respect each other’s GIs.
+        TRIPS defines GIs and requires WTO members to provide legal means to protect them. It gives
+        wines and spirits enhanced protection, but leaves members flexibility over the legal
+        mechanism and does not create one worldwide wine rulebook.
+    fr:
+      question: "Quel accord de l’OMC fournit le socle international de protection des indications géographiques ?"
+      choices:
+        - { text: "La politique agricole commune", correct: false }
+        - { text: "La norme viticole du Codex Alimentarius", correct: false }
+        - { text: "L’accord sur les ADPIC", correct: true }
+        - { text: "Les seules règles viticoles de l’Union européenne", correct: false }
+      explanation: |
+        L’accord sur les ADPIC définit les indications géographiques et oblige les membres de l’OMC
+        à prévoir des moyens juridiques pour les protéger. Il accorde une protection renforcée aux
+        vins et spiritueux, mais laisse le choix du mécanisme juridique et ne crée pas un cahier des
+        charges viticole mondial.
 
   - id: law-australia-chablis-001
     type: mcq
@@ -295,16 +467,28 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which labelling change is the usual example of those WTO GI deals?
+      question: "Which Australian labelling change illustrates international protection of European wine GIs?"
       choices:
-        - { text: "Australia may still call any white wine Chablis", correct: false }
-        - { text: "Australians dropped EU names such as Chablis from their wines", correct: true }
-        - { text: "The EU must now call all white wine Hunter Chardonnay", correct: false }
-        - { text: "GIs were abolished worldwide in 1995", correct: false }
+        - { text: "European names may be used freely if followed by the word ‘style’", correct: false }
+        - { text: "Names such as Chablis and Burgundy were phased out as generic Australian wine terms", correct: true }
+        - { text: "European GIs are restricted only on Australian wines exported to Europe", correct: false }
+        - { text: "All Australian regional names were replaced by European appellations", correct: false }
       explanation: |
-        The **1994 EU–Australia** wine deal (and later WTO pressure) retired
-        **Chablis, Burgundy, Champagne** as Australian generic words. Hunter
-        and Adelaide Hills took their place.
+        Australia–EU wine agreements required European regional names including Chablis, Burgundy
+        and Champagne to be protected rather than used generically on Australian wine. Some other
+        terms received longer transitional arrangements.
+    fr:
+      question: "Quel changement d’étiquetage australien illustre la protection internationale des indications géographiques viticoles européennes ?"
+      choices:
+        - { text: "Les noms européens restent libres d’emploi s’ils sont suivis du mot « style »", correct: false }
+        - { text: "Des noms comme Chablis et Burgundy ont cessé d’être des termes génériques pour les vins australiens", correct: true }
+        - { text: "Les indications européennes sont restreintes uniquement sur les vins australiens exportés vers l’Europe", correct: false }
+        - { text: "Tous les noms de régions australiennes ont été remplacés par des appellations européennes", correct: false }
+      explanation: |
+        Les accords viticoles entre l’Australie et l’Union européenne ont imposé la protection de
+        noms régionaux européens comme Chablis, Burgundy ou Champagne au lieu de leur emploi
+        générique sur des vins australiens. D’autres termes ont bénéficié de périodes de transition
+        plus longues.
 
   - id: law-gi-85-001
     type: mcq
@@ -316,15 +500,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: If a label states a GI, how much of the wine usually has to come from there?
+      question: "Which statement about the ‘85% from the named area’ rule is accurate?"
       choices:
-        - { text: "Always 1%, worldwide", correct: false }
-        - { text: "Often about 85% — but that figure is not a single world standard", correct: true }
-        - { text: "Always 100% for every PGI and AVA alike", correct: false }
-        - { text: "GIs never require any local grapes", correct: false }
+        - { text: "It is a universal percentage imposed on every GI by the WTO", correct: false }
+        - { text: "It applies only to European PDO wines", correct: false }
+        - { text: "It is common in several systems, but the applicable jurisdiction must be checked", correct: true }
+        - { text: "It permits every GI wine to source the remaining 85% from anywhere", correct: false }
       explanation: |
-        **85%** is the usual WTO / New World floor. The EU **PDO** is tighter
-        (all the grapes). Treat 85% as a habit, not a universal law.
+        At least 85% origin is used for EU PGI wines, US wines labelled with an AVA and Australian
+        wines labelled with a single GI. It is not a single WTO rule: other categories, including EU
+        PDO, impose different requirements.
+    fr:
+      question: "Quelle affirmation concernant la règle des « 85 % provenant de l’aire indiquée » est exacte ?"
+      choices:
+        - { text: "Il s’agit d’un pourcentage universel imposé à toutes les IG par l’OMC", correct: false }
+        - { text: "Elle s’applique uniquement aux vins européens AOP", correct: false }
+        - { text: "Elle existe dans plusieurs systèmes, mais il faut vérifier le droit applicable", correct: true }
+        - { text: "Elle permet à tout vin sous IG de prendre les 85 % restants n’importe où", correct: false }
+      explanation: |
+        Un minimum de 85 % s’applique aux vins européens IGP, aux vins américains portant une AVA et
+        aux vins australiens portant une seule IG. Il ne s’agit pas d’une règle unique de l’OMC :
+        d’autres catégories, dont l’AOP européenne, imposent des exigences différentes.
 
   - id: law-pdo-100-001
     type: mcq
@@ -336,15 +532,27 @@ cards:
       fact_check: pass
       sources: [spec]
     en:
-      question: How does an EU PDO treat the origin of the grapes?
+      question: "What grape-origin requirement applies to an EU wine with a PDO?"
       choices:
-        - { text: "Half the fruit may come from another continent", correct: false }
-        - { text: "All of the grapes must come from the named area", correct: true }
-        - { text: "No grapes are required at all", correct: false }
-        - { text: "PDO is only a tax, never a map", correct: false }
+        - { text: "At least 50% of the grapes must come from the named area", correct: false }
+        - { text: "At least 85% of the grapes must come from the named area", correct: false }
+        - { text: "The wine may use grapes from anywhere if it is bottled in the area", correct: false }
+        - { text: "All the grapes must come from the named area", correct: true }
       explanation: |
-        **PDO = 100% from the place**. That is the fraud-prevention bite the
-        inbox was aiming at, and it is stricter than a typical AVA or PGI.
+        For an EU wine PDO, the grapes must come exclusively from the defined geographical area and
+        production must take place there. This is stricter than the minimum 85% grape-origin rule
+        for an EU wine PGI.
+    fr:
+      question: "Quelle exigence d’origine des raisins s’applique à un vin européen sous AOP ?"
+      choices:
+        - { text: "Au moins 50 % des raisins doivent venir de l’aire indiquée", correct: false }
+        - { text: "Au moins 85 % des raisins doivent venir de l’aire indiquée", correct: false }
+        - { text: "Les raisins peuvent venir de partout si le vin est mis en bouteille dans l’aire", correct: false }
+        - { text: "Tous les raisins doivent venir de l’aire indiquée", correct: true }
+      explanation: |
+        Pour un vin européen sous AOP, les raisins doivent provenir exclusivement de l’aire
+        géographique délimitée et la production doit s’y dérouler. Cette règle est plus stricte que
+        le minimum de 85 % applicable à l’origine des raisins d’un vin européen sous IGP.
 
   - id: law-eu-two-tiers-001
     type: mcq
@@ -356,15 +564,27 @@ cards:
       fact_check: pass
       sources: [spec]
     en:
-      question: How many GI quality rungs does the EU use, and what are they?
+      question: "Which two EU categories protect geographical names for wine?"
       choices:
-        - { text: "One — Vin de France only", correct: false }
-        - { text: "Two — PDO and PGI", correct: true }
-        - { text: "Five Prädikat steps only", correct: false }
-        - { text: "None — the EU banned GIs", correct: false }
+        - { text: "PDO and PGI", correct: true }
+        - { text: "AOC and Vin de France", correct: false }
+        - { text: "DOCG and IGT", correct: false }
+        - { text: "AVA and GI", correct: false }
       explanation: |
-        **PDO** and **PGI** are the two boxes. Vin de France sits **outside**
-        the GI pair.
+        Protected Designation of Origin (PDO) and Protected Geographical Indication (PGI) are the
+        two EU wine GI categories. National terms such as AOC, DOC or IGT map onto that framework,
+        while wine without a GI sits outside both categories.
+    fr:
+      question: "Quelles sont les deux catégories européennes qui protègent les noms géographiques des vins ?"
+      choices:
+        - { text: "AOP et IGP", correct: true }
+        - { text: "AOC et Vin de France", correct: false }
+        - { text: "DOCG et IGT", correct: false }
+        - { text: "AVA et IG", correct: false }
+      explanation: |
+        L’appellation d’origine protégée (AOP) et l’indication géographique protégée (IGP) sont les
+        deux catégories européennes d’IG viticoles. Des termes nationaux comme AOC, DOC ou IGT
+        s’inscrivent dans ce cadre, tandis que les vins sans IG restent hors de ces deux catégories.
 
   - id: law-pdo-vs-pgi-001
     type: mcq
@@ -376,15 +596,28 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Broadly, how does a PDO differ from a PGI?
+      question: "Which grape-origin rule correctly distinguishes an EU wine PDO from an EU wine PGI?"
       choices:
-        - { text: "PDOs are always larger and have no rules", correct: false }
-        - { text: "PDOs are smaller maps with tighter production rules", correct: true }
-        - { text: "PGIs require 100% local grapes and PDOs require 50%", correct: false }
-        - { text: "They are identical words", correct: false }
+        - { text: "PDO requires at least 85% local grapes; PGI requires all grapes to be local", correct: false }
+        - { text: "PDO requires all grapes to be local; PGI requires at least 85%", correct: true }
+        - { text: "Both categories require at least 85% local grapes", correct: false }
+        - { text: "Both categories require all grapes to be local", correct: false }
       explanation: |
-        **Chablis** (PDO) is a tight script; **Pays d’Oc** (PGI) is a wide
-        canvas. Size and rulebook both shrink as you climb toward PDO.
+        The PDO category requires an especially strong link to the geographical environment and
+        exclusively local grapes. A PGI needs a quality, reputation or characteristic attributable
+        to the origin and permits up to 15% of grapes from outside the named area.
+    fr:
+      question: "Quelle règle d’origine des raisins distingue correctement un vin européen AOP d’un vin européen IGP ?"
+      choices:
+        - { text: "L’AOP exige au moins 85 % de raisins locaux ; l’IGP les exige tous", correct: false }
+        - { text: "L’AOP exige tous les raisins locaux ; l’IGP en exige au moins 85 %", correct: true }
+        - { text: "Les deux catégories exigent au moins 85 % de raisins locaux", correct: false }
+        - { text: "Les deux catégories exigent tous les raisins locaux", correct: false }
+      explanation: |
+        L’AOP exige un lien particulièrement fort avec le milieu géographique et des raisins
+        provenant exclusivement de l’aire. L’IGP exige une qualité, une réputation ou une
+        caractéristique attribuable à l’origine et permet jusqu’à 15 % de raisins venus de
+        l’extérieur.
 
   - id: law-france-ac-001
     type: mcq
@@ -396,15 +629,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which letters still stand in for PDO on most French bottles?
+      question: "Which statement correctly relates AOC and AOP for French wine?"
       choices:
-        - { text: "IGT", correct: false }
-        - { text: "AC / AOC — appellation d'origine contrôlée", correct: true }
-        - { text: "AVA", correct: false }
-        - { text: "QbA", correct: false }
+        - { text: "AOC is the traditional French designation corresponding to EU AOP status", correct: true }
+        - { text: "AOC is the French IGP tier, while AOP has no geographical link", correct: false }
+        - { text: "AOC is an annual tasting award, while AOP is a producer ranking", correct: false }
+        - { text: "AOP applies only to spirits, while AOC applies only to wine", correct: false }
       explanation: |
-        **AOC** (sometimes AC) is the everyday French PDO word. AOP is the EU
-        synonym; it has not won the label.
+        AOP is the French form of the EU term PDO, while AOC is the historic French designation that
+        wine producers may still place on labels. An AOC wine is protected at EU level through its
+        corresponding AOP registration.
+    fr:
+      question: "Quelle proposition décrit correctement le rapport entre AOC et AOP pour un vin français ?"
+      choices:
+        - { text: "AOC est la désignation française traditionnelle correspondant au statut européen AOP", correct: true }
+        - { text: "AOC est la catégorie française IGP, tandis que l’AOP n’a pas de lien géographique", correct: false }
+        - { text: "AOC est une médaille annuelle de dégustation, tandis qu’AOP classe les producteurs", correct: false }
+        - { text: "AOP s’applique uniquement aux spiritueux et AOC uniquement aux vins", correct: false }
+      explanation: |
+        AOP est la forme française du terme européen PDO, tandis qu’AOC est la désignation française
+        historique que les producteurs de vin peuvent encore faire figurer sur l’étiquette. Un vin
+        AOC est protégé au niveau européen par son enregistrement correspondant en AOP.
 
   - id: law-france-aop-001
     type: mcq
@@ -416,15 +661,26 @@ cards:
       fact_check: pass
       sources: [spec]
     en:
-      question: What is the official French EU term for PDO?
+      question: "What is the French form of the EU term Protected Designation of Origin (PDO)?"
       choices:
-        - { text: "Vin de France", correct: false }
-        - { text: "Appellation d'origine protégée (AOP)", correct: true }
-        - { text: "DOCG", correct: false }
-        - { text: "Ward", correct: false }
+        - { text: "Appellation d’origine protégée (AOP)", correct: true }
+        - { text: "Indication géographique protégée (IGP)", correct: false }
+        - { text: "Vin de France without a geographical indication", correct: false }
+        - { text: "Appellation d’origine contrôlée (AOC) exclusively", correct: false }
       explanation: |
-        **AOP** is PDO in French. You still see **AOC** more often on the
-        neck. Same legal box, two spellings.
+        AOP is the direct French translation of PDO. AOC is the older French national designation
+        corresponding to AOP status for wine and remains permitted on French wine labels.
+    fr:
+      question: "Quelle est la forme française du terme européen Protected Designation of Origin (PDO) ?"
+      choices:
+        - { text: "Appellation d’origine protégée (AOP)", correct: true }
+        - { text: "Indication géographique protégée (IGP)", correct: false }
+        - { text: "Vin de France sans indication géographique", correct: false }
+        - { text: "Appellation d’origine contrôlée (AOC) exclusivement", correct: false }
+      explanation: |
+        AOP est la traduction française directe de PDO. AOC est l’ancienne désignation nationale
+        française correspondant au statut AOP pour le vin et reste autorisée sur les étiquettes de
+        vins français.
 
   - id: law-france-igp-vdp-001
     type: mcq
@@ -436,15 +692,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What is replacing Vin de Pays on French PGI labels?
+      question: "Which modern EU category covers French wines historically labelled Vin de Pays?"
       choices:
-        - { text: "Grand Cru Classé", correct: false }
-        - { text: "IGP (indication géographique protégée)", correct: true }
-        - { text: "DOCG", correct: false }
-        - { text: "A ban on any geography", correct: false }
+        - { text: "Appellation d’origine protégée (AOP)", correct: false }
+        - { text: "Vin de France without a GI", correct: false }
+        - { text: "Indication géographique protégée (IGP)", correct: true }
+        - { text: "Spécialité traditionnelle garantie (STG)", correct: false }
       explanation: |
-        **IGP** is the EU PGI name. **Vin de Pays** still appears beside it
-        (Pays d’Oc) but IGP is the modern line.
+        The former Vin de Pays category became part of the EU PGI framework, called IGP in French.
+        French rules can still permit the traditional expression vin de pays alongside or instead of
+        the IGP indication.
+    fr:
+      question: "Quelle catégorie européenne moderne couvre les vins français historiquement étiquetés Vin de Pays ?"
+      choices:
+        - { text: "Appellation d’origine protégée (AOP)", correct: false }
+        - { text: "Vin de France sans indication géographique", correct: false }
+        - { text: "Indication géographique protégée (IGP)", correct: true }
+        - { text: "Spécialité traditionnelle garantie (STG)", correct: false }
+      explanation: |
+        L’ancienne catégorie Vin de Pays a intégré le cadre européen des PGI, appelé IGP en
+        français. La réglementation française peut encore autoriser la mention traditionnelle vin de
+        pays à côté de l’indication IGP ou à sa place.
 
   - id: law-eu-gi-methods-001
     type: mcq
@@ -456,15 +724,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What extra do European GIs usually police, beyond a map?
+      question: "What does an EU wine GI product specification regulate in addition to geographical origin?"
       choices:
-        - { text: "Only the colour of the truck that hauls the grapes", correct: false }
-        - { text: "Which grapes may be grown and how they may be grown and made", correct: true }
-        - { text: "A ban on naming any grape", correct: false }
-        - { text: "Nothing — EU GIs are place names with no rulebook", correct: false }
+        - { text: "Only the producer’s bottle design and retail price", correct: false }
+        - { text: "Permitted varieties, yields and relevant viticultural or winemaking practices", correct: true }
+        - { text: "Only the critic scores required before release", correct: false }
+        - { text: "The same grape blend and ageing period for every EU GI", correct: false }
       explanation: |
-        An EU PDO/PGI is a **recipe plus a map**: varieties, yields, sometimes
-        ageing. A US AVA is mostly the map.
+        Each PDO or PGI has its own product specification. Depending on the wine, it can define
+        permitted varieties, maximum yields, wine styles, analytical limits and specific growing,
+        production or ageing requirements.
+    fr:
+      question: "Que réglemente le cahier des charges d’une IG viticole européenne en plus de l’origine géographique ?"
+      choices:
+        - { text: "Uniquement le graphisme de la bouteille et le prix de détail", correct: false }
+        - { text: "Les cépages, les rendements et les pratiques viticoles ou œnologiques pertinentes", correct: true }
+        - { text: "Uniquement les notes de critiques exigées avant la mise en vente", correct: false }
+        - { text: "Le même assemblage et la même durée d’élevage pour toutes les IG européennes", correct: false }
+      explanation: |
+        Chaque AOP ou IGP possède son propre cahier des charges. Selon le vin, il peut définir les
+        cépages, les rendements maximaux, les styles, les limites analytiques ainsi que des
+        exigences particulières de culture, de production ou d’élevage.
 
   - id: law-eu-identity-001
     type: mcq
@@ -476,16 +756,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What is that European rulebook trying to protect in theory?
+      question: "Why do EU wine GI specifications regulate varieties and production practices?"
       choices:
-        - { text: "A right to plant any grape, anywhere, at any yield", correct: false }
-        - { text: "The local identity of wines that made the region’s name", correct: true }
-        - { text: "A single global flavour for all PDO wine", correct: false }
-        - { text: "The abolition of place names", correct: false }
+        - { text: "To preserve the recognised link between the wine and its geographical origin", correct: true }
+        - { text: "To ensure every PDO and PGI tastes identical across Europe", correct: false }
+        - { text: "To prevent producers from improving a product specification over time", correct: false }
+        - { text: "To replace independent compliance checks with producer advertising", correct: false }
       explanation: |
-        Lock the grapes and methods that **built the reputation**, so Chablis
-        still tastes like Chablis. That is the theory; critics say it also
-        freezes change.
+        The specification records the factors considered important to the wine’s identity and
+        connection with its place. It can be amended through a formal process, but producers cannot
+        ignore it and still use the protected name.
+    fr:
+      question: "Pourquoi les cahiers des charges des IG viticoles européennes réglementent-ils les cépages et les pratiques de production ?"
+      choices:
+        - { text: "Pour préserver le lien reconnu entre le vin et son origine géographique", correct: true }
+        - { text: "Pour donner un goût identique à toutes les AOP et IGP d’Europe", correct: false }
+        - { text: "Pour empêcher toute amélioration future d’un cahier des charges", correct: false }
+        - { text: "Pour remplacer les contrôles indépendants par la publicité des producteurs", correct: false }
+      explanation: |
+        Le cahier des charges consigne les facteurs jugés importants pour l’identité du vin et son
+        lien avec le lieu. Il peut être modifié selon une procédure officielle, mais un producteur
+        ne peut l’ignorer tout en employant le nom protégé.
 
   - id: law-eu-gi-aims-001
     type: mcq
@@ -497,15 +788,28 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What two jobs is the European GI system meant to do?
+      question: "Which pair best describes two central functions of the EU wine GI system?"
       choices:
-        - { text: "Only to raise alcohol in every wine", correct: false }
-        - { text: "Support quality and make fraud harder", correct: true }
-        - { text: "Ban all place names", correct: false }
-        - { text: "Set a single EU retail price", correct: false }
+        - { text: "Setting retail prices and ranking every producer", correct: false }
+        - { text: "Guaranteeing identical quality and eliminating vintage variation", correct: false }
+        - { text: "Protecting registered names and assuring compliance with their specifications", correct: true }
+        - { text: "Banning grape varieties and preventing international trade", correct: false }
       explanation: |
-        A named map plus a rulebook is supposed to **keep quality honest** and
-        stop someone selling Languedoc as Chablis.
+        The system protects registered geographical names against misuse and gives consumers an
+        independently controlled origin claim. Compliance with the product specification supports
+        authenticity; it does not guarantee that every bottle has the same quality.
+    fr:
+      question: "Quelle paire décrit le mieux deux fonctions centrales du système européen des IG viticoles ?"
+      choices:
+        - { text: "Fixer les prix de détail et classer tous les producteurs", correct: false }
+        - { text: "Garantir une qualité identique et supprimer les variations de millésime", correct: false }
+        - { text: "Protéger les noms enregistrés et garantir le respect de leurs cahiers des charges", correct: true }
+        - { text: "Interdire les cépages et empêcher le commerce international", correct: false }
+      explanation: |
+        Le système protège les noms géographiques enregistrés contre les usages abusifs et fournit
+        au consommateur une origine contrôlée de manière indépendante. Le respect du cahier des
+        charges soutient l’authenticité ; il ne garantit pas une qualité identique pour toutes les
+        bouteilles.
 
   - id: law-pdo-100-fraud-001
     type: mcq
@@ -517,16 +821,27 @@ cards:
       fact_check: pass
       sources: [spec]
     en:
-      question: How does PDO law tighten that anti-fraud idea?
+      question: "Why would a wine made with 90% grapes from a PDO area and 10% from outside fail the EU PDO origin rule?"
       choices:
-        - { text: "Half the fruit may be imported in bond", correct: false }
-        - { text: "Every grape must come from the stated GI", correct: true }
-        - { text: "PDOs may list any continent", correct: false }
-        - { text: "PDO wines need no grapes at all", correct: false }
+        - { text: "A PDO permits outside grapes only when they are the same variety", correct: false }
+        - { text: "A PDO requires the grapes to come exclusively from the defined area", correct: true }
+        - { text: "A PDO allows outside grapes only when the wine is bottled locally", correct: false }
+        - { text: "A PDO requires 85% local grapes and 15% from another Member State", correct: false }
       explanation: |
-        **100% local fruit** is the hard PDO line — no topping-up with a
-        cheaper neighbour. PGI and many New World GIs allow a slice from
-        outside.
+        EU wine PDO status requires 100% of the grapes to originate within the defined area. A 90%
+        local blend may meet the origin percentage of a PGI, subject to its specification, but it
+        cannot carry the PDO name.
+    fr:
+      question: "Pourquoi un vin composé de 90 % de raisins d’une aire AOP et de 10 % de raisins extérieurs échoue-t-il à la règle d’origine de l’AOP européenne ?"
+      choices:
+        - { text: "Une AOP autorise les raisins extérieurs uniquement s’ils appartiennent au même cépage", correct: false }
+        - { text: "Une AOP exige que les raisins proviennent exclusivement de l’aire délimitée", correct: true }
+        - { text: "Une AOP autorise les raisins extérieurs uniquement si le vin est embouteillé localement", correct: false }
+        - { text: "Une AOP exige 85 % de raisins locaux et 15 % d’un autre État membre", correct: false }
+      explanation: |
+        Le statut d’AOP viticole européenne exige que 100 % des raisins proviennent de l’aire
+        délimitée. Un assemblage local à 90 % peut respecter le pourcentage d’origine d’une IGP,
+        sous réserve de son cahier des charges, mais il ne peut porter le nom de l’AOP.
 
   - id: law-pgi-why-001
     type: mcq
@@ -538,15 +853,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Why do many producers choose PGI instead of PDO?
+      question: "Why might a producer choose an EU wine PGI rather than a PDO?"
       choices:
-        - { text: "PGI forbids any named grape and any blend", correct: false }
-        - { text: "They can use non-traditional varieties and a looser production rulebook", correct: true }
-        - { text: "PGI always pays a higher tax than PDO", correct: false }
-        - { text: "PDO is illegal in France", correct: false }
+        - { text: "PGI automatically guarantees a higher selling price", correct: false }
+        - { text: "PGI permits the use of any protected PDO name on the label", correct: false }
+        - { text: "PGI removes all traceability and origin requirements", correct: false }
+        - { text: "Its specification may allow broader sourcing, varieties or production choices", correct: true }
       explanation: |
-        **Syrah in the Loire IGP**, **Cabernet in Pays d’Oc**, Super-Tuscan
-        **IGT** — the point is freedom the PDO would refuse.
+        A PGI still has a defined origin and product specification, but its rules are often less
+        restrictive than a PDO’s. That can suit innovative blends, international varieties or
+        production choices excluded by the local PDO.
+    fr:
+      question: "Pourquoi un producteur pourrait-il choisir une IGP viticole européenne plutôt qu’une AOP ?"
+      choices:
+        - { text: "L’IGP garantit automatiquement un prix de vente supérieur", correct: false }
+        - { text: "L’IGP autorise l’emploi de n’importe quel nom d’AOP sur l’étiquette", correct: false }
+        - { text: "L’IGP supprime toutes les obligations de traçabilité et d’origine", correct: false }
+        - { text: "Son cahier des charges peut autoriser un approvisionnement, des cépages ou des choix de production plus larges", correct: true }
+      explanation: |
+        Une IGP conserve une origine délimitée et un cahier des charges, mais ses règles sont
+        souvent moins restrictives que celles d’une AOP. Elle peut ainsi convenir à des assemblages
+        innovants, des cépages internationaux ou des choix de production exclus par l’AOP locale.
 
   - id: law-pgi-range-001
     type: mcq
@@ -558,15 +885,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What quality range do PGI wines actually cover?
+      question: "What does PGI status indicate about a wine’s quality level?"
       choices:
-        - { text: "Only the cheapest bulk, never a serious bottle", correct: false }
-        - { text: "From fine wines that sit outside a PDO box to high-volume inexpensive wine", correct: true }
-        - { text: "Only icewine", correct: false }
-        - { text: "Only fortified flor wines", correct: false }
+        - { text: "It is a legal origin category, not a fixed quality rank", correct: true }
+        - { text: "It identifies only the cheapest bulk wines in a region", correct: false }
+        - { text: "It guarantees a higher quality level than every PDO wine", correct: false }
+        - { text: "It is reserved exclusively for sweet and fortified wines", correct: false }
       explanation: |
-        **Sassicaia** started as vino da tavola / IGT; **Pays d’Oc** also
-        fills supermarket shelves. PGI is a legal box, not a quality score.
+        PGI wines range from inexpensive, high-volume brands to ambitious wines made outside a PDO
+        specification. The category protects an origin and its product rules; producer choices and
+        the individual wine determine quality.
+    fr:
+      question: "Qu’indique le statut IGP sur le niveau de qualité d’un vin ?"
+      choices:
+        - { text: "Il s’agit d’une catégorie juridique d’origine, pas d’un niveau de qualité fixe", correct: true }
+        - { text: "Il identifie uniquement les vins en vrac les moins chers d’une région", correct: false }
+        - { text: "Il garantit une qualité supérieure à celle de tous les vins AOP", correct: false }
+        - { text: "Il est réservé exclusivement aux vins doux et fortifiés", correct: false }
+      explanation: |
+        Les vins IGP vont des marques de grand volume peu coûteuses jusqu’à des vins ambitieux
+        élaborés hors du cahier des charges d’une AOP. La catégorie protège une origine et ses
+        règles de production ; les choix du producteur et le vin lui-même déterminent la qualité.
 
   - id: law-pgi-variety-label-001
     type: mcq
@@ -578,15 +917,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What do you usually see on a PGI label that a PDO often skips?
+      question: "Which statement best describes grape-variety labelling on many EU PGI wines?"
       choices:
-        - { text: "A ban on naming the grape", correct: false }
-        - { text: "The grape variety written out", correct: true }
-        - { text: "A mandatory first-growth ranking", correct: false }
-        - { text: "The word Premier Cru on every bottle", correct: false }
+        - { text: "Every PGI is legally required to name exactly one variety", correct: false }
+        - { text: "PDO wines are prohibited from mentioning any grape variety", correct: false }
+        - { text: "PGI labels often foreground variety, while many PDO wines foreground place", correct: true }
+        - { text: "A grape name replaces the registered PGI name on the label", correct: false }
       explanation: |
-        **Merlot Pays d’Oc** sells on the grape. A village Burgundy PDO often
-        sells on **place** and leaves Pinot off the front.
+        Varietal labelling is a commercial tendency, not the legal definition of PGI. Broad PGIs
+        often support recognisable varietal brands, whereas many famous PDOs are marketed
+        principally through their protected place name.
+    fr:
+      question: "Quelle affirmation décrit le mieux l’étiquetage du cépage sur de nombreux vins européens IGP ?"
+      choices:
+        - { text: "Toute IGP doit légalement mentionner un seul cépage", correct: false }
+        - { text: "Les vins AOP n’ont pas le droit de mentionner un cépage", correct: false }
+        - { text: "Les étiquettes IGP mettent souvent le cépage en avant, tandis que beaucoup d’AOP privilégient le lieu", correct: true }
+        - { text: "Le nom du cépage remplace celui de l’IGP enregistrée sur l’étiquette", correct: false }
+      explanation: |
+        La mise en avant du cépage est une tendance commerciale, pas la définition juridique de
+        l’IGP. Les IGP étendues se prêtent souvent aux marques de cépage, tandis que nombre d’AOP
+        célèbres sont principalement commercialisées sous leur nom de lieu protégé.
 
   - id: law-no-gi-flex-001
     type: mcq
@@ -598,15 +949,28 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which EU category gives the winemaker the freest rulebook?
+      question: "What is the main trade-off when an EU producer markets wine without a PDO or PGI?"
       choices:
-        - { text: "PDO grand cru", correct: false }
-        - { text: "Wine with no GI (Vin de France and cousins)", correct: true }
-        - { text: "AOP only", correct: false }
-        - { text: "A ban on blending across a river", correct: false }
+        - { text: "The producer gains a protected origin but loses the right to state alcohol", correct: false }
+        - { text: "The producer gains blending flexibility but cannot claim a protected GI", correct: true }
+        - { text: "The wine is exempt from food-safety and traceability law", correct: false }
+        - { text: "The wine may use any PDO name if the grape variety is shown", correct: false }
       explanation: |
-        **Vin de France** (or vino / Wein without GI) can blend regions and
-        grapes the PDO would never allow. You lose the place name.
+        Wine without a GI, such as Vin de France, is not bound by a PDO or PGI product specification
+        and may offer broader sourcing or blending choices. Vintage and variety can still be
+        certified and labelled, but protected geographical names cannot be misused.
+    fr:
+      question: "Quel est le principal compromis lorsqu’un producteur européen commercialise un vin sans AOP ni IGP ?"
+      choices:
+        - { text: "Il gagne une origine protégée, mais perd le droit d’indiquer l’alcool", correct: false }
+        - { text: "Il gagne en liberté d’assemblage, mais ne peut revendiquer une IG protégée", correct: true }
+        - { text: "Le vin échappe aux règles de sécurité alimentaire et de traçabilité", correct: false }
+        - { text: "Le vin peut employer n’importe quel nom d’AOP si le cépage est indiqué", correct: false }
+      explanation: |
+        Un vin sans IG, comme Vin de France, n’est pas lié au cahier des charges d’une AOP ou d’une
+        IGP et peut offrir davantage de liberté d’approvisionnement ou d’assemblage. Le millésime et
+        le cépage peuvent encore être certifiés et indiqués, mais les noms géographiques protégés ne
+        peuvent être détournés.
 
   - id: law-no-gi-blends-001
     type: mcq
@@ -618,16 +982,28 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What can a brand do once it drops the GI?
+      question: "Which sourcing option can become easier when an EU wine brand does not claim a PDO or PGI?"
       choices:
-        - { text: "Only bottle a single vineyard PDO", correct: false }
-        - { text: "Blend fruit from several regions — even across countries, if the law allows", correct: true }
-        - { text: "It must still print Chablis on the label", correct: false }
-        - { text: "It may not name a vintage or a grape", correct: false }
+        - { text: "Using a protected appellation name for grapes grown outside its area", correct: false }
+        - { text: "Blending across broader regions, subject to origin and labelling law", correct: true }
+        - { text: "Ignoring traceability when grapes come from more than one country", correct: false }
+        - { text: "Replacing the wine’s true provenance with the brand’s headquarters", correct: false }
       explanation: |
-        A **multi-regional** or even **multi-country** blend is a brand
-        product, not a village wine. Vin de France still lets you print
-        variety and vintage.
+        Without a GI product specification, a brand may have more freedom to combine grapes or wine
+        from different regions and, where permitted, countries. The label must still state
+        provenance truthfully and cannot appropriate a protected geographical name.
+    fr:
+      question: "Quelle possibilité d’approvisionnement devient plus accessible lorsqu’une marque européenne ne revendique ni AOP ni IGP ?"
+      choices:
+        - { text: "Employer un nom d’appellation protégé pour des raisins cultivés hors de son aire", correct: false }
+        - { text: "Assembler plus largement entre régions, sous réserve du droit de l’origine et de l’étiquetage", correct: true }
+        - { text: "Ignorer la traçabilité lorsque les raisins viennent de plusieurs pays", correct: false }
+        - { text: "Remplacer la provenance réelle du vin par le siège social de la marque", correct: false }
+      explanation: |
+        Sans cahier des charges d’IG, une marque peut disposer de plus de liberté pour assembler des
+        raisins ou des vins de différentes régions et, lorsque le droit le permet, de différents
+        pays. L’étiquette doit toujours indiquer honnêtement la provenance et ne peut détourner un
+        nom géographique protégé.
 
   - id: law-non-eu-gi-001
     type: mcq
@@ -639,15 +1015,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Where do most non-EU wines sit legally?
+      question: "Which set consists entirely of well-known wine GIs outside the European Union?"
       choices:
-        - { text: "Almost all as wine with no geography at all", correct: false }
-        - { text: "Almost all as wines with a GI", correct: true }
-        - { text: "Only as EU PDO", correct: false }
-        - { text: "They cannot use any place name", correct: false }
+        - { text: "Napa Valley, Barossa Valley and Marlborough", correct: true }
+        - { text: "Chablis, Chianti Classico and Rioja", correct: false }
+        - { text: "Bordeaux, Mosel and Tokaj", correct: false }
+        - { text: "Champagne, Port and Sherry", correct: false }
       explanation: |
-        **Napa Valley, Barossa, Marlborough** are GIs. Wine without a place
-        name exists, but it is not the New World default.
+        GI protection is not confined to Europe. Napa Valley is a US AVA, Barossa Valley an
+        Australian GI and Marlborough a New Zealand GI; each identifies a protected geographical
+        origin under its own legal system.
+    fr:
+      question: "Quel groupe se compose uniquement d’indications géographiques viticoles réputées situées hors de l’Union européenne ?"
+      choices:
+        - { text: "Napa Valley, Barossa Valley et Marlborough", correct: true }
+        - { text: "Chablis, Chianti Classico et Rioja", correct: false }
+        - { text: "Bordeaux, Mosel et Tokaj", correct: false }
+        - { text: "Champagne, Porto et Xérès", correct: false }
+      explanation: |
+        La protection des IG ne se limite pas à l’Europe. Napa Valley est une AVA américaine,
+        Barossa Valley une IG australienne et Marlborough une IG néo-zélandaise ; chacune identifie
+        une origine géographique protégée par son propre système juridique.
 
   - id: law-non-eu-no-recipe-001
     type: mcq
@@ -659,15 +1047,28 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What is the big legal gap between an EU GI and a typical New World GI?
+      question: "Compared with many EU wine PDOs, what does a US AVA primarily define?"
       choices:
-        - { text: "New World GIs always list the only three legal grapes", correct: false }
-        - { text: "Non-EU GIs usually do not lock which varieties you may plant", correct: true }
-        - { text: "EU GIs never name a place", correct: false }
-        - { text: "AVAs require 100% of a single grape by federal law", correct: false }
+        - { text: "A mandatory list of varieties, yields and ageing periods", correct: false }
+        - { text: "A producer ranking based on annual blind tasting", correct: false }
+        - { text: "A delimited grape-growing area with distinguishing geographic features", correct: true }
+        - { text: "A single wine style that every winery must reproduce", correct: false }
       explanation: |
-        An **AVA** is a map. Plant Pinot or Cabernet — the TTB does not mind.
-        **Chablis** tells you Chardonnay. That is the EU extra.
+        An AVA establishes a name, boundary and features that distinguish the grape-growing area.
+        Federal appellation rules govern origin and finishing requirements, but the AVA itself does
+        not prescribe a Chablis-like list of varieties, yields and wine styles.
+    fr:
+      question: "Par rapport à de nombreuses AOP viticoles européennes, que définit principalement une AVA américaine ?"
+      choices:
+        - { text: "Une liste obligatoire de cépages, de rendements et de durées d’élevage", correct: false }
+        - { text: "Un classement des producteurs fondé sur une dégustation à l’aveugle annuelle", correct: false }
+        - { text: "Une aire viticole délimitée dotée de caractéristiques géographiques distinctives", correct: true }
+        - { text: "Un style de vin unique que chaque domaine doit reproduire", correct: false }
+      explanation: |
+        Une AVA établit un nom, une limite et des caractéristiques qui distinguent l’aire viticole.
+        Les règles fédérales de l’appellation encadrent l’origine et le lieu d’achèvement du vin,
+        mais l’AVA elle-même n’impose pas une liste de cépages, de rendements et de styles
+        comparable à celle de Chablis.
 
   - id: law-non-eu-rare-terms-001
     type: mcq
@@ -679,16 +1080,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which legal category words rarely appear on a non-EU front label?
+      question: "How is a US American Viticultural Area normally identified on a wine label?"
       choices:
-        - { text: "The place name itself (Napa, Barossa)", correct: false }
-        - { text: "The formal terms Ward, AVA or Zone", correct: true }
-        - { text: "The grape variety", correct: false }
-        - { text: "The vintage", correct: false }
+        - { text: "The place name followed by the mandatory term PDO", correct: false }
+        - { text: "The place name followed by the mandatory term AOP", correct: false }
+        - { text: "The place name followed by the mandatory term Ward", correct: false }
+        - { text: "The place name itself, without a requirement to add ‘AVA’", correct: true }
       explanation: |
-        You read **Napa Valley**, not “Napa Valley AVA” as the hero line.
-        South Africa’s **ward** and Australia’s **zone** stay in the small
-        print. The place name does the selling.
+        A label commonly says Napa Valley or Willamette Valley rather than spelling out American
+        Viticultural Area. Other countries use their own systems and terms, so this recognition rule
+        should not be projected onto every non-EU GI.
+    fr:
+      question: "Comment une American Viticultural Area est-elle normalement indiquée sur l’étiquette d’un vin américain ?"
+      choices:
+        - { text: "Le nom du lieu suivi obligatoirement de la mention PDO", correct: false }
+        - { text: "Le nom du lieu suivi obligatoirement de la mention AOP", correct: false }
+        - { text: "Le nom du lieu suivi obligatoirement de la mention Ward", correct: false }
+        - { text: "Le nom du lieu lui-même, sans obligation d’ajouter « AVA »", correct: true }
+      explanation: |
+        Une étiquette indique couramment Napa Valley ou Willamette Valley sans développer American
+        Viticultural Area. Les autres pays possèdent leurs propres systèmes et termes : cette règle
+        de lecture ne doit donc pas être généralisée à toutes les IG hors UE.
 
   - id: law-moderate-harm-001
     type: mcq
@@ -700,15 +1112,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: When do public-health texts treat alcohol as less of a harm?
+      question: "Which statement best reflects current WHO guidance on alcohol and health risk?"
       choices:
-        - { text: "At any dose, including a bottle before driving", correct: false }
-        - { text: "When it is drunk in moderation", correct: true }
-        - { text: "Only when it is banned entirely", correct: false }
-        - { text: "Alcohol is never discussed in law", correct: false }
+        - { text: "Health risk falls to zero below a lower-risk guideline", correct: false }
+        - { text: "Risk depends on beverage type, not the alcohol it contains", correct: false }
+        - { text: "No level is completely risk-free; less alcohol generally means less risk", correct: true }
+        - { text: "Only episodes of obvious intoxication contribute to health risk", correct: false }
       explanation: |
-        **Moderation** is the official line most wine countries still print.
-        Excess is the harm the next cards police.
+        The WHO states that no form of alcohol consumption is risk-free. Risk varies with amount,
+        frequency, drinking pattern, individual factors and context, and generally rises as
+        consumption increases.
+    fr:
+      question: "Quelle affirmation correspond le mieux aux recommandations actuelles de l’OMS sur l’alcool et les risques pour la santé ?"
+      choices:
+        - { text: "Le risque sanitaire devient nul sous un repère de consommation à moindre risque", correct: false }
+        - { text: "Le risque dépend du type de boisson, et non de l’alcool qu’elle contient", correct: false }
+        - { text: "Aucun niveau n’est totalement exempt de risque ; moins d’alcool signifie généralement moins de risque", correct: true }
+        - { text: "Seuls les épisodes d’ivresse manifeste contribuent au risque sanitaire", correct: false }
+      explanation: |
+        L’OMS indique qu’aucune forme de consommation d’alcool n’est sans risque. Celui-ci varie
+        selon la quantité, la fréquence, le mode de consommation, les caractéristiques individuelles
+        et le contexte, et augmente généralement avec la consommation.
 
   - id: law-excess-behaviour-001
     type: mcq
@@ -720,15 +1144,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What does too much alcohol do to behaviour?
+      question: "Which acute effects of alcohol most directly increase accident and violence risk?"
       choices:
-        - { text: "It always improves judgement", correct: false }
-        - { text: "It can change behaviour in dangerous, socially unacceptable ways", correct: true }
-        - { text: "It has no effect on anyone", correct: false }
-        - { text: "It is legally required before driving", correct: false }
+        - { text: "Liver disease, several cancers and cardiovascular damage", correct: false }
+        - { text: "Impaired judgement, slower reactions and reduced coordination", correct: true }
+        - { text: "Tolerance, withdrawal symptoms and persistent craving", correct: false }
+        - { text: "Raised long-term disease risk without immediate impairment", correct: false }
       explanation: |
-        Drunk people **take risks and lose control**. That is why drink-drive
-        and licensing laws exist — not as a tasting note.
+        Alcohol affects the central nervous system and can reduce judgement, inhibition,
+        coordination and reaction speed. Those acute effects raise the risk of road crashes, falls,
+        injuries and harmful behaviour.
+    fr:
+      question: "Quels effets aigus de l’alcool augmentent le plus directement les risques d’accident et de violence ?"
+      choices:
+        - { text: "Les maladies du foie, plusieurs cancers et les atteintes cardiovasculaires", correct: false }
+        - { text: "Une altération du jugement, des réactions ralenties et une coordination réduite", correct: true }
+        - { text: "La tolérance, les symptômes de sevrage et un besoin persistant", correct: false }
+        - { text: "Une hausse du risque de maladie à long terme sans effet immédiat", correct: false }
+      explanation: |
+        L’alcool agit sur le système nerveux central et peut altérer le jugement, les inhibitions,
+        la coordination et la vitesse de réaction. Ces effets aigus augmentent le risque d’accidents
+        de la route, de chutes, de blessures et de comportements dangereux.
 
   - id: law-alcohol-addiction-001
     type: mcq
@@ -740,15 +1176,28 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Besides behaviour, what other harms come with too much alcohol?
+      question: "Which set contains recognised longer-term harms associated with alcohol use?"
       choices:
-        - { text: "It is never addictive and never affects health", correct: false }
-        - { text: "It can be addictive and damage health in the short and long term", correct: true }
-        - { text: "It is a legally required vitamin", correct: false }
-        - { text: "It only affects the colour of wine", correct: false }
+        - { text: "Dependence, liver disease and increased risk of several cancers", correct: true }
+        - { text: "Flushing, transient slurred speech and a short-lived loss of balance", correct: false }
+        - { text: "A hangover, temporary dehydration and an isolated episode of nausea", correct: false }
+        - { text: "Immediate warmth, brief disinhibition and slowed reactions during one occasion", correct: false }
       explanation: |
-        **Dependence** plus liver, cancer and accident risk are why health
-        ministries write units and why labels carry warnings.
+        Alcohol is a dependence-producing psychoactive substance and a recognised carcinogen.
+        Harmful use is also associated with liver, cardiovascular and mental-health conditions,
+        while risk depends on exposure and individual circumstances.
+    fr:
+      question: "Quel groupe réunit des conséquences à long terme reconnues de la consommation d’alcool ?"
+      choices:
+        - { text: "Dépendance, maladies du foie et risque accru de plusieurs cancers", correct: true }
+        - { text: "Rougeurs, élocution temporairement pâteuse et brève perte d’équilibre", correct: false }
+        - { text: "Gueule de bois, déshydratation temporaire et épisode isolé de nausée", correct: false }
+        - { text: "Sensation immédiate de chaleur, brève désinhibition et réactions ralenties", correct: false }
+      explanation: |
+        L’alcool est une substance psychoactive susceptible d’entraîner une dépendance et un
+        cancérogène reconnu. Son usage nocif est aussi associé à des maladies du foie,
+        cardiovasculaires et mentales ; le risque dépend de l’exposition et des circonstances
+        individuelles.
 
   - id: law-culture-ban-001
     type: mcq
@@ -760,15 +1209,28 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Where may alcohol be banned outright?
+      question: "Why can the legal availability of alcohol differ sharply between countries?"
       choices:
-        - { text: "Only in regions that produce first-growth Bordeaux", correct: false }
-        - { text: "In cultures that treat drinking as socially unacceptable", correct: true }
-        - { text: "Nowhere — every country requires daily wine", correct: false }
-        - { text: "Only underground in Champagne", correct: false }
+        - { text: "Religious, cultural and legal norms may restrict or prohibit alcohol", correct: true }
+        - { text: "International wine law requires every country to permit retail sales", correct: false }
+        - { text: "Domestic vineyards exempt wine from national alcohol controls", correct: false }
+        - { text: "GI protection overrides local restrictions on alcohol sales", correct: false }
       explanation: |
-        Some **religious and legal systems** prohibit alcohol entirely. That is
-        a cultural rule, not a tasting score.
+        Some jurisdictions permit alcohol with licensing and age controls, while others impose
+        severe restrictions or prohibition shaped by religious, cultural and public-policy choices.
+        Travellers and businesses must follow the local law.
+    fr:
+      question: "Pourquoi la disponibilité légale de l’alcool peut-elle fortement varier d’un pays à l’autre ?"
+      choices:
+        - { text: "Des normes religieuses, culturelles et juridiques peuvent restreindre ou interdire l’alcool", correct: true }
+        - { text: "Le droit viticole international oblige tous les pays à autoriser la vente au détail", correct: false }
+        - { text: "La présence de vignobles dispense le vin des contrôles nationaux sur l’alcool", correct: false }
+        - { text: "La protection d’une IG prime sur les restrictions locales de vente d’alcool", correct: false }
+      explanation: |
+        Certaines juridictions autorisent l’alcool sous réserve de licences et d’un âge minimal,
+        tandis que d’autres imposent de fortes restrictions ou une interdiction inspirées par des
+        choix religieux, culturels et politiques. Voyageurs et entreprises doivent respecter le
+        droit local.
 
   - id: law-gov-legislation-001
     type: mcq
@@ -780,15 +1242,28 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: How do governments usually limit access to alcohol and its harms?
+      question: "Which policy package is used by governments to reduce alcohol-related harm?"
       choices:
-        - { text: "Only by sending a polite email", correct: false }
-        - { text: "Through legislation", correct: true }
-        - { text: "By banning all food law", correct: false }
-        - { text: "By a worldwide wine price", correct: false }
+        - { text: "Lower taxes, unrestricted advertising and unlimited outlet hours", correct: false }
+        - { text: "Producer rankings, appellation boundaries and vineyard-yield limits", correct: false }
+        - { text: "Bottle-shape rules, closure standards and critic accreditation", correct: false }
+        - { text: "Taxation, availability controls, marketing restrictions and drink-driving measures", correct: true }
       explanation: |
-        **Statutes**: licensing, age, drink-drive, advertising, tax. Soft
-        advice sits beside that, not instead of it.
+        The WHO highlights price and tax measures, restrictions on physical availability and
+        marketing, and drink-driving countermeasures. Screening, brief interventions and treatment
+        add support for people at risk.
+    fr:
+      question: "Quel ensemble de politiques est employé par les pouvoirs publics pour réduire les dommages liés à l’alcool ?"
+      choices:
+        - { text: "Baisse des taxes, publicité sans restriction et horaires de vente illimités", correct: false }
+        - { text: "Classement des producteurs, délimitation des appellations et limitation des rendements", correct: false }
+        - { text: "Règles sur la forme des bouteilles, normes de bouchage et agrément des critiques", correct: false }
+        - { text: "Fiscalité, contrôle de la disponibilité, restrictions publicitaires et mesures contre l’alcool au volant", correct: true }
+      explanation: |
+        L’OMS met en avant les mesures sur les prix et les taxes, les restrictions sur la
+        disponibilité physique et la publicité, ainsi que la lutte contre l’alcool au volant. Le
+        dépistage, les interventions brèves et les traitements complètent l’aide aux personnes à
+        risque.
 
   - id: law-age-and-drive-001
     type: mcq
@@ -800,15 +1275,26 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What two alcohol rules do most countries put first?
+      question: "Which pair combines a common alcohol-access rule with a common road-safety rule?"
       choices:
-        - { text: "A maximum vineyard altitude and a cork tax", correct: false }
-        - { text: "A minimum age to drink, and a blood-alcohol limit for drivers", correct: true }
-        - { text: "A ban on all GI names", correct: false }
-        - { text: "Compulsory daily tasting for every adult", correct: false }
+        - { text: "Minimum purchase age and maximum legal blood-alcohol concentration for drivers", correct: true }
+        - { text: "Maximum vineyard yield and minimum barrel-age requirement", correct: false }
+        - { text: "Minimum bottle weight and maximum retail shelf life", correct: false }
+        - { text: "Mandatory GI status and a fixed restaurant margin", correct: false }
       explanation: |
-        **Age** and **drink-driving** are the two pillars. Units and ad rules
-        come after.
+        Minimum purchase or drinking ages restrict youth access, while blood-alcohol limits target
+        impaired driving. The exact age, limit, offences and penalties vary by jurisdiction.
+    fr:
+      question: "Quelle paire associe une règle courante d’accès à l’alcool à une règle courante de sécurité routière ?"
+      choices:
+        - { text: "Un âge minimal d’achat et un taux maximal légal d’alcool dans le sang des conducteurs", correct: true }
+        - { text: "Un rendement maximal du vignoble et une durée minimale d’élevage en fût", correct: false }
+        - { text: "Un poids minimal de bouteille et une durée maximale de vente au détail", correct: false }
+        - { text: "Un statut d’IG obligatoire et une marge fixe au restaurant", correct: false }
+      explanation: |
+        L’âge minimal d’achat ou de consommation limite l’accès des jeunes, tandis que l’alcoolémie
+        maximale vise la conduite sous l’emprise de l’alcool. L’âge, le seuil, les infractions et
+        les sanctions exacts varient selon la juridiction.
 
   - id: law-bac-unit-001
     type: mcq
@@ -820,15 +1306,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: How is blood alcohol usually written?
+      question: "What does blood alcohol concentration (BAC) quantify?"
       choices:
-        - { text: "Litres of wine per hectare", correct: false }
-        - { text: "Milligrams of ethanol per millilitre of blood (or a close cousin of that ratio)", correct: true }
-        - { text: "Only as a colour on a traffic light with no number", correct: false }
-        - { text: "Degrees Brix in the vineyard", correct: false }
+        - { text: "The volume of alcoholic drink consumed during one occasion", correct: false }
+        - { text: "The amount of alcohol in a defined volume of blood", correct: true }
+        - { text: "The proportion of alcohol exhaled during normal breathing", correct: false }
+        - { text: "The rate at which the liver will eliminate alcohol", correct: false }
       explanation: |
-        Limits are a **concentration**: mg/mL, g/L, or % BAC depending on the
-        country. The idea is the same — how much ethanol is in the blood.
+        BAC is a concentration, not a count of drinks. Jurisdictions express it in different but
+        convertible forms, such as grams per decilitre, grams per litre, milligrams per 100
+        millilitres or a percentage.
+    fr:
+      question: "Que mesure l’alcoolémie, ou concentration d’alcool dans le sang ?"
+      choices:
+        - { text: "Le volume de boisson alcoolisée consommé au cours d’une occasion", correct: false }
+        - { text: "La quantité d’alcool contenue dans un volume défini de sang", correct: true }
+        - { text: "La proportion d’alcool expirée au cours d’une respiration normale", correct: false }
+        - { text: "La vitesse à laquelle le foie éliminera l’alcool", correct: false }
+      explanation: |
+        L’alcoolémie est une concentration, pas un nombre de verres. Selon les pays, elle s’exprime
+        sous différentes formes convertibles : grammes par décilitre, grammes par litre,
+        milligrammes par 100 millilitres ou pourcentage, par exemple.
 
   - id: law-drink-drive-why-001
     type: mcq
@@ -840,15 +1338,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Why is drink-driving policed?
+      question: "Why do drink-driving laws set and enforce BAC limits?"
       choices:
-        - { text: "Alcohol sharpens coordination and calms risk-taking", correct: false }
-        - { text: "It slows reactions, spoils coordination and raises risk-taking, so crashes become more likely", correct: true }
-        - { text: "Driving is safer after a bottle", correct: false }
-        - { text: "The law only cares about vineyard tractors", correct: false }
+        - { text: "Because alcohol impairment increases crash risk by affecting judgement, coordination and reaction time", correct: true }
+        - { text: "Because BAC predicts identical impairment in every driver", correct: false }
+        - { text: "Because the legal limit marks the point below which driving is risk-free", correct: false }
+        - { text: "Because BAC measures consumption without regard to alcohol absorbed", correct: false }
       explanation: |
-        **Slower hands, slower eyes, braver bad ideas** — that mix kills the
-        driver and other people. Machinery in the winery is the same logic.
+        Alcohol can impair driving before obvious signs of intoxication appear. BAC limits give
+        authorities an enforceable threshold, but a legal limit is not a promise that driving below
+        it is risk-free; limits and penalties vary by jurisdiction.
+    fr:
+      question: "Pourquoi la législation routière fixe-t-elle et fait-elle respecter des seuils d’alcoolémie ?"
+      choices:
+        - { text: "Parce que l’alcool augmente le risque d’accident en altérant le jugement, la coordination et le temps de réaction", correct: true }
+        - { text: "Parce que l’alcoolémie prédit une altération identique chez tous les conducteurs", correct: false }
+        - { text: "Parce que le seuil légal délimite une conduite totalement dépourvue de risque", correct: false }
+        - { text: "Parce que l’alcoolémie mesure la consommation sans tenir compte de l’alcool absorbé", correct: false }
+      explanation: |
+        L’alcool peut altérer la conduite avant l’apparition de signes manifestes d’ivresse. Les
+        seuils donnent aux autorités une limite applicable, mais rester sous cette limite ne
+        garantit pas une conduite sans risque ; seuils et sanctions varient selon les pays.
 
   - id: law-sensible-drinking-001
     type: mcq
@@ -860,15 +1370,28 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: How else do governments try to keep drinking safer?
+      question: "What is the purpose of government lower-risk drinking guidelines?"
       choices:
-        - { text: "Only by raising the alcohol in every wine", correct: false }
-        - { text: "By publishing “sensible drinking” guidelines", correct: true }
-        - { text: "By banning all water", correct: false }
-        - { text: "By a legal duty to drink at breakfast", correct: false }
+        - { text: "To identify a consumption level at which alcohol becomes completely harmless", correct: false }
+        - { text: "To replace drink-driving and minimum-age laws with voluntary advice", correct: false }
+        - { text: "To translate health evidence into practical advice for reducing risk", correct: true }
+        - { text: "To impose one legally binding weekly allowance in every country", correct: false }
       explanation: |
-        **Units / standard drinks** on a government page sit beside the hard
-        law. They are advice, not a tasting grid.
+        Lower-risk guidelines help people understand and reduce alcohol-related risk. They are
+        usually public-health advice rather than a universal legal ceiling, differ between
+        jurisdictions and do not imply that drinking within the guideline is risk-free.
+    fr:
+      question: "Quel est l’objectif des repères publics de consommation d’alcool à moindre risque ?"
+      choices:
+        - { text: "Déterminer un niveau de consommation auquel l’alcool devient totalement inoffensif", correct: false }
+        - { text: "Remplacer par des conseils facultatifs les lois sur la conduite et l’âge minimum", correct: false }
+        - { text: "Traduire les données de santé en conseils pratiques pour réduire les risques", correct: true }
+        - { text: "Imposer dans tous les pays une limite hebdomadaire unique et juridiquement contraignante", correct: false }
+      explanation: |
+        Ces repères aident à comprendre et à réduire les risques liés à l’alcool. Il s’agit
+        généralement de recommandations de santé publique, et non d’un plafond légal universel.
+        Elles diffèrent selon les pays et ne signifient pas qu’une consommation conforme soit sans
+        risque.
 
   - id: law-units-001
     type: mcq
@@ -880,15 +1403,28 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What sits at the core of those sensible-drinking guides?
+      question: "What is an alcohol unit or standard drink designed to measure?"
       choices:
-        - { text: "A list of banned grape varieties", correct: false }
-        - { text: "Daily and weekly maxima, as a quantity of alcohol or “units”", correct: true }
-        - { text: "A requirement to finish every bottle", correct: false }
-        - { text: "The 1855 classification", correct: false }
+        - { text: "A defined quantity of pure alcohol, whose official size may differ by country", correct: true }
+        - { text: "One serving of any alcoholic drink, regardless of size or strength", correct: false }
+        - { text: "The percentage alcohol stated on a bottle, without regard to volume", correct: false }
+        - { text: "A universal daily allowance fixed by international law", correct: false }
       explanation: |
-        A **unit** (or standard drink) is a fixed mass of ethanol. The guide
-        then says how many per day or week. Numbers differ by country.
+        Units and standard drinks convert serving volume and alcoholic strength into an amount of
+        pure ethanol. The definition is jurisdiction-specific: for example, one UK unit is 10
+        millilitres or 8 grams of pure alcohol, while other countries use different quantities.
+    fr:
+      question: "Que vise à mesurer une unité d’alcool ou un verre standard ?"
+      choices:
+        - { text: "Une quantité définie d’alcool pur, dont la valeur officielle peut varier selon le pays", correct: true }
+        - { text: "Une portion de n’importe quelle boisson alcoolisée, quels que soient son volume et son titre alcoométrique", correct: false }
+        - { text: "Le pourcentage d’alcool indiqué sur la bouteille, indépendamment du volume", correct: false }
+        - { text: "Une consommation quotidienne universelle fixée par le droit international", correct: false }
+      explanation: |
+        Les unités et verres standard convertissent le volume servi et le titre alcoométrique en
+        quantité d’éthanol pur. Leur définition dépend du pays : au Royaume-Uni, par exemple, une
+        unité équivaut à 10 millilitres ou 8 grammes d’alcool pur, tandis que d’autres pays
+        retiennent d’autres quantités.
 
   - id: law-ads-how-001
     type: mcq
@@ -900,15 +1436,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: How can a state limit alcohol advertising?
+      question: "Which statement best describes how alcohol marketing can be regulated?"
       choices:
-        - { text: "Only by a worldwide ban on all labels", correct: false }
-        - { text: "Voluntary industry codes, direct law, or both", correct: true }
-        - { text: "Advertising may never be mentioned in law", correct: false }
-        - { text: "Only by taxing water", correct: false }
+        - { text: "Only bottle labels can be regulated; sponsorship and digital promotion cannot", correct: false }
+        - { text: "Rules may combine legislation, co-regulation and supporting industry codes", correct: true }
+        - { text: "A voluntary industry code automatically has the same force as criminal law", correct: false }
+        - { text: "International trade law imposes one identical advertising regime worldwide", correct: false }
       explanation: |
-        France’s **Loi Évin**, UK Portman-style codes, total ad bans — the
-        toolkit is **soft code, hard statute, or a mix**.
+        Approaches vary by jurisdiction. Governments may restrict advertising, promotion and
+        sponsorship through statute or co-regulation and may supplement these controls with self-
+        regulatory codes, monitoring and sanctions.
+    fr:
+      question: "Quelle proposition décrit le mieux la manière dont le marketing de l’alcool peut être encadré ?"
+      choices:
+        - { text: "Seules les étiquettes peuvent être réglementées, contrairement au parrainage et à la promotion numérique", correct: false }
+        - { text: "L’encadrement peut associer législation, corégulation et codes professionnels complémentaires", correct: true }
+        - { text: "Un code professionnel volontaire a automatiquement la même force qu’une loi pénale", correct: false }
+        - { text: "Le droit commercial international impose partout un régime publicitaire identique", correct: false }
+      explanation: |
+        Les approches diffèrent selon les pays. Les pouvoirs publics peuvent encadrer la publicité,
+        la promotion et le parrainage par la loi ou la corégulation, et compléter ces mesures par
+        des codes d’autorégulation, des contrôles et des sanctions.
 
   - id: law-ads-aim-001
     type: mcq
@@ -920,16 +1468,25 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What are those marketing rules trying to do?
+      question: "What is a central public-health aim of restrictions on alcohol marketing?"
       choices:
-        - { text: "Require every ad to claim wine makes you immortal", correct: false }
-        - { text: "Limit lifestyle boasts and push or require responsible-drinking messages", correct: true }
-        - { text: "Ban the word wine on every bottle", correct: false }
-        - { text: "Set the farm-gate price of Pinot", correct: false }
+        - { text: "To give every alcohol brand the same share of advertising space", correct: false }
+        - { text: "To protect geographical indications from unrelated trade marks", correct: false }
+        - { text: "To reduce exposure and persuasive appeal, especially among young people", correct: true }
+        - { text: "To make voluntary responsibility messages a substitute for all other controls", correct: false }
       explanation: |
-        No “this wine makes you a genius / a lover / a safer driver”. Print
-        **drink responsibly** (or the local equivalent) instead. Loi Évin is
-        the strict named example.
-
-
-
+        Marketing restrictions can limit where, when, how often and with what claims alcohol is
+        promoted. A major aim is to protect children and adolescents from exposure and to prevent
+        messages that normalise harmful use or make misleading health and lifestyle claims.
+    fr:
+      question: "Quel est un objectif central de santé publique des restrictions au marketing de l’alcool ?"
+      choices:
+        - { text: "Donner à chaque marque d’alcool la même part d’espace publicitaire", correct: false }
+        - { text: "Protéger les indications géographiques contre les marques sans rapport", correct: false }
+        - { text: "Réduire l’exposition et le pouvoir de persuasion, en particulier auprès des jeunes", correct: true }
+        - { text: "Faire des messages volontaires de responsabilité un substitut à tout autre contrôle", correct: false }
+      explanation: |
+        Les restrictions peuvent limiter les lieux, les horaires, la fréquence et le contenu du
+        marketing. Elles cherchent notamment à protéger les enfants et les adolescents de
+        l’exposition et à empêcher les messages qui normalisent les usages nocifs ou avancent des
+        allégations sanitaires et sociales trompeuses.
