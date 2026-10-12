@@ -638,17 +638,16 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What is drip irrigation in a vineyard?
+      question: Which description distinguishes drip irrigation from flood or overhead-sprinkler irrigation?
       choices:
-        - { text: "Flooding the whole block from an open canal", correct: false }
-        - { text: "A small emitter at each vine that meters water to the root zone", correct: true }
-        - { text: "Spraying the canopy only to wash dust off leaves", correct: false }
-        - { text: "Relying on dew and never adding water", correct: false }
+        - { text: "Emitters deliver small, controlled volumes close to individual vines", correct: true }
+        - { text: "Water is released into furrows and allowed to flow across the whole block", correct: false }
+        - { text: "Large sprinklers apply water above the canopy across a broad area", correct: false }
+        - { text: "Subsoil is saturated once in winter and no growing-season water is applied", correct: false }
       explanation: |
-        **A small emitter at each vine that meters water to the root
-        zone.** Drip is precise compared with furrow or flood. It is
-        usually costlier to install; "most expensive of all methods"
-        is not a fact you can defend for every site.
+        Drip lines use emitters to place water slowly and locally near the vine's active root zone.
+        This gives greater control and usually reduces evaporation and runoff relative to broad-area
+        systems, although installation, filtration and maintenance add cost.
 
   - id: vine-drip-metering-001
     type: mcq
@@ -660,17 +659,16 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What extra control can a drip system give the grower?
+      question: What management advantage does a zoned drip-irrigation system offer?
       choices:
-        - { text: "It can only run as one on/off tap for the whole appellation", correct: false }
-        - { text: "Each vine's emitter can be timed or computer-set so the dose stays even", correct: true }
-        - { text: "It replaces the need for any soil at all", correct: false }
-        - { text: "It forces every vine onto a hybrid fruiting variety", correct: false }
+        - { text: "Watering time and volume can be adjusted by block or zone", correct: true }
+        - { text: "Every emitter automatically measures vine water status without sensors", correct: false }
+        - { text: "All soil differences are eliminated once equal volumes are applied", correct: false }
+        - { text: "Roots are forced to remain directly beneath a single emitter", correct: false }
       explanation: |
-        **Each vine's emitter can be timed or computer-set so the dose
-        stays even.** That is the point of drip — matching water to
-        the vine, not to the lowest point in the row. Computer control
-        is common, not mandatory.
+        Valves and controllers can schedule separate irrigation zones, allowing doses to reflect soil,
+        slope, variety or vine demand. Emitters meter delivery, but the system does not by itself sense
+        stress or erase variation in soil and vine performance.
 
   - id: vine-drought-stomata-001
     type: mcq
@@ -682,17 +680,16 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What can a vine do in a short dry spell to hold onto water?
+      question: What is an early physiological response when a grapevine experiences water deficit?
       choices:
-        - { text: "It opens every stoma and transpires faster", correct: false }
-        - { text: "It can shut stomata and sharply cut transpiration for a time", correct: true }
-        - { text: "It converts leaves into roots overnight", correct: false }
-        - { text: "It starts a second crop from the graft union", correct: false }
+        - { text: "Stomata partly close, reducing transpiration and carbon dioxide uptake", correct: true }
+        - { text: "Stomata open wider, increasing water loss while conserving carbon", correct: false }
+        - { text: "Xylem reverses direction and returns leaf water to the soil", correct: false }
+        - { text: "Photosynthesis accelerates because leaf cooling is no longer needed", correct: false }
       explanation: |
-        **It can shut stomata and sharply cut transpiration for a
-        time.** Closing the pores saves water and also slows
-        photosynthesis. It is a pause, not a cure — a long drought
-        still stalls ripening.
+        Stomatal closure limits water loss, but it also restricts carbon dioxide entry and therefore
+        photosynthesis. It can protect the vine during a short deficit; prolonged or severe stress can
+        still impair canopy function and ripening.
 
   - id: vine-excess-water-vigour-001
     type: mcq
@@ -704,16 +701,16 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: A wet growing season typically pushes a vine toward which kind of growth?
+      question: In warm conditions with adequate nitrogen, what is a likely effect of abundant soil water?
       choices:
-        - { text: "Shoot growth that stops at budburst", correct: false }
-        - { text: "Excessive leafy, vegetative growth", correct: true }
-        - { text: "A dried-out canopy with no leaves", correct: false }
-        - { text: "Berries that cannot swell at all", correct: false }
+        - { text: "Strong shoot and lateral growth that may create a dense canopy", correct: true }
+        - { text: "Immediate shoot cessation and early entry into winter dormancy", correct: false }
+        - { text: "Permanent stomatal closure despite plentiful root-zone water", correct: false }
+        - { text: "Complete suppression of berry expansion after fruit set", correct: false }
       explanation: |
-        **Excessive leafy, vegetative growth.** Plenty of water
-        (and enough nitrogen) feeds laterals and a jungle canopy.
-        Fruit then competes with shoots for sugar.
+        Water and nitrogen availability can sustain vigorous vegetative growth. If unmanaged, a dense
+        canopy shades leaves and fruit, retains humidity and competes with the crop; water alone does
+        not determine vigour because soil, rootstock, temperature and crop load also matter.
 
   - id: vine-vigour-sugar-001
     type: mcq
@@ -725,16 +722,16 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: If a vine is vegetatively overactive, where do the sugars go instead of the ripening grapes?
+      question: Why can prolonged shoot growth during ripening delay grape maturity?
       choices:
-        - { text: "They vanish; the vine cannot make sugar at all", correct: false }
-        - { text: "They are diverted into extra shoot and leaf growth", correct: true }
-        - { text: "They move only into the rootstock and never the scion", correct: false }
-        - { text: "They are stored only in the finished bottle", correct: false }
+        - { text: "Growing shoot tips remain competing sinks for the vine's carbohydrates", correct: true }
+        - { text: "New shoots convert berry sugar back into mineral nitrogen", correct: false }
+        - { text: "Actively growing leaves cease photosynthesis as soon as véraison begins", correct: false }
+        - { text: "Shoot growth blocks water movement through every fruiting cane", correct: false }
       explanation: |
-        **They are diverted into extra shoot and leaf growth.** A
-        vigorous canopy is a competing sink. The bunches stay greener
-        for longer even if the weather is warm.
+        Both expanding shoots and ripening berries require carbohydrates. Continued vegetative growth
+        can compete with the crop and often accompanies excess shading, so balanced vines are more
+        likely to ripen fruit evenly than vines dominated by shoot growth.
 
   - id: vine-vigour-shade-001
     type: mcq
@@ -746,16 +743,16 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Besides stealing sugar, how does a jungle of extra shoots and leaves hurt the crop?
+      question: Which problem is most directly caused by an excessively dense grapevine canopy?
       choices:
-        - { text: "It always raises the vine's winter hardiness", correct: false }
-        - { text: "The extra canopy shades the fruit and inner leaves", correct: true }
-        - { text: "It stops phylloxera on every American rootstock", correct: false }
-        - { text: "It prevents any rainfall from reaching the soil", correct: false }
+        - { text: "Poor light and airflow around fruit and interior leaves", correct: true }
+        - { text: "Excess ultraviolet exposure on every bunch surface", correct: false }
+        - { text: "Rapid drying of bunches after rain because wind speed rises", correct: false }
+        - { text: "Loss of all photosynthetic leaf area before véraison", correct: false }
       explanation: |
-        **The extra canopy shades the fruit and inner leaves.** Shade
-        delays ripening, keeps bunches wet after rain, and invites
-        rot. Opening the leaf wall is the usual fix.
+        Crowded foliage shades fruit and inner leaves and restricts airflow. The resulting humid,
+        slow-drying fruit zone can increase disease pressure and make ripening less even; canopy
+        management aims to improve exposure without causing sunburn.
 
   - id: vine-hail-001
     type: mcq
@@ -767,17 +764,16 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: A midsummer hailstorm typically threatens a vineyard how?
+      question: Why can a severe hailstorm close to véraison cause both immediate and later losses?
       choices:
-        - { text: "It only polishes the berries and never breaks skin", correct: false }
-        - { text: "It can bruise or split grapes and even wreck the vine, sometimes the whole crop", correct: true }
-        - { text: "It is useful because it starts winter dormancy", correct: false }
-        - { text: "It only ever falls in the cellar, not on vines", correct: false }
+        - { text: "It can wound berries and foliage, inviting rot and damaging future fruiting wood", correct: true }
+        - { text: "It dilutes berry juice but leaves skins, leaves and shoots physically intact", correct: false }
+        - { text: "It sterilises damaged berries, so disease risk falls after the storm", correct: false }
+        - { text: "It affects only the current crop because shoots and buds cannot be injured", correct: false }
       explanation: |
-        **It can bruise or split grapes and even wreck the vine,
-        sometimes the whole crop.** Mendoza, Burgundy and Champagne
-        all lose vintage to hail; nets are the named defence, not a
-        guarantee.
+        Hail can split or bruise berries, destroy leaf area and break shoots. Wounds raise the risk of
+        rot in the current crop, while damage to canes or buds may also reduce the following year's
+        potential. Nets can reduce damage where their use is practical and permitted.
 
   - id: vine-maritime-rain-001
     type: mcq
@@ -789,16 +785,16 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What is the main weather hazard of a maritime vineyard climate?
+      question: Why can frequent growing-season rain be especially challenging in a maritime vineyard?
       choices:
-        - { text: "Winter freeze that kills every graft union each year", correct: false }
-        - { text: "Spring and summer rain that threatens flowering, fruit set and grape health at harvest", correct: true }
-        - { text: "A total absence of cloud and rain", correct: false }
-        - { text: "Air so dry that drip irrigation is banned", correct: false }
+        - { text: "It can disrupt fruit set and sustain fungal-disease pressure near harvest", correct: true }
+        - { text: "It always lowers humidity around bunches and shortens leaf-wetness periods", correct: false }
+        - { text: "It guarantees even ripening by removing all variation in water supply", correct: false }
+        - { text: "It prevents vigorous canopy growth even when soils remain moist", correct: false }
       explanation: |
-        **Spring and summer rain that threatens flowering, fruit set
-        and grape health at harvest.** Bordeaux and Rías Baixas live
-        with Atlantic wet. Continental frost is a different hazard.
+        Cool, wet flowering weather can reduce fruit set, while rain and humidity later in the season
+        favour downy mildew and bunch rots and may delay harvest. Maritime influence moderates
+        temperature, but does not mean that every maritime region or vintage is equally wet.
 
   - id: vine-soil-ideal-001
     type: mcq
@@ -810,18 +806,16 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What soil pattern usually suits a wine grapevine best?
+      question: Which soil combination most often helps a grower maintain balanced vine growth?
       choices:
-        - { text: "A swamp of standing water and heavy nitrogen", correct: false }
-        - { text: "Modest nutrients, free drainage, and still enough stored water for the season", correct: true }
-        - { text: "Solid rock with no water-holding at all", correct: false }
-        - { text: "Pure fertiliser with no mineral particles", correct: false }
+        - { text: "Good drainage, moderate fertility and enough available water to avoid severe stress", correct: true }
+        - { text: "Poor drainage, abundant nitrogen and a permanently saturated root zone", correct: false }
+        - { text: "Very low water-holding capacity with no possibility of irrigation", correct: false }
+        - { text: "High salinity, shallow rooting depth and rapid surface runoff", correct: false }
       explanation: |
-        **Modest nutrients, free drainage, and still enough stored
-        water for the season.** Low fertility keeps vigour in check;
-        drainage stops wet feet; a reserve (clay, deep stone, a water
-        table) carries the vine through summer. "Ideal" is a target,
-        not one named soil type.
+        There is no universally ideal soil type. In many sites, drainage protects roots from
+        waterlogging, moderate fertility limits excessive vigour, and sufficient stored or supplied
+        water keeps the vine functional through the growing season.
 
   - id: vine-water-season-001
     type: mcq
@@ -833,16 +827,16 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: A mild water squeeze is most useful after which stage of the vine’s year?
+      question: When is a controlled water deficit commonly used to restrain shoot growth and berry size without directly starving early establishment?
       choices:
-        - { text: "Budburst", correct: false }
-        - { text: "Véraison", correct: true }
-        - { text: "Flowering", correct: false }
-        - { text: "Winter dormancy", correct: false }
+        - { text: "After fruit set and before véraison", correct: true }
+        - { text: "From budburst through flowering", correct: false }
+        - { text: "Only after severe leaf wilting begins at véraison", correct: false }
+        - { text: "During winter dormancy, before roots become active", correct: false }
       explanation: |
-        **Véraison.** Early water feeds shoots and fruit set; a
-        mild squeeze after véraison steers sugar into the berries.
-        Drought at budburst or flowering is a problem, not a tool.
+        Regulated deficit irrigation is often applied between fruit set and véraison, when moderate
+        stress can curb vegetative growth and limit berry expansion. The exact timing and severity
+        depend on cultivar, site and production goal; severe stress can reduce yield or delay ripening.
 
   - id: vine-nutrient-vigour-001
     type: mcq
