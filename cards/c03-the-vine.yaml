@@ -430,15 +430,14 @@ cards:
     en:
       question: If a hot summer also leaves the vine short of water, what can happen in the vineyard?
       choices:
-        - { text: "Berries always finish riper and healthier", correct: false }
-        - { text: "Ripening can stall; the vine may drop leaves and can die", correct: true }
-        - { text: "The vine switches to taking water from the air only", correct: false }
-        - { text: "Winter dormancy starts the same afternoon", correct: false }
+        - { text: "Severe stress can close stomata, stall ripening, cause leaf loss and eventually kill vines", correct: true }
+        - { text: "Severe stress increases transpiration, keeping leaves cool and photosynthesis near its maximum", correct: false }
+        - { text: "Water shortage speeds berry growth because roots redirect moisture from the trunk", correct: false }
+        - { text: "Deep roots make grapevines insensitive to prolonged deficits in the accessible soil", correct: false }
       explanation: |
-        **Ripening can stall; the vine may drop leaves and can die.**
-        Without water the canopy shuts down, so sugar and flavour stop
-        moving into the fruit. A mild deficit is a separate, useful
-        squeeze; this is severe drought.
+        Stomatal closure conserves water but also limits carbon dioxide uptake and evaporative cooling.
+        If stress intensifies, photosynthesis and ripening decline, leaves may abscise and hydraulic
+        failure can kill tissue or whole vines. A controlled mild deficit is a different condition.
 
   - id: vine-photosynthesis-light-001
     type: mcq
@@ -452,15 +451,14 @@ cards:
     en:
       question: In a shaded or cloudy canopy, what most often limits how fast photosynthesis can run?
       choices:
-        - { text: "The brand of trellis post", correct: false }
-        - { text: "How much light reaches the leaves", correct: true }
-        - { text: "Only the colour of the grapes after harvest", correct: false }
-        - { text: "The amount of SO2 in the picking bin", correct: false }
+        - { text: "Light intensity at the leaf surface", correct: true }
+        - { text: "Mineral concentration in ripe berry juice", correct: false }
+        - { text: "Age of the permanent trunk wood", correct: false }
+        - { text: "Number of seeds inside each berry", correct: false }
       explanation: |
-        **How much light reaches the leaves.** Carbon-fixing rate
-        climbs with light until the leaf saturates. Heat, water and
-        carbon dioxide also constrain the process; light is the usual
-        first brake inside a dense or overcast canopy.
+        Photosynthetic rate rises with usable light until the leaf reaches saturation. Water status,
+        carbon dioxide and temperature also constrain the process, but low irradiance is the direct
+        limitation in a deeply shaded or overcast canopy.
 
   - id: vine-habitat-woodland-001
     type: mcq
@@ -472,16 +470,16 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Wild Vitis climbs and fruits in which kind of landscape?
+      question: Which habitat best matches the natural climbing habit of many wild Vitis species?
       choices:
-        - { text: "Open desert with no trees", correct: false }
-        - { text: "Woodland", correct: true }
-        - { text: "Deep ocean", correct: false }
-        - { text: "Permanent ice fields", correct: false }
+        - { text: "Woodland margins and riparian forests with trees for support", correct: true }
+        - { text: "Open semi-arid grassland with no taller woody vegetation", correct: false }
+        - { text: "High alpine heath above the natural tree line", correct: false }
+        - { text: "Waterlogged salt marsh exposed to regular tidal flooding", correct: false }
       explanation: |
-        **Woodland.** Wild *Vitis* is a climbing liana that uses trees
-        as a scaffold. Vineyards are a managed version of that habit,
-        not a desert or alpine plant.
+        Wild grapevines are lianas: they use neighbouring trees and shrubs as support while climbing
+        towards light. Vineyard stakes and trellises manage this inherited growth habit in a regular,
+        accessible form.
 
   - id: vine-habitat-canopy-001
     type: mcq
@@ -493,16 +491,16 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: In woodland, when does a wild grapevine usually flower and fruit?
+      question: Why does a wild grapevine tend to flower and fruit most successfully after reaching a well-lit woodland canopy?
       choices:
-        - { text: "Only while the shoot is still on the forest floor", correct: false }
-        - { text: "Once the vine has broken through the tree canopy", correct: true }
-        - { text: "Only in complete darkness underground", correct: false }
-        - { text: "Never; wild vines do not fruit", correct: false }
+        - { text: "Greater light supports photosynthesis and the carbon cost of reproduction", correct: true }
+        - { text: "Higher wind speed replaces the need for leaf photosynthesis", correct: false }
+        - { text: "Tree shade raises berry temperature and guarantees seed formation", correct: false }
+        - { text: "Contact with branches changes vegetative shoots directly into flowers", correct: false }
       explanation: |
-        **Once the vine has broken through the tree canopy.** The
-        liana spends its energy climbing; flower and fruit wait until
-        the shoot is up in the sun.
+        A climbing vine can invest first in reaching stronger light, where its leaves can support the
+        high carbon demand of flowering and fruit development. The response is physiological rather
+        than a direct conversion triggered by touching a tree.
 
   - id: vine-habitat-dispersal-001
     type: mcq
@@ -514,17 +512,16 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Why does fruiting only after a wild vine reaches the woodland canopy help the species spread?
+      question: How does fruiting in a well-lit woodland canopy aid the natural dispersal of wild grapevines?
       choices:
-        - { text: "The fruit is hidden from every animal", correct: false }
-        - { text: "The berries sit in the light, easier for animals to find and then sow the seeds", correct: true }
-        - { text: "Birds cannot see colour at canopy height", correct: false }
-        - { text: "Seeds only germinate in total darkness", correct: false }
+        - { text: "Visible ripe berries attract animals that carry or deposit the seeds elsewhere", correct: true }
+        - { text: "Direct sun makes seeds airborne so they disperse independently of animals", correct: false }
+        - { text: "Canopy height prevents animals eating the fruit before seeds become viable", correct: false }
+        - { text: "Light causes mature berries to root directly while still attached to the vine", correct: false }
       explanation: |
-        **The berries sit in the light, easier for animals to find and
-        then sow the seeds.** Ripe bunches at the treetop are a signal
-        to birds and mammals. Light for ripening is a bonus; seed
-        movement is the reason the timing helps the species.
+        Colourful, exposed berries are easier for birds and mammals to find. Animals consume the fruit
+        and move the seeds away from the parent plant, helping the species colonise new supports and
+        habitats.
 
   - id: vine-water-jobs-001
     type: mcq
@@ -538,16 +535,14 @@ cards:
     en:
       question: Which three jobs does water do for a grapevine in the growing season?
       choices:
-        - { text: "It only dissolves oak flavour in the barrel", correct: false }
-        - { text: "It stiffens shoots and leaves, helps cool the vine, and swells the berries", correct: true }
-        - { text: "It replaces photosynthesis entirely", correct: false }
-        - { text: "It is used only to wash the graft union", correct: false }
+        - { text: "Maintains cell turgor, enables evaporative cooling and contributes to berry growth", correct: true }
+        - { text: "Raises soil salinity, closes stomata and prevents berries from expanding", correct: false }
+        - { text: "Replaces mineral nutrition, fixes carbon and supplies heat to the canopy", correct: false }
+        - { text: "Hardens dormant buds, lowers humidity and stops all respiratory losses", correct: false }
       explanation: |
-        **It stiffens shoots and leaves, helps cool the vine, and
-        swells the berries.** Turgor keeps the canopy upright;
-        evaporative loss dumps heat; berries fill with water as they
-        grow. Water is also a photosynthesis ingredient — that is an
-        extra use, not a fourth member of that list.
+        Water pressure keeps soft tissues expanded, transpiration removes heat from leaves and water
+        forms much of the berry's volume. It also transports dissolved substances and is a reactant in
+        photosynthesis, so the three functions are a learning framework rather than an exhaustive list.
 
   - id: vine-transpiration-001
     type: mcq
@@ -561,16 +556,14 @@ cards:
     en:
       question: What is transpiration in a grapevine?
       choices:
-        - { text: "The root's active pumping of minerals with no water movement", correct: false }
-        - { text: "Water vapour leaving the leaves, which pulls more water up from the roots", correct: true }
-        - { text: "Sugar moving from berry to root in winter only", correct: false }
-        - { text: "The join of scion and rootstock at the callus", correct: false }
+        - { text: "Water vapour leaves mainly through stomata, helping draw water through the vine", correct: true }
+        - { text: "Liquid water moves from leaves to roots through phloem as sugars accumulate", correct: false }
+        - { text: "Roots consume oxygen and release carbon dioxide while producing new tissue", correct: false }
+        - { text: "Mineral ions diffuse from the soil into roots without accompanying water flow", correct: false }
       explanation: |
-        **Water vapour leaving the leaves, which pulls more water up
-        from the roots.** Loss through the stomata creates the
-        transpiration stream; roots do not push the column by
-        themselves. That is the opposite of calling transpiration
-        "how the vine drinks."
+        Evaporation from moist leaf surfaces and diffusion through stomata create tension in the xylem,
+        drawing a continuous water column upwards. Transpiration also cools leaves but can intensify
+        water stress when atmospheric demand is high.
 
   - id: vine-water-use-heat-001
     type: mcq
@@ -582,17 +575,16 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which climate factor most increases how much water a vine transpires, all else equal?
+      question: Holding relative humidity, wind and leaf area constant, what does higher air temperature usually do to grapevine transpiration?
       choices:
-        - { text: "Colder nights in winter dormancy", correct: false }
-        - { text: "Higher temperature", correct: true }
-        - { text: "The variety's clone number alone", correct: false }
-        - { text: "How dark the bottle glass is", correct: false }
+        - { text: "It usually increases transpiration by raising atmospheric demand for water", correct: true }
+        - { text: "It usually decreases transpiration by lowering the vapour-pressure deficit", correct: false }
+        - { text: "It leaves transpiration unchanged because stomata respond to light alone", correct: false }
+        - { text: "It reverses xylem flow so water moves from leaves back to roots", correct: false }
       explanation: |
-        **Higher temperature.** Heat raises the air's demand for water,
-        so more vapour leaves the leaves. Wind, humidity and leaf area
-        also matter; temperature is the usual first driver in a hot
-        spell.
+        Warmer air can hold more water vapour, so at unchanged relative humidity it increases the
+        vapour-pressure deficit and potential water loss. Actual transpiration also depends on stomatal
+        closure, wind, radiation, humidity and soil water availability.
 
   - id: vine-mild-deficit-001
     type: mcq
@@ -604,17 +596,16 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Why can a mild water deficit help grape ripening?
+      question: Why can a controlled moderate water deficit after canopy establishment improve vine balance?
       choices:
-        - { text: "The vine stops photosynthesis completely and lives on tannin", correct: false }
-        - { text: "The vine still photosynthesises, but steers sugar from shoot growth into the berries", correct: true }
-        - { text: "Every leaf drops on the first dry day, which concentrates flavour", correct: false }
-        - { text: "Mild drought turns the vine into a new hybrid", correct: false }
+        - { text: "It restrains further shoot growth without necessarily stopping canopy photosynthesis", correct: true }
+        - { text: "It stimulates lateral shoot growth and creates a denser, more shaded canopy", correct: false }
+        - { text: "It prevents roots taking up minerals while increasing berry water content", correct: false }
+        - { text: "It accelerates transpiration until leaves lose turgor and ripening stops", correct: false }
       explanation: |
-        **The vine still photosynthesises, but steers sugar from shoot
-        growth into the berries.** A moderate squeeze after the canopy
-        is built slows laterals so fruit is the sink. Severe drought is
-        the opposite — ripening stalls.
+        Moderate deficit can slow unwanted vegetative growth, improve fruit-zone exposure and help
+        balance canopy and crop while leaves remain functional. The result depends on timing and
+        severity; excessive stress closes stomata and restricts ripening.
 
   - id: vine-rain-flowering-001
     type: mcq
@@ -626,16 +617,16 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which two stages of the vine year does rain most often disrupt?
+      question: What is a major consequence of cold, rainy weather during grapevine flowering?
       choices:
-        - { text: "Only winter dormancy and barrel ageing", correct: false }
-        - { text: "Flowering and fruit set", correct: true }
-        - { text: "Only the grafting of the rootstock in the nursery", correct: false }
-        - { text: "Only the moment the cork is inserted", correct: false }
+        - { text: "Poor fertilisation and fruit set, reducing or making bunches uneven", correct: true }
+        - { text: "Earlier véraison because flowers accumulate sugar before berries form", correct: false }
+        - { text: "Greater bud fertility because rain warms the inflorescences", correct: false }
+        - { text: "Faster berry dehydration because wet flowers transpire more rapidly", correct: false }
       explanation: |
-        **Flowering and fruit set.** Wet, cold bloom washes or chills
-        pollen, so fewer flowers become berries (coulure, millerandage).
-        Rain at harvest is a later rot risk, not the same disruption.
+        Unfavourable bloom weather can interfere with cap fall, pollination and fertilisation, causing
+        coulure or uneven berry development. Rain near harvest creates different risks, including
+        dilution, splitting and rot.
 
   - id: vine-drip-define-001
     type: mcq
