@@ -13,17 +13,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: West of the Cascades, Oregon vineyards are grouped into which two broad belts?
+      question: "Which pairing best summarises Oregon’s two principal wine zones west of the Cascade Range?"
       choices:
-        - { text: "Willamette Valley and Columbia Valley", correct: false }
-        - { text: "Northern Oregon and Southern Oregon", correct: true }
-        - { text: "Umpqua Valley and Rogue Valley", correct: false }
-        - { text: "Columbia Gorge and Applegate Valley", correct: false }
+        - { text: "Willamette Valley in the north and Southern Oregon in the south", correct: true }
+        - { text: "Columbia Valley in the north and Yakima Valley in the south", correct: false }
+        - { text: "Walla Walla Valley in the north and Finger Lakes in the south", correct: false }
+        - { text: "Rogue Valley in the north and Puget Sound in the south", correct: false }
       explanation: |
-        **Northern Oregon and Southern Oregon.** Willamette Valley
-        anchors the north; Southern Oregon AVA is the warmer south.
-        Shared Columbia Valley land east of the Cascades is a
-        separate, drier story.
+        Willamette Valley dominates western Oregon’s cooler north, while the Southern Oregon AVA
+        encompasses warmer districts farther south. Oregon also shares drier, east-of-Cascades
+        regions, but they form a different climatic setting.
+    fr:
+      question: "Quelle association résume le mieux les deux principales zones viticoles de l’Oregon situées à l’ouest de la chaîne des Cascades ?"
+      choices:
+        - { text: "La Willamette Valley au nord et le Southern Oregon au sud", correct: true }
+        - { text: "La Columbia Valley au nord et la Yakima Valley au sud", correct: false }
+        - { text: "La Walla Walla Valley au nord et les Finger Lakes au sud", correct: false }
+        - { text: "La Rogue Valley au nord et Puget Sound au sud", correct: false }
+      explanation: |
+        La Willamette Valley domine le nord plus frais de l’Oregon occidental, tandis que l’AVA
+        Southern Oregon englobe des secteurs plus chauds au sud. L’Oregon partage aussi des régions
+        plus sèches à l’est des Cascades, dans un autre contexte climatique.
 
   - id: oregon-willamette-001
     type: mcq
@@ -35,16 +45,27 @@ cards:
       fact_check: pass
       sources: [spec, aoc-site]
     en:
-      question: Which AVA is the core northern Oregon wine district?
+      question: "Which AVA forms the centre of Oregon’s cool-climate wine industry?"
       choices:
-        - { text: "Columbia Valley AVA", correct: false }
-        - { text: "Willamette Valley AVA", correct: true }
         - { text: "Rogue Valley AVA", correct: false }
-        - { text: "Yakima Valley AVA", correct: false }
+        - { text: "Willamette Valley AVA", correct: true }
+        - { text: "Columbia Gorge AVA", correct: false }
+        - { text: "Snake River Valley AVA", correct: false }
       explanation: |
-        **Willamette Valley AVA.** It is the northern Oregon
-        flagship, not the rain-shadow country east of the Cascades
-        and not the warmer Rogue basin.
+        Willamette Valley is Oregon’s principal wine region and contains most of the state’s
+        vineyards and wineries. Its reputation rests especially on Pinot Noir, supported by Pinot
+        Gris and Chardonnay.
+    fr:
+      question: "Quelle AVA constitue le cœur de la production de vins de climat frais en Oregon ?"
+      choices:
+        - { text: "Rogue Valley AVA", correct: false }
+        - { text: "Willamette Valley AVA", correct: true }
+        - { text: "Columbia Gorge AVA", correct: false }
+        - { text: "Snake River Valley AVA", correct: false }
+      explanation: |
+        La Willamette Valley est la principale région viticole de l’Oregon et rassemble la majorité
+        des vignobles et domaines de l’État. Sa réputation repose surtout sur le Pinot Noir,
+        complété par le Pinot Gris et le Chardonnay.
 
   - id: oregon-willamette-location-001
     type: mcq
@@ -56,16 +77,26 @@ cards:
       fact_check: pass
       sources: [aoc-site]
     en:
-      question: Which location is correct for Willamette Valley AVA?
+      question: "Which description correctly locates the Willamette Valley AVA?"
       choices:
-        - { text: "East of the Cascades, inland from Portland in the Columbia rain shadow", correct: false }
-        - { text: "West of the Cascades, stretching south from Portland", correct: true }
-        - { text: "West of the Cascades, north of Portland on the Puget Sound shore", correct: false }
-        - { text: "West of the Cascades, far south of Portland inside Rogue Valley AVA", correct: false }
+        - { text: "East of the Cascades, between Yakima and the Canadian border", correct: false }
+        - { text: "On the Pacific coast, entirely west of the Coast Range", correct: false }
+        - { text: "Between the Coast Range and Cascades, running south from near Portland", correct: true }
+        - { text: "In southern Oregon, entirely within the Rogue Valley AVA", correct: false }
       explanation: |
-        **West of the Cascades, stretching south from Portland.**
-        Willamette Valley AVA lies between the Coast Range and the
-        Cascades, not in Washington’s irrigated desert.
+        The AVA follows the Willamette River valley from near the Columbia River and Portland south
+        towards Eugene. The Coast Range lies to its west and the Cascade Range to its east.
+    fr:
+      question: "Quelle description situe correctement la Willamette Valley AVA ?"
+      choices:
+        - { text: "À l’est des Cascades, entre Yakima et la frontière canadienne", correct: false }
+        - { text: "Sur la côte pacifique, entièrement à l’ouest de la chaîne côtière", correct: false }
+        - { text: "Entre la chaîne côtière et les Cascades, vers le sud depuis Portland", correct: true }
+        - { text: "Dans le sud de l’Oregon, entièrement au sein de la Rogue Valley AVA", correct: false }
+      explanation: |
+        L’AVA suit la vallée de la rivière Willamette depuis les environs du fleuve Columbia et de
+        Portland vers Eugene au sud. La chaîne côtière se trouve à l’ouest et la chaîne des Cascades
+        à l’est.
 
   - id: oregon-willamette-scale-001
     type: mcq
@@ -77,16 +108,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which AVA holds most of Oregon's vines?
+      question: "Which statement best describes the Willamette Valley’s importance within Oregon wine production?"
       choices:
-        - { text: "Columbia Valley AVA", correct: false }
-        - { text: "Willamette Valley AVA", correct: true }
-        - { text: "Rogue Valley AVA", correct: false }
-        - { text: "Umpqua Valley AVA", correct: false }
+        - { text: "It is a secondary region whose vineyard area is much smaller than Southern Oregon’s", correct: false }
+        - { text: "It is Oregon’s main winery centre, but most of the state’s vineyards lie east of the Cascades", correct: false }
+        - { text: "It is Oregon’s largest wine centre, holding most of the state’s vineyards and wineries", correct: true }
+        - { text: "It holds most of Oregon’s vineyards, but relatively few wineries and a limited AVA hierarchy", correct: false }
       explanation: |
-        **Willamette Valley AVA.** Most Oregon vines and cellars
-        sit there. Southern Oregon and the shared Columbia Valley
-        belts are real, but they are much smaller in cellar count.
+        Willamette Valley accounts for the clear majority of Oregon’s vineyards and wineries. It is
+        also a large umbrella AVA containing numerous nested AVAs, whose soils, exposure and wind
+        patterns create meaningful local variation.
+    fr:
+      question: "Quelle proposition décrit le mieux l’importance de la Willamette Valley dans la production viticole de l’Oregon ?"
+      choices:
+        - { text: "C’est une région secondaire dont la surface viticole est bien inférieure à celle du Southern Oregon", correct: false }
+        - { text: "C’est le principal centre de vinification, mais la plupart des vignes de l’État sont à l’est des Cascades", correct: false }
+        - { text: "C’est le principal centre viticole de l’Oregon, avec la majorité de ses vignobles et domaines", correct: true }
+        - { text: "Elle réunit la plupart des vignes, mais relativement peu de domaines et une hiérarchie d’AVA limitée", correct: false }
+      explanation: |
+        La Willamette Valley rassemble une nette majorité des vignobles et domaines de l’Oregon.
+        Cette vaste AVA mère contient aussi de nombreuses AVA imbriquées, dont les sols,
+        l’exposition et les vents créent des différences locales significatives.
 
   - id: oregon-willamette-climate-001
     type: mcq
@@ -98,16 +140,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which climate class fits Willamette Valley AVA?
+      question: "Which climate pattern best characterises the Willamette Valley AVA?"
       choices:
-        - { text: "Hot, arid continental desert", correct: false }
-        - { text: "Moderate, with a maritime tilt", correct: true }
-        - { text: "Tropical monsoon", correct: false }
-        - { text: "Permanently alpine and frozen", correct: false }
+        - { text: "Cool to moderate, with maritime influence and relatively dry summers", correct: true }
+        - { text: "Hot and arid, with no meaningful ocean influence", correct: false }
+        - { text: "Continental and humid, with summer rainfall at its annual maximum", correct: false }
+        - { text: "Mediterranean-hot, with warm nights and severe summer drought", correct: false }
       explanation: |
-        **Moderate, with a maritime tilt.** Willamette Valley AVA
-        is cool-moderate, not the hot rain-shadow east of the
-        Cascades and not tropical.
+        Willamette Valley has a cool-to-moderate climate influenced by the Pacific. Most rain falls
+        outside summer; the growing season is comparatively dry, while cool nights and autumn
+        weather risk shape ripening decisions.
+    fr:
+      question: "Quel régime climatique caractérise le mieux la Willamette Valley AVA ?"
+      choices:
+        - { text: "Frais à modéré, sous influence maritime et avec des étés relativement secs", correct: true }
+        - { text: "Chaud et aride, sans influence océanique notable", correct: false }
+        - { text: "Continental et humide, avec un maximum de pluie en été", correct: false }
+        - { text: "Méditerranéen chaud, avec des nuits chaudes et une forte sécheresse estivale", correct: false }
+      explanation: |
+        La Willamette Valley possède un climat frais à modéré influencé par le Pacifique. La plupart
+        des pluies tombent hors de l’été ; la saison végétative est relativement sèche, tandis que
+        les nuits fraîches et le risque automnal influencent la maturation.
 
   - id: oregon-willamette-breeze-001
     type: mcq
@@ -119,16 +172,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What air keeps Willamette Valley AVA from running hot in summer?
+      question: "How does Pacific influence reach vineyards in parts of the Willamette Valley?"
       choices:
-        - { text: "Dry chinook winds off the Rockies only", correct: false }
-        - { text: "Cooling breezes from the Pacific", correct: true }
-        - { text: "Hot Santa Ana winds from inland California", correct: false }
-        - { text: "Humid monsoon air from the Gulf of Mexico", correct: false }
+        - { text: "Through gaps in the Coast Range that channel cooling marine air inland", correct: true }
+        - { text: "Through hot downslope winds crossing the Cascade Range from the east", correct: false }
+        - { text: "Through a summer monsoon travelling north from the Gulf of California", correct: false }
+        - { text: "Through warm currents flowing directly along the Willamette River", correct: false }
       explanation: |
-        **Cooling breezes from the Pacific.** Gaps in the Coast
-        Range let marine air into Willamette Valley AVA. That is
-        not Columbia Valley irrigation country.
+        The Coast Range shelters much of the valley, but openings such as the Van Duzer Corridor
+        admit cool Pacific air. The strength of this influence varies by site and helps explain
+        differences among nested AVAs.
+    fr:
+      question: "Comment l’influence du Pacifique atteint-elle certains vignobles de la Willamette Valley ?"
+      choices:
+        - { text: "Par des trouées dans la chaîne côtière qui canalisent l’air marin frais vers l’intérieur", correct: true }
+        - { text: "Par des vents descendants chauds franchissant les Cascades depuis l’est", correct: false }
+        - { text: "Par une mousson estivale remontant du golfe de Californie", correct: false }
+        - { text: "Par des courants chauds circulant directement dans la rivière Willamette", correct: false }
+      explanation: |
+        La chaîne côtière abrite une grande partie de la vallée, mais des ouvertures comme le Van
+        Duzer Corridor laissent entrer l’air frais du Pacifique. L’intensité de cette influence
+        varie selon les sites et contribue aux différences entre AVA imbriquées.
 
   - id: oregon-willamette-season-001
     type: mcq
@@ -140,16 +204,28 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What is the ripening season like in Willamette Valley AVA?
+      question: "Which growing-season combination supports quality Pinot Noir in the Willamette Valley?"
       choices:
-        - { text: "Wet every afternoon, with warm nights", correct: false }
-        - { text: "Dry, with long sunny days and cool nights", correct: true }
-        - { text: "A summer monsoon that soaks every harvest", correct: false }
-        - { text: "Bone-dry heat with no night cooling", correct: false }
+        - { text: "Short summer days, warm nights and frequent harvest rain", correct: false }
+        - { text: "Long daylight, relatively dry summers and cool nights", correct: true }
+        - { text: "Extreme daytime heat, warm nights and very low summer rainfall", correct: false }
+        - { text: "Abundant summer rain, low sunlight and reliably dry autumns", correct: false }
       explanation: |
-        **Dry, with long sunny days and cool nights.** Winter
-        carries most of the rain; summer in Willamette Valley AVA
-        stays relatively dry, and nights keep acidity.
+        The northerly latitude gives long summer daylight, while relatively dry summers promote
+        ripening and cool nights help retain acidity. Autumn rain remains a vintage risk, so a long
+        season does not guarantee an easy harvest.
+    fr:
+      question: "Quelle combinaison pendant la saison végétative favorise un Pinot Noir de qualité dans la Willamette Valley ?"
+      choices:
+        - { text: "Des journées estivales courtes, des nuits chaudes et des pluies fréquentes aux vendanges", correct: false }
+        - { text: "Un long ensoleillement, des étés relativement secs et des nuits fraîches", correct: true }
+        - { text: "Une chaleur diurne extrême, des nuits chaudes et de très faibles pluies estivales", correct: false }
+        - { text: "Des pluies estivales abondantes, peu de lumière et des automnes régulièrement secs", correct: false }
+      explanation: |
+        La latitude septentrionale procure de longues journées estivales ; les étés relativement
+        secs favorisent la maturation et les nuits fraîches préservent l’acidité. Les pluies
+        automnales restent un risque selon le millésime : une longue saison n’assure pas des
+        vendanges faciles.
 
   - id: oregon-willamette-pinot-001
     type: mcq
@@ -161,16 +237,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which grape is the mainstay of Willamette Valley AVA?
+      question: "Which grape variety is the defining planting of the Willamette Valley?"
       choices:
         - { text: "Cabernet Sauvignon", correct: false }
         - { text: "Pinot Noir", correct: true }
+        - { text: "Syrah", correct: false }
         - { text: "Zinfandel", correct: false }
-        - { text: "Concord", correct: false }
       explanation: |
-        **Pinot Noir.** It is the main planting in Willamette
-        Valley AVA. Pinot Gris and Chardonnay are the usual whites;
-        Cabernet Sauvignon belongs to warmer belts, not this valley.
+        Pinot Noir is the Willamette Valley’s dominant variety and the basis of its international
+        reputation. The region’s moderate temperatures and long season suit gradual flavour
+        development while preserving acidity.
+    fr:
+      question: "Quel cépage constitue la plantation emblématique de la Willamette Valley ?"
+      choices:
+        - { text: "Cabernet Sauvignon", correct: false }
+        - { text: "Pinot Noir", correct: true }
+        - { text: "Syrah", correct: false }
+        - { text: "Zinfandel", correct: false }
+      explanation: |
+        Le Pinot Noir est le cépage dominant de la Willamette Valley et fonde sa réputation
+        internationale. Les températures modérées et la longue saison permettent un développement
+        progressif des arômes tout en préservant l’acidité.
 
   - id: oregon-willamette-pinot-style-001
     type: mcq
@@ -182,17 +269,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What profile is typical of Pinot Noir from Willamette Valley AVA?
+      question: "Which profile is most typical of quality Willamette Valley Pinot Noir?"
       choices:
-        - { text: "Low acid, cooked black fruit, and high alcohol", correct: false }
-        - { text: "High acidity, ripe red fruit, and a light spice note", correct: true }
-        - { text: "Plummy, full Merlot weight with no red fruit", correct: false }
-        - { text: "Fortified, sweet, and oxidative", correct: false }
+        - { text: "Low acidity, jammy black fruit and very high alcohol", correct: false }
+        - { text: "High acidity, red fruit and earthy or spicy complexity", correct: true }
+        - { text: "Deep colour, firm Cabernet-like tannins and cassis", correct: false }
+        - { text: "High sweetness, oxidative nuttiness and fortified alcohol", correct: false }
       explanation: |
-        **High acidity, ripe red fruit, and a light spice note.**
-        Cool nights in Willamette Valley AVA keep the acid; cherry
-        and strawberry lead the fruit. Do not swap this for
-        Washington Cabernet or Merlot.
+        Styles vary with site and vintage, but fresh acidity, cherry or other red-fruit flavours and
+        earthy or spicy complexity are common reference points. Warmer sites and years can give
+        riper fruit and greater body.
+    fr:
+      question: "Quel profil est le plus typique d’un Pinot Noir de qualité de la Willamette Valley ?"
+      choices:
+        - { text: "Une acidité faible, des fruits noirs confiturés et un alcool très élevé", correct: false }
+        - { text: "Une acidité élevée, des fruits rouges et une complexité terreuse ou épicée", correct: true }
+        - { text: "Une couleur profonde, des tanins fermes de type Cabernet et du cassis", correct: false }
+        - { text: "Une forte sucrosité, des notes oxydatives de noix et un alcool fortifié", correct: false }
+      explanation: |
+        Le style varie selon le site et le millésime, mais une acidité fraîche, des arômes de cerise
+        ou d’autres fruits rouges et une complexité terreuse ou épicée sont des repères fréquents.
+        Les sites et années plus chauds donnent davantage de maturité et de corps.
 
   - id: oregon-pinot-gris-001
     type: mcq
@@ -204,16 +301,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Besides Pinot Noir, which white grape is widely grown in northern Oregon?
+      question: "Which white grape is widely planted in the Willamette Valley alongside Pinot Noir and Chardonnay?"
       choices:
-        - { text: "Furmint", correct: false }
         - { text: "Pinot Gris", correct: true }
+        - { text: "Chenin Blanc", correct: false }
         - { text: "Palomino", correct: false }
-        - { text: "Airén", correct: false }
+        - { text: "Furmint", correct: false }
       explanation: |
-        **Pinot Gris.** It is northern Oregon’s main white, ahead
-        of Chardonnay. Riesling leads a different story in
-        Washington and the Finger Lakes.
+        Pinot Gris has long been one of Oregon’s leading white varieties and is especially
+        associated with the Willamette Valley. Chardonnay is also important and has gained
+        increasing attention for premium still and sparkling wines.
+    fr:
+      question: "Quel cépage blanc est largement planté dans la Willamette Valley aux côtés du Pinot Noir et du Chardonnay ?"
+      choices:
+        - { text: "Pinot Gris", correct: true }
+        - { text: "Chenin Blanc", correct: false }
+        - { text: "Palomino", correct: false }
+        - { text: "Furmint", correct: false }
+      explanation: |
+        Le Pinot Gris figure depuis longtemps parmi les principaux cépages blancs de l’Oregon et est
+        particulièrement associé à la Willamette Valley. Le Chardonnay est également important et
+        attire une attention croissante pour les vins tranquilles et effervescents haut de gamme.
 
   - id: oregon-pinot-gris-style-001
     type: mcq
@@ -225,15 +333,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What style is typical of Pinot Gris from northern Oregon?
+      question: "Which style is commonly associated with Oregon Pinot Gris?"
       choices:
-        - { text: "Botrytis-sweet, like Sauternes", correct: false }
-        - { text: "Dry and fruity", correct: true }
-        - { text: "Flor-aged and nutty, like Fino", correct: false }
-        - { text: "Sparkling only, with no still wine", correct: false }
+        - { text: "A dry, fresh white with ripe pear, apple or citrus fruit", correct: true }
+        - { text: "A light, strongly herbaceous white dominated by green pepper", correct: false }
+        - { text: "A low-acid, sweet white dominated by Muscat-like floral aromas", correct: false }
+        - { text: "An oxidative fortified white with walnut and aldehydic notes", correct: false }
       explanation: |
-        **Dry and fruity.** Northern Oregon Pinot Gris is usually
-        a still, dry white, not a sweet or flor wine.
+        Oregon Pinot Gris is most often made as a dry, fruit-led still white, commonly showing pear,
+        apple or citrus. Body and texture vary with site and winemaking, so the category should not
+        be reduced to one exact formula.
+    fr:
+      question: "Quel style est couramment associé au Pinot Gris de l’Oregon ?"
+      choices:
+        - { text: "Un blanc sec et frais aux fruits mûrs de poire, de pomme ou d’agrumes", correct: true }
+        - { text: "Un blanc léger et très végétal dominé par le poivron vert", correct: false }
+        - { text: "Un blanc doux et peu acide dominé par des arômes floraux muscatés", correct: false }
+        - { text: "Un blanc fortifié oxydatif aux notes de noix et d’aldéhydes", correct: false }
+      explanation: |
+        Le Pinot Gris de l’Oregon est le plus souvent un blanc tranquille sec dominé par le fruit,
+        fréquemment la poire, la pomme ou les agrumes. Le corps et la texture varient selon le site
+        et la vinification : il n’existe pas une formule unique.
 
   - id: oregon-southern-location-001
     type: mcq
@@ -245,16 +365,27 @@ cards:
       fact_check: pass
       sources: [aoc-site]
     en:
-      question: Where does Southern Oregon AVA sit relative to Willamette Valley AVA?
+      question: "Where is the Southern Oregon AVA in relation to the Willamette Valley?"
       choices:
-        - { text: "Immediately north of Portland", correct: false }
-        - { text: "Immediately south of Willamette Valley AVA", correct: true }
-        - { text: "East of the Cascades in Yakima Valley AVA", correct: false }
-        - { text: "On Long Island", correct: false }
+        - { text: "Farther south, extending through the Umpqua and Rogue valleys", correct: true }
+        - { text: "Farther north, between Portland and the Canadian border", correct: false }
+        - { text: "Entirely east of the Cascades within Washington State", correct: false }
+        - { text: "On the Pacific coast as a narrow strip west of the Coast Range", correct: false }
       explanation: |
-        **Immediately south of Willamette Valley AVA.** Umpqua
-        Valley AVA begins near the Lane–Douglas line, south of
-        Eugene, still west of the Cascades.
+        Southern Oregon lies south of the Willamette Valley and is an umbrella AVA covering the
+        Umpqua Valley, Rogue Valley and their nested appellations. It remains principally west of
+        the Cascade Range.
+    fr:
+      question: "Où se situe la Southern Oregon AVA par rapport à la Willamette Valley ?"
+      choices:
+        - { text: "Plus au sud, à travers les vallées de l’Umpqua et de la Rogue", correct: true }
+        - { text: "Plus au nord, entre Portland et la frontière canadienne", correct: false }
+        - { text: "Entièrement à l’est des Cascades dans l’État de Washington", correct: false }
+        - { text: "Sur la côte pacifique, en bande étroite à l’ouest de la chaîne côtière", correct: false }
+      explanation: |
+        Le Southern Oregon se trouve au sud de la Willamette Valley. Cette AVA mère couvre l’Umpqua
+        Valley, la Rogue Valley et leurs appellations imbriquées, principalement à l’ouest de la
+        chaîne des Cascades.
 
   - id: oregon-southern-avas-001
     type: mcq
@@ -266,17 +397,27 @@ cards:
       fact_check: pass
       sources: [aoc-site]
     en:
-      question: Which pair of smaller AVAs sits inside Southern Oregon AVA?
+      question: "Which two major AVAs are contained within the Southern Oregon AVA?"
       choices:
-        - { text: "Dundee Hills AVA and Eola-Amity Hills AVA", correct: false }
-        - { text: "Umpqua Valley AVA and Rogue Valley AVA", correct: true }
-        - { text: "Columbia Valley AVA and Columbia Gorge AVA", correct: false }
-        - { text: "Chehalem Mountains AVA and Yamhill-Carlton AVA", correct: false }
+        - { text: "Umpqua Valley and Rogue Valley", correct: true }
+        - { text: "Dundee Hills and Eola-Amity Hills", correct: false }
+        - { text: "Columbia Gorge and Walla Walla Valley", correct: false }
+        - { text: "Yakima Valley and Horse Heaven Hills", correct: false }
       explanation: |
-        **Umpqua Valley AVA and Rogue Valley AVA.** Southern
-        Oregon AVA also covers Applegate Valley, Elkton Oregon,
-        and Red Hill Douglas County. Dundee Hills and Eola-Amity
-        Hills sit inside Willamette Valley AVA, not here.
+        Umpqua Valley and Rogue Valley are the two major components of the Southern Oregon umbrella
+        AVA. Elkton Oregon and Red Hill Douglas County nest within Umpqua, while Applegate Valley
+        nests within Rogue.
+    fr:
+      question: "Quelles sont les deux grandes AVA comprises dans la Southern Oregon AVA ?"
+      choices:
+        - { text: "Umpqua Valley et Rogue Valley", correct: true }
+        - { text: "Dundee Hills et Eola-Amity Hills", correct: false }
+        - { text: "Columbia Gorge et Walla Walla Valley", correct: false }
+        - { text: "Yakima Valley et Horse Heaven Hills", correct: false }
+      explanation: |
+        L’Umpqua Valley et la Rogue Valley sont les deux grandes composantes de l’AVA mère Southern
+        Oregon. Elkton Oregon et Red Hill Douglas County sont imbriquées dans l’Umpqua, tandis que
+        l’Applegate Valley l’est dans la Rogue.
 
   - id: oregon-southern-warmest-001
     type: mcq
@@ -288,16 +429,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Among Oregon’s west-of-Cascades AVAs, which has the warmest growing conditions?
+      question: "How do Southern Oregon’s growing conditions generally compare with those of the Willamette Valley?"
       choices:
-        - { text: "Willamette Valley AVA", correct: false }
-        - { text: "Southern Oregon AVA", correct: true }
-        - { text: "Elkton Oregon AVA", correct: false }
-        - { text: "Chehalem Mountains AVA", correct: false }
+        - { text: "They are generally warmer, though topography creates substantial variation", correct: true }
+        - { text: "They are generally cooler because their vineyards sit at substantially higher elevations", correct: false }
+        - { text: "They are similarly cool because both regions receive the same degree of Pacific influence", correct: false }
+        - { text: "They are generally wetter and cloudier in summer because they lie closer to the Pacific", correct: false }
       explanation: |
-        **Southern Oregon AVA.** Rogue Valley AVA in particular
-        runs warmer than Willamette Valley AVA. Oregon is not
-        cool Pinot country in every valley.
+        Southern Oregon is generally warmer and supports a broader range of warm-climate grapes. Its
+        complex valleys, elevations and differing ocean exposure nevertheless create cool pockets as
+        well as warm, dry sites.
+    fr:
+      question: "Comment les conditions de maturation du Southern Oregon se comparent-elles généralement à celles de la Willamette Valley ?"
+      choices:
+        - { text: "Elles sont généralement plus chaudes, malgré d’importantes variations dues au relief", correct: true }
+        - { text: "Elles sont généralement plus fraîches car les vignobles se trouvent à des altitudes nettement supérieures", correct: false }
+        - { text: "Elles sont aussi fraîches car les deux régions reçoivent la même influence du Pacifique", correct: false }
+        - { text: "Elles sont généralement plus humides et nuageuses en été en raison de leur proximité avec le Pacifique", correct: false }
+      explanation: |
+        Le Southern Oregon est généralement plus chaud et accueille davantage de cépages de climat
+        chaud. La complexité de ses vallées, de ses altitudes et de l’exposition océanique crée
+        néanmoins des poches fraîches autant que des sites chauds et secs.
 
   - id: oregon-southern-cool-sites-001
     type: mcq
@@ -309,16 +461,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: How can Southern Oregon AVA still ripen cool-climate grapes?
+      question: "Why can cool-climate varieties succeed within the generally warmer Southern Oregon AVA?"
       choices:
-        - { text: "A legal ban on summer heat", correct: false }
-        - { text: "Cooler pockets on hillsides and in some valleys", correct: true }
-        - { text: "Only by trucking fruit from Willamette Valley AVA", correct: false }
-        - { text: "Nightly frost that never lets sugar form", correct: false }
+        - { text: "Higher elevations, northern valleys and marine-influenced sites provide cooler mesoclimates", correct: true }
+        - { text: "Its more southerly latitude shortens the growing season and delays ripening", correct: false }
+        - { text: "Irrigation lowers regional air temperatures enough to offset the warmer latitude", correct: false }
+        - { text: "The Cascades funnel cold continental air across the valley floors during summer", correct: false }
       explanation: |
-        **Cooler pockets on hillsides and in some valleys.**
-        Northern Umpqua and higher slopes stay cool enough for
-        Pinot Noir, while lower Rogue sites suit Cabernet.
+        Southern Oregon is climatically diverse. The northern Umpqua area around Elkton has stronger
+        maritime influence, while elevation and aspect cool other sites; warmer, more arid
+        conditions become more important farther south.
+    fr:
+      question: "Pourquoi des cépages de climat frais peuvent-ils réussir dans la Southern Oregon AVA, globalement plus chaude ?"
+      choices:
+        - { text: "L’altitude, les vallées du nord et les sites sous influence maritime créent des mésoclimats plus frais", correct: true }
+        - { text: "Sa latitude plus méridionale raccourcit la saison végétative et retarde la maturation", correct: false }
+        - { text: "L’irrigation abaisse assez la température régionale pour compenser la latitude plus chaude", correct: false }
+        - { text: "Les Cascades canalisent de l’air continental froid sur le fond des vallées pendant l’été", correct: false }
+      explanation: |
+        Le Southern Oregon présente une forte diversité climatique. Le nord de l’Umpqua autour
+        d’Elkton subit davantage l’influence maritime ; l’altitude et l’exposition rafraîchissent
+        d’autres sites, tandis que le sud devient plus chaud et plus aride.
 
   - id: oregon-southern-warm-grapes-001
     type: mcq
@@ -330,16 +493,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which black grapes succeed in the warmer parts of Southern Oregon AVA?
+      question: "Which group of black grapes is especially associated with warmer sites in Southern Oregon?"
       choices:
-        - { text: "Only Concord and Niagara", correct: false }
-        - { text: "Cabernet Sauvignon, Merlot, and Syrah", correct: true }
-        - { text: "Only Pinot Noir, with no Bordeaux grapes", correct: false }
-        - { text: "Only Palomino and Pedro Ximénez", correct: false }
+        - { text: "Cabernet Sauvignon, Merlot and Syrah", correct: true }
+        - { text: "Pinot Noir, Gamay and Pinot Meunier", correct: false }
+        - { text: "Concord, Catawba and Maréchal Foch", correct: false }
+        - { text: "Nebbiolo, Schiava and Poulsard", correct: false }
       explanation: |
-        **Cabernet Sauvignon, Merlot, and Syrah.** Warmer Rogue
-        and southern Umpqua sites can ripen those grapes. Pinot
-        Noir still belongs on the cooler Southern Oregon slopes.
+        Warm sites in the Rogue and southern Umpqua valleys can ripen Cabernet Sauvignon, Merlot and
+        Syrah; Tempranillo is also important. The region’s climatic diversity means these coexist
+        with cool-climate varieties elsewhere.
+    fr:
+      question: "Quel groupe de cépages noirs est particulièrement associé aux sites les plus chauds du Southern Oregon ?"
+      choices:
+        - { text: "Cabernet Sauvignon, Merlot et Syrah", correct: true }
+        - { text: "Pinot Noir, Gamay et Pinot Meunier", correct: false }
+        - { text: "Concord, Catawba et Maréchal Foch", correct: false }
+        - { text: "Nebbiolo, Schiava et Poulsard", correct: false }
+      explanation: |
+        Les sites chauds de la Rogue Valley et du sud de l’Umpqua peuvent mûrir le Cabernet
+        Sauvignon, le Merlot et la Syrah ; le Tempranillo est également important. La diversité
+        climatique permet leur coexistence avec des cépages de climat frais ailleurs.
 
   - id: oregon-southern-cool-grapes-001
     type: mcq
@@ -351,16 +525,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which cooler-climate grapes still work in Southern Oregon AVA’s cooler valleys and slopes?
+      question: "Which group is most suited to Southern Oregon’s cooler valleys and slopes?"
       choices:
-        - { text: "Only Zinfandel and Petite Sirah", correct: false }
-        - { text: "Pinot Noir, Chardonnay, and Pinot Gris", correct: true }
-        - { text: "Only Touriga Nacional", correct: false }
-        - { text: "Only Sangiovese and Nebbiolo, with no Pinot", correct: false }
+        - { text: "Pinot Noir, Chardonnay and Pinot Gris", correct: true }
+        - { text: "Cabernet Sauvignon, Mourvèdre and Touriga Nacional", correct: false }
+        - { text: "Zinfandel, Petite Sirah and Alicante Bouschet", correct: false }
+        - { text: "Grenache, Mataro and warm-site Tempranillo", correct: false }
       explanation: |
-        **Pinot Noir, Chardonnay, and Pinot Gris.** Cooler
-        Southern Oregon pockets keep those grapes in play beside
-        the warmer Cabernet and Syrah sites.
+        Pinot Noir and cool-climate white varieties can succeed in cooler northern, elevated or
+        marine-influenced sites. Matching variety to mesoclimate is central to understanding
+        Southern Oregon’s unusually broad range.
+    fr:
+      question: "Quel groupe convient le mieux aux vallées et coteaux les plus frais du Southern Oregon ?"
+      choices:
+        - { text: "Pinot Noir, Chardonnay et Pinot Gris", correct: true }
+        - { text: "Cabernet Sauvignon, Mourvèdre et Touriga Nacional", correct: false }
+        - { text: "Zinfandel, Petite Sirah et Alicante Bouschet", correct: false }
+        - { text: "Grenache, Mataro et Tempranillo de site chaud", correct: false }
+      explanation: |
+        Le Pinot Noir et les cépages blancs de climat frais réussissent dans les sites
+        septentrionaux, élevés ou sous influence maritime. L’adaptation du cépage au mésoclimat est
+        essentielle pour comprendre la grande diversité du Southern Oregon.
 
   - id: washington-columbia-001
     type: mcq
@@ -372,17 +557,27 @@ cards:
       fact_check: pass
       sources: [spec, aoc-site]
     en:
-      question: Almost all of Washington State's vines sit in which AVA?
+      question: "Which AVA contains more than 99% of Washington State’s vinifera acreage?"
       choices:
-        - { text: "Willamette Valley AVA", correct: false }
-        - { text: "Columbia Valley AVA", correct: true }
         - { text: "Puget Sound AVA", correct: false }
-        - { text: "Napa Valley AVA", correct: false }
+        - { text: "Columbia Valley AVA", correct: true }
+        - { text: "Willamette Valley AVA", correct: false }
+        - { text: "Columbia Gorge AVA", correct: false }
       explanation: |
-        **Columbia Valley AVA.** Almost all Washington vines sit
-        in that large eastern AVA. Puget Sound AVA is a small wet
-        exception west of the Cascades; Willamette Valley AVA is
-        Oregon.
+        The vast Columbia Valley AVA contains more than 99% of Washington’s vinifera acreage and
+        most of the state’s nested AVAs. Puget Sound, Columbia Gorge and Lewis-Clark Valley are
+        notable exceptions outside it.
+    fr:
+      question: "Quelle AVA contient plus de 99 % de la surface plantée en Vitis vinifera de l’État de Washington ?"
+      choices:
+        - { text: "Puget Sound AVA", correct: false }
+        - { text: "Columbia Valley AVA", correct: true }
+        - { text: "Willamette Valley AVA", correct: false }
+        - { text: "Columbia Gorge AVA", correct: false }
+      explanation: |
+        L’immense Columbia Valley AVA contient plus de 99 % de la surface en Vitis vinifera de
+        Washington et la plupart des AVA imbriquées de l’État. Puget Sound, Columbia Gorge et Lewis-
+        Clark Valley constituent des exceptions notables.
 
   - id: washington-columbia-east-001
     type: mcq
@@ -394,16 +589,27 @@ cards:
       fact_check: pass
       sources: [aoc-site]
     en:
-      question: On which side of the Cascade Mountains does Columbia Valley AVA lie?
+      question: "Where does the Columbia Valley AVA lie in relation to the Cascade Range?"
       choices:
-        - { text: "West of the Cascades, on the wet Puget Sound shore", correct: false }
-        - { text: "East of the Cascade Mountains", correct: true }
-        - { text: "Only on the Oregon coast around Coos Bay", correct: false }
-        - { text: "South of Los Angeles", correct: false }
+        - { text: "Wholly east of the Cascades, mostly in Washington with a small part in Oregon", correct: true }
+        - { text: "Wholly west of the Cascades along the wet Puget Sound coast", correct: false }
+        - { text: "Entirely south of the Oregon border in the Willamette Valley", correct: false }
+        - { text: "Across the Coast Range with most vineyards directly beside the Pacific", correct: false }
       explanation: |
-        **East of the Cascade Mountains.** Columbia Valley AVA is
-        rain-shadow country, not the wet western slope and not
-        Willamette Valley AVA.
+        Columbia Valley lies east of the Cascades and extends from central and eastern Washington
+        into north-central Oregon. The mountains block much of the Pacific moisture, creating a dry
+        continental environment.
+    fr:
+      question: "Où se situe la Columbia Valley AVA par rapport à la chaîne des Cascades ?"
+      choices:
+        - { text: "Entièrement à l’est des Cascades, surtout à Washington avec une petite partie en Oregon", correct: true }
+        - { text: "Entièrement à l’ouest des Cascades, le long des côtes humides de Puget Sound", correct: false }
+        - { text: "Entièrement au sud de l’Oregon, dans la Willamette Valley", correct: false }
+        - { text: "À travers la chaîne côtière, avec la plupart des vignes directement près du Pacifique", correct: false }
+      explanation: |
+        La Columbia Valley se trouve à l’est des Cascades et s’étend du centre et de l’est de
+        Washington jusqu’au nord-centre de l’Oregon. Les montagnes bloquent une grande partie de
+        l’humidité du Pacifique et créent un milieu continental sec.
 
   - id: washington-columbia-rivers-001
     type: mcq
@@ -415,16 +621,27 @@ cards:
       fact_check: pass
       sources: [aoc-site]
     en:
-      question: Columbia Valley AVA follows which river system?
+      question: "Which river system gives the Columbia Valley AVA its name and much of its irrigation water?"
       choices:
-        - { text: "The Mississippi and its delta only", correct: false }
-        - { text: "The Columbia River and its tributary valleys", correct: true }
-        - { text: "The Hudson River only", correct: false }
-        - { text: "The Willamette River west of Portland only", correct: false }
+        - { text: "The Columbia River and its tributaries", correct: true }
+        - { text: "The Hudson River and Finger Lakes", correct: false }
+        - { text: "The Mississippi River and its delta", correct: false }
+        - { text: "The Willamette River alone", correct: false }
       explanation: |
-        **The Columbia River and its tributary valleys.** Yakima,
-        Snake, and other feeders sit inside that basin. The
-        Willamette River is the Oregon valley west of the Cascades.
+        The Columbia River cuts through and defines the region; it and tributaries such as the
+        Yakima and Snake supply water to an otherwise arid or semi-arid landscape. Aquifers also
+        contribute to irrigation supply.
+    fr:
+      question: "Quel réseau fluvial donne son nom à la Columbia Valley AVA et fournit une grande partie de son eau d’irrigation ?"
+      choices:
+        - { text: "Le fleuve Columbia et ses affluents", correct: true }
+        - { text: "L’Hudson et les Finger Lakes", correct: false }
+        - { text: "Le Mississippi et son delta", correct: false }
+        - { text: "La seule rivière Willamette", correct: false }
+      explanation: |
+        Le fleuve Columbia traverse et définit la région ; avec ses affluents, comme la Yakima et la
+        Snake, il alimente en eau un paysage par ailleurs aride ou semi-aride. Les nappes
+        souterraines contribuent aussi à l’irrigation.
 
   - id: washington-yakima-walla-walla-001
     type: mcq
@@ -436,18 +653,27 @@ cards:
       fact_check: pass
       sources: [aoc-site]
     en:
-      question: Which pair of smaller AVAs is classically named inside Columbia Valley AVA?
+      question: "Which pair consists of important AVAs nested within the Columbia Valley?"
       choices:
-        - { text: "Willamette Valley AVA and Rogue Valley AVA", correct: false }
-        - { text: "Yakima Valley AVA and Walla Walla Valley AVA", correct: true }
-        - { text: "Seneca Lake AVA and Cayuga Lake AVA", correct: false }
-        - { text: "Los Carneros AVA and Sta. Rita Hills AVA", correct: false }
+        - { text: "Yakima Valley and Walla Walla Valley", correct: true }
+        - { text: "Willamette Valley and Southern Oregon", correct: false }
+        - { text: "Finger Lakes and Long Island", correct: false }
+        - { text: "Napa Valley and Sonoma Valley", correct: false }
       explanation: |
-        **Yakima Valley AVA and Walla Walla Valley AVA.** Use the
-        official Walla Walla Valley name. Horse Heaven Hills AVA
-        is another important nested district; it is not a
-        Willamette sub-zone. Walla Walla Valley AVA also crosses
-        into Oregon.
+        Yakima Valley and Walla Walla Valley are major sub-appellations of Columbia Valley. Yakima
+        is Washington’s oldest AVA, while Walla Walla spans southeastern Washington and northeastern
+        Oregon.
+    fr:
+      question: "Quelle paire se compose d’AVA importantes imbriquées dans la Columbia Valley ?"
+      choices:
+        - { text: "Yakima Valley et Walla Walla Valley", correct: true }
+        - { text: "Willamette Valley et Southern Oregon", correct: false }
+        - { text: "Finger Lakes et Long Island", correct: false }
+        - { text: "Napa Valley et Sonoma Valley", correct: false }
+      explanation: |
+        La Yakima Valley et la Walla Walla Valley sont deux grandes sous-appellations de la Columbia
+        Valley. Yakima est la plus ancienne AVA de Washington ; Walla Walla s’étend du sud-est de
+        Washington au nord-est de l’Oregon.
 
   - id: washington-nested-avas-001
     type: mcq
@@ -459,17 +685,27 @@ cards:
       fact_check: pass
       sources: [aoc-site]
     en:
-      question: Where do Yakima Valley AVA and Walla Walla Valley AVA sit?
+      question: "Which Columbia Valley sub-appellation crosses the border between Washington and Oregon?"
       choices:
-        - { text: "Inside Willamette Valley AVA", correct: false }
-        - { text: "Inside Columbia Valley AVA", correct: true }
-        - { text: "Inside Finger Lakes AVA", correct: false }
-        - { text: "Inside Napa Valley AVA", correct: false }
+        - { text: "Yakima Valley AVA", correct: false }
+        - { text: "Walla Walla Valley AVA", correct: true }
+        - { text: "Red Mountain AVA", correct: false }
+        - { text: "Horse Heaven Hills AVA", correct: false }
       explanation: |
-        **Inside Columbia Valley AVA.** Both are nested eastern
-        Washington districts (Walla Walla Valley AVA also has an
-        Oregon slice). Horse Heaven Hills AVA is a further nested
-        neighbour, still not in Willamette Valley AVA.
+        Walla Walla Valley surrounds the town of Walla Walla in southeastern Washington and extends
+        into northeastern Oregon. It remains entirely nested within the larger, also cross-border
+        Columbia Valley AVA.
+    fr:
+      question: "Quelle sous-appellation de la Columbia Valley franchit la frontière entre Washington et l’Oregon ?"
+      choices:
+        - { text: "Yakima Valley AVA", correct: false }
+        - { text: "Walla Walla Valley AVA", correct: true }
+        - { text: "Red Mountain AVA", correct: false }
+        - { text: "Horse Heaven Hills AVA", correct: false }
+      explanation: |
+        La Walla Walla Valley entoure la ville du même nom dans le sud-est de Washington et se
+        prolonge dans le nord-est de l’Oregon. Elle reste entièrement imbriquée dans la vaste
+        Columbia Valley AVA, elle-même transfrontalière.
 
   - id: washington-columbia-arid-001
     type: mcq
@@ -481,17 +717,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What rainfall pattern defines Columbia Valley AVA?
+      question: "Which rainfall pattern characterises most of the Columbia Valley AVA?"
       choices:
-        - { text: "Wet maritime summers, like western Washington", correct: false }
-        - { text: "Very low rainfall through the growing season", correct: true }
-        - { text: "A daily harvest-time monsoon", correct: false }
-        - { text: "No need for water because fog irrigates the rows", correct: false }
+        - { text: "Low annual rainfall in an arid to semi-arid continental setting", correct: true }
+        - { text: "Heavy summer rainfall caused by a regular monsoon", correct: false }
+        - { text: "Year-round maritime rain comparable with Puget Sound", correct: false }
+        - { text: "Frequent tropical storms during the harvest period", correct: false }
       explanation: |
-        **Very low rainfall through the growing season.** Columbia
-        Valley AVA is arid. Western Washington around Puget Sound
-        AVA is the wet contrast, so Washington is not a desert in
-        every county.
+        Much of Columbia Valley receives only about 6–8 inches of rain annually, although totals
+        vary by location. This is a sharp contrast with western Washington and makes water supply a
+        central viticultural consideration.
+    fr:
+      question: "Quel régime de précipitations caractérise la majeure partie de la Columbia Valley AVA ?"
+      choices:
+        - { text: "De faibles pluies annuelles dans un milieu continental aride à semi-aride", correct: true }
+        - { text: "De fortes pluies estivales provoquées par une mousson régulière", correct: false }
+        - { text: "Des pluies maritimes toute l’année comparables à celles de Puget Sound", correct: false }
+        - { text: "De fréquentes tempêtes tropicales pendant les vendanges", correct: false }
+      explanation: |
+        Une grande partie de la Columbia Valley ne reçoit qu’environ 150 à 200 mm de pluie par an,
+        malgré des variations locales. Le contraste avec l’ouest de Washington est marqué et
+        l’approvisionnement en eau devient un enjeu viticole central.
 
   - id: washington-columbia-rain-shadow-001
     type: mcq
@@ -503,16 +749,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Why is Columbia Valley AVA so dry?
+      question: "What is the principal cause of the Columbia Valley’s low rainfall?"
       choices:
-        - { text: "A legal cap on clouds", correct: false }
-        - { text: "A rain shadow cast by the Cascade Mountains", correct: true }
-        - { text: "The Gulf Stream steals every shower", correct: false }
-        - { text: "Willamette Valley AVA blocks the Columbia River", correct: false }
+        - { text: "The rain shadow created by the Cascade Range", correct: true }
+        - { text: "A cold coastal current that suppresses moisture before it reaches inland Washington", correct: false }
+        - { text: "The Columbia River valley steering Pacific weather systems south of the region", correct: false }
+        - { text: "The lower Coast Range intercepting moisture east of the Cascades", correct: false }
       explanation: |
-        **A rain shadow cast by the Cascade Mountains.** Pacific
-        storms drop their water on the western slope; Columbia
-        Valley AVA sits in the lee.
+        Pacific weather systems lose much of their moisture on the western side of the Cascades.
+        Columbia Valley lies to leeward, where descending air is drier, producing the region’s arid
+        to semi-arid conditions.
+    fr:
+      question: "Quelle est la principale cause de la faiblesse des précipitations dans la Columbia Valley ?"
+      choices:
+        - { text: "L’ombre pluviométrique créée par la chaîne des Cascades", correct: true }
+        - { text: "Un courant côtier froid qui réduit l’humidité avant son arrivée dans l’intérieur de Washington", correct: false }
+        - { text: "La vallée du fleuve Columbia qui dirige les perturbations du Pacifique au sud de la région", correct: false }
+        - { text: "La chaîne côtière, moins élevée, qui intercepte l’humidité à l’est des Cascades", correct: false }
+      explanation: |
+        Les perturbations du Pacifique perdent une grande partie de leur humidité sur le versant
+        occidental des Cascades. La Columbia Valley se trouve sous le vent, où l’air descendant est
+        plus sec, d’où ses conditions arides à semi-arides.
 
   - id: washington-columbia-irrigation-001
     type: mcq
@@ -524,16 +781,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: How do Columbia Valley AVA growers replace the missing rain?
+      question: "How do most Columbia Valley vineyards meet vine water needs?"
       choices:
-        - { text: "By banning irrigation statewide", correct: false }
-        - { text: "By irrigating with river water", correct: true }
-        - { text: "By moving harvest into the winter rains", correct: false }
-        - { text: "By dry-farming every vine with no water", correct: false }
+        - { text: "Through controlled irrigation using rivers, reservoirs or aquifers", correct: true }
+        - { text: "Through dry farming supported by winter rainfall stored in deep clay soils", correct: false }
+        - { text: "Through regular summer rainfall carried eastward across the Cascade Range", correct: false }
+        - { text: "Through seasonal flood irrigation supplied chiefly by Pacific coastal rivers", correct: false }
       explanation: |
-        **By irrigating with river water.** Columbia, Yakima, and
-        Snake water make viticulture possible in that arid basin.
-        Dry-farming is not the default there.
+        Irrigation is essential across most of this dry region. Water from the Columbia, Yakima and
+        Snake river systems, together with reservoirs and aquifers, lets growers regulate supply; a
+        few wetter sites are exceptions.
+    fr:
+      question: "Comment la plupart des vignobles de la Columbia Valley couvrent-ils les besoins en eau de la vigne ?"
+      choices:
+        - { text: "Par une irrigation contrôlée alimentée par les cours d’eau, les réservoirs ou les nappes", correct: true }
+        - { text: "Par la culture en sec grâce aux pluies hivernales stockées dans des sols argileux profonds", correct: false }
+        - { text: "Par des pluies estivales régulières qui franchissent la chaîne des Cascades vers l’est", correct: false }
+        - { text: "Par une irrigation saisonnière par submersion alimentée surtout par les fleuves côtiers du Pacifique", correct: false }
+      explanation: |
+        L’irrigation est indispensable dans la majeure partie de cette région sèche. Le Columbia, la
+        Yakima et la Snake, ainsi que les réservoirs et nappes, permettent de maîtriser les apports
+        ; quelques sites plus humides font exception.
 
   - id: washington-columbia-summer-001
     type: mcq
@@ -545,17 +813,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which pair of climate traits helps Columbia Valley AVA ripen fruit on a reliable schedule?
+      question: "Which summer conditions help Columbia Valley grapes ripen reliably?"
       choices:
-        - { text: "Short, dark summers and constant rain", correct: false }
-        - { text: "Long summer daylight and steady summer warmth", correct: true }
-        - { text: "Tropical nights with no diurnal range", correct: false }
-        - { text: "Pacific fog that never lifts", correct: false }
+        - { text: "Long daylight hours with warm, dry and sunny weather", correct: true }
+        - { text: "Short daylight hours with persistent cloud and rain", correct: false }
+        - { text: "Very cool days combined with uniformly hot nights", correct: false }
+        - { text: "Daily fog that prevents sunlight reaching the canopy", correct: false }
       explanation: |
-        **Long summer daylight and steady summer warmth.** High
-        latitude stretches the June–August day; the continental
-        interior stays reliably sunny. Cool nights are a separate
-        acidity story.
+        The northerly latitude provides long summer days, while the continental interior is warm,
+        dry and sunny. Irrigation supplies water, allowing growers to exploit abundant light without
+        relying on seasonal rainfall.
+    fr:
+      question: "Quelles conditions estivales favorisent une maturation régulière dans la Columbia Valley ?"
+      choices:
+        - { text: "De longues journées accompagnées d’un temps chaud, sec et ensoleillé", correct: true }
+        - { text: "Des journées courtes accompagnées de nuages et de pluies persistantes", correct: false }
+        - { text: "Des journées très fraîches associées à des nuits uniformément chaudes", correct: false }
+        - { text: "Un brouillard quotidien empêchant le soleil d’atteindre le couvert végétal", correct: false }
+      explanation: |
+        La latitude septentrionale procure de longues journées estivales, tandis que l’intérieur
+        continental est chaud, sec et ensoleillé. L’irrigation fournit l’eau et permet d’exploiter
+        cette lumière abondante sans dépendre des pluies saisonnières.
 
   - id: washington-columbia-ripeness-001
     type: mcq
@@ -567,16 +845,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What do Columbia Valley AVA’s long, sunny summer days do for the grapes?
+      question: "What is a major consequence of Columbia Valley’s warm, sunny growing season?"
       choices:
-        - { text: "They stop sugar from forming at all", correct: false }
-        - { text: "They let fruit reach full ripeness", correct: true }
-        - { text: "They force every vine to Pinot Noir", correct: false }
-        - { text: "They flood the vineyard each afternoon", correct: false }
+        - { text: "Late-ripening black grapes can achieve full flavour and phenolic ripeness", correct: true }
+        - { text: "Early white grapes ripen reliably, but Cabernet Sauvignon usually remains herbaceous", correct: false }
+        - { text: "Cool daytime temperatures slow sugar and phenolic ripening throughout the season", correct: false }
+        - { text: "Similar terrain causes early and late varieties to reach maturity at nearly the same time", correct: false }
       explanation: |
-        **They let fruit reach full ripeness.** Cabernet Sauvignon,
-        Merlot, and Syrah can finish in that light. Willamette
-        Valley AVA Pinot Noir is a cooler, western Oregon story.
+        Warm days, intense sunlight and a long season allow varieties such as Cabernet Sauvignon,
+        Merlot and Syrah to ripen successfully. Site, crop load and vintage still affect timing, so
+        ripeness is not automatic or uniform.
+    fr:
+      question: "Quelle est une conséquence majeure de la saison végétative chaude et ensoleillée de la Columbia Valley ?"
+      choices:
+        - { text: "Les cépages noirs tardifs peuvent atteindre une pleine maturité aromatique et phénolique", correct: true }
+        - { text: "Les cépages blancs précoces mûrissent bien, mais le Cabernet Sauvignon reste généralement végétal", correct: false }
+        - { text: "La fraîcheur diurne ralentit l’accumulation des sucres et la maturité phénolique pendant toute la saison", correct: false }
+        - { text: "La similitude du relief fait mûrir les cépages précoces et tardifs presque au même moment", correct: false }
+      explanation: |
+        Les journées chaudes, la forte luminosité et la longue saison permettent au Cabernet
+        Sauvignon, au Merlot et à la Syrah de mûrir. Le site, la charge et le millésime influencent
+        encore la date : la maturité n’est ni automatique ni uniforme.
 
   - id: washington-columbia-nights-001
     type: mcq
@@ -588,16 +877,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: How do cool nights help Columbia Valley AVA grapes after hot, sunny days?
+      question: "Why are cool nights valuable after Columbia Valley’s warm, sunny days?"
       choices:
-        - { text: "Cool nights strip all acidity", correct: false }
-        - { text: "Cool nights help the grapes keep natural acidity", correct: true }
-        - { text: "Cool nights ban irrigation", correct: false }
-        - { text: "Cool nights turn every red into icewine", correct: false }
+        - { text: "They slow acid loss and help ripe grapes retain freshness", correct: true }
+        - { text: "They accelerate acid respiration and produce softer, lower-acid wines", correct: false }
+        - { text: "They provide enough condensation to replace irrigation across the dry interior", correct: false }
+        - { text: "They promote widespread noble rot by keeping berries wet until morning", correct: false }
       explanation: |
-        **Cool nights help the grapes keep natural acidity.**
-        Diurnal range in Columbia Valley AVA offsets the warm
-        days, so ripe fruit need not taste flabby.
+        A marked diurnal range allows strong daytime ripening while cooler nights slow respiration
+        of acids. This helps Washington wines combine ripe fruit with freshness, though the effect
+        varies among sites.
+    fr:
+      question: "Pourquoi les nuits fraîches sont-elles précieuses après les journées chaudes et ensoleillées de la Columbia Valley ?"
+      choices:
+        - { text: "Elles ralentissent la perte d’acidité et aident les raisins mûrs à conserver leur fraîcheur", correct: true }
+        - { text: "Elles accélèrent la respiration des acides et donnent des vins plus souples et moins acides", correct: false }
+        - { text: "Elles apportent assez de condensation pour remplacer l’irrigation dans l’intérieur aride", correct: false }
+        - { text: "Elles favorisent largement la pourriture noble en gardant les baies humides jusqu’au matin", correct: false }
+      explanation: |
+        Une forte amplitude thermique favorise la maturation pendant la journée, tandis que les
+        nuits plus fraîches ralentissent la respiration des acides. Les vins peuvent ainsi associer
+        fruit mûr et fraîcheur, avec des différences selon les sites.
 
   - id: washington-columbia-freeze-001
     type: mcq
@@ -609,16 +909,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Besides drought, which winter hazard hits Columbia Valley AVA vines?
+      question: "Which climatic hazard can seriously damage Columbia Valley vines during winter?"
       choices:
-        - { text: "Hurricanes off the Gulf of Mexico", correct: false }
-        - { text: "Winter freeze", correct: true }
-        - { text: "Mandatory phylloxera release each January", correct: false }
-        - { text: "Year-round tropical humidity", correct: false }
+        - { text: "Severe continental freezes", correct: true }
+        - { text: "Persistent waterlogging caused by heavy maritime winter rain", correct: false }
+        - { text: "Salt-laden winter gales arriving directly from the Pacific coast", correct: false }
+        - { text: "Warm downslope winds that cause sunburn on dormant canes", correct: false }
       explanation: |
-        **Winter freeze.** Continental Arctic outbreaks can kill
-        buds or whole vines in Columbia Valley AVA. Low rainfall
-        is the other structural limit.
+        Cold continental air can produce severe winter freezes east of the Cascades. The damage
+        depends on temperature, duration, vine hardiness, site and growth stage, and can affect
+        buds, trunks or entire vines.
+    fr:
+      question: "Quel aléa climatique peut gravement endommager les vignes de la Columbia Valley en hiver ?"
+      choices:
+        - { text: "De fortes gelées continentales", correct: true }
+        - { text: "Un engorgement durable dû à de fortes pluies hivernales maritimes", correct: false }
+        - { text: "Des vents hivernaux salés arrivant directement de la côte Pacifique", correct: false }
+        - { text: "Des vents descendants chauds provoquant l’échaudage des sarments dormants", correct: false }
+      explanation: |
+        À l’est des Cascades, l’air continental froid peut provoquer de fortes gelées hivernales.
+        Les dégâts dépendent de la température, de la durée, de l’endurcissement de la vigne, du
+        site et du stade végétatif, et peuvent toucher bourgeons, troncs ou ceps entiers.
 
   - id: washington-columbia-freeze-crop-001
     type: mcq
@@ -630,17 +941,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What can a hard winter freeze do to a Columbia Valley AVA crop?
+      question: "How can a severe winter freeze affect a Columbia Valley vineyard?"
       choices:
-        - { text: "It always doubles the yield", correct: false }
-        - { text: "It can cut crop volume by half or more", correct: true }
-        - { text: "It only affects Pinot Gris in Willamette Valley AVA", correct: false }
-        - { text: "It has no effect on dormant vines", correct: false }
+        - { text: "It can kill buds or vine tissue, reducing the next crop and sometimes requiring retraining or replanting", correct: true }
+        - { text: "It usually delays budbreak without injuring buds, trunks or the following crop", correct: false }
+        - { text: "It improves primary-bud fruitfulness enough to compensate for tissue damage", correct: false }
+        - { text: "It damages roots but generally leaves dormant buds and trunks unaffected", correct: false }
       explanation: |
-        **It can cut crop volume by half or more.** A severe
-        freeze in Columbia Valley AVA can wipe buds or vines;
-        the next harvest shrinks. Willamette Valley AVA has a
-        milder winter.
+        Freeze injury may range from lost primary buds to damaged trunks or dead vines. Crop loss
+        therefore varies greatly rather than following a fixed percentage; recovery can require
+        retraining from surviving tissue or replanting.
+    fr:
+      question: "Comment une forte gelée hivernale peut-elle affecter un vignoble de la Columbia Valley ?"
+      choices:
+        - { text: "Elle peut tuer des bourgeons ou des tissus, réduire la récolte suivante et imposer un reformage ou une replantation", correct: true }
+        - { text: "Elle retarde généralement le débourrement sans léser les bourgeons, les troncs ni la récolte suivante", correct: false }
+        - { text: "Elle améliore assez la fertilité des bourgeons principaux pour compenser les dégâts aux tissus", correct: false }
+        - { text: "Elle endommage les racines mais laisse généralement intacts les bourgeons dormants et les troncs", correct: false }
+      explanation: |
+        Les dégâts vont de la perte des bourgeons principaux à celle des troncs ou des ceps. La
+        baisse de récolte ne suit donc pas un pourcentage fixe ; le rétablissement peut exiger un
+        reformage à partir de tissus vivants ou une replantation.
 
   - id: washington-reds-001
     type: mcq
@@ -652,16 +973,28 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which pair of red grapes leads Columbia Valley AVA?
+      question: "Which pair represents the principal Bordeaux black varieties in Washington State?"
       choices:
-        - { text: "Pinot Noir and Gamay only", correct: false }
-        - { text: "Merlot and Cabernet Sauvignon", correct: true }
-        - { text: "Nebbiolo and Sangiovese only", correct: false }
-        - { text: "Concord and Catawba only", correct: false }
+        - { text: "Cabernet Sauvignon and Merlot", correct: true }
+        - { text: "Pinot Noir and Gamay", correct: false }
+        - { text: "Nebbiolo and Sangiovese", correct: false }
+        - { text: "Concord and Catawba", correct: false }
       explanation: |
-        **Merlot and Cabernet Sauvignon.** Those two are the core
-        Columbia Valley AVA reds; Syrah is the usual third.
-        Pinot Noir leads Willamette Valley AVA, not this basin.
+        Cabernet Sauvignon and Merlot are central to Washington red-wine production, both as
+        varietal wines and in Bordeaux-style blends. Cabernet Sauvignon is especially important;
+        Cabernet Franc, Malbec and Petit Verdot also contribute to blends.
+    fr:
+      question: "Quelle paire représente les principaux cépages noirs bordelais de l’État de Washington ?"
+      choices:
+        - { text: "Cabernet Sauvignon et Merlot", correct: true }
+        - { text: "Pinot Noir et Gamay", correct: false }
+        - { text: "Nebbiolo et Sangiovese", correct: false }
+        - { text: "Concord et Catawba", correct: false }
+      explanation: |
+        Le Cabernet Sauvignon et le Merlot occupent une place centrale dans les rouges de
+        Washington, en vins de cépage comme dans les assemblages bordelais. Le Cabernet Sauvignon
+        est particulièrement important ; Cabernet Franc, Malbec et Petit Verdot complètent aussi les
+        assemblages.
 
   - id: washington-merlot-style-001
     type: mcq
@@ -673,16 +1006,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What style is typical of Merlot from Columbia Valley AVA?
+      question: "Which profile is typical of quality Merlot from Washington State?"
       choices:
-        - { text: "Pale, thin, and high-acid, like cool-climate Pinot Noir", correct: false }
-        - { text: "Full-bodied, with ripe plum fruit", correct: true }
-        - { text: "Flor-aged and salty", correct: false }
-        - { text: "Only a sweet white", correct: false }
+        - { text: "Ripe plum and black fruit, full body and supple to firm tannins", correct: true }
+        - { text: "Pale colour, light body, tart cranberry fruit and very low tannin", correct: false }
+        - { text: "Raisined fruit, high alcohol, low acidity and little fresh-fruit character", correct: false }
+        - { text: "Lean body, dominant green-pepper aromas and hard unripe tannins", correct: false }
       explanation: |
-        **Full-bodied, with ripe plum fruit.** Columbia Valley AVA
-        Merlot has weight. Do not describe it as Willamette Valley
-        AVA Pinot Noir.
+        Warm, sunny sites can give Washington Merlot ripe plum and dark-fruit flavours with
+        substantial body. Cool nights help retain freshness, and tannin and oak handling vary by
+        producer and site.
+    fr:
+      question: "Quel profil est typique d’un Merlot de qualité de l’État de Washington ?"
+      choices:
+        - { text: "Prune et fruits noirs mûrs, corps plein et tanins souples à fermes", correct: true }
+        - { text: "Couleur pâle, corps léger, canneberge acidulée et très peu de tanins", correct: false }
+        - { text: "Fruits passerillés, alcool élevé, faible acidité et peu de caractère fruité frais", correct: false }
+        - { text: "Corps maigre, poivron vert dominant et tanins durs issus de raisins peu mûrs", correct: false }
+      explanation: |
+        Les sites chauds et ensoleillés donnent au Merlot de Washington des arômes mûrs de prune et
+        de fruits noirs ainsi qu’un corps substantiel. Les nuits fraîches préservent la fraîcheur ;
+        les tanins et l’élevage sous bois varient selon le site et le producteur.
 
   - id: washington-cabernet-style-001
     type: mcq
@@ -694,16 +1038,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What style is typical of Cabernet Sauvignon from Columbia Valley AVA?
+      question: "Which profile is typical of quality Cabernet Sauvignon from Washington State?"
       choices:
-        - { text: "Light, sweet, and sparkling only", correct: false }
-        - { text: "Structured reds that can age", correct: true }
-        - { text: "High-acid red fruit with no tannin, like Pinot Noir", correct: false }
-        - { text: "Oxidative, like Vin Jaune", correct: false }
+        - { text: "Ripe black fruit, firm tannins and capacity to develop with bottle age", correct: true }
+        - { text: "Pale colour, light body, red-cherry fruit and very low tannin", correct: false }
+        - { text: "Jammy black fruit, pronounced sweetness and little tannic or acid structure", correct: false }
+        - { text: "Banana and confectionery aromas, soft tannins and an early-drinking style", correct: false }
       explanation: |
-        **Structured reds that can age.** Columbia Valley AVA
-        Cabernet Sauvignon keeps tannin and can cellar. Pinot Noir
-        from Willamette Valley AVA is a different grape and climate.
+        Washington Cabernet Sauvignon commonly combines ripe cassis or other black fruit with firm
+        tannins, fresh acidity and oak-derived complexity. Strong structure can support bottle
+        ageing, especially in premium examples.
+    fr:
+      question: "Quel profil est typique d’un Cabernet Sauvignon de qualité de l’État de Washington ?"
+      choices:
+        - { text: "Fruits noirs mûrs, tanins fermes et capacité à évoluer en bouteille", correct: true }
+        - { text: "Couleur pâle, corps léger, cerise rouge et très peu de tanins", correct: false }
+        - { text: "Fruits noirs confiturés, sucrosité prononcée et faible structure tannique ou acide", correct: false }
+        - { text: "Arômes de banane et de confiserie, tanins souples et style à boire jeune", correct: false }
+      explanation: |
+        Le Cabernet Sauvignon de Washington associe souvent cassis ou autres fruits noirs mûrs,
+        tanins fermes, acidité fraîche et complexité du bois. Cette structure peut soutenir
+        l’évolution en bouteille, surtout dans les exemples haut de gamme.
 
   - id: washington-syrah-001
     type: mcq
@@ -715,16 +1070,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Besides Cabernet Sauvignon and Merlot, which black grape is a Washington State signature?
+      question: "Which Rhône variety is a major component of Washington State’s wine identity?"
       choices:
-        - { text: "Pinot Noir as the statewide leader", correct: false }
         - { text: "Syrah", correct: true }
-        - { text: "Gamay grown only for Nouveau", correct: false }
-        - { text: "Palomino", correct: false }
+        - { text: "Gamay", correct: false }
+        - { text: "Poulsard", correct: false }
+        - { text: "Schiava", correct: false }
       explanation: |
-        **Syrah.** Washington State, especially Walla Walla Valley
-        AVA and other Columbia Valley AVA sites, treats Syrah as
-        a serious red. Pinot Noir is Oregon’s Willamette story.
+        Syrah is one of Washington’s five core varieties alongside Cabernet Sauvignon, Chardonnay,
+        Merlot and Riesling. It performs across several Columbia Valley sub-appellations, including
+        Walla Walla Valley.
+    fr:
+      question: "Quel cépage rhodanien participe fortement à l’identité viticole de l’État de Washington ?"
+      choices:
+        - { text: "Syrah", correct: true }
+        - { text: "Gamay", correct: false }
+        - { text: "Poulsard", correct: false }
+        - { text: "Schiava", correct: false }
+      explanation: |
+        La Syrah figure parmi les cinq cépages majeurs de Washington avec le Cabernet Sauvignon, le
+        Chardonnay, le Merlot et le Riesling. Elle réussit dans plusieurs sous-appellations de la
+        Columbia Valley, dont la Walla Walla Valley.
 
   - id: washington-syrah-style-001
     type: mcq
@@ -736,38 +1102,59 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What style is typical of Syrah from Washington State?
+      question: "Which description best captures the range of quality Washington Syrah?"
       choices:
-        - { text: "Thin, pale rosé with no fruit", correct: false }
-        - { text: "Full-bodied and tightly concentrated", correct: true }
-        - { text: "Only a dry sparkling white", correct: false }
-        - { text: "Botrytis-sweet, like Tokaji", correct: false }
+        - { text: "Medium- to full-bodied wines combining dark fruit with peppery or savoury notes", correct: true }
+        - { text: "Light-bodied reds centred on tart red fruit, with little tannin or savoury character", correct: false }
+        - { text: "Sweet fortified reds dominated by dried fruit, high alcohol and low acidity", correct: false }
+        - { text: "Pale traditional-method sparkling wines dominated by citrus and brioche", correct: false }
       explanation: |
-        **Full-bodied and tightly concentrated.** Washington State
-        Syrah from Columbia Valley AVA sites has weight and dark
-        fruit, not a light Pinot frame.
+        Washington Syrah can range from ripe and fruit-driven to fresher, peppery and savoury,
+        depending on site and winemaking. Many examples have medium to full body, dark fruit and
+        substantial concentration.
+    fr:
+      question: "Quelle description rend le mieux compte de la gamme des Syrah de qualité de Washington ?"
+      choices:
+        - { text: "Des vins moyennement corsés à corsés associant fruits noirs et notes poivrées ou savoureuses", correct: true }
+        - { text: "Des rouges légers centrés sur les fruits rouges acidulés, avec peu de tanins ou de notes savoureuses", correct: false }
+        - { text: "Des rouges doux fortifiés dominés par les fruits secs, l’alcool élevé et une faible acidité", correct: false }
+        - { text: "Des effervescents pâles de méthode traditionnelle dominés par les agrumes et la brioche", correct: false }
+      explanation: |
+        La Syrah de Washington va d’un style mûr et fruité à un profil plus frais, poivré et
+        savoureux selon le site et la vinification. Beaucoup d’exemples sont moyennement corsés à
+        corsés, concentrés et marqués par les fruits noirs.
 
   - id: washington-chardonnay-001
     type: mcq
     deck: USA::Pacific Northwest
     tags: [usa, washington, grapes]
-    status: draft
+    status: reviewed
     source_id: c34-0023
     review:
-      fact_check: unsure
+      fact_check: pass
       sources: [known-fact]
     en:
-      question: Which white grape usually leads the Washington State crush, ahead of Riesling in recent tonnage?
+      question: "Which internationally important white grape is one of Washington State’s five core varieties?"
       choices:
-        - { text: "Furmint", correct: false }
         - { text: "Chardonnay", correct: true }
-        - { text: "Albariño only", correct: false }
-        - { text: "Pinot Gris as the only white", correct: false }
+        - { text: "Furmint", correct: false }
+        - { text: "Palomino", correct: false }
+        - { text: "Assyrtiko", correct: false }
       explanation: |
-        **Chardonnay.** Recent Washington State crush figures put
-        Chardonnay ahead of Riesling in tons. Riesling acreage
-        stays close, so a bald “most planted white” rank can
-        swing with the survey.
+        Chardonnay is consistently one of Washington’s principal grapes, although its annual rank
+        relative to Riesling can change with crop size. Avoid turning one vintage’s tonnage into a
+        permanent hierarchy.
+    fr:
+      question: "Quel cépage blanc international figure parmi les cinq cépages majeurs de l’État de Washington ?"
+      choices:
+        - { text: "Chardonnay", correct: true }
+        - { text: "Furmint", correct: false }
+        - { text: "Palomino", correct: false }
+        - { text: "Assyrtiko", correct: false }
+      explanation: |
+        Le Chardonnay fait constamment partie des principaux cépages de Washington, même si son rang
+        annuel par rapport au Riesling varie avec le volume de la récolte. Il ne faut pas
+        transformer le tonnage d’un millésime en hiérarchie permanente.
 
   - id: washington-chardonnay-style-001
     type: mcq
@@ -779,16 +1166,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What style is typical of Chardonnay from Washington State?
+      question: "Which profile is common for Washington State Chardonnay?"
       choices:
-        - { text: "Bone-dry, steely, and never oaked", correct: false }
-        - { text: "Fruity, with some toast from oak", correct: true }
-        - { text: "Flor-aged and nutty", correct: false }
-        - { text: "Only icewine from frozen Chardonnay", correct: false }
+        - { text: "Ripe orchard or stone fruit, medium to full body and sometimes toast from oak", correct: true }
+        - { text: "Light body, pronounced herbaceousness, high acidity and little influence from oak", correct: false }
+        - { text: "Oxidative bruised-apple and walnut notes from prolonged ageing under flor", correct: false }
+        - { text: "Pronounced floral and lime aromas, low alcohol and no malolactic conversion", correct: false }
       explanation: |
-        **Fruity, with some toast from oak.** Washington State
-        Chardonnay is usually a ripe still white with a modest
-        oak note, not a Chablis copy and not a flor wine.
+        Washington Chardonnay benefits from abundant sunshine, often giving ripe fruit and medium to
+        full body. Producers may use oak and malolactic conversion for texture and toast, while
+        fresher unoaked examples also exist.
+    fr:
+      question: "Quel profil est courant pour le Chardonnay de l’État de Washington ?"
+      choices:
+        - { text: "Fruits mûrs du verger ou à noyau, corps moyen à plein et parfois notes toastées du bois", correct: true }
+        - { text: "Corps léger, caractère végétal prononcé, acidité élevée et faible influence du bois", correct: false }
+        - { text: "Notes oxydatives de pomme blette et de noix dues à un long élevage sous flor", correct: false }
+        - { text: "Arômes floraux et de citron vert prononcés, alcool faible et absence de fermentation malolactique", correct: false }
+      explanation: |
+        Le fort ensoleillement donne souvent au Chardonnay de Washington un fruit mûr et un corps
+        moyen à plein. Le bois et la fermentation malolactique peuvent apporter texture et notes
+        toastées, mais des versions plus fraîches sans bois existent aussi.
 
   - id: washington-riesling-001
     type: mcq
@@ -800,17 +1198,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Besides Chardonnay, which white grape is a Washington State favourite?
+      question: "Which aromatic white grape is a longstanding speciality of Washington State?"
       choices:
-        - { text: "Palomino", correct: false }
         - { text: "Riesling", correct: true }
-        - { text: "Trebbiano Toscano only", correct: false }
-        - { text: "Cortese only", correct: false }
+        - { text: "Trebbiano Toscano", correct: false }
+        - { text: "Cortese", correct: false }
+        - { text: "Palomino", correct: false }
       explanation: |
-        **Riesling.** Washington State remains one of the United
-        States’ Riesling homes, even when Chardonnay leads the
-        crush. Pinot Gris is the northern Oregon white, not the
-        Washington headline.
+        Riesling is one of Washington’s core varieties and is particularly important in cooler
+        Columbia Valley districts such as Yakima Valley and Ancient Lakes. Its prominence remains
+        high even when annual production rankings change.
+    fr:
+      question: "Quel cépage blanc aromatique est une spécialité historique de l’État de Washington ?"
+      choices:
+        - { text: "Riesling", correct: true }
+        - { text: "Trebbiano Toscano", correct: false }
+        - { text: "Cortese", correct: false }
+        - { text: "Palomino", correct: false }
+      explanation: |
+        Le Riesling figure parmi les cépages majeurs de Washington et compte particulièrement dans
+        des secteurs plus frais de la Columbia Valley comme Yakima Valley et Ancient Lakes. Son
+        importance reste forte malgré les variations annuelles de classement.
 
   - id: washington-riesling-style-001
     type: mcq
@@ -822,16 +1230,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What style is common for Riesling from Washington State?
+      question: "Which statement best describes the style range of Washington State Riesling?"
       choices:
-        - { text: "Only fortified and oxidative", correct: false }
-        - { text: "Dry, with ripe stone-fruit flavours", correct: true }
-        - { text: "Only red and tannic", correct: false }
-        - { text: "Sparkling from méthode ancestrale only", correct: false }
+        - { text: "It ranges from dry to sweet, usually retaining high acidity with citrus or stone-fruit flavours", correct: true }
+        - { text: "It is generally bone dry and heavily oaked, with low acidity and restrained fruit", correct: false }
+        - { text: "It is chiefly a neutral, high-alcohol blending wine with little aromatic expression", correct: false }
+        - { text: "It is predominantly lusciously sweet from noble rot, with moderate rather than high acidity", correct: false }
       explanation: |
-        **Dry, with ripe stone-fruit flavours.** A dry, stone-fruit
-        Riesling is the usual Washington State picture. Off-dry
-        and sweeter bottlings exist; they are not the only style.
+        Washington Riesling is not confined to one sweetness level. Dry, off-dry and sweeter
+        examples occur, commonly combining high acidity with lime, apple, peach or other stone-fruit
+        characters.
+    fr:
+      question: "Quelle proposition décrit le mieux la gamme de styles du Riesling de l’État de Washington ?"
+      choices:
+        - { text: "Du sec au doux, avec généralement une acidité élevée et des arômes d’agrumes ou de fruits à noyau", correct: true }
+        - { text: "Il est généralement très sec et fortement boisé, avec peu d’acidité et un fruit discret", correct: false }
+        - { text: "Il sert surtout de vin d’assemblage neutre et fortement alcoolisé, avec peu d’expression aromatique", correct: false }
+        - { text: "Il est majoritairement liquoreux grâce à la pourriture noble, avec une acidité plutôt modérée", correct: false }
+      explanation: |
+        Le Riesling de Washington ne se limite pas à un niveau de sucrosité. Il existe en versions
+        sèches, demi-sèches ou plus douces, associant souvent une acidité élevée à des arômes de
+        citron vert, de pomme, de pêche ou d’autres fruits à noyau.
 
   - id: new-york-hybrids-001
     type: mcq
@@ -843,17 +1262,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What makes New York State unusual among major US wine states?
+      question: "What distinguishes New York’s overall grape plantings from those of many major US wine states?"
       choices:
-        - { text: "New York State grows only Cabernet Sauvignon", correct: false }
-        - { text: "American and hybrid vine species still dominate the vineyard", correct: true }
-        - { text: "New York State bans Vitis vinifera by law", correct: false }
-        - { text: "New York State has no lakes and no winter", correct: false }
+        - { text: "American varieties and hybrids occupy more acreage than Vitis vinifera", correct: true }
+        - { text: "Vitis vinifera occupies nearly all vineyard area, led by Cabernet Sauvignon", correct: false }
+        - { text: "Hybrids form the largest group, while American varieties are now marginal", correct: false }
+        - { text: "Muscadine varieties dominate because of New York’s long, hot growing season", correct: false }
       explanation: |
-        **American and hybrid vine species still dominate the
-        vineyard.** Concord and other natives dwarf Vitis vinifera
-        acreage in New York State. Finger Lakes Riesling is the
-        quality-wine headline, not the acreage headline.
+        Recent statewide reporting shows American varieties, led by Concord, as the largest group,
+        followed by hybrids, with vinifera third. Premium wine regions nevertheless have important
+        vinifera plantings, especially Riesling and Cabernet Franc.
+    fr:
+      question: "Qu’est-ce qui distingue l’ensemble des plantations de l’État de New York de celles de nombreux grands États viticoles américains ?"
+      choices:
+        - { text: "Les cépages américains et hybrides occupent davantage de surface que Vitis vinifera", correct: true }
+        - { text: "Vitis vinifera occupe presque toute la surface, dominée par le Cabernet Sauvignon", correct: false }
+        - { text: "Les hybrides forment le premier groupe, tandis que les cépages américains sont devenus marginaux", correct: false }
+        - { text: "Les Muscadines dominent grâce à la saison végétative longue et chaude de New York", correct: false }
+      explanation: |
+        Les données récentes placent les cépages américains, dominés par le Concord, en tête des
+        surfaces, suivis des hybrides puis de vinifera. Les régions de vins haut de gamme possèdent
+        néanmoins d’importantes plantations de vinifera, notamment Riesling et Cabernet Franc.
 
   - id: new-york-juice-001
     type: mcq
@@ -865,16 +1294,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Besides wine, what are American and hybrid grapes in New York State used for?
+      question: "Which non-wine market explains much of New York State’s extensive Concord acreage?"
       choices:
-        - { text: "Only barrel staves", correct: false }
-        - { text: "Juices and jellies", correct: true }
-        - { text: "Only olive oil", correct: false }
-        - { text: "Mandatory icewine in every county", correct: false }
+        - { text: "Grape juice, jelly and related processed products", correct: true }
+        - { text: "Olive oil and table olives", correct: false }
+        - { text: "Barrel staves and cork production", correct: false }
+        - { text: "Distillation into neutral grain spirit", correct: false }
       explanation: |
-        **Juices and jellies.** Concord around Lake Erie still
-        feeds juice and jelly plants. That crop, not Finger Lakes
-        Riesling, explains much of the native acreage.
+        Concord is New York’s most widely planted grape and supports a large processing industry,
+        especially juice and jelly. It can also make wine, but premium Finger Lakes vinifera does
+        not explain the state’s total grape acreage on its own.
+    fr:
+      question: "Quel débouché non viticole explique une grande partie des vastes surfaces de Concord dans l’État de New York ?"
+      choices:
+        - { text: "Les jus de raisin, gelées et autres produits transformés", correct: true }
+        - { text: "L’huile d’olive et les olives de table", correct: false }
+        - { text: "Les douelles de barriques et la production de bouchons", correct: false }
+        - { text: "La distillation en alcool neutre de céréales", correct: false }
+      explanation: |
+        Le Concord est le cépage le plus planté de New York et alimente une importante industrie de
+        transformation, notamment en jus et en gelée. Il produit aussi du vin, mais les vinifera
+        haut de gamme des Finger Lakes n’expliquent pas seuls la surface totale de l’État.
 
   - id: new-york-hardiness-001
     type: mcq
@@ -886,16 +1326,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Why do American and hybrid vines stay popular in New York State winters?
+      question: "Why do American varieties and hybrids remain important in New York State vineyards?"
       choices:
-        - { text: "American and hybrid vines need tropical heat to survive", correct: false }
-        - { text: "American and hybrid vines are winter-hardy", correct: true }
-        - { text: "American and hybrid vines are banned from cold sites", correct: false }
-        - { text: "American and hybrid vines cannot survive below 20 °C", correct: false }
+        - { text: "Many combine winter hardiness and disease resistance with reliable cropping", correct: true }
+        - { text: "Their need for mild winters and long, hot summers matches New York’s climate", correct: false }
+        - { text: "They ripen later than vinifera, allowing growers to extend harvest into winter", correct: false }
+        - { text: "They share a neutral flavour profile and the same winter sensitivity as vinifera", correct: false }
       explanation: |
-        **American and hybrid vines are winter-hardy.** Native
-        and hybrid varieties tolerate New York State cold better
-        than many Vitis vinifera cultivars.
+        Native American varieties and many hybrids tolerate severe winter cold better than many
+        vinifera cultivars, and some also offer useful disease resistance and productivity. Their
+        exact strengths differ by variety.
+    fr:
+      question: "Pourquoi les cépages américains et les hybrides restent-ils importants dans les vignobles de l’État de New York ?"
+      choices:
+        - { text: "Beaucoup associent résistance au froid hivernal, résistance aux maladies et rendements fiables", correct: true }
+        - { text: "Leur besoin d’hivers doux et d’étés longs et chauds correspond au climat de New York", correct: false }
+        - { text: "Ils mûrissent plus tard que les vinifera, ce qui permet de prolonger les vendanges jusqu’en hiver", correct: false }
+        - { text: "Ils partagent un profil aromatique neutre et la même sensibilité hivernale que vinifera", correct: false }
+      explanation: |
+        Les cépages américains et de nombreux hybrides supportent mieux les grands froids hivernaux
+        que beaucoup de vinifera ; certains présentent aussi une résistance utile aux maladies et
+        une bonne productivité. Les atouts précis diffèrent selon le cépage.
 
   - id: new-york-vinifera-whites-001
     type: mcq
@@ -907,16 +1358,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which pair of Vitis vinifera whites leads plantings in New York State?
+      question: "Which pair leads New York State’s reported Vitis vinifera white-grape acreage?"
       choices:
-        - { text: "Palomino and Pedro Ximénez", correct: false }
         - { text: "Riesling and Chardonnay", correct: true }
-        - { text: "Furmint and Hárslevelű only", correct: false }
-        - { text: "Pinot Gris and Viognier only", correct: false }
+        - { text: "Palomino and Pedro Ximénez", correct: false }
+        - { text: "Furmint and Hárslevelű", correct: false }
+        - { text: "Viognier and Marsanne", correct: false }
       explanation: |
-        **Riesling and Chardonnay.** Riesling leads Vitis vinifera
-        in New York State; Chardonnay is close behind. Concord
-        still beats both on total grape acres.
+        Recent statewide vineyard reporting places Riesling first among vinifera whites, followed by
+        Chardonnay. Concord remains much more widely planted overall, but it is a native American
+        variety rather than Vitis vinifera.
+    fr:
+      question: "Quelle paire arrive en tête des surfaces déclarées en cépages blancs Vitis vinifera dans l’État de New York ?"
+      choices:
+        - { text: "Riesling et Chardonnay", correct: true }
+        - { text: "Palomino et Pedro Ximénez", correct: false }
+        - { text: "Furmint et Hárslevelű", correct: false }
+        - { text: "Viognier et Marsanne", correct: false }
+      explanation: |
+        Les données viticoles récentes placent le Riesling en tête des blancs vinifera, suivi du
+        Chardonnay. Le Concord reste beaucoup plus planté au total, mais il s’agit d’un cépage
+        américain et non de Vitis vinifera.
 
   - id: new-york-vinifera-reds-001
     type: mcq
@@ -928,18 +1390,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which pair of red Vitis vinifera grapes lead plantings in New York State?
+      question: "Which pair leads New York State’s reported red Vitis vinifera acreage?"
       choices:
-        - { text: "Pinotage and Touriga Nacional only", correct: false }
-        - { text: "Merlot and Cabernet Franc", correct: true }
-        - { text: "Only Zinfandel and Petite Sirah", correct: false }
-        - { text: "Nebbiolo and Sangiovese as the acreage leaders", correct: false }
+        - { text: "Cabernet Franc and Cabernet Sauvignon", correct: true }
+        - { text: "Merlot and Pinotage", correct: false }
+        - { text: "Zinfandel and Petite Sirah", correct: false }
+        - { text: "Nebbiolo and Sangiovese", correct: false }
       explanation: |
-        **Merlot and Cabernet Franc.** Those two lead New York
-        State’s red Vitis vinifera acres (Merlot especially on
-        Long Island; Cabernet Franc in the Finger Lakes). Cabernet
-        Sauvignon and Pinot Noir are grown, but they are not the
-        statewide red leaders.
+        Recent statewide reporting places Cabernet Franc ahead of Cabernet Sauvignon among red
+        vinifera, with Pinot Noir and Merlot also important. This corrects an older ranking that
+        placed Merlot in the leading pair.
+    fr:
+      question: "Quelle paire arrive en tête des surfaces déclarées en cépages rouges Vitis vinifera dans l’État de New York ?"
+      choices:
+        - { text: "Cabernet Franc et Cabernet Sauvignon", correct: true }
+        - { text: "Merlot et Pinotage", correct: false }
+        - { text: "Zinfandel et Petite Sirah", correct: false }
+        - { text: "Nebbiolo et Sangiovese", correct: false }
+      explanation: |
+        Les données récentes placent le Cabernet Franc devant le Cabernet Sauvignon parmi les rouges
+        vinifera ; Pinot Noir et Merlot restent importants. Cela corrige un ancien classement qui
+        plaçait le Merlot dans la paire de tête.
 
   - id: new-york-finger-lakes-001
     type: mcq
@@ -951,17 +1422,27 @@ cards:
       fact_check: pass
       sources: [spec, aoc-site]
     en:
-      question: Which AVA is the centre of New York State's wine industry?
+      question: "Which AVA is New York State’s best-known premium cool-climate wine region?"
       choices:
-        - { text: "Long Island AVA", correct: false }
         - { text: "Finger Lakes AVA", correct: true }
-        - { text: "Hudson River Region AVA", correct: false }
         - { text: "Lake Erie AVA", correct: false }
+        - { text: "Long Island AVA", correct: false }
+        - { text: "Hudson River Region AVA", correct: false }
       explanation: |
-        **Finger Lakes AVA.** It is New York State's core wine
-        address. Long Island AVA, Hudson River Region AVA, and
-        Lake Erie AVA are real New York districts, but they are
-        smaller wine centres.
+        Finger Lakes is internationally associated with cool-climate vinifera, especially Riesling.
+        Long Island, Hudson River Region and Lake Erie are important New York areas too, but have
+        different climates, grapes and market identities.
+    fr:
+      question: "Quelle AVA est la région de vins haut de gamme de climat frais la plus connue de l’État de New York ?"
+      choices:
+        - { text: "Finger Lakes AVA", correct: true }
+        - { text: "Lake Erie AVA", correct: false }
+        - { text: "Long Island AVA", correct: false }
+        - { text: "Hudson River Region AVA", correct: false }
+      explanation: |
+        Les Finger Lakes sont internationalement associées aux vinifera de climat frais, notamment
+        au Riesling. Long Island, Hudson River Region et Lake Erie sont également importantes, mais
+        possèdent d’autres climats, cépages et identités commerciales.
 
   - id: new-york-finger-lakes-lakes-001
     type: mcq
@@ -973,17 +1454,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Why can vines ripen around Finger Lakes AVA despite a short, cold season?
+      question: "How do the deep Finger Lakes improve the prospects for vinifera on nearby slopes?"
       choices:
-        - { text: "The lakes freeze in June and stop all growth", correct: false }
-        - { text: "Deep glacial lakes store heat into November and warm the nearby air, stretching the season", correct: true }
-        - { text: "A rain shadow from the Cascades keeps Finger Lakes AVA arid", correct: false }
-        - { text: "Pacific breezes reach the lakes every afternoon", correct: false }
+        - { text: "They moderate temperature, delay spring warming and reduce damaging frost risk near the water", correct: true }
+        - { text: "They warm rapidly in spring, advancing budbreak before the last frosts", correct: false }
+        - { text: "They trap cold air on lower slopes, shortening the growing season near the water", correct: false }
+        - { text: "They make valley floors warmer than slopes by reflecting strong summer heat", correct: false }
       explanation: |
-        **Deep glacial lakes store heat into November and warm
-        the nearby air, stretching the season.** That autumn
-        buffer is a Finger Lakes AVA fact, not a Cascade
-        rain-shadow or Pacific-breeze story.
+        The deep lakes warm and cool slowly. They temper autumn and winter cold, delay spring
+        warming and encourage cold-air drainage down slopes, reducing frost risk and extending the
+        effective season near the larger lakes.
+    fr:
+      question: "Comment les lacs profonds des Finger Lakes améliorent-ils les chances de réussite de vinifera sur les coteaux voisins ?"
+      choices:
+        - { text: "Ils modèrent les températures, retardent le réchauffement printanier et réduisent le risque de gel près de l’eau", correct: true }
+        - { text: "Ils se réchauffent vite au printemps et avancent le débourrement avant les dernières gelées", correct: false }
+        - { text: "Ils emprisonnent l’air froid sur le bas des coteaux et raccourcissent la saison près de l’eau", correct: false }
+        - { text: "Ils rendent le fond des vallées plus chaud que les coteaux en réfléchissant la chaleur estivale", correct: false }
+      explanation: |
+        Les lacs profonds se réchauffent et se refroidissent lentement. Ils atténuent les froids
+        d’automne et d’hiver, retardent le réchauffement printanier et favorisent l’écoulement de
+        l’air froid sur les pentes, réduisant le gel et allongeant la saison près des grands lacs.
 
   - id: new-york-finger-lakes-riesling-001
     type: mcq
@@ -995,16 +1486,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which wine is Finger Lakes AVA's calling card?
+      question: "Which wine is the signature international style of the Finger Lakes AVA?"
       choices:
-        - { text: "Fortified Palomino", correct: false }
-        - { text: "Perfumed Riesling", correct: true }
-        - { text: "Napa-style Cabernet Sauvignon as the flagship", correct: false }
-        - { text: "Willamette-style Pinot Noir as the flagship", correct: false }
+        - { text: "High-acid Riesling ranging from dry to sweet", correct: true }
+        - { text: "Full-bodied, heavily oaked Chardonnay with low acidity", correct: false }
+        - { text: "Ripe, high-tannin Cabernet Sauvignon dominated by blackcurrant", correct: false }
+        - { text: "Sweet Vidal Blanc icewine as the region’s principal still-wine style", correct: false }
       explanation: |
-        **Perfumed Riesling.** Finger Lakes AVA is the United
-        States’ Riesling landmark. Pinot Noir is the Willamette
-        Valley AVA flagship, not the Finger Lakes headline.
+        Riesling is the Finger Lakes’ benchmark vinifera. The cool climate preserves acidity, and
+        producers make styles from dry through off-dry to sweet, including late-harvest and
+        occasional ice wines.
+    fr:
+      question: "Quel vin constitue le style emblématique des Finger Lakes à l’international ?"
+      choices:
+        - { text: "Un Riesling à forte acidité, allant du sec au doux", correct: true }
+        - { text: "Un Chardonnay corsé, fortement boisé et peu acide", correct: false }
+        - { text: "Un Cabernet Sauvignon mûr et tannique dominé par le cassis", correct: false }
+        - { text: "Un vin de glace doux de Vidal Blanc comme principal style de vin tranquille", correct: false }
+      explanation: |
+        Le Riesling est le vinifera de référence des Finger Lakes. Le climat frais préserve
+        l’acidité et les producteurs élaborent des styles secs, demi-secs ou doux, y compris des
+        vendanges tardives et parfois des vins de glace.
 
   - id: new-york-finger-lakes-others-001
     type: mcq
@@ -1016,16 +1518,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Besides Riesling, which Vitis vinifera set does Finger Lakes AVA ripen successfully?
+      question: "Which vinifera group is also important in the Finger Lakes alongside Riesling?"
       choices:
-        - { text: "Only Palomino and Pedro Ximénez", correct: false }
-        - { text: "Pinot Noir, Cabernet Franc, and Chardonnay", correct: true }
-        - { text: "Only Zinfandel from Lodi cuttings", correct: false }
-        - { text: "Only Touriga Nacional and Tinta Roriz", correct: false }
+        - { text: "Chardonnay, Cabernet Franc and Pinot Noir", correct: true }
+        - { text: "Palomino, Pedro Ximénez and Airén", correct: false }
+        - { text: "Touriga Nacional, Tinta Roriz and Baga", correct: false }
+        - { text: "Zinfandel, Petite Sirah and Alicante Bouschet", correct: false }
       explanation: |
-        **Pinot Noir, Cabernet Franc, and Chardonnay.** Those
-        three join Riesling on Finger Lakes AVA slopes. Cabernet
-        Sauvignon is harder to finish there than Cabernet Franc.
+        Chardonnay, Cabernet Franc and Pinot Noir are established Finger Lakes varieties. Cabernet
+        Franc is generally better suited than later-ripening Cabernet Sauvignon, while Pinot Noir
+        and Chardonnay also support sparkling wine.
+    fr:
+      question: "Quel groupe de vinifera est également important dans les Finger Lakes aux côtés du Riesling ?"
+      choices:
+        - { text: "Chardonnay, Cabernet Franc et Pinot Noir", correct: true }
+        - { text: "Palomino, Pedro Ximénez et Airén", correct: false }
+        - { text: "Touriga Nacional, Tinta Roriz et Baga", correct: false }
+        - { text: "Zinfandel, Petite Sirah et Alicante Bouschet", correct: false }
+      explanation: |
+        Chardonnay, Cabernet Franc et Pinot Noir sont bien implantés dans les Finger Lakes. Le
+        Cabernet Franc est généralement mieux adapté que le Cabernet Sauvignon, plus tardif ; Pinot
+        Noir et Chardonnay servent aussi aux vins effervescents.
 
   - id: new-york-finger-lakes-natives-001
     type: mcq
@@ -1037,16 +1550,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Besides Vitis vinifera, what does Finger Lakes AVA still grow?
+      question: "What is planted in the Finger Lakes in addition to Vitis vinifera?"
       choices:
-        - { text: "Only Muscadine and Scuppernong", correct: false }
-        - { text: "American varieties and hybrids", correct: true }
-        - { text: "Only Vitis vinifera, with natives banned", correct: false }
-        - { text: "Only California Zinfandel", correct: false }
+        - { text: "Native American varieties and interspecific hybrids", correct: true }
+        - { text: "Muscadine varieties and their heat-adapted hybrids", correct: false }
+        - { text: "Seedless vinifera table-grape clones rather than wine grapes", correct: false }
+        - { text: "Mediterranean vinifera varieties grafted onto vinifera rootstocks", correct: false }
       explanation: |
-        **American varieties and hybrids.** Finger Lakes AVA still
-        has native and hybrid plantings beside Riesling and the
-        other Vitis vinifera grapes.
+        Finger Lakes vineyards include native grapes such as Concord and hybrids such as Cayuga
+        White and Vidal Blanc alongside vinifera. These groups serve different wine and processing
+        markets and offer useful cold hardiness.
+    fr:
+      question: "Que trouve-t-on dans les Finger Lakes en plus de Vitis vinifera ?"
+      choices:
+        - { text: "Des cépages américains et des hybrides interspécifiques", correct: true }
+        - { text: "Des Muscadines et leurs hybrides adaptés à la chaleur", correct: false }
+        - { text: "Des clones sans pépins de vinifera destinés au raisin de table plutôt qu’au vin", correct: false }
+        - { text: "Des cépages méditerranéens de vinifera greffés sur des porte-greffes vinifera", correct: false }
+      explanation: |
+        Les vignobles des Finger Lakes comprennent des cépages américains comme Concord et des
+        hybrides comme Cayuga White ou Vidal Blanc aux côtés de vinifera. Ces groupes servent
+        différents marchés et présentent une résistance au froid utile.
 
   - id: new-york-lake-avas-001
     type: mcq
@@ -1058,14 +1582,24 @@ cards:
       fact_check: pass
       sources: [aoc-site]
     en:
-      question: Which Finger Lakes have their own nested AVAs?
+      question: "Which two lake-specific AVAs are nested within the Finger Lakes AVA?"
       choices:
-        - { text: "Keuka Lake and Canandaigua Lake", correct: false }
         - { text: "Seneca Lake and Cayuga Lake", correct: true }
+        - { text: "Keuka Lake and Canandaigua Lake", correct: false }
         - { text: "Skaneateles Lake and Owasco Lake", correct: false }
-        - { text: "Canandaigua Lake and Skaneateles Lake", correct: false }
+        - { text: "Honeoye Lake and Otisco Lake", correct: false }
       explanation: |
-        **Seneca Lake and Cayuga Lake.** Seneca Lake AVA and
-        Cayuga Lake AVA sit inside Finger Lakes AVA. Keuka,
-        Canandaigua, and Skaneateles have no nested AVA of
-        their own.
+        Seneca Lake AVA and Cayuga Lake AVA are the two federally recognised AVAs nested within
+        Finger Lakes. Other Finger Lakes may have important vineyards, but they do not currently
+        have their own nested AVA names.
+    fr:
+      question: "Quelles sont les deux AVA portant le nom d’un lac et imbriquées dans la Finger Lakes AVA ?"
+      choices:
+        - { text: "Seneca Lake et Cayuga Lake", correct: true }
+        - { text: "Keuka Lake et Canandaigua Lake", correct: false }
+        - { text: "Skaneateles Lake et Owasco Lake", correct: false }
+        - { text: "Honeoye Lake et Otisco Lake", correct: false }
+      explanation: |
+        Seneca Lake AVA et Cayuga Lake AVA sont les deux AVA fédérales imbriquées dans les Finger
+        Lakes. D’autres lacs accueillent des vignobles importants, mais ne possèdent pas
+        actuellement leur propre nom d’AVA imbriquée.

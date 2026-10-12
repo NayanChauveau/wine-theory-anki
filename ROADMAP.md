@@ -18,9 +18,9 @@ or rejected.
 | Measure | Complete | Remaining | Progress |
 | --- | ---: | ---: | ---: |
 | Legacy source notes resolved | 2,236 / 4,075 | 1,839 | 54.9% |
-| Cards with French | 2,011 / 2,364 | 353 | 85.1% |
-| Release-eligible cards with French | 2,011 / 2,359 | 348 | 85.2% |
-| Draft cards | — | 5 | — |
+| Cards with French | 2,061 / 2,364 | 303 | 87.2% |
+| Release-eligible cards with French | 2,061 / 2,360 | 299 | 87.3% |
+| Draft cards | — | 4 | — |
 
 To obtain the live migration count, run:
 
@@ -29,7 +29,7 @@ uv run wset3-anki import-status
 ```
 
 All translated MCQs currently have matching English and French choice counts and correct
-answer indexes. Twenty-nine completed chapter passes are recorded as `awaiting-human` in
+answer indexes. Thirty completed chapter passes are recorded as `awaiting-human` in
 the quality ledger; agent review is complete for those chapters, but human sign-off remains
 open.
 
@@ -63,21 +63,14 @@ open.
 - [x] Record all four chapter passes in `import/quality-review.yaml`.
 - [ ] Build and inspect all four sections in Anki.
 
-### 4. Translate other chapters whose English source migration is already complete
-
-These chapters can be translated now without getting ahead of pending English source
-notes.
-
-| Chapter | Missing French cards |
-| --- | ---: |
-| Pacific Northwest | 50 |
-| **Subtotal** | **50** |
+### 4. USA Introduction and Pacific Northwest — editorial passes complete
 
 - [x] Fact-check, rewrite and translate all 6 USA Introduction cards.
 - [x] Record the USA Introduction pass in `import/quality-review.yaml`.
-- [ ] Translate Pacific Northwest in its existing YAML file.
-- [ ] Recheck English and French together for sense, difficulty and answer alignment.
-- [ ] Add or complete the Pacific Northwest entry in `import/quality-review.yaml`.
+- [x] Fact-check, rewrite and translate all 50 Pacific Northwest and New York cards.
+- [x] Recheck English and French together for sense, difficulty and answer alignment.
+- [x] Record the Pacific Northwest pass in `import/quality-review.yaml`.
+- [ ] Build and inspect both USA sections in Anki.
 
 ### 5. Finish partially migrated English chapters before translating them
 
