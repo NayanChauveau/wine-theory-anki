@@ -218,17 +218,16 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Where does a vineyard vine get its heat from?
+      question: Which process best describes how a vineyard receives and redistributes heat?
       choices:
-        - { text: "Only from fermentation in the cellar", correct: false }
-        - { text: "From sunlight and from the soil", correct: true }
-        - { text: "Only from irrigation water", correct: false }
-        - { text: "Only from the rootstock number", correct: false }
+        - { text: "Solar radiation warms vine and ground; the ground can absorb and reradiate energy", correct: true }
+        - { text: "Air movement creates heat independently of solar radiation and surface temperature", correct: false }
+        - { text: "Irrigation supplies most vineyard heat as water evaporates from leaves and soil", correct: false }
+        - { text: "Root respiration warms the canopy enough to determine the site's growing season", correct: false }
       explanation: |
-        **From sunlight and from the soil.** The sun warms air and
-        canopy; dark or stony ground stores that energy and gives it
-        back at night. Mosel slate and Mediterranean galets are the
-        usual named heat-banks — helpers, not a separate climate class.
+        The sun is the primary energy source. Soil and stones absorb part of that radiation and later
+        release heat, modifying temperatures close to the canopy. Dark Mosel slate and the galets of
+        Châteauneuf-du-Pape illustrate the effect without creating heat independently.
 
   - id: vine-light-reflect-001
     type: mcq
@@ -240,17 +239,16 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Besides direct sunshine, where else can a vine pick up useful light?
+      question: How can a pale or stony vineyard surface increase the light reaching a grapevine canopy?
       choices:
-        - { text: "Only from cellar lamps at night", correct: false }
-        - { text: "Reflection from the soil surface", correct: true }
-        - { text: "Only from the moon", correct: false }
-        - { text: "From nutrients dissolved in drip water", correct: false }
+        - { text: "By reflecting part of the incoming solar radiation towards leaves and bunches", correct: true }
+        - { text: "By converting mineral nutrients into light that enters the lower leaf surface", correct: false }
+        - { text: "By increasing day length after sunset through stored heat in the stones", correct: false }
+        - { text: "By concentrating ultraviolet radiation while blocking the visible wavelengths", correct: false }
       explanation: |
-        **Reflection from the soil surface.** Pale stones and water
-        bounce extra light into the canopy. Châteauneuf-du-Pape's
-        galets and Mosel slate are the checkable examples; they add
-        reflected light, they do not replace the sun.
+        Reflective ground can redirect sunlight into shaded parts of the canopy and fruit zone. The
+        size of the effect depends on surface colour, angle, canopy structure and moisture; reflected
+        light supplements rather than replaces direct sunlight.
 
   - id: vine-water-sources-001
     type: mcq
@@ -264,15 +262,14 @@ cards:
     en:
       question: How does a grapevine obtain the water it uses?
       choices:
-        - { text: "Only by absorbing rain through the leaves", correct: false }
-        - { text: "Rainfall, irrigation, and water stored in soil or bedrock", correct: true }
-        - { text: "Only from the humidity inside a bottle", correct: false }
-        - { text: "Vines do not take up water at all", correct: false }
+        - { text: "Roots take up water supplied by rainfall or irrigation and retained in the soil profile", correct: true }
+        - { text: "Leaves absorb most water directly from rain, dew and humid air during the night", correct: false }
+        - { text: "Berries draw water from the atmosphere and then transfer it downwards to the roots", correct: false }
+        - { text: "Roots create water from soil minerals when rainfall and irrigation are unavailable", correct: false }
       explanation: |
-        **Rainfall, irrigation, and water stored in soil or bedrock.**
-        Roots tap whatever the profile holds; a grower may add water
-        where the law and the climate allow. Leaves do not drink the
-        season's rain the way roots do.
+        Roots absorb water held in pores and fissures in soil and weathered rock. Rainfall replenishes
+        that reserve, and irrigation can supplement it where permitted and necessary. Rooting depth,
+        soil texture and effective soil volume govern how much remains accessible.
 
   - id: vine-nutrient-sources-001
     type: mcq
@@ -286,14 +283,14 @@ cards:
     en:
       question: Where can a vine obtain the mineral nutrients it needs?
       choices:
-        - { text: "Only from oak barrels in the cellar", correct: false }
-        - { text: "Soil minerals, weathering bedrock, humus and fertiliser", correct: true }
-        - { text: "Only from carbon dioxide in the air", correct: false }
-        - { text: "Only from the wax on a graft union", correct: false }
+        - { text: "From the soil solution, replenished by minerals, organic matter and any fertiliser", correct: true }
+        - { text: "From atmospheric carbon dioxide, which supplies nitrogen, phosphorus and potassium", correct: false }
+        - { text: "From sunlight absorbed by leaves, which converts radiation directly into minerals", correct: false }
+        - { text: "From irrigation alone, because dry soil and organic matter contain no plant nutrients", correct: false }
       explanation: |
-        **Soil minerals, weathering bedrock, humus and fertiliser.**
-        Roots take up what the profile and any added feed supply.
-        Carbon dioxide feeds photosynthesis; it is not a soil nutrient.
+        Roots take up dissolved mineral ions from the soil solution. Weathering, decomposition of
+        organic matter and fertiliser can replenish that supply, while soil pH and water status affect
+        whether nutrients are available to the vine.
 
   - id: vine-freeze-union-001
     type: mcq
@@ -305,17 +302,16 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which part of a grafted vine is usually most at risk in a hard winter freeze?
+      question: Which part of a grafted vine is particularly vulnerable to winter cold and is often protected by hilling?
       choices:
-        - { text: "The ripe berries already in the press", correct: false }
-        - { text: "The graft union (the callus where scion meets rootstock)", correct: true }
-        - { text: "Only the root tips a metre down", correct: false }
-        - { text: "The capsule on a finished bottle", correct: false }
+        - { text: "The exposed graft union between scion and rootstock", correct: true }
+        - { text: "The deepest fine roots below the winter frost line", correct: false }
+        - { text: "The mature trunk well above the graft union", correct: false }
+        - { text: "The distal buds on retained one-year-old canes", correct: false }
       explanation: |
-        **The graft union (the callus where scion meets rootstock).**
-        That join is more cold-tender than buried roots. If the union
-        dies, the fruiting variety is lost even if the rootstock
-        resprouts. Finger Lakes and Champagne winters make the point.
+        The union is exposed close to the soil surface and can be more cold-sensitive than protected
+        underground tissues. If it dies, surviving rootstock suckers do not preserve the fruiting
+        variety, so cold-climate growers may mound soil over the join.
 
   - id: vine-freeze-hilling-001
     type: mcq
@@ -329,15 +325,14 @@ cards:
     en:
       question: How do growers usually shield a graft union from winter freeze?
       choices:
-        - { text: "By painting the union with copper sulphate only", correct: false }
-        - { text: "By banking soil over the union, and sometimes the whole vine", correct: true }
-        - { text: "By flooding the row until ice covers the canopy", correct: false }
-        - { text: "By removing the rootstock before the first frost", correct: false }
+        - { text: "Bank soil over the union so the ground insulates it during the coldest period", correct: true }
+        - { text: "Use wind machines whenever dormant wood approaches its minimum winter temperature", correct: false }
+        - { text: "Delay winter pruning so retained canes conduct heat from the trellis into the union", correct: false }
+        - { text: "Apply overhead irrigation until an ice layer encloses the dormant trunk and cordons", correct: false }
       explanation: |
-        **By banking soil over the union, and sometimes the whole vine.**
-        Hilling uses the ground as insulation; the mound is pulled back
-        in spring so the scion does not root. New York, Niagara and
-        Champagne are the usual named places that still do this.
+        Hilling uses soil as insulation around the vulnerable join; some very cold regions bury
+        retained canes as additional insurance. The mound is removed in spring to discourage the
+        scion from rooting above the rootstock.
 
   - id: vine-spring-frost-001
     type: mcq
@@ -351,15 +346,14 @@ cards:
     en:
       question: What does a spring frost do to a vine that has already burst?
       choices:
-        - { text: "It only sweetens the previous year's wine", correct: false }
-        - { text: "It can kill newly opened buds and young shoots", correct: true }
-        - { text: "It forces an extra crop in the same week", correct: false }
-        - { text: "It hardens the graft union against phylloxera", correct: false }
+        - { text: "It can kill primary buds and green shoots, reducing the potential crop", correct: true }
+        - { text: "It mainly kills deep roots while leaving exposed green growth unaffected", correct: false }
+        - { text: "It advances flowering by increasing the vine's accumulated spring heat", correct: false }
+        - { text: "It improves fruit set by shortening the period between budburst and bloom", correct: false }
       explanation: |
-        **It can kill newly opened buds and young shoots.** Soft green
-        tissue has no winter hardiness. Chablis and Champagne lose
-        whole shoots this way; a second-generation bud may grow later,
-        but the first crop is already damaged.
+        De-acclimated green tissue is much less cold-hardy than dormant wood. Secondary or tertiary
+        buds may produce replacement shoots after injury, but they are often less fruitful, so the
+        crop can be substantially reduced.
 
   - id: vine-mild-winter-dormancy-001
     type: mcq
@@ -371,17 +365,16 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What can a too-mild winter do to the next season’s budburst?
+      question: What can insufficient winter chilling do to grapevine budburst the following spring?
       choices:
-        - { text: "It guarantees a single, even budburst", correct: false }
-        - { text: "Budburst can be uneven", correct: true }
-        - { text: "It turns every vine into a hybrid rootstock", correct: false }
-        - { text: "It freezes the graft union on purpose", correct: false }
+        - { text: "Delay and desynchronise budburst across canes and vines", correct: true }
+        - { text: "Advance every bud equally because dormancy ends without a chilling requirement", correct: false }
+        - { text: "Increase cold hardiness so buds remain dormant throughout the growing season", correct: false }
+        - { text: "Synchronise flowering even if individual buds open at widely different dates", correct: false }
       explanation: |
-        **Budburst can be uneven.** Grapevines use a real chill to
-        shut down and reset. In a frost-free or very mild winter
-        that rest is messy or missing, so buds break irregularly.
-        A slightly soft January in Burgundy is not the same problem.
+        Grapevine buds have a chilling requirement that varies by cultivar. In genuinely warm-winter
+        regions, insufficient chill can cause delayed or uneven budburst and subsequent uneven crop
+        development; an occasionally mild temperate winter is not automatically equivalent.
 
   - id: vine-tropical-double-crop-001
     type: mcq
@@ -393,18 +386,16 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: In a hot region with no real winter, what can growers force that usually shortens vine life and hurts quality?
+      question: How can some tropical vineyards schedule more than one grape crop in a year?
       choices:
-        - { text: "A single harvest every third year only", correct: false }
-        - { text: "More than one crop in the same year", correct: true }
-        - { text: "Permanent winter freeze on the graft union", correct: false }
-        - { text: "A ban on irrigation and pruning", correct: false }
+        - { text: "Use pruning and irrigation to impose separate growth and fruiting cycles", correct: true }
+        - { text: "Rely on winter chilling to trigger two natural budbursts a few weeks apart", correct: false }
+        - { text: "Leave every shoot unpruned so old and new bunches ripen simultaneously", correct: false }
+        - { text: "Withhold water throughout both cycles so dormancy and flowering overlap", correct: false }
       explanation: |
-        **More than one crop in the same year.** The São Francisco
-        Valley in Brazil is the named case: pruning and irrigation
-        push two (sometimes more) cycles because the vine never truly
-        rests. Extra crops wear the plant and rarely match a
-        single-season temperate vintage.
+        Where temperature permits year-round growth, growers can use pruning and control of irrigation
+        to start and time production cycles rather than relying on winter dormancy. Brazil's São
+        Francisco Valley is a prominent example, with harvest timing chosen for market needs.
 
   - id: vine-summer-heat-ripening-001
     type: mcq
@@ -416,17 +407,16 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What do very high summer temperatures usually do to ripening and the resulting wine style?
+      question: Before heat becomes severe enough to shut down the canopy, what ripening tendency is associated with warmer conditions?
       choices:
-        - { text: "They freeze the berries and raise acidity", correct: false }
-        - { text: "They speed ripening and change grape composition, so the wine style shifts", correct: true }
-        - { text: "They stop sugar from forming at all", correct: false }
-        - { text: "They have no effect if the variety is red", correct: false }
+        - { text: "Faster sugar accumulation and acid loss, leading to riper fruit profiles", correct: true }
+        - { text: "Slower sugar accumulation and higher acidity, leading to leaner fruit profiles", correct: false }
+        - { text: "Unchanged sugar and acid because temperature affects phenology but not composition", correct: false }
+        - { text: "Lower potential alcohol and delayed flavour development despite earlier harvest", correct: false }
       explanation: |
-        **They speed ripening and change grape composition, so the wine
-        style shifts.** Sugar races, acid drops, and aromatics move
-        toward cooked or jammy notes. Europe's 2003 heat is the named
-        vintage; water supply is a separate question.
+        Warmer conditions generally accelerate sugar accumulation and acid respiration, altering the
+        balance and style at harvest. Extreme heat and water stress can instead impair photosynthesis,
+        cause sunburn or stall ripening, so the response is not unlimited.
 
   - id: vine-drought-collapse-001
     type: mcq
