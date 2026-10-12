@@ -16,14 +16,14 @@ cards:
     en:
       question: What is a controlled cross (cross-fertilisation) in grape breeding?
       choices:
-        - { text: "Grafting a fruiting vine onto a phylloxera-resistant rootstock", correct: false }
-        - { text: "Making a new variety by pollinating one vine with another under control", correct: true }
-        - { text: "A chance seedling that nobody planned", correct: false }
-        - { text: "Cloning a single mother vine by cuttings only", correct: false }
+        - { text: "Selecting and propagating a useful mutation found within an existing variety", correct: false }
+        - { text: "Pollinating one chosen parent with another and raising the resulting seed", correct: true }
+        - { text: "Joining a fruiting scion to a rootstock with complementary traits", correct: false }
+        - { text: "Selecting several superior vines and propagating them together by cuttings", correct: false }
       explanation: |
-        A **cross** is deliberate: pollen from vine A meets the flower of vine B,
-        a seed is grown on, and if it is worth keeping you have a **new variety**.
-        Grafting and cloning copy what already exists; they do not breed.
+        A cross combines genetic material from two parents through sexual reproduction. The seedling
+        is genetically distinct and may be selected as a new variety; clonal or massal selection and
+        grafting propagate or combine existing plant material without creating that seedling.
 
   - id: vine-crossing-how-001
     type: mcq
@@ -37,15 +37,14 @@ cards:
     en:
       question: How does a planned grape cross actually produce a new variety?
       choices:
-        - { text: "You splice two canes together and the graft is the new variety", correct: false }
-        - { text: "Pollen from one vine fertilises another; the seed is grown into a new plant", correct: true }
-        - { text: "You rinse cuttings in hormone and they change grape colour", correct: false }
-        - { text: "Two finished wines are blended in tank and refermented", correct: false }
+        - { text: "A scion and rootstock fuse, combining their chromosomes in every new shoot", correct: false }
+        - { text: "Pollen fertilises a chosen flower; a resulting seed is germinated and evaluated", correct: true }
+        - { text: "A selected cane is rooted, and its cuttings gradually become a new genotype", correct: false }
+        - { text: "Several clones are planted together, and their shared fruit becomes a new variety", correct: false }
       explanation: |
-        The flower is pollinated, a **seeded berry** forms, and that seed is
-        planted. The seedling is genetically new — **Pinot × Gouais blanc** gave
-        Chardonnay, Gamay and a crowd of other Burgundian children. A graft is
-        still the same variety on a different root.
+        Fertilisation produces a seed carrying a new combination of genes. Seedlings must then be
+        grown and assessed because siblings vary. Chardonnay, for example, arose from Pinot × Gouais
+        Blanc; a graft remains the original scion variety on a separate root system.
 
   - id: vine-growth-warmth-001
     type: mcq
@@ -57,40 +56,37 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Around what air temperature does a grapevine usually need warmth before growth and photosynthesis get going?
+      question: Which base temperature is commonly used to estimate useful growing-season heat for grapevines?
       choices:
-        - { text: "Well below freezing is already enough", correct: false }
-        - { text: "Around 10 °C and warmer", correct: true }
-        - { text: "Only once the air passes 40 °C", correct: false }
-        - { text: "Air temperature does not affect growth", correct: false }
+        - { text: "Around 0 °C", correct: false }
+        - { text: "Around 10 °C", correct: true }
+        - { text: "Around 20 °C", correct: false }
+        - { text: "Around 30 °C", correct: false }
       explanation: |
-        **Around 10 °C and warmer.** Growers treat that band as the start of
-        useful warmth — it is also the usual base for growing-degree-day
-        counts. It is a working threshold, not a claim that every cell
-        switches off the moment the thermometer dips.
+        A 10 °C base is widely used in growing-degree-day calculations for vines. It is a practical
+        model for comparing heat accumulation, not a claim that all physiological activity starts or
+        stops at exactly that temperature.
 
   - id: vine-heat-respiration-001
     type: mcq
     deck: The Vine
     tags: [vine, climate, physiology]
-    status: draft
+    status: reviewed
     source_id: c03-0002
     review:
-      fact_check: unsure
+      fact_check: pass
       sources: [known-fact]
     en:
-      question: Once vineyard heat climbs past the low twenties Celsius, what can happen to the vine's sugar balance?
+      question: Why can prolonged heat well above a grapevine's optimum reduce its net carbon gain?
       choices:
-        - { text: "Photosynthesis suddenly doubles and sugar floods every berry", correct: false }
-        - { text: "Respiration starts to burn more sugar than the leaves replace", correct: true }
-        - { text: "The vine freezes and stores extra sugar in the wood", correct: false }
-        - { text: "All water use stops until night", correct: false }
+        - { text: "Photosynthesis can be impaired while respiration continues consuming carbohydrates", correct: true }
+        - { text: "Photosynthesis accelerates indefinitely while respiratory losses fall towards zero", correct: false }
+        - { text: "Stomata remain fully open, so heat guarantees unrestricted carbon dioxide uptake", correct: false }
+        - { text: "Stored carbohydrates become unavailable because roots enter winter dormancy", correct: false }
       explanation: |
-        **Respiration starts to burn more sugar than the leaves replace.**
-        Warmth speeds the vine's own metabolism; in strong heat the canopy
-        may not keep up. The exact crossover is variety- and
-        weather-dependent — do not treat one thermometer reading as a
-        hard physiological switch.
+        High temperature can depress photosynthesis, increase respiratory demand and intensify water
+        stress, worsening the vine's carbon balance. The response and threshold depend on cultivar,
+        acclimation, water status and duration; there is no universal 22 °C crossover.
 
   - id: vine-cycle-heat-001
     type: mcq
@@ -104,14 +100,14 @@ cards:
     en:
       question: Which climate factor most strongly sets the timing of each stage in the vine's annual cycle?
       choices:
-        - { text: "Rainfall", correct: false }
+        - { text: "Rainfall pattern", correct: false }
         - { text: "Temperature", correct: true }
-        - { text: "Light intensity alone", correct: false }
-        - { text: "Wind speed", correct: false }
+        - { text: "Wind exposure", correct: false }
+        - { text: "Relative humidity", correct: false }
       explanation: |
-        **Temperature** paces budburst, flowering, véraison and the rest.
-        A cool spring delays the whole calendar; a warm one compresses it.
-        Light, water and nutrients still matter, but heat is the clock.
+        Temperature is the main driver of phenology: accumulated spring warmth advances budburst and
+        later stages, while cooler conditions delay them. Water status, cultivar and site also modify
+        timing, but temperature provides the strongest broad climatic signal.
 
   - id: vine-budburst-cool-001
     type: mcq
@@ -125,15 +121,14 @@ cards:
     en:
       question: In a cooler region, how does budburst usually compare with a warmer site?
       choices:
-        - { text: "Buds open earlier than in the warm site", correct: false }
-        - { text: "Budburst happens later", correct: true }
-        - { text: "Buds never open at all", correct: false }
-        - { text: "Budburst date is fixed by variety alone", correct: false }
+        - { text: "It usually occurs earlier because winter dormancy lasts longer", correct: false }
+        - { text: "It usually occurs later because spring heat accumulates more slowly", correct: true }
+        - { text: "It occurs at the same time because latitude affects harvest but not budburst", correct: false }
+        - { text: "It depends on rainfall alone because temperature affects only berry ripening", correct: false }
       explanation: |
-        **Budburst happens later** where spring warmth arrives slowly.
-        Chablis and the Mosel typically break after a warmer Mediterranean
-        site of the same variety. Variety still shifts the date, but
-        climate sets the delay.
+        Budburst generally waits for adequate accumulated warmth, so cool springs delay it relative to
+        warmer sites. Cultivar, pruning, aspect and local conditions also shift the date; the climate
+        comparison assumes those factors are otherwise similar.
 
   - id: vine-cycle-early-001
     type: cloze
@@ -150,8 +145,8 @@ cards:
         {{c1::budburst}}, then {{c2::early shoot and leaf growth}}, then
         {{c3::flowering and fruit set}}.
       extra: |
-        Those three steps come first. Véraison, harvest and winter
-        dormancy follow later in the same annual cycle.
+        Flowering and fruit set establish the potential crop. Berry growth, véraison and ripening then
+        lead to harvest, followed by reserve storage, leaf fall and winter dormancy.
 
   - id: vine-cycle-late-001
     type: cloze
@@ -168,9 +163,8 @@ cards:
         order: {{c1::véraison / berry ripening}}, then {{c2::harvest}},
         then {{c3::winter dormancy}}.
       extra: |
-        Budburst, early shoot growth, then flowering and fruit set have
-        already happened. Véraison starts the ripening run that ends at
-        pick and the winter rest.
+        Véraison begins the ripening phase rather than marking full maturity. After harvest, leaves can
+        continue photosynthesising and replenishing reserves before leaf fall and dormancy.
 
   - id: vine-latitude-cool-001
     type: mcq
@@ -184,15 +178,14 @@ cards:
     en:
       question: All else equal, how does moving a vineyard farther from the equator change typical temperature?
       choices:
-        - { text: "The site is hotter on average", correct: false }
-        - { text: "The site is cooler on average", correct: true }
-        - { text: "Latitude never changes temperature", correct: false }
-        - { text: "The vine's heat requirement itself drops to zero", correct: false }
+        - { text: "It becomes warmer because summer days are longer", correct: false }
+        - { text: "It becomes cooler on average as the annual solar angle declines", correct: true }
+        - { text: "Its mean temperature remains unchanged because day length offsets solar angle", correct: false }
+        - { text: "Its seasonal temperature range narrows as winters receive more direct sunlight", correct: false }
       explanation: |
-        **The site is cooler on average.** Less overhead sun and a
-        stronger winter–summer swing come with higher latitude. The vine
-        still wants similar warmth; the climate just supplies less of it.
-        Altitude and ocean currents can override the rule.
+        Higher latitudes receive less intense solar radiation on average and usually have cooler mean
+        temperatures and stronger seasonality. Altitude, ocean currents and continentality can alter
+        or outweigh the simple latitude trend at a particular site.
 
   - id: vine-four-inputs-001
     type: mcq
@@ -204,17 +197,16 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which four resources does a grapevine need in order to grow and ripen fruit?
+      question: Which four site resources are central to grapevine growth and fruit ripening?
       choices:
-        - { text: "Only oak chips, SO2, tartaric acid and sugar", correct: false }
-        - { text: "Heat, sunlight, water and nutrients", correct: true }
-        - { text: "Salt fog, moonlight, gravel dust and copper", correct: false }
-        - { text: "Heat alone, with no light, water or minerals", correct: false }
+        - { text: "Heat, sunlight, water and mineral nutrients", correct: true }
+        - { text: "Heat, wind speed, slope angle and soil colour", correct: false }
+        - { text: "Sunlight, humidity, planting density and pruning", correct: false }
+        - { text: "Water, altitude, trellis height and row direction", correct: false }
       explanation: |
-        **Heat, sunlight, water and nutrients.** Warmth and light drive
-        the season and photosynthesis; water keeps the canopy working;
-        minerals come from soil and any feed the grower adds. Cellar
-        additions are not vineyard inputs.
+        Heat regulates development, sunlight powers photosynthesis, water sustains transport and gas
+        exchange, and mineral nutrients support metabolism and tissue growth. Vineyard design and
+        management influence access to these resources but are not themselves the four resources.
 
   - id: vine-heat-sources-001
     type: mcq
