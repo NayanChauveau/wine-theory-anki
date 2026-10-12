@@ -848,16 +848,16 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Surplus vineyard nutrients typically push the vine toward what?
+      question: What is the most likely effect of excessive nitrogen availability in a vineyard?
       choices:
-        - { text: "Shoot growth always stops and the vine starves", correct: false }
-        - { text: "It grows too vigorously", correct: true }
-        - { text: "Chlorosis appears from a lack of chlorophyll only", correct: false }
-        - { text: "The vine becomes a different species", correct: false }
+        - { text: "Strong vegetative growth and a denser canopy", correct: true }
+        - { text: "Earlier shoot cessation and reduced leaf area", correct: false }
+        - { text: "Lower disease pressure because bunches dry faster", correct: false }
+        - { text: "Guaranteed higher fruit quality regardless of yield", correct: false }
       explanation: |
-        **It grows too vigorously.** Surplus nitrogen in particular
-        builds leaf at the expense of fruit. Chlorosis is a shortage
-        story, not an excess one.
+        Nitrogen supports growth, but excess supply can prolong shoot development, increase shading
+        and create a humid canopy. These effects can delay ripening and favour disease, so growers aim
+        for adequate nutrition rather than maximum nutrient availability.
 
   - id: vine-chlorosis-define-001
     type: mcq
@@ -869,16 +869,16 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What is chlorosis on a grapevine?
+      question: What vineyard symptom does the term chlorosis describe?
       choices:
-        - { text: "Berries turning purple only after oak ageing", correct: false }
-        - { text: "Leaves turning yellow because they lose chlorophyll", correct: true }
-        - { text: "A graft union that failed to callus", correct: false }
-        - { text: "A clone selected for extra tannin", correct: false }
+        - { text: "Yellowing of normally green leaf tissue because chlorophyll is deficient", correct: true }
+        - { text: "Necrotic lesions caused specifically by downy mildew infection", correct: false }
+        - { text: "Reddening of berry skins as anthocyanins accumulate at véraison", correct: false }
+        - { text: "Callus formation where the scion and rootstock have joined", correct: false }
       explanation: |
-        **Leaves turning yellow because they lose chlorophyll.** The
-        green pigment is what captures light. Yellowing is the symptom;
-        failed iron uptake on limestone is the usual vineyard cause.
+        Chlorosis is a symptom, not a single disease: affected tissue lacks enough chlorophyll and
+        appears pale or yellow. Iron unavailability is a common vineyard cause, but magnesium,
+        nitrogen, root damage and other problems can also produce chlorotic patterns.
 
   - id: vine-chlorosis-yield-001
     type: mcq
@@ -890,16 +890,16 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What does chlorosis typically do to the crop?
+      question: Why can severe, persistent leaf chlorosis reduce grape yield and quality?
       choices:
-        - { text: "Yields and quality always climb", correct: false }
-        - { text: "Yield and quality suffer", correct: true }
-        - { text: "The vine immediately becomes phylloxera-proof", correct: false }
-        - { text: "Only the rootstock berries are affected", correct: false }
+        - { text: "Reduced chlorophyll limits photosynthesis and the carbohydrates available to fruit", correct: true }
+        - { text: "Yellow leaves absorb more light and divert extra sugar into the berries", correct: false }
+        - { text: "Chlorosis increases root pressure until berries split in every vintage", correct: false }
+        - { text: "It converts fruiting buds into roots during the following winter", correct: false }
       explanation: |
-        **Yield and quality suffer.** Yellow leaves feed the bunches
-        poorly, so sugar and ripeness fall short. The yellowing
-        itself is not a flavour.
+        Chlorotic leaves capture less light and generally photosynthesise less effectively. If the
+        condition is severe, the vine has fewer carbohydrates for growth, fruit development and
+        reserves, which can depress both current performance and future productivity.
 
   - id: vine-chlorosis-iron-001
     type: mcq
@@ -911,17 +911,16 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What is the most common nutritional cause of chlorosis in the vineyard?
+      question: In lime-induced chlorosis, why can a vine show iron deficiency even when the soil contains iron?
       choices:
-        - { text: "Too much iron in every drip emitter", correct: false }
-        - { text: "The vine cannot take up enough iron from the soil", correct: true }
-        - { text: "A surplus of chlorophyll in young leaves", correct: false }
-        - { text: "Only a lack of oak chips at harvest", correct: false }
+        - { text: "High-pH conditions make much of the iron poorly available for root uptake", correct: true }
+        - { text: "Calcium carbonate converts iron directly into chlorophyll outside the roots", correct: false }
+        - { text: "Iron remains available, but the scion sends it permanently into old wood", correct: false }
+        - { text: "High pH dissolves iron so rapidly that it is lost through leaf transpiration", correct: false }
       explanation: |
-        **The vine cannot take up enough iron from the soil.** Iron is
-        needed to build chlorophyll. The soil may contain iron that
-        the roots still cannot use — the limestone card is the usual
-        reason.
+        In alkaline, carbonate-rich soils, iron may be present but chemically unavailable to the
+        roots. Because iron is needed for normal chlorophyll formation, young leaves commonly develop
+        interveinal yellowing while their veins remain greener.
 
   - id: vine-chlorosis-limestone-001
     type: mcq
@@ -933,17 +932,16 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which soils most often trigger iron chlorosis?
+      question: Which site condition creates the greatest risk of lime-induced iron chlorosis?
       choices:
-        - { text: "Pure peat with no mineral particles", correct: false }
-        - { text: "High-limestone, calcareous soils", correct: true }
-        - { text: "Only beach sand with no carbonate", correct: false }
-        - { text: "Any soil that has never seen rain", correct: false }
+        - { text: "A calcareous soil with high pH and abundant active lime", correct: true }
+        - { text: "An acidic sandy soil with little calcium carbonate", correct: false }
+        - { text: "A neutral loam with freely available iron and good drainage", correct: false }
+        - { text: "A volcanic soil whose pH is low and carbonate content minimal", correct: false }
       explanation: |
-        **High-limestone, calcareous soils.** High pH locks iron in a
-        form roots struggle to take up (lime-induced chlorosis).
-        Champagne chalk and other lime belts are the named sites;
-        lime-tolerant rootstocks (41 B, Fercal) are the usual fix.
+        High pH and active calcium carbonate reduce iron availability. On susceptible sites, growers
+        can select lime-tolerant rootstocks such as Fercal or 41 B; suitability still depends on the
+        site's other constraints, including water supply and desired vigour.
 
   - id: vine-species-pair-001
     type: mcq
@@ -955,17 +953,16 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which two groups of *Vitis* matter most in a modern vineyard?
+      question: Which pairing correctly describes the main roles of European and American *Vitis* material in most grafted vineyards?
       choices:
-        - { text: "Only wild kiwifruit and hops", correct: false }
-        - { text: "Vitis vinifera for the fruit, and American Vitis species for rootstocks", correct: true }
-        - { text: "Only Muscadinia, never vinifera", correct: false }
-        - { text: "Oak and pine, grafted together as one vine", correct: false }
+        - { text: "*V. vinifera* supplies the fruiting scion; American species contribute rootstock traits", correct: true }
+        - { text: "American species supply every fruiting scion; *V. vinifera* is used only below ground", correct: false }
+        - { text: "Both groups are mixed as seeds at planting, producing a graft union as they germinate", correct: false }
+        - { text: "*V. vinifera* supplies both parts because American species cannot resist soil pests", correct: false }
       explanation: |
-        **Vitis vinifera for the fruit, and American Vitis species for
-        rootstocks.** Almost every wine grape is vinifera. *V. riparia*,
-        *V. rupestris* and *V. berlandieri* (and their crosses) supply
-        the roots that survive phylloxera.
+        Most internationally important wine varieties are *V. vinifera*. Their scions are commonly
+        grafted to rootstocks derived from American species such as *V. riparia*, *V. rupestris* and
+        *V. berlandieri*, selected for phylloxera resistance and site adaptation.
 
   - id: vine-vinifera-wine-001
     type: mcq
@@ -977,17 +974,16 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Almost every wine grape belongs to which Vitis species?
+      question: To which species do Chardonnay, Cabernet Sauvignon and Riesling all belong?
       choices:
-        - { text: "Vitis labrusca alone", correct: false }
-        - { text: "Vitis vinifera", correct: true }
-        - { text: "Only Vitis riparia fruiting varieties", correct: false }
-        - { text: "Malus domestica", correct: false }
+        - { text: "*Vitis vinifera*", correct: true }
+        - { text: "*Vitis riparia*", correct: false }
+        - { text: "*Vitis rupestris*", correct: false }
+        - { text: "*Vitis labrusca*", correct: false }
       explanation: |
-        **Vitis vinifera.** Chardonnay, Cabernet Sauvignon, Riesling
-        and almost every other wine grape belong to that one species.
-        American species matter as roots, or as a few hybrid wine
-        grapes, not as the main fruiting species.
+        These three cultivars are all *Vitis vinifera*, the species responsible for most classic wine
+        varieties. Other *Vitis* species are important in rootstocks, breeding and some regional
+        fruiting varieties, so *vinifera* is dominant rather than exclusive.
 
   - id: vine-american-phylloxera-001
     type: mcq
@@ -999,17 +995,16 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Why do American grapevine species matter in today's vineyards?
+      question: Why are rootstocks derived from American *Vitis* species widely used beneath *V. vinifera* scions?
       choices:
-        - { text: "They have replaced vinifera as the only wine grape", correct: false }
-        - { text: "They resist phylloxera, so they are used as rootstocks under a vinifera scion", correct: true }
-        - { text: "They are used only to breed new oak trees", correct: false }
-        - { text: "They cannot be grafted and must be grown from seed", correct: false }
+        - { text: "Their roots tolerate or resist phylloxera attack better than *vinifera* roots", correct: true }
+        - { text: "Their roots prevent every fungal disease from infecting the *vinifera* canopy", correct: false }
+        - { text: "Their roots change the scion genetically into an American grape species", correct: false }
+        - { text: "Their roots eliminate the effects of drought, salinity and soil pH on the vine", correct: false }
       explanation: |
-        **They resist phylloxera, so they are used as rootstocks under
-        a vinifera scion.** The 19th-century louse made own-rooted
-        vinifera a gamble in most soils. Grafting is a join, not a
-        new variety and not a hybrid seedling.
+        Phylloxera can fatally damage susceptible *vinifera* roots. American species co-evolved with
+        the insect and provide useful resistance or tolerance, while the grafted *vinifera* scion
+        retains the fruit characteristics of the chosen wine variety.
 
   - id: vine-cutting-001
     type: mcq
@@ -1021,17 +1016,16 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What is a vine cutting?
+      question: What is the genetic relationship between a healthy grapevine cutting and the vine from which it was taken?
       choices:
-        - { text: "A seed from a controlled cross, grown as a new variety", correct: false }
-        - { text: "A piece of shoot planted so it grows into a new plant of the same vine", correct: true }
-        - { text: "The callus where a scion is joined to a rootstock", correct: false }
-        - { text: "A hybrid whose parents are two different species", correct: false }
+        - { text: "It is a vegetatively propagated copy, apart from any later mutation", correct: true }
+        - { text: "It combines genes from the source vine and the soil in which it roots", correct: false }
+        - { text: "It is a seedling with a new combination of parental genes", correct: false }
+        - { text: "It contains only rootstock genes once its own roots develop", correct: false }
       explanation: |
-        **A piece of shoot planted so it grows into a new plant of the
-        same vine.** Cuttings are vegetative copies. A seed is a new
-        genotype; a graft is two plants joined; a clone is the named
-        line you are copying.
+        A cutting is a piece of vegetative material induced to form roots and shoots. It normally
+        preserves the source vine's genotype, unlike sexual propagation from seed. Mutations can arise
+        over time and are one source of clonal variation within a variety.
 
   - id: vine-variety-name-001
     type: mcq
@@ -1043,16 +1037,16 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: In vineyard language, “grape variety” names which level of identity?
+      question: In viticulture, what does a grape variety such as Chardonnay represent?
       choices:
-        - { text: "A numbered clone line", correct: false }
-        - { text: "The cultivar", correct: true }
-        - { text: "The species", correct: false }
-        - { text: "The graft union", correct: false }
+        - { text: "A cultivar within a species", correct: true }
+        - { text: "A single certified clone within a cultivar", correct: false }
+        - { text: "A rootstock-scion combination", correct: false }
+        - { text: "A species containing all wine grapes", correct: false }
       explanation: |
-        **The cultivar.** Chardonnay or Merlot is the variety.
-        A clone sits inside that cultivar; *Vitis vinifera* is
-        the species; a graft is plumbing.
+        Chardonnay is a cultivar of *Vitis vinifera*. A clone is a selected vegetative line within a
+        cultivar, while a grafted plant combines a scion cultivar with a genetically distinct
+        rootstock; these levels should not be used interchangeably.
 
   - id: vine-clone-001
     type: mcq
