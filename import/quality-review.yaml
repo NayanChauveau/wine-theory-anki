@@ -2750,7 +2750,28 @@ chapters:
       portugal-vr-term-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
       portugal-vinho-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
       portugal-vinho-rose-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
-  c32-usa-introduction: { file: cards/c32-usa-introduction.yaml, status: pending }
+  c32-usa-introduction:
+    file: cards/c32-usa-introduction.yaml
+    status: awaiting-human
+    agent_wave: 2026-10-12
+    counts:
+      cards: 6
+      agent_fixed: 6
+      agent_pass: 0
+      human_ok: 0
+    note: >
+      Passe factuelle et adversariale complète, puis traduction française.
+      Les formulations familières et les leurres caricaturaux ont été remplacés ;
+      la définition des AVA, les seuils fédéraux 75/85/95, le rôle complémentaire
+      du droit des États et la souplesse des appellations d’État ou de comté ont
+      été vérifiés et rendus explicitement comparables.
+    cards:
+      usa-ava-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      usa-ava-size-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      usa-federal-label-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      usa-state-law-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      usa-state-county-label-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      usa-non-ava-lenient-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
   c41-sparkling-production:
     file: cards/c41-sparkling-production.yaml
     status: awaiting-human

@@ -18,8 +18,8 @@ or rejected.
 | Measure | Complete | Remaining | Progress |
 | --- | ---: | ---: | ---: |
 | Legacy source notes resolved | 2,236 / 4,075 | 1,839 | 54.9% |
-| Cards with French | 2,005 / 2,364 | 359 | 84.8% |
-| Release-eligible cards with French | 2,005 / 2,359 | 354 | 85.0% |
+| Cards with French | 2,011 / 2,364 | 353 | 85.1% |
+| Release-eligible cards with French | 2,011 / 2,359 | 348 | 85.2% |
 | Draft cards | — | 5 | — |
 
 To obtain the live migration count, run:
@@ -29,7 +29,7 @@ uv run wset3-anki import-status
 ```
 
 All translated MCQs currently have matching English and French choice counts and correct
-answer indexes. Twenty-eight completed chapter passes are recorded as `awaiting-human` in
+answer indexes. Twenty-nine completed chapter passes are recorded as `awaiting-human` in
 the quality ledger; agent review is complete for those chapters, but human sign-off remains
 open.
 
@@ -70,13 +70,14 @@ notes.
 
 | Chapter | Missing French cards |
 | --- | ---: |
-| USA Introduction | 6 |
 | Pacific Northwest | 50 |
-| **Subtotal** | **56** |
+| **Subtotal** | **50** |
 
-- [ ] Translate each chapter in its existing YAML file.
+- [x] Fact-check, rewrite and translate all 6 USA Introduction cards.
+- [x] Record the USA Introduction pass in `import/quality-review.yaml`.
+- [ ] Translate Pacific Northwest in its existing YAML file.
 - [ ] Recheck English and French together for sense, difficulty and answer alignment.
-- [ ] Add or complete its entry in `import/quality-review.yaml`.
+- [ ] Add or complete the Pacific Northwest entry in `import/quality-review.yaml`.
 
 ### 5. Finish partially migrated English chapters before translating them
 

@@ -13,16 +13,27 @@ cards:
       fact_check: pass
       sources: [spec]
     en:
-      question: What is the federal building block of US wine geography?
+      question: "What does an American Viticultural Area (AVA) primarily identify?"
       choices:
-        - { text: "Appellation d'origine contrôlée", correct: false }
-        - { text: "American Viticultural Area (AVA)", correct: true }
-        - { text: "Denominazione di origine controllata", correct: false }
-        - { text: "Qualitätswein", correct: false }
+        - { text: "A federally recognised, geographically distinct grape-growing area", correct: true }
+        - { text: "A federal quality grade awarded after tasting every wine", correct: false }
+        - { text: "A state licence specifying varieties, yields and ageing", correct: false }
+        - { text: "A producer classification based on vineyard ownership", correct: false }
       explanation: |
-        The TTB draws **AVAs**. They are place names, not a quality ladder like
-        AOC or DOCG. Napa Valley is an AVA; so is the huge Upper Mississippi
-        River Valley.
+        The TTB establishes an AVA through federal rulemaking after evaluating evidence for its
+        name, boundary and distinguishing geographic features. An AVA identifies origin; it does
+        not rank producers or guarantee a particular quality or style.
+    fr:
+      question: "Que désigne principalement une American Viticultural Area (AVA) ?"
+      choices:
+        - { text: "Une aire viticole géographiquement distincte et reconnue au niveau fédéral", correct: true }
+        - { text: "Un niveau de qualité fédéral attribué après dégustation de chaque vin", correct: false }
+        - { text: "Une licence d’État fixant les cépages, les rendements et l’élevage", correct: false }
+        - { text: "Un classement de producteurs fondé sur la propriété des vignobles", correct: false }
+      explanation: |
+        Le TTB établit une AVA par voie réglementaire après examen des éléments justifiant son nom,
+        ses limites et ses caractéristiques géographiques distinctives. Une AVA indique une origine ;
+        elle ne classe pas les producteurs et ne garantit ni un niveau de qualité ni un style.
 
   - id: usa-ava-size-001
     type: mcq
@@ -32,18 +43,29 @@ cards:
     source_id: c32-0002
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: [spec]
     en:
-      question: How large is an AVA?
+      question: "Which statement about the geographical scale of US AVAs is accurate?"
       choices:
-        - { text: "Always 100 hectares, like a Burgundy climat", correct: false }
-        - { text: "There is no standard size — they range from tiny to multi-state", correct: true }
-        - { text: "Always an entire US state and nothing smaller", correct: false }
-        - { text: "Always a single vineyard, by federal law", correct: false }
+        - { text: "Every AVA must fit entirely within one county", correct: false }
+        - { text: "Federal law assigns the same acreage to every AVA", correct: false }
+        - { text: "They range from small areas to regions crossing several states", correct: true }
+        - { text: "An AVA must coincide with the boundary of a state", correct: false }
       explanation: |
-        Cole Ranch in Mendocino is a few dozen hectares; the Upper Mississippi
-        River Valley covers parts of four states. An AVA is a **named growing
-        area**, not a fixed acreage.
+        Federal law does not prescribe one AVA size. Boundaries follow the geographical evidence in
+        each petition: some AVAs are very small, while others extend across counties or states. Size
+        alone does not establish a quality hierarchy.
+    fr:
+      question: "Quelle proposition concernant l’échelle géographique des AVA américaines est exacte ?"
+      choices:
+        - { text: "Chaque AVA doit être entièrement comprise dans un seul comté", correct: false }
+        - { text: "Le droit fédéral attribue la même superficie à chaque AVA", correct: false }
+        - { text: "Elles vont de petites aires à des régions couvrant plusieurs États", correct: true }
+        - { text: "Une AVA doit reprendre exactement les limites d’un État", correct: false }
+      explanation: |
+        Le droit fédéral ne fixe pas de superficie type. Les limites suivent les éléments
+        géographiques présentés dans chaque demande : certaines AVA sont très petites, tandis que
+        d’autres s’étendent sur plusieurs comtés ou États. La taille ne crée pas une hiérarchie de qualité.
 
   - id: usa-federal-label-001
     type: mcq
@@ -55,16 +77,27 @@ cards:
       fact_check: pass
       sources: [spec]
     en:
-      question: What do federal US wine laws mainly fix for labels?
+      question: "Which combination gives the usual federal minimums for a US wine labelled with one grape variety, an AVA and a vintage?"
       choices:
-        - { text: "Which oak forest the barrels must come from", correct: false }
-        - { text: "Minimum percentages of grapes for a variety, vintage or AVA name", correct: true }
-        - { text: "A ban on stating any grape variety", correct: false }
-        - { text: "Compulsory residual sugar for every red", correct: false }
+        - { text: "75% of the named variety, 85% from the AVA and 95% from the stated vintage", correct: true }
+        - { text: "85% of the named variety, 75% from the AVA and 95% from the stated vintage", correct: false }
+        - { text: "75% of the named variety, 95% from the AVA and 85% from the stated vintage", correct: false }
+        - { text: "100% for the variety, AVA and vintage in every case", correct: false }
       explanation: |
-        TTB rules are **percentage gates**: typically **75%** for a varietal
-        name (some states tighter), **85%** from the named AVA, **95%** of the
-        vintage if an AVA is also claimed. They do not pick your cooperage.
+        The general federal thresholds are 75% for a single-variety designation, 85% for an AVA
+        appellation and 95% for a vintage date when the appellation is an AVA. Exceptions exist,
+        and state law may impose stricter requirements.
+    fr:
+      question: "Quelle combinaison donne les minimums fédéraux habituels pour un vin américain portant un cépage, une AVA et un millésime ?"
+      choices:
+        - { text: "75 % du cépage indiqué, 85 % issus de l’AVA et 95 % du millésime indiqué", correct: true }
+        - { text: "85 % du cépage indiqué, 75 % issus de l’AVA et 95 % du millésime indiqué", correct: false }
+        - { text: "75 % du cépage indiqué, 95 % issus de l’AVA et 85 % du millésime indiqué", correct: false }
+        - { text: "100 % pour le cépage, l’AVA et le millésime dans tous les cas", correct: false }
+      explanation: |
+        Les seuils fédéraux généraux sont de 75 % pour la mention d’un seul cépage, de 85 % pour
+        une appellation AVA et de 95 % pour un millésime lorsque l’appellation est une AVA. Il
+        existe des exceptions et le droit d’un État peut imposer des exigences plus strictes.
 
   - id: usa-state-law-001
     type: mcq
@@ -74,18 +107,30 @@ cards:
     source_id: c32-0004
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: [spec]
     en:
-      question: Besides federal TTB rules, what else can police US wine?
+      question: "How can state law affect a US wine that already complies with federal labelling rules?"
       choices:
-        - { text: "Only EU PDO law", correct: false }
-        - { text: "State laws, which may be stricter than the federal minima", correct: true }
-        - { text: "Only municipal parking ordinances", correct: false }
-        - { text: "Nothing — federal law is the only text that exists", correct: false }
+        - { text: "It may impose stricter origin or varietal rules for wines using its place names", correct: true }
+        - { text: "It may reduce any federal minimum merely because the wine is sold there", correct: false }
+        - { text: "It may convert an AVA automatically into a state quality grade", correct: false }
+        - { text: "It has no effect once the TTB has approved the federal label", correct: false }
       explanation: |
-        **Oregon** asks **90%** of the named variety for most grapes (Pinot
-        Noir included). Washington and others add their own twists. The state
-        can tighten the federal floor; it cannot ignore it.
+        Federal rules provide a baseline, but wine must also comply with applicable state law.
+        Oregon illustrates the principle: some varietal wines carrying an Oregon AVA must exceed
+        the usual federal 75% varietal threshold. The precise rule depends on the variety and AVA.
+    fr:
+      question: "Comment le droit d’un État peut-il affecter un vin américain déjà conforme aux règles fédérales d’étiquetage ?"
+      choices:
+        - { text: "Il peut durcir les règles d’origine ou de cépage des vins portant ses noms de lieux", correct: true }
+        - { text: "Il peut abaisser tout minimum fédéral au seul motif que le vin y est vendu", correct: false }
+        - { text: "Il peut transformer automatiquement une AVA en niveau de qualité d’État", correct: false }
+        - { text: "Il n’a plus aucun effet après l’approbation fédérale de l’étiquette", correct: false }
+      explanation: |
+        Les règles fédérales constituent un socle, mais le vin doit aussi respecter le droit de
+        l’État concerné. L’Oregon illustre ce principe : certains vins de cépage portant une AVA de
+        l’Oregon doivent dépasser le seuil fédéral habituel de 75 %. La règle précise dépend du
+        cépage et de l’AVA.
 
   - id: usa-state-county-label-001
     type: mcq
@@ -95,18 +140,29 @@ cards:
     source_id: c32-0005
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: [spec]
     en:
-      question: How can a US wine be placed if it does not claim an AVA?
+      question: "Which geographical appellation may a US wine use without claiming an AVA?"
       choices:
-        - { text: "It must be sold as Vin de France", correct: false }
-        - { text: "With a state or county name", correct: true }
-        - { text: "Only as an anonymous spirit", correct: false }
-        - { text: "It is illegal to sell", correct: false }
+        - { text: "The nearest AVA, even when less than 85% of the grapes came from it", correct: false }
+        - { text: "A state or county name, provided the relevant requirements are met", correct: true }
+        - { text: "A European PDO name simply translated into English for US sale", correct: false }
+        - { text: "Only the winery address, because no other origin may be stated", correct: false }
       explanation: |
-        “**California**”, “**Oregon**”, or a **county** (Sonoma County) are
-        legal geographic claims when the wine is not in an AVA — or when the
-        blender does not want the tighter AVA percentage.
+        US appellations of origin include country, state and county names as well as AVAs. Under
+        the federal baseline, a single-state or single-county appellation generally requires at
+        least 75% of the wine to come from the named place, subject to applicable state law.
+    fr:
+      question: "Quelle appellation géographique un vin américain peut-il utiliser sans revendiquer une AVA ?"
+      choices:
+        - { text: "L’AVA la plus proche, même si moins de 85 % des raisins en proviennent", correct: false }
+        - { text: "Le nom d’un État ou d’un comté, si les exigences correspondantes sont respectées", correct: true }
+        - { text: "Le nom d’une AOP européenne simplement traduit en anglais pour le marché américain", correct: false }
+        - { text: "Uniquement l’adresse du domaine, car aucune autre origine ne peut être indiquée", correct: false }
+      explanation: |
+        Aux États-Unis, les appellations d’origine comprennent le pays, les États et les comtés,
+        ainsi que les AVA. Selon le socle fédéral, une appellation correspondant à un seul État ou
+        comté exige généralement qu’au moins 75 % du vin provienne du lieu indiqué, sous réserve du droit local.
 
   - id: usa-non-ava-lenient-001
     type: mcq
@@ -118,14 +174,24 @@ cards:
       fact_check: pass
       sources: [spec]
     en:
-      question: How do vintage and origin rules compare for non-AVA US wines versus AVA wines?
+      question: "Under the federal baseline, what flexibility does a state or county appellation offer compared with an AVA?"
       choices:
-        - { text: "They are stricter than AVA rules in every state", correct: false }
-        - { text: "They are more lenient than the AVA set", correct: true }
-        - { text: "Vintage dating is banned on any state-labelled wine", correct: false }
-        - { text: "A county wine must be 100% from a single vineyard", correct: false }
+        - { text: "Lower origin and vintage thresholds, subject to state law", correct: true }
+        - { text: "It lowers the origin threshold but raises the vintage threshold to 100%", correct: false }
+        - { text: "It keeps the AVA origin threshold and prohibits a vintage date", correct: false }
+        - { text: "It removes all origin requirements once a grape variety is named", correct: false }
       explanation: |
-        A **state** or **county** vintage claim usually needs only **85%** of
-        that year, not the **95%** asked when an AVA is on the label. Place
-        percentages are also looser than the AVA 85% rule. That is why big
-        “California” brands can blend more freely.
+        A single-state or single-county appellation generally requires 75% origin rather than an
+        AVA’s 85%. If the wine carries a vintage, the federal minimum from that year is 85% with a
+        state or county appellation, compared with 95% when an AVA is used. State rules may be stricter.
+    fr:
+      question: "Selon le socle fédéral, quelle souplesse une appellation d’État ou de comté offre-t-elle par rapport à une AVA ?"
+      choices:
+        - { text: "Des seuils d’origine et de millésime plus bas, sous réserve du droit local", correct: true }
+        - { text: "Elle abaisse le seuil d’origine mais porte celui du millésime à 100 %", correct: false }
+        - { text: "Elle conserve le seuil d’origine d’une AVA et interdit la mention du millésime", correct: false }
+        - { text: "Elle supprime toute exigence d’origine dès qu’un cépage est indiqué", correct: false }
+      explanation: |
+        Une appellation correspondant à un seul État ou comté exige généralement 75 % d’origine,
+        contre 85 % pour une AVA. Si le vin est millésimé, le minimum fédéral issu de cette année
+        est de 85 % avec un État ou un comté, contre 95 % avec une AVA. Le droit local peut être plus strict.
