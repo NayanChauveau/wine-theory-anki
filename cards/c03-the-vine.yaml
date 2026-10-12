@@ -1686,16 +1686,16 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Why can a yield estimate based on retained winter buds overstate the crop ultimately harvested?
+      question: Which source of uncertainty is not captured simply by counting retained winter buds?
       choices:
-        - { text: "Frost, poor fruit set, pests or disease can remove potential crop after pruning", correct: true }
-        - { text: "Warm flowering weather, good fruit set and increasing berry size raise crop potential", correct: false }
-        - { text: "Uniform budburst, healthy shoots and balanced water supply preserve crop potential", correct: false }
-        - { text: "High bud fruitfulness, successful flowering and low disease maintain crop potential", correct: false }
+        - { text: "Later losses from frost, poor fruit set, pests or disease", correct: true }
+        - { text: "The number of buds physically left on the selected canes and spurs", correct: false }
+        - { text: "The pruning system used to retain those counted buds", correct: false }
+        - { text: "The position of those buds on the retained fruiting wood", correct: false }
       explanation: |
-        Bud count measures potential, not guaranteed yield. Bud or shoot loss, unsuccessful flowering
-        and fruit set, and later pest or disease damage can all reduce the number or weight of bunches
-        that reach harvest.
+        A bud count is only a starting point. Bud fruitfulness and position refine it, but weather and
+        biological losses after pruning—including damaged shoots, failed fruit set and diseased fruit—
+        can still reduce the number and weight of bunches that reach harvest.
 
   - id: vine-green-harvest-001
     type: mcq
@@ -1812,16 +1812,16 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which grapevine tissue is the main commercial concern when grey rot develops near harvest?
+      question: Which combination most increases the risk of damaging Botrytis grey rot close to harvest?
       choices:
-        - { text: "Ripening berries and bunches", correct: true }
-        - { text: "Shoot tips and expanding young leaves", correct: false }
-        - { text: "Inflorescences before fruit set", correct: false }
-        - { text: "One-year-old canes after leaf fall", correct: false }
+        - { text: "Compact ripe bunches, berry wounds and prolonged humid or wet conditions", correct: true }
+        - { text: "Loose unripe bunches, intact skins and rapid drying after rain", correct: false }
+        - { text: "Open fruit zones, low humidity and short surface-wetness periods", correct: false }
+        - { text: "Dormant canes, dry winter weather and no susceptible berry tissue", correct: false }
       explanation: |
-        Botrytis can infect flowers and other young tissues, but grey rot becomes especially damaging
-        when it decays ripe or nearly ripe bunches. Compact clusters, wounds, humidity and prolonged
-        wetness increase the risk.
+        Botrytis can infect flowers and remain latent, but grey rot becomes especially damaging in
+        ripe or nearly ripe bunches. Tight clusters and damaged skins favour entry and spread, while
+        humidity and long wetness periods support infection and slow bunch drying.
 
   - id: vine-open-canopy-disease-001
     type: mcq
