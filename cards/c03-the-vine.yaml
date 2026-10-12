@@ -1058,17 +1058,16 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What is a grapevine clone?
+      question: What distinguishes a named grapevine clone from the wider variety to which it belongs?
       choices:
-        - { text: "A new variety grown from a seeded cross of two parents", correct: false }
-        - { text: "The vegetatively propagated line of one mother vine, kept for a stable set of traits", correct: true }
-        - { text: "Any single vine in a row, regardless of origin", correct: false }
-        - { text: "A hybrid whose parents come from two species", correct: false }
+        - { text: "It is a vegetatively propagated line selected from one vine for particular traits", correct: true }
+        - { text: "It is a seed-grown offspring that combines two varieties into a new cultivar", correct: false }
+        - { text: "It is the rootstock half of any grafted vine, regardless of its origin", correct: false }
+        - { text: "It is every vine of the variety, whether or not they share one selected source", correct: false }
       explanation: |
-        **The vegetatively propagated line of one mother vine, kept
-        for a stable set of traits.** Pinot Noir Dijon 115 is a clone,
-        still Pinot Noir. One random vine in a mixed block is not
-        "a clone." A seed-grown seedling is a new genotype.
+        A clone is descended vegetatively from a selected individual and remains part of the same
+        variety. Clones can differ in traits such as yield, bunch form or disease status because of
+        mutation and selection, but they are not new seed-derived varieties.
 
   - id: vine-hybrid-001
     type: mcq
@@ -1080,17 +1079,16 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What is a grapevine hybrid?
+      question: In the usual viticultural distinction, which plant is an interspecific hybrid rather than a *V. vinifera* crossing?
       choices:
-        - { text: "A vinifera × vinifera cross such as Cabernet Sauvignon", correct: false }
-        - { text: "A vine whose parents come from two different vine species", correct: true }
-        - { text: "A cutting taken from one mother vine", correct: false }
-        - { text: "A vinifera scion grafted onto an American rootstock", correct: false }
+        - { text: "A seedling whose parents include grapevines from different species", correct: true }
+        - { text: "A seedling from two parents that are both *V. vinifera*", correct: false }
+        - { text: "A *V. vinifera* scion physically joined to an American-derived rootstock", correct: false }
+        - { text: "A cutting taken from a selected mother vine and rooted directly", correct: false }
       explanation: |
-        **A vine whose parents come from two different vine species.**
-        Vidal and Seyval are named hybrids. Cabernet Sauvignon is a
-        vinifera **cross** (Cabernet Franc × Sauvignon Blanc), not a
-        hybrid. A graft is still two plants, not a seedling.
+        Interspecific hybrids combine genetic material from more than one grape species. By contrast,
+        Cabernet Sauvignon is a *vinifera* crossing, and a grafted vine retains two distinct genotypes
+        joined physically rather than combining them through sexual reproduction.
 
   - id: vine-hybrid-rootstock-001
     type: mcq
@@ -1102,17 +1100,16 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Hybrids and American-species crosses are most often planted as what in the vineyard?
+      question: What is the principal vineyard use of crosses among American *Vitis* species?
       choices:
-        - { text: "The only legal fruiting varieties in every European AOC", correct: false }
-        - { text: "Rootstocks", correct: true }
-        - { text: "Oak alternatives in the cellar", correct: false }
-        - { text: "Replacing drip emitters", correct: false }
+        - { text: "Rootstocks selected for pest resistance and adaptation to soil conditions", correct: true }
+        - { text: "Fruiting scions used for nearly all classic European appellation wines", correct: false }
+        - { text: "Temporary nurse vines removed before the *vinifera* crop reaches maturity", correct: false }
+        - { text: "Polliniser rows required because *vinifera* flowers cannot self-pollinate", correct: false }
       explanation: |
-        **Rootstocks.** Most commercial roots are American species or
-        interspecific crosses (1103 Paulsen, SO4, 3309). A few hybrids
-        are still grown for fruit — Vidal in Canada is the named
-        exception — but that is not their main job.
+        Many commercial rootstocks combine American species to unite phylloxera resistance with
+        traits such as tolerance of lime, drought or nematodes and control of vigour. Some
+        interspecific hybrids are grown for fruit, but that is a separate use.
 
   - id: vine-rootstock-nematode-001
     type: mcq
@@ -1124,16 +1121,16 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Besides phylloxera resistance, what pest problem can some rootstocks also help with?
+      question: Why might a grower choose a nematode-resistant rootstock even on a site already protected from phylloxera?
       choices:
-        - { text: "Only birds eating ripe berries", correct: false }
-        - { text: "Nematodes in the soil", correct: true }
-        - { text: "Cork taint in bottle", correct: false }
-        - { text: "Spring frost on burst shoots", correct: false }
+        - { text: "Plant-parasitic nematodes can damage roots and some transmit grapevine viruses", correct: true }
+        - { text: "Nematodes infect berry skins and cause cork taint after bottling", correct: false }
+        - { text: "Nematodes feed only on leaves, so the rootstock changes canopy flavour", correct: false }
+        - { text: "Nematodes trigger spring frost by delaying the release of soil heat", correct: false }
       explanation: |
-        **Nematodes in the soil.** Some American-based stocks tolerate
-        root-knot or dagger nematodes that would wreck own-rooted
-        vinifera. Phylloxera is still the first reason to graft.
+        Root-knot and other plant-parasitic nematodes can weaken roots, while dagger nematodes can
+        transmit fanleaf virus. Rootstock resistance is species- and pest-specific, so selection
+        should follow identification of the nematodes present at the site.
 
   - id: vine-rootstock-drought-001
     type: mcq
@@ -1145,16 +1142,16 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Besides phylloxera resistance, what climate stress can some rootstocks also help a vine survive?
+      question: How can rootstock choice help adapt a vineyard to limited water availability?
       choices:
-        - { text: "A legal cap on sunshine hours", correct: false }
-        - { text: "Drought", correct: true }
-        - { text: "Bottle shock after bottling", correct: false }
-        - { text: "Coulure caused by rain at flowering", correct: false }
+        - { text: "Drought-tolerant rootstocks can maintain vine function better under water deficit", correct: true }
+        - { text: "Any rootstock can produce water internally once the soil becomes dry", correct: false }
+        - { text: "High-vigour rootstocks always reduce water demand in every soil and climate", correct: false }
+        - { text: "Rootstocks prevent stomata from closing, so photosynthesis never slows", correct: false }
       explanation: |
-        **Drought.** Deep or efficient roots (110 Richter, 1103
-        Paulsen) keep a vine going on a dry site. They do not remove
-        the need for water; they improve the vine's reach.
+        Rootstocks differ in rooting pattern, hydraulic behaviour and drought response. A suitable
+        choice can improve performance on a dry site, but it cannot remove the vine's need for water;
+        desired vigour, soil chemistry and other pests must also be considered.
 
   - id: vine-grafting-define-001
     type: mcq
@@ -1166,17 +1163,16 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What is grafting on a grapevine?
+      question: What does grafting create in a commercial grapevine?
       choices:
-        - { text: "Growing a new variety from a seeded cross", correct: false }
-        - { text: "Joining a fruiting scion, usually vinifera, onto a rootstock", correct: true }
-        - { text: "Selecting a clone by taking cuttings from one mother vine", correct: false }
-        - { text: "Crossing two different vine species to make a hybrid", correct: false }
+        - { text: "A physical union between a fruiting scion and a genetically distinct rootstock", correct: true }
+        - { text: "A seedling whose chromosomes combine those of the scion and rootstock", correct: false }
+        - { text: "A single genotype in which the scion replaces all rootstock tissue", correct: false }
+        - { text: "A rooted cutting that must come from an ungrafted mother vine", correct: false }
       explanation: |
-        **Joining a fruiting scion, usually vinifera, onto a
-        rootstock.** The top remains the wine grape; the roots are
-        usually American or a hybrid stock. Grafting copies nothing
-        new and breeds nothing new.
+        Grafting joins the vascular tissues of two plants. The scion retains the fruiting variety's
+        genotype and the rootstock retains its own root traits; the operation does not create a sexual
+        cross or merge both plants into a new variety.
 
   - id: vine-bench-graft-001
     type: mcq
@@ -1188,16 +1184,16 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which grafting method do nurseries use most often today?
+      question: Which operation is characteristic of bench grafting in a grapevine nursery?
       choices:
-        - { text: "Head grafting an old trunk in the field", correct: false }
-        - { text: "Bench grafting", correct: true }
-        - { text: "Sowing seeds of the scion onto the rootstock", correct: false }
-        - { text: "Tying two live vines together and waiting for a hybrid", correct: false }
+        - { text: "Joining dormant scion and rootstock cuttings before callusing and planting", correct: true }
+        - { text: "Replacing the canopy variety on trunks already established in the vineyard", correct: false }
+        - { text: "Rooting a scion cutting first and attaching a rootstock after harvest", correct: false }
+        - { text: "Cross-pollinating two vines and treating the resulting seed as a graft", correct: false }
       explanation: |
-        **Bench grafting.** The join is made indoors on the nursery
-        bench, then the plants are callused and sold. Head grafting
-        is the field method for changing an established vineyard.
+        Bench grafts are assembled under nursery conditions from prepared scion and rootstock
+        material. The union is callused under controlled warmth and humidity before the young plant is
+        grown on; top-working an established trunk is instead a field graft.
 
   - id: vine-bench-graft-how-001
     type: mcq
@@ -1209,17 +1205,16 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: How is bench grafting carried out?
+      question: Why is a newly assembled bench graft held under warm, humid conditions before nursery planting?
       choices:
-        - { text: "A whole mature vine is planted on top of another in the row", correct: false }
-        - { text: "Short cane pieces of scion and rootstock are machine-joined, then kept warm so the join fuses", correct: true }
-        - { text: "Pollen from one species is brushed onto another and the seed is sown", correct: false }
-        - { text: "Only the leaves of two vines are pinned together", correct: false }
+        - { text: "To promote callus formation while limiting desiccation at the graft union", correct: true }
+        - { text: "To make the scion develop roots before vascular contact with the rootstock", correct: false }
+        - { text: "To force genetic recombination between the scion and rootstock tissues", correct: false }
+        - { text: "To keep the cambial layers apart until both cut surfaces have dried", correct: false }
       explanation: |
-        **Short cane pieces of scion and rootstock are machine-joined,
-        then kept warm so the join fuses.** The warm, humid callusing
-        room grows the callus. That is still two genotypes sharing
-        one plant, not a cross.
+        Callus bridges the aligned cambial tissues and precedes functional vascular connections.
+        Warmth encourages this growth and humidity reduces water loss; neither condition can rescue a
+        badly aligned or incompatible graft.
 
   - id: vine-head-graft-001
     type: mcq
@@ -1231,16 +1226,16 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which grafting method puts a new scion onto an established trunk in the vineyard?
+      question: Which method changes the scion variety while retaining an established vine's trunk and root system?
       choices:
-        - { text: "Bench grafting in a nursery callusing room", correct: false }
-        - { text: "Head grafting", correct: true }
-        - { text: "Crossing two vinifera parents for seed", correct: false }
-        - { text: "Massal selection of cuttings only", correct: false }
+        - { text: "Head grafting or top-working", correct: true }
+        - { text: "Bench grafting of dormant nursery cuttings", correct: false }
+        - { text: "Mass selection within the existing variety", correct: false }
+        - { text: "Propagation of own-rooted scion cuttings", correct: false }
       explanation: |
-        **Head grafting.** Also called top-working: the existing vine
-        stays in place and a new scion is put on the trunk. Nurseries
-        prefer bench grafting for new plants.
+        In head grafting, the established vine is cut back and scion material of the replacement
+        variety is inserted or budded onto the retained trunk. Bench grafting produces new nursery
+        plants rather than converting vines already growing in the field.
 
   - id: vine-head-graft-when-001
     type: mcq
@@ -1252,17 +1247,16 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: When does a grower usually choose head grafting?
+      question: Which situation is the best candidate for head grafting rather than complete replanting?
       choices:
-        - { text: "When raising brand-new plants on the nursery bench", correct: false }
-        - { text: "When an established vineyard must change variety from one season to the next", correct: true }
-        - { text: "When breeding a hybrid from two species", correct: false }
-        - { text: "When the vine is still a rooted cutting in the pot", correct: false }
+        - { text: "Healthy established vines need a different fruiting variety, but their roots remain suitable", correct: true }
+        - { text: "The rootstock is poorly adapted to the soil and must itself be replaced", correct: false }
+        - { text: "The block has severe trunk disease and its permanent wood should be removed", correct: false }
+        - { text: "A breeder wants genetically variable seedlings from two chosen parents", correct: false }
       explanation: |
-        **When an established vineyard must change variety from one
-        season to the next.** Pulling vines and replanting costs years
-        of crop. Head grafting keeps the old roots and puts a new
-        fruiting variety on top.
+        Top-working can change the crop variety more quickly and cheaply than replanting because the
+        mature root system is retained. It is not the right solution when the rootstock, trunk health
+        or vineyard layout is itself the problem.
 
   - id: vine-head-graft-how-001
     type: mcq
