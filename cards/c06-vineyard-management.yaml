@@ -1542,3 +1542,66 @@ cards:
         logistics. The winery also needs enough bins, press time and tank or barrel capacity; Penn
         State Extension explicitly recommends obtaining crop estimates when planning incoming fruit.
 
+  - id: vm-yield-quality-balance-001
+    type: mcq
+    deck: Vineyard Management
+    tags: [vineyard, yield, vine-balance]
+    status: reviewed
+    source_id: c06-0073
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Two comparable vines are cluster-thinned: one was overcropped, while the other was already balanced. Which result is most likely?"
+      choices:
+        - { text: "The overcropped vine may ripen better; the balanced vine may gain little", correct: true }
+        - { text: "The overcropped vine may gain little; the balanced vine may improve most", correct: false }
+        - { text: "Both vines may improve equally because the same number of bunches was removed", correct: false }
+        - { text: "Both vines may ripen more slowly because thinning reduces their photosynthetic capacity", correct: false }
+      explanation: |
+        Removing fruit can help when crop load exceeds the vine's capacity to ripen it. A vine that
+        was already in balance may show little quality response to further thinning. The outcome also
+        depends on leaf area, cultivar, site, season, timing and the amount of crop removed.
+
+  - id: vm-nematode-definition-001
+    type: mcq
+    deck: Vineyard Management
+    tags: [vineyard, pests, nematodes]
+    status: reviewed
+    source_id: c06-0076
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which description identifies plant-parasitic nematodes found in vineyard soils?
+      choices:
+        - { text: "Microscopic roundworms that feed on roots and can disrupt nutrient and water uptake", correct: true }
+        - { text: "Soil fungi that invade xylem and cause progressive trunk decay", correct: false }
+        - { text: "Bacteria that infect graft unions and produce crown galls", correct: false }
+        - { text: "Mites that feed on leaves and scar developing green shoots", correct: false }
+      explanation: |
+        Plant-parasitic nematodes live in soil water films or root tissue and use a stylet to feed on
+        root cells. Root damage can weaken growth and reduce yield; symptoms above ground may resemble
+        drought or nutrient deficiency, so soil and root testing are important.
+
+  - id: vm-vertebrate-fruit-damage-001
+    type: mcq
+    deck: Vineyard Management
+    tags: [vineyard, pests, birds, mammals]
+    status: reviewed
+    source_id: c06-0080
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: After birds or mammals have fed in a block of ripe grapes, which field observation best matches their characteristic damage?
+      choices:
+        - { text: "Missing berries or bunches, with pecked or bitten fruit developing bunch rot", correct: true }
+        - { text: "Uniform berry shrivelling across intact bunches, with no pecks or bite marks", correct: false }
+        - { text: "Patchy véraison and delayed sugar accumulation, with berry skins remaining unbroken", correct: false }
+        - { text: "Scorched berry skins on the exposed canopy side, with no fruit removed", correct: false }
+      explanation: |
+        Birds and mammals can remove whole berries or bunches, while pecked, bitten or crushed fruit
+        leaks juice and provides entry points and nutrients for decay organisms. The result can be
+        both lower yield and bunch rot spreading beyond the fruit that was directly eaten.
+
