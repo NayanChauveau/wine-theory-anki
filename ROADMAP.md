@@ -9,7 +9,7 @@ the two machine-readable editorial ledgers:
   quality pass: isolation, credible distractors, balanced choice length, useful
   explanations and natural French.
 
-The figures below are a snapshot from **2026-10-12**. Source notes and finished cards are
+The figures below are a snapshot from **2026-10-15**. Source notes and finished cards are
 different units: one source note may be split into several cards, merged with another note
 or rejected.
 
@@ -17,10 +17,10 @@ or rejected.
 
 | Measure | Complete | Remaining | Progress |
 | --- | ---: | ---: | ---: |
-| Legacy source notes resolved | 2,236 / 4,075 | 1,839 | 54.9% |
-| Cards with French | 2,061 / 2,364 | 303 | 87.2% |
-| Release-eligible cards with French | 2,061 / 2,360 | 299 | 87.3% |
-| Draft cards | — | 4 | — |
+| Legacy source notes resolved | 2,288 / 4,075 | 1,787 | 56.1% |
+| Cards with French | 2,061 / 2,405 | 344 | 85.7% |
+| Release-eligible cards with French | 2,061 / 2,402 | 341 | 85.8% |
+| Draft cards | — | 3 | — |
 
 To obtain the live migration count, run:
 
@@ -79,14 +79,15 @@ starting or completing its French pass.
 
 | Chapter | Pending source notes | Current cards missing French |
 | --- | ---: | ---: |
-| The Vine | 52 | 61 |
+| The Vine | 0 | 102 |
 | Vineyard Management | 135 | 64 |
 | Winemaking and Maturation | 173 | 64 |
 | California | 62 | 114 |
-| **Subtotal** | **422** | **303** |
+| **Subtotal** | **370** | **344** |
 
-- [ ] Convert the remaining English source notes in reviewed lots.
-- [ ] Run an adversarial chapter-wide English quality pass.
+- [x] Resolve all 102 source notes and complete the adversarial English pass for The Vine.
+- [ ] Convert the remaining English source notes in reviewed lots for the other chapters.
+- [ ] Run an adversarial chapter-wide English quality pass for each remaining chapter.
 - [ ] Translate only after the chapter reaches zero pending source notes.
 - [ ] Complete the bilingual quality ledger entry.
 
