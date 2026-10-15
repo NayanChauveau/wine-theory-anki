@@ -1479,3 +1479,66 @@ cards:
         universal cure for vigour: deep, fertile, well-watered soils may sustain strong growth despite
         close spacing, and total vegetative growth per hectare may remain high.
 
+  - id: vm-yield-definition-001
+    type: mcq
+    deck: Vineyard Management
+    tags: [vineyard, yield]
+    status: reviewed
+    source_id: c06-0065
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which vineyard measurement is crop yield?
+      choices:
+        - { text: "The quantity of grapes or wine produced per unit of vineyard area", correct: true }
+        - { text: "The number of vines planted per unit of vineyard area", correct: false }
+        - { text: "The number of fruitful buds retained on each dormant vine", correct: false }
+        - { text: "The weight of dormant pruning wood relative to the crop", correct: false }
+      explanation: |
+        Yield relates agricultural output to land area. It is distinct from planting density, bud
+        load and crop-load ratios, although all three can influence how much fruit the vineyard
+        ultimately produces.
+
+  - id: vm-yield-units-001
+    type: mcq
+    deck: Vineyard Management
+    tags: [vineyard, yield]
+    status: reviewed
+    source_id: c06-0066
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which pairing correctly describes two common ways of reporting vineyard yield?
+      choices:
+        - { text: "Tonnes per hectare for grape mass; hectolitres per hectare for must or wine volume", correct: true }
+        - { text: "Kilograms per vine for crop per vine; vines per hectare for planting density", correct: false }
+        - { text: "Kilograms per metre of cordon for crop per canopy length; tonnes per hour for press throughput", correct: false }
+        - { text: "Tonnes per hectare for grape yield; litres per tonne for juice extraction", correct: false }
+      explanation: |
+        Growers often report harvested fruit as tonnes per hectare (or tons per acre), while some
+        wine regulations state an allowed must or wine volume in hectolitres per hectare. Extraction
+        rate links the two figures, so they are related but not interchangeable.
+
+  - id: vm-yield-estimate-purpose-001
+    type: mcq
+    deck: Vineyard Management
+    tags: [vineyard, yield, harvest]
+    status: reviewed
+    source_id: c06-0067
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Why does a wine business need a credible yield estimate before harvest?
+      choices:
+        - { text: "To check regulatory and contract quantities and reserve enough winery capacity", correct: true }
+        - { text: "To choose picking date, assess acid balance and estimate potential alcohol", correct: false }
+        - { text: "To sort diseased fruit, prioritise affected blocks and plan selective picking", correct: false }
+        - { text: "To set maceration length, choose oak format and target final blend proportions", correct: false }
+      explanation: |
+        Expected crop size affects compliance with yield limits, grower–buyer commitments and harvest
+        logistics. The winery also needs enough bins, press time and tank or barrel capacity; Penn
+        State Extension explicitly recommends obtaining crop estimates when planning incoming fruit.
+
