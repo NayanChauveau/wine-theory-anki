@@ -1967,3 +1967,45 @@ cards:
         ranges are only study landmarks: warm regions may start earlier, cool regions or late-harvest
         styles may finish later, and variety, site, season and intended wine style all affect timing.
 
+  - id: vm-budbreak-cultivar-order-001
+    type: mcq
+    deck: Vineyard Management
+    tags: [vineyard, growth-cycle, budbreak, variety]
+    status: reviewed
+    source_id: c06-0131
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which grouping best reflects broad differences in budbreak timing among these varieties?
+      choices:
+        - { text: "Chardonnay and Pinot Noir generally earlier; Cabernet Sauvignon later", correct: true }
+        - { text: "Cabernet Sauvignon and Pinot Noir generally earlier; Chardonnay later", correct: false }
+        - { text: "Chardonnay and Cabernet Sauvignon generally earlier; Pinot Noir later", correct: false }
+        - { text: "All three generally break bud at the same cultivar-specific threshold", correct: false }
+      explanation: |
+        Cultivar influences the heat requirement and timing of budbreak. Chardonnay and Pinot Noir
+        tend to start early, whereas Cabernet Sauvignon tends to start later. Site and season can
+        shift the dates, and this comparison does not by itself predict the order of ripening.
+
+  - id: vm-green-shoot-positioning-001
+    type: mcq
+    deck: Vineyard Management
+    tags: [vineyard, canopy, trellis, shoot-positioning]
+    status: reviewed
+    source_id: c06-0137
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: In a VSP block, what should determine the timing of each green-shoot-positioning pass?
+      choices:
+        - { text: "Shoots reaching successive catch-wire levels while still flexible enough to guide", correct: true }
+        - { text: "Primary buds reaching full budburst before the shoots begin rapid elongation", correct: false }
+        - { text: "Inflorescences becoming visible while shoots remain below the catch wires", correct: false }
+        - { text: "The local last-frost date even when shoot growth differs between blocks", correct: false }
+      explanation: |
+        Positioning is triggered by canopy growth and trellis geometry, not one fixed phenological
+        date. Shoots are guided as they reach successive catch wires, often in several passes around
+        flowering and fruit set; exact timing varies with vigour, weather and trellis design.
+
