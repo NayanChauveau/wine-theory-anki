@@ -3,11 +3,10 @@ name: CI
 on:
   push:
     branches: [main]
-    tags: ["v*"]
   pull_request:
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   test:
@@ -31,58 +30,66 @@ jobs:
           name: anki-packages
           path: dist/*.apkg
 
-  latest-release:
-    name: Update latest main release
+  release:
+    name: Publish versioned release
     if: github.event_name == 'push' && github.ref == 'refs/heads/main'
     needs: test
     runs-on: ubuntu-latest
     permissions:
       contents: write
     concurrency:
-      group: latest-main-release
-      cancel-in-progress: true
+      group: publish-versioned-release
+      cancel-in-progress: false
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
       - uses: actions/download-artifact@v4
         with:
           name: anki-packages
           path: dist
-      - name: Move rolling release tag to this commit
-        run: |
-          git tag --force latest-main "$GITHUB_SHA"
-          git push origin refs/tags/latest-main --force
-      - name: Create or update the rolling release
+      - name: Publish the next patch release
         env:
           GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
         run: |
-          if gh release view latest-main >/dev/null 2>&1; then
-            gh release upload latest-main dist/*.apkg --clobber
-            gh release edit latest-main \
-              --title "Latest main build" \
-              --notes "Automated build from main at commit ${GITHUB_SHA}." \
-              --latest
+          set -euo pipefail
+          test -f dist/wset3-vin-en.apkg
+          test -f dist/wset3-vin-fr.apkg
+
+          latest="$(
+            gh api --paginate "repos/${GITHUB_REPOSITORY}/git/matching-refs/tags/v" \
+              --jq '.[].ref | sub("refs/tags/"; "")' \
+              | grep -E '^v[0-9]+\.[0-9]+\.[0-9]+$' \
+              | sort -V \
+              | tail -n 1 || true
+          )"
+
+          bump() {
+            local ver="${1#v}" major rest minor patch
+            major="${ver%%.*}"
+            rest="${ver#*.}"
+            minor="${rest%%.*}"
+            patch="${rest#*.}"
+            printf 'v%s.%s.%s\n' "$major" "$minor" "$((patch + 1))"
+          }
+
+          if [ -z "$latest" ]; then
+            next="v0.1.0"
           else
-            gh release create latest-main dist/*.apkg \
-              --title "Latest main build" \
-              --notes "Automated build from main at commit ${GITHUB_SHA}." \
-              --latest
+            next="$(bump "$latest")"
           fi
 
-  release:
-    if: startsWith(github.ref, 'refs/tags/v')
-    needs: test
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/download-artifact@v4
-        with:
-          name: anki-packages
-          path: dist
-      - uses: softprops/action-gh-release@v2
-        with:
-          files: |
-            dist/wset3-vin-en.apkg
-            dist/wset3-vin-fr.apkg
-          generate_release_notes: true
+          while gh api "repos/${GITHUB_REPOSITORY}/git/ref/tags/${next}" >/dev/null 2>&1 \
+            || gh api "repos/${GITHUB_REPOSITORY}/releases/tags/${next}" >/dev/null 2>&1; do
+            next="$(bump "$next")"
+          done
+
+          echo "Publishing ${next} from ${GITHUB_SHA}"
+          gh release create "$next" \
+            dist/wset3-vin-en.apkg \
+            dist/wset3-vin-fr.apkg \
+            --target "$GITHUB_SHA" \
+            --title "$next" \
+            --notes "Automated release from main at ${GITHUB_SHA}." \
+            --repo "$GITHUB_REPOSITORY"
