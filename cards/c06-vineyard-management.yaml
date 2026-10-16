@@ -1794,3 +1794,67 @@ cards:
         development. Severity varies, and white cultivars may lack the conspicuous red-leaf symptom;
         laboratory testing is required because fruit and leaf symptoms are not unique to leafroll.
 
+  - id: vm-virus-vector-pairing-001
+    type: mcq
+    deck: Vineyard Management
+    tags: [vineyard, disease, viruses, vectors]
+    status: reviewed
+    source_id: c06-0101
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which pairing correctly matches two grapevine virus diseases with their important natural vectors?
+      choices:
+        - { text: "Fanleaf — dagger nematodes; leafroll — mealybugs and soft scales", correct: true }
+        - { text: "Fanleaf — mealybugs and soft scales; leafroll — dagger nematodes", correct: false }
+        - { text: "Fanleaf — sharpshooters and spittlebugs; leafroll — dagger nematodes", correct: false }
+        - { text: "Fanleaf — dagger nematodes; leafroll — sharpshooters and spittlebugs", correct: false }
+      explanation: |
+        Vector relationships are virus-specific: dagger nematodes such as *Xiphinema index* can
+        transmit grapevine fanleaf virus, whereas mealybugs and soft scales can spread important
+        leafroll-associated viruses. Infected cuttings, grafts or other propagation material can
+        also introduce viruses, which is why tested planting stock remains fundamental.
+
+  - id: vm-pierce-vector-001
+    type: mcq
+    deck: Vineyard Management
+    tags: [vineyard, disease, bacteria, pierces-disease, vectors]
+    status: reviewed
+    source_id: c06-0105
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Which insects can transmit *Xylella fastidiosa*, the bacterium that causes Pierce's disease in grapevines?
+      choices:
+        - { text: "Xylem-feeding sharpshooters and spittlebugs", correct: true }
+        - { text: "Phloem-feeding mealybugs and soft scales", correct: false }
+        - { text: "Leaf-feeding grape leafhoppers and thrips", correct: false }
+        - { text: "Fruit-feeding moth larvae and vinegar flies", correct: false }
+      explanation: |
+        *Xylella fastidiosa* inhabits the vine's water-conducting xylem. Sharpshooters and spittlebugs
+        acquire and transmit it while feeding on xylem sap; mealybugs and scales are instead important
+        vectors of some grapevine leafroll-associated viruses.
+
+  - id: vm-pierce-management-001
+    type: mcq
+    deck: Vineyard Management
+    tags: [vineyard, disease, bacteria, pierces-disease, management]
+    status: reviewed
+    source_id: c06-0106
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: Several vines have laboratory-confirmed chronic Pierce's disease and severe symptoms. Which block strategy is most appropriate?
+      choices:
+        - { text: "Rogue badly affected vines, manage vectors and replant with tested material under local movement rules", correct: true }
+        - { text: "Hard-prune badly affected vines, manage vectors and retain symptom-free regrowth as clean material", correct: false }
+        - { text: "Rogue badly affected vines, replant from symptomless neighbours and stop vector monitoring after removal", correct: false }
+        - { text: "Keep badly affected vines, apply a copper bactericide and remove them only if symptoms recur", correct: false }
+      explanation: |
+        No reliable vineyard treatment eliminates *Xylella fastidiosa* from a chronically infected vine.
+        Removal reduces the local source of bacteria, while vector management limits new infections;
+        tested planting material and plant-health movement rules reduce the chance of reintroduction.
+
