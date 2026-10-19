@@ -9,7 +9,7 @@ the two machine-readable editorial ledgers:
   quality pass: isolation, credible distractors, balanced choice length, useful
   explanations and natural French.
 
-The figures below are a snapshot from **2026-10-15**. Source notes and finished cards are
+The figures below are a snapshot from **2026-10-19**. Source notes and finished cards are
 different units: one source note may be split into several cards, merged with another note
 or rejected.
 
@@ -17,9 +17,9 @@ or rejected.
 
 | Measure | Complete | Remaining | Progress |
 | --- | ---: | ---: | ---: |
-| Legacy source notes resolved | 2,288 / 4,075 | 1,787 | 56.1% |
-| Cards with French | 2,061 / 2,405 | 344 | 85.7% |
-| Release-eligible cards with French | 2,061 / 2,402 | 341 | 85.8% |
+| Legacy source notes resolved | 2,423 / 4,075 | 1,652 | 59.5% |
+| Cards with French | 2,061 / 2,442 | 381 | 84.4% |
+| Release-eligible cards with French | 2,061 / 2,439 | 378 | 84.5% |
 | Draft cards | — | 3 | — |
 
 To obtain the live migration count, run:
@@ -80,14 +80,16 @@ starting or completing its French pass.
 | Chapter | Pending source notes | Current cards missing French |
 | --- | ---: | ---: |
 | The Vine | 0 | 102 |
-| Vineyard Management | 135 | 64 |
+| Vineyard Management | 0 | 101 |
 | Winemaking and Maturation | 173 | 64 |
 | California | 62 | 114 |
-| **Subtotal** | **370** | **344** |
+| **Subtotal** | **235** | **381** |
 
 - [x] Resolve all 102 source notes and complete the adversarial English pass for The Vine.
+- [x] Resolve all 185 source notes for Vineyard Management in independently reviewed lots.
 - [ ] Convert the remaining English source notes in reviewed lots for the other chapters.
-- [ ] Run an adversarial chapter-wide English quality pass for each remaining chapter.
+- [ ] Run an adversarial chapter-wide English quality pass for each remaining chapter,
+  including the older Vineyard Management cards and its remaining draft.
 - [ ] Translate only after the chapter reaches zero pending source notes.
 - [ ] Complete the bilingual quality ledger entry.
 
@@ -119,7 +121,7 @@ For each chapter:
 
 ## Quality and release checklist
 
-- [ ] Resolve the five remaining draft cards or deliberately reject them.
+- [ ] Resolve the three remaining draft cards or deliberately reject them.
 - [ ] Complete agent quality review for every chapter.
 - [ ] Perform human sign-off or a documented human sampling pass on chapters marked
   `awaiting-human`.
