@@ -2100,3 +2100,71 @@ cards:
         preferable where steep access, bunch selection or intact whole bunches are integral to the
         production goal.
 
+  - id: vm-machine-harvest-fruit-fit-001
+    type: mcq
+    deck: Vineyard Management
+    tags: [vineyard, harvest, mechanisation, fruit-condition]
+    status: reviewed
+    source_id: c06-0171
+    review:
+      fact_check: pass
+      sources: [extension, industry]
+    en:
+      question: Which trial result makes a wine-grape block the strongest candidate for mechanical harvesting without excessive fruit damage?
+      choices:
+        - { text: "Ripe berries detach at moderate settings with little rupture, and the uniform fruit zone fits the picking head", correct: true }
+        - { text: "Ripe berries detach easily but rupture extensively, although the existing trellis fits the picking head", correct: false }
+        - { text: "Ripe berries detach with little rupture, but large cross-arms obstruct the picking head throughout the row", correct: false }
+        - { text: "Ripe berries resist rupture but detach only at settings that damage vines and leave part of the crop", correct: false }
+      explanation: |
+        Mechanical suitability depends on a workable margin between the force needed to detach the
+        berries and the force that ruptures them. Cultivar, maturity and fruit condition affect that
+        margin, while trellis and canopy geometry must suit the picking head; machine settings then
+        need matching to the block. These physical constraints are distinct from slope and access,
+        the need for intact whole bunches, or subsequent MOG control.
+
+  - id: vm-machine-harvest-mog-control-001
+    type: mcq
+    deck: Vineyard Management
+    tags: [vineyard, harvest, mechanisation, sorting]
+    status: reviewed
+    source_id: c06-0172
+    review:
+      fact_check: pass
+      sources: [industry]
+    en:
+      question: A machine-harvested load contains leaves and petioles as well as some damaged or diseased berries. Which response best controls the quality risk?
+      choices:
+        - { text: "Reduce MOG through settings and onboard cleaning, sort compromised berries at reception, and match picking rate to winery capacity", correct: true }
+        - { text: "Rely on onboard fans to remove both MOG and compromised berries, then send the load directly to processing", correct: false }
+        - { text: "Leave MOG and compromised berries to reception sorting, while maintaining maximum harvester speed as bins accumulate", correct: false }
+        - { text: "Lower shaker intensity to reduce MOG and berry damage, then accept the load without checking fruit losses", correct: false }
+      explanation: |
+        MOG means matter other than grapes, such as leaves, petioles, canes, wood or insects.
+        Diseased or damaged berries are not MOG, but they can add a separate quality risk. Suitable
+        harvester settings, onboard fans or sorting systems and reception-line sorting can all make
+        the load cleaner. High throughput may create a winery bottleneck, but it does not make
+        sorting categorically impossible.
+
+  - id: vm-machine-harvest-speed-window-001
+    type: mcq
+    deck: Vineyard Management
+    tags: [vineyard, harvest, mechanisation, weather]
+    status: reviewed
+    source_id: c06-0175
+    review:
+      fact_check: pass
+      sources: [extension, industry]
+    en:
+      question: A large, machine-accessible block is at target ripeness; heavy rain is forecast while warm weather is accelerating further ripening. Which advantage of machine harvesting matters most?
+      choices:
+        - { text: "Clearing the block rapidly while the fruit remains within the intended harvest window", correct: true }
+        - { text: "Selecting individual botrytised berries over several passes as their condition changes", correct: false }
+        - { text: "Delivering intact whole bunches with stems for immediate whole-cluster pressing", correct: false }
+        - { text: "Working steep terraces that standard over-row machines cannot safely enter", correct: false }
+      explanation: |
+        Machine harvesting can cover a large area quickly, which is valuable when rain threatens
+        splitting, dilution or rot, or when fruit may soon move beyond the intended ripeness. The
+        advantage depends on transport and winery capacity keeping pace with the harvester. It does
+        not provide berry-by-berry selection, intact whole bunches or access to unsuitable terrain.
+
