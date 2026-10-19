@@ -2168,3 +2168,27 @@ cards:
         advantage depends on transport and winery capacity keeping pace with the harvester. It does
         not provide berry-by-berry selection, intact whole bunches or access to unsuitable terrain.
 
+  - id: vm-botrytised-fruit-handling-001
+    type: mcq
+    deck: Vineyard Management
+    tags: [vineyard, harvest, noble-rot, handling]
+    status: reviewed
+    source_id: c06-0182
+    review:
+      fact_check: pass
+      sources: [aoc-site, industry]
+    en:
+      question: A producer wants to keep successive noble-rot selections separate, but the hand-picked berries are fragile and prone to leaking juice. Which transport plan is best?
+      choices:
+        - { text: "Use separate shallow crates, avoid overfilling them and move each selection promptly with gentle handling", correct: true }
+        - { text: "Use separate deep bins, fill them completely and move each selection promptly to reduce waiting time", correct: false }
+        - { text: "Combine the selections in shallow crates, avoid overfilling them and sort the botrytis stages again at reception", correct: false }
+        - { text: "Use separate shallow crates, hold them until picking ends and process all selections together as one lot", correct: false }
+      explanation: |
+        Botrytis perforates berry skins, and juice released from crushed fruit is vulnerable to
+        oxidation and microbial deterioration. Small, shallow containers limit the weight pressing
+        on the berries; gentle, prompt transport further reduces damage. Keeping the containers
+        separate also preserves the picker's distinction between different stages or qualities of
+        noble rot. Unlike Champagne handling, the aim here is not to retain whole bunches for white
+        pressing but to protect fragile, selectively picked fruit and its lot identity.
+
