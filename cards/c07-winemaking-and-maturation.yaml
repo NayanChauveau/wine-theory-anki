@@ -1350,3 +1350,70 @@ cards:
         does not trap residues in the same way. That is the
         standing worry with oak, not a claim that wood cannot
         hold wine.
+
+  - id: wine-vessel-lot-blending-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, maturation, blending]
+    status: reviewed
+    source_id: c07-0051
+    review:
+      fact_check: pass
+      sources: [extension, industry]
+    en:
+      question: A winemaker has separate maturation lots from stainless steel, older oak and new oak. Which approach best uses that diversity?
+      choices:
+        - { text: "Use equal proportions so each vessel has the same influence on the finished wine", correct: false }
+        - { text: "Test several proportions and choose the blend that best meets the intended balance and style", correct: true }
+        - { text: "Maximise the new-oak lot, then rely on bottle age to remove any excess oak", correct: false }
+        - { text: "Choose proportions from vessel capacity alone, without tasting the combined lots", correct: false }
+      explanation: |
+        The lots may contribute different fruit expression, texture, oak
+        flavour and oxygen effects. Blend trials show whether those elements
+        complement one another; using more vessel types does not guarantee
+        greater complexity.
+
+  - id: wine-oak-programme-variables-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, oak, maturation]
+    status: reviewed
+    source_id: c07-0052
+    review:
+      fact_check: pass
+      sources: [industry, extension]
+    en:
+      question: A cellar wants to find out how barrel toast changes oak impact on one wine. Which paired trial gives the cleanest evidence?
+      choices:
+        - { text: "Compare matched groups of new 225 L barrels from one oak lot and cooper for 12 months, changing only toast", correct: true }
+        - { text: "Compare matched groups of new 225 L and 500 L barrels from one oak lot and cooper for 12 months, changing toast", correct: false }
+        - { text: "Compare matched groups of new and third-fill 225 L barrels from one oak lot and cooper for 12 months, changing toast", correct: false }
+        - { text: "Compare matched groups of new 225 L barrels from one oak lot and cooper for six and 12 months, changing toast", correct: false }
+      explanation: |
+        A paired trial changes the target variable while holding direct
+        confounders constant. Species, origin and grain matter, as do stave
+        manufacture — including splitting or sawing and seasoning — vessel
+        volume, previous fills and contact time. Matching those factors means
+        a sensory difference can be linked more confidently to toast.
+
+  - id: wine-barrel-toast-profile-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, oak, cooperage]
+    status: reviewed
+    source_id: c07-0058
+    review:
+      fact_check: pass
+      sources: [industry, extension]
+    en:
+      question: A cooper applies different time-and-temperature toast profiles to otherwise identical oak barrels. What should the winemaker expect?
+      choices:
+        - { text: "A uniform increase in every oak aroma and tannin as the toast becomes heavier", correct: false }
+        - { text: "A different balance of oak-derived aromas and extractable tannins from each profile", correct: true }
+        - { text: "A change in oxygen ingress only, with the extractable wood chemistry left unchanged", correct: false }
+        - { text: "A sanitation effect only, with identical flavour extraction from every toast profile", correct: false }
+      explanation: |
+        Heat first makes staves pliable enough to bend. Controlled toasting
+        then transforms wood compounds, including aroma precursors and
+        tannins. Changing both temperature and duration changes the profile;
+        heavier toast does not simply increase every oak character together.
