@@ -1417,3 +1417,92 @@ cards:
         then transforms wood compounds, including aroma precursors and
         tannins. Changing both temperature and duration changes the profile;
         heavier toast does not simply increase every oak character together.
+
+  - id: wine-used-barrel-extraction-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, oak, maturation]
+    status: reviewed
+    source_id: c07-0064
+    review:
+      fact_check: pass
+      sources: [awri, industry]
+    en:
+      question: After a sound oak barrel has held wine through several fills, which change is most likely?
+      choices:
+        - { text: "Wood-derived aroma and tannin extraction decline, while slow oxygen exchange can continue", correct: true }
+        - { text: "Oak aroma declines, and oxygen exposure necessarily falls to zero after the first fill", correct: false }
+        - { text: "Oak aroma stays constant, while only wood-tannin extraction declines over repeated fills", correct: false }
+        - { text: "Oak extraction increases as the staves age, while oxygen exposure remains unchanged", correct: false }
+      explanation: |
+        Successive wines remove a finite pool of readily extractable aroma
+        compounds and tannins, so oak flavour becomes less pronounced. A
+        well-maintained older barrel still functions as a wooden vessel and
+        can permit gradual oxygen exposure; reuse does not turn it into steel.
+
+  - id: wine-oak-pieces-limits-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, oak, alternatives]
+    status: reviewed
+    source_id: c07-0066
+    review:
+      fact_check: pass
+      sources: [oiv, awri, industry]
+    en:
+      question: A producer uses oak staves inside a stainless-steel tank instead of new barrels. Which comparison is accurate?
+      choices:
+        - { text: "They add extractable wood compounds economically, but any controlled oxygen input remains a separate decision", correct: true }
+        - { text: "They add extractable wood compounds economically, and the tank then breathes at the same rate as a barrel", correct: false }
+        - { text: "They add extractable wood compounds, but their greater exposed surface makes extraction slower than from a barrel", correct: false }
+        - { text: "They add extractable wood compounds, so separate oxygen control is unnecessary when recreating barrel maturation in tank", correct: false }
+      explanation: |
+        Staves and chips expose wine to wood compounds without the cost of
+        buying many new barrels. They do not recreate a barrel's geometry or
+        oxygen transfer by themselves. A cellar may pair them with controlled
+        oxygen, but the two tools perform different jobs.
+
+  - id: wine-micro-oxygenation-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, oxygen, maturation]
+    status: reviewed
+    source_id: c07-0067
+    review:
+      fact_check: pass
+      sources: [oiv, awri, extension]
+    en:
+      question: Which statement most accurately describes micro-oxygenation of wine in tank?
+      choices:
+        - { text: "Oxygen is metered below the wine's consumption rate and adjusted as the wine responds during maturation", correct: true }
+        - { text: "Oxygen is metered above the wine's consumption rate so a dissolved reserve remains throughout maturation", correct: false }
+        - { text: "Oxygen is supplied only during yeast growth, then stopped once alcoholic fermentation is complete", correct: false }
+        - { text: "Oxygen is delivered at one fixed rate throughout maturation, without tracking the wine's changing response", correct: false }
+      explanation: |
+        Micro-oxygenation keeps addition below the wine's oxygen-consumption
+        rate. The dose is monitored and adapted because temperature,
+        phenolics, free SO₂ and sensory development affect the response. It
+        can influence colour and tannin development, but it supplies no wood
+        compounds and does not reproduce every effect of barrel maturation.
+
+  - id: wine-inert-vessel-meaning-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, vessels, oxygen]
+    status: reviewed
+    source_id: c07-0068
+    review:
+      fact_check: pass
+      sources: [extension, industry]
+    en:
+      question: Which statement best describes an inert winery vessel in practice?
+      choices:
+        - { text: "Its material contributes no intended flavour; excluding oxygen still requires a sealed, full vessel and careful handling", correct: true }
+        - { text: "Its material contributes no intended flavour; that alone excludes oxygen even when the vessel has headspace", correct: false }
+        - { text: "Its material controls oxygen exposure; whether it contributes flavour depends only on fermentation temperature", correct: false }
+        - { text: "Its material is always oxygen-permeable but aroma-neutral, whether stainless steel or unlined concrete", correct: false }
+      explanation: |
+        Stainless steel is flavour-neutral and can serve for fermentation or
+        storage, but ullage, transfers and poor sealing can still admit air.
+        Epoxy-lined concrete can also behave as an inert container; unlined
+        concrete should not automatically be treated as airtight and inert.
