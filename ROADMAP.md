@@ -9,7 +9,7 @@ the two machine-readable editorial ledgers:
   quality pass: isolation, credible distractors, balanced choice length, useful
   explanations and natural French.
 
-The figures below are a snapshot from **2026-10-19**. Source notes and finished cards are
+The figures below are a snapshot from **2026-10-20**. Source notes and finished cards are
 different units: one source note may be split into several cards, merged with another note
 or rejected.
 
@@ -17,9 +17,9 @@ or rejected.
 
 | Measure | Complete | Remaining | Progress |
 | --- | ---: | ---: | ---: |
-| Legacy source notes resolved | 2,423 / 4,075 | 1,652 | 59.5% |
-| Cards with French | 2,061 / 2,442 | 381 | 84.4% |
-| Release-eligible cards with French | 2,061 / 2,439 | 378 | 84.5% |
+| Legacy source notes resolved | 2,503 / 4,075 | 1,572 | 61.4% |
+| Cards with French | 2,061 / 2,480 | 419 | 83.1% |
+| Release-eligible cards with French | 2,061 / 2,477 | 416 | 83.2% |
 | Draft cards | — | 3 | — |
 
 To obtain the live migration count, run:
@@ -81,9 +81,9 @@ starting or completing its French pass.
 | --- | ---: | ---: |
 | The Vine | 0 | 102 |
 | Vineyard Management | 0 | 101 |
-| Winemaking and Maturation | 173 | 64 |
+| Winemaking and Maturation | 93 | 102 |
 | California | 62 | 114 |
-| **Subtotal** | **235** | **381** |
+| **Subtotal** | **155** | **419** |
 
 - [x] Resolve all 102 source notes and complete the adversarial English pass for The Vine.
 - [x] Resolve all 185 source notes for Vineyard Management in independently reviewed lots.
