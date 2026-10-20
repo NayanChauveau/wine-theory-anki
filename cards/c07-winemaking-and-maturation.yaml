@@ -2004,3 +2004,126 @@ cards:
         organic acids for particular products; local law and appellation rules
         may be narrower. Bench trials matter because identical additions can
         produce different pH and sensory responses in different musts.
+
+  - id: wine-chemical-deacidification-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, acid, adjustment, deacidification]
+    status: reviewed
+    source_id: c07-0111
+    review:
+      fact_check: pass
+      sources: [oiv]
+    en:
+      question: A wine is too acidic, and local rules allow chemical deacidification. Which trial plan best controls the adjustment?
+      choices:
+        - { text: "Bench-trial an authorised carbonate or bicarbonate salt, then recheck TA, pH and stability", correct: true }
+        - { text: "Dose calcium carbonate from pH alone, then bottle before delayed precipitation is assessed", correct: false }
+        - { text: "Use the maximum potassium bicarbonate dose, then rely on malolactic conversion to correct any overshoot", correct: false }
+        - { text: "Choose an authorised salt only by reaction speed, without checking the wine's later tartrate stability", correct: false }
+      explanation: |
+        OIV practice recognises specified materials such as potassium hydrogen
+        carbonate, neutral potassium tartrate and calcium carbonate; the
+        permitted choices and limits may be narrower locally. These treatments
+        lower titratable acidity and raise pH, often through salt precipitation.
+        Bench trials and follow-up checks help avoid overcorrection and account
+        for the wine's buffering, delayed precipitation and any later
+        malolactic conversion.
+
+  - id: wine-saccharomyces-completes-fermentation-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, fermentation, yeast]
+    status: reviewed
+    source_id: c07-0114
+    review:
+      fact_check: pass
+      sources: [extension, awri]
+    en:
+      question: A grape must begins fermenting with several yeast species, but one commonly completes alcoholic fermentation as ethanol rises. Which is it?
+      choices:
+        - { text: "Hanseniaspora uvarum", correct: false }
+        - { text: "Saccharomyces cerevisiae", correct: true }
+        - { text: "Metschnikowia pulcherrima", correct: false }
+        - { text: "Pichia membranifaciens", correct: false }
+      explanation: |
+        Several non-*Saccharomyces* yeasts can be numerous early in a spontaneous
+        fermentation, but many decline as ethanol accumulates. *S. cerevisiae*
+        commonly completes the sugar conversion because wine strains combine
+        strong fermentative ability with relative tolerance of ethanol and
+        normal cellar SO₂ levels. Some non-*Saccharomyces* strains persist, so
+        this is a common succession rather than an absolute monopoly.
+
+  - id: wine-dry-fermentation-completion-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, fermentation, monitoring]
+    status: reviewed
+    source_id: c07-0116
+    review:
+      fact_check: pass
+      sources: [awri, extension]
+    en:
+      question: Fermentation activity has become quiet. Which evidence best supports normal dry completion rather than a stuck ferment?
+      choices:
+        - { text: "Glucose and fructose are at the intended dry endpoint, with the fermentation curve complete", correct: true }
+        - { text: "The airlock is quiet even though analysis still shows appreciable glucose and fructose", correct: false }
+        - { text: "The yeast settled after chilling while the wine still contains appreciable fermentable sugar", correct: false }
+        - { text: "The estimated potential alcohol was reached, although residual sugar was not measured", correct: false }
+      explanation: |
+        A ferment is dry when fermentable sugar has fallen to the producer's
+        verified dry endpoint, not merely when bubbling becomes hard to see.
+        Quiet gas release, settling after cooling or an alcohol estimate can
+        accompany inactive yeast while sugar remains. That pattern points to a
+        sluggish or stuck fermentation and carries a risk of later restart.
+
+  - id: wine-stuck-fermentation-risk-cluster-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, fermentation, yeast, troubleshooting]
+    status: reviewed
+    source_id: c07-0117
+    review:
+      fact_check: pass
+      sources: [extension, awri]
+    en:
+      question: A high-sugar must with marginal YAN stops late after repeated temperature swings, with substantial sugar remaining. Which response is most defensible?
+      choices:
+        - { text: "Review sugar and ethanol, temperature history, nutrient timing and yeast viability before an acclimatised restart", correct: true }
+        - { text: "Add DAP from the residual-sugar reading, then restart without checking ethanol or yeast viability", correct: false }
+        - { text: "Correct tank temperature from its latest reading, then restart without reviewing sugar or nutrient history", correct: false }
+        - { text: "Pitch an ethanol-tolerant yeast directly into the wine, then correct nutrients if the restart slows", correct: false }
+      explanation: |
+        Very concentrated must can impose osmotic stress at the start, while
+        inadequate yeast-assimilable nitrogen and unstable temperature can
+        weaken the population. By late fermentation, rising ethanol makes sugar
+        uptake and nutrient assimilation harder. A restart therefore begins
+        with diagnosis and a healthy yeast population acclimatised gradually to
+        the stuck wine, rather than a single-factor correction or direct pitching.
+        Temperature limits depend on strain and conditions, not one universal
+        cutoff.
+
+  - id: wine-arrest-fermentation-stability-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, fermentation, residual-sugar, stability]
+    status: reviewed
+    source_id: c07-0119
+    review:
+      fact_check: pass
+      sources: [awri, oiv]
+    en:
+      question: A producer wants residual sugar in an unfortified wine and needs to minimise the risk of fermentation restarting. Which sequence is most robust?
+      choices:
+        - { text: "Chill promptly, remove yeast by sterile filtration, then manage SO₂ and microbiological stability", correct: true }
+        - { text: "Add a routine SO₂ dose to the warm active ferment, then bottle without filtration", correct: false }
+        - { text: "Rack once from gross lees at fermentation temperature, then rely on natural settling", correct: false }
+        - { text: "Cool briefly until bubbling slows, then warm and package the wine without further treatment", correct: false }
+      explanation: |
+        Chilling suppresses yeast activity so the wine can be clarified and
+        filtered; it does not by itself guarantee that the cells are dead.
+        Removing viable yeast and verifying microbiological stability are
+        crucial when fermentable sugar remains, with SO₂ used as supporting
+        protection rather than a reliable stand-alone kill step. Fortification
+        can instead arrest a ferment by raising alcohol, but that produces a
+        fortified style and is subject to its own rules.
