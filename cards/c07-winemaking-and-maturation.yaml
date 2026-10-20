@@ -1641,3 +1641,136 @@ cards:
         leaves, petioles and other material other than grapes may also be
         removed where relevant. Size or sugar alone does not establish health
         or suitability for the intended wine.
+
+  - id: wine-crushing-operation-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, grape-processing, crushing]
+    status: reviewed
+    source_id: c07-0082
+    review:
+      fact_check: pass
+      sources: [oiv]
+    en:
+      question: Which cellar operation is specifically crushing rather than destemming, draining or pressing?
+      choices:
+        - { text: "Gently breaking berry skins so must is released and skin-pulp contact increases", correct: true }
+        - { text: "Separating berries from their stems before the fruit enters a fermentation vessel", correct: false }
+        - { text: "Allowing liquid to flow from crushed fruit before external pressure is applied", correct: false }
+        - { text: "Compressing grapes or marc to recover liquid that does not drain freely", correct: false }
+      explanation: |
+        Crusher rollers are normally adjusted to split skins without
+        pulverising seeds or stems. Destemming removes stalks, draining
+        collects liquid without pressing, and a press applies force to recover
+        additional juice or wine from the solids.
+
+  - id: wine-free-run-definition-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, grape-processing, free-run]
+    status: reviewed
+    source_id: c07-0083
+    review:
+      fact_check: pass
+      sources: [oiv, industry]
+    en:
+      question: Which portion is most accurately described as free-run juice during grape processing?
+      choices:
+        - { text: "Liquid collected as it drains from the grapes or must before pressing", correct: true }
+        - { text: "Every drop released inside crushed must whether or not it has been drained", correct: false }
+        - { text: "The first liquid expelled after the press begins applying mechanical pressure", correct: false }
+        - { text: "The combined liquid from all pressure stages after the press cycle is complete", correct: false }
+      explanation: |
+        Crushing can release juice and make drainage easier, but the useful
+        distinction is whether applied press pressure was needed to collect
+        it. Liquid recovered under pressure is press juice and may be kept in
+        separate fractions because its composition changes during the cycle.
+
+  - id: wine-pressing-operation-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, grape-processing, pressing]
+    status: reviewed
+    source_id: c07-0085
+    review:
+      fact_check: pass
+      sources: [oiv]
+    en:
+      question: Which operation defines pressing in a winery?
+      choices:
+        - { text: "Applying controlled force to grapes or marc to separate recoverable liquid from solids", correct: true }
+        - { text: "Breaking berry skins so juice and skins can mix before maceration or fermentation", correct: false }
+        - { text: "Removing stems from harvested grapes while keeping the berries available for processing", correct: false }
+        - { text: "Letting liquid drain from crushed grapes before any compressive force is introduced", correct: false }
+      explanation: |
+        Before fermentation, pressing can recover must for fermentation away
+        from the skins. After a red fermentation on skins, it separates press
+        wine from the marc. The timing differs, but controlled compression and
+        liquid-solid separation are common to both uses.
+
+  - id: wine-press-fraction-quality-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, grape-processing, pressing, extraction]
+    status: reviewed
+    source_id: c07-0086
+    review:
+      fact_check: pass
+      sources: [oiv, extension]
+    en:
+      question: As pressure rises during a press cycle, which practice gives the winemaker the best control over extraction quality?
+      choices:
+        - { text: "Keep later fractions separate and assess them before deciding whether to blend", correct: true }
+        - { text: "Blend fractions continuously and adjust the completed lot only after the press cycle", correct: false }
+        - { text: "Set the pressure curve from press capacity and repeat it unchanged for every load", correct: false }
+        - { text: "Use recovered volume as the endpoint and assess phenolics after combining the fractions", correct: false }
+      explanation: |
+        Slow, progressive pressing lets the operator monitor a changing juice
+        stream. Later or harder pressings can contain more suspended solids
+        and extracted phenolics, including potentially bitter or astringent
+        material; seeds are one possible source, not the only concern.
+
+  - id: wine-vertical-basket-press-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, equipment, pressing]
+    status: reviewed
+    source_id: c07-0088
+    review:
+      fact_check: pass
+      sources: [industry, aoc-site]
+    en:
+      question: Which mechanism identifies a traditional vertical basket press?
+      choices:
+        - { text: "A descending plate compresses fruit in a fixed basket while juice escapes through openings", correct: true }
+        - { text: "A lateral membrane inflates inside a closed cylinder and presses fruit against internal drains", correct: false }
+        - { text: "Two plates travel along a horizontal screw while a rotating cage breaks up the press cake", correct: false }
+        - { text: "A continuous auger drives marc toward an adjustable outlet while liquid drains through a screen", correct: false }
+      explanation: |
+        The basket supports the grapes while a screw-, lever- or
+        hydraulically driven plate applies force from above. The open or
+        slotted sides provide a path for the liquid. Traditional vertical
+        presses remain in use, including a minority of the press fleet in
+        Champagne, alongside modern horizontal designs.
+
+  - id: wine-pneumatic-membrane-press-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, equipment, pressing]
+    status: reviewed
+    source_id: c07-0090
+    review:
+      fact_check: pass
+      sources: [industry, awri]
+    en:
+      question: A horizontal press uses compressed air and a programmable pressure cycle. Which component normally transmits force to the grapes?
+      choices:
+        - { text: "An inflatable membrane that pushes the load against drainage surfaces", correct: true }
+        - { text: "A descending platen that compresses the load inside a fixed open basket", correct: false }
+        - { text: "Opposing rigid plates that travel toward each other along a central screw", correct: false }
+        - { text: "A continuous auger that forces the load against a restricted discharge cone", correct: false }
+      explanation: |
+        Air pressure expands the flexible membrane, compressing the load
+        against perforated surfaces or internal drains so liquid can escape.
+        Programmed steps allow gradual pressure increases; rotating the drum
+        between cycles can loosen and redistribute the press cake.
