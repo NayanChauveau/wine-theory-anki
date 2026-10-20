@@ -2127,3 +2127,100 @@ cards:
         protection rather than a reliable stand-alone kill step. Fortification
         can instead arrest a ferment by raising alcohol, but that produces a
         fortified style and is subject to its own rules.
+
+  - id: wine-yeast-strategy-tradeoff-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, fermentation, yeast, inoculation]
+    status: reviewed
+    source_id: c07-0123
+    review:
+      fact_check: pass
+      sources: [awri, extension]
+    en:
+      question: Which statement best compares an uninoculated alcoholic fermentation with one started by a selected yeast culture?
+      choices:
+        - { text: "Uninoculated ferments have a less predictable succession; selected starters improve control but can still shape aroma", correct: true }
+        - { text: "Uninoculated ferments start more diversely, so they reliably give greater complexity and equal completion security", correct: false }
+        - { text: "Selected starters improve completion by removing resident yeasts before the inoculated strain begins fermenting", correct: false }
+        - { text: "Selected starters standardise the inoculum, so strain choice has little effect on flavour or fermentation behaviour", correct: false }
+      explanation: |
+        An uninoculated must can begin with several resident non-*Saccharomyces*
+        and *Saccharomyces* strains, then change population as fermentation
+        progresses. This may produce a distinctive result, but complexity is not
+        guaranteed and the unknown succession can increase variation or the risk
+        of volatile acidity, ethyl acetate and sluggish completion. A selected
+        starter gives a known initial population and more control, while strain
+        choice can still influence kinetics and sensory profile.
+
+  - id: wine-selected-mixed-yeast-strategy-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, fermentation, yeast, inoculation]
+    status: reviewed
+    source_id: c07-0126
+    review:
+      fact_check: pass
+      sources: [extension, awri]
+    en:
+      question: A producer wants a controlled inoculation and a planned contribution from non-Saccharomyces yeast. Which approach is technically coherent?
+      choices:
+        - { text: "Use compatible selected non-Saccharomyces and S. cerevisiae cultures together or sequentially, then monitor completion", correct: true }
+        - { text: "Inoculate selected non-Saccharomyces alone, then wait for a spontaneous S. cerevisiae population if it slows", correct: false }
+        - { text: "Establish S. cerevisiae dominance first, then add selected non-Saccharomyces near dryness for its main contribution", correct: false }
+        - { text: "Co-inoculate selected strains at equal counts, without testing compatibility or matching their nutrient demands", correct: false }
+      explanation: |
+        Commercial wine cultures are not limited to a single
+        *S. cerevisiae* strain. Selected non-*Saccharomyces* yeasts may be
+        co-inoculated with *S. cerevisiae* or added first in a planned sequence,
+        allowing a producer to seek a sensory contribution while retaining a
+        route to reliable completion. Compatibility, nutrient use and timing
+        matter because strains can inhibit or outcompete one another.
+
+  - id: wine-cool-fermentation-aroma-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, fermentation, temperature, aroma]
+    status: reviewed
+    source_id: c07-0129
+    review:
+      fact_check: pass
+      sources: [university, awri]
+    en:
+      question: A producer wants to retain volatile fruit and floral aromas in an aromatic white without creating a sluggish ferment. Which temperature plan best fits?
+      choices:
+        - { text: "Ferment cool within the selected yeast's working range, monitor the rate and adjust if activity slows", correct: true }
+        - { text: "Hold near the lowest temperature the tank can reach, regardless of the selected yeast's performance", correct: false }
+        - { text: "Ferment warm for maximum speed, relying on a closed tank to retain the volatile compounds", correct: false }
+        - { text: "Let the temperature rise with fermentation, then cool only after sugar depletion is complete", correct: false }
+      explanation: |
+        Cooler fermentation slows yeast metabolism and reduces the loss of some
+        volatile compounds, which can help preserve an aromatic white's fresh
+        fruit and floral character. The target must still suit the yeast strain
+        and the must: excessive cooling can delay the start or produce a sluggish
+        ferment. Temperature is therefore monitored as both a style lever and a
+        control on fermentation health and rate.
+
+  - id: wine-warm-red-fermentation-extraction-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, fermentation, temperature, extraction, red-wine]
+    status: reviewed
+    source_id: c07-0130
+    review:
+      fact_check: pass
+      sources: [awri, university]
+    en:
+      question: Two red musts have the same fruit and skin-contact time. Within safe yeast limits, what is the most defensible expectation from the warmer ferment?
+      choices:
+        - { text: "Quicker extraction of some colour and tannin, with greater risk of rapid fermentation and volatile loss", correct: true }
+        - { text: "Higher final concentration of all skin phenolics, allowing lighter cap management without changing extraction", correct: false }
+        - { text: "Earlier colour extraction with lower volatile loss, because the shorter ferment protects aroma compounds", correct: false }
+        - { text: "Faster skin-tannin extraction but lower seed tannin, because temperature chiefly affects skin compounds", correct: false }
+      explanation: |
+        Warmer conditions can accelerate extraction and bring the colour maximum
+        forward, while also increasing fermentation rate. The response differs
+        among phenolics: faster extraction does not guarantee a higher final
+        concentration of every skin compound, and seed-derived phenolics may
+        increase. Cap management, contact time and fruit condition still matter;
+        excessive warmth also increases volatile loss and can impair yeast health.
