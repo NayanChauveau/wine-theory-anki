@@ -1774,3 +1774,118 @@ cards:
         against perforated surfaces or internal drains so liquid can escape.
         Programmed steps allow gradual pressure increases; rotating the drum
         between cycles can loosen and redistribute the press cake.
+
+  - id: wine-inert-pressing-oxygen-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, pressing, oxygen, protective-winemaking]
+    status: reviewed
+    source_id: c07-0092
+    review:
+      fact_check: pass
+      sources: [awri, industry]
+    en:
+      question: A white-wine producer wants to minimise oxygen uptake throughout a pneumatic press cycle. Which setup addresses that aim most directly?
+      choices:
+        - { text: "Purge the closed press and admit or recycle inert gas as the membrane deflates", correct: true }
+        - { text: "Close the loading door but let cellar air enter whenever the membrane deflates", correct: false }
+        - { text: "Chill the fruit and shorten the cycle while keeping the press vented to air", correct: false }
+        - { text: "Press in air and add SO₂ only after each collected fraction reaches its tank", correct: false }
+      explanation: |
+        A closed vessel makes its atmosphere controllable, but closure alone
+        does not remove oxygen. An inert cycle prevents ambient air from being
+        drawn in during membrane deflation and cake redistribution. Cool fruit,
+        rapid handling and SO₂ may add protection, but they do not by
+        themselves minimise oxygen inside the press.
+
+  - id: wine-grape-must-definition-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, must, terminology]
+    status: reviewed
+    source_id: c07-0097
+    review:
+      fact_check: pass
+      sources: [oiv]
+    en:
+      question: Which material is grape must in precise winemaking terminology?
+      choices:
+        - { text: "Liquid obtained from fresh grapes spontaneously or by crushing, draining or pressing", correct: true }
+        - { text: "Young wine that has completed alcoholic fermentation but not malolactic conversion", correct: false }
+        - { text: "The solid skins, seeds and stems left after juice or wine has been pressed off", correct: false }
+        - { text: "Finished wine held before bottling after fermentation and maturation are complete", correct: false }
+      explanation: |
+        Must is the liquid product of fresh grapes before it becomes wine
+        through alcoholic fermentation. It may be cloudy and contain suspended
+        solids; clarity is not part of the definition. The solid residue from
+        pressing is marc rather than must.
+
+  - id: wine-must-weight-meaning-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, must, sugar, analysis]
+    status: reviewed
+    source_id: c07-0098
+    review:
+      fact_check: pass
+      sources: [extension, oiv]
+    en:
+      question: What does a must-weight measurement most directly indicate before fermentation?
+      choices:
+        - { text: "Dissolved solids, chiefly sugar, used to estimate potential alcohol", correct: true }
+        - { text: "Alcohol already present, used to calculate the wine's current strength", correct: false }
+        - { text: "Sugar certain to remain after fermentation, used to predict final sweetness", correct: false }
+        - { text: "Total grape acidity, used to predict the finished wine's exact pH", correct: false }
+      explanation: |
+        Density or refractive-index scales such as Baumé, Oechsle and Brix
+        provide related ways to assess must concentration. Because substances
+        other than sugar also contribute to the reading and fermentation yield
+        varies, potential alcohol is an estimate, not a guarantee of final
+        alcohol or residual sugar.
+
+  - id: wine-enrichment-purpose-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, must, enrichment]
+    status: reviewed
+    source_id: c07-0099
+    review:
+      fact_check: pass
+      sources: [oiv, regulation]
+    en:
+      question: Where enrichment is permitted, why might a producer add an authorised sugar source such as rectified concentrated grape must before or during fermentation?
+      choices:
+        - { text: "To raise the must's fermentable sugar and therefore its potential alcohol", correct: true }
+        - { text: "To guarantee residual sweetness while leaving potential alcohol unchanged", correct: false }
+        - { text: "To reduce total acidity by diluting the must with a neutral syrup", correct: false }
+        - { text: "To fortify the must by adding alcohol that has already been distilled", correct: false }
+      explanation: |
+        Yeast can convert the added fermentable sugar into alcohol, so
+        enrichment is not the same operation as sweetening a finished wine.
+        Permitted products, timing and maximum increases depend on the relevant
+        jurisdiction and appellation; rectified concentrated grape must is one
+        possible authorised material, not a universal requirement.
+
+  - id: wine-rcgm-definition-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, must, enrichment, rcgm]
+    status: reviewed
+    source_id: c07-0100
+    review:
+      fact_check: pass
+      sources: [oiv, regulation]
+    en:
+      question: Which description best identifies rectified concentrated grape must (RCGM)?
+      choices:
+        - { text: "Grape-must concentrate purified of much non-sugar material to supply grape-derived sugar", correct: true }
+        - { text: "Ordinary concentrated must retaining its broader acid, mineral and flavour composition", correct: false }
+        - { text: "Fresh unfermented must reserved for later sweetening without concentration or rectification", correct: false }
+        - { text: "Neutral grape spirit distilled to high strength and intended for fortification", correct: false }
+      explanation: |
+        Rectification includes deacidification and removal of constituents
+        other than sugar, producing a highly concentrated grape-derived sugar
+        ingredient with limited non-sugar character. It may be used for
+        enrichment where authorised. Formal specifications allow liquid and,
+        in some regulations, crystallised forms, so colourless and odourless
+        are not safe universal definitions.
