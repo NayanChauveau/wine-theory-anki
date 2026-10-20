@@ -17,9 +17,9 @@ or rejected.
 
 | Measure | Complete | Remaining | Progress |
 | --- | ---: | ---: | ---: |
-| Legacy source notes resolved | 2,503 / 4,075 | 1,572 | 61.4% |
-| Cards with French | 2,061 / 2,480 | 419 | 83.1% |
-| Release-eligible cards with French | 2,061 / 2,477 | 416 | 83.2% |
+| Legacy source notes resolved | 2,513 / 4,075 | 1,562 | 61.7% |
+| Cards with French | 2,061 / 2,486 | 425 | 82.9% |
+| Release-eligible cards with French | 2,061 / 2,483 | 422 | 83.0% |
 | Draft cards | — | 3 | — |
 
 To obtain the live migration count, run:
@@ -81,9 +81,9 @@ starting or completing its French pass.
 | --- | ---: | ---: |
 | The Vine | 0 | 102 |
 | Vineyard Management | 0 | 101 |
-| Winemaking and Maturation | 93 | 102 |
+| Winemaking and Maturation | 83 | 108 |
 | California | 62 | 114 |
-| **Subtotal** | **155** | **419** |
+| **Subtotal** | **145** | **425** |
 
 - [x] Resolve all 102 source notes and complete the adversarial English pass for The Vine.
 - [x] Resolve all 185 source notes for Vineyard Management in independently reviewed lots.
