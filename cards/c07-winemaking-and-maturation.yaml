@@ -2224,3 +2224,147 @@ cards:
         concentration of every skin compound, and seed-derived phenolics may
         increase. Cap management, contact time and fruit condition still matter;
         excessive warmth also increases volatile loss and can impair yeast health.
+
+  - id: wine-mlf-timing-options-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, malolactic-fermentation, timing]
+    status: reviewed
+    source_id: c07-0134
+    review:
+      fact_check: pass
+      sources: [awri, extension]
+    en:
+      question: A producer wants to shorten the vulnerable interval between alcoholic fermentation and MLF in a suitable wine. Which timing plan best fits?
+      choices:
+        - { text: "Co-inoculate compatible lactic acid bacteria during alcoholic fermentation and monitor both fermentations", correct: true }
+        - { text: "Wait for spontaneous MLF after alcoholic fermentation while holding the wine cool and without protective SO₂", correct: false }
+        - { text: "Add the bacterial starter after alcoholic fermentation together with the wine's full protective SO₂ dose", correct: false }
+        - { text: "Delay the bacterial starter until maturation, regardless of malic acid, wine pH or microbial condition", correct: false }
+      explanation: |
+        Sequential MLF after alcoholic fermentation remains common, but it is
+        not the only valid schedule. In a suitable wine, co-inoculating a
+        compatible bacterial culture during alcoholic fermentation can shorten
+        the unsulphited interval and improve the chance of timely completion.
+        Yeast–bacteria compatibility, wine composition and monitoring still
+        determine whether co-inoculation or a sequential approach is preferable.
+
+  - id: wine-mlf-organism-reaction-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, malolactic-fermentation, bacteria, acid]
+    status: reviewed
+    source_id: c07-0135
+    review:
+      fact_check: pass
+      sources: [extension]
+    en:
+      question: Which organism and reaction specifically identify malolactic fermentation?
+      choices:
+        - { text: "Lactic acid bacteria convert malic acid into lactic acid and carbon dioxide", correct: true }
+        - { text: "Wine yeast convert grape sugar into ethanol and carbon dioxide", correct: false }
+        - { text: "Acetic acid bacteria oxidise ethanol into acetic acid", correct: false }
+        - { text: "Lactic acid bacteria convert tartaric acid into malic acid and oxygen", correct: false }
+      explanation: |
+        MLF is a bacterial conversion of malic acid to lactic acid, releasing
+        CO₂. *Oenococcus oeni* is the most commonly used species, although other
+        lactic acid bacteria can perform the reaction. Sugar-to-ethanol is
+        alcoholic fermentation, while ethanol-to-acetic acid is spoilage by
+        acetic acid bacteria rather than MLF.
+
+  - id: wine-mlf-acidity-diacetyl-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, malolactic-fermentation, acid, diacetyl]
+    status: reviewed
+    source_id: c07-0137
+    review:
+      fact_check: pass
+      sources: [extension, awri]
+    en:
+      question: A Chardonnay completes malolactic fermentation. Which sensory and chemical outcome is most accurate?
+      choices:
+        - { text: "Malic acid falls and acidity softens; buttery diacetyl may develop but is not guaranteed", correct: true }
+        - { text: "Malic acid falls and acidity softens; buttery diacetyl must appear at a fixed intensity", correct: false }
+        - { text: "Tartaric acid falls and pH falls; any buttery aroma can come only from toasted oak", correct: false }
+        - { text: "Malic acid rises and acidity sharpens; bacterial activity removes diacetyl from every wine", correct: false }
+      explanation: |
+        Replacing sharper malic acid with softer lactic acid generally lowers
+        titratable acidity and raises pH slightly. Lactic acid bacteria can also
+        form diacetyl from citric acid, giving buttery notes, but the amount
+        retained depends on factors including bacterial strain, inoculation
+        timing, temperature and subsequent lees or SO₂ management. Butter is a
+        possible style effect, not proof that every MLF tastes the same.
+
+  - id: wine-mlf-encouragement-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, malolactic-fermentation, bacteria, control]
+    status: reviewed
+    source_id: c07-0138
+    review:
+      fact_check: pass
+      sources: [extension, awri, oiv]
+    en:
+      question: A sound dry wine is suitable for MLF, and the producer wants timely completion. Which management plan is most defensible?
+      choices:
+        - { text: "Use a compatible bacterial starter, suitable temperature and nutrients, avoid inhibitory SO₂, and monitor malic acid", correct: true }
+        - { text: "Rely on spontaneous bacteria at cool storage temperature, add protective SO₂, and monitor only the aroma", correct: false }
+        - { text: "Inoculate bacteria, keep the former yeast temperature target, and ignore pH and SO₂ after addition", correct: false }
+        - { text: "Warm the wine and add general yeast nutrient, using carbon dioxide release alone to confirm completion", correct: false }
+      explanation: |
+        Successful MLF depends on the bacterial strain and on the wine's pH,
+        temperature, ethanol, nutrient status and SO₂. A compatible acclimatised
+        starter improves control, while excessive SO₂ or unsuitable temperature
+        can inhibit the bacteria. The aim is not simply “no SO₂”: the producer
+        manages a vulnerable wine and confirms completion by measuring malic
+        acid rather than relying on bubbles or aroma.
+
+  - id: wine-mlf-prevention-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, malolactic-fermentation, bacteria, stability]
+    status: reviewed
+    source_id: c07-0139
+    review:
+      fact_check: pass
+      sources: [awri, extension]
+    en:
+      question: A producer wants a crisp white wine to avoid MLF through bottling. Which control plan is most robust?
+      choices:
+        - { text: "Cool promptly, manage free SO₂ for pH, maintain hygiene, and membrane-filter viable bacteria when needed", correct: true }
+        - { text: "Rack from gross lees and hold cool, then assume visual clarity proves that no bacteria remain", correct: false }
+        - { text: "Add the same total SO₂ dose to every lot, without measuring pH or the resulting free SO₂", correct: false }
+        - { text: "Polish-filter until the wine looks bright, then assume the filtration grade removed all lactic acid bacteria", correct: false }
+      explanation: |
+        Low temperature slows lactic acid bacteria, while effective molecular
+        SO₂ depends strongly on pH and the achieved free SO₂ rather than one
+        universal addition. Sound hygiene limits recontamination. Where analysis
+        finds viable bacteria or the packaged wine is otherwise at risk, an
+        appropriate membrane filtration and hygienic bottling provide physical
+        control; ordinary racking or visual brightness alone do not prove
+        microbial stability.
+
+  - id: wine-post-fermentation-settling-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, clarification, lees, racking]
+    status: reviewed
+    source_id: c07-0140
+    review:
+      fact_check: pass
+      sources: [awri]
+    en:
+      question: A newly fermented wine is turbid with yeast cells and grape solids. Which response best reflects normal cellar practice?
+      choices:
+        - { text: "Allow suitable clarification, rack from heavy gross lees, then assess whether further clarification is needed", correct: true }
+        - { text: "Wait a standard few hours, then rack because post-fermentation particles settle equally in every wine", correct: false }
+        - { text: "Stir all sediment back because newly fermented turbidity consists only of beneficial fine lees", correct: false }
+        - { text: "Sterile-filter immediately because static settling cannot remove yeast cells or grape fragments", correct: false }
+      explanation: |
+        Fermentation lees can contain yeast cells, bacteria, tartrate salts,
+        phenolic material and remnant grape solids. Heavier material may settle
+        into gross lees and be removed by racking, while smaller particles settle
+        more slowly and may remain as fine lees or require further clarification.
+        The time needed depends on particle size, temperature, vessel and wine;
+        a fixed “few hours” is not a universal rule.
