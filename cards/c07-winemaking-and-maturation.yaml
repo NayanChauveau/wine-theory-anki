@@ -1889,3 +1889,118 @@ cards:
         enrichment where authorised. Formal specifications allow liquid and,
         in some regulations, crystallised forms, so colourless and odourless
         are not safe universal definitions.
+
+  - id: wine-over-enrichment-balance-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, must, enrichment, balance]
+    status: reviewed
+    source_id: c07-0103
+    review:
+      fact_check: pass
+      sources: [regulation, extension]
+    en:
+      question: A modestly flavoured must is enriched aggressively with sucrose. If the extra sugar ferments, which imbalance is most plausible?
+      choices:
+        - { text: "Alcohol rises without a matching increase in fruit, acid or phenolic concentration", correct: true }
+        - { text: "Fruit, acid and phenolics concentrate in step with alcohol because sucrose removes water", correct: false }
+        - { text: "Fermentation-derived aromas reliably increase enough to balance the additional alcohol", correct: false }
+        - { text: "Residual sugar necessarily remains high enough to mask the additional alcohol", correct: false }
+      explanation: |
+        Added sucrose supplies fermentable sugar rather than concentrating the
+        must's existing non-sugar constituents. If potential alcohol is raised
+        beyond what the fruit can support, the finished wine may seem hot,
+        dilute or structurally unbalanced. This is a risk, not an inevitable
+        outcome at every permitted enrichment level.
+
+  - id: wine-chaptalisation-definition-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, must, enrichment, chaptalisation]
+    status: reviewed
+    source_id: c07-0104
+    review:
+      fact_check: pass
+      sources: [regulation, government]
+    en:
+      question: Which operation is specifically chaptalisation where the practice is authorised?
+      choices:
+        - { text: "Adding sucrose before or during fermentation to raise potential alcohol", correct: true }
+        - { text: "Adding rectified concentrated grape must to raise potential alcohol", correct: false }
+        - { text: "Removing water from must by reverse osmosis to concentrate its sugars", correct: false }
+        - { text: "Adding grape spirit to arrest fermentation and retain residual sugar", correct: false }
+      explanation: |
+        Chaptalisation is enrichment by added sucrose, normally intended to be
+        fermented rather than retained as sweetness. RCGM addition and must
+        concentration can also enrich a must, but they are distinct methods;
+        adding spirit is fortification. Permission and limits vary by place
+        and wine category.
+
+  - id: wine-must-water-removal-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, must, enrichment, concentration]
+    status: reviewed
+    source_id: c07-0105
+    review:
+      fact_check: pass
+      sources: [oiv, regulation]
+    en:
+      question: Which outcome should a producer expect when must is enriched by partial water removal?
+      choices:
+        - { text: "Lower volume and greater concentration of sugar and other retained constituents", correct: true }
+        - { text: "Lower volume and selective sugar concentration, with acids and phenolics unchanged", correct: false }
+        - { text: "Lower volume and selective acid concentration, with fermentable sugar unchanged", correct: false }
+        - { text: "Lower volume and an immediate rise in actual alcohol before fermentation begins", correct: false }
+      explanation: |
+        Techniques such as reverse osmosis can remove part of the water and
+        thereby raise sugar concentration and potential alcohol. They also
+        reduce saleable volume and concentrate other retained components,
+        desirable or otherwise. This is itself an enrichment method where
+        authorised, not an alternative outside the concept of enrichment.
+
+  - id: wine-dealcoholisation-techniques-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, alcohol, dealcoholisation]
+    status: reviewed
+    source_id: c07-0108
+    review:
+      fact_check: pass
+      sources: [oiv, regulation]
+    en:
+      question: Which family of treatments can directly reduce ethanol in a finished wine?
+      choices:
+        - { text: "Membrane separation, partial vacuum evaporation or distillation", correct: true }
+        - { text: "Cold stabilisation, centrifugation or sterile filtration", correct: false }
+        - { text: "Tartaric acid addition, ion exchange or malolactic conversion", correct: false }
+        - { text: "Protein fining, lees racking or tartrate crystallisation", correct: false }
+      explanation: |
+        Dealcoholisation separates ethanol from wine; depending on the process,
+        a treated portion may be recombined with untreated wine to reach the
+        target. Technique approval, permitted reduction and the product name
+        depend on the applicable rules, and skilled operation is needed to
+        limit loss of aroma or other sensory changes.
+
+  - id: wine-chemical-acidification-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, acid, adjustment]
+    status: reviewed
+    source_id: c07-0109
+    review:
+      fact_check: pass
+      sources: [oiv, regulation]
+    en:
+      question: A must has insufficient acidity for the intended wine. Which chemical-acidification plan is most defensible?
+      choices:
+        - { text: "Trial an authorised organic acid, often tartaric, while monitoring pH, acidity and taste", correct: true }
+        - { text: "Use one standard tartaric dose because every must and jurisdiction responds in the same way", correct: false }
+        - { text: "Choose the acid and dose from a pH target alone, without checking buffering or taste", correct: false }
+        - { text: "Induce malolactic conversion first because it reliably raises titratable acidity and lowers pH", correct: false }
+      explanation: |
+        Chemical acidification raises titratable acidity and normally lowers
+        pH. Tartaric acid is common, but OIV practice also recognises specified
+        organic acids for particular products; local law and appellation rules
+        may be narrower. Bench trials matter because identical additions can
+        produce different pH and sensory responses in different musts.
