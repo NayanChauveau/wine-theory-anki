@@ -1506,3 +1506,138 @@ cards:
         storage, but ullage, transfers and poor sealing can still admit air.
         Epoxy-lined concrete can also behave as an inert container; unlined
         concrete should not automatically be treated as airtight and inert.
+
+  - id: wine-stainless-vessel-advantages-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, vessels, stainless-steel]
+    status: reviewed
+    source_id: c07-0072
+    review:
+      fact_check: pass
+      sources: [extension, research]
+    en:
+      question: Which material profile best explains the widespread use of stainless-steel winery vessels?
+      choices:
+        - { text: "Smooth and non-porous, readily fabricated in many sizes, and easy to equip for temperature control", correct: true }
+        - { text: "Thermally massive and slightly porous, usually cast in place, and difficult to relocate", correct: false }
+        - { text: "Flavour-active and oxygen-permeable, limited to coopered shapes, and difficult to sanitise", correct: false }
+        - { text: "Aroma-neutral and transparent, but fragile and impractical for most large winery tanks", correct: false }
+      explanation: |
+        Stainless steel combines a cleanable, durable contact surface with
+        flexible fabrication and straightforward installation of jackets,
+        sensors and automated controls. It is not maintenance-free, but its
+        sanitary design is easier to inspect than a porous vessel surface.
+
+  - id: wine-tank-temperature-control-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, vessels, temperature]
+    status: reviewed
+    source_id: c07-0073
+    review:
+      fact_check: pass
+      sources: [extension, awri]
+    en:
+      question: A winery wants built-in temperature control while the wine remains in the tank and coolant stays separate. Which specification best fits?
+      choices:
+        - { text: "A sealed external jacket or internal coil carrying a separate heat-transfer fluid", correct: true }
+        - { text: "A sanitary loop that pumps wine through an external plate heat exchanger", correct: false }
+        - { text: "Refrigerated cellar air circulated around insulated, unjacketed tanks", correct: false }
+        - { text: "Chilled water sprayed over an unjacketed tank and collected below", correct: false }
+      explanation: |
+        Fluid circulating through a jacket or sealed coil exchanges heat
+        across a tank surface and never enters the wine. An external heat
+        exchanger instead moves the wine, while room cooling or an external
+        water spray is less direct than an integrated jacket or coil.
+
+  - id: wine-concrete-sanitation-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, vessels, concrete, hygiene]
+    status: reviewed
+    source_id: c07-0076
+    review:
+      fact_check: pass
+      sources: [research, extension]
+    en:
+      question: A cellar is comparing unlined concrete with polished stainless steel. Which sanitation assessment is most accurate?
+      choices:
+        - { text: "Unlined concrete needs careful sanitation; a sound food-grade lining can make its contact surface less porous", correct: true }
+        - { text: "Unlined concrete is easier to sanitise because its pores prevent wine residues from attaching", correct: false }
+        - { text: "An epoxy lining removes the need for inspection because its surface cannot wear or crack", correct: false }
+        - { text: "Stainless steel needs more maintenance because routine cleaning removes its protective passive layer", correct: false }
+      explanation: |
+        Pores and a rougher surface can retain tartrate and microorganisms,
+        making unlined concrete harder to clean consistently than polished
+        steel. A suitable lining creates a smoother barrier, but its condition
+        must still be inspected and maintained.
+
+  - id: wine-concrete-thermal-inertia-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, vessels, concrete, temperature]
+    status: reviewed
+    source_id: c07-0077
+    review:
+      fact_check: pass
+      sources: [research]
+    en:
+      question: Which claim about the thermal inertia of a thick concrete wine tank is most accurate?
+      choices:
+        - { text: "It buffers rapid temperature swings, but precise targets may still require active heating or cooling", correct: true }
+        - { text: "It buffers temperature change and therefore replaces active cooling whenever fermentation produces heat", correct: false }
+        - { text: "It speeds temperature change, reducing the energy needed to cool a rapidly warming fermentation", correct: false }
+        - { text: "It has little effect on thermal stability because only the volume of wine controls temperature change", correct: false }
+      explanation: |
+        Concrete's mass and low thermal conductivity slow the rate at which
+        the wine heats or cools. They do not create refrigeration or remove
+        the heat generated by fermentation, so monitoring and active control
+        can still be necessary.
+
+  - id: wine-so2-first-addition-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, so2, grape-reception]
+    status: reviewed
+    source_id: c07-0079
+    review:
+      fact_check: pass
+      sources: [awri, extension]
+    en:
+      question: Which policy is most defensible for planning a wine's first SO₂ addition after harvest?
+      choices:
+        - { text: "Assess fruit condition, transport, pH and style, then choose the timing and dose for that lot", correct: true }
+        - { text: "Use a house dose at crushing, raising it for visibly damaged fruit and otherwise leaving it unchanged", correct: false }
+        - { text: "Let journey time set the timing: treat fruit in bins after long transport and at crushing after short transport", correct: false }
+        - { text: "Let colour set the timing: protect white grapes in the bins and routinely defer red grapes until after maceration", correct: false }
+      explanation: |
+        SO₂ is often added in picking bins, during transport or at crushing
+        to limit oxidation and unwanted microbes. Warm, damaged fruit or a
+        processing delay can justify stronger early protection, but fruit
+        condition, pH and the intended microbial and stylistic pathway all
+        affect the decision. No single proxy is sufficient for every lot.
+
+  - id: wine-reception-sorting-purpose-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, grape-reception, sorting]
+    status: reviewed
+    source_id: c07-0080
+    review:
+      fact_check: pass
+      sources: [extension, awri]
+    en:
+      question: A load for a sound dry wine includes underripe grapes, rot-damaged berries and leaves. How should reception sorting be used?
+      choices:
+        - { text: "Remove unsuitable fruit and relevant foreign matter before the selected grapes are processed", correct: true }
+        - { text: "Grade mainly by berry size, retaining large berries even when their ripeness or health is poor", correct: false }
+        - { text: "Remove leaves and petioles, but retain all grapes so fermentation can average their condition", correct: false }
+        - { text: "Retain the highest-sugar berries first, even when some are damaged or affected by rot", correct: false }
+      explanation: |
+        Sorting applies the producer's acceptance criteria before unsuitable
+        material is incorporated into the must. Removing insufficiently ripe
+        or deteriorated fruit can reduce unwanted flavours and microbial risk;
+        leaves, petioles and other material other than grapes may also be
+        removed where relevant. Size or sugar alone does not establish health
+        or suitability for the intended wine.
