@@ -3,9 +3,12 @@
 An open, version-controlled and bilingual **Anki deck for advanced wine study**, built
 around the knowledge expected for the WSET Level 3 Award in Wines.
 
-The cards are written independently in English and French, stored as YAML, reviewed in
-Git, and compiled into standard `.apkg` packages. You can download a ready-made deck,
-build it locally, or import and synchronize it with AnkiWeb in one command.
+**Install and keep this deck up to date with [Deck Manager](https://github.com/NayanChauveau/anki-deck-manager).**
+Choose an English or French edition, add it once, and receive update offers inside
+Anki. You do not need Python or development tools to study.
+
+**[Get Deck Manager on AnkiWeb](https://ankiweb.net/shared/info/932198090)** ·
+**[Browse deck releases](https://github.com/NayanChauveau/wine-theory-anki/releases/latest)**
 
 > **Projet francophone ?** Le paquet français, les noms de paquets et l’interface des
 > cartes sont localisés. Le code et la documentation du dépôt restent principalement en
@@ -34,28 +37,53 @@ are omitted from the French package.
 See the [project roadmap and completion checklist](ROADMAP.md) for the current migration,
 translation and quality-review status.
 
-## Use the ready-made deck
+## Install with Deck Manager — recommended
 
-The easiest option does not require Python or any development tools.
+Requires **Anki Desktop 26.09 or later**.
 
-1. Download `wset3-vin-en.apkg` or `wset3-vin-fr.apkg` from the
-   [latest GitHub release](../../releases/latest).
-2. Open Anki Desktop.
-3. Choose **File → Import**, select the downloaded package, and confirm the import.
-4. Synchronize Anki if you also study on AnkiMobile, AnkiDroid or another computer.
+1. Open [Deck Manager on AnkiWeb](https://ankiweb.net/shared/info/932198090)
+   and copy the add-on code: **`932198090`**.
+2. In Anki, choose **Tools → Add-ons → Get Add-ons**, paste the code, confirm,
+   then restart Anki. Open **Tools → Deck Manager**.
+3. Open the [latest deck release](https://github.com/NayanChauveau/wine-theory-anki/releases/latest).
+   Under **Assets**, copy the link address of your preferred package:
 
-Choose the English or French package according to the language in which you want to
-study. Importing both is supported, but creates separate English and French notes and
-deck trees.
+   | Edition | File to follow |
+   | --- | --- |
+   | English | `wset3-vin-en.apkg` |
+   | Français | `wset3-vin-fr.apkg` |
 
-### Updating an existing installation
+4. Paste that file link into Deck Manager and confirm Anki’s import dialog.
 
-Download and import the newer `.apkg` in the same way. Released card IDs are permanent,
-and the generated Anki GUIDs are deterministic. Anki can therefore update the existing
-notes while retaining review history and scheduling.
+Use a **versioned asset link** containing `/releases/download/vX.Y.Z/` and the
+filename. The release page URL and `releases/latest` links are not accepted by
+Deck Manager. No GitHub account or token is needed.
 
-As with any Anki collection change, keeping a recent backup is sensible. Anki creates
-automatic backups, which can be managed from the profile screen.
+Both editions can coexist in the same collection as separate notes and deck trees.
+After importing on your computer, sync Anki to study on your other devices.
+
+### Updates without watching GitHub
+
+Deck Manager checks for new versions at startup, at most once every 24 hours.
+Choose **Import update** or **Later** when prompted, or use **Check** in Deck Manager
+at any time. An update downloads the package and opens Anki’s usual import dialog;
+you remain in control of the import settings.
+
+Stable note identities allow Anki to update existing notes. Your import settings
+determine how those updates are applied. Cards removed from a package are not
+automatically deleted from your collection.
+
+### Manual installation
+
+If you prefer, download the `.apkg` for your language from the
+[latest release](https://github.com/NayanChauveau/wine-theory-anki/releases/latest)
+and use **File → Import** in Anki. Check for new releases and repeat the import
+when you want to update; Deck Manager handles that checking for you.
+
+## Contribute and build locally
+
+For corrections, translations and new cards, read [CONTRIBUTING.md](CONTRIBUTING.md).
+The sections below are for contributors; the installation above is enough to study.
 
 ## Build from source
 
@@ -234,19 +262,14 @@ uv run wset3-anki schema
 
 ## Releases
 
-Pull requests and pushes run the full quality gate and build both language packages in
-GitHub Actions. Every successful push to `main` updates a rolling **Latest main build**
-release and replaces its English and French `.apkg` files. This is the release targeted
-by the [latest GitHub release](../../releases/latest) download link near the top of this
-README.
+Each successful push to `main` passes the quality gate, builds both language packages
+and publishes the next stable patch release (`vX.Y.Z`). Pull requests run checks and
+build packages without publishing. This matches the current CI workflow.
 
-Pushing a `vX.Y.Z` tag creates a separate, versioned GitHub release with the same two
-packages. Versioned releases provide permanent milestones; the rolling release always
-tracks the newest successful build from `main`.
-
-Because card IDs, model IDs and deck IDs are stable, releases remain compatible with
-previous imports. Contributors must therefore never rename a released card ID merely to
-improve its wording.
+The filenames stay `wset3-vin-en.apkg` and `wset3-vin-fr.apkg`, so Deck Manager can
+follow each edition independently. Publish a new version for new content;
+replacing a file under an existing version does not trigger an update offer.
+Released card, model and deck IDs remain permanent.
 
 ## License and attribution
 
