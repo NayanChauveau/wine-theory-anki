@@ -2510,3 +2510,120 @@ cards:
         proportions and may help integration; keeping components separate
         retains more options. Bench trials and repeated tasting let the timing
         serve the intended balance and style rather than a fixed calendar rule.
+
+  - id: wine-blending-compliance-check-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, blending, regulation, labelling]
+    status: reviewed
+    source_id: c07-0153
+    review:
+      fact_check: pass
+      sources: [oiv, official-regulation]
+    en:
+      question: A proposed blend tastes sound and balanced, but the producer wants to retain a named origin, grape variety and vintage on the label. What should be confirmed before the blend is finalised?
+      choices:
+        - { text: "The finished proportions satisfy the applicable product specification and labelling rules for each claim", correct: true }
+        - { text: "Each component was legal on its own, so the combined wine automatically retains every claim", correct: false }
+        - { text: "The final alcohol and acidity are within limits, so component origin and vintage no longer matter", correct: false }
+        - { text: "The blend passes a sensory panel, so label eligibility can be decided after bottling", correct: false }
+      explanation: |
+        Blending is an accepted operation, but the finished wine must still meet
+        the rules governing its identity and claims. Depending on the jurisdiction
+        or protected-wine specification, component origin, authorised varieties,
+        vintage proportions and production conditions can change what may appear
+        on the label. Compliance therefore has to be checked against the exact
+        rules for the intended market, not inferred from taste or chemistry alone.
+
+  - id: wine-house-style-component-strategy-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, blending, house-style, consistency]
+    status: reviewed
+    source_id: c07-0156
+    review:
+      fact_check: pass
+      sources: [extension, industry]
+    en:
+      question: A producer wants a recognisable house style across variable harvest lots while preserving useful blending flexibility. Which production plan is most defensible?
+      choices:
+        - { text: "Separate components likely to differ meaningfully, document their treatment, then use trials to assemble the target profile", correct: true }
+        - { text: "Split every batch into the maximum number of lots, because more components always improve the final wine", correct: false }
+        - { text: "Coferment all fruit in fixed ratios, because one early mixture guarantees the same style each year", correct: false }
+        - { text: "Combine every lot in equal volume after fermentation, because averaging automatically restores consistency", correct: false }
+      explanation: |
+        Useful options can come from varieties, parcels, press fractions,
+        fermentation or maturation vessels, different MLF decisions and, where
+        permitted, vintages. Keeping meaningful components separate preserves
+        choices for later trials. Creating every conceivable split adds cost and
+        complexity, however, and does not by itself improve balance or consistency.
+
+  - id: wine-clarification-routes-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, clarification, sedimentation, fining, filtration]
+    status: reviewed
+    source_id: c07-0158
+    review:
+      fact_check: pass
+      sources: [oiv, awri]
+    en:
+      question: Which comparison correctly distinguishes three common wine-clarification routes?
+      choices:
+        - { text: "Sedimentation lets particles settle; fining adds a reactive agent; filtration retains particles in a filter medium", correct: true }
+        - { text: "Sedimentation adds a reactive agent; fining passes wine through a membrane; filtration relies on gravity alone", correct: false }
+        - { text: "Sedimentation removes microorganisms selectively; fining relies on gravity alone; filtration adds an adsorptive agent", correct: false }
+        - { text: "Sedimentation passes wine through a filter bed; fining removes only tartrates; filtration stirs deposits into suspension", correct: false }
+      explanation: |
+        Natural or assisted settling concentrates suspended material into a
+        deposit that can be left behind during racking. Fining adds a substance
+        that adsorbs, reacts with or helps precipitate selected components.
+        Filtration physically passes wine through a medium that retains particles;
+        sufficiently tight, validated filtration can also remove microorganisms.
+
+  - id: wine-clarification-proportional-treatment-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, clarification, stability, fining, filtration]
+    status: reviewed
+    source_id: c07-0159
+    review:
+      fact_check: pass
+      sources: [awri, oiv, extension]
+    en:
+      question: A sound wine is slightly hazy before bottling, and the producer wants stability without unnecessary loss of texture or aroma. Which plan is most defensible?
+      choices:
+        - { text: "Identify the instability, run controlled treatment trials, and use the least intervention that meets the packaging risk", correct: true }
+        - { text: "Apply sedimentation, fining and tight filtration in sequence, then assess whether the intended style remains", correct: false }
+        - { text: "Avoid fining and filtration whenever aroma is attractive, then rely on SO₂ to prevent every future instability", correct: false }
+        - { text: "Choose treatment from visual brightness alone, then assume a clear wine is chemically and microbiologically stable", correct: false }
+      explanation: |
+        Visual haze can come from particles, colloids, crystals or microbes, and
+        those causes do not require the same treatment. Fining can remove positive
+        flavour or structural material if poorly chosen or overdosed, while modern
+        commercial filtration does not show a uniform sensory penalty in every
+        wine. Trials and stability tests allow a targeted treatment; neither a
+        compulsory full sequence nor an ideological refusal manages every risk.
+
+  - id: wine-racking-definition-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, racking, clarification, lees]
+    status: reviewed
+    source_id: c07-0160
+    review:
+      fact_check: pass
+      sources: [oiv, awri]
+    en:
+      question: Which cellar operation is specifically racking?
+      choices:
+        - { text: "Transfer wine to another vessel after solids settle, leaving the deposit behind", correct: true }
+        - { text: "Pass wine through a membrane that retains suspended particles or microorganisms", correct: false }
+        - { text: "Add a fining agent that binds or precipitates unwanted wine components", correct: false }
+        - { text: "Resuspend fine lees by stirring them through the wine during maturation", correct: false }
+      explanation: |
+        Racking separates liquid from settled lees or another deposit by moving
+        the wine into a clean vessel. The transfer may be protected from air or
+        deliberately aerative when a specific objective, such as removing
+        hydrogen sulfide, justifies it. Racking improves clarity but does not by
+        itself prove microbial, protein or tartrate stability.
