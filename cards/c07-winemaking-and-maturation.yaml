@@ -2700,3 +2700,122 @@ cards:
         establish whether the filter performed as intended. Hygienic equipment
         downstream and prompt packaging then limit recontamination; visual
         clarity alone cannot demonstrate microbial stability.
+
+  - id: wine-stability-shelf-life-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, stability, shelf-life, quality-control]
+    status: reviewed
+    source_id: c07-0181
+    review:
+      fact_check: pass
+      sources: [awri, oiv]
+    en:
+      question: A winery is setting release criteria for a young dry white and a sweet wine intended for longer ageing. Which approach defines stability most defensibly?
+      choices:
+        - { text: "Set style-specific physical, chemical and microbiological limits that each wine should meet throughout its intended shelf life and storage", correct: true }
+        - { text: "Accept any change that occurs predictably, even when the wine leaves its intended style before the end of its shelf life", correct: false }
+        - { text: "Require both wines to remain analytically unchanged for the same fixed period, regardless of their style or expected storage", correct: false }
+        - { text: "Judge both wines only by brightness at bottling, because later deposits, oxidation and microbial growth are separate from stability", correct: false }
+      explanation: |
+        Stability is fitness for the intended product life, not complete absence
+        of change. A producer sets acceptable outcomes for the wine's style,
+        packaging, expected storage and shelf life. Relevant risks can include
+        physical deposits or hazes, chemical change such as oxidation, and
+        microbial refermentation or spoilage. Fining is only one targeted tool;
+        it does not provide a universal guarantee against all three categories.
+
+  - id: wine-tartrate-crystal-significance-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, stability, tartrate, bottle-deposit]
+    status: reviewed
+    source_id: c07-0186
+    review:
+      fact_check: pass
+      sources: [awri]
+    en:
+      question: A sound dry white was clear at bottling but develops hard, glass-like crystals after refrigeration. What is the most defensible initial interpretation?
+      choices:
+        - { text: "Suspect a tartrate deposit: it is harmless to wine quality but can be a cosmetic and consumer-acceptance problem", correct: true }
+        - { text: "Diagnose active yeast refermentation: crystalline sediment alone proves that viable yeast have consumed residual sugar", correct: false }
+        - { text: "Diagnose protein instability: chilled proteins characteristically form hard crystals rather than a haze or amorphous deposit", correct: false }
+        - { text: "Identify it specifically as potassium bitartrate from appearance alone, because calcium tartrate cannot produce a similar crystalline deposit", correct: false }
+      explanation: |
+        Potassium hydrogen tartrate is the most common crystalline deposit in
+        bottled wine; calcium tartrate can also occur. These salts do not harm
+        flavour or make the wine unsafe, but consumers may mistake the crystals
+        for glass or another fault. Their appearance can vary, and red-wine
+        pigments may stain them, so colour is not the defining diagnosis.
+
+  - id: wine-kht-cat-cold-test-limits-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, stability, tartrate, cold-stability]
+    status: reviewed
+    source_id: c07-0184
+    review:
+      fact_check: pass
+      sources: [awri]
+    en:
+      question: A cellar proposes using one low-temperature test to assess the risk of both potassium bitartrate and calcium tartrate deposits. Which advice is most accurate?
+      choices:
+        - { text: "Use it mainly for potassium bitartrate; cooling strongly promotes KHT precipitation, while calcium tartrate is less temperature-dependent", correct: true }
+        - { text: "Use it mainly for calcium tartrate; cooling strongly promotes CaT precipitation, while potassium bitartrate is temperature-independent", correct: false }
+        - { text: "Use it equally for both salts; potassium and calcium tartrates have the same response to temperature and wine composition", correct: false }
+        - { text: "Use a prolonged cold test for both salts; calcium tartrate will eventually precipitate if the chilled sample is held long enough", correct: false }
+      explanation: |
+        Potassium and tartaric acid occur naturally in grapes. Potassium hydrogen
+        tartrate is less soluble in the hydroalcoholic wine than in juice, and
+        its solubility falls further as temperature drops. Calcium tartrate can
+        precipitate more slowly and is much less governed by temperature, so a
+        KHT cold-stability result does not establish calcium stability. Wine pH,
+        ion concentrations and crystallisation inhibitors also affect the risk.
+
+  - id: wine-kht-cold-stabilisation-workflow-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, stability, tartrate, cold-stabilisation]
+    status: reviewed
+    source_id: c07-0188
+    review:
+      fact_check: pass
+      sources: [awri, oiv]
+    en:
+      question: A finished blend fails its potassium bitartrate stability test. Which cellar plan best reduces the risk of visible crystals after bottling?
+      choices:
+        - { text: "Chill or contact-seed under a validated regime, rack or filter while cold, then retest the final wine", correct: true }
+        - { text: "Chill or contact-seed under a validated regime, warm the wine before racking, then retest the final wine", correct: false }
+        - { text: "Chill or contact-seed under a validated regime, rack while cold, then make final acid adjustments without retesting", correct: false }
+        - { text: "Chill or contact-seed under a validated regime, rack while cold, then treat the KHT result as proof of calcium stability", correct: false }
+      explanation: |
+        Cooling promotes KHT crystallisation; adding KHT seed crystals can make
+        the process faster. The appropriate temperature and contact time depend
+        on the wine and the validated process rather than one universal below-
+        zero recipe. Precipitated crystals are physically separated while the
+        wine is still cold, because warming can redissolve some KHT. Blending or
+        later additions can change stability, so the final wine is checked again.
+
+  - id: wine-useful-microbes-packaging-risk-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, microbiology, fermentation, packaging]
+    status: reviewed
+    source_id: c07-0190
+    review:
+      fact_check: pass
+      sources: [awri]
+    en:
+      question: Which statement best distinguishes useful winery microorganisms from microbiological instability in packaged wine?
+      choices:
+        - { text: "Selected yeast or bacteria can perform desired fermentations; unwanted viable populations after packaging can cause refermentation or spoilage", correct: true }
+        - { text: "Selected yeast can perform alcoholic fermentation, whereas lactic acid bacteria should be removed even when a controlled MLF is planned", correct: false }
+        - { text: "Selected yeast or bacteria can perform desired fermentations; completing those fermentations is sufficient microbial control for subsequent packaging", correct: false }
+        - { text: "Selected yeast or bacteria can perform desired fermentations; visual clarity at packaging is sufficient evidence against later refermentation or spoilage", correct: false }
+      explanation: |
+        Microbial value depends on organism, timing, wine composition and the
+        intended process. Selected yeasts conduct alcoholic fermentation and
+        selected lactic acid bacteria can conduct MLF. The same broad groups can
+        become unwanted later: viable yeast may referment residual sugar, while
+        yeast or bacteria can create haze, gas, deposits or off-flavours in
+        packaged wine. Clarity alone neither detects nor identifies viable cells.
