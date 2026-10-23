@@ -2819,3 +2819,102 @@ cards:
         become unwanted later: viable yeast may referment residual sugar, while
         yeast or bacteria can create haze, gas, deposits or off-flavours in
         packaged wine. Clarity alone neither detects nor identifies viable cells.
+
+  - id: wine-equipment-clean-sanitise-sequence-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, hygiene, cleaning, sanitation, microbiology]
+    status: reviewed
+    source_id: c07-0191
+    review:
+      fact_check: pass
+      sources: [awri]
+    en:
+      question: Wine spoilage organisms are recovered from a transfer line that contains dried wine residue. Which preparation is most robust before the line returns to service?
+      choices:
+        - { text: "Remove the residue by cleaning, rinse as required, then apply a compatible sanitiser at its validated concentration and contact time", correct: true }
+        - { text: "Apply sanitiser directly to the soiled line, rinse it, then store it without a separate cleaning step", correct: false }
+        - { text: "Clean the line until visually bright, rinse it, then return it to service without a sanitation step", correct: false }
+        - { text: "Clean and sanitise the accessible hose ends, then leave the valves and filler seals assembled and untreated", correct: false }
+      explanation: |
+        Cleaning removes organic soil, tartrate and biofilm that can shelter or
+        feed microorganisms and prevent a sanitiser reaching the surface.
+        Sanitation then reduces the viable population; concentration, contact
+        time, temperature and surface compatibility matter. Complete
+        sterilisation is a stricter outcome and is not the name for every routine
+        winery hygiene operation. Hard-to-clean valves, seals and dead legs must
+        be included because they can recontaminate otherwise sound wine.
+
+  - id: wine-microbial-risk-profile-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, microbiology, stability, packaging]
+    status: reviewed
+    source_id: c07-0194
+    review:
+      fact_check: pass
+      sources: [awri]
+    en:
+      question: Four sound wines will be packaged with otherwise comparable controls. Which profile calls for the most conservative microbiological plan?
+      choices:
+        - { text: "Low alcohol, high pH, residual fermentable sugar and measurable malic acid", correct: true }
+        - { text: "Low alcohol, low pH, analytically dry and with MLF completed", correct: false }
+        - { text: "High alcohol, high pH, analytically dry and with MLF completed", correct: false }
+        - { text: "High alcohol, low pH, residual fermentable sugar and measurable malic acid", correct: false }
+      explanation: |
+        The key risk factors can reinforce one another. Residual glucose and
+        fructose can support yeast refermentation, while malic acid can support
+        unwanted bacterial activity. Higher pH favours several spoilage microbes
+        and reduces the antimicrobial effectiveness of a given free-SO₂ level;
+        lower alcohol removes another hurdle. High alcohol suppresses many
+        organisms but does not make every fortified wine sterile, so the actual
+        wine and intended shelf life still need assessment and control.
+
+  - id: wine-bottling-headspace-oxygen-control-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, bottling, oxygen, inert-gas, packaging]
+    status: reviewed
+    source_id: c07-0197
+    review:
+      fact_check: pass
+      sources: [awri, oiv]
+    en:
+      question: A bottling tank has low dissolved oxygen, but packaged samples show high total package oxygen driven mainly by bottle headspace. Which adjustment targets that result most directly?
+      choices:
+        - { text: "Optimise inert-gas purging and headspace dosing around filling and closure, then measure headspace oxygen during the run", correct: true }
+        - { text: "Sparge the finished wine more aggressively in tank, leave the bottle gas settings unchanged, then remeasure total package oxygen", correct: false }
+        - { text: "Select a lower-transmission closure, leave the bottle gas settings unchanged, then remeasure total package oxygen immediately after filling", correct: false }
+        - { text: "Raise the pre-bottling free SO₂, leave the bottle gas settings unchanged, then infer total package oxygen from later SO₂ loss", correct: false }
+      explanation: |
+        Total package oxygen combines oxygen dissolved in the wine with oxygen
+        in the bottle headspace. Purging empty bottles and displacing headspace
+        air with nitrogen, argon or suitably managed carbon dioxide can reduce
+        the latter; it does not literally eliminate every oxygen molecule.
+        Closure oxygen transmission matters during storage, while SO₂ mitigates
+        oxidation rather than removing the initial headspace oxygen measured at
+        packaging. Direct measurements confirm whether the line setup worked.
+
+  - id: wine-glass-package-barrier-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, packaging, glass, oxygen]
+    status: reviewed
+    source_id: c07-0198
+    review:
+      fact_check: pass
+      sources: [extension, research]
+    en:
+      question: Which statement best describes the role of glass itself in a sealed wine package?
+      choices:
+        - { text: "Glass is flavour-neutral and effectively impermeable to oxygen; the closure and seal provide a separate gas-transfer pathway", correct: true }
+        - { text: "Glass is flavour-neutral but slowly permeable to oxygen; the closure mainly determines whether liquid can leak", correct: false }
+        - { text: "Glass blocks oxygen and is flavour-neutral, so closure choice has no further effect on the package's oxygen exposure", correct: false }
+        - { text: "Clear glass transmits oxygen while coloured glass blocks it; bottle colour therefore sets the package's gas barrier", correct: false }
+      explanation: |
+        Glass is chemically inert in normal wine use and forms an excellent gas
+        barrier. The complete package still includes a closure, seal and initial
+        headspace, each of which can affect oxygen exposure. Bottle colour mainly
+        changes protection from light, not oxygen permeability. Glass is strong
+        and familiar but also rigid and relatively heavy, creating logistical
+        costs that are separate from its protective performance.
