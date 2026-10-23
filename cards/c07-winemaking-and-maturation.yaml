@@ -2627,3 +2627,52 @@ cards:
         deliberately aerative when a specific objective, such as removing
         hydrogen sulfide, justifies it. Racking improves clarity but does not by
         itself prove microbial, protein or tartrate stability.
+
+  - id: wine-static-settling-centrifuge-tradeoff-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, clarification, settling, centrifugation]
+    status: reviewed
+    source_id: c07-0164
+    review:
+      fact_check: pass
+      sources: [extension, oiv, awri]
+    en:
+      question: A winery is choosing between static settling and centrifugation for a large volume of turbid juice during a compressed harvest. Which comparison is most accurate?
+      choices:
+        - { text: "Centrifugation is faster and can be continuous but needs costly equipment; static settling uses more tank time and depends on gravity", correct: true }
+        - { text: "Centrifugation is faster and can be continuous with lower capital cost; static settling uses more tank time and depends on gravity", correct: false }
+        - { text: "Centrifugation is faster and can be continuous but requires complete static pre-settling; static settling uses more tank time and depends on gravity", correct: false }
+        - { text: "Centrifugation is faster and can be continuous but cannot be protected from oxygen; static settling uses more tank time and depends on gravity", correct: false }
+      explanation: |
+        Centrifugal force separates denser suspended solids far faster than
+        gravity and modern units can process a continuous stream, which is useful
+        when time and tank capacity are tight. The tradeoff is specialised capital
+        and operating cost. Oxygen pickup depends on equipment and handling: a
+        hermetic or inerted system can limit it, while static settling is not
+        automatically protected from air. Settling speed also varies with solids,
+        temperature and wine or juice condition rather than one fixed duration.
+
+  - id: wine-depth-surface-filtration-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, clarification, filtration, depth-filter, membrane]
+    status: reviewed
+    source_id: c07-0170
+    review:
+      fact_check: pass
+      sources: [awri, oiv]
+    en:
+      question: Which comparison most accurately distinguishes depth filtration from surface membrane filtration in wine?
+      choices:
+        - { text: "Depth media retain particles within a thick matrix and handle higher solids; rated surface membranes retain at the surface and suit final microbial control", correct: true }
+        - { text: "Surface membranes retain particles within a thick matrix and handle higher solids; depth media retain at the surface and guarantee final microbial control", correct: false }
+        - { text: "Both work mainly by absolute pore exclusion; depth media simply use a larger defined pore size than surface membranes", correct: false }
+        - { text: "Depth media provide the validated final microbial barrier; surface membranes are used upstream because their pore ratings are nominal", correct: false }
+      explanation: |
+        Depth media trap material throughout a matrix by mechanical retention,
+        adsorption and charge; they tolerate a larger solids load but usually have
+        nominal rather than absolute ratings. A rated membrane retains particles
+        at its surface and can provide validated microorganism removal. Because a
+        heavily turbid wine can block that surface quickly, settling, centrifuging
+        or a coarser filtration stage commonly precedes a final membrane.
