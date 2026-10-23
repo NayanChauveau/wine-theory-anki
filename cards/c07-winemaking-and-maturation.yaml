@@ -2918,3 +2918,101 @@ cards:
         changes protection from light, not oxygen permeability. Glass is strong
         and familiar but also rigid and relatively heavy, creating logistical
         costs that are separate from its protective performance.
+
+  - id: wine-pet-package-shelf-life-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, packaging, pet, oxygen, shelf-life]
+    status: reviewed
+    source_id: c07-0202
+    review:
+      fact_check: pass
+      sources: [extension, research]
+    en:
+      question: A producer is considering PET bottles for a young, fruit-forward wine. Which approach to setting shelf life is most defensible?
+      choices:
+        - { text: "Validate the chosen PET, closure, wine and storage conditions; PET generally transmits more oxygen than glass", correct: true }
+        - { text: "Measure PET wall and closure transmission under expected storage, then set shelf life without testing the wine's oxidative sensitivity", correct: false }
+        - { text: "Test the wine under the chosen closure in glass, then apply that shelf life to PET without measuring wall transmission", correct: false }
+        - { text: "Run filled-package trials at cellar temperature, then use the result for warmer distribution without a temperature challenge", correct: false }
+      explanation: |
+        PET is light and can suit wines intended for relatively early drinking,
+        but the bottle wall normally provides a weaker oxygen barrier than glass.
+        PET construction, barrier or scavenger technology, closure, package size,
+        storage temperature and the wine's sensitivity all affect performance.
+        A producer therefore validates the complete filled package rather than
+        treating “a few months” as a universal limit for every PET bottle.
+
+  - id: wine-bag-in-box-oxygen-tradeoff-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, packaging, bag-in-box, oxygen, shelf-life]
+    status: reviewed
+    source_id: c07-0203
+    review:
+      fact_check: pass
+      sources: [industry-guideline, extension, research]
+    en:
+      question: A venue wants a wine package that remains sound through repeated pours over several weeks. Which claim about bag-in-box is most defensible?
+      choices:
+        - { text: "The collapsing bag limits replacement air during dispensing, but film and tap permeability still constrain shelf life", correct: true }
+        - { text: "Set opened life from an unopened-package trial of film and tap transmission, without a separate dispensing trial", correct: false }
+        - { text: "Model an opened bag like a rigid partly filled bottle of the same volume, using identical replacement-air exposure after each pour", correct: false }
+        - { text: "Validate tap hygiene after repeated dispensing, then set opened life without measuring oxygen pickup or permeation", correct: false }
+      explanation: |
+        A rigid partly emptied bottle replaces poured wine with an air-filled
+        headspace. A bag-in-box instead collapses as wine is dispensed, limiting
+        that route of oxygen entry. It is not hermetic: oxygen can still enter
+        through the multilayer film, welds, fitment and tap, and initial package
+        oxygen and temperature also matter. Opened and unopened shelf lives are
+        therefore product-specific claims to validate, not one universal period.
+
+  - id: wine-closure-selection-trial-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, packaging, closure, oxygen, shelf-life]
+    status: reviewed
+    source_id: c07-0205
+    review:
+      fact_check: pass
+      sources: [awri, oiv]
+    en:
+      question: A producer is selecting a closure for an aromatic wine intended to spend three years in bottle. Which selection process is most defensible?
+      choices:
+        - { text: "Run package trials against the wine's shelf-life target, then confirm bottle, line, regulatory and market compatibility", correct: true }
+        - { text: "Compare mean oxygen transmission among candidate closure types, then choose without assessing bottle-to-bottle variability", correct: false }
+        - { text: "Run shelf-life trials with candidate closures, then select by sensory result without confirming bottle-finish and line compatibility", correct: false }
+        - { text: "Confirm closure consistency and bottling compatibility, then choose from initial results without ageing through the target shelf life", correct: false }
+      explanation: |
+        Closure selection is a package-design decision. Initial package oxygen,
+        oxygen transmission rate and its variability influence SO₂ retention,
+        fruit preservation, oxidation and sometimes reductive development. The
+        target depends on the wine and intended shelf life, so comparative trials
+        are stronger than assuming the lowest or highest oxygen exposure is
+        universally best. Bottle finish, line capability, legal requirements,
+        ease of use, cost and market acceptance remain practical constraints.
+
+  - id: wine-natural-cork-oxygen-variability-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, packaging, closure, cork, oxygen]
+    status: reviewed
+    source_id: c07-0210
+    review:
+      fact_check: pass
+      sources: [awri, research]
+    en:
+      question: A trial bottles the same wine under several closures with equal initial package oxygen. Which conclusion about natural cork is most defensible?
+      choices:
+        - { text: "Its oxygen behaviour varies; greater exposure may accelerate development but can also increase oxidation risk", correct: true }
+        - { text: "Assume cork-to-cork variation affects the initial oxygen release, while long-term sealing performance remains consistent among bottles", correct: false }
+        - { text: "Attribute measured bottle oxygen to permeation from outside air, without accounting for gas released from compressed cork", correct: false }
+        - { text: "Treat higher oxygen ingress as a faster route to desired development, without testing whether SO₂ loss and oxidation also increase", correct: false }
+      explanation: |
+        Natural corks can differ in oxygen transmission and consistency. Some
+        oxygen measured early in bottle can be released from gas held within the
+        compressed closure, while later transfer can involve the cork and the
+        cork–glass interface. Oxygen can change the pace of colour, aroma and
+        tannin development, but more ingress is not automatically beneficial and
+        can consume SO₂ and accelerate oxidation. Positive tertiary development
+        is therefore not a guaranteed consequence or unique benefit of cork.
