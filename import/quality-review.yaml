@@ -22,7 +22,7 @@
 # Agents : mettre à jour ce fichier après chaque lot (voir STUDY_CARD_QUALITY.md).
 # Lots ≤ 40 cartes. Un chapitre à la fois.
 
-updated: 2026-10-12
+updated: 2026-11-12
 
 chapters:
   c13-bordeaux:
@@ -3088,3 +3088,162 @@ chapters:
       savoie-principal-red-grapes-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
       savoie-seyssel-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
       savoie-cremant-blend-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+  c07-winemaking-and-maturation:
+    file: cards/c07-winemaking-and-maturation.yaml
+    status: awaiting-human
+    agent_wave: 2026-11-12
+    counts:
+      cards: 140
+      agent_fixed: 105
+      agent_pass: 33
+      hold: 2
+      human_ok: 0
+    note: >
+      Passe qualité complète menée en quatre lots de 35 cartes, chacun relu par
+      un critic adverse jusqu’à acceptation, puis traduction française alignée
+      (même nombre de choix, même index). Les leurres caricaturaux, absolus
+      (« seulement », « toujours », « sans vérifier ») ou à moitié vrais ont été
+      remplacés par des pratiques plausibles comportant une seule erreur ; clés
+      trop longues raccourcies. Deux brouillons restent en HOLD sans français :
+      wine-natural-001 et wine-barrique-two-years-001.
+    cards:
+      wine-after-harvest-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      ferment-alcohol-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-after-ferment-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-natural-001: { status: hold, human: pending }
+      wine-seeds-stems-tannin-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-seeds-bitter-oils-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-stems-hand-harvest-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-skin-flavour-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-skin-tannin-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-skin-colour-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-tannin-class-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-tannin-veraison-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-tannin-ripen-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-bloom-wax-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-bloom-yeast-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-pulp-trio-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-pulp-water-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-pulp-sugar-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-pulp-tartaric-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-pulp-malic-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-oxygen-react-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-oxidation-define-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-oxidation-fresh-fruit-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-oxidation-so2-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-oxidation-limit-air-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-night-pick-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-inert-gas-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-protective-name-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-protective-critique-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-protective-mature-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-inert-kept-full-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-inert-materials-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-oak-oxidative-store-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-oak-not-airtight-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-oak-soften-tannin-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-oak-flavour-complexity-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-oxid-fruit-fade-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-oxid-leather-earth-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-oxid-red-colour-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-oxid-white-colour-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-oxid-two-factors-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-small-barrel-oxid-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-small-barrel-surface-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-barrique-225-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-barrique-two-years-001: { status: hold, human: pending }
+      wine-ullage-oxid-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-ullage-styles-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-oxidative-nuts-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-over-oxid-stale-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-over-oxid-vinegar-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-so2-antioxidant-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-so2-antiseptic-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-so2-regulated-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-so2-allergy-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-so2-harsh-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-so2-bound-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-so2-antioxidant-how-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-so2-yeast-tolerate-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-oak-majority-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-oak-adds-tannin-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-oak-adds-flavour-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-oak-tannin-structure-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-oak-flavour-set-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-oak-hygiene-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-vessel-lot-blending-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-pass, human: pending }
+      wine-oak-programme-variables-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-pass, human: pending }
+      wine-barrel-toast-profile-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-used-barrel-extraction-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-oak-pieces-limits-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-pass, human: pending }
+      wine-micro-oxygenation-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-pass, human: pending }
+      wine-inert-vessel-meaning-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-stainless-vessel-advantages-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-tank-temperature-control-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-pass, human: pending }
+      wine-concrete-sanitation-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-pass, human: pending }
+      wine-concrete-thermal-inertia-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-so2-first-addition-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-reception-sorting-purpose-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-crushing-operation-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-pass, human: pending }
+      wine-free-run-definition-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-pass, human: pending }
+      wine-pressing-operation-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-pass, human: pending }
+      wine-press-fraction-quality-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-pass, human: pending }
+      wine-vertical-basket-press-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-pass, human: pending }
+      wine-pneumatic-membrane-press-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-pass, human: pending }
+      wine-inert-pressing-oxygen-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-grape-must-definition-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-pass, human: pending }
+      wine-must-weight-meaning-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-enrichment-purpose-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-pass, human: pending }
+      wine-rcgm-definition-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-pass, human: pending }
+      wine-over-enrichment-balance-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-chaptalisation-definition-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-pass, human: pending }
+      wine-must-water-removal-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-pass, human: pending }
+      wine-dealcoholisation-techniques-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-pass, human: pending }
+      wine-chemical-acidification-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-chemical-deacidification-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-saccharomyces-completes-fermentation-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-pass, human: pending }
+      wine-dry-fermentation-completion-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-stuck-fermentation-risk-cluster-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-arrest-fermentation-stability-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-yeast-strategy-tradeoff-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-selected-mixed-yeast-strategy-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-cool-fermentation-aroma-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-warm-red-fermentation-extraction-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-pass, human: pending }
+      wine-mlf-timing-options-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-mlf-organism-reaction-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-mlf-acidity-diacetyl-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-mlf-encouragement-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-mlf-prevention-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-post-fermentation-settling-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-gross-fine-lees-distinction-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-gross-lees-management-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-fine-lees-ageing-trial-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-pass, human: pending }
+      wine-short-inert-maturation-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-pass, human: pending }
+      wine-ageing-potential-assessment-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-pass, human: pending }
+      wine-blending-timing-flexibility-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-blending-compliance-check-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-house-style-component-strategy-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-clarification-routes-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-clarification-proportional-treatment-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-racking-definition-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-pass, human: pending }
+      wine-static-settling-centrifuge-tradeoff-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-pass, human: pending }
+      wine-depth-surface-filtration-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-final-membrane-filtration-control-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-stability-shelf-life-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-tartrate-crystal-significance-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-kht-cat-cold-test-limits-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-kht-cold-stabilisation-workflow-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-pass, human: pending }
+      wine-useful-microbes-packaging-risk-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-pass, human: pending }
+      wine-equipment-clean-sanitise-sequence-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-microbial-risk-profile-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-pass, human: pending }
+      wine-bottling-headspace-oxygen-control-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-pass, human: pending }
+      wine-glass-package-barrier-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-pet-package-shelf-life-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-bag-in-box-oxygen-tradeoff-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-closure-selection-trial-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-natural-cork-oxygen-variability-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-musty-haloanisole-investigation-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      wine-screwcap-liner-comparison-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-pass, human: pending }
+      wine-drink-young-majority-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-pass, human: pending }
+      wine-drink-young-kept-too-long-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-pass, human: pending }
+      wine-bottle-ageing-styles-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-pass, human: pending }
