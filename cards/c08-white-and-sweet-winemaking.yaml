@@ -1147,9 +1147,9 @@ cards:
         - { text: "Butter, toast and vanilla", correct: false }
         - { text: "Gooseberry, grass and green pepper", correct: false }
       explanation: |
-        Dried fruit and marmalade often join these notes. Sauternes, Tokaji Aszú
-        and German Trockenbeerenauslese share this botrytis signature even though
-        they are made from different grapes.
+        Dried fruit and marmalade often join these notes. Sauternes and German
+        Trockenbeerenauslese share this botrytis signature even though they are
+        made from different grapes.
 
   - id: sweet-noble-rot-several-passes-001
     type: mcq
@@ -1653,8 +1653,7 @@ cards:
         - { text: "It would strip out the wine's protective SO₂", correct: false }
       explanation: |
         Both grapes are prized for crisp acidity and vivid varietal fruit.
-        Diacetyl, the buttery by-product, would blur the lime of a Riesling or the
-        passion fruit of a Marlborough Sauvignon.
+        Diacetyl, the buttery by-product, would blur that bright primary fruit.
 
   - id: white-riesling-lees-contact-001
     type: mcq
@@ -1946,3 +1945,678 @@ cards:
         After the buttery, heavily oaked styles of the 1980s and 1990s, many
         producers turned to earlier picking, larger or older barrels and less new
         wood. Sonoma Coast and the Adelaide Hills illustrate the leaner style.
+
+  - id: white-bulk-clarity-expectation-001
+    type: mcq
+    deck: White and Sweet Winemaking
+    tags: [winemaking, bulk, clarity]
+    status: reviewed
+    source_id: c08-0051
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "What do shoppers buying inexpensive, high-volume white wine expect to see in the glass?"
+      choices:
+        - { text: "A light haze showing minimal filtration", correct: false }
+        - { text: "Bright, clear wine with no deposit", correct: true }
+        - { text: "A few tartrate crystals in the bottle", correct: false }
+        - { text: "A deep golden tint from barrel ageing", correct: false }
+      explanation: |
+        Most casual buyers read haze or crystals as a fault, even when they are harmless.
+        For a large brand, a clear and stable look is part of the product, so it is
+        engineered before bottling.
+
+  - id: white-bulk-stabilise-filter-001
+    type: mcq
+    deck: White and Sweet Winemaking
+    tags: [winemaking, bulk, stabilisation, filtration]
+    status: reviewed
+    source_id: c08-0051
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which pre-bottling routine is typical for a high-volume white that must stay clear on the shelf?"
+      choices:
+        - { text: "Bottling unfiltered straight off the fine lees", correct: false }
+        - { text: "Several months in old barrels then racking", correct: false }
+        - { text: "Light settling, then bottling with no fining", correct: false }
+        - { text: "Stabilisation, fining and sterile filtration", correct: true }
+      explanation: |
+        Cold stabilisation drops tartrates that would otherwise crystallise in a cold
+        fridge, bentonite fining removes the proteins behind heat haze, and sterile
+        filtration removes yeast and bacteria that could referment or spoil the wine.
+
+  - id: white-premium-priority-001
+    type: mcq
+    deck: White and Sweet Winemaking
+    tags: [winemaking, premium, pressing]
+    status: reviewed
+    source_id: c08-0053
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which press-house choice marks a premium white producer?"
+      choices:
+        - { text: "Adding back press wine for extra body", correct: false }
+        - { text: "Keeping the heavy press fractions apart", correct: true }
+        - { text: "Long skin contact before pressing", correct: false }
+        - { text: "Pressing hard to raise the juice yield", correct: false }
+      explanation: |
+        Late, high-pressure fractions carry more phenolics and potassium and less acidity.
+        Setting them aside shrinks the top wine; Champagne, for example, caps the first
+        pressing at 2,050 litres per 4,000 kg of grapes.
+
+  - id: white-aromatic-definition-001
+    type: mcq
+    deck: White and Sweet Winemaking
+    tags: [winemaking, aromatic, grape-variety]
+    status: reviewed
+    source_id: c08-0055
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Where does most of an aromatic grape variety's character come from?"
+      choices:
+        - { text: "Toasted oak used in the cellar", correct: false }
+        - { text: "Aroma compounds in the grape itself", correct: true }
+        - { text: "Long ageing on the lees", correct: false }
+        - { text: "Several years of bottle ageing", correct: false }
+      explanation: |
+        Families of aroma compounds such as terpenes and thiols are already present in the
+        berry and carry through into the wine, so the cellar aims to protect them. Neutral
+        grapes like Chardonnay lean more on winemaking for their flavour.
+
+  - id: white-aromatic-group-001
+    type: mcq
+    deck: White and Sweet Winemaking
+    tags: [winemaking, aromatic, grape-variety]
+    status: reviewed
+    source_id: c08-0056
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which trio is made up of aromatic white grape varieties?"
+      choices:
+        - { text: "Muscat, Chardonnay and Melon de Bourgogne", correct: false }
+        - { text: "Sauvignon Blanc, Trebbiano and Airén", correct: false }
+        - { text: "Gewurztraminer, Pinot Blanc and Palomino", correct: false }
+        - { text: "Sauvignon Blanc, Muscat and Gewurztraminer", correct: true }
+      explanation: |
+        Riesling belongs to the same family. Chardonnay, Melon, Trebbiano, Airén, Pinot
+        Blanc and Palomino are neutral grapes whose wines get much of their character
+        from oak, lees, ageing or blending.
+
+  - id: white-aromatic-torrontes-001
+    type: mcq
+    deck: White and Sweet Winemaking
+    tags: [winemaking, aromatic, grape-variety, argentina]
+    status: reviewed
+    source_id: c08-0056
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which of these white grapes is usually classed as aromatic?"
+      choices:
+        - { text: "Torrontés", correct: true }
+        - { text: "Melon", correct: false }
+        - { text: "Trebbiano", correct: false }
+        - { text: "Chardonnay", correct: false }
+      explanation: |
+        Torrontés Riojano is a natural crossing of Muscat of Alexandria and Criolla Chica,
+        which explains its grapey, floral perfume. It is Argentina's signature white.
+
+  - id: white-sb-ripening-001
+    type: mcq
+    deck: White and Sweet Winemaking
+    tags: [winemaking, sauvignon-blanc, ripening]
+    status: reviewed
+    source_id: c08-0058
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Compared with most wine grapes, when does Sauvignon Blanc ripen?"
+      choices:
+        - { text: "Early", correct: true }
+        - { text: "Mid-season", correct: false }
+        - { text: "Late", correct: false }
+        - { text: "Very late", correct: false }
+      explanation: |
+        Early ripening lets it mature in cool northern France before
+        autumn turns cold. In hot sites it can race past its peak, so picking dates
+        matter.
+
+  - id: white-sb-cool-climate-001
+    type: mcq
+    deck: White and Sweet Winemaking
+    tags: [winemaking, sauvignon-blanc, climate]
+    status: reviewed
+    source_id: c08-0059
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Why are cool climates usually the best fit for Sauvignon Blanc?"
+      choices:
+        - { text: "They push its sugar high for a fuller body", correct: false }
+        - { text: "They deepen its tropical fruit character", correct: false }
+        - { text: "They encourage noble rot in most years", correct: false }
+        - { text: "They preserve its acidity and fresh aromas", correct: true }
+      explanation: |
+        Heat burns off malic acid and the methoxypyrazines behind its grassy,
+        green-pepper notes. In warm sites the fruit drifts towards a broader, tropical style.
+
+  - id: white-sb-european-benchmark-001
+    type: mcq
+    deck: White and Sweet Winemaking
+    tags: [winemaking, sauvignon-blanc, regions, loire]
+    status: reviewed
+    source_id: c08-0060
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which French region is the classic European benchmark for varietal Sauvignon Blanc?"
+      choices:
+        - { text: "Alsace", correct: false }
+        - { text: "The Loire Valley", correct: true }
+        - { text: "Burgundy", correct: false }
+        - { text: "The Rhône Valley", correct: false }
+      explanation: |
+        Sancerre and Pouilly-Fumé set the model. Marlborough became its New World
+        counterpart after Cloudy Bay's first vintage in 1985 drew world attention.
+
+  - id: white-sb-sancerre-vs-marlborough-001
+    type: mcq
+    deck: White and Sweet Winemaking
+    tags: [winemaking, sauvignon-blanc, loire, style]
+    status: reviewed
+    source_id: c08-0061
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Compared with a Marlborough Sauvignon Blanc, how does a Sancerre or Pouilly-Fumé usually show?"
+      choices:
+        - { text: "Riper, with passion fruit and more alcohol", correct: false }
+        - { text: "Sweeter, with honeyed noble-rot notes", correct: false }
+        - { text: "More restrained, with green apple and wet stone", correct: true }
+        - { text: "Fuller, with toasty new-oak spice", correct: false }
+      explanation: |
+        Sancerre's climate is cooler and less sunny than Marlborough's, and its limestone and
+        flint soils are often credited with the stony note. The pungent tropical side is
+        far more muted.
+
+  - id: white-sb-marlborough-sunlight-001
+    type: mcq
+    deck: White and Sweet Winemaking
+    tags: [winemaking, sauvignon-blanc, new-zealand, climate]
+    status: reviewed
+    source_id: c08-0062
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which feature of Marlborough's climate most explains the intensity of its Sauvignon Blanc fruit?"
+      choices:
+        - { text: "Very high levels of sunlight", correct: true }
+        - { text: "Warm, humid summer nights", correct: false }
+        - { text: "Heavy rainfall through autumn", correct: false }
+        - { text: "Frequent summer sea fog", correct: false }
+      explanation: |
+        Cool nights in the Wairau and Awatere valleys keep acidity high, so the bright
+        fruit comes without the wine turning flabby.
+
+  - id: white-sb-marlborough-aromas-001
+    type: mcq
+    deck: White and Sweet Winemaking
+    tags: [winemaking, sauvignon-blanc, new-zealand, aroma]
+    status: reviewed
+    source_id: c08-0063
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which aroma set is typical of a young Marlborough Sauvignon Blanc?"
+      choices:
+        - { text: "Green apple, lemon and wet stone", correct: false }
+        - { text: "Passion fruit, toast and vanilla", correct: false }
+        - { text: "Lychee, rose petal and ginger", correct: false }
+        - { text: "Gooseberry, passion fruit and grapefruit", correct: true }
+      explanation: |
+        The tropical and citrus notes come largely from thiols; some wines also show
+        herbaceous, green-pepper notes from methoxypyrazines. Elderflower is another
+        common descriptor.
+
+  - id: white-sb-chile-south-africa-001
+    type: mcq
+    deck: White and Sweet Winemaking
+    tags: [winemaking, sauvignon-blanc, regions]
+    status: reviewed
+    source_id: c08-0064
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Besides New Zealand, which two countries are best known for fresh, fruity varietal Sauvignon Blanc?"
+      choices:
+        - { text: "Germany and Portugal", correct: false }
+        - { text: "Chile and South Africa", correct: true }
+        - { text: "Argentina and Spain", correct: false }
+        - { text: "Greece and Hungary", correct: false }
+      explanation: |
+        Both rely on ocean cooling: the Humboldt Current off Casablanca and Leyda in Chile,
+        and Atlantic breezes in Constantia, Durbanville and Elgin in South Africa.
+
+  - id: white-sb-margaret-river-style-001
+    type: mcq
+    deck: White and Sweet Winemaking
+    tags: [winemaking, sauvignon-blanc, semillon, australia, blending]
+    status: reviewed
+    source_id: c08-0065
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "How does a Margaret River blend of Sauvignon Blanc and Sémillon usually differ from a varietal Marlborough Sauvignon?"
+      choices:
+        - { text: "Paler, lighter and more pungently grassy", correct: false }
+        - { text: "Sweeter, with a note of noble rot", correct: false }
+        - { text: "Less aromatic and fuller-bodied", correct: true }
+        - { text: "Lower in alcohol, with a light spritz", correct: false }
+      explanation: |
+        Breezes off the Indian Ocean moderate the region. The blend is often labelled
+        SBS or SSB, depending on which grape leads, and follows the dry white Bordeaux model.
+
+  - id: white-sb-drink-young-001
+    type: mcq
+    deck: White and Sweet Winemaking
+    tags: [winemaking, sauvignon-blanc, ageing]
+    status: reviewed
+    source_id: c08-0066
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "When is a typical unoaked Sauvignon Blanc at its best?"
+      choices:
+        - { text: "Within a couple of years of the vintage", correct: true }
+        - { text: "After three to five years in bottle", correct: false }
+        - { text: "Once tertiary notes start to emerge", correct: false }
+        - { text: "After a decade of cellaring", correct: false }
+      explanation: |
+        Its intense, fresh fruit is the point of the style, and those volatile notes fade
+        with time. Oaked Sauvignon–Sémillon blends from Pessac-Léognan are the classic
+        exception that can age.
+
+  - id: white-pessac-semillon-role-001
+    type: mcq
+    deck: White and Sweet Winemaking
+    tags: [winemaking, semillon, pessac-leognan, blending]
+    status: reviewed
+    source_id: c08-0068
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "In a white Pessac-Léognan blend, what does Sémillon mainly add to Sauvignon Blanc?"
+      choices:
+        - { text: "Crisp acidity and grassy aromas", correct: false }
+        - { text: "A grapey, floral perfume", correct: false }
+        - { text: "Body and richness", correct: true }
+        - { text: "Colour and light tannin", correct: false }
+      explanation: |
+        Sémillon is moderate in acidity and waxy in texture, and it can develop toast and
+        honey with age. Muscadelle, when used, is the grape that adds floral perfume.
+
+  - id: white-riesling-cold-traits-001
+    type: mcq
+    deck: White and Sweet Winemaking
+    tags: [winemaking, riesling, viticulture]
+    status: reviewed
+    source_id: c08-0069
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which pair of vine traits helps Riesling cope with cold northern vineyards?"
+      choices:
+        - { text: "Late budding and hard winter wood", correct: true }
+        - { text: "Early budding and early ripening", correct: false }
+        - { text: "Thin skins and high vigour", correct: false }
+        - { text: "Large berries and loose bunches", correct: false }
+      explanation: |
+        Late budburst dodges much spring frost, and hard wood survives winter freezes that
+        damage tender vines. It ripens mid to late, so it needs a long autumn, which is
+        why steep south-facing Mosel slopes matter.
+
+  - id: white-riesling-warm-shift-001
+    type: mcq
+    deck: White and Sweet Winemaking
+    tags: [winemaking, riesling, climate, aroma]
+    status: reviewed
+    source_id: c08-0071
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "As Riesling is grown in warmer sites, how does its fruit character usually shift?"
+      choices:
+        - { text: "Towards green apple and white flowers", correct: false }
+        - { text: "Towards red berries and spice", correct: false }
+        - { text: "Towards gooseberry and cut grass", correct: false }
+        - { text: "Towards citrus and stone fruit", correct: true }
+      explanation: |
+        Riper fruit gives fuller, richer wines, such as the peach-scented Rieslings of
+        many Pfalz sites, at some cost to delicacy.
+
+  - id: white-riesling-sweet-suitability-001
+    type: mcq
+    deck: White and Sweet Winemaking
+    tags: [winemaking, riesling, sweet-wine]
+    status: reviewed
+    source_id: c08-0072
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which trait makes Riesling especially well suited to sweet wines?"
+      choices:
+        - { text: "Its low acidity lets the sugar show", correct: false }
+        - { text: "Its thick skins resist noble rot", correct: false }
+        - { text: "It gains sugar while keeping high acidity", correct: true }
+        - { text: "It ripens early, before the autumn rains", correct: false }
+      explanation: |
+        On steep Mosel slate slopes, bunches can hang well into autumn for Spätlese and
+        Auslese picking, so producers can wait for ripeness without the wine turning flat.
+
+  - id: white-riesling-longevity-001
+    type: mcq
+    deck: White and Sweet Winemaking
+    tags: [winemaking, riesling, ageing]
+    status: reviewed
+    source_id: c08-0074
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which aromatic white grape is best known for wines that stay fresh for decades in bottle?"
+      choices:
+        - { text: "Gewurztraminer", correct: false }
+        - { text: "Riesling", correct: true }
+        - { text: "Viognier", correct: false }
+        - { text: "Muscat Blanc à Petits Grains", correct: false }
+      explanation: |
+        High acidity, often helped by residual sugar, keeps it lively while it develops.
+        The other three are lower in acidity or prized for fresh perfume, so most of their
+        wines are best drunk within a few years.
+
+  - id: white-riesling-aged-notes-001
+    type: mcq
+    deck: White and Sweet Winemaking
+    tags: [winemaking, riesling, ageing, aroma]
+    status: reviewed
+    source_id: c08-0075
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which developed notes are typical of a Riesling with long bottle age?"
+      choices:
+        - { text: "Leather, earth and forest floor", correct: false }
+        - { text: "Walnut, caramel and dried fig", correct: false }
+        - { text: "Vanilla, coconut and clove", correct: false }
+        - { text: "Honey, toast and petrol", correct: true }
+      explanation: |
+        The petrol note comes from a compound called TDN, which tends to be stronger in
+        sunnier, warmer sites. The acidity stays high as the fruit fades.
+
+  - id: white-sweet-acid-balance-001
+    type: mcq
+    deck: White and Sweet Winemaking
+    tags: [winemaking, sweet-wine, balance]
+    status: reviewed
+    source_id: c08-0077
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "In a premium sweet wine, what mainly keeps the sweetness from tasting cloying?"
+      choices:
+        - { text: "Firm tannin", correct: false }
+        - { text: "High acidity", correct: true }
+        - { text: "Toasty oak flavour", correct: false }
+        - { text: "Very low alcohol", correct: false }
+      explanation: |
+        The aim is a wine as refreshing as it is concentrated. A sweet wine low in acidity
+        tastes flabby and heavy, however good the fruit.
+
+  - id: white-riesling-europe-regions-001
+    type: mcq
+    deck: White and Sweet Winemaking
+    tags: [winemaking, riesling, regions]
+    status: reviewed
+    source_id: c08-0078
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Besides Germany, which two European areas are best known for top-quality Riesling?"
+      choices:
+        - { text: "Alsace and Austria", correct: true }
+        - { text: "Alsace and the Loire", correct: false }
+        - { text: "Austria and Hungary", correct: false }
+        - { text: "The Loire and Hungary", correct: false }
+      explanation: |
+        Alsace has grand cru sites such as Schlossberg, the first to be recognised in 1975;
+        in Austria, the Danube terraces of the Wachau, Kamptal and Kremstal lead.
+
+  - id: white-riesling-australia-regions-001
+    type: mcq
+    deck: White and Sweet Winemaking
+    tags: [winemaking, riesling, australia, regions]
+    status: reviewed
+    source_id: c08-0081
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which pair of South Australian regions is most famous for Riesling?"
+      choices:
+        - { text: "Clare and Barossa", correct: false }
+        - { text: "Eden Valley and McLaren Vale", correct: false }
+        - { text: "Clare and Eden Valley", correct: true }
+        - { text: "Barossa and McLaren Vale", correct: false }
+      explanation: |
+        Cool nights and, in Eden Valley, elevation keep acidity high. Clare Valley
+        producers famously moved to screwcaps together with the 2000 vintage to protect
+        that freshness.
+
+  - id: white-riesling-clare-eden-lime-001
+    type: mcq
+    deck: White and Sweet Winemaking
+    tags: [winemaking, riesling, australia, aroma]
+    status: reviewed
+    source_id: c08-0082
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which fruit note is the hallmark of a young, dry South Australian Riesling?"
+      choices:
+        - { text: "Lime", correct: true }
+        - { text: "Peach", correct: false }
+        - { text: "Honey", correct: false }
+        - { text: "Pineapple", correct: false }
+      explanation: |
+        Most of these wines are fermented cool in stainless steel and bottled early under
+        screwcap, with no oak, so the citrus fruit stays sharp and bright. Honey
+        comes later with bottle age; peach suggests a warmer, riper style.
+
+  - id: white-riesling-new-world-regions-001
+    type: mcq
+    deck: White and Sweet Winemaking
+    tags: [winemaking, riesling, regions]
+    status: reviewed
+    source_id: c08-0083
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Outside Australia, which pair of New World areas is well known for Riesling?"
+      choices:
+        - { text: "Napa Valley and Mendoza", correct: false }
+        - { text: "Washington State and the Finger Lakes", correct: true }
+        - { text: "Paso Robles and the Maipo Valley", correct: false }
+        - { text: "Swartland and Colchagua", correct: false }
+      explanation: |
+        In the Finger Lakes, Konstantin Frank showed from the 1950s that vinifera vines
+        could survive the cold. New Zealand is another notable source.
+
+  - id: white-riesling-off-dry-style-001
+    type: mcq
+    deck: White and Sweet Winemaking
+    tags: [winemaking, riesling, style, new-zealand]
+    status: reviewed
+    source_id: c08-0084
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which style is common for much New Zealand Riesling?"
+      choices:
+        - { text: "Bone dry and austere", correct: false }
+        - { text: "Oaked and full-bodied", correct: false }
+        - { text: "Lusciously sweet from noble rot", correct: false }
+        - { text: "Fruity and off-dry", correct: true }
+      explanation: |
+        A touch of residual sugar balances high natural acidity. Waipara and Nelson are
+        noted sources, and drier and sweeter versions exist too.
+
+  - id: white-sweet-concentrate-method-001
+    type: mcq
+    deck: White and Sweet Winemaking
+    tags: [winemaking, sweet-wine, methods]
+    status: reviewed
+    source_id: c08-0085
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which sweetening method concentrates sugar inside the grape before it is pressed?"
+      choices:
+        - { text: "Adding unfermented juice to a dry wine", correct: false }
+        - { text: "Chilling the ferment to stop the yeast", correct: false }
+        - { text: "Letting the grapes freeze on the vine", correct: true }
+        - { text: "Fortifying the ferment with grape spirit", correct: false }
+      explanation: |
+        Freezing, noble rot and drying on or off the vine all remove water from the berry.
+        Stopping fermentation and adding a sweet component work on the juice or wine instead.
+
+  - id: white-fortification-yeast-kill-001
+    type: mcq
+    deck: White and Sweet Winemaking
+    tags: [winemaking, sweet-wine, fortification]
+    status: reviewed
+    source_id: c08-0086
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "When grape spirit is added to a fermenting must, why does sugar remain in the wine?"
+      choices:
+        - { text: "The spirit cools the must below yeast activity", correct: false }
+        - { text: "The higher alcohol kills the yeast", correct: true }
+        - { text: "The spirit binds the sugar so yeast cannot use it", correct: false }
+        - { text: "The spirit strips the nitrogen the yeast need", correct: false }
+      explanation: |
+        Most wine yeast cannot survive once alcohol reaches roughly the mid-teens. This is
+        how Port and vins doux naturels such as Muscat de Beaumes-de-Venise keep their
+        sweetness.
+
+  - id: white-fortification-balance-001
+    type: mcq
+    deck: White and Sweet Winemaking
+    tags: [winemaking, sweet-wine, fortification]
+    status: reviewed
+    source_id: c08-0087
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "For a sweet white, what is the main drawback of stopping fermentation by fortification?"
+      choices:
+        - { text: "It removes much of the acidity", correct: false }
+        - { text: "It leaves the wine prone to refermenting", correct: false }
+        - { text: "It turns the wine brown within weeks", correct: false }
+        - { text: "It sharply raises alcohol and shifts balance", correct: true }
+      explanation: |
+        The added spirit changes body and heat, so the wine no longer tastes like a light
+        sweet white. Makers who want low-alcohol sweetness chill and filter instead.
+
+  - id: white-arrested-ferment-asti-001
+    type: mcq
+    deck: White and Sweet Winemaking
+    tags: [winemaking, sweet-wine, arrested-fermentation]
+    status: reviewed
+    source_id: c08-0091
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which sweet wine is made from normally ripe grapes whose fermentation is halted early?"
+      choices:
+        - { text: "Sauternes", correct: false }
+        - { text: "Canadian Icewine", correct: false }
+        - { text: "Asti", correct: true }
+        - { text: "Vin Santo", correct: false }
+      explanation: |
+        Asti ferments in pressurised tanks and is chilled and filtered at around 7% alcohol.
+        Many German Kabinett and Spätlese wines keep their sweetness in a similar way.
+
+  - id: white-sussreserve-preserve-001
+    type: mcq
+    deck: White and Sweet Winemaking
+    tags: [winemaking, sweetening, juice]
+    status: reviewed
+    source_id: c08-0094
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "How can grape juice be kept unfermented so that it can later sweeten a wine?"
+      choices:
+        - { text: "By fining it with bentonite", correct: false }
+        - { text: "By removing yeast or adding SO₂", correct: true }
+        - { text: "By acidifying it with tartaric acid", correct: false }
+        - { text: "By settling it and racking off the solids", correct: false }
+      explanation: |
+        Sterile filtration takes the yeast out, while a high SO₂ dose stops them working.
+        The juice is often held cold as well.
+
+  - id: white-noble-rot-tokaji-001
+    type: mcq
+    deck: White and Sweet Winemaking
+    tags: [winemaking, sweet-wine, botrytis]
+    status: reviewed
+    source_id: c08-0099
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which of these sweet wines depends on noble rot?"
+      choices:
+        - { text: "Eiswein", correct: false }
+        - { text: "Tokaji Aszú", correct: true }
+        - { text: "Vin Santo", correct: false }
+        - { text: "Recioto della Valpolicella", correct: false }
+      explanation: |
+        Sauternes, Beerenauslese and Trockenbeerenauslese belong to the same family.
+        Eiswein needs healthy berries frozen on the vine, and the other two use grapes
+        dried indoors after picking.
