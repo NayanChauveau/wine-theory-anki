@@ -2,4 +2,796 @@
 # source: C09 (import/inbox/c09-red-and-rose-winemaking.yaml)
 # deck: Red and Rosé Winemaking
 
-cards: []
+cards:
+  - id: red-destem-crush-001
+    type: mcq
+    deck: Red and Rosé Winemaking
+    tags: [winemaking, red, grape-processing]
+    status: reviewed
+    source_id: c09-0001
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "On arrival at the winery, how is most fruit for red wine prepared for fermentation?"
+      choices:
+        - { text: "Kept as whole bunches, stems included", correct: false }
+        - { text: "Destemmed and crushed", correct: true }
+        - { text: "Pressed at once, with the juice fermented off the skins", correct: false }
+        - { text: "Dried on racks for several weeks", correct: false }
+      explanation: |
+        A destemmer-crusher usually does both jobs in one pass: the stalks are
+        knocked out and the berries are split just enough to free the juice,
+        so yeast can start work and the skins sit in liquid from day one. The
+        crush is kept gentle so the seeds are not broken.
+
+  - id: red-cold-soak-timing-001
+    type: mcq
+    deck: Red and Rosé Winemaking
+    tags: [winemaking, red, cold-soak, maceration]
+    status: reviewed
+    source_id: c09-0002
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "At which point in red winemaking does a cold soak (cold maceration) take place?"
+      choices:
+        - { text: "After fermentation, before pressing", correct: false }
+        - { text: "After pressing, before malolactic conversion", correct: false }
+        - { text: "After malolactic conversion, before racking", correct: false }
+        - { text: "After crushing, before fermentation starts", correct: true }
+      explanation: |
+        The crushed fruit is held cool for a few days, often with chilling
+        jackets or dry ice. In the 1980s the Burgundy consultant Guy Accad
+        became famous, and controversial, for pushing very long, very cold
+        soaks protected by heavy sulphur additions.
+
+  - id: red-cold-soak-aim-001
+    type: mcq
+    deck: Red and Rosé Winemaking
+    tags: [winemaking, red, cold-soak, extraction]
+    status: reviewed
+    source_id: c09-0004
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "What is a red winemaker mainly trying to extract with a cold soak?"
+      choices:
+        - { text: "Firm tannin, with little colour", correct: false }
+        - { text: "Seed tannin, before the skins soften", correct: false }
+        - { text: "Colour and flavour, with little tannin", correct: true }
+        - { text: "Glycerol and body, with little flavour", correct: false }
+      explanation: |
+        The red pigments (anthocyanins) and many aroma compounds in the skins
+        dissolve readily in plain grape juice. The low temperature also slows
+        spoilage microbes and wild yeasts, so the fruit can sit on its skins
+        safely for several days.
+
+  - id: red-ferment-temp-range-001
+    type: mcq
+    deck: Red and Rosé Winemaking
+    tags: [winemaking, red, fermentation, temperature]
+    status: reviewed
+    source_id: c09-0005
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Within which temperature band are most red wines fermented?"
+      choices:
+        - { text: "About 6–12 °C", correct: false }
+        - { text: "About 12–22 °C", correct: false }
+        - { text: "About 20–32 °C", correct: true }
+        - { text: "About 32–40 °C", correct: false }
+      explanation: |
+        Where a wine sits in that band depends on the style: a light, fruity
+        red is often kept towards the cooler end, a deeply coloured,
+        structured red towards the warmer end. Fermentation gives off heat,
+        so large vats need cooling to stay in range.
+
+  - id: red-ferment-temp-ceiling-001
+    type: mcq
+    deck: Red and Rosé Winemaking
+    tags: [winemaking, red, fermentation, temperature, yeast]
+    status: reviewed
+    source_id: c09-0007
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Above roughly what temperature does a fermenting red put its yeast at serious risk?"
+      choices:
+        - { text: "About 28 °C", correct: false }
+        - { text: "About 42 °C", correct: false }
+        - { text: "About 50 °C", correct: false }
+        - { text: "About 35 °C", correct: true }
+      explanation: |
+        Heat stress on top of rising alcohol can kill or stall the yeast, and
+        a stuck ferment leaves sugar for spoilage bacteria that raise volatile
+        acidity. Because the yeast itself releases heat, an uncooled vat can
+        overshoot on its own.
+
+  - id: red-cap-formation-001
+    type: mcq
+    deck: Red and Rosé Winemaking
+    tags: [winemaking, red, fermentation, cap]
+    status: reviewed
+    source_id: c09-0010
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Why do the skins and pulp in a fermenting red vat gather into a floating cap?"
+      choices:
+        - { text: "Rising alcohol makes the juice denser", correct: false }
+        - { text: "Carbon dioxide bubbles carry them up", correct: true }
+        - { text: "Yeast cells cling to them and lift them", correct: false }
+        - { text: "Warm juice sinks below the cooler skins", correct: false }
+      explanation: |
+        Gas bubbles catch on the skins and buoy them to the surface, where
+        they pack into a thick mat. Alcohol actually makes the liquid
+        slightly less dense than juice, not more.
+
+  - id: red-cap-left-floating-001
+    type: mcq
+    deck: Red and Rosé Winemaking
+    tags: [winemaking, red, fermentation, cap, extraction]
+    status: reviewed
+    source_id: c09-0012
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "If the cap on a fermenting red is never disturbed, what is the main effect on the wine?"
+      choices:
+        - { text: "Little colour, flavour or tannin is extracted", correct: true }
+        - { text: "Deep colour and harsh tannin are extracted", correct: false }
+        - { text: "Alcohol ends higher because less sugar is lost", correct: false }
+        - { text: "Acidity rises as the skins release malic acid", correct: false }
+      explanation: |
+        Only the bottom of the mat touches the liquid, so most of the skin
+        sits out of reach. The exposed top can also dry out and give acetic
+        bacteria a foothold.
+
+  - id: red-cap-management-levers-001
+    type: mcq
+    deck: Red and Rosé Winemaking
+    tags: [winemaking, red, cap, extraction]
+    status: reviewed
+    source_id: c09-0014
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Once a cap-management technique has been chosen, which two settings let a red winemaker raise or lower extraction with it?"
+      choices:
+        - { text: "Vat material and lid type", correct: false }
+        - { text: "Vat shape and valve position", correct: false }
+        - { text: "Plunger size and vat height", correct: false }
+        - { text: "Session length and sessions per day", correct: true }
+      explanation: |
+        A light, early-drinking red might get one short session a day; a
+        red built for ageing might get several longer ones at the height of
+        fermentation. Tasting the vat daily guides each change.
+
+  - id: red-punchdown-pigeage-001
+    type: mcq
+    deck: Red and Rosé Winemaking
+    tags: [winemaking, red, cap, punching-down]
+    status: reviewed
+    source_id: c09-0015
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which French cellar term names punching down the cap of a fermenting red?"
+      choices:
+        - { text: "Remontage", correct: false }
+        - { text: "Délestage", correct: false }
+        - { text: "Pigeage", correct: true }
+        - { text: "Bâtonnage", correct: false }
+      explanation: |
+        In Burgundy it was traditionally done by treading the vat or by hand
+        with wooden paddles on long poles. Remontage and délestage are other
+        cap techniques; bâtonnage is stirring lees in a barrel.
+
+  - id: red-punchdown-co2-hazard-001
+    type: mcq
+    deck: Red and Rosé Winemaking
+    tags: [winemaking, red, cap, punching-down, safety]
+    status: reviewed
+    source_id: c09-0016
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "What was the main danger for cellar workers punching down caps by hand over open vats?"
+      choices:
+        - { text: "Sulphur dioxide fumes", correct: false }
+        - { text: "Carbon dioxide poisoning", correct: true }
+        - { text: "Ethanol vapour poisoning", correct: false }
+        - { text: "Hydrogen sulphide gas", correct: false }
+      explanation: |
+        The gas is heavier than air, so it pools just above the cap where the
+        worker's head is, and can cause collapse without warning. Mechanical
+        or pneumatic plungers, plus good ventilation, now do much of this
+        work.
+
+  - id: red-punchdown-vs-pumpover-001
+    type: mcq
+    deck: Red and Rosé Winemaking
+    tags: [winemaking, red, cap, punching-down, extraction]
+    status: reviewed
+    source_id: c09-0018
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Compared with pumping over, what does punching down usually give a fermenting red?"
+      choices:
+        - { text: "Lower alcohol at the end of fermentation", correct: false }
+        - { text: "Paler colour but firmer tannin", correct: false }
+        - { text: "Softer tannin from slower extraction", correct: false }
+        - { text: "More colour and tannin per session", correct: true }
+      explanation: |
+        Plunging forces the whole mat of skins under the liquid and breaks it
+        up, so fresh skin surfaces meet the juice each time. That intensity
+        is why thin-skinned grapes are often plunged and why the number of
+        sessions is watched closely.
+
+  - id: red-tannin-late-ferment-001
+    type: mcq
+    deck: Red and Rosé Winemaking
+    tags: [winemaking, red, extraction, tannin]
+    status: reviewed
+    source_id: c09-0019
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "At which stage of a red fermentation does heavy cap work most risk pulling out too much harsh tannin?"
+      choices:
+        - { text: "In the first hours after crushing", correct: false }
+        - { text: "At peak fermentation, when the vat is hottest", correct: false }
+        - { text: "Near the end, as the wine nears dryness", correct: true }
+        - { text: "While the sugar level is still high", correct: false }
+      explanation: |
+        Tannin, especially from the seeds, dissolves far more readily once
+        alcohol has built up. Many winemakers therefore ease off the cap work
+        and cool the vat over the last days of fermentation.
+
+  - id: red-pumpover-method-001
+    type: mcq
+    deck: Red and Rosé Winemaking
+    tags: [winemaking, red, cap, pumping-over]
+    status: reviewed
+    source_id: c09-0020
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which cap technique draws juice from the bottom of the vat and sprays it back over the top while the vat stays full?"
+      choices:
+        - { text: "Pumping over", correct: true }
+        - { text: "Punching down", correct: false }
+        - { text: "Rack and return", correct: false }
+        - { text: "Rotary fermentation", correct: false }
+      explanation: |
+        A pump outside the vat lifts the juice from a valve near the base
+        through a hose to a spray head or rotating arm, so the whole surface
+        of the cap is soaked evenly.
+
+  - id: red-pumpover-benefit-001
+    type: mcq
+    deck: Red and Rosé Winemaking
+    tags: [winemaking, red, cap, pumping-over]
+    status: reviewed
+    source_id: c09-0021
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Apart from keeping the cap wet, which two jobs does a pump-over do well in a fermenting red?"
+      choices:
+        - { text: "Settling solids and shielding the must from oxygen", correct: false }
+        - { text: "Aerating the must and releasing heat", correct: true }
+        - { text: "Extracting seed tannin and raising acidity", correct: false }
+        - { text: "Protecting aroma and settling the lees", correct: false }
+      explanation: |
+        Yeast needs some oxygen to build healthy cell walls early in
+        fermentation, and moving warm juice through pipes and air sheds heat.
+        The juice can also be routed through a heat exchanger on its way back
+        to the top.
+
+  - id: red-rack-return-method-001
+    type: mcq
+    deck: Red and Rosé Winemaking
+    tags: [winemaking, red, cap, rack-and-return]
+    status: reviewed
+    source_id: c09-0022
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which cap technique drains all the fermenting juice into a second vessel, then pumps it back over the skins left behind?"
+      choices:
+        - { text: "Punching down", correct: false }
+        - { text: "Pumping over", correct: false }
+        - { text: "Rotary fermentation", correct: false }
+        - { text: "Rack and return", correct: true }
+      explanation: |
+        With the liquid gone, the cap slumps under its own weight and drains.
+        When the juice is returned in one go, it floods the whole mass of
+        skins at once rather than trickling over the top.
+
+  - id: red-rack-return-frequency-001
+    type: mcq
+    deck: Red and Rosé Winemaking
+    tags: [winemaking, red, cap, rack-and-return, extraction]
+    status: reviewed
+    source_id: c09-0023
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "How often is rack and return usually done during one red fermentation?"
+      choices:
+        - { text: "Once or twice in total", correct: true }
+        - { text: "Two or three times a day", correct: false }
+        - { text: "About once a week through the ferment", correct: false }
+        - { text: "Once a day until dry", correct: false }
+      explanation: |
+        Each cycle fully drains and re-soaks the skins, a much bigger
+        operation than a pump-over. It also takes a spare tank and pump time,
+        so in practice it is used as an occasional boost rather than a daily
+        routine.
+
+  - id: red-rack-return-heat-001
+    type: mcq
+    deck: Red and Rosé Winemaking
+    tags: [winemaking, red, cap, rack-and-return]
+    status: reviewed
+    source_id: c09-0024
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Besides extraction, which practical benefit does rack and return bring to a fermenting red?"
+      choices:
+        - { text: "It shields the must from oxygen", correct: false }
+        - { text: "It raises the must's acidity", correct: false }
+        - { text: "It helps the vat shed heat", correct: true }
+        - { text: "It settles out grape solids", correct: false }
+      explanation: |
+        Moving the entire volume of juice out of the vat and back breaks up
+        hot spots, and the drained cap cools while it sits exposed. The
+        transfer also splashes air into the juice.
+
+  - id: red-rotary-tank-shape-001
+    type: mcq
+    deck: Red and Rosé Winemaking
+    tags: [winemaking, red, rotary-fermentation, vessel]
+    status: reviewed
+    source_id: c09-0025
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which vessel shape is used for rotary fermentation of reds?"
+      choices:
+        - { text: "A tall, upright cylinder", correct: false }
+        - { text: "An egg-shaped concrete vessel", correct: false }
+        - { text: "A horizontal cylinder", correct: true }
+        - { text: "A wide, conical vat", correct: false }
+      explanation: |
+        The tank turns on its long axis, driven by a motor. These vessels
+        are costly, so they are mostly found in larger wineries that need to
+        cut the time each batch spends on skins.
+
+  - id: red-rotary-aim-001
+    type: mcq
+    deck: Red and Rosé Winemaking
+    tags: [winemaking, red, rotary-fermentation, extraction]
+    status: reviewed
+    source_id: c09-0026
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "What does turning the tank achieve during a rotary red fermentation?"
+      choices:
+        - { text: "Gentle aeration with little extraction", correct: false }
+        - { text: "Cooling the must without a jacket", correct: false }
+        - { text: "Separating the seeds from the skins", correct: false }
+        - { text: "Skins kept steadily mixed through the juice", correct: true }
+      explanation: |
+        Because the skins never form a settled mat, extraction runs quickly
+        and evenly, so colour and flavour can be reached in a shorter time on
+        skins.
+
+  - id: red-ferment-vessel-open-001
+    type: mcq
+    deck: Red and Rosé Winemaking
+    tags: [winemaking, red, vessel, cap]
+    status: reviewed
+    source_id: c09-0027
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which vessel design suits red fermentations that rely on regular cap work?"
+      choices:
+        - { text: "Small, sealed stainless-steel tanks", correct: false }
+        - { text: "Large, open-topped vats", correct: true }
+        - { text: "Pressure-rated closed tanks", correct: false }
+        - { text: "Narrow cylinders with a fixed lid", correct: false }
+      explanation: |
+        Plungers, hoses and workers need easy access to the surface of the
+        cap. The vats can be wood, concrete or steel; what matters is the
+        wide, reachable top.
+
+  - id: red-barrel-ferment-contact-001
+    type: mcq
+    deck: Red and Rosé Winemaking
+    tags: [winemaking, red, vessel, oak]
+    status: reviewed
+    source_id: c09-0028
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Why are ordinary closed barrels rarely used to ferment reds on their skins?"
+      choices:
+        - { text: "Oak tannin would make the wine too bitter", correct: false }
+        - { text: "The staves would split from fermentation heat", correct: false }
+        - { text: "Skins and juice are very hard to keep in contact", correct: true }
+        - { text: "Small barrels cannot shed fermentation heat", correct: false }
+      explanation: |
+        The cap jams under the bung-hole, out of reach of plunger or pump;
+        large open-topped oak vats, by contrast, are a classic red fermenter.
+        A few top estates get round this by removing one head of the barrel
+        or by rolling barrels fitted with a door, a method known as
+        vinification intégrale.
+
+  - id: red-post-ferment-maceration-aim-001
+    type: mcq
+    deck: Red and Rosé Winemaking
+    tags: [winemaking, red, maceration, tannin]
+    status: reviewed
+    source_id: c09-0029
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "What is the main aim of leaving a red wine on its skins after fermentation has finished?"
+      choices:
+        - { text: "Preserving fresh fruit aromas", correct: false }
+        - { text: "Extracting more tannin", correct: true }
+        - { text: "Releasing heat from the vat", correct: false }
+        - { text: "Settling out the yeast lees", correct: false }
+      explanation: |
+        Skins and seeds keep giving up tannin for as long as they sit in the
+        wine. The vat is usually sealed and kept full during this phase,
+        because the wine is no longer shielded by fermentation gas.
+
+  - id: red-post-ferment-maceration-texture-001
+    type: mcq
+    deck: Red and Rosé Winemaking
+    tags: [winemaking, red, maceration, tannin]
+    status: reviewed
+    source_id: c09-0030
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "What tannin texture do some winemakers seek from a long post-fermentation maceration?"
+      choices:
+        - { text: "Coarser and more drying", correct: false }
+        - { text: "Greener and more bitter", correct: false }
+        - { text: "Lighter and barely felt", correct: false }
+        - { text: "Smoother and rounder", correct: true }
+      explanation: |
+        Over weeks on the skins, tannin molecules are thought to bind into
+        longer chains that feel less grippy. Traditional Barolo cellars often
+        keep Nebbiolo on its skins for a month or more.
+
+  - id: red-free-run-first-001
+    type: mcq
+    deck: Red and Rosé Winemaking
+    tags: [winemaking, red, free-run, pressing]
+    status: reviewed
+    source_id: c09-0031
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Once a red has finished its time on skins, what is usually the first step?"
+      choices:
+        - { text: "Draining off the free-run wine", correct: true }
+        - { text: "Pressing the full vat contents at once", correct: false }
+        - { text: "Racking the wine straight into barrel", correct: false }
+        - { text: "Adding a fining agent to the vat", correct: false }
+      explanation: |
+        The liquid that flows out under its own weight is usually most of
+        the volume. Only then is the remaining mass of skins and seeds dug
+        out of the vat and sent to the press.
+
+  - id: red-press-wine-term-001
+    type: mcq
+    deck: Red and Rosé Winemaking
+    tags: [winemaking, red, pressing]
+    status: reviewed
+    source_id: c09-0032
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which name is given to the red wine squeezed out of the skin mass after fermentation?"
+      choices:
+        - { text: "Free-run wine", correct: false }
+        - { text: "Second wine", correct: false }
+        - { text: "Piquette", correct: false }
+        - { text: "Press wine", correct: true }
+      explanation: |
+        The French call it vin de presse. A second wine is a château's
+        second label, and piquette is a light drink made by soaking spent
+        pomace in water and fermenting it again.
+
+  - id: red-press-wine-change-001
+    type: mcq
+    deck: Red and Rosé Winemaking
+    tags: [winemaking, red, pressing, extraction]
+    status: reviewed
+    source_id: c09-0033
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "As pressing of red skins goes on and pressure rises, how does the wine coming off the press change?"
+      choices:
+        - { text: "Paler and softer", correct: false }
+        - { text: "Fruitier and less tannic", correct: false }
+        - { text: "Deeper in colour and more tannic", correct: true }
+        - { text: "Lower in alcohol and paler", correct: false }
+      explanation: |
+        The first wine out tastes close to the free-run, then more is
+        wrung from the skins. Kept apart, the harder pressings become a
+        tool at blending time: a little can be added back to lift the
+        colour or firm up the tannin of the final wine.
+
+  - id: red-whole-bunch-stem-ripeness-001
+    type: mcq
+    deck: Red and Rosé Winemaking
+    tags: [winemaking, red, whole-bunch, stems]
+    status: reviewed
+    source_id: c09-0037
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Before fermenting a red with whole bunches, what does the winemaker most need to check?"
+      choices:
+        - { text: "That the stems are ripe", correct: true }
+        - { text: "That the skins are thick", correct: false }
+        - { text: "That the sugar level is very high", correct: false }
+        - { text: "That the acidity is low", correct: false }
+      explanation: |
+        Green, sappy stalks release bitter, herbaceous flavours and harsh
+        tannin into the wine. Ripe stalks have turned brown and woody
+        (lignified), which is why growers often taste and snap them before
+        deciding.
+
+  - id: red-intracellular-enzymes-001
+    type: mcq
+    deck: Red and Rosé Winemaking
+    tags: [winemaking, red, whole-bunch, intracellular-fermentation]
+    status: reviewed
+    source_id: c09-0040
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "When intact berries are kept away from oxygen, what makes the first alcohol inside them?"
+      choices:
+        - { text: "Wild yeasts from the skin bloom", correct: false }
+        - { text: "An added cultured yeast", correct: false }
+        - { text: "The berry's own enzymes", correct: true }
+        - { text: "Lactic acid bacteria", correct: false }
+      explanation: |
+        Starved of oxygen, the berry's cells switch to an anaerobic
+        metabolism that turns some sugar into alcohol and builds new aroma
+        compounds. The same process breaks down part of the malic acid, so
+        the wine can taste a little softer.
+
+  - id: red-carbonic-co2-flush-001
+    type: mcq
+    deck: Red and Rosé Winemaking
+    tags: [winemaking, red, carbonic-maceration]
+    status: reviewed
+    source_id: c09-0042
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "In full carbonic maceration, how is oxygen removed from around the intact bunches at the start?"
+      choices:
+        - { text: "A heavy sulphur dioxide dose", correct: false }
+        - { text: "Chilling the vat near freezing", correct: false }
+        - { text: "Filling the vat with carbon dioxide", correct: true }
+        - { text: "Sealing the lid on the full vat", correct: false }
+      explanation: |
+        Being heavier than air, the gas sinks through the bunches and pushes
+        the air up and out of the vat. A sealed lid alone would trap the air
+        already caught between the bunches.
+
+  - id: red-carbonic-berry-split-001
+    type: mcq
+    deck: Red and Rosé Winemaking
+    tags: [winemaking, red, carbonic-maceration, intracellular-fermentation]
+    status: reviewed
+    source_id: c09-0042
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "During full carbonic maceration, at roughly what alcohol level inside the berries do they start to split?"
+      choices:
+        - { text: "About 5% abv", correct: false }
+        - { text: "About 2% abv", correct: true }
+        - { text: "About 8% abv", correct: false }
+        - { text: "About 11% abv", correct: false }
+      explanation: |
+        The berry's own metabolism cannot go much further, and its cells
+        start to break down and leak juice, which yeast then ferments in
+        the ordinary way.
+
+  - id: red-carbonic-structure-001
+    type: mcq
+    deck: Red and Rosé Winemaking
+    tags: [winemaking, red, carbonic-maceration, structure]
+    status: reviewed
+    source_id: c09-0043
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which colour and tannin profile does full carbonic maceration typically give a red?"
+      choices:
+        - { text: "Pale colour but firm tannin", correct: false }
+        - { text: "Good colour but little tannin", correct: true }
+        - { text: "Deep colour and firm tannin", correct: false }
+        - { text: "Pale colour and soft tannin", correct: false }
+      explanation: |
+        Inside the intact berry, pigment leaches from the skin into the
+        pulp, but the skins and seeds are never worked against the juice, so
+        little tannin comes out. Seed tannin in particular stays locked away.
+
+  - id: red-carbonic-aromas-001
+    type: mcq
+    deck: Red and Rosé Winemaking
+    tags: [winemaking, red, carbonic-maceration, aroma]
+    status: reviewed
+    source_id: c09-0044
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which set of aromas points most clearly to a red made by carbonic maceration?"
+      choices:
+        - { text: "Blackcurrant, cedar, mint and graphite", correct: false }
+        - { text: "Black pepper, violet, olive and smoked meat", correct: false }
+        - { text: "Plum, fig, chocolate and prune", correct: false }
+        - { text: "Kirsch, banana, bubblegum and cinnamon", correct: true }
+      explanation: |
+        These notes are made during fermentation inside the berry, not
+        drawn from the grape variety. Esters such as ethyl cinnamate, linked
+        to the cinnamon and strawberry note, are found at higher levels in
+        carbonic wines.
+
+  - id: red-semi-carbonic-co2-source-001
+    type: mcq
+    deck: Red and Rosé Winemaking
+    tags: [winemaking, red, semi-carbonic-maceration]
+    status: reviewed
+    source_id: c09-0045
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "In semi-carbonic maceration, where does most of the carbon dioxide around the upper, intact bunches come from?"
+      choices:
+        - { text: "Gas piped in from cylinders before sealing", correct: false }
+        - { text: "Yeast fermenting juice released at the bottom", correct: true }
+        - { text: "Malolactic bacteria working in the juice", correct: false }
+        - { text: "Cultured yeast sprayed over the top bunches", correct: false }
+      explanation: |
+        The weight of the fruit crushes the lowest bunches, and ambient yeast
+        starts on that juice. The gas it gives off rises and blankets the
+        intact berries above, which is how much traditional Beaujolais is
+        made.
+
+  - id: red-pinot-semi-carbonic-skins-001
+    type: mcq
+    deck: Red and Rosé Winemaking
+    tags: [winemaking, red, semi-carbonic-maceration, pinot-noir]
+    status: reviewed
+    source_id: c09-0046
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "When some premium Pinot Noir starts with a semi-carbonic phase, how does the process usually continue?"
+      choices:
+        - { text: "The bunches are pressed early and the juice finishes in tank", correct: false }
+        - { text: "The bunches stay sealed under carbon dioxide until pressing", correct: false }
+        - { text: "Punch-downs break the berries and fermentation finishes on skins", correct: true }
+        - { text: "The juice is drained off early and fermented as a separate rosé", correct: false }
+      explanation: |
+        Each plunge bursts more intact berries, so the carbonic share keeps
+        shrinking until every grape is broken and a normal skin fermentation
+        takes over. A post-fermentation maceration may follow.
+
+  - id: red-pinot-whole-bunch-aroma-001
+    type: mcq
+    deck: Red and Rosé Winemaking
+    tags: [winemaking, red, semi-carbonic-maceration, pinot-noir, aroma]
+    status: reviewed
+    source_id: c09-0048
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Compared with a classic carbonic red, what can a partly semi-carbonic start give a premium Pinot Noir?"
+      choices:
+        - { text: "Riper, jammier dark fruit", correct: false }
+        - { text: "A more oxidative, nutty character", correct: false }
+        - { text: "Subtle carbonic notes, well integrated", correct: true }
+        - { text: "More obvious spice from new oak", correct: false }
+      explanation: |
+        Because only part of the fermentation happens inside intact berries,
+        those aromas stay in the background and knit with the grape's own
+        red-fruit and floral character instead of dominating it.
+
+  - id: red-whole-bunch-submerged-001
+    type: mcq
+    deck: Red and Rosé Winemaking
+    tags: [winemaking, red, whole-bunch, intracellular-fermentation]
+    status: reviewed
+    source_id: c09-0049
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "When whole bunches sit among crushed fruit in a red vat, what mainly keeps oxygen away from the intact berries?"
+      choices:
+        - { text: "They are submerged in the fermenting juice", correct: true }
+        - { text: "A thick wax bloom seals each berry", correct: false }
+        - { text: "Sulphur dioxide added at the crusher", correct: false }
+        - { text: "Chilling the vat close to freezing", correct: false }
+      explanation: |
+        The juice from the crushed fruit is already fermenting and
+        saturated with carbon dioxide, so berries lying in it have no air
+        to draw on and some intracellular fermentation can begin.
+
+  - id: red-whole-bunch-share-001
+    type: mcq
+    deck: Red and Rosé Winemaking
+    tags: [winemaking, red, whole-bunch]
+    status: reviewed
+    source_id: c09-0050
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "In a red ferment that mixes crushed fruit with whole bunches, how does the winemaker get more carbonic character?"
+      choices:
+        - { text: "By fermenting the vat warmer", correct: false }
+        - { text: "By punching down more often", correct: false }
+        - { text: "By raising the share of whole bunches", correct: true }
+        - { text: "By lengthening post-fermentation maceration", correct: false }
+      explanation: |
+        More intact berries means more fruit going through its own
+        oxygen-free fermentation inside its skin, so the intracellular
+        contribution to the finished blend grows.
