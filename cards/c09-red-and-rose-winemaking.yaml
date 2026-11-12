@@ -24,6 +24,18 @@ cards:
         knocked out and the berries are split just enough to free the juice,
         so yeast can start work and the skins sit in liquid from day one. The
         crush is kept gentle so the seeds are not broken.
+    fr:
+      question: "À l’arrivée au chai, comment prépare-t-on la plupart des raisins destinés au vin rouge ?"
+      choices:
+        - { text: "Gardés en grappes entières, rafles comprises", correct: false }
+        - { text: "Égrappés et foulés", correct: true }
+        - { text: "Pressés aussitôt, le jus fermentant sans les peaux", correct: false }
+        - { text: "Séchés plusieurs semaines sur des claies", correct: false }
+      explanation: |
+        Un égrappoir-fouloir fait souvent les deux en un seul passage : il retire les rafles
+        et fait éclater les baies juste assez pour libérer le jus. Les levures peuvent ainsi
+        démarrer, et les peaux baignent dans le liquide dès le premier jour. Le foulage
+        reste doux pour ne pas écraser les pépins.
 
   - id: red-cold-soak-timing-001
     type: mcq
@@ -46,6 +58,19 @@ cards:
         jackets or dry ice. In the 1980s the Burgundy consultant Guy Accad
         became famous, and controversial, for pushing very long, very cold
         soaks protected by heavy sulphur additions.
+    fr:
+      question: "À quel moment de la vinification en rouge a lieu la macération préfermentaire à froid ?"
+      choices:
+        - { text: "Après la fermentation, avant le pressurage", correct: false }
+        - { text: "Après le pressurage, avant la fermentation malolactique", correct: false }
+        - { text: "Après la malolactique, avant le soutirage", correct: false }
+        - { text: "Après le foulage, avant le départ en fermentation", correct: true }
+      explanation: |
+        La vendange foulée est maintenue au frais pendant quelques jours, souvent grâce à
+        des cuves thermorégulées ou à de la neige carbonique. Dans les années 1980,
+        l’œnologue-conseil Guy Accad s’est rendu célèbre en Bourgogne, et controversé, en
+        prônant des macérations très longues et très froides, protégées par de fortes doses
+        de soufre.
 
   - id: red-cold-soak-aim-001
     type: mcq
@@ -68,6 +93,18 @@ cards:
         dissolve readily in plain grape juice. The low temperature also slows
         spoilage microbes and wild yeasts, so the fruit can sit on its skins
         safely for several days.
+    fr:
+      question: "Que cherche surtout à extraire le vinificateur par une macération préfermentaire à froid ?"
+      choices:
+        - { text: "Des tanins fermes, avec peu de couleur", correct: false }
+        - { text: "Les tanins des pépins, avant que les peaux s’attendrissent", correct: false }
+        - { text: "De la couleur et des arômes, avec peu de tanins", correct: true }
+        - { text: "Du glycérol et du volume, avec peu d’arômes", correct: false }
+      explanation: |
+        Les pigments rouges (anthocyanes) et de nombreux composés aromatiques de la
+        pellicule se dissolvent facilement dans le simple jus de raisin. Le froid freine
+        aussi les micro-organismes d’altération et les levures indigènes : la vendange peut
+        donc rester plusieurs jours sur ses peaux sans risque.
 
   - id: red-ferment-temp-range-001
     type: mcq
@@ -90,6 +127,18 @@ cards:
         red is often kept towards the cooler end, a deeply coloured,
         structured red towards the warmer end. Fermentation gives off heat,
         so large vats need cooling to stay in range.
+    fr:
+      question: "Dans quelle plage de température fermentent la plupart des vins rouges ?"
+      choices:
+        - { text: "Environ 6–12 °C", correct: false }
+        - { text: "Environ 12–22 °C", correct: false }
+        - { text: "Environ 20–32 °C", correct: true }
+        - { text: "Environ 32–40 °C", correct: false }
+      explanation: |
+        La place choisie dans cette plage dépend du style : un rouge léger et fruité reste
+        souvent vers le bas, un rouge coloré et structuré vers le haut. La fermentation
+        dégage de la chaleur, si bien que les grandes cuves doivent être refroidies pour ne
+        pas en sortir.
 
   - id: red-ferment-temp-ceiling-001
     type: mcq
@@ -112,6 +161,18 @@ cards:
         a stuck ferment leaves sugar for spoilage bacteria that raise volatile
         acidity. Because the yeast itself releases heat, an uncooled vat can
         overshoot on its own.
+    fr:
+      question: "Au-delà de quelle température environ un rouge en fermentation met-il sérieusement ses levures en danger ?"
+      choices:
+        - { text: "Environ 28 °C", correct: false }
+        - { text: "Environ 42 °C", correct: false }
+        - { text: "Environ 50 °C", correct: false }
+        - { text: "Environ 35 °C", correct: true }
+      explanation: |
+        Le stress thermique, ajouté à la montée de l’alcool, peut tuer les levures ou
+        bloquer la fermentation. Un arrêt de fermentation laisse du sucre aux bactéries
+        d’altération, qui font grimper l’acidité volatile. Comme les levures dégagent
+        elles-mêmes de la chaleur, une cuve non refroidie peut s’emballer toute seule.
 
   - id: red-cap-formation-001
     type: mcq
@@ -133,6 +194,17 @@ cards:
         Gas bubbles catch on the skins and buoy them to the surface, where
         they pack into a thick mat. Alcohol actually makes the liquid
         slightly less dense than juice, not more.
+    fr:
+      question: "Pourquoi, dans une cuve de rouge en fermentation, les peaux et la pulpe se rassemblent-elles en un chapeau flottant ?"
+      choices:
+        - { text: "L’alcool qui se forme alourdit le jus", correct: false }
+        - { text: "Le gaz carbonique les entraîne vers le haut", correct: true }
+        - { text: "Les levures s’y accrochent et les soulèvent", correct: false }
+        - { text: "Le jus chaud passe sous les peaux plus froides", correct: false }
+      explanation: |
+        Les bulles s’accrochent aux peaux et les font remonter jusqu’à la surface, où elles
+        se tassent en une couche épaisse. L’alcool rend d’ailleurs le liquide un peu moins
+        dense que le jus, et non plus dense.
 
   - id: red-cap-left-floating-001
     type: mcq
@@ -154,6 +226,17 @@ cards:
         Only the bottom of the mat touches the liquid, so most of the skin
         sits out of reach. The exposed top can also dry out and give acetic
         bacteria a foothold.
+    fr:
+      question: "Si l’on ne touche jamais au chapeau d’un rouge en fermentation, quel est le principal effet sur le vin ?"
+      choices:
+        - { text: "Peu de couleur, d’arômes et de tanins extraits", correct: true }
+        - { text: "Une couleur profonde et des tanins durs extraits", correct: false }
+        - { text: "Plus d’alcool, car moins de sucre est perdu", correct: false }
+        - { text: "Plus d’acidité, les peaux cédant de l’acide malique", correct: false }
+      explanation: |
+        Seul le dessous du chapeau touche le liquide : l’essentiel des peaux reste hors
+        d’atteinte. Le dessus, exposé à l’air, peut aussi se dessécher et offrir une prise
+        aux bactéries acétiques.
 
   - id: red-cap-management-levers-001
     type: mcq
@@ -175,6 +258,17 @@ cards:
         A light, early-drinking red might get one short session a day; a
         red built for ageing might get several longer ones at the height of
         fermentation. Tasting the vat daily guides each change.
+    fr:
+      question: "Une fois la technique de travail du chapeau choisie, quels deux réglages permettent au vinificateur d’augmenter ou de réduire l’extraction ?"
+      choices:
+        - { text: "Le matériau de la cuve et le type de couvercle", correct: false }
+        - { text: "La forme de la cuve et la position de la vanne", correct: false }
+        - { text: "La taille du pigeou et la hauteur de la cuve", correct: false }
+        - { text: "La durée et le nombre d’opérations par jour", correct: true }
+      explanation: |
+        Un rouge léger, à boire jeune, peut se contenter d’une courte opération par jour ;
+        un rouge de garde en recevra plusieurs, plus longues, au plus fort de la
+        fermentation. La dégustation quotidienne de la cuve guide chaque ajustement.
 
   - id: red-punchdown-pigeage-001
     type: mcq
@@ -196,6 +290,18 @@ cards:
         In Burgundy it was traditionally done by treading the vat or by hand
         with wooden paddles on long poles. Remontage and délestage are other
         cap techniques; bâtonnage is stirring lees in a barrel.
+    fr:
+      question: "Quel terme de cave désigne l’action d’enfoncer le chapeau d’un rouge en fermentation ?"
+      choices:
+        - { text: "Remontage", correct: false }
+        - { text: "Délestage", correct: false }
+        - { text: "Pigeage", correct: true }
+        - { text: "Bâtonnage", correct: false }
+      explanation: |
+        En Bourgogne, on le pratiquait traditionnellement en foulant la cuve aux pieds, ou à
+        la main avec des pelles de bois montées sur de longs manches. Le remontage et le
+        délestage sont d’autres façons de travailler le chapeau ; le bâtonnage consiste à
+        remettre les lies en suspension dans la barrique.
 
   - id: red-punchdown-co2-hazard-001
     type: mcq
@@ -218,6 +324,18 @@ cards:
         worker's head is, and can cause collapse without warning. Mechanical
         or pneumatic plungers, plus good ventilation, now do much of this
         work.
+    fr:
+      question: "Quel était le principal danger pour le personnel de cave qui pigeait à la main au-dessus des cuves ouvertes ?"
+      choices:
+        - { text: "Les vapeurs de dioxyde de soufre", correct: false }
+        - { text: "L’intoxication au gaz carbonique", correct: true }
+        - { text: "L’intoxication aux vapeurs d’éthanol", correct: false }
+        - { text: "Les émanations d’hydrogène sulfuré", correct: false }
+      explanation: |
+        Plus lourd que l’air, le gaz s’accumule juste au-dessus du chapeau, à hauteur du
+        visage, et peut provoquer un malaise brutal, sans signe avant-coureur. Des pigeurs
+        mécaniques ou pneumatiques, avec une bonne ventilation, assurent aujourd’hui une
+        grande partie de ce travail.
 
   - id: red-punchdown-vs-pumpover-001
     type: mcq
@@ -240,6 +358,18 @@ cards:
         up, so fresh skin surfaces meet the juice each time. That intensity
         is why thin-skinned grapes are often plunged and why the number of
         sessions is watched closely.
+    fr:
+      question: "Par rapport au remontage, qu’apporte généralement le pigeage à un rouge en fermentation ?"
+      choices:
+        - { text: "Moins d’alcool en fin de fermentation", correct: false }
+        - { text: "Une couleur plus pâle mais des tanins plus fermes", correct: false }
+        - { text: "Des tanins plus souples, par une extraction plus lente", correct: false }
+        - { text: "Plus de couleur et de tanins à chaque opération", correct: true }
+      explanation: |
+        Le pigeage enfonce toute la masse des peaux dans le liquide et la disloque : de
+        nouvelles surfaces de pellicule rencontrent le jus à chaque passage. Cette intensité
+        explique qu’on pige souvent les cépages à peau fine, et qu’on surveille de près le
+        nombre d’opérations.
 
   - id: red-tannin-late-ferment-001
     type: mcq
@@ -261,6 +391,17 @@ cards:
         Tannin, especially from the seeds, dissolves far more readily once
         alcohol has built up. Many winemakers therefore ease off the cap work
         and cool the vat over the last days of fermentation.
+    fr:
+      question: "À quel stade de la fermentation d’un rouge un travail intensif du chapeau risque-t-il le plus d’extraire trop de tanins durs ?"
+      choices:
+        - { text: "Dans les premières heures après le foulage", correct: false }
+        - { text: "Au pic de fermentation, quand la cuve est la plus chaude", correct: false }
+        - { text: "En fin de fermentation, quand le vin est presque sec", correct: true }
+        - { text: "Tant que la teneur en sucre reste élevée", correct: false }
+      explanation: |
+        Les tanins, surtout ceux des pépins, se dissolvent bien plus facilement une fois que
+        l’alcool s’est accumulé. Beaucoup de vinificateurs allègent donc le travail du
+        chapeau et refroidissent la cuve pendant les derniers jours de fermentation.
 
   - id: red-pumpover-method-001
     type: mcq
@@ -282,6 +423,17 @@ cards:
         A pump outside the vat lifts the juice from a valve near the base
         through a hose to a spray head or rotating arm, so the whole surface
         of the cap is soaked evenly.
+    fr:
+      question: "Quelle technique prélève le jus au bas de la cuve pour l’arroser sur le chapeau, la cuve restant pleine ?"
+      choices:
+        - { text: "Remontage", correct: true }
+        - { text: "Pigeage", correct: false }
+        - { text: "Délestage", correct: false }
+        - { text: "Cuve rotative", correct: false }
+      explanation: |
+        Une pompe placée hors de la cuve aspire le jus par une vanne proche du fond et le
+        renvoie, par un tuyau, vers une rampe d’aspersion ou un bras rotatif : toute la
+        surface du chapeau est ainsi arrosée de façon homogène.
 
   - id: red-pumpover-benefit-001
     type: mcq
@@ -304,6 +456,18 @@ cards:
         fermentation, and moving warm juice through pipes and air sheds heat.
         The juice can also be routed through a heat exchanger on its way back
         to the top.
+    fr:
+      question: "Outre le maintien du chapeau humide, quels deux rôles le remontage remplit-il bien dans un rouge en fermentation ?"
+      choices:
+        - { text: "Décanter les bourbes et protéger le moût de l’oxygène", correct: false }
+        - { text: "Aérer le moût et évacuer la chaleur", correct: true }
+        - { text: "Extraire les tanins des pépins et relever l’acidité", correct: false }
+        - { text: "Préserver les arômes et faire déposer les lies", correct: false }
+      explanation: |
+        En début de fermentation, les levures ont besoin d’un peu d’oxygène pour bâtir des
+        membranes solides ; faire circuler le jus chaud dans les tuyaux et à l’air libre
+        dissipe aussi la chaleur. Le jus peut en outre passer par un échangeur thermique
+        avant de retomber sur le chapeau.
 
   - id: red-rack-return-method-001
     type: mcq
@@ -325,6 +489,17 @@ cards:
         With the liquid gone, the cap slumps under its own weight and drains.
         When the juice is returned in one go, it floods the whole mass of
         skins at once rather than trickling over the top.
+    fr:
+      question: "Quelle technique vide tout le jus en fermentation dans une autre cuve, puis le renvoie sur les peaux restées en place ?"
+      choices:
+        - { text: "Pigeage", correct: false }
+        - { text: "Remontage", correct: false }
+        - { text: "Cuve rotative", correct: false }
+        - { text: "Délestage", correct: true }
+      explanation: |
+        Privé de liquide, le chapeau s’affaisse sous son propre poids et s’égoutte. Renvoyé
+        d’un seul coup, le jus inonde alors toute la masse des peaux au lieu de simplement
+        ruisseler par le dessus.
 
   - id: red-rack-return-frequency-001
     type: mcq
@@ -347,6 +522,18 @@ cards:
         operation than a pump-over. It also takes a spare tank and pump time,
         so in practice it is used as an occasional boost rather than a daily
         routine.
+    fr:
+      question: "Combien de fois pratique-t-on habituellement le délestage au cours d’une fermentation en rouge ?"
+      choices:
+        - { text: "Une ou deux fois en tout", correct: true }
+        - { text: "Deux ou trois fois par jour", correct: false }
+        - { text: "Environ une fois par semaine", correct: false }
+        - { text: "Une fois par jour jusqu’à la fin de la fermentation", correct: false }
+      explanation: |
+        Chaque délestage égoutte entièrement les peaux puis les remouille : c’est une
+        opération bien plus lourde qu’un remontage. Il mobilise aussi une cuve libre et du
+        temps de pompe ; en pratique, on s’en sert comme d’un coup de pouce ponctuel plutôt
+        que d’une routine quotidienne.
 
   - id: red-rack-return-heat-001
     type: mcq
@@ -368,6 +555,17 @@ cards:
         Moving the entire volume of juice out of the vat and back breaks up
         hot spots, and the drained cap cools while it sits exposed. The
         transfer also splashes air into the juice.
+    fr:
+      question: "Outre l’extraction, quel avantage pratique le délestage apporte-t-il à un rouge en fermentation ?"
+      choices:
+        - { text: "Il protège le moût de l’oxygène", correct: false }
+        - { text: "Il augmente l’acidité du moût", correct: false }
+        - { text: "Il aide à refroidir la cuve", correct: true }
+        - { text: "Il fait déposer les bourbes", correct: false }
+      explanation: |
+        Sortir tout le volume de jus de la cuve puis l’y renvoyer casse les points chauds,
+        et le chapeau égoutté se refroidit tant qu’il reste à l’air. Le transfert aère aussi
+        le jus.
 
   - id: red-rotary-tank-shape-001
     type: mcq
@@ -389,6 +587,17 @@ cards:
         The tank turns on its long axis, driven by a motor. These vessels
         are costly, so they are mostly found in larger wineries that need to
         cut the time each batch spends on skins.
+    fr:
+      question: "Quelle forme de cuve utilise-t-on pour vinifier les rouges en cuve rotative ?"
+      choices:
+        - { text: "Un cylindre haut et vertical", correct: false }
+        - { text: "Une cuve en béton en forme d’œuf", correct: false }
+        - { text: "Un cylindre horizontal", correct: true }
+        - { text: "Une cuve large et tronconique", correct: false }
+      explanation: |
+        Entraînée par un moteur, la cuve tourne sur son axe longitudinal. Ces équipements
+        coûtent cher : on les trouve surtout dans les grandes caves qui doivent raccourcir
+        la cuvaison de chaque lot.
 
   - id: red-rotary-aim-001
     type: mcq
@@ -410,6 +619,17 @@ cards:
         Because the skins never form a settled mat, extraction runs quickly
         and evenly, so colour and flavour can be reached in a shorter time on
         skins.
+    fr:
+      question: "Pendant une fermentation de rouge en cuve rotative, à quoi sert la rotation de la cuve ?"
+      choices:
+        - { text: "Aérer doucement, avec peu d’extraction", correct: false }
+        - { text: "Refroidir le moût sans chemise", correct: false }
+        - { text: "Séparer les pépins des peaux", correct: false }
+        - { text: "Mélanger les peaux au jus en continu", correct: true }
+      explanation: |
+        Comme les peaux ne forment jamais de chapeau tassé, l’extraction est rapide et
+        régulière : la couleur et les arômes voulus sont obtenus avec une cuvaison plus
+        courte.
 
   - id: red-ferment-vessel-open-001
     type: mcq
@@ -431,6 +651,17 @@ cards:
         Plungers, hoses and workers need easy access to the surface of the
         cap. The vats can be wood, concrete or steel; what matters is the
         wide, reachable top.
+    fr:
+      question: "Quel type de cuve convient aux fermentations de rouges qui reposent sur un travail régulier du chapeau ?"
+      choices:
+        - { text: "De petites cuves inox fermées", correct: false }
+        - { text: "De grandes cuves ouvertes", correct: true }
+        - { text: "Des cuves fermées résistant à la pression", correct: false }
+        - { text: "Des cylindres étroits à couvercle fixe", correct: false }
+      explanation: |
+        Pigeous, tuyaux et opérateurs doivent accéder facilement à la surface du chapeau.
+        Les cuves peuvent être en bois, en béton ou en inox ; l’essentiel est un dessus
+        large et accessible.
 
   - id: red-barrel-ferment-contact-001
     type: mcq
@@ -454,6 +685,19 @@ cards:
         A few top estates get round this by removing one head of the barrel
         or by rolling barrels fitted with a door, a method known as
         vinification intégrale.
+    fr:
+      question: "Pourquoi fait-on rarement fermenter les rouges sur leurs peaux dans des barriques fermées ordinaires ?"
+      choices:
+        - { text: "Le tanin du chêne rendrait le vin trop amer", correct: false }
+        - { text: "Les douelles se fendraient sous la chaleur", correct: false }
+        - { text: "Peaux et jus y restent mal en contact", correct: true }
+        - { text: "Une petite barrique évacue mal la chaleur", correct: false }
+      explanation: |
+        Le chapeau se coince sous la bonde, hors de portée du pigeou ou de la pompe ; à
+        l’inverse, les grandes cuves de bois ouvertes sont un fermenteur classique des
+        rouges. Quelques grands domaines contournent l’obstacle en ôtant un fond de la
+        barrique, ou en faisant rouler des fûts munis d’une porte : c’est la vinification
+        intégrale.
 
   - id: red-post-ferment-maceration-aim-001
     type: mcq
@@ -475,6 +719,17 @@ cards:
         Skins and seeds keep giving up tannin for as long as they sit in the
         wine. The vat is usually sealed and kept full during this phase,
         because the wine is no longer shielded by fermentation gas.
+    fr:
+      question: "Quel est le but principal quand on laisse un vin rouge sur ses peaux une fois la fermentation terminée ?"
+      choices:
+        - { text: "Préserver les arômes de fruit frais", correct: false }
+        - { text: "Extraire davantage de tanins", correct: true }
+        - { text: "Évacuer la chaleur de la cuve", correct: false }
+        - { text: "Faire déposer les lies de levures", correct: false }
+      explanation: |
+        Peaux et pépins continuent de céder des tanins tant qu’ils baignent dans le vin.
+        Pendant cette macération post-fermentaire, la cuve est en général fermée et
+        maintenue pleine, car le vin n’est plus protégé par le gaz de fermentation.
 
   - id: red-post-ferment-maceration-texture-001
     type: mcq
@@ -496,6 +751,17 @@ cards:
         Over weeks on the skins, tannin molecules are thought to bind into
         longer chains that feel less grippy. Traditional Barolo cellars often
         keep Nebbiolo on its skins for a month or more.
+    fr:
+      question: "Quelle texture de tanins certains vinificateurs recherchent-ils par une longue macération post-fermentaire ?"
+      choices:
+        - { text: "Plus rugueuse et plus asséchante", correct: false }
+        - { text: "Plus verte et plus amère", correct: false }
+        - { text: "Plus légère, à peine perceptible", correct: false }
+        - { text: "Plus souple et plus ronde", correct: true }
+      explanation: |
+        Au fil des semaines sur les peaux, les tanins se lieraient en chaînes plus longues,
+        moins accrocheuses en bouche. Dans les caves traditionnelles de Barolo, le Nebbiolo
+        reste souvent un mois ou plus sur ses peaux.
 
   - id: red-free-run-first-001
     type: mcq
@@ -517,6 +783,17 @@ cards:
         The liquid that flows out under its own weight is usually most of
         the volume. Only then is the remaining mass of skins and seeds dug
         out of the vat and sent to the press.
+    fr:
+      question: "Une fois la cuvaison d’un rouge terminée, quelle est en général la première étape ?"
+      choices:
+        - { text: "Écouler le vin de goutte", correct: true }
+        - { text: "Presser d’un coup tout le contenu de la cuve", correct: false }
+        - { text: "Soutirer le vin directement en barrique", correct: false }
+        - { text: "Ajouter une colle dans la cuve", correct: false }
+      explanation: |
+        Le liquide qui s’écoule par simple gravité représente le plus souvent l’essentiel du
+        volume. Ce n’est qu’ensuite que le marc restant, peaux et pépins, est sorti de la
+        cuve (décuvage) et envoyé au pressoir.
 
   - id: red-press-wine-term-001
     type: mcq
@@ -538,6 +815,18 @@ cards:
         The French call it vin de presse. A second wine is a château's
         second label, and piquette is a light drink made by soaking spent
         pomace in water and fermenting it again.
+    fr:
+      question: "Comment appelle-t-on le vin rouge qu’on extrait du marc égoutté, une fois la fermentation terminée ?"
+      choices:
+        - { text: "Vin de goutte", correct: false }
+        - { text: "Second vin", correct: false }
+        - { text: "Piquette", correct: false }
+        - { text: "Vin de presse", correct: true }
+      explanation: |
+        Il se distingue du vin de goutte, qui s’écoule seul de la cuve avant le pressurage.
+        Le second vin est la deuxième étiquette d’un château, et la piquette une boisson
+        légère obtenue en faisant macérer du marc épuisé dans de l’eau, puis en laissant
+        fermenter ce mélange.
 
   - id: red-press-wine-change-001
     type: mcq
@@ -560,6 +849,17 @@ cards:
         wrung from the skins. Kept apart, the harder pressings become a
         tool at blending time: a little can be added back to lift the
         colour or firm up the tannin of the final wine.
+    fr:
+      question: "À mesure que le pressurage des marcs rouges avance et que la pression monte, comment évolue le vin qui sort du pressoir ?"
+      choices:
+        - { text: "Plus pâle et plus souple", correct: false }
+        - { text: "Plus fruité et moins tannique", correct: false }
+        - { text: "Plus coloré et plus tannique", correct: true }
+        - { text: "Moins alcoolisé et plus pâle", correct: false }
+      explanation: |
+        Le premier vin qui sort ressemble au vin de goutte ; ensuite, on tire davantage des
+        peaux. Gardées à part, les dernières presses deviennent un outil d’assemblage : on
+        en réintègre un peu pour renforcer la couleur ou raffermir les tanins du vin final.
 
   - id: red-whole-bunch-stem-ripeness-001
     type: mcq
@@ -582,6 +882,18 @@ cards:
         tannin into the wine. Ripe stalks have turned brown and woody
         (lignified), which is why growers often taste and snap them before
         deciding.
+    fr:
+      question: "Avant de vinifier un rouge en vendange entière, que doit surtout vérifier le vinificateur ?"
+      choices:
+        - { text: "Que les rafles sont mûres", correct: true }
+        - { text: "Que les pellicules sont épaisses", correct: false }
+        - { text: "Que la teneur en sucre est très élevée", correct: false }
+        - { text: "Que l’acidité est basse", correct: false }
+      explanation: |
+        Des rafles vertes, encore herbacées, libèrent dans le vin des notes amères et
+        végétales et des tanins durs. Mûres, elles ont bruni et se sont lignifiées ; c’est
+        pourquoi les vignerons les goûtent et les cassent souvent avant de décider.
+
 
   - id: red-intracellular-enzymes-001
     type: mcq
@@ -604,6 +916,19 @@ cards:
         metabolism that turns some sugar into alcohol and builds new aroma
         compounds. The same process breaks down part of the malic acid, so
         the wine can taste a little softer.
+    fr:
+      question: "Quand des baies intactes sont tenues à l’abri de l’oxygène, qu’est-ce qui produit le premier alcool à l’intérieur ?"
+      choices:
+        - { text: "Les levures indigènes de la pruine", correct: false }
+        - { text: "Une levure sélectionnée ajoutée", correct: false }
+        - { text: "Les enzymes propres à la baie", correct: true }
+        - { text: "Les bactéries lactiques", correct: false }
+      explanation: |
+        C’est la fermentation intracellulaire : privées d’oxygène, les cellules de la baie
+        passent à un métabolisme anaérobie qui change une partie du sucre en alcool et forme
+        de nouveaux composés aromatiques. Le même processus dégrade une partie de l’acide
+        malique, d’où un vin parfois un peu plus souple.
+
 
   - id: red-carbonic-co2-flush-001
     type: mcq
@@ -625,6 +950,18 @@ cards:
         Being heavier than air, the gas sinks through the bunches and pushes
         the air up and out of the vat. A sealed lid alone would trap the air
         already caught between the bunches.
+    fr:
+      question: "En macération carbonique, comment chasse-t-on au départ l’oxygène autour des grappes intactes ?"
+      choices:
+        - { text: "Par un fort sulfitage", correct: false }
+        - { text: "En refroidissant la cuve près de 0 °C", correct: false }
+        - { text: "En remplissant la cuve de CO₂", correct: true }
+        - { text: "En fermant la cuve une fois pleine", correct: false }
+      explanation: |
+        Plus lourd que l’air, le gaz carbonique descend entre les grappes et pousse l’air vers
+        le haut, hors de la cuve. Fermer la cuve ne suffirait pas : l’air déjà logé entre les
+        grappes resterait piégé.
+
 
   - id: red-carbonic-berry-split-001
     type: mcq
@@ -646,6 +983,18 @@ cards:
         The berry's own metabolism cannot go much further, and its cells
         start to break down and leak juice, which yeast then ferments in
         the ordinary way.
+    fr:
+      question: "En macération carbonique, à partir de quel degré d’alcool dans la baie celle-ci commence-t-elle à éclater ?"
+      choices:
+        - { text: "Environ 5 % vol.", correct: false }
+        - { text: "Environ 2 % vol.", correct: true }
+        - { text: "Environ 8 % vol.", correct: false }
+        - { text: "Environ 11 % vol.", correct: false }
+      explanation: |
+        Le métabolisme propre de la baie ne peut guère aller plus loin : ses cellules se
+        dégradent et laissent fuir le jus, que les levures fermentent ensuite de façon
+        classique.
+
 
   - id: red-carbonic-structure-001
     type: mcq
@@ -667,6 +1016,18 @@ cards:
         Inside the intact berry, pigment leaches from the skin into the
         pulp, but the skins and seeds are never worked against the juice, so
         little tannin comes out. Seed tannin in particular stays locked away.
+    fr:
+      question: "Quel profil de couleur et de tanins une macération carbonique complète donne-t-elle d’ordinaire à un rouge ?"
+      choices:
+        - { text: "Couleur pâle mais tanins fermes", correct: false }
+        - { text: "Bonne couleur mais peu de tanins", correct: true }
+        - { text: "Couleur profonde et tanins fermes", correct: false }
+        - { text: "Couleur pâle et tanins souples", correct: false }
+      explanation: |
+        Dans la baie intacte, les pigments migrent de la pellicule vers la pulpe, mais
+        pellicules et pépins ne sont jamais travaillés dans le jus : peu de tanins sont
+        extraits. Ceux des pépins, en particulier, restent prisonniers.
+
 
   - id: red-carbonic-aromas-001
     type: mcq
@@ -689,6 +1050,18 @@ cards:
         drawn from the grape variety. Esters such as ethyl cinnamate, linked
         to the cinnamon and strawberry note, are found at higher levels in
         carbonic wines.
+    fr:
+      question: "Quelle série d’arômes signe le plus nettement un rouge issu de macération carbonique ?"
+      choices:
+        - { text: "Cassis, cèdre, menthe et graphite", correct: false }
+        - { text: "Poivre noir, violette, olive et viande fumée", correct: false }
+        - { text: "Prune, figue, chocolat et pruneau", correct: false }
+        - { text: "Kirsch, banane, bonbon anglais et cannelle", correct: true }
+      explanation: |
+        Ces notes naissent de la fermentation dans la baie, pas du cépage. Des esters comme le
+        cinnamate d’éthyle, associé aux notes de cannelle et de fraise, sont plus abondants
+        dans les vins de macération carbonique.
+
 
   - id: red-semi-carbonic-co2-source-001
     type: mcq
@@ -711,6 +1084,18 @@ cards:
         starts on that juice. The gas it gives off rises and blankets the
         intact berries above, which is how much traditional Beaujolais is
         made.
+    fr:
+      question: "En macération semi-carbonique, d’où vient l’essentiel du gaz carbonique qui entoure les grappes intactes du haut de la cuve ?"
+      choices:
+        - { text: "Du CO₂ en bouteille injecté avant fermeture", correct: false }
+        - { text: "Des levures qui fermentent le jus libéré au fond", correct: true }
+        - { text: "Des bactéries malolactiques actives dans le jus", correct: false }
+        - { text: "De levures sélectionnées pulvérisées sur le dessus", correct: false }
+      explanation: |
+        Le poids de la vendange écrase les grappes du bas, et les levures indigènes démarrent
+        sur ce jus. Le gaz dégagé monte et recouvre les baies intactes au-dessus : c’est ainsi
+        qu’est vinifiée une grande partie du Beaujolais traditionnel.
+
 
   - id: red-pinot-semi-carbonic-skins-001
     type: mcq
@@ -732,6 +1117,18 @@ cards:
         Each plunge bursts more intact berries, so the carbonic share keeps
         shrinking until every grape is broken and a normal skin fermentation
         takes over. A post-fermentation maceration may follow.
+    fr:
+      question: "Quand certains Pinot Noir haut de gamme démarrent par une phase semi-carbonique, comment la vinification se poursuit-elle le plus souvent ?"
+      choices:
+        - { text: "Les grappes sont pressées tôt et le jus finit de fermenter en cuve", correct: false }
+        - { text: "Les grappes restent sous gaz carbonique jusqu’au pressurage", correct: false }
+        - { text: "Le pigeage éclate les baies et la fermentation finit sur marc", correct: true }
+        - { text: "Une partie du jus est saignée tôt et vinifiée en rosé", correct: false }
+      explanation: |
+        Chaque pigeage fait éclater de nouvelles baies intactes : la part carbonique se réduit
+        jusqu’à ce que tous les grains soient rompus et qu’une fermentation classique sur marc
+        prenne le relais. Une macération post-fermentaire peut suivre.
+
 
   - id: red-pinot-whole-bunch-aroma-001
     type: mcq
@@ -753,6 +1150,18 @@ cards:
         Because only part of the fermentation happens inside intact berries,
         those aromas stay in the background and knit with the grape's own
         red-fruit and floral character instead of dominating it.
+    fr:
+      question: "Par rapport à un rouge de macération carbonique classique, qu’apporte un départ en partie semi-carbonique à un Pinot Noir haut de gamme ?"
+      choices:
+        - { text: "Des fruits noirs plus mûrs, plus confiturés", correct: false }
+        - { text: "Un caractère plus oxydatif, de fruits secs", correct: false }
+        - { text: "Des notes carboniques discrètes et fondues", correct: true }
+        - { text: "Des épices de fût neuf plus marquées", correct: false }
+      explanation: |
+        Comme la fermentation intracellulaire ne touche qu’une partie de la vendange, ses
+        arômes restent en retrait et se fondent dans le fruit rouge et le floral du cépage au
+        lieu de les dominer.
+
 
   - id: red-whole-bunch-submerged-001
     type: mcq
@@ -774,6 +1183,17 @@ cards:
         The juice from the crushed fruit is already fermenting and
         saturated with carbon dioxide, so berries lying in it have no air
         to draw on and some intracellular fermentation can begin.
+    fr:
+      question: "Quand des grappes entières sont mêlées à des raisins foulés dans une cuve de rouge, qu’est-ce qui protège surtout les baies intactes de l’oxygène ?"
+      choices:
+        - { text: "Elles baignent dans le jus en fermentation", correct: true }
+        - { text: "Une épaisse pruine cireuse scelle chaque baie", correct: false }
+        - { text: "Du SO₂ ajouté au moment du foulage", correct: false }
+        - { text: "Une cuve refroidie presque à zéro degré", correct: false }
+      explanation: |
+        Le jus des raisins foulés fermente déjà et il est saturé de gaz carbonique : les baies
+        qui y trempent n’ont plus d’air, et une fermentation intracellulaire peut démarrer.
+
 
   - id: red-whole-bunch-share-001
     type: mcq
@@ -795,6 +1215,17 @@ cards:
         More intact berries means more fruit going through its own
         oxygen-free fermentation inside its skin, so the intracellular
         contribution to the finished blend grows.
+    fr:
+      question: "Dans une cuve de rouge qui mêle raisins foulés et grappes entières, comment le vinificateur obtient-il davantage de caractère carbonique ?"
+      choices:
+        - { text: "En fermentant à plus haute température", correct: false }
+        - { text: "En pigeant plus souvent", correct: false }
+        - { text: "En augmentant la part de grappes entières", correct: true }
+        - { text: "En allongeant la macération post-fermentaire", correct: false }
+      explanation: |
+        Plus il y a de baies intactes, plus il y a de raisins qui fermentent sans oxygène à
+        l’intérieur de leur pellicule, et plus la part intracellulaire pèse dans le vin final.
+
 
   - id: red-whole-bunch-share-effects-001
     type: mcq
@@ -817,6 +1248,19 @@ cards:
         tends to give a slightly paler, lighter-feeling wine rather than a darker one.
         Domaine Dujac in Morey-Saint-Denis is a well-known Burgundy example of a
         whole-cluster house.
+    fr:
+      question: "Par rapport à une cuve entièrement foulée, quels effets attribue-t-on d’ordinaire à l’ajout de grappes entières parmi les raisins foulés ?"
+      choices:
+        - { text: "Une couleur plus profonde, des fruits plus noirs", correct: false }
+        - { text: "Plus d’alcool et un fruit plus confituré", correct: false }
+        - { text: "Une texture plus soyeuse, un fruit plus vif", correct: true }
+        - { text: "Plus d’épices boisées et une bouche plus large", correct: false }
+      explanation: |
+        Les rafles mûres absorbent un peu de pigment et d’alcool : une forte proportion de
+        vendange entière donne plutôt un vin un peu plus pâle et plus léger, pas plus sombre.
+        Le Domaine Dujac, à Morey-Saint-Denis, est un exemple bourguignon réputé de
+        vinification en grappes entières.
+
 
   - id: red-maturation-oak-decision-001
     type: mcq
@@ -838,6 +1282,18 @@ cards:
         Once that is settled, the follow-up questions are barrel size, age, toast and
         time in wood. Lees work and cold stabilisation are fine-tuning by comparison
         for most reds.
+    fr:
+      question: "Entre la fermentation et la mise en bouteille, quel choix pèse d’habitude le plus sur l’élevage d’un vin rouge ?"
+      choices:
+        - { text: "Élever ou non en fût", correct: true }
+        - { text: "Bâtonner ou non les lies", correct: false }
+        - { text: "Stabiliser ou non par le froid", correct: false }
+        - { text: "Faire ou non une filtration stérile", correct: false }
+      explanation: |
+        Une fois ce point tranché viennent la taille des fûts, leur âge, la chauffe et la
+        durée de l’élevage sous bois. Pour la plupart des rouges, le travail des lies et la
+        stabilisation par le froid ne sont, en comparaison, que des réglages fins.
+
 
   - id: red-mlf-near-universal-001
     type: mcq
@@ -860,6 +1316,19 @@ cards:
         bacteria to convert it after bottling, with gas and haze. Many premium reds
         complete the conversion in barrel, which some makers feel helps the oak
         integrate.
+    fr:
+      question: "Quelle est la place de la fermentation malolactique dans les vins rouges ?"
+      choices:
+        - { text: "Courante surtout dans les rouges de climat frais", correct: false }
+        - { text: "Réservée surtout aux rouges haut de gamme élevés en fût", correct: false }
+        - { text: "Fréquente en Bourgogne, rare ailleurs", correct: false }
+        - { text: "Presque tous les rouges y passent", correct: true }
+      explanation: |
+        L’acide malique, mordant, s’accorde mal avec les tanins ; le laisser dans le vin,
+        c’est risquer que des bactéries le transforment après la mise, avec gaz et trouble.
+        Beaucoup de grands rouges la font en barrique, ce qui, selon certains vinificateurs,
+        aide le bois à se fondre.
+
 
   - id: red-lees-ageing-less-001
     type: mcq
@@ -881,6 +1350,19 @@ cards:
         The bready, creamy notes that matter in a Muscadet sur lie or a barrel-aged
         Chardonnay are easily lost behind dark fruit, tannin and oak. Some red makers
         still keep their wine on fine lees for texture, but it is rarely the headline.
+    fr:
+      question: "Pourquoi un long élevage sur lies tient-il moins de place en vinification rouge qu’en vinification blanche ?"
+      choices:
+        - { text: "Les lies de rouge décantent trop lentement pour être bâtonnées", correct: false }
+        - { text: "Les arômes plus marqués du rouge masquent l’apport des lies", correct: true }
+        - { text: "Les lies tendent à dépouiller le rouge de son fruit", correct: false }
+        - { text: "Les lies tendent à rendre le rouge plus tannique", correct: false }
+      explanation: |
+        Les notes de pain et de crème qui comptent dans un Muscadet sur lie ou un Chardonnay
+        élevé en barrique se perdent vite derrière le fruit noir, les tanins et le bois.
+        Certains vinificateurs gardent tout de même leur rouge sur lies fines pour la texture,
+        mais c’est rarement l’essentiel.
+
 
   - id: red-oak-subtle-integration-001
     type: mcq
@@ -902,6 +1384,18 @@ cards:
         A large cask has less wood surface per litre, and a used barrel has already given
         up much of its extractable flavour. Many producers have moved this way after the
         fashion for all-new small barriques on premium reds lost ground.
+    fr:
+      question: "Un producteur de rouge veut un boisé discret et bien fondu. Quel programme de fûts correspond à cet objectif ?"
+      choices:
+        - { text: "Des fûts plus petits, plus fortement chauffés", correct: false }
+        - { text: "Une part plus élevée de barriques neuves", correct: false }
+        - { text: "Le passage du chêne français au chêne américain", correct: false }
+        - { text: "Des fûts plus grands et d’âges variés", correct: true }
+      explanation: |
+        Un grand contenant offre moins de surface de bois par litre, et un fût usagé a déjà
+        cédé une bonne part de ses arômes extractibles. Beaucoup de producteurs ont pris ce
+        chemin quand la mode des barriques 100 % neuves sur les grands rouges a reculé.
+
 
   - id: red-oak-top-cuvee-regime-001
     type: mcq
@@ -923,6 +1417,18 @@ cards:
         Leading Bordeaux estates are a clear case: the grand vin typically sees all or
         most new barriques, while the second wine gets a smaller share of new wood and
         often a shorter stay.
+    fr:
+      question: "Chez un même producteur de rouge, en quoi l’élevage du vin de tête diffère-t-il d’ordinaire de celui de l’entrée de gamme ?"
+      choices:
+        - { text: "Cuve inox seule, pour garder un fruit pur", correct: false }
+        - { text: "Plus long en fût, avec plus de bois neuf", correct: true }
+        - { text: "Copeaux ajoutés pendant la fermentation", correct: false }
+        - { text: "Cuves béton, pour éviter le goût de bois", correct: false }
+      explanation: |
+        Les grands châteaux bordelais en sont un bon exemple : le grand vin passe le plus
+        souvent en barriques neuves en totalité ou presque, tandis que le second vin reçoit
+        moins de bois neuf et un élevage souvent plus court.
+
 
   - id: red-oak-fruit-concentration-001
     type: mcq
@@ -944,6 +1450,18 @@ cards:
         New barrels release vanilla, toast and wood tannin quickly. A dilute wine ends up
         tasting mostly of the barrel; dense fruit can absorb those notes and come out
         layered instead.
+    fr:
+      question: "Pourquoi un rouge destiné à une forte proportion de fûts neufs doit-il avoir un fruit très concentré ?"
+      choices:
+        - { text: "Pour pouvoir finir sa fermentation en fût", correct: false }
+        - { text: "Pour avoir besoin de moins de SO₂ en fût", correct: false }
+        - { text: "Pour que le bois n’écrase pas le fruit", correct: true }
+        - { text: "Pour extraire moins de tanins du bois", correct: false }
+      explanation: |
+        Le fût neuf libère vite vanille, notes grillées et tanins de bois. Un vin dilué finit
+        par sentir surtout la barrique ; un fruit dense absorbe ces apports et gagne en
+        complexité.
+
 
   - id: red-blending-purpose-001
     type: mcq
@@ -964,6 +1482,17 @@ cards:
       explanation: |
         Each lot brings something the others lack. In the southern Rhône, for example,
         Syrah and Mourvèdre are added to Grenache for colour and backbone.
+    fr:
+      question: "Quand un vinificateur assemble des lots de rouge distincts, quel est le but principal ?"
+      choices:
+        - { text: "Équilibrer couleur, corps, tanins et arômes", correct: true }
+        - { text: "Se passer d’un collage ultérieur", correct: false }
+        - { text: "Déclencher la fermentation malolactique", correct: false }
+        - { text: "Éviter les dépôts de cristaux de tartre en bouteille", correct: false }
+      explanation: |
+        Chaque lot apporte ce qui manque aux autres. Dans la vallée du Rhône méridionale, par
+        exemple, on ajoute Syrah et Mourvèdre au Grenache pour la couleur et la structure.
+
 
   - id: red-unfined-unfiltered-reason-001
     type: mcq
@@ -985,6 +1514,19 @@ cards:
         Fining agents bind tannin and other phenolics as well as haze, and a tight filter
         can hold back some flavour-carrying material. Such wines are often labelled
         "unfined" or "unfiltered", and buyers accept a deposit in older bottles.
+    fr:
+      question: "Pourquoi certains producteurs de grands rouges réduisent-ils au minimum le collage et la filtration, voire s’en passent-ils ?"
+      choices:
+        - { text: "Pour mettre le vin plus vite sur le marché", correct: false }
+        - { text: "Pour garder davantage de CO₂ dissous", correct: false }
+        - { text: "Pour préserver la structure et les arômes", correct: true }
+        - { text: "Pour augmenter l’acidité du vin", correct: false }
+      explanation: |
+        Les agents de collage fixent les tanins et d’autres composés phénoliques en plus des
+        particules du trouble, et une filtration serrée peut retenir une partie de la matière
+        aromatique. Ces vins portent souvent la mention « non collé » ou « non filtré », et
+        l’amateur accepte un dépôt dans les vieilles bouteilles.
+
 
   - id: red-clarity-sedimentation-001
     type: mcq
@@ -1006,6 +1548,18 @@ cards:
         Over many months in barrel or vat, yeast cells and other particles slowly drop to
         the bottom. Racking the wine off that deposit, often several times, carries it
         towards brightness.
+    fr:
+      question: "Un grand rouge non filtré est limpide à la mise en bouteille. Quelle pratique de chai l’y a le plus probablement mené ?"
+      choices:
+        - { text: "Des bâtonnages réguliers sur lies fines", correct: false }
+        - { text: "Un long élevage avec décantation naturelle", correct: true }
+        - { text: "De la micro-oxygénation en cuve fermée", correct: false }
+        - { text: "Une stabilisation par le froid avant la mise", correct: false }
+      explanation: |
+        Pendant des mois en fût ou en cuve, les levures mortes et les autres particules
+        tombent lentement au fond. Des soutirages, souvent répétés, séparent le vin de ce
+        dépôt et l’amènent à la limpidité.
+
 
   - id: red-bulk-climate-001
     type: mcq
@@ -1027,6 +1581,18 @@ cards:
         Reliable sun ripens big crops every year, and dry air keeps rot pressure low.
         Irrigation from rivers supplies the water, as in Australia's Riverland on the
         Murray.
+    fr:
+      question: "Quelles conditions de culture fournissent l’essentiel des rouges bon marché produits en grand volume ?"
+      choices:
+        - { text: "Très chaud et humide, avec des pluies d’été", correct: false }
+        - { text: "Tempéré chaud et maritime, avec des pluies d’automne", correct: false }
+        - { text: "Frais et continental, avec des étés courts", correct: false }
+        - { text: "Chaud et sec, avec un soleil régulier", correct: true }
+      explanation: |
+        Un soleil régulier mûrit de gros rendements chaque année, et l’air sec limite la
+        pression de la pourriture. L’irrigation puise l’eau dans les fleuves, comme dans le
+        Riverland australien, sur le Murray.
+
 
   - id: red-bulk-varieties-001
     type: mcq
@@ -1048,6 +1614,18 @@ cards:
         All three crop generously and ripen reliably, and Cabernet Sauvignon joins them
         in many blends. Varietal names such as these also sell well on a supermarket
         shelf.
+    fr:
+      question: "Quel groupe de cépages noirs sert largement aux rouges bon marché produits en grand volume ?"
+      choices:
+        - { text: "Shiraz, Merlot et Grenache", correct: true }
+        - { text: "Nebbiolo, Mencía et Cabernet Franc", correct: false }
+        - { text: "Aglianico, Tannat et Xinomavro", correct: false }
+        - { text: "Blaufränkisch, Nebbiolo et Sagrantino", correct: false }
+      explanation: |
+        Ces trois cépages produisent généreusement et mûrissent sans difficulté, et le
+        Cabernet Sauvignon les rejoint dans de nombreux assemblages. Des noms de cépages comme
+        ceux-là se vendent bien en rayon de supermarché.
+
 
   - id: red-bulk-skin-colour-001
     type: mcq
@@ -1069,6 +1647,18 @@ cards:
         Anthocyanins and many aroma compounds sit in the skin, not the pulp. A variety
         rich in them can lose some concentration to a big crop and still deliver a
         sound, deep-enough red.
+    fr:
+      question: "À hauts rendements, qu’est-ce qui permet à certains cépages noirs de donner encore un vin fruité et assez coloré ?"
+      choices:
+        - { text: "De grosses baies, riches en jus", correct: false }
+        - { text: "Une pellicule riche en couleur et en arômes", correct: true }
+        - { text: "Des pellicules fines qui cèdent vite leur couleur", correct: false }
+        - { text: "Un débourrement tardif qui évite les gelées", correct: false }
+      explanation: |
+        Les anthocyanes et de nombreux composés aromatiques se logent dans la pellicule, pas
+        dans la pulpe. Un cépage qui en est riche peut perdre un peu de concentration avec une
+        grosse récolte et donner malgré tout un rouge sain et assez profond.
+
 
   - id: red-bulk-varietal-blur-001
     type: mcq
@@ -1090,6 +1680,18 @@ cards:
         Aromas end up less intense and less complex, and the markers that separate one
         grape from another are the first to go. Blending across regions and varieties
         evens the result out further.
+    fr:
+      question: "Quand des cépages noirs sont poussés à de très hauts rendements pour des vins bon marché, que deviennent les différences entre cépages ?"
+      choices:
+        - { text: "Elles deviennent plus marquées", correct: false }
+        - { text: "Elles restent aussi nettes qu’à faibles rendements", correct: false }
+        - { text: "Elles s’estompent et les vins se ressemblent", correct: true }
+        - { text: "Elles virent au fruit plus mûr et confituré", correct: false }
+      explanation: |
+        Les arômes perdent en intensité et en complexité, et les marqueurs qui distinguent un
+        cépage d’un autre disparaissent les premiers. Les assemblages entre régions et entre
+        cépages lissent encore le résultat.
+
 
   - id: red-bulk-pinot-noir-rare-001
     type: mcq
@@ -1111,6 +1713,17 @@ cards:
         It is also a fussy vine to grow, so cheap Pinot Noir usually costs more to make
         than other entry-level reds, and it is often priced a step above them on the
         shelf.
+    fr:
+      question: "Pourquoi choisit-on rarement le Pinot Noir pour des rouges bon marché produits en grand volume ?"
+      choices:
+        - { text: "Il mûrit trop tard dans les régions de grand volume", correct: false }
+        - { text: "Ses pellicules donnent des tanins durs et excessifs", correct: false }
+        - { text: "Son acidité naturelle est bien trop basse", correct: false }
+        - { text: "Il donne un vin pâle et maigre à hauts rendements", correct: true }
+      explanation: |
+        C’est aussi un cépage capricieux à cultiver : un Pinot Noir bon marché coûte en
+        général plus cher à produire que les autres rouges d’entrée de gamme, et il se vend
+        souvent un cran au-dessus d’eux en rayon.
 
   - id: red-bulk-style-001
     type: mcq
@@ -1132,6 +1745,17 @@ cards:
         These wines are meant to be drunk soon after release, often without food.
         Some labels name the style rather than the grape, with words such as
         "Smooth Red" or "Fruity Red".
+    fr:
+      question: "Dans quel style la plupart des rouges bon marché produits en grand volume sont-ils élaborés ?"
+      choices:
+        - { text: "Fruité, aux tanins souples et légers", correct: true }
+        - { text: "Tannique et ferme, fait pour la garde", correct: false }
+        - { text: "Terreux, épicé, dominé par le bois", correct: false }
+        - { text: "Maigre, très acide et herbacé", correct: false }
+      explanation: |
+        Ces vins sont faits pour être bus peu après leur mise en vente, souvent sans repas.
+        Certaines étiquettes annoncent le style plutôt que le cépage, avec des mentions comme
+        « Smooth Red » ou « Fruity Red ».
 
   - id: red-bulk-acidification-001
     type: mcq
@@ -1154,6 +1778,18 @@ cards:
         high pH, which dulls the fruit and leaves the wine easier prey for spoilage
         microbes. Tartaric acid is used because it is the grape's own main acid and
         is rarely broken down by microbes.
+    fr:
+      question: "Quelle correction du moût est le plus souvent nécessaire pour les rouges bon marché produits en grand volume ?"
+      choices:
+        - { text: "Chaptalisation au saccharose", correct: false }
+        - { text: "Désacidification au carbonate de calcium", correct: false }
+        - { text: "Acidification à l’acide tartrique", correct: true }
+        - { text: "Enrichissement au moût concentré", correct: false }
+      explanation: |
+        Des raisins vendangés bien mûrs sur de gros rendements arrivent souvent pauvres en
+        acidité, avec un pH élevé : le fruit paraît terne et le vin résiste moins bien aux
+        microbes d’altération. On choisit l’acide tartrique parce que c’est le principal acide
+        du raisin et que les microbes le dégradent rarement.
 
   - id: red-bulk-cold-soak-skip-001
     type: mcq
@@ -1175,6 +1811,17 @@ cards:
         At harvest a large cellar needs each fermenter emptied and refilled quickly,
         and chilling big volumes of must also costs refrigeration capacity. The step
         is easier to justify for small premium batches.
+    fr:
+      question: "Pourquoi une cave qui produit de gros volumes de rouge bon marché peut-elle renoncer à la macération préfermentaire à froid ?"
+      choices:
+        - { text: "Elle extrait trop de tanins durs des pépins", correct: false }
+        - { text: "Elle immobilise les cuves trop longtemps", correct: true }
+        - { text: "Elle augmente le risque d’arrêt de fermentation", correct: false }
+        - { text: "Elle fait perdre de la couleur aux pellicules", correct: false }
+      explanation: |
+        Pendant les vendanges, une grande cave doit vider et remplir chaque cuve très vite, et
+        refroidir de gros volumes de moût mobilise aussi la capacité frigorifique. L’étape se
+        justifie plus facilement pour de petits lots haut de gamme.
 
   - id: red-bulk-ferment-temp-001
     type: mcq
@@ -1196,6 +1843,17 @@ cards:
         The band is warm enough for steady colour extraction in a short ferment, yet cool
         enough to hold on to volatile aroma compounds. Exact settings vary by winery and
         grape.
+    fr:
+      question: "À quelle température fermente-t-on couramment les rouges bon marché produits en grand volume ?"
+      choices:
+        - { text: "Environ 26–30 °C", correct: false }
+        - { text: "Environ 15–18 °C", correct: false }
+        - { text: "Environ 30–34 °C", correct: false }
+        - { text: "Environ 22–25 °C", correct: true }
+      explanation: |
+        C’est assez chaud pour extraire régulièrement la couleur pendant une fermentation
+        courte, et assez frais pour garder les composés aromatiques volatils. Les réglages
+        exacts varient selon la cave et le cépage.
 
   - id: red-bulk-cap-management-001
     type: mcq
@@ -1217,6 +1875,17 @@ cards:
         A short ferment with modest pumping over gives enough colour for these wines.
         Frequent hard punch-downs cost labour and time that a high-throughput cellar
         tries to save.
+    fr:
+      question: "Avec quelle intensité travaille-t-on d’habitude le chapeau de marc d’un rouge bon marché produit en grand volume ?"
+      choices:
+        - { text: "Assez modérément, la plupart du temps", correct: true }
+        - { text: "Intensément, pour la couleur et la mâche", correct: false }
+        - { text: "Doucement au début, puis fort en fin de fermentation", correct: false }
+        - { text: "Intensément de bout en bout, puis longue cuvaison", correct: false }
+      explanation: |
+        Une fermentation courte avec quelques remontages donne assez de couleur pour ces vins.
+        Des pigeages fréquents et énergiques coûtent une main-d’œuvre et un temps qu’une cave à
+        gros débit cherche à économiser.
 
   - id: red-bulk-structure-portion-001
     type: mcq
@@ -1238,6 +1907,17 @@ cards:
         Most of the batch stays on a short, gentle regime. A small lot left longer on its
         skins becomes a firmer component that the blender can add in measured doses
         until the target is reached.
+    fr:
+      question: "Comment le producteur d’un rouge bon marché peut-il donner un peu plus de structure à l’assemblage final ?"
+      choices:
+        - { text: "Soutirer le vin plus tôt de ses grosses lies", correct: false }
+        - { text: "Laisser flotter le chapeau sans y toucher", correct: false }
+        - { text: "Y ajouter un petit lot à longue macération", correct: true }
+        - { text: "Refroidir fortement la cuve dès le départ", correct: false }
+      explanation: |
+        L’essentiel du volume suit un régime court et doux. Un petit lot laissé plus longtemps
+        sur ses pellicules devient une composante plus ferme, que l’assembleur ajoute par
+        petites doses jusqu’au profil visé.
 
   - id: red-bulk-barrel-regime-001
     type: mcq
@@ -1259,6 +1939,17 @@ cards:
         Second- or third-fill barrels cost little per bottle and give gentle oxygen to round the tannins
         with only a light wood flavour. A short stay keeps the wine moving towards
         release.
+    fr:
+      question: "Quand un rouge bon marché passe malgré tout en fût, quel élevage est typique ?"
+      choices:
+        - { text: "Deux ans en barriques françaises neuves", correct: false }
+        - { text: "Quelques mois en fûts usagés", correct: true }
+        - { text: "Un an en fûts neufs de chêne américain", correct: false }
+        - { text: "Plusieurs années en vieux foudres", correct: false }
+      explanation: |
+        Des fûts d’un ou deux vins (déjà utilisés une ou deux fois) coûtent peu par bouteille
+        et apportent un peu d’oxygène qui arrondit les tanins, avec un goût boisé discret. Un passage court permet
+        de mettre le vin en marché rapidement.
 
   - id: red-bulk-so2-bottling-001
     type: mcq
@@ -1280,6 +1971,17 @@ cards:
         Free SO₂ is used up as it binds during maturation and handling. Even a short
         shelf life includes warm warehouses and time on a shop shelf, where an
         unprotected wine can turn flat and brown.
+    fr:
+      question: "Un rouge bon marché est fait pour être bu dans les mois qui suivent. Que fait-on en général de sa teneur en SO₂ juste avant la mise en bouteille ?"
+      choices:
+        - { text: "On la laisse baisser, le vin étant bu jeune", correct: false }
+        - { text: "On remplace le SO₂ par du sorbate", correct: false }
+        - { text: "On l’élimine lors de la filtration finale", correct: false }
+        - { text: "On la réajuste contre l’oxydation", correct: true }
+      explanation: |
+        Le SO₂ libre se combine et s’épuise au fil de l’élevage et des manipulations. Même une
+        courte vie en rayon passe par des entrepôts chauds et des étagères de magasin, où un vin
+        mal protégé peut s’éventer et brunir.
 
   - id: red-cabernet-thick-skin-001
     type: mcq
@@ -1300,6 +2002,17 @@ cards:
       explanation: |
         Its berries are also small, so skin makes up a large share of each grape. The
         same tough skin helps the bunches resist rot through a long autumn hang time.
+    fr:
+      question: "Quel trait de la baie donne au Cabernet Sauvignon sa couleur profonde et ses tanins fermes ?"
+      choices:
+        - { text: "Une pellicule épaisse", correct: true }
+        - { text: "De grosses baies juteuses", correct: false }
+        - { text: "Une pellicule fine et fragile", correct: false }
+        - { text: "Des grappes lâches et aérées", correct: false }
+      explanation: |
+        Ses baies sont aussi petites : la pellicule pèse donc lourd dans chaque grain. Cette peau
+        résistante aide en outre les grappes à tenir face à la pourriture pendant une longue
+        maturation d’automne.
 
   - id: red-cabernet-underripe-001
     type: mcq
@@ -1321,6 +2034,17 @@ cards:
         The green-pepper smell comes mainly from methoxypyrazines, especially IBMP, which
         break down in sunlight as the grapes ripen. Seed and skin tannins also stay hard
         when ripening stalls.
+    fr:
+      question: "Que donne en général un Cabernet Sauvignon qui n’a pas atteint sa pleine maturité ?"
+      choices:
+        - { text: "Un fruit confituré et une acidité très basse", correct: false }
+        - { text: "Un fruit passerillé et un alcool très élevé", correct: false }
+        - { text: "Des notes herbacées et des tanins astringents", correct: true }
+        - { text: "Une robe pâle et des tanins très souples", correct: false }
+      explanation: |
+        L’odeur de poivron vert vient surtout des méthoxypyrazines, en particulier l’IBMP, que
+        le soleil dégrade à mesure que le raisin mûrit. Quand la maturation cale, les tanins des
+        pépins et des pellicules restent durs eux aussi.
 
   - id: red-cabernet-merlot-role-001
     type: mcq
@@ -1342,6 +2066,16 @@ cards:
         Merlot's fleshier fruit softens Cabernet's grip without hiding the
         blackcurrant. The pairing is the backbone of many New World
         "Bordeaux blends" as well as the Médoc.
+    fr:
+      question: "Dans un assemblage dominé par le Cabernet Sauvignon, qu’apporte surtout le Merlot ?"
+      choices:
+        - { text: "Plus de couleur et une mâche épicée", correct: false }
+        - { text: "Un fruit juteux de prune, plus souple", correct: true }
+        - { text: "Une note florale et du fruit rouge frais", correct: false }
+        - { text: "Plus d’acidité et des tanins plus fermes", correct: false }
+      explanation: |
+        La chair du Merlot adoucit la poigne du Cabernet sans masquer le cassis. Ce duo est la
+        colonne vertébrale du Médoc comme de nombreux « assemblages bordelais » du Nouveau Monde.
 
   - id: red-cabernet-europe-partners-001
     type: mcq
@@ -1363,6 +2097,17 @@ cards:
         In Italy, Carmignano has long required some Cabernet alongside Sangiovese, and
         Tignanello made the pairing famous in the 1970s. Penedès and Navarra are known
         for Tempranillo–Cabernet blends.
+    fr:
+      question: "Hors de France, quels deux cépages européens locaux sont des partenaires d’assemblage classiques du Cabernet Sauvignon ?"
+      choices:
+        - { text: "Nebbiolo et Mencía", correct: false }
+        - { text: "Corvina et Graciano", correct: false }
+        - { text: "Aglianico et Listán Negro", correct: false }
+        - { text: "Sangiovese et Tempranillo", correct: true }
+      explanation: |
+        En Italie, Carmignano impose depuis longtemps une part de Cabernet aux côtés du
+        Sangiovese, et Tignanello a rendu ce duo célèbre dans les années 1970. Le Penedès et la
+        Navarre sont réputés pour leurs assemblages Tempranillo–Cabernet.
 
   - id: red-cabernet-australia-regions-001
     type: mcq
@@ -1386,6 +2131,18 @@ cards:
         balance. Hunter is better known for Semillon and Shiraz, Rutherglen for
         fortified Muscat, Clare and Eden for Riesling, and the Riverland and Riverina for
         bulk wine.
+    fr:
+      question: "Quel duo de régions australiennes a la plus forte réputation pour le Cabernet Sauvignon ?"
+      choices:
+        - { text: "Coonawarra et Margaret River", correct: true }
+        - { text: "Hunter Valley et Rutherglen", correct: false }
+        - { text: "Clare Valley et Eden Valley", correct: false }
+        - { text: "Riverland et Riverina", correct: false }
+      explanation: |
+        La bande de terra rossa sur calcaire de Coonawarra donne des rouges au cassis mentholé,
+        tandis que les brises de l’océan Indien donnent à Margaret River un équilibre plus
+        bordelais. Hunter est plutôt connue pour le Semillon et la Shiraz, Rutherglen pour ses
+        Muscats mutés, Clare et Eden pour le Riesling, Riverland et Riverina pour le vrac.
 
   - id: red-cabernet-nz-region-001
     type: mcq
@@ -1407,6 +2164,17 @@ cards:
         Its warm, free-draining Gimblett Gravels sites help late-ripening Bordeaux grapes
         get there in a cool country. Merlot is now more widely planted there and often leads
         the blend.
+    fr:
+      question: "Quelle région néo-zélandaise est la plus connue pour ses rouges à base de Cabernet Sauvignon ?"
+      choices:
+        - { text: "Central Otago", correct: false }
+        - { text: "Gisborne", correct: false }
+        - { text: "Hawke’s Bay", correct: true }
+        - { text: "Marlborough", correct: false }
+      explanation: |
+        Ses parcelles chaudes et drainantes des Gimblett Gravels permettent aux cépages
+        bordelais tardifs de mûrir dans un pays frais. Le Merlot y est désormais plus planté et
+        domine souvent l’assemblage.
 
   - id: red-cabernet-south-africa-001
     type: mcq
@@ -1428,6 +2196,17 @@ cards:
         Mountain slopes such as the Simonsberg and Helderberg, plus cooling air from
         False Bay, suit long-ripening Cabernet. Elgin and Walker Bay are cooler maritime
         districts; Swartland is best known for Chenin Blanc and Rhône varieties.
+    fr:
+      question: "Quel district sud-africain a la plus forte réputation pour le Cabernet Sauvignon ?"
+      choices:
+        - { text: "Swartland", correct: false }
+        - { text: "Stellenbosch", correct: true }
+        - { text: "Elgin", correct: false }
+        - { text: "Walker Bay", correct: false }
+      explanation: |
+        Les pentes du Simonsberg ou du Helderberg et l’air frais venu de False Bay conviennent
+        à un Cabernet qui mûrit lentement. Elgin et Walker Bay sont des districts maritimes plus
+        frais ; le Swartland est surtout connu pour le Chenin Blanc et les cépages rhodaniens.
 
   - id: red-cabernet-chile-valleys-001
     type: mcq
@@ -1450,6 +2229,18 @@ cards:
         both famous Cabernet addresses. Casablanca and San Antonio are cool coastal
         valleys too chilly for Cabernet to ripen reliably; Elqui and Limarí sit far
         north, Bío-Bío and Itata far south.
+    fr:
+      question: "Quel duo de vallées chiliennes est le plus connu pour le Cabernet Sauvignon ?"
+      choices:
+        - { text: "Casablanca et San Antonio", correct: false }
+        - { text: "Elqui et Limarí", correct: false }
+        - { text: "Bío-Bío et Itata", correct: false }
+        - { text: "Maipo et Colchagua", correct: true }
+      explanation: |
+        Puente Alto, dans l’Alto Maipo au pied des Andes, et Apalta, en Colchagua, sont deux
+        adresses célèbres du Cabernet. Casablanca et San Antonio sont des vallées côtières trop
+        fraîches pour le mûrir à coup sûr ; Elqui et Limarí sont loin au nord, Bío-Bío et Itata
+        loin au sud.
 
   - id: red-cabernet-ferment-temp-001
     type: mcq
@@ -1471,6 +2262,17 @@ cards:
         That is hot enough to pull plenty of colour and tannin from the skins, yet cool
         enough to keep fresh blackcurrant fruit. Some makers push briefly higher near
         the peak of fermentation.
+    fr:
+      question: "Dans quelle plage de température fait-on en général fermenter le Cabernet Sauvignon ?"
+      choices:
+        - { text: "Environ 22–25 °C", correct: false }
+        - { text: "Environ 26–30 °C", correct: true }
+        - { text: "Environ 17–20 °C", correct: false }
+        - { text: "Environ 14–17 °C", correct: false }
+      explanation: |
+        C’est assez chaud pour extraire beaucoup de couleur et de tanins des pellicules, et assez
+        frais pour garder un cassis net. Certains producteurs montent brièvement plus haut au
+        pic de la fermentation.
 
   - id: red-cabernet-unripe-tannin-001
     type: mcq
@@ -1492,6 +2294,17 @@ cards:
         Cabernet already carries plenty of tannin. When that tannin is green, heat and vigorous
         cap work pull out more of its bitter fraction, so winemakers ease off both rather than
         chase extra structure.
+    fr:
+      question: "Une vendange de Cabernet Sauvignon arrive mûre en sucre, mais avec des pépins et des pellicules pas tout à fait mûrs. Quelle conduite de fermentation lui convient le mieux ?"
+      choices:
+        - { text: "Une fermentation plus fraîche, extraction douce", correct: true }
+        - { text: "Une fermentation plus chaude avec des pigeages fréquents", correct: false }
+        - { text: "Remettre les rafles dans la cuve", correct: false }
+        - { text: "Presser fort et réincorporer tout le vin de presse", correct: false }
+      explanation: |
+        Le Cabernet a déjà beaucoup de tanins. Quand ils sont verts, la chaleur et un travail
+        énergique du chapeau en extraient surtout la part amère : on lève donc le pied sur les
+        deux plutôt que de chercher plus de structure.
 
   - id: red-cabernet-new-oak-001
     type: mcq
@@ -1513,6 +2326,17 @@ cards:
         Concentrated blackcurrant fruit and a medium to full frame absorb toast and vanilla
         without being masked. Château Mouton Rothschild, for example, routinely puts its grand
         vin into all-new barrels.
+    fr:
+      question: "Quel trait permet à un Cabernet Sauvignon haut de gamme de supporter une forte proportion de bois neuf ?"
+      choices:
+        - { text: "Son corps léger et ses tanins faibles", correct: false }
+        - { text: "Son acidité vive et son fruit maigre", correct: false }
+        - { text: "Son fruit intense et ses tanins fermes", correct: true }
+        - { text: "Ses arômes neutres et discrets", correct: false }
+      explanation: |
+        Un cassis concentré et une charpente moyenne à ample absorbent le grillé et la vanille
+        sans être masqués. Château Mouton Rothschild, par exemple, élève chaque année son grand
+        vin en fûts neufs à 100 %.
 
   - id: red-cabernet-oak-vessel-001
     type: mcq
@@ -1528,12 +2352,23 @@ cards:
       choices:
         - { text: "Large, old Slavonian oak botti", correct: false }
         - { text: "French oak barriques", correct: true }
-        - { text: "Large old foudres", correct: false }
+        - { text: "Clay amphorae", correct: false }
         - { text: "Concrete tanks", correct: false }
       explanation: |
         Tight-grained oak from central French forests such as Tronçais and Bertranges (Nevers)
         gives subtle spice and cedar. Large Slavonian botti belong mainly to the Nebbiolo and
         Sangiovese traditions of Italy.
+    fr:
+      question: "Quel contenant d’élevage est le plus répandu pour le Cabernet Sauvignon haut de gamme ?"
+      choices:
+        - { text: "Grandes botti anciennes en chêne de Slavonie", correct: false }
+        - { text: "Barriques de chêne français", correct: true }
+        - { text: "Amphores en terre cuite", correct: false }
+        - { text: "Cuves en béton", correct: false }
+      explanation: |
+        Le chêne à grain fin des forêts du centre de la France, comme Tronçais ou les Bertranges
+        (Nevers), apporte des notes discrètes d’épices et de cèdre. Les grandes botti de
+        Slavonie relèvent surtout des traditions italiennes du Nebbiolo et du Sangiovese.
 
   - id: red-cabernet-oak-time-001
     type: mcq
@@ -1555,6 +2390,17 @@ cards:
         Shorter and much longer stays both exist, but a year to a year and a half is the common
         middle ground: long enough to soften tannin and pick up oak spice without drying the
         fruit.
+    fr:
+      question: "Combien de temps un Cabernet Sauvignon haut de gamme passe-t-il en général sous bois ?"
+      choices:
+        - { text: "Environ 3 à 6 mois", correct: false }
+        - { text: "Environ 30 à 36 mois", correct: false }
+        - { text: "Environ 4 à 5 ans", correct: false }
+        - { text: "Environ 12 à 18 mois", correct: true }
+      explanation: |
+        Il existe des élevages plus courts et bien plus longs, mais un an à un an et demi est
+        le juste milieu courant : assez pour assouplir les tanins et prendre les épices du bois
+        sans dessécher le fruit.
 
   - id: red-cabernet-blend-reason-001
     type: mcq
@@ -1575,6 +2421,17 @@ cards:
       explanation: |
         Tasters sometimes call young Cabernet doughnut-shaped: fruit on the attack, a firm
         finish, and a gap in between. A fleshier partner fills that hole.
+    fr:
+      question: "Quels traits du Cabernet Sauvignon poussent souvent les vinificateurs à l’assembler plutôt qu’à le mettre en bouteille seul ?"
+      choices:
+        - { text: "Des tanins fermes et un degré d’alcool excessif", correct: false }
+        - { text: "Des tanins fermes et une acidité trop faible", correct: false }
+        - { text: "Des tanins fermes et un milieu de bouche creux", correct: true }
+        - { text: "Une robe pâle et un manque de fruit en bouche", correct: false }
+      explanation: |
+        Des dégustateurs disent parfois que le Cabernet jeune est creux en milieu de bouche
+        (le « donut » des dégustateurs anglophones) : du fruit en attaque, une finale ferme et
+        un trou entre les deux. Un partenaire plus charnu vient le combler.
 
   - id: red-cabernet-australia-partner-001
     type: mcq
@@ -1595,6 +2452,16 @@ cards:
       explanation: |
         The Cabernet–Shiraz blend is an Australian classic. Penfolds Bin 389, nicknamed "Poor
         Man's Grange", has been made this way since the 1960s.
+    fr:
+      question: "En Australie, quel cépage remplace souvent le Merlot comme partenaire d’assemblage du Cabernet Sauvignon ?"
+      choices:
+        - { text: "Grenache", correct: false }
+        - { text: "Mataro", correct: false }
+        - { text: "Shiraz", correct: true }
+        - { text: "Petit Verdot", correct: false }
+      explanation: |
+        L’assemblage Cabernet–Shiraz est un classique australien. Le Bin 389 de Penfolds,
+        surnommé « Poor Man’s Grange », est élaboré ainsi depuis les années 1960.
 
   - id: red-merlot-international-harvest-001
     type: mcq
@@ -1615,6 +2482,17 @@ cards:
       explanation: |
         Extra hang time lowers acidity and builds sugar, colour and riper fruit. The trade-off
         is higher alcohol and a risk of losing freshness.
+    fr:
+      question: "Pour le style « international » de Merlot, quand les vignerons vendangent-ils d’habitude ?"
+      choices:
+        - { text: "Aussi tard que possible sans risque", correct: true }
+        - { text: "Un peu tôt, pour garder l’acidité", correct: false }
+        - { text: "Dès que le sucre atteint le minimum légal", correct: false }
+        - { text: "Le même jour que leur Cabernet Sauvignon", correct: false }
+      explanation: |
+        Une maturation prolongée sur souche fait baisser l’acidité et augmente le sucre, la
+        couleur et la maturité du fruit. La contrepartie : plus d’alcool et un risque de perdre
+        en fraîcheur.
 
   - id: red-merlot-international-where-001
     type: mcq
@@ -1636,6 +2514,18 @@ cards:
         Languedoc varietal Merlot is usually picked ripe and plush. On the Right Bank, several
         châteaux moved to riper picking and lavish new oak from the 1990s, a shift often linked
         to the consultant Michel Rolland.
+    fr:
+      question: "Hors Nouveau Monde, où élabore-t-on couramment le style « international », plus mûr, de Merlot ?"
+      choices:
+        - { text: "Dans le Frioul et les vallées du Haut-Adige", correct: false }
+        - { text: "Dans le Midi et une partie du Bordelais", correct: true }
+        - { text: "Dans le Trentin et les plaines de Vénétie", correct: false }
+        - { text: "En Suisse, dans le Valais et le canton de Vaud", correct: false }
+      explanation: |
+        En Languedoc, le Merlot vendu comme vin de cépage est en général vendangé mûr et
+        charnu. Sur la rive droite, plusieurs châteaux sont passés dès les années 1990 à des vendanges plus mûres et
+        à beaucoup de bois neuf, une évolution souvent associée à l’œnologue conseil Michel
+        Rolland.
 
   - id: red-merlot-traditional-profile-001
     type: mcq
@@ -1656,6 +2546,16 @@ cards:
       explanation: |
         Picking before the fruit turns plummy keeps acidity and red-fruit freshness. In cooler
         years the leafy, vegetal edge becomes more noticeable.
+    fr:
+      question: "Quel profil correspond au style plus retenu et traditionnel de Merlot ?"
+      choices:
+        - { text: "Corps moyen, acidité fraîche, fruits rouges, note feuillue", correct: true }
+        - { text: "Corps ample, acidité basse, fruits noirs confits, bois sucré", correct: false }
+        - { text: "Corps léger, acidité très vive, griotte, sans bois", correct: false }
+        - { text: "Robe pourpre, corps ample, prune et tanins veloutés", correct: false }
+      explanation: |
+        Vendanger avant que le fruit ne tourne à la prune préserve l’acidité et la fraîcheur des
+        fruits rouges. Les années plus fraîches, la note feuillue et végétale ressort davantage.
 
   - id: red-merlot-traditional-home-001
     type: mcq
@@ -1677,6 +2577,18 @@ cards:
         Elsewhere the style is uncommon, because warmer sites and most export markets favour
         riper fruit. Bolgheri's Masseto, a pure Merlot, shows how lavish the Tuscan coast can
         make it.
+    fr:
+      question: "Quelle région reste le berceau du style classique et traditionnel du Merlot ?"
+      choices:
+        - { text: "Languedoc", correct: false }
+        - { text: "Bordeaux", correct: true }
+        - { text: "Bolgheri", correct: false }
+        - { text: "Napa Valley", correct: false }
+      explanation: |
+        Bordeaux reste la référence de ce style ; ailleurs, il est peu courant, car les sites
+        plus chauds et la plupart des marchés d’export privilégient un fruit plus mûr. Le
+        Masseto de Bolgheri, Merlot pur, montre jusqu’où la côte toscane peut le pousser vers
+        l’opulence.
 
   - id: red-merlot-extraction-001
     type: mcq
@@ -1697,6 +2609,17 @@ cards:
       explanation: |
         Merlot gives up colour and tannin with less work. Heavy punch-downs on soft skins risk
         coarse, drying tannin rather than more fruit.
+    fr:
+      question: "Pourquoi le Merlot demande-t-il en général une extraction moins poussée que le Cabernet Sauvignon pendant la fermentation ?"
+      choices:
+        - { text: "Ses pellicules souples cèdent vite couleur et tanins", correct: true }
+        - { text: "Son moût fermente plus vite et chauffe bien plus", correct: false }
+        - { text: "Son jus est plus acide, ce qui aide l’extraction", correct: false }
+        - { text: "Il est surtout vinifié en grappes entières, non foulées", correct: false }
+      explanation: |
+        Le Merlot cède couleur et tanins sans gros effort. Des pigeages appuyés sur des
+        pellicules tendres risquent de donner des tanins grossiers et asséchants plutôt que
+        davantage de fruit.
 
   - id: red-pinot-clones-001
     type: mcq
@@ -1718,6 +2641,19 @@ cards:
         Every vegetative generation can carry a spontaneous mutation, and nurseries have
         selected many. The Dijon clones such as 115, 667 and 777 are planted from Burgundy to
         Oregon; Pinot Gris and Pinot Blanc are colour mutations of the same vine.
+    fr:
+      question: "Pourquoi le Pinot Noir existe-t-il en un nombre de clones exceptionnellement élevé ?"
+      choices:
+        - { text: "C’est un croisement récent dont les caractères se fixent encore", correct: false }
+        - { text: "Chaque appellation doit déclarer son propre clone", correct: false }
+        - { text: "C’est une très vieille variété qui a eu le temps de muter", correct: true }
+        - { text: "Le greffage sur porte-greffe modifie ses gènes", correct: false }
+      explanation: |
+        Très ancien, le cépage a connu d’innombrables générations de multiplication végétative,
+        et chacune peut porter une mutation spontanée ; les pépiniéristes en ont sélectionné
+        beaucoup. Les clones dits de Dijon, comme le 115, le 667 ou le 777, sont plantés de la
+        Bourgogne à l’Oregon ; le Pinot Gris et le Pinot Blanc sont des mutations de couleur du
+        même cep.
 
   - id: red-pinot-overwork-001
     type: mcq
@@ -1738,6 +2674,16 @@ cards:
       explanation: |
         Excess heat and cap work pull out bitter seed tannin and cooked notes that bury the
         perfume the variety is prized for.
+    fr:
+      question: "Que risque-t-on surtout de perdre en extrayant trop fort un Pinot Noir ?"
+      choices:
+        - { text: "Son acidité naturelle vive", correct: false }
+        - { text: "Sa couleur rubis éclatante", correct: false }
+        - { text: "Son degré d’alcool modéré", correct: false }
+        - { text: "Ses arômes de fruit primaires", correct: true }
+      explanation: |
+        Trop de chaleur et de travail du chapeau de marc arrachent des tanins amers de pépins et
+        des notes de fruit cuit, qui étouffent le parfum pour lequel on recherche ce cépage.
 
   - id: red-pinot-extraction-need-001
     type: mcq
@@ -1758,6 +2704,17 @@ cards:
       explanation: |
         Pinot Noir also lacks acylated anthocyanins, the more stable pigments most black grapes
         carry, so even ripe examples are relatively pale.
+    fr:
+      question: "Pourquoi le Pinot Noir oblige-t-il à travailler l’extraction plus que bien d’autres raisins noirs ?"
+      choices:
+        - { text: "Sa pellicule fine donne peu de couleur et de tanins", correct: true }
+        - { text: "Sa forte acidité bloque l’extraction de la couleur", correct: false }
+        - { text: "Sa richesse en sucre ralentit la fermentation", correct: false }
+        - { text: "Ses pigments se dégradent dès que la cuve dépasse 20 °C", correct: false }
+      explanation: |
+        Sa pellicule fine livre peu de matière. De plus, le Pinot Noir ne possède pas
+        d’anthocyanes acylées, ces pigments plus stables que portent la plupart des raisins
+        noirs : même bien mûr, il reste assez peu coloré.
 
   - id: red-pinot-climate-001
     type: mcq
@@ -1778,6 +2735,16 @@ cards:
       explanation: |
         It buds and ripens early, so a cool site lets it hang long enough to build aroma while
         keeping its acidity.
+    fr:
+      question: "Sous quel climat le Pinot Noir donne-t-il en général ses meilleurs vins ?"
+      choices:
+        - { text: "Climat modéré à chaud", correct: false }
+        - { text: "Climat chaud à très chaud", correct: false }
+        - { text: "Climat frais à modéré", correct: true }
+        - { text: "Climat méditerranéen chaud et sec", correct: false }
+      explanation: |
+        Précoce au débourrement comme à la maturité, il profite d’un site frais pour rester
+        assez longtemps sur souche, développer ses arômes et garder son acidité.
 
   - id: red-burgundy-regional-style-001
     type: mcq
@@ -1798,6 +2765,17 @@ cards:
       explanation: |
         Oak at this level is there for a little structure rather than flavour. Most of these
         wines are meant to be drunk within a few years of the vintage.
+    fr:
+      question: "Quel profil correspond à un bourgogne rouge d’entrée de gamme typique ?"
+      choices:
+        - { text: "Corps moyen, acidité souple, boisé vanillé appuyé", correct: false }
+        - { text: "Corps léger, acidité marquée, boisé discret", correct: true }
+        - { text: "Couleur profonde, tanins fermes, aucun boisé", correct: false }
+        - { text: "Corps ample, alcool élevé, fruit mûr confituré", correct: false }
+      explanation: |
+        À ce niveau, le bois apporte un peu de structure plutôt que des arômes, et l’acidité
+        reste vive. La plupart de ces vins se boivent dans les quelques années qui suivent le
+        millésime.
 
   - id: red-burgundy-chambolle-style-001
     type: mcq
@@ -1819,6 +2797,18 @@ cards:
         Reds from the better Côte d'Or sites gain intensity and complexity over entry-level
         Burgundy, but their character ranges widely. Chambolle sits at the floral, silky end;
         Pommard is the classic example of the sturdier, more tannic end.
+    fr:
+      question: "Quel village de la Côte d’Or est réputé pour des rouges parfumés et délicats plutôt que charpentés ?"
+      choices:
+        - { text: "Pommard", correct: false }
+        - { text: "Chambolle-Musigny", correct: true }
+        - { text: "Aloxe-Corton", correct: false }
+        - { text: "Nuits-Saint-Georges", correct: false }
+      explanation: |
+        Les rouges des meilleurs sites de la Côte d’Or gagnent en intensité et en complexité par
+        rapport au bourgogne d’entrée de gamme, mais leur caractère varie beaucoup. Chambolle se
+        place du côté floral et soyeux ; Pommard illustre classiquement le pôle plus charpenté
+        et tannique.
 
   - id: red-pinot-cool-year-001
     type: mcq
@@ -1839,6 +2829,17 @@ cards:
       explanation: |
         Underripe Pinot can also taste tart and thin. Site choice, especially well-exposed
         slopes, is the grower's main defence.
+    fr:
+      question: "Quels arômes signalent qu’un Pinot Noir d’année fraîche n’a pas atteint sa pleine maturité ?"
+      choices:
+        - { text: "Chou et feuilles mouillées", correct: true }
+        - { text: "Figue sèche et pruneau confit", correct: false }
+        - { text: "Réglisse et olive noire", correct: false }
+        - { text: "Café torréfié et moka", correct: false }
+      explanation: |
+        Ces notes végétales trahissent un manque de maturité ; le vin peut aussi paraître acide
+        et maigre. Le choix du site, surtout des coteaux bien exposés, reste la principale
+        parade du vigneron.
 
   - id: red-pinot-central-otago-001
     type: mcq
@@ -1859,6 +2860,17 @@ cards:
       explanation: |
         Central Otago lies inland in the South Island, far from the moderating sea. Marlborough
         and Martinborough, the other leading Pinot Noir names, are more maritime.
+    fr:
+      question: "Quelle région néo-zélandaise de Pinot Noir a le climat le plus continental, avec des journées chaudes et des nuits froides ?"
+      choices:
+        - { text: "Marlborough", correct: false }
+        - { text: "Martinborough", correct: false }
+        - { text: "Central Otago", correct: true }
+        - { text: "Nelson", correct: false }
+      explanation: |
+        Central Otago se trouve à l’intérieur de l’île du Sud, loin de l’influence modératrice
+        de la mer. Marlborough et Martinborough, les autres grands noms du Pinot Noir
+        néo-zélandais, ont un climat plus maritime.
 
   - id: red-pinot-mornington-001
     type: mcq
@@ -1879,6 +2891,17 @@ cards:
       explanation: |
         Water on three sides keeps the season cool and slow. The Yarra Valley and Tasmania are
         the other names most associated with Australian Pinot Noir.
+    fr:
+      question: "Quelle région du Victoria, presque entourée par la mer, est réputée pour son Pinot Noir ?"
+      choices:
+        - { text: "Yarra Valley", correct: false }
+        - { text: "Heathcote", correct: false }
+        - { text: "Mornington Peninsula", correct: true }
+        - { text: "Grampians", correct: false }
+      explanation: |
+        Bordée d’eau sur trois côtés, la Mornington Peninsula connaît une saison fraîche et
+        lente. La Yarra Valley et la Tasmanie sont les autres noms les plus associés au Pinot
+        Noir australien.
 
   - id: red-pinot-south-africa-chile-001
     type: mcq
@@ -1899,6 +2922,17 @@ cards:
       explanation: |
         Walker Bay includes the Hemel-en-Aarde wards near Hermanus, cooled by the Atlantic.
         Casablanca owes its freshness to the cold Humboldt Current and morning fog.
+    fr:
+      question: "Quel duo associe une grande zone de Pinot Noir d’Afrique du Sud et une du Chili ?"
+      choices:
+        - { text: "Stellenbosch et Colchagua Valley", correct: false }
+        - { text: "Paarl et Maipo Valley", correct: false }
+        - { text: "Swartland et Cachapoal Valley", correct: false }
+        - { text: "Walker Bay et Casablanca Valley", correct: true }
+      explanation: |
+        Walker Bay englobe les zones de Hemel-en-Aarde, près d’Hermanus, rafraîchies par
+        l’Atlantique. Casablanca doit sa fraîcheur au courant froid de Humboldt et aux
+        brouillards matinaux.
 
   - id: red-pinot-hot-climate-001
     type: mcq
@@ -1919,6 +2953,16 @@ cards:
       explanation: |
         Heat drives sugar ahead of aroma development while acidity falls, so cooked, stewed
         fruit replaces the fresh perfume.
+    fr:
+      question: "Un vignoble de Pinot Noir est planté dans une vallée intérieure chaude. Quel défaut le vin risque-t-il de montrer ?"
+      choices:
+        - { text: "Des tanins grossiers et asséchants", correct: false }
+        - { text: "Des notes poivrées et herbacées", correct: false }
+        - { text: "Un fruit cuit et confituré", correct: true }
+        - { text: "Des notes de réduction, d’allumette frottée", correct: false }
+      explanation: |
+        La chaleur fait grimper le sucre plus vite que les arômes ne se développent, tandis que
+        l’acidité chute : un fruit cuit, compoté, remplace le parfum frais.
 
   - id: red-pinot-pre-ferment-001
     type: mcq
@@ -1939,6 +2983,17 @@ cards:
       explanation: |
         A few days of cool maceration before the yeast takes hold is common in the Côte d'Or.
         The late Henri Jayer of Vosne-Romanée is often credited with popularising it.
+    fr:
+      question: "En Bourgogne, quelle technique d’extraction de nombreux producteurs appliquent-ils au Pinot Noir ?"
+      choices:
+        - { text: "Une longue macération post-fermentaire", correct: false }
+        - { text: "Une macération préfermentaire à froid", correct: true }
+        - { text: "Le délestage", correct: false }
+        - { text: "La vinification en cuve rotative", correct: false }
+      explanation: |
+        Quelques jours de macération au frais avant que les levures ne prennent le relais sont
+        courants en Côte d’Or. Feu Henri Jayer, de Vosne-Romanée, passe souvent pour avoir
+        popularisé cette pratique.
 
   - id: red-pinot-ferment-temp-001
     type: mcq
@@ -1959,6 +3014,17 @@ cards:
       explanation: |
         Many Burgundian domaines start cool, then let the temperature climb naturally as
         fermentation peaks, so extraction happens near the top of the curve.
+    fr:
+      question: "Un domaine bourguignon vinifie un Pinot Noir pour une cuvée haut de gamme de longue garde. Quelle température maximale est courante ?"
+      choices:
+        - { text: "Environ 20 °C", correct: false }
+        - { text: "Environ 25 °C", correct: false }
+        - { text: "Environ 30 à 32 °C", correct: true }
+        - { text: "Environ 36 à 38 °C", correct: false }
+      explanation: |
+        Beaucoup de domaines bourguignons démarrent au frais, puis laissent la température
+        monter d’elle-même vers 30 à 32 °C au pic de fermentation : l’extraction se fait alors
+        près du sommet de la courbe.
 
   - id: red-pinot-cooler-ferment-001
     type: mcq
@@ -1979,6 +3045,16 @@ cards:
       explanation: |
         Lower temperatures hold on to fruity esters and limit tannin pick-up, which suits wines
         meant to be enjoyed young.
+    fr:
+      question: "Un producteur veut un Pinot Noir fruité, à boire jeune. Comment règle-t-il en général la température de fermentation ?"
+      choices:
+        - { text: "Plus haute que pour sa cuvée haut de gamme", correct: false }
+        - { text: "Plus basse que pour sa cuvée haut de gamme", correct: true }
+        - { text: "Identique à celle de sa cuvée haut de gamme", correct: false }
+        - { text: "Aussi haute que les levures la supportent", correct: false }
+      explanation: |
+        Des températures plus basses préservent les esters fruités et limitent l’extraction des
+        tanins, ce qui convient à des vins destinés à être bus jeunes.
 
   - id: red-pinot-post-ferment-001
     type: mcq
@@ -1999,6 +3075,16 @@ cards:
       explanation: |
         With modest tannin and colour to gain from the skins, extra time adds little and can
         dull the fruit.
+    fr:
+      question: "Après la fermentation alcoolique, combien de temps un Pinot Noir haut de gamme reste-t-il en général au contact des pellicules ?"
+      choices:
+        - { text: "Encore deux à quatre semaines", correct: false }
+        - { text: "Jusqu’à la fin de la malolactique", correct: false }
+        - { text: "Peu ou pas de temps en plus", correct: true }
+        - { text: "Plusieurs mois, pour bâtir les tanins", correct: false }
+      explanation: |
+        Les pellicules ont peu de tanins et de couleur à céder : une macération post-fermentaire
+        prolongée apporte peu et peut ternir le fruit.
 
   - id: red-pinot-older-barrels-001
     type: mcq
@@ -2019,6 +3105,17 @@ cards:
       explanation: |
         Premium examples commonly spend roughly 12 to 24 months in barrel. A high new-oak share
         is mostly reserved for the most concentrated wines, such as some grand cru Burgundies.
+    fr:
+      question: "Quel trait du Pinot Noir pousse les producteurs à préférer des fûts usagés, avec une part modeste de bois neuf ?"
+      choices:
+        - { text: "Ses tanins naturellement abondants", correct: false }
+        - { text: "Sa couleur profonde et stable", correct: false }
+        - { text: "Son fruit délicat et parfumé", correct: true }
+        - { text: "Son acidité naturellement basse", correct: false }
+      explanation: |
+        Trop de fûts neufs masqueraient ce fruit. Les cuvées haut de gamme passent couramment de
+        12 à 24 mois environ en fût ; une forte proportion de bois neuf est surtout réservée aux
+        vins les plus concentrés, comme certains grands crus de Bourgogne.
 
   - id: red-pinot-varietal-001
     type: mcq
@@ -2039,6 +3136,16 @@ cards:
       explanation: |
         Exceptions exist: Bourgogne Passe-Tout-Grains, for instance, combines Pinot Noir with
         Gamay.
+    fr:
+      question: "Sous quelle forme la plupart des Pinot Noir rouges tranquilles sont-ils mis en bouteille ?"
+      choices:
+        - { text: "Assemblés avec du Gamay", correct: false }
+        - { text: "Assemblés avec de la Syrah", correct: false }
+        - { text: "Assemblés avec du Merlot", correct: false }
+        - { text: "En monocépage", correct: true }
+      explanation: |
+        Le Pinot Noir se vinifie le plus souvent seul. Il existe des exceptions : le Bourgogne
+        Passe-Tout-Grains, par exemple, associe Pinot Noir et Gamay.
 
   - id: red-pinot-lot-blending-001
     type: mcq
@@ -2060,6 +3167,18 @@ cards:
         Separate parcels, barrels or whole-bunch shares give the blender building blocks, used
         to build complexity or keep a consistent house style. A Côte d'Or domaine may vinify
         each plot of a village wine apart before assembling it.
+    fr:
+      question: "Un producteur de Pinot Noir assemble plusieurs lots avant la mise en bouteille. En quoi ces lots diffèrent-ils en général ?"
+      choices:
+        - { text: "Par millésime, pour lisser les écarts", correct: false }
+        - { text: "Par parcelle ou par mode de vinification", correct: true }
+        - { text: "Par niveau d’appellation, grand cru et village", correct: false }
+        - { text: "Par âge, avec ajout de vieux vins de réserve", correct: false }
+      explanation: |
+        Parcelles, fûts ou proportions de vendange entière vinifiés à part donnent à
+        l’assembleur des briques de base, pour gagner en complexité ou garder un style maison
+        constant. Un domaine de la Côte d’Or peut vinifier séparément chaque parcelle d’un vin
+        de village avant de l’assembler.
 
   - id: red-pinot-aged-notes-001
     type: mcq
@@ -2080,6 +3199,17 @@ cards:
       explanation: |
         Bottle age softens tannin and turns primary red fruit savoury. Mature Côte de Nuits
         grands crus such as Chambertin are classic examples.
+    fr:
+      question: "Quelles notes les plus grands Pinot Noir peuvent-ils développer après des années en bouteille ?"
+      choices:
+        - { text: "Goudron et rose séchée", correct: false }
+        - { text: "Cèdre et boîte à cigares", correct: false }
+        - { text: "Poivre noir et viande fumée", correct: false }
+        - { text: "Sous-bois et champignon", correct: true }
+      explanation: |
+        Le vieillissement en bouteille assouplit les tanins et fait évoluer le fruit rouge
+        primaire vers des notes de sous-bois. Les grands crus de la Côte de Nuits arrivés à
+        maturité, comme Chambertin, en sont des exemples classiques.
 
   - id: rose-oak-use-001
     type: mcq
@@ -2100,6 +3230,17 @@ cards:
       explanation: |
         Rosé is generally sold on fresh, delicate fruit, so oak is rarely used. Barrel-fermented
         exceptions exist, such as Château d'Esclans Garrus.
+    fr:
+      question: "Quel contenant est le plus typique pour fermenter un rosé de Provence haut de gamme ?"
+      choices:
+        - { text: "Cuves inox réfrigérées", correct: true }
+        - { text: "Barriques neuves de chêne français", correct: false }
+        - { text: "Grands foudres de vieux chêne", correct: false }
+        - { text: "Amphores de terre cuite brute", correct: false }
+      explanation: |
+        Le rosé se vend en général sur un fruit frais et délicat : on fermente au froid en inox
+        et le bois reste rare. Il existe des exceptions fermentées en barrique, comme Garrus du
+        Château d’Esclans.
 
   - id: rose-direct-press-method-001
     type: mcq
@@ -2120,6 +3261,16 @@ cards:
       explanation: |
         Any black variety can be used; Grenache and Cinsault are common choices in southern
         France.
+    fr:
+      question: "Dans la méthode de pressurage direct pour le rosé, comment traite-t-on les raisins noirs ?"
+      choices:
+        - { text: "Fermentés entiers sous CO₂, puis pressés", correct: false }
+        - { text: "Pressés rapidement, comme pour un vin blanc", correct: true }
+        - { text: "En partie passerillés sur claies, puis pressés", correct: false }
+        - { text: "Vinifiés en rouge, puis collés pour ôter la couleur", correct: false }
+      explanation: |
+        On presse sans attendre, comme pour un blanc. Tout cépage noir convient ; Grenache et
+        Cinsault sont des choix courants dans le sud de la France.
 
   - id: rose-direct-press-colour-001
     type: mcq
@@ -2140,6 +3291,16 @@ cards:
       explanation: |
         Juice and skins meet only for the length of the press cycle, often a couple of hours,
         rather than for a planned soak.
+    fr:
+      question: "Quelle méthode d’élaboration du rosé donne en général la couleur la plus pâle ?"
+      choices:
+        - { text: "Macération courte", correct: false }
+        - { text: "Saignée", correct: false }
+        - { text: "Pressurage direct", correct: true }
+        - { text: "Assemblage de vin rouge et de vin blanc", correct: false }
+      explanation: |
+        Avec le pressurage direct, jus et pellicules ne se côtoient que le temps du cycle de
+        pressurage, souvent deux heures environ, au lieu d’une macération planifiée.
 
   - id: rose-direct-press-tannin-001
     type: mcq
@@ -2160,6 +3321,17 @@ cards:
       explanation: |
         Hard pressing breaks skins and seeds and releases bitter phenolics that a pale, delicate
         rosé cannot hide, so producers keep pressures low.
+    fr:
+      question: "Quand des raisins noirs sont pressés directement pour un rosé, quelle extraction indésirable le cycle de pressurage doit-il limiter ?"
+      choices:
+        - { text: "Les tanins", correct: true }
+        - { text: "L’acide malique", correct: false }
+        - { text: "Les nutriments des levures", correct: false }
+        - { text: "Les composés aromatiques", correct: false }
+      explanation: |
+        Un pressurage trop fort écrase pellicules et pépins et libère des composés phénoliques
+        amers qu’un rosé pâle et délicat ne peut masquer : les producteurs pressent donc à basse
+        pression.
 
   - id: rose-blending-eu-001
     type: mcq
@@ -2181,3 +3353,15 @@ cards:
         For still rosé, EU rules do not allow blending red and white wine; the exceptions
         concern sparkling wine. Champagne houses typically add a little still red Pinot Noir
         from villages such as Bouzy.
+    fr:
+      question: "Dans l’UE, quel vin est le cas le plus connu où un rosé peut être obtenu en assemblant vin rouge et vin blanc ?"
+      choices:
+        - { text: "Rosé de Provence", correct: false }
+        - { text: "Tavel", correct: false }
+        - { text: "Rosé d’Anjou", correct: false }
+        - { text: "Champagne rosé", correct: true }
+      explanation: |
+        Pour les rosés tranquilles, la réglementation européenne interdit l’assemblage de vin
+        rouge et de vin blanc ; les exceptions concernent les effervescents. Les maisons de
+        Champagne ajoutent en général un peu de Pinot Noir vinifié en rouge tranquille, issu de
+        villages comme Bouzy.
