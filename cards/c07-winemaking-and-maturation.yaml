@@ -3016,3 +3016,54 @@ cards:
         tannin development, but more ingress is not automatically beneficial and
         can consume SO₂ and accelerate oxidation. Positive tertiary development
         is therefore not a guaranteed consequence or unique benefit of cork.
+
+  - id: wine-musty-haloanisole-investigation-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, wine-fault, tca, haloanisole, cork-taint]
+    status: reviewed
+    source_id: c07-0212
+    review:
+      fact_check: pass
+      sources: [awri]
+    en:
+      question: Several bottles from different closure formats show muted fruit and a musty, damp-cardboard aroma. Which investigation is most defensible?
+      choices:
+        - { text: "Test the wine, closures, water and cellar or packaging materials for TCA and related haloanisoles", correct: true }
+        - { text: "Test the wine and natural-cork stock for TCA, while excluding water, oak and packaging materials from the investigation", correct: false }
+        - { text: "Test the wine for TCA, then treat a negative result as excluding other compounds that can produce musty aromas", correct: false }
+        - { text: "Measure closure oxygen transmission and oxidation markers, then attribute the musty aroma to oxygen exposure without haloanisole analysis", correct: false }
+      explanation: |
+        TCA is the principal compound associated with “cork taint” and can
+        suppress fruit as well as produce a musty or mouldy aroma at very low
+        concentration. It is not confined to natural cork: contaminated oak,
+        water, winery structures or packaging materials can transfer TCA, while
+        related haloanisoles such as TBA and several non-haloanisole compounds can
+        also smell musty. Source control, avoidance of problematic chlorinated
+        materials, supplier quality assurance and environmental investigation are
+        therefore more useful than assuming the closure alone identifies the cause.
+
+  - id: wine-screwcap-liner-comparison-001
+    type: mcq
+    deck: Winemaking and Maturation
+    tags: [winemaking, packaging, closure, screwcap, oxygen]
+    status: reviewed
+    source_id: c07-0220
+    review:
+      fact_check: pass
+      sources: [awri]
+    en:
+      question: A producer wants to compare two screwcap liners for an aromatic white with a three-year shelf-life target. Which trial gives the cleanest evidence?
+      choices:
+        - { text: "Bottle one wine with matched glass, application and initial package oxygen; vary only the liner, then follow both through three years", correct: true }
+        - { text: "Bottle one wine with matched glass and application; give each liner different initial package oxygen, then follow both through three years", correct: false }
+        - { text: "Bottle one wine with matched glass, application and initial package oxygen; vary the liner, then extrapolate three years from three months", correct: false }
+        - { text: "Bottle one wine with matched initial package oxygen; use different bottle finishes and application settings, then compare the liners after three years", correct: false }
+      explanation: |
+        The liner forms the seal against the bottle rim and different liner
+        constructions provide different oxygen transmission rates; screwcaps are
+        therefore not one perfectly impermeable category. A matched trial isolates
+        that variable while controlling the wine, bottle finish, application and
+        oxygen present at packaging. Lower ingress can help retain SO₂ and fruit,
+        but the wine must also be followed for unwanted reductive or oxidative
+        development across its intended life rather than judged from a brief trial.
