@@ -635,7 +635,7 @@ cards:
     source_id: c33-0017
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: [decanter]
     en:
       question: "What harvest change have many California growers made in recent years?"
       choices:
@@ -668,7 +668,7 @@ cards:
     source_id: c33-0018
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: [cdfa-acreage]
     en:
       question: "Which black grape is the most planted in California?"
       choices:
@@ -993,7 +993,7 @@ cards:
     source_id: c33-0028
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: [cdfa-acreage]
     en:
       question: "Besides Cabernet Sauvignon, which Bordeaux black grape is planted on a large scale in California?"
       choices:
@@ -1058,7 +1058,7 @@ cards:
     source_id: c33-0030
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: [cdfa-acreage]
     en:
       question: "Which California area holds the largest share of the state's Merlot vines?"
       choices:
@@ -1317,7 +1317,7 @@ cards:
     source_id: c33-0037
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: [cdfa-acreage]
     en:
       question: "Which Rhône black grape has the largest plantings in California?"
       choices:
@@ -1450,7 +1450,7 @@ cards:
     source_id: c33-0041
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: [cdfa-acreage]
     en:
       question: "Which white grape leads California plantings?"
       choices:
@@ -1612,7 +1612,7 @@ cards:
     source_id: c33-0045
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: [cdfa-acreage]
     en:
       question: "Which white grape is California's second key quality white variety?"
       choices:
@@ -1622,9 +1622,9 @@ cards:
         - { text: "Chenin Blanc", correct: false }
       explanation: |
         Sauvignon Blanc is made in styles from crisp and unoaked to
-        barrel-fermented. Colombard and Pinot Gris actually cover slightly
-        more acres, mostly for volume wine, so its rank is about quality,
-        not area.
+        barrel-fermented. It is also the second white by area, though only
+        just ahead of Pinot Gris and Colombard, which go mostly into volume
+        wine.
     fr:
       question: "Quel cépage blanc est le deuxième grand blanc de qualité en Californie ?"
       choices:
@@ -1634,9 +1634,9 @@ cards:
         - { text: "Chenin Blanc", correct: false }
       explanation: |
         Le Sauvignon Blanc se décline du style vif sans bois jusqu’au vin
-        fermenté en fût. Le Colombard et le Pinot Gris couvrent en fait un
-        peu plus d’hectares, surtout pour des vins de volume : son rang tient
-        à la qualité, pas à la surface.
+        fermenté en fût. C’est aussi le deuxième blanc en surface, mais de
+        peu devant le Pinot Gris et le Colombard, surtout destinés aux vins
+        de volume.
 
   - id: calif-sb-coast-001
     type: mcq
@@ -4751,7 +4751,7 @@ cards:
     source_id: c33-0122
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: [mendowine]
     en:
       question: "What keeps the Mendocino AVA comparatively warm and dry?"
       choices:
@@ -4760,8 +4760,8 @@ cards:
         - { text: "Heat reflected from stony valley-floor soils", correct: false }
         - { text: "Its low latitude", correct: false }
       explanation: |
-        The hills to the west rise to roughly 900 metres and
-        block most marine air and fog.
+        The hills to the west, several hundred metres high, block
+        most marine air and fog.
     fr:
       question: "Qu’est-ce qui rend l’AVA Mendocino relativement chaude et sèche ?"
       choices:
@@ -4770,8 +4770,8 @@ cards:
         - { text: "La chaleur renvoyée par les sols caillouteux du fond de vallée", correct: false }
         - { text: "Sa faible latitude", correct: false }
       explanation: |
-        Les collines situées à l’ouest culminent vers 900 mètres et
-        arrêtent l’essentiel de l’air marin et du brouillard.
+        Les collines situées à l’ouest, hautes de plusieurs centaines de
+        mètres, arrêtent l’essentiel de l’air marin et du brouillard.
 
   - id: calif-mendocino-ava-style-001
     type: mcq
@@ -5405,7 +5405,7 @@ cards:
     source_id: c33-0139
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: [ttb]
     en:
       question: "How is the Paso Robles AVA usually divided?"
       choices:
