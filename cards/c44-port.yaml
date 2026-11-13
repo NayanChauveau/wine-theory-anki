@@ -2,4 +2,875 @@
 # source: C44 (import/inbox/c44-port.yaml)
 # deck: Port
 
-cards: []
+cards:
+  - id: port-trade-geography-001
+    type: mcq
+    deck: Port
+    tags: [port, geography]
+    status: reviewed
+    source_id: c44-0001
+    review:
+      fact_check: pass
+      sources: [known-fact, producer-site]
+    en:
+      question: "How has the Port trade traditionally been split between places?"
+      choices:
+        - { text: "Vineyards near the coast; ageing in cellars far up the valley", correct: false }
+        - { text: "Vineyards far up the Douro; ageing and shipping at its mouth", correct: true }
+        - { text: "Vineyards in the Minho; ageing and shipping at Viana do Castelo", correct: false }
+        - { text: "Vineyards along the upper Douro; ageing and shipping in Lisbon", correct: false }
+      explanation: |
+        Grapes were grown and fermented in the hot inland valley, then the young wine
+        was floated down the river in casks aboard flat-bottomed barcos rabelos, before
+        road and rail took over the job.
+
+  - id: port-corgo-name-001
+    type: mcq
+    deck: Port
+    tags: [port, geography, subregions]
+    status: reviewed
+    source_id: c44-0002
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "In the Port sub-region names Baixo Corgo and Cima Corgo, what is the Corgo?"
+      choices:
+        - { text: "The mountain range west of the vineyards", correct: false }
+        - { text: "The local name for schist bedrock", correct: false }
+        - { text: "The old word for a walled vine terrace", correct: false }
+        - { text: "A tributary river of the Douro", correct: true }
+      explanation: |
+        It joins the Douro at Peso da Régua. Baixo Corgo is the land downstream of that
+        meeting point, and Cima Corgo the land above it. The third sub-region, Douro Superior, continues
+        east to the Spanish border.
+
+  - id: port-baixo-corgo-style-001
+    type: mcq
+    deck: Port
+    tags: [port, subregions, style]
+    status: reviewed
+    source_id: c44-0003
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Compared with the rest of the Port vineyard area, what kind of wine does the Baixo Corgo usually give?"
+      choices:
+        - { text: "The lightest wines, largely for everyday blends", correct: true }
+        - { text: "The most powerful wines, prized for Vintage blends", correct: false }
+        - { text: "The darkest, most tannic wines from tiny yields", correct: false }
+        - { text: "The sweetest wines, from the ripest grapes", correct: false }
+      explanation: |
+        It is the westernmost of the three sub-regions, centred on the town of Peso da
+        Régua. Its grapes typically go into inexpensive Port blends rather than the
+        flagship wines of the big houses.
+
+  - id: port-cima-corgo-top-001
+    type: mcq
+    deck: Port
+    tags: [port, subregions, quality]
+    status: reviewed
+    source_id: c44-0004
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Where are the largest number of top Port vineyards concentrated?"
+      choices:
+        - { text: "In the Baixo Corgo", correct: false }
+        - { text: "Spread evenly across all three sub-regions", correct: false }
+        - { text: "In the Cima Corgo", correct: true }
+        - { text: "In the Douro Superior", correct: false }
+      explanation: |
+        Its heart is the village of Pinhão and the side valleys around it. Well-known
+        estates there include Quinta do Noval in the Pinhão valley and Quinta do Bomfim,
+        the home of Dow's, at Pinhão itself.
+
+  - id: port-douro-superior-profile-001
+    type: mcq
+    deck: Port
+    tags: [port, subregions, quality]
+    status: reviewed
+    source_id: c44-0005
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which description best fits the Douro Superior as a source of Port?"
+      choices:
+        - { text: "Densely planted, supplying mostly light basic Port", correct: false }
+        - { text: "Densely planted, with most of the region's top estates", correct: false }
+        - { text: "Sparsely planted, and too remote to give quality Port", correct: false }
+        - { text: "Sparsely planted, yet home to some top-quality vineyards", correct: true }
+      explanation: |
+        Distance from the coast and poor access long kept planting thin. Its flatter
+        stretches now suit more mechanised new vineyards, and Quinta do Vesúvio is a
+        famous estate there.
+
+  - id: port-douro-climate-001
+    type: mcq
+    deck: Port
+    tags: [port, climate]
+    status: reviewed
+    source_id: c44-0006
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which climate label best fits the Douro vineyards that supply Port?"
+      choices:
+        - { text: "Cool maritime", correct: false }
+        - { text: "Warm continental", correct: true }
+        - { text: "Warm maritime", correct: false }
+        - { text: "Cool continental", correct: false }
+      explanation: |
+        The Serra do Marão, west of the vineyards, blocks much of the moist Atlantic air
+        that keeps nearby Vinho Verde green and mild.
+
+  - id: port-baixo-corgo-climate-001
+    type: mcq
+    deck: Port
+    tags: [port, subregions, climate]
+    status: reviewed
+    source_id: c44-0007
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "How does the Baixo Corgo's climate compare with the Port sub-regions further upstream?"
+      choices:
+        - { text: "Hotter and drier", correct: false }
+        - { text: "Hotter but wetter", correct: false }
+        - { text: "Cooler but drier", correct: false }
+        - { text: "Cooler and wetter", correct: true }
+      explanation: |
+        It lies closest to the Atlantic, so the last of the rain-bearing fronts that
+        cross the mountains still reach it. Each step east deepens the rain shadow, so
+        the vineyards near the Spanish border get far less rain than Peso da Régua.
+
+  - id: port-spring-hazards-001
+    type: mcq
+    deck: Port
+    tags: [port, viticulture, hazards]
+    status: reviewed
+    source_id: c44-0009
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which spring weather hazards most worry a grower in the Port vineyards?"
+      choices:
+        - { text: "Sea fog, and salty winds off the coast", correct: false }
+        - { text: "Frost, and heavy downpours around flowering", correct: true }
+        - { text: "Atlantic gales, and late snow on young shoots", correct: false }
+        - { text: "Drought, and dry heat that delays budburst", correct: false }
+      explanation: |
+        Rain at flowering can cause poor fruit set (coulure), cutting the crop before
+        the hot season even begins. The same kind of storm at picking time slows the
+        harvest and dilutes the grapes.
+
+  - id: port-summer-stress-001
+    type: mcq
+    deck: Port
+    tags: [port, viticulture, climate]
+    status: reviewed
+    source_id: c44-0010
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "What makes summer the hardest season for vines in the Port vineyards?"
+      choices:
+        - { text: "Frequent thunderstorms that spread rot", correct: false }
+        - { text: "Cool, cloudy spells that stall ripening", correct: false }
+        - { text: "Very high daytime heat and very little rain", correct: true }
+        - { text: "Humid Atlantic air that favours mildew", correct: false }
+      explanation: |
+        Temperatures in the valley floor can pass 40 °C. Vines under that much stress
+        may shut down their leaves and stop ripening for a time.
+
+  - id: port-schist-water-001
+    type: mcq
+    deck: Port
+    tags: [port, soils, viticulture]
+    status: reviewed
+    source_id: c44-0011
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "What lets vines in the Port vineyards survive the long, dry summers?"
+      choices:
+        - { text: "Clay subsoils that hold water near the surface", correct: false }
+        - { text: "Granite bedrock that stores water at shallow depth", correct: false }
+        - { text: "Morning river mist that condenses on the leaves", correct: false }
+        - { text: "Fractured schist that roots follow down to deep water", correct: true }
+      explanation: |
+        The rock splits into near-vertical layers, so winter rain soaks deep into the
+        cracks. Roots follow those fissures many metres down to the stored water.
+
+  - id: port-slope-siting-001
+    type: mcq
+    deck: Port
+    tags: [port, topography, viticulture]
+    status: reviewed
+    source_id: c44-0012
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Where are most vineyards in the Baixo Corgo and Cima Corgo planted?"
+      choices:
+        - { text: "On the flat valley floor beside the river", correct: false }
+        - { text: "On a high plateau well back from the river", correct: false }
+        - { text: "On steep slopes rising from the Douro and its tributaries", correct: true }
+        - { text: "On gentle rolling hills away from the main valley", correct: false }
+      explanation: |
+        The river has cut a deep, narrow gorge, so the banks climb straight up from the
+        water. The slopes are terraced to hold soil and allow work, giving the region
+        its stepped look.
+
+  - id: port-north-aspect-001
+    type: mcq
+    deck: Port
+    tags: [port, topography, viticulture]
+    status: reviewed
+    source_id: c44-0014
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "In the hot Cima Corgo, which slope aspect helps a grower spare grapes from the full force of the sun?"
+      choices:
+        - { text: "North-facing", correct: true }
+        - { text: "South-facing", correct: false }
+        - { text: "West-facing", correct: false }
+        - { text: "South-west-facing", correct: false }
+      explanation: |
+        The main Douro valley runs roughly east to west, so its banks largely face north
+        or south.
+        Growers wanting slower ripening and fresher fruit often pick the south bank,
+        whose slopes look north.
+
+  - id: port-steep-cost-001
+    type: mcq
+    deck: Port
+    tags: [port, topography, cost]
+    status: reviewed
+    source_id: c44-0015
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Why are the Cima Corgo vineyards so costly to farm?"
+      choices:
+        - { text: "Grapes ripen unevenly and need many separate picks", correct: false }
+        - { text: "Thin soils need heavy fertiliser every year", correct: false }
+        - { text: "Humid air demands frequent fungicide sprays", correct: false }
+        - { text: "Much of the work has to be done by hand", correct: true }
+      explanation: |
+        The steep, terraced slopes leave little room for machines, so pruning, spraying
+        and picking take many more hours per hectare than on flat land. Erosion control
+        and access tracks add further spending.
+
+  - id: port-socalcos-term-001
+    type: mcq
+    deck: Port
+    tags: [port, terraces, viticulture]
+    status: reviewed
+    source_id: c44-0016
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which Douro term names the old, narrow vineyard terraces held up by dry-stone walls?"
+      choices:
+        - { text: "Patamares", correct: false }
+        - { text: "Lagares", correct: false }
+        - { text: "Socalcos", correct: true }
+        - { text: "Vinha ao alto", correct: false }
+      explanation: |
+        Generations of labourers broke the schist by hand to build them, and many are
+        centuries old. The walls hold the soil on slopes far too steep to plant as
+        they were.
+
+  - id: port-socalcos-drawback-001
+    type: mcq
+    deck: Port
+    tags: [port, terraces, viticulture]
+    status: reviewed
+    source_id: c44-0017
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which is a real drawback of the Douro's traditional walled terraces?"
+      choices:
+        - { text: "Each one holds only a few rows of vines", correct: true }
+        - { text: "The walls speed up erosion in heavy rain", correct: false }
+        - { text: "Vines on them must be trained on high pergolas", correct: false }
+        - { text: "They are barred from the top vineyard grades", correct: false }
+      explanation: |
+        The narrow ledges keep vine numbers per terrace low, and the dry-stone walls
+        need constant, skilled repair after storms and frost heave.
+
+  - id: port-socalcos-today-001
+    type: mcq
+    deck: Port
+    tags: [port, terraces, viticulture]
+    status: reviewed
+    source_id: c44-0018
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "How common are walled terraces in today's Port vineyards?"
+      choices:
+        - { text: "Banned for any new planting by the regulator", correct: false }
+        - { text: "Still widespread despite being impractical", correct: true }
+        - { text: "Abandoned since phylloxera struck in the 1800s", correct: false }
+        - { text: "Restricted to a few museum plots in the Douro Superior", correct: false }
+      explanation: |
+        Replacing them would be costly and would change a landscape listed by UNESCO in
+        2001 as the Alto Douro Wine Region.
+
+  - id: port-patamares-001
+    type: mcq
+    deck: Port
+    tags: [port, terraces, viticulture]
+    status: reviewed
+    source_id: c44-0019
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "What sets the Douro terraces called patamares apart from older terraces?"
+      choices:
+        - { text: "Taller dry-stone walls that hold more vine rows", correct: false }
+        - { text: "Concrete walls with room for overhead pergolas", correct: false }
+        - { text: "Narrow walled ledges reached by cable winch", correct: false }
+        - { text: "Earth banks with no walls, wide enough for tractors", correct: true }
+      explanation: |
+        Bulldozed patamares spread from the 1970s and 1980s. Small tractors can run
+        along each ledge, which removes some of the hand work of the older system.
+
+  - id: port-vinha-ao-alto-001
+    type: mcq
+    deck: Port
+    tags: [port, terraces, viticulture]
+    status: reviewed
+    source_id: c44-0020
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "How are the vines laid out in the Douro planting system called vinha ao alto?"
+      choices:
+        - { text: "In rows following the contour across the slope", correct: false }
+        - { text: "In rows running straight up and down the slope", correct: true }
+        - { text: "As free-standing bush vines scattered over the slope", correct: false }
+        - { text: "On overhead pergolas built out over the slope", correct: false }
+      explanation: |
+        Tracks cut across the hillside at intervals, and machines parked on them haul
+        equipment up and down the rows by winch.
+
+  - id: port-terrace-erosion-001
+    type: mcq
+    deck: Port
+    tags: [port, terraces, viticulture]
+    status: reviewed
+    source_id: c44-0021
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Compared with walled terraces, what is the main weakness of both patamares and vinha ao alto?"
+      choices:
+        - { text: "Higher wall-repair bills", correct: false }
+        - { text: "Poorer drainage that waterlogs roots", correct: false }
+        - { text: "Greater soil erosion", correct: true }
+        - { text: "More frost damage in winter", correct: false }
+      explanation: |
+        The risk is worst in vinha ao alto, where rain runs straight down the rows. That
+        is why it is kept to gentler slopes and not used on the steepest sites.
+
+  - id: port-fortify-point-001
+    type: mcq
+    deck: Port
+    tags: [port, winemaking, fortification]
+    status: reviewed
+    source_id: c44-0024
+    review:
+      fact_check: pass
+      sources: [producer-site]
+    en:
+      question: "At roughly what alcohol level is fermenting Port usually fortified?"
+      choices:
+        - { text: "About 1–3% abv", correct: false }
+        - { text: "About 12–14% abv", correct: false }
+        - { text: "About 5–9% abv", correct: true }
+        - { text: "About 15–17% abv", correct: false }
+      explanation: |
+        Producers such as Taylor's describe adding the spirit once roughly half the
+        grape sugar has been turned into alcohol. The other half stays as sweetness.
+
+  - id: port-ferment-length-001
+    type: mcq
+    deck: Port
+    tags: [port, winemaking, fermentation]
+    status: reviewed
+    source_id: c44-0025
+    review:
+      fact_check: pass
+      sources: [producer-site]
+    en:
+      question: "How long does the fermentation of Port usually run before the spirit is added?"
+      choices:
+        - { text: "About one to two weeks", correct: false }
+        - { text: "About three to four weeks", correct: false }
+        - { text: "About one to three days", correct: true }
+        - { text: "About six to eight weeks", correct: false }
+      explanation: |
+        In a lagar, fermentation can start within a few hours of treading, and the
+        wine is usually run off and fortified within two or three days.
+
+  - id: port-extraction-need-001
+    type: mcq
+    deck: Port
+    tags: [port, winemaking, extraction]
+    status: reviewed
+    source_id: c44-0026
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Why does Port need especially vigorous extraction of colour and tannin?"
+      choices:
+        - { text: "Douro grapes have thin skins with little colour", correct: false }
+        - { text: "Early fortification cuts skin contact short", correct: true }
+        - { text: "The added spirit bleaches colour from the wine", correct: false }
+        - { text: "Long oak ageing strips out most of the tannin", correct: false }
+      explanation: |
+        A red table wine can soak on its skins for a week or more. Port has to gain the
+        same depth in a fraction of that time, so the skins must be worked hard.
+
+  - id: port-foot-treading-benchmark-001
+    type: mcq
+    deck: Port
+    tags: [port, winemaking, extraction]
+    status: reviewed
+    source_id: c44-0028
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Against which extraction method are the other Port methods usually judged?"
+      choices:
+        - { text: "Autovinification", correct: false }
+        - { text: "Pumping over in closed tanks", correct: false }
+        - { text: "Foot treading", correct: true }
+        - { text: "Piston plunging", correct: false }
+      explanation: |
+        Human feet crush the berries firmly without cracking the bitter pips, and the
+        shallow vessel keeps a wide surface of skins in contact with the juice.
+
+  - id: port-lagar-vessel-001
+    type: mcq
+    deck: Port
+    tags: [port, winemaking, extraction]
+    status: reviewed
+    source_id: c44-0029
+    review:
+      fact_check: pass
+      sources: [known-fact, producer-site]
+    en:
+      question: "In what kind of vessel are Port grapes traditionally foot-trodden?"
+      choices:
+        - { text: "A tall, open oak vat", correct: false }
+        - { text: "A deep, sealed stainless steel tank", correct: false }
+        - { text: "A large lidded concrete tank", correct: false }
+        - { text: "A shallow, open granite trough", correct: true }
+      explanation: |
+        Teams of treaders first move in a slow line, arm in arm, for the first hours;
+        this stage is called the corte. They then walk freely, the liberdade.
+
+  - id: port-lagar-cap-001
+    type: mcq
+    deck: Port
+    tags: [port, winemaking, extraction]
+    status: reviewed
+    source_id: c44-0031
+    review:
+      fact_check: pass
+      sources: [producer-site]
+    en:
+      question: "In a traditional Port lagar, how is extraction kept up once fermentation pushes the skins to the surface?"
+      choices:
+        - { text: "Juice is pumped over from a tank below", correct: false }
+        - { text: "The cap is pushed down with plungers", correct: true }
+        - { text: "The skins are drained off and pressed", correct: false }
+        - { text: "The must is heated to draw out colour", correct: false }
+      explanation: |
+        The wooden plungers are called macacos. Exactly when treading gives way to them
+        varies from house to house.
+
+  - id: port-foot-treading-decline-001
+    type: mcq
+    deck: Port
+    tags: [port, winemaking, extraction]
+    status: reviewed
+    source_id: c44-0032
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Why has foot treading largely given way to machines in Port making?"
+      choices:
+        - { text: "It extracts too little colour and tannin", correct: false }
+        - { text: "It is banned for wines sold as Vintage", correct: false }
+        - { text: "It needs large teams of workers", correct: true }
+        - { text: "It raises the risk of spoilage yeasts", correct: false }
+      explanation: |
+        Rural depopulation in the Douro has made it hard to find and pay enough people
+        for several hours of treading per lagar, night after night at harvest.
+
+  - id: port-foot-treading-premium-001
+    type: mcq
+    deck: Port
+    tags: [port, winemaking, extraction]
+    status: reviewed
+    source_id: c44-0033
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "For which Ports is foot treading still sometimes used today?"
+      choices:
+        - { text: "Everyday Ruby blends", correct: false }
+        - { text: "Some top wines, such as Vintage Port", correct: true }
+        - { text: "Most White and Rosé Ports", correct: false }
+        - { text: "Inexpensive Tawny for export", correct: false }
+      explanation: |
+        Houses such as Taylor's and Quinta do Noval still tread some of their best lots,
+        where the extra cost is justified by the price of the wine.
+
+  - id: port-autovinifier-drive-001
+    type: mcq
+    deck: Port
+    tags: [port, winemaking, extraction]
+    status: reviewed
+    source_id: c44-0034
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "In a Port autovinifier, what pushes the juice up into the holding tank?"
+      choices:
+        - { text: "An electric pump under the vat", correct: false }
+        - { text: "Gas pressure from the fermentation", correct: true }
+        - { text: "Steam injected at the base of the vat", correct: false }
+        - { text: "Air from an external compressor", correct: false }
+      explanation: |
+        The crushed grapes sit in a sealed vat, so the gas has nowhere to go. As it
+        builds up, it forces liquid up a pipe into an open tank above.
+
+  - id: port-autovinifier-valve-001
+    type: mcq
+    deck: Port
+    tags: [port, winemaking, extraction]
+    status: reviewed
+    source_id: c44-0034
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "What happens each time the valve on a Port autovinifier opens?"
+      choices:
+        - { text: "Spirit is let into the vat to fortify the wine", correct: false }
+        - { text: "Wine is run off to a press", correct: false }
+        - { text: "Juice from the top tank floods back over the cap", correct: true }
+        - { text: "Cold water flows through the vat's cooling jacket", correct: false }
+      explanation: |
+        With the gas released, nothing holds the raised wine up any more. The valve then
+        closes and the cycle starts again by itself, with no pump or operator.
+
+  - id: port-autovinifier-pumpover-001
+    type: mcq
+    deck: Port
+    tags: [port, winemaking, extraction]
+    status: reviewed
+    source_id: c44-0035
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which red winemaking technique does an autovinifier most closely resemble?"
+      choices:
+        - { text: "Punching down", correct: false }
+        - { text: "Cold soaking", correct: false }
+        - { text: "Extended maceration", correct: false }
+        - { text: "Pumping over", correct: true }
+      explanation: |
+        Both wet the floating skins by pouring juice back over the top of the cap;
+        neither presses the skins down physically.
+
+  - id: port-autovinifier-cycle-001
+    type: mcq
+    deck: Port
+    tags: [port, winemaking, extraction]
+    status: reviewed
+    source_id: c44-0036
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Why can an autovinifier extract more than a standard fermentation tank?"
+      choices:
+        - { text: "It repeats its cycle several times an hour", correct: true }
+        - { text: "It works the must at much higher temperatures", correct: false }
+        - { text: "It keeps the cap held under the surface", correct: false }
+        - { text: "It adds pectic enzymes with each cycle", correct: false }
+      explanation: |
+        At the peak of fermentation a cycle can come round every quarter of an hour or
+        so, far more often than a cellar hand would work the cap of a normal tank.
+
+  - id: port-autovinifier-weak-phase-001
+    type: mcq
+    deck: Port
+    tags: [port, winemaking, extraction]
+    status: reviewed
+    source_id: c44-0037
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "At what stage is extraction weakest in a traditional autovinifier?"
+      choices:
+        - { text: "At the height of fermentation", correct: false }
+        - { text: "Before fermentation has started", correct: true }
+        - { text: "Just before fortification", correct: false }
+        - { text: "Once the cap has fully formed", correct: false }
+      explanation: |
+        Newer units add mechanical paddles to stir the skins during that phase, so
+        colour work can begin straight after crushing.
+
+  - id: port-robotic-aim-001
+    type: mcq
+    deck: Port
+    tags: [port, winemaking, extraction]
+    status: reviewed
+    source_id: c44-0038
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "What are piston plungers and robotic lagares in Port making designed to copy?"
+      choices:
+        - { text: "Pumping over", correct: false }
+        - { text: "Autovinification", correct: false }
+        - { text: "Basket pressing", correct: false }
+        - { text: "Foot treading", correct: true }
+      explanation: |
+        The aim is the same gentle but thorough crushing of skins, without needing
+        a crew of treaders at every vat.
+
+  - id: port-piston-plunger-001
+    type: mcq
+    deck: Port
+    tags: [port, winemaking, extraction]
+    status: reviewed
+    source_id: c44-0039
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "In what kind of vessel do Port piston plungers work?"
+      choices:
+        - { text: "Tall, sealed stainless steel tanks", correct: false }
+        - { text: "Round, shallow, open-topped steel vats", correct: true }
+        - { text: "Large old oak vats with lids", correct: false }
+        - { text: "Long rectangular granite troughs", correct: false }
+      explanation: |
+        A shallow vessel keeps the cap thin and wide, so the pistons press a large area
+        of skins with each stroke, much as feet do in a lagar.
+
+  - id: port-robotic-lagar-001
+    type: mcq
+    deck: Port
+    tags: [port, winemaking, extraction]
+    status: reviewed
+    source_id: c44-0040
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "How does a robotic lagar imitate human treaders?"
+      choices:
+        - { text: "Steel rollers crush the grapes between drums", correct: false }
+        - { text: "A paddle wheel churns the must without stopping", correct: false }
+        - { text: "A moving gantry presses robotic feet to the floor", correct: true }
+        - { text: "Jets of juice are sprayed over the floating skins", correct: false }
+      explanation: |
+        The tank is shallow, rectangular stainless steel, about the size of a stone
+        lagar. After the treading phase the same machine handles regular punch-downs.
+
+  - id: port-robotic-lagar-verdict-001
+    type: mcq
+    deck: Port
+    tags: [port, winemaking, extraction]
+    status: reviewed
+    source_id: c44-0041
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "How do Port producers generally rate robotic lagares against foot treading?"
+      choices:
+        - { text: "About as good", correct: true }
+        - { text: "Fit for basic Port only", correct: false }
+        - { text: "Harsher, with bitter tannins", correct: false }
+        - { text: "Better for colour, weaker on body", correct: false }
+      explanation: |
+        That is why they are widely used for premium wines, which once relied on large
+        teams of treaders.
+
+  - id: port-final-strength-001
+    type: mcq
+    deck: Port
+    tags: [port, winemaking, fortification]
+    status: reviewed
+    source_id: c44-0043
+    review:
+      fact_check: pass
+      sources: [eambrosia, ivdp, decreto-lei-7-2019]
+    en:
+      question: "Within what alcohol range does most Port fall once fortified?"
+      choices:
+        - { text: "About 13–15% abv", correct: false }
+        - { text: "About 15–17% abv", correct: false }
+        - { text: "About 23–25% abv", correct: false }
+        - { text: "About 19–22% abv", correct: true }
+      explanation: |
+        The special categories must stay within this band. Since 2019, ordinary Ruby,
+        Tawny, White and Rosé may go down to 18%, and light dry White Port to 16.5%.
+
+  - id: port-fortify-timing-001
+    type: mcq
+    deck: Port
+    tags: [port, winemaking, fortification]
+    status: reviewed
+    source_id: c44-0044
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "What mainly decides when a Port maker adds the spirit to a fermenting batch?"
+      choices:
+        - { text: "The age of the casks waiting for the wine", correct: false }
+        - { text: "The starting sugar and the sweetness wanted", correct: true }
+        - { text: "The time of day the grapes were picked", correct: false }
+        - { text: "A fixed number of hours set by law", correct: false }
+      explanation: |
+        Cellar staff track the falling density of the must with a hydrometer. Very ripe,
+        sugary grapes can ferment a little longer and still finish sweet.
+
+  - id: port-aguardente-name-001
+    type: mcq
+    deck: Port
+    tags: [port, fortification, terminology]
+    status: reviewed
+    source_id: c44-0045
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "What is the Portuguese name for the grape spirit used to fortify Port?"
+      choices:
+        - { text: "Bagaceira", correct: false }
+        - { text: "Medronho", correct: false }
+        - { text: "Ginjinha", correct: false }
+        - { text: "Aguardente", correct: true }
+      explanation: |
+        The word literally means "fiery water". For Port it must be distilled from wine,
+        unlike bagaceira, which is made from grape pomace.
+
+  - id: port-aguardente-strength-001
+    type: mcq
+    deck: Port
+    tags: [port, fortification]
+    status: reviewed
+    source_id: c44-0046
+    review:
+      fact_check: pass
+      sources: [eambrosia, ivdp, producer-site]
+    en:
+      question: "What is the usual strength of the spirit used to fortify Port?"
+      choices:
+        - { text: "About 40% abv", correct: false }
+        - { text: "About 60% abv", correct: false }
+        - { text: "About 77% abv", correct: true }
+        - { text: "About 96% abv", correct: false }
+      explanation: |
+        It is a colourless spirit distilled from wine, and the Port and Douro Wines
+        Institute checks its quality before it may be used.
+
+  - id: port-spirit-share-001
+    type: mcq
+    deck: Port
+    tags: [port, fortification]
+    status: reviewed
+    source_id: c44-0048
+    review:
+      fact_check: pass
+      sources: [producer-site]
+    en:
+      question: "Roughly what share of a finished Port's volume is added grape spirit?"
+      choices:
+        - { text: "About one-twentieth", correct: false }
+        - { text: "About one-fifth", correct: true }
+        - { text: "About one-tenth", correct: false }
+        - { text: "About two-fifths", correct: false }
+      explanation: |
+        Taylor's gives a typical ratio of about 115 litres of spirit to 435 litres of
+        fermenting wine. Because the spirit is only 77% abv, a lot of it is needed.
+
+  - id: port-fino-spirit-share-001
+    type: mcq
+    deck: Port
+    tags: [port, sherry, fortification, comparison]
+    status: reviewed
+    source_id: c44-0049
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Roughly what share of a fino Sherry's volume is pure grape spirit added at fortification?"
+      choices:
+        - { text: "About 3–5%", correct: true }
+        - { text: "About 9–11%", correct: false }
+        - { text: "About 15–16%", correct: false }
+        - { text: "About 25–30%", correct: false }
+      explanation: |
+        The base wine has already fermented fully dry, so only a few degrees of alcohol
+        need to be added to reach the strength wanted for flor ageing.
+
+  - id: port-gaia-lodges-001
+    type: mcq
+    deck: Port
+    tags: [port, geography, maturation]
+    status: reviewed
+    source_id: c44-0050
+    review:
+      fact_check: pass
+      sources: [known-fact, producer-site]
+    en:
+      question: "In which town are the big Port houses' ageing lodges traditionally found?"
+      choices:
+        - { text: "Matosinhos", correct: false }
+        - { text: "Peso da Régua", correct: false }
+        - { text: "Vila Nova de Gaia", correct: true }
+        - { text: "Pinhão", correct: false }
+      explanation: |
+        Its riverfront is lined with the lodges of shippers such as Sandeman, Taylor's
+        and Graham's, where wine is matured, blended and bottled.
