@@ -1108,3 +1108,743 @@ cards:
       explanation: |
         Cool nights at height hold acidity while long, sunny days build flavour,
         so the wines join concentration with freshness.
+
+  - id: aus-land-size-001
+    type: mcq
+    deck: Australia
+    tags: [australia, geography]
+    status: reviewed
+    source_id: c39-0001
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "How does Australia's land area compare with that of the mainland United States?"
+      choices:
+        - { text: "About half as large", correct: false }
+        - { text: "Roughly the same size", correct: true }
+        - { text: "About twice as large", correct: false }
+        - { text: "About a quarter as large", correct: false }
+      explanation: |
+        The continent covers close to 7.7 million km², yet its vineyards hug the
+        south-east and south-west corners. Margaret River and the Hunter Valley
+        lie over 3,000 km apart, further than London is from Moscow, so
+        "Australian wine" spans very different places.
+
+  - id: aus-heat-latitude-001
+    type: mcq
+    deck: Australia
+    tags: [australia, climate]
+    status: reviewed
+    source_id: c39-0002
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which factor does most to make the bulk of Australia's vineyard land warm or hot?"
+      choices:
+        - { text: "Stony soils that store heat", correct: false }
+        - { text: "Long summer days at high latitude", correct: false }
+        - { text: "High average vineyard altitude", correct: false }
+        - { text: "Fairly low latitude", correct: true }
+      explanation: |
+        Most Australian regions sit between roughly 30° and 38°S, about as close
+        to the equator as southern Spain or North Africa are in the north. The
+        sun stands high in the sky and the growing season is long.
+
+  - id: aus-ocean-cooling-001
+    type: mcq
+    deck: Australia
+    tags: [australia, climate]
+    status: reviewed
+    source_id: c39-0003
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Apart from altitude, which influence does most to cool Australia's southern coastal vineyards?"
+      choices:
+        - { text: "Breezes off the Southern and Indian Oceans", correct: true }
+        - { text: "Frequent summer rain", correct: false }
+        - { text: "Cold air draining from the Great Dividing Range", correct: false }
+        - { text: "Winds blowing in from the dry interior", correct: false }
+      explanation: |
+        Air over the cold southern seas is drawn inland as the land heats up,
+        trimming the hottest hours of the day. The effect fades quickly a few
+        tens of kilometres from the coast. Winds from the interior do the
+        opposite: they bring the heatwaves.
+
+  - id: aus-altitude-regions-001
+    type: mcq
+    deck: Australia
+    tags: [australia, south-australia, climate]
+    status: reviewed
+    source_id: c39-0004
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which pair of South Australian regions owes its cooler conditions mainly to altitude?"
+      choices:
+        - { text: "Coonawarra and Padthaway", correct: false }
+        - { text: "McLaren Vale and Langhorne Creek", correct: false }
+        - { text: "Adelaide Hills and Eden Valley", correct: true }
+        - { text: "Riverland and Barossa Valley", correct: false }
+      explanation: |
+        Both sit in the Mount Lofty Ranges east of Adelaide. Air cools by
+        roughly 0.6 °C for every 100 m of height, so upland sites ripen later
+        than the plains below.
+
+  - id: aus-irrigation-reason-001
+    type: mcq
+    deck: Australia
+    tags: [australia, viticulture, water]
+    status: reviewed
+    source_id: c39-0005
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "What is the main reason irrigation is standard in many Australian vineyards?"
+      choices:
+        - { text: "Spring frost must be fought with sprinklers", correct: false }
+        - { text: "Strong winds strip moisture from the canopy", correct: false }
+        - { text: "Heavy winter rain leaches the topsoil", correct: false }
+        - { text: "Too little rain falls in the growing season", correct: true }
+      explanation: |
+        Without added water, many vines would shut down in summer and crops
+        would fall sharply. Drip lines let growers dose water vine by vine, and
+        some use deficit irrigation on purpose to keep berries small.
+
+  - id: aus-murray-irrigation-001
+    type: mcq
+    deck: Australia
+    tags: [australia, viticulture, water]
+    status: reviewed
+    source_id: c39-0006
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which river supplies the irrigation water that Australia's largest inland vineyards depend on?"
+      choices:
+        - { text: "The Hunter", correct: false }
+        - { text: "The Murray", correct: true }
+        - { text: "The Swan", correct: false }
+        - { text: "The Derwent", correct: false }
+      explanation: |
+        In severe droughts its flow drops and water allocations are cut. During
+        the Millennium Drought of the 2000s, some inland growers bought water at
+        high prices or left blocks unwatered.
+
+  - id: aus-bushfire-risk-001
+    type: mcq
+    deck: Australia
+    tags: [australia, climate, hazards]
+    status: reviewed
+    source_id: c39-0008
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which summer hazard, beyond drought itself, most regularly threatens Australian wine regions?"
+      choices:
+        - { text: "Hailstorms", correct: false }
+        - { text: "Tropical cyclones", correct: false }
+        - { text: "Bush fires", correct: true }
+        - { text: "Summer flooding", correct: false }
+      explanation: |
+        Dry grass, eucalyptus oil and hot northerly winds let fires spread fast.
+        In the 2019–20 "Black Summer" season, a single December blaze damaged a
+        large share of the vineyards in the Adelaide Hills.
+
+  - id: aus-smoke-taint-001
+    type: mcq
+    deck: Australia
+    tags: [australia, hazards, faults]
+    status: reviewed
+    source_id: c39-0009
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "How can a bush fire spoil a vintage even when the flames never reach the vines?"
+      choices:
+        - { text: "Smoke compounds taint the grapes", correct: true }
+        - { text: "Ash on the leaves halts ripening", correct: false }
+        - { text: "Hot winds from the fire split the berries", correct: false }
+        - { text: "Fire retardant stops fermentation", correct: false }
+      explanation: |
+        Volatile phenols such as guaiacol pass through the skins and bind to
+        sugars. They can stay hidden in the juice, then reappear after
+        fermentation or in the mouth as ashy, medicinal flavours.
+
+  - id: aus-tasmania-cool-plantings-001
+    type: mcq
+    deck: Australia
+    tags: [australia, tasmania, climate]
+    status: reviewed
+    source_id: c39-0011
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which Australian state has seen the fastest proportional vineyard growth in recent decades?"
+      choices:
+        - { text: "Victoria", correct: false }
+        - { text: "Western Australia", correct: false }
+        - { text: "South Australia", correct: false }
+        - { text: "Tasmania", correct: true }
+      explanation: |
+        At roughly 41° to 43°S it is the most southerly wine state, and growers
+        seeking cooler sites have planted there steadily. It started from a
+        small base, so it still makes only a small share of Australia's wine.
+
+  - id: aus-shiraz-leading-001
+    type: mcq
+    deck: Australia
+    tags: [australia, shiraz, grapes]
+    status: reviewed
+    source_id: c39-0012
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which grape covers the largest vineyard area in Australia, of either colour?"
+      choices:
+        - { text: "Cabernet Sauvignon", correct: false }
+        - { text: "Shiraz", correct: true }
+        - { text: "Chardonnay", correct: false }
+        - { text: "Grenache", correct: false }
+      explanation: |
+        It grows in almost every region, from hot irrigated areas to cool hills.
+        Some of the oldest producing vines in the world are Barossa Shiraz
+        planted in the mid-1800s, which survived because phylloxera never
+        reached South Australia.
+
+  - id: aus-shiraz-warm-style-001
+    type: mcq
+    deck: Australia
+    tags: [australia, shiraz, style]
+    status: reviewed
+    source_id: c39-0014
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which profile best fits a classic Shiraz from a hot or warm Australian region?"
+      choices:
+        - { text: "Full body, red fruit, high acidity", correct: false }
+        - { text: "Medium body, black pepper, firm acidity", correct: false }
+        - { text: "Full body, green pepper, grippy tannin", correct: false }
+        - { text: "Full body, ripe black fruit, earthy spice", correct: true }
+      explanation: |
+        Long sunny seasons build sugar, colour and soft, ripe tannin, and
+        acidity falls as the grapes ripen. Old, low-yielding vines in some warm
+        regions add further concentration.
+
+  - id: aus-shiraz-restrained-001
+    type: mcq
+    deck: Australia
+    tags: [australia, shiraz, winemaking]
+    status: reviewed
+    source_id: c39-0015
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "In the cellar, how are some producers in warm Australian regions making a more restrained Shiraz?"
+      choices:
+        - { text: "By blending in a little Grenache", correct: false }
+        - { text: "By extracting less during fermentation", correct: true }
+        - { text: "By fermenting with selected cultured yeast", correct: false }
+        - { text: "By filtering more tightly before bottling", correct: false }
+      explanation: |
+        Gentler pump-overs, fewer punch-downs and shorter time on skins draw out
+        less tannin and colour. Many pair this with older or larger barrels so
+        that oak does not add weight back.
+
+  - id: aus-shiraz-cool-pepper-001
+    type: mcq
+    deck: Australia
+    tags: [australia, shiraz, style]
+    status: reviewed
+    source_id: c39-0016
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which pair of regions is associated with a leaner, more peppery Australian Shiraz?"
+      choices:
+        - { text: "Barossa Valley and McLaren Vale", correct: false }
+        - { text: "Riverland and Riverina", correct: false }
+        - { text: "Geelong and Canberra District", correct: true }
+        - { text: "Hunter Valley and Rutherglen", correct: false }
+      explanation: |
+        The peppery note comes from rotundone, which builds up in cooler
+        seasons. Clonakilla in the Canberra District made its name by
+        co-fermenting Shiraz with a little Viognier, in the manner of Côte-Rôtie.
+
+  - id: aus-cabernet-vs-shiraz-001
+    type: mcq
+    deck: Australia
+    tags: [australia, cabernet-sauvignon, style]
+    status: reviewed
+    source_id: c39-0019
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Compared with Australian Shiraz, how does Australian Cabernet Sauvignon usually differ in structure?"
+      choices:
+        - { text: "Softer tannin and fleshier fruit", correct: false }
+        - { text: "Lower acidity and higher alcohol", correct: false }
+        - { text: "Paler colour and lighter body", correct: false }
+        - { text: "Firmer tannin and higher acidity", correct: true }
+      explanation: |
+        Cabernet's small, thick-skinned berries give a tighter frame, with
+        blackcurrant and black cherry fruit. It buds and ripens later than
+        Shiraz, and toasty oak is usual at the premium level.
+
+  - id: aus-pinot-premium-style-001
+    type: mcq
+    deck: Australia
+    tags: [australia, pinot-noir, style]
+    status: reviewed
+    source_id: c39-0023
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which profile fits Pinot Noir from Australia's best cool sites?"
+      choices:
+        - { text: "Medium body, fresh acidity, cherry and strawberry", correct: true }
+        - { text: "Full body, low acidity, jammy plum and prune", correct: false }
+        - { text: "Light body, sharp acidity, cranberry and green leaf", correct: false }
+        - { text: "Deep colour, firm tannin, cassis and cedar", correct: false }
+      explanation: |
+        Alcohol usually stays moderate because sugar builds slowly in these
+        sites. Many producers now add some whole bunches to the ferment for
+        extra perfume and a firmer, finer tannin.
+
+  - id: aus-mataro-name-001
+    type: mcq
+    deck: Australia
+    tags: [australia, grapes, synonyms]
+    status: reviewed
+    source_id: c39-0024
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which black grape, known in France as Mourvèdre, is valued in Australia's hot regions?"
+      choices:
+        - { text: "Durif", correct: false }
+        - { text: "Grenache", correct: false }
+        - { text: "Mataro", correct: true }
+        - { text: "Touriga", correct: false }
+      explanation: |
+        It needs a long, hot season to ripen fully. Alongside Grenache and Petit
+        Verdot, it copes well with heat; Barossa and McLaren Vale use it with
+        Grenache and Shiraz in "GSM" blends.
+
+  - id: aus-mediterranean-grapes-heat-001
+    type: mcq
+    deck: Australia
+    tags: [australia, grapes, climate]
+    status: reviewed
+    source_id: c39-0025
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Why have Sangiovese and Tempranillo gained ground in Australia's hot regions?"
+      choices:
+        - { text: "They need little sun to reach ripeness", correct: false }
+        - { text: "They cope with heat and limited water", correct: true }
+        - { text: "Their thick skins resist summer rot", correct: false }
+        - { text: "They thrive on cool inland nights", correct: false }
+      explanation: |
+        Both come from warm, dry, Mediterranean-influenced climates in Italy
+        and Spain. As water for
+        irrigation becomes scarcer and dearer, growers look for vines that
+        keep fresh flavours under heat stress, such as Fiano or Nero d'Avola.
+
+  - id: aus-chardonnay-leading-white-001
+    type: mcq
+    deck: Australia
+    tags: [australia, chardonnay, grapes]
+    status: reviewed
+    source_id: c39-0026
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which white grape covers the largest vineyard area in Australia?"
+      choices:
+        - { text: "Semillon", correct: false }
+        - { text: "Sauvignon Blanc", correct: false }
+        - { text: "Riesling", correct: false }
+        - { text: "Chardonnay", correct: true }
+      explanation: |
+        It ripens reliably from cool hills to hot irrigated plains. In the 1980s
+        and 1990s, ripe, oaky Australian Chardonnay sold under brands such as
+        Lindemans Bin 65 helped open the British market.
+
+  - id: aus-chardonnay-oak-alternatives-001
+    type: mcq
+    deck: Australia
+    tags: [australia, chardonnay, winemaking]
+    status: reviewed
+    source_id: c39-0027
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "How do many inexpensive Australian Chardonnays get toast and vanilla notes without barrel ageing?"
+      choices:
+        - { text: "Extended lees stirring", correct: false }
+        - { text: "Oak chips or staves in tank", correct: true }
+        - { text: "Full malolactic conversion", correct: false }
+        - { text: "Ageing in large old casks", correct: false }
+      explanation: |
+        Chips or staves give oak flavour quickly and at a fraction of the cost
+        of barrels. Unoaked versions of the same wine show more peach and melon
+        fruit instead.
+
+  - id: aus-chardonnay-warm-region-001
+    type: mcq
+    deck: Australia
+    tags: [australia, chardonnay, regions]
+    status: reviewed
+    source_id: c39-0029
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which warm-climate region is a leading source of premium Australian Chardonnay?"
+      choices:
+        - { text: "Margaret River", correct: true }
+        - { text: "Riverland", correct: false }
+        - { text: "Barossa Valley", correct: false }
+        - { text: "Rutherglen", correct: false }
+      explanation: |
+        Leeuwin Estate's Art Series Chardonnay, first made in 1980, set the
+        region's reputation. Each vintage's label carries a work commissioned
+        from an Australian artist.
+
+  - id: aus-chardonnay-top-style-001
+    type: mcq
+    deck: Australia
+    tags: [australia, chardonnay, style]
+    status: reviewed
+    source_id: c39-0030
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which profile fits a top modern Australian Chardonnay?"
+      choices:
+        - { text: "Heavy toast, butter and very ripe tropical fruit", correct: false }
+        - { text: "Lean, neutral and unoaked, for early drinking", correct: false }
+        - { text: "Vibrant fruit with subtle lees and oak", correct: true }
+        - { text: "Off-dry, with lime and a honeyed edge", correct: false }
+      explanation: |
+        From the 2000s many leading producers picked earlier, cut new oak and
+        limited malolactic conversion. Lees ageing and barrel work are still
+        used, but as support for the fruit rather than the main flavour.
+
+  - id: aus-sauvignon-adelaide-hills-001
+    type: mcq
+    deck: Australia
+    tags: [australia, sauvignon-blanc, regions]
+    status: reviewed
+    source_id: c39-0032
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which Australian region has the strongest reputation for Sauvignon Blanc?"
+      choices:
+        - { text: "Clare Valley", correct: false }
+        - { text: "Barossa Valley", correct: false }
+        - { text: "Adelaide Hills", correct: true }
+        - { text: "McLaren Vale", correct: false }
+      explanation: |
+        Plantings of the grape grew fast across Australia from the 2000s, partly
+        to meet demand created by New Zealand. Shaw + Smith, founded in 1989,
+        built its name on a varietal Sauvignon from this region.
+
+  - id: aus-sauvignon-benchmark-style-001
+    type: mcq
+    deck: Australia
+    tags: [australia, sauvignon-blanc, style]
+    status: reviewed
+    source_id: c39-0034
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which profile fits a typical Sauvignon Blanc from Australia's leading region for the grape?"
+      choices:
+        - { text: "Toasty, oaky and full-bodied", correct: false }
+        - { text: "Soft, peachy and low in acidity", correct: false }
+        - { text: "Lean, neutral and lightly herbal", correct: false }
+        - { text: "Passion fruit with crisp acidity", correct: true }
+      explanation: |
+        Cool nights hold acidity while sunny days build ripe tropical
+        aromas. Most examples are cool-fermented in stainless steel and
+        bottled young to keep that fruit.
+
+  - id: aus-semillon-hunter-001
+    type: mcq
+    deck: Australia
+    tags: [australia, semillon, regions]
+    status: reviewed
+    source_id: c39-0037
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which region is the classic home of Australia's long-lived dry Semillon?"
+      choices:
+        - { text: "Barossa Valley", correct: false }
+        - { text: "Hunter Valley", correct: true }
+        - { text: "Adelaide Hills", correct: false }
+        - { text: "Coonawarra", correct: false }
+      explanation: |
+        This style has no close equivalent elsewhere, so it is often called
+        uniquely Australian. Tyrrell's Vat 1 and McWilliam's Lovedale are
+        benchmark examples, released with some bottle age.
+
+  - id: aus-semillon-classic-picking-001
+    type: mcq
+    deck: Australia
+    tags: [australia, semillon, winemaking]
+    status: reviewed
+    source_id: c39-0038
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "At what ripeness is Australia's classic long-lived dry Semillon usually picked?"
+      choices:
+        - { text: "Mid-season, at moderate sugar", correct: false }
+        - { text: "Fully ripe, to build maximum body", correct: false }
+        - { text: "Early, at low sugar and high acid", correct: true }
+        - { text: "Late, for riper citrus flavour", correct: false }
+      explanation: |
+        Picking before the grapes lose acid keeps the wine lean and sharp at
+        first. Alcohol often ends up at only about
+        10 to 11.5%.
+
+  - id: aus-semillon-classic-cellar-001
+    type: mcq
+    deck: Australia
+    tags: [australia, semillon, winemaking]
+    status: reviewed
+    source_id: c39-0038
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "In the cellar, how is Australia's classic long-lived dry Semillon usually handled?"
+      choices:
+        - { text: "Barrel-fermented with regular lees stirring", correct: false }
+        - { text: "Aged several months in new French oak", correct: false }
+        - { text: "Given skin contact and full malolactic", correct: false }
+        - { text: "Kept in inert vessels with little oxygen", correct: true }
+      explanation: |
+        Stainless steel and protective handling keep the wine pale and fresh,
+        so it can evolve slowly in bottle. Most top examples are now sealed
+        under screwcap for the same reason.
+
+  - id: aus-semillon-classic-ageing-001
+    type: mcq
+    deck: Australia
+    tags: [australia, semillon, ageing]
+    status: reviewed
+    source_id: c39-0039
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "How does Australia's classic long-lived dry Semillon change over a decade or more in bottle?"
+      choices:
+        - { text: "Neutral when young, then honey and toast", correct: true }
+        - { text: "Tropical when young, then flat and dull", correct: false }
+        - { text: "Floral when young, then petrol and honey", correct: false }
+        - { text: "Oaky when young, then nutty and oxidised", correct: false }
+      explanation: |
+        The best can keep developing for twenty years or more, while the colour
+        deepens from almost water-pale to gold. Producers often hold bottles
+        back for several years before release.
+
+  - id: aus-semillon-wa-style-001
+    type: mcq
+    deck: Australia
+    tags: [australia, semillon, western-australia, style]
+    status: reviewed
+    source_id: c39-0040
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which style of Semillon is typical of Western Australia?"
+      choices:
+        - { text: "Sweet and botrytised", correct: false }
+        - { text: "Grassy, like Sauvignon Blanc", correct: true }
+        - { text: "Rich, buttery and barrel-aged", correct: false }
+        - { text: "Soft and low in acidity, with melon", correct: false }
+      explanation: |
+        Pyrazines survive in a maritime climate where ocean breezes temper the
+        heat, so the grape can smell green and grassy. That is one reason it blends so naturally with
+        Sauvignon Blanc there.
+
+  - id: aus-semillon-barossa-style-001
+    type: mcq
+    deck: Australia
+    tags: [australia, semillon, barossa, style]
+    status: reviewed
+    source_id: c39-0040
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "How does Barossa Valley Semillon usually compare with examples from cooler regions?"
+      choices:
+        - { text: "Leaner and more acidic", correct: false }
+        - { text: "Lighter and more herbaceous", correct: false }
+        - { text: "Fuller-bodied and softer", correct: true }
+        - { text: "Lower in alcohol and more neutral", correct: false }
+      explanation: |
+        Warm days ripen the grape further, building body and lowering
+        acidity. Semillon has been grown on the valley floor since the 19th
+        century, so plenty of old, low-yielding vines remain.
+
+  - id: aus-riesling-frankland-001
+    type: mcq
+    deck: Australia
+    tags: [australia, riesling, western-australia]
+    status: reviewed
+    source_id: c39-0043
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which Western Australian area is building a name for high-quality Riesling?"
+      choices:
+        - { text: "Swan Valley", correct: false }
+        - { text: "Geographe", correct: false }
+        - { text: "Peel", correct: false }
+        - { text: "Frankland River", correct: true }
+      explanation: |
+        It lies in the far south of the state, well inland from the coast.
+        Tasmania is the other Australian area whose Riesling has been
+        gaining attention.
+
+  - id: aus-riesling-wa-vs-sa-001
+    type: mcq
+    deck: Australia
+    tags: [australia, riesling, style]
+    status: reviewed
+    source_id: c39-0044
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "How do Western Australian Rieslings typically differ from those of South Australia's classic regions?"
+      choices:
+        - { text: "More floral, less citrus", correct: true }
+        - { text: "Sweeter and lower in acidity", correct: false }
+        - { text: "Fuller-bodied and often oaked", correct: false }
+        - { text: "More petrol when young", correct: false }
+      explanation: |
+        Both are usually dry and unoaked with high acidity. Most are sealed
+        under screwcap; a group of Clare Valley producers led that switch with
+        the 2000 vintage.
+
+  - id: aus-south-eastern-australia-gi-001
+    type: mcq
+    deck: Australia
+    tags: [australia, law, labelling]
+    status: reviewed
+    source_id: c39-0047
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which Australian GI lets a brand blend fruit from vineyards in several states?"
+      choices:
+        - { text: "Big Rivers", correct: false }
+        - { text: "Lower Murray", correct: false }
+        - { text: "South Eastern Australia", correct: true }
+        - { text: "Limestone Coast", correct: false }
+      explanation: |
+        It is a "super-zone", the largest in the country. It covers all of New
+        South Wales, Victoria and Tasmania plus the wine areas of South
+        Australia and southern Queensland: everything except Western
+        Australia. The other three are single zones within one state.
+
+  - id: aus-inland-bulk-regions-001
+    type: mcq
+    deck: Australia
+    tags: [australia, regions, bulk]
+    status: reviewed
+    source_id: c39-0048
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which trio of irrigated inland regions supplies much of Australia's high-volume branded wine?"
+      choices:
+        - { text: "Barossa, Clare and McLaren Vale", correct: false }
+        - { text: "Coonawarra, Padthaway and Wrattonbully", correct: false }
+        - { text: "Hunter, Mudgee and Orange", correct: false }
+        - { text: "Riverland, Murray–Darling and Riverina", correct: true }
+      explanation: |
+        Flat land, cheap water and mechanised vineyards keep costs low. Brands
+        such as Yellow Tail, made by Casella near Griffith in the Riverina, show
+        how big these operations have become.
+
+  - id: aus-inland-fruit-tradeoff-001
+    type: mcq
+    deck: Australia
+    tags: [australia, viticulture, bulk]
+    status: reviewed
+    source_id: c39-0049
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which trade-off is typical of grapes from Australia's large irrigated inland regions?"
+      choices:
+        - { text: "Concentrated fruit but low yields", correct: false }
+        - { text: "Big healthy crops but less concentration", correct: true }
+        - { text: "Good concentration but frequent rot", correct: false }
+        - { text: "Healthy fruit but too little sugar", correct: false }
+      explanation: |
+        Heat, sunshine and generous water let each vine carry a heavy crop,
+        while dry air keeps disease low. The flavour is spread across more and
+        bigger berries.
+
+  - id: aus-multiregional-blending-001
+    type: mcq
+    deck: Australia
+    tags: [australia, blending, winemaking]
+    status: reviewed
+    source_id: c39-0050
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "How do large Australian brands usually give more depth to their cheapest branded wines?"
+      choices:
+        - { text: "Age it for longer in large old vats", correct: false }
+        - { text: "Hold it longer on its fine lees", correct: false }
+        - { text: "Blend in fruit from premium regions", correct: true }
+        - { text: "Bottle it unfined and unfiltered", correct: false }
+      explanation: |
+        Small parcels from places such as Barossa, Adelaide Hills or McLaren Vale
+        add flavour and structure. Which region is chosen depends on the grape,
+        the style and how much the wine has to sell for.
