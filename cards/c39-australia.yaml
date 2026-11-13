@@ -2,4 +2,378 @@
 # source: C39 (import/inbox/c39-australia.yaml)
 # deck: Australia
 
-cards: []
+cards:
+  - id: aus-hunter-chardonnay-001
+    type: mcq
+    deck: Australia
+    tags: [australia, new-south-wales, hunter-valley, chardonnay]
+    status: reviewed
+    source_id: c39-0151
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Besides its signature white, which white grape is widely planted in the Hunter Valley and made both oaked and unoaked?"
+      choices:
+        - { text: "Riesling", correct: false }
+        - { text: "Chardonnay", correct: true }
+        - { text: "Sauvignon Blanc", correct: false }
+        - { text: "Marsanne", correct: false }
+      explanation: |
+        Tyrrell's Vat 47, first released in the early 1970s, is often credited as one
+        of Australia's first commercial varietal Chardonnays.
+
+  - id: aus-hunter-black-grape-001
+    type: mcq
+    deck: Australia
+    tags: [australia, new-south-wales, hunter-valley, shiraz]
+    status: reviewed
+    source_id: c39-0153
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which black grape accounts for the largest share of red wine made in the Hunter Valley?"
+      choices:
+        - { text: "Cabernet Sauvignon", correct: false }
+        - { text: "Merlot", correct: false }
+        - { text: "Pinot Noir", correct: false }
+        - { text: "Shiraz", correct: true }
+      explanation: |
+        It has been grown in the Hunter since the 19th century. Older bottlings were
+        often sold under borrowed names such as "Hermitage" or "Burgundy", a practice
+        Australia has since dropped.
+
+  - id: aus-hunter-shiraz-style-001
+    type: mcq
+    deck: Australia
+    tags: [australia, new-south-wales, hunter-valley, shiraz, style]
+    status: reviewed
+    source_id: c39-0154
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which profile best describes a typical Hunter Valley Shiraz?"
+      choices:
+        - { text: "Full body, ripe tannins, chocolate and jam", correct: false }
+        - { text: "Light body, high acidity, red cherry", correct: false }
+        - { text: "Medium body, soft tannins, earthy notes", correct: true }
+        - { text: "Full body, firm tannins, intense black pepper", correct: false }
+      explanation: |
+        Summer cloud and humidity slow sugar build-up, so alcohol and extraction stay
+        moderate. The fruit leans to blackberry and cherry, and the earthy, leathery
+        side grows with bottle age.
+
+  - id: aus-wa-state-blend-001
+    type: mcq
+    deck: Australia
+    tags: [australia, western-australia, labelling, gi]
+    status: reviewed
+    source_id: c39-0156
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "A wine is blended from roughly equal parts Swan Valley and Great Southern grapes. What is the most specific single GI name it can carry?"
+      choices:
+        - { text: "Great Southern", correct: false }
+        - { text: "South Eastern Australia", correct: false }
+        - { text: "Western Australia", correct: true }
+        - { text: "Greater Perth", correct: false }
+      explanation: |
+        Swan Valley sits in the Greater Perth zone and Great Southern in the South West
+        Australia zone, so only the state GI spans both. A named GI needs at least 85% of
+        the grapes from that area. Nearly all the state's vineyards lie in its
+        south-west corner.
+
+  - id: aus-cross-state-blend-001
+    type: mcq
+    deck: Australia
+    tags: [australia, labelling, gi, western-australia, south-australia]
+    status: reviewed
+    source_id: c39-0157
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "A wine blends Barossa Valley Shiraz and Margaret River Cabernet Sauvignon in roughly equal parts. What is the most specific single GI name it can carry?"
+      choices:
+        - { text: "South Australia", correct: false }
+        - { text: "Western Australia", correct: false }
+        - { text: "South Eastern Australia", correct: false }
+        - { text: "Australia", correct: true }
+      explanation: |
+        Western Australia lies outside South Eastern Australia, so no multi-state GI
+        joins the two, and the blend falls back on the national name. The vineyards
+        involved are more than 2,000 km apart.
+
+  - id: aus-margaret-river-location-001
+    type: mcq
+    deck: Australia
+    tags: [australia, western-australia, margaret-river, geography]
+    status: reviewed
+    source_id: c39-0158
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Relative to Perth, where does the Margaret River region lie?"
+      choices:
+        - { text: "In the Swan Valley, on Perth's north-eastern edge", correct: false }
+        - { text: "On the Indian Ocean coast, well south of Perth", correct: true }
+        - { text: "In the Perth Hills, just east of the city", correct: false }
+        - { text: "On the Southern Ocean coast near Albany", correct: false }
+      explanation: |
+        The region is a strip of land between Cape Naturaliste in the north and Cape
+        Leeuwin in the south, roughly 100 km long and a few hours' drive from Perth.
+
+  - id: aus-margaret-river-climate-001
+    type: mcq
+    deck: Australia
+    tags: [australia, western-australia, margaret-river, climate]
+    status: reviewed
+    source_id: c39-0159
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which climate description best fits Margaret River?"
+      choices:
+        - { text: "Cool maritime, with rain spread through the year", correct: false }
+        - { text: "Warm continental, with summer storms", correct: false }
+        - { text: "Warm maritime, with rain mostly in winter", correct: true }
+        - { text: "Hot and dry, with irrigation from rivers", correct: false }
+      explanation: |
+        Annual rainfall is high, but dry, breezy summers keep disease pressure down. In
+        the mid-1960s agronomist John Gladstones flagged the area's promise, and Vasse
+        Felix planted the first commercial vineyard in 1967.
+
+  - id: aus-margaret-river-cabernet-partner-001
+    type: mcq
+    deck: Australia
+    tags: [australia, western-australia, margaret-river, cabernet-sauvignon, blending]
+    status: reviewed
+    source_id: c39-0161
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "In Margaret River, which grape most often joins Cabernet Sauvignon in red blends?"
+      choices:
+        - { text: "Merlot", correct: true }
+        - { text: "Shiraz", correct: false }
+        - { text: "Grenache", correct: false }
+        - { text: "Mataro", correct: false }
+      explanation: |
+        The region follows the Bordeaux model, so Merlot softens Cabernet's tannin. Styles
+        range from restrained and elegant to riper and more powerful; Cullen's Diana
+        Madeline is a well-known Cabernet-led example.
+
+  - id: aus-margaret-river-chardonnay-001
+    type: mcq
+    deck: Australia
+    tags: [australia, western-australia, margaret-river, chardonnay, style]
+    status: reviewed
+    source_id: c39-0163
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which profile best fits a top Margaret River Chardonnay?"
+      choices:
+        - { text: "Delicate green apple, light body, lean finish", correct: false }
+        - { text: "Tropical fruit, soft acidity, sweet oak", correct: false }
+        - { text: "Honeyed nuttiness, low acidity, oxidative notes", correct: false }
+        - { text: "Concentrated stone fruit, high natural acidity", correct: true }
+      explanation: |
+        Many vineyards use the Gingin clone, whose uneven "hen and chicken" bunches add
+        concentration. Producers choose freely how much malolactic conversion and barrel
+        ageing to use; Leeuwin Estate's Art Series is the best-known benchmark.
+
+  - id: aus-great-southern-location-001
+    type: mcq
+    deck: Australia
+    tags: [australia, western-australia, great-southern, geography]
+    status: reviewed
+    source_id: c39-0166
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which Western Australian region lies south-east of Margaret River, along the state's south coast?"
+      choices:
+        - { text: "Geographe", correct: false }
+        - { text: "Peel", correct: false }
+        - { text: "Swan Valley", correct: false }
+        - { text: "Great Southern", correct: true }
+      explanation: |
+        It is a separate region, not part of Margaret River. Being further south and
+        exposed to the Southern Ocean, it is generally cooler, and it is among the largest
+        wine regions in Australia by area.
+
+  - id: aus-great-southern-subregions-001
+    type: mcq
+    deck: Australia
+    tags: [australia, western-australia, great-southern, regions]
+    status: reviewed
+    source_id: c39-0167
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which two Great Southern sub-regions have the strongest name for deeply coloured Cabernet Sauvignon?"
+      choices:
+        - { text: "Denmark and Albany", correct: false }
+        - { text: "Mount Barker and Frankland River", correct: true }
+        - { text: "Pemberton and Manjimup", correct: false }
+        - { text: "Geographe and Peel", correct: false }
+      explanation: |
+        Both sit inland, away from the moderating coast, with warm days and cool nights.
+        Plantagenet's Mount Barker vineyard, planted in the late 1960s, was one of the
+        area's pioneers.
+
+  - id: aus-great-southern-shiraz-001
+    type: mcq
+    deck: Australia
+    tags: [australia, western-australia, great-southern, shiraz, style]
+    status: reviewed
+    source_id: c39-0167
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which style of Shiraz is associated with Western Australia's Great Southern region?"
+      choices:
+        - { text: "Dense, jammy and chocolate-rich", correct: false }
+        - { text: "Soft, low in acid and sweetly oaked", correct: false }
+        - { text: "Elegant, medium-bodied and peppery", correct: true }
+        - { text: "Ripe, plummy and high in alcohol", correct: false }
+      explanation: |
+        Slow ripening keeps rotundone, the aroma compound behind black pepper, in the
+        grapes. The same note marks cool-climate Syrah from the northern Rhône.
+
+  - id: aus-tasmania-cooling-001
+    type: mcq
+    deck: Australia
+    tags: [australia, tasmania, climate]
+    status: reviewed
+    source_id: c39-0168
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "What is the main cooling influence on Tasmania's vineyards?"
+      choices:
+        - { text: "Westerly winds off the Southern Ocean", correct: true }
+        - { text: "High altitude at most vineyard sites", correct: false }
+        - { text: "A cold current flowing up the east coast", correct: false }
+        - { text: "Afternoon fog drawn in from Bass Strait", correct: false }
+      explanation: |
+        The island sits at roughly 41–43°S. Most vineyards are low-lying, in sheltered
+        valleys such as the Tamar in the north and the Derwent near Hobart. The sea also
+        spares it the heat spikes common on the mainland.
+
+  - id: aus-tasmania-sparkling-origin-001
+    type: mcq
+    deck: Australia
+    tags: [australia, tasmania, sparkling, history]
+    status: reviewed
+    source_id: c39-0169
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "What first made Tasmanian grapes sought after by mainland Australian wineries?"
+      choices:
+        - { text: "Raisined fruit for fortified Muscat", correct: false }
+        - { text: "Cheap bulk Shiraz for blending", correct: false }
+        - { text: "Botrytised Semillon for sweet wine", correct: false }
+        - { text: "Base wine for sparkling blends", correct: true }
+      explanation: |
+        Jansz began in the mid-1980s as a venture with the Champagne house Louis
+        Roederer. House of Arras now makes long lees-aged traditional-method wines
+        entirely from Tasmanian fruit.
+
+  - id: aus-tasmania-leading-grape-001
+    type: mcq
+    deck: Australia
+    tags: [australia, tasmania, grapes, pinot-noir]
+    status: reviewed
+    source_id: c39-0170
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which grape covers the largest share of Tasmania's vineyards?"
+      choices:
+        - { text: "Chardonnay", correct: false }
+        - { text: "Pinot Noir", correct: true }
+        - { text: "Sauvignon Blanc", correct: false }
+        - { text: "Riesling", correct: false }
+      explanation: |
+        Chardonnay follows, with Sauvignon Blanc and Pinot Gris well behind. A little
+        Cabernet Sauvignon ripens in the warmest, driest pockets, such as the Coal River
+        Valley north-east of Hobart, home of Domaine A.
+
+  - id: aus-gi-zone-example-001
+    type: mcq
+    deck: Australia
+    tags: [australia, labelling, gi, victoria]
+    status: reviewed
+    source_id: c39-0172
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which Victorian name is a GI zone rather than a region?"
+      choices:
+        - { text: "Yarra Valley", correct: false }
+        - { text: "Port Phillip", correct: true }
+        - { text: "Mornington Peninsula", correct: false }
+        - { text: "Geelong", correct: false }
+      explanation: |
+        It groups the regions around Melbourne: the Yarra Valley, Mornington Peninsula,
+        Geelong, Macedon Ranges and Sunbury. Zones are broad areas drawn without any
+        need for a shared wine character.
+
+  - id: aus-gi-region-test-001
+    type: mcq
+    deck: Australia
+    tags: [australia, labelling, gi]
+    status: reviewed
+    source_id: c39-0175
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which test must an area meet to be registered as a GI region in Australia?"
+      choices:
+        - { text: "Follow a single river valley or watershed", correct: false }
+        - { text: "Grow one dominant grape variety", correct: false }
+        - { text: "Hold vineyards at least 30 years old", correct: false }
+        - { text: "Have a consistent, distinct character", correct: true }
+      explanation: |
+        There is also a size floor: at least five independently owned vineyards of 5 ha
+        or more, together harvesting at least 500 tonnes a year. Regions vary widely in
+        area but are smaller than the zones above them.
+
+  - id: aus-gi-subregion-001
+    type: mcq
+    deck: Australia
+    tags: [australia, labelling, gi]
+    status: reviewed
+    source_id: c39-0177
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "How does an Australian GI sub-region relate to the regions around it?"
+      choices:
+        - { text: "It may straddle two neighbouring regions", correct: false }
+        - { text: "It lies wholly within one region", correct: true }
+        - { text: "It sits under a zone, outside any region", correct: false }
+        - { text: "It replaces the region tier in small zones", correct: false }
+      explanation: |
+        Lenswood and Piccadilly Valley, for example, are both sub-regions of the Adelaide
+        Hills. Many regions have no sub-regions at all.
