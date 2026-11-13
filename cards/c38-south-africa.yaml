@@ -11,7 +11,7 @@ cards:
     source_id: c38-0104
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: [wosa]
     en:
       question: "What keeps the Robertson district a little cooler than neighbouring Worcester?"
       choices:
@@ -44,7 +44,7 @@ cards:
     source_id: c38-0106
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: [wosa, trade-press]
     en:
       question: "Beyond dependable wine for large brands, which two styles show the Robertson district at its best?"
       choices:
@@ -75,7 +75,7 @@ cards:
     source_id: c38-0107
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: [wosa]
     en:
       question: "Walker Bay, Elgin and Elim all belong to which region?"
       choices:
@@ -106,7 +106,7 @@ cards:
     source_id: c38-0109
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: [wines-of-elgin, decanter]
     en:
       question: "Which Cape South Coast district has the longest modern track record for vineyards?"
       choices:
@@ -116,7 +116,7 @@ cards:
         - { text: "Plettenberg Bay", correct: false }
       explanation: |
         Its first modern vineyards date from the mid-1970s. Elgin was mainly apple
-        country until growers began converting orchards to vines from the late 1980s.
+        country until growers began converting orchards to vines from the mid-1980s.
     fr:
       question: "Quel district du Cape South Coast a le plus long historique viticole moderne ?"
       choices:
@@ -127,7 +127,7 @@ cards:
       explanation: |
         Ses premières vignes modernes datent du milieu des années 1970. Elgin était
         surtout une terre de vergers de pommiers, jusqu’à ce que les producteurs
-        commencent à les remplacer par des vignes à partir de la fin des années 1980.
+        commencent à les remplacer par des vignes à partir du milieu des années 1980.
 
   - id: za-hemel-en-aarde-district-001
     type: mcq
@@ -137,7 +137,7 @@ cards:
     source_id: c38-0110
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: [wosa]
     en:
       question: "The Hemel-en-Aarde wards sit within which district?"
       choices:
@@ -167,7 +167,7 @@ cards:
     source_id: c38-0111
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: [wosa, decanter]
     en:
       question: "Which pair of grapes has made the Hemel-en-Aarde wards famous?"
       choices:
@@ -229,7 +229,7 @@ cards:
     source_id: c38-0113
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: [wosa, wines-of-elgin]
     en:
       question: "Which Cape South Coast district lies just north-west of Walker Bay?"
       choices:
@@ -260,7 +260,7 @@ cards:
     source_id: c38-0114
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: [wines-of-elgin]
     en:
       question: "What is the key cooling factor in Elgin's vineyards?"
       choices:
@@ -269,8 +269,8 @@ cards:
         - { text: "Breezes funnelled in from Table Bay", correct: false }
         - { text: "Cool, moisture-holding clay soils", correct: false }
       explanation: |
-        Most vineyards lie at roughly 200–400 m on a plateau ringed by mountains, so
-        nights are cold. Ocean air from False Bay, some 15 km away, helps further.
+        Most vineyards lie at roughly 250–500 m on a plateau ringed by mountains, so
+        nights are cold. Sea air from the nearby coast, under 20 km away, helps further.
     fr:
       question: "Quel est le principal facteur de fraîcheur des vignobles d’Elgin ?"
       choices:
@@ -279,9 +279,9 @@ cards:
         - { text: "Les brises canalisées depuis la baie de la Table", correct: false }
         - { text: "Des sols argileux frais qui retiennent l’eau", correct: false }
       explanation: |
-        La plupart des vignes sont plantées vers 200–400 m sur un plateau cerné de
-        montagnes, d’où des nuits froides. L’air marin venu de False Bay, à une
-        quinzaine de kilomètres, renforce encore l’effet.
+        La plupart des vignes sont plantées entre 250 et 500 m environ, sur un plateau
+        cerné de montagnes, d’où des nuits froides. L’air marin venu de la côte, à
+        moins de 20 km, renforce encore l’effet.
 
   - id: za-elgin-reputation-001
     type: mcq
@@ -322,7 +322,7 @@ cards:
     source_id: c38-0116
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: [wines-of-elgin]
     en:
       question: "Apart from its signature white, which trio of varieties is showing promise in Elgin?"
       choices:
@@ -354,7 +354,7 @@ cards:
     source_id: c38-0117
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: [wosa]
     en:
       question: "The Elim ward belongs to which district?"
       choices:
@@ -386,7 +386,7 @@ cards:
     source_id: c38-0118
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: [wosa]
     en:
       question: "Which style of Sauvignon Blanc is the Elim ward best known for?"
       choices:
@@ -417,7 +417,7 @@ cards:
     source_id: c38-0119
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: [wosa]
     en:
       question: "Which official scheme certifies origin claims on South African wine labels?"
       choices:
@@ -447,7 +447,7 @@ cards:
     source_id: c38-0120
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: [wosa]
     en:
       question: "What extra mark appears on a South African bottle certified under the Wine of Origin scheme?"
       choices:
@@ -478,9 +478,9 @@ cards:
     source_id: c38-0121
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: [wosa]
     en:
-      question: "Which is the smallest of the four tiers of production area in the Wine of Origin scheme?"
+      question: "Which is the smallest of the four main tiers of production area in the Wine of Origin scheme?"
       choices:
         - { text: "District", correct: false }
         - { text: "Ward", correct: true }
@@ -489,9 +489,10 @@ cards:
       explanation: |
         Each tier nests inside a larger one; Simonsberg-Stellenbosch, for example, is a
         smaller named area within the Stellenbosch district. A few small areas are not
-        attached to any district at all.
+        attached to any district at all. An overarching region, Cape Coastal, now also
+        groups the Coastal Region and the Cape South Coast.
     fr:
-      question: "Quel est le plus petit des quatre niveaux d’aire de production du système Wine of Origin ?"
+      question: "Quel est le plus petit des quatre principaux niveaux d’aire de production du système Wine of Origin ?"
       choices:
         - { text: "District", correct: false }
         - { text: "Ward", correct: true }
@@ -500,7 +501,9 @@ cards:
       explanation: |
         Chaque niveau s’emboîte dans un niveau plus large ; Simonsberg-Stellenbosch, par
         exemple, est une aire nommée plus petite au sein du district de Stellenbosch.
-        Quelques petites aires ne sont rattachées à aucun district.
+        Quelques petites aires ne sont rattachées à aucun district. Une région
+        chapeau, Cape Coastal, regroupe désormais aussi la Coastal Region et la
+        Cape South Coast.
 
   - id: za-western-cape-tier-001
     type: mcq
@@ -510,7 +513,7 @@ cards:
     source_id: c38-0122
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: [wosa]
     en:
       question: "At which tier of the Wine of Origin scheme does the Western Cape sit?"
       choices:
@@ -540,7 +543,7 @@ cards:
     source_id: c38-0124
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: [known-fact, wosa]
     en:
       question: "In the Wine of Origin scheme, what do region and district boundaries tend to follow?"
       choices:
@@ -570,7 +573,7 @@ cards:
     source_id: c38-0126
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: [wosa]
     en:
       question: "Where must the grapes for a South African Estate Wine come from?"
       choices:
@@ -601,7 +604,7 @@ cards:
     source_id: c38-0126
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: [wosa]
     en:
       question: "Which production condition applies to a South African Estate Wine?"
       choices:
@@ -631,7 +634,7 @@ cards:
     source_id: c38-0127
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: [wosa, winemag]
     en:
       question: "Can a South African producer of Estate Wine also sell non-estate wine under its brand?"
       choices:
@@ -663,7 +666,7 @@ cards:
     source_id: c38-0128
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: [liquor-products-act, wosa]
     en:
       question: "What is Integrated Production of Wine (IPW) in South Africa?"
       choices:
@@ -981,7 +984,7 @@ cards:
     source_id: c38-0015
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: [wosa]
     en:
       question: "Which black grape has long covered the most vineyard area in South Africa?"
       choices:
@@ -1012,7 +1015,7 @@ cards:
     source_id: c38-0016
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: [producer-site]
     en:
       question: "Which partner grapes most often join Cabernet Sauvignon in South Africa's premium red blends?"
       choices:
@@ -1076,7 +1079,7 @@ cards:
     source_id: c38-0019
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: [wosa]
     en:
       question: "Which black grape of Rhône origin covers the most vineyard area in South Africa?"
       choices:
@@ -1259,7 +1262,7 @@ cards:
     source_id: c38-0029
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: [producer-site]
     en:
       question: "Which profile does Pinotage from old bush vines typically show?"
       choices:
@@ -1290,7 +1293,7 @@ cards:
     source_id: c38-0029
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: [producer-site]
     en:
       question: "Which aromas mark the Pinotage style made with heavily toasted oak staves?"
       choices:
@@ -1321,7 +1324,7 @@ cards:
     source_id: c38-0031
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: [wosa, sawis]
     en:
       question: "Which grape covers the most vineyard area in South Africa?"
       choices:
@@ -1352,7 +1355,7 @@ cards:
     source_id: c38-0032
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: [sawis, decanter]
     en:
       question: "Since about 1990, how has the vineyard area of Chenin Blanc in South Africa changed?"
       choices:
@@ -1362,8 +1365,8 @@ cards:
         - { text: "It has grown steadily", correct: false }
       explanation: |
         Growers uprooted much of it for red and international varieties as export markets
-        opened. It once filled close to a third of the national vineyard; the share is now
-        just under a fifth.
+        opened. Around 1990 it filled about a third of the national vineyard; the share is
+        now just under a fifth.
     fr:
       question: "Depuis 1990 environ, comment la surface de Chenin Blanc a-t-elle évolué en Afrique du Sud ?"
       choices:
@@ -1373,9 +1376,9 @@ cards:
         - { text: "Elle a progressé régulièrement", correct: false }
       explanation: |
         Avec l’ouverture des marchés d’export, les vignerons en ont arraché une
-        grande partie au profit des rouges et des cépages internationaux. Il occupait
-        près d’un tiers du vignoble national ; sa part est aujourd’hui d’un peu moins
-        d’un cinquième.
+        grande partie au profit des rouges et des cépages internationaux. Vers 1990,
+        il occupait environ un tiers du vignoble national ; sa part est aujourd’hui
+        d’un peu moins d’un cinquième.
 
   - id: za-chenin-everyday-001
     type: mcq
@@ -1417,7 +1420,7 @@ cards:
     source_id: c38-0036
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: [old-vine-project, winemag]
     en:
       question: "What do old bush vines typically bring to South African Chenin Blanc?"
       choices:
@@ -1757,7 +1760,7 @@ cards:
     source_id: c38-0051
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: [producer-site]
     en:
       question: "Swartland's leading white blends usually build on Chenin Blanc with which partner grapes?"
       choices:
@@ -1767,8 +1770,8 @@ cards:
         - { text: "Colombard, Muscat and Ugni Blanc", correct: false }
       explanation: |
         The Sadie Family's Palladius, first made in the early 2000s, is a well-known
-        example: old-vine Chenin layered with southern French white grapes for texture and
-        breadth.
+        example: old-vine Chenin layered with Mediterranean whites such as Grenache Blanc
+        and Roussanne, among several others, for texture and breadth.
     fr:
       question: "Les grands assemblages blancs du Swartland reposent d’ordinaire sur le Chenin Blanc, avec quels cépages partenaires ?"
       choices:
@@ -1779,7 +1782,8 @@ cards:
       explanation: |
         Le Palladius de Sadie Family, produit pour la première fois au début des
         années 2000, en est un exemple connu : du Chenin de vieilles vignes complété
-        de cépages blancs du sud de la France pour la texture et l’ampleur.
+        de cépages blancs méditerranéens comme le Grenache Blanc et la Roussanne,
+        parmi d’autres, pour la texture et l’ampleur.
 
   - id: za-western-cape-share-001
     type: mcq
@@ -1819,7 +1823,7 @@ cards:
     source_id: c38-0053
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: [wosa]
     en:
       question: "Besides the Breede River Valley and the Cape South Coast, which region completes the trio of the Western Cape's main quality regions?"
       choices:
@@ -1851,7 +1855,7 @@ cards:
     source_id: c38-0054
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: [wine-and-spirit-board, wosa]
     en:
       question: "In which South African province are the Orange River vineyards?"
       choices:
@@ -1861,8 +1865,8 @@ cards:
         - { text: "Eastern Cape", correct: false }
       explanation: |
         The vines cluster around towns such as Upington and Kakamas, several hundred
-        kilometres north of the Cape winelands. The official area name is Central Orange
-        River.
+        kilometres north of the Cape winelands. The official area is the Central Orange
+        River district, raised from ward status around 2020.
     fr:
       question: "Dans quelle province sud-africaine se trouvent les vignobles du fleuve Orange ?"
       choices:
@@ -1873,7 +1877,8 @@ cards:
       explanation: |
         Ces vignobles du Northern Cape se regroupent autour de villes comme Upington
         et Kakamas, à plusieurs centaines de kilomètres au nord du vignoble du Cap.
-        Le nom officiel de la zone est Central Orange River.
+        L’aire officielle est le district Central Orange River, qui avait le statut
+        de ward jusque vers 2020.
 
   - id: za-orange-river-climate-001
     type: mcq
@@ -1944,7 +1949,7 @@ cards:
     source_id: c38-0057
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: [wosa]
     en:
       question: "A Stellenbosch winery blends its own grapes with fruit bought in Swartland. Which origin may it state on the label?"
       choices:
@@ -2228,7 +2233,7 @@ cards:
     source_id: c38-0075
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: [known-fact, wosa]
     en:
       question: "Constantia and Durbanville, both on the Cape Town side of the winelands, are most noted for which grape?"
       choices:
@@ -2480,7 +2485,7 @@ cards:
     source_id: c38-0088
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: [known-fact, wosa]
     en:
       question: "Which district, lying just south-west of Swartland, has built its name on Sauvignon Blanc?"
       choices:
@@ -2574,7 +2579,7 @@ cards:
     source_id: c38-0093
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: [wine-and-spirit-board, wosa]
     en:
       question: "Which two of these districts belong to the Breede River Valley region?"
       choices:
@@ -2756,7 +2761,7 @@ cards:
     source_id: c38-0100
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: [wosa]
     en:
       question: "Much of the Worcester district's wine ends up in which product?"
       choices:
