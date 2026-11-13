@@ -24,6 +24,10 @@ YAML in `cards/` is the source of truth. `wset3-anki` builds `.apkg` files with 
 - Translate in the same file, same `id`, under `fr:`. Do not duplicate a card for French.
 - Prefer `type: mcq` with exactly one correct choice. `basic` and `cloze` are allowed.
 - Study-card quality (isolated stems, credible foils, choice length, Why, FR sense): [import/STUDY_CARD_QUALITY.md](import/STUDY_CARD_QUALITY.md). Fix `en:` and `fr:` together so the correct index stays aligned.
+- When a fact is in doubt (dates, figures, rankings, legal rules, named
+  anecdotes), check an authoritative external source instead of relying on
+  memory; record it in `review.sources`. See "External fact-checking" in
+  [import/AGENT_PLAYBOOK.md](import/AGENT_PLAYBOOK.md).
 - New facts start as `status: draft`. After an adversarial critic `accept`, set `status: reviewed`. Release builds omit drafts unless `--include-drafts`.
 - After any change: `make check` (or `uv run wset3-anki check`).
 - After changing `schema.py`: `uv run wset3-anki schema` and commit `schema/cards.schema.json`.
