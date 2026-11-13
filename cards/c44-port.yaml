@@ -23,6 +23,17 @@ cards:
         Grapes were grown and fermented in the hot inland valley, then the young wine
         was floated down the river in casks aboard flat-bottomed barcos rabelos, before
         road and rail took over the job.
+    fr:
+      question: "Comment le commerce du Porto se répartit-il traditionnellement entre deux lieux ?"
+      choices:
+        - { text: "Vignes près de la côte ; élevage dans des chais loin en amont", correct: false }
+        - { text: "Vignes loin en amont ; élevage et expédition à l’embouchure", correct: true }
+        - { text: "Vignes dans le Minho ; élevage et expédition à Viana do Castelo", correct: false }
+        - { text: "Vignes dans le haut Douro ; élevage et expédition à Lisbonne", correct: false }
+      explanation: |
+        Les raisins étaient cultivés et vinifiés dans la chaude vallée intérieure, puis
+        le vin jeune descendait le fleuve en fûts à bord de barcos rabelos à fond plat,
+        avant que la route et le rail ne prennent le relais.
 
   - id: port-corgo-name-001
     type: mcq
@@ -42,8 +53,19 @@ cards:
         - { text: "A tributary river of the Douro", correct: true }
       explanation: |
         It joins the Douro at Peso da Régua. Baixo Corgo is the land downstream of that
-        meeting point, and Cima Corgo the land above it. The third sub-region, Douro Superior, continues
-        east to the Spanish border.
+        meeting point, and Cima Corgo the land above it. The third sub-region, Douro
+        Superior, continues east to the Spanish border.
+    fr:
+      question: "Dans Baixo Corgo et Cima Corgo, noms de sous-régions du Porto, que désigne le Corgo ?"
+      choices:
+        - { text: "La chaîne de montagnes à l’ouest du vignoble", correct: false }
+        - { text: "Le nom local de la roche-mère de schiste", correct: false }
+        - { text: "Un vieux terme pour une terrasse à murets", correct: false }
+        - { text: "Un affluent du Douro", correct: true }
+      explanation: |
+        Il rejoint le Douro à Peso da Régua. Le Baixo Corgo correspond aux terres en
+        aval de ce confluent, le Cima Corgo à celles en amont. La troisième sous-région,
+        le Douro Superior, se prolonge vers l’est jusqu’à la frontière espagnole.
 
   - id: port-baixo-corgo-style-001
     type: mcq
@@ -65,6 +87,17 @@ cards:
         It is the westernmost of the three sub-regions, centred on the town of Peso da
         Régua. Its grapes typically go into inexpensive Port blends rather than the
         flagship wines of the big houses.
+    fr:
+      question: "Par rapport au reste du vignoble du Porto, quel type de vin le Baixo Corgo donne-t-il en général ?"
+      choices:
+        - { text: "Les vins les plus légers, surtout pour des assemblages courants", correct: true }
+        - { text: "Les vins les plus puissants, recherchés pour les assemblages de Porto Vintage", correct: false }
+        - { text: "Les vins les plus sombres et tanniques, à très faibles rendements", correct: false }
+        - { text: "Les vins les plus doux, issus des raisins les plus mûrs", correct: false }
+      explanation: |
+        C’est la plus occidentale des trois sous-régions, centrée sur la ville de Peso
+        da Régua. Ses raisins partent en général dans des assemblages de Porto bon
+        marché plutôt que dans les vins phares des grandes maisons.
 
   - id: port-cima-corgo-top-001
     type: mcq
@@ -86,6 +119,17 @@ cards:
         Its heart is the village of Pinhão and the side valleys around it. Well-known
         estates there include Quinta do Noval in the Pinhão valley and Quinta do Bomfim,
         the home of Dow's, at Pinhão itself.
+    fr:
+      question: "Où se concentre le plus grand nombre de grands vignobles du Porto ?"
+      choices:
+        - { text: "Dans le Baixo Corgo", correct: false }
+        - { text: "Répartis à parts égales entre les trois sous-régions", correct: false }
+        - { text: "Dans le Cima Corgo", correct: true }
+        - { text: "Dans le Douro Superior", correct: false }
+      explanation: |
+        Son cœur est le village de Pinhão et les vallées latérales qui l’entourent. On y
+        trouve des domaines réputés comme la Quinta do Noval, dans la vallée du Pinhão,
+        et la Quinta do Bomfim, domaine de Dow’s, à Pinhão même.
 
   - id: port-douro-superior-profile-001
     type: mcq
@@ -107,6 +151,17 @@ cards:
         Distance from the coast and poor access long kept planting thin. Its flatter
         stretches now suit more mechanised new vineyards, and Quinta do Vesúvio is a
         famous estate there.
+    fr:
+      question: "Quelle description correspond le mieux au Douro Superior comme source de Porto ?"
+      choices:
+        - { text: "Densément planté, fournissant surtout des Portos légers et simples", correct: false }
+        - { text: "Densément planté, avec la plupart des grands domaines de la région", correct: false }
+        - { text: "Peu planté, et trop isolé pour donner des Portos de qualité", correct: false }
+        - { text: "Peu planté, mais riche de quelques vignobles de premier plan", correct: true }
+      explanation: |
+        L’éloignement de la côte et la difficulté d’accès y ont longtemps limité les
+        plantations. Ses parties plus planes se prêtent aujourd’hui à de nouveaux
+        vignobles plus mécanisés, et la Quinta do Vesúvio y est un domaine célèbre.
 
   - id: port-douro-climate-001
     type: mcq
@@ -127,6 +182,16 @@ cards:
       explanation: |
         The Serra do Marão, west of the vineyards, blocks much of the moist Atlantic air
         that keeps nearby Vinho Verde green and mild.
+    fr:
+      question: "Quel type de climat correspond le mieux aux vignobles du Douro qui produisent le Porto ?"
+      choices:
+        - { text: "Maritime frais", correct: false }
+        - { text: "Continental chaud", correct: true }
+        - { text: "Maritime chaud", correct: false }
+        - { text: "Continental frais", correct: false }
+      explanation: |
+        La Serra do Marão, à l’ouest du vignoble, arrête une grande partie de l’air
+        humide atlantique qui garde le Vinho Verde voisin vert et doux.
 
   - id: port-baixo-corgo-climate-001
     type: mcq
@@ -148,6 +213,18 @@ cards:
         It lies closest to the Atlantic, so the last of the rain-bearing fronts that
         cross the mountains still reach it. Each step east deepens the rain shadow, so
         the vineyards near the Spanish border get far less rain than Peso da Régua.
+    fr:
+      question: "Comment le climat du Baixo Corgo se compare-t-il à celui des sous-régions du Porto situées plus en amont ?"
+      choices:
+        - { text: "Plus chaud et plus sec", correct: false }
+        - { text: "Plus chaud mais plus pluvieux", correct: false }
+        - { text: "Plus frais mais plus sec", correct: false }
+        - { text: "Plus frais et plus pluvieux", correct: true }
+      explanation: |
+        C’est la sous-région la plus proche de l’Atlantique : les derniers fronts
+        pluvieux qui franchissent les montagnes l’atteignent encore. Plus on va vers
+        l’est, plus l’effet d’abri s’accentue, si bien que les vignes proches de la
+        frontière espagnole reçoivent bien moins de pluie que Peso da Régua.
 
   - id: port-spring-hazards-001
     type: mcq
@@ -169,6 +246,17 @@ cards:
         Rain at flowering can cause poor fruit set (coulure), cutting the crop before
         the hot season even begins. The same kind of storm at picking time slows the
         harvest and dilutes the grapes.
+    fr:
+      question: "Quels aléas climatiques du printemps inquiètent le plus un viticulteur du vignoble du Porto ?"
+      choices:
+        - { text: "Le brouillard marin, et les vents salés venus de la côte", correct: false }
+        - { text: "Le gel, et les fortes averses autour de la floraison", correct: true }
+        - { text: "Les tempêtes atlantiques, et la neige tardive sur les jeunes pousses", correct: false }
+        - { text: "La sécheresse, et une chaleur sèche qui retarde le débourrement", correct: false }
+      explanation: |
+        La pluie à la floraison peut provoquer une mauvaise nouaison (coulure) et
+        réduire la récolte avant même le début de la saison chaude. Le même type d’orage
+        au moment des vendanges ralentit la cueillette et dilue les raisins.
 
   - id: port-summer-stress-001
     type: mcq
@@ -189,6 +277,17 @@ cards:
       explanation: |
         Temperatures in the valley floor can pass 40 °C. Vines under that much stress
         may shut down their leaves and stop ripening for a time.
+    fr:
+      question: "Qu’est-ce qui fait de l’été la saison la plus éprouvante pour la vigne dans le vignoble du Porto ?"
+      choices:
+        - { text: "De fréquents orages qui propagent la pourriture", correct: false }
+        - { text: "Des passages frais et nuageux qui bloquent la maturation", correct: false }
+        - { text: "Une très forte chaleur le jour et très peu de pluie", correct: true }
+        - { text: "Un air atlantique humide qui favorise le mildiou", correct: false }
+      explanation: |
+        Au fond de la vallée, les températures peuvent dépasser 40 °C. Sous un tel
+        stress, la vigne peut mettre ses feuilles au repos et interrompre sa maturation
+        pendant un temps.
 
   - id: port-schist-water-001
     type: mcq
@@ -209,6 +308,17 @@ cards:
       explanation: |
         The rock splits into near-vertical layers, so winter rain soaks deep into the
         cracks. Roots follow those fissures many metres down to the stored water.
+    fr:
+      question: "Qu’est-ce qui permet aux vignes du Porto de survivre aux longs étés secs ?"
+      choices:
+        - { text: "Un sous-sol argileux qui retient l’eau près de la surface", correct: false }
+        - { text: "Une roche granitique qui stocke l’eau à faible profondeur", correct: false }
+        - { text: "La brume matinale du fleuve qui se condense sur les feuilles", correct: false }
+        - { text: "Un schiste fissuré que les racines suivent jusqu’à l’eau", correct: true }
+      explanation: |
+        La roche se débite en feuillets presque verticaux, si bien que la pluie d’hiver
+        s’infiltre profondément dans les fissures. Les racines suivent ces fissures sur
+        plusieurs mètres pour atteindre l’eau stockée.
 
   - id: port-slope-siting-001
     type: mcq
@@ -230,6 +340,18 @@ cards:
         The river has cut a deep, narrow gorge, so the banks climb straight up from the
         water. The slopes are terraced to hold soil and allow work, giving the region
         its stepped look.
+    fr:
+      question: "Où sont plantées la plupart des vignes du Baixo Corgo et du Cima Corgo ?"
+      choices:
+        - { text: "Sur le fond plat de la vallée, au bord du fleuve", correct: false }
+        - { text: "Sur un haut plateau, bien en retrait du fleuve", correct: false }
+        - { text: "Sur les pentes raides du Douro et de ses affluents", correct: true }
+        - { text: "Sur de douces collines à l’écart de la vallée principale", correct: false }
+      explanation: |
+        Le fleuve a creusé une gorge profonde et étroite, si bien que les rives
+        s’élèvent à pic depuis l’eau. Les pentes sont aménagées en terrasses pour
+        retenir la terre et permettre le travail, ce qui donne à la région son paysage
+        en gradins.
 
   - id: port-north-aspect-001
     type: mcq
@@ -249,9 +371,20 @@ cards:
         - { text: "South-west-facing", correct: false }
       explanation: |
         The main Douro valley runs roughly east to west, so its banks largely face north
-        or south.
-        Growers wanting slower ripening and fresher fruit often pick the south bank,
-        whose slopes look north.
+        or south. Growers wanting slower ripening and fresher fruit often pick the south
+        bank, whose slopes look north.
+    fr:
+      question: "Dans le Cima Corgo, très chaud, quelle exposition aide un viticulteur à épargner aux raisins la pleine force du soleil ?"
+      choices:
+        - { text: "Nord", correct: true }
+        - { text: "Sud", correct: false }
+        - { text: "Ouest", correct: false }
+        - { text: "Sud-ouest", correct: false }
+      explanation: |
+        La vallée principale du Douro suit à peu près un axe est-ouest, si bien que ses
+        rives regardent surtout au nord ou au sud. Les viticulteurs qui recherchent une
+        maturation plus lente et des fruits plus frais choisissent souvent la rive sud,
+        dont les pentes sont exposées au nord.
 
   - id: port-steep-cost-001
     type: mcq
@@ -273,6 +406,18 @@ cards:
         The steep, terraced slopes leave little room for machines, so pruning, spraying
         and picking take many more hours per hectare than on flat land. Erosion control
         and access tracks add further spending.
+    fr:
+      question: "Pourquoi les vignobles du Cima Corgo coûtent-ils si cher à exploiter ?"
+      choices:
+        - { text: "Les raisins mûrissent de façon inégale et exigent plusieurs passages", correct: false }
+        - { text: "Les sols maigres exigent beaucoup d’engrais chaque année", correct: false }
+        - { text: "L’air humide impose des traitements fongicides fréquents", correct: false }
+        - { text: "Une grande partie du travail doit se faire à la main", correct: true }
+      explanation: |
+        Les pentes raides et en terrasses laissent peu de place aux machines : taille,
+        traitements et vendanges demandent bien plus d’heures par hectare qu’en terrain
+        plat. La lutte contre l’érosion et les chemins d’accès alourdissent encore les
+        dépenses.
 
   - id: port-socalcos-term-001
     type: mcq
@@ -294,6 +439,17 @@ cards:
         Generations of labourers broke the schist by hand to build them, and many are
         centuries old. The walls hold the soil on slopes far too steep to plant as
         they were.
+    fr:
+      question: "Quel terme du Douro désigne les anciennes terrasses étroites soutenues par des murets de pierre sèche ?"
+      choices:
+        - { text: "Patamares", correct: false }
+        - { text: "Lagares", correct: false }
+        - { text: "Socalcos", correct: true }
+        - { text: "Vinha ao alto", correct: false }
+      explanation: |
+        Des générations d’ouvriers ont brisé le schiste à la main pour les bâtir, et
+        beaucoup ont plusieurs siècles. Les murets retiennent la terre sur des pentes
+        bien trop raides pour être plantées telles quelles.
 
   - id: port-socalcos-drawback-001
     type: mcq
@@ -313,7 +469,18 @@ cards:
         - { text: "They are barred from the top vineyard grades", correct: false }
       explanation: |
         The narrow ledges keep vine numbers per terrace low, and the dry-stone walls
-        need constant, skilled repair after storms and frost heave.
+        need constant, skilled repair when heavy rain brings sections down.
+    fr:
+      question: "Quel est un vrai inconvénient des terrasses à murets traditionnelles du Douro ?"
+      choices:
+        - { text: "Chacune ne porte que quelques rangs de vigne", correct: true }
+        - { text: "Les murets accélèrent l’érosion lors des fortes pluies", correct: false }
+        - { text: "La vigne doit y être conduite en hautes pergolas", correct: false }
+        - { text: "Elles sont exclues des meilleures classes de vignoble", correct: false }
+      explanation: |
+        Les replats étroits limitent le nombre de pieds par terrasse, et les murets de
+        pierre sèche exigent un entretien constant et qualifié quand de fortes pluies
+        en font s’effondrer des pans.
 
   - id: port-socalcos-today-001
     type: mcq
@@ -334,6 +501,16 @@ cards:
       explanation: |
         Replacing them would be costly and would change a landscape listed by UNESCO in
         2001 as the Alto Douro Wine Region.
+    fr:
+      question: "Quelle place occupent aujourd’hui les terrasses à murets dans le vignoble du Porto ?"
+      choices:
+        - { text: "Interdites par l’organisme régulateur pour toute nouvelle plantation", correct: false }
+        - { text: "Encore très répandues, bien que peu pratiques", correct: true }
+        - { text: "Abandonnées depuis l’arrivée du phylloxéra au XIXe siècle", correct: false }
+        - { text: "Réduites à quelques parcelles-musées dans le Douro Superior", correct: false }
+      explanation: |
+        Les remplacer coûterait cher et modifierait un paysage inscrit en 2001 au
+        patrimoine mondial de l’UNESCO sous le nom de Région viticole du Haut-Douro.
 
   - id: port-patamares-001
     type: mcq
@@ -354,6 +531,17 @@ cards:
       explanation: |
         Bulldozed patamares spread from the 1970s and 1980s. Small tractors can run
         along each ledge, which removes some of the hand work of the older system.
+    fr:
+      question: "Qu’est-ce qui distingue les terrasses du Douro appelées patamares des terrasses plus anciennes ?"
+      choices:
+        - { text: "Des murets de pierre sèche plus hauts, portant plus de rangs", correct: false }
+        - { text: "Des murs en béton laissant place à des pergolas", correct: false }
+        - { text: "D’étroits replats à murets desservis par treuil à câble", correct: false }
+        - { text: "Des talus de terre sans murets, accessibles aux tracteurs", correct: true }
+      explanation: |
+        Les patamares, taillés au bulldozer, se sont répandus à partir des années 1970
+        et 1980. De petits tracteurs peuvent circuler sur chaque replat, ce qui supprime
+        une partie du travail manuel de l’ancien système.
 
   - id: port-vinha-ao-alto-001
     type: mcq
@@ -374,6 +562,16 @@ cards:
       explanation: |
         Tracks cut across the hillside at intervals, and machines parked on them haul
         equipment up and down the rows by winch.
+    fr:
+      question: "Comment les vignes sont-elles disposées dans le système de plantation du Douro appelé vinha ao alto ?"
+      choices:
+        - { text: "En rangs suivant les courbes de niveau, en travers de la pente", correct: false }
+        - { text: "En rangs alignés dans le sens de la pente", correct: true }
+        - { text: "En gobelets isolés, dispersés sur la pente", correct: false }
+        - { text: "Sur des pergolas hautes dressées au-dessus de la pente", correct: false }
+      explanation: |
+        Des chemins traversent le coteau à intervalles réguliers, et des engins
+        stationnés dessus hissent le matériel le long des rangs à l’aide d’un treuil.
 
   - id: port-terrace-erosion-001
     type: mcq
@@ -394,6 +592,17 @@ cards:
       explanation: |
         The risk is worst in vinha ao alto, where rain runs straight down the rows. That
         is why it is kept to gentler slopes and not used on the steepest sites.
+    fr:
+      question: "Par rapport aux terrasses à murets, quelle est la principale faiblesse des patamares comme de la vinha ao alto ?"
+      choices:
+        - { text: "Un coût plus élevé de réparation des murets", correct: false }
+        - { text: "Un mauvais drainage qui noie les racines", correct: false }
+        - { text: "Une érosion des sols plus forte", correct: true }
+        - { text: "Plus de dégâts de gel en hiver", correct: false }
+      explanation: |
+        Le risque est maximal en vinha ao alto, où la pluie dévale directement le long
+        des rangs. C’est pourquoi ce système est réservé aux pentes plus douces et n’est
+        pas utilisé sur les sites les plus raides.
 
   - id: port-fortify-point-001
     type: mcq
@@ -414,6 +623,17 @@ cards:
       explanation: |
         Producers such as Taylor's describe adding the spirit once roughly half the
         grape sugar has been turned into alcohol. The other half stays as sweetness.
+    fr:
+      question: "À quel degré d’alcool environ le Porto en fermentation est-il habituellement muté ?"
+      choices:
+        - { text: "Environ 1–3 % vol.", correct: false }
+        - { text: "Environ 12–14 % vol.", correct: false }
+        - { text: "Environ 5–9 % vol.", correct: true }
+        - { text: "Environ 15–17 % vol.", correct: false }
+      explanation: |
+        Des producteurs comme Taylor’s expliquent ajouter l’eau-de-vie une fois
+        qu’environ la moitié du sucre du raisin a été transformée en alcool. L’autre
+        moitié reste dans le vin et lui donne sa douceur.
 
   - id: port-ferment-length-001
     type: mcq
@@ -434,6 +654,16 @@ cards:
       explanation: |
         In a lagar, fermentation can start within a few hours of treading, and the
         wine is usually run off and fortified within two or three days.
+    fr:
+      question: "Combien de temps dure en général la fermentation du Porto avant le mutage ?"
+      choices:
+        - { text: "Environ une à deux semaines", correct: false }
+        - { text: "Environ trois à quatre semaines", correct: false }
+        - { text: "Environ un à trois jours", correct: true }
+        - { text: "Environ six à huit semaines", correct: false }
+      explanation: |
+        Dans un lagar, la fermentation peut démarrer quelques heures après le foulage au
+        pied, et le vin est en général écoulé et muté au bout de deux ou trois jours.
 
   - id: port-extraction-need-001
     type: mcq
@@ -454,6 +684,17 @@ cards:
       explanation: |
         A red table wine can soak on its skins for a week or more. Port has to gain the
         same depth in a fraction of that time, so the skins must be worked hard.
+    fr:
+      question: "Pourquoi le Porto exige-t-il une extraction particulièrement énergique de la couleur et des tanins ?"
+      choices:
+        - { text: "Les raisins du Douro ont une peau fine et peu colorée", correct: false }
+        - { text: "Le mutage précoce écourte le contact avec les peaux", correct: true }
+        - { text: "L’eau-de-vie ajoutée décolore le vin", correct: false }
+        - { text: "Le long élevage en fût élimine l’essentiel des tanins", correct: false }
+      explanation: |
+        Un vin rouge tranquille peut macérer sur ses peaux une semaine ou plus. Le Porto
+        doit atteindre la même profondeur en une fraction de ce temps : il faut donc
+        travailler les peaux intensément.
 
   - id: port-foot-treading-benchmark-001
     type: mcq
@@ -474,6 +715,16 @@ cards:
       explanation: |
         Human feet crush the berries firmly without cracking the bitter pips, and the
         shallow vessel keeps a wide surface of skins in contact with the juice.
+    fr:
+      question: "À quelle méthode d’extraction compare-t-on habituellement les autres méthodes utilisées pour le Porto ?"
+      choices:
+        - { text: "L’autovinification", correct: false }
+        - { text: "Le remontage en cuve fermée", correct: false }
+        - { text: "Le foulage au pied", correct: true }
+        - { text: "Le pigeage par pistons", correct: false }
+      explanation: |
+        Le pied humain écrase fermement les baies sans briser les pépins amers, et la
+        cuve peu profonde maintient une large surface de peaux au contact du jus.
 
   - id: port-lagar-vessel-001
     type: mcq
@@ -494,6 +745,17 @@ cards:
       explanation: |
         Teams of treaders first move in a slow line, arm in arm, for the first hours;
         this stage is called the corte. They then walk freely, the liberdade.
+    fr:
+      question: "Dans quel type de récipient le raisin du Porto est-il traditionnellement foulé au pied ?"
+      choices:
+        - { text: "Une cuve en chêne, ouverte et très haute", correct: false }
+        - { text: "Une cuve en inox profonde et hermétique", correct: false }
+        - { text: "Une grande cuve en béton munie d’un couvercle", correct: false }
+        - { text: "Un bac en granit, ouvert et peu profond", correct: true }
+      explanation: |
+        Les fouleurs avancent d’abord en ligne, lentement, bras dessus bras dessous,
+        pendant les premières heures : c’est le corte. Ils marchent ensuite librement :
+        c’est la liberdade.
 
   - id: port-lagar-cap-001
     type: mcq
@@ -514,6 +776,16 @@ cards:
       explanation: |
         The wooden plungers are called macacos. Exactly when treading gives way to them
         varies from house to house.
+    fr:
+      question: "Dans un lagar traditionnel, comment poursuit-on l’extraction une fois que la fermentation a fait remonter les peaux en surface ?"
+      choices:
+        - { text: "Le jus est remonté depuis une cuve placée dessous", correct: false }
+        - { text: "Le chapeau est enfoncé avec des pigeoirs", correct: true }
+        - { text: "Les peaux sont égouttées puis pressées", correct: false }
+        - { text: "Le moût est chauffé pour extraire la couleur", correct: false }
+      explanation: |
+        Ces pigeoirs en bois s’appellent des macacos. Le moment où ils prennent le
+        relais du foulage varie d’une maison à l’autre.
 
   - id: port-foot-treading-decline-001
     type: mcq
@@ -534,6 +806,17 @@ cards:
       explanation: |
         Rural depopulation in the Douro has made it hard to find and pay enough people
         for several hours of treading per lagar, night after night at harvest.
+    fr:
+      question: "Pourquoi le foulage au pied a-t-il largement cédé la place aux machines pour le Porto ?"
+      choices:
+        - { text: "Il extrait trop peu de couleur et de tanins", correct: false }
+        - { text: "Il est interdit pour les vins vendus comme Porto Vintage", correct: false }
+        - { text: "Il mobilise de grandes équipes d’ouvriers", correct: true }
+        - { text: "Il accroît le risque de levures d’altération", correct: false }
+      explanation: |
+        L’exode rural dans le Douro rend difficile de trouver et de payer assez de
+        personnes pour plusieurs heures de foulage par lagar, nuit après nuit pendant
+        les vendanges.
 
   - id: port-foot-treading-premium-001
     type: mcq
@@ -554,6 +837,16 @@ cards:
       explanation: |
         Houses such as Taylor's and Quinta do Noval still tread some of their best lots,
         where the extra cost is justified by the price of the wine.
+    fr:
+      question: "Pour quels Portos le foulage au pied est-il encore parfois utilisé aujourd’hui ?"
+      choices:
+        - { text: "Les assemblages de Ruby courants", correct: false }
+        - { text: "Certains grands Portos, comme le Porto Vintage", correct: true }
+        - { text: "La plupart des Portos blancs et rosés", correct: false }
+        - { text: "Les Tawny bon marché destinés à l’export", correct: false }
+      explanation: |
+        Des maisons comme Taylor’s et Quinta do Noval foulent encore au pied certains de
+        leurs meilleurs lots, là où le prix du vin justifie le surcoût.
 
   - id: port-autovinifier-drive-001
     type: mcq
@@ -574,6 +867,17 @@ cards:
       explanation: |
         The crushed grapes sit in a sealed vat, so the gas has nowhere to go. As it
         builds up, it forces liquid up a pipe into an open tank above.
+    fr:
+      question: "Dans un autovinificateur, qu’est-ce qui fait monter le jus dans la cuve supérieure ?"
+      choices:
+        - { text: "Une pompe électrique sous la cuve", correct: false }
+        - { text: "La pression du gaz de fermentation", correct: true }
+        - { text: "De la vapeur injectée au bas de la cuve", correct: false }
+        - { text: "L’air d’un compresseur extérieur", correct: false }
+      explanation: |
+        Le raisin foulé est enfermé dans une cuve hermétique : le gaz n’a donc aucune
+        issue. En s’accumulant, il pousse le liquide dans un tuyau jusqu’à un bac ouvert
+        placé au-dessus.
 
   - id: port-autovinifier-valve-001
     type: mcq
@@ -594,6 +898,17 @@ cards:
       explanation: |
         With the gas released, nothing holds the raised wine up any more. The valve then
         closes and the cycle starts again by itself, with no pump or operator.
+    fr:
+      question: "Que se passe-t-il chaque fois que la soupape d’un autovinificateur s’ouvre ?"
+      choices:
+        - { text: "L’eau-de-vie entre dans la cuve pour muter le vin", correct: false }
+        - { text: "Le vin est écoulé vers le pressoir", correct: false }
+        - { text: "Le jus du bac supérieur se déverse sur le chapeau", correct: true }
+        - { text: "De l’eau froide circule dans la double paroi de la cuve", correct: false }
+      explanation: |
+        Une fois le gaz libéré, plus rien ne retient le vin monté dans le bac. La
+        soupape se referme ensuite et le cycle recommence de lui-même, sans pompe ni
+        opérateur.
 
   - id: port-autovinifier-pumpover-001
     type: mcq
@@ -614,6 +929,16 @@ cards:
       explanation: |
         Both wet the floating skins by pouring juice back over the top of the cap;
         neither presses the skins down physically.
+    fr:
+      question: "À quelle technique de vinification en rouge un autovinificateur ressemble-t-il le plus ?"
+      choices:
+        - { text: "Le pigeage", correct: false }
+        - { text: "La macération à froid", correct: false }
+        - { text: "La macération prolongée", correct: false }
+        - { text: "Le remontage", correct: true }
+      explanation: |
+        Dans les deux cas, on arrose le chapeau en reversant du jus par-dessus ; aucun
+        des deux n’enfonce physiquement les peaux.
 
   - id: port-autovinifier-cycle-001
     type: mcq
@@ -634,6 +959,17 @@ cards:
       explanation: |
         At the peak of fermentation a cycle can come round every quarter of an hour or
         so, far more often than a cellar hand would work the cap of a normal tank.
+    fr:
+      question: "Pourquoi un autovinificateur extrait-il davantage qu’une cuve de fermentation classique ?"
+      choices:
+        - { text: "Il répète son cycle plusieurs fois par heure", correct: true }
+        - { text: "Il travaille le moût à bien plus haute température", correct: false }
+        - { text: "Il maintient le chapeau immergé sous la surface", correct: false }
+        - { text: "Il ajoute des enzymes pectolytiques à chaque cycle", correct: false }
+      explanation: |
+        Au plus fort de la fermentation, un cycle peut revenir à peu près tous les
+        quarts d’heure, bien plus souvent qu’un caviste ne travaillerait le chapeau
+        d’une cuve ordinaire.
 
   - id: port-autovinifier-weak-phase-001
     type: mcq
@@ -654,6 +990,17 @@ cards:
       explanation: |
         Newer units add mechanical paddles to stir the skins during that phase, so
         colour work can begin straight after crushing.
+    fr:
+      question: "À quel stade l’extraction est-elle la plus faible dans un autovinificateur traditionnel ?"
+      choices:
+        - { text: "Au plus fort de la fermentation", correct: false }
+        - { text: "Avant le départ de la fermentation", correct: true }
+        - { text: "Juste avant le mutage", correct: false }
+        - { text: "Une fois le chapeau entièrement formé", correct: false }
+      explanation: |
+        Les modèles récents ajoutent des pales mécaniques qui brassent les pellicules
+        pendant cette phase : l’extraction de la couleur peut ainsi commencer dès le
+        foulage.
 
   - id: port-robotic-aim-001
     type: mcq
@@ -674,6 +1021,16 @@ cards:
       explanation: |
         The aim is the same gentle but thorough crushing of skins, without needing
         a crew of treaders at every vat.
+    fr:
+      question: "Que cherchent à reproduire les pistons plongeurs et les lagares robotisés dans l’élaboration du Porto ?"
+      choices:
+        - { text: "Le remontage", correct: false }
+        - { text: "L’autovinification", correct: false }
+        - { text: "Le pressurage vertical", correct: false }
+        - { text: "Le foulage au pied", correct: true }
+      explanation: |
+        Le but est d’obtenir le même écrasement doux mais complet des pellicules, sans
+        mobiliser une équipe de fouleurs à chaque cuve.
 
   - id: port-piston-plunger-001
     type: mcq
@@ -694,6 +1051,17 @@ cards:
       explanation: |
         A shallow vessel keeps the cap thin and wide, so the pistons press a large area
         of skins with each stroke, much as feet do in a lagar.
+    fr:
+      question: "Dans quel type de cuve travaillent les pistons plongeurs utilisés pour le Porto ?"
+      choices:
+        - { text: "De hautes cuves en inox, fermées", correct: false }
+        - { text: "Des cuves en acier rondes, basses et ouvertes", correct: true }
+        - { text: "De grands foudres anciens, avec couvercle", correct: false }
+        - { text: "De longues auges rectangulaires en granit", correct: false }
+      explanation: |
+        Une cuve peu profonde donne un chapeau mince et large : à chaque course, les
+        pistons pressent une grande surface de pellicules, un peu comme les pieds dans
+        un lagar.
 
   - id: port-robotic-lagar-001
     type: mcq
@@ -714,6 +1082,17 @@ cards:
       explanation: |
         The tank is shallow, rectangular stainless steel, about the size of a stone
         lagar. After the treading phase the same machine handles regular punch-downs.
+    fr:
+      question: "Comment un lagar robotisé imite-t-il les fouleurs ?"
+      choices:
+        - { text: "Des rouleaux d’acier écrasent les raisins entre deux tambours", correct: false }
+        - { text: "Une roue à aubes brasse le moût sans arrêt", correct: false }
+        - { text: "Un portique mobile enfonce des pieds robotisés jusqu’au fond", correct: true }
+        - { text: "Des jets de jus sont projetés sur les pellicules flottantes", correct: false }
+      explanation: |
+        La cuve, en inox, est rectangulaire et peu profonde, à peu près de la taille
+        d’un lagar de pierre. Après la phase de foulage, la même machine assure les
+        pigeages réguliers.
 
   - id: port-robotic-lagar-verdict-001
     type: mcq
@@ -734,6 +1113,16 @@ cards:
       explanation: |
         That is why they are widely used for premium wines, which once relied on large
         teams of treaders.
+    fr:
+      question: "Comment les producteurs de Porto jugent-ils en général les lagares robotisés face au foulage au pied ?"
+      choices:
+        - { text: "À peu près aussi bons", correct: true }
+        - { text: "Bons pour les Portos d’entrée de gamme", correct: false }
+        - { text: "Plus durs, aux tanins amers", correct: false }
+        - { text: "Meilleurs pour la couleur, moins pour le corps", correct: false }
+      explanation: |
+        C’est pourquoi on les emploie largement pour les vins haut de gamme, qui
+        reposaient autrefois sur de grandes équipes de fouleurs.
 
   - id: port-final-strength-001
     type: mcq
@@ -754,6 +1143,17 @@ cards:
       explanation: |
         The special categories must stay within this band. Since 2019, ordinary Ruby,
         Tawny, White and Rosé may go down to 18%, and light dry White Port to 16.5%.
+    fr:
+      question: "Dans quelle fourchette de degré alcoolique se situent la plupart des Portos une fois mutés ?"
+      choices:
+        - { text: "Environ 13–15 % vol.", correct: false }
+        - { text: "Environ 15–17 % vol.", correct: false }
+        - { text: "Environ 23–25 % vol.", correct: false }
+        - { text: "Environ 19–22 % vol.", correct: true }
+      explanation: |
+        Les catégories spéciales doivent rester dans cette fourchette. Depuis 2019, les
+        Ruby, Tawny, Portos blancs et Portos rosés courants peuvent descendre à 18 %, et
+        le Porto blanc léger et sec à 16,5 %.
 
   - id: port-fortify-timing-001
     type: mcq
@@ -774,6 +1174,17 @@ cards:
       explanation: |
         Cellar staff track the falling density of the must with a hydrometer. Very ripe,
         sugary grapes can ferment a little longer and still finish sweet.
+    fr:
+      question: "Qu’est-ce qui décide surtout du moment où l’on mute un lot de Porto en fermentation ?"
+      choices:
+        - { text: "L’âge des fûts qui attendent le vin", correct: false }
+        - { text: "Le sucre de départ et la douceur recherchée", correct: true }
+        - { text: "L’heure à laquelle les raisins ont été cueillis", correct: false }
+        - { text: "Un nombre d’heures fixé par la loi", correct: false }
+      explanation: |
+        L’équipe de cave suit au densimètre la baisse de densité du moût. Des raisins
+        très mûrs, riches en sucre, peuvent fermenter un peu plus longtemps et rester
+        doux malgré tout.
 
   - id: port-aguardente-name-001
     type: mcq
@@ -794,6 +1205,17 @@ cards:
       explanation: |
         The word literally means "fiery water". For Port it must be distilled from wine,
         unlike bagaceira, which is made from grape pomace.
+    fr:
+      question: "Quel est le nom portugais de l’eau-de-vie utilisée pour muter le Porto ?"
+      choices:
+        - { text: "Bagaceira", correct: false }
+        - { text: "Medronho", correct: false }
+        - { text: "Ginjinha", correct: false }
+        - { text: "Aguardente", correct: true }
+      explanation: |
+        Le mot signifie littéralement « eau ardente ». Pour le Porto, elle doit être
+        distillée à partir de vin, contrairement à la bagaceira, tirée du marc de
+        raisin.
 
   - id: port-aguardente-strength-001
     type: mcq
@@ -814,6 +1236,16 @@ cards:
       explanation: |
         It is a colourless spirit distilled from wine, and the Port and Douro Wines
         Institute checks its quality before it may be used.
+    fr:
+      question: "Quel est le titre habituel de l’eau-de-vie utilisée pour muter le Porto ?"
+      choices:
+        - { text: "Environ 40 % vol.", correct: false }
+        - { text: "Environ 60 % vol.", correct: false }
+        - { text: "Environ 77 % vol.", correct: true }
+        - { text: "Environ 96 % vol.", correct: false }
+      explanation: |
+        C’est une eau-de-vie de vin incolore, dont l’IVDP (Institut des vins du Douro et
+        de Porto) contrôle la qualité avant toute utilisation.
 
   - id: port-spirit-share-001
     type: mcq
@@ -834,6 +1266,17 @@ cards:
       explanation: |
         Taylor's gives a typical ratio of about 115 litres of spirit to 435 litres of
         fermenting wine. Because the spirit is only 77% abv, a lot of it is needed.
+    fr:
+      question: "Quelle part du volume d’un Porto fini représente à peu près l’eau-de-vie ajoutée ?"
+      choices:
+        - { text: "Environ un vingtième", correct: false }
+        - { text: "Environ un cinquième", correct: true }
+        - { text: "Environ un dixième", correct: false }
+        - { text: "Environ deux cinquièmes", correct: false }
+      explanation: |
+        Taylor’s indique un rapport typique d’environ 115 litres d’eau-de-vie pour 435
+        litres de vin en fermentation. Comme l’eau-de-vie ne titre que 77 % vol., il en
+        faut beaucoup.
 
   - id: port-fino-spirit-share-001
     type: mcq
@@ -854,6 +1297,16 @@ cards:
       explanation: |
         The base wine has already fermented fully dry, so only a few degrees of alcohol
         need to be added to reach the strength wanted for flor ageing.
+    fr:
+      question: "Quelle part du volume d’un Fino représente à peu près l’alcool pur ajouté au mutage ?"
+      choices:
+        - { text: "Environ 3–5 %", correct: true }
+        - { text: "Environ 9–11 %", correct: false }
+        - { text: "Environ 15–16 %", correct: false }
+        - { text: "Environ 25–30 %", correct: false }
+      explanation: |
+        Le vin de base a déjà fermenté jusqu’à sec : il suffit d’ajouter quelques degrés
+        d’alcool pour atteindre le titre voulu pour l’élevage sous voile de flor.
 
   - id: port-gaia-lodges-001
     type: mcq
@@ -874,6 +1327,16 @@ cards:
       explanation: |
         Its riverfront is lined with the lodges of shippers such as Sandeman, Taylor's
         and Graham's, where wine is matured, blended and bottled.
+    fr:
+      question: "Dans quelle ville se trouvent traditionnellement les chais d’élevage des grandes maisons de Porto ?"
+      choices:
+        - { text: "Matosinhos", correct: false }
+        - { text: "Peso da Régua", correct: false }
+        - { text: "Vila Nova de Gaia", correct: true }
+        - { text: "Pinhão", correct: false }
+      explanation: |
+        Ses quais sont bordés des chais de maisons comme Sandeman, Taylor’s et Graham’s,
+        où le vin est élevé, assemblé et mis en bouteille.
 
   - id: port-gaia-lodge-climate-001
     type: mcq
@@ -895,6 +1358,17 @@ cards:
         Ocean air keeps such lodges mild and humid all year, so the wine
         evolves gently in wood and loses less to evaporation. Inland, summer
         heat in the valley can pass 40 °C and hurries the wine along.
+    fr:
+      question: "Par rapport à une cave située plus haut dans la vallée du Douro, quel effet un chai proche de la côte atlantique a-t-il sur l’élevage en fût ?"
+      choices:
+        - { text: "Des nuits plus chaudes accélèrent l’élevage", correct: false }
+        - { text: "Des brises marines plus sèches accélèrent l’évaporation", correct: false }
+        - { text: "Un air plus frais et plus humide ralentit l’élevage", correct: true }
+        - { text: "L’air marin donne aux vieux Tawny une note saline", correct: false }
+      explanation: |
+        L’air océanique garde ces chais doux et humides toute l’année : le vin évolue
+        lentement dans le bois et perd moins par évaporation. Dans l’intérieur, la
+        chaleur estivale de la vallée peut dépasser 40 °C et précipite son évolution.
 
   - id: port-douro-heat-tawny-ageing-001
     type: mcq
@@ -916,6 +1390,18 @@ cards:
         Inland summer heat speeds up oxidation and strips colour faster than the
         cool coast. That suits a wine meant to turn amber and nutty, but would
         damage one meant to keep deep colour and fresh black fruit.
+    fr:
+      question: "Quels Portos laisse-t-on le plus souvent vieillir dans des chais de la vallée du Douro ?"
+      choices:
+        - { text: "Les vins destinés aux styles Tawny", correct: true }
+        - { text: "Les vins destinés au Vintage", correct: false }
+        - { text: "Les vins destinés au LBV non filtré", correct: false }
+        - { text: "Les vins destinés au Reserve Ruby", correct: false }
+      explanation: |
+        La chaleur estivale de l’intérieur accélère l’oxydation et fait perdre la
+        couleur plus vite que sur la côte, plus fraîche. Cela convient à un vin appelé à
+        devenir ambré, aux notes de noix, mais abîmerait un vin qui doit garder une
+        couleur profonde et un fruit noir frais.
 
   - id: port-air-conditioning-douro-lodges-001
     type: mcq
@@ -937,6 +1423,18 @@ cards:
         Once a quinta can hold its cellar at a steady temperature, the valley's
         summer heat no longer forces wine down to the coast. Producers can keep
         wine at source, near the vineyards, and save the cost of shipping it.
+    fr:
+      question: "Comment le stockage à température contrôlée a-t-il changé les lieux d’élevage du Porto ?"
+      choices:
+        - { text: "Il a déplacé l’essentiel de l’élevage vers les chais côtiers", correct: false }
+        - { text: "Il permet d’élever davantage dans la zone viticole du Douro", correct: true }
+        - { text: "Il a rendu obligatoire l’assemblage dans la ville de Porto", correct: false }
+        - { text: "Il a déplacé l’élevage vers des entrepôts sous douane à l’étranger", correct: false }
+      explanation: |
+        Dès qu’une quinta peut maintenir sa cave à température stable, la chaleur
+        estivale de la vallée n’oblige plus à descendre le vin vers la côte. Les
+        producteurs peuvent le garder sur place, près des vignes, et s’épargner le coût
+        du transport.
 
   - id: port-vessels-steel-tanks-001
     type: mcq
@@ -958,6 +1456,17 @@ cards:
         Steel is inert and airtight, so it keeps a young ruby-style wine fresh and
         deeply coloured while it waits for blending and bottling. It is also easy
         to clean and to keep at a set temperature.
+    fr:
+      question: "Outre les vieux fûts de chêne et les foudres de tailles diverses, quel contenant sert aujourd’hui largement à élever le Porto ?"
+      choices:
+        - { text: "Des amphores en terre cuite enterrées", correct: false }
+        - { text: "De petites dames-jeannes en verre", correct: false }
+        - { text: "De petites barriques de chêne neuf", correct: false }
+        - { text: "Des cuves en acier inoxydable", correct: true }
+      explanation: |
+        L’inox est inerte et étanche à l’air : il garde un jeune vin de style Ruby frais
+        et d’une couleur profonde en attendant l’assemblage et la mise en bouteille. Il
+        se nettoie aussi facilement et se maintient sans peine à une température donnée.
 
   - id: port-new-oak-avoided-001
     type: mcq
@@ -979,6 +1488,17 @@ cards:
         Port casks are old and seasoned, often for decades, so they act as a
         neutral container. Their job is to let oxygen in slowly, not to add wood
         spice.
+    fr:
+      question: "Quelle place les arômes de chêne neuf, comme la vanille et le toasté, ont-ils dans le Porto ?"
+      choices:
+        - { text: "On les ajoute pour assouplir un jeune LBV", correct: false }
+        - { text: "Ils signent les meilleurs assemblages de Tawny", correct: false }
+        - { text: "On ne les recherche pas dans le Porto", correct: true }
+        - { text: "Ils sont obligatoires pour le Porto Vintage", correct: false }
+      explanation: |
+        Les fûts à Porto sont vieux et culottés, souvent depuis des décennies : ce sont
+        des contenants neutres. Leur rôle est de laisser entrer lentement l’oxygène, pas
+        d’apporter des épices boisées.
 
   - id: port-ruby-tawny-vessel-split-001
     type: mcq
@@ -1000,6 +1520,17 @@ cards:
         The same young wine could go either way. Kept away from air, it holds its
         deep colour and fresh fruit; given years of slow oxygen contact, it pales
         and develops a quite different character.
+    fr:
+      question: "Qu’est-ce qui décide surtout si un Porto rejoint la famille Ruby ou la famille Tawny ?"
+      choices:
+        - { text: "Les cépages de l’assemblage", correct: false }
+        - { text: "Le contenant et l’exposition à l’air", correct: true }
+        - { text: "La sous-région d’origine des raisins", correct: false }
+        - { text: "Le titre de l’eau-de-vie de mutage", correct: false }
+      explanation: |
+        Un même vin jeune pourrait prendre l’une ou l’autre voie. À l’abri de l’air, il
+        garde sa couleur profonde et son fruit frais ; soumis pendant des années à un
+        lent apport d’oxygène, il pâlit et prend un tout autre caractère.
 
   - id: port-ruby-primary-fruit-001
     type: mcq
@@ -1021,6 +1552,17 @@ cards:
         The style is built to keep what the grapes gave: deep colour and intense
         fruit. Minimal air contact during a fairly short maturation leaves little
         room for tertiary development before bottling.
+    fr:
+      question: "Quels arômes dominent un Porto de style Ruby à sa mise en bouteille ?"
+      choices:
+        - { text: "Noix, café et caramel", correct: false }
+        - { text: "Pruneau, cuir et feuilles humides", correct: false }
+        - { text: "Amande, pâte à pain et notes salines", correct: false }
+        - { text: "Cerise noire, prune et mûre", correct: true }
+      explanation: |
+        Le style vise à préserver ce que le raisin a donné : une couleur profonde et un
+        fruit intense. Un élevage assez court, avec un contact minimal avec l’air,
+        laisse peu de place aux arômes tertiaires avant la mise en bouteille.
 
   - id: port-ruby-family-lbv-member-001
     type: mcq
@@ -1042,6 +1584,18 @@ cards:
         Ruby, Reserve Ruby, LBV and Vintage are all matured to protect fruit and
         colour, in large vats or steel. Colheita is the trap: it carries a harvest
         year like LBV and Vintage, but it spends many years oxidising in cask.
+    fr:
+      question: "Laquelle de ces catégories de Porto appartient à la famille Ruby plutôt qu’à la famille Tawny ?"
+      choices:
+        - { text: "Colheita", correct: false }
+        - { text: "Reserve Tawny", correct: false }
+        - { text: "Late Bottled Vintage", correct: true }
+        - { text: "20 ans d’âge", correct: false }
+      explanation: |
+        Ruby, Reserve Ruby, LBV et Vintage sont tous élevés de façon à protéger le fruit
+        et la couleur, en grands foudres ou en cuves inox. Le piège, c’est le Colheita :
+        il porte un millésime comme le LBV et le Vintage, mais il passe de longues
+        années à s’oxyder en fût.
 
   - id: port-ruby-fining-filtering-001
     type: mcq
@@ -1063,6 +1617,17 @@ cards:
         Stripping out particles and unstable colour lets the wine stay bright on
         a shelf or in an opened bottle without throwing a deposit, so it can be
         poured without decanting.
+    fr:
+      question: "Comment prépare-t-on d’ordinaire le Ruby de base et le Reserve Ruby à la mise en bouteille ?"
+      choices:
+        - { text: "Par collage et filtration", correct: true }
+        - { text: "Sans collage, pour former une croûte", correct: false }
+        - { text: "Par une dernière année en petits fûts", correct: false }
+        - { text: "Par assemblage avec un vieux Porto blanc", correct: false }
+      explanation: |
+        Retirer les particules et la matière colorante instable permet au vin de rester
+        limpide en rayon ou une fois la bouteille ouverte, sans former de dépôt : on
+        peut le servir sans le carafer.
 
   - id: port-reserve-ruby-cellaring-001
     type: mcq
@@ -1084,6 +1649,17 @@ cards:
         It is blended to show bright, fresh fruit on release. Extra years in
         bottle tend to dull that fruit rather than build complexity, while the
         other three keep evolving and throw a deposit.
+    fr:
+      question: "Lequel de ces Portos gagne le moins à plusieurs années de garde après l’achat ?"
+      choices:
+        - { text: "Crusted", correct: false }
+        - { text: "LBV non filtré", correct: false }
+        - { text: "Single Quinta Vintage", correct: false }
+        - { text: "Reserve Ruby", correct: true }
+      explanation: |
+        Il est assemblé pour offrir un fruit vif et frais dès sa commercialisation. Des
+        années de plus en bouteille ternissent ce fruit plus qu’elles n’apportent de
+        complexité, alors que les trois autres continuent d’évoluer et forment un dépôt.
 
   - id: port-vintage-bottle-aged-garnet-001
     type: mcq
@@ -1105,6 +1681,17 @@ cards:
         In a sealed bottle the wine ages almost without oxygen, so it develops
         cooked-fruit and savoury notes while keeping more colour than a tawny
         aged for the same time in cask.
+    fr:
+      question: "Quel aspect et quel goût présente en général un Porto Vintage après une vingtaine d’années en bouteille ?"
+      choices:
+        - { text: "Grenat, avec pruneau, cuir et feuilles humides", correct: true }
+        - { text: "Pourpre, avec mûre fraîche et violette", correct: false }
+        - { text: "Ambré, avec noix, café et caramel", correct: false }
+        - { text: "Rubis profond, avec cerise noire et menthe", correct: false }
+      explanation: |
+        En bouteille fermée, le vin vieillit presque sans oxygène : il développe des
+        notes de fruits cuits et des notes tertiaires non fruitées, tout en gardant plus
+        de couleur qu’un Tawny élevé aussi longtemps en fût.
 
   - id: port-tawny-pipes-oxidative-001
     type: mcq
@@ -1126,6 +1713,17 @@ cards:
         Aged tawnies spend many years in these casks. Their small size gives a
         high ratio of wood surface to wine, so oxygen seeps in steadily and the
         wine oxidises gently over the years.
+    fr:
+      question: "Dans l’élaboration du Porto, qu’est-ce qu’une pipe ?"
+      choices:
+        - { text: "Une grande cuve verticale de plusieurs milliers de litres", correct: false }
+        - { text: "Une cuve de foulage en pierre utilisée aux vendanges", correct: false }
+        - { text: "Un petit fût de chêne d’environ 550 litres", correct: true }
+        - { text: "Une cuve inox servant à la stabilisation à froid", correct: false }
+      explanation: |
+        Les vieux Tawny passent de longues années dans ces fûts. Leur petite taille
+        offre beaucoup de surface de bois par rapport au volume de vin : l’oxygène
+        pénètre régulièrement et le vin s’oxyde doucement au fil des ans.
 
   - id: port-tawny-colour-evolution-001
     type: mcq
@@ -1147,6 +1745,17 @@ cards:
         Red pigments slowly oxidise and settle out in cask. A 10 Years Old blend
         still shows some red, while a very old tawny can edge towards
         mahogany with a greenish rim.
+    fr:
+      question: "Comment la couleur d’un Tawny élevé en fût évolue-t-elle d’ordinaire au fil des décennies ?"
+      choices:
+        - { text: "Du pourpre au rubis profond, puis au noir opaque", correct: false }
+        - { text: "Du grenat au tuilé, puis au brun pour les plus vieux", correct: true }
+        - { text: "Directement au brun dès les cinq premières années", correct: false }
+        - { text: "Du rubis au citron pâle, les pigments se déposant", correct: false }
+      explanation: |
+        Les pigments rouges s’oxydent lentement et se déposent en fût. Un Tawny 10 ans
+        d’âge montre encore un peu de rouge, alors qu’un très vieux Tawny peut tirer vers
+        l’acajou avec un bord verdâtre.
 
   - id: port-tawny-aged-flavours-001
     type: mcq
@@ -1167,6 +1776,17 @@ cards:
       explanation: |
         Slow oxidation turns fresh fruit into dried fruit and builds nutty,
         roasted and toffee-like notes, while acidity keeps the wine lively.
+    fr:
+      question: "Quels arômes s’affirment à mesure qu’un Tawny vieillit de longues années en fût ?"
+      choices:
+        - { text: "Cuir, feuilles humides et sous-bois", correct: false }
+        - { text: "Prune fraîche, violette et cerise noire", correct: false }
+        - { text: "Pomme verte, agrumes et amande", correct: false }
+        - { text: "Raisin sec, noix, café et caramel", correct: true }
+      explanation: |
+        L’oxydation lente transforme le fruit frais en fruit sec et développe des notes
+        de fruits à coque, de torréfaction et de caramel au beurre, tandis que l’acidité
+        garde le vin vivant.
 
   - id: port-tawny-deposit-in-cask-001
     type: mcq
@@ -1188,6 +1808,17 @@ cards:
         Each racking from one cask to the next leaves the settled solids behind,
         so the wine reaches the bottling line already clear. A light filtration
         is usually all it needs.
+    fr:
+      question: "Pourquoi les vieux Tawny n’ont-ils en général besoin ni d’être carafés ni d’un traitement poussé avant la mise en bouteille ?"
+      choices:
+        - { text: "Leurs dépôts tombent pendant leurs années en fût", correct: true }
+        - { text: "Leur eau-de-vie dissout tout sédiment", correct: false }
+        - { text: "Ils sont mis en bouteille sous un voile de type flor", correct: false }
+        - { text: "Leur forte teneur en sucre garde les tanins dissous", correct: false }
+      explanation: |
+        Chaque soutirage d’un fût à l’autre laisse derrière lui les matières déposées,
+        si bien que le vin arrive déjà limpide à la mise en bouteille. Une légère
+        filtration suffit en général.
 
   - id: port-tawny-drink-on-release-001
     type: mcq
@@ -1209,6 +1840,17 @@ cards:
         All its development happened in cask before release. A sealed bottle
         adds almost no oxygen, so there is nothing for further cellaring to
         improve.
+    fr:
+      question: "Que doit faire l’acheteur d’un Tawny 20 ans d’âge qu’il vient d’acquérir ?"
+      choices:
+        - { text: "Le garder dix ans pour qu’il prenne une teinte tuilée", correct: false }
+        - { text: "Le boire : il a déjà atteint son plein développement", correct: true }
+        - { text: "Le garder jusqu’à ce qu’un dépôt en croûte se forme", correct: false }
+        - { text: "Le carafer la veille pour assouplir ses tanins", correct: false }
+      explanation: |
+        Toute son évolution s’est faite en fût avant la commercialisation. Une bouteille
+        fermée n’apporte presque pas d’oxygène : une garde prolongée n’a donc rien à
+        améliorer.
 
   - id: port-blending-varieties-sites-001
     type: mcq
@@ -1230,6 +1872,18 @@ cards:
         Blending is not a single step: lots are tasted and combined repeatedly
         while the wine matures, so the house style can be built up from wines of
         different grapes, subregions and, for many styles, ages.
+    fr:
+      question: "Comment la grande majorité des Portos sont-ils élaborés ?"
+      choices:
+        - { text: "En vins monocépages, d’un seul cépage nommé", correct: false }
+        - { text: "En assemblages de cépages et de terroirs", correct: true }
+        - { text: "En vins d’une seule parcelle, issus d’une quinta", correct: false }
+        - { text: "En solera rafraîchie chaque année", correct: false }
+      explanation: |
+        L’assemblage n’est pas une étape unique : les lots sont dégustés et combinés à
+        plusieurs reprises pendant l’élevage. Le style de la maison se construit ainsi à
+        partir de vins de cépages, de sous-régions et, pour beaucoup de styles, d’âges
+        différents.
 
   - id: port-entry-level-styles-001
     type: mcq
@@ -1251,6 +1905,17 @@ cards:
         These carry no special-category mention on the label: no harvest year,
         no age statement and no Reserve. They sell on price and are blended for
         a consistent house style year after year.
+    fr:
+      question: "Quels deux styles de Porto constituent l’entrée de gamme, à prix abordable ?"
+      choices:
+        - { text: "LBV et Colheita", correct: false }
+        - { text: "Reserve et Crusted", correct: false }
+        - { text: "Ruby et Tawny", correct: true }
+        - { text: "Vintage et Single Quinta", correct: false }
+      explanation: |
+        Ces Portos ne portent aucune mention de catégorie spéciale : ni millésime, ni
+        indication d’âge, ni mention Reserve. Ils se vendent sur le prix et sont
+        assemblés pour garder un style maison constant d’une année sur l’autre.
 
   - id: port-basic-ruby-blend-age-001
     type: mcq
@@ -1272,6 +1937,17 @@ cards:
         Short maturation keeps the cost down and the fruit fresh. The trade-off
         is less concentration, depth and tannic grip than the premium ruby
         categories.
+    fr:
+      question: "Quel âge ont les vins d’un assemblage typique de Ruby de base ?"
+      choices:
+        - { text: "Environ un à trois ans", correct: true }
+        - { text: "Environ sept à dix ans", correct: false }
+        - { text: "Au moins quinze ans", correct: false }
+        - { text: "Environ quatre à six ans", correct: false }
+      explanation: |
+        Un élevage court limite le coût et préserve la fraîcheur du fruit. En
+        contrepartie, le vin a moins de concentration, de profondeur et d’emprise
+        tannique que les catégories haut de gamme de la famille Ruby.
 
   - id: port-basic-tawny-young-001
     type: mcq
@@ -1293,6 +1969,17 @@ cards:
         Its blend is often no older than a basic Ruby. It shares the browner
         hue of the tawny family, but without the depth that decades in cask
         bring.
+    fr:
+      question: "En quoi un Tawny bon marché sans indication d’âge diffère-t-il d’un Tawny longuement vieilli ?"
+      choices:
+        - { text: "Vin d’une seule année, élevé en cuve inox", correct: false }
+        - { text: "Vin jeune, sans long élevage oxydatif", correct: true }
+        - { text: "Vin plus vieux, mais fortement collé", correct: false }
+        - { text: "Vin élevé en bouteille plutôt qu’en fût", correct: false }
+      explanation: |
+        Son assemblage n’est souvent pas plus vieux que celui d’un Ruby de base. Il a la
+        teinte plus brune de la famille Tawny, mais sans la profondeur
+        qu’apportent des décennies en fût.
 
   - id: port-basic-tawny-white-blend-001
     type: mcq
@@ -1313,6 +2000,16 @@ cards:
       explanation: |
         Heavy fining, which strips out pigment, is another shortcut to the
         tawny look without decades of cask ageing.
+    fr:
+      question: "Quelle étape d’assemblage aide à donner à un Tawny bon marché sa couleur plus pâle ?"
+      choices:
+        - { text: "Ajouter un peu de Porto Vintage", correct: false }
+        - { text: "Ajouter un peu de Porto rosé", correct: false }
+        - { text: "Ajouter un peu de Porto blanc", correct: true }
+        - { text: "Ajouter un peu de Moscatel de Setúbal", correct: false }
+      explanation: |
+        Un collage appuyé, qui retire des pigments, est un autre raccourci pour obtenir
+        l’aspect d’un Tawny sans des décennies d’élevage en fût.
 
   - id: port-reserve-mention-meaning-001
     type: mcq
@@ -1334,6 +2031,17 @@ cards:
         It is a quality tier for a blend, not a vintage or estate claim. The term
         also exists for White Port, so look at the colour word next to it to
         know which style you are buying.
+    fr:
+      question: "Sur un Porto Ruby ou Tawny, que signale la mention Reserve (Reserva) ?"
+      choices:
+        - { text: "Un vin issu d’une seule récolte déclarée", correct: false }
+        - { text: "Un vin issu d’une seule quinta nommée", correct: false }
+        - { text: "Un cran au-dessus du Ruby ou Tawny de base", correct: true }
+        - { text: "Un vin mis en bouteille sans filtration", correct: false }
+      explanation: |
+        C’est un niveau de qualité pour un assemblage, pas une indication de millésime
+        ou de domaine. La mention existe aussi pour le Porto blanc : regardez le mot de
+        couleur qui l’accompagne pour savoir quel style vous achetez.
 
   - id: port-reserve-tasting-panel-001
     type: mcq
@@ -1355,6 +2063,17 @@ cards:
         The Port and Douro Wines Institute (IVDP) runs an official tasting
         chamber that checks samples against the profile expected of each
         category before the label term is granted.
+    fr:
+      question: "Comment un Porto obtient-il le droit d’être étiqueté Reserve ?"
+      choices:
+        - { text: "Il doit atteindre au moins 22 % vol. d’alcool", correct: false }
+        - { text: "Il doit provenir de vignobles classés en catégorie A", correct: false }
+        - { text: "Il doit être agréé par les dégustateurs de l’IVDP", correct: true }
+        - { text: "Il doit être vendu au moins dix ans après la récolte", correct: false }
+      explanation: |
+        L’Institut des vins du Douro et de Porto (IVDP) dispose d’une chambre de
+        dégustation officielle qui vérifie que les échantillons correspondent au profil
+        attendu de chaque catégorie avant d’accorder la mention.
 
   - id: port-reserve-tawny-seven-years-001
     type: mcq
@@ -1376,6 +2095,17 @@ cards:
         IVDP texts have put it as at least six years in wood, or as the
         character of a wine aged about seven. That places Reserve Tawny between
         basic Tawny and the tawnies with an age statement.
+    fr:
+      question: "Combien de temps environ un Reserve Tawny doit-il avoir passé sous bois ?"
+      choices:
+        - { text: "Environ deux à trois ans", correct: false }
+        - { text: "Environ six à sept ans", correct: true }
+        - { text: "Environ dix à douze ans", correct: false }
+        - { text: "Environ quinze à vingt ans", correct: false }
+      explanation: |
+        Les textes de l’IVDP ont fixé soit au moins six ans sous bois, soit le caractère
+        d’un vin d’environ sept ans. Le Reserve Tawny se situe donc entre le Tawny de
+        base et les Tawny avec indication d’âge.
 
   - id: port-lbv-bottling-window-001
     type: mcq
@@ -1397,6 +2127,17 @@ cards:
         LBV is a single-harvest ruby, and the label must show that harvest year.
         The rules allow bottling up to 31 December of the sixth year after the
         grapes were picked.
+    fr:
+      question: "Quand un Late Bottled Vintage (LBV) est-il mis en bouteille ?"
+      choices:
+        - { text: "La deuxième ou la troisième année après la récolte", correct: false }
+        - { text: "Après au moins dix ans en fût", correct: false }
+        - { text: "Au cours de la première année après la récolte", correct: false }
+        - { text: "La quatrième à la sixième année après la récolte", correct: true }
+      explanation: |
+        Le LBV est un Porto de la famille Ruby d’une seule récolte, et l’étiquette doit
+        indiquer cette année. Le règlement autorise la mise en bouteille jusqu’au
+        31 décembre de la sixième année après la vendange.
 
   - id: port-lbv-large-oak-vats-001
     type: mcq
@@ -1418,6 +2159,17 @@ cards:
         A big vessel holds a lot of wine per square metre of wood, so the wine
         sees little oxygen and keeps its deep colour and ruby-style fruit even
         after several years.
+    fr:
+      question: "Dans quels contenants un LBV passe-t-il généralement ses années avant la mise en bouteille ?"
+      choices:
+        - { text: "De grands foudres de chêne anciens", correct: true }
+        - { text: "De petites barriques de chêne neuf", correct: false }
+        - { text: "De petits fûts dans des chais chauds du Douro", correct: false }
+        - { text: "De vieilles pipes conduites en solera", correct: false }
+      explanation: |
+        Un grand contenant renferme beaucoup de vin par mètre carré de bois : le vin
+        voit peu d’oxygène et garde sa couleur profonde et son fruit typique des Ruby,
+        même après plusieurs années.
 
   - id: port-lbv-approachable-vs-vintage-001
     type: mcq
@@ -1439,6 +2191,17 @@ cards:
         The extra time in vat lets tannins soften and some solids settle before
         the wine is bottled. LBV was developed as a way to offer a taste of a
         single year without decades of cellaring.
+    fr:
+      question: "Pourquoi un LBV est-il généralement plus accessible à sa sortie qu’un Porto Vintage ?"
+      choices:
+        - { text: "Il provient de cépages plus légers", correct: false }
+        - { text: "Il séjourne plus longtemps sous bois", correct: true }
+        - { text: "Il est muté à un degré plus faible", correct: false }
+        - { text: "Il est assemblé avec de vieux Tawny", correct: false }
+      explanation: |
+        Le séjour prolongé en foudre laisse les tanins s’assouplir et une partie des
+        matières solides se déposer avant la mise en bouteille. Le LBV a été conçu pour
+        offrir le goût d’une seule année sans des décennies de garde en cave.
 
   - id: port-lbv-unfiltered-cellaring-001
     type: mcq
@@ -1460,6 +2223,18 @@ cards:
         Leaving the solids in gives the wine more material to evolve slowly in
         the bottle. Some houses also print the bottling year or the phrase
         "bottle matured" to show it has already had extra time under cork.
+    fr:
+      question: "Quelle mention sur l’étiquette d’un LBV suggère le mieux que le vin continuera de progresser en bouteille ?"
+      choices:
+        - { text: "Filtré", correct: false }
+        - { text: "Stabilisé à froid", correct: false }
+        - { text: "Collé", correct: false }
+        - { text: "Non filtré", correct: true }
+      explanation: |
+        Conserver les matières solides donne au vin davantage de matière pour évoluer
+        lentement en bouteille. Certaines maisons indiquent aussi l’année de mise en
+        bouteille ou la mention « bottle matured » pour montrer qu’il a déjà passé du
+        temps supplémentaire sous bouchon.
 
   - id: port-lbv-unfiltered-decant-001
     type: mcq
@@ -1480,6 +2255,16 @@ cards:
       explanation: |
         Stand the bottle upright for a day so the deposit settles, then pour
         slowly against a light and stop when the sediment reaches the neck.
+    fr:
+      question: "Que faut-il généralement faire avant de servir un LBV non filtré qui a passé quelques années en bouteille ?"
+      choices:
+        - { text: "Le refroidir presque jusqu’à 0 °C", correct: false }
+        - { text: "Le carafer pour le séparer de son dépôt", correct: true }
+        - { text: "Le couper avec un peu de Porto blanc", correct: false }
+        - { text: "L’ouvrir une semaine avant pour l’aérer", correct: false }
+      explanation: |
+        Redressez la bouteille un jour à l’avance pour que le dépôt tombe, puis versez
+        lentement face à une lumière et arrêtez-vous quand le dépôt atteint le goulot.
 
   - id: port-tawny-age-statement-ladder-001
     type: mcq
@@ -1501,6 +2286,17 @@ cards:
         The ladder steps in decades and also includes 40 Years Old. Rules in
         force since 2022 add 50 Years Old and a Very Very Old mention for
         tawnies of more than 80 years.
+    fr:
+      question: "Quelle série d’indications d’âge peut légalement figurer sur l’étiquette d’un Porto Tawny ?"
+      choices:
+        - { text: "12, 15 et 18 ans d’âge", correct: false }
+        - { text: "10, 20 et 30 ans d’âge", correct: true }
+        - { text: "5, 8 et 12 ans d’âge", correct: false }
+        - { text: "15, 25 et 35 ans d’âge", correct: false }
+      explanation: |
+        L’échelle progresse par décennies et comprend aussi 40 ans d’âge. Les règles en
+        vigueur depuis 2022 y ajoutent 50 ans d’âge et une mention Very Very Old pour
+        les Tawny de plus de 80 ans.
 
   - id: port-tawny-age-average-meaning-001
     type: mcq
@@ -1522,6 +2318,17 @@ cards:
         A blend of younger and much older lots is assembled to taste like a
         tawny of that age, and official tasters must agree that it does. No
         rule requires every component to be twenty years old.
+    fr:
+      question: "Que signifie le chiffre sur l’étiquette d’un Tawny « 20 ans d’âge » ?"
+      choices:
+        - { text: "L’âge du plus jeune vin de l’assemblage", correct: false }
+        - { text: "L’âge du plus vieux vin de l’assemblage", correct: false }
+        - { text: "L’âge moyen indicatif et le style du vin", correct: true }
+        - { text: "Le nombre d’années depuis la mise en bouteille", correct: false }
+      explanation: |
+        Des lots plus jeunes et d’autres beaucoup plus vieux sont assemblés pour avoir
+        le goût d’un Tawny de cet âge, et les dégustateurs officiels doivent le
+        confirmer. Aucune règle n’impose que chaque composant ait vingt ans.
 
   - id: port-tawny-bottling-year-label-001
     type: mcq
@@ -1542,6 +2349,17 @@ cards:
       explanation: |
         The same rule applies to Colheita. Cask-aged tawnies slowly lose
         freshness once bottled, so a buyer can use the date to pick recent stock.
+    fr:
+      question: "Outre le nombre d’années, quelle date doit figurer sur l’étiquette d’un Porto Tawny avec indication d’âge ?"
+      choices:
+        - { text: "L’année de vendange du plus vieux vin", correct: false }
+        - { text: "L’année de fondation de la maison", correct: false }
+        - { text: "L’année du premier agrément de l’assemblage", correct: false }
+        - { text: "L’année de mise en bouteille", correct: true }
+      explanation: |
+        La même règle s’applique au Colheita. Les Tawny élevés en fût perdent peu à
+        peu leur fraîcheur une fois en bouteille : la date permet à l’acheteur de
+        choisir un stock récent.
 
   - id: port-vintage-declaration-second-year-001
     type: mcq
@@ -1563,6 +2381,17 @@ cards:
         This gives the house a full winter and more to watch how the wine
         develops before committing. Announcing that decision is what the trade
         calls a vintage declaration, often made in the spring.
+    fr:
+      question: "À quel moment une maison de Porto soumet-elle un vin jeune à l’IVDP pour le faire agréer comme Porto Vintage ?"
+      choices:
+        - { text: "Pendant les vendanges, avant le mutage", correct: false }
+        - { text: "La deuxième année après la récolte", correct: true }
+        - { text: "La cinquième année après la récolte", correct: false }
+        - { text: "Dix ans après la récolte, une fois mûr", correct: false }
+      explanation: |
+        La maison dispose ainsi d’un hiver complet, et même davantage, pour suivre
+        l’évolution du vin avant de s’engager. L’annonce de cette décision est ce que le
+        négoce appelle la déclaration de millésime, souvent faite au printemps.
 
   - id: port-vintage-bottling-deadline-001
     type: mcq
@@ -1583,6 +2412,16 @@ cards:
       explanation: |
         The exact cut-off is 30 July. Keeping its wood time short means almost
         all of a Vintage Port's development happens under cork.
+    fr:
+      question: "Quelle est la date limite de mise en bouteille d’un Porto Vintage ?"
+      choices:
+        - { text: "La fin de la première année après la récolte", correct: false }
+        - { text: "La fin de la sixième année après la récolte", correct: false }
+        - { text: "Juillet de la troisième année après la récolte", correct: true }
+        - { text: "Son dixième anniversaire en fût", correct: false }
+      explanation: |
+        La limite exacte est le 30 juillet. Avec un passage sous bois aussi court,
+        presque toute l’évolution d’un Vintage se fait sous bouchon.
 
   - id: port-vintage-unfined-unfiltered-001
     type: mcq
@@ -1603,6 +2442,16 @@ cards:
       explanation: |
         Nothing is stripped out, so the wine goes into glass with nearly all
         its colour, tannin and solids still in place.
+    fr:
+      question: "Comment un Porto Vintage est-il traité au moment de la mise en bouteille ?"
+      choices:
+        - { text: "Mis en bouteille sans collage ni filtration", correct: true }
+        - { text: "Fortement collé pour ôter les tanins durs", correct: false }
+        - { text: "Filtré et stabilisé à froid pour la limpidité", correct: false }
+        - { text: "Pasteurisé pour bloquer toute évolution", correct: false }
+      explanation: |
+        Rien n’est retiré : le vin entre en bouteille avec presque toute sa couleur, ses
+        tanins et ses matières solides.
 
   - id: port-vintage-release-tannin-001
     type: mcq
@@ -1623,6 +2472,16 @@ cards:
       explanation: |
         It is built from a house's finest lots in an outstanding year and is
         meant to be cellared rather than opened young.
+    fr:
+      question: "Quelle catégorie de Porto est généralement la plus concentrée et la plus tannique à sa sortie ?"
+      choices:
+        - { text: "LBV filtré", correct: false }
+        - { text: "Reserve Ruby", correct: false }
+        - { text: "Vintage", correct: true }
+        - { text: "Colheita", correct: false }
+      explanation: |
+        Il est élaboré à partir des meilleurs lots d’une maison lors d’une année
+        exceptionnelle, et il est destiné à la garde plutôt qu’à être ouvert jeune.
 
   - id: port-vintage-cellaring-decades-001
     type: mcq
@@ -1643,6 +2502,16 @@ cards:
       explanation: |
         High tannin, deep colour, sweetness and alcohol all protect the wine,
         and a cork lets in only a trace of oxygen, so change is slow.
+    fr:
+      question: "Combien de temps un grand Porto Vintage d’une belle année peut-il continuer d’évoluer en bouteille ?"
+      choices:
+        - { text: "Environ deux à trois ans", correct: false }
+        - { text: "Environ cinq ans", correct: false }
+        - { text: "Environ huit à dix ans", correct: false }
+        - { text: "Plusieurs décennies", correct: true }
+      explanation: |
+        Tanins élevés, couleur profonde, sucre et alcool protègent le vin, et le bouchon
+        ne laisse entrer qu’une trace d’oxygène : l’évolution est donc lente.
 
   - id: port-vintage-flagship-role-001
     type: mcq
@@ -1664,6 +2533,17 @@ cards:
         It is made in small quantities and only in good years, but it is the
         wine critics score and collectors trade, so it carries the house's
         reputation.
+    fr:
+      question: "Quelle place le Porto Vintage occupe-t-il généralement dans la gamme d’une maison de Porto ?"
+      choices:
+        - { text: "Sa principale ligne en volume", correct: false }
+        - { text: "Son vin phare", correct: true }
+        - { text: "Un vin de base pour ses Tawny", correct: false }
+        - { text: "Son vin d’export en vrac", correct: false }
+      explanation: |
+        Il est produit en petites quantités et seulement les bonnes années, mais c’est
+        le vin que les critiques notent et que les collectionneurs s’échangent : il
+        porte la réputation de la maison.
 
   - id: port-vintage-declaration-frequency-001
     type: mcq
@@ -1685,6 +2565,17 @@ cards:
         Declarations cluster with the weather. Taylor's, for example, declared
         2016, 2017 and 2018 in a row, a rare run, while some decades see
         fewer.
+    fr:
+      question: "En moyenne, à quelle fréquence les grandes maisons de Porto font-elles une déclaration générale de millésime ?"
+      choices:
+        - { text: "La plupart des années, sauf en cas de gel", correct: false }
+        - { text: "Environ une fois tous les vingt ans", correct: false }
+        - { text: "Environ trois fois par décennie", correct: true }
+        - { text: "Environ une fois par décennie", correct: false }
+      explanation: |
+        Les déclarations suivent la météo. Taylor’s, par exemple, a déclaré 2016, 2017
+        et 2018 d’affilée, une série rare, alors que certaines décennies en comptent
+        moins.
 
   - id: port-vintage-best-lots-blend-001
     type: mcq
@@ -1706,6 +2597,17 @@ cards:
         Only the finest lots of an outstanding year make the cut, which keeps
         volumes small. The rest of the harvest goes into the house's other
         ruby styles.
+    fr:
+      question: "Qu’entre-t-il généralement dans le Porto Vintage principal d’une maison de Porto ?"
+      choices:
+        - { text: "Ses meilleurs vins de plusieurs grandes quintas", correct: true }
+        - { text: "Des vins de l’année déclarée et de la précédente", correct: false }
+        - { text: "Des lots plus légers assouplis au Porto blanc", correct: false }
+        - { text: "Son meilleur vin, élevé d’abord en petites pipes", correct: false }
+      explanation: |
+        Seuls les meilleurs lots d’une année exceptionnelle sont retenus, ce qui limite
+        les volumes. Le reste de la récolte part dans les autres styles de la famille
+        Ruby de la maison.
 
   - id: port-vintage-declaration-decision-001
     type: mcq
@@ -1727,6 +2629,17 @@ cards:
         The wine still has to pass the IVDP tasting panel, but the choice to
         offer it is commercial. That is why houses sometimes split, with some
         declaring a year that others pass over.
+    fr:
+      question: "Qui décide si une maison de Porto donnée déclare un millésime ?"
+      choices:
+        - { text: "L’IVDP, pour toutes les maisons à la fois", correct: false }
+        - { text: "La maison elle-même, pour son propre vin", correct: true }
+        - { text: "Un vote de l’association des négociants", correct: false }
+        - { text: "Le ministère portugais de l’Agriculture", correct: false }
+      explanation: |
+        Le vin doit encore être agréé par la chambre de dégustation de l’IVDP, mais le
+        choix de le proposer est commercial. C’est pourquoi les maisons divergent
+        parfois, certaines déclarant une année que d’autres laissent passer.
 
   - id: port-vintage-declared-year-2011-001
     type: mcq
@@ -1745,9 +2658,20 @@ cards:
         - { text: "2019", correct: false }
         - { text: "2011", correct: true }
       explanation: |
-        Other widely declared years this century include 2000, 2003, 2007,
+        Other widely declared years since 2000 include 2000 itself, 2003, 2007,
         2016 and 2017. Rain or excess heat at harvest keeps many years off
         the list.
+    fr:
+      question: "Laquelle de ces années a été largement déclarée comme grande année de Porto Vintage par les principales maisons ?"
+      choices:
+        - { text: "2002", correct: false }
+        - { text: "2014", correct: false }
+        - { text: "2019", correct: false }
+        - { text: "2011", correct: true }
+      explanation: |
+        Autres années largement déclarées depuis 2000 : 2000 elle-même, 2003, 2007, 2016
+        et 2017. La pluie ou l’excès de chaleur pendant les vendanges écarte de
+        nombreuses années de la liste.
 
   - id: port-single-quinta-label-001
     type: mcq
@@ -1770,6 +2694,18 @@ cards:
         from one estate's grapes in one year, under the same production rules as
         a classic Vintage Port; Graham's Quinta dos Malvedos and Dow's Quinta do
         Bomfim are other well-known examples.
+    fr:
+      question: "Sur une bouteille de Taylor’s Quinta de Vargellas Vintage Port, qu’indique le nom Quinta de Vargellas ?"
+      choices:
+        - { text: "Le chai de Gaia où le vin a été élevé", correct: false }
+        - { text: "La famille qui a fondé la maison de négoce", correct: false }
+        - { text: "La sous-région du Douro d’où vient l’assemblage", correct: false }
+        - { text: "Le domaine unique qui a produit les raisins", correct: true }
+      explanation: |
+        Une quinta est une exploitation ou un domaine du Douro. Un Single Quinta Vintage
+        est élaboré avec les raisins d’un seul domaine et d’une seule année, selon les
+        mêmes règles de production qu’un Porto Vintage classique ; Graham’s Quinta dos
+        Malvedos et Dow’s Quinta do Bomfim en sont d’autres exemples connus.
 
   - id: port-single-quinta-shipper-strategy-001
     type: mcq
@@ -1788,10 +2724,21 @@ cards:
         - { text: "As a Reserve Ruby", correct: false }
         - { text: "As a 10 Year Old Tawny", correct: false }
       explanation: |
-        In a declared year the estates rarely appear alone on a label.
-        Taylor's, for example,
-        bottles Quinta de Vargellas or Quinta de Terra Feita separately in good
-        years when no Taylor's Vintage is declared.
+        In a declared year the estates rarely appear alone on a label. Taylor's, for
+        example, bottles Quinta de Vargellas or Quinta de Terra Feita separately in
+        good years when no Taylor's Vintage is declared.
+    fr:
+      question: "Un négociant qui possède plusieurs domaines connaît une très bonne année mais ne déclare pas de Porto Vintage classique. Sous quelle forme sort généralement le vin de son meilleur domaine ?"
+      choices:
+        - { text: "En Porto Crusted", correct: false }
+        - { text: "En Single Quinta Vintage", correct: true }
+        - { text: "En Reserve Ruby", correct: false }
+        - { text: "En Tawny 10 ans d’âge", correct: false }
+      explanation: |
+        Les années déclarées, les domaines apparaissent rarement seuls sur une
+        étiquette. Taylor’s, par exemple, met en bouteille séparément Quinta de
+        Vargellas ou Quinta de Terra Feita les bonnes années où aucun Taylor’s Vintage
+        n’est déclaré.
 
   - id: port-single-quinta-prestige-001
     type: mcq
@@ -1813,6 +2760,18 @@ cards:
         The house Vintage is reserved for the finest years, so it keeps the
         higher status. Estate brands differ: Quinta do Vesúvio, sold under its
         own name, releases a Vintage Port in many years as its flagship.
+    fr:
+      question: "Dans la gamme d’un négociant à plusieurs domaines, comment son Single Quinta Vintage se situe-t-il généralement par rapport à son Porto Vintage déclaré ?"
+      choices:
+        - { text: "Au-dessus, comme meilleure cuvée de la maison", correct: false }
+        - { text: "En dessous du Late Bottled Vintage (LBV) maison", correct: false }
+        - { text: "Un cran en dessous, tout en restant haut de gamme", correct: true }
+        - { text: "Au même niveau, à un prix identique", correct: false }
+      explanation: |
+        Le Vintage de la maison est réservé aux plus grandes années : il garde donc le
+        statut le plus élevé. Les marques de domaine font exception : Quinta do Vesúvio,
+        vendue sous son propre nom, sort un Vintage de nombreuses années comme vin
+        phare.
 
   - id: port-single-quinta-release-001
     type: mcq
@@ -1835,3 +2794,16 @@ cards:
         maturing in bottle. They tend to open up sooner than a classic
         Vintage, often from about ten years, so a shipper can cellar them and
         sell them nearly ready; some houses now release them soon after bottling.
+    fr:
+      question: "Quelle pratique de mise en marché a traditionnellement été courante pour les Single Quinta Vintage ?"
+      choices:
+        - { text: "Gardés en fût une dizaine d’années avant embouteillage", correct: false }
+        - { text: "Conservés en bouteille jusqu’à leur maturité", correct: true }
+        - { text: "Vendus quelques mois après la récolte", correct: false }
+        - { text: "Rafraîchis avec du vieux vin de réserve avant la vente", correct: false }
+      explanation: |
+        Comme tout Porto Vintage, ils passent peu de temps sous bois et mûrissent en
+        bouteille. Ils s’ouvrent plus tôt qu’un Vintage classique, souvent vers dix ans,
+        si bien qu’un négociant peut les garder en cave et les vendre presque prêts à
+        boire ; certaines maisons les commercialisent désormais peu après la mise en
+        bouteille.
