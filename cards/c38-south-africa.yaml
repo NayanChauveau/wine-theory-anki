@@ -447,3 +447,697 @@ cards:
       explanation: |
         Introduced in the late 1990s, it audits both vineyards and cellars on
         matters such as water use, spraying, waste and biodiversity.
+
+  - id: za-latitude-001
+    type: mcq
+    deck: South Africa
+    tags: [south-africa, latitude, climate]
+    status: reviewed
+    source_id: c38-0003
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Roughly which band of latitude do South Africa's vineyards occupy?"
+      choices:
+        - { text: "About 17–24° S", correct: false }
+        - { text: "About 27–34° S", correct: true }
+        - { text: "About 34–41° S", correct: false }
+        - { text: "About 40–47° S", correct: false }
+      explanation: |
+        On latitude alone most of these vineyards would be hot; ocean and mountain
+        influences pull many of them back to warm or moderate. Cape Town sits at about 34°
+        S, close to Sydney and Santiago.
+
+  - id: za-benguela-001
+    type: mcq
+    deck: South Africa
+    tags: [south-africa, climate, ocean, benguela]
+    status: reviewed
+    source_id: c38-0005
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which ocean current does most to cool the vineyards of South Africa's Western Cape?"
+      choices:
+        - { text: "Agulhas Current", correct: false }
+        - { text: "Mozambique Current", correct: false }
+        - { text: "Benguela Current", correct: true }
+        - { text: "Humboldt Current", correct: false }
+      explanation: |
+        The Agulhas and Mozambique currents bring warm Indian Ocean water down the east
+        coast, so they warm rather than cool. The cold water off the Cape's Atlantic shore
+        keeps sea temperatures low even in midsummer.
+
+  - id: za-benguela-flow-001
+    type: mcq
+    deck: South Africa
+    tags: [south-africa, climate, ocean, benguela]
+    status: reviewed
+    source_id: c38-0006
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which way does the cold current along South Africa's Atlantic coast carry its water?"
+      choices:
+        - { text: "Northward up the west coast", correct: true }
+        - { text: "Southward down the west coast", correct: false }
+        - { text: "Eastward round the Cape into False Bay", correct: false }
+        - { text: "Westward, away from the coast", correct: false }
+      explanation: |
+        Its water starts in the cold seas towards Antarctica. Offshore winds also push
+        surface water away from the coast, so cold deep water wells up to replace it and
+        keeps the inshore sea chilly.
+
+  - id: za-cape-doctor-001
+    type: mcq
+    deck: South Africa
+    tags: [south-africa, climate, wind, cape-doctor]
+    status: reviewed
+    source_id: c38-0007
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "What is the name of the strong, regular summer wind that pushes ocean-cooled air into South Africa's coastal winelands?"
+      choices:
+        - { text: "Berg wind", correct: false }
+        - { text: "Cape Doctor", correct: true }
+        - { text: "Fremantle Doctor", correct: false }
+        - { text: "Zonda", correct: false }
+      explanation: |
+        It can take a couple of degrees off vineyard temperatures and dries canopies, which
+        lowers fungal disease pressure. A berg wind is the opposite: hot, dry air from the
+        interior.
+
+  - id: za-cape-doctor-direction-001
+    type: mcq
+    deck: South Africa
+    tags: [south-africa, climate, wind, cape-doctor]
+    status: reviewed
+    source_id: c38-0008
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "From which direction does the Cape's strong, regular summer wind usually blow?"
+      choices:
+        - { text: "North-west", correct: false }
+        - { text: "North-east", correct: false }
+        - { text: "South-west", correct: false }
+        - { text: "South-east", correct: true }
+      explanation: |
+        It blows mainly from late spring to early autumn, driven by high pressure over the
+        South Atlantic. The Cape's rain-bearing winter fronts arrive from the north-west
+        instead.
+
+  - id: za-mountain-variety-001
+    type: mcq
+    deck: South Africa
+    tags: [south-africa, mountains, terroir, soil]
+    status: reviewed
+    source_id: c38-0010
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Why can two Cape vineyards only a few kilometres apart produce markedly different wines?"
+      choices:
+        - { text: "Summer rainfall varies sharply from farm to farm", correct: false }
+        - { text: "Mountains change altitude, aspect and soil quickly", correct: true }
+        - { text: "Spring frost hits the valley floors most years", correct: false }
+        - { text: "Hailstorms strike some farms nearly every summer", correct: false }
+      explanation: |
+        Cape soils switch from weathered granite on the slopes to sandstone-derived sands
+        and shale within a single valley, so neighbouring blocks can ripen weeks apart.
+
+  - id: za-slope-aspect-001
+    type: mcq
+    deck: South Africa
+    tags: [south-africa, mountains, aspect]
+    status: reviewed
+    source_id: c38-0012
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which slope aspect do Cape growers often favour when they want cooler, slower ripening?"
+      choices:
+        - { text: "North-facing", correct: false }
+        - { text: "North-east-facing", correct: false }
+        - { text: "South-facing", correct: true }
+        - { text: "West-facing", correct: false }
+      explanation: |
+        South of the equator the midday sun crosses the northern sky, so south-facing slopes
+        receive it at a lower angle. West-facing slopes catch the hottest part of the
+        afternoon.
+
+  - id: za-mountain-shade-001
+    type: mcq
+    deck: South Africa
+    tags: [south-africa, mountains, climate]
+    status: reviewed
+    source_id: c38-0013
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "On a still summer day, how can a tall Cape mountain cool a vineyard at its foot?"
+      choices:
+        - { text: "Its snowcap keeps the soil cold into summer", correct: false }
+        - { text: "It draws cooling afternoon thunderstorms", correct: false }
+        - { text: "Its shadow cuts the hours of direct sun", correct: true }
+        - { text: "Its rock face soaks up heat before it reaches vines", correct: false }
+      explanation: |
+        The effect is strongest when the shade falls in the afternoon, the hottest part of
+        the day. Cape summers are dry, and snow on the peaks is a winter event that is gone
+        long before harvest.
+
+  - id: za-mountain-wind-001
+    type: mcq
+    deck: South Africa
+    tags: [south-africa, mountains, wind, climate]
+    status: reviewed
+    source_id: c38-0014
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Near the coast, how do the Cape's mountain ranges add to the cooling effect of the sea?"
+      choices:
+        - { text: "By triggering regular summer rainfall", correct: false }
+        - { text: "By trapping sea fog in the valleys all day", correct: false }
+        - { text: "By sending cold air down from summer snow", correct: false }
+        - { text: "By channelling sea breezes through the vineyards", correct: true }
+      explanation: |
+        Gaps and valleys that line up with the prevailing breeze let cool sea air travel
+        well inland. The effect fades with distance from the coast.
+
+  - id: za-cabernet-planting-001
+    type: mcq
+    deck: South Africa
+    tags: [south-africa, cabernet-sauvignon, plantings]
+    status: reviewed
+    source_id: c38-0015
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which black grape has long covered the most vineyard area in South Africa?"
+      choices:
+        - { text: "Pinotage", correct: false }
+        - { text: "Merlot", correct: false }
+        - { text: "Shiraz", correct: false }
+        - { text: "Cabernet Sauvignon", correct: true }
+      explanation: |
+        Thick skins and late ripening suit the long, dry Cape summer, and the grape is
+        bottled both on its own and in blends. Rankings shift a little from year to year.
+
+  - id: za-bordeaux-blend-001
+    type: mcq
+    deck: South Africa
+    tags: [south-africa, cabernet-sauvignon, blends, stellenbosch]
+    status: reviewed
+    source_id: c38-0016
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which partner grapes most often join Cabernet Sauvignon in South Africa's premium red blends?"
+      choices:
+        - { text: "Shiraz and Grenache", correct: false }
+        - { text: "Merlot and Cabernet Franc", correct: true }
+        - { text: "Cinsault and Carignan", correct: false }
+        - { text: "Pinot Noir and Gamay", correct: false }
+      explanation: |
+        Meerlust Rubicon from Stellenbosch, first made around 1980, is a long-standing
+        example. Many Cape estates bottle a blend like this alongside a varietal Cabernet.
+
+  - id: za-merlot-style-001
+    type: mcq
+    deck: South Africa
+    tags: [south-africa, merlot, style]
+    status: reviewed
+    source_id: c38-0017
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which profile best fits a typical South African Merlot from a warm site?"
+      choices:
+        - { text: "Full body with ripe plum fruit", correct: true }
+        - { text: "Light body with tart red cherry", correct: false }
+        - { text: "Medium body with green, leafy notes", correct: false }
+        - { text: "Full body with black pepper and smoked meat", correct: false }
+      explanation: |
+        For years leafroll virus, widespread in older Cape vineyards, slowed ripening and
+        was blamed for green, under-ripe reds. Cleaner plant material since the 1990s has
+        eased the problem.
+
+  - id: za-shiraz-planting-001
+    type: mcq
+    deck: South Africa
+    tags: [south-africa, shiraz, syrah, plantings]
+    status: reviewed
+    source_id: c38-0019
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which black grape of Rhône origin covers the most vineyard area in South Africa?"
+      choices:
+        - { text: "Cinsault", correct: false }
+        - { text: "Shiraz", correct: true }
+        - { text: "Grenache Noir", correct: false }
+        - { text: "Mourvèdre", correct: false }
+      explanation: |
+        Cape labels use both Shiraz and Syrah. Cinsault was once the country's workhorse red
+        but now covers only a small area.
+
+  - id: za-shiraz-warm-style-001
+    type: mcq
+    deck: South Africa
+    tags: [south-africa, shiraz, syrah, style]
+    status: reviewed
+    source_id: c38-0020
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which description best fits Shiraz from a hot South African site?"
+      choices:
+        - { text: "Light body, crisp acidity, red berries", correct: false }
+        - { text: "Medium body, high acidity, leafy notes", correct: false }
+        - { text: "Full body, firm acidity, tart red fruit", correct: false }
+        - { text: "Full body, high alcohol, ripe black fruit", correct: true }
+      explanation: |
+        Heat drives sugar, and so alcohol, up quickly. Earthy or meaty notes can join the
+        dark fruit, especially as the wine ages.
+
+  - id: za-shiraz-cool-style-001
+    type: mcq
+    deck: South Africa
+    tags: [south-africa, shiraz, syrah, style]
+    status: reviewed
+    source_id: c38-0021
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Compared with Shiraz from warm Cape sites, how does Shiraz from cooler South African sites usually differ?"
+      choices:
+        - { text: "Fuller body and riper, jammy fruit", correct: false }
+        - { text: "Firmer tannin and dried-fig notes", correct: false }
+        - { text: "Higher alcohol and softer acidity", correct: false }
+        - { text: "Lighter body and more black pepper", correct: true }
+      explanation: |
+        The peppery aroma comes largely from rotundone, a compound that builds up more in
+        cooler, slower ripening conditions.
+
+  - id: za-red-oak-001
+    type: mcq
+    deck: South Africa
+    tags: [south-africa, red, oak, winemaking]
+    status: reviewed
+    source_id: c38-0023
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "How are most premium South African red wines matured?"
+      choices:
+        - { text: "In stainless steel, then bottled young", correct: false }
+        - { text: "In concrete tanks, with no oak contact", correct: false }
+        - { text: "In oak, with a share of new barrels", correct: true }
+        - { text: "In large old casks, with no new oak", correct: false }
+      explanation: |
+        New barrels give the most toast, vanilla and spice. Mixing new and used barrels lets
+        the winemaker set how much oak shows.
+
+  - id: za-pinotage-parents-001
+    type: mcq
+    deck: South Africa
+    tags: [south-africa, pinotage, crossing, cinsault]
+    status: reviewed
+    source_id: c38-0024
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Pinotage was bred by crossing Pinot Noir with which grape?"
+      choices:
+        - { text: "Syrah", correct: false }
+        - { text: "Grenache", correct: false }
+        - { text: "Cinsault", correct: true }
+        - { text: "Carignan", correct: false }
+      explanation: |
+        Abraham Perold made the cross at Stellenbosch in 1925. Cinsault was then known at
+        the Cape as Hermitage, hence the name. Pinotage is still rarely planted outside
+        South Africa.
+
+  - id: za-cape-blend-001
+    type: mcq
+    deck: South Africa
+    tags: [south-africa, pinotage, blends, cape-blend]
+    status: reviewed
+    source_id: c38-0028
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which grape usually gives a red 'Cape blend' its identity?"
+      choices:
+        - { text: "Pinotage", correct: true }
+        - { text: "Cinsault", correct: false }
+        - { text: "Shiraz", correct: false }
+        - { text: "Cabernet Sauvignon", correct: false }
+      explanation: |
+        The term has no legal definition. Most examples pair the local grape with Bordeaux
+        varieties such as Cabernet Sauvignon and Merlot, sometimes with Shiraz.
+
+  - id: za-pinotage-bush-vine-001
+    type: mcq
+    deck: South Africa
+    tags: [south-africa, pinotage, old-vines, style]
+    status: reviewed
+    source_id: c38-0029
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which profile does Pinotage from old bush vines typically show?"
+      choices:
+        - { text: "Light body, fresh red berries", correct: false }
+        - { text: "Full body, rich spiced berry fruit", correct: true }
+        - { text: "Medium body, green leafy notes", correct: false }
+        - { text: "Light body, tart sour cherry", correct: false }
+      explanation: |
+        Kanonkop's Black Label Pinotage, from Simonsberg-Stellenbosch, comes from bush vines
+        planted in 1953 and is among the country's most expensive reds.
+
+  - id: za-pinotage-coffee-001
+    type: mcq
+    deck: South Africa
+    tags: [south-africa, pinotage, oak, style]
+    status: reviewed
+    source_id: c38-0029
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which aromas mark the Pinotage style made with heavily toasted oak staves?"
+      choices:
+        - { text: "Red cherry and violet", correct: false }
+        - { text: "Mint and eucalyptus", correct: false }
+        - { text: "Coffee and dark chocolate", correct: true }
+        - { text: "Black pepper and green olive", correct: false }
+      explanation: |
+        Diemersfontein in Wellington is usually credited with launching this commercial
+        style with its 2001 vintage. Staves or chips are cheaper than new barrels.
+
+  - id: za-chenin-planting-001
+    type: mcq
+    deck: South Africa
+    tags: [south-africa, chenin-blanc, plantings]
+    status: reviewed
+    source_id: c38-0031
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which grape covers the most vineyard area in South Africa?"
+      choices:
+        - { text: "Colombard", correct: false }
+        - { text: "Cabernet Sauvignon", correct: false }
+        - { text: "Sauvignon Blanc", correct: false }
+        - { text: "Chenin Blanc", correct: true }
+      explanation: |
+        The Cape's first recorded wine was pressed in 1659 under Jan van Riebeeck, and
+        Chenin was probably among the early Dutch-era vine imports.
+
+  - id: za-chenin-trend-001
+    type: mcq
+    deck: South Africa
+    tags: [south-africa, chenin-blanc, plantings]
+    status: reviewed
+    source_id: c38-0032
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Since about 1990, how has the vineyard area of Chenin Blanc in South Africa changed?"
+      choices:
+        - { text: "It has roughly doubled", correct: false }
+        - { text: "It has shrunk", correct: true }
+        - { text: "It has stayed broadly flat", correct: false }
+        - { text: "It has grown steadily", correct: false }
+      explanation: |
+        Growers uprooted much of it for red and international varieties as export markets
+        opened. It once filled close to a third of the national vineyard; the share is now
+        just under a fifth.
+
+  - id: za-chenin-everyday-001
+    type: mcq
+    deck: South Africa
+    tags: [south-africa, chenin-blanc, style]
+    status: reviewed
+    source_id: c38-0034
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which profile fits a basic, inexpensive South African Chenin Blanc?"
+      choices:
+        - { text: "Easy-drinking, with simple stone fruit", correct: true }
+        - { text: "Austere, with high acidity and wet wool", correct: false }
+        - { text: "Full-bodied, with toasty oak and honey", correct: false }
+        - { text: "Off-dry, with lime and petrol notes", correct: false }
+      explanation: |
+        Large co-operatives in warm inland areas pick at high yields and ferment cool in
+        stainless steel to keep the wine fresh and cheap. The grape is also made in styles
+        running from dry to sweet.
+
+  - id: za-chenin-old-vines-001
+    type: mcq
+    deck: South Africa
+    tags: [south-africa, chenin-blanc, old-vines]
+    status: reviewed
+    source_id: c38-0036
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "What do old bush vines typically bring to South African Chenin Blanc?"
+      choices:
+        - { text: "Higher yields and a lighter body", correct: false }
+        - { text: "Sharper acidity and lower alcohol", correct: false }
+        - { text: "More concentration and a fuller texture", correct: true }
+        - { text: "Greener, more herbaceous aromas", correct: false }
+      explanation: |
+        The Old Vine Project's Certified Heritage Vineyards seal, introduced around 2018,
+        marks wines from vines at least 35 years old and shows the planting year on the
+        bottle.
+
+  - id: za-chenin-barrel-001
+    type: mcq
+    deck: South Africa
+    tags: [south-africa, chenin-blanc, oak]
+    status: reviewed
+    source_id: c38-0037
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "A premium South African Chenin Blanc is made in oak rather than steel. What does this typically add?"
+      choices:
+        - { text: "Sharper acidity and green fruit", correct: false }
+        - { text: "A lighter body and floral lift", correct: false }
+        - { text: "Extra body and toasty notes", correct: true }
+        - { text: "Deeper colour and firm tannin", correct: false }
+      explanation: |
+        Chenin's naturally high acidity keeps a barrel-matured wine from tasting heavy. Lees
+        contact in barrel adds a creamy texture.
+
+  - id: za-colombard-brandy-001
+    type: mcq
+    deck: South Africa
+    tags: [south-africa, colombard, brandy]
+    status: reviewed
+    source_id: c38-0038
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which white grape is grown in South Africa largely to make base wine for brandy?"
+      choices:
+        - { text: "Sauvignon Blanc", correct: false }
+        - { text: "Chardonnay", correct: false }
+        - { text: "Sémillon", correct: false }
+        - { text: "Colombard", correct: true }
+      explanation: |
+        It keeps fresh acidity in hot inland vineyards, which suits a distillation base. It
+        also makes cheap, fruity, often off-dry whites and ranks among the country's most
+        planted whites.
+
+  - id: za-sb-herbaceous-001
+    type: mcq
+    deck: South Africa
+    tags: [south-africa, sauvignon-blanc, style]
+    status: reviewed
+    source_id: c38-0039
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which character tends to run through South African Sauvignon Blanc at most price levels?"
+      choices:
+        - { text: "Smoky, flinty notes", correct: false }
+        - { text: "Toasty oak and butter", correct: false }
+        - { text: "Herbaceous, green notes", correct: true }
+        - { text: "Ripe peach and apricot", correct: false }
+      explanation: |
+        The green aromas come from methoxypyrazines, the same compounds behind green bell
+        pepper in under-ripe Cabernet Sauvignon.
+
+  - id: za-sb-early-pick-001
+    type: mcq
+    deck: South Africa
+    tags: [south-africa, sauvignon-blanc, harvest]
+    status: reviewed
+    source_id: c38-0042
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "In warmer South African sites, how do growers keep Sauvignon Blanc's fresh acidity and green flavours?"
+      choices:
+        - { text: "By leaving the bunches to hang longer", correct: false }
+        - { text: "By stripping leaves around the bunches", correct: false }
+        - { text: "By fermenting warm in new oak", correct: false }
+        - { text: "By picking earlier", correct: true }
+      explanation: |
+        Acidity falls and pyrazine aromas fade as the grapes ripen and see sun, so an
+        earlier harvest keeps both. Removing leaves exposes the bunches and speeds that
+        loss.
+
+  - id: za-chardonnay-site-001
+    type: mcq
+    deck: South Africa
+    tags: [south-africa, chardonnay, site]
+    status: reviewed
+    source_id: c38-0044
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Where are South Africa's finest Chardonnays most likely to be grown?"
+      choices:
+        - { text: "Warm, sheltered valley floors", correct: false }
+        - { text: "Cool, ocean-influenced sites", correct: true }
+        - { text: "Hot, irrigated inland plains", correct: false }
+        - { text: "Dry, low-rainfall plateaus", correct: false }
+      explanation: |
+        Slow ripening keeps acidity and lets citrus and stone-fruit flavours build without
+        excess alcohol. The best examples can stand beside good white Burgundy.
+
+  - id: za-chardonnay-burgundian-001
+    type: mcq
+    deck: South Africa
+    tags: [south-africa, chardonnay, winemaking]
+    status: reviewed
+    source_id: c38-0045
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which cellar techniques shape the character of South Africa's best Chardonnays?"
+      choices:
+        - { text: "Carbonic maceration and early bottling", correct: false }
+        - { text: "Cool steel fermentation with no MLF", correct: false }
+        - { text: "Extended skin contact and amphora ageing", correct: false }
+        - { text: "Barrel fermentation and lees stirring", correct: true }
+      explanation: |
+        Stirring the lees (bâtonnage) puts dead yeast cells back in suspension; they release
+        mannoproteins that give a rounder, creamier texture.
+
+  - id: za-hanepoot-001
+    type: mcq
+    deck: South Africa
+    tags: [south-africa, muscat, synonyms]
+    status: reviewed
+    source_id: c38-0046
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "What is the traditional South African name for Muscat of Alexandria?"
+      choices:
+        - { text: "Muskadel", correct: false }
+        - { text: "Steen", correct: false }
+        - { text: "Hanepoot", correct: true }
+        - { text: "Hermitage", correct: false }
+      explanation: |
+        Muskadel is the Cape name for a different grape, Muscat Blanc à Petits Grains; Steen
+        is the old local name for Chenin Blanc.
+
+  - id: za-muscat-alexandria-style-001
+    type: mcq
+    deck: South Africa
+    tags: [south-africa, muscat, sweet]
+    status: reviewed
+    source_id: c38-0047
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which wine style is South African Muscat of Alexandria chiefly used for?"
+      choices:
+        - { text: "Traditional-method sparkling wine", correct: false }
+        - { text: "Sweet dessert wine", correct: true }
+        - { text: "Dry, oak-aged white", correct: false }
+        - { text: "Crisp, early-picked dry white", correct: false }
+      explanation: |
+        Its grapey, floral aromas carry well into sweet wine, whether made from late-picked
+        grapes or fortified. It is also widely grown as a table and raisin grape.
+
+  - id: za-noble-rot-001
+    type: mcq
+    deck: South Africa
+    tags: [south-africa, sweet, botrytis]
+    status: reviewed
+    source_id: c38-0048
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Besides extended hang time, what can concentrate the sugar in grapes for South African dessert wines?"
+      choices:
+        - { text: "Noble rot", correct: true }
+        - { text: "Grey rot", correct: false }
+        - { text: "Sour rot", correct: false }
+        - { text: "Powdery mildew", correct: false }
+      explanation: |
+        South African law has a separate Noble Late Harvest category for wines made from
+        botrytis-affected grapes.
+
+  - id: za-viognier-style-001
+    type: mcq
+    deck: South Africa
+    tags: [south-africa, viognier, style]
+    status: reviewed
+    source_id: c38-0050
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which style is typical of South African Viognier?"
+      choices:
+        - { text: "Rich and perfumed, often lightly oaked", correct: true }
+        - { text: "Lean and steely, with no oak", correct: false }
+        - { text: "Light and off-dry, with a slight spritz", correct: false }
+        - { text: "Crisp and grassy, with green fruit", correct: false }
+      explanation: |
+        Plantings grew quickly from a tiny base from the late 1990s, though the total area
+        stays small. Some producers also co-ferment a little with Shiraz, as in Côte-Rôtie.
