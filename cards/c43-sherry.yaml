@@ -22,6 +22,17 @@ cards:
       explanation: |
         The vines ring the town of Jerez de la Frontera in the province of Cádiz.
         The English word Sherry is an old rendering of Jerez, called Xérès in French.
+    fr:
+      question: "Dans quelle communauté autonome d’Espagne se trouve le vignoble du xérès ?"
+      choices:
+        - { text: "Castille-La Manche", correct: false }
+        - { text: "Communauté valencienne", correct: false }
+        - { text: "Andalousie", correct: true }
+        - { text: "Catalogne", correct: false }
+      explanation: |
+        Les vignes entourent la ville de Jerez de la Frontera, dans la province de
+        Cadix. Le mot anglais Sherry est une ancienne transcription de Jerez, que le
+        français appelle Xérès.
 
   - id: sherry-ageing-towns-001
     type: mcq
@@ -45,6 +56,19 @@ cards:
         from Cádiz. Since a rule change around 2021, ageing may also take place in
         other towns of the production zone, such as Chipiona, Rota, Trebujena,
         Chiclana, Lebrija and Puerto Real.
+    fr:
+      question: "Outre Jerez de la Frontera, quelles deux villes complètent le triangle historique de l’élevage du xérès ?"
+      choices:
+        - { text: "Montilla et Aguilar de la Frontera", correct: false }
+        - { text: "Sanlúcar et El Puerto de Santa María", correct: true }
+        - { text: "Huelva et Bollullos par del Condado", correct: false }
+        - { text: "Málaga et Vélez-Málaga", correct: false }
+      explanation: |
+        Ce sont deux villes d’estuaire : Sanlúcar de Barrameda à l’embouchure du
+        Guadalquivir, El Puerto de Santa María sur le Guadalete, face à Cadix de
+        l’autre côté de la baie. Depuis une modification du règlement vers 2021,
+        l’élevage est aussi permis dans d’autres communes de la zone de production,
+        comme Chipiona, Rota, Trebujena, Chiclana, Lebrija et Puerto Real.
 
   - id: sherry-climate-001
     type: mcq
@@ -65,6 +89,17 @@ cards:
       explanation: |
         Atlantic fronts bring rain between autumn and spring, so the yearly total is
         higher than in much of inland Spain. Summer sits under settled high pressure.
+    fr:
+      question: "Quelle description correspond le mieux au climat de la région de Jerez ?"
+      choices:
+        - { text: "Chaud et humide, avec de fréquents orages d’été", correct: false }
+        - { text: "Continental, avec des hivers froids et des gelées de printemps", correct: false }
+        - { text: "Maritime frais, avec des pluies réparties sur l’année", correct: false }
+        - { text: "Chaud et ensoleillé, avec une saison de végétation sèche", correct: true }
+      explanation: |
+        Les perturbations atlantiques apportent la pluie de l’automne au printemps,
+        si bien que le cumul annuel dépasse celui d’une bonne partie de l’intérieur
+        de l’Espagne. L’été, un anticyclone stable s’installe.
 
   - id: sherry-poniente-001
     type: mcq
@@ -85,6 +120,17 @@ cards:
       explanation: |
         Coming off the ocean, it tempers summer heat most near the coast, so coastal
         vineyards run a little cooler on average than those inland.
+    fr:
+      question: "Quel type de vent est le poniente qui souffle sur le vignoble de Jerez ?"
+      choices:
+        - { text: "Un vent d’ouest humide venu de l’Atlantique", correct: true }
+        - { text: "Un vent d’est chaud et sec", correct: false }
+        - { text: "Un vent froid du nord, descendu des sierras", correct: false }
+        - { text: "Un vent du sud poussiéreux, venu d’Afrique du Nord", correct: false }
+      explanation: |
+        Chargé de l’humidité de l’océan, il tempère surtout la chaleur estivale près
+        de la côte : les vignes du littoral restent en moyenne un peu plus fraîches
+        que celles de l’intérieur.
 
   - id: sherry-levante-001
     type: mcq
@@ -107,6 +153,18 @@ cards:
         drying. A spell of it near harvest can scorch leaves and shrivel grapes.
         The Cierzo is the north-westerly of the Ebro valley, and the Tramontana the
         northerly of Catalonia.
+    fr:
+      question: "Quel vent apporte les canicules estivales les plus violentes sur le vignoble de Jerez ?"
+      choices:
+        - { text: "Poniente", correct: false }
+        - { text: "Tramontana", correct: false }
+        - { text: "Levante", correct: true }
+        - { text: "Cierzo", correct: false }
+      explanation: |
+        Il souffle de l’est, canalisé par le détroit de Gibraltar, chaud et
+        desséchant. Un épisode de levante près des vendanges peut griller le
+        feuillage et flétrir les raisins. Le cierzo est le vent de nord-ouest de la
+        vallée de l’Èbre, la tramontana le vent du nord de la Catalogne.
 
   - id: sherry-albariza-001
     type: mcq
@@ -128,6 +186,17 @@ cards:
         Barros (darker clay) and arenas (sand) are the area's other main soils and
         generally give coarser base wine. Famous pagos such as Macharnudo and
         Carrascal lie on albariza.
+    fr:
+      question: "Quel sol blanc, riche en craie, est le plus recherché dans le vignoble de Jerez ?"
+      choices:
+        - { text: "Barros", correct: false }
+        - { text: "Albariza", correct: true }
+        - { text: "Arenas", correct: false }
+        - { text: "Llicorella", correct: false }
+      explanation: |
+        Les barros (argiles plus sombres) et les arenas (sables) sont les autres
+        grands sols de la zone ; ils donnent en général un vin de base plus
+        grossier. Des pagos réputés comme Macharnudo et Carrascal sont sur albariza.
 
   - id: sherry-albariza-water-001
     type: mcq
@@ -148,6 +217,17 @@ cards:
       explanation: |
         The soil is porous and very deep. Water from the wet season soaks in and is
         held in its fine pores, and the roots draw on it as summer goes on.
+    fr:
+      question: "Comment l’albariza aide-t-elle la vigne à traverser des étés presque sans pluie ?"
+      choices:
+        - { text: "Une nappe phréatique affleure juste sous les racines", correct: false }
+        - { text: "Sa surface caillouteuse retient d’abondantes rosées", correct: false }
+        - { text: "Sa texture sableuse laisse pénétrer les averses d’été", correct: false }
+        - { text: "Elle garde en profondeur les pluies de l’hiver", correct: true }
+      explanation: |
+        Ce sol poreux est très profond. L’eau de la saison humide s’y infiltre et
+        reste piégée dans ses pores fins ; les racines y puisent à mesure que l’été
+        avance.
 
   - id: sherry-aserpia-purpose-001
     type: mcq
@@ -168,6 +248,17 @@ cards:
       explanation: |
         The technique is called aserpia. On sloping albariza hills, heavy downpours
         would otherwise wash water and topsoil downhill before it could soak in.
+    fr:
+      question: "Pourquoi les vignerons de Jerez creusent-ils des cuvettes rectangulaires entre les rangs de vigne ?"
+      choices:
+        - { text: "Pour évacuer l’excès d’eau loin des racines", correct: false }
+        - { text: "Pour retenir la pluie et limiter le ruissellement", correct: true }
+        - { text: "Pour enfouir les sarments de taille comme compost", correct: false }
+        - { text: "Pour que l’air frais de la nuit stagne autour des ceps", correct: false }
+      explanation: |
+        Cette technique s’appelle l’aserpia. Sur les coteaux d’albariza, les fortes
+        averses entraîneraient sinon l’eau et la terre de surface vers le bas de la
+        pente avant qu’elles aient pu s’infiltrer.
 
   - id: sherry-aserpia-timing-001
     type: mcq
@@ -188,6 +279,16 @@ cards:
       explanation: |
         The pits stay open through autumn and winter and are levelled again in
         spring.
+    fr:
+      question: "À quel moment les vignerons de Jerez creusent-ils les cuvettes d’aserpia entre les rangs ?"
+      choices:
+        - { text: "Peu après les vendanges", correct: true }
+        - { text: "À la fin de l’hiver, avant le débourrement", correct: false }
+        - { text: "Au printemps, après le débourrement", correct: false }
+        - { text: "Au début de l’été, après la floraison", correct: false }
+      explanation: |
+        Les cuvettes doivent être prêtes pour les pluies : elles restent ouvertes
+        tout l’automne et l’hiver, puis sont arasées au printemps.
 
   - id: sherry-albariza-crust-001
     type: mcq
@@ -208,6 +309,17 @@ cards:
       explanation: |
         The crust works like a lid on the moist chalk below, so less water
         evaporates. Its white surface also reflects light back into the canopy.
+    fr:
+      question: "Dans le vignoble de Jerez, quel changement de la surface de l’albariza freine la perte d’eau pendant l’été sec ?"
+      choices:
+        - { text: "Elle s’ouvre en profondes fissures", correct: false }
+        - { text: "Elle se réduit en poussière fine et meuble", correct: false }
+        - { text: "Elle durcit en croûte", correct: true }
+        - { text: "Elle gonfle et devient collante", correct: false }
+      explanation: |
+        Cette croûte fait office de couvercle sur la craie humide du dessous et
+        limite l’évaporation. Sa surface blanche renvoie aussi la lumière vers le
+        feuillage.
 
   - id: sherry-grapes-authorised-001
     type: mcq
@@ -230,6 +342,18 @@ cards:
         varieties, such as Perruno, Mantúo, Beba and Vigiriega, were readmitted in
         minor amounts. Airén is the workhorse of La Mancha's plains, and Verdejo the
         white of Rueda.
+    fr:
+      question: "Quels sont les trois principaux cépages autorisés pour le xérès ?"
+      choices:
+        - { text: "Palomino, Airén et Verdejo", correct: false }
+        - { text: "Pedro Ximénez, Garnacha Blanca et Airén", correct: false }
+        - { text: "Moscatel, Macabeo et Garnacha Blanca", correct: false }
+        - { text: "Palomino, Pedro Ximénez et Moscatel", correct: true }
+      explanation: |
+        Moscatel désigne ici le muscat d’Alexandrie. Vers 2021, quelques vieux
+        cépages locaux, comme le Perruno, le Mantúo, le Beba et le Vigiriega, ont
+        été réadmis en faibles proportions. L’Airén est le cépage de masse des
+        plaines de la Manche, le Verdejo le blanc de Rueda.
 
   - id: sherry-palomino-plantings-001
     type: mcq
@@ -250,6 +374,16 @@ cards:
       explanation: |
         Its main form, Palomino Fino, supplies the base wine for every dry style,
         from fino and manzanilla to amontillado and oloroso.
+    fr:
+      question: "Quel cépage occupe la très grande majorité du vignoble de Jerez ?"
+      choices:
+        - { text: "Pedro Ximénez", correct: false }
+        - { text: "Palomino", correct: true }
+        - { text: "Moscatel", correct: false }
+        - { text: "Palomino et Pedro Ximénez à parts égales", correct: false }
+      explanation: |
+        Sa forme principale, le Palomino Fino, fournit le vin de base de tous les
+        styles secs, du Fino et de la Manzanilla à l’Amontillado et à l’Oloroso.
 
   - id: sherry-palomino-profile-001
     type: mcq
@@ -270,6 +404,17 @@ cards:
       explanation: |
         Palomino holds its yield and sugar well in the heat but loses acidity, so
         many producers add tartaric acid to the must.
+    fr:
+      question: "Comment se présente en général un vin jeune de Palomino, avant tout élevage ?"
+      choices:
+        - { text: "Acidité élevée, arômes floraux", correct: false }
+        - { text: "Acidité élevée, peu d’arômes", correct: false }
+        - { text: "Acidité faible, peu d’arômes", correct: true }
+        - { text: "Acidité faible, arômes floraux", correct: false }
+      explanation: |
+        Dans la chaleur, le Palomino garde bien son rendement et son sucre mais perd
+        de l’acidité : beaucoup de producteurs ajoutent donc de l’acide tartrique au
+        moût.
 
   - id: sherry-neutral-grape-001
     type: mcq
@@ -290,6 +435,16 @@ cards:
       explanation: |
         A strong varietal perfume would only blur the yeasty, nutty and savoury
         notes built up over years in the butt.
+    fr:
+      question: "Pourquoi un cépage peu aromatique convient-il à l’élaboration du xérès sec ?"
+      choices:
+        - { text: "Le goût naît surtout de l’élevage, sous flor ou à l’air", correct: true }
+        - { text: "Sa forte acidité garde le vin frais pendant l’élevage", correct: false }
+        - { text: "Ses peaux épaisses donnent des tanins qui protègent le vin", correct: false }
+        - { text: "Il mûrit tard, une fois passées les grosses chaleurs", correct: false }
+      explanation: |
+        Un parfum variétal marqué ne ferait que brouiller les notes de levure, de
+        fruits secs et salines qui se construisent au fil des années en bota.
 
   - id: sherry-px-thin-skin-001
     type: mcq
@@ -311,6 +466,17 @@ cards:
         Water escapes quickly through a thin skin, so the berries shrivel fast. The
         grape itself has little aroma; the wine's character comes mostly from
         concentration and ageing.
+    fr:
+      question: "Quelle caractéristique du Pedro Ximénez le rend apte au passerillage, jusqu’à des baies proches du raisin sec ?"
+      choices:
+        - { text: "Ses peaux épaisses et résistantes", correct: false }
+        - { text: "Sa forte acidité naturelle", correct: false }
+        - { text: "Ses grappes serrées et compactes", correct: false }
+        - { text: "Ses peaux fines", correct: true }
+      explanation: |
+        L’eau s’échappe vite à travers une peau fine, si bien que les baies se
+        flétrissent rapidement. Le cépage lui-même est peu aromatique : le caractère
+        du vin vient surtout de la concentration et de l’élevage.
 
   - id: sherry-px-montilla-001
     type: mcq
@@ -331,6 +497,17 @@ cards:
       explanation: |
         The hotter, drier inland area south of Córdoba suits the grape better than
         Jerez's coastal vineyards, and the rules let Sherry houses use PX from there.
+    fr:
+      question: "Où pousse une grande partie du Pedro Ximénez destiné au xérès doux ?"
+      choices:
+        - { text: "Montilla-Moriles", correct: true }
+        - { text: "Condado de Huelva", correct: false }
+        - { text: "La Manche", correct: false }
+        - { text: "Jumilla", correct: false }
+      explanation: |
+        Plus chaude et plus sèche, cette zone de l’intérieur, au sud de Cordoue,
+        convient mieux au cépage que le vignoble côtier de Jerez, et le règlement
+        permet aux maisons de Jerez d’utiliser du PX qui en provient.
 
   - id: sherry-moscatel-role-001
     type: mcq
@@ -351,6 +528,16 @@ cards:
       explanation: |
         Plantings are small and grouped on the sandy coastal soils around Chipiona,
         whose sweet Moscatel is a local speciality.
+    fr:
+      question: "Dans la région de Jerez, à quoi sert surtout le muscat d’Alexandrie ?"
+      choices:
+        - { text: "Aux vins secs élevés sous flor", correct: false }
+        - { text: "À l’eau-de-vie qui sert à muter les vins jeunes", correct: false }
+        - { text: "Aux vins doux", correct: true }
+        - { text: "À donner du corps à l’Oloroso sec", correct: false }
+      explanation: |
+        Les plantations sont modestes et regroupées sur les sols sableux du littoral
+        autour de Chipiona, dont le Moscatel doux est une spécialité locale.
 
   - id: sherry-harvest-speed-001
     type: mcq
@@ -372,6 +559,17 @@ cards:
         Harvest falls in late August and September, often in strong heat, so some
         houses pick in the cool of the night or early morning and press close to the
         vineyard.
+    fr:
+      question: "Dans la région de Jerez, quel est le principal risque si le Palomino vendangé attend trop avant le pressurage ?"
+      choices:
+        - { text: "Le botrytis qui gagne les caisses", correct: false }
+        - { text: "L’oxydation du jus sous la chaleur", correct: true }
+        - { text: "Les tanins extraits des rafles", correct: false }
+        - { text: "La baisse du sucre par respiration des baies", correct: false }
+      explanation: |
+        Les vendanges ont lieu fin août et en septembre, souvent par forte chaleur :
+        certaines maisons récoltent donc la nuit ou au petit matin, à la fraîche, et
+        pressent près des vignes.
 
   - id: sherry-base-wine-vessel-001
     type: mcq
@@ -392,6 +590,17 @@ cards:
       explanation: |
         Fermenting in butts was the norm until the second half of the 20th century.
         Temperature-controlled steel lets houses hold a steady 20–25 °C.
+    fr:
+      question: "Dans quels contenants fait-on aujourd’hui le plus souvent fermenter le vin de base des xérès secs ?"
+      choices:
+        - { text: "Des barriques neuves de chêne français", correct: false }
+        - { text: "De grandes tinajas en terre cuite", correct: false }
+        - { text: "Des lagares de pierre ouverts, près des vignes", correct: false }
+        - { text: "De grandes cuves en inox", correct: true }
+      explanation: |
+        La fermentation en bota est restée la norme jusqu’à la seconde moitié du
+        XXe siècle. L’inox thermorégulé permet de tenir une température stable de
+        20 à 25 °C.
 
   - id: sherry-warm-ferment-001
     type: mcq
@@ -412,6 +621,17 @@ cards:
       explanation: |
         Cool ferments exist to keep delicate fruity esters, which are not the goal
         here. Around 20–25 °C is typical, warm for a white.
+    fr:
+      question: "Pourquoi peut-on faire fermenter le vin de base des xérès secs plus chaud que la plupart des vins blancs ?"
+      choices:
+        - { text: "Une fermentation chaude garde plus de fruit frais", correct: false }
+        - { text: "La chaleur aide la flor à se former en cuve", correct: false }
+        - { text: "On recherche un vin de base neutre", correct: true }
+        - { text: "La chaleur corrige la faible acidité du Palomino", correct: false }
+      explanation: |
+        Les fermentations fraîches servent à préserver les esters fruités délicats,
+        que l’on ne recherche pas ici. On travaille couramment vers 20–25 °C, une
+        température élevée pour un blanc.
 
   - id: sherry-base-wine-strength-001
     type: mcq
@@ -432,6 +652,16 @@ cards:
       explanation: |
         The wine is fermented fully dry; added spirit later lifts it to the strength
         chosen for its ageing path.
+    fr:
+      question: "Avant le mutage, quel degré atteint à peu près le vin de base d’un xérès sec ?"
+      choices:
+        - { text: "Environ 8–9 % vol.", correct: false }
+        - { text: "Environ 11–12 % vol.", correct: true }
+        - { text: "Environ 13,5–14 % vol.", correct: false }
+        - { text: "Environ 16–17 % vol.", correct: false }
+      explanation: |
+        Le vin fermente jusqu’à sec ; l’eau-de-vie de vin ajoutée ensuite le porte
+        au degré choisi pour son mode d’élevage.
 
   - id: sherry-first-classification-001
     type: mcq
@@ -452,6 +682,16 @@ cards:
       explanation: |
         Tasters judge each tank or butt and chalk their verdict on it, so the cellar
         team knows where each wine goes next.
+    fr:
+      question: "À l’automne qui suit les vendanges, à quoi sert la première classification des vins nouveaux de Jerez ?"
+      choices:
+        - { text: "À choisir entre vieillissement biologique et oxydatif", correct: true }
+        - { text: "À choisir lesquels seront adoucis et lesquels resteront secs", correct: false }
+        - { text: "À choisir entre vin millésimé et passage en solera", correct: false }
+        - { text: "À choisir la ville dont les bodegas les élèveront", correct: false }
+      explanation: |
+        Les dégustateurs jugent chaque cuve ou chaque bota et y notent leur verdict
+        à la craie : l’équipe du chai sait ainsi où envoyer chaque vin.
 
   - id: sherry-flor-selection-001
     type: mcq
@@ -472,6 +712,17 @@ cards:
       explanation: |
         Free-run and lightly pressed juice tends to give this finer wine; heavier
         wine from firmer pressing is steered towards oxidative ageing.
+    fr:
+      question: "Lors de la première classification, quels vins nouveaux réserve-t-on en général au vieillissement sous voile de flor ?"
+      choices:
+        - { text: "Les plus foncés et les plus corsés", correct: false }
+        - { text: "Ceux des dernières presses, les plus poussées", correct: false }
+        - { text: "Ceux qui ont le plus d’alcool naturel", correct: false }
+        - { text: "Les plus pâles et les plus délicats", correct: true }
+      explanation: |
+        Le jus de goutte et les jus peu pressés donnent en général ces vins plus
+        fins ; les vins plus lourds, issus de pressurages plus poussés, partent vers
+        le vieillissement oxydatif.
 
   - id: sherry-flor-onset-001
     type: mcq
@@ -493,6 +744,17 @@ cards:
         Flor yeasts live in the bodegas and on cellar equipment, so a film often
         forms on the young, still unfortified wine within weeks. Tasters can already
         judge it when they classify.
+    fr:
+      question: "Quand la flor apparaît-elle en général pour la première fois sur les jeunes vins de Jerez ?"
+      choices:
+        - { text: "Une fois le vin muté", correct: false }
+        - { text: "Peu après la fin de la fermentation", correct: true }
+        - { text: "Une fois le vin entré en solera", correct: false }
+        - { text: "Au printemps, après le repos en sobretabla", correct: false }
+      explanation: |
+        Les levures de flor vivent dans les bodegas et sur le matériel du chai : un
+        voile se forme souvent en quelques semaines sur le vin jeune, pas encore
+        muté. Les dégustateurs peuvent déjà en juger lors de la classification.
 
   - id: sherry-house-style-criteria-001
     type: mcq
@@ -514,6 +776,18 @@ cards:
         A house famed for delicate flor wines and one built on rich, dark styles
         prize different traits in a young wine, so their tasters draw the line
         between the two paths in different places.
+    fr:
+      question: "Deux bodegas de Jerez dégustent le même vin nouveau et l’orientent vers des élevages différents. Qu’est-ce qui l’explique le mieux ?"
+      choices:
+        - { text: "Chaque ville d’élevage a ses propres règles de tri", correct: false }
+        - { text: "Les limites légales sont revues à chaque millésime", correct: false }
+        - { text: "Chaque maison trie selon son propre style", correct: true }
+        - { text: "Chaque bodega achète une eau-de-vie d’un autre degré", correct: false }
+      explanation: |
+        Une maison réputée pour ses vins délicats sous flor et une autre bâtie sur
+        des styles riches et sombres ne cherchent pas les mêmes qualités chez un vin
+        jeune : leurs dégustateurs ne placent pas la limite entre les deux voies au
+        même endroit.
 
   - id: sherry-volume-needs-001
     type: mcq
@@ -534,6 +808,16 @@ cards:
       explanation: |
         If sales of one style grow, more new wine must be set aside to replenish
         that style's stocks for the years ahead.
+    fr:
+      question: "Au-delà du caractère du vin, quel facteur commercial peut influer sur le style auquel une maison de Jerez destine un vin nouveau ?"
+      choices:
+        - { text: "La demande pour chaque style", correct: true }
+        - { text: "Un quota annuel fixé pour chaque style", correct: false }
+        - { text: "Le prix de l’eau-de-vie de vin cette année-là", correct: false }
+        - { text: "Les droits d’exportation propres à chaque style", correct: false }
+      explanation: |
+        Si les ventes d’un style progressent, il faut mettre de côté davantage de
+        vin nouveau pour renouveler ses stocks dans les années à venir.
 
   - id: sherry-coastal-biological-001
     type: mcq
@@ -554,6 +838,18 @@ cards:
       explanation: |
         Fermenting at the cooler end of the range also favours a lighter, finer
         wine; warmer sites and warmer ferments push wines towards oxidative ageing.
+    fr:
+      question: "Quels vins jeunes de xérès ont le plus de chances d’être orientés vers le vieillissement biologique ?"
+      choices:
+        - { text: "Ceux des vignobles plus chauds de l’intérieur", correct: false }
+        - { text: "Ceux des vignobles plus frais du littoral", correct: true }
+        - { text: "Ceux des raisins les plus mûrs, cueillis tard", correct: false }
+        - { text: "Ceux de raisins séchés au soleil avant pressurage", correct: false }
+      explanation: |
+        Une fermentation menée au bas de la fourchette de température donne
+        aussi un vin plus léger et plus fin. Les sites plus chauds et les
+        fermentations plus chaudes orientent plutôt vers le vieillissement
+        oxydatif.
 
   - id: sherry-fortifying-spirit-001
     type: mcq
@@ -575,6 +871,17 @@ cards:
         Spirit this strong is usually pre-mixed with wine before it goes in, so the
         young wine is not shocked by neat alcohol. The blend is often called mitad
         y mitad, "half and half".
+    fr:
+      question: "Avec quel alcool mute-t-on habituellement le xérès ?"
+      choices:
+        - { text: "Un brandy à environ 40 % vol.", correct: false }
+        - { text: "Une eau-de-vie de vin à environ 77 % vol.", correct: false }
+        - { text: "Une eau-de-vie de vin à environ 96 % vol.", correct: true }
+        - { text: "Une eau-de-vie de vin à environ 60 % vol.", correct: false }
+      explanation: |
+        Un alcool aussi fort est en général d’abord coupé de vin avant l’ajout,
+        pour ne pas brusquer le vin jeune avec de l’alcool pur. Ce mélange
+        s’appelle souvent mitad y mitad, « moitié-moitié ».
 
   - id: sherry-sobretabla-001
     type: mcq
@@ -595,6 +902,16 @@ cards:
       explanation: |
         The sequence runs fermentation, then fortification, then this rest, and
         only then entry into a solera of matching style.
+    fr:
+      question: "Comment appelle-t-on un xérès tout juste muté qui repose quelques mois avant d’entrer dans une solera ?"
+      choices:
+        - { text: "Sobretabla", correct: true }
+        - { text: "Mosto", correct: false }
+        - { text: "Añada", correct: false }
+        - { text: "Criadera", correct: false }
+      explanation: |
+        L’ordre est le suivant : fermentation, mutage, ce repos, puis seulement
+        l’entrée dans une solera du style correspondant.
 
   - id: sherry-flor-fortification-strength-001
     type: mcq
@@ -615,6 +932,17 @@ cards:
       explanation: |
         Flor yeasts tolerate this level well, while acetic bacteria, which would
         turn the wine towards vinegar, are held back.
+    fr:
+      question: "À quel degré environ mute-t-on les vins jeunes de xérès destinés à vieillir sous voile de flor ?"
+      choices:
+        - { text: "Environ 13–13,5 % vol.", correct: false }
+        - { text: "Environ 15–15,5 % vol.", correct: true }
+        - { text: "Environ 18–18,5 % vol.", correct: false }
+        - { text: "Environ 20–20,5 % vol.", correct: false }
+      explanation: |
+        Les levures de flor supportent bien ce degré, alors que les bactéries
+        acétiques, qui feraient tourner le vin au vinaigre, sont tenues en
+        respect.
 
   - id: sherry-sobretabla-flor-check-001
     type: mcq
@@ -636,6 +964,17 @@ cards:
         A thin or patchy film warns that the wine may not age well under flor. Wines
         meant for oxidative ageing have no flor to watch, so the rest matters less
         for them.
+    fr:
+      question: "Pendant les quelques mois de repos qui suivent le mutage, que surveille-t-on surtout au chai dans un vin destiné à devenir Fino ?"
+      choices:
+        - { text: "Si la fermentation malolactique s’achève", correct: false }
+        - { text: "Si le vin prend de la couleur au contact du fût", correct: false }
+        - { text: "Si les derniers sucres finissent de fermenter", correct: false }
+        - { text: "Si le voile de flor prend bien", correct: true }
+      explanation: |
+        Un voile mince ou irrégulier signale que le vin risque de mal vieillir
+        sous flor. Les vins destinés au vieillissement oxydatif n’ont pas de
+        voile à surveiller : ce repos compte moins pour eux.
 
   - id: sherry-second-classification-001
     type: mcq
@@ -656,6 +995,16 @@ cards:
       explanation: |
         A wine that seemed promising in autumn can drift from the style its solera
         needs once it has rested at its new strength.
+    fr:
+      question: "Que vérifie-t-on lors du second classement d’un xérès jeune, après la sobretabla ?"
+      choices:
+        - { text: "S’il peut porter un millésime", correct: false }
+        - { text: "S’il convient à la solera prévue", correct: true }
+        - { text: "Combien il faudra l’adoucir avant la vente", correct: false }
+        - { text: "De quel cépage il est issu", correct: false }
+      explanation: |
+        Un vin prometteur à l’automne peut s’écarter du style que demande sa
+        solera une fois qu’il a reposé à son nouveau degré.
 
   - id: sherry-failed-classification-001
     type: mcq
@@ -676,6 +1025,17 @@ cards:
       explanation: |
         Refortifying moves the wine to a stronger, oxidative path. Rejected wine can
         end up distilled or made into Sherry vinegar.
+    fr:
+      question: "Que devient normalement un xérès jeune qui échoue à son second classement ?"
+      choices:
+        - { text: "Il entre directement dans la plus vieille solera", correct: false }
+        - { text: "Il est adouci et mis en bouteille aussitôt", correct: false }
+        - { text: "Il est muté à nouveau ou écarté", correct: true }
+        - { text: "Il retourne en cuve pour refermenter", correct: false }
+      explanation: |
+        Un nouveau mutage fait passer le vin à un degré plus élevé, sur la voie
+        oxydative. Le vin écarté peut finir distillé ou transformé en vinaigre
+        de Xérès.
 
   - id: sherry-oxidative-fortification-strength-001
     type: mcq
@@ -696,6 +1056,16 @@ cards:
       explanation: |
         At this level the wine is protected from spoilage and ages in contact with
         air, slowly darkening and concentrating.
+    fr:
+      question: "À quel degré environ mute-t-on les vins jeunes de xérès destinés au vieillissement oxydatif ?"
+      choices:
+        - { text: "Environ 17 % vol.", correct: true }
+        - { text: "Environ 14 % vol.", correct: false }
+        - { text: "Environ 20 % vol.", correct: false }
+        - { text: "Environ 22 % vol.", correct: false }
+      explanation: |
+        À ce degré, le vin est protégé des altérations et vieillit au contact
+        de l’air, en fonçant et en se concentrant lentement.
 
   - id: sherry-flor-alcohol-limit-001
     type: mcq
@@ -716,6 +1086,17 @@ cards:
       explanation: |
         The film is a living yeast colony with a limited tolerance for alcohol.
         Producers use this on purpose to send a wine down the oxidative path.
+    fr:
+      question: "Pourquoi un mutage à degré élevé met-il fin au vieillissement biologique d’un xérès jeune ?"
+      choices:
+        - { text: "L’eau-de-vie prive le vin de son oxygène", correct: false }
+        - { text: "L’eau-de-vie augmente l’acidité du vin", correct: false }
+        - { text: "L’eau-de-vie retire les nutriments des levures", correct: false }
+        - { text: "Le surplus d’alcool tue les levures de flor", correct: true }
+      explanation: |
+        Le voile est une colonie de levures vivantes dont la tolérance à
+        l’alcool est limitée. Les producteurs s’en servent délibérément pour
+        envoyer un vin sur la voie oxydative.
 
   - id: sherry-sweet-drying-001
     type: mcq
@@ -737,6 +1118,18 @@ cards:
         The drying, called soleo, takes a week or more on esparto mats. When the
         berries reach the target sugar they are pressed; the concentration gives the
         wine its raisin and fig character.
+    fr:
+      question: "Pour un xérès naturellement doux, comment concentre-t-on habituellement les raisins ?"
+      choices:
+        - { text: "On les laisse se flétrir sur souche", correct: false }
+        - { text: "On les sèche au soleil sur des nattes", correct: true }
+        - { text: "On les sèche à l’abri sur des claies tout l’hiver", correct: false }
+        - { text: "On compte sur la pourriture noble des automnes brumeux", correct: false }
+      explanation: |
+        Ce séchage, le soleo, dure une semaine ou plus sur des nattes d’alfa.
+        Les baies sont pressées dès qu’elles atteignent la richesse en sucre
+        visée ; cette concentration donne au vin ses notes de raisin sec et de
+        figue.
 
   - id: sherry-sweet-ferment-001
     type: mcq
@@ -757,6 +1150,16 @@ cards:
       explanation: |
         So much sugar draws water out of the yeast cells by osmosis, slowing them
         almost to a stop.
+    fr:
+      question: "Que fait habituellement la fermentation du moût très sucré destiné à un xérès naturellement doux ?"
+      choices:
+        - { text: "Elle s’arrête après quelques degrés", correct: true }
+        - { text: "Elle va jusqu’au bout et donne un vin sec", correct: false }
+        - { text: "Elle atteint seule environ 13 % vol.", correct: false }
+        - { text: "Elle part vite et s’emballe en chauffant", correct: false }
+      explanation: |
+        Une telle teneur en sucre attire l’eau hors des cellules des levures
+        par osmose, ce qui les ralentit presque jusqu’à l’arrêt.
 
   - id: sherry-sweet-fortify-001
     type: mcq
@@ -777,6 +1180,16 @@ cards:
       explanation: |
         The spirit lifts the strength beyond what the yeast can survive, so the
         sugar from the dried grapes stays in the wine.
+    fr:
+      question: "Comment arrête-t-on la fermentation d’un xérès naturellement doux ?"
+      choices:
+        - { text: "En refroidissant puis en filtrant les levures", correct: false }
+        - { text: "Par une forte dose de dioxyde de soufre", correct: false }
+        - { text: "Par un mutage à l’eau-de-vie de vin", correct: true }
+        - { text: "En pasteurisant le moût en fermentation", correct: false }
+      explanation: |
+        L’eau-de-vie porte le degré au-delà de ce que les levures supportent :
+        le sucre des raisins séchés reste donc dans le vin.
 
   - id: sherry-butt-size-001
     type: mcq
@@ -797,6 +1210,16 @@ cards:
       explanation: |
         Most are made of American oak. Well-used butts are later sought by Scotch
         whisky distillers.
+    fr:
+      question: "Quelle est la contenance habituelle d’une bota de xérès ?"
+      choices:
+        - { text: "Environ 225 litres", correct: false }
+        - { text: "Environ 300 litres", correct: false }
+        - { text: "Environ 1 000 litres", correct: false }
+        - { text: "Environ 600 litres", correct: true }
+      explanation: |
+        La plupart sont en chêne américain. Les botas bien usées sont ensuite
+        recherchées par les distilleries de whisky écossais.
 
   - id: sherry-butt-seasoning-001
     type: mcq
@@ -818,6 +1241,17 @@ cards:
         New butts are first filled with unfortified wine, which draws out much of
         the oak's flavour and tannin. Once seasoned, a butt can stay in use for
         decades.
+    fr:
+      question: "Comment les maisons de xérès évitent-elles que leurs botas donnent un goût boisé au vin ?"
+      choices:
+        - { text: "Elles brûlent fortement l’intérieur des douelles", correct: false }
+        - { text: "Elles utilisent des botas déjà avinées", correct: true }
+        - { text: "Elles enduisent les douelles de paraffine", correct: false }
+        - { text: "Elles font les botas en châtaignier", correct: false }
+      explanation: |
+        Les botas neuves sont d’abord remplies de vin non muté, qui extrait une
+        bonne part des arômes et des tanins du chêne. Une fois avinée, une bota
+        peut servir pendant des décennies.
 
   - id: sherry-butt-role-001
     type: mcq
@@ -839,6 +1273,17 @@ cards:
         Air passes slowly through the staves and joints, so the wood works as a
         slow oxygen valve. A sound butt can stay in service for decades, doing the
         same job year after year.
+    fr:
+      question: "Qu’attend surtout une maison de xérès de ses botas en chêne ?"
+      choices:
+        - { text: "Un contact lent entre le vin et l’oxygène", correct: true }
+        - { text: "Une température fraîche et stable pour le vin", correct: false }
+        - { text: "Des tanins qui structurent le vin", correct: false }
+        - { text: "Des nutriments qui nourrissent le voile de flor", correct: false }
+      explanation: |
+        L’air passe lentement à travers les douelles et les joints : le bois
+        agit comme une valve à oxygène très lente. Une bota saine reste en
+        service des décennies et remplit le même rôle année après année.
 
   - id: sherry-butt-fill-001
     type: mcq
@@ -859,6 +1304,17 @@ cards:
       explanation: |
         The gap is left in butts for both flor and oxidative ageing. Cellar workers
         often describe it as "two fists" (dos puños).
+    fr:
+      question: "Jusqu’où remplit-on habituellement les botas de xérès ?"
+      choices:
+        - { text: "À ras bord, avec des ouillages fréquents", correct: false }
+        - { text: "À moitié environ", correct: false }
+        - { text: "Aux cinq sixièmes environ", correct: true }
+        - { text: "Aux deux tiers environ", correct: false }
+      explanation: |
+        On laisse ce vide dans les botas pour le vieillissement sous flor comme
+        pour le vieillissement oxydatif. Au chai, on parle souvent de « deux
+        poings » (dos puños).
 
   - id: sherry-bodega-design-001
     type: mcq
@@ -880,6 +1336,17 @@ cards:
         Keeping the butts cool is the main challenge in Jerez's heat. High ceilings
         let warm air rise away from the butts, and windows are placed to catch the
         sea breeze.
+    fr:
+      question: "Quel type de bâtiment est traditionnel pour les bodegas d’élevage du xérès ?"
+      choices:
+        - { text: "Des caves profondes creusées dans la craie", correct: false }
+        - { text: "De hauts chais aux épais murs blanchis à la chaux", correct: true }
+        - { text: "Des hangars bas au toit de tôle qui chauffe", correct: false }
+        - { text: "Des greniers sous le toit qui réchauffent les fûts", correct: false }
+      explanation: |
+        Garder les botas au frais est le principal défi sous la chaleur de
+        Jerez. Les hauts plafonds éloignent l’air chaud des fûts, et les
+        fenêtres sont placées pour capter la brise marine.
 
   - id: sherry-oloroso-profile-001
     type: mcq
@@ -901,6 +1368,17 @@ cards:
         The name means roughly "fragrant" in Spanish. Its savoury, nutty
         weight makes it a classic match for slow-cooked meat such as oxtail
         stew.
+    fr:
+      question: "Quelle description correspond à un Oloroso classique ?"
+      choices:
+        - { text: "Citron pâle et léger, amande et pain", correct: false }
+        - { text: "Brun et corsé, noix et cuir", correct: true }
+        - { text: "Or pâle et léger, notes salines et vives", correct: false }
+        - { text: "Acajou profond et sirupeux, figue et café", correct: false }
+      explanation: |
+        Le nom signifie à peu près « odorant » en espagnol. Sa bouche ample et
+        sapide, marquée par la noix, en fait un accord classique avec les
+        viandes mijotées, comme la queue de bœuf braisée.
 
   - id: sherry-oloroso-old-astringency-001
     type: mcq
@@ -921,6 +1399,17 @@ cards:
       explanation: |
         Decades in oak leave tannin and acidity that come to dominate the
         finish, giving a dry, gripping sensation on the palate.
+    fr:
+      question: "Outre une grande concentration, quel trait les très vieux Olorosos tendent-ils à développer ?"
+      choices:
+        - { text: "Des notes fraîches de levure et de pain", correct: false }
+        - { text: "Une couleur pâle et passée", correct: false }
+        - { text: "Un sucre résiduel perceptible", correct: false }
+        - { text: "Une astringence asséchante", correct: true }
+      explanation: |
+        Des décennies en fût laissent des tanins et une acidité qui finissent
+        par dominer la finale et laissent en bouche une sensation sèche qui
+        accroche.
 
   - id: sherry-amontillado-refortify-001
     type: mcq
@@ -941,6 +1430,16 @@ cards:
       explanation: |
         The wine then enters a separate solera kept for Amontillado; it does
         not go back into the Fino solera it came from.
+    fr:
+      question: "Quand un vin de type Fino doit devenir Amontillado, que lui fait habituellement le producteur ?"
+      choices:
+        - { text: "Il le mute à nouveau à l’eau-de-vie de vin", correct: true }
+        - { text: "Il l’installe dans une bodega côtière plus fraîche", correct: false }
+        - { text: "Il remplit ses botas à ras bord", correct: false }
+        - { text: "Il y assemble un peu de Pedro Ximénez", correct: false }
+      explanation: |
+        Le vin entre ensuite dans une solera distincte réservée à
+        l’Amontillado ; il ne retourne pas dans la solera de Fino d’où il vient.
 
   - id: sherry-amontillado-colour-001
     type: mcq
@@ -961,6 +1460,17 @@ cards:
       explanation: |
         The colour comes from its oxidative phase, and older examples drift
         towards brown. In body it usually stays lighter than an Oloroso.
+    fr:
+      question: "Quelle couleur montre un Amontillado classique ?"
+      choices:
+        - { text: "Citron pâle", correct: false }
+        - { text: "Or pâle à reflets verts", correct: false }
+        - { text: "Ambre", correct: true }
+        - { text: "Acajou opaque", correct: false }
+      explanation: |
+        Cette couleur vient de sa phase oxydative, et les plus vieux tirent vers
+        le brun. En bouche, il reste en général plus léger qu’un
+        Oloroso.
 
   - id: sherry-amontillado-yeast-fade-001
     type: mcq
@@ -981,6 +1491,16 @@ cards:
       explanation: |
         That lingering trace of its biological phase is what lets a taster
         tell an Amontillado from an Oloroso of similar age.
+    fr:
+      question: "À mesure qu’un Amontillado passe des années en vieillissement oxydatif, que deviennent ses arômes issus du voile de flor ?"
+      choices:
+        - { text: "Ils disparaissent en quelques mois", correct: false }
+        - { text: "Ils s’estompent lentement sans disparaître", correct: true }
+        - { text: "Ils gagnent en intensité d’année en année", correct: false }
+        - { text: "Ils se changent en notes de raisin sec et de figue", correct: false }
+      explanation: |
+        Cette trace persistante de sa phase biologique permet au dégustateur
+        de distinguer un Amontillado d’un Oloroso d’âge comparable.
 
   - id: sherry-amontillado-ageing-length-001
     type: mcq
@@ -1002,6 +1522,17 @@ cards:
         Once the flor has gone, the wine ages like any oxidative Sherry: long
         cask time concentrates it rather than spoiling it, so very old
         Amontillados can be intense and sharp.
+    fr:
+      question: "Par rapport à l’Oloroso, combien de temps l’Amontillado peut-il continuer à gagner au vieillissement oxydatif ?"
+      choices:
+        - { text: "Quelques années au plus, comme un Fino", correct: false }
+        - { text: "À peu près deux fois moins longtemps", correct: false }
+        - { text: "Bien plus longtemps, le voile le protégeant encore", correct: false }
+        - { text: "À peu près aussi longtemps", correct: true }
+      explanation: |
+        Une fois le voile disparu, le vin vieillit comme tout xérès oxydatif :
+        un long séjour en fût le concentre au lieu de l’abîmer, si bien que les
+        très vieux Amontillados peuvent être intenses et incisifs.
 
   - id: sherry-palo-cortado-rarity-001
     type: mcq
@@ -1024,6 +1555,18 @@ cards:
         (palo) on a butt was crossed through (cortado) when the wine changed
         course. There is no single route to Palo Cortado, and bottlings are
         small but generally of very high quality.
+    fr:
+      question: "Parmi les styles de xérès secs, lequel est produit en plus petite quantité ?"
+      choices:
+        - { text: "Palo Cortado", correct: true }
+        - { text: "Amontillado", correct: false }
+        - { text: "Manzanilla", correct: false }
+        - { text: "Oloroso", correct: false }
+      explanation: |
+        Le nom viendrait des marques à la craie du chai : un trait (palo) tracé
+        sur une bota était barré (cortado) quand le vin changeait de voie. Il
+        n’existe pas de chemin unique vers le Palo Cortado ; les volumes sont
+        faibles, mais la qualité est en général très haute.
 
   - id: sherry-palo-cortado-nose-001
     type: mcq
@@ -1044,6 +1587,16 @@ cards:
       explanation: |
         Its aromas are fine and sharp rather than broad, which is one reason
         it is hard to identify blind.
+    fr:
+      question: "Au nez, un Palo Cortado ressemble surtout à quel autre style de xérès ?"
+      choices:
+        - { text: "Fino", correct: false }
+        - { text: "Amontillado", correct: true }
+        - { text: "Oloroso", correct: false }
+        - { text: "Cream", correct: false }
+      explanation: |
+        Ses arômes sont fins et vifs plutôt qu’amples, l’une des raisons pour
+        lesquelles il est difficile à reconnaître à l’aveugle.
 
   - id: sherry-palo-cortado-palate-001
     type: mcq
@@ -1064,6 +1617,16 @@ cards:
       explanation: |
         Expect a dry, broad palate with walnut, orange-peel and toffee notes
         and a long finish.
+    fr:
+      question: "En corps et en richesse, un Palo Cortado ressemble surtout à quel autre style de xérès ?"
+      choices:
+        - { text: "Fino", correct: false }
+        - { text: "Manzanilla", correct: false }
+        - { text: "Amontillado", correct: false }
+        - { text: "Oloroso", correct: true }
+      explanation: |
+        Attendez-vous à une bouche sèche et ample, aux notes de noix, d’écorce
+        d’orange et de caramel au beurre, avec une longue finale.
 
   - id: sherry-px-aromas-001
     type: mcq
@@ -1084,6 +1647,16 @@ cards:
       explanation: |
         The wine is deep brown and syrupy; it is often poured over vanilla ice
         cream, where it works almost as a sauce.
+    fr:
+      question: "Quel trio d’arômes est typique d’un xérès Pedro Ximénez ?"
+      choices:
+        - { text: "Raisins secs, café et réglisse", correct: true }
+        - { text: "Amande, pâte à pain et citron", correct: false }
+        - { text: "Abricot, marmelade et miel", correct: false }
+        - { text: "Noisette, levure et pomme verte", correct: false }
+      explanation: |
+        Ce vin brun foncé, presque sirupeux, se verse souvent sur une glace à la
+        vanille, où il fait quasiment office de sauce.
 
   - id: sherry-px-sugar-001
     type: mcq
@@ -1104,6 +1677,16 @@ cards:
       explanation: |
         That is several times the sugar of a typical Sauternes, and the
         texture is close to syrup.
+    fr:
+      question: "Quelle teneur en sucres résiduels atteignent à peu près les Pedro Ximénez les plus doux ?"
+      choices:
+        - { text: "Environ 100 g/L", correct: false }
+        - { text: "Environ 250 g/L", correct: false }
+        - { text: "Environ 500 g/L", correct: true }
+        - { text: "Environ 50 g/L", correct: false }
+      explanation: |
+        C’est plusieurs fois le sucre d’un Sauternes classique, pour une texture
+        proche du sirop.
 
   - id: sherry-moscatel-citrus-001
     type: mcq
@@ -1124,6 +1707,17 @@ cards:
       explanation: |
         Muscat of Alexandria is aromatic enough that some of its varietal,
         orange-peel character survives drying and long oxidative ageing.
+    fr:
+      question: "Par rapport à un Pedro Ximénez, quelle note supplémentaire un xérès Moscatel naturellement doux garde-t-il en général ?"
+      choices:
+        - { text: "Des notes de pain et de levure dues à la flor", correct: false }
+        - { text: "L’écorce d’agrume séchée", correct: true }
+        - { text: "Le toasté vanillé d’un fût neuf", correct: false }
+        - { text: "Des notes salines et iodées", correct: false }
+      explanation: |
+        Le Muscat d’Alexandrie est assez aromatique pour qu’une part de son
+        caractère variétal d’écorce d’orange survive au passerillage puis à un long
+        vieillissement oxydatif.
 
   - id: sherry-pale-cream-ageing-001
     type: mcq
@@ -1144,6 +1738,16 @@ cards:
       explanation: |
         Sweetening comes at the very end, once the wine has left its solera
         and just before it is bottled.
+    fr:
+      question: "Avant d’être adouci, quel vieillissement le vin de base d’un Pale Cream doit-il avoir suivi ?"
+      choices:
+        - { text: "Un vieillissement oxydatif, sans flor", correct: false }
+        - { text: "Un vieillissement oxydatif, puis sous flor", correct: false }
+        - { text: "Un long élevage en fûts de chêne neufs", correct: false }
+        - { text: "Un vieillissement biologique sous flor", correct: true }
+      explanation: |
+        L’édulcoration n’intervient qu’à la toute fin, une fois le vin sorti de
+        sa solera, juste avant la mise en bouteille.
 
   - id: sherry-pale-cream-sweetener-001
     type: mcq
@@ -1164,6 +1768,16 @@ cards:
       explanation: |
         RCGM is essentially colourless, flavour-neutral grape sugar, so the
         wine stays as pale as the dry wine it was made from.
+    fr:
+      question: "Avec quoi adoucit-on le plus souvent un Pale Cream ?"
+      choices:
+        - { text: "Du moût concentré rectifié", correct: true }
+        - { text: "Du vin de Pedro Ximénez", correct: false }
+        - { text: "Du vin de Moscatel", correct: false }
+        - { text: "Du sirop de sucre de canne", correct: false }
+      explanation: |
+        Le moût concentré rectifié (MCR) est un sucre de raisin presque incolore
+        et neutre en goût : le vin reste aussi pâle que le vin sec de départ.
 
   - id: sherry-pale-cream-flavour-001
     type: mcq
@@ -1184,6 +1798,17 @@ cards:
       explanation: |
         Producers usually pick a young, simple base wine, and the added sugar
         further hides any bready, tangy notes that remain.
+    fr:
+      question: "Sucrosité mise à part, en quoi le goût d’un Pale Cream diffère-t-il d’ordinaire de celui d’un Fino ?"
+      choices:
+        - { text: "Il montre de nettes notes de raisins secs et de café", correct: false }
+        - { text: "Il a de fortes notes de noix et de caramel", correct: false }
+        - { text: "Le caractère de flor y est rarement marqué", correct: true }
+        - { text: "Son acidité est nettement plus vive", correct: false }
+      explanation: |
+        Les producteurs choisissent en général un vin de base jeune et simple, et
+        le sucre ajouté masque encore les notes de pain et le piquant qui
+        subsistent.
 
   - id: sherry-medium-ageing-001
     type: mcq
@@ -1204,6 +1829,16 @@ cards:
       explanation: |
         Its sweetness can range widely, from barely off-dry to clearly sweet,
         so labels alone say little about how sweet a given Medium will taste.
+    fr:
+      question: "Quel style de xérès doux doit associer un caractère issu de la flor et un caractère oxydatif ?"
+      choices:
+        - { text: "Pale Cream", correct: false }
+        - { text: "Medium", correct: true }
+        - { text: "Cream", correct: false }
+        - { text: "Pedro Ximénez", correct: false }
+      explanation: |
+        Sa sucrosité varie beaucoup, du presque sec au franchement doux :
+        l’étiquette dit donc peu de chose du niveau de sucre d’un Medium donné.
 
   - id: sherry-cream-base-001
     type: mcq
@@ -1225,6 +1860,18 @@ cards:
         Harveys Bristol Cream, launched in the late 19th century, made the
         style famous in the British market. Under current rules a sweetened
         Oloroso blend can no longer use the Oloroso name; it is sold as a Cream.
+    fr:
+      question: "Sur le plan du vieillissement, quel vin sec sert de base à un xérès Cream ?"
+      choices:
+        - { text: "Un vin élevé sous flor de bout en bout", correct: false }
+        - { text: "Un vin élevé sous flor, puis oxydatif", correct: false }
+        - { text: "Un vin jeune, sans passage en fût", correct: false }
+        - { text: "Un vin oxydatif, élevé sans flor", correct: true }
+      explanation: |
+        Le Harveys Bristol Cream, lancé à la fin du XIXe siècle, a rendu le style
+        célèbre sur le marché britannique. Selon les règles actuelles, un
+        assemblage d’Oloroso adouci ne peut plus porter le nom Oloroso : il est
+        vendu comme Cream.
 
   - id: sherry-cream-sweetening-001
     type: mcq
@@ -1246,6 +1893,17 @@ cards:
         The sweet wine is often added after ageing, when components are
         blended to the house style, so the sweetness level can be set
         precisely for each brand.
+    fr:
+      question: "Comment adoucit-on en général un xérès Cream ?"
+      choices:
+        - { text: "En y assemblant du Pedro Ximénez", correct: true }
+        - { text: "En mutant tôt pour arrêter la fermentation", correct: false }
+        - { text: "En ajoutant du sucre de canne avant la mise", correct: false }
+        - { text: "En passerillant le Palomino au soleil", correct: false }
+      explanation: |
+        Le vin doux est souvent ajouté après le vieillissement, au moment de
+        l’assemblage selon le style de la maison : le niveau de sucre peut ainsi
+        être réglé avec précision pour chaque marque.
 
   - id: sherry-cream-best-balance-001
     type: mcq
@@ -1266,6 +1924,16 @@ cards:
       explanation: |
         The category spans everything from inexpensive supermarket blends to
         super-premium bottlings built on very old wines.
+    fr:
+      question: "Qu’est-ce qui distingue, au verre, les meilleurs xérès Medium et Cream ?"
+      choices:
+        - { text: "Un fruit d’agrume frais relevé par le piquant de la flor", correct: false }
+        - { text: "Un fruit frais de raisin avec une touche florale", correct: false }
+        - { text: "Des notes oxydatives de noix mêlées aux fruits secs", correct: true }
+        - { text: "Un sucre assez marqué pour masquer le vin sec", correct: false }
+      explanation: |
+        La catégorie va des assemblages bon marché de supermarché aux cuvées très
+        haut de gamme bâties sur des vins très vieux.
 
   - id: sherry-cream-cheap-fault-001
     type: mcq
@@ -1286,6 +1954,16 @@ cards:
       explanation: |
         A young, simple base gives the sugar little flavour to push against,
         so sweetness dominates the finish.
+    fr:
+      question: "Quel est le défaut habituel des xérès Cream bon marché ?"
+      choices:
+        - { text: "Une acidité volatile piquante, vinaigrée", correct: false }
+        - { text: "Un sucre écœurant et peu de complexité", correct: true }
+        - { text: "Des tanins amers de fût neuf", correct: false }
+        - { text: "Un caractère de pain de flor envahissant", correct: false }
+      explanation: |
+        Un vin de base jeune et simple offre peu de saveurs pour contrebalancer
+        le sucre, si bien que la douceur domine la finale.
 
   - id: sherry-age-12-15-001
     type: mcq
@@ -1306,6 +1984,16 @@ cards:
       explanation: |
         Tawny Port uses a different ladder (10, 20, 30 and 40 Years Old),
         which is easy to mix up with Sherry's.
+    fr:
+      question: "Outre VOS et VORS, quelles deux mentions d’âge un xérès peut-il porter ?"
+      choices:
+        - { text: "12 ans et 15 ans", correct: true }
+        - { text: "10 ans et 20 ans", correct: false }
+        - { text: "5 ans et 10 ans", correct: false }
+        - { text: "15 ans et 25 ans", correct: false }
+      explanation: |
+        Le Porto tawny suit une autre échelle (10, 20, 30 et 40 ans), qu’on
+        confond facilement avec celle du xérès.
 
   - id: sherry-vos-vors-ages-001
     type: mcq
@@ -1327,6 +2015,17 @@ cards:
         The initials come from Latin and English at once: Vinum Optimum
         Signatum / Very Old Sherry, and Vinum Optimum Rare Signatum / Very Old
         Rare Sherry.
+    fr:
+      question: "Quels âges moyens minimaux exigent respectivement les xérès VOS et VORS ?"
+      choices:
+        - { text: "15 et 25 ans", correct: false }
+        - { text: "12 et 20 ans", correct: false }
+        - { text: "20 et 30 ans", correct: true }
+        - { text: "30 et 40 ans", correct: false }
+      explanation: |
+        Les sigles se lisent à la fois en latin et en anglais : Vinum Optimum
+        Signatum / Very Old Sherry, et Vinum Optimum Rare Signatum / Very Old Rare
+        Sherry.
 
   - id: sherry-age-solera-approval-001
     type: mcq
@@ -1347,6 +2046,17 @@ cards:
       explanation: |
         That gives producers more flexibility. VOS and VORS are stricter:
         each batch is tasted and analysed before it can use the claim.
+    fr:
+      question: "Comment l’agrément d’un xérès 12 ans ou 15 ans est-il accordé ?"
+      choices:
+        - { text: "Par millésime, sur déclaration de récolte", correct: false }
+        - { text: "Pour tout un système de solera à la fois", correct: true }
+        - { text: "Lot par lot, après dégustation et analyse", correct: false }
+        - { text: "D’après l’âge du vin le plus vieux de l’assemblage", correct: false }
+      explanation: |
+        Cela laisse plus de souplesse aux producteurs. VOS et VORS sont plus
+        stricts : chaque lot est dégusté et analysé avant de pouvoir porter la
+        mention.
 
   - id: sherry-age-eligible-styles-001
     type: mcq
@@ -1368,6 +2078,17 @@ cards:
         The age claims reward long oxidative ageing, which flor-protected styles
         cannot reach. González Byass's Amontillado del Duque, for instance, is
         sold as VORS.
+    fr:
+      question: "Quels styles de xérès peuvent prétendre à une mention d’âge comme VOS ou 12 ans ?"
+      choices:
+        - { text: "Fino, Manzanilla, Amontillado et Oloroso", correct: false }
+        - { text: "Fino, Palo Cortado, Amontillado et Pale Cream", correct: false }
+        - { text: "Oloroso, Manzanilla, Moscatel et PX", correct: false }
+        - { text: "Amontillado, Palo Cortado, Oloroso et PX", correct: true }
+      explanation: |
+        Ces mentions récompensent un long vieillissement oxydatif, hors de portée
+        des styles protégés par la flor. L’Amontillado del Duque de González Byass,
+        par exemple, est vendu en VORS.
 
   - id: sherry-bodega-humidity-001
     type: mcq
@@ -1379,7 +2100,7 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: "What daily cellar task raises the humidity in a traditional Jerez bodega?"
+      question: "How is the humidity raised each day in a traditional Jerez bodega?"
       choices:
         - { text: "By sealing the windows against sea breezes", correct: false }
         - { text: "By sprinkling water on the earth floors", correct: true }
@@ -1388,6 +2109,16 @@ cards:
       explanation: |
         The floors are beaten earth or compacted sand (albero), so the water soaks in
         and rises back into the air as it evaporates over the following hours.
+    fr:
+      question: "Chaque jour, comment augmente-t-on l’humidité dans une bodega traditionnelle de Jerez ?"
+      choices:
+        - { text: "En fermant les fenêtres aux brises marines", correct: false }
+        - { text: "En arrosant le sol de terre battue", correct: true }
+        - { text: "En plaçant des bacs d’eau entre les rangées", correct: false }
+        - { text: "En pendant des nattes d’alfa mouillées aux fenêtres", correct: false }
+      explanation: |
+        Le sol est en terre battue ou en sable tassé (albero) : l’eau s’y infiltre,
+        puis remonte dans l’air en s’évaporant au fil des heures.
 
   - id: sherry-bodega-cooling-001
     type: mcq
@@ -1408,6 +2139,17 @@ cards:
       explanation: |
         Steady, moderate temperatures slow losses from the butts, and hotter summers
         have made mechanical cooling a common addition in Andalusia.
+    fr:
+      question: "Outre l’architecture traditionnelle, sur quoi de nombreuses bodegas modernes de Jerez comptent-elles pour garder le vin au frais ?"
+      choices:
+        - { text: "Des ceintures de refroidissement autour des botas", correct: false }
+        - { text: "Des chais creusés profondément sous terre", correct: false }
+        - { text: "De l’eau glacée circulant sous le sol", correct: false }
+        - { text: "La climatisation", correct: true }
+      explanation: |
+        Des températures stables et modérées limitent les pertes par évaporation
+        des botas, et des étés plus chauds ont fait du refroidissement mécanique un
+        ajout courant en Andalousie.
 
   - id: sherry-solera-name-001
     type: mcq
@@ -1428,6 +2170,16 @@ cards:
       explanation: |
         The same method also matures Brandy de Jerez and Sherry vinegar (Vinagre de
         Jerez), both protected names from the same corner of Andalusia.
+    fr:
+      question: "Comment s’appelle le système d’assemblage fractionné qui sert à élever la plupart des xérès ?"
+      choices:
+        - { text: "Criadera", correct: false }
+        - { text: "Añada", correct: false }
+        - { text: "Solera", correct: true }
+        - { text: "Sobretabla", correct: false }
+      explanation: |
+        La même méthode sert aussi à élever le Brandy de Jerez et le vinaigre de
+        Xérès (Vinagre de Jerez), deux noms protégés du même coin d’Andalousie.
 
   - id: sherry-solera-direction-001
     type: mcq
@@ -1449,6 +2201,17 @@ cards:
         Each transfer blends a little younger wine into older wine, so no butt ever
         holds a single harvest. Traditionally the wine is poured in gently through a
         spout so the sediment is not stirred up.
+    fr:
+      question: "Dans une solera de xérès, comment le vin circule-t-il d’un groupe de botas à l’autre au fil du temps ?"
+      choices:
+        - { text: "Des botas plus vieilles vers les plus jeunes, pour les rafraîchir", correct: false }
+        - { text: "Des botas plus jeunes vers les plus vieilles, étape par étape", correct: true }
+        - { text: "Il reste dans une bota jusqu’à atteindre l’âge visé", correct: false }
+        - { text: "Chaque bota est vidée puis remplie chaque année", correct: false }
+      explanation: |
+        Chaque transfert mêle un peu de vin plus jeune à du vin plus vieux, si bien
+        qu’aucune bota ne contient une seule récolte. Traditionnellement, on verse le
+        vin doucement par un bec verseur pour ne pas remuer les dépôts.
 
   - id: sherry-solera-oldest-level-001
     type: mcq
@@ -1469,6 +2232,17 @@ cards:
       explanation: |
         The word is usually traced to suelo, Spanish for floor, because the oldest butts
         traditionally sat on the bottom row. Every level above it is a criadera.
+    fr:
+      question: "Dans le vocabulaire traditionnel des chais de Jerez, quel niveau de botas porte le nom de solera proprement dite ?"
+      choices:
+        - { text: "Le niveau dont l’âge moyen est le plus jeune", correct: false }
+        - { text: "Le niveau du milieu de la pile", correct: false }
+        - { text: "Le niveau dont l’âge moyen est le plus vieux", correct: true }
+        - { text: "Le niveau où la flor est la plus épaisse", correct: false }
+      explanation: |
+        On rattache souvent le mot à suelo, « sol » en espagnol, car les botas les
+        plus vieilles reposaient autrefois au rang du bas. Chaque niveau au-dessus
+        est une criadera.
 
   - id: sherry-saca-equal-share-001
     type: mcq
@@ -1489,6 +2263,17 @@ cards:
       explanation: |
         The withdrawal is called the saca. Taking the same share from every butt keeps
         the blend even, and no butt in the level is ever fully emptied.
+    fr:
+      question: "Quand on tire du vin du niveau le plus vieux d’une solera pour la mise en bouteille, comment le prélève-t-on ?"
+      choices:
+        - { text: "Une bota entière à la fois, remplie ensuite", correct: false }
+        - { text: "Une part égale dans chaque bota du niveau", correct: true }
+        - { text: "Dans les botas qui goûtent le mieux cette année-là", correct: false }
+        - { text: "L’essentiel de chaque bota, en laissant les lies", correct: false }
+      explanation: |
+        Ce prélèvement s’appelle la saca. Prendre la même part dans chaque bota
+        garde l’assemblage homogène, et aucune bota du niveau n’est jamais vidée
+        entièrement.
 
   - id: sherry-criadera-count-001
     type: mcq
@@ -1503,12 +2288,23 @@ cards:
       question: "How many criaderas does a Sherry solera have?"
       choices:
         - { text: "Always three, fixed by the DO rules", correct: false }
-        - { text: "It varies, from one or two to over a dozen", correct: true }
+        - { text: "From one or two to over a dozen", correct: true }
         - { text: "One for each year of average age", correct: false }
         - { text: "At least twenty in every solera", correct: false }
       explanation: |
         Manzanilla soleras tend to have the most levels, while some Oloroso and Pedro
         Ximénez soleras have only a few.
+    fr:
+      question: "Combien de criaderas compte une solera de xérès ?"
+      choices:
+        - { text: "Toujours trois, comme le fixe la DO", correct: false }
+        - { text: "D’une ou deux à plus d’une douzaine", correct: true }
+        - { text: "Une par année d’âge moyen", correct: false }
+        - { text: "Au moins vingt dans chaque solera", correct: false }
+      explanation: |
+        Les soleras de Manzanilla ont souvent le plus de niveaux, alors que
+        certaines soleras d’Oloroso ou de Pedro Ximénez n’en comptent que
+        quelques-uns.
 
   - id: sherry-average-age-001
     type: mcq
@@ -1529,6 +2325,16 @@ cards:
       explanation: |
         Rare vintage-dated Sherries (añadas) do exist. They are kept out of the solera
         and aged statically in their own butts.
+    fr:
+      question: "Pourquoi la plupart des xérès ne peuvent-ils indiquer qu’un âge moyen et non une année de récolte ?"
+      choices:
+        - { text: "La loi espagnole interdit le millésime sur les vins fortifiés", correct: false }
+        - { text: "Chaque mise en bouteille assemble des vins d’âges multiples", correct: true }
+        - { text: "La flor rend l’âge réel du vin impossible à mesurer", correct: false }
+        - { text: "Le mutage masque le caractère de chaque récolte", correct: false }
+      explanation: |
+        De rares xérès millésimés (añadas) existent bel et bien. Ils sont tenus
+        hors de la solera et vieillissent en statique dans leurs propres botas.
 
   - id: sherry-solera-consistency-001
     type: mcq
@@ -1549,6 +2355,17 @@ cards:
       explanation: |
         A bottle sold today tastes much like one sold a decade ago. Big brands such as
         Harveys Bristol Cream depend on that continuity.
+    fr:
+      question: "Quel est le principal intérêt commercial d’élever le xérès en solera ?"
+      choices:
+        - { text: "Une maison peut embouteiller le même style année après année", correct: true }
+        - { text: "Chaque mise en bouteille reflète le caractère de son millésime", correct: false }
+        - { text: "Le vin arrive sur le marché quelques mois après la vendange", correct: false }
+        - { text: "Le système dispense de muter le vin", correct: false }
+      explanation: |
+        Une bouteille vendue aujourd’hui ressemble beaucoup à celle d’il y a dix
+        ans. De grandes marques comme le Harveys Bristol Cream reposent sur cette
+        continuité.
 
   - id: sherry-solera-disruption-001
     type: mcq
@@ -1569,6 +2386,16 @@ cards:
       explanation: |
         Drawing off too large a share each year does similar harm: the younger wine then
         dominates and the house style drifts.
+    fr:
+      question: "Quelle pratique risque le plus de rompre la régularité d’une solera de xérès ?"
+      choices:
+        - { text: "Utiliser de vieilles botas de chêne bien affranchies", correct: false }
+        - { text: "Stocker les botas dans des bodegas de plain-pied, non enterrées", correct: false }
+        - { text: "L’alimenter avec du vin jeune de moindre qualité", correct: true }
+        - { text: "Transférer le vin d’un niveau à l’autre à la main", correct: false }
+      explanation: |
+        Tirer chaque année une part trop grande fait un tort comparable : le vin
+        jeune domine alors et le style de la maison dérive.
 
   - id: sherry-criadera-buildings-001
     type: mcq
@@ -1590,6 +2417,17 @@ cards:
         A solera can take decades to build, so losing every level at once could not be
         undone. Spreading the levels confines a fire, roof collapse or flood to part of
         the system.
+    fr:
+      question: "Pourquoi les maisons de Jerez gardent-elles souvent les niveaux d’une même solera dans des bâtiments séparés ?"
+      choices:
+        - { text: "Pour limiter les dégâts d’une seule catastrophe", correct: true }
+        - { text: "Pour garder vins jeunes et vieux à des températures différentes", correct: false }
+        - { text: "Pour empêcher la flor de passer d’un niveau à l’autre", correct: false }
+        - { text: "Pour respecter une règle imposant de séparer les niveaux", correct: false }
+      explanation: |
+        Une solera peut demander des décennies pour se constituer : perdre tous
+        les niveaux d’un coup serait irréparable. Disperser les niveaux cantonne un
+        incendie, un effondrement de toit ou une inondation à une partie du système.
 
   - id: sherry-biological-flor-001
     type: mcq
@@ -1611,6 +2449,17 @@ cards:
         This film, called flor, is not a single organism but a mix of several
         Saccharomyces yeast strains, some of them close relatives of ordinary
         fermentation yeasts.
+    fr:
+      question: "Pour le xérès, de quoi dépend le vieillissement dit « biologique » ?"
+      choices:
+        - { text: "Des bactéries lactiques qui transforment les acides", correct: false }
+        - { text: "D’une longue macération sur les peaux", correct: false }
+        - { text: "De la pourriture noble sur les raisins", correct: false }
+        - { text: "D’un voile de levures à la surface du vin", correct: true }
+      explanation: |
+        Ce voile, appelé flor, ne provient pas d’un seul organisme : il réunit
+        plusieurs souches de levures Saccharomyces, dont certaines sont proches des
+        levures de fermentation ordinaires.
 
   - id: sherry-flor-position-001
     type: mcq
@@ -1631,6 +2480,16 @@ cards:
       explanation: |
         It looks like a pale, creamy, wrinkled crust. When it thins, patches of bare
         wine show through.
+    fr:
+      question: "Où se développe la flor dans une bota de Fino en cours d’élevage ?"
+      choices:
+        - { text: "En dépôt au fond de la bota", correct: false }
+        - { text: "Dans les pores des douelles de chêne", correct: false }
+        - { text: "En couche à la surface du vin", correct: true }
+        - { text: "En suspension dans toute la masse du vin", correct: false }
+      explanation: |
+        Elle ressemble à une croûte pâle, crémeuse et plissée. Quand elle s’amincit,
+        des plaques de vin à nu apparaissent.
 
   - id: sherry-flor-acetaldehyde-001
     type: mcq
@@ -1651,6 +2510,17 @@ cards:
       explanation: |
         Flor also gives off carbon dioxide and uses up much of the wine's glycerol,
         which helps explain why a Fino feels so light and dry.
+    fr:
+      question: "Quel sous-produit de la flor explique surtout l’arôme si particulier des xérès de vieillissement biologique ?"
+      choices:
+        - { text: "Acétate d’éthyle", correct: false }
+        - { text: "Diacétyle", correct: false }
+        - { text: "Acide acétique", correct: false }
+        - { text: "Acétaldéhyde", correct: true }
+      explanation: |
+        La flor dégage aussi du gaz carbonique et consomme une grande partie du
+        glycérol du vin, ce qui explique en partie la légèreté et la sécheresse d’un
+        Fino.
 
   - id: sherry-butt-position-001
     type: mcq
@@ -1672,6 +2542,17 @@ cards:
         Butts near the floor, doors or windows sit in slightly different temperature and
         humidity, so the flor grows thicker in some than others. Cellar masters taste
         butt by butt for this reason.
+    fr:
+      question: "Pourquoi deux botas d’un même xérès biologique, dans une même bodega, peuvent-elles évoluer différemment ?"
+      choices:
+        - { text: "Chaque bota est faite d’une espèce de chêne différente", correct: false }
+        - { text: "Les botas plus récentes donnent plus de goût boisé", correct: false }
+        - { text: "Leur place dans le chai modifie les conditions", correct: true }
+        - { text: "Chaque bota reçoit sa propre levure sélectionnée", correct: false }
+      explanation: |
+        Près du sol, des portes ou des fenêtres, la température et l’humidité varient
+        légèrement, si bien que la flor s’épaissit davantage dans certaines botas que
+        dans d’autres. C’est pourquoi les maîtres de chai goûtent bota par bota.
 
   - id: sherry-flor-conditions-001
     type: mcq
@@ -1692,6 +2573,17 @@ cards:
       explanation: |
         Flor yeasts need air and are sensitive: heat stresses them, and dry air speeds
         evaporation from the butt, upsetting the balance the film depends on.
+    fr:
+      question: "Quelles conditions de chai conviennent le mieux à la flor ?"
+      choices:
+        - { text: "Températures douces et air humide", correct: true }
+        - { text: "Températures élevées et air sec", correct: false }
+        - { text: "Températures froides et air sec", correct: false }
+        - { text: "Températures très élevées et air humide", correct: false }
+      explanation: |
+        Les levures de la flor ont besoin d’air et sont fragiles : la chaleur les met
+        en difficulté, et un air sec accélère l’évaporation dans la bota, ce qui rompt
+        l’équilibre dont dépend le voile.
 
   - id: sherry-flor-season-001
     type: mcq
@@ -1712,6 +2604,16 @@ cards:
       explanation: |
         In the other two seasons the film thins and may partly die back before
         recovering, so its thickness rises and falls through the year.
+    fr:
+      question: "Dans les bodegas de Jerez, à quelles saisons le voile de flor est-il le plus épais ?"
+      choices:
+        - { text: "L’été et l’hiver", correct: false }
+        - { text: "L’été et l’automne", correct: false }
+        - { text: "L’hiver et le printemps", correct: false }
+        - { text: "Le printemps et l’automne", correct: true }
+      explanation: |
+        Pendant les deux autres saisons, le voile s’amincit et peut en partie dépérir
+        avant de repartir : son épaisseur varie donc au fil de l’année.
 
   - id: sherry-flor-protection-001
     type: mcq
@@ -1732,6 +2634,16 @@ cards:
       explanation: |
         The yeast takes up oxygen before it reaches the wine, so the browning that marks
         oxidative styles never gets under way while the film stays intact.
+    fr:
+      question: "Pourquoi un Fino reste-t-il pâle après des années en fût ?"
+      choices:
+        - { text: "Son voile de flor le protège de l’oxygène", correct: true }
+        - { text: "Ses botas sont rincées à fond chaque année", correct: false }
+        - { text: "Son degré élevé finit par décolorer le vin", correct: false }
+        - { text: "Son eau-de-vie n’est ajoutée qu’après l’élevage", correct: false }
+      explanation: |
+        Les levures captent l’oxygène avant qu’il n’atteigne le vin : le brunissement
+        propre aux styles oxydatifs ne s’amorce pas tant que le voile reste intact.
 
   - id: sherry-flor-refresh-001
     type: mcq
@@ -1752,6 +2664,16 @@ cards:
       explanation: |
         In some Manzanilla soleras small transfers are made several times a year to keep
         the film going.
+    fr:
+      question: "Pourquoi faut-il rafraîchir régulièrement une solera de xérès biologique avec du vin plus jeune ?"
+      choices:
+        - { text: "Pour remplacer le sucre consommé par la flor", correct: false }
+        - { text: "Pour remplir les botas jusqu’à la bonde", correct: false }
+        - { text: "Pour nourrir la flor, à court de nutriments", correct: true }
+        - { text: "Pour rendre la couleur perdue à l’élevage", correct: false }
+      explanation: |
+        Dans certaines soleras de Manzanilla, on procède à de petits transvasements
+        plusieurs fois par an pour entretenir le voile.
 
   - id: sherry-fino-drink-young-001
     type: mcq
@@ -1772,6 +2694,17 @@ cards:
       explanation: |
         Many producers print a bottling date so buyers can choose the freshest bottle.
         Once opened, it is best finished within a few days, like a white wine.
+    fr:
+      question: "Comment traiter une bouteille de Fino une fois mise sur le marché ?"
+      choices:
+        - { text: "La garder plusieurs années pour gagner en complexité", correct: false }
+        - { text: "La laisser vieillir dix ans, comme un Porto Vintage", correct: false }
+        - { text: "La boire rapidement, tant qu’elle est fraîche", correct: true }
+        - { text: "Attendre que le vin devienne ambré et noisetté", correct: false }
+      explanation: |
+        Beaucoup de producteurs impriment une date de mise en bouteille pour que l’on
+        puisse choisir la plus fraîche. Une fois ouverte, mieux vaut la finir en
+        quelques jours, comme un vin blanc.
 
   - id: sherry-biological-average-age-001
     type: mcq
@@ -1792,6 +2725,16 @@ cards:
       explanation: |
         Older examples exist, sometimes labelled Fino Antiguo, but they are the
         exception rather than the rule.
+    fr:
+      question: "Quel âge moyen, à peu près, atteignent en général les vins tirés des soleras de xérès biologique ?"
+      choices:
+        - { text: "Environ trois à quatre ans", correct: true }
+        - { text: "Environ dix à douze ans", correct: false }
+        - { text: "Environ vingt à vingt-cinq ans", correct: false }
+        - { text: "Environ trente à trente-cinq ans", correct: false }
+      explanation: |
+        Il existe des vins plus âgés, parfois étiquetés Fino Antiguo, mais ils restent
+        l’exception.
 
   - id: sherry-flor-failing-001
     type: mcq
@@ -1812,6 +2755,16 @@ cards:
       explanation: |
         Patches of bare wine appear as the film breaks up, and the colour slowly
         deepens from pale lemon towards gold.
+    fr:
+      question: "Que se passe-t-il en général pour un xérès biologique dont l’âge moyen ne cesse d’augmenter ?"
+      choices:
+        - { text: "La flor s’épaissit et le vin pâlit", correct: false }
+        - { text: "Le vin refermente et gagne en alcool", correct: false }
+        - { text: "Les levures, en se décomposant, apportent du sucre", correct: false }
+        - { text: "La flor faiblit et des notes oxydatives naissent", correct: true }
+      explanation: |
+        Le voile se morcelle et laisse voir des plaques de vin à nu, tandis que la
+        couleur fonce peu à peu, du jaune citron pâle vers l’or.
 
   - id: sherry-oxidative-styles-001
     type: mcq
@@ -1832,6 +2785,16 @@ cards:
       explanation: |
         Some Moscatel Sherries are made the same way. Over the years these wines darken
         from gold towards deep brown.
+    fr:
+      question: "Quelle paire de xérès est élevée de façon oxydative dès le départ, sans passage sous flor ?"
+      choices:
+        - { text: "Fino et Pedro Ximénez", correct: false }
+        - { text: "Oloroso et Amontillado", correct: false }
+        - { text: "Oloroso et Pedro Ximénez", correct: true }
+        - { text: "Manzanilla et Palo Cortado", correct: false }
+      explanation: |
+        Certains xérès Moscatel sont élaborés de la même façon. Avec les années, ces
+        vins passent de l’or à un brun profond.
 
   - id: sherry-amontillado-ageing-001
     type: mcq
@@ -1852,6 +2815,16 @@ cards:
       explanation: |
         The name refers to Montilla, the inland area near Córdoba whose wines were the
         original model for the style.
+    fr:
+      question: "Quelle succession d’élevages donne un Amontillado ?"
+      choices:
+        - { text: "D’abord oxydatif, puis sous flor", correct: false }
+        - { text: "Sous flor du début à la fin", correct: false }
+        - { text: "D’abord sous flor, puis oxydatif", correct: true }
+        - { text: "Oxydatif du début à la fin", correct: false }
+      explanation: |
+        Son nom renvoie à Montilla, zone de l’intérieur des terres près de Cordoue,
+        dont les vins ont servi de modèle d’origine à ce style.
 
   - id: sherry-oxidative-length-001
     type: mcq
@@ -1873,6 +2846,17 @@ cards:
         With no yeast film to sustain, there is no point at which the ageing has to
         stop; very few wines are kept that long, and such bottlings are rare and
         expensive.
+    fr:
+      question: "Comment un long élevage en solera agit-il sur un xérès oxydatif, par rapport à un Fino ?"
+      choices:
+        - { text: "Il s’éteint en quelques années, comme un Fino", correct: false }
+        - { text: "Il peut s’améliorer pendant des décennies", correct: true }
+        - { text: "La loi impose sa mise en bouteille avant dix ans", correct: false }
+        - { text: "Il perd de l’alcool et s’amaigrit", correct: false }
+      explanation: |
+        Sans voile de levures à entretenir, rien n’oblige à arrêter l’élevage ; très
+        peu de vins sont toutefois gardés aussi longtemps, et ces cuvées sont rares et
+        chères.
 
   - id: sherry-oloroso-alcohol-rise-001
     type: mcq
@@ -1893,6 +2877,17 @@ cards:
       explanation: |
         Very old Olorosos can approach about 22% abv. Flavours concentrate at the same
         time, since less water leaves more of everything else in each glass.
+    fr:
+      question: "Qu’advient-il du degré d’un Oloroso au fil de décennies d’élevage oxydatif ?"
+      choices:
+        - { text: "Il baisse, car la flor consomme l’alcool", correct: false }
+        - { text: "Il baisse, car l’alcool s’évapore plus vite que l’eau", correct: false }
+        - { text: "Il reste au niveau fixé lors du mutage", correct: false }
+        - { text: "Il monte, car l’eau s’évapore à travers le bois", correct: true }
+      explanation: |
+        Les très vieux Olorosos peuvent approcher 22 % vol. Les saveurs se
+        concentrent en même temps : avec moins d’eau, chaque verre contient davantage
+        de tout le reste.
 
   - id: sherry-multi-solera-blend-001
     type: mcq
@@ -1913,6 +2908,17 @@ cards:
       explanation: |
         Large houses run many soleras of different ages and styles, so each brand can be
         built from several components.
+    fr:
+      question: "Comment la plupart des xérès du commerce, y compris bon nombre des meilleurs, sont-ils élaborés ?"
+      choices:
+        - { text: "À partir d’une seule solera, sans assemblage", correct: false }
+        - { text: "D’une seule récolte, élevée dans ses botas", correct: false }
+        - { text: "En assemblant les vins de plusieurs soleras", correct: true }
+        - { text: "Avec les raisins d’un seul vignoble nommé", correct: false }
+      explanation: |
+        Les grandes maisons font vivre de nombreuses soleras d’âges et de styles
+        différents, si bien que chaque marque peut être construite à partir de
+        plusieurs composantes.
 
   - id: sherry-oloroso-old-blend-001
     type: mcq
@@ -1934,6 +2940,17 @@ cards:
         A small share of very old wine adds depth while the younger part brings
         freshness. Houses often keep a few butts of ancient wine purely as a blending
         ingredient.
+    fr:
+      question: "Pourquoi assemble-t-on souvent les très vieux Olorosos avec un Oloroso plus jeune avant la mise en bouteille ?"
+      choices:
+        - { text: "Seuls, ils sont trop intenses et déséquilibrés", correct: true }
+        - { text: "Seuls, ils passent sous le degré minimal légal", correct: false }
+        - { text: "Seuls, ils ont perdu presque toute leur couleur", correct: false }
+        - { text: "Seuls, ils refont un voile de flor en bouteille", correct: false }
+      explanation: |
+        Une petite part de très vieux vin apporte de la profondeur, la part plus jeune
+        de la fraîcheur. Les maisons gardent souvent quelques botas de vin très ancien
+        uniquement pour les assemblages.
 
   - id: sherry-pre-bottling-001
     type: mcq
@@ -1954,6 +2971,17 @@ cards:
       explanation: |
         These steps remove haze and fine deposits so the wine stays bright on the shelf.
         Cold stabilisation is often used as well to drop out tartrate crystals.
+    fr:
+      question: "Quels traitements la plupart des xérès reçoivent-ils juste avant la mise en bouteille ?"
+      choices:
+        - { text: "Collage et filtration", correct: true }
+        - { text: "Fermentation malolactique", correct: false }
+        - { text: "Un second mutage", correct: false }
+        - { text: "Un passage en fût neuf", correct: false }
+      explanation: |
+        Ces étapes éliminent le trouble et les dépôts fins pour que le vin reste
+        limpide en rayon. On pratique souvent aussi une stabilisation par le froid
+        pour faire précipiter les cristaux de tartre.
 
   - id: sherry-en-rama-001
     type: mcq
@@ -1975,6 +3003,17 @@ cards:
         The trade-off is stability: such bottlings can show a light haze and fade
         faster, so they tend to be released in small seasonal batches meant for prompt
         drinking.
+    fr:
+      question: "Pourquoi certains producteurs réduisent-ils aujourd’hui au minimum les traitements du Fino et de la Manzanilla avant la mise en bouteille ?"
+      choices:
+        - { text: "Un vin non filtré se garde plus longtemps", correct: false }
+        - { text: "La filtration est interdite pour ces styles", correct: false }
+        - { text: "Le collage augmenterait leur degré d’alcool", correct: false }
+        - { text: "Trop traiter éteint leurs arômes vifs", correct: true }
+      explanation: |
+        La contrepartie, c’est la stabilité : ces cuvées peuvent présenter un léger
+        trouble et se faner plus vite. Elles sortent donc en petits lots saisonniers,
+        à boire sans attendre.
 
   - id: sherry-dry-style-001
     type: mcq
@@ -1995,6 +3034,17 @@ cards:
       explanation: |
         The other naturally dry styles are Fino, Manzanilla, Amontillado and Oloroso.
         Sweetened blends of these are sold as Medium or Cream.
+    fr:
+      question: "Lequel de ces styles de xérès est naturellement sec ?"
+      choices:
+        - { text: "Pedro Ximénez", correct: false }
+        - { text: "Cream", correct: false }
+        - { text: "Palo Cortado", correct: true }
+        - { text: "Moscatel", correct: false }
+      explanation: |
+        Les autres styles naturellement secs sont le Fino, la Manzanilla,
+        l’Amontillado et l’Oloroso. Adoucis par assemblage, ils sont vendus sous le nom de
+        Medium ou Cream.
 
   - id: sherry-fino-biological-only-001
     type: mcq
@@ -2014,6 +3064,16 @@ cards:
         - { text: "Entirely under flor", correct: true }
       explanation: |
         A wine whose film fails is moved to another style rather than bottled as Fino.
+    fr:
+      question: "Quel parcours d’élevage suivent le Fino et la Manzanilla, du premier classement à la mise en bouteille ?"
+      choices:
+        - { text: "Sous flor, puis en oxydatif", correct: false }
+        - { text: "Entièrement sans flor", correct: false }
+        - { text: "En oxydatif, puis sous flor", correct: false }
+        - { text: "Entièrement sous flor", correct: true }
+      explanation: |
+        Un vin dont le voile disparaît est réorienté vers un autre style au lieu
+        d’être mis en bouteille comme Fino.
 
   - id: sherry-fino-aromas-001
     type: mcq
@@ -2034,6 +3094,16 @@ cards:
       explanation: |
         The bready, dough-like note comes straight from the yeast film. The colour is
         usually pale lemon.
+    fr:
+      question: "Quel profil aromatique correspond le mieux à un Fino jeune ?"
+      choices:
+        - { text: "Raisin sec, figue, café et mélasse", correct: false }
+        - { text: "Agrumes, amande, herbes et pain", correct: true }
+        - { text: "Noix, caramel au beurre, cuir et épices", correct: false }
+        - { text: "Noisette, caramel et écorce d’orange", correct: false }
+      explanation: |
+        La note de pain, de pâte levée, vient directement du voile de levures. La robe
+        est en général jaune citron pâle.
 
   - id: sherry-manzanilla-origin-001
     type: mcq
@@ -2055,6 +3125,17 @@ cards:
         Manzanilla has its own designation, Manzanilla-Sanlúcar de Barrameda, separate
         from Jerez-Xérès-Sherry, even though the grapes can come from across the wider
         zone.
+    fr:
+      question: "Qu’est-ce qui permet de vendre un xérès de type Fino sous le nom de Manzanilla ?"
+      choices:
+        - { text: "Son élevage à Sanlúcar de Barrameda", correct: true }
+        - { text: "Son élevage à El Puerto de Santa María", correct: false }
+        - { text: "Un cépage appelé Manzanilla", correct: false }
+        - { text: "Des raisins issus de vignes côtières", correct: false }
+      explanation: |
+        La Manzanilla a sa propre appellation,
+        Manzanilla-Sanlúcar de Barrameda, distincte de Jerez-Xérès-Sherry, même si
+        les raisins peuvent provenir de toute la zone.
 
   - id: sherry-manzanilla-flor-001
     type: mcq
@@ -2076,6 +3157,17 @@ cards:
         Grapes, pressing and fermentation are the same as for Fino. Sanlúcar sits at the
         mouth of the Guadalquivir, where the estuary and the Atlantic keep the air mild
         and moist.
+    fr:
+      question: "Quel effet l’air marin humide de Sanlúcar a-t-il sur la flor de la Manzanilla ?"
+      choices:
+        - { text: "Il la tue chaque été", correct: false }
+        - { text: "Il la garde épaisse toute l’année", correct: true }
+        - { text: "Il la rend sombre et irrégulière", correct: false }
+        - { text: "Il n’a pas plus d’effet qu’à Jerez", correct: false }
+      explanation: |
+        Raisins, pressurage et fermentation sont les mêmes que pour le Fino. Sanlúcar
+        se trouve à l’embouchure du Guadalquivir, où l’estuaire et l’Atlantique
+        gardent l’air doux et humide.
 
   - id: sherry-manzanilla-tang-001
     type: mcq
@@ -2096,6 +3188,17 @@ cards:
       explanation: |
         Tasters often call both styles tangy or even salty, though the impression comes
         largely from flor-derived compounds rather than from salt in the wine.
+    fr:
+      question: "Par rapport au Fino, en quoi la Manzanilla diffère-t-elle en général dans le verre ?"
+      choices:
+        - { text: "Robe plus foncée, notes de noix plus nettes", correct: false }
+        - { text: "Une note saline plus vive et plus marquée", correct: true }
+        - { text: "Plus de corps et une pointe de sucre", correct: false }
+        - { text: "Plus d’alcool et un goût plus boisé", correct: false }
+      explanation: |
+        On qualifie souvent les deux styles de vins iodés, voire salins, mais cette
+        impression vient surtout de composés issus de la flor plutôt que du sel
+        contenu dans le vin.
 
   - id: sherry-manzanilla-pasada-001
     type: mcq
@@ -2115,3 +3218,13 @@ cards:
         - { text: "Manzanilla Antigua", correct: false }
       explanation: |
         The young, fully flor-aged style is usually labelled simply Manzanilla.
+    fr:
+      question: "Quel terme désigne une Manzanilla plus âgée dont la flor commence à faiblir ?"
+      choices:
+        - { text: "Manzanilla en Rama", correct: false }
+        - { text: "Manzanilla Dorada", correct: false }
+        - { text: "Manzanilla Pasada", correct: true }
+        - { text: "Manzanilla Antigua", correct: false }
+      explanation: |
+        Le style jeune, entièrement élevé sous flor, est en général étiqueté
+        simplement Manzanilla.
