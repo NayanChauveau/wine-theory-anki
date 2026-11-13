@@ -1748,3 +1748,90 @@ cards:
         Other widely declared years this century include 2000, 2003, 2007,
         2016 and 2017. Rain or excess heat at harvest keeps many years off
         the list.
+
+  - id: port-single-quinta-label-001
+    type: mcq
+    deck: Port
+    tags: [port, single-quinta, labelling]
+    status: reviewed
+    source_id: c44-0101
+    review:
+      fact_check: pass
+      sources: [ivdp, taylor-site, world-of-fine-wine]
+    en:
+      question: "On a bottle of Taylor's Quinta de Vargellas Vintage Port, what does the name Quinta de Vargellas indicate?"
+      choices:
+        - { text: "The Gaia lodge where the wine was aged", correct: false }
+        - { text: "The family that founded the shipping house", correct: false }
+        - { text: "The Douro subregion the blend was drawn from", correct: false }
+        - { text: "The single estate that grew the grapes", correct: true }
+      explanation: |
+        A quinta is a Douro farm or estate. A Single Quinta Vintage Port is made
+        from one estate's grapes in one year, under the same production rules as
+        a classic Vintage Port; Graham's Quinta dos Malvedos and Dow's Quinta do
+        Bomfim are other well-known examples.
+
+  - id: port-single-quinta-shipper-strategy-001
+    type: mcq
+    deck: Port
+    tags: [port, single-quinta, vintage]
+    status: reviewed
+    source_id: c44-0104
+    review:
+      fact_check: pass
+      sources: [taylor-site, world-of-fine-wine]
+    en:
+      question: "A shipper owning several estates has a very good year but does not declare a classic Vintage. How is its best estate wine typically released?"
+      choices:
+        - { text: "As a Crusted Port", correct: false }
+        - { text: "As a Single Quinta Vintage Port", correct: true }
+        - { text: "As a Reserve Ruby", correct: false }
+        - { text: "As a 10 Year Old Tawny", correct: false }
+      explanation: |
+        In a declared year the estates rarely appear alone on a label.
+        Taylor's, for example,
+        bottles Quinta de Vargellas or Quinta de Terra Feita separately in good
+        years when no Taylor's Vintage is declared.
+
+  - id: port-single-quinta-prestige-001
+    type: mcq
+    deck: Port
+    tags: [port, single-quinta, vintage]
+    status: reviewed
+    source_id: c44-0105
+    review:
+      fact_check: pass
+      sources: [world-of-fine-wine, taylor-site]
+    en:
+      question: "Within a multi-estate shipper's range, how is its Single Quinta Vintage Port usually ranked against its declared Vintage Port?"
+      choices:
+        - { text: "Above it, as the house's top bottling", correct: false }
+        - { text: "Below the house's Late Bottled Vintage", correct: false }
+        - { text: "A step below, yet still a premium wine", correct: true }
+        - { text: "Level with it, at an identical price", correct: false }
+      explanation: |
+        The house Vintage is reserved for the finest years, so it keeps the
+        higher status. Estate brands differ: Quinta do Vesúvio, sold under its
+        own name, releases a Vintage Port in many years as its flagship.
+
+  - id: port-single-quinta-release-001
+    type: mcq
+    deck: Port
+    tags: [port, single-quinta, maturation]
+    status: reviewed
+    source_id: c44-0106
+    review:
+      fact_check: pass
+      sources: [world-of-fine-wine, taylor-site]
+    en:
+      question: "What release practice has traditionally been common for Single Quinta Vintage Ports?"
+      choices:
+        - { text: "Kept in cask about a decade before bottling", correct: false }
+        - { text: "Held back in bottle until near drinking", correct: true }
+        - { text: "Sold within months of the harvest", correct: false }
+        - { text: "Refreshed with older reserve wine before sale", correct: false }
+      explanation: |
+        Like any Vintage Port they spend little time in wood and do their
+        maturing in bottle. They tend to open up sooner than a classic
+        Vintage, often from about ten years, so a shipper can cellar them and
+        sell them nearly ready; some houses now release them soon after bottling.
