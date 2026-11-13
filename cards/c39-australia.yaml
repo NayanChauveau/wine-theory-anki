@@ -11,7 +11,7 @@ cards:
     source_id: c39-0151
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: [producer-site]
     en:
       question: "Besides its signature white, which white grape is widely planted in the Hunter Valley and made both oaked and unoaked?"
       choices:
@@ -143,7 +143,7 @@ cards:
     source_id: c39-0157
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: [wine-australia]
     en:
       question: "A wine blends Barossa Valley Shiraz and Margaret River Cabernet Sauvignon in roughly equal parts. What is the most specific single GI name it can carry?"
       choices:
@@ -176,7 +176,7 @@ cards:
     source_id: c39-0158
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: [margaret-river-wine-association]
     en:
       question: "Relative to Perth, where does the Margaret River region lie?"
       choices:
@@ -207,7 +207,7 @@ cards:
     source_id: c39-0159
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: [producer-site, margaret-river-wine-association]
     en:
       question: "Which climate description best fits Margaret River?"
       choices:
@@ -307,7 +307,7 @@ cards:
     source_id: c39-0166
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: [wine-western-australia]
     en:
       question: "Which Western Australian region lies south-east of Margaret River, along the state's south coast?"
       choices:
@@ -339,7 +339,7 @@ cards:
     source_id: c39-0167
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: [producer-site, wine-western-australia]
     en:
       question: "Which two Great Southern sub-regions have the strongest name for deeply coloured Cabernet Sauvignon?"
       choices:
@@ -436,7 +436,7 @@ cards:
     source_id: c39-0169
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: [halliday-wine-companion]
     en:
       question: "What first made Tasmanian grapes sought after by mainland Australian wineries?"
       choices:
@@ -469,7 +469,7 @@ cards:
     source_id: c39-0170
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: [wine-australia, wine-tasmania]
     en:
       question: "Which grape covers the largest share of Tasmania's vineyards?"
       choices:
@@ -502,7 +502,7 @@ cards:
     source_id: c39-0172
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: [wine-australia]
     en:
       question: "Which Victorian name is a GI zone rather than a region?"
       choices:
@@ -534,7 +534,7 @@ cards:
     source_id: c39-0175
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: [wine-australia, wine-australia-regulations]
     en:
       question: "Which test must an area meet to be registered as a GI region in Australia?"
       choices:
@@ -544,7 +544,7 @@ cards:
         - { text: "Have a consistent, distinct character", correct: true }
       explanation: |
         There is also a size floor: at least five independently owned vineyards of 5 ha
-        or more, together harvesting at least 500 tonnes a year. Regions vary widely in
+        or more, usually harvesting at least 500 tonnes a year between them. Regions vary widely in
         area but are smaller than the zones above them.
     fr:
       question: "Quel critère une aire doit-elle remplir pour être enregistrée comme région d’IG en Australie ?"
@@ -555,8 +555,8 @@ cards:
         - { text: "Présenter un caractère homogène et distinct", correct: true }
       explanation: |
         Il existe aussi un seuil de taille : au moins cinq vignobles de 5 ha ou
-        plus, appartenant à des propriétaires différents, qui récoltent ensemble
-        au moins 500 tonnes par an. La superficie des régions varie beaucoup,
+        plus, appartenant à des propriétaires différents, qui récoltent en
+        général au moins 500 tonnes par an à eux tous. La superficie des régions varie beaucoup,
         mais elles restent plus petites que les zones qui les englobent.
 
   - id: aus-gi-subregion-001
@@ -757,7 +757,7 @@ cards:
     source_id: c39-0107
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: [wine-yarra-valley, producer-site]
     en:
       question: "Which climate label best fits the Yarra Valley?"
       choices:
@@ -1353,7 +1353,7 @@ cards:
     source_id: c39-0137
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: [known-fact, producer-site]
     en:
       question: "Which grape covers the most vineyard area in the Goulburn Valley?"
       choices:
@@ -1383,7 +1383,7 @@ cards:
     source_id: c39-0138
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: [producer-site]
     en:
       question: "Which white grape is the Goulburn Valley's best-known speciality?"
       choices:
@@ -1628,7 +1628,7 @@ cards:
     source_id: c39-0143
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: [wine-australia]
     en:
       question: "Which pair of New South Wales regions is noticeably cooler than the Hunter Valley?"
       choices:
@@ -1661,7 +1661,7 @@ cards:
     source_id: c39-0144
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: [wine-australia]
     en:
       question: "Where does the Orange wine region lie?"
       choices:
@@ -1921,7 +1921,7 @@ cards:
     source_id: c39-0008
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: [wine-australia]
     en:
       question: "Which summer hazard, beyond drought itself, most regularly threatens Australian wine regions?"
       choices:
@@ -2351,7 +2351,7 @@ cards:
     source_id: c39-0029
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: [decanter]
     en:
       question: "Which warm-climate region is a leading source of premium Australian Chardonnay?"
       choices:
@@ -2361,8 +2361,8 @@ cards:
         - { text: "Rutherglen", correct: false }
       explanation: |
         Leeuwin Estate's Art Series Chardonnay, first made in 1980, set the
-        region's reputation. Each vintage's label carries a work commissioned
-        from an Australian artist.
+        region's reputation. Each vintage's label carries a work by an
+        Australian artist.
     fr:
       question: "Quelle région au climat chaud est une source majeure de Chardonnay australien haut de gamme ?"
       choices:
@@ -2373,7 +2373,7 @@ cards:
       explanation: |
         L’Art Series Chardonnay de Leeuwin Estate, produit pour la première fois
         en 1980, a fait la réputation de la région. Chaque millésime porte sur
-        l’étiquette une œuvre commandée à un artiste australien.
+        l’étiquette une œuvre d’un artiste australien.
 
   - id: aus-chardonnay-top-style-001
     type: mcq
@@ -2482,7 +2482,7 @@ cards:
     source_id: c39-0037
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: [known-fact, regional-press]
     en:
       question: "Which region is the classic home of Australia's long-lived dry Semillon?"
       choices:
@@ -2492,7 +2492,7 @@ cards:
         - { text: "Coonawarra", correct: false }
       explanation: |
         This style has no close equivalent elsewhere, so it is often called
-        uniquely Australian. Tyrrell's Vat 1 and McWilliam's Lovedale are
+        uniquely Australian. Tyrrell's Vat 1 and Mount Pleasant's Lovedale are
         benchmark examples, released with some bottle age.
     fr:
       question: "Quelle région est le berceau classique du Sémillon sec australien de longue garde ?"
@@ -2503,7 +2503,7 @@ cards:
         - { text: "Coonawarra", correct: false }
       explanation: |
         Ce style n’a guère d’équivalent ailleurs, d’où sa réputation de vin
-        typiquement australien. Tyrrell’s Vat 1 et McWilliam’s Lovedale en sont
+        typiquement australien. Tyrrell’s Vat 1 et le Lovedale de Mount Pleasant en sont
         des références, commercialisées après quelques années en bouteille.
 
   - id: aus-semillon-classic-picking-001
@@ -2740,7 +2740,7 @@ cards:
     source_id: c39-0047
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: [wine-australia]
     en:
       question: "Which Australian GI lets a brand blend fruit from vineyards in several states?"
       choices:
@@ -2749,10 +2749,11 @@ cards:
         - { text: "South Eastern Australia", correct: true }
         - { text: "Limestone Coast", correct: false }
       explanation: |
-        It is a "super-zone", the largest in the country. It covers all of New
-        South Wales, Victoria and Tasmania plus the wine areas of South
-        Australia and southern Queensland: everything except Western
-        Australia. The other three are single zones within one state.
+        It is a multi-state GI, often called a "super zone". It covers all of
+        New South Wales, Victoria, Tasmania and the ACT, plus the south-east of
+        Queensland and South Australia, which takes in all their wine regions.
+        Western Australia lies wholly outside it. The other three are single
+        zones within one state.
     fr:
       question: "Quelle indication géographique (IG) australienne permet à une marque d’assembler des raisins de vignobles situés dans plusieurs États ?"
       choices:
@@ -2761,10 +2762,11 @@ cards:
         - { text: "South Eastern Australia", correct: true }
         - { text: "Limestone Coast", correct: false }
       explanation: |
-        C’est une « super-zone », la plus vaste du pays. Elle couvre toute la
-        Nouvelle-Galles du Sud, le Victoria et la Tasmanie, plus les zones
-        viticoles de l’Australie-Méridionale et du sud du Queensland : tout,
-        sauf l’Australie-Occidentale. Les trois autres sont de simples zones
+        C’est une IG qui s’étend sur plusieurs États, souvent appelée
+        « super-zone ». Elle couvre toute la Nouvelle-Galles du Sud, le
+        Victoria, la Tasmanie et l’ACT, plus le sud-est du Queensland et de
+        l’Australie-Méridionale, où se trouvent toutes leurs régions
+        viticoles. L’Australie-Occidentale en est entièrement exclue. Les trois autres sont de simples zones
         situées dans un seul État.
 
   - id: aus-inland-bulk-regions-001
@@ -2872,7 +2874,7 @@ cards:
     source_id: c39-0051
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: [producer-site, decanter]
     en:
       question: "Which grape is used for the nobly rotten sweet wines that are a speciality of Australia's Riverina?"
       choices:
@@ -2938,7 +2940,7 @@ cards:
     source_id: c39-0053
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: [wine-australia]
     en:
       question: "Which Australian state produces the largest share of the country's wine?"
       choices:
@@ -3460,7 +3462,7 @@ cards:
     source_id: c39-0070
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: [wine-australia]
     en:
       question: "Where does the Clare Valley lie relative to the Barossa Valley?"
       choices:
@@ -3470,8 +3472,9 @@ cards:
         - { text: "To the south-west", correct: false }
       explanation: |
         It is the most northerly of South Australia's classic regions,
-        about 120 km from Adelaide. Watervale and Polish Hill River are
-        among its best-known subregions.
+        roughly two hours' drive north of Adelaide. Watervale and Polish Hill
+        River are among its best-known districts, though none is a registered
+        subregion.
     fr:
       question: "Où se situe la Clare Valley par rapport à la Barossa Valley ?"
       choices:
@@ -3481,8 +3484,9 @@ cards:
         - { text: "Au sud-ouest", correct: false }
       explanation: |
         C’est la plus septentrionale des régions classiques
-        d’Australie-Méridionale, à environ 120 km d’Adélaïde. Watervale et
-        Polish Hill River comptent parmi ses sous-régions les plus connues.
+        d’Australie-Méridionale, à environ deux heures de route au nord
+        d’Adélaïde. Watervale et Polish Hill River comptent parmi ses secteurs
+        les plus connus, sans être des sous-régions officielles.
 
   - id: aus-clare-climate-001
     type: mcq
@@ -3525,26 +3529,28 @@ cards:
     source_id: c39-0073
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: [wine-australia]
     en:
       question: "At roughly what altitude are many Clare Valley vineyards planted?"
       choices:
         - { text: "About 50–150 m", correct: false }
-        - { text: "About 300–400 m", correct: true }
+        - { text: "About 300–500 m", correct: true }
         - { text: "About 650–800 m", correct: false }
         - { text: "About 1,000–1,200 m", correct: false }
       explanation: |
-        A few sites climb close to 570 m. Elevation, more than latitude,
+        The full range runs from under 200 m to just over 600 m. Elevation,
+        more than latitude,
         explains how a region this far from the coast keeps its wines fresh.
     fr:
       question: "À quelle altitude environ sont plantés de nombreux vignobles de la Clare Valley ?"
       choices:
         - { text: "Environ 50–150 m", correct: false }
-        - { text: "Environ 300–400 m", correct: true }
+        - { text: "Environ 300–500 m", correct: true }
         - { text: "Environ 650–800 m", correct: false }
         - { text: "Environ 1 000–1 200 m", correct: false }
       explanation: |
-        Quelques sites approchent les 570 m. Plus que la latitude, c’est
+        L’ensemble s’étage d’un peu moins de 200 m à un peu plus de 600 m.
+        Plus que la latitude, c’est
         l’altitude qui explique qu’une région si éloignée de la côte donne
         des vins frais.
 
@@ -3683,7 +3689,7 @@ cards:
     source_id: c39-0080
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: [wine-australia]
     en:
       question: "Which altitude band holds most Adelaide Hills vineyards?"
       choices:
@@ -3934,7 +3940,7 @@ cards:
     source_id: c39-0090
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: [producer-site]
     en:
       question: "Besides Shiraz, which grape gives McLaren Vale's deepest and most complex old-vine reds?"
       choices:
