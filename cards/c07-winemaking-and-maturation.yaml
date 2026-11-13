@@ -110,7 +110,7 @@ cards:
     source_id: c07-0005
     review:
       fact_check: unsure
-      sources: [known-fact]
+      sources: [dgccrf]
     en:
       question: In loose cellar talk, what does “natural wine” usually point to?
       choices:
@@ -528,7 +528,7 @@ cards:
     source_id: c07-0013
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: [university-extension]
     en:
       question: By weight, what makes up most of the juicy flesh inside a grape berry?
       choices:
@@ -537,9 +537,9 @@ cards:
         - { text: "Water", correct: true }
         - { text: "Tannin", correct: false }
       explanation: |
-        Water usually makes up around 70–80% of the pulp. That is why heavy
-        rain just before harvest can swell the berries and dilute their sugar
-        and flavour. Sugar comes next; acids weigh far less.
+        Water usually makes up roughly three-quarters or more of the pulp.
+        That is why heavy rain just before harvest can swell the berries and
+        dilute their sugar and flavour. Sugar comes next; acids weigh far less.
     fr:
       question: En poids, quel constituant forme l’essentiel de la pulpe d’une baie de raisin ?
       choices:
@@ -548,9 +548,9 @@ cards:
         - { text: "L’eau", correct: true }
         - { text: "Les tanins", correct: false }
       explanation: |
-        L’eau représente en général 70 à 80 % de la pulpe. C’est pourquoi une
-        forte pluie juste avant les vendanges peut gonfler les baies et diluer
-        leur sucre et leurs arômes. Le sucre vient ensuite ; les acides pèsent
+        L’eau représente en général les trois quarts de la pulpe, voire
+        davantage. C’est pourquoi une forte pluie juste avant les vendanges
+        peut gonfler les baies et diluer leur sucre et leurs arômes. Le sucre vient ensuite ; les acides pèsent
         bien moins.
 
   - id: wine-pulp-sugar-001
@@ -1714,7 +1714,7 @@ cards:
     source_id: c07-0040
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: [eu-regulation]
     en:
       question: "Why are sulphur dioxide additions capped by law rather than left unlimited?"
       choices:
@@ -1747,7 +1747,7 @@ cards:
     source_id: c07-0041
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: [eu-regulation]
     en:
       question: "Which common winery addition can provoke a reaction in sensitive drinkers at modest doses?"
       choices:
@@ -2725,7 +2725,7 @@ cards:
     source_id: c07-0088
     review:
       fact_check: pass
-      sources: [industry, aoc-site]
+      sources: [umc-champagne, industry]
     en:
       question: Which mechanism identifies a traditional vertical basket press?
       choices:
@@ -2737,8 +2737,8 @@ cards:
         The basket supports the grapes while a screw-, lever- or
         hydraulically driven plate applies force from above. The open or
         slotted sides provide a path for the liquid. Traditional vertical
-        presses remain in use, including a minority of the press fleet in
-        Champagne, alongside modern horizontal designs.
+        presses remain in use alongside modern horizontal designs; in
+        Champagne they still make up close to half of the press fleet.
     fr:
       question: "Quel mécanisme caractérise un pressoir vertical traditionnel ?"
       choices:
@@ -2750,8 +2750,8 @@ cards:
         La cage retient les raisins tandis qu’un plateau, actionné par une vis,
         un levier ou un vérin hydraulique, presse par le dessus. Les flancs
         ajourés laissent passer le jus. Les pressoirs verticaux traditionnels
-        restent en service, y compris pour une part minoritaire du parc
-        champenois, à côté des modèles horizontaux modernes.
+        restent en service à côté des modèles horizontaux modernes ; en
+        Champagne, ils représentent encore près de la moitié du parc.
 
   - id: wine-pneumatic-membrane-press-001
     type: mcq
@@ -2941,7 +2941,7 @@ cards:
     source_id: c07-0100
     review:
       fact_check: pass
-      sources: [oiv, regulation]
+      sources: [eu-regulation, oiv]
     en:
       question: Which description best identifies rectified concentrated grape must (RCGM)?
       choices:
@@ -3906,9 +3906,9 @@ cards:
         The matched alternatives isolate duration, air in the headspace or
         vessel choice. Short maturation in a full, closed stainless tank limits
         both oxygen exposure and the time available for primary aromas to fade
-        or be masked. Wine Australia notes that most Australian Rieslings are
-        bottled early to capture vibrant fruit, although longer lees or
-        neutral-oak maturation can be valid choices for a different style.
+        or be masked. Wine Australia describes most Riesling as made for early
+        drinking and ready on release, although longer lees or neutral-oak
+        maturation can be valid choices for a different style.
     fr:
       question: "Un producteur veut qu’un blanc aromatique jeune arrive en bouteille avec un fruit primaire bien présent. Quel élevage correspond le mieux à cet objectif ?"
       choices:
@@ -3921,7 +3921,7 @@ cards:
         contenant. Un élevage court en inox plein et fermé limite à la fois
         l’oxygène et le temps pendant lequel les arômes primaires s’estompent ou
         se font masquer. Wine Australia rappelle que la plupart des Rieslings
-        australiens sont mis en bouteille tôt pour garder un fruit éclatant ; un
+        sont faits pour être bus jeunes, prêts dès leur sortie ; un
         élevage plus long sur lies ou en bois neutre reste valable pour un autre
         style.
 
@@ -3971,7 +3971,7 @@ cards:
     source_id: c07-0150
     review:
       fact_check: pass
-      sources: [extension, research]
+      sources: [inao, extension, research]
     en:
       question: A winery can coferment two parcels or ferment them separately before blending. Which comparison is most accurate?
       choices:
@@ -3982,9 +3982,9 @@ cards:
       explanation: |
         Blending can occur before fermentation, after separate fermentations,
         during maturation or near bottling. An early cofermentation commits the
-        proportions and may help integration, as with the Syrah cofermented with
-        a little Viognier in Côte-Rôtie; keeping components separate retains
-        more options. Bench trials and repeated tasting let the timing serve the
+        proportions and may help integration, as with the Syrah traditionally
+        cofermented with a little Viognier in Côte-Rôtie; keeping components
+        separate retains more options. Bench trials and repeated tasting let the timing serve the
         intended balance and style rather than a fixed calendar rule.
     fr:
       question: "Une cave peut cofermenter deux parcelles ou les vinifier séparément avant assemblage. Quelle comparaison est la plus juste ?"
@@ -3997,7 +3997,8 @@ cards:
         On peut assembler avant fermentation, après des fermentations séparées,
         pendant l’élevage ou juste avant la mise. Cofermenter engage les
         proportions dès le départ et peut aider à l’intégration : c’est le cas de
-        la Syrah cofermentée avec un peu de Viognier en Côte-Rôtie. Garder les
+        la Syrah traditionnellement cofermentée avec un peu de Viognier en
+        Côte-Rôtie. Garder les
         lots séparés laisse plus de choix ; essais d’assemblage et dégustations
         répétées calent ensuite le moment sur l’équilibre et le style visés.
 
@@ -4009,7 +4010,7 @@ cards:
     source_id: c07-0153
     review:
       fact_check: pass
-      sources: [oiv, official-regulation]
+      sources: [eu-regulation, oiv]
     en:
       question: A proposed blend tastes sound and balanced, but the producer wants to retain a named origin, grape variety and vintage on the label. What should be confirmed before the blend is finalised?
       choices:
