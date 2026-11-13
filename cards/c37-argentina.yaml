@@ -2,4 +2,962 @@
 # source: C37 (import/inbox/c37-argentina.yaml)
 # deck: Argentina
 
-cards: []
+cards:
+  - id: argentina-oasis-vineyards-001
+    type: mcq
+    deck: Argentina
+    tags: [argentina, geography]
+    status: reviewed
+    source_id: c37-0001
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which description best fits the setting of most of Argentina's vineyards?"
+      choices:
+        - { text: "Rain-fed plains around Buenos Aires", correct: false }
+        - { text: "Irrigated oases in desert near the Andes", correct: true }
+        - { text: "Humid lowlands along the Paraná River", correct: false }
+        - { text: "Cool coastal valleys open to the Atlantic", correct: false }
+      explanation: |
+        Each oasis exists only where river water can be led onto the land. Mendoza
+        city grew up around one, and the cultivated area is a small share of the
+        province; the rest is dry scrub.
+
+  - id: argentina-vineyard-span-001
+    type: mcq
+    deck: Argentina
+    tags: [argentina, geography]
+    status: reviewed
+    source_id: c37-0002
+    review:
+      fact_check: pass
+      sources: [known-fact, trade-press]
+    en:
+      question: "From the far north of the country to northern Patagonia, roughly how far do Argentina's main vineyard areas stretch?"
+      choices:
+        - { text: "About 300 km", correct: false }
+        - { text: "About 700 km", correct: false }
+        - { text: "About 4,000 km", correct: false }
+        - { text: "About 1,500 km", correct: true }
+      explanation: |
+        That covers roughly 25° S to 39° S. Newer outposts push the range further,
+        from Jujuy in the north to Chubut in the south.
+
+  - id: argentina-northern-limit-001
+    type: mcq
+    deck: Argentina
+    tags: [argentina, geography, salta]
+    status: reviewed
+    source_id: c37-0003
+    review:
+      fact_check: pass
+      sources: [known-fact, wines-of-argentina]
+    en:
+      question: "Which province marks the northern end of Argentina's main chain of wine regions?"
+      choices:
+        - { text: "La Rioja", correct: false }
+        - { text: "Catamarca", correct: false }
+        - { text: "Salta", correct: true }
+        - { text: "San Juan", correct: false }
+      explanation: |
+        Its wine town of Cafayate lies at about 26° S, close to the Tropic of
+        Capricorn. Neighbouring Jujuy, further north still, has only a handful of
+        small, recent plantings.
+
+  - id: argentina-altitude-range-001
+    type: mcq
+    deck: Argentina
+    tags: [argentina, geography, altitude]
+    status: reviewed
+    source_id: c37-0004
+    review:
+      fact_check: pass
+      sources: [known-fact, trade-press]
+    en:
+      question: "At what altitude do most of Argentina's vineyards lie?"
+      choices:
+        - { text: "Roughly 600 to 1,500 m", correct: true }
+        - { text: "Below about 200 m", correct: false }
+        - { text: "Roughly 200 to 500 m", correct: false }
+        - { text: "Above about 2,000 m", correct: false }
+      explanation: |
+        Even Mendoza city, on the plain below the foothills, stands at about 750 m.
+        Air cools as it rises, so these heights take the edge off the heat.
+
+  - id: argentina-low-altitude-provinces-001
+    type: mcq
+    deck: Argentina
+    tags: [argentina, geography, altitude, patagonia]
+    status: reviewed
+    source_id: c37-0004
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which pair of Argentine provinces has vineyards well below the altitude typical of the rest of the country?"
+      choices:
+        - { text: "Salta and Catamarca", correct: false }
+        - { text: "San Juan and La Rioja", correct: false }
+        - { text: "Río Negro and Neuquén", correct: true }
+        - { text: "Mendoza and Salta", correct: false }
+      explanation: |
+        Their vineyards sit on terraces along the Negro and Neuquén rivers, which
+        supply the irrigation water. The Alto Valle around General Roca is the
+        historic centre.
+
+  - id: argentina-highest-vineyards-001
+    type: mcq
+    deck: Argentina
+    tags: [argentina, salta, altitude]
+    status: reviewed
+    source_id: c37-0006
+    review:
+      fact_check: pass
+      sources: [producer-site, trade-press]
+    en:
+      question: "Which Argentine province is best known for vineyards that regularly reach 2,000 m or more?"
+      choices:
+        - { text: "Mendoza", correct: false }
+        - { text: "San Juan", correct: false }
+        - { text: "La Rioja", correct: false }
+        - { text: "Salta", correct: true }
+      explanation: |
+        Most of these plantings line the Calchaquí Valleys, a chain of dry valleys
+        in the west of the province.
+
+  - id: argentina-altitude-latitude-001
+    type: mcq
+    deck: Argentina
+    tags: [argentina, altitude, climate]
+    status: reviewed
+    source_id: c37-0007
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "What do Argentina's very high vineyards make possible?"
+      choices:
+        - { text: "Enough rainfall to farm without irrigation", correct: false }
+        - { text: "Springs largely free of frost risk", correct: false }
+        - { text: "Cool enough sites at low latitude", correct: true }
+        - { text: "Warmer nights for fuller ripening", correct: false }
+      explanation: |
+        Air cools by roughly 0.6 °C for every 100 m of height, so a site at 1,700 m
+        averages about 10 °C cooler than sea level at the same latitude. Few
+        countries can find temperate sites so near the tropics.
+
+  - id: argentina-parral-name-001
+    type: mcq
+    deck: Argentina
+    tags: [argentina, viticulture, training]
+    status: reviewed
+    source_id: c37-0009
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "What is the overhead pergola training long used in Argentina called locally?"
+      choices:
+        - { text: "Espaldero", correct: false }
+        - { text: "Parral", correct: true }
+        - { text: "Cabeza", correct: false }
+        - { text: "Lira", correct: false }
+      explanation: |
+        The word means a vine arbour in Spanish. Espaldero is the local term for a
+        vertical trellis, cabeza a head-trained bush vine and lira a lyre.
+
+  - id: argentina-parral-shade-001
+    type: mcq
+    deck: Argentina
+    tags: [argentina, viticulture, training, climate]
+    status: reviewed
+    source_id: c37-0010
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Why did overhead pergolas suit Argentina's hot traditional vineyards?"
+      choices:
+        - { text: "They exposed the bunches to more sun", correct: false }
+        - { text: "They allowed harvesting by machine", correct: false }
+        - { text: "They cut yields to concentrate flavour", correct: false }
+        - { text: "They held bunches high and in shade", correct: true }
+      explanation: |
+        Bunches hang under a leafy roof, away from heat reflected off the ground.
+        The large canopy also carries the big crops of fertile, irrigated soils,
+        which suited the bulk-wine era.
+
+  - id: argentina-parral-torrontes-001
+    type: mcq
+    deck: Argentina
+    tags: [argentina, viticulture, training, torrontes]
+    status: reviewed
+    source_id: c37-0011
+    review:
+      fact_check: pass
+      sources: [trade-press, producer-site]
+    en:
+      question: "For which grape is overhead parral training still widely used in Argentina?"
+      choices:
+        - { text: "Torrontés", correct: true }
+        - { text: "Pinot Noir", correct: false }
+        - { text: "Cabernet Sauvignon", correct: false }
+        - { text: "Chardonnay", correct: false }
+      explanation: |
+        The leafy roof shields the bunches from fierce sun, which helps protect the
+        delicate aromas and keeps bitterness in check. High-yielding pink Criolla
+        grapes for everyday wine are also often grown this way.
+
+  - id: argentina-vsp-black-grapes-001
+    type: mcq
+    deck: Argentina
+    tags: [argentina, viticulture, training]
+    status: reviewed
+    source_id: c37-0012
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "How are many of Argentina's black grapes now trained?"
+      choices:
+        - { text: "As untrained free-standing bush vines", correct: false }
+        - { text: "On vertical shoot-positioned trellises", correct: true }
+        - { text: "On a Geneva double curtain", correct: false }
+        - { text: "Under high overhead parral roofs", correct: false }
+      explanation: |
+        Vertical trellises make yield control and mechanisation easier. Growers still
+        leave enough leaves above the bunches to shade them from strong sun.
+
+  - id: argentina-rain-shadow-001
+    type: mcq
+    deck: Argentina
+    tags: [argentina, climate, rainfall]
+    status: reviewed
+    source_id: c37-0013
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "What is the main reason rainfall is so low in most of Argentina's wine regions?"
+      choices:
+        - { text: "A cold ocean current along the nearby coast", correct: false }
+        - { text: "Steady high pressure over the Atlantic", correct: false }
+        - { text: "Dry winds blowing south from the Chaco", correct: false }
+        - { text: "The rain shadow cast by the Andes", correct: true }
+      explanation: |
+        Moist Pacific air drops its rain and snow on the Chilean side. By the time it
+        crosses the peaks it is dry, and Mendoza city sees only about 200 mm a year.
+
+  - id: argentina-flood-irrigation-001
+    type: mcq
+    deck: Argentina
+    tags: [argentina, viticulture, irrigation]
+    status: reviewed
+    source_id: c37-0014
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which irrigation method was traditionally widespread in Argentina's vineyards?"
+      choices:
+        - { text: "Drip lines fed by wells", correct: false }
+        - { text: "Flooding rows from canals", correct: true }
+        - { text: "Overhead sprinklers", correct: false }
+        - { text: "Rainwater stored in tanks", correct: false }
+      explanation: |
+        Mendoza's canal network has roots in channels dug by the Huarpe people before
+        the Spanish arrived. Flooding also makes life hard for phylloxera, one reason
+        many old vines are ungrafted.
+
+  - id: argentina-aquifer-water-001
+    type: mcq
+    deck: Argentina
+    tags: [argentina, viticulture, irrigation]
+    status: reviewed
+    source_id: c37-0015
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Besides rivers running off the mountains, where does Argentina's vineyard irrigation water come from?"
+      choices:
+        - { text: "Rainwater held in farm ponds", correct: false }
+        - { text: "Water piped from Patagonian lakes", correct: false }
+        - { text: "Canals drawing on the Paraná River", correct: false }
+        - { text: "Wells tapping underground aquifers", correct: true }
+      explanation: |
+        Pumping lets growers farm land beyond the canal network and top up supply in
+        dry years. Over-pumping can raise the salt content of the groundwater.
+
+  - id: argentina-drip-irrigation-001
+    type: mcq
+    deck: Argentina
+    tags: [argentina, viticulture, irrigation]
+    status: reviewed
+    source_id: c37-0016
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Why do newer Argentine vineyards tend to use drip irrigation rather than flooding?"
+      choices:
+        - { text: "It uses scarce water more efficiently", correct: true }
+        - { text: "It holds phylloxera back more effectively", correct: false }
+        - { text: "It washes more salt out of the soil", correct: false }
+        - { text: "It cools the canopy during heatwaves", correct: false }
+      explanation: |
+        Water goes only to the root zone and in measured doses. Drip lines can also
+        carry nutrients, and they reach sloping or stony sites that flood channels
+        cannot.
+
+  - id: argentina-spring-frost-001
+    type: mcq
+    deck: Argentina
+    tags: [argentina, climate, hazards]
+    status: reviewed
+    source_id: c37-0017
+    review:
+      fact_check: pass
+      sources: [known-fact, inv-anuario-cosecha-2023, decanter-argentina-harvest-2023]
+    en:
+      question: "Besides drought and summer hail, which seasonal hazard threatens Argentina's vineyards?"
+      choices:
+        - { text: "Waterlogged soils in winter", correct: false }
+        - { text: "Spring frost", correct: true }
+        - { text: "Midwinter freezes that kill vines", correct: false }
+        - { text: "Long cloudy spells in summer", correct: false }
+      explanation: |
+        Clear, still nights let cold air pool on low ground just after budburst.
+        Frosts in late 2022 were a major reason the 2023 harvest was one of the
+        smallest on record.
+
+  - id: argentina-mendoza-hail-001
+    type: mcq
+    deck: Argentina
+    tags: [argentina, mendoza, climate, hazards]
+    status: reviewed
+    source_id: c37-0019
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "In which Argentine province is summer hail an especially serious risk for vineyards?"
+      choices:
+        - { text: "Salta", correct: false }
+        - { text: "Río Negro", correct: false }
+        - { text: "Mendoza", correct: true }
+        - { text: "La Rioja", correct: false }
+      explanation: |
+        Many growers there rank it as their worst seasonal hazard. Violent storms build
+        over the foothills, and one cell can strip leaves and split berries on one
+        estate while sparing the next.
+
+  - id: argentina-hail-netting-001
+    type: mcq
+    deck: Argentina
+    tags: [argentina, viticulture, hazards]
+    status: reviewed
+    source_id: c37-0020
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which protection do many Argentine growers install against summer hail?"
+      choices:
+        - { text: "Wind machines", correct: false }
+        - { text: "Overhead sprinklers", correct: false }
+        - { text: "Smudge pots between rows", correct: false }
+        - { text: "Netting over the rows", correct: true }
+      explanation: |
+        The drawback is cost: the nets and their posts are expensive to buy, fit and
+        maintain, so they are most common on premium sites.
+
+  - id: argentina-multi-site-risk-001
+    type: mcq
+    deck: Argentina
+    tags: [argentina, viticulture, hazards]
+    status: reviewed
+    source_id: c37-0021
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "How have Argentine producers traditionally spread their weather risk?"
+      choices:
+        - { text: "Picking early, before the summer storms", correct: false }
+        - { text: "Selling the crop forward each spring", correct: false }
+        - { text: "Owning vineyards in several areas", correct: true }
+        - { text: "Growing a single hardy variety", correct: false }
+      explanation: |
+        Hail and frost strike locally, so a storm that ruins one plot can miss
+        another a few kilometres away. The spread of sites also gives the winemaker
+        more options at the blending stage.
+
+  - id: argentina-fungal-disease-001
+    type: mcq
+    deck: Argentina
+    tags: [argentina, viticulture, disease]
+    status: reviewed
+    source_id: c37-0022
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which group of vineyard problems is generally uncommon in Argentina?"
+      choices:
+        - { text: "Sunburn on exposed bunches", correct: false }
+        - { text: "Water stress in midsummer", correct: false }
+        - { text: "Salt build-up in irrigated soils", correct: false }
+        - { text: "Rot and mildew", correct: true }
+      explanation: |
+        Spores of downy mildew and grey rot need moisture on leaves and fruit to
+        infect. With low humidity and little rain, growers spray far less often than
+        in a maritime region such as Bordeaux.
+
+  - id: argentina-organic-001
+    type: mcq
+    deck: Argentina
+    tags: [argentina, viticulture, organic]
+    status: reviewed
+    source_id: c37-0023
+    review:
+      fact_check: pass
+      sources: [known-fact, producer-site, trade-press]
+    en:
+      question: "In sustainable grape growing, what is Argentina an important source of?"
+      choices:
+        - { text: "Dry-farmed grapes from unirrigated vines", correct: false }
+        - { text: "Organically grown grapes", correct: true }
+        - { text: "Grapes from fungus-resistant hybrid vines", correct: false }
+        - { text: "Grapes ripened under plastic tunnels", correct: false }
+      explanation: |
+        Domaine Bousquet, founded in Mendoza by a French family, has become one of the
+        country's best-known exporters of certified organic wine.
+
+  - id: argentina-malbec-flagship-001
+    type: mcq
+    deck: Argentina
+    tags: [argentina, malbec, grape-variety]
+    status: reviewed
+    source_id: c37-0024
+    review:
+      fact_check: pass
+      sources: [wines-of-argentina, mendoza-gov-dia-malbec, losandes-dia-malbec]
+    en:
+      question: "Which black grape is Argentina's flagship variety?"
+      choices:
+        - { text: "Bonarda", correct: false }
+        - { text: "Cabernet Sauvignon", correct: false }
+        - { text: "Syrah", correct: false }
+        - { text: "Malbec", correct: true }
+      explanation: |
+        Malbec World Day falls on 17 April, recalling the day in 1853 when a plan for
+        an agricultural school in Mendoza went before the provincial legislature. The
+        French agronomist hired to run it, Michel Pouget, brought in French vines,
+        Malbec among them.
+
+  - id: argentina-malbec-world-share-001
+    type: mcq
+    deck: Argentina
+    tags: [argentina, malbec, plantings]
+    status: reviewed
+    source_id: c37-0025
+    review:
+      fact_check: pass
+      sources: [inv-informe-malbec-2024, trade-press]
+    en:
+      question: "Roughly what share of the world's Malbec vineyards lies in Argentina?"
+      choices:
+        - { text: "About one-tenth", correct: false }
+        - { text: "About three-quarters", correct: true }
+        - { text: "About one-third", correct: false }
+        - { text: "About half", correct: false }
+      explanation: |
+        Argentina had about 47,000 ha of Malbec in 2024. France is a distant second, with
+        most of its plantings in and around Cahors.
+
+  - id: argentina-malbec-style-001
+    type: mcq
+    deck: Argentina
+    tags: [argentina, malbec, style]
+    status: reviewed
+    source_id: c37-0026
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which profile best describes typical Argentine Malbec?"
+      choices:
+        - { text: "Medium colour, red fruit, light body, low tannins", correct: false }
+        - { text: "Deep colour, black fruit, high acidity, rustic tannins", correct: false }
+        - { text: "Deep colour, black fruit, full body, smooth tannins", correct: true }
+        - { text: "Pale colour, red cherry, high acidity, firm tannins", correct: false }
+      explanation: |
+        Strong sunlight builds thick, dark skins, and long warm seasons ripen the
+        tannins fully, so they feel plush even when levels are high.
+
+  - id: argentina-malbec-gentle-extraction-001
+    type: mcq
+    deck: Argentina
+    tags: [argentina, malbec, winemaking, style]
+    status: reviewed
+    source_id: c37-0027
+    review:
+      fact_check: pass
+      sources: [producer-site, trade-press]
+    en:
+      question: "Which winemaking change lies behind the more elegant style of Argentine Malbec now being made?"
+      choices:
+        - { text: "Longer maceration after fermentation", correct: false }
+        - { text: "Gentler extraction", correct: true }
+        - { text: "More time in new oak", correct: false }
+        - { text: "Later picking for riper fruit", correct: false }
+      explanation: |
+        Sebastián Zuccardi, for one, picks on the early side and ages much of his
+        Malbec in concrete rather than barrels.
+
+  - id: argentina-malbec-oak-001
+    type: mcq
+    deck: Argentina
+    tags: [argentina, malbec, oak]
+    status: reviewed
+    source_id: c37-0029
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "What does oak maturation usually add to premium Argentine Malbec?"
+      choices:
+        - { text: "Subtle spicy notes", correct: true }
+        - { text: "Green, leafy notes", correct: false }
+        - { text: "Nutty, oxidative notes", correct: false }
+        - { text: "Earthy, farmyard notes", correct: false }
+      explanation: |
+        Most high-quality Malbec spends time in barrel, very often French oak. The
+        aim is spice and texture that frame the fruit rather than bury it.
+
+  - id: argentina-malbec-spread-001
+    type: mcq
+    deck: Argentina
+    tags: [argentina, malbec, regions]
+    status: reviewed
+    source_id: c37-0030
+    review:
+      fact_check: pass
+      sources: [inv]
+    en:
+      question: "How widely is Malbec grown across Argentina's wine regions?"
+      choices:
+        - { text: "Largely limited to the far north", correct: false }
+        - { text: "Largely limited to Patagonia", correct: false }
+        - { text: "Largely limited to San Juan", correct: false }
+        - { text: "In practically every one of them", correct: true }
+      explanation: |
+        Mendoza holds the great majority of the area, yet examples come from Salta to
+        Patagonia, which is why the grape shows clear regional differences.
+
+  - id: argentina-malbec-altitude-style-001
+    type: mcq
+    deck: Argentina
+    tags: [argentina, malbec, altitude, style]
+    status: reviewed
+    source_id: c37-0031
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "How does Malbec from Argentina's higher vineyards usually differ from lower-altitude Malbec?"
+      choices:
+        - { text: "Riper, heavier and more jammy", correct: false }
+        - { text: "Fresher, more floral and more elegant", correct: true }
+        - { text: "Paler, lighter and lower in tannin", correct: false }
+        - { text: "Softer, with raisined fruit", correct: false }
+      explanation: |
+        Cold nights keep acidity and violet-like aromas. Lower, warmer sites give
+        fuller body and richer black fruit.
+
+  - id: argentina-malbec-blend-partners-001
+    type: mcq
+    deck: Argentina
+    tags: [argentina, malbec, blends]
+    status: reviewed
+    source_id: c37-0033
+    review:
+      fact_check: pass
+      sources: [known-fact, cheval-blanc-cheval-des-andes]
+    en:
+      question: "Which group of grapes most often partners Malbec in Argentina's premium red blends?"
+      choices:
+        - { text: "Grenache, Syrah, Mourvèdre, Carignan", correct: false }
+        - { text: "Touriga Nacional, Tinta Roriz, Touriga Franca, Tinto Cão", correct: false }
+        - { text: "Sangiovese, Montepulciano, Nebbiolo, Aglianico", correct: false }
+        - { text: "Cabernet Sauvignon, Merlot, Cabernet Franc, Petit Verdot", correct: true }
+      explanation: |
+        Malbec can lead such blends. Cheval des Andes, a joint venture with Bordeaux's
+        Château Cheval Blanc first made in 1999, mixes Malbec, Cabernet Sauvignon and
+        Petit Verdot in proportions that change with the vintage.
+
+  - id: argentina-bonarda-rank-001
+    type: mcq
+    deck: Argentina
+    tags: [argentina, bonarda, plantings]
+    status: reviewed
+    source_id: c37-0034
+    review:
+      fact_check: pass
+      sources: [inv-superficie-2024]
+    en:
+      question: "After Malbec, which black grape covers the most vineyard area in Argentina?"
+      choices:
+        - { text: "Cabernet Sauvignon", correct: false }
+        - { text: "Bonarda", correct: true }
+        - { text: "Pinot Noir", correct: false }
+        - { text: "Tempranillo", correct: false }
+      explanation: |
+        Counting grapes of every colour, the pink-skinned Cereza, a criolla grape
+        used for cheap wine and grape juice, sits between the two.
+
+  - id: argentina-bonarda-traits-001
+    type: mcq
+    deck: Argentina
+    tags: [argentina, bonarda, grape-variety]
+    status: reviewed
+    source_id: c37-0035
+    review:
+      fact_check: pass
+      sources: [inv-bonarda-corbeau-synonym, research-paper]
+    en:
+      question: "Which pair of traits best fits Bonarda as grown in Argentina?"
+      choices:
+        - { text: "Early-ripening and thin-skinned", correct: false }
+        - { text: "Early-budding and lightly coloured", correct: false }
+        - { text: "Mid-ripening and very aromatic", correct: false }
+        - { text: "Late-ripening and deeply coloured", correct: true }
+      explanation: |
+        DNA work shows Argentine Bonarda is not the Italian grape of that name but
+        Douce Noir, also called Corbeau, from Savoie. It needs a long, warm season
+        to ripen fully.
+
+  - id: argentina-bonarda-high-yield-001
+    type: mcq
+    deck: Argentina
+    tags: [argentina, bonarda, style, yields]
+    status: reviewed
+    source_id: c37-0036
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "What style does Argentine Bonarda usually give when it is cropped at high yields?"
+      choices:
+        - { text: "Easy-drinking, fruity reds", correct: true }
+        - { text: "Dense, tannic reds for long ageing", correct: false }
+        - { text: "Pale, delicate rosé-like reds", correct: false }
+        - { text: "Sweet, fortified reds", correct: false }
+      explanation: |
+        Raspberry and blackberry fruit and a medium to deep colour, with little need
+        for oak, make it a mainstay of everyday Argentine red.
+
+  - id: argentina-bonarda-low-yield-001
+    type: mcq
+    deck: Argentina
+    tags: [argentina, bonarda, style, yields]
+    status: reviewed
+    source_id: c37-0036
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "What happens when Argentine Bonarda is grown at controlled yields and picked fully ripe?"
+      choices:
+        - { text: "It turns paler and lighter in body", correct: false }
+        - { text: "It develops green, herbaceous notes", correct: false }
+        - { text: "It gains concentration and structure", correct: true }
+        - { text: "It becomes lighter and more floral", correct: false }
+      explanation: |
+        Fewer bunches per vine mean riper fruit with more skin per litre of juice,
+        so colour, body and tannin all build.
+
+  - id: argentina-bonarda-mendoza-001
+    type: mcq
+    deck: Argentina
+    tags: [argentina, bonarda, plantings, mendoza]
+    status: reviewed
+    source_id: c37-0037
+    review:
+      fact_check: pass
+      sources: [inv-informe-bonarda-2023]
+    en:
+      question: "Which province holds the large majority of Argentina's Bonarda vines?"
+      choices:
+        - { text: "San Juan", correct: false }
+        - { text: "Salta", correct: false }
+        - { text: "Mendoza", correct: true }
+        - { text: "La Rioja", correct: false }
+      explanation: |
+        Official 2023 figures put about 84% of the national Bonarda area there, with
+        San Juan a distant second at about 12%.
+
+  - id: argentina-other-black-grapes-001
+    type: mcq
+    deck: Argentina
+    tags: [argentina, grape-variety, plantings]
+    status: reviewed
+    source_id: c37-0038
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Besides Malbec and Bonarda, which black grapes are widely planted in Argentina?"
+      choices:
+        - { text: "Carmenère, Grenache and Mourvèdre", correct: false }
+        - { text: "Cabernet Sauvignon, Syrah and Merlot", correct: true }
+        - { text: "Tannat, Nebbiolo and Sangiovese", correct: false }
+        - { text: "Gamay, Cinsault and Carignan", correct: false }
+      explanation: |
+        Tempranillo and Pinot Noir follow at a distance, in much smaller volumes.
+
+  - id: argentina-premium-red-profile-001
+    type: mcq
+    deck: Argentina
+    tags: [argentina, style, red-wine]
+    status: reviewed
+    source_id: c37-0039
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which character do many premium Argentine reds have in common?"
+      choices:
+        - { text: "Lean, tart red fruit", correct: false }
+        - { text: "Green, herbaceous notes", correct: false }
+        - { text: "Dried, oxidised fruit", correct: false }
+        - { text: "Concentrated, ripe fruit", correct: true }
+      explanation: |
+        Long, sunny and dry seasons ripen the grapes fully. Toasty notes from oak
+        maturation are common alongside the fruit.
+
+  - id: argentina-torrontes-signature-001
+    type: mcq
+    deck: Argentina
+    tags: [argentina, torrontes, grape-variety]
+    status: reviewed
+    source_id: c37-0040
+    review:
+      fact_check: pass
+      sources: [trade-press, argentina-gob]
+    en:
+      question: "Which white grape is often seen as Argentina's signature variety?"
+      choices:
+        - { text: "Torrontés", correct: true }
+        - { text: "Chardonnay", correct: false }
+        - { text: "Pedro Giménez", correct: false }
+        - { text: "Sauvignon Blanc", correct: false }
+      explanation: |
+        Argentina recognises three Torrontés: Riojano, the most planted and the
+        source of most quality wine, plus Sanjuanino and the less aromatic Mendocino.
+
+  - id: argentina-torrontes-provinces-001
+    type: mcq
+    deck: Argentina
+    tags: [argentina, torrontes, regions]
+    status: reviewed
+    source_id: c37-0041
+    review:
+      fact_check: pass
+      sources: [known-fact, argentina-gob]
+    en:
+      question: "Besides Salta and Mendoza, which two provinces have large Torrontés plantings?"
+      choices:
+        - { text: "Río Negro and Neuquén", correct: false }
+        - { text: "Córdoba and Buenos Aires", correct: false }
+        - { text: "La Rioja and San Juan", correct: true }
+        - { text: "Chubut and La Pampa", correct: false }
+      explanation: |
+        The grape needs warmth and sun to build its aromas, so it clusters in the
+        warm north and centre-west rather than in the cool south.
+
+  - id: argentina-torrontes-cafayate-001
+    type: mcq
+    deck: Argentina
+    tags: [argentina, torrontes, salta, regions]
+    status: reviewed
+    source_id: c37-0042
+    review:
+      fact_check: pass
+      sources: [known-fact, producer-site]
+    en:
+      question: "Where do many of Argentina's finest Torrontés wines come from?"
+      choices:
+        - { text: "The valley floor of eastern Mendoza", correct: false }
+        - { text: "High vineyards around Cafayate, Salta", correct: true }
+        - { text: "Riverside plots in Río Negro", correct: false }
+        - { text: "The Tulum Valley in San Juan", correct: false }
+      explanation: |
+        Cold nights at height keep acidity, so the perfume stays lifted instead of
+        turning heavy or bitter.
+
+  - id: argentina-torrontes-profile-001
+    type: mcq
+    deck: Argentina
+    tags: [argentina, torrontes, style]
+    status: reviewed
+    source_id: c37-0043
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which profile fits a typical Argentine Torrontés?"
+      choices:
+        - { text: "Light body, high acidity, citrus and wet-stone notes", correct: false }
+        - { text: "Full body, low acidity, buttery and toasty notes", correct: false }
+        - { text: "Medium body, high acidity, grassy and gooseberry notes", correct: false }
+        - { text: "Medium body and acidity, floral and stone-fruit perfume", correct: true }
+      explanation: |
+        Melon often joins the peach and blossom. Picked too ripe, it can taste bitter
+        and flat, so growers watch acidity closely.
+
+  - id: argentina-torrontes-winemaking-001
+    type: mcq
+    deck: Argentina
+    tags: [argentina, torrontes, winemaking]
+    status: reviewed
+    source_id: c37-0044
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "How is most Argentine Torrontés made?"
+      choices:
+        - { text: "Fermented in new oak, aged two years", correct: false }
+        - { text: "Cool-fermented in inert vessels, sold young", correct: true }
+        - { text: "Kept on skins for weeks as an orange wine", correct: false }
+        - { text: "Fermented warm with malolactic, aged in casks", correct: false }
+      explanation: |
+        Stainless steel and controlled, cool temperatures protect volatile floral
+        aromas that fade with time, so wines usually leave the winery in the year of
+        harvest.
+
+  - id: argentina-chardonnay-planted-001
+    type: mcq
+    deck: Argentina
+    tags: [argentina, chardonnay, grape-variety]
+    status: reviewed
+    source_id: c37-0045
+    review:
+      fact_check: pass
+      sources: [inv-informe-chardonnay-2024]
+    en:
+      question: "Besides Torrontés, which white grape is widely planted in Argentina for quality wine?"
+      choices:
+        - { text: "Riesling", correct: false }
+        - { text: "Gewurztraminer", correct: false }
+        - { text: "Chardonnay", correct: true }
+        - { text: "Pinot Gris", correct: false }
+      explanation: |
+        Official figures put it at about 5,500 ha in 2024. Its area has been slipping
+        slowly, yet it remains a mainstay of quality white wine, both oaked and
+        unoaked.
+
+  - id: argentina-chardonnay-oak-001
+    type: mcq
+    deck: Argentina
+    tags: [argentina, chardonnay, oak, winemaking]
+    status: reviewed
+    source_id: c37-0046
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "How is premium Argentine Chardonnay usually matured?"
+      choices:
+        - { text: "In oak, often partly new", correct: true }
+        - { text: "In concrete eggs, without oak", correct: false }
+        - { text: "In large old casks, oxidatively", correct: false }
+        - { text: "In clay amphorae, on skins", correct: false }
+      explanation: |
+        Argentine Chardonnay covers a range of styles. Cheaper wines are often unoaked
+        and fruit-led, while cooler, higher sites give the acidity to carry barrel
+        ageing.
+
+  - id: argentina-other-whites-001
+    type: mcq
+    deck: Argentina
+    tags: [argentina, grape-variety, white-wine]
+    status: reviewed
+    source_id: c37-0047
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Besides Torrontés and Chardonnay, which group of white grapes is also grown in Argentina?"
+      choices:
+        - { text: "Albariño, Godello, Verdejo, Viura", correct: false }
+        - { text: "Grüner Veltliner, Furmint, Welschriesling, Sylvaner", correct: false }
+        - { text: "Chenin Blanc, Sauvignon Blanc, Sémillon, Viognier", correct: true }
+        - { text: "Assyrtiko, Fiano, Vermentino, Greco", correct: false }
+      explanation: |
+        Sauvignon Blanc does best in cooler, higher sites, where it keeps its
+        acidity and fresh aromas.
+
+  - id: argentina-pedro-gimenez-001
+    type: mcq
+    deck: Argentina
+    tags: [argentina, pedro-gimenez, plantings]
+    status: reviewed
+    source_id: c37-0048
+    review:
+      fact_check: pass
+      sources: [inv-superficie-2024, duran-aguero-martinez-2011-uncuyo]
+    en:
+      question: "Which white grape covers the largest vineyard area in Argentina?"
+      choices:
+        - { text: "Torrontés Riojano", correct: false }
+        - { text: "Chardonnay", correct: false }
+        - { text: "Chenin Blanc", correct: false }
+        - { text: "Pedro Giménez", correct: true }
+      explanation: |
+        Despite the name, DNA work shows it is not Spain's Pedro Ximénez but a cross
+        of Muscat of Alexandria and Criolla Chica.
+
+  - id: argentina-pedro-gimenez-market-001
+    type: mcq
+    deck: Argentina
+    tags: [argentina, pedro-gimenez, market]
+    status: reviewed
+    source_id: c37-0049
+    review:
+      fact_check: pass
+      sources: [inv-superficie-2023, known-fact]
+    en:
+      question: "Where does most wine from Argentina's Pedro Giménez grape end up?"
+      choices:
+        - { text: "Premium whites for export", correct: false }
+        - { text: "Cheap wine for the home market", correct: true }
+        - { text: "Late-harvest sweet wines", correct: false }
+        - { text: "Traditional-method sparkling wine", correct: false }
+      explanation: |
+        Its area keeps shrinking, to under 9,000 ha by 2023, as growers replant with
+        more marketable grapes.
+
+  - id: argentina-patagonia-label-001
+    type: mcq
+    deck: Argentina
+    tags: [argentina, regions, labelling, patagonia]
+    status: reviewed
+    source_id: c37-0050
+    review:
+      fact_check: pass
+      sources: [known-fact, trade-press]
+    en:
+      question: "Which broad, multi-province Argentine wine region is the one widely named on labels?"
+      choices:
+        - { text: "Cuyo", correct: false }
+        - { text: "Patagonia", correct: true }
+        - { text: "Noroeste", correct: false }
+        - { text: "Centro", correct: false }
+      explanation: |
+        Elsewhere, labels usually name a province such as Mendoza or Salta, or a
+        smaller area within it. The southern name carries a cool, wild image that
+        helps sell the wine.
