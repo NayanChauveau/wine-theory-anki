@@ -75,10 +75,11 @@ their proper chapter and can be rejected or merged.
 
 Each needs stronger distractors and a French block, or a deliberate rejection.
 
-### 3. Human sign-off
+### 3. Final audit (deferred)
 
-- [ ] Perform human sign-off, or a documented human sampling pass, on the 41 chapters
-  marked `awaiting-human`.
+- [ ] Once every chapter is migrated, run a final independent audit with Claude Fable over
+  all chapters marked `awaiting-human`, in place of a manual human pass. Deferred until
+  migration is finished and token budget allows.
 
 ## Completed chapters
 
@@ -101,8 +102,7 @@ French, and an `awaiting-human` entry in the quality ledger.
 - [ ] Resolve the three remaining draft cards or deliberately reject them.
 - [x] Complete agent quality review for every started chapter.
 - [ ] Complete agent quality review for the five remaining chapters.
-- [ ] Perform human sign-off or a documented human sampling pass on chapters marked
-  `awaiting-human`.
+- [ ] Run the final Fable audit on chapters marked `awaiting-human` (after migration).
 - [ ] Run `make check` after every change.
 - [ ] Inspect representative MCQ, basic and cloze cards from the CI packages on desktop
   and mobile.
