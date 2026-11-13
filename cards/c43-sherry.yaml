@@ -2,4 +2,881 @@
 # source: C43 (import/inbox/c43-sherry.yaml)
 # deck: Sherry
 
-cards: []
+cards:
+  - id: sherry-region-location-001
+    type: mcq
+    deck: Sherry
+    tags: [sherry, geography]
+    status: reviewed
+    source_id: c43-0001
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "In which Spanish autonomous community does the Sherry vineyard lie?"
+      choices:
+        - { text: "Castilla-La Mancha", correct: false }
+        - { text: "Valencia", correct: false }
+        - { text: "Andalucía", correct: true }
+        - { text: "Catalunya", correct: false }
+      explanation: |
+        The vines ring the town of Jerez de la Frontera in the province of Cádiz.
+        The English word Sherry is an old rendering of Jerez, called Xérès in French.
+
+  - id: sherry-ageing-towns-001
+    type: mcq
+    deck: Sherry
+    tags: [sherry, geography, maturation]
+    status: reviewed
+    source_id: c43-0002
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Besides Jerez de la Frontera, which two towns traditionally complete the Sherry ageing triangle?"
+      choices:
+        - { text: "Montilla and Aguilar de la Frontera", correct: false }
+        - { text: "Sanlúcar and El Puerto de Santa María", correct: true }
+        - { text: "Huelva and Bollullos par del Condado", correct: false }
+        - { text: "Málaga and Vélez-Málaga", correct: false }
+      explanation: |
+        Both are river-mouth towns: Sanlúcar de Barrameda sits where the Guadalquivir
+        meets the sea, and El Puerto de Santa María on the Guadalete, across the bay
+        from Cádiz. Since a rule change around 2021, ageing may also take place in
+        other towns of the production zone, such as Chipiona, Rota, Trebujena,
+        Chiclana, Lebrija and Puerto Real.
+
+  - id: sherry-climate-001
+    type: mcq
+    deck: Sherry
+    tags: [sherry, climate]
+    status: reviewed
+    source_id: c43-0003
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which description best fits the climate of the Sherry region?"
+      choices:
+        - { text: "Warm and humid, with frequent summer storms", correct: false }
+        - { text: "Continental, with cold winters and spring frost", correct: false }
+        - { text: "Cool maritime, with rain spread through the year", correct: false }
+        - { text: "Hot and sunny, with a dry growing season", correct: true }
+      explanation: |
+        Atlantic fronts bring rain between autumn and spring, so the yearly total is
+        higher than in much of inland Spain. Summer sits under settled high pressure.
+
+  - id: sherry-poniente-001
+    type: mcq
+    deck: Sherry
+    tags: [sherry, climate, wind]
+    status: reviewed
+    source_id: c43-0004
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which kind of wind is the poniente that reaches the Sherry vineyards?"
+      choices:
+        - { text: "A humid westerly wind off the Atlantic", correct: true }
+        - { text: "A hot, dry easterly wind", correct: false }
+        - { text: "A cold northerly wind from the sierras", correct: false }
+        - { text: "A dusty southerly wind from North Africa", correct: false }
+      explanation: |
+        Coming off the ocean, it tempers summer heat most near the coast, so coastal
+        vineyards run a little cooler on average than those inland.
+
+  - id: sherry-levante-001
+    type: mcq
+    deck: Sherry
+    tags: [sherry, climate, wind]
+    status: reviewed
+    source_id: c43-0005
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which wind brings the fiercest summer heatwaves to the Sherry vineyards?"
+      choices:
+        - { text: "Poniente", correct: false }
+        - { text: "Tramontana", correct: false }
+        - { text: "Levante", correct: true }
+        - { text: "Cierzo", correct: false }
+      explanation: |
+        It blows from the east, funnelled through the Strait of Gibraltar, hot and
+        drying. A spell of it near harvest can scorch leaves and shrivel grapes.
+        The Cierzo is the north-westerly of the Ebro valley, and the Tramontana the
+        northerly of Catalonia.
+
+  - id: sherry-albariza-001
+    type: mcq
+    deck: Sherry
+    tags: [sherry, soil]
+    status: reviewed
+    source_id: c43-0006
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which white, chalk-rich soil is most prized in the Sherry vineyards?"
+      choices:
+        - { text: "Barros", correct: false }
+        - { text: "Albariza", correct: true }
+        - { text: "Arenas", correct: false }
+        - { text: "Llicorella", correct: false }
+      explanation: |
+        Barros (darker clay) and arenas (sand) are the area's other main soils and
+        generally give coarser base wine. Famous pagos such as Macharnudo and
+        Carrascal lie on albariza.
+
+  - id: sherry-albariza-water-001
+    type: mcq
+    deck: Sherry
+    tags: [sherry, soil, water]
+    status: reviewed
+    source_id: c43-0007
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "How does albariza soil help Sherry vines through summers with almost no rain?"
+      choices:
+        - { text: "A shallow water table lies just under the roots", correct: false }
+        - { text: "Its stony surface traps heavy summer dew", correct: false }
+        - { text: "Its sandy texture lets summer showers soak in", correct: false }
+        - { text: "It stores a deep reserve of winter rain", correct: true }
+      explanation: |
+        The soil is porous and very deep. Water from the wet season soaks in and is
+        held in its fine pores, and the roots draw on it as summer goes on.
+
+  - id: sherry-aserpia-purpose-001
+    type: mcq
+    deck: Sherry
+    tags: [sherry, vineyard, water]
+    status: reviewed
+    source_id: c43-0008
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Why do Sherry growers dig rectangular pits between their vine rows?"
+      choices:
+        - { text: "To drain surplus water away from the roots", correct: false }
+        - { text: "To catch rainwater and limit run-off", correct: true }
+        - { text: "To bury the pruned canes as compost", correct: false }
+        - { text: "To let cool night air pool around the vines", correct: false }
+      explanation: |
+        The technique is called aserpia. On sloping albariza hills, heavy downpours
+        would otherwise wash water and topsoil downhill before it could soak in.
+
+  - id: sherry-aserpia-timing-001
+    type: mcq
+    deck: Sherry
+    tags: [sherry, vineyard, water]
+    status: reviewed
+    source_id: c43-0009
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "When do Sherry growers dig the aserpia pits between the vine rows?"
+      choices:
+        - { text: "Soon after the harvest", correct: true }
+        - { text: "In late winter, before budburst", correct: false }
+        - { text: "In spring, after budburst", correct: false }
+        - { text: "In early summer, after flowering", correct: false }
+      explanation: |
+        The pits stay open through autumn and winter and are levelled again in
+        spring.
+
+  - id: sherry-albariza-crust-001
+    type: mcq
+    deck: Sherry
+    tags: [sherry, soil, water]
+    status: reviewed
+    source_id: c43-0011
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "In a Sherry vineyard, what happens to the surface of albariza in the dry summer that slows water loss?"
+      choices:
+        - { text: "It cracks open into deep fissures", correct: false }
+        - { text: "It turns into a loose, powdery dust", correct: false }
+        - { text: "It bakes into a hard crust", correct: true }
+        - { text: "It swells and turns sticky", correct: false }
+      explanation: |
+        The crust works like a lid on the moist chalk below, so less water
+        evaporates. Its white surface also reflects light back into the canopy.
+
+  - id: sherry-grapes-authorised-001
+    type: mcq
+    deck: Sherry
+    tags: [sherry, grapes]
+    status: reviewed
+    source_id: c43-0012
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which three grapes are the main authorised varieties for Sherry?"
+      choices:
+        - { text: "Palomino, Airén and Verdejo", correct: false }
+        - { text: "Pedro Ximénez, Garnacha Blanca and Airén", correct: false }
+        - { text: "Moscatel, Macabeo and Garnacha Blanca", correct: false }
+        - { text: "Palomino, Pedro Ximénez and Moscatel", correct: true }
+      explanation: |
+        Moscatel here means Muscat of Alexandria. Around 2021 a few old local
+        varieties, such as Perruno, Mantúo, Beba and Vigiriega, were readmitted in
+        minor amounts. Airén is the workhorse of La Mancha's plains, and Verdejo the
+        white of Rueda.
+
+  - id: sherry-palomino-plantings-001
+    type: mcq
+    deck: Sherry
+    tags: [sherry, grapes, palomino]
+    status: reviewed
+    source_id: c43-0013
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which grape covers the great majority of the Sherry vineyard?"
+      choices:
+        - { text: "Pedro Ximénez", correct: false }
+        - { text: "Palomino", correct: true }
+        - { text: "Moscatel", correct: false }
+        - { text: "Palomino and Pedro Ximénez equally", correct: false }
+      explanation: |
+        Its main form, Palomino Fino, supplies the base wine for every dry style,
+        from fino and manzanilla to amontillado and oloroso.
+
+  - id: sherry-palomino-profile-001
+    type: mcq
+    deck: Sherry
+    tags: [sherry, grapes, palomino]
+    status: reviewed
+    source_id: c43-0014
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "What is a young, unaged wine made from Palomino usually like?"
+      choices:
+        - { text: "High in acid, with floral aromas", correct: false }
+        - { text: "High in acid, with little aroma", correct: false }
+        - { text: "Low in acid, with little aroma", correct: true }
+        - { text: "Low in acid, with floral aromas", correct: false }
+      explanation: |
+        Palomino holds its yield and sugar well in the heat but loses acidity, so
+        many producers add tartaric acid to the must.
+
+  - id: sherry-neutral-grape-001
+    type: mcq
+    deck: Sherry
+    tags: [sherry, grapes, maturation]
+    status: reviewed
+    source_id: c43-0015
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Why does a grape with little flavour of its own suit the making of dry Sherry?"
+      choices:
+        - { text: "Most flavour comes from ageing, under flor or in air", correct: true }
+        - { text: "Its high acidity keeps the wine fresh in cask", correct: false }
+        - { text: "Its thick skins add tannin that protects the wine", correct: false }
+        - { text: "It ripens late, after the worst of the heat", correct: false }
+      explanation: |
+        A strong varietal perfume would only blur the yeasty, nutty and savoury
+        notes built up over years in the butt.
+
+  - id: sherry-px-thin-skin-001
+    type: mcq
+    deck: Sherry
+    tags: [sherry, grapes, pedro-ximenez, sweet]
+    status: reviewed
+    source_id: c43-0017
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which trait of Pedro Ximénez makes it suitable for drying into raisin-like berries?"
+      choices:
+        - { text: "Its thick, tough skins", correct: false }
+        - { text: "Its high natural acidity", correct: false }
+        - { text: "Its tight, compact bunches", correct: false }
+        - { text: "Its thin skins", correct: true }
+      explanation: |
+        Water escapes quickly through a thin skin, so the berries shrivel fast. The
+        grape itself has little aroma; the wine's character comes mostly from
+        concentration and ageing.
+
+  - id: sherry-px-montilla-001
+    type: mcq
+    deck: Sherry
+    tags: [sherry, grapes, pedro-ximenez]
+    status: reviewed
+    source_id: c43-0018
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Where is much of the Pedro Ximénez used for sweet Sherry grown?"
+      choices:
+        - { text: "Montilla-Moriles", correct: true }
+        - { text: "Condado de Huelva", correct: false }
+        - { text: "La Mancha", correct: false }
+        - { text: "Jumilla", correct: false }
+      explanation: |
+        The hotter, drier inland area south of Córdoba suits the grape better than
+        Jerez's coastal vineyards, and the rules let Sherry houses use PX from there.
+
+  - id: sherry-moscatel-role-001
+    type: mcq
+    deck: Sherry
+    tags: [sherry, grapes, moscatel, sweet]
+    status: reviewed
+    source_id: c43-0019
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "In the Sherry region, what is Muscat of Alexandria mainly grown for?"
+      choices:
+        - { text: "Dry, flor-aged wines", correct: false }
+        - { text: "Brandy to fortify the young wines", correct: false }
+        - { text: "Sweet wines", correct: true }
+        - { text: "Adding body to dry oloroso", correct: false }
+      explanation: |
+        Plantings are small and grouped on the sandy coastal soils around Chipiona,
+        whose sweet Moscatel is a local speciality.
+
+  - id: sherry-harvest-speed-001
+    type: mcq
+    deck: Sherry
+    tags: [sherry, harvest, oxidation]
+    status: reviewed
+    source_id: c43-0021
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "In the Sherry region, what is the main risk if picked Palomino waits too long before pressing?"
+      choices:
+        - { text: "Botrytis spreading through the crates", correct: false }
+        - { text: "Oxidation of the juice in the heat", correct: true }
+        - { text: "Tannin leaching from the stems", correct: false }
+        - { text: "Sugar falling as the berries respire", correct: false }
+      explanation: |
+        Harvest falls in late August and September, often in strong heat, so some
+        houses pick in the cool of the night or early morning and press close to the
+        vineyard.
+
+  - id: sherry-base-wine-vessel-001
+    type: mcq
+    deck: Sherry
+    tags: [sherry, winemaking, fermentation]
+    status: reviewed
+    source_id: c43-0022
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "In what vessels is dry Sherry base wine now usually fermented?"
+      choices:
+        - { text: "New French oak barriques", correct: false }
+        - { text: "Large clay tinajas", correct: false }
+        - { text: "Open stone lagares by the vineyard", correct: false }
+        - { text: "Large stainless steel tanks", correct: true }
+      explanation: |
+        Fermenting in butts was the norm until the second half of the 20th century.
+        Temperature-controlled steel lets houses hold a steady 20–25 °C.
+
+  - id: sherry-warm-ferment-001
+    type: mcq
+    deck: Sherry
+    tags: [sherry, winemaking, fermentation]
+    status: reviewed
+    source_id: c43-0024
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Why can dry Sherry base wine be fermented warmer than most white wines?"
+      choices:
+        - { text: "Warm ferments keep more fresh fruit", correct: false }
+        - { text: "Heat helps flor form in the tank", correct: false }
+        - { text: "Producers want a neutral base wine", correct: true }
+        - { text: "Warmth lifts the low acidity of Palomino", correct: false }
+      explanation: |
+        Cool ferments exist to keep delicate fruity esters, which are not the goal
+        here. Around 20–25 °C is typical, warm for a white.
+
+  - id: sherry-base-wine-strength-001
+    type: mcq
+    deck: Sherry
+    tags: [sherry, winemaking, alcohol]
+    status: reviewed
+    source_id: c43-0025
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Before fortification, roughly what alcohol does a dry Sherry base wine reach?"
+      choices:
+        - { text: "About 8–9% abv", correct: false }
+        - { text: "About 11–12% abv", correct: true }
+        - { text: "About 13.5–14% abv", correct: false }
+        - { text: "About 16–17% abv", correct: false }
+      explanation: |
+        The wine is fermented fully dry; added spirit later lifts it to the strength
+        chosen for its ageing path.
+
+  - id: sherry-first-classification-001
+    type: mcq
+    deck: Sherry
+    tags: [sherry, classification]
+    status: reviewed
+    source_id: c43-0026
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "In the autumn after harvest, what is the first classification of new Sherry wines for?"
+      choices:
+        - { text: "Deciding which go to biological or oxidative ageing", correct: true }
+        - { text: "Deciding which will be sweetened or kept dry", correct: false }
+        - { text: "Deciding which will be vintage-dated or go to a solera", correct: false }
+        - { text: "Deciding which town's bodegas will age them", correct: false }
+      explanation: |
+        Tasters judge each tank or butt and chalk their verdict on it, so the cellar
+        team knows where each wine goes next.
+
+  - id: sherry-flor-selection-001
+    type: mcq
+    deck: Sherry
+    tags: [sherry, classification, flor]
+    status: reviewed
+    source_id: c43-0027
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "At the first classification, which new Sherry wines are usually chosen for ageing under flor?"
+      choices:
+        - { text: "The darkest, fullest-bodied wines", correct: false }
+        - { text: "Wines from the harder final pressings", correct: false }
+        - { text: "The wines with the most natural alcohol", correct: false }
+        - { text: "The palest, most delicate wines", correct: true }
+      explanation: |
+        Free-run and lightly pressed juice tends to give this finer wine; heavier
+        wine from firmer pressing is steered towards oxidative ageing.
+
+  - id: sherry-flor-onset-001
+    type: mcq
+    deck: Sherry
+    tags: [sherry, classification, flor]
+    status: reviewed
+    source_id: c43-0028
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "When does flor usually first appear on young Sherry wines?"
+      choices:
+        - { text: "Once the wine is fortified", correct: false }
+        - { text: "Soon after fermentation ends", correct: true }
+        - { text: "Once the wine enters a solera", correct: false }
+        - { text: "In spring, after the sobretabla rest", correct: false }
+      explanation: |
+        Flor yeasts live in the bodegas and on cellar equipment, so a film often
+        forms on the young, still unfortified wine within weeks. Tasters can already
+        judge it when they classify.
+
+  - id: sherry-house-style-criteria-001
+    type: mcq
+    deck: Sherry
+    tags: [sherry, classification]
+    status: reviewed
+    source_id: c43-0029
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Two Jerez bodegas taste the same new wine and send it down different ageing paths. What best explains this?"
+      choices:
+        - { text: "Each ageing town has its own sorting rules", correct: false }
+        - { text: "Legal limits are reset with each vintage", correct: false }
+        - { text: "Each house sorts to suit its own style", correct: true }
+        - { text: "Each bodega buys spirit of a different strength", correct: false }
+      explanation: |
+        A house famed for delicate flor wines and one built on rich, dark styles
+        prize different traits in a young wine, so their tasters draw the line
+        between the two paths in different places.
+
+  - id: sherry-volume-needs-001
+    type: mcq
+    deck: Sherry
+    tags: [sherry, classification, commerce]
+    status: reviewed
+    source_id: c43-0030
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Apart from a wine's character, what commercial factor can sway which style a Sherry house sends a new wine to?"
+      choices:
+        - { text: "Sales demand for each style", correct: true }
+        - { text: "A yearly quota set for each style", correct: false }
+        - { text: "That year's price of grape spirit", correct: false }
+        - { text: "Export duties charged on each style", correct: false }
+      explanation: |
+        If sales of one style grow, more new wine must be set aside to replenish
+        that style's stocks for the years ahead.
+
+  - id: sherry-coastal-biological-001
+    type: mcq
+    deck: Sherry
+    tags: [sherry, classification, flor]
+    status: reviewed
+    source_id: c43-0031
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which new Sherry wines are more likely to be chosen for biological ageing?"
+      choices:
+        - { text: "Wines from warmer inland vineyards", correct: false }
+        - { text: "Wines from cooler coastal vineyards", correct: true }
+        - { text: "Wines from the ripest, latest-picked grapes", correct: false }
+        - { text: "Wines from grapes sun-dried before pressing", correct: false }
+      explanation: |
+        Fermenting at the cooler end of the range also favours a lighter, finer
+        wine; warmer sites and warmer ferments push wines towards oxidative ageing.
+
+  - id: sherry-fortifying-spirit-001
+    type: mcq
+    deck: Sherry
+    tags: [sherry, fortification]
+    status: reviewed
+    source_id: c43-0032
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "What spirit is typically used to fortify Sherry?"
+      choices:
+        - { text: "Grape brandy at about 40% abv", correct: false }
+        - { text: "Grape spirit at about 77% abv", correct: false }
+        - { text: "Grape spirit at about 96% abv", correct: true }
+        - { text: "Grape spirit at about 60% abv", correct: false }
+      explanation: |
+        Spirit this strong is usually pre-mixed with wine before it goes in, so the
+        young wine is not shocked by neat alcohol. The blend is often called mitad
+        y mitad, "half and half".
+
+  - id: sherry-sobretabla-001
+    type: mcq
+    deck: Sherry
+    tags: [sherry, fortification]
+    status: reviewed
+    source_id: c43-0032
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "What is newly fortified Sherry called while it rests a few months before joining a solera?"
+      choices:
+        - { text: "Sobretabla", correct: true }
+        - { text: "Mosto", correct: false }
+        - { text: "Añada", correct: false }
+        - { text: "Criadera", correct: false }
+      explanation: |
+        The sequence runs fermentation, then fortification, then this rest, and
+        only then entry into a solera of matching style.
+
+  - id: sherry-flor-fortification-strength-001
+    type: mcq
+    deck: Sherry
+    tags: [sherry, fortification, flor]
+    status: reviewed
+    source_id: c43-0033
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "To roughly what strength are new Sherries destined for flor ageing fortified?"
+      choices:
+        - { text: "About 13–13.5% abv", correct: false }
+        - { text: "About 15–15.5% abv", correct: true }
+        - { text: "About 18–18.5% abv", correct: false }
+        - { text: "About 20–20.5% abv", correct: false }
+      explanation: |
+        Flor yeasts tolerate this level well, while acetic bacteria, which would
+        turn the wine towards vinegar, are held back.
+
+  - id: sherry-sobretabla-flor-check-001
+    type: mcq
+    deck: Sherry
+    tags: [sherry, fortification, flor]
+    status: reviewed
+    source_id: c43-0034
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "During the few months' rest after fortification, what are cellar staff mainly watching for in wine meant to become Fino?"
+      choices:
+        - { text: "Whether malolactic conversion finishes", correct: false }
+        - { text: "Whether the wine takes colour from the butt", correct: false }
+        - { text: "Whether the last sugar ferments out", correct: false }
+        - { text: "Whether flor takes hold", correct: true }
+      explanation: |
+        A thin or patchy film warns that the wine may not age well under flor. Wines
+        meant for oxidative ageing have no flor to watch, so the rest matters less
+        for them.
+
+  - id: sherry-second-classification-001
+    type: mcq
+    deck: Sherry
+    tags: [sherry, classification]
+    status: reviewed
+    source_id: c43-0035
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "What is checked at the second classification of young Sherry, after the sobretabla?"
+      choices:
+        - { text: "Whether it may carry a vintage date", correct: false }
+        - { text: "Whether it suits its intended solera", correct: true }
+        - { text: "How much sweetening it needs for sale", correct: false }
+        - { text: "Which grape variety it was made from", correct: false }
+      explanation: |
+        A wine that seemed promising in autumn can drift from the style its solera
+        needs once it has rested at its new strength.
+
+  - id: sherry-failed-classification-001
+    type: mcq
+    deck: Sherry
+    tags: [sherry, classification]
+    status: reviewed
+    source_id: c43-0036
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "What normally happens to a young Sherry that fails its second classification?"
+      choices:
+        - { text: "It goes straight into the oldest solera tier", correct: false }
+        - { text: "It is sweetened and bottled at once", correct: false }
+        - { text: "It is refortified or rejected", correct: true }
+        - { text: "It is returned to tank to referment", correct: false }
+      explanation: |
+        Refortifying moves the wine to a stronger, oxidative path. Rejected wine can
+        end up distilled or made into Sherry vinegar.
+
+  - id: sherry-oxidative-fortification-strength-001
+    type: mcq
+    deck: Sherry
+    tags: [sherry, fortification, oxidative]
+    status: reviewed
+    source_id: c43-0037
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "To roughly what strength are new Sherries destined for oxidative ageing fortified?"
+      choices:
+        - { text: "About 17% abv", correct: true }
+        - { text: "About 14% abv", correct: false }
+        - { text: "About 20% abv", correct: false }
+        - { text: "About 22% abv", correct: false }
+      explanation: |
+        At this level the wine is protected from spoilage and ages in contact with
+        air, slowly darkening and concentrating.
+
+  - id: sherry-flor-alcohol-limit-001
+    type: mcq
+    deck: Sherry
+    tags: [sherry, fortification, flor]
+    status: reviewed
+    source_id: c43-0038
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Why does fortifying a young Sherry to a high strength stop biological ageing?"
+      choices:
+        - { text: "The spirit strips oxygen from the wine", correct: false }
+        - { text: "The spirit raises the wine's acidity", correct: false }
+        - { text: "The spirit removes nutrients the yeast need", correct: false }
+        - { text: "The extra alcohol kills the flor yeast", correct: true }
+      explanation: |
+        The film is a living yeast colony with a limited tolerance for alcohol.
+        Producers use this on purpose to send a wine down the oxidative path.
+
+  - id: sherry-sweet-drying-001
+    type: mcq
+    deck: Sherry
+    tags: [sherry, sweet, pedro-ximenez]
+    status: reviewed
+    source_id: c43-0040
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "For naturally sweet Sherry, how are the grapes usually concentrated?"
+      choices:
+        - { text: "Left to shrivel on the vine", correct: false }
+        - { text: "Dried in the sun on mats after picking", correct: true }
+        - { text: "Dried indoors on racks through the winter", correct: false }
+        - { text: "Concentrated by noble rot in misty autumns", correct: false }
+      explanation: |
+        The drying, called soleo, takes a week or more on esparto mats. When the
+        berries reach the target sugar they are pressed; the concentration gives the
+        wine its raisin and fig character.
+
+  - id: sherry-sweet-ferment-001
+    type: mcq
+    deck: Sherry
+    tags: [sherry, sweet, fermentation]
+    status: reviewed
+    source_id: c43-0043
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "What usually happens when the very sugary must for naturally sweet Sherry starts to ferment?"
+      choices:
+        - { text: "It stalls after a few degrees", correct: true }
+        - { text: "It ferments out to dryness", correct: false }
+        - { text: "It reaches about 13% abv unaided", correct: false }
+        - { text: "It ferments fast and overheats", correct: false }
+      explanation: |
+        So much sugar draws water out of the yeast cells by osmosis, slowing them
+        almost to a stop.
+
+  - id: sherry-sweet-fortify-001
+    type: mcq
+    deck: Sherry
+    tags: [sherry, sweet, fortification]
+    status: reviewed
+    source_id: c43-0044
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "How is fermentation brought to an end in naturally sweet Sherry?"
+      choices:
+        - { text: "By chilling and filtering out the yeast", correct: false }
+        - { text: "By adding a large dose of sulphur dioxide", correct: false }
+        - { text: "By adding grape spirit", correct: true }
+        - { text: "By pasteurising the fermenting must", correct: false }
+      explanation: |
+        The spirit lifts the strength beyond what the yeast can survive, so the
+        sugar from the dried grapes stays in the wine.
+
+  - id: sherry-butt-size-001
+    type: mcq
+    deck: Sherry
+    tags: [sherry, maturation, oak]
+    status: reviewed
+    source_id: c43-0045
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "What is the typical capacity of a Sherry butt?"
+      choices:
+        - { text: "About 225 litres", correct: false }
+        - { text: "About 300 litres", correct: false }
+        - { text: "About 1,000 litres", correct: false }
+        - { text: "About 600 litres", correct: true }
+      explanation: |
+        Most are made of American oak. Well-used butts are later sought by Scotch
+        whisky distillers.
+
+  - id: sherry-butt-seasoning-001
+    type: mcq
+    deck: Sherry
+    tags: [sherry, maturation, oak]
+    status: reviewed
+    source_id: c43-0046
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "How do Sherry houses stop their butts from giving oak flavour to the wine?"
+      choices:
+        - { text: "They char the staves heavily", correct: false }
+        - { text: "They use butts already seasoned with wine", correct: true }
+        - { text: "They line the staves with paraffin wax", correct: false }
+        - { text: "They make the butts from chestnut", correct: false }
+      explanation: |
+        New butts are first filled with unfortified wine, which draws out much of
+        the oak's flavour and tannin. Once seasoned, a butt can stay in use for
+        decades.
+
+  - id: sherry-butt-role-001
+    type: mcq
+    deck: Sherry
+    tags: [sherry, maturation, oxygen]
+    status: reviewed
+    source_id: c43-0047
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "What is the main thing a Sherry house wants from its oak butts?"
+      choices:
+        - { text: "Slow contact between the wine and oxygen", correct: true }
+        - { text: "A steady cool temperature for the wine", correct: false }
+        - { text: "Tannin to give the wine structure", correct: false }
+        - { text: "Nutrients that feed the flor", correct: false }
+      explanation: |
+        Air passes slowly through the staves and joints, so the wood works as a
+        slow oxygen valve. A sound butt can stay in service for decades, doing the
+        same job year after year.
+
+  - id: sherry-butt-fill-001
+    type: mcq
+    deck: Sherry
+    tags: [sherry, maturation, oxygen]
+    status: reviewed
+    source_id: c43-0048
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "How full are Sherry butts usually filled?"
+      choices:
+        - { text: "To the brim, topped up often", correct: false }
+        - { text: "About half full", correct: false }
+        - { text: "About five-sixths full", correct: true }
+        - { text: "About two-thirds full", correct: false }
+      explanation: |
+        The gap is left in butts for both flor and oxidative ageing. Cellar workers
+        often describe it as "two fists" (dos puños).
+
+  - id: sherry-bodega-design-001
+    type: mcq
+    deck: Sherry
+    tags: [sherry, maturation, bodega]
+    status: reviewed
+    source_id: c43-0050
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which building style is traditional for Sherry maturation bodegas?"
+      choices:
+        - { text: "Deep cellars cut into the chalk rock", correct: false }
+        - { text: "Tall halls with thick whitewashed walls", correct: true }
+        - { text: "Low sheds with tin roofs that heat up", correct: false }
+        - { text: "Lofts under the roof that warm the casks", correct: false }
+      explanation: |
+        Keeping the butts cool is the main challenge in Jerez's heat. High ceilings
+        let warm air rise away from the butts, and windows are placed to catch the
+        sea breeze.
