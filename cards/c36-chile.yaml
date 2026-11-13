@@ -2,4 +2,735 @@
 # source: C36 (import/inbox/c36-chile.yaml)
 # deck: Chile
 
-cards: []
+cards:
+  - id: chile-vineyard-shape-001
+    type: mcq
+    deck: Chile
+    tags: [chile, geography]
+    status: reviewed
+    source_id: c36-0001
+    review:
+      fact_check: pass
+      sources: [known-fact, trade-press]
+    en:
+      question: "Which description best fits the overall shape of Chile's vineyard land?"
+      choices:
+        - { text: "A compact block around a single river basin", correct: false }
+        - { text: "Wide from east to west but short from north to south", correct: false }
+        - { text: "Long from north to south but narrow from east to west", correct: true }
+        - { text: "A ring of scattered oases around the Atacama Desert", correct: false }
+      explanation: |
+        The main valleys run from Elqui near 30° S down to Bío-Bío near 37° S, roughly
+        900 km, and outlying plantings push the span further. Between the Pacific and
+        the Andes there is seldom more than about 100 km of usable land.
+
+  - id: chile-west-east-sequence-001
+    type: mcq
+    deck: Chile
+    tags: [chile, geography]
+    status: reviewed
+    source_id: c36-0002
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Travelling inland from the Pacific at the latitude of Santiago, in what order do you cross Chile's main landforms?"
+      choices:
+        - { text: "Central Valley, Coastal Range, Andes", correct: false }
+        - { text: "Coastal Range, Andes, Central Valley", correct: false }
+        - { text: "Andean foothills, Central Valley, Coastal Range", correct: false }
+        - { text: "Coastal Range, Central Valley, Andes", correct: true }
+      explanation: |
+        The two mountain chains run parallel down most of the country. Around
+        Santiago they draw apart, leaving a long depression between them that stretches
+        south for hundreds of kilometres.
+
+  - id: chile-coastal-range-gaps-001
+    type: mcq
+    deck: Chile
+    tags: [chile, geography, climate]
+    status: reviewed
+    source_id: c36-0003
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "What has cut the openings through Chile's Coastal Range?"
+      choices:
+        - { text: "Rivers draining west from the Andes", correct: true }
+        - { text: "Fault lines running north to south", correct: false }
+        - { text: "Lava channels from coastal volcanoes", correct: false }
+        - { text: "Glacial troughs from the last ice age", correct: false }
+      explanation: |
+        Each river gives its name to a wine valley: the Aconcagua, Maipo, Rapel and
+        Maule all flow from the Andes to the sea, and their corridors let marine air
+        reach vineyards behind the coastal hills.
+
+  - id: chile-climate-type-001
+    type: mcq
+    deck: Chile
+    tags: [chile, climate]
+    status: reviewed
+    source_id: c36-0004
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "How is the climate of Chile's main central wine valleys usually classed?"
+      choices:
+        - { text: "Cool maritime", correct: false }
+        - { text: "Warm Mediterranean", correct: true }
+        - { text: "Moderate continental", correct: false }
+        - { text: "Hot continental", correct: false }
+      explanation: |
+        Most rain falls in the southern-hemisphere winter, from about May to August,
+        while the growing season is long, sunny and largely rain-free. Local cooling
+        from the ocean and the mountains then decides how warm each site really is.
+
+  - id: chile-dry-summer-disease-001
+    type: mcq
+    deck: Chile
+    tags: [chile, climate, vine-health]
+    status: reviewed
+    source_id: c36-0005
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "What is the main viticultural advantage of Chile's dry growing season?"
+      choices:
+        - { text: "Larger berries and higher yields", correct: false }
+        - { text: "Slower, later ripening", correct: false }
+        - { text: "Higher natural acidity at harvest", correct: false }
+        - { text: "Low fungal disease pressure", correct: true }
+      explanation: |
+        Mildew and rot spores need moisture on leaves and bunches to germinate. With
+        little summer rain, growers spray less often, which also makes organic farming
+        easier than in damp regions.
+
+  - id: chile-irrigation-snowmelt-001
+    type: mcq
+    deck: Chile
+    tags: [chile, climate, irrigation]
+    status: reviewed
+    source_id: c36-0006
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Where does most of the irrigation water for vineyards in Chile's central valleys come from?"
+      choices:
+        - { text: "Summer rain falling on the Coastal Range", correct: false }
+        - { text: "Rivers fed by Andean snow and ice", correct: true }
+        - { text: "Groundwater from beneath the Atacama", correct: false }
+        - { text: "Winter rain stored on the valley floors", correct: false }
+      explanation: |
+        Snow builds up on the high Andes in winter and melts through spring and summer,
+        just when vines need water. Furrow irrigation from canals was the traditional
+        method; drip systems now dominate in newer plantings.
+
+  - id: chile-south-cooler-wetter-001
+    type: mcq
+    deck: Chile
+    tags: [chile, climate, southern-regions]
+    status: reviewed
+    source_id: c36-0008
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Compared with the Maipo Valley, what are growing conditions like in Chile's southern valleys such as Bío-Bío?"
+      choices:
+        - { text: "Warmer and drier", correct: false }
+        - { text: "Cooler and drier", correct: false }
+        - { text: "Cooler and wetter", correct: true }
+        - { text: "Warmer and wetter", correct: false }
+      explanation: |
+        Moving south takes vineyards further from the subtropical high-pressure zone
+        and closer to the westerly storm track. Old dry-farmed vines in parts of the
+        south can survive without irrigation for that reason.
+
+  - id: chile-el-nino-rain-001
+    type: mcq
+    deck: Chile
+    tags: [chile, climate, vintage]
+    status: reviewed
+    source_id: c36-0009
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "What does an El Niño year typically bring to Chile's wine regions?"
+      choices:
+        - { text: "Severe drought", correct: false }
+        - { text: "Stronger cooling from the Humboldt Current", correct: false }
+        - { text: "Much heavier rainfall", correct: true }
+        - { text: "A hotter, rain-free harvest", correct: false }
+      explanation: |
+        El Niño is a Pacific-wide pattern: warmer surface water off South America
+        weakens the cold upwelling and steers more storms over central Chile. Its
+        opposite phase, La Niña, tends to bring drought instead.
+
+  - id: chile-humboldt-direction-001
+    type: mcq
+    deck: Chile
+    tags: [chile, climate, humboldt]
+    status: reviewed
+    source_id: c36-0012
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "In which direction does the Humboldt Current flow along Chile's coast?"
+      choices:
+        - { text: "Southward, from equatorial waters", correct: false }
+        - { text: "Northward, from Antarctic waters", correct: true }
+        - { text: "Eastward, from the central South Pacific", correct: false }
+        - { text: "Westward, away from the Chilean coast", correct: false }
+      explanation: |
+        Offshore winds also push surface water away from the coast, so colder water
+        wells up from the depths. The sea therefore stays chilly even in midsummer,
+        cooling the air that blows inland.
+
+  - id: chile-humboldt-low-coast-001
+    type: mcq
+    deck: Chile
+    tags: [chile, climate, humboldt, costa]
+    status: reviewed
+    source_id: c36-0014
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Where in Chile's wine valleys is the cooling effect of Pacific winds strongest?"
+      choices:
+        - { text: "On the Central Valley floor south of Santiago", correct: false }
+        - { text: "On the eastern side of the highest coastal peaks", correct: false }
+        - { text: "In the Andean foothills above 800 metres", correct: false }
+        - { text: "Near the sea, where the coastal hills are low", correct: true }
+      explanation: |
+        Where the coastal hills are low and close to the shore, afternoon winds arrive
+        almost unchecked. Higher ridges further inland block much of that air, so
+        nearby sites behind them can be markedly warmer.
+
+  - id: chile-andes-night-air-001
+    type: mcq
+    deck: Chile
+    tags: [chile, climate, andes]
+    status: reviewed
+    source_id: c36-0015
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "What gives vineyards in Chile's Andean foothills an especially wide day–night temperature range?"
+      choices:
+        - { text: "Afternoon fog drifting in from the Pacific", correct: false }
+        - { text: "Cold air flowing down from the mountains at night", correct: true }
+        - { text: "Cloud banks that block the morning sun", correct: false }
+        - { text: "Breezes off large high-altitude lakes", correct: false }
+      explanation: |
+        Dense, chilled air slides downslope after sunset and settles over the vines.
+        Puente Alto in Alto Maipo is a classic example: hot days build ripe fruit,
+        while cool nights help the grapes keep acidity and colour.
+
+  - id: chile-central-valley-floor-001
+    type: mcq
+    deck: Chile
+    tags: [chile, central-valley, viticulture]
+    status: reviewed
+    source_id: c36-0016
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Why has the floor of Chile's Central Valley long supplied much of the country's volume wine?"
+      choices:
+        - { text: "Cool ocean breezes slow ripening on the flat land", correct: false }
+        - { text: "Summer rain is reliable enough to avoid irrigation", correct: false }
+        - { text: "Its broad, flat land is sheltered and easy to farm", correct: true }
+        - { text: "Its poor, stony soils keep vigour naturally low", correct: false }
+      explanation: |
+        Mechanisation and canal irrigation are simple on level ground, so big crops
+        are cheap to grow. The shelter cuts both ways: warm, settled conditions suit
+        fruity everyday reds more than taut, fresh whites.
+
+  - id: chile-costa-andes-terms-001
+    type: mcq
+    deck: Chile
+    tags: [chile, labelling, do]
+    status: reviewed
+    source_id: c36-0017
+    review:
+      fact_check: pass
+      sources: [iura-decreto-464, trade-press, decanter]
+    en:
+      question: "Which three optional label terms show a Chilean wine's east–west position within its valley?"
+      choices:
+        - { text: "Bajo, Medio and Alto", correct: false }
+        - { text: "Litoral, Interior and Montaña", correct: false }
+        - { text: "Poniente, Centro and Oriente", correct: false }
+        - { text: "Costa, Entre Cordilleras and Andes", correct: true }
+      explanation: |
+        They were added to the DO rules in 2011. Chile's valley DOs are stacked one
+        after another down the country, and each stretches from the coast towards the
+        Andes, so a single valley name can cover sites with very different exposure
+        to the sea and the mountains. The terms appear alongside the valley name, and
+        at least 85% of the wine must come from qualifying areas.
+
+  - id: chile-emiliana-organic-001
+    type: mcq
+    deck: Chile
+    tags: [chile, sustainability, organic, producers]
+    status: reviewed
+    source_id: c36-0019
+    review:
+      fact_check: pass
+      sources: [producer-site, wines-of-chile, trade-press, wineanorak]
+    en:
+      question: "Which Chilean winery, advised by viticulturist Álvaro Espinoza, became a leading name in organic and biodynamic farming?"
+      choices:
+        - { text: "Santa Rita", correct: false }
+        - { text: "Errázuriz", correct: false }
+        - { text: "Emiliana", correct: true }
+        - { text: "Montes", correct: false }
+      explanation: |
+        Its conversion began in the late 1990s, and its red blend Coyam (first vintage
+        2001) was among the first organic wines it released. Pioneers like this, backed by industry bodies, made sustainable
+        methods mainstream; a national Sustainability Code followed in 2011.
+
+  - id: chile-most-planted-001
+    type: mcq
+    deck: Chile
+    tags: [chile, grapes, cabernet-sauvignon]
+    status: reviewed
+    source_id: c36-0020
+    review:
+      fact_check: pass
+      sources: [sag-catastro-2022, usda-fas, odepa]
+    en:
+      question: "Which grape covers the largest vineyard area in Chile?"
+      choices:
+        - { text: "Cabernet Sauvignon", correct: true }
+        - { text: "País", correct: false }
+        - { text: "Merlot", correct: false }
+        - { text: "Carmenère", correct: false }
+      explanation: |
+        The 2022 national vineyard survey put it at about 37,000 ha, close to 29% of
+        all wine-grape plantings. Merlot, País and Carmenère each had only a little
+        over 10,000 ha.
+
+  - id: chile-cabernet-herbaceous-001
+    type: mcq
+    deck: Chile
+    tags: [chile, cabernet-sauvignon, style]
+    status: reviewed
+    source_id: c36-0022
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Alongside very ripe black fruit, which character often appears in premium Chilean Cabernet Sauvignon?"
+      choices:
+        - { text: "A floral, violet lift", correct: false }
+        - { text: "A dried-fig, raisined note", correct: false }
+        - { text: "A smoky, struck-match note", correct: false }
+        - { text: "A herbaceous, minty edge", correct: true }
+      explanation: |
+        Chilean Cabernet ranges from simple fruity bottles to concentrated, oak-aged
+        wines built to age. The green note is linked to pyrazines in the grapes; a
+        eucalyptus-like edge can also come from trees planted near some vineyards.
+
+  - id: chile-cabernet-blend-partners-001
+    type: mcq
+    deck: Chile
+    tags: [chile, cabernet-sauvignon, blending]
+    status: reviewed
+    source_id: c36-0023
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which group of grapes is most often blended with Cabernet Sauvignon in Chile?"
+      choices:
+        - { text: "País, Cinsault or Carignan", correct: false }
+        - { text: "Merlot, Carmenère or Syrah", correct: true }
+        - { text: "Pinot Noir, Gamay or Cinsault", correct: false }
+        - { text: "Grenache, Mourvèdre or Petite Sirah", correct: false }
+      explanation: |
+        These partners soften Cabernet's firm tannins or add spice and flesh.
+        Almaviva, one of Chile's best-known icon reds, is Cabernet-led with a
+        share of Carmenère.
+
+  - id: chile-merlot-export-style-001
+    type: mcq
+    deck: Chile
+    tags: [chile, merlot, style]
+    status: reviewed
+    source_id: c36-0024
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which style of Chilean Merlot has been most successful on export markets?"
+      choices:
+        - { text: "Inexpensive, medium-bodied and fruity", correct: true }
+        - { text: "Light, pale and low in tannin", correct: false }
+        - { text: "Tannic and long-aged in new oak", correct: false }
+        - { text: "Off-dry with a hint of sweetness", correct: false }
+      explanation: |
+        Soft tannins and plummy fruit suit supermarket price points. Fuller-bodied,
+        more complex Merlot is also made, usually from lower-yielding sites and with
+        some oak.
+
+  - id: chile-carmenere-ripening-001
+    type: mcq
+    deck: Chile
+    tags: [chile, carmenere, viticulture]
+    status: reviewed
+    source_id: c36-0025
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which conditions does Carmenère need to succeed in Chile?"
+      choices:
+        - { text: "A short season on cool coastal slopes", correct: false }
+        - { text: "A long, warm and sunny season", correct: true }
+        - { text: "High rainfall and deep, fertile soils", correct: false }
+        - { text: "Morning fog and strong afternoon winds", correct: false }
+      explanation: |
+        It ripens late, often weeks after Merlot. Warm inland sites give it the time
+        it needs before autumn sets in.
+
+  - id: chile-carmenere-underripe-001
+    type: mcq
+    deck: Chile
+    tags: [chile, carmenere, style]
+    status: reviewed
+    source_id: c36-0026
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "How does Carmenère usually taste when picked before it is fully ripe?"
+      choices:
+        - { text: "Jammy, with dried-fruit notes", correct: false }
+        - { text: "Floral, soft and low in tannin", correct: false }
+        - { text: "Overtly herbaceous", correct: true }
+        - { text: "Light-bodied and peppery", correct: false }
+      explanation: |
+        Methoxypyrazines, the compounds behind green-pepper aromas, fall as grapes
+        ripen. Well-made Carmenère is full-bodied and tannic, with black fruit and a
+        gentle herbal note in balance rather than a green streak.
+
+  - id: chile-carmenere-signature-001
+    type: mcq
+    deck: Chile
+    tags: [chile, carmenere]
+    status: reviewed
+    source_id: c36-0027
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which red grape is widely promoted as Chile's signature variety?"
+      choices:
+        - { text: "País", correct: false }
+        - { text: "Syrah", correct: false }
+        - { text: "Merlot", correct: false }
+        - { text: "Carmenère", correct: true }
+      explanation: |
+        Nearly lost from Bordeaux after phylloxera, it survived in Chile mixed into
+        vineyards sold as Merlot. Ampelographer Jean-Michel Boursiquot identified it
+        there in 1994.
+
+  - id: chile-syrah-cool-coastal-001
+    type: mcq
+    deck: Chile
+    tags: [chile, syrah, style]
+    status: reviewed
+    source_id: c36-0029
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "How does Syrah from Chile's cooler coastal sites usually differ from Syrah grown in warm inland valleys?"
+      choices:
+        - { text: "Fuller body and more jammy fruit", correct: false }
+        - { text: "Lighter body and peppery notes", correct: true }
+        - { text: "Softer acidity and raisined fruit", correct: false }
+        - { text: "Higher alcohol and sweeter tannins", correct: false }
+      explanation: |
+        Chile grows Syrah in a wide range of sites. The pepper note comes from
+        rotundone, a compound that tends to build up in grapes ripened slowly in cool
+        conditions.
+
+  - id: chile-syrah-colchagua-001
+    type: mcq
+    deck: Chile
+    tags: [chile, syrah, colchagua]
+    status: reviewed
+    source_id: c36-0030
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which Chilean valley is a source of full-bodied, intensely black-fruited Syrah?"
+      choices:
+        - { text: "Casablanca", correct: false }
+        - { text: "Elqui", correct: false }
+        - { text: "Colchagua", correct: true }
+        - { text: "Bío-Bío", correct: false }
+      explanation: |
+        Its warm, sunny hillside sites combine heat with good drainage, so Syrah
+        ripens fully and gains concentration. Cooler coastal and northern valleys
+        give a lighter, more peppery style.
+
+  - id: chile-white-leaders-001
+    type: mcq
+    deck: Chile
+    tags: [chile, grapes, white]
+    status: reviewed
+    source_id: c36-0032
+    review:
+      fact_check: pass
+      sources: [sag-catastro-2022, usda-fas, odepa]
+    en:
+      question: "Which two grapes account for most of Chile's white-grape vineyard area?"
+      choices:
+        - { text: "Sémillon and Muscat of Alexandria", correct: false }
+        - { text: "Riesling and Gewurztraminer", correct: false }
+        - { text: "Viognier and Chenin Blanc", correct: false }
+        - { text: "Sauvignon Blanc and Chardonnay", correct: true }
+      explanation: |
+        In the 2022 national survey they covered roughly 14,500 ha and 10,200 ha, far
+        ahead of any other white variety. Sémillon was once much more widely planted
+        but has shrunk sharply.
+
+  - id: chile-sb-coastal-style-001
+    type: mcq
+    deck: Chile
+    tags: [chile, sauvignon-blanc, casablanca, san-antonio, style]
+    status: reviewed
+    source_id: c36-0034
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which profile best describes the best Sauvignon Blanc from the Casablanca and San Antonio valleys?"
+      choices:
+        - { text: "Soft acidity with ripe tropical fruit", correct: false }
+        - { text: "High acidity with intense fruit", correct: true }
+        - { text: "Low acidity with honeyed richness", correct: false }
+        - { text: "Medium acidity with oaky vanilla", correct: false }
+      explanation: |
+        A herbaceous note sometimes appears too. Some producers add texture with lees
+        stirring or a portion of oak, without losing the fresh core.
+
+  - id: chile-chardonnay-mainstream-001
+    type: mcq
+    deck: Chile
+    tags: [chile, chardonnay, style]
+    status: reviewed
+    source_id: c36-0035
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which style describes most Chilean Chardonnay?"
+      choices:
+        - { text: "Lean, unoaked and flinty", correct: false }
+        - { text: "Off-dry, floral and light", correct: false }
+        - { text: "Ripe fruit with evident oak", correct: true }
+        - { text: "Oxidative, nutty and mature", correct: false }
+      explanation: |
+        This modern international style fills much of the export range. Plantings in
+        cooler coastal and northern sites have widened the spread of styles and lifted
+        quality at the top.
+
+  - id: chile-limari-chardonnay-001
+    type: mcq
+    deck: Chile
+    tags: [chile, chardonnay, limari]
+    status: reviewed
+    source_id: c36-0037
+    review:
+      fact_check: pass
+      sources: [tabali-producer-site, trade-press]
+    en:
+      question: "Which Chilean valley is noted for restrained, structured Chardonnay from rare limestone-rich soils?"
+      choices:
+        - { text: "Casablanca", correct: false }
+        - { text: "Limarí", correct: true }
+        - { text: "San Antonio", correct: false }
+        - { text: "Bío-Bío", correct: false }
+      explanation: |
+        Limestone is unusual in Chile, and here it combines with cool ocean air to
+        give tension and elegance. Tabalí's Talinay vineyard, about 12 km from the Pacific on an old
+        marine terrace, is a well-known example.
+
+  - id: chile-muscat-alexandria-001
+    type: mcq
+    deck: Chile
+    tags: [chile, grapes, white, muscat]
+    status: reviewed
+    source_id: c36-0039
+    review:
+      fact_check: pass
+      sources: [sag-catastro-2012, sag, odepa]
+    en:
+      question: "Which grape ranks third among Chile's white wine varieties by vineyard area?"
+      choices:
+        - { text: "Viognier", correct: false }
+        - { text: "Sémillon", correct: false }
+        - { text: "Riesling", correct: false }
+        - { text: "Muscat of Alexandria", correct: true }
+      explanation: |
+        The 2012 national survey put it at about 3,300 ha, well behind the two
+        leaders. It is also one of the authorised grapes for Pisco, the grape brandy
+        of Chile's arid north.
+
+  - id: chile-aromatic-whites-south-001
+    type: mcq
+    deck: Chile
+    tags: [chile, southern-regions, riesling, gewurztraminer]
+    status: reviewed
+    source_id: c36-0041
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which pair of Chilean valleys is a source of fresh, fruity Riesling, Gewurztraminer and Viognier?"
+      choices:
+        - { text: "Maipo and Cachapoal", correct: false }
+        - { text: "Bío-Bío and Itata", correct: true }
+        - { text: "Colchagua and Curicó", correct: false }
+        - { text: "Elqui and Limarí", correct: false }
+      explanation: |
+        Plantings of these varieties are small. Cool nights and a longer, gentler
+        season help aromatic grapes keep their scent and acidity.
+
+  - id: chile-coquimbo-valleys-001
+    type: mcq
+    deck: Chile
+    tags: [chile, coquimbo, geography]
+    status: reviewed
+    source_id: c36-0043
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "The Elqui, Limarí and Choapa valleys belong to which Chilean wine region?"
+      choices:
+        - { text: "Aconcagua", correct: false }
+        - { text: "Atacama", correct: false }
+        - { text: "Coquimbo", correct: true }
+        - { text: "Central Valley", correct: false }
+      explanation: |
+        It is the most northerly of Chile's main wine regions, bordering the Atacama
+        Desert. Choapa, the southernmost of the three, is by far the least planted.
+
+  - id: chile-coquimbo-scale-001
+    type: mcq
+    deck: Chile
+    tags: [chile, coquimbo]
+    status: reviewed
+    source_id: c36-0044
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "How would you sum up wine production in Chile's Coquimbo region?"
+      choices:
+        - { text: "Small in area and mostly bulk wine", correct: false }
+        - { text: "Large in area and mostly bulk wine", correct: false }
+        - { text: "Large in area and mostly premium", correct: false }
+        - { text: "Small in area and mostly premium", correct: true }
+      explanation: |
+        Much of the region's vineyard land grows grapes for Pisco rather than for
+        table wine, so wine plantings stay modest and focus on ambitious bottlings.
+
+  - id: chile-coquimbo-cooling-001
+    type: mcq
+    deck: Chile
+    tags: [chile, coquimbo, climate]
+    status: reviewed
+    source_id: c36-0046
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "What tempers the brilliant sunshine in the valleys of Chile's Coquimbo region?"
+      choices:
+        - { text: "Frequent summer rain", correct: false }
+        - { text: "Persistent cloud cover", correct: false }
+        - { text: "Sea breezes and cold mountain air", correct: true }
+        - { text: "Shade from steep valley walls", correct: false }
+      explanation: |
+        The valleys run west to east, so ocean air funnels in by day while air off
+        the high Andes chills the vines at night. Each valley differs in detail, but
+        all share this pattern.
+
+  - id: chile-elqui-altitude-001
+    type: mcq
+    deck: Chile
+    tags: [chile, coquimbo, elqui, altitude]
+    status: reviewed
+    source_id: c36-0047
+    review:
+      fact_check: pass
+      sources: [producer-site, decanter, trade-press]
+    en:
+      question: "Roughly how high do the loftiest vineyards in Chile's Elqui Valley reach?"
+      choices:
+        - { text: "About 1,000 metres", correct: false }
+        - { text: "About 1,600 metres", correct: false }
+        - { text: "About 2,200 metres", correct: true }
+        - { text: "About 3,200 metres", correct: false }
+      explanation: |
+        Viñedos de Alcohuaz farms plots up to around that height, and Falernia's
+        Huanta vineyard reaches about 2,070 metres. Intense light and cold nights at
+        that altitude give deep colour and fresh acidity.
+
+  - id: chile-coquimbo-water-001
+    type: mcq
+    deck: Chile
+    tags: [chile, coquimbo, irrigation]
+    status: reviewed
+    source_id: c36-0048
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "What is the biggest viticultural challenge in Chile's Coquimbo region?"
+      choices:
+        - { text: "Spring frost on the valley floors", correct: false }
+        - { text: "Lack of water", correct: true }
+        - { text: "Rain at harvest time", correct: false }
+        - { text: "Gale-force Pacific winds", correct: false }
+      explanation: |
+        Irrigation is essential there, yet it costs more than in the central valleys
+        because the rivers carry less water. Years of drought have tightened supply
+        across Chile's northern valleys.
+
+  - id: chile-elqui-grapes-001
+    type: mcq
+    deck: Chile
+    tags: [chile, coquimbo, elqui]
+    status: reviewed
+    source_id: c36-0050
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which two grapes have built the Elqui Valley's wine reputation?"
+      choices:
+        - { text: "Cabernet Sauvignon and Carmenère", correct: false }
+        - { text: "Pinot Noir and Riesling", correct: false }
+        - { text: "Syrah and Sauvignon Blanc", correct: true }
+        - { text: "Merlot and Chardonnay", correct: false }
+      explanation: |
+        The valley is better known for Pisco and for its clear night skies, which
+        drew several international observatories. Wine plantings are small but have
+        attracted attention since the late 1990s.
