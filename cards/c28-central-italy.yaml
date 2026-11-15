@@ -75,20 +75,20 @@ cards:
     en:
       question: "Which two influences most commonly moderate summer heat in Central Italian vineyards?"
       choices:
-        - { text: "Atlantic fog and polar winds", correct: false }
+        - { text: "Summer rainfall and persistent cloud cover", correct: false }
         - { text: "Elevation in the Apennine hills and sea breezes near the coast", correct: true }
-        - { text: "Permanent cloud and glacial lakes", correct: false }
-        - { text: "Monsoon rain and desert winds", correct: false }
+        - { text: "Large lakes and cold northerly winds from the Alps", correct: false }
+        - { text: "Morning fog and north-facing slopes", correct: false }
       explanation: |
         Altitude increases diurnal range inland, while maritime air cools western and eastern coastal
         zones. Their importance varies greatly by region and site.
     fr:
       question: "Quelles sont les deux influences qui modèrent le plus souvent la chaleur estivale dans les vignobles d’Italie centrale ?"
       choices:
-        - { text: "Le brouillard atlantique et les vents polaires", correct: false }
+        - { text: "Les pluies estivales et une nébulosité persistante", correct: false }
         - { text: "L’altitude des collines apennines et les brises marines près des côtes", correct: true }
-        - { text: "Une nébulosité permanente et des lacs glaciaires", correct: false }
-        - { text: "Les pluies de mousson et les vents désertiques", correct: false }
+        - { text: "De grands lacs et les vents froids du nord venus des Alpes", correct: false }
+        - { text: "Les brouillards matinaux et les expositions nord", correct: false }
       explanation: |
         L’altitude augmente l’amplitude thermique quotidienne à l’intérieur des terres, tandis que l’air
         maritime rafraîchit les zones côtières occidentales et orientales. Leur importance varie
@@ -136,20 +136,20 @@ cards:
     en:
       question: "Which sequence correctly describes Tuscany’s principal vineyard landscapes from north and inland toward the coast?"
       choices:
-        - { text: "Flat delta, high desert and tropical coast", correct: false }
+        - { text: "Flat northern plain, steep southern mountains and a cliff-lined coast", correct: false }
         - { text: "Apennine foothills, rolling southern hills and a flatter coastal zone", correct: true }
-        - { text: "Alpine glaciers, volcanic islands and river marshes", correct: false }
-        - { text: "Granite plateau, slate valley and chalk plain", correct: false }
+        - { text: "Volcanic northern hills, a broad central river plain and coastal lagoons", correct: false }
+        - { text: "High mountain plateau, terraced river gorge and a hilly coastal zone", correct: false }
       explanation: |
         Chianti occupies northern and central hills, Montalcino and Montepulciano lie farther south and
         east, and the Maremma and Bolgheri sectors face the coast.
     fr:
       question: "Quelle succession décrit correctement les principaux paysages viticoles toscans, du nord et de l’intérieur vers la côte ?"
       choices:
-        - { text: "Delta plat, haut désert et côte tropicale", correct: false }
+        - { text: "Plaine septentrionale plate, montagnes méridionales abruptes et côte à falaises", correct: false }
         - { text: "Contreforts apennins, collines méridionales ondulées et zone côtière plus plate", correct: true }
-        - { text: "Glaciers alpins, îles volcaniques et marais fluviaux", correct: false }
-        - { text: "Plateau granitique, vallée d’ardoise et plaine crayeuse", correct: false }
+        - { text: "Collines volcaniques au nord, large plaine fluviale centrale et lagunes côtières", correct: false }
+        - { text: "Haut plateau montagneux, gorge fluviale en terrasses et zone côtière vallonnée", correct: false }
       explanation: |
         Chianti occupe les collines du nord et du centre, Montalcino et Montepulciano se trouvent plus
         au sud et à l’est, tandis que la Maremme et Bolgheri font face à la côte.
@@ -503,7 +503,7 @@ cards:
         - { text: "Montalcino and Montepulciano", correct: false }
         - { text: "Rufina and Colli Senesi", correct: true }
         - { text: "Bolgheri and Maremma", correct: false }
-        - { text: "Barolo and Barbaresco", correct: false }
+        - { text: "Montalbano and Carmignano", correct: false }
       explanation: |
         Rufina’s elevated sites often give fragrant, high-acid wines, while Colli Senesi surrounds
         important southern Tuscan wine territory. Neither is part of the separate Chianti Classico DOCG.
@@ -513,7 +513,7 @@ cards:
         - { text: "Montalcino et Montepulciano", correct: false }
         - { text: "Rufina et Colli Senesi", correct: true }
         - { text: "Bolgheri et Maremma", correct: false }
-        - { text: "Barolo et Barbaresco", correct: false }
+        - { text: "Montalbano et Carmignano", correct: false }
       explanation: |
         Les sites élevés de Rufina donnent souvent des vins parfumés et très acides, tandis que Colli
         Senesi entoure d’importants territoires viticoles du sud toscan. Aucune ne fait partie de la
@@ -707,28 +707,29 @@ cards:
     source_id: c28-0024
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: [known-fact, italian-wine-central]
     en:
       question: "Which combination is required for Chianti Classico Gran Selezione?"
       choices:
-        - { text: "Purchased fruit, 24 months ageing and at least 80% Sangiovese", correct: false }
-        - { text: "Estate-grown fruit, 30 months ageing and a higher Sangiovese requirement", correct: true }
-        - { text: "Any Tuscan fruit, 12 months ageing and compulsory Cabernet", correct: false }
-        - { text: "Dried grapes, 36 months ageing and fortification", correct: false }
+        - { text: "Purchased fruit, 24 months ageing and at least 3 months in bottle", correct: false }
+        - { text: "Estate-grown fruit, 30 months ageing and at least 3 months in bottle", correct: true }
+        - { text: "Estate-grown fruit, 18 months ageing and compulsory new oak", correct: false }
+        - { text: "Single-vineyard fruit, 36 months ageing and 12 months in bottle", correct: false }
       explanation: |
-        Current rules specify at least 90% Sangiovese, with only authorised indigenous black grapes for
-        the remainder, plus at least 3 months in bottle within the 30-month maturation.
+        Riserva needs only 24 months and may use bought-in fruit. The amended code also raises Gran
+        Selezione’s minimum Sangiovese from 80% to 90% from the 2027 vintage, with only authorised
+        native black grapes for the remainder.
     fr:
       question: "Quelle combinaison est exigée pour Chianti Classico Gran Selezione ?"
       choices:
-        - { text: "Raisins achetés, 24 mois d’élevage et au moins 80 % de Sangiovese", correct: false }
-        - { text: "Raisins de l’exploitation, 30 mois d’élevage et proportion de Sangiovese plus élevée", correct: true }
-        - { text: "Tout raisin toscan, 12 mois d’élevage et Cabernet obligatoire", correct: false }
-        - { text: "Raisins séchés, 36 mois d’élevage et mutage", correct: false }
+        - { text: "Raisins achetés, 24 mois d’élevage et au moins 3 mois en bouteille", correct: false }
+        - { text: "Raisins de l’exploitation, 30 mois d’élevage et au moins 3 mois en bouteille", correct: true }
+        - { text: "Raisins de l’exploitation, 18 mois d’élevage et bois neuf obligatoire", correct: false }
+        - { text: "Raisins d’une seule vigne, 36 mois d’élevage et 12 mois en bouteille", correct: false }
       explanation: |
-        Les règles actuelles fixent au moins 90 % de Sangiovese, seuls des cépages noirs indigènes
-        autorisés pouvant compléter l’assemblage, ainsi qu’au moins 3 mois en bouteille dans les 30 mois
-        de maturation.
+        La Riserva n’exige que 24 mois et peut employer des raisins achetés. Le cahier des charges
+        modifié porte aussi le minimum de Sangiovese de la Gran Selezione de 80 % à 90 % à partir du
+        millésime 2027, seuls des cépages noirs autochtones autorisés pouvant compléter l’assemblage.
 
   - id: citaly-gs-oak-law-001
     type: mcq
@@ -773,20 +774,20 @@ cards:
     en:
       question: "Why do many Gran Selezione producers use oak even though it is not legally required?"
       choices:
-        - { text: "Oak is needed to raise the wine’s residual sugar", correct: false }
+        - { text: "Oak ageing is needed to deepen the wine’s colour", correct: false }
         - { text: "Controlled oxygen and wood can soften tannins and add complexity", correct: true }
-        - { text: "Oak converts permitted grapes into Sangiovese", correct: false }
-        - { text: "Barrels are required to create carbonation", correct: false }
+        - { text: "Oak ageing raises acidity in warm vintages", correct: false }
+        - { text: "Oak ageing shortens the minimum maturation period", correct: false }
       explanation: |
         Sangiovese’s tannins and concentration can benefit from maturation in large casks or smaller
         barrels. Vessel age and size determine how strongly oak flavours the wine.
     fr:
       question: "Pourquoi de nombreux producteurs de Gran Selezione utilisent-ils le bois alors qu’il n’est pas légalement obligatoire ?"
       choices:
-        - { text: "Le bois est nécessaire pour augmenter le sucre résiduel", correct: false }
+        - { text: "L’élevage sous bois est nécessaire pour approfondir la couleur", correct: false }
         - { text: "L’oxygène maîtrisé et le bois peuvent assouplir les tanins et ajouter de la complexité", correct: true }
-        - { text: "Le bois transforme les cépages autorisés en Sangiovese", correct: false }
-        - { text: "Les fûts sont nécessaires pour créer l’effervescence", correct: false }
+        - { text: "L’élevage sous bois relève l’acidité dans les millésimes chauds", correct: false }
+        - { text: "L’élevage sous bois raccourcit la durée minimale de maturation", correct: false }
       explanation: |
         Les tanins et la concentration du Sangiovese peuvent profiter d’un élevage en grands foudres ou
         en petits fûts. L’âge et la taille du contenant déterminent l’intensité du goût boisé.
@@ -837,7 +838,7 @@ cards:
         - { text: "Chianti Rufina and Carmignano", correct: false }
         - { text: "Brunello di Montalcino and Vino Nobile di Montepulciano", correct: true }
         - { text: "Bolgheri Sassicaia and Morellino di Scansano", correct: false }
-        - { text: "Montefalco Sagrantino and Conero Riserva", correct: false }
+        - { text: "Montefalco Sagrantino and Conero", correct: false }
       explanation: |
         Brunello requires pure Sangiovese, while Vino Nobile permits blending. Both impose longer
         maturation than their corresponding Rosso DOCs.
@@ -847,7 +848,7 @@ cards:
         - { text: "Chianti Rufina et Carmignano", correct: false }
         - { text: "Brunello di Montalcino et Vino Nobile di Montepulciano", correct: true }
         - { text: "Bolgheri Sassicaia et Morellino di Scansano", correct: false }
-        - { text: "Montefalco Sagrantino et Conero Riserva", correct: false }
+        - { text: "Montefalco Sagrantino et Conero", correct: false }
       explanation: |
         Brunello exige du Sangiovese pur, tandis que Vino Nobile autorise l’assemblage. Tous deux
         imposent une maturation plus longue que leurs DOC Rosso correspondantes.
@@ -1198,24 +1199,25 @@ cards:
     en:
       question: "Which grape family commonly leads coastal Super-Tuscan blends?"
       choices:
-        - { text: "Aromatic German white varieties", correct: false }
-        - { text: "International black varieties, especially Bordeaux grapes", correct: true }
-        - { text: "Only indigenous grapes from Piemonte", correct: false }
-        - { text: "Traditional Valpolicella dried-grape varieties", correct: false }
+        - { text: "Rhône black varieties, led by Grenache", correct: false }
+        - { text: "Bordeaux black varieties, led by Cabernet Sauvignon", correct: true }
+        - { text: "Piedmontese black varieties, led by Nebbiolo", correct: false }
+        - { text: "Southern Italian black varieties, led by Aglianico", correct: false }
       explanation: |
-        Cabernet Sauvignon, Merlot and Cabernet Franc are common, although the informal Super-Tuscan
-        term also covers some premium Sangiovese-based wines outside old appellation rules.
+        Merlot and Cabernet Franc are common partners, and Syrah also succeeds on the coast. The
+        informal Super-Tuscan term also covers some premium Sangiovese-based wines outside old
+        appellation rules.
     fr:
       question: "Quelle famille de cépages domine souvent les assemblages de Super-Toscans côtiers ?"
       choices:
-        - { text: "Les cépages blancs aromatiques allemands", correct: false }
-        - { text: "Les cépages noirs internationaux, surtout bordelais", correct: true }
-        - { text: "Uniquement les cépages indigènes du Piémont", correct: false }
-        - { text: "Les cépages traditionnels de raisins séchés de Valpolicella", correct: false }
+        - { text: "Les cépages noirs rhodaniens, Grenache en tête", correct: false }
+        - { text: "Les cépages noirs bordelais, Cabernet Sauvignon en tête", correct: true }
+        - { text: "Les cépages noirs piémontais, Nebbiolo en tête", correct: false }
+        - { text: "Les cépages noirs du sud de l’Italie, Aglianico en tête", correct: false }
       explanation: |
-        Cabernet Sauvignon, Merlot et Cabernet Franc sont courants, même si le terme informel
-        Super-Toscan couvre aussi certains grands vins à base de Sangiovese hors des anciennes règles
-        d’appellation.
+        Le Merlot et le Cabernet Franc sont des partenaires courants, et la Syrah réussit aussi sur la
+        côte. Le terme informel Super-Toscan couvre également certains grands vins à base de Sangiovese
+        hors des anciennes règles d’appellation.
 
   - id: citaly-super-label-001
     type: mcq
@@ -1293,7 +1295,7 @@ cards:
         - { text: "It is more maritime and has milder temperature extremes", correct: false }
         - { text: "It is more continental because it lacks direct Mediterranean influence", correct: true }
         - { text: "It is uniformly colder because all vineyards exceed 1,000 metres", correct: false }
-        - { text: "It is tropical because the Apennines trap summer rain", correct: false }
+        - { text: "It is wetter and cloudier because Adriatic air crosses the Apennines freely", correct: false }
       explanation: |
         Summers can be hot and winters colder than near the Tuscan coast. Elevation and lakes create
         important local moderation.
@@ -1303,7 +1305,7 @@ cards:
         - { text: "Il est plus maritime et présente des températures extrêmes plus faibles", correct: false }
         - { text: "Il est plus continental faute d’influence méditerranéenne directe", correct: true }
         - { text: "Il est uniformément plus froid parce que tous les vignobles dépassent 1 000 mètres", correct: false }
-        - { text: "Il est tropical parce que les Apennins retiennent les pluies estivales", correct: false }
+        - { text: "Il est plus humide et nuageux, car l’air adriatique franchit librement les Apennins", correct: false }
       explanation: |
         Les étés peuvent être chauds et les hivers plus froids que près de la côte toscane. L’altitude
         et les lacs créent d’importantes modérations locales.
@@ -1322,8 +1324,8 @@ cards:
       choices:
         - { text: "On the Tyrrhenian coast west of Tuscany", correct: false }
         - { text: "Inland between Tuscany, Marche and Lazio", correct: true }
-        - { text: "On the Adriatic coast north of Veneto", correct: false }
-        - { text: "On an island south of Sicily", correct: false }
+        - { text: "On the Adriatic coast between Marche and Abruzzo", correct: false }
+        - { text: "In the Po Valley north of the Apennines", correct: false }
       explanation: |
         Umbria is Italy’s only landlocked region that does not border another country. Its vineyards
         occupy valleys and hills within the central Apennine system.
@@ -1332,8 +1334,8 @@ cards:
       choices:
         - { text: "Sur la côte tyrrhénienne à l’ouest de la Toscane", correct: false }
         - { text: "À l’intérieur des terres, entre Toscane, Marches et Latium", correct: true }
-        - { text: "Sur la côte adriatique au nord de la Vénétie", correct: false }
-        - { text: "Sur une île au sud de la Sicile", correct: false }
+        - { text: "Sur la côte adriatique, entre les Marches et les Abruzzes", correct: false }
+        - { text: "Dans la plaine du Pô, au nord des Apennins", correct: false }
       explanation: |
         L’Ombrie est la seule région italienne enclavée qui ne borde pas un autre pays. Ses vignobles
         occupent des vallées et des collines du système apennin central.
@@ -1501,23 +1503,24 @@ cards:
     en:
       question: "Which DOCG is Umbria’s benchmark varietal Sagrantino wine?"
       choices:
-        - { text: "Sagrantino di Montefalco DOCG", correct: false }
+        - { text: "Torgiano Rosso Riserva DOCG", correct: false }
         - { text: "Montefalco Sagrantino DOCG", correct: true }
         - { text: "Montefalco Rosso DOCG", correct: false }
         - { text: "Sagrantino d’Orvieto DOCG", correct: false }
       explanation: |
-        The protected name is Montefalco Sagrantino DOCG. It covers dry and passito wines made from 100%
-        Sagrantino.
+        Montefalco Sagrantino DOCG, also widely written Sagrantino di Montefalco, covers dry and passito
+        wines made from 100% Sagrantino. Torgiano Rosso Riserva, Umbria’s other DOCG, is Sangiovese-led.
     fr:
       question: "Quelle DOCG constitue la référence ombrienne pour le Sagrantino monocépage ?"
       choices:
-        - { text: "Sagrantino di Montefalco DOCG", correct: false }
+        - { text: "Torgiano Rosso Riserva DOCG", correct: false }
         - { text: "Montefalco Sagrantino DOCG", correct: true }
         - { text: "Montefalco Rosso DOCG", correct: false }
         - { text: "Sagrantino d’Orvieto DOCG", correct: false }
       explanation: |
-        Le nom protégé est Montefalco Sagrantino DOCG. Il couvre des vins secs et passito issus de 100 %
-        de Sagrantino.
+        Montefalco Sagrantino DOCG, souvent écrit aussi Sagrantino di Montefalco, couvre des vins secs
+        et passito issus de 100 % de Sagrantino. Torgiano Rosso Riserva, l’autre DOCG d’Ombrie, est
+        dominé par le Sangiovese.
 
   - id: citaly-sagrantino-grape-001
     type: mcq
@@ -1651,20 +1654,20 @@ cards:
     en:
       question: "Which local factors help Frascati retain freshness despite Lazio’s warm climate?"
       choices:
-        - { text: "Atlantic currents and permanent cloud", correct: false }
+        - { text: "Adriatic sea breezes and summer rainfall", correct: false }
         - { text: "Hill elevation and the moderating influence of nearby lakes", correct: true }
-        - { text: "Very northerly latitude and Alpine shade", correct: false }
-        - { text: "Desert winds and complete absence of rainfall", correct: false }
+        - { text: "North-facing slopes and persistent morning fog", correct: false }
+        - { text: "Deep clay soils and shading from pergola training", correct: false }
       explanation: |
         Cooling at elevation slows ripening, while lakes reduce temperature extremes. Good sites can
         therefore preserve useful acidity.
     fr:
       question: "Quels facteurs locaux aident Frascati à conserver sa fraîcheur malgré le climat chaud du Latium ?"
       choices:
-        - { text: "Les courants atlantiques et une nébulosité permanente", correct: false }
+        - { text: "Les brises de l’Adriatique et les pluies estivales", correct: false }
         - { text: "L’altitude des collines et l’influence modératrice des lacs voisins", correct: true }
-        - { text: "Une latitude très septentrionale et l’ombre des Alpes", correct: false }
-        - { text: "Les vents désertiques et l’absence totale de pluie", correct: false }
+        - { text: "Des expositions nord et des brouillards matinaux persistants", correct: false }
+        - { text: "Des sols argileux profonds et l’ombrage des pergolas", correct: false }
       explanation: |
         La fraîcheur de l’altitude ralentit la maturation, tandis que les lacs réduisent les
         températures extrêmes. Les bons sites peuvent ainsi conserver une acidité utile.
@@ -1744,8 +1747,8 @@ cards:
       choices:
         - { text: "On their western Tyrrhenian side", correct: false }
         - { text: "On their eastern side facing the Adriatic", correct: true }
-        - { text: "North of the Alps on the Austrian border", correct: false }
-        - { text: "On an island in the Mediterranean", correct: false }
+        - { text: "Inland, with no coastline, between Tuscany and Lazio", correct: false }
+        - { text: "Along the Po Valley north of the Apennines", correct: false }
       explanation: |
         Mountain influence cools inland valleys, while the Adriatic affects coastal hills. The region
         lies east of Umbria.
@@ -1754,8 +1757,8 @@ cards:
       choices:
         - { text: "Sur leur versant occidental tourné vers la mer Tyrrhénienne", correct: false }
         - { text: "Sur leur versant oriental face à l’Adriatique", correct: true }
-        - { text: "Au nord des Alpes, à la frontière autrichienne", correct: false }
-        - { text: "Sur une île de la Méditerranée", correct: false }
+        - { text: "À l’intérieur des terres, sans littoral, entre Toscane et Latium", correct: false }
+        - { text: "Le long de la plaine du Pô, au nord des Apennins", correct: false }
       explanation: |
         L’influence montagnarde rafraîchit les vallées intérieures, tandis que l’Adriatique agit sur les
         collines côtières. La région se trouve à l’est de l’Ombrie.
@@ -1804,7 +1807,7 @@ cards:
       choices:
         - { text: "Verdicchio di Soave DOC", correct: false }
         - { text: "Verdicchio dei Castelli di Jesi DOC", correct: true }
-        - { text: "Conero Riserva DOCG", correct: false }
+        - { text: "Conero DOCG", correct: false }
         - { text: "Offida Rosso DOCG", correct: false }
       explanation: |
         Castelli di Jesi occupies lower hills nearer the Adriatic and produces far more wine. Matelica’s
@@ -1814,7 +1817,7 @@ cards:
       choices:
         - { text: "Verdicchio di Soave DOC", correct: false }
         - { text: "Verdicchio dei Castelli di Jesi DOC", correct: true }
-        - { text: "Conero Riserva DOCG", correct: false }
+        - { text: "Conero DOCG", correct: false }
         - { text: "Offida Rosso DOCG", correct: false }
       explanation: |
         Castelli di Jesi occupe des collines plus basses proches de l’Adriatique et produit beaucoup
@@ -1888,27 +1891,29 @@ cards:
     source_id: c28-0063
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: [known-fact, italian-wine-central]
     en:
       question: "Which coastal Marche DOCG is a premium, Montepulciano-led red?"
       choices:
-        - { text: "Conero DOCG", correct: false }
-        - { text: "Conero Riserva DOCG", correct: true }
-        - { text: "Rosso Conero DOCG", correct: false }
-        - { text: "Montepulciano del Conero DOCG", correct: false }
+        - { text: "Vernaccia di Serrapetrona DOCG", correct: false }
+        - { text: "Conero DOCG", correct: true }
+        - { text: "Verdicchio di Matelica Riserva DOCG", correct: false }
+        - { text: "Castelli di Jesi Verdicchio Riserva DOCG", correct: false }
       explanation: |
-        The exact protected name is Conero Riserva DOCG. The broader, younger denomination is Rosso
-        Conero DOC.
+        Conero DOCG covers a red of at least 85% Montepulciano grown around Monte Conero near Ancona; it
+        is made as a Riserva and usually labelled Conero Riserva. The broader, earlier-drinking
+        denomination is Rosso Conero DOC.
     fr:
       question: "Quelle DOCG côtière des Marches correspond à un rouge haut de gamme dominé par le Montepulciano ?"
       choices:
-        - { text: "Conero DOCG", correct: false }
-        - { text: "Conero Riserva DOCG", correct: true }
-        - { text: "Rosso Conero DOCG", correct: false }
-        - { text: "Montepulciano del Conero DOCG", correct: false }
+        - { text: "Vernaccia di Serrapetrona DOCG", correct: false }
+        - { text: "Conero DOCG", correct: true }
+        - { text: "Verdicchio di Matelica Riserva DOCG", correct: false }
+        - { text: "Castelli di Jesi Verdicchio Riserva DOCG", correct: false }
       explanation: |
-        Le nom protégé exact est Conero Riserva DOCG. La dénomination plus large et plus jeune est Rosso
-        Conero DOC.
+        Conero DOCG couvre un rouge comptant au moins 85 % de Montepulciano, cultivé autour du Monte
+        Conero près d’Ancône ; il est élaboré en Riserva et généralement étiqueté Conero Riserva. La
+        dénomination plus large, à boire plus jeune, est Rosso Conero DOC.
 
   - id: citaly-abruzzo-where-001
     type: mcq

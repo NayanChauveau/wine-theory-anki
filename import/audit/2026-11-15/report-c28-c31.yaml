@@ -1,0 +1,242 @@
+# Final audit — c28 central Italy (67), c29 southern Italy (47), c31 Portugal (78)
+cards:
+  # ---- c28 ----
+  - id: citaly-conero-001
+    file: cards/c28-central-italy.yaml
+    verdict: wrong
+    issues:
+      - "Key 'Conero Riserva DOCG' presented as the exact protected name while the foil 'Conero DOCG' is the actual denomination (Riserva is the wine type); card tested name trivia with a correct foil"
+    change: "Key is now Conero DOCG; foils are the other Marche DOCGs (Vernaccia di Serrapetrona, Verdicchio di Matelica Riserva, Castelli di Jesi Verdicchio Riserva); Why rewritten (85% Montepulciano, labelled Conero Riserva, Rosso Conero DOC); sources += italian-wine-central"
+    checked: [italian-wine-central, disciplinare-conero-docg]
+  - id: citaly-sagrantino-name-001
+    file: cards/c28-central-italy.yaml
+    verdict: fix
+    issues:
+      - "Foil 'Sagrantino di Montefalco DOCG' is the widely used (and WSET) name of the same wine; card hinged on word order"
+    change: "Foil replaced by Torgiano Rosso Riserva DOCG; Why notes both spellings and that Torgiano is Sangiovese-led"
+    checked: [knowledge]
+  - id: citaly-gs-rules-001
+    file: cards/c28-central-italy.yaml
+    verdict: fix
+    issues:
+      - "Key relied on 'a higher Sangiovese requirement' and Why said 90% is current; 90% only applies from the 2027 vintage (80% until then), so the '80% Sangiovese' foil element was true today"
+      - "Two joke foils (dried grapes + fortification; compulsory Cabernet)"
+    change: "Choices now contrast fruit source / total ageing / bottle time (key: estate fruit, 30 months, 3 in bottle); Why gives Riserva contrast and 80%->90% from 2027; sources += italian-wine-central"
+    checked: [italian-wine-central, decanter-trade-press]
+  - id: citaly-cool-001
+    file: cards/c28-central-italy.yaml
+    verdict: fix
+    issues: ["Three joke foils (polar winds, glacial lakes, monsoon and desert winds)"]
+    change: "Three credible climate-factor foils EN/FR"
+    checked: [knowledge]
+  - id: citaly-tuscany-three-001
+    file: cards/c28-central-italy.yaml
+    verdict: fix
+    issues: ["Three joke foils (tropical coast, Alpine glaciers, chalk plain)"]
+    change: "Three plausible landscape sequences EN/FR"
+    checked: [knowledge]
+  - id: citaly-gs-oak-practice-001
+    file: cards/c28-central-italy.yaml
+    verdict: fix
+    issues: ["Joke foils (oak converts grapes into Sangiovese; barrels create carbonation; oak raises residual sugar)"]
+    change: "Three same-frame oak-effect foils EN/FR"
+    checked: [knowledge]
+  - id: citaly-super-blend-001
+    file: cards/c28-central-italy.yaml
+    verdict: fix
+    issues: ["Foils out of frame (German white varieties, Valpolicella dried-grape varieties, 'Only' cue)"]
+    change: "Four parallel 'X black varieties, led by Y' choices; Why adjusted (Merlot, Cabernet Franc, Syrah)"
+    checked: [knowledge]
+  - id: citaly-frascati-cool-001
+    file: cards/c28-central-italy.yaml
+    verdict: fix
+    issues: ["Three joke foils (Atlantic currents, Alpine shade, desert winds)"]
+    change: "Three credible local-factor foils EN/FR"
+    checked: [knowledge]
+  - id: citaly-umbria-where-001
+    file: cards/c28-central-italy.yaml
+    verdict: fix
+    issues: ["Joke foils (island south of Sicily; Adriatic coast north of Veneto)"]
+    change: "Replaced with Adriatic coast between Marche and Abruzzo / Po Valley north of the Apennines"
+    checked: [knowledge]
+  - id: citaly-marche-where-001
+    file: cards/c28-central-italy.yaml
+    verdict: fix
+    issues: ["Joke foils (north of the Alps on the Austrian border; Mediterranean island)"]
+    change: "Replaced with landlocked between Tuscany and Lazio / Po Valley north of the Apennines"
+    checked: [knowledge]
+  - id: citaly-umbria-climate-001
+    file: cards/c28-central-italy.yaml
+    verdict: minor
+    issues: ["'Tropical' joke foil"]
+    change: "Foil replaced by 'wetter and cloudier because Adriatic air crosses the Apennines freely'"
+    checked: [knowledge]
+  - id: citaly-chianti-best-sub-001
+    file: cards/c28-central-italy.yaml
+    verdict: minor
+    issues: ["'Barolo and Barbaresco' foil out of region"]
+    change: "Foil replaced by 'Montalbano and Carmignano' (one subzone + one separate DOCG)"
+    checked: [knowledge]
+  - id: citaly-jesi-001
+    file: cards/c28-central-italy.yaml
+    verdict: minor
+    issues: ["Only two options contain 'Verdicchio' and one is fictional (Verdicchio di Soave); foil named 'Conero Riserva DOCG'"]
+    change: "Foil renamed Conero DOCG for consistency; rest left"
+    checked: [knowledge]
+  - id: citaly-south-names-001
+    file: cards/c28-central-italy.yaml
+    verdict: minor
+    issues: ["Foil used 'Conero Riserva' as a DOCG name"]
+    change: "Foil now 'Montefalco Sagrantino and Conero'"
+    checked: [knowledge]
+  - id: citaly-plant-hills-001
+    file: cards/c28-central-italy.yaml
+    verdict: minor
+    issues: ["'Only' / 'Exclusively' foils; volcanic islands foil weak"]
+    change: none
+    checked: [knowledge]
+  - id: citaly-sangiovese-oak-001
+    file: cards/c28-central-italy.yaml
+    verdict: minor
+    issues: ["All three foils are absolutes (Only / prohibited for every / Only)"]
+    change: none
+    checked: [knowledge]
+  - id: citaly-chianti-blend-001
+    file: cards/c28-central-italy.yaml
+    verdict: minor
+    issues: ["Foils with 'always' / 'every' / 'prohibits'"]
+    change: none
+    checked: [knowledge]
+  - id: citaly-super-label-001
+    file: cards/c28-central-italy.yaml
+    verdict: minor
+    issues: ["All foils are other regions' denominations; eliminated by region alone"]
+    change: none
+    checked: [knowledge]
+  - id: citaly-orvieto-name-001
+    file: cards/c28-central-italy.yaml
+    verdict: minor
+    issues: ["Stem says 'Umbrian'; two foils (Frascati, Verdicchio dei Castelli di Jesi) are outside Umbria"]
+    change: none
+    checked: [knowledge]
+  - id: citaly-frascati-name-001
+    file: cards/c28-central-italy.yaml
+    verdict: minor
+    issues: ["All foils are outside Lazio"]
+    change: none
+    checked: [knowledge]
+  - id: citaly-bolgheri-permit-001
+    file: cards/c28-central-italy.yaml
+    verdict: minor
+    issues: ["Weak foils ('Only sweet whites from dried grapes', 'reds without a defined origin'); Bolgheri caps Syrah at 50%, so 'entirely ... Syrah' is true for Maremma only"]
+    change: none
+    checked: [knowledge]
+  # ---- c29 ----
+  - id: sitaly-basilicata-where-001
+    file: cards/c29-southern-italy.yaml
+    verdict: fix
+    issues: ["All three foils lie outside Basilicata (Bari, Marsala, Lake Garda); answer found by region alone"]
+    change: "Foils now inside Basilicata: Ionian plain around Metaponto, Pollino mountains, Tyrrhenian coast around Maratea"
+    checked: [knowledge]
+  - id: sitaly-volume-001
+    file: cards/c29-southern-italy.yaml
+    verdict: minor
+    issues: ["Stem says 'southern regions'; foils included Valle d'Aosta, Liguria, Trentino"]
+    change: "Foils now 'Campania and Calabria' / 'Sardinia and Calabria'"
+    checked: [knowledge]
+  - id: sitaly-map-001
+    file: cards/c29-southern-italy.yaml
+    verdict: minor
+    issues: ["French-regions foil is a throwaway"]
+    change: none
+    checked: [knowledge]
+  - id: sitaly-campania-docg-001
+    file: cards/c29-southern-italy.yaml
+    verdict: minor
+    issues: ["Foil sets are correct pairings from other regions; solved by knowing Campania only"]
+    change: none
+    checked: [knowledge]
+  - id: sitaly-greco-docg-001
+    file: cards/c29-southern-italy.yaml
+    verdict: minor
+    issues: ["Stem asks for a Campania DOCG; two foils are DOCs from Basilicata and Puglia"]
+    change: none
+    checked: [knowledge]
+  - id: sitaly-negroamaro-style-001
+    file: cards/c29-southern-italy.yaml
+    verdict: minor
+    issues: ["Key clearly the longest; two foils (sparkling muscat, colourless) are throwaways"]
+    change: none
+    checked: [knowledge]
+  - id: sitaly-sicily-volume-001
+    file: cards/c29-southern-italy.yaml
+    verdict: minor
+    issues: ["Foils 'tiny area on one volcano' / 'rule limiting to one variety' self-defeating"]
+    change: none
+    checked: [knowledge]
+  # ---- c31 ----
+  - id: portugal-vv-vsp-001
+    file: cards/c31-portugal.yaml
+    verdict: minor
+    issues: ["Key specified 'spur-pruned' VSP; cane (Guyot) pruning is at least as common, detail unsupported and untested by the Why"]
+    change: "Key now 'Vertical shoot positioning on wire trellises' / 'Un palissage vertical des rameaux sur fils'"
+    checked: [knowledge]
+  - id: portugal-dao-climate-001
+    file: cards/c31-portugal.yaml
+    verdict: minor
+    issues: ["Why: 'western latitude' (EN) / 'longitude occidentale' (FR) is meaningless"]
+    change: "Why now 'despite its relative closeness to the Atlantic' EN/FR"
+    checked: [knowledge]
+  - id: portugal-trincadeira-001
+    file: cards/c31-portugal.yaml
+    verdict: minor
+    issues: ["EN foil 'very thick bunches' vs FR 'grappes très compactes'"]
+    change: "EN foil now 'very compact bunches'"
+    checked: [knowledge]
+  - id: portugal-vr-term-001
+    file: cards/c31-portugal.yaml
+    verdict: minor
+    issues: ["EN foils were invented Portuguese-looking spellings of Spanish terms; FR used the real Spanish terms"]
+    change: "EN foils aligned on FR: Vino de Pago / Denominación de Origen Calificada"
+    checked: [knowledge]
+  - id: portugal-bairrada-other-black-001
+    file: cards/c31-portugal.yaml
+    verdict: minor
+    issues: ["Bairrada's permitted list also includes Aragonez, Touriga Franca, Tinta Barroca, Tinto Cão, so the Douro/Alentejo foil sets are partly permitted; key is still the only set matching common practice"]
+    change: none
+    checked: [knowledge]
+  - id: portugal-vv-red-001
+    file: cards/c31-portugal.yaml
+    verdict: minor
+    issues: ["Foils 2 and 4 are near-duplicates (medium colour, soft tannin)"]
+    change: none
+    checked: [knowledge]
+  - id: portugal-alentejo-north-south-001
+    file: cards/c31-portugal.yaml
+    verdict: minor
+    issues: ["'Identical temperatures and rainfall' foil is a throwaway"]
+    change: none
+    checked: [knowledge]
+verified_ok_on_web:
+  - ids: [citaly-chianti-seven-001, citaly-classico-not-sub-001]
+    note: "Terre di Vinci confirmed as Chianti DOCG's eighth subzone (national decree June 2026, EU approval autumn 2026; Gambero Rosso, Decanter, trade press). Cards correct, not edited."
+  - ids: [citaly-classico-12-001, citaly-classico-riserva-001, citaly-gs-oak-law-001]
+    note: "Chianti Classico: annata release 1 Oct V+1; Riserva 24 months incl. 3 in bottle; Gran Selezione 30 months incl. 3 in bottle, estate fruit (italianwinecentral)."
+summary:
+  total: 192
+  wrong: 1
+  fix: 10
+  minor: 23
+  ok: 158
+  per_file:
+    c28-central-italy: { wrong: 1, fix: 9, minor: 11, ok: 46 }
+    c29-southern-italy: { wrong: 0, fix: 1, minor: 6, ok: 40 }
+    c31-portugal: { wrong: 0, fix: 0, minor: 7, ok: 71 }
+  validate: "uv run wset3-anki validate -> 3517 card(s) OK; EN/FR correct flags identical and exactly one key on all 192 cards"
+  law_topics: "Brunello (100% Sangiovese, release 1 Jan of 5th year, 2 years oak, 4 months bottle), Vino Nobile (min 70%, 2 years), Chianti Classico tiers, Etna Rosso/Bianco percentages, Aglianico del Vulture Superiore DOCG, Vinho Verde (DOP, colours, Monção e Melgaço), Alentejo eight subregions, Portuguese DOP/DOC/IGP/VR terms judged correct."
+  riskiest_patterns:
+    - "c28 name-trivia cards whose foil is the real or commonly used name (Conero DOCG vs 'Conero Riserva DOCG'; Sagrantino di Montefalco vs Montefalco Sagrantino)"
+    - "Rules described as 'current' that are approved but not yet applicable (Gran Selezione 90% Sangiovese from the 2027 vintage)"
+    - "c28 geography/climate cards with joke foils (tropical, polar, glaciers, islands, other countries); c29 and c31 are much cleaner"
+    - "'Which <region> denomination' stems whose foils are all outside the region"
+    - "Other auditors' files are also modified in the working tree; nothing committed"

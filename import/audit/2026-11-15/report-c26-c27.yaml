@@ -1,0 +1,169 @@
+# Final audit — cards/c26-italy-introduction.yaml (7) + cards/c27-northern-italy.yaml (147)
+# All facts checked from knowledge (Barolo 38/18, Riserva 62; Barbaresco 26/9, Riserva 50;
+# Soave >=70% Garganega; Trevenezie IGT; Barolo 170-540 m / 11 communes; Barbaresco communes). No web lookups.
+cards:
+  - id: italy-docg-extra-001
+    verdict: fix
+    issues: ["Joke foil: 'Compulsory fortification followed by inspection in Rome'"]
+    change: "Foil replaced by 'Approval by a tasting panel alone, with no laboratory analysis' (EN+FR)"
+    checked: [knowledge]
+  - id: italy-doc-rules-001
+    verdict: minor
+    issues: ["Two 'Only…' foils and a weak 'retail price, bottle shape, export market' foil; key is the longest"]
+    change: none
+    checked: [knowledge]
+  - id: italy-classico-001
+    verdict: minor
+    issues: ["Foil carries cue word 'every DOCG'"]
+    change: none
+    checked: [knowledge]
+  - id: nitaly-aa-pg-001
+    verdict: fix
+    issues: ["Stem said 'internationally familiar' while all three foils were Italian-only grapes (Cortese, Garganega, Verdicchio): key found without knowing the fact"]
+    change: "Stem now 'Which white grape, the most planted in the region, is a flagship variety of Alto Adige?' (EN+FR)"
+    checked: [knowledge]
+  - id: nitaly-trentino-doc-001
+    verdict: minor
+    issues: ["Foil 'Valdadige DOCG' gives a wrong status (it is a DOC), eliminable on the letters alone"]
+    change: "Foil -> 'Valdadige DOC'"
+    checked: [knowledge]
+  - id: nitaly-trentino-climate-001
+    verdict: minor
+    issues: ["Near-duplicate of nitaly-trentino-warmer-001; its key gives away that card's answer"]
+    change: none
+    checked: [knowledge]
+  - id: nitaly-pergola-sun-001
+    verdict: minor
+    issues: ["Stem previews the key (protect in sunny sites -> shade); absurd foils (trunk below ground, no sugar at all)"]
+    change: none
+    checked: [knowledge]
+  - id: nitaly-pergola-sparkling-001
+    verdict: minor
+    issues: ["Foil 'noble rot in every vintage' is not credible"]
+    change: none
+    checked: [knowledge]
+  - id: nitaly-veneto-size-001
+    verdict: minor
+    issues: ["Stem says 'northern Italian region' but foil Molise is not northern"]
+    change: "Foil Molise -> Lombardia (EN+FR)"
+    checked: [knowledge]
+  - id: nitaly-veneto-map-001
+    verdict: minor
+    issues: ["Two foils describe central/southern Italy and drop out by geography alone; key longest"]
+    change: none
+    checked: [knowledge]
+  - id: nitaly-soave-two-001
+    verdict: fix
+    issues: ["Joke foils (granite vs slate, irrigated desert vs river deltas)"]
+    change: "Two foils replaced by same-frame contrasts (Garda lakeside vs inland plain; historic plain vs new foothills) (EN+FR)"
+    checked: [knowledge]
+  - id: nitaly-soave-parts-001
+    verdict: fix
+    issues: ["Joke foils (volcanic islands, granite plateaux, desert soils)"]
+    change: "Two foils replaced by plausible landscape pairs (EN+FR)"
+    checked: [knowledge]
+  - id: nitaly-soave-doc-001
+    verdict: minor
+    issues: ["Foils with wrong status letters ('Soave Superiore DOC', 'Gambellara DOCG')"]
+    change: "Foils -> 'Soave Superiore DOCG', 'Gambellara DOC'"
+    checked: [knowledge]
+  - id: nitaly-valpol-where-001
+    verdict: fix
+    issues: ["Foil 'East of Verona toward Soave' is half-true: the extended Valpolicella DOC (Valpantena, Mezzane, Illasi valleys) runs north-east of Verona up to the Soave border"]
+    change: "Foil -> 'West of Verona on the shore of Lake Garda' (Bardolino side); Why reworded to place Classico north-west and the wider zone across the hills north of the city (EN+FR)"
+    checked: [knowledge]
+  - id: nitaly-valpol-topo-001
+    verdict: fix
+    issues: ["Three joke foils (Adriatic islands vs glaciers, granite vs slate, desert vs rice fields)"]
+    change: "All three foils replaced by inverted/plausible hill-vs-flat contrasts (EN+FR)"
+    checked: [knowledge]
+  - id: nitaly-corvina-profile-001
+    verdict: minor
+    issues: ["Why asserted 'relatively thick skins'; WSET Level 3 material describes Corvina as thin-skinned while other references say thick — contested detail, not needed"]
+    change: "Why reworded to 'dries well, which suits it to appassimento' without a skin-thickness claim (EN+FR)"
+    checked: [knowledge]
+  - id: nitaly-valpol-doc-001
+    verdict: minor
+    issues: ["Foils 'Amarone … DOC' / 'Recioto … DOC' carry wrong status; the Why itself says they are DOCGs"]
+    change: "Foils now DOCG"
+    checked: [knowledge]
+  - id: nitaly-amarone-style-001
+    verdict: minor
+    issues: ["Key is clearly the longest choice"]
+    change: none
+    checked: [knowledge]
+  - id: nitaly-recioto-stop-001
+    verdict: fix
+    issues: ["Key said the producer stops fermentation; Level 3 teaching is that the must is so sweet the fermentation stops by itself (in practice both occur). Foil 'too little sugar' was self-defeating for a sweet wine"]
+    change: "Key neutral ('Fermentation stops before the very concentrated sugar is all consumed'); weak foil replaced; Why explains natural stop plus optional chilling (EN+FR)"
+    checked: [knowledge]
+  - id: nitaly-recioto-name-001
+    verdict: minor
+    issues: ["Why said fermentation 'is stopped' (same point as nitaly-recioto-stop-001)"]
+    change: "Why: 'Fermentation ends before…' (EN+FR)"
+    checked: [knowledge]
+  - id: nitaly-recioto-style-001
+    verdict: minor
+    issues: ["Why said fermentation 'is stopped earlier'; FR key adds 'et concentré' absent from EN"]
+    change: "Why: 'ends earlier' (EN+FR); FR key left"
+    checked: [knowledge]
+  - id: nitaly-ripasso-label-001
+    verdict: minor
+    issues: ["All three foils had a wrong status (Superiore DOCG, Amarone DOC, Recioto DOC); only the key was a real name"]
+    change: "Foils given their real status"
+    checked: [knowledge]
+  - id: nitaly-piemonte-climate-001
+    verdict: fix
+    issues: ["Joke foil 'Alpine tundra'; key twice as long as any foil"]
+    change: "Key shortened to 'Moderate continental, with cold winters and stormy summers'; tundra foil -> 'Cool continental with summers too short for black grapes' (EN+FR)"
+    checked: [knowledge]
+  - id: nitaly-piemonte-white-001
+    verdict: minor
+    issues: ["Stem hard to parse ('dry and aromatic sparkling white wines')"]
+    change: "Stem reworded: pair of grapes giving the best-known dry still white and the aromatic sparkling whites (EN+FR)"
+    checked: [knowledge]
+  - id: nitaly-barolo-style-001
+    verdict: minor
+    issues: ["Key is the longest choice"]
+    change: none
+    checked: [knowledge]
+  - id: nitaly-barolo-bottle-001
+    verdict: fix
+    issues: ["Joke foil 'Bottle ageing changes Barbera into Nebbiolo'"]
+    change: "Foil -> 'Bottle ageing deepens the wine's pale colour' (EN+FR)"
+    checked: [knowledge]
+  - id: nitaly-barolo-bottle-why-001
+    verdict: minor
+    issues: ["Cue word 'only' on one foil"]
+    change: "'only' / 'uniquement' removed"
+    checked: [knowledge]
+  - id: nitaly-barbaresco-style-001
+    verdict: minor
+    issues: ["FR key drops the 'Barbaresco est…' frame used by the three foils; EN key is the longest"]
+    change: none
+    checked: [knowledge]
+  - id: nitaly-barbera-pair-001
+    verdict: minor
+    issues: ["Foil 'Nizza DOC' wrong status (Nizza is DOCG)"]
+    change: "Foil -> 'Nizza DOCG and Gavi DOCG'"
+    checked: [knowledge]
+  - id: nitaly-dolcetto-alba-001
+    verdict: minor
+    issues: ["Invented foil 'Dolcetto di Soave DOC' (Veneto town); 'Dogliani Barbera DOCG' also invented"]
+    change: "First foil -> real 'Dolcetto di Ovada DOC'; second left"
+    checked: [knowledge]
+  - id: nitaly-langhe-nebbiolo-001
+    verdict: fix
+    issues: ["Two foils were Veneto / Triveneto denominations, ruled out by region alone"]
+    change: "Foils -> 'Dolcetto d'Alba DOC or Barbera d'Alba DOC' and 'Gavi DOCG or Asti DOCG' (EN+FR)"
+    checked: [knowledge]
+summary:
+  counts: { wrong: 0, fix: 10, minor: 21, ok: 123 }
+  validate: "uv run wset3-anki validate -> 3517 card(s) OK; EN/FR correct index identical on all 154 cards"
+  riskiest_patterns:
+    - "Joke foils in landscape/contrast stems (deserts, glaciers, tundra, rice fields); several milder ones remain (pergola cards, 'noble rot every vintage')"
+    - "Foils built by flipping DOC/DOCG status on real names, so only the key was a real denomination"
+    - "Out-of-region foils (Fiano/Greco, Aglianico, Tuscany, Molise) recur in grape and location cards; still present on many 'which grape/region' cards"
+    - "Profile cards: key is usually the longest, most detailed choice"
+    - "Recioto: deck stated fermentation is deliberately stopped, whereas Level 3 teaching says it stops naturally — now neutral"
+    - "All 154 keys sit at index 1 in source (harmless only because templates shuffle)"

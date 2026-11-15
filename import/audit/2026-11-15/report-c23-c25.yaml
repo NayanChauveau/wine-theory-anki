@@ -1,0 +1,165 @@
+# Final audit — c23 Austria (76), c24 Tokaj (62), c25 Greece (29) = 167 cards
+# Web checks (untrusted, used only to confirm figures): PDO Santorini 85 % Assyrtiko (2022 amendment),
+# Nemea altitude zones (Wines of Greece 260-350 / 350-600 / 600-800 m), Tokaj 2026 spec amendment
+# (EU 2026/1556: Aszú 18 months cask, Szamorodni 6 months, Aszúeszencia abolished, Szamorodni split dry/sweet).
+# Could not open the full amended Tokaj specification; puttonyos-optional status assumed unchanged (still used on 2026 labels).
+cards:
+  # ---- c23 Austria ----
+  - id: austria-gv-vessels-001
+    verdict: fix
+    issues: ["Joke/cue foils ('for every quality level', 'Concrete only, because wood is prohibited')", "Key was by far the longest choice"]
+    change: "All four choices rewritten in one frame ('Mostly …' vessel options), key shortened; Why says barriques. EN+FR."
+    checked: [knowledge]
+  - id: austria-sb-name-001
+    verdict: wrong
+    issues: ["Foil Muskateller (Gelber Muskateller) is itself an aromatic white with a strong Steiermark reputation; Gewürztraminer/Traminer (Klöch) also half-true"]
+    change: "Stem now asks for Steiermark's flagship white (above all Südsteiermark); foils replaced by Grüner Veltliner, Riesling, Neuburger. EN+FR."
+    checked: [knowledge]
+  - id: austria-red-blend-001
+    verdict: fix
+    issues: ["Foil 'Only local varieties such as Zweigelt and Blaufränkisch' is half-true (such blends exist)", "'Only … / Only …' cue words single out the key"]
+    change: "Choices recast as four concrete blends (key: Zweigelt or Blaufränkisch with Merlot or Cabernet Sauvignon). EN+FR."
+    checked: [knowledge]
+  - id: austria-red-south-hills-001
+    verdict: fix
+    issues: ["Mittelburgenland is central, not southern Burgenland", "Foil 'Wachau and Kamptal' ruled out by region alone", "FR calque 'caractère savoureux'"]
+    change: "Stem: 'Which pair of Burgenland DACs is most strongly associated…'; foil replaced by 'Neusiedlersee and Ruster Ausbruch'; FR 'caractère épicé'."
+    checked: [knowledge]
+  - id: austria-pdo-states-001
+    verdict: minor
+    issues: ["Key is the only long, qualified choice; 'Only…' foils"]
+    change: none
+    checked: [knowledge]
+  - id: austria-st-laurent-oak-001
+    verdict: minor
+    issues: ["Foils (flor, open-vat oxidative ageing) are not credible for a premium red"]
+    change: none
+    checked: [knowledge]
+  - id: austria-kamp-krem-style-001
+    verdict: minor
+    issues: ["Foils 'must be lighter and unoaked by law' / 'principally botrytised dessert wines' drop without knowledge"]
+    change: none
+    checked: [knowledge]
+  - id: austria-weinviertel-tiers-001
+    verdict: minor
+    issues: ["Foil 'Village and Grand Cru only' weak; a Grosse Reserve level also exists but 'two principal styles' still holds"]
+    change: none
+    checked: [knowledge]
+  - id: austria-botrytis-every-year-001
+    verdict: minor
+    issues: ["Self-defeating foil ('Dry … winds keep skins permanently wet'); near-duplicate of neusiedlersee-lake-001 / neusiedlersee-sweet-001"]
+    change: none
+    checked: [knowledge]
+  - id: austria-red-higher-ground-001
+    verdict: minor
+    issues: ["Key longest; foil 'Lower temperatures prevent black grapes from ripening' contradicts the stem"]
+    change: none
+    checked: [knowledge]
+  - id: austria-burgenland-local-reds-001
+    verdict: minor
+    issues: ["Three foils are all-international pairs (Gamay and Pinotage is a joke), so 'indigenous' in the stem gives the key"]
+    change: none
+    checked: [knowledge]
+  - id: austria-pdo-map-001
+    verdict: minor
+    issues: ["Foil 'Municipality or single vineyard' are real additional origin indications in Austria; saved only by 'broad' in the stem"]
+    change: none
+    checked: [knowledge]
+  # ---- c24 Tokaj ----
+  - id: tokaj-szamorodni-fino-001
+    verdict: wrong
+    issues: ["Foil Vin Jaune is an unfortified flor-aged wine — arguably a closer comparison than Fino, and the Why itself stressed 'not fortified'"]
+    change: "Stem now asks which Sherry style; choices Amontillado / Fino / Oloroso / Pedro Ximénez; Why mentions Vin Jaune as the unfortified parallel. EN+FR."
+    checked: [knowledge]
+  - id: tokaj-dry-szamorodni-rot-001
+    verdict: fix
+    issues: ["FR key calque 'fermentent jusqu’à sécheresse' (means drought); 'notes savoureuses' calque of savoury"]
+    change: "FR key: 'fermentent jusqu’à épuisement des sucres'; Why: 'notes sapides'."
+    checked: [knowledge]
+  - id: tokaj-climate-001
+    verdict: minor
+    issues: ["Key said 'hot dry summers' — Tokaj summers are warm and not notably dry; also echoed the Mediterranean foil"]
+    change: "Key now 'warm summers, cold winters and humid autumn mornings' (FR aligned)."
+    checked: [knowledge]
+  - id: tokaj-aszu-grape-001
+    verdict: minor
+    issues: ["Why credited Furmint with 'thick skins', contradicting furmint-botrytis-001 (susceptibility to Botrytis)"]
+    change: "Why: 'high acidity, late ripening and readiness to form sound aszú berries' (FR aligned)."
+    checked: [knowledge]
+  - id: tokaj-flor-which-001
+    verdict: minor
+    issues: ["EN Why 'Dry conditions allow flor' ambiguous; FR already said low sugar"]
+    change: "EN Why: 'The low sugar level allows flor to survive…'."
+    checked: [knowledge]
+  - id: tokaj-szamorodni-flor-001
+    verdict: minor
+    issues: ["FR 'notes savoureuses' calque"]
+    change: "FR Why: 'notes sapides'."
+    checked: [knowledge]
+  - id: tokaj-vintage-styles-001
+    verdict: minor
+    issues: ["Three absurd 'must' foils; overlaps tokaj-harvest-sort-001"]
+    change: none
+    checked: [knowledge]
+  - id: tokaj-harvest-sort-001
+    verdict: minor
+    issues: ["Joke foil (sorting by berry colour into white, pink and red)"]
+    change: none
+    checked: [knowledge]
+  - id: tokaj-dry-range-001
+    verdict: minor
+    issues: ["'All are…' cue foils and a joke foil (fortified whites to sparkling reds); key longest"]
+    change: none
+    checked: [knowledge]
+  - id: tokaj-eszencia-rarity-001
+    verdict: minor
+    issues: ["Foils not credible (inexpensive dry white, standard sparkling)"]
+    change: none
+    checked: [knowledge]
+  - id: tokaj-sargamuskotaly-blend-001
+    verdict: minor
+    issues: ["Joke foil (neutral base wine for distillation)"]
+    change: none
+    checked: [knowledge]
+  - id: tokaj-szamorodni-ageing-001
+    verdict: ok
+    issues: ["Checked only: 6 months in wood confirmed by 2026 press on the amended spec; release date not re-verified in the official text"]
+    change: none
+    checked: [thedrinksbusiness-2026-tokaj-rules (search summary), knowledge]
+  # ---- c25 Greece ----
+  - id: xinomavro-nebbiolo-001
+    verdict: minor
+    issues: ["FR 'arômes savoureux complexes' calque of savoury"]
+    change: "FR Why: 'des arômes complexes, plus épicés et terreux que fruités'."
+    checked: [knowledge]
+  - id: nemea-location-001
+    verdict: minor
+    issues: ["FR key 'près de Corinthe' not faithful to EN 'west of the Corinth isthmus'"]
+    change: "FR key aligned: 'à l’ouest de l’isthme de Corinthe'."
+    checked: [knowledge]
+  - id: naoussa-altitude-001
+    verdict: minor
+    issues: ["Foil 'Low volcanic terraces around an Aegean caldera' is Santorini, ruled out by region alone"]
+    change: none
+    checked: [knowledge]
+  - id: greece-aoqs-001
+    verdict: minor
+    issues: ["Key's gloss 'superior-quality designation' echoes AOQS in the stem; OPE foil is also a PDO-level term (only the AOQS clause disambiguates)"]
+    change: none
+    checked: [knowledge]
+summary:
+  total: 167
+  wrong: 2
+  fix: 4
+  minor: 21
+  ok: 140
+  verified_on_web_no_change:
+    - "santorini-styles-allowed-001 / santorini-assyrtiko-fame-001: 85 % Assyrtiko minimum is current (raised from 75 % by the 2022 amendment)"
+    - "nemea-altitude-range-001 / nemea-mid-slope-001: 250-800 m and 350-600 m match Wines of Greece zones (WSET materials quote 230-900 / 450-650; card figures defensible as 'approximate')"
+    - "Tokaj 2013 rules (120 g/L, 18 months wood, 6-puttonyos 150 g/L, Aszú Eszencia gone, Eszencia 450 g/L) consistent with the 2026 EU-approved amendment as reported"
+  riskiest_patterns:
+    - "Half-true foils where a second regional speciality exists (Muskateller in Steiermark, Vin Jaune vs Fino, local-only red blends)"
+    - "FR calques of 'savoury' (savoureux) and 'to dryness' (jusqu’à sécheresse)"
+    - "Key always in 2nd position and often the longest/only qualified choice; 'Only/All/must' foils (Austria law cards, Tokaj style cards)"
+    - "Heavy near-duplication around Lake Neusiedl botrytis (4 cards) and Tokaj 2013 sugar thresholds (5-6 cards) — keys of one card appear in the Why of another"
+    - "Tokaj legal cards depend on a specification amended again in 2026 (EU 2026/1556); full text not read — release dates and puttonyos optionality worth a recheck against the consolidated spec"

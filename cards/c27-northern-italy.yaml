@@ -504,7 +504,7 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: "Which internationally familiar white grape is a flagship variety of Alto Adige?"
+      question: "Which white grape, the most planted in the region, is a flagship variety of Alto Adige?"
       choices:
         - { text: "Cortese", correct: false }
         - { text: "Pinot Grigio", correct: true }
@@ -514,7 +514,7 @@ cards:
         Alto Adige produces a relatively concentrated, high-acid expression of Pinot Grigio. The region
         also has important plantings of varieties such as Gewürztraminer, Chardonnay and Pinot Blanc.
     fr:
-      question: "Quel cépage blanc de renommée internationale est l’un des emblèmes du Haut-Adige ?"
+      question: "Quel cépage blanc, le plus planté de la région, est l’un des emblèmes du Haut-Adige ?"
       choices:
         - { text: "Cortese", correct: false }
         - { text: "Pinot Grigio", correct: true }
@@ -1026,7 +1026,7 @@ cards:
         - { text: "Alto Adige DOC", correct: false }
         - { text: "Trentino DOC", correct: true }
         - { text: "Friuli Grave DOC", correct: false }
-        - { text: "Valdadige DOCG", correct: false }
+        - { text: "Valdadige DOC", correct: false }
       explanation: |
         Trentino DOC covers numerous grape varieties and styles. Other relevant names include regional
         IGTs and Trento DOC for traditional-method sparkling wine.
@@ -1036,7 +1036,7 @@ cards:
         - { text: "Alto Adige DOC", correct: false }
         - { text: "Trentino DOC", correct: true }
         - { text: "Friuli Grave DOC", correct: false }
-        - { text: "Valdadige DOCG", correct: false }
+        - { text: "Valdadige DOC", correct: false }
       explanation: |
         Trentino DOC couvre de nombreux cépages et styles. Parmi les autres dénominations utiles
         figurent les IGT régionales et Trento DOC pour les effervescents de méthode traditionnelle.
@@ -1543,7 +1543,7 @@ cards:
         - { text: "Valle d’Aosta", correct: false }
         - { text: "Veneto", correct: true }
         - { text: "Liguria", correct: false }
-        - { text: "Molise", correct: false }
+        - { text: "Lombardia", correct: false }
       explanation: |
         Veneto combines enormous production from the plain with internationally important denominations
         including Prosecco, Soave, Valpolicella and Amarone.
@@ -1553,7 +1553,7 @@ cards:
         - { text: "La Vallée d’Aoste", correct: false }
         - { text: "La Vénétie", correct: true }
         - { text: "La Ligurie", correct: false }
-        - { text: "Le Molise", correct: false }
+        - { text: "La Lombardie", correct: false }
       explanation: |
         La Vénétie associe une production considérable dans la plaine à des dénominations
         internationales majeures comme Prosecco, Soave, Valpolicella et Amarone.
@@ -1905,8 +1905,8 @@ cards:
       choices:
         - { text: "Coastal vineyards versus Alpine vineyards", correct: false }
         - { text: "Historic foothills versus the expanded fertile plain", correct: true }
-        - { text: "North-facing granite versus south-facing slate", correct: false }
-        - { text: "Irrigated desert sites versus humid river deltas", correct: false }
+        - { text: "Lakeside slopes on Garda versus the inland plain", correct: false }
+        - { text: "Historic plain versus recently planted foothills", correct: false }
       explanation: |
         The hilly core has poorer, better-drained soils and lower yields, while the expanded plain
         supports larger volumes of simpler wine.
@@ -1915,8 +1915,8 @@ cards:
       choices:
         - { text: "Vignobles côtiers contre vignobles alpins", correct: false }
         - { text: "Contreforts historiques contre plaine fertile agrandie", correct: true }
-        - { text: "Granite exposé au nord contre ardoise exposée au sud", correct: false }
-        - { text: "Sites désertiques irrigués contre deltas fluviaux humides", correct: false }
+        - { text: "Coteaux riverains du lac de Garde contre plaine intérieure", correct: false }
+        - { text: "Plaine historique contre contreforts plantés récemment", correct: false }
       explanation: |
         Le cœur vallonné possède des sols plus pauvres et mieux drainés ainsi que des rendements plus
         faibles, tandis que la plaine agrandie fournit de plus grands volumes de vins simples.
@@ -1935,8 +1935,8 @@ cards:
       choices:
         - { text: "A coastal plain in the north and Alpine slopes in the south", correct: false }
         - { text: "Foothills in the north and flatter alluvial land in the south", correct: true }
-        - { text: "Volcanic islands in the east and limestone coast in the west", correct: false }
-        - { text: "High granite plateaux in the north and desert soils in the south", correct: false }
+        - { text: "Lakeside slopes in the west and a river plain in the east", correct: false }
+        - { text: "Steep terraces in the east and drained marshland in the west", correct: false }
       explanation: |
         The historic vineyards occupy foothills north and east of Verona. Later expansion onto the plain
         increased production but also widened the range of quality.
@@ -1945,8 +1945,8 @@ cards:
       choices:
         - { text: "Une plaine côtière au nord et des pentes alpines au sud", correct: false }
         - { text: "Des contreforts au nord et des terrains alluviaux plus plats au sud", correct: true }
-        - { text: "Des îles volcaniques à l’est et une côte calcaire à l’ouest", correct: false }
-        - { text: "De hauts plateaux granitiques au nord et des sols désertiques au sud", correct: false }
+        - { text: "Des coteaux lacustres à l’ouest et une plaine fluviale à l’est", correct: false }
+        - { text: "Des terrasses abruptes à l’est et des marais asséchés à l’ouest", correct: false }
       explanation: |
         Les vignobles historiques occupent les contreforts au nord et à l’est de Vérone. L’expansion
         ultérieure dans la plaine a accru la production, mais aussi élargi l’éventail qualitatif.
@@ -2208,8 +2208,8 @@ cards:
       choices:
         - { text: "Recioto di Soave DOCG", correct: false }
         - { text: "Soave DOC", correct: true }
-        - { text: "Soave Superiore DOC", correct: false }
-        - { text: "Gambellara DOCG", correct: false }
+        - { text: "Soave Superiore DOCG", correct: false }
+        - { text: "Gambellara DOC", correct: false }
       explanation: |
         Soave DOC includes both plain and hillside vineyards. Classico identifies the historic hill
         zone, while Recioto di Soave DOCG is a separate sweet dried-grape wine.
@@ -2218,8 +2218,8 @@ cards:
       choices:
         - { text: "Recioto di Soave DOCG", correct: false }
         - { text: "Soave DOC", correct: true }
-        - { text: "Soave Superiore DOC", correct: false }
-        - { text: "Gambellara DOCG", correct: false }
+        - { text: "Soave Superiore DOCG", correct: false }
+        - { text: "Gambellara DOC", correct: false }
       explanation: |
         Soave DOC comprend des vignobles de plaine et de coteau. Classico identifie la zone vallonnée
         historique, tandis que Recioto di Soave DOCG est un vin doux distinct issu de raisins séchés.
@@ -2266,23 +2266,24 @@ cards:
     en:
       question: "Where is Valpolicella located in relation to Verona?"
       choices:
-        - { text: "East of Verona toward Soave", correct: false }
+        - { text: "West of Verona on the shore of Lake Garda", correct: false }
         - { text: "North and north-west of Verona", correct: true }
         - { text: "South of Verona on the Po delta", correct: false }
         - { text: "West of Turin in Piemonte", correct: false }
       explanation: |
-        The zone runs from the historic valleys and foothills north-west of Verona onto flatter land
-        closer to the city and the Po plain.
+        The historic Classico valleys and foothills lie north-west of Verona; the wider zone continues
+        across the hills north of the city and runs down onto flatter land toward the Po plain.
     fr:
       question: "Où se situe Valpolicella par rapport à Vérone ?"
       choices:
-        - { text: "À l’est de Vérone en direction de Soave", correct: false }
+        - { text: "À l’ouest de Vérone, sur la rive du lac de Garde", correct: false }
         - { text: "Au nord et au nord-ouest de Vérone", correct: true }
         - { text: "Au sud de Vérone dans le delta du Pô", correct: false }
         - { text: "À l’ouest de Turin dans le Piémont", correct: false }
       explanation: |
-        La zone s’étend des vallées et contreforts historiques au nord-ouest de Vérone vers des terrains
-        plus plats, plus proches de la ville et de la plaine du Pô.
+        Les vallées et contreforts historiques du Classico se trouvent au nord-ouest de Vérone ; la zone
+        élargie se prolonge dans les collines au nord de la ville et descend vers des terrains plus
+        plats en direction de la plaine du Pô.
 
   - id: nitaly-valpol-topo-001
     type: mcq
@@ -2296,20 +2297,20 @@ cards:
     en:
       question: "Which topographic contrast strongly influences wine style within Valpolicella?"
       choices:
-        - { text: "Adriatic islands versus Alpine glaciers", correct: false }
+        - { text: "Warmer northern hills versus cooler flatter southern land", correct: false }
         - { text: "Cooler northern hills versus warmer flatter southern land", correct: true }
-        - { text: "Granite western slopes versus slate eastern slopes", correct: false }
-        - { text: "Irrigated desert vineyards versus flooded rice fields", correct: false }
+        - { text: "Cooler western plain versus warmer eastern hills", correct: false }
+        - { text: "Cooler lakeside flats versus warmer inland mountains", correct: false }
       explanation: |
         Higher, better-drained sites tend to preserve acidity and concentration. Fertile lower land
         supports larger volumes of softer, earlier-drinking wine.
     fr:
       question: "Quel contraste topographique influence fortement le style des vins de Valpolicella ?"
       choices:
-        - { text: "Îles adriatiques contre glaciers alpins", correct: false }
+        - { text: "Collines septentrionales plus chaudes contre terrains méridionaux plus plats et frais", correct: false }
         - { text: "Collines septentrionales plus fraîches contre terrains méridionaux plus plats et chauds", correct: true }
-        - { text: "Pentes granitiques occidentales contre pentes d’ardoise orientales", correct: false }
-        - { text: "Vignobles désertiques irrigués contre rizières inondées", correct: false }
+        - { text: "Plaine occidentale plus fraîche contre collines orientales plus chaudes", correct: false }
+        - { text: "Rives lacustres plates plus fraîches contre montagnes intérieures plus chaudes", correct: false }
       explanation: |
         Les sites plus élevés et mieux drainés tendent à préserver l’acidité et la concentration. Les
         terrains bas et fertiles produisent de plus grands volumes de vins plus souples, à boire plus
@@ -2454,8 +2455,8 @@ cards:
         - { text: "Pale colour, no tannin and low acidity", correct: false }
         - { text: "Deep colour, low tannin and very low alcohol", correct: false }
       explanation: |
-        Corvina’s relatively thick skins are well suited to appassimento, but the fresh grape gives only
-        moderate colour and tannin. Its high acidity helps balance dried-grape wines.
+        Corvina dries well, which suits it to appassimento, but the fresh grape gives only moderate
+        colour and tannin. Its high acidity helps balance dried-grape wines.
     fr:
       question: "Quel profil structurel est typique de la Corvina ?"
       choices:
@@ -2464,9 +2465,8 @@ cards:
         - { text: "Couleur pâle, absence de tanins et faible acidité", correct: false }
         - { text: "Couleur profonde, faibles tanins et alcool très faible", correct: false }
       explanation: |
-        Les pellicules relativement épaisses de la Corvina conviennent bien à l’appassimento, mais le
-        raisin frais ne donne qu’une couleur et des tanins modérés. Son acidité élevée équilibre les
-        vins de raisins séchés.
+        La Corvina se prête bien au séchage, donc à l’appassimento, mais le raisin frais ne donne qu’une
+        couleur et des tanins modérés. Son acidité élevée équilibre les vins de raisins séchés.
 
   - id: nitaly-corvina-blend-001
     type: mcq
@@ -2512,8 +2512,8 @@ cards:
       choices:
         - { text: "Valpolicella Classico DOC", correct: false }
         - { text: "Valpolicella DOC", correct: true }
-        - { text: "Amarone della Valpolicella DOC", correct: false }
-        - { text: "Recioto della Valpolicella DOC", correct: false }
+        - { text: "Amarone della Valpolicella DOCG", correct: false }
+        - { text: "Recioto della Valpolicella DOCG", correct: false }
       explanation: |
         Valpolicella DOC is the broad base denomination. Classico restricts origin to the historic zone,
         while Amarone and Recioto are separate DOCGs made from dried grapes.
@@ -2522,8 +2522,8 @@ cards:
       choices:
         - { text: "Valpolicella Classico DOC", correct: false }
         - { text: "Valpolicella DOC", correct: true }
-        - { text: "Amarone della Valpolicella DOC", correct: false }
-        - { text: "Recioto della Valpolicella DOC", correct: false }
+        - { text: "Amarone della Valpolicella DOCG", correct: false }
+        - { text: "Recioto della Valpolicella DOCG", correct: false }
       explanation: |
         Valpolicella DOC est la vaste dénomination de base. Classico limite l’origine à la zone
         historique, tandis qu’Amarone et Recioto sont des DOCG distinctes issues de raisins séchés.
@@ -2698,8 +2698,8 @@ cards:
         - { text: "Valpolicella Ripasso DOC", correct: false }
         - { text: "Recioto di Soave DOCG", correct: false }
       explanation: |
-        Fermentation is stopped before all the concentrated sugar is consumed. Recioto di Soave is a
-        different sweet dried-grape wine made from white varieties.
+        Fermentation ends before all the concentrated sugar is consumed. Recioto di Soave is a different
+        sweet dried-grape wine made from white varieties.
     fr:
       question: "Quelle dénomination identifie le rouge doux de Valpolicella issu de raisins séchés ?"
       choices:
@@ -2708,8 +2708,8 @@ cards:
         - { text: "Valpolicella Ripasso DOC", correct: false }
         - { text: "Recioto di Soave DOCG", correct: false }
       explanation: |
-        La fermentation est arrêtée avant que tout le sucre concentré soit consommé. Recioto di Soave
-        est un autre vin doux de raisins séchés, élaboré à partir de cépages blancs.
+        La fermentation s’achève avant que tout le sucre concentré soit consommé. Recioto di Soave est
+        un autre vin doux de raisins séchés, élaboré à partir de cépages blancs.
 
   - id: nitaly-amarone-style-001
     type: mcq
@@ -2754,23 +2754,26 @@ cards:
     en:
       question: "Why does Recioto della Valpolicella retain substantial sweetness?"
       choices:
-        - { text: "The grapes contain too little sugar to complete fermentation", correct: false }
-        - { text: "The producer stops fermentation before all concentrated sugar is consumed", correct: true }
+        - { text: "The dried grapes are pressed and bottled as unfermented must", correct: false }
+        - { text: "Fermentation stops before the very concentrated sugar is all consumed", correct: true }
         - { text: "Grape spirit is added before fermentation begins", correct: false }
         - { text: "The wine is sweetened after bottling with concentrated must", correct: false }
       explanation: |
-        This deliberate interruption distinguishes sweet Recioto from Amarone, whose fermentation
-        continues much further toward dryness. Both begin with dried grapes.
+        The dried grapes hold so much sugar that the yeast give up before finishing it, and a producer
+        can also halt the fermentation by chilling. Amarone starts from dried grapes too, but its
+        fermentation continues much further toward dryness.
     fr:
       question: "Pourquoi le Recioto della Valpolicella conserve-t-il une douceur importante ?"
       choices:
-        - { text: "Les raisins contiennent trop peu de sucre pour achever la fermentation", correct: false }
-        - { text: "Le producteur arrête la fermentation avant que tout le sucre concentré soit consommé", correct: true }
+        - { text: "Les raisins séchés sont pressés et mis en bouteille en moût non fermenté", correct: false }
+        - { text: "La fermentation s’arrête avant que le sucre très concentré soit entièrement consommé", correct: true }
         - { text: "De l’alcool vinique est ajouté avant le début de la fermentation", correct: false }
         - { text: "Le vin est édulcoré après la mise avec du moût concentré", correct: false }
       explanation: |
-        Cette interruption volontaire distingue le Recioto doux de l’Amarone, dont la fermentation se
-        poursuit beaucoup plus loin vers la sécheresse. Tous deux proviennent de raisins séchés.
+        Les raisins séchés contiennent tant de sucre que les levures s’arrêtent avant de l’avoir
+        épuisé ; le producteur peut aussi interrompre la fermentation par le froid. L’Amarone part
+        également de raisins séchés, mais sa fermentation se poursuit beaucoup plus loin, jusqu’à un
+        vin sec ou presque.
 
   - id: nitaly-recioto-style-001
     type: mcq
@@ -2790,7 +2793,7 @@ cards:
         - { text: "Sweet, low-acid and made aromatic by Muscat grapes", correct: false }
       explanation: |
         The drying process concentrates sugar, flavour, acidity and phenolics. Alcohol can be lower than
-        in Amarone because fermentation is stopped earlier.
+        in Amarone because fermentation ends earlier.
     fr:
       question: "Quel profil est typique d’un Recioto della Valpolicella ?"
       choices:
@@ -2800,7 +2803,7 @@ cards:
         - { text: "Doux, peu acide et aromatique grâce aux cépages muscatés", correct: false }
       explanation: |
         Le séchage concentre le sucre, les arômes, l’acidité et les composés phénoliques. L’alcool peut
-        être inférieur à celui de l’Amarone parce que la fermentation est arrêtée plus tôt.
+        être inférieur à celui de l’Amarone parce que la fermentation s’achève plus tôt.
 
   - id: nitaly-recioto-soave-001
     type: mcq
@@ -2874,20 +2877,20 @@ cards:
     en:
       question: "Which denomination identifies a Valpolicella made using refermentation on Amarone or Recioto pomace?"
       choices:
-        - { text: "Valpolicella Superiore DOCG", correct: false }
+        - { text: "Valpolicella Superiore DOC", correct: false }
         - { text: "Valpolicella Ripasso DOC", correct: true }
-        - { text: "Amarone della Valpolicella DOC", correct: false }
-        - { text: "Recioto della Valpolicella DOC", correct: false }
+        - { text: "Amarone della Valpolicella DOCG", correct: false }
+        - { text: "Recioto della Valpolicella DOCG", correct: false }
       explanation: |
         Ripasso has its own DOC rules. It is richer than basic Valpolicella but is not itself an
         appassimento wine because its primary grapes are not dried.
     fr:
       question: "Quelle dénomination identifie un Valpolicella élaboré par refermentation sur des marcs d’Amarone ou de Recioto ?"
       choices:
-        - { text: "Valpolicella Superiore DOCG", correct: false }
+        - { text: "Valpolicella Superiore DOC", correct: false }
         - { text: "Valpolicella Ripasso DOC", correct: true }
-        - { text: "Amarone della Valpolicella DOC", correct: false }
-        - { text: "Recioto della Valpolicella DOC", correct: false }
+        - { text: "Amarone della Valpolicella DOCG", correct: false }
+        - { text: "Recioto della Valpolicella DOCG", correct: false }
       explanation: |
         Le Ripasso possède son propre cahier des charges DOC. Il est plus riche qu’un Valpolicella de
         base, mais n’est pas lui-même un vin d’appassimento car ses raisins principaux ne sont pas
@@ -2966,9 +2969,9 @@ cards:
       question: "Which climate description best fits Piemonte’s principal wine areas?"
       choices:
         - { text: "Hot Mediterranean with uniformly dry summers", correct: false }
-        - { text: "Moderate continental, with cold winters, warm summers, fog, storms and hail risk", correct: true }
+        - { text: "Moderate continental, with cold winters and stormy summers", correct: true }
         - { text: "Cool maritime with mild winters and little seasonal variation", correct: false }
-        - { text: "Alpine tundra in which black grapes cannot ripen", correct: false }
+        - { text: "Cool continental with summers too short for black grapes", correct: false }
       explanation: |
         The Alps provide shelter, but elevation and aspect strongly affect ripening. Rain, hail and
         autumn fog make vintage and site selection important.
@@ -2976,9 +2979,9 @@ cards:
       question: "Quelle description climatique correspond le mieux aux principales zones viticoles du Piémont ?"
       choices:
         - { text: "Climat méditerranéen chaud aux étés uniformément secs", correct: false }
-        - { text: "Climat continental modéré, avec hivers froids, étés chauds, brouillard, orages et risque de grêle", correct: true }
+        - { text: "Climat continental modéré, aux hivers froids et aux étés orageux", correct: true }
         - { text: "Climat maritime frais aux hivers doux et aux faibles variations saisonnières", correct: false }
-        - { text: "Toundra alpine où les cépages noirs ne peuvent pas mûrir", correct: false }
+        - { text: "Climat continental frais aux étés trop courts pour les cépages noirs", correct: false }
       explanation: |
         Les Alpes apportent un abri, mais l’altitude et l’exposition influencent fortement la
         maturation. Les pluies, la grêle et les brouillards d’automne rendent le millésime et le choix
@@ -3084,7 +3087,7 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: "Which pair links Piemonte with its best-known dry and aromatic sparkling white wines?"
+      question: "Which pair of grapes gives Piemonte’s best-known dry still white and its aromatic sparkling whites?"
       choices:
         - { text: "Garganega and Glera", correct: false }
         - { text: "Cortese and Moscato", correct: true }
@@ -3094,7 +3097,7 @@ cards:
         Cortese makes Gavi, while Moscato Bianco supplies Asti and Moscato d’Asti. Arneis is another
         important regional white variety.
     fr:
-      question: "Quelle paire relie le Piémont à ses vins blancs sec et effervescent aromatique les plus connus ?"
+      question: "Quelle paire de cépages donne le blanc sec tranquille le plus connu du Piémont et ses effervescents aromatiques ?"
       choices:
         - { text: "Garganega et Glera", correct: false }
         - { text: "Cortese et Moscato", correct: true }
@@ -3579,7 +3582,7 @@ cards:
         - { text: "Bottle ageing raises the wine’s sugar and alcohol", correct: false }
         - { text: "Its high acidity and tannins need time to integrate and develop complexity", correct: true }
         - { text: "The wine completes compulsory alcoholic fermentation in bottle", correct: false }
-        - { text: "Bottle ageing changes Barbera into Nebbiolo", correct: false }
+        - { text: "Bottle ageing deepens the wine’s pale colour", correct: false }
       explanation: |
         The legal minimum makes the wine eligible for sale, not necessarily ready at its peak. Strong
         vintages and concentrated wines can evolve for many years.
@@ -3589,7 +3592,7 @@ cards:
         - { text: "La garde en bouteille augmente le sucre et l’alcool du vin", correct: false }
         - { text: "Son acidité et ses tanins élevés ont besoin de temps pour s’intégrer et gagner en complexité", correct: true }
         - { text: "Le vin achève obligatoirement sa fermentation alcoolique en bouteille", correct: false }
-        - { text: "La garde transforme la Barbera en Nebbiolo", correct: false }
+        - { text: "La garde en bouteille fonce la robe pâle du vin", correct: false }
       explanation: |
         Le minimum légal rend le vin commercialisable, mais ne correspond pas nécessairement à son
         apogée. Les millésimes solides et les vins concentrés peuvent évoluer pendant de nombreuses
@@ -3609,7 +3612,7 @@ cards:
       choices:
         - { text: "Banana, bubble gum and fresh grape", correct: false }
         - { text: "Tar, leather, truffle and dried flowers", correct: true }
-        - { text: "Coconut, pineapple and vanilla only", correct: false }
+        - { text: "Coconut, pineapple and vanilla", correct: false }
         - { text: "Lemon zest, gooseberry and cut grass", correct: false }
       explanation: |
         Bottle ageing transforms youthful red-fruit and floral notes into complex earthy and savoury
@@ -3619,7 +3622,7 @@ cards:
       choices:
         - { text: "Banane, bonbon anglais et raisin frais", correct: false }
         - { text: "Goudron, cuir, truffe et fleurs séchées", correct: true }
-        - { text: "Noix de coco, ananas et vanille uniquement", correct: false }
+        - { text: "Noix de coco, ananas et vanille", correct: false }
         - { text: "Zeste de citron, groseille à maquereau et herbe coupée", correct: false }
       explanation: |
         La garde en bouteille transforme les jeunes notes de fruits rouges et de fleurs en arômes
@@ -3911,7 +3914,7 @@ cards:
         - { text: "Nebbiolo d’Alba DOC and Dolcetto d’Asti DOC", correct: false }
         - { text: "Barbera d’Alba DOC and Barbera d’Asti DOCG", correct: true }
         - { text: "Barolo DOCG and Barbaresco DOCG", correct: false }
-        - { text: "Nizza DOC and Gavi DOCG", correct: false }
+        - { text: "Nizza DOCG and Gavi DOCG", correct: false }
       explanation: |
         The two denominations share the grape but differ in production area and detailed rules. Both can
         range from youthful fruit-driven wines to oak-matured examples.
@@ -3921,7 +3924,7 @@ cards:
         - { text: "Nebbiolo d’Alba DOC et Dolcetto d’Asti DOC", correct: false }
         - { text: "Barbera d’Alba DOC et Barbera d’Asti DOCG", correct: true }
         - { text: "Barolo DOCG et Barbaresco DOCG", correct: false }
-        - { text: "Nizza DOC et Gavi DOCG", correct: false }
+        - { text: "Nizza DOCG et Gavi DOCG", correct: false }
       explanation: |
         Ces deux dénominations partagent le cépage, mais diffèrent par leur zone de production et leurs
         règles détaillées. Elles peuvent toutes deux donner des vins jeunes et fruités comme des
@@ -4089,7 +4092,7 @@ cards:
     en:
       question: "Which denomination is an important source of varietal Dolcetto around Alba?"
       choices:
-        - { text: "Dolcetto di Soave DOC", correct: false }
+        - { text: "Dolcetto di Ovada DOC", correct: false }
         - { text: "Dolcetto d’Alba DOC", correct: true }
         - { text: "Barbera d’Alba DOC", correct: false }
         - { text: "Dogliani Barbera DOCG", correct: false }
@@ -4099,7 +4102,7 @@ cards:
     fr:
       question: "Quelle dénomination constitue une source importante de Dolcetto monocépage autour d’Alba ?"
       choices:
-        - { text: "Dolcetto di Soave DOC", correct: false }
+        - { text: "Dolcetto di Ovada DOC", correct: false }
         - { text: "Dolcetto d’Alba DOC", correct: true }
         - { text: "Barbera d’Alba DOC", correct: false }
         - { text: "Dogliani Barbera DOCG", correct: false }
@@ -4182,20 +4185,20 @@ cards:
     en:
       question: "Under which denominations may Nebbiolo from the Langhe be sold outside Barolo and Barbaresco?"
       choices:
-        - { text: "Valpolicella DOC or Soave DOC", correct: false }
+        - { text: "Dolcetto d’Alba DOC or Barbera d’Alba DOC", correct: false }
         - { text: "Langhe Nebbiolo DOC or Nebbiolo d’Alba DOC", correct: true }
         - { text: "Barbera d’Asti DOCG or Dogliani DOCG", correct: false }
-        - { text: "Trevenezie IGT or Delle Venezie DOC", correct: false }
+        - { text: "Gavi DOCG or Asti DOCG", correct: false }
       explanation: |
         These broader denominations can provide earlier-drinking, less expensive expressions of Nebbiolo
         and may include fruit from sites outside the two prestigious DOCGs.
     fr:
       question: "Sous quelles dénominations peut-on commercialiser du Nebbiolo des Langhe hors Barolo et Barbaresco ?"
       choices:
-        - { text: "Valpolicella DOC ou Soave DOC", correct: false }
+        - { text: "Dolcetto d’Alba DOC ou Barbera d’Alba DOC", correct: false }
         - { text: "Langhe Nebbiolo DOC ou Nebbiolo d’Alba DOC", correct: true }
         - { text: "Barbera d’Asti DOCG ou Dogliani DOCG", correct: false }
-        - { text: "Trevenezie IGT ou Delle Venezie DOC", correct: false }
+        - { text: "Gavi DOCG ou Asti DOCG", correct: false }
       explanation: |
         Ces dénominations plus larges peuvent offrir des expressions de Nebbiolo moins chères et prêtes
         à boire plus tôt, avec éventuellement des raisins provenant de sites extérieurs aux deux

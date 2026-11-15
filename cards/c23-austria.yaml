@@ -239,21 +239,21 @@ cards:
     en:
       question: "Which vessel choices are most typical for Austrian Grüner Veltliner?"
       choices:
-        - { text: "New barriques for every quality level", correct: false }
-        - { text: "Stainless steel or large neutral oak, with some barrique for fuller styles", correct: true }
-        - { text: "Concrete only, because wood is prohibited", correct: false }
-        - { text: "Small acacia barrels followed by amphora ageing", correct: false }
+        - { text: "Mostly new barriques, for toast and vanilla", correct: false }
+        - { text: "Mostly stainless steel or large old oak casks", correct: true }
+        - { text: "Mostly concrete eggs and clay amphorae", correct: false }
+        - { text: "Mostly small acacia barrels with lees stirring", correct: false }
       explanation: |
-        Neutral vessels preserve varietal fruit and spice; selected richer wines may gain texture and flavour from smaller oak.
+        Neutral vessels preserve varietal fruit and spice; selected richer wines may gain texture and flavour from barriques.
     fr:
       question: "Quels contenants sont les plus courants pour le Grüner Veltliner autrichien ?"
       choices:
-        - { text: "Des barriques neuves pour tous les niveaux de qualité", correct: false }
-        - { text: "L’inox ou de grands fûts neutres, avec parfois la barrique pour les styles plus riches", correct: true }
-        - { text: "Uniquement le béton, car le bois est interdit", correct: false }
-        - { text: "De petits fûts d’acacia suivis d’un élevage en amphore", correct: false }
+        - { text: "Surtout des barriques neuves, pour le grillé et la vanille", correct: false }
+        - { text: "Surtout l’inox ou de grands fûts de chêne usagés", correct: true }
+        - { text: "Surtout des œufs en béton et des amphores en argile", correct: false }
+        - { text: "Surtout de petits fûts d’acacia avec bâtonnage", correct: false }
       explanation: |
-        Les contenants neutres préservent le fruit et les épices du cépage ; certains vins plus opulents gagnent en texture et en arômes dans de petits fûts.
+        Les contenants neutres préservent le fruit et les épices du cépage ; certains vins plus opulents gagnent en texture et en arômes en barrique.
 
   - id: austria-welschriesling-rank-001
     type: mcq
@@ -461,21 +461,21 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: "Which aromatic white variety has built a strong reputation in Steiermark?"
+      question: "Which white variety is the flagship of Steiermark, above all in Südsteiermark?"
       choices:
-        - { text: "Gewürztraminer", correct: false }
+        - { text: "Grüner Veltliner", correct: false }
         - { text: "Sauvignon Blanc", correct: true }
-        - { text: "Muskateller", correct: false }
-        - { text: "Scheurebe", correct: false }
+        - { text: "Riesling", correct: false }
+        - { text: "Neuburger", correct: false }
       explanation: |
         Steiermark produces vivid, high-acid examples ranging from fresh regional wines to complex, age-worthy single-vineyard bottlings.
     fr:
-      question: "Quel cépage blanc aromatique s’est forgé une solide réputation en Styrie ?"
+      question: "Quel cépage blanc est le porte-drapeau de la Styrie, surtout en Südsteiermark ?"
       choices:
-        - { text: "Gewürztraminer", correct: false }
+        - { text: "Grüner Veltliner", correct: false }
         - { text: "Sauvignon Blanc", correct: true }
-        - { text: "Muskateller", correct: false }
-        - { text: "Scheurebe", correct: false }
+        - { text: "Riesling", correct: false }
+        - { text: "Neuburger", correct: false }
       explanation: |
         La Styrie produit des vins expressifs et très acides, depuis les cuvées régionales fraîches jusqu’aux vins parcellaires complexes et aptes à la garde.
 
@@ -715,19 +715,19 @@ cards:
     en:
       question: "Which blending approach is used for some modern Austrian red wines?"
       choices:
-        - { text: "Only local varieties such as Zweigelt and Blaufränkisch", correct: false }
-        - { text: "Local varieties combined with Pinot Noir, Merlot or Cabernet Sauvignon", correct: true }
-        - { text: "Only international varieties, with local grapes excluded", correct: false }
-        - { text: "White and black local varieties in equal proportions", correct: false }
+        - { text: "Zweigelt co-fermented with white Grüner Veltliner", correct: false }
+        - { text: "Zweigelt or Blaufränkisch blended with Merlot or Cabernet Sauvignon", correct: true }
+        - { text: "Blaufränkisch blended with Grenache and Mourvèdre", correct: false }
+        - { text: "St Laurent blended with Sangiovese and Nebbiolo", correct: false }
       explanation: |
         International grapes can add structure or complexity while Zweigelt or Blaufränkisch retains an Austrian identity.
     fr:
       question: "Quel type d’assemblage est utilisé pour certains rouges autrichiens modernes ?"
       choices:
-        - { text: "Uniquement des cépages locaux comme le Zweigelt et le Blaufränkisch", correct: false }
-        - { text: "Des cépages locaux associés au Pinot Noir, au Merlot ou au Cabernet Sauvignon", correct: true }
-        - { text: "Uniquement des cépages internationaux, sans cépage local", correct: false }
-        - { text: "Des cépages locaux blancs et noirs en proportions égales", correct: false }
+        - { text: "Du Zweigelt cofermenté avec du Grüner Veltliner blanc", correct: false }
+        - { text: "Du Zweigelt ou du Blaufränkisch assemblé au Merlot ou au Cabernet Sauvignon", correct: true }
+        - { text: "Du Blaufränkisch assemblé au Grenache et au Mourvèdre", correct: false }
+        - { text: "Du St Laurent assemblé au Sangiovese et au Nebbiolo", correct: false }
       explanation: |
         Les cépages internationaux peuvent apporter structure ou complexité, tandis que le Zweigelt ou le Blaufränkisch maintient une identité autrichienne.
 
@@ -1581,23 +1581,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: "Which pair of southern Burgenland DACs is strongly associated with Blaufränkisch?"
+      question: "Which pair of Burgenland DACs is most strongly associated with Blaufränkisch?"
       choices:
         - { text: "Neusiedlersee and Rosalia", correct: false }
         - { text: "Mittelburgenland and Eisenberg", correct: true }
         - { text: "Leithaberg and Ruster Ausbruch", correct: false }
-        - { text: "Wachau and Kamptal", correct: false }
+        - { text: "Neusiedlersee and Ruster Ausbruch", correct: false }
       explanation: |
         Both focus on Blaufränkisch, with warm sites ripening the grape and local conditions preserving its acidity and savoury character.
     fr:
-      question: "Quelle paire de DAC du sud du Burgenland est fortement associée au Blaufränkisch ?"
+      question: "Quelle paire de DAC du Burgenland est la plus fortement associée au Blaufränkisch ?"
       choices:
         - { text: "Neusiedlersee et Rosalia", correct: false }
         - { text: "Mittelburgenland et Eisenberg", correct: true }
         - { text: "Leithaberg et Ruster Ausbruch", correct: false }
-        - { text: "Wachau et Kamptal", correct: false }
+        - { text: "Neusiedlersee et Ruster Ausbruch", correct: false }
       explanation: |
-        Toutes deux mettent le Blaufränkisch au premier plan ; les sites chauds assurent sa maturité tandis que les conditions locales préservent son acidité et son caractère savoureux.
+        Toutes deux mettent le Blaufränkisch au premier plan ; les sites chauds assurent sa maturité tandis que les conditions locales préservent son acidité et son caractère épicé.
 
   - id: austria-burgenland-zweigelt-plant-001
     type: mcq

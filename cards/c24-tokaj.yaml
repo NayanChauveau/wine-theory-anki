@@ -44,7 +44,7 @@ cards:
       question: "Which climatic pattern characterises Tokaj?"
       choices:
         - { text: "Cool maritime, with mild winters and rain throughout the year", correct: false }
-        - { text: "Continental, with hot dry summers, cold winters and humid autumn mornings", correct: true }
+        - { text: "Continental, with warm summers, cold winters and humid autumn mornings", correct: true }
         - { text: "Mediterranean, with mild wet winters and hot dry summers", correct: false }
         - { text: "Continental, with cool wet summers and uniformly dry autumns", correct: false }
       explanation: |
@@ -53,7 +53,7 @@ cards:
       question: "Quel régime climatique caractérise Tokaj ?"
       choices:
         - { text: "Maritime frais, avec des hivers doux et des pluies réparties sur l’année", correct: false }
-        - { text: "Continental, avec des étés chauds et secs, des hivers froids et des matinées automnales humides", correct: true }
+        - { text: "Continental, avec des étés chauds, des hivers froids et des matinées automnales humides", correct: true }
         - { text: "Méditerranéen, avec des hivers doux et humides et des étés chauds et secs", correct: false }
         - { text: "Continental, avec des étés frais et humides et des automnes uniformément secs", correct: false }
       explanation: |
@@ -216,7 +216,7 @@ cards:
         - { text: "Sárgamuskotály", correct: false }
         - { text: "Kövérszőlő", correct: false }
       explanation: |
-        Its high acidity, thick skins and strong capacity to form sound aszú berries make it especially valuable. Other permitted varieties may contribute to the blend.
+        Its high acidity, late ripening and readiness to form sound aszú berries make it especially valuable. Other permitted varieties may contribute to the blend.
     fr:
       question: "Quel cépage constitue le plus souvent l’ossature du Tokaji Aszú ?"
       choices:
@@ -225,7 +225,7 @@ cards:
         - { text: "Sárgamuskotály", correct: false }
         - { text: "Kövérszőlő", correct: false }
       explanation: |
-        Son acidité élevée, sa peau épaisse et sa capacité à former de belles baies aszú le rendent particulièrement précieux. D’autres cépages autorisés peuvent compléter l’assemblage.
+        Son acidité élevée, sa maturité tardive et son aptitude à former de belles baies aszú le rendent particulièrement précieux. D’autres cépages autorisés peuvent compléter l’assemblage.
 
   - id: tokaj-furmint-botrytis-001
     type: mcq
@@ -753,11 +753,11 @@ cards:
       question: "Pourquoi un Szamorodni sec peut-il présenter des arômes issus du botrytis malgré son faible sucre résiduel ?"
       choices:
         - { text: "Des baies botrytisées sont ajoutées après la mise en bouteille", correct: false }
-        - { text: "Des grappes partiellement botrytisées fermentent jusqu’à sécheresse", correct: true }
+        - { text: "Des grappes partiellement botrytisées fermentent jusqu’à épuisement des sucres", correct: true }
         - { text: "Des raisins sains sont édulcorés avec de l’Eszencia", correct: false }
         - { text: "Le vin est assemblé avec un jeune Aszú après élevage", correct: false }
       explanation: |
-        La fermentation consomme le sucre, mais ne supprime pas les composés miellés, les fruits secs et les notes savoureuses apportés par les raisins botrytisés.
+        La fermentation consomme le sucre, mais ne supprime pas les composés miellés, les fruits secs et les notes sapides apportés par les raisins botrytisés.
 
   - id: tokaj-szamorodni-ageing-001
     type: mcq
@@ -813,7 +813,7 @@ cards:
         - { text: "Pour interrompre immédiatement toute activité des levures", correct: false }
         - { text: "Pour permettre l’évaporation de l’alcool de mutage", correct: false }
       explanation: |
-        L’espace d’air permet le développement du voile et une évolution oxydative maîtrisée, qui apportent des arômes de fruits à coque et des notes savoureuses à ce vin non fortifié.
+        L’espace d’air permet le développement du voile et une évolution oxydative maîtrisée, qui apportent des arômes de fruits à coque et des notes sapides à ce vin non fortifié.
 
   - id: tokaj-szamorodni-fino-001
     type: mcq
@@ -825,23 +825,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: "Which wine style provides the closest common comparison for traditional dry Szamorodni?"
+      question: "Which Sherry style is the usual comparison for traditional dry Szamorodni?"
       choices:
-        - { text: "Amontillado Sherry", correct: false }
-        - { text: "Fino Sherry", correct: true }
-        - { text: "Vin Jaune", correct: false }
-        - { text: "Madeira Sercial", correct: false }
+        - { text: "Amontillado", correct: false }
+        - { text: "Fino", correct: true }
+        - { text: "Oloroso", correct: false }
+        - { text: "Pedro Ximénez", correct: false }
       explanation: |
-        Both can mature beneath flor and develop yeasty, nutty flavours. Dry Szamorodni differs because it is not fortified and its fruit may include noble rot.
+        Both can mature beneath flor and develop yeasty, nutty flavours. Like Vin Jaune from the Jura, however, dry Szamorodni is not fortified, and its fruit may include noble rot.
     fr:
-      question: "Quel style de vin constitue la comparaison la plus courante avec le Szamorodni sec traditionnel ?"
+      question: "Quel style de Xérès sert habituellement de comparaison au Szamorodni sec traditionnel ?"
       choices:
-        - { text: "Xérès Amontillado", correct: false }
-        - { text: "Xérès Fino", correct: true }
-        - { text: "Vin jaune", correct: false }
-        - { text: "Madère Sercial", correct: false }
+        - { text: "Amontillado", correct: false }
+        - { text: "Fino", correct: true }
+        - { text: "Oloroso", correct: false }
+        - { text: "Pedro Ximénez", correct: false }
       explanation: |
-        Les deux peuvent évoluer sous voile et développer des arômes de levure et de fruits à coque. Le Szamorodni sec s’en distingue car il n’est pas fortifié et peut provenir de raisins botrytisés.
+        Les deux peuvent évoluer sous voile et développer des arômes de levure et de fruits à coque. Comme le vin jaune du Jura, le Szamorodni sec n’est toutefois pas fortifié, et il peut provenir de raisins botrytisés.
 
   - id: tokaj-flor-which-001
     type: mcq
@@ -860,7 +860,7 @@ cards:
         - { text: "Tokaji Aszú", correct: false }
         - { text: "Tokaji Eszencia", correct: false }
       explanation: |
-        Dry conditions allow flor to survive on the wine’s surface. Sweet Szamorodni, Aszú and Eszencia are not defined by biological ageing.
+        The low sugar level allows flor to survive on the wine’s surface. Sweet Szamorodni, Aszú and Eszencia are not defined by biological ageing.
     fr:
       question: "Quel style de Tokaji est traditionnellement associé à un élevage sous voile ?"
       choices:
