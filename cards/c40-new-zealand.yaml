@@ -2,4 +2,715 @@
 # source: C40 (import/inbox/c40-new-zealand.yaml)
 # deck: New Zealand
 
-cards: []
+cards:
+  - id: nz-tasman-distance-001
+    type: mcq
+    deck: New Zealand
+    tags: [new-zealand, geography]
+    status: reviewed
+    source_id: c40-0001
+    review:
+      fact_check: pass
+      sources: [known-fact, teara]
+    en:
+      question: "Roughly how far across the Tasman Sea does New Zealand lie from its nearest large land mass, Australia?"
+      choices:
+        - { text: "About 200 km", correct: false }
+        - { text: "About 700 km", correct: false }
+        - { text: "About 2,000 km", correct: true }
+        - { text: "About 6,000 km", correct: false }
+      explanation: |
+        A Sydney–Auckland flight covers a little over 2,000 km; the closest coasts are
+        somewhat nearer. That isolation leaves the country with no neighbouring land
+        mass to buffer the ocean's influence.
+
+  - id: nz-climate-overall-001
+    type: mcq
+    deck: New Zealand
+    tags: [new-zealand, climate]
+    status: reviewed
+    source_id: c40-0002
+    review:
+      fact_check: pass
+      sources: [known-fact, teara]
+    en:
+      question: "Which climate label best fits New Zealand's wine country as a whole?"
+      choices:
+        - { text: "Mediterranean", correct: false }
+        - { text: "Maritime", correct: true }
+        - { text: "Continental", correct: false }
+        - { text: "Warm semi-arid", correct: false }
+      explanation: |
+        The country is long and narrow: no point lies more than about 130 km from the
+        sea, so ocean air moderates temperatures almost everywhere.
+
+  - id: nz-island-warmth-001
+    type: mcq
+    deck: New Zealand
+    tags: [new-zealand, climate, north-island, south-island]
+    status: reviewed
+    source_id: c40-0003
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "How do New Zealand's two main islands generally compare for growing-season warmth?"
+      choices:
+        - { text: "The South Island is warmer", correct: false }
+        - { text: "They are broadly similar", correct: false }
+        - { text: "The North Island is warmer", correct: true }
+        - { text: "The central strait area is warmest", correct: false }
+      explanation: |
+        Warmth falls with latitude. The vineyard belt runs from about 36°S near
+        Auckland to about 45°S in Central Otago, a spread similar to that from
+        southern Spain to Bordeaux in the northern hemisphere.
+
+  - id: nz-ripening-balance-001
+    type: mcq
+    deck: New Zealand
+    tags: [new-zealand, climate, ripening, acidity]
+    status: reviewed
+    source_id: c40-0004
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Long sunshine hours, sea-cooled nights and a long growing season let New Zealand grapes reach which balance?"
+      choices:
+        - { text: "High sugar and flavour, with acidity retained", correct: true }
+        - { text: "High sugar and flavour, with acidity very low", correct: false }
+        - { text: "Moderate sugar, with green, unripe flavours", correct: false }
+        - { text: "Low sugar, with soft acidity and muted aroma", correct: false }
+      explanation: |
+        Sunlight drives sugar and flavour build-up, while cool nights slow the loss of
+        acid through respiration. The long season also gives aromatic compounds time to
+        develop, which is why the country suits aromatic varieties.
+
+  - id: nz-south-island-rain-shadow-001
+    type: mcq
+    deck: New Zealand
+    tags: [new-zealand, south-island, climate, rain-shadow]
+    status: reviewed
+    source_id: c40-0006
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Why are most South Island vineyards planted on the eastern side of the island?"
+      choices:
+        - { text: "The east has richer volcanic soils", correct: false }
+        - { text: "Mountains block rain-bearing westerly winds", correct: true }
+        - { text: "Warm currents wash the eastern coast", correct: false }
+        - { text: "Eastern sites escape cold southerly winds", correct: false }
+      explanation: |
+        The Southern Alps run along the island. The West Coast, facing the prevailing
+        westerlies, can receive several metres of rain a year, while Marlborough,
+        Canterbury and Central Otago sit in the drier lee.
+
+  - id: nz-free-draining-soils-001
+    type: mcq
+    deck: New Zealand
+    tags: [new-zealand, soils, rainfall]
+    status: reviewed
+    source_id: c40-0008
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which soil property helps many New Zealand vineyards cope with spells of heavy rain?"
+      choices:
+        - { text: "A high clay content", correct: false }
+        - { text: "A high water table", correct: false }
+        - { text: "Rich organic matter", correct: false }
+        - { text: "Free drainage", correct: true }
+      explanation: |
+        Many vineyards sit on stony alluvial soils laid down by rivers. Water passes
+        through quickly, so roots are not left standing in waterlogged ground.
+
+  - id: nz-flat-fertile-vigour-001
+    type: mcq
+    deck: New Zealand
+    tags: [new-zealand, south-island, vigour, soils]
+    status: reviewed
+    source_id: c40-0009
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "On the flat, fertile valley-floor sites of New Zealand's South Island, what is the main risk to vine balance?"
+      choices:
+        - { text: "Weak vines and very low yields", correct: false }
+        - { text: "Excessive shoot and leaf growth", correct: true }
+        - { text: "Severe drought stress at veraison", correct: false }
+        - { text: "Poor rooting in compacted rock", correct: false }
+      explanation: |
+        Easy water and nutrients push energy into foliage. A dense canopy shades the
+        fruit, which can delay ripening and leave the wine more herbaceous.
+
+  - id: nz-canopy-expertise-001
+    type: mcq
+    deck: New Zealand
+    tags: [new-zealand, viticulture, canopy-management]
+    status: reviewed
+    source_id: c40-0010
+    review:
+      fact_check: pass
+      sources: [nzwine, jancisrobinson]
+    en:
+      question: "Which area of viticultural expertise are New Zealand growers especially known for?"
+      choices:
+        - { text: "Dry-farming old bush vines", correct: false }
+        - { text: "Building steep stone terraces", correct: false }
+        - { text: "Trellising and canopy management", correct: true }
+        - { text: "Selecting botrytised berries", correct: false }
+      explanation: |
+        The Australian viticulturist Richard Smart, based at the Ruakura research
+        station in the early 1980s, spread ideas on letting sunlight into the canopy,
+        later set out in the 1991 handbook Sunlight into Wine.
+
+  - id: nz-swnz-scheme-001
+    type: mcq
+    deck: New Zealand
+    tags: [new-zealand, sustainability]
+    status: reviewed
+    source_id: c40-0011
+    review:
+      fact_check: pass
+      sources: [nzwine, nzwine-swnz]
+    en:
+      question: "What is Sustainable Winegrowing New Zealand (SWNZ)?"
+      choices:
+        - { text: "A government register of geographical indications", correct: false }
+        - { text: "An organic-only certification for vineyards", correct: false }
+        - { text: "An export levy that funds overseas marketing", correct: false }
+        - { text: "An industry scheme certifying vineyards and wineries", correct: true }
+      explanation: |
+        Launched in 1995, it was among the first such programmes in the wine world.
+        Nearly all of the country's vineyard area is now certified under it; organic
+        certification is a separate, much smaller category.
+
+  - id: nz-sauvignon-share-001
+    type: mcq
+    deck: New Zealand
+    tags: [new-zealand, sauvignon-blanc, plantings]
+    status: reviewed
+    source_id: c40-0013
+    review:
+      fact_check: pass
+      sources: [nzwine, nzwine-vineyard-report-2024]
+    en:
+      question: "Roughly what share of New Zealand's producing vineyard area is Sauvignon Blanc?"
+      choices:
+        - { text: "About a quarter", correct: false }
+        - { text: "About two-fifths", correct: false }
+        - { text: "About two-thirds", correct: true }
+        - { text: "Over nine-tenths", correct: false }
+      explanation: |
+        In 2024 it covered about 28,100 of roughly 42,500 producing hectares. Few wine
+        nations rely so heavily on a single variety.
+
+  - id: nz-sauvignon-north-south-001
+    type: mcq
+    deck: New Zealand
+    tags: [new-zealand, sauvignon-blanc, style, north-island, south-island]
+    status: reviewed
+    source_id: c40-0015
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Compared with South Island examples, how do New Zealand Sauvignon Blancs from the North Island tend to taste?"
+      choices:
+        - { text: "Greener, with more green pepper", correct: false }
+        - { text: "Riper, with more tropical fruit", correct: true }
+        - { text: "Leaner, with higher acidity", correct: false }
+        - { text: "More restrained and flinty", correct: false }
+      explanation: |
+        Extra warmth pushes flavours from gooseberry and capsicum towards passion fruit
+        and melon. Cooler southern sites hold more acidity and herbaceous character.
+
+  - id: nz-sauvignon-ferment-001
+    type: mcq
+    deck: New Zealand
+    tags: [new-zealand, sauvignon-blanc, winemaking, fermentation]
+    status: reviewed
+    source_id: c40-0016
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "How is most New Zealand Sauvignon Blanc fermented?"
+      choices:
+        - { text: "In new oak barrels at warm temperatures", correct: false }
+        - { text: "In old oak barrels with full malolactic", correct: false }
+        - { text: "In inert tanks at cool temperatures", correct: true }
+        - { text: "In concrete eggs after long skin contact", correct: false }
+      explanation: |
+        Low temperatures keep volatile fruity esters and thiols in the wine. Most
+        bottlings are released within months of harvest, while the fruit is at its most
+        vivid.
+
+  - id: nz-sauvignon-oak-001
+    type: mcq
+    deck: New Zealand
+    tags: [new-zealand, sauvignon-blanc, winemaking, oak]
+    status: reviewed
+    source_id: c40-0017
+    review:
+      fact_check: pass
+      sources: [producer-site]
+    en:
+      question: "How is oak typically used in New Zealand Sauvignon Blanc?"
+      choices:
+        - { text: "By some producers, for a fuller, more complex style", correct: true }
+        - { text: "In nearly all export wines, to soften the acidity", correct: false }
+        - { text: "For Reserve labels, which by law need barrel ageing", correct: false }
+        - { text: "Rarely, since GI rules restrict it for this grape", correct: false }
+      explanation: |
+        Cloudy Bay's Te Koko is a well-known example: fermented with wild yeasts in
+        French oak and kept on its lees for many months, it is far less pungent than the
+        estate's unoaked Sauvignon.
+
+  - id: nz-chardonnay-white-rank-001
+    type: mcq
+    deck: New Zealand
+    tags: [new-zealand, chardonnay, plantings]
+    status: reviewed
+    source_id: c40-0018
+    review:
+      fact_check: pass
+      sources: [nzwine, nzwine-vineyard-report-2024]
+    en:
+      question: "Which white grape ranks second to Sauvignon Blanc by vineyard area in New Zealand?"
+      choices:
+        - { text: "Pinot Gris", correct: false }
+        - { text: "Riesling", correct: false }
+        - { text: "Gewürztraminer", correct: false }
+        - { text: "Chardonnay", correct: true }
+      explanation: |
+        The margin is narrow: in 2024 it had about 3,100 ha against roughly 2,800 ha of
+        Pinot Gris. Riesling and Gewürztraminer are each well under 1,000 ha.
+
+  - id: nz-chardonnay-style-001
+    type: mcq
+    deck: New Zealand
+    tags: [new-zealand, chardonnay, style, oak]
+    status: reviewed
+    source_id: c40-0019
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which profile best describes a typical premium New Zealand Chardonnay?"
+      choices:
+        - { text: "Buttery, heavily oaked and low in acidity", correct: false }
+        - { text: "Nutty, honeyed and deliberately oxidative", correct: false }
+        - { text: "Citrus and tropical fruit, with subtle toast", correct: true }
+        - { text: "Lean green apple, steely and unoaked", correct: false }
+      explanation: |
+        Styles vary because winemakers choose how much barrel fermentation, lees
+        contact and malolactic to use. Where oak is used, it is mostly French, and new
+        barrels are kept to a supporting role.
+
+  - id: nz-aromatic-varieties-001
+    type: mcq
+    deck: New Zealand
+    tags: [new-zealand, riesling, gewurztraminer, pinot-gris, aromatic]
+    status: reviewed
+    source_id: c40-0020
+    review:
+      fact_check: pass
+      sources: [nzwine, nzwine-vineyard-report-2024]
+    en:
+      question: "Besides Sauvignon Blanc, which group of aromatic or semi-aromatic whites have New Zealand growers increasingly explored?"
+      choices:
+        - { text: "Viognier, Marsanne and Roussanne", correct: false }
+        - { text: "Riesling, Gewürztraminer and Pinot Gris", correct: true }
+        - { text: "Chenin Blanc, Sémillon and Colombard", correct: false }
+        - { text: "Albariño, Verdejo and Godello", correct: false }
+      explanation: |
+        Pinot Gris has grown furthest, to about 2,800 ha by 2024. Riesling (under
+        600 ha) and Gewürztraminer (under 200 ha) remain small niche plantings.
+
+  - id: nz-pinot-noir-rank-001
+    type: mcq
+    deck: New Zealand
+    tags: [new-zealand, pinot-noir, plantings]
+    status: reviewed
+    source_id: c40-0023
+    review:
+      fact_check: pass
+      sources: [nzwine, nzwine-vineyard-report-2024]
+    en:
+      question: "After Sauvignon Blanc, which grape covers the most vineyard area in New Zealand?"
+      choices:
+        - { text: "Chardonnay", correct: false }
+        - { text: "Merlot", correct: false }
+        - { text: "Pinot Noir", correct: true }
+        - { text: "Pinot Gris", correct: false }
+      explanation: |
+        It had about 5,600 ha in 2024, roughly three-quarters of all black-grape
+        plantings in the country.
+
+  - id: nz-pinot-noir-where-001
+    type: mcq
+    deck: New Zealand
+    tags: [new-zealand, pinot-noir, south-island]
+    status: reviewed
+    source_id: c40-0024
+    review:
+      fact_check: pass
+      sources: [nzwine]
+    en:
+      question: "Where is most New Zealand Pinot Noir grown?"
+      choices:
+        - { text: "Widely across the South Island", correct: true }
+        - { text: "Mainly in Auckland and Northland", correct: false }
+        - { text: "Mainly on the North Island's east coast", correct: false }
+        - { text: "Evenly split between the two islands", correct: false }
+      explanation: |
+        The early-ripening grape suits the cooler south. A few North Island districts
+        also grow it with success, but on a much smaller scale.
+
+  - id: nz-pinot-noir-profile-001
+    type: mcq
+    deck: New Zealand
+    tags: [new-zealand, pinot-noir, style]
+    status: reviewed
+    source_id: c40-0025
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which profile describes New Zealand Pinot Noir in general?"
+      choices:
+        - { text: "Firm, grippy tannins and dried-fruit notes", correct: false }
+        - { text: "Pale, tart and green, with low alcohol", correct: false }
+        - { text: "Heavy, jammy and dominated by new oak", correct: false }
+        - { text: "Fine, ripe tannins and vibrant fruit", correct: true }
+      explanation: |
+        The texture is usually soft and alcohol is often fairly high. Distinct regional
+        styles sit within this broad national profile.
+
+  - id: nz-merlot-red-rank-001
+    type: mcq
+    deck: New Zealand
+    tags: [new-zealand, merlot, plantings]
+    status: reviewed
+    source_id: c40-0027
+    review:
+      fact_check: pass
+      sources: [nzwine, nzwine-vineyard-report-2024]
+    en:
+      question: "Which black grape ranks second by vineyard area among New Zealand's red varieties?"
+      choices:
+        - { text: "Syrah", correct: false }
+        - { text: "Merlot", correct: true }
+        - { text: "Cabernet Sauvignon", correct: false }
+        - { text: "Malbec", correct: false }
+      explanation: |
+        It had a little under 1,000 ha in 2024, about nine-tenths of it in Hawke's Bay.
+        Plantings have drifted down in recent years.
+
+  - id: nz-bordeaux-blend-cabernet-001
+    type: mcq
+    deck: New Zealand
+    tags: [new-zealand, merlot, cabernet-sauvignon, blending]
+    status: reviewed
+    source_id: c40-0028
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "In New Zealand's Merlot-based blends, what does Cabernet Sauvignon mainly contribute?"
+      choices:
+        - { text: "Softness and plum fruit", correct: false }
+        - { text: "Peppery spice and body", correct: false }
+        - { text: "Tannin and blackcurrant", correct: true }
+        - { text: "Floral perfume and colour", correct: false }
+      explanation: |
+        Merlot ripens earlier, so it is the safer bet in a cool country and often leads
+        the blend. Cabernet is kept to the warmest, most free-draining sites.
+
+  - id: nz-bordeaux-blend-fruit-001
+    type: mcq
+    deck: New Zealand
+    tags: [new-zealand, bordeaux-blend, style]
+    status: reviewed
+    source_id: c40-0029
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which hallmark do New Zealand's Bordeaux-style reds share with most of the country's wines?"
+      choices:
+        - { text: "Dried-fruit and raisin notes", correct: false }
+        - { text: "Dominant new-oak vanilla", correct: false }
+        - { text: "Earthy, farmyard character", correct: false }
+        - { text: "Purity of fruit flavour", correct: true }
+      explanation: |
+        A long, moderate ripening season keeps fruit fresh rather than baked. Top
+        examples add oak and bottle-age complexity without losing that clarity.
+
+  - id: nz-syrah-warm-sites-001
+    type: mcq
+    deck: New Zealand
+    tags: [new-zealand, syrah, hawkes-bay]
+    status: reviewed
+    source_id: c40-0032
+    review:
+      fact_check: pass
+      sources: [nzwine, nzwine-vineyard-report-2024]
+    en:
+      question: "Besides the Bordeaux varieties, which black grape performs well in New Zealand's warmest sites?"
+      choices:
+        - { text: "Grenache", correct: false }
+        - { text: "Zinfandel", correct: false }
+        - { text: "Pinot Noir", correct: false }
+        - { text: "Syrah", correct: true }
+      explanation: |
+        Plantings stay small, at roughly 420 ha in 2024, and about three-quarters of
+        them are in Hawke's Bay.
+
+  - id: nz-syrah-style-001
+    type: mcq
+    deck: New Zealand
+    tags: [new-zealand, syrah, style]
+    status: reviewed
+    source_id: c40-0033
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Stylistically, what is New Zealand Syrah usually closest to?"
+      choices:
+        - { text: "Ripe, high-alcohol Barossa Shiraz", correct: false }
+        - { text: "Elegant northern Rhône Syrah", correct: true }
+        - { text: "Spicy, raisined Priorat blends", correct: false }
+        - { text: "Dense, oaky Napa Valley reds", correct: false }
+      explanation: |
+        Moderate warmth keeps alcohol in check and preserves the peppery, floral side
+        of the grape that hot climates tend to bake away.
+
+  - id: nz-auckland-origins-001
+    type: mcq
+    deck: New Zealand
+    tags: [new-zealand, auckland, history]
+    status: reviewed
+    source_id: c40-0035
+    review:
+      fact_check: pass
+      sources: [nzwine]
+    en:
+      question: "Families of Croatian and Lebanese origin founded many of New Zealand's oldest surviving wine companies during the 20th century. In which region?"
+      choices:
+        - { text: "Marlborough", correct: false }
+        - { text: "Auckland", correct: true }
+        - { text: "Central Otago", correct: false }
+        - { text: "Canterbury", correct: false }
+      explanation: |
+        West Auckland, in the north of the North Island, was home to pioneers such as
+        Babich, Brajkovich, Corbans and Nobilo. Modern commercial planting in
+        Marlborough, Central Otago and Canterbury dates mainly from the 1970s on.
+
+  - id: nz-auckland-wineries-001
+    type: mcq
+    deck: New Zealand
+    tags: [new-zealand, auckland, industry]
+    status: reviewed
+    source_id: c40-0037
+    review:
+      fact_check: pass
+      sources: [nzwine, nzwine-vineyard-report-2024]
+    en:
+      question: "What best describes Auckland's role in New Zealand wine production today?"
+      choices:
+        - { text: "It has the country's largest vineyard area", correct: false }
+        - { text: "Big wineries there process fruit from elsewhere", correct: true }
+        - { text: "It mainly supplies base wine for sparkling", correct: false }
+        - { text: "It has only tiny estates and no large companies", correct: false }
+      explanation: |
+        Some of the country's biggest wine companies are based there, yet the region
+        had only about 270 ha of vines in 2024, under 1% of the national total.
+
+  - id: nz-auckland-climate-001
+    type: mcq
+    deck: New Zealand
+    tags: [new-zealand, auckland, climate, disease]
+    status: reviewed
+    source_id: c40-0038
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "How does Auckland's climate compare with New Zealand's other wine regions?"
+      choices:
+        - { text: "Cool and among the driest", correct: false }
+        - { text: "Warm and among the driest", correct: false }
+        - { text: "Cool and among the wettest", correct: false }
+        - { text: "Warm and among the wettest", correct: true }
+      explanation: |
+        Warm, humid air and frequent rain make fungal disease the main vineyard worry,
+        so growers favour open canopies and sites with good air flow.
+
+  - id: nz-auckland-varieties-001
+    type: mcq
+    deck: New Zealand
+    tags: [new-zealand, auckland, plantings]
+    status: reviewed
+    source_id: c40-0040
+    review:
+      fact_check: pass
+      sources: [nzwine, nzwine-vineyard-report-2024]
+    en:
+      question: "Which three grapes lead the Auckland region's plantings?"
+      choices:
+        - { text: "Chardonnay, Sauvignon Blanc and Pinot Noir", correct: false }
+        - { text: "Syrah, Pinot Noir and Riesling", correct: false }
+        - { text: "Merlot, Sauvignon Blanc and Riesling", correct: false }
+        - { text: "Chardonnay, Syrah and Merlot", correct: true }
+      explanation: |
+        In 2024 Chardonnay led with about 64 ha, ahead of Syrah and Merlot. Pinot Gris
+        ran a close fourth.
+
+  - id: nz-waiheke-reds-001
+    type: mcq
+    deck: New Zealand
+    tags: [new-zealand, auckland, waiheke, bordeaux-blend, syrah]
+    status: reviewed
+    source_id: c40-0041
+    review:
+      fact_check: pass
+      sources: [nzwine, producer-site]
+    en:
+      question: "Waiheke Island, just east of Auckland, has built its reputation mainly on which wines?"
+      choices:
+        - { text: "Bordeaux-style blends and Syrah", correct: true }
+        - { text: "Pinot Noir and rosé", correct: false }
+        - { text: "Sauvignon Blanc and Pinot Gris", correct: false }
+        - { text: "Riesling and Gewürztraminer", correct: false }
+      explanation: |
+        Its own climate is drier than the mainland's. Commercial planting began in the
+        late 1970s with the Goldwaters, and Stonyridge's Larose, a Cabernet-led blend,
+        later drew wide acclaim.
+
+  - id: nz-gisborne-plain-001
+    type: mcq
+    deck: New Zealand
+    tags: [new-zealand, gisborne, geography]
+    status: reviewed
+    source_id: c40-0042
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Where do most of Gisborne's vineyards lie?"
+      choices:
+        - { text: "On steep coastal hillsides", correct: false }
+        - { text: "On high inland river terraces", correct: false }
+        - { text: "On a broad river plain near the town", correct: true }
+        - { text: "On stony gravel beds of an old riverbed", correct: false }
+      explanation: |
+        The flats around the town, on the east coast of the North Island, were laid down
+        by rivers draining into Poverty Bay.
+
+  - id: nz-gisborne-climate-001
+    type: mcq
+    deck: New Zealand
+    tags: [new-zealand, gisborne, climate]
+    status: reviewed
+    source_id: c40-0043
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which description fits Gisborne's growing season?"
+      choices:
+        - { text: "Cool, dry and windy", correct: false }
+        - { text: "Warm and sunny, but often wet", correct: true }
+        - { text: "Hot days, cold nights, very dry", correct: false }
+        - { text: "Cool and cloudy, with little rain", correct: false }
+      explanation: |
+        Warmth and sunshine ripen grapes early, but rain and humidity from the Pacific
+        raise the risk of rot near harvest.
+
+  - id: nz-gisborne-gewurztraminer-001
+    type: mcq
+    deck: New Zealand
+    tags: [new-zealand, gisborne, gewurztraminer]
+    status: reviewed
+    source_id: c40-0046
+    review:
+      fact_check: pass
+      sources: [nzwine, nzwine-vineyard-report-2024]
+    en:
+      question: "Which aromatic white has Gisborne long made in small but high-quality volumes?"
+      choices:
+        - { text: "Riesling", correct: false }
+        - { text: "Muscat", correct: false }
+        - { text: "Gewürztraminer", correct: true }
+        - { text: "Grüner Veltliner", correct: false }
+      explanation: |
+        Plantings are now around ten hectares. Pinot Gris is grown far more widely here and
+        is often made in a full-bodied style.
+
+  - id: nz-hawkes-bay-towns-001
+    type: mcq
+    deck: New Zealand
+    tags: [new-zealand, hawkes-bay, geography]
+    status: reviewed
+    source_id: c40-0047
+    review:
+      fact_check: pass
+      sources: [nzwine]
+    en:
+      question: "Which twin towns lie at the heart of the Hawke's Bay wine region?"
+      choices:
+        - { text: "Blenheim and Picton", correct: false }
+        - { text: "Masterton and Martinborough", correct: false }
+        - { text: "Gisborne and Wairoa", correct: false }
+        - { text: "Napier and Hastings", correct: true }
+      explanation: |
+        The region lies on the east coast of the North Island. Marist missionaries
+        planted its first vines in 1851, making it one of the country's oldest wine
+        districts.
+
+  - id: nz-hawkes-bay-size-001
+    type: mcq
+    deck: New Zealand
+    tags: [new-zealand, hawkes-bay, plantings]
+    status: reviewed
+    source_id: c40-0049
+    review:
+      fact_check: pass
+      sources: [nzwine, nzwine-vineyard-report-2024]
+    en:
+      question: "Which New Zealand region has the second-largest vineyard area?"
+      choices:
+        - { text: "Central Otago", correct: false }
+        - { text: "Hawke's Bay", correct: true }
+        - { text: "North Canterbury", correct: false }
+        - { text: "Gisborne", correct: false }
+      explanation: |
+        It had about 4,600 ha in 2024, roughly a ninth of the national total, more than
+        twice the area of the next region.
+
+  - id: nz-hawkes-bay-terrain-001
+    type: mcq
+    deck: New Zealand
+    tags: [new-zealand, hawkes-bay, soils, topography]
+    status: reviewed
+    source_id: c40-0050
+    review:
+      fact_check: pass
+      sources: [nzwine]
+    en:
+      question: "Which description fits the vineyard land of Hawke's Bay?"
+      choices:
+        - { text: "A uniform plain of deep silt", correct: false }
+        - { text: "A single terrace of river gravel", correct: false }
+        - { text: "Varied in soils, aspect and altitude", correct: true }
+        - { text: "Mostly steep slopes of volcanic ash", correct: false }
+      explanation: |
+        Sites range from coastal gravels and alluvial plains to stony terraces,
+        hillsides and inland river valleys.
