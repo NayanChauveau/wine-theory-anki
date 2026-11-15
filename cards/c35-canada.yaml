@@ -2,4 +2,664 @@
 # source: C35 (import/inbox/c35-canada.yaml)
 # deck: Canada
 
-cards: []
+cards:
+  - id: canada-climate-continental-001
+    type: mcq
+    deck: Canada
+    tags: [canada, climate]
+    status: reviewed
+    source_id: c35-0001
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which climate label fits Canada's leading wine regions, the Niagara Peninsula and the Okanagan Valley?"
+      choices:
+        - { text: "Maritime", correct: false }
+        - { text: "Continental", correct: true }
+        - { text: "Mediterranean", correct: false }
+        - { text: "High-altitude", correct: false }
+      explanation: |
+        Both lie far from the moderating effect of an ocean, so the gap
+        between the warmest and coldest months is wide. Vancouver Island, on the
+        Pacific, is the main exception, with a milder, wetter maritime climate.
+
+  - id: canada-annual-temperature-001
+    type: mcq
+    deck: Canada
+    tags: [canada, climate]
+    status: reviewed
+    source_id: c35-0002
+    review:
+      fact_check: pass
+      sources: [known-fact, omafa-wind-machines]
+    en:
+      question: "How does the average annual temperature of Canada's wine regions compare with that of Bordeaux or Burgundy?"
+      choices:
+        - { text: "Higher, thanks to long summer daylight", correct: false }
+        - { text: "About the same, as water bodies even it out", correct: false }
+        - { text: "Lower, pulled down by long, severe winters", correct: true }
+        - { text: "Higher, because the growing season is hot", correct: false }
+      explanation: |
+        An annual mean hides the shape of the year. Viticulture is possible
+        because the vine only needs warmth from budburst to harvest; the
+        months of deep cold fall while it is dormant. Even so, Niagara growers
+        run wind machines on still winter nights to pull warmer air down from
+        a temperature inversion and protect dormant buds.
+
+  - id: canada-summer-heat-001
+    type: mcq
+    deck: Canada
+    tags: [canada, climate]
+    status: reviewed
+    source_id: c35-0003
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "What are daytime temperatures in July and August usually like in Canada's main wine regions?"
+      choices:
+        - { text: "Cool, close to those of Champagne", correct: false }
+        - { text: "Mild, seldom reaching 20 °C", correct: false }
+        - { text: "Mild and overcast, as in Muscadet", correct: false }
+        - { text: "Hot, at times above 30 °C", correct: true }
+      explanation: |
+        Inland continental sites heat up quickly once summer arrives. In the
+        southern Okanagan, around Osoyoos, midsummer afternoons regularly pass
+        30 °C, enough to ripen Merlot and even Syrah.
+
+  - id: canada-ontario-appellation-count-001
+    type: mcq
+    deck: Canada
+    tags: [canada, ontario, vqa]
+    status: reviewed
+    source_id: c35-0007
+    review:
+      fact_check: pass
+      sources: [vqa-ontario, ontario-reg-406-00]
+    en:
+      question: "How many Designated Viticultural Areas (DVAs) does Ontario recognise?"
+      choices:
+        - { text: "Two", correct: false }
+        - { text: "Four", correct: false }
+        - { text: "Three", correct: true }
+        - { text: "Five", correct: false }
+      explanation: |
+        They are Niagara Peninsula, Lake Erie North Shore and Prince Edward
+        County, which gained its status in 2007. Pelee Island, once listed on
+        its own, now falls within the South Islands sub-appellation of Lake
+        Erie North Shore.
+
+  - id: canada-ontario-niagara-lead-001
+    type: mcq
+    deck: Canada
+    tags: [canada, ontario, niagara]
+    status: reviewed
+    source_id: c35-0008
+    review:
+      fact_check: pass
+      sources: [vqa-ontario]
+    en:
+      question: "Which Ontario wine region is the province's largest and most important?"
+      choices:
+        - { text: "Prince Edward County", correct: false }
+        - { text: "Lake Erie North Shore", correct: false }
+        - { text: "Pelee Island", correct: false }
+        - { text: "Niagara Peninsula", correct: true }
+      explanation: |
+        It holds the great majority of Ontario's vineyards and is split into
+        many smaller appellations, from the flat lakeshore around
+        Niagara-on-the-Lake to the benches along the Niagara Escarpment.
+
+  - id: canada-niagara-location-001
+    type: mcq
+    deck: Canada
+    tags: [canada, ontario, niagara]
+    status: reviewed
+    source_id: c35-0009
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Where in Ontario do the Niagara Peninsula vineyards lie?"
+      choices:
+        - { text: "Along the southern shore of Lake Ontario, near its western end", correct: true }
+        - { text: "Along the northern shore of Lake Erie, close to Windsor", correct: false }
+        - { text: "On a limestone peninsula jutting into eastern Lake Ontario", correct: false }
+        - { text: "Along the southern shore of Georgian Bay, on Lake Huron", correct: false }
+      explanation: |
+        The vines sit on a strip of land between the lake and the Niagara
+        Escarpment, a ridge that runs east to the Niagara River and the US
+        border at the falls.
+
+  - id: canada-niagara-lake-effect-001
+    type: mcq
+    deck: Canada
+    tags: [canada, ontario, niagara, climate]
+    status: reviewed
+    source_id: c35-0010
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "How does the water of Lake Ontario affect air temperatures over the Niagara Peninsula vineyards?"
+      choices:
+        - { text: "It warms faster than the land in spring", correct: false }
+        - { text: "It traps cold air on the slopes in autumn", correct: false }
+        - { text: "It warms and cools more slowly than the land", correct: true }
+        - { text: "It cools faster than the land in autumn", correct: false }
+      explanation: |
+        Water stores far more heat than soil. In spring the cold lake keeps
+        the shore cool, and in autumn the warm lake keeps it mild, so the
+        whole vine cycle is shifted later in the year.
+
+  - id: canada-niagara-late-budburst-001
+    type: mcq
+    deck: Canada
+    tags: [canada, ontario, niagara, frost]
+    status: reviewed
+    source_id: c35-0011
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Why is a late budburst useful to Niagara Peninsula growers?"
+      choices:
+        - { text: "It cuts the risk of spring frost damage", correct: true }
+        - { text: "It lowers the risk of winter bud kill", correct: false }
+        - { text: "It shortens the time to harvest", correct: false }
+        - { text: "It improves fruit set at flowering", correct: false }
+      explanation: |
+        Green shoots are far more vulnerable to frost than dormant buds. The
+        later they emerge, the more likely the last cold nights of spring
+        have already passed.
+
+  - id: canada-niagara-long-autumn-001
+    type: mcq
+    deck: Canada
+    tags: [canada, ontario, niagara, ripening]
+    status: reviewed
+    source_id: c35-0011
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "What does a mild, drawn-out autumn mainly allow Niagara Peninsula growers to achieve?"
+      choices:
+        - { text: "Higher yields per vine", correct: false }
+        - { text: "Regular noble rot each year", correct: false }
+        - { text: "Full ripeness in the grapes", correct: true }
+        - { text: "An earlier harvest date", correct: false }
+      explanation: |
+        Extra weeks on the vine let sugar build, acidity soften and flavours
+        develop. Late-ripening Cabernet Sauvignon depends most on this margin
+        and struggles in a cool year.
+
+  - id: canada-niagara-airflow-001
+    type: mcq
+    deck: Canada
+    tags: [canada, ontario, niagara, disease]
+    status: reviewed
+    source_id: c35-0012
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Apart from moderating temperature, what vineyard benefit does Lake Ontario bring to the Niagara Peninsula?"
+      choices:
+        - { text: "Morning mist that favours noble rot", correct: false }
+        - { text: "Steady breezes that limit fungal disease", correct: true }
+        - { text: "Reflected light that speeds ripening", correct: false }
+        - { text: "Sandy lake-bed soils that deter phylloxera", correct: false }
+      explanation: |
+        Lake air moving inland is deflected by the Niagara Escarpment and
+        circulates back over the vines, drying leaves and bunches after rain.
+
+  - id: canada-niagara-riesling-001
+    type: mcq
+    deck: Canada
+    tags: [canada, ontario, niagara, riesling]
+    status: reviewed
+    source_id: c35-0013
+    review:
+      fact_check: pass
+      sources: [known-fact, producer-site]
+    en:
+      question: "Which white grape is generally rated the most successful in Ontario's Niagara Peninsula?"
+      choices:
+        - { text: "Pinot Gris", correct: false }
+        - { text: "Sauvignon Blanc", correct: false }
+        - { text: "Gewurztraminer", correct: false }
+        - { text: "Riesling", correct: true }
+      explanation: |
+        It ripens reliably in Niagara's cool conditions and resists winter cold
+        well. Cave Spring built its name on Riesling from its escarpment estate.
+
+  - id: canada-niagara-riesling-styles-001
+    type: mcq
+    deck: Canada
+    tags: [canada, ontario, niagara, riesling]
+    status: reviewed
+    source_id: c35-0014
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "What style are most Niagara Peninsula Riesling table wines?"
+      choices:
+        - { text: "Rich and full-bodied, aged in new oak", correct: false }
+        - { text: "Dry to off-dry, unoaked, with high acidity", correct: true }
+        - { text: "Lusciously sweet, from botrytised grapes", correct: false }
+        - { text: "Medium-dry, with soft acidity and oak", correct: false }
+      explanation: |
+        Cool nights keep the fruit fresh and citrusy. The best grapes also go
+        into Icewine, where that acidity stops the sweetness tasting cloying.
+
+  - id: canada-vidal-hybrid-001
+    type: mcq
+    deck: Canada
+    tags: [canada, vidal, grape]
+    status: reviewed
+    source_id: c35-0016
+    review:
+      fact_check: pass
+      sources: [vivc]
+    en:
+      question: "What kind of vine is Vidal, widely planted in Ontario?"
+      choices:
+        - { text: "A *Vitis vinifera* crossing", correct: false }
+        - { text: "A winter-hardy hybrid", correct: true }
+        - { text: "A native *Vitis labrusca* grape", correct: false }
+        - { text: "A cold-hardy clone of Riesling", correct: false }
+      explanation: |
+        It comes from Ugni Blanc crossed with a French-American hybrid. As a
+        dry wine it is rather neutral, so its value lies in sweet styles.
+
+  - id: canada-vidal-icewine-style-001
+    type: mcq
+    deck: Canada
+    tags: [canada, icewine, vidal]
+    status: reviewed
+    source_id: c35-0016
+    review:
+      fact_check: pass
+      sources: [known-fact, inniskillin-history]
+    en:
+      question: "How does Vidal Icewine usually compare with Riesling Icewine?"
+      choices:
+        - { text: "Higher acidity, but less sweetness", correct: false }
+        - { text: "More tannin, from longer skin contact", correct: false }
+        - { text: "Higher alcohol, but less concentration", correct: false }
+        - { text: "Less acidity and aromatic complexity", correct: true }
+      explanation: |
+        Vidal gives broad tropical and honeyed fruit, and its thick skins help
+        it hang safely into winter. Inniskillin's 1989 Vidal Icewine put Canada
+        on the map by winning the Grand Prix d'Honneur at Vinexpo in 1991.
+
+  - id: canada-niagara-chardonnay-001
+    type: mcq
+    deck: Canada
+    tags: [canada, ontario, niagara, chardonnay]
+    status: reviewed
+    source_id: c35-0018
+    review:
+      fact_check: pass
+      sources: [known-fact, wine-country-ontario-i4c]
+    en:
+      question: "What style do the better Chardonnays of Ontario's Niagara Peninsula usually show?"
+      choices:
+        - { text: "Rich and buttery, with heavy new oak", correct: false }
+        - { text: "Off-dry, aromatic and unoaked", correct: false }
+        - { text: "Dry, with pure fruit and restrained oak", correct: true }
+        - { text: "Full-bodied, with ripe tropical fruit", correct: false }
+      explanation: |
+        Cool nights keep acidity bright, and many producers favour older
+        barrels. Niagara hosts i4C, an annual celebration of cool-climate
+        Chardonnay held each July.
+
+  - id: canada-niagara-black-grapes-001
+    type: mcq
+    deck: Canada
+    tags: [canada, ontario, niagara, black-grapes]
+    status: reviewed
+    source_id: c35-0019
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which group lists black grapes widely grown in the Niagara Peninsula?"
+      choices:
+        - { text: "Syrah, Grenache, Mourvèdre, Carignan", correct: false }
+        - { text: "Malbec, Tempranillo, Zinfandel, Sangiovese", correct: false }
+        - { text: "Pinot Noir, Cabernet Franc, Merlot, Cabernet Sauvignon", correct: true }
+        - { text: "Nebbiolo, Barbera, Aglianico, Nero d'Avola", correct: false }
+      explanation: |
+        Early-ripening Pinot Noir suits the cooler sites, while Cabernet Franc
+        ripens more reliably than Cabernet Sauvignon and is also used for red
+        Icewine.
+
+  - id: canada-bc-location-001
+    type: mcq
+    deck: Canada
+    tags: [canada, british-columbia]
+    status: reviewed
+    source_id: c35-0020
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Where in Canada is British Columbia, the country's second major wine province?"
+      choices:
+        - { text: "On the Atlantic coast", correct: false }
+        - { text: "In the central Prairies", correct: false }
+        - { text: "On the Pacific coast", correct: true }
+        - { text: "Around the Great Lakes", correct: false }
+      explanation: |
+        It borders Washington State, and the Okanagan Valley continues south
+        across the border, where it is spelled Okanogan and has its own AVA.
+
+  - id: canada-bc-similkameen-001
+    type: mcq
+    deck: Canada
+    tags: [canada, british-columbia, gi]
+    status: reviewed
+    source_id: c35-0021
+    review:
+      fact_check: pass
+      sources: [bc-wine-authority, bc-gov]
+    en:
+      question: "Which of these is an official wine region of British Columbia?"
+      choices:
+        - { text: "Prince Edward County", correct: false }
+        - { text: "Similkameen Valley", correct: true }
+        - { text: "Lake Erie North Shore", correct: false }
+        - { text: "Walla Walla Valley", correct: false }
+      explanation: |
+        BC long had five areas: Okanagan Valley, Similkameen Valley, Fraser
+        Valley, Vancouver Island and the Gulf Islands. In 2018 it added Thompson
+        Valley, Shuswap, Lillooet and Kootenays as geographical indications.
+
+  - id: canada-bc-okanagan-lead-001
+    type: mcq
+    deck: Canada
+    tags: [canada, british-columbia, okanagan]
+    status: reviewed
+    source_id: c35-0022
+    review:
+      fact_check: pass
+      sources: [bc-gov-news-2015, decanter-okanagan-sub-gis]
+    en:
+      question: "Which region accounts for most of British Columbia's vineyards?"
+      choices:
+        - { text: "Fraser Valley", correct: false }
+        - { text: "Vancouver Island", correct: false }
+        - { text: "Gulf Islands", correct: false }
+        - { text: "Okanagan Valley", correct: true }
+      explanation: |
+        Since 2015 it has gained a series of sub-GIs, starting with Golden
+        Mile Bench; Naramata Bench and Skaha Bench followed in 2019.
+
+  - id: canada-okanagan-rain-shadow-001
+    type: mcq
+    deck: Canada
+    tags: [canada, british-columbia, okanagan, climate]
+    status: reviewed
+    source_id: c35-0023
+    review:
+      fact_check: pass
+      sources: [canadian-encyclopedia]
+    en:
+      question: "Why does the Okanagan Valley receive so little rain?"
+      choices:
+        - { text: "Cold Pacific currents stop clouds forming", correct: false }
+        - { text: "Mountain ranges to the west block it", correct: true }
+        - { text: "Dry Prairie winds blow in from the east", correct: false }
+        - { text: "Its deep lakes chill the air above them", correct: false }
+      explanation: |
+        Moist Pacific air drops most of its rain on the Coast and Cascade
+        ranges. Vineyards in the valley therefore depend on irrigation.
+
+  - id: canada-okanagan-semi-desert-001
+    type: mcq
+    deck: Canada
+    tags: [canada, british-columbia, okanagan, climate]
+    status: reviewed
+    source_id: c35-0023
+    review:
+      fact_check: pass
+      sources: [canadian-encyclopedia]
+    en:
+      question: "Which landscape best describes the southern end of the Okanagan Valley?"
+      choices:
+        - { text: "Temperate rainforest", correct: false }
+        - { text: "Semi-desert", correct: true }
+        - { text: "Humid mixed forest", correct: false }
+        - { text: "Mediterranean scrubland", correct: false }
+      explanation: |
+        Around Osoyoos, annual rainfall is only about 300 mm; sagebrush and
+        even cacti grow beside the vines.
+
+  - id: canada-okanagan-daylength-001
+    type: mcq
+    deck: Canada
+    tags: [canada, british-columbia, okanagan, ripening]
+    status: reviewed
+    source_id: c35-0025
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "At the Okanagan Valley's latitude of about 49–50°N, how do long summer days help grapes ripen?"
+      choices:
+        - { text: "Hotter nights speed sugar build-up", correct: false }
+        - { text: "Midday sunlight is more intense", correct: false }
+        - { text: "Photosynthesis runs for more hours", correct: true }
+        - { text: "Budburst comes earlier in spring", correct: false }
+      explanation: |
+        In late June the sun is up for around 16 hours, longer than in
+        Napa. The sun sits lower in the sky, so the gain comes from duration,
+        not intensity.
+
+  - id: canada-okanagan-lakes-001
+    type: mcq
+    deck: Canada
+    tags: [canada, british-columbia, okanagan, climate]
+    status: reviewed
+    source_id: c35-0026
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "What do the deep glacial lakes of the Okanagan Valley mainly do for nearby vineyards?"
+      choices:
+        - { text: "Create fog that shades vines in summer", correct: false }
+        - { text: "Raise humidity, favouring noble rot", correct: false }
+        - { text: "Moderate temperatures and lengthen the season", correct: true }
+        - { text: "Leave fresh silt on the vineyards each spring", correct: false }
+      explanation: |
+        Okanagan Lake is over 100 km long. Slopes close to the water escape
+        the worst autumn frosts and winter lows.
+
+  - id: canada-okanagan-north-south-001
+    type: mcq
+    deck: Canada
+    tags: [canada, british-columbia, okanagan]
+    status: reviewed
+    source_id: c35-0027
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "How does the grape mix change from the cooler north to the warmer south of the Okanagan Valley?"
+      choices:
+        - { text: "Black grapes in the north, whites in the south", correct: false }
+        - { text: "Whites in the north, more black grapes in the south", correct: true }
+        - { text: "Hybrids in the north, vinifera in the south", correct: false }
+        - { text: "Sparkling bases in the north, Icewine in the south", correct: false }
+      explanation: |
+        Near Kelowna, aromatic whites and Pinot Noir dominate. Around Oliver
+        and Osoyoos, Bordeaux varieties and Syrah ripen fully.
+
+  - id: canada-bc-merlot-001
+    type: mcq
+    deck: Canada
+    tags: [canada, british-columbia, okanagan, merlot]
+    status: reviewed
+    source_id: c35-0028
+    review:
+      fact_check: pass
+      sources: [bc-wine-grape-council, bc-acreage-report-2022]
+    en:
+      question: "Which black grape is the most widely planted in British Columbia, mostly in the Okanagan Valley?"
+      choices:
+        - { text: "Merlot", correct: true }
+        - { text: "Pinot Noir", correct: false }
+        - { text: "Cabernet Sauvignon", correct: false }
+        - { text: "Syrah", correct: false }
+      explanation: |
+        Grower acreage surveys have placed it top in the province for over a
+        decade, with most plantings in the warm south of the valley.
+
+  - id: canada-bc-pinot-gris-001
+    type: mcq
+    deck: Canada
+    tags: [canada, british-columbia, okanagan, pinot-gris]
+    status: reviewed
+    source_id: c35-0028
+    review:
+      fact_check: pass
+      sources: [bc-wine-grape-council, bc-acreage-report-2022]
+    en:
+      question: "Which white grape is the most widely planted in British Columbia, mostly in the Okanagan Valley?"
+      choices:
+        - { text: "Chardonnay", correct: false }
+        - { text: "Riesling", correct: false }
+        - { text: "Pinot Gris", correct: true }
+        - { text: "Gewurztraminer", correct: false }
+      explanation: |
+        Grower acreage surveys have put it ahead of Chardonnay among BC whites
+        since at least 2014.
+
+  - id: canada-vqa-name-001
+    type: mcq
+    deck: Canada
+    tags: [canada, vqa, labelling]
+    status: reviewed
+    source_id: c35-0030
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "What is the name of Canada's appellation system for quality wine?"
+      choices:
+        - { text: "Wine of Origin (WO)", correct: false }
+        - { text: "American Viticultural Area (AVA)", correct: false }
+        - { text: "Appellation d'Origine Contrôlée (AOC)", correct: false }
+        - { text: "Vintners Quality Alliance (VQA)", correct: true }
+      explanation: |
+        It began in Ontario as a voluntary producers' standard in the late
+        1980s and was later written into provincial law.
+
+  - id: canada-vqa-provinces-001
+    type: mcq
+    deck: Canada
+    tags: [canada, vqa]
+    status: reviewed
+    source_id: c35-0031
+    review:
+      fact_check: pass
+      sources: [vqa-ontario, bc-wine-authority]
+    en:
+      question: "Which two Canadian provinces operate a VQA appellation scheme?"
+      choices:
+        - { text: "Ontario and Quebec", correct: false }
+        - { text: "Ontario and British Columbia", correct: true }
+        - { text: "British Columbia and Nova Scotia", correct: false }
+        - { text: "Quebec and Nova Scotia", correct: false }
+      explanation: |
+        Each runs it through its own body, the VQA Ontario authority and the
+        BC Wine Authority. Nova Scotia has its own Tidal Bay white-wine
+        standard instead.
+
+  - id: canada-vqa-dva-tier-001
+    type: mcq
+    deck: Canada
+    tags: [canada, vqa, ontario]
+    status: reviewed
+    source_id: c35-0032
+    review:
+      fact_check: pass
+      sources: [ontario-regulation]
+    en:
+      question: "Under Ontario's VQA rules, what kind of unit sits directly below the province-wide appellation?"
+      choices:
+        - { text: "Counties drawn on municipal lines", correct: false }
+        - { text: "Viticultural areas (DVAs)", correct: true }
+        - { text: "Registered single vineyards", correct: false }
+        - { text: "Wine-of-origin wards", correct: false }
+      explanation: |
+        These are broad regions defined by climate and soil, such as Niagara
+        Peninsula. British Columbia now calls its equivalent units
+        geographical indications.
+
+  - id: canada-vqa-sub-appellation-001
+    type: mcq
+    deck: Canada
+    tags: [canada, vqa, ontario, niagara]
+    status: reviewed
+    source_id: c35-0033
+    review:
+      fact_check: pass
+      sources: [ontario-regulation]
+    en:
+      question: "Where does Beamsville Bench sit in Ontario's VQA hierarchy?"
+      choices:
+        - { text: "A sub-appellation within Niagara Peninsula", correct: true }
+        - { text: "A separate DVA alongside Niagara Peninsula", correct: false }
+        - { text: "A province-wide appellation of its own", correct: false }
+        - { text: "A designation for a single named vineyard", correct: false }
+      explanation: |
+        Niagara Peninsula is first divided into two regional appellations,
+        Niagara-on-the-Lake and Niagara Escarpment. Beamsville Bench is one of
+        the sub-appellations within the latter.
+
+  - id: canada-vqa-provincial-grapes-001
+    type: mcq
+    deck: Canada
+    tags: [canada, vqa, labelling]
+    status: reviewed
+    source_id: c35-0034
+    review:
+      fact_check: pass
+      sources: [bc-wine-authority, vqa-ontario]
+    en:
+      question: "What share of the grapes in a VQA wine must be grown in its own province?"
+      choices:
+        - { text: "70%", correct: false }
+        - { text: "80%", correct: false }
+        - { text: "90%", correct: false }
+        - { text: "100%", correct: true }
+      explanation: |
+        Wines bottled in Canada from imported grapes or juice may not carry the
+        VQA mark. In Ontario they are sold as "International-Canadian
+        Blends".
+
+  - id: canada-vqa-varieties-001
+    type: mcq
+    deck: Canada
+    tags: [canada, vqa, grape]
+    status: reviewed
+    source_id: c35-0034
+    review:
+      fact_check: pass
+      sources: [vqa-ontario, ontario-reg-406-00]
+    en:
+      question: "Which grapes may be used to make a VQA wine?"
+      choices:
+        - { text: "Vinifera, labrusca and any hybrid", correct: false }
+        - { text: "Hybrids and native American species", correct: false }
+        - { text: "Vinifera and approved hybrids", correct: true }
+        - { text: "Vinifera plus labrusca such as Concord", correct: false }
+      explanation: |
+        Ontario approves a short list of hybrids. Baco Noir, a dark, smoky red
+        from a hybrid grape, is one that can be labelled VQA.
