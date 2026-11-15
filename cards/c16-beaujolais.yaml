@@ -149,7 +149,7 @@ cards:
         - { text: "Le gobelet bas et autoportant", correct: true }
         - { text: "La pergola haute", correct: false }
         - { text: "Le Guyot simple sur un palissage haut", correct: false }
-        - { text: "La lyre ouverte de type Geneva Double Curtain", correct: false }
+        - { text: "Le double rideau de type Geneva Double Curtain", correct: false }
       explanation: |
         Les vignes traditionnelles du Beaujolais sont conduites en gobelet bas, taillées en coursons autour
         d’une tête. Ce système dense et autoportant convient au travail manuel et à la récolte de grappes
@@ -380,9 +380,9 @@ cards:
       question: "Which part of Beaujolais is most associated with the high-volume regional wines used for Nouveau?"
       choices:
         - { text: "The southern and eastern sectors of the regional Beaujolais AOC", correct: true }
-        - { text: "The ten northern cru areas exclusively", correct: false }
-        - { text: "The highest slopes around Chiroubles exclusively", correct: false }
-        - { text: "The vineyards of Moulin-à-Vent and Morgon exclusively", correct: false }
+        - { text: "The ten cru areas in the north of the region", correct: false }
+        - { text: "The high granite slopes around Chiroubles and Fleurie", correct: false }
+        - { text: "The northern border with the Mâconnais around Saint-Amour", correct: false }
       explanation: |
         Much Nouveau comes from the broader regional appellation, whose vineyards are concentrated in the
         south and along the eastern side toward the Saône. Beaujolais Villages may also produce Nouveau, but
@@ -391,9 +391,9 @@ cards:
       question: "Quelle partie du Beaujolais est la plus associée aux vins régionaux de volume utilisés pour le Nouveau ?"
       choices:
         - { text: "Les secteurs méridionaux et orientaux de l’AOC régionale Beaujolais", correct: true }
-        - { text: "Exclusivement les aires des dix crus du nord", correct: false }
-        - { text: "Exclusivement les pentes les plus élevées autour de Chiroubles", correct: false }
-        - { text: "Exclusivement les vignobles de Moulin-à-Vent et de Morgon", correct: false }
+        - { text: "Les aires des dix crus, au nord de la région", correct: false }
+        - { text: "Les hauts coteaux granitiques autour de Chiroubles et de Fleurie", correct: false }
+        - { text: "La limite nord avec le Mâconnais, autour de Saint-Amour", correct: false }
       explanation: |
         Une grande partie du Nouveau provient de l’appellation régionale, dont les vignobles se concentrent
         au sud et sur le côté oriental vers la Saône. Beaujolais Villages peut également produire du
@@ -465,28 +465,32 @@ cards:
     source_id: c16-0015
     review:
       fact_check: pass
-      sources: [spec]
+      sources: [inao-cdc-beaujolais-2022]
     en:
-      question: "Until which date may a vintage retain the Nouveau or primeur mention?"
+      question: "By when must Beaujolais wines bearing the Nouveau or primeur mention be bottled?"
       choices:
-        - { text: "31 August in the year after the harvest", correct: true }
-        - { text: "31 December in the harvest year", correct: false }
-        - { text: "The third Thursday of November in the harvest year", correct: false }
-        - { text: "31 December five years after the harvest", correct: false }
+        - { text: "Before 31 August of the year after the harvest", correct: false }
+        - { text: "Before 31 December of the harvest year", correct: true }
+        - { text: "Before 15 January of the year after the harvest", correct: false }
+        - { text: "Before 31 March of the year after the harvest", correct: false }
       explanation: |
-        The primeur or Nouveau designation may be used only until 31 August of the year following the
-        harvest. This is a labelling deadline, not a claim that the wine becomes undrinkable on that date.
+        The appellation rules require Nouveau wines to be bottled before the end of
+        the harvest year, which keeps them a wine of the first few months. Other red
+        Beaujolais must instead be kept in the cellar until at least 1 January and
+        cannot reach consumers before 15 January of the following year.
     fr:
-      question: "Jusqu’à quelle date un millésime peut-il conserver la mention « Nouveau » ou « primeur » ?"
+      question: "Avant quelle date les Beaujolais portant la mention « Nouveau » ou « primeur » doivent-ils être mis en bouteille ?"
       choices:
-        - { text: "Jusqu’au 31 août de l’année suivant la vendange", correct: true }
-        - { text: "Jusqu’au 31 décembre de l’année de la vendange", correct: false }
-        - { text: "Jusqu’au troisième jeudi de novembre de l’année de la vendange", correct: false }
-        - { text: "Jusqu’au 31 décembre de la cinquième année suivant la vendange", correct: false }
+        - { text: "Avant le 31 août de l’année suivant la vendange", correct: false }
+        - { text: "Avant le 31 décembre de l’année de la vendange", correct: true }
+        - { text: "Avant le 15 janvier de l’année suivant la vendange", correct: false }
+        - { text: "Avant le 31 mars de l’année suivant la vendange", correct: false }
       explanation: |
-        La mention « primeur » ou « Nouveau » ne peut être utilisée que jusqu’au 31 août de l’année suivant
-        la vendange. Il s’agit d’une limite d’étiquetage, non d’une affirmation selon laquelle le vin
-        deviendrait imbuvable à cette date.
+        Le cahier des charges impose une mise en bouteille des vins « Nouveau » avant
+        la fin de l’année de la récolte : ce sont des vins des premiers mois. Les
+        autres Beaujolais rouges doivent au contraire être élevés au moins jusqu’au
+        1er janvier et ne peuvent être vendus au consommateur qu’à partir du
+        15 janvier de l’année suivante.
   - id: beaujolais-nouveau-tier-001
     type: mcq
     deck: France::Beaujolais
@@ -831,7 +835,7 @@ cards:
         - { text: "About 4–6 days for Nouveau versus roughly 10–15 days for the crus", correct: true }
         - { text: "About 10–15 days for Nouveau versus roughly 4–6 days for the crus", correct: false }
         - { text: "About one month for both Nouveau and the crus", correct: false }
-        - { text: "No skin maceration for Nouveau versus one year for the crus", correct: false }
+        - { text: "About 4–6 days for both Nouveau and the crus", correct: false }
       explanation: |
         A short maceration preserves the light, immediate fruit needed for rapid-release Nouveau. Longer
         maceration for cru wines extracts more colour and tannin, increasing structure and ageing potential.
@@ -841,7 +845,7 @@ cards:
         - { text: "Environ 4 à 6 jours pour le Nouveau, contre approximativement 10 à 15 jours pour les crus", correct: true }
         - { text: "Environ 10 à 15 jours pour le Nouveau, contre approximativement 4 à 6 jours pour les crus", correct: false }
         - { text: "Environ un mois aussi bien pour le Nouveau que pour les crus", correct: false }
-        - { text: "Aucune macération pelliculaire pour le Nouveau, contre un an pour les crus", correct: false }
+        - { text: "Environ 4 à 6 jours aussi bien pour le Nouveau que pour les crus", correct: false }
       explanation: |
         Une macération courte préserve le fruit léger et immédiat recherché pour le Nouveau commercialisé
         rapidement. Une macération plus longue pour les crus extrait davantage de couleur et de tanins,

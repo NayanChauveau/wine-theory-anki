@@ -1,0 +1,220 @@
+# Final audit — cards/c14-south-west.yaml (29) and cards/c15-burgundy.yaml (115)
+# Only cards that are NOT ok are listed.
+cards:
+  # ---------- c14 South West ----------
+  - id: southwest-core-names-001
+    verdict: fix
+    issues: ["All three foils were other regions (Loire, Provence, Beaujolais), dropped without any South West knowledge"]
+    change: "Foils now each hide one Dordogne intruder (Monbazillac, Pécharmant, Bergerac); Why names the intruders. EN+FR."
+    checked: [knowledge]
+  - id: cahors-black-wine-name-001
+    verdict: fix
+    issues: ["Why discussed claret/hock/sack, none of which is a choice (stale from an earlier version)"]
+    change: "Why now explains the actual foils (vin jaune, vin de paille, vin gris). EN+FR."
+    checked: [knowledge]
+  - id: madiran-bottle-age-001
+    verdict: fix
+    issues: ["Three joke foils (bubbles, botrytis after bottling, fortification)"]
+    change: "Foils rewritten in the same frame (colour, acidity, legal ageing); key reworded to match pattern. EN+FR."
+    checked: [knowledge]
+  - id: gascogne-is-igp-001
+    verdict: minor
+    issues: ["Why named Cahors/Madiran/Jurançon instead of the three foils"]
+    change: "Why now states that Côtes de Bergerac, Pacherenc du Vic-Bilh and Saint-Mont are AOCs. EN+FR."
+    checked: [knowledge]
+  - id: madiran-modern-001
+    verdict: minor
+    issues: ["Joke foil: replacing Tannat with a white grape"]
+    change: "Foil replaced by 'longer macerations then new oak only'. EN+FR."
+    checked: [knowledge]
+  - id: jurancon-sweet-focus-001
+    verdict: minor
+    issues: ["Foils out of frame for a white-only AOC (red, rosé, distillation)"]
+    change: "Foils are now white styles (Jurançon Sec, sparkling, fortified). EN+FR."
+    checked: [knowledge]
+  - id: jurancon-petit-manseng-001
+    verdict: minor
+    issues: ["Joke foils with 'only' (red, rosé, distillation)"]
+    change: "Foils rewritten: reversed roles, Petit Courbu, same-variety claim. EN+FR."
+    checked: [knowledge]
+  - id: dordogne-climate-001
+    verdict: minor
+    issues: ["Joke foil: alpine climate with summer frost"]
+    change: "Foil replaced by 'drier and sunnier, Landes forest blocks rain'. EN+FR."
+    checked: [knowledge]
+  - id: monbazillac-sweet-aoc-001
+    verdict: minor
+    issues: ["Foil Côtes de Gascogne is not a Dordogne AOC; other Dordogne sweet AOCs exist (Saussignac, Rosette) so foil choice is constrained"]
+    change: none
+    checked: [knowledge]
+  - id: gascogne-igp-zone-001
+    verdict: minor
+    issues: ["Foils carry absolutes (every, all, only) and one is a joke (spirit only)"]
+    change: none
+    checked: [knowledge]
+  - id: cahors-land-types-001
+    verdict: minor
+    issues: ["Implausible foils (Atlantic granite escarpment, volcanic cones); key is the longest"]
+    change: none
+    checked: [knowledge]
+  - id: jurancon-flavours-001
+    verdict: minor
+    issues: ["Foils are other wine classes; key longest (already flagged by pilot)"]
+    change: none
+    checked: [knowledge]
+
+  # ---------- c15 Burgundy ----------
+  - id: burgundy-chablis-where-001
+    verdict: wrong
+    issues: ["Stem asked for Burgundy's northernmost vines: those are at Joigny (Bourgogne Côte Saint-Jacques) on the Yonne, so the foil 'Yonne valley' was the true answer"]
+    change: "Stem now 'Which river runs through the Chablis vineyards?'; choices are plain river names; Why separates Yonne département from the river. EN+FR."
+    checked: [knowledge]
+  - id: burgundy-commune-share-001
+    verdict: wrong
+    issues: ["Key said ~40% incl. premier cru; BIVB 2019–2023 average is 46% (régionales 53%, grands crus 1%)", "Stem previewed the answer ('a sliver … or a much bigger slice')"]
+    change: "Neutral stem; choices 5% / nearly half / two-thirds / a quarter; Why cites 46/53/1. Source added. EN+FR."
+    checked: [bivb-key-figures-2024]
+  - id: burgundy-premier-share-001
+    verdict: fix
+    issues: ["Key 12% not supported; BIVB gives about 10% for premiers crus"]
+    change: "Key and Why changed to about 10%. Source added. EN+FR."
+    checked: [bivb]
+  - id: burgundy-premier-count-001
+    verdict: fix
+    issues: ["640 is the pre-2020 count; BIVB now states 662 premier cru climats"]
+    change: "Key 'About 660'; Why gives 662 and explains the old 640 (Pouilly-Fuissé's 22 in 2020). Source added. EN+FR."
+    checked: [bivb]
+  - id: burgundy-hail-001
+    verdict: fix
+    issues: ["Stem verb 'shreds' and foil 'rain without ice' gave hail away", "Why cited anti-hail cannon; FR colloquial"]
+    change: "Applied the pilot's proposed EN/FR replacement (stem, last foil, Why)."
+    checked: [knowledge]
+  - id: burgundy-pinot-oak-001
+    verdict: fix
+    issues: ["All three foils were 'legal' rules, so the key was the only non-legal option; EN key far longer than FR and longest"]
+    change: "Foils rewritten as practices (tank, 100% new everywhere, old foudres); key 'a share of new barrels, larger for the top wines'; Why updated. EN+FR."
+    checked: [knowledge]
+  - id: burgundy-premox-cause-001
+    verdict: fix
+    issues: ["Trick stem ('the agreed single cause') with a 'none' key; three foils all ended in 'alone'"]
+    change: "Stem 'What is known about the cause…'; foils are distinct false claims (one cork batch, screwcaps, no-MLF wines). EN+FR."
+    checked: [knowledge]
+  - id: burgundy-chablis-oak-effect-001
+    verdict: fix
+    issues: ["EN key contained 'not coconut toast', negating foil 1 and absent from FR"]
+    change: "EN key trimmed to match FR."
+    checked: [knowledge]
+  - id: burgundy-regional-source-001
+    verdict: fix
+    issues: ["Every foil began with 'Only/Uniquement', the key was the sole exception"]
+    change: "Foils rewritten without the shared cue word. EN+FR."
+    checked: [knowledge]
+  - id: burgundy-village-word-001
+    verdict: fix
+    issues: ["Joke foils from other countries (AVA, Einzellage, DOCG)"]
+    change: "Foils now Burgundy terms: Regional, Premier cru, Lieu-dit. EN+FR."
+    checked: [knowledge]
+  - id: burgundy-gc-top-001
+    verdict: fix
+    issues: ["EN stem was a yes/no question ('Is there a rank…') over name choices; FR was already 'Quel rang'"]
+    change: "EN stem aligned with FR."
+    checked: [knowledge]
+  - id: burgundy-cru-midslope-001
+    verdict: minor
+    issues: ["Why said Clos de Vougeot runs 'into the village'; it runs down to the main road"]
+    change: "One-line Why fix. EN+FR."
+    checked: [knowledge]
+  - id: burgundy-soil-style-001
+    verdict: minor
+    issues: ["EN 'walls' for parcels is unidiomatic (FR says parcelles)"]
+    change: "EN 'walls' -> 'plots' in stem and foils."
+    checked: [knowledge]
+  - id: burgundy-chard-gradient-001
+    verdict: minor
+    issues: ["EN key clearly the longest"]
+    change: "EN key shortened."
+    checked: [knowledge]
+  - id: burgundy-chablis-grape-001
+    verdict: minor
+    issues: ["Key 'Chardonnay only' carried a cue word and broke the list pattern"]
+    change: "Key is now 'Chardonnay'. EN+FR."
+    checked: [knowledge]
+  - id: burgundy-white-gc-beaune-001
+    verdict: minor
+    issues: ["EN Why called Chablis 'seven GCs' (it is one AOC, seven climats) and ended on a leftover phrase"]
+    change: "EN Why sentence rewritten to match FR."
+    checked: [knowledge]
+  - id: burgundy-corton-pair-001
+    verdict: minor
+    issues: ["Two foils outside the Côte de Beaune named in the stem (Mont de Milieu, Vergisson)"]
+    change: "Replaced by Montagne de Beaune and Mont de Sène. EN+FR."
+    checked: [knowledge]
+  - id: burgundy-macon-chard-001
+    verdict: minor
+    issues: ["Foils for a white wine were Pinot Noir, Riesling, Cabernet Franc"]
+    change: "Foils now Aligoté, Sauvignon Blanc, Pinot Blanc. EN+FR."
+    checked: [knowledge]
+  - id: burgundy-pf-style-001
+    verdict: minor
+    issues: ["Red-fruit foil for a white wine"]
+    change: "Foil replaced by a floral, grapey, low-acid profile. EN+FR."
+    checked: [knowledge]
+  - id: burgundy-frost-may-001
+    verdict: minor
+    issues: ["Why is elliptical (April 2021 frost cited to justify a May key)"]
+    change: none
+    checked: [knowledge]
+  - id: burgundy-beaune-red-001
+    verdict: minor
+    issues: ["Cabernet Franc foil out of frame; EN stem loose"]
+    change: none
+    checked: [knowledge]
+  - id: burgundy-macon-aoc-001
+    verdict: minor
+    issues: ["'single word' in the stem eliminates the two-word foil"]
+    change: none
+    checked: [knowledge]
+  - id: burgundy-macon-white-style-001
+    verdict: minor
+    issues: ["Yes/No format; key longest with hedges while foils carry absolutes"]
+    change: none
+    checked: [knowledge]
+  - id: burgundy-pf-sv-001
+    verdict: minor
+    issues: ["Vague stem ('most lists lead with'); Rully/Montagny foil is another district"]
+    change: none
+    checked: [knowledge]
+  - id: burgundy-declass-why-001
+    verdict: minor
+    issues: ["Key clearly the longest in EN and FR; foils weak"]
+    change: none
+    checked: [knowledge]
+  - id: burgundy-regional-floor-001
+    verdict: minor
+    issues: ["Foils are invented names (Premier Cru Bourgogne Rouge)"]
+    change: none
+    checked: [knowledge]
+
+verified_ok_on_source:
+  - { id: burgundy-chard-share-001, note: "57% Chardonnay confirmed", checked: [bivb-key-figures-2024] }
+  - { id: burgundy-pinot-share-001, note: "34% Pinot Noir confirmed (more than a third, just)", checked: [bivb-key-figures-2024] }
+  - { id: burgundy-gc-share-001, note: "1% confirmed", checked: [bivb-key-figures-2024] }
+  - { id: burgundy-gc-count-001, note: "33 grands crus, 44 villages, 7 régionales = 84 AOC", checked: [bivb] }
+
+summary:
+  total: 144
+  c14: { wrong: 0, fix: 3, minor: 9, ok: 17 }
+  c15: { wrong: 2, fix: 9, minor: 15, ok: 89 }
+  all: { wrong: 2, fix: 12, minor: 24, ok: 106 }
+  edited_cards: 27
+  validate: "uv run wset3-anki validate -> 3517 card(s) OK; EN/FR correct index identical on all 144 cards"
+  riskiest_patterns:
+    - "Burgundy statistics written from memory (village share, premier cru share, climat count) drift from current BIVB figures"
+    - "Superlative geography stems ('northernmost') where a foil is literally true"
+    - "Foil sets sharing one cue ('Only…', 'legally fixed…', '…alone') so the key is the odd one out"
+    - "Joke or other-category foils (foreign label terms, red grapes for a white AOC, other regions)"
+    - "EN keys carrying an extra clause that FR lacks, making EN the longest choice or negating a foil"
+    - "Why text left over from an earlier set of choices"
+  not_verified:
+    - "Premier cru share (10%) rests on BIVB 2015–2019 brochure figures surfaced by search; the Sept 2024 sheet only gives villages + premiers crus combined (46%)"
+    - "The correct choice sits at index 1 on all 115 Burgundy cards; harmless only because the templates shuffle"

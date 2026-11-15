@@ -437,9 +437,9 @@ cards:
     en:
       question: "How can shipping wine in bulk and bottling it near the destination reduce cost?"
       choices:
-        - { text: "It removes all taxes because bulk wine is not an alcoholic product", correct: false }
+        - { text: "It avoids the excise duty that is charged on wine shipped in bottle", correct: false }
         - { text: "It transports less packaging weight and can use large, efficient bottling lines", correct: true }
-        - { text: "It guarantees a higher grape price in the country of origin", correct: false }
+        - { text: "It raises the grape price paid to growers in the country of origin", correct: false }
         - { text: "It removes the need for labels, closures and cartons in the destination market", correct: false }
       explanation: |
         A flexitank or tanker carries wine without shipping thousands of individual glass bottles.
@@ -448,9 +448,9 @@ cards:
     fr:
       question: "Comment l’expédition du vin en vrac et sa mise en bouteille près du marché de destination peuvent-elles réduire les coûts ?"
       choices:
-        - { text: "Elles suppriment toutes les taxes, car le vin en vrac n’est pas un produit alcoolisé", correct: false }
+        - { text: "Elles évitent les droits d’accise qui frappent le vin expédié en bouteille", correct: false }
         - { text: "Elles transportent moins de conditionnement et permettent d’utiliser de grandes lignes efficaces", correct: true }
-        - { text: "Elles garantissent un prix du raisin supérieur dans le pays d’origine", correct: false }
+        - { text: "Elles augmentent le prix du raisin payé aux viticulteurs du pays d’origine", correct: false }
         - { text: "Elles suppriment le besoin d’étiquettes, de bouchages et de cartons sur le marché de destination", correct: false }
       explanation: |
         Une citerne souple ou rigide transporte le vin sans acheminer des milliers de bouteilles en
@@ -469,8 +469,8 @@ cards:
     en:
       question: "What can prevent a producer from shipping wine in bulk for bottling in the destination market?"
       choices:
-        - { text: "Bulk transport always makes small premium lots more profitable", correct: false }
-        - { text: "Destination bottling is required for every European appellation", correct: false }
+        - { text: "Wine shipped in bulk may no longer state a vintage on its label", correct: false }
+        - { text: "Excise duty is charged twice on wine that is bottled abroad", correct: false }
         - { text: "The volume may be too small, or origin rules may require local bottling", correct: true }
         - { text: "Wine cannot legally cross a border before it has finished bottle ageing", correct: false }
       explanation: |
@@ -480,8 +480,8 @@ cards:
     fr:
       question: "Qu’est-ce qui peut empêcher un producteur d’expédier son vin en vrac pour le mettre en bouteille sur le marché de destination ?"
       choices:
-        - { text: "Le transport en vrac améliore toujours la rentabilité des petits lots haut de gamme", correct: false }
-        - { text: "Toutes les appellations européennes exigent une mise en bouteille à destination", correct: false }
+        - { text: "Un vin expédié en vrac ne peut plus indiquer de millésime sur l’étiquette", correct: false }
+        - { text: "Les droits d’accise sont perçus deux fois sur un vin embouteillé à l’étranger", correct: false }
         - { text: "Le volume peut être insuffisant ou les règles d’origine imposer une mise en bouteille locale", correct: true }
         - { text: "Un vin ne peut pas franchir une frontière avant d’avoir achevé son élevage en bouteille", correct: false }
       explanation: |
@@ -602,7 +602,7 @@ cards:
         - { text: "Restaurants pay no wholesale price and create the entire bottle price themselves", correct: false }
         - { text: "Retailers must sell wine at cost, while restaurants may charge any tax rate", correct: false }
         - { text: "The restaurant margin helps fund service, glassware, premises and slower stock turnover", correct: true }
-        - { text: "Wine acquires a different legal appellation when it is served with food", correct: false }
+        - { text: "Restaurants pay a higher rate of excise duty per bottle than shops do", correct: false }
       explanation: |
         A restaurant sells an experience and service as well as the liquid. Staff, glassware,
         storage, breakage, premises and bottles that may remain on the list for a long time are
@@ -613,7 +613,7 @@ cards:
         - { text: "Le restaurant ne paie aucun prix de gros et crée lui-même tout le prix de la bouteille", correct: false }
         - { text: "Le caviste doit vendre au prix coûtant, tandis que le restaurant choisit le taux de taxe", correct: false }
         - { text: "La marge finance le service, les verres, les locaux et une rotation plus lente", correct: true }
-        - { text: "Le vin acquiert une autre appellation légale lorsqu’il est servi avec un repas", correct: false }
+        - { text: "Le restaurant acquitte des droits d’accise par bouteille plus élevés que le caviste", correct: false }
       explanation: |
         Le restaurant vend une expérience et un service en plus du liquide. Le personnel, les
         verres, le stockage, la casse, les locaux et les bouteilles qui peuvent rester longtemps sur
@@ -728,7 +728,7 @@ cards:
     en:
       question: "Why have some steep Mosel vineyards historically fallen out of production?"
       choices:
-        - { text: "Their flat terrain made mechanised farming too inexpensive", correct: false }
+        - { text: "Their slate soils could no longer ripen Riesling reliably", correct: false }
         - { text: "Their grapes were legally excluded from all German wine categories", correct: false }
         - { text: "The price obtainable for the wine did not cover intensive manual farming", correct: true }
         - { text: "Their high yields made the resulting wine impossible to sell", correct: false }
@@ -739,7 +739,7 @@ cards:
     fr:
       question: "Pourquoi certaines vignes escarpées de Moselle ont-elles historiquement cessé d’être exploitées ?"
       choices:
-        - { text: "Leur terrain plat rendait la mécanisation trop peu coûteuse", correct: false }
+        - { text: "Leurs sols d’ardoise ne permettaient plus au Riesling de mûrir régulièrement", correct: false }
         - { text: "Leurs raisins étaient exclus de toutes les catégories de vin allemand", correct: false }
         - { text: "Le prix obtenu pour le vin ne couvrait pas une viticulture manuelle intensive", correct: true }
         - { text: "Leurs rendements élevés rendaient le vin produit impossible à vendre", correct: false }
@@ -927,8 +927,8 @@ cards:
       choices:
         - { text: "Regions dominated by a few vertically integrated estates with very large holdings", correct: false }
         - { text: "European regions with many small, fragmented vineyard holdings", correct: true }
-        - { text: "Markets where growers are prohibited from pooling grapes or equipment", correct: false }
-        - { text: "Regions without enough vineyard area to support a shared winery", correct: false }
+        - { text: "Regions where most growers sell grapes on long contracts to large merchants", correct: false }
+        - { text: "Regions where most estates vinify, bottle and sell their own crop", correct: false }
       explanation: |
         Co-operatives became important in many European regions where individual holdings were too
         small to justify a separate winery and sales operation. They also exist elsewhere; the
@@ -938,8 +938,8 @@ cards:
       choices:
         - { text: "Les régions dominées par quelques domaines intégrés possédant de très grandes surfaces", correct: false }
         - { text: "Les régions européennes comptant de nombreuses petites exploitations morcelées", correct: true }
-        - { text: "Les marchés où la mutualisation des raisins et du matériel est interdite", correct: false }
-        - { text: "Les régions sans assez de vignes pour alimenter une cave commune", correct: false }
+        - { text: "Les régions où la plupart des viticulteurs vendent sous contrat à de grands négociants", correct: false }
+        - { text: "Les régions où la plupart des domaines vinifient et vendent leur propre récolte", correct: false }
       explanation: |
         Les coopératives sont devenues importantes dans de nombreuses régions européennes où les
         exploitations individuelles étaient trop petites pour justifier chacune une cave et une

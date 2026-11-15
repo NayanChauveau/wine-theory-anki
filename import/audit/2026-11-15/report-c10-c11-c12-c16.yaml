@@ -1,0 +1,192 @@
+# Final audit — c10 (44), c11 (46), c12 (8), c16 (31) = 129 cards. Only non-ok cards listed.
+# Web: one search + two INAO fetch attempts (403 / refused) for the Beaujolais primeur rules; nothing
+# usable retrieved, so every verdict rests on knowledge. No new source slug added.
+cards:
+  # ---- c12 ----
+  - id: france-nested-aoc-001
+    verdict: fix
+    issues: ["Key restated the stem", "Three joke foils with cue words (every/always/automatically)"]
+    change: "Applied the pilot fix: Gevrey-Chambertin parcel -> Bourgogne (index 0 kept), foils Côte de Beaune-Villages / Mâcon / Beaujolais-Villages; EN+FR Why rewritten (nested areas, Côte de Nuits)"
+    checked: [knowledge]
+  - id: france-nested-choice-001
+    verdict: fix
+    issues: ["Key the longest and only sensible choice", "Foils flagged by always / only / automatically"]
+    change: "Shortened key; three credible foils (lower yield in broader AOC, outside grapes allowed, becomes IGP); Why extended to refute them; EN+FR"
+    checked: [knowledge]
+  - id: france-vin-de-france-001
+    verdict: minor
+    issues: ["Foils use 'every IGP' and 'must omit both'"]
+    change: none
+    checked: [knowledge]
+  # ---- c10 ----
+  - id: price-in-market-limits-001
+    verdict: fix
+    issues: ["Foils 1 and 2 did not answer the stem (not obstacles) and carried always/every"]
+    change: "Foils replaced: bulk wine loses vintage statement; excise charged twice when bottled abroad (EN+FR)"
+    checked: [knowledge]
+  - id: price-mosel-abandon-001
+    verdict: fix
+    issues: ["Foil 'flat terrain' contradicted the stem's 'steep'"]
+    change: "Foil replaced: slate soils could no longer ripen Riesling (EN+FR)"
+    checked: [knowledge]
+  - id: price-bottle-in-market-001
+    verdict: fix
+    issues: ["Joke foil 'bulk wine is not an alcoholic product'", "Cue word 'guarantees'"]
+    change: "Foil 1 -> avoids excise charged on bottled wine; foil 3 reworded without 'guarantees' (EN+FR)"
+    checked: [knowledge]
+  - id: price-coop-europe-001
+    verdict: minor
+    issues: ["Self-defeating foils 3 and 4 (pilot finding)"]
+    change: "Foils 3-4 replaced: growers on contract to merchants; estates vinifying their own crop (EN+FR)"
+    checked: [knowledge]
+  - id: price-restaurant-001
+    verdict: minor
+    issues: ["Joke foil: wine changes appellation when served with food"]
+    change: "Foil 4 -> restaurants pay a higher excise rate per bottle (EN+FR)"
+    checked: [knowledge]
+  - id: price-grape-market-001
+    verdict: minor
+    issues: ["Foil flagged by 'always'; foil 4 off-topic"]
+    change: none
+    checked: [knowledge]
+  - id: price-tax-why-001
+    verdict: minor
+    issues: ["Foil 4 (replace appellation law) off-frame; foil 3 is the opposite of taxing"]
+    change: none
+    checked: [knowledge]
+  - id: price-retail-margin-001
+    verdict: minor
+    issues: ["Foil 3 (voluntary payment replacing excise) is a joke foil"]
+    change: none
+    checked: [knowledge]
+  - id: price-stock-tied-001
+    verdict: minor
+    issues: ["Foils 1 and 4 implausible (automatically; repurchased from distributor)"]
+    change: none
+    checked: [knowledge]
+  - id: price-labour-cheap-001
+    verdict: minor
+    issues: ["Foil 3 (heavier bottle) is outside the labour frame"]
+    change: none
+    checked: [knowledge]
+  - id: price-brands-merchants-001
+    verdict: minor
+    issues: ["All three foils are self-defeating for 'large, consistent brands'"]
+    change: none
+    checked: [knowledge]
+  - id: price-negociant-name-001
+    verdict: minor
+    issues: ["Same four options as price-domaine-word-001; each Why defines the other card's key", "FR stem is near-trivial for a French speaker"]
+    change: none
+    checked: [knowledge]
+  - id: price-domaine-word-001
+    verdict: minor
+    issues: ["Mirror of price-negociant-name-001 (mutual giveaway)"]
+    change: none
+    checked: [knowledge]
+  # ---- c11 ----
+  - id: law-france-ac-001
+    verdict: fix
+    issues: ["Two joke foils (annual tasting award; AOP only for spirits) left one real alternative"]
+    change: "Foils 3-4 replaced by real misconceptions: AOC ranks above AOP; AOC abolished in 2009 (EN+FR)"
+    checked: [knowledge]
+  - id: law-drink-drive-why-001
+    verdict: minor
+    issues: ["Key far longer than the foils"]
+    change: "Key shortened in EN and FR"
+    checked: [knowledge]
+  - id: law-pgi-why-001
+    verdict: minor
+    issues: ["Key the longest, especially in FR; foils use automatically/any/all"]
+    change: "Key shortened in EN and FR"
+    checked: [knowledge]
+  - id: law-wto-gi-001
+    verdict: minor
+    issues: ["FR foil 'Les seules règles…' did not match EN 'EU wine-market rules'"]
+    change: "FR foil -> 'Les règles du marché vitivinicole de l’Union européenne'"
+    checked: [knowledge]
+  - id: law-safety-aim-001
+    verdict: minor
+    issues: ["Stem says 'public-health'; foils (same retail price, reserve place names) are off-frame"]
+    change: none
+    checked: [knowledge]
+  - id: law-so2-toxic-001
+    verdict: minor
+    issues: ["Foils flagged by any/always/every"]
+    change: none
+    checked: [knowledge]
+  - id: law-yeast-so2-001
+    verdict: minor
+    issues: ["Implausible foils (alcohol turns into SO2; depends only on colour)"]
+    change: none
+    checked: [knowledge]
+  - id: law-france-aop-001
+    verdict: minor
+    issues: ["Duplicate of france-aop-001 (c12)", "Awkward foils: 'Vin de France without a GI', 'AOC exclusively'"]
+    change: none
+    checked: [knowledge]
+  - id: law-gi-85-001
+    verdict: minor
+    issues: ["Key is the only hedged statement; foil 4 ('remaining 85%') is nonsensical"]
+    change: none
+    checked: [knowledge]
+  - id: law-gi-size-001
+    verdict: minor
+    issues: ["Two foils flagged by 'must always'"]
+    change: none
+    checked: [knowledge]
+  - id: law-non-eu-rare-terms-001
+    verdict: minor
+    issues: ["Foils PDO / AOP / Ward drop on jurisdiction alone"]
+    change: none
+    checked: [knowledge]
+  # ---- c16 ----
+  - id: beaujolais-nouveau-plain-001
+    verdict: fix
+    issues: ["All three foils ended in 'exclusively'; the key was the only one without it"]
+    change: "Cue word removed; foils now three northern sectors (cru areas, Chiroubles/Fleurie slopes, Saint-Amour border) (EN+FR)"
+    checked: [knowledge]
+  - id: beaujolais-crushed-fruit-001
+    verdict: minor
+    issues: ["Joke foil: no maceration versus one year"]
+    change: "Foil 4 -> about 4–6 days for both (EN+FR)"
+    checked: [knowledge]
+  - id: beaujolais-gobelet-001
+    verdict: minor
+    issues: ["FR foil called Geneva Double Curtain a 'lyre ouverte' (a different system)"]
+    change: "FR foil -> 'Le double rideau de type Geneva Double Curtain'"
+    checked: [knowledge]
+  - id: beaujolais-nouveau-deadline-001
+    verdict: minor
+    issues: ["Foil '31 December five years after' not credible", "31 August rule not re-verified online (INAO unreachable); matches the syllabus statement"]
+    change: "Foil 4 -> 31 March in the year after the harvest (EN+FR)"
+    checked: [knowledge]
+  - id: beaujolais-oak-vessel-001
+    verdict: minor
+    issues: ["Foil 'biological ageing under flor' is off-frame"]
+    change: none
+    checked: [knowledge]
+  - id: beaujolais-nouveau-aroma-001
+    verdict: minor
+    issues: ["Key is the longest choice"]
+    change: none
+    checked: [knowledge]
+  - id: beaujolais-ageing-crus-001
+    verdict: minor
+    issues: ["Same key as beaujolais-structure-crus-001; foil pairs a cru with Beaujolais Villages (not a cru)"]
+    change: none
+    checked: [knowledge]
+summary:
+  total: 129
+  wrong: 0
+  fix: 7
+  minor: 27
+  ok: 95
+  edited_cards: 16
+  validate: "uv run wset3-anki validate -> 3517 card(s) OK; EN/FR correct index identical on all 129 cards"
+  riskiest_patterns:
+    - "c10/c11 are generic chapters: the key is often the only sensible sentence, with foils that are self-defeating or flagged by always/every/automatically/only (about 20 cards left as minor)"
+    - "Duplicate facts across files: AOC/AOP/IGP cards in c11 repeat c12; négociant/domaine cards share options and define each other's key"
+    - "Keys longer than foils, more marked in FR than EN"
+    - "No factual error found in the law cards (PDO 100% / PGI 85%, AVA 85%, sulphite 10 mg/L, TRIPS, Australia-EU agreement, UK unit); Beaujolais figures (38 communes, 10 crus, cru ranking by area) consistent with knowledge"
+    - "Beaujolais Nouveau 31 August deadline could not be confirmed on INAO (site blocked); worth one manual check"

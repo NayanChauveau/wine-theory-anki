@@ -49,7 +49,7 @@ cards:
         - { text: "It is similarly maritime-influenced but more continental because it lies farther inland", correct: true }
         - { text: "It is much cooler and more oceanic because it lies closer to the Atlantic", correct: false }
         - { text: "It is Mediterranean, with almost no rain during the growing season", correct: false }
-        - { text: "It is alpine, with a much shorter growing season and frequent summer frost", correct: false }
+        - { text: "It is drier and sunnier, because the Landes forest blocks Atlantic rain", correct: false }
       explanation: |
         The Dordogne still receives Atlantic influence, but distance from the ocean increases seasonal
         temperature variation. Summers can be warmer and winters colder than in Bordeaux, while autumn
@@ -60,7 +60,7 @@ cards:
         - { text: "Il reste influencé par l’océan mais devient plus continental en raison de son éloignement", correct: true }
         - { text: "Il est beaucoup plus frais et océanique parce qu’il est plus proche de l’Atlantique", correct: false }
         - { text: "Il est méditerranéen, avec presque aucune pluie pendant la saison de croissance", correct: false }
-        - { text: "Il est alpin, avec une saison de croissance beaucoup plus courte et de fréquents gels estivaux", correct: false }
+        - { text: "Il est plus sec et plus ensoleillé, car la forêt des Landes arrête les pluies atlantiques", correct: false }
       explanation: |
         La Dordogne reçoit encore l’influence atlantique, mais l’éloignement de l’océan accentue les
         variations saisonnières. Les étés peuvent être plus chauds et les hivers plus froids qu’à Bordeaux,
@@ -197,23 +197,23 @@ cards:
       question: "Which group consists entirely of major South West French wine names outside the Dordogne district?"
       choices:
         - { text: "Cahors, Côtes de Gascogne, Madiran and Jurançon", correct: true }
-        - { text: "Chinon, Sancerre, Vouvray and Muscadet", correct: false }
-        - { text: "Bandol, Cassis, Palette and Bellet", correct: false }
-        - { text: "Morgon, Fleurie, Brouilly and Juliénas", correct: false }
+        - { text: "Cahors, Monbazillac, Madiran and Jurançon", correct: false }
+        - { text: "Cahors, Côtes de Gascogne, Pécharmant and Jurançon", correct: false }
+        - { text: "Bergerac, Côtes de Gascogne, Madiran and Jurançon", correct: false }
       explanation: |
         Cahors lies on the Lot, Côtes de Gascogne covers a broad Gascon IGP area, and Madiran and Jurançon
-        lie toward the Pyrenees. They illustrate the geographical and stylistic diversity of the South West.
+        lie toward the Pyrenees. Bergerac, Monbazillac and Pécharmant all belong to the Dordogne district.
     fr:
       question: "Quel groupe réunit uniquement de grands noms viticoles du Sud-Ouest situés hors du vignoble de la Dordogne ?"
       choices:
         - { text: "Cahors, Côtes de Gascogne, Madiran et Jurançon", correct: true }
-        - { text: "Chinon, Sancerre, Vouvray et Muscadet", correct: false }
-        - { text: "Bandol, Cassis, Palette et Bellet", correct: false }
-        - { text: "Morgon, Fleurie, Brouilly et Juliénas", correct: false }
+        - { text: "Cahors, Monbazillac, Madiran et Jurançon", correct: false }
+        - { text: "Cahors, Côtes de Gascogne, Pécharmant et Jurançon", correct: false }
+        - { text: "Bergerac, Côtes de Gascogne, Madiran et Jurançon", correct: false }
       explanation: |
         Cahors se trouve sur le Lot, Côtes de Gascogne couvre une vaste zone d’IGP gasconne, et Madiran
-        comme Jurançon se situent vers les Pyrénées. Ces noms illustrent la diversité géographique et
-        stylistique du Sud-Ouest.
+        comme Jurançon se situent vers les Pyrénées. Bergerac, Monbazillac et Pécharmant appartiennent
+        tous au vignoble de la Dordogne.
   - id: gascogne-is-igp-001
     type: mcq
     deck: France::South West
@@ -232,7 +232,7 @@ cards:
         - { text: "Saint-Mont", correct: false }
       explanation: |
         Côtes de Gascogne is a protected geographical indication with broad rules and a large production
-        area. Cahors, Madiran and Jurançon are protected designations of origin.
+        area. Côtes de Bergerac, Pacherenc du Vic-Bilh and Saint-Mont are all AOCs.
     fr:
       question: "Quel nom du Sud-Ouest est une IGP plutôt qu’une AOC ?"
       choices:
@@ -242,7 +242,7 @@ cards:
         - { text: "Saint-Mont", correct: false }
       explanation: |
         Côtes de Gascogne est une indication géographique protégée dotée de règles larges et d’une vaste
-        aire de production. Cahors, Madiran et Jurançon sont des appellations d’origine protégées.
+        aire de production. Côtes de Bergerac, Pacherenc du Vic-Bilh et Saint-Mont sont des AOC.
   - id: cahors-lot-001
     type: mcq
     deck: France::South West
@@ -290,8 +290,8 @@ cards:
         - { text: "Grey wine", correct: false }
       explanation: |
         Cahors was historically known in English trade as black wine because of its unusually deep colour
-        and firm structure. Claret referred to lighter Bordeaux red, hock to German Rhine wine and sack to
-        fortified Iberian wine.
+        and firm structure. Vin jaune and vin de paille are Jura styles, and vin gris is a very pale
+        rosé.
     fr:
       question: "Quel surnom historique reflète la couleur profonde du vin de Cahors ?"
       choices:
@@ -301,8 +301,8 @@ cards:
         - { text: "Vin gris", correct: false }
       explanation: |
         Dans le commerce anglais, Cahors était historiquement connu comme le « vin noir » en raison de sa
-        couleur exceptionnellement profonde et de sa structure ferme. Claret désignait le Bordeaux rouge
-        plus pâle, hock un vin allemand du Rhin et sack un vin fortifié ibérique.
+        couleur exceptionnellement profonde et de sa structure ferme. Le vin jaune et le vin de paille
+        sont des styles du Jura, et le vin gris est un rosé très pâle.
   - id: cahors-black-wine-style-001
     type: mcq
     deck: France::South West
@@ -613,20 +613,20 @@ cards:
     en:
       question: "Why did traditional Madiran often require extended bottle ageing?"
       choices:
-        - { text: "Time was needed to soften Tannat’s abundant, firm tannins", correct: true }
-        - { text: "Time was needed to develop bubbles through a second fermentation", correct: false }
-        - { text: "Time was needed for Botrytis cinerea to grow after bottling", correct: false }
-        - { text: "Time was needed to convert a dry wine into a fortified wine", correct: false }
+        - { text: "Tannat’s abundant, firm tannins needed years to soften", correct: true }
+        - { text: "Tannat’s naturally pale colour needed years to deepen", correct: false }
+        - { text: "Tannat’s low acidity needed years to gain freshness", correct: false }
+        - { text: "Appellation rules imposed five years in bottle before sale", correct: false }
       explanation: |
         Traditional extraction produced highly tannic wines whose structure could seem severe when young.
         Bottle age gradually integrated the tannins and developed savoury complexity.
     fr:
       question: "Pourquoi le Madiran traditionnel exigeait-il souvent une longue garde en bouteille ?"
       choices:
-        - { text: "Il fallait du temps pour assouplir les tanins abondants et fermes du Tannat", correct: true }
-        - { text: "Il fallait du temps pour développer les bulles par une seconde fermentation", correct: false }
-        - { text: "Il fallait du temps pour que Botrytis cinerea se développe après la mise en bouteille", correct: false }
-        - { text: "Il fallait du temps pour transformer un vin sec en vin fortifié", correct: false }
+        - { text: "Les tanins abondants et fermes du Tannat demandaient des années pour s’assouplir", correct: true }
+        - { text: "La couleur naturellement pâle du Tannat demandait des années pour s’intensifier", correct: false }
+        - { text: "La faible acidité du Tannat demandait des années pour gagner en fraîcheur", correct: false }
+        - { text: "Le cahier des charges imposait cinq ans de bouteille avant la vente", correct: false }
       explanation: |
         L’extraction traditionnelle produisait des vins très tanniques dont la structure pouvait sembler
         sévère dans leur jeunesse. La garde en bouteille intégrait progressivement les tanins et développait
@@ -645,7 +645,7 @@ cards:
       choices:
         - { text: "Riper grapes, gentler extraction and careful oxygen management", correct: true }
         - { text: "Earlier picking, stronger extraction and complete avoidance of oxygen", correct: false }
-        - { text: "Replacing Tannat entirely with a low-tannin white grape", correct: false }
+        - { text: "Longer macerations followed by ageing in new oak only", correct: false }
         - { text: "Stopping fermentation early to leave substantial residual sugar", correct: false }
       explanation: |
         Riper fruit gives less green tannin, while gentler extraction and techniques such as
@@ -656,7 +656,7 @@ cards:
       choices:
         - { text: "Des raisins plus mûrs, une extraction plus douce et une gestion attentive de l’oxygène", correct: true }
         - { text: "Une vendange plus précoce, une extraction plus forte et l’exclusion totale de l’oxygène", correct: false }
-        - { text: "Le remplacement complet du Tannat par un cépage blanc peu tannique", correct: false }
+        - { text: "Des macérations plus longues suivies d’un élevage exclusivement en bois neuf", correct: false }
         - { text: "L’arrêt précoce de la fermentation afin de conserver beaucoup de sucre résiduel", correct: false }
       explanation: |
         Un fruit plus mûr donne des tanins moins végétaux, tandis qu’une extraction douce et des techniques
@@ -736,9 +736,9 @@ cards:
       question: "Which Jurançon style has historically carried the appellation’s strongest reputation?"
       choices:
         - { text: "Concentrated sweet white wine with balancing acidity", correct: true }
-        - { text: "Light neutral dry wine intended only for distillation", correct: false }
-        - { text: "Tannic red wine based on Tannat", correct: false }
-        - { text: "Sparkling rosé made by the ancestral method", correct: false }
+        - { text: "Crisp dry white labelled Jurançon Sec", correct: false }
+        - { text: "Traditional-method sparkling white wine", correct: false }
+        - { text: "Lightly fortified sweet white wine", correct: false }
       explanation: |
         Jurançon Sec can be distinctive and age-worthy, but the appellation is historically most famous for
         concentrated sweet wines whose high acidity prevents them from seeming heavy.
@@ -746,9 +746,9 @@ cards:
       question: "Quel style de Jurançon porte historiquement la réputation la plus forte de l’appellation ?"
       choices:
         - { text: "Un blanc doux concentré équilibré par une forte acidité", correct: true }
-        - { text: "Un blanc sec léger et neutre destiné uniquement à la distillation", correct: false }
-        - { text: "Un rouge tannique à base de Tannat", correct: false }
-        - { text: "Un rosé effervescent élaboré par méthode ancestrale", correct: false }
+        - { text: "Un blanc sec et vif étiqueté Jurançon Sec", correct: false }
+        - { text: "Un blanc effervescent de méthode traditionnelle", correct: false }
+        - { text: "Un blanc doux légèrement muté", correct: false }
       explanation: |
         Jurançon Sec peut être distinctif et apte à la garde, mais l’appellation est historiquement surtout
         célèbre pour ses vins doux concentrés, dont la forte acidité évite toute lourdeur.
@@ -765,9 +765,9 @@ cards:
       question: "How do Petit Manseng and Gros Manseng typically divide their roles in Jurançon?"
       choices:
         - { text: "Petit Manseng is central to concentrated sweet wines; Gros Manseng is important in dry wines", correct: true }
-        - { text: "Petit Manseng is used only for red wine; Gros Manseng only for rosé", correct: false }
-        - { text: "Petit Manseng is neutral and low in acidity; Gros Manseng is highly tannic", correct: false }
-        - { text: "Petit Manseng is used only for distillation; Gros Manseng only for sparkling wine", correct: false }
+        - { text: "Gros Manseng is central to concentrated sweet wines; Petit Manseng is important in dry wines", correct: false }
+        - { text: "Both are picked early for dry wines; the sweet wines rely on Petit Courbu", correct: false }
+        - { text: "They are interchangeable: one variety picked at two levels of ripeness", correct: false }
       explanation: |
         Petit Manseng has small, thick-skinned berries that retain acidity as sugar concentrates, making it
         particularly valuable for sweet wine. Gros Manseng gives larger yields and is an important component
@@ -776,9 +776,9 @@ cards:
       question: "Comment le Petit Manseng et le Gros Manseng se répartissent-ils généralement les rôles en Jurançon ?"
       choices:
         - { text: "Le Petit Manseng est central dans les doux concentrés ; le Gros Manseng est important dans les secs", correct: true }
-        - { text: "Le Petit Manseng sert uniquement aux rouges ; le Gros Manseng uniquement aux rosés", correct: false }
-        - { text: "Le Petit Manseng est neutre et peu acide ; le Gros Manseng est très tannique", correct: false }
-        - { text: "Le Petit Manseng sert uniquement à la distillation ; le Gros Manseng aux effervescents", correct: false }
+        - { text: "Le Gros Manseng est central dans les doux concentrés ; le Petit Manseng est important dans les secs", correct: false }
+        - { text: "Les deux sont vendangés tôt pour les secs ; les doux reposent sur le Petit Courbu", correct: false }
+        - { text: "Ils sont interchangeables : un même cépage récolté à deux niveaux de maturité", correct: false }
       explanation: |
         Le Petit Manseng possède de petites baies à pellicule épaisse qui conservent leur acidité pendant
         que le sucre se concentre, ce qui le rend particulièrement précieux pour les vins doux. Plus

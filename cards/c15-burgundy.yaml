@@ -172,26 +172,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Besides frost, which summer shock regularly shreds Côte d’Or crops?
+      question: Besides spring frost, which weather hazard most regularly cuts crops on the Côte d’Or in summer?
       choices:
         - { text: "A long drought", correct: false }
         - { text: "Hail", correct: true }
         - { text: "Sunburn on exposed bunches", correct: false }
-        - { text: "Persistent rain without ice", correct: false }
+        - { text: "Persistent summer rain", correct: false }
       explanation: |
         Storms track along the Côte. **2012–2014** battered Volnay and
-        Meursault; nets and anti-hail cannon are now part of the landscape.
+        Meursault three years running; cloud-seeding generators and hail
+        nets are now part of the landscape.
     fr:
-      question: Outre le gel, quel choc d’été déchire régulièrement les récoltes de Côte d’Or ?
+      question: Outre le gel de printemps, quel aléa climatique ampute le plus régulièrement les récoltes de la Côte d’Or en été ?
       choices:
         - { text: "Une longue sécheresse", correct: false }
         - { text: "La grêle", correct: true }
         - { text: "L’échaudage des grappes exposées", correct: false }
-        - { text: "Une pluie persistante, sans glace", correct: false }
+        - { text: "Des pluies estivales persistantes", correct: false }
       explanation: |
-        Les orages suivent la Côte. **2012–2014** ont tapé Volnay et
-        Meursault ; filets et canons anti-grêle font désormais partie
-        du paysage.
+        Les orages longent la Côte. De **2012 à 2014**, Volnay et
+        Meursault ont été frappés trois années de suite ; générateurs à
+        iodure d’argent et filets paragrêle font désormais partie du paysage.
 
   - id: burgundy-village-sites-001
     type: mcq
@@ -243,7 +244,7 @@ cards:
         - { text: "The lower plain and slope foot", correct: false }
       explanation: |
         Best drainage and sun sit in that band. **Clos de Vougeot** still
-        runs down into the village — “often”, not a legal altitude line.
+        runs down to the main road — “often”, not a legal altitude line.
     fr:
       question: Sur un coteau de Côte d’Or, quelle bande porte la plupart des climats classés ?
       choices:
@@ -253,7 +254,7 @@ cards:
         - { text: "La plaine basse et le pied du coteau", correct: false }
       explanation: |
         Meilleur drainage et meilleur soleil dans cette bande. Le **Clos
-        de Vougeot** descend encore jusqu’au village — « souvent », pas
+        de Vougeot** descend pourtant jusqu’à la route — « souvent », pas
         une ligne d’altitude légale.
 
   - id: burgundy-midslope-frost-001
@@ -423,12 +424,12 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Why can two neighbouring Gevrey walls taste different even with the same grape and grower?
+      question: Why can two neighbouring Gevrey plots taste different even with the same grape and grower?
       choices:
-        - { text: "Each wall must use a different Pinot clone", correct: false }
+        - { text: "Each plot must use a different Pinot clone", correct: false }
         - { text: "Changes in soil", correct: true }
-        - { text: "Each wall has a different legal harvest date", correct: false }
-        - { text: "Neighbouring walls always receive opposite exposures", correct: false }
+        - { text: "Each plot has a different legal harvest date", correct: false }
+        - { text: "Neighbouring plots always receive opposite exposures", correct: false }
       explanation: |
         **Soil** is the story on the label. Clone, vintage and grower move
         the wine as much — do not treat a clay/limestone line as destiny.
@@ -545,7 +546,7 @@ cards:
     source_id: c15-0017
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: [known-fact, bivb-key-figures-2024]
     en:
       question: Is Pinot Noir the majority of Burgundy’s hectares?
       choices:
@@ -743,24 +744,26 @@ cards:
     en:
       question: How much new oak does Côte d’Or Pinot typically see?
       choices:
-        - { text: "A legally fixed 100% for every cru", correct: false }
-        - { text: "Some new oak, the share set by the domaine — not a fixed recipe", correct: true }
-        - { text: "A legally fixed maximum of 10%", correct: false }
-        - { text: "No new oak for village wine, by AOC rule", correct: false }
+        - { text: "Almost none: most reds are aged in tank", correct: false }
+        - { text: "A share of new barrels, larger for the top wines", correct: true }
+        - { text: "All new barrels at every level, village wines included", correct: false }
+        - { text: "None: old large casks, as in the southern Rhône", correct: false }
       explanation: |
-        Barrels, yes; **100% new** is a house choice (or a 1990s habit),
-        not the regional default. Village wines often see little or none.
+        Barrel ageing is standard and the share of new oak tends to rise
+        with rank: little or none for many village wines, more for grands
+        crus. **100% new** is a house choice, not a rule.
     fr:
       question: Quelle proportion de bois neuf reçoit généralement un Pinot Noir de la Côte d’Or ?
       choices:
-        - { text: "Une proportion légale de 100 % pour chaque cru", correct: false }
-        - { text: "Une part variable, décidée par le domaine", correct: true }
-        - { text: "Un maximum légal fixé à 10 %", correct: false }
-        - { text: "Aucun bois neuf pour un village, selon l’AOC", correct: false }
+        - { text: "Presque aucune : la plupart des rouges sont élevés en cuve", correct: false }
+        - { text: "Une part de fûts neufs, plus élevée pour les meilleurs vins", correct: true }
+        - { text: "Des fûts neufs à 100 % à tous les niveaux, villages compris", correct: false }
+        - { text: "Aucune : de vieux foudres, comme dans le Rhône méridional", correct: false }
       explanation: |
-        L’élevage en fût est courant, mais **100 % de bois neuf** relève du
-        style d’un domaine, pas d’une norme régionale. Les vins de village
-        en reçoivent souvent peu, voire pas du tout.
+        L’élevage en fût est la norme et la part de bois neuf augmente en
+        général avec le rang : peu ou pas pour beaucoup de villages, davantage
+        pour les grands crus. **100 % de bois neuf** relève du style d’un
+        domaine, pas d’une règle.
 
   - id: burgundy-chard-share-001
     type: mcq
@@ -770,7 +773,7 @@ cards:
     source_id: c15-0023
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: [known-fact, bivb-key-figures-2024]
     en:
       question: Which grape occupies more than half of Burgundy’s vineyard?
       choices:
@@ -807,7 +810,7 @@ cards:
       question: How does Chardonnay change from Chablis through the Côte d’Or to the Mâconnais?
       choices:
         - { text: "Riper in Chablis, leaner through the Côte and Mâconnais", correct: false }
-        - { text: "Steely and high-acid in the north, more complex in the Côte d’Or, riper and fuller in Mâcon", correct: true }
+        - { text: "Lean in Chablis, more complex in the Côte d’Or, riper and fuller in Mâcon", correct: true }
         - { text: "High-acid throughout, with no meaningful north–south change", correct: false }
         - { text: "Lightest in the Côte d’Or and fullest in Chablis", correct: false }
       explanation: |
@@ -991,22 +994,22 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: What is the agreed single cause of premature oxidation in 1990s–2000s white Burgundy?
+      question: What is known about the cause of premature oxidation in 1990s–2000s white Burgundy?
       choices:
-        - { text: "Corks alone", correct: false }
-        - { text: "There is no agreed single cause", correct: true }
-        - { text: "Low sulphur dioxide alone", correct: false }
-        - { text: "Bâtonnage alone", correct: false }
+        - { text: "It was traced to one faulty batch of corks, since withdrawn", correct: false }
+        - { text: "Several factors are suspected; none is proven on its own", correct: true }
+        - { text: "It was caused by the switch to screwcaps in those vintages", correct: false }
+        - { text: "It affected only wines that skipped malolactic conversion", correct: false }
       explanation: |
         Corks, low **SO2**, ripe years, bâtonnage, toast — theories, not
         a closed verdict. Do not pick one scapegoat as fact.
     fr:
-      question: Quelle cause unique de l’oxydation prématurée des Bourgognes blancs des années 1990–2000 fait consensus ?
+      question: Que sait-on de la cause de l’oxydation prématurée des Bourgognes blancs des années 1990–2000 ?
       choices:
-        - { text: "Les bouchons seuls", correct: false }
-        - { text: "Aucune cause unique ne fait consensus", correct: true }
-        - { text: "Les faibles doses de dioxyde de soufre seules", correct: false }
-        - { text: "Le bâtonnage seul", correct: false }
+        - { text: "Elle venait d’un lot unique de bouchons défectueux, retiré depuis", correct: false }
+        - { text: "Plusieurs facteurs sont suspectés, aucun n’est établi à lui seul", correct: true }
+        - { text: "Elle a été provoquée par le passage à la capsule à vis", correct: false }
+        - { text: "Elle n’a touché que les vins sans fermentation malolactique", correct: false }
       explanation: |
         Bouchons, faible **SO₂**, millésimes mûrs, bâtonnage ou chauffe des
         fûts ont tous été avancés. Aucun de ces facteurs ne constitue à lui
@@ -1178,26 +1181,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which river valley holds Burgundy’s northernmost vines?
+      question: Which river runs through the Chablis vineyards?
       choices:
-        - { text: "The Yonne valley", correct: false }
+        - { text: "The Yonne", correct: false }
         - { text: "The Serein", correct: true }
-        - { text: "The Saône valley", correct: false }
-        - { text: "The Dheune valley", correct: false }
+        - { text: "The Saône", correct: false }
+        - { text: "The Dheune", correct: false }
       explanation: |
-        An isolated **Yonne** island, closer to Champagne than to Beaune.
-        The river is the **Serein**.
+        Chablis lies in the **Yonne** département, closer to Champagne
+        than to Beaune, but its slopes line the small river **Serein**.
+        The Yonne itself flows further west, through Auxerre and Joigny.
     fr:
-      question: Dans la vallée de quelle rivière se trouvent les vignes les plus septentrionales de Bourgogne ?
+      question: Quelle rivière traverse le vignoble de Chablis ?
       choices:
         - { text: "L’Yonne", correct: false }
         - { text: "Le Serein", correct: true }
         - { text: "La Saône", correct: false }
         - { text: "La Dheune", correct: false }
       explanation: |
-        Chablis forme un îlot viticole dans l’**Yonne**, plus proche de la
-        Champagne que de Beaune. La rivière qui traverse le vignoble est
-        le **Serein**.
+        Chablis se trouve dans le département de l’**Yonne**, plus près de
+        la Champagne que de Beaune, mais ses coteaux bordent le **Serein**.
+        L’Yonne elle-même coule plus à l’ouest, par Auxerre et Joigny.
 
   - id: burgundy-chablis-aspect-001
     type: mcq
@@ -1337,7 +1341,7 @@ cards:
       question: Which grape variety is permitted in Chablis AOC?
       choices:
         - { text: "Sauvignon Blanc", correct: false }
-        - { text: "Chardonnay only", correct: true }
+        - { text: "Chardonnay", correct: true }
         - { text: "Aligoté", correct: false }
         - { text: "Pinot Blanc", correct: false }
       explanation: |
@@ -1347,7 +1351,7 @@ cards:
       question: Quel cépage est autorisé dans l’AOC Chablis ?
       choices:
         - { text: "Sauvignon Blanc", correct: false }
-        - { text: "Chardonnay uniquement", correct: true }
+        - { text: "Chardonnay", correct: true }
         - { text: "Aligoté", correct: false }
         - { text: "Pinot Blanc", correct: false }
       explanation: |
@@ -1524,7 +1528,7 @@ cards:
       question: If a Chablis cru sees used barrels, what should you taste besides fruit?
       choices:
         - { text: "A strong vanilla and coconut flavour", correct: false }
-        - { text: "A rounder texture and a quiet savoury note, not coconut toast", correct: true }
+        - { text: "A rounder texture and a discreet savoury note", correct: true }
         - { text: "Lower acidity and noticeable sweetness", correct: false }
         - { text: "A lighter texture and greener fruit", correct: false }
       explanation: |
@@ -1780,9 +1784,8 @@ cards:
         - { text: "Bâtard-Montrachet, between Puligny and Chassagne", correct: false }
       explanation: |
         **Corton-Charlemagne** and the **Montrachet** family are Beaune.
-        Tiny **Musigny Blanc** is in Chambolle. **Chablis** has its own
-        seven GCs — they are not Côte d’Or, so they do not break this
-        count.
+        Tiny **Musigny Blanc** is in Chambolle. **Chablis Grand Cru**,
+        with its seven climats, lies outside the Côte d’Or.
     fr:
       question: Quel grand cru blanc de la Côte d’Or ne se trouve pas en Côte de Beaune ?
       choices:
@@ -1966,8 +1969,8 @@ cards:
       choices:
         - { text: "The hill of Montrachet", correct: false }
         - { text: "The hill of Corton", correct: true }
-        - { text: "The hill of Mont de Milieu", correct: false }
-        - { text: "The hill of Vergisson", correct: false }
+        - { text: "The Montagne de Beaune", correct: false }
+        - { text: "The Mont de Sène, above Santenay", correct: false }
       explanation: |
         **Corton** is the red GC; **Corton-Charlemagne** (and Charlemagne)
         the white. Aloxe-Corton is the village name on many labels.
@@ -1976,8 +1979,8 @@ cards:
       choices:
         - { text: "La colline de Montrachet", correct: false }
         - { text: "La colline de Corton", correct: true }
-        - { text: "La colline de Mont de Milieu", correct: false }
-        - { text: "La roche de Vergisson", correct: false }
+        - { text: "La Montagne de Beaune", correct: false }
+        - { text: "Le Mont de Sène, au-dessus de Santenay", correct: false }
       explanation: |
         **Corton** est le grand cru rouge ; **Corton-Charlemagne** et
         Charlemagne sont blancs. Aloxe-Corton est le nom de village que
@@ -2492,20 +2495,20 @@ cards:
     en:
       question: Pouilly-Fuissé, Saint-Véran and most Mâcon blanc are which grape?
       choices:
-        - { text: "Pinot Noir", correct: false }
+        - { text: "Aligoté", correct: false }
         - { text: "Chardonnay", correct: true }
-        - { text: "Riesling", correct: false }
-        - { text: "Cabernet Franc", correct: false }
+        - { text: "Sauvignon Blanc", correct: false }
+        - { text: "Pinot Blanc", correct: false }
       explanation: |
         **Chardonnay** country — this is a big reason Burgundy’s white
         hectare count beats Pinot.
     fr:
       question: De quel cépage proviennent Pouilly-Fuissé, Saint-Véran et la plupart des Mâcon blancs ?
       choices:
-        - { text: "Pinot Noir", correct: false }
+        - { text: "Aligoté", correct: false }
         - { text: "Chardonnay", correct: true }
-        - { text: "Riesling", correct: false }
-        - { text: "Cabernet Franc", correct: false }
+        - { text: "Sauvignon Blanc", correct: false }
+        - { text: "Pinot Blanc", correct: false }
       explanation: |
         Le Mâconnais est un pays de **Chardonnay**. Il contribue largement
         à expliquer pourquoi ce cépage occupe plus d’hectares en Bourgogne
@@ -2768,7 +2771,7 @@ cards:
       choices:
         - { text: "Green apple and lemon, with a light body", correct: false }
         - { text: "Ripe stone and tropical fruit", correct: true }
-        - { text: "Red cherry and cranberry", correct: false }
+        - { text: "Grapey, floral aromas and low acidity", correct: false }
         - { text: "Neutral fruit with very high acidity", correct: false }
       explanation: |
         Warmer south Burgundy: **peach, apricot, sometimes pineapple**.
@@ -2779,7 +2782,7 @@ cards:
       choices:
         - { text: "Pomme verte et citron, avec un corps léger", correct: false }
         - { text: "Fruits à noyau mûrs et fruits tropicaux", correct: true }
-        - { text: "Cerise rouge et canneberge", correct: false }
+        - { text: "Arômes floraux et muscatés, acidité faible", correct: false }
         - { text: "Fruit neutre et acidité très élevée", correct: false }
       explanation: |
         Dans ce sud bourguignon plus chaud dominent **pêche, abricot et
@@ -2954,10 +2957,10 @@ cards:
     en:
       question: Which origin can legitimately supply a generic Bourgogne Rouge?
       choices:
-        - { text: "Only parcels that can never claim a village AOC", correct: false }
+        - { text: "Regional parcels alone; declassified village lots are excluded", correct: false }
         - { text: "Regional parcels or lots declassified from a higher AOC", correct: true }
-        - { text: "Only premier cru parcels that miss their yield limit", correct: false }
-        - { text: "Only parcels reserved exclusively for Bourgogne Rouge", correct: false }
+        - { text: "Premier cru lots over their yield limit, and nothing else", correct: false }
+        - { text: "Village parcels alone; regional land goes into Coteaux Bourguignons", correct: false }
       explanation: |
         The fruit may come from a regional parcel or be declassified.
         **DRC** and others bottle some village-eligible lots as Bourgogne
@@ -2965,10 +2968,10 @@ cards:
     fr:
       question: Quelle origine peut légitimement fournir un Bourgogne Rouge générique ?
       choices:
-        - { text: "Uniquement des parcelles qui ne peuvent jamais prétendre à une AOC village", correct: false }
+        - { text: "Les seules parcelles régionales ; les lots de village déclassés sont exclus", correct: false }
         - { text: "Des parcelles régionales ou des lots déclassés d’une AOC supérieure", correct: true }
-        - { text: "Uniquement des premiers crus dépassant leur rendement maximal", correct: false }
-        - { text: "Uniquement des parcelles réservées exclusivement au Bourgogne Rouge", correct: false }
+        - { text: "Les premiers crus dépassant leur rendement maximal, et rien d’autre", correct: false }
+        - { text: "Les seules parcelles de village ; les terres régionales donnent du Coteaux Bourguignons", correct: false }
       explanation: |
         Les raisins peuvent provenir d’une parcelle régionale ou d’un
         **déclassement**. La DRC et d’autres domaines vendent certains lots
@@ -3136,29 +3139,29 @@ cards:
     source_id: c15-0097
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: [known-fact, bivb-key-figures-2024]
     en:
-      question: Is village Burgundy a sliver like grand cru, or a much bigger slice?
+      question: Roughly what share of Burgundy’s production is village wine, premiers crus included?
       choices:
-        - { text: "A small slice of around 5%", correct: false }
-        - { text: "A much bigger slice — about 40% including premier cru", correct: true }
-        - { text: "The majority, at around 60%", correct: false }
-        - { text: "About the same share as grand cru", correct: false }
+        - { text: "About 5%", correct: false }
+        - { text: "Nearly half", correct: true }
+        - { text: "About two-thirds", correct: false }
+        - { text: "About a quarter", correct: false }
       explanation: |
-        Recent production averages put village wines at about **40%** when
-        premier cru is included. Regional appellations remain the majority;
-        grands crus are roughly 1%.
+        The BIVB’s 2019–2023 average puts village and premier cru wines
+        together at about **46%**. Regional appellations hold a slim
+        majority (53%); grands crus are roughly 1%.
     fr:
-      question: Les vins de village représentent-ils une part infime comme les grands crus, ou une part bien plus importante de la Bourgogne ?
+      question: Quelle part approximative de la production bourguignonne les vins de village représentent-ils, premiers crus compris ?
       choices:
-        - { text: "Une petite part d’environ 5 %", correct: false }
-        - { text: "Une part bien plus importante, environ 40 % premiers crus compris", correct: true }
-        - { text: "La majorité, soit environ 60 %", correct: false }
-        - { text: "À peu près la même part que les grands crus", correct: false }
+        - { text: "Environ 5 %", correct: false }
+        - { text: "Près de la moitié", correct: true }
+        - { text: "Environ les deux tiers", correct: false }
+        - { text: "Environ un quart", correct: false }
       explanation: |
-        Les moyennes récentes placent les villages autour de **40 %** en
-        incluant les premiers crus. Les régionales restent majoritaires ;
-        les grands crus représentent environ 1 %.
+        La moyenne 2019–2023 du BIVB place villages et premiers crus réunis
+        autour de **46 %**. Les régionales restent de peu majoritaires
+        (53 %) ; les grands crus représentent environ 1 %.
 
   - id: burgundy-lieu-dit-001
     type: mcq
@@ -3202,19 +3205,19 @@ cards:
     en:
       question: Gevrey-Chambertin without a cru name is what rank of AOC, in everyday talk?
       choices:
-        - { text: "AVA", correct: false }
+        - { text: "Regional", correct: false }
         - { text: "Village", correct: true }
-        - { text: "Einzellage", correct: false }
-        - { text: "DOCG", correct: false }
+        - { text: "Premier cru", correct: false }
+        - { text: "Lieu-dit", correct: false }
       explanation: |
         **Village** = commune AOC. Same rank, friendlier word.
     fr:
       question: Dans le langage courant, à quel rang d’AOC appartient Gevrey-Chambertin sans nom de cru ?
       choices:
-        - { text: "AVA", correct: false }
+        - { text: "Régionale", correct: false }
         - { text: "Village", correct: true }
-        - { text: "Einzellage", correct: false }
-        - { text: "DOCG", correct: false }
+        - { text: "Premier cru", correct: false }
+        - { text: "Lieu-dit", correct: false }
       explanation: |
         **Village** est le terme courant pour une AOC communale : deux mots
         pour désigner le même niveau de la hiérarchie.
@@ -3350,27 +3353,29 @@ cards:
     source_id: c15-0104
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: [known-fact, bivb]
     en:
       question: Roughly how many Burgundy climats are classified Premier Cru?
       choices:
         - { text: "About 60", correct: false }
-        - { text: "About 640", correct: true }
+        - { text: "About 660", correct: true }
         - { text: "About 330", correct: false }
         - { text: "About 1,200", correct: false }
       explanation: |
-        The current headline figure is about **640 Premier Cru climats**.
-        The exact count can move when the INAO approves new classifications.
+        The BIVB now counts **662 Premier Cru climats**; older lists say
+        about 640, before Pouilly-Fuissé gained its 22 in 2020. The count
+        moves whenever the INAO approves new classifications.
     fr:
       question: Environ combien de climats bourguignons sont classés Premier Cru ?
       choices:
         - { text: "Environ 60", correct: false }
-        - { text: "Environ 640", correct: true }
+        - { text: "Environ 660", correct: true }
         - { text: "Environ 330", correct: false }
         - { text: "Environ 1 200", correct: false }
       explanation: |
-        Le chiffre de référence actuel est d’environ **640 climats Premier
-        Cru**. Il peut évoluer lorsque l’INAO approuve de nouveaux classements.
+        Le BIVB recense désormais **662 climats Premier Cru** ; les listes
+        plus anciennes en comptent environ 640, avant les 22 de Pouilly-Fuissé
+        en 2020. Le chiffre évolue à chaque nouveau classement de l’INAO.
 
   - id: burgundy-premier-share-001
     type: mcq
@@ -3380,26 +3385,26 @@ cards:
     source_id: c15-0105
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: [known-fact, bivb]
     en:
       question: About what share of Burgundy’s crop is premier cru?
       choices:
         - { text: "About 1%", correct: false }
-        - { text: "About 12%", correct: true }
+        - { text: "About 10%", correct: true }
         - { text: "About 30%", correct: false }
         - { text: "About 50%", correct: false }
       explanation: |
-        Recent production averages put Premier Cru at about **12%**.
+        BIVB figures put Premier Cru at about **10%** of production.
         Village wine is a bigger slice; Grand Cru is roughly 1%.
     fr:
       question: Environ quelle part de la production bourguignonne relève des premiers crus ?
       choices:
         - { text: "Environ 1 %", correct: false }
-        - { text: "Environ 12 %", correct: true }
+        - { text: "Environ 10 %", correct: true }
         - { text: "Environ 30 %", correct: false }
         - { text: "Environ 50 %", correct: false }
       explanation: |
-        Les moyennes récentes placent les premiers crus autour de **12 %**.
+        Les chiffres du BIVB placent les premiers crus autour de **10 %**.
         Les vins de village représentent davantage ; les grands crus, environ 1 %.
 
   - id: burgundy-premier-name-001
@@ -3473,7 +3478,7 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Is there a Burgundy rank above premier cru?
+      question: Which Burgundy rank sits above premier cru?
       choices:
         - { text: "Premier cru supérieur", correct: false }
         - { text: "Grand cru", correct: true }
@@ -3500,7 +3505,7 @@ cards:
     source_id: c15-0109
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: [known-fact, bivb-key-figures-2024]
     en:
       question: Roughly what share of Burgundy’s production is grand cru?
       choices:
@@ -3530,7 +3535,7 @@ cards:
     source_id: c15-0110
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: [known-fact, bivb]
     en:
       question: What does Burgundy’s headline figure of 33 Grand Cru AOCs include?
       choices:

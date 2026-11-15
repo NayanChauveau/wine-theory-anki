@@ -1,0 +1,58 @@
+# Final audit — cards/c09-red-and-rose-winemaking.yaml (104 cards)
+# Facts checked from knowledge; import/inbox source notes consulted for intent on 9 cards. No web lookup needed.
+cards:
+  - id: red-pinot-mornington-001
+    verdict: fix
+    issues:
+      - "Stem 'almost surrounded by sea' pointed straight at the only choice named 'Peninsula'"
+      - "Without that cue the Yarra Valley foil would be a second correct answer"
+    change: "Stem -> 'Besides the Yarra Valley, which Victorian region...'; Yarra foil replaced by Goulburn Valley; Why gains one sentence refuting the three foils (Shiraz / Marsanne). EN+FR, key index unchanged"
+    checked: [knowledge, import/inbox c09-0127]
+  - id: red-punchdown-vs-pumpover-001
+    verdict: minor
+    issues: ["Why had a non sequitur: 'that intensity is why thin-skinned grapes are often plunged'"]
+    change: "Why reworded (EN+FR): contrast with pump-over wetting the cap from above; plunges watched closely late in fermentation"
+    checked: [knowledge, import/inbox c09-0018]
+  - id: red-pumpover-benefit-001
+    verdict: minor
+    issues: ["EN Why said yeast 'cell walls'; oxygen is needed for membranes (FR already said membranes)"]
+    change: "EN Why: 'cell walls' -> 'cell membranes'"
+    checked: [knowledge]
+  - id: red-bulk-varieties-001
+    verdict: minor
+    issues: ["Nebbiolo appeared in two of the three foils"]
+    change: "Foil 4: Nebbiolo -> Pinot Noir (EN+FR)"
+    checked: [knowledge]
+  - id: red-blending-purpose-001
+    verdict: minor
+    issues: ["Three foils (skip fining, trigger MLF, prevent tartrates) are easy to discard without knowing the fact"]
+    change: "none"
+    checked: [knowledge, import/inbox c09-0059]
+  - id: red-pinot-whole-bunch-aroma-001
+    verdict: minor
+    issues: ["Key is the only choice that echoes 'carbonic' from the stem"]
+    change: "none"
+    checked: [knowledge]
+  - id: red-cap-management-levers-001
+    verdict: minor
+    issues: ["Foils (vat material, lid type, valve position) are thin; key is the only one about how the technique is applied"]
+    change: "none"
+    checked: [knowledge]
+  - id: red-pinot-semi-carbonic-skins-001
+    verdict: minor
+    issues: ["Why says a post-fermentation maceration 'may follow', in mild tension with red-pinot-post-ferment-001 (little or no extra time); both defensible"]
+    change: "none"
+    checked: [knowledge, import/inbox c09-0136]
+  - id: red-merlot-traditional-home-001
+    verdict: minor
+    issues: ["FR 'berceau' (cradle) is a little stronger than EN 'main home'"]
+    change: "none"
+    checked: [knowledge]
+summary:
+  counts: { wrong: 0, fix: 1, minor: 8, ok: 95 }
+  edited_cards: 4
+  validate: "uv run wset3-anki validate -> 3517 card(s) OK; EN/FR correct index identical on all 104 cards"
+  riskiest_patterns:
+    - "Geographic hint in the stem matching a word in the key (Peninsula)"
+    - "A few 'purpose' questions with foils from unrelated cellar operations (blending, cap levers)"
+    - "Otherwise the file is clean: temperature bands, carbonic figures, regions and producer anecdotes all check out; FR is faithful and idiomatic"
