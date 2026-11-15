@@ -78,14 +78,15 @@ cards:
         smaller IGPs associated with more limited areas of the wider Loire.
 
     fr:
-      question: "Quelle IGP couvre une grande partie de la vallée de la Loire ?"
+      question: "Quelle IGP régionale couvre une grande partie de la vallée de la Loire ?"
       choices:
-        - { text: "Pays d’Oc", correct: false }
+        - { text: "Côtes de la Charité", correct: false }
         - { text: "Val de Loire", correct: true }
-        - { text: "Côtes de Gascogne", correct: false }
-        - { text: "Méditerranée", correct: false }
+        - { text: "Coteaux de Tannay", correct: false }
+        - { text: "Urfé", correct: false }
       explanation: |
-        L’IGP Val de Loire offre un cadre régional plus souple que les nombreuses AOC locales de la vallée.
+        **Val de Loire** est la grande IGP régionale. Les autres choix sont des
+        IGP plus petites, liées à des secteurs limités du bassin de la Loire.
   - id: loire-igp-style-001
     type: mcq
     deck: France::Loire
@@ -98,19 +99,19 @@ cards:
     en:
       question: "Why might a producer use the Val de Loire IGP rather than a local AOC?"
       choices:
-        - { text: "To make fortified wine under compulsory flor", correct: false }
+        - { text: "To show a more precise origin on the label", correct: false }
         - { text: "To gain more flexibility over grapes and style", correct: true }
-        - { text: "To claim grand cru status across the valley", correct: false }
-        - { text: "To avoid naming the vintage on any bottle", correct: false }
+        - { text: "To be allowed to state the vintage on the label", correct: false }
+        - { text: "To work under stricter limits on yields", correct: false }
       explanation: |
         IGP rules can offer more freedom over varieties and production choices. The wines are commonly accessible, fresh and fruit-led.
     fr:
       question: "Pourquoi un producteur peut-il choisir l’IGP Val de Loire plutôt qu’une AOC locale ?"
       choices:
-        - { text: "Pour élaborer obligatoirement un vin fortifié sous voile", correct: false }
-        - { text: "Pour disposer de davantage de liberté sur les cépages et le style", correct: true }
-        - { text: "Pour revendiquer un grand cru dans toute la vallée", correct: false }
-        - { text: "Pour interdire toute mention du millésime", correct: false }
+        - { text: "Pour afficher une origine plus précise sur l’étiquette", correct: false }
+        - { text: "Pour disposer de plus de liberté sur les cépages et le style", correct: true }
+        - { text: "Pour avoir le droit de mentionner le millésime", correct: false }
+        - { text: "Pour se soumettre à des rendements plus stricts", correct: false }
       explanation: |
         Les règles de l’IGP peuvent laisser davantage de liberté sur les cépages et les choix de production. Les vins sont souvent accessibles, frais et fruités.
   - id: loire-climate-001
@@ -152,19 +153,19 @@ cards:
     en:
       question: "What helps make much of Anjou relatively warm and dry within the Loire?"
       choices:
-        - { text: "Exposure to unbroken Atlantic winds", correct: false }
+        - { text: "Shelter from the Massif Central", correct: false }
         - { text: "Shelter from the Mauges hills", correct: true }
-        - { text: "High altitude above the tree line", correct: false }
-        - { text: "A strong Mediterranean sea influence", correct: false }
+        - { text: "Shelter from the forests of the Sologne", correct: false }
+        - { text: "Warmth reflected by the tuffeau cliffs", correct: false }
       explanation: |
         The Mauges reduce the effect of humid westerly winds, creating a rain-shadow effect over much of the vineyard.
     fr:
       question: "Qu’est-ce qui contribue au climat relativement chaud et sec d’une grande partie de l’Anjou ?"
       choices:
-        - { text: "Une exposition directe aux vents atlantiques", correct: false }
-        - { text: "La protection offerte par les reliefs des Mauges", correct: true }
-        - { text: "Une altitude supérieure à la limite des arbres", correct: false }
-        - { text: "Une forte influence de la mer Méditerranée", correct: false }
+        - { text: "L’abri du Massif central", correct: false }
+        - { text: "L’abri des reliefs des Mauges", correct: true }
+        - { text: "L’abri des forêts de Sologne", correct: false }
+        - { text: "La chaleur renvoyée par les falaises de tuffeau", correct: false }
       explanation: |
         Les Mauges atténuent les vents humides d’ouest et créent un effet d’abri sur une grande partie du vignoble.
   - id: loire-touraine-climate-001
@@ -204,21 +205,21 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: "Why can adjacent Loire vintages differ markedly in style and quality?"
+      question: "Which weather hazards mainly explain why adjacent Loire vintages can differ so much?"
       choices:
-        - { text: "Annual variation in frost, rain and summer warmth", correct: true }
-        - { text: "A compulsory change of grape variety each year", correct: false }
-        - { text: "A fixed five-year rotation of appellation rules", correct: false }
-        - { text: "Identical weather but different bottle shapes", correct: false }
+        - { text: "Spring frost, rain and variable summer warmth", correct: true }
+        - { text: "Summer drought, heat spikes and sunburn", correct: false }
+        - { text: "Severe winter freeze and short, hot summers", correct: false }
+        - { text: "Sea fog, salt-laden winds and autumn storms", correct: false }
       explanation: |
         In a cool, northerly region, frost, rain, hail and the warmth of the growing season strongly affect ripeness, yields and disease pressure.
     fr:
-      question: "Pourquoi deux millésimes ligériens successifs peuvent-ils être très différents en style et en qualité ?"
+      question: "Quels aléas climatiques expliquent surtout les écarts entre deux millésimes ligériens successifs ?"
       choices:
-        - { text: "À cause des variations annuelles de gel, de pluie et de chaleur estivale", correct: true }
-        - { text: "Parce que le cépage doit changer chaque année", correct: false }
-        - { text: "À cause d’une rotation quinquennale des règles d’appellation", correct: false }
-        - { text: "Parce que le temps est identique mais les bouteilles diffèrent", correct: false }
+        - { text: "Gel de printemps, pluie et chaleur estivale variable", correct: true }
+        - { text: "Sécheresse estivale, pics de chaleur et échaudage", correct: false }
+        - { text: "Grands froids d’hiver et étés courts et très chauds", correct: false }
+        - { text: "Brouillards marins, vents salés et tempêtes d’automne", correct: false }
       explanation: |
         Dans cette région fraîche et septentrionale, le gel, la pluie, la grêle et la chaleur du cycle végétatif influencent fortement la maturité, les rendements et la pression des maladies.
   - id: loire-fungal-001
@@ -234,18 +235,18 @@ cards:
       question: "Which vineyard risk increases most directly during wet Loire growing seasons?"
       choices:
         - { text: "Fungal disease", correct: true }
-        - { text: "Sunburn", correct: false }
-        - { text: "Drought stress", correct: false }
-        - { text: "Smoke taint", correct: false }
+        - { text: "Spring frost", correct: false }
+        - { text: "Hail", correct: false }
+        - { text: "Winter freeze", correct: false }
       explanation: |
         Mildew and bunch rot become more difficult to control when rain and humidity persist, especially around flowering and ripening.
     fr:
       question: "Quel risque viticole augmente le plus directement lors des saisons humides en Loire ?"
       choices:
         - { text: "Les maladies cryptogamiques", correct: true }
-        - { text: "Les brûlures du soleil", correct: false }
-        - { text: "Le stress hydrique", correct: false }
-        - { text: "Les goûts de fumée", correct: false }
+        - { text: "Le gel de printemps", correct: false }
+        - { text: "La grêle", correct: false }
+        - { text: "Le gel d’hiver", correct: false }
       explanation: |
         Le mildiou et les pourritures deviennent plus difficiles à maîtriser lorsque pluie et humidité persistent, notamment autour de la floraison et de la maturation.
   - id: loire-best-sites-001
@@ -261,18 +262,18 @@ cards:
       question: "Which site is generally most favourable for ripening grapes in the cool Loire climate?"
       choices:
         - { text: "A south-facing, well-drained mid-slope", correct: true }
-        - { text: "A shaded north-facing valley floor", correct: false }
-        - { text: "A flat site prone to cold-air pooling", correct: false }
-        - { text: "A fertile, waterlogged riverbank", correct: false }
+        - { text: "A sheltered valley floor beside the river", correct: false }
+        - { text: "A high, wind-exposed plateau", correct: false }
+        - { text: "A north-facing slope on deep, fertile soil", correct: false }
       explanation: |
         Sunny slopes intercept more light and drain cold air and water better than valley floors, reducing frost risk and improving ripening.
     fr:
       question: "Quel site favorise généralement le mieux la maturation des raisins dans le climat frais de la Loire ?"
       choices:
         - { text: "Un coteau bien drainé exposé au sud", correct: true }
-        - { text: "Un fond de vallée ombragé exposé au nord", correct: false }
-        - { text: "Une parcelle plane où s’accumule l’air froid", correct: false }
-        - { text: "Une rive fertile et gorgée d’eau", correct: false }
+        - { text: "Un fond de vallée abrité au bord du fleuve", correct: false }
+        - { text: "Un plateau élevé exposé au vent", correct: false }
+        - { text: "Un coteau exposé au nord sur sol profond et fertile", correct: false }
       explanation: |
         Les coteaux ensoleillés reçoivent davantage de lumière et évacuent mieux l’eau et l’air froid que les fonds de vallée, ce qui réduit le risque de gel et favorise la maturation.
   - id: loire-main-grapes-001
@@ -288,18 +289,18 @@ cards:
       question: "Which group contains four key Loire grape varieties?"
       choices:
         - { text: "Sauvignon Blanc, Chenin Blanc, Melon and Cabernet Franc", correct: true }
-        - { text: "Chardonnay, Viognier, Syrah and Grenache", correct: false }
-        - { text: "Riesling, Gewurztraminer, Pinot Gris and Muscat", correct: false }
-        - { text: "Semillon, Marsanne, Mourvèdre and Carignan", correct: false }
+        - { text: "Sauvignon Blanc, Sémillon, Melon and Cabernet Franc", correct: false }
+        - { text: "Chardonnay, Chenin Blanc, Melon and Pinot Meunier", correct: false }
+        - { text: "Sauvignon Blanc, Chenin Blanc, Aligoté and Merlot", correct: false }
       explanation: |
         These four anchor the main regional styles: Centre-Loire Sauvignon, Touraine and Anjou Chenin and Cabernet Franc, and Nantais Melon.
     fr:
       question: "Quel groupe réunit quatre cépages essentiels de la Loire ?"
       choices:
         - { text: "Sauvignon Blanc, Chenin Blanc, Melon et Cabernet Franc", correct: true }
-        - { text: "Chardonnay, Viognier, Syrah et Grenache", correct: false }
-        - { text: "Riesling, Gewurztraminer, Pinot Gris et Muscat", correct: false }
-        - { text: "Sémillon, Marsanne, Mourvèdre et Carignan", correct: false }
+        - { text: "Sauvignon Blanc, Sémillon, Melon et Cabernet Franc", correct: false }
+        - { text: "Chardonnay, Chenin Blanc, Melon et Pinot Meunier", correct: false }
+        - { text: "Sauvignon Blanc, Chenin Blanc, Aligoté et Merlot", correct: false }
       explanation: |
         Ces quatre cépages structurent les grands styles régionaux : Sauvignon du Centre-Loire, Chenin et Cabernet Franc de Touraine et d’Anjou, et Melon du Pays nantais.
   - id: loire-sb-where-001
@@ -350,7 +351,7 @@ cards:
         Menetou-Salon, Quincy and Reuilly.
 
     fr:
-      question: "Quelle région ligérienne forme une petite zone orientale particulièrement renommée ?"
+      question: "Quelle région ligérienne forme la petite zone orientale réputée autour de Sancerre ?"
       choices:
         - { text: "La Touraine", correct: false }
         - { text: "Les Vignobles du Centre", correct: true }
@@ -370,10 +371,10 @@ cards:
     en:
       question: Which pair of Central Vineyard AOCs face each other across the Loire?
       choices:
-        - { text: "Vouvray and Savennières", correct: false }
+        - { text: "Quincy and Reuilly", correct: false }
         - { text: "Sancerre and Pouilly-Fumé", correct: true }
-        - { text: "Muscadet Sèvre-et-Maine and Coteaux du Layon", correct: false }
-        - { text: "Chinon and Bourgueil", correct: false }
+        - { text: "Menetou-Salon and Sancerre", correct: false }
+        - { text: "Pouilly-Fumé and Menetou-Salon", correct: false }
       explanation: |
         **Sancerre** lies mainly on the left bank and **Pouilly-Fumé** on
         the right. Menetou-Salon, Quincy and Reuilly also belong to the Centre-Loire.
@@ -381,10 +382,10 @@ cards:
     fr:
       question: "Quelles deux AOC des Vignobles du Centre se font face de part et d’autre de la Loire ?"
       choices:
-        - { text: "Vouvray et Savennières", correct: false }
+        - { text: "Quincy et Reuilly", correct: false }
         - { text: "Sancerre et Pouilly-Fumé", correct: true }
-        - { text: "Muscadet Sèvre-et-Maine et Coteaux du Layon", correct: false }
-        - { text: "Chinon et Bourgueil", correct: false }
+        - { text: "Menetou-Salon et Sancerre", correct: false }
+        - { text: "Pouilly-Fumé et Menetou-Salon", correct: false }
       explanation: |
         Sancerre se trouve principalement sur la rive gauche et Pouilly-Fumé sur la rive droite. Menetou-Salon, Quincy et Reuilly appartiennent aussi au Centre-Loire.
   - id: loire-sancerre-soil-001
@@ -400,18 +401,18 @@ cards:
       question: "Which soil combination is characteristic of Sancerre and Pouilly-Fumé?"
       choices:
         - { text: "Limestone-rich soils, marl and flint", correct: true }
-        - { text: "Deep fertile alluvium throughout", correct: false }
-        - { text: "Granite and schist throughout", correct: false }
-        - { text: "Volcanic basalt and slate", correct: false }
+        - { text: "Deep, fertile alluvium and gravel", correct: false }
+        - { text: "Granite, gneiss and schist", correct: false }
+        - { text: "Tuffeau, sand and river gravel", correct: false }
       explanation: |
         The classic local categories include caillottes (stony limestone), terres blanches (Kimmeridgian marl) and silex (flint-rich soils).
     fr:
       question: "Quelle association de sols caractérise Sancerre et Pouilly-Fumé ?"
       choices:
         - { text: "Sols calcaires, marnes et silex", correct: true }
-        - { text: "Alluvions profondes et fertiles partout", correct: false }
-        - { text: "Granite et schiste partout", correct: false }
-        - { text: "Basalte volcanique et ardoise", correct: false }
+        - { text: "Alluvions profondes, fertiles et graveleuses", correct: false }
+        - { text: "Granite, gneiss et schiste", correct: false }
+        - { text: "Tuffeau, sables et graviers", correct: false }
       explanation: |
         Les catégories classiques comprennent les caillottes calcaires, les terres blanches marneuses du Kimméridgien et les sols riches en silex.
   - id: loire-central-style-001
@@ -481,18 +482,18 @@ cards:
       question: "What is the usual drinking window for most Sancerre and Pouilly-Fumé?"
       choices:
         - { text: "Young, while their fruit and acidity are vivid", correct: true }
-        - { text: "Only after at least ten years in bottle", correct: false }
-        - { text: "After compulsory oxidative ageing", correct: false }
-        - { text: "Only in the year of harvest", correct: false }
+        - { text: "After at least ten years in bottle", correct: false }
+        - { text: "After three to five years, once the oak has integrated", correct: false }
+        - { text: "Late, once honey and nut notes dominate", correct: false }
       explanation: |
         Most examples emphasise youthful freshness, although concentrated wines from top sites and producers can develop well in bottle.
     fr:
       question: "Quand boit-on généralement la plupart des Sancerre et Pouilly-Fumé ?"
       choices:
         - { text: "Jeunes, lorsque leur fruit et leur fraîcheur sont éclatants", correct: true }
-        - { text: "Seulement après au moins dix ans de bouteille", correct: false }
-        - { text: "Après un élevage oxydatif obligatoire", correct: false }
-        - { text: "Uniquement pendant l’année de récolte", correct: false }
+        - { text: "Après au moins dix ans de bouteille", correct: false }
+        - { text: "Après trois à cinq ans, une fois le bois fondu", correct: false }
+        - { text: "Tard, quand dominent les notes de miel et de noix", correct: false }
       explanation: |
         La majorité privilégie la fraîcheur de jeunesse, même si des vins concentrés issus de grands sites et de bons producteurs peuvent bien évoluer en bouteille.
   - id: loire-fresh-winemaking-001
@@ -509,7 +510,7 @@ cards:
       choices:
         - { text: "Gentle pressing and cool fermentation in inert vessels", correct: true }
         - { text: "Warm fermentation with prolonged oxidation", correct: false }
-        - { text: "Fortification before fermentation ends", correct: false }
+        - { text: "Barrel fermentation with regular lees stirring", correct: false }
         - { text: "Extended skin contact followed by heavy new oak", correct: false }
       explanation: |
         Gentle extraction, temperature control and stainless steel are common when the aim is a clean, fruit-led style.
@@ -518,7 +519,7 @@ cards:
       choices:
         - { text: "Pressurage doux et fermentation fraîche en cuve inerte", correct: true }
         - { text: "Fermentation chaude avec oxydation prolongée", correct: false }
-        - { text: "Mutage avant la fin de la fermentation", correct: false }
+        - { text: "Fermentation en fût avec bâtonnage régulier", correct: false }
         - { text: "Longue macération pelliculaire puis bois neuf très marqué", correct: false }
       explanation: |
         Une extraction douce, le contrôle des températures et l’inox sont courants lorsqu’on recherche un style net et fruité.
@@ -561,19 +562,19 @@ cards:
     en:
       question: "How is new oak used for Loire white wines?"
       choices:
-        - { text: "It is compulsory for all top AOCs", correct: false }
-        - { text: "Some producers use it", correct: true }
-        - { text: "It is prohibited in every Loire AOC", correct: false }
-        - { text: "It is reserved for Muscadet sur lie", correct: false }
+        - { text: "It is required in the leading AOCs", correct: false }
+        - { text: "Some producers use it for richer cuvées", correct: true }
+        - { text: "It is banned by the Loire's AOC rules", correct: false }
+        - { text: "It is standard for Muscadet sur lie", correct: false }
       explanation: |
         Oak use depends on appellation, producer and desired style. Many wines rely on inert vessels or older wood to preserve fruit and freshness.
     fr:
       question: "Comment le bois neuf est-il utilisé pour les vins blancs de Loire ?"
       choices:
-        - { text: "Il est obligatoire dans toutes les grandes AOC", correct: false }
-        - { text: "Certains producteurs l’utilisent", correct: true }
-        - { text: "Il est interdit dans toutes les AOC ligériennes", correct: false }
-        - { text: "Il est réservé au Muscadet sur lie", correct: false }
+        - { text: "Il est exigé dans les AOC les plus réputées", correct: false }
+        - { text: "Certains producteurs l’emploient pour des cuvées plus riches", correct: true }
+        - { text: "Il est interdit par les règles des AOC ligériennes", correct: false }
+        - { text: "Il est habituel pour le Muscadet sur lie", correct: false }
       explanation: |
         L’emploi du bois dépend de l’appellation, du producteur et du style recherché. Beaucoup de vins privilégient les cuves inertes ou le bois ancien afin de préserver le fruit et la fraîcheur.
   - id: loire-mlf-001
@@ -588,19 +589,19 @@ cards:
     en:
       question: "How is malolactic conversion handled in Loire white-wine production?"
       choices:
-        - { text: "It is compulsory for every white wine", correct: false }
-        - { text: "It is optional", correct: true }
-        - { text: "It is prohibited for all white AOCs", correct: false }
-        - { text: "It occurs only after fortification", correct: false }
+        - { text: "It is required, to soften the high acidity", correct: false }
+        - { text: "It is a producer choice: encouraged or blocked", correct: true }
+        - { text: "It is banned, to protect freshness", correct: false }
+        - { text: "It is used for sweet wines but not dry ones", correct: false }
       explanation: |
         A producer may encourage it to soften sharp malic acidity or block it to retain a fresher, more incisive profile.
     fr:
       question: "Comment la fermentation malolactique est-elle gérée pour les vins blancs de Loire ?"
       choices:
-        - { text: "Elle est obligatoire pour tous les blancs", correct: false }
-        - { text: "Elle est facultative", correct: true }
-        - { text: "Elle est interdite dans toutes les AOC blanches", correct: false }
-        - { text: "Elle ne se produit qu’après mutage", correct: false }
+        - { text: "Elle est exigée, pour assouplir la forte acidité", correct: false }
+        - { text: "C’est un choix du producteur : favorisée ou bloquée", correct: true }
+        - { text: "Elle est interdite, pour préserver la fraîcheur", correct: false }
+        - { text: "Elle sert aux vins doux mais pas aux secs", correct: false }
       explanation: |
         Le producteur peut la favoriser pour assouplir une acidité malique marquée ou la bloquer afin de conserver un profil plus vif et tranchant.
   - id: loire-menetou-001
@@ -697,18 +698,18 @@ cards:
       question: "How do Menetou-Salon whites generally compare with Sancerre?"
       choices:
         - { text: "They share a dry, high-acid Sauvignon Blanc profile", correct: true }
-        - { text: "They are mainly sweet, botrytised Chenin Blanc", correct: false }
-        - { text: "They are fuller-bodied, low-acid Chardonnay", correct: false }
-        - { text: "They are oxidative wines made under flor", correct: false }
+        - { text: "They are typically richer, with obvious new oak", correct: false }
+        - { text: "They are usually off-dry, with lower acidity", correct: false }
+        - { text: "They are lighter, neutral wines aged on lees", correct: false }
       explanation: |
         Menetou-Salon offers dry, fresh Sauvignon Blanc from calcareous marl soils, often at a lower market price than Sancerre.
     fr:
       question: "Comment les blancs de Menetou-Salon se comparent-ils généralement à ceux de Sancerre ?"
       choices:
         - { text: "Ils partagent un profil de Sauvignon Blanc sec et vif", correct: true }
-        - { text: "Ce sont surtout des Chenins doux botrytisés", correct: false }
-        - { text: "Ce sont des Chardonnays plus corsés et peu acides", correct: false }
-        - { text: "Ce sont des vins oxydatifs élevés sous voile", correct: false }
+        - { text: "Ils sont en général plus riches, avec un boisé neuf marqué", correct: false }
+        - { text: "Ils sont le plus souvent demi-secs et moins acides", correct: false }
+        - { text: "Ce sont des vins plus légers et neutres, élevés sur lies", correct: false }
       explanation: |
         Menetou-Salon donne des Sauvignons Blancs secs et frais sur des marnes calcaires, souvent vendus moins cher que Sancerre.
   - id: loire-sb-volume-001
@@ -753,7 +754,7 @@ cards:
         - { text: "Touraine", correct: true }
         - { text: "Anjou-Saumur", correct: false }
         - { text: "The Nantais", correct: false }
-        - { text: "Jura", correct: false }
+        - { text: "The Orléanais", correct: false }
       explanation: |
         Touraine follows the Central Vineyards when travelling west, with Sauvignon Blanc, Chenin Blanc, Cabernet Franc and Gamay all important.
     fr:
@@ -762,7 +763,7 @@ cards:
         - { text: "La Touraine", correct: true }
         - { text: "L’Anjou-Saumur", correct: false }
         - { text: "Le Pays nantais", correct: false }
-        - { text: "Le Jura", correct: false }
+        - { text: "L’Orléanais", correct: false }
       explanation: |
         En allant vers l’ouest, la Touraine succède aux Vignobles du Centre ; Sauvignon Blanc, Chenin Blanc, Cabernet Franc et Gamay y jouent tous un rôle important.
   - id: loire-touraine-aoc-001
@@ -786,14 +787,16 @@ cards:
         more tightly delimited appellations with distinct styles and rules.
 
     fr:
-      question: "Quel est le nom de l’AOC régionale couvrant des vins tranquilles génériques de Touraine ?"
+      question: "Quelle AOC régionale couvre des vins tranquilles rouges, blancs et rosés dans une grande partie de la Touraine ?"
       choices:
-        - { text: "Loire", correct: false }
+        - { text: "Cheverny", correct: false }
         - { text: "Touraine", correct: true }
-        - { text: "Val de Loire", correct: false }
-        - { text: "Anjou", correct: false }
+        - { text: "Chinon", correct: false }
+        - { text: "Vouvray", correct: false }
       explanation: |
-        Touraine est l’AOC régionale. Des appellations plus restreintes, comme Vouvray ou Chinon, possèdent leurs propres règles et aires délimitées.
+        **Touraine** est la grande AOC régionale. Chinon et Vouvray sont des
+        appellations plus étroitement délimitées, avec leurs propres styles et
+        règles.
   - id: loire-touraine-label-001
     type: mcq
     deck: France::Loire
@@ -836,7 +839,7 @@ cards:
         - { text: "Usually simpler, fruitier and less concentrated", correct: true }
         - { text: "Usually sweeter, fuller and more heavily oaked", correct: false }
         - { text: "Usually more tannic and deeply coloured", correct: false }
-        - { text: "Usually oxidative and matured under flor", correct: false }
+        - { text: "Usually more mineral and longer-lived", correct: false }
       explanation: |
         Touraine often provides fresh, accessible Sauvignon Blanc, while top Sancerre can show greater concentration and site definition.
     fr:
@@ -845,7 +848,7 @@ cards:
         - { text: "Il est souvent plus simple, plus fruité et moins concentré", correct: true }
         - { text: "Il est souvent plus doux, plus corsé et davantage boisé", correct: false }
         - { text: "Il est souvent plus tannique et plus coloré", correct: false }
-        - { text: "Il est souvent oxydatif et élevé sous voile", correct: false }
+        - { text: "Il est souvent plus minéral et de plus longue garde", correct: false }
       explanation: |
         La Touraine fournit souvent des Sauvignons frais et accessibles, tandis que les meilleurs Sancerre peuvent offrir davantage de concentration et d’expression du lieu.
   - id: loire-chenin-shape-001
@@ -869,12 +872,12 @@ cards:
         profile changes markedly with ripeness despite being non-aromatic.
 
     fr:
-      question: "Quelles sont deux caractéristiques structurelles majeures du Chenin Blanc ?"
+      question: "Quel profil structurel décrit le mieux le Chenin Blanc ?"
       choices:
-        - { text: "Une faible acidité et un parfum très aromatique", correct: false }
-        - { text: "Une acidité élevée et un profil peu aromatique", correct: true }
-        - { text: "Une couleur profonde et beaucoup de tanins", correct: false }
-        - { text: "Une faible acidité et un alcool toujours bas", correct: false }
+        - { text: "Une faible acidité et un parfum floral prononcé", correct: false }
+        - { text: "Une acidité élevée et un profil non aromatique", correct: true }
+        - { text: "Une acidité moyenne et des tanins fermes", correct: false }
+        - { text: "Une faible acidité et un fruit neutre", correct: false }
       explanation: |
         Son acidité élevée soutient aussi bien les vins secs que les liquoreux et les effervescents. L’intensité et le registre fruité dépendent fortement de la maturité.
   - id: loire-chenin-greatest-001
@@ -998,18 +1001,18 @@ cards:
       question: "Which range of styles can Loire Chenin Blanc produce?"
       choices:
         - { text: "Dry to sweet, still or sparkling", correct: true }
-        - { text: "Dry red wines only", correct: false }
-        - { text: "Fortified wines only", correct: false }
-        - { text: "Sweet still wines only", correct: false }
+        - { text: "Dry and off-dry still wines, but no sparkling", correct: false }
+        - { text: "Sweet and sparkling wines, but rarely dry", correct: false }
+        - { text: "Dry still and sparkling wines, but no sweet", correct: false }
       explanation: |
         Its high acidity supports a very broad range, from sparkling Saumur and dry Savennières to sweet Coteaux du Layon.
     fr:
       question: "Quelle gamme de styles le Chenin Blanc peut-il produire en Loire ?"
       choices:
         - { text: "Du sec au doux, en tranquille comme en effervescent", correct: true }
-        - { text: "Uniquement des rouges secs", correct: false }
-        - { text: "Uniquement des vins fortifiés", correct: false }
-        - { text: "Uniquement des blancs doux tranquilles", correct: false }
+        - { text: "Des tranquilles secs et demi-secs, mais pas d’effervescents", correct: false }
+        - { text: "Des doux et des effervescents, mais rarement des secs", correct: false }
+        - { text: "Des secs tranquilles et effervescents, mais pas de doux", correct: false }
       explanation: |
         Sa forte acidité convient à une gamme très large, du Saumur effervescent et du Savennières sec aux doux Coteaux du Layon.
   - id: loire-chenin-style-gate-001
@@ -1025,18 +1028,18 @@ cards:
       question: "What most directly determines whether harvested Chenin fruit suits sparkling, dry or sweet wine?"
       choices:
         - { text: "Its ripeness and condition at harvest", correct: true }
-        - { text: "The colour of the fermentation vessel", correct: false }
-        - { text: "A compulsory regional barrel size", correct: false }
-        - { text: "The bottle shape chosen after ageing", correct: false }
+        - { text: "The age of the vines", correct: false }
+        - { text: "The appellation's maximum yield", correct: false }
+        - { text: "The yeast strain chosen for fermentation", correct: false }
       explanation: |
         Less ripe, high-acid fruit can suit sparkling wine; ripe healthy fruit can make dry wine; overripe or botrytised fruit can make sweet wine. Producer intent remains essential.
     fr:
       question: "Qu’est-ce qui détermine le plus directement si du Chenin récolté convient à un vin effervescent, sec ou doux ?"
       choices:
         - { text: "Sa maturité et son état sanitaire à la récolte", correct: true }
-        - { text: "La couleur de la cuve de fermentation", correct: false }
-        - { text: "Un format de fût régional obligatoire", correct: false }
-        - { text: "La forme de bouteille choisie après l’élevage", correct: false }
+        - { text: "L’âge des vignes", correct: false }
+        - { text: "Le rendement maximal de l’appellation", correct: false }
+        - { text: "La souche de levure choisie pour la fermentation", correct: false }
       explanation: |
         Des raisins moins mûrs et très acides peuvent convenir aux effervescents ; des raisins sains et mûrs aux vins secs ; des raisins surmûris ou botrytisés aux vins doux. L’intention du producteur reste essentielle.
   - id: loire-chenin-sparkling-001
@@ -1052,18 +1055,18 @@ cards:
       question: "Why is early-picked Chenin Blanc useful for sparkling wine?"
       choices:
         - { text: "It retains high acidity at modest sugar levels", correct: true }
-        - { text: "It develops high tannin and deep colour", correct: false }
-        - { text: "It always carries noble rot", correct: false }
-        - { text: "It loses all malic acid before harvest", correct: false }
+        - { text: "It reaches high sugar levels very quickly", correct: false }
+        - { text: "It gives strongly aromatic, floral base wines", correct: false }
+        - { text: "It has soft acidity that flatters the mousse", correct: false }
       explanation: |
         Sparkling base wine needs freshness and moderate potential alcohol, qualities supplied by Chenin picked before full ripeness.
     fr:
       question: "Pourquoi le Chenin Blanc vendangé assez tôt convient-il aux vins effervescents ?"
       choices:
         - { text: "Il conserve une forte acidité avec un niveau de sucre modéré", correct: true }
-        - { text: "Il développe beaucoup de tanins et une couleur profonde", correct: false }
-        - { text: "Il porte toujours de la pourriture noble", correct: false }
-        - { text: "Il perd tout son acide malique avant la récolte", correct: false }
+        - { text: "Il atteint très vite des niveaux de sucre élevés", correct: false }
+        - { text: "Il donne des vins de base très aromatiques et floraux", correct: false }
+        - { text: "Son acidité souple flatte la mousse", correct: false }
       explanation: |
         Un vin de base effervescent exige fraîcheur et degré potentiel modéré, deux qualités offertes par un Chenin récolté avant sa pleine maturité.
   - id: loire-chenin-ripest-001
@@ -1079,18 +1082,18 @@ cards:
       question: "Which two processes can concentrate Chenin Blanc grapes for sweet wine?"
       choices:
         - { text: "Passerillage and noble rot", correct: true }
-        - { text: "Carbonic maceration and fortification", correct: false }
-        - { text: "Flor ageing and freezing after harvest", correct: false }
-        - { text: "Whole-bunch fermentation and saignée", correct: false }
+        - { text: "Freezing on the vine and cryoextraction", correct: false }
+        - { text: "Drying on straw mats and fortification", correct: false }
+        - { text: "Fortification and blending with grape must", correct: false }
       explanation: |
         Berries may shrivel on the vine or be affected by beneficial Botrytis, concentrating sugar, acidity and flavour.
     fr:
       question: "Quels deux phénomènes peuvent concentrer les raisins de Chenin Blanc destinés aux vins doux ?"
       choices:
         - { text: "Le passerillage et la pourriture noble", correct: true }
-        - { text: "La macération carbonique et le mutage", correct: false }
-        - { text: "L’élevage sous voile et la congélation après récolte", correct: false }
-        - { text: "La vendange entière et la saignée", correct: false }
+        - { text: "Le gel sur pied et la cryoextraction", correct: false }
+        - { text: "Le séchage sur paille et le mutage", correct: false }
+        - { text: "Le mutage et l’ajout de moût de raisin", correct: false }
       explanation: |
         Les baies peuvent se flétrir sur pied ou être touchées par un Botrytis bénéfique, ce qui concentre sucre, acidité et arômes.
   - id: loire-chenin-riper-trend-001
@@ -1108,7 +1111,7 @@ cards:
         - { text: "Riper fruit, more body and higher potential alcohol", correct: true }
         - { text: "Lower ripeness and sharper green flavours", correct: false }
         - { text: "Less sugar but more dilution", correct: false }
-        - { text: "Compulsory noble rot in every bunch", correct: false }
+        - { text: "Higher acidity, lighter body and lower alcohol", correct: false }
       explanation: |
         Greater ripeness can broaden fruit flavours and body and raise alcohol, while Chenin's naturally high acidity can preserve balance.
     fr:
@@ -1117,7 +1120,7 @@ cards:
         - { text: "Un fruit plus mûr, davantage de corps et un degré potentiel plus élevé", correct: true }
         - { text: "Une maturité plus faible et des arômes plus végétaux", correct: false }
         - { text: "Moins de sucre mais davantage de dilution", correct: false }
-        - { text: "Une pourriture noble obligatoire sur chaque grappe", correct: false }
+        - { text: "Une acidité plus forte, moins de corps et moins d’alcool", correct: false }
       explanation: |
         Une maturité accrue peut élargir le registre fruité, donner plus de corps et augmenter l’alcool, tandis que l’acidité naturellement élevée du Chenin peut préserver l’équilibre.
   - id: loire-chenin-alcohol-001
@@ -1135,7 +1138,7 @@ cards:
         - { text: "Naturally high acidity", correct: true }
         - { text: "Very low flavour intensity", correct: false }
         - { text: "High tannin from the skins", correct: false }
-        - { text: "Compulsory residual sugar", correct: false }
+        - { text: "Extended ageing on lees", correct: false }
       explanation: |
         Chenin's acid spine can balance richness and alcohol, although harvest timing remains important to avoid heaviness.
     fr:
@@ -1144,7 +1147,7 @@ cards:
         - { text: "Son acidité naturellement élevée", correct: true }
         - { text: "Sa très faible intensité aromatique", correct: false }
         - { text: "Les tanins élevés de ses pellicules", correct: false }
-        - { text: "Un sucre résiduel obligatoire", correct: false }
+        - { text: "Un long élevage sur lies", correct: false }
       explanation: |
         La trame acide du Chenin peut équilibrer richesse et alcool, même si la date de vendange reste déterminante pour éviter la lourdeur.
   - id: loire-chenin-young-001
@@ -1160,18 +1163,18 @@ cards:
       question: "How does Chenin Blanc's fruit profile commonly change with ripeness?"
       choices:
         - { text: "From apple and citrus toward riper stone or tropical fruit", correct: true }
-        - { text: "From blackcurrant and cedar toward pepper", correct: false }
-        - { text: "From lychee and rose toward petrol", correct: false }
-        - { text: "From strawberry toward leather and tar", correct: false }
+        - { text: "From lychee and rose toward ginger and honey", correct: false }
+        - { text: "From orange blossom and grape toward raisin and fig", correct: false }
+        - { text: "From lime and green apple toward petrol", correct: false }
       explanation: |
         Less ripe Chenin often shows apple or citrus; greater ripeness can bring pear, quince, stone-fruit and tropical notes.
     fr:
       question: "Comment le profil fruité du Chenin Blanc évolue-t-il généralement avec la maturité ?"
       choices:
         - { text: "De la pomme et des agrumes vers des fruits à noyau ou tropicaux", correct: true }
-        - { text: "Du cassis et du cèdre vers le poivre", correct: false }
-        - { text: "Du litchi et de la rose vers le pétrole", correct: false }
-        - { text: "De la fraise vers le cuir et le goudron", correct: false }
+        - { text: "Du litchi et de la rose vers le gingembre et le miel", correct: false }
+        - { text: "De la fleur d’oranger et du raisin frais vers le raisin sec et la figue", correct: false }
+        - { text: "Du citron vert et de la pomme verte vers le pétrole", correct: false }
       explanation: |
         Un Chenin moins mûr évoque souvent la pomme ou les agrumes ; davantage de maturité peut apporter poire, coing, fruits à noyau et fruits tropicaux.
   - id: loire-chenin-dry-001
@@ -1187,18 +1190,18 @@ cards:
       question: "Which non-fruit notes can appear in dry Loire Chenin Blanc?"
       choices:
         - { text: "Mineral, smoky or waxy notes", correct: true }
-        - { text: "Cassis and green pepper", correct: false }
-        - { text: "Rose and lychee only", correct: false }
-        - { text: "Banana and bubblegum only", correct: false }
+        - { text: "Rose petal, ginger and Turkish delight notes", correct: false }
+        - { text: "Grass, asparagus and green bell pepper notes", correct: false }
+        - { text: "Petrol, kerosene and rubber notes", correct: false }
       explanation: |
         Depending on site, ripeness and ageing, dry Chenin can show mineral, smoky, waxy or lanolin-like complexity alongside its fruit.
     fr:
       question: "Quelles notes non fruitées peuvent apparaître dans un Chenin Blanc sec de Loire ?"
       choices:
         - { text: "Des notes minérales, fumées ou cireuses", correct: true }
-        - { text: "Du cassis et du poivron vert", correct: false }
-        - { text: "Uniquement de la rose et du litchi", correct: false }
-        - { text: "Uniquement de la banane et du bonbon anglais", correct: false }
+        - { text: "Des notes de rose, de gingembre et de loukoum", correct: false }
+        - { text: "Des notes d’herbe, d’asperge et de poivron vert", correct: false }
+        - { text: "Des notes de pétrole, de kérosène et de caoutchouc", correct: false }
       explanation: |
         Selon le site, la maturité et l’élevage, un Chenin sec peut présenter une complexité minérale, fumée, cireuse ou évoquant la lanoline.
   - id: loire-chenin-sweet-001
@@ -1214,18 +1217,18 @@ cards:
       question: "Which flavours are commonly associated with botrytised sweet Loire Chenin?"
       choices:
         - { text: "Apricot, citrus peel and honey", correct: true }
-        - { text: "Blackcurrant, cedar and tobacco", correct: false }
-        - { text: "Green pepper, tomato leaf and mint", correct: false }
-        - { text: "Sour cherry, leather and tar", correct: false }
+        - { text: "Lychee, rose and Turkish delight", correct: false }
+        - { text: "Gooseberry, grass and elderflower", correct: false }
+        - { text: "Raisin, walnut and caramel", correct: false }
       explanation: |
         Noble rot and very ripe fruit can add apricot, candied citrus and honeyed complexity while high acidity prevents the wine feeling flat.
     fr:
       question: "Quels arômes sont couramment associés aux Chenins doux botrytisés de Loire ?"
       choices:
         - { text: "Abricot, écorce d’agrumes et miel", correct: true }
-        - { text: "Cassis, cèdre et tabac", correct: false }
-        - { text: "Poivron vert, feuille de tomate et menthe", correct: false }
-        - { text: "Griotte, cuir et goudron", correct: false }
+        - { text: "Litchi, rose et loukoum", correct: false }
+        - { text: "Groseille à maquereau, herbe et fleur de sureau", correct: false }
+        - { text: "Raisin sec, noix et caramel", correct: false }
       explanation: |
         La pourriture noble et la surmaturité peuvent apporter abricot, agrumes confits et notes miellées, tandis que la forte acidité évite un profil mou.
   - id: loire-chenin-age-001
@@ -1241,18 +1244,18 @@ cards:
       question: "What ageing potential can the best dry and sweet Loire Chenins achieve?"
       choices:
         - { text: "Several decades", correct: true }
-        - { text: "No more than one year", correct: false }
-        - { text: "Only until the next harvest", correct: false }
-        - { text: "Exactly five years by law", correct: false }
+        - { text: "Three to five years", correct: false }
+        - { text: "About ten years at most", correct: false }
+        - { text: "One to two years, while the fruit is fresh", correct: false }
       explanation: |
         High acidity, concentration and, in sweet wines, sugar allow top examples to evolve for decades.
     fr:
       question: "Quel potentiel de garde les meilleurs Chenins secs et doux de Loire peuvent-ils atteindre ?"
       choices:
         - { text: "Plusieurs décennies", correct: true }
-        - { text: "Un an au maximum", correct: false }
-        - { text: "Seulement jusqu’à la vendange suivante", correct: false }
-        - { text: "Exactement cinq ans selon la loi", correct: false }
+        - { text: "Trois à cinq ans", correct: false }
+        - { text: "Une dizaine d’années au plus", correct: false }
+        - { text: "Un à deux ans, tant que le fruit est frais", correct: false }
       explanation: |
         La forte acidité, la concentration et, pour les vins doux, le sucre permettent aux meilleurs exemples d’évoluer pendant des décennies.
   - id: loire-chenin-aged-001
@@ -1268,18 +1271,18 @@ cards:
       question: "Which profile can develop in mature Loire Chenin?"
       choices:
         - { text: "Honey, toast and hay with acidity still evident", correct: true }
-        - { text: "Fresh banana and bubblegum with no acidity", correct: false }
-        - { text: "Cassis and firm grape-skin tannin", correct: false }
-        - { text: "Only primary citrus with no evolution", correct: false }
+        - { text: "Butter, vanilla and hazelnut with low acidity", correct: false }
+        - { text: "Petrol and lime with softened acidity", correct: false }
+        - { text: "Walnut, caramel and bruised apple from oxidation", correct: false }
       explanation: |
         Bottle age can make Chenin richer and rounder and add honeyed, toasted or hay-like complexity without erasing its acid backbone.
     fr:
       question: "Quel profil peut se développer dans un Chenin de Loire arrivé à maturité ?"
       choices:
         - { text: "Miel, pain grillé et foin, avec une acidité toujours perceptible", correct: true }
-        - { text: "Banane fraîche et bonbon anglais sans aucune acidité", correct: false }
-        - { text: "Cassis et tanins fermes de pellicule", correct: false }
-        - { text: "Uniquement des agrumes primaires sans évolution", correct: false }
+        - { text: "Beurre, vanille et noisette, avec une acidité faible", correct: false }
+        - { text: "Pétrole et citron vert, avec une acidité assouplie", correct: false }
+        - { text: "Noix, caramel et pomme blette dus à l’oxydation", correct: false }
       explanation: |
         Le vieillissement peut rendre le Chenin plus riche et plus rond et lui apporter des notes miellées, grillées ou de foin, sans effacer sa trame acide.
   - id: loire-chenin-site-001
@@ -1295,18 +1298,18 @@ cards:
       question: "Why can Vouvray and Savennières taste different although both rely on Chenin Blanc?"
       choices:
         - { text: "Their climates, soils and production choices differ", correct: true }
-        - { text: "Each appellation requires a different Chenin clone", correct: false }
-        - { text: "Vouvray must be fortified and Savennières sparkling", correct: false }
-        - { text: "The grape changes colour west of Tours", correct: false }
+        - { text: "Savennières blends Chenin with Sauvignon Blanc", correct: false }
+        - { text: "Savennières must be aged in new oak; Vouvray bans wood", correct: false }
+        - { text: "Vouvray must be hand-picked; Savennières is machine-picked", correct: false }
       explanation: |
         Vouvray's tuffeau and clay and Savennières' schist and exposed slopes create different growing conditions; harvest and cellar choices add further variation.
     fr:
       question: "Pourquoi Vouvray et Savennières peuvent-ils être très différents alors qu’ils reposent tous deux sur le Chenin Blanc ?"
       choices:
         - { text: "Leurs climats, sols et choix de production diffèrent", correct: true }
-        - { text: "Chaque appellation impose un clone de Chenin différent", correct: false }
-        - { text: "Vouvray doit être fortifié et Savennières effervescent", correct: false }
-        - { text: "Le cépage change de couleur à l’ouest de Tours", correct: false }
+        - { text: "Savennières assemble le Chenin avec du Sauvignon Blanc", correct: false }
+        - { text: "Savennières impose le bois neuf ; Vouvray interdit le bois", correct: false }
+        - { text: "Vouvray impose la vendange manuelle ; Savennières la machine", correct: false }
       explanation: |
         Le tuffeau et les argiles de Vouvray, puis les schistes et coteaux exposés de Savennières, créent des conditions distinctes ; la vendange et la cave accentuent encore ces différences.
   - id: loire-vouvray-where-001
@@ -1319,23 +1322,22 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Just east of which Touraine city does Vouvray sit?
+      question: "Just east of which city does Vouvray lie?"
       choices:
-        - { text: "Nantes", correct: false }
-        - { text: "Tours", correct: true }
-        - { text: "Lyon", correct: false }
         - { text: "Angers", correct: false }
-      explanation: |
-        **Tours**, on the Touraine bank. Montlouis faces it. Savennières
-        is farther west, in Anjou.
-
-    fr:
-      question: "À l’est de quelle ville de Touraine se situe Vouvray ?"
-      choices:
-        - { text: "Nantes", correct: false }
         - { text: "Tours", correct: true }
-        - { text: "Angers", correct: false }
         - { text: "Orléans", correct: false }
+        - { text: "Saumur", correct: false }
+      explanation: |
+        Vouvray lies just east of **Tours**, mainly on the right bank of the
+        Loire; Montlouis-sur-Loire faces it across the river.
+    fr:
+      question: "Juste à l’est de quelle ville se situe Vouvray ?"
+      choices:
+        - { text: "Angers", correct: false }
+        - { text: "Tours", correct: true }
+        - { text: "Orléans", correct: false }
+        - { text: "Saumur", correct: false }
       explanation: |
         Vouvray se trouve immédiatement à l’est de Tours, principalement sur la rive droite de la Loire ; Montlouis-sur-Loire lui fait face sur l’autre rive.
   - id: loire-vouvray-styles-001
@@ -1351,18 +1353,18 @@ cards:
       question: "Which styles may be sold as Vouvray?"
       choices:
         - { text: "Still or sparkling white, from dry to sweet", correct: true }
-        - { text: "Dry red Cabernet Franc only", correct: false }
-        - { text: "Fortified white only", correct: false }
-        - { text: "Sweet still wine only", correct: false }
+        - { text: "Still white from dry to sweet, but no sparkling", correct: false }
+        - { text: "Dry still white and dry rosé", correct: false }
+        - { text: "Sparkling and sweet white, but no dry wine", correct: false }
       explanation: |
         Vouvray is a Chenin Blanc appellation that can produce still wines across several sweetness levels as well as sparkling wine.
     fr:
       question: "Quels styles peuvent être commercialisés sous l’AOC Vouvray ?"
       choices:
         - { text: "Blanc tranquille ou effervescent, du sec au doux", correct: true }
-        - { text: "Rouge sec de Cabernet Franc uniquement", correct: false }
-        - { text: "Blanc fortifié uniquement", correct: false }
-        - { text: "Blanc doux tranquille uniquement", correct: false }
+        - { text: "Blanc tranquille du sec au doux, sans effervescent", correct: false }
+        - { text: "Blanc sec tranquille et rosé sec", correct: false }
+        - { text: "Blanc effervescent et blanc doux, sans vin sec", correct: false }
       explanation: |
         Vouvray est une appellation de Chenin Blanc qui peut produire des vins tranquilles à plusieurs niveaux de douceur ainsi que des vins effervescents.
   - id: loire-vouvray-vintage-001
@@ -1378,18 +1380,18 @@ cards:
       question: "What strongly influences the balance of dry, off-dry and sweet Vouvray made in a given year?"
       choices:
         - { text: "Vintage conditions and producer decisions", correct: true }
-        - { text: "A fixed legal proportion for every vintage", correct: false }
-        - { text: "The colour of the barrels", correct: false }
-        - { text: "The distance to the Atlantic alone", correct: false }
+        - { text: "A fixed legal share for each sweetness level", correct: false }
+        - { text: "The village in which the grapes were grown", correct: false }
+        - { text: "The proportion of new oak in the cellar", correct: false }
       explanation: |
         The season determines how much healthy ripe, overripe or botrytised fruit is available; the producer then selects the intended styles.
     fr:
       question: "Qu’est-ce qui influence fortement la part de Vouvray sec, demi-sec ou doux élaborée une année donnée ?"
       choices:
         - { text: "Les conditions du millésime et les décisions du producteur", correct: true }
-        - { text: "Une proportion légale fixe pour chaque millésime", correct: false }
-        - { text: "La couleur des fûts", correct: false }
-        - { text: "La seule distance à l’Atlantique", correct: false }
+        - { text: "Une part légale fixe pour chaque niveau de douceur", correct: false }
+        - { text: "La commune où les raisins ont été cultivés", correct: false }
+        - { text: "La proportion de bois neuf en cave", correct: false }
       explanation: |
         La saison détermine la quantité de raisins sains mûrs, surmûris ou botrytisés disponible ; le producteur choisit ensuite les styles à élaborer.
   - id: loire-vouvray-site-001
@@ -1405,18 +1407,18 @@ cards:
       question: "Which combination characterises many Vouvray sites?"
       choices:
         - { text: "Clay-rich soils over tuffeau in a cool climate", correct: true }
-        - { text: "Schist soils in a hot Mediterranean climate", correct: false }
-        - { text: "Granite soils beside the Atlantic coast", correct: false }
-        - { text: "Basalt soils at high altitude", correct: false }
+        - { text: "Schist slopes in a warm, sheltered climate", correct: false }
+        - { text: "Flint and Kimmeridgian marl in a continental climate", correct: false }
+        - { text: "Gneiss and granite in a mild maritime climate", correct: false }
       explanation: |
         Tuffeau is the local porous limestone, often covered by clay-rich soils; cellars are also cut into this rock.
     fr:
       question: "Quelle association caractérise de nombreux sites de Vouvray ?"
       choices:
         - { text: "Des sols argileux sur tuffeau dans un climat frais", correct: true }
-        - { text: "Des schistes sous climat méditerranéen chaud", correct: false }
-        - { text: "Des granites sur le littoral atlantique", correct: false }
-        - { text: "Des basaltes de haute altitude", correct: false }
+        - { text: "Des coteaux de schiste sous un climat chaud et abrité", correct: false }
+        - { text: "Des silex et marnes kimméridgiennes sous climat continental", correct: false }
+        - { text: "Des gneiss et granites sous un climat maritime doux", correct: false }
       explanation: |
         Le tuffeau est un calcaire poreux local souvent recouvert de sols argileux ; de nombreuses caves sont également creusées dans cette roche.
   - id: loire-vouvray-effect-001
@@ -1458,19 +1460,19 @@ cards:
     en:
       question: "How common is pronounced new-oak flavour in Vouvray?"
       choices:
-        - { text: "Common in every sweetness level", correct: false }
-        - { text: "Uncommon", correct: true }
-        - { text: "Required for all dry wines", correct: false }
-        - { text: "Required for all sweet wines", correct: false }
+        - { text: "Common, especially in the sweet wines", correct: false }
+        - { text: "Uncommon; most use steel or old wood", correct: true }
+        - { text: "Typical of the dry wines, rare in the sweet", correct: false }
+        - { text: "Standard for the sparkling base wines", correct: false }
       explanation: |
         New oak is not a defining feature. Many producers use stainless steel or neutral old wood so Chenin, acidity and site remain prominent.
     fr:
       question: "Quelle place occupent les arômes marqués de bois neuf à Vouvray ?"
       choices:
-        - { text: "Ils sont fréquents à tous les niveaux de douceur", correct: false }
-        - { text: "Ils sont rares", correct: true }
-        - { text: "Ils sont obligatoires pour tous les vins secs", correct: false }
-        - { text: "Ils sont obligatoires pour tous les vins doux", correct: false }
+        - { text: "Fréquents, surtout dans les vins doux", correct: false }
+        - { text: "Rares ; l’inox ou le vieux bois dominent", correct: true }
+        - { text: "Typiques des secs, rares dans les doux", correct: false }
+        - { text: "Habituels pour les vins de base effervescents", correct: false }
       explanation: |
         Le bois neuf n’est pas une signature de l’appellation. Beaucoup de producteurs utilisent l’inox ou du vieux bois neutre afin de préserver le Chenin, l’acidité et l’expression du lieu.
   - id: loire-west-of-vouvray-001
@@ -1486,18 +1488,18 @@ cards:
       question: "Travelling west from Vouvray, which wine regions follow?"
       choices:
         - { text: "Saumur, then Anjou", correct: true }
-        - { text: "Central Vineyards, then Jura", correct: false }
-        - { text: "Nantais, then Touraine", correct: false }
-        - { text: "Sancerre, then Pouilly-Fumé", correct: false }
+        - { text: "Anjou, then Saumur", correct: false }
+        - { text: "The Nantais, then Anjou", correct: false }
+        - { text: "Saumur, then the Nantais", correct: false }
       explanation: |
         Chinon lies farther west within Touraine; beyond it, the Loire reaches Saumur and then Anjou before continuing toward the Nantais.
     fr:
       question: "En allant vers l’ouest depuis Vouvray, quelles régions viticoles rencontre-t-on ensuite ?"
       choices:
         - { text: "Saumur, puis Anjou", correct: true }
-        - { text: "Vignobles du Centre, puis Jura", correct: false }
-        - { text: "Pays nantais, puis Touraine", correct: false }
-        - { text: "Sancerre, puis Pouilly-Fumé", correct: false }
+        - { text: "Anjou, puis Saumur", correct: false }
+        - { text: "Pays nantais, puis Anjou", correct: false }
+        - { text: "Saumur, puis Pays nantais", correct: false }
       explanation: |
         Chinon se trouve plus à l’ouest en Touraine ; au-delà, la Loire traverse Saumur puis l’Anjou avant de poursuivre vers le Pays nantais.
   - id: loire-anjou-saumur-vs-vouvray-001
@@ -1513,18 +1515,18 @@ cards:
       question: "How does much of Anjou-Saumur compare climatically with Vouvray?"
       choices:
         - { text: "It is generally warmer and drier", correct: true }
-        - { text: "It is markedly colder and wetter", correct: false }
-        - { text: "It is fully Mediterranean", correct: false }
-        - { text: "It has the same conditions by law", correct: false }
+        - { text: "It is generally cooler and wetter", correct: false }
+        - { text: "It is generally warmer but wetter", correct: false }
+        - { text: "It is generally cooler but drier", correct: false }
       explanation: |
         Shelter from the Mauges contributes to relatively low rainfall and warmer conditions, while Vouvray lies farther east in cooler Touraine.
     fr:
       question: "Comment une grande partie de l’Anjou-Saumur se compare-t-elle climatiquement à Vouvray ?"
       choices:
         - { text: "Elle est généralement plus chaude et plus sèche", correct: true }
-        - { text: "Elle est nettement plus froide et plus humide", correct: false }
-        - { text: "Elle est entièrement méditerranéenne", correct: false }
-        - { text: "Elle présente les mêmes conditions par obligation légale", correct: false }
+        - { text: "Elle est généralement plus fraîche et plus humide", correct: false }
+        - { text: "Elle est généralement plus chaude mais plus humide", correct: false }
+        - { text: "Elle est généralement plus fraîche mais plus sèche", correct: false }
       explanation: |
         L’abri des Mauges contribue à une pluviométrie relativement faible et à des conditions plus chaudes, tandis que Vouvray se situe plus à l’est, dans une Touraine plus fraîche.
   - id: loire-saumur-sparkling-001
@@ -1540,18 +1542,18 @@ cards:
       question: "Which sparkling-wine style is Saumur especially known for?"
       choices:
         - { text: "Traditional-method wine, commonly based on Chenin Blanc", correct: true }
-        - { text: "Tank-method wine based only on Melon", correct: false }
-        - { text: "Ancestral-method wine based only on Gamay", correct: false }
-        - { text: "Carbonated wine based only on Sauvignon Blanc", correct: false }
+        - { text: "Tank-method wine, commonly based on Chenin Blanc", correct: false }
+        - { text: "Traditional-method wine, commonly based on Melon", correct: false }
+        - { text: "Ancestral-method wine, commonly based on Gamay", correct: false }
       explanation: |
         Saumur produces traditional-method sparkling wine, usually with Chenin Blanc playing a major role. Crémant de Loire is also important in the wider region.
     fr:
       question: "Pour quel style de vin effervescent Saumur est-il particulièrement connu ?"
       choices:
         - { text: "Un vin de méthode traditionnelle souvent fondé sur le Chenin Blanc", correct: true }
-        - { text: "Un vin de cuve close exclusivement issu de Melon", correct: false }
-        - { text: "Un vin de méthode ancestrale exclusivement issu de Gamay", correct: false }
-        - { text: "Un vin gazéifié exclusivement issu de Sauvignon Blanc", correct: false }
+        - { text: "Un vin de cuve close souvent fondé sur le Chenin Blanc", correct: false }
+        - { text: "Un vin de méthode traditionnelle souvent fondé sur le Melon", correct: false }
+        - { text: "Un vin de méthode ancestrale souvent fondé sur le Gamay", correct: false }
       explanation: |
         Saumur produit des effervescents de méthode traditionnelle dans lesquels le Chenin Blanc joue généralement un rôle majeur. Crémant de Loire est aussi important dans l’ensemble de la région.
   - id: loire-anjou-dry-oak-001
@@ -1567,18 +1569,18 @@ cards:
       question: "Compared with Vouvray, how is oak commonly used for some dry Anjou whites?"
       choices:
         - { text: "New oak is used somewhat more often", correct: true }
-        - { text: "Oak is prohibited in all Anjou whites", correct: false }
-        - { text: "Every wine must mature in new barriques", correct: false }
-        - { text: "Only sparkling wines may use wood", correct: false }
+        - { text: "New oak is used rather less often", correct: false }
+        - { text: "Wood of any age is rarely used", correct: false }
+        - { text: "Large old casks are the norm", correct: false }
       explanation: |
         Some ambitious Anjou Blanc and Savennières use barrels, including a proportion of new oak, though this remains a producer choice rather than a universal rule.
     fr:
       question: "Par rapport à Vouvray, comment le bois est-il souvent utilisé pour certains blancs secs d’Anjou ?"
       choices:
         - { text: "Le bois neuf est un peu plus fréquent", correct: true }
-        - { text: "Le bois est interdit pour tous les blancs d’Anjou", correct: false }
-        - { text: "Tous les vins doivent être élevés en barriques neuves", correct: false }
-        - { text: "Seuls les effervescents peuvent utiliser le bois", correct: false }
+        - { text: "Le bois neuf est plutôt moins fréquent", correct: false }
+        - { text: "Le bois, quel que soit son âge, est rarement employé", correct: false }
+        - { text: "Les grands foudres anciens sont la norme", correct: false }
       explanation: |
         Certains Anjou Blanc et Savennières ambitieux utilisent des fûts, parfois avec une part de bois neuf ; il s’agit toutefois d’un choix de producteur, pas d’une règle générale.
   - id: loire-savennieres-layon-where-001
@@ -1594,18 +1596,18 @@ cards:
       question: "Which pair correctly matches two important Anjou Chenin appellations with their broad position?"
       choices:
         - { text: "Savennières north of the Loire; Coteaux du Layon south of it", correct: true }
-        - { text: "Savennières east of Sancerre; Coteaux du Layon beside Nantes", correct: false }
-        - { text: "Savennières south of Tours; Coteaux du Layon north of Bourgueil", correct: false }
-        - { text: "Savennières in the Nantais; Coteaux du Layon in the Central Vineyards", correct: false }
+        - { text: "Savennières south of the Loire; Coteaux du Layon north of it", correct: false }
+        - { text: "Both north of the Loire, east of Angers", correct: false }
+        - { text: "Both south of the Loire, along the Layon", correct: false }
       explanation: |
         Both lie in Anjou: Savennières occupies schist slopes by the Loire, while Coteaux du Layon follows the Layon tributary to the south.
     fr:
       question: "Quelle proposition situe correctement deux importantes appellations de Chenin en Anjou ?"
       choices:
         - { text: "Savennières au nord de la Loire ; Coteaux du Layon au sud", correct: true }
-        - { text: "Savennières à l’est de Sancerre ; Coteaux du Layon près de Nantes", correct: false }
-        - { text: "Savennières au sud de Tours ; Coteaux du Layon au nord de Bourgueil", correct: false }
-        - { text: "Savennières dans le Pays nantais ; Coteaux du Layon dans les Vignobles du Centre", correct: false }
+        - { text: "Savennières au sud de la Loire ; Coteaux du Layon au nord", correct: false }
+        - { text: "Toutes deux au nord de la Loire, à l’est d’Angers", correct: false }
+        - { text: "Toutes deux au sud de la Loire, le long du Layon", correct: false }
       explanation: |
         Toutes deux sont en Anjou : Savennières occupe des coteaux schisteux près de la Loire, tandis que Coteaux du Layon suit l’affluent du même nom plus au sud.
   - id: loire-anjou-west-climate-001
@@ -1621,18 +1623,18 @@ cards:
       question: "How do western Anjou's Chenin sites generally compare with Touraine?"
       choices:
         - { text: "They are generally warmer and drier", correct: true }
-        - { text: "They are cooler and wetter throughout", correct: false }
-        - { text: "They have a Mediterranean climate", correct: false }
-        - { text: "They are colder because they are farther west", correct: false }
+        - { text: "They are generally cooler and wetter", correct: false }
+        - { text: "They are generally warmer but wetter", correct: false }
+        - { text: "They are generally cooler but drier", correct: false }
       explanation: |
         Atlantic air still matters, but the Mauges create shelter and a rain shadow over much of Anjou.
     fr:
       question: "Comment les sites de Chenin de l’Anjou occidental se comparent-ils généralement à la Touraine ?"
       choices:
         - { text: "Ils sont généralement plus chauds et plus secs", correct: true }
-        - { text: "Ils sont partout plus frais et plus humides", correct: false }
-        - { text: "Ils ont un climat méditerranéen", correct: false }
-        - { text: "Ils sont plus froids parce qu’ils sont plus à l’ouest", correct: false }
+        - { text: "Ils sont généralement plus frais et plus humides", correct: false }
+        - { text: "Ils sont généralement plus chauds mais plus humides", correct: false }
+        - { text: "Ils sont généralement plus frais mais plus secs", correct: false }
       explanation: |
         L’air atlantique reste influent, mais les Mauges protègent une grande partie de l’Anjou et créent un effet d’abri pluviométrique.
   - id: loire-anjou-west-body-001
@@ -1648,18 +1650,18 @@ cards:
       question: "What style can the relatively warm, dry conditions of western Anjou help produce from Chenin Blanc?"
       choices:
         - { text: "Riper, broader-bodied wines", correct: true }
-        - { text: "Uniformly light, neutral wines", correct: false }
-        - { text: "Deeply coloured tannic reds", correct: false }
-        - { text: "Low-acid wines without fruit", correct: false }
+        - { text: "Lighter, more floral and delicate wines", correct: false }
+        - { text: "Leaner wines with lower alcohol", correct: false }
+        - { text: "Neutral wines suited mainly to sparkling bases", correct: false }
       explanation: |
         Greater ripeness can give more body and less overt floral delicacy than cooler sites, while Chenin's high acidity maintains freshness.
     fr:
       question: "Quel style les conditions relativement chaudes et sèches de l’Anjou occidental peuvent-elles favoriser avec le Chenin Blanc ?"
       choices:
         - { text: "Des vins plus mûrs et plus amples", correct: true }
-        - { text: "Des vins toujours légers et neutres", correct: false }
-        - { text: "Des rouges très colorés et tanniques", correct: false }
-        - { text: "Des vins peu acides et sans fruit", correct: false }
+        - { text: "Des vins plus légers, floraux et délicats", correct: false }
+        - { text: "Des vins plus maigres et moins alcoolisés", correct: false }
+        - { text: "Des vins neutres surtout destinés aux bases d’effervescents", correct: false }
       explanation: |
         Une maturité plus poussée peut donner davantage de corps et moins de délicatesse florale que dans les sites plus frais, tout en conservant la fraîcheur naturelle du Chenin.
   - id: loire-savennieres-001
@@ -1675,18 +1677,18 @@ cards:
       question: "Which profile best describes most Savennières?"
       choices:
         - { text: "Dry, concentrated, high-acid Chenin Blanc", correct: true }
-        - { text: "Light, sweet sparkling wine for immediate drinking", correct: false }
-        - { text: "Neutral, low-acid Melon matured in tank", correct: false }
-        - { text: "Pale Pinot Noir rosé", correct: false }
+        - { text: "Sweet, botrytised, high-acid Chenin Blanc", correct: false }
+        - { text: "Light, off-dry Chenin Blanc for early drinking", correct: false }
+        - { text: "Dry, aromatic Sauvignon Blanc with flinty notes", correct: false }
       explanation: |
         Savennières is mostly dry and can be broad, complex and long-lived. The AOC can also produce demi-sec, moelleux or doux wines when suitable overripe fruit is available.
     fr:
       question: "Quel profil décrit le mieux la majorité des Savennières ?"
       choices:
         - { text: "Un Chenin Blanc sec, concentré et vif", correct: true }
-        - { text: "Un effervescent léger et doux à boire immédiatement", correct: false }
-        - { text: "Un Melon neutre et peu acide élevé en cuve", correct: false }
-        - { text: "Un rosé pâle de Pinot Noir", correct: false }
+        - { text: "Un Chenin Blanc doux, botrytisé et vif", correct: false }
+        - { text: "Un Chenin Blanc léger et demi-sec à boire jeune", correct: false }
+        - { text: "Un Sauvignon Blanc sec et aromatique aux notes de silex", correct: false }
       explanation: |
         Savennières est majoritairement sec et peut être ample, complexe et de longue garde. L’AOC peut aussi produire des vins demi-secs, moelleux ou doux lorsque la surmaturité le permet.
   - id: loire-savennieres-botrytis-001
@@ -1702,18 +1704,18 @@ cards:
       question: "Why is noble rot generally less reliable in Savennières than in the Layon valley?"
       choices:
         - { text: "Exposed, well-ventilated slopes dry the grapes more readily", correct: true }
-        - { text: "Savennières prohibits Chenin Blanc", correct: false }
-        - { text: "The sites remain permanently flooded", correct: false }
-        - { text: "The grapes are always harvested before veraison", correct: false }
+        - { text: "The AOC rules forbid botrytised fruit", correct: false }
+        - { text: "Grapes are picked early to keep the wines light", correct: false }
+        - { text: "Colder nights stop the fungus from spreading", correct: false }
       explanation: |
         Air movement on the open Loire slopes limits the prolonged humid conditions Botrytis needs. Overripe and occasionally botrytised fruit can still occur.
     fr:
       question: "Pourquoi la pourriture noble est-elle généralement moins régulière à Savennières que dans la vallée du Layon ?"
       choices:
         - { text: "Les coteaux exposés et ventilés sèchent plus facilement les raisins", correct: true }
-        - { text: "Savennières interdit le Chenin Blanc", correct: false }
-        - { text: "Les sites restent inondés en permanence", correct: false }
-        - { text: "Les raisins sont toujours récoltés avant la véraison", correct: false }
+        - { text: "Le cahier des charges interdit les raisins botrytisés", correct: false }
+        - { text: "Les raisins sont vendangés tôt pour garder des vins légers", correct: false }
+        - { text: "Des nuits plus froides empêchent le champignon de se propager", correct: false }
       explanation: |
         La circulation de l’air sur les coteaux ouverts de la Loire limite l’humidité prolongée nécessaire au Botrytis. Des raisins surmûris, parfois botrytisés, restent néanmoins possibles.
   - id: loire-layon-sweet-001
@@ -1753,21 +1755,21 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: "Along which tributary are the Coteaux du Layon vineyards located?"
+      question: "Where do the Coteaux du Layon vineyards lie?"
       choices:
-        - { text: "The Layon", correct: true }
-        - { text: "The Cher", correct: false }
-        - { text: "The Sèvre Nantaise", correct: false }
-        - { text: "The Vienne", correct: false }
+        - { text: "Along a tributary south of the Loire, in Anjou", correct: true }
+        - { text: "Along the Cher, in eastern Touraine", correct: false }
+        - { text: "On the north bank of the Loire, west of Angers", correct: false }
+        - { text: "Along the Sèvre Nantaise, near Nantes", correct: false }
       explanation: |
         The Layon runs through southern Anjou before joining the Loire; its valley provides sheltered sites for sweet Chenin.
     fr:
-      question: "Le long de quel affluent se situent les vignobles de Coteaux du Layon ?"
+      question: "Où se situent les vignobles de Coteaux du Layon ?"
       choices:
-        - { text: "Le Layon", correct: true }
-        - { text: "Le Cher", correct: false }
-        - { text: "La Sèvre Nantaise", correct: false }
-        - { text: "La Vienne", correct: false }
+        - { text: "Le long d’un affluent au sud de la Loire, en Anjou", correct: true }
+        - { text: "Le long du Cher, dans l’est de la Touraine", correct: false }
+        - { text: "Sur la rive nord de la Loire, à l’ouest d’Angers", correct: false }
+        - { text: "Le long de la Sèvre Nantaise, près de Nantes", correct: false }
       explanation: |
         Le Layon traverse le sud de l’Anjou avant de rejoindre la Loire ; sa vallée offre des sites abrités favorables au Chenin doux.
   - id: loire-layon-rot-001
@@ -1785,7 +1787,7 @@ cards:
         - { text: "Humid mornings followed by drier afternoons", correct: true }
         - { text: "Continuous dry wind with no morning humidity", correct: false }
         - { text: "Persistent rain throughout harvest", correct: false }
-        - { text: "Permanent frost during ripening", correct: false }
+        - { text: "Cool, overcast days with little air movement", correct: false }
       explanation: |
         Morning moisture from the river can initiate Botrytis, while drier afternoons help berries shrivel rather than develop destructive grey rot.
     fr:
@@ -1794,7 +1796,7 @@ cards:
         - { text: "Des matinées humides suivies d’après-midi plus sèches", correct: true }
         - { text: "Un vent sec continu sans humidité matinale", correct: false }
         - { text: "Une pluie persistante pendant toute la vendange", correct: false }
-        - { text: "Un gel permanent pendant la maturation", correct: false }
+        - { text: "Des journées fraîches et couvertes, sans circulation d’air", correct: false }
       explanation: |
         L’humidité matinale liée à la rivière peut initier le Botrytis, tandis que des après-midi plus secs favorisent le flétrissement plutôt que la pourriture grise destructrice.
   - id: loire-layon-crus-001
@@ -1807,12 +1809,12 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which two names sit at the top of the Coteaux du Layon map?
+      question: "Which two separate AOCs are the most prestigious sweet-wine sites of the Layon valley?"
       choices:
-        - { text: "Chinon and Bourgueil", correct: false }
+        - { text: "Coteaux de l’Aubance and Anjou-Coteaux de la Loire", correct: false }
         - { text: "Bonnezeaux and Quarts de Chaume", correct: true }
-        - { text: "Sancerre and Menetou-Salon", correct: false }
-        - { text: "Muscadet and Gros Plant", correct: false }
+        - { text: "Savennières Roche aux Moines and Coulée de Serrant", correct: false }
+        - { text: "Vouvray and Montlouis-sur-Loire", correct: false }
       explanation: |
         **Bonnezeaux** and **Quarts de Chaume Grand Cru** are separate
         sweet-wine AOCs associated with exceptionally concentrated Chenin.
@@ -1820,10 +1822,10 @@ cards:
     fr:
       question: "Quelles deux appellations représentent le sommet historique des vins doux de la vallée du Layon ?"
       choices:
-        - { text: "Chinon et Bourgueil", correct: false }
-        - { text: "Bonnezeaux et Quarts de Chaume Grand Cru", correct: true }
-        - { text: "Sancerre et Menetou-Salon", correct: false }
-        - { text: "Muscadet et Gros Plant", correct: false }
+        - { text: "Coteaux de l’Aubance et Anjou-Coteaux de la Loire", correct: false }
+        - { text: "Bonnezeaux et Quarts de Chaume", correct: true }
+        - { text: "Savennières Roche aux Moines et Coulée de Serrant", correct: false }
+        - { text: "Vouvray et Montlouis-sur-Loire", correct: false }
       explanation: |
         Bonnezeaux et Quarts de Chaume Grand Cru sont des AOC distinctes de vins doux de Chenin, issues de sites particulièrement favorables à la surmaturité.
   - id: loire-qdc-bonn-001
@@ -1836,21 +1838,21 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: "What distinguishes Quarts de Chaume Grand Cru and Bonnezeaux?"
+      question: "How do Quarts de Chaume Grand Cru and Bonnezeaux differ from basic Coteaux du Layon?"
       choices:
-        - { text: "Concentrated sweet Chenin from selected overripe fruit", correct: true }
-        - { text: "They produce high-volume dry Sauvignon Blanc", correct: false }
-        - { text: "They are red Cabernet Franc appellations", correct: false }
-        - { text: "They are sparkling-wine subzones of Saumur", correct: false }
+        - { text: "They give more concentrated sweet Chenin from favoured sites", correct: true }
+        - { text: "They are dry Chenin wines from the same slopes", correct: false }
+        - { text: "They are sweet wines fortified with grape spirit", correct: false }
+        - { text: "They are sparkling wines from early-picked Chenin", correct: false }
       explanation: |
         Low yields, successive selective picking and overripe or botrytised grapes can produce intense, high-acid sweet wines with long ageing potential.
     fr:
-      question: "Qu’est-ce qui distingue Quarts de Chaume Grand Cru et Bonnezeaux ?"
+      question: "En quoi Quarts de Chaume Grand Cru et Bonnezeaux se distinguent-ils d’un Coteaux du Layon de base ?"
       choices:
-        - { text: "Des Chenins doux concentrés issus de raisins surmûris triés", correct: true }
-        - { text: "Ils produisent de grands volumes de Sauvignon Blanc sec", correct: false }
-        - { text: "Ce sont des appellations rouges de Cabernet Franc", correct: false }
-        - { text: "Ce sont des sous-zones effervescentes de Saumur", correct: false }
+        - { text: "Ils donnent des Chenins doux plus concentrés, issus de sites privilégiés", correct: true }
+        - { text: "Ce sont des Chenins secs issus des mêmes coteaux", correct: false }
+        - { text: "Ce sont des vins doux mutés à l’eau-de-vie de vin", correct: false }
+        - { text: "Ce sont des effervescents issus de Chenin vendangé tôt", correct: false }
       explanation: |
         Les faibles rendements, les tries successives et les raisins surmûris ou botrytisés peuvent donner des vins doux intenses, vifs et de longue garde.
   - id: loire-melon-names-001
@@ -1865,19 +1867,19 @@ cards:
     en:
       question: "Which statement correctly distinguishes Melon de Bourgogne from Muscadet?"
       choices:
-        - { text: "Melon de Bourgogne is the grape; Muscadet is the wine appellation family", correct: true }
-        - { text: "Muscadet is the grape; Melon de Bourgogne is a sweetness level", correct: false }
-        - { text: "They are two unrelated red grapes", correct: false }
-        - { text: "Both names refer only to a winemaking method", correct: false }
+        - { text: "Melon de Bourgogne is the grape; Muscadet is the wine", correct: true }
+        - { text: "Muscadet is the grape; Melon de Bourgogne is a subzone", correct: false }
+        - { text: "Muscadet is the local name for a Muscat grape", correct: false }
+        - { text: "Melon de Bourgogne is a synonym for Chardonnay", correct: false }
       explanation: |
         The Nantais grape is Melon, commonly called Melon de Bourgogne. Muscadet names the dry white wines and their AOCs, not a separate grape variety.
     fr:
       question: "Quelle affirmation distingue correctement Melon de Bourgogne et Muscadet ?"
       choices:
-        - { text: "Melon de Bourgogne est le cépage ; Muscadet est la famille d’appellations du vin", correct: true }
-        - { text: "Muscadet est le cépage ; Melon de Bourgogne est un niveau de douceur", correct: false }
-        - { text: "Ce sont deux cépages rouges sans lien", correct: false }
-        - { text: "Les deux termes désignent uniquement une méthode de vinification", correct: false }
+        - { text: "Melon de Bourgogne est le cépage ; Muscadet est le vin", correct: true }
+        - { text: "Muscadet est le cépage ; Melon de Bourgogne est une sous-zone", correct: false }
+        - { text: "Muscadet est le nom local d’un Muscat", correct: false }
+        - { text: "Melon de Bourgogne est un synonyme du Chardonnay", correct: false }
       explanation: |
         Le cépage du Pays nantais est le Melon, couramment appelé Melon de Bourgogne. Muscadet désigne les vins blancs secs et leurs AOC, pas un autre cépage.
   - id: loire-melon-fit-001
@@ -1893,20 +1895,24 @@ cards:
       question: "Why is Melon well suited to the cool Nantais climate?"
       choices:
         - { text: "It ripens early", correct: true }
-        - { text: "It requires a very long hot autumn", correct: false }
-        - { text: "It is highly drought-dependent", correct: false }
-        - { text: "It ripens only after winter frost", correct: false }
+        - { text: "It ripens late, using the long autumn", correct: false }
+        - { text: "It reaches high sugar levels in cool years", correct: false }
+        - { text: "It is naturally resistant to mildew and rot", correct: false }
       explanation: |
-        Early ripening helps Melon reach maturity near the Atlantic. Early budbreak can still expose it to spring frost.
+        Early ripening helps Melon reach maturity near the Atlantic. It also
+        tolerates winter cold well, but its early budbreak leaves it exposed to
+        spring frost.
     fr:
       question: "Pourquoi le Melon convient-il au climat frais du Pays nantais ?"
       choices:
         - { text: "Il mûrit tôt", correct: true }
-        - { text: "Il exige un automne très long et très chaud", correct: false }
-        - { text: "Il dépend fortement de la sécheresse", correct: false }
-        - { text: "Il ne mûrit qu’après les gels d’hiver", correct: false }
+        - { text: "Il mûrit tard et profite du long automne", correct: false }
+        - { text: "Il atteint des sucres élevés même en année fraîche", correct: false }
+        - { text: "Il résiste naturellement au mildiou et à la pourriture", correct: false }
       explanation: |
-        Sa maturation précoce l’aide à atteindre la maturité près de l’Atlantique. Son débourrement précoce peut néanmoins l’exposer aux gels de printemps.
+        Sa maturation précoce l’aide à atteindre la maturité près de
+        l’Atlantique. Il supporte bien les froids d’hiver, mais son débourrement
+        précoce l’expose aux gels de printemps.
   - id: loire-nantais-where-001
     type: mcq
     deck: France::Loire
@@ -1921,7 +1927,7 @@ cards:
       choices:
         - { text: "Around Nantes at the Loire’s western end", correct: true }
         - { text: "East of Sancerre around the upper Loire", correct: false }
-        - { text: "Between Tours and Vouvray only", correct: false }
+        - { text: "Between Tours and Saumur", correct: false }
         - { text: "South of Angers along the Layon", correct: false }
       explanation: |
         The Nantais is the Loire's most maritime wine region and the home of Muscadet.
@@ -1930,7 +1936,7 @@ cards:
       choices:
         - { text: "Autour de Nantes, à l’extrémité occidentale de la Loire", correct: true }
         - { text: "À l’est de Sancerre sur la haute Loire", correct: false }
-        - { text: "Uniquement entre Tours et Vouvray", correct: false }
+        - { text: "Entre Tours et Saumur", correct: false }
         - { text: "Au sud d’Angers le long du Layon", correct: false }
       explanation: |
         Le Pays nantais est la région viticole la plus maritime de la Loire et le berceau du Muscadet.
@@ -2082,18 +2088,18 @@ cards:
       question: "Which vessels are commonly used to mature standard Muscadet before bottling?"
       choices:
         - { text: "Stainless steel or concrete tanks", correct: true }
-        - { text: "New, heavily toasted barriques only", correct: false }
-        - { text: "Open amphorae only", correct: false }
-        - { text: "A solera of small oak casks", correct: false }
+        - { text: "New oak barriques", correct: false }
+        - { text: "Used 500-litre oak barrels", correct: false }
+        - { text: "Clay amphorae", correct: false }
       explanation: |
         Inert tanks preserve freshness and avoid overt oak flavour. Large old wooden vats still exist but are less widespread.
     fr:
       question: "Quels contenants sont couramment utilisés pour élever un Muscadet standard avant la mise en bouteille ?"
       choices:
         - { text: "Des cuves en inox ou en béton", correct: true }
-        - { text: "Uniquement des barriques neuves fortement toastées", correct: false }
-        - { text: "Uniquement des amphores ouvertes", correct: false }
-        - { text: "Une solera de petits fûts", correct: false }
+        - { text: "Des barriques de chêne neuf", correct: false }
+        - { text: "Des fûts usagés de 500 litres", correct: false }
+        - { text: "Des amphores en terre cuite", correct: false }
       explanation: |
         Les cuves inertes préservent la fraîcheur et évitent les arômes boisés marqués. De grands foudres anciens existent encore mais sont moins répandus.
   - id: loire-muscadet-age-001
@@ -2109,18 +2115,18 @@ cards:
       question: "How does the ageing potential of most Muscadet compare with that of the best crus communaux?"
       choices:
         - { text: "Most drink young; top crus can age", correct: true }
-        - { text: "Every Muscadet requires at least ten years", correct: false }
-        - { text: "Only generic Muscadet can age", correct: false }
-        - { text: "Neither style can develop in bottle", correct: false }
+        - { text: "Most can age; the crus are for early drinking", correct: false }
+        - { text: "Both are best within a year of harvest", correct: false }
+        - { text: "Both need several years before release", correct: false }
       explanation: |
         The volume style emphasises youthful freshness, while concentrated, lees-aged crus communaux can gain complexity over several years.
     fr:
       question: "Comment le potentiel de garde de la majorité des Muscadets se compare-t-il à celui des meilleurs crus communaux ?"
       choices:
         - { text: "La majorité se boit jeune ; les meilleurs crus vieillissent", correct: true }
-        - { text: "Tout Muscadet exige au moins dix ans de garde", correct: false }
-        - { text: "Seul le Muscadet générique peut vieillir", correct: false }
-        - { text: "Aucun des deux styles ne peut évoluer en bouteille", correct: false }
+        - { text: "La majorité vieillit bien ; les crus se boivent jeunes", correct: false }
+        - { text: "Tous deux sont meilleurs dans l’année suivant la récolte", correct: false }
+        - { text: "Tous deux exigent plusieurs années avant la mise en marché", correct: false }
       explanation: |
         Le style de volume privilégie la fraîcheur de jeunesse, tandis que des crus communaux concentrés et longuement élevés sur lies peuvent gagner en complexité pendant plusieurs années.
   - id: loire-sur-lie-001
@@ -2219,7 +2225,7 @@ cards:
         - { text: "A rounder texture and sometimes a slight spritz", correct: true }
         - { text: "Firm grape-skin tannin and deep colour", correct: false }
         - { text: "Pronounced vanilla from new oak", correct: false }
-        - { text: "Lower acidity caused by fortification", correct: false }
+        - { text: "Lower acidity and a buttery note", correct: false }
       explanation: |
         Fine lees add mouthfeel and help retain dissolved carbon dioxide; they do not make the wine sweet or oaky.
     fr:
@@ -2228,7 +2234,7 @@ cards:
         - { text: "Une texture plus ronde et parfois un léger perlant", correct: true }
         - { text: "Des tanins fermes et une couleur profonde", correct: false }
         - { text: "Une vanille marquée provenant du bois neuf", correct: false }
-        - { text: "Une acidité plus faible due au mutage", correct: false }
+        - { text: "Une acidité plus faible et une note beurrée", correct: false }
       explanation: |
         Les lies fines apportent du volume et aident à conserver du gaz carbonique dissous ; elles ne rendent le vin ni doux ni boisé.
   - id: loire-sur-lie-handle-001
@@ -2245,7 +2251,7 @@ cards:
       choices:
         - { text: "Minimal transfers before bottling from the lees", correct: true }
         - { text: "Frequent oxidative racking into new oak", correct: false }
-        - { text: "Heating the wine before every transfer", correct: false }
+        - { text: "Fining and filtering the wine early in winter", correct: false }
         - { text: "Extended skin maceration after fermentation", correct: false }
       explanation: |
         Limited handling reduces oxygen exposure and preserves freshness and the slight carbon dioxide retained during lees ageing.
@@ -2254,7 +2260,7 @@ cards:
       choices:
         - { text: "Limiter les soutirages avant la mise depuis les lies", correct: true }
         - { text: "Multiplier les soutirages oxydatifs en bois neuf", correct: false }
-        - { text: "Chauffer le vin avant chaque transfert", correct: false }
+        - { text: "Coller et filtrer le vin dès le début de l’hiver", correct: false }
         - { text: "Prolonger la macération pelliculaire après fermentation", correct: false }
       explanation: |
         Une manipulation limitée réduit l’exposition à l’oxygène et préserve la fraîcheur ainsi que le léger gaz carbonique conservé pendant l’élevage sur lies.
@@ -2273,7 +2279,7 @@ cards:
         - { text: "It ripens earlier", correct: true }
         - { text: "It requires more heat to ripen", correct: false }
         - { text: "It retains less acidity in cool years", correct: false }
-        - { text: "It is resistant to every spring frost", correct: false }
+        - { text: "It buds later, so it escapes spring frost", correct: false }
       explanation: |
         Cabernet Franc reaches maturity earlier than Cabernet Sauvignon, reducing the risk of strongly green, under-ripe flavours in the Loire's cool climate.
     fr:
@@ -2282,7 +2288,7 @@ cards:
         - { text: "Il mûrit plus tôt", correct: true }
         - { text: "Il exige davantage de chaleur pour mûrir", correct: false }
         - { text: "Il conserve moins d’acidité lors des années fraîches", correct: false }
-        - { text: "Il résiste à tous les gels de printemps", correct: false }
+        - { text: "Il débourre plus tard et échappe au gel de printemps", correct: false }
       explanation: |
         Le Cabernet Franc atteint sa maturité plus tôt que le Cabernet Sauvignon, ce qui réduit le risque d’arômes très végétaux liés à une maturité insuffisante dans le climat frais ligérien.
   - id: loire-cf-style-gate-001
@@ -2298,18 +2304,18 @@ cards:
       question: "Which three factors most strongly shape the style of Loire Cabernet Franc?"
       choices:
         - { text: "Site climate, soil and winemaking choices", correct: true }
-        - { text: "Bottle colour, cork length and label design", correct: false }
-        - { text: "A single clone, one soil and compulsory new oak", correct: false }
-        - { text: "Harvest date alone", correct: false }
+        - { text: "Clone, rootstock and planting density", correct: false }
+        - { text: "Blending partner, bottle age and closure", correct: false }
+        - { text: "Vine age, yield limit and harvest method", correct: false }
       explanation: |
         Sandy sites tend to give lighter wines, while warmer clay-limestone slopes can produce more structure; extraction and maturation then refine the style.
     fr:
       question: "Quels trois facteurs déterminent le plus fortement le style d’un Cabernet Franc de Loire ?"
       choices:
         - { text: "Le climat du site, le sol et les choix de vinification", correct: true }
-        - { text: "La couleur de bouteille, la longueur du bouchon et l’étiquette", correct: false }
-        - { text: "Un clone unique, un seul sol et le bois neuf obligatoire", correct: false }
-        - { text: "La seule date de vendange", correct: false }
+        - { text: "Le clone, le porte-greffe et la densité de plantation", correct: false }
+        - { text: "Le cépage d’assemblage, l’âge en bouteille et le bouchage", correct: false }
+        - { text: "L’âge des vignes, le rendement autorisé et le mode de vendange", correct: false }
       explanation: |
         Les sites sableux donnent souvent des vins plus légers, tandis que des coteaux argilo-calcaires plus chauds peuvent apporter davantage de structure ; extraction et élevage affinent ensuite le style.
   - id: loire-chinon-where-001
@@ -2380,8 +2386,8 @@ cards:
       choices:
         - { text: "Bourgueil and Saint-Nicolas-de-Bourgueil", correct: true }
         - { text: "Saumur and Saumur-Champigny", correct: false }
-        - { text: "Sancerre and Menetou-Salon", correct: false }
-        - { text: "Quincy and Reuilly", correct: false }
+        - { text: "Anjou and Anjou-Villages", correct: false }
+        - { text: "Touraine and Touraine-Amboise", correct: false }
       explanation: |
         Bourgueil and Saint-Nicolas-de-Bourgueil occupy the north-bank terraces and slopes west of Tours.
     fr:
@@ -2389,8 +2395,8 @@ cards:
       choices:
         - { text: "Bourgueil et Saint-Nicolas-de-Bourgueil", correct: true }
         - { text: "Saumur et Saumur-Champigny", correct: false }
-        - { text: "Sancerre et Menetou-Salon", correct: false }
-        - { text: "Quincy et Reuilly", correct: false }
+        - { text: "Anjou et Anjou-Villages", correct: false }
+        - { text: "Touraine et Touraine-Amboise", correct: false }
       explanation: |
         Bourgueil et Saint-Nicolas-de-Bourgueil occupent les terrasses et coteaux de la rive nord, à l’ouest de Tours.
   - id: loire-cf-soil-split-001
@@ -2406,18 +2412,18 @@ cards:
       question: "How do sandy terraces and clay-limestone slopes commonly affect Touraine Cabernet Franc?"
       choices:
         - { text: "Sand: lighter; slopes: fuller and more tannic", correct: true }
-        - { text: "Sand always gives the most tannic wines; slopes the lightest", correct: false }
-        - { text: "Both soils produce only sweet rosé", correct: false }
-        - { text: "Soil has no influence on ripening or style", correct: false }
+        - { text: "Sand: fuller and more tannic; slopes: lighter", correct: false }
+        - { text: "Sand: deeper in colour; slopes: paler and softer", correct: false }
+        - { text: "Both give similar wines; vintage matters more", correct: false }
       explanation: |
         Freely draining, warmer sand suits supple fruit-led wines, while favourable tuffeau slopes can support greater ripeness, concentration and structure.
     fr:
       question: "Comment les terrasses sableuses et les coteaux argilo-calcaires influencent-ils souvent le Cabernet Franc de Touraine ?"
       choices:
         - { text: "Sable : plus léger ; coteaux : plus corsé et tannique", correct: true }
-        - { text: "Le sable donne toujours les vins les plus tanniques ; les coteaux les plus légers", correct: false }
-        - { text: "Les deux sols produisent uniquement du rosé doux", correct: false }
-        - { text: "Le sol n’a aucun effet sur la maturation ni le style", correct: false }
+        - { text: "Sable : plus corsé et tannique ; coteaux : plus léger", correct: false }
+        - { text: "Sable : plus coloré ; coteaux : plus pâle et plus souple", correct: false }
+        - { text: "Vins semblables sur les deux ; le millésime compte davantage", correct: false }
       explanation: |
         Les sables chauds et drainants conviennent à des vins souples et fruités, tandis que de bons coteaux de tuffeau peuvent favoriser davantage de maturité, de concentration et de structure.
   - id: loire-cf-oak-001
@@ -2433,18 +2439,18 @@ cards:
       question: "How is oak used for Loire Cabernet Franc?"
       choices:
         - { text: "Selectively, for more structured wines", correct: true }
-        - { text: "All wines must spend a year in new barriques", correct: false }
-        - { text: "Wood is prohibited in every red-wine AOC", correct: false }
-        - { text: "Only light sandy-site wines may use new oak", correct: false }
+        - { text: "Routinely, with new barriques for most wines", correct: false }
+        - { text: "Rarely; even the top wines stay in tank", correct: false }
+        - { text: "Mainly for light wines from sandy sites", correct: false }
       explanation: |
         Many fresh, early-drinking wines mature in tank, while more concentrated slope wines may spend time in neutral or new oak.
     fr:
       question: "Comment le bois est-il utilisé pour le Cabernet Franc de Loire ?"
       choices:
         - { text: "De façon sélective, pour les vins plus structurés", correct: true }
-        - { text: "Tous les vins doivent passer un an en barriques neuves", correct: false }
-        - { text: "Le bois est interdit dans toutes les AOC rouges", correct: false }
-        - { text: "Seuls les vins légers de sols sableux peuvent utiliser du bois neuf", correct: false }
+        - { text: "De façon courante, en barriques neuves pour la plupart des vins", correct: false }
+        - { text: "Rarement ; même les meilleurs vins restent en cuve", correct: false }
+        - { text: "Surtout pour les vins légers de sols sableux", correct: false }
       explanation: |
         Beaucoup de vins frais à boire jeunes sont élevés en cuve, tandis que des cuvées de coteau plus concentrées peuvent séjourner en bois neutre ou neuf.
   - id: loire-cf-age-001
@@ -2460,18 +2466,18 @@ cards:
       question: "What ageing potential can the best Touraine Cabernet Franc achieve?"
       choices:
         - { text: "Many years, developing savoury complexity", correct: true }
-        - { text: "Only the year after harvest", correct: false }
-        - { text: "Exactly two years by law", correct: false }
-        - { text: "None; all must be drunk as primeur", correct: false }
+        - { text: "Two to three years, before the fruit fades", correct: false }
+        - { text: "About a year, like a primeur wine", correct: false }
+        - { text: "Five years at most, as tannins are low", correct: false }
       explanation: |
         Concentrated wines from favourable slopes have enough acidity, fruit and tannin to develop beyond the early-drinking style.
     fr:
       question: "Quel potentiel de garde les meilleurs Cabernet Franc de Touraine peuvent-ils atteindre ?"
       choices:
         - { text: "De nombreuses années, avec une complexité plus évoluée", correct: true }
-        - { text: "Uniquement l’année suivant la récolte", correct: false }
-        - { text: "Exactement deux ans selon la loi", correct: false }
-        - { text: "Aucun ; tous doivent être bus en primeur", correct: false }
+        - { text: "Deux à trois ans, avant que le fruit ne s’efface", correct: false }
+        - { text: "Environ un an, comme un vin primeur", correct: false }
+        - { text: "Cinq ans au plus, faute de tanins", correct: false }
       explanation: |
         Les vins concentrés issus de coteaux favorables possèdent assez d’acidité, de fruit et de tanins pour évoluer au-delà du style à boire jeune.
   - id: loire-saumur-reds-001
@@ -2487,18 +2493,18 @@ cards:
       question: "Which two red appellations lie immediately west of Touraine's main Cabernet Franc zone?"
       choices:
         - { text: "Saumur and Saumur-Champigny", correct: true }
-        - { text: "Sancerre and Pouilly-Fumé", correct: false }
-        - { text: "Muscadet and Gros Plant du Pays Nantais", correct: false }
-        - { text: "Bonnezeaux and Quarts de Chaume", correct: false }
+        - { text: "Bourgueil and Saint-Nicolas-de-Bourgueil", correct: false }
+        - { text: "Anjou-Villages and Anjou-Villages Brissac", correct: false }
+        - { text: "Sancerre and Menetou-Salon", correct: false }
       explanation: |
         Saumur and the more tightly delimited Saumur-Champigny continue the Loire's Cabernet Franc story west of Chinon.
     fr:
       question: "Quelles deux appellations rouges se trouvent immédiatement à l’ouest de la principale zone de Cabernet Franc de Touraine ?"
       choices:
         - { text: "Saumur et Saumur-Champigny", correct: true }
-        - { text: "Sancerre et Pouilly-Fumé", correct: false }
-        - { text: "Muscadet et Gros Plant du Pays Nantais", correct: false }
-        - { text: "Bonnezeaux et Quarts de Chaume", correct: false }
+        - { text: "Bourgueil et Saint-Nicolas-de-Bourgueil", correct: false }
+        - { text: "Anjou-Villages et Anjou-Villages Brissac", correct: false }
+        - { text: "Sancerre et Menetou-Salon", correct: false }
       explanation: |
         Saumur et l’aire plus restreinte de Saumur-Champigny prolongent vers l’ouest le vignoble de Cabernet Franc de Chinon.
   - id: loire-saumur-red-style-001
@@ -2516,7 +2522,7 @@ cards:
         - { text: "Fresh red fruit, floral notes and supple tannins", correct: true }
         - { text: "High alcohol, dried fruit and heavy new oak", correct: false }
         - { text: "Deep colour, low acidity and massive tannin", correct: false }
-        - { text: "Sweetness, noble rot and no tannin", correct: false }
+        - { text: "Pale colour, low acidity and jammy fruit", correct: false }
       explanation: |
         Many are approachable and fruit-led, but lower yields, favourable tuffeau sites and careful extraction can also produce fuller, age-worthy Saumur-Champigny.
     fr:
@@ -2525,7 +2531,7 @@ cards:
         - { text: "Fruit rouge frais, notes florales et tanins souples", correct: true }
         - { text: "Alcool élevé, fruits secs et bois neuf très marqué", correct: false }
         - { text: "Couleur profonde, faible acidité et tanins massifs", correct: false }
-        - { text: "Douceur, pourriture noble et absence de tanins", correct: false }
+        - { text: "Couleur pâle, faible acidité et fruit confituré", correct: false }
       explanation: |
         Beaucoup sont accessibles et fruités, mais de faibles rendements, de bons sites de tuffeau et une extraction soignée peuvent aussi donner des Saumur-Champigny plus corsés et aptes à la garde.
   - id: loire-gamay-rank-001
@@ -2542,7 +2548,7 @@ cards:
       choices:
         - { text: "Fresh, fruity reds and rosés", correct: true }
         - { text: "Long-aged sweet whites in the Layon", correct: false }
-        - { text: "Structured reds in Sancerre only", correct: false }
+        - { text: "Structured, age-worthy reds in Sancerre", correct: false }
         - { text: "Dry whites in the Nantais", correct: false }
       explanation: |
         Gamay is important for approachable, early-drinking wines and is notably used in AOC Touraine Gamay.
@@ -2551,7 +2557,7 @@ cards:
       choices:
         - { text: "Produire des rouges et rosés frais et fruités", correct: true }
         - { text: "Produire des blancs doux de longue garde dans le Layon", correct: false }
-        - { text: "Produire uniquement des rouges structurés à Sancerre", correct: false }
+        - { text: "Produire des rouges structurés de garde à Sancerre", correct: false }
         - { text: "Produire des blancs secs dans le Pays nantais", correct: false }
       explanation: |
         Le Gamay est important pour des vins accessibles à boire jeunes et figure notamment dans l’AOC Touraine avec l’indication Gamay.
@@ -2568,18 +2574,18 @@ cards:
       question: "In which Loire regions is Gamay especially associated with fresh, early-drinking wines?"
       choices:
         - { text: "Touraine and Anjou", correct: true }
-        - { text: "The Nantais and Savennières", correct: false }
-        - { text: "Sancerre and Pouilly-Fumé only", correct: false }
-        - { text: "Vouvray and Montlouis only", correct: false }
+        - { text: "The Nantais and Anjou", correct: false }
+        - { text: "Touraine and the Central Vineyards", correct: false }
+        - { text: "Saumur and the Central Vineyards", correct: false }
       explanation: |
         It is used for red and rosé styles in Touraine and Anjou, either alone in specific wines or as part of blends.
     fr:
       question: "Dans quelles régions ligériennes le Gamay est-il particulièrement associé à des vins frais à boire jeunes ?"
       choices:
         - { text: "Touraine et Anjou", correct: true }
-        - { text: "Pays nantais et Savennières", correct: false }
-        - { text: "Sancerre et Pouilly-Fumé uniquement", correct: false }
-        - { text: "Vouvray et Montlouis uniquement", correct: false }
+        - { text: "Pays nantais et Anjou", correct: false }
+        - { text: "Touraine et Vignobles du Centre", correct: false }
+        - { text: "Saumur et Vignobles du Centre", correct: false }
       explanation: |
         Il est utilisé pour des rouges et des rosés en Touraine et en Anjou, seul dans certains vins ou intégré à des assemblages.
   - id: loire-pn-rank-001
@@ -2597,7 +2603,7 @@ cards:
         - { text: "Red and rosé wines in the Central Vineyards", correct: true }
         - { text: "Dry white wines in the Nantais", correct: false }
         - { text: "Sweet wines in the Layon", correct: false }
-        - { text: "Sparkling wines in Vouvray only", correct: false }
+        - { text: "Sparkling wines in Vouvray", correct: false }
       explanation: |
         Pinot Noir is the black grape of Sancerre and Menetou-Salon and also appears in neighbouring Centre-Loire appellations.
     fr:
@@ -2606,7 +2612,7 @@ cards:
         - { text: "Produire des rouges et rosés dans les Vignobles du Centre", correct: true }
         - { text: "Produire des blancs secs dans le Pays nantais", correct: false }
         - { text: "Produire des vins doux dans le Layon", correct: false }
-        - { text: "Produire uniquement des effervescents à Vouvray", correct: false }
+        - { text: "Produire des effervescents à Vouvray", correct: false }
       explanation: |
         Le Pinot Noir est le cépage noir de Sancerre et Menetou-Salon et apparaît aussi dans des appellations voisines du Centre-Loire.
   - id: loire-pn-where-001
@@ -2648,19 +2654,19 @@ cards:
     en:
       question: "Why does Pinot Noir need favourable sites in the cool Central Vineyards?"
       choices:
-        - { text: "Good sun exposure and drainage aid ripening", correct: true }
-        - { text: "It requires permanent waterlogging", correct: false }
-        - { text: "It ripens best on shaded valley floors", correct: false }
-        - { text: "It needs the hottest Mediterranean conditions", correct: false }
+        - { text: "It struggles to ripen without warm, well-exposed slopes", correct: true }
+        - { text: "It buds late, so it needs long frost-free autumns", correct: false }
+        - { text: "Its thick skins need extra heat to soften the tannins", correct: false }
+        - { text: "It loses its acidity too quickly on cooler sites", correct: false }
       explanation: |
         Warm, exposed slopes improve ripening in this northerly area, while cold or humid sites can leave thin fruit and increase disease risk.
     fr:
       question: "Pourquoi le Pinot Noir a-t-il besoin de sites favorables dans les Vignobles du Centre au climat frais ?"
       choices:
-        - { text: "Un bon ensoleillement et un bon drainage favorisent sa maturité", correct: true }
-        - { text: "Il exige des sols constamment gorgés d’eau", correct: false }
-        - { text: "Il mûrit mieux dans les fonds de vallée ombragés", correct: false }
-        - { text: "Il a besoin des conditions méditerranéennes les plus chaudes", correct: false }
+        - { text: "Il peine à mûrir sans coteaux chauds et bien exposés", correct: true }
+        - { text: "Il débourre tard et exige de longs automnes sans gel", correct: false }
+        - { text: "Ses pellicules épaisses demandent plus de chaleur pour assouplir les tanins", correct: false }
+        - { text: "Il perd trop vite son acidité sur les sites plus frais", correct: false }
       explanation: |
         Des coteaux chauds et exposés améliorent la maturation dans cette zone septentrionale, tandis que les sites froids ou humides peuvent donner un fruit mince et accroître les maladies.
   - id: loire-pn-style-001
@@ -2677,7 +2683,7 @@ cards:
       choices:
         - { text: "Light-bodied, high in acidity and red-fruited", correct: true }
         - { text: "Full-bodied, high in alcohol and black-fruited", correct: false }
-        - { text: "Sweet, fortified and oxidative", correct: false }
+        - { text: "Medium-bodied, low in acidity and jammy", correct: false }
         - { text: "Deeply coloured with massive tannins", correct: false }
       explanation: |
         The cool climate generally produces pale, fresh reds and delicate rosés, though the best warm sites can give more concentration.
@@ -2686,7 +2692,7 @@ cards:
       choices:
         - { text: "Léger, vif et marqué par les fruits rouges", correct: true }
         - { text: "Corsé, fortement alcoolisé et marqué par les fruits noirs", correct: false }
-        - { text: "Doux, fortifié et oxydatif", correct: false }
+        - { text: "De corps moyen, peu acide et confituré", correct: false }
         - { text: "Très coloré avec des tanins massifs", correct: false }
       explanation: |
         Le climat frais donne généralement des rouges pâles et frais et des rosés délicats, même si les meilleurs sites chauds peuvent apporter davantage de concentration.
@@ -2730,18 +2736,18 @@ cards:
       question: "Across which two broad Loire regions may Rosé de Loire be produced?"
       choices:
         - { text: "Anjou-Saumur and Touraine", correct: true }
-        - { text: "The Nantais and Central Vineyards", correct: false }
-        - { text: "Sancerre and Pouilly-Fumé only", correct: false }
-        - { text: "Vouvray and Savennières only", correct: false }
+        - { text: "Anjou-Saumur and the Nantais", correct: false }
+        - { text: "Touraine and the Central Vineyards", correct: false }
+        - { text: "The Nantais and Touraine", correct: false }
       explanation: |
         The appellation spans approved areas in Anjou-Saumur and Touraine, making it broader than the Anjou-only rosé names.
     fr:
       question: "Dans quelles deux grandes régions ligériennes le Rosé de Loire peut-il être produit ?"
       choices:
         - { text: "Anjou-Saumur et Touraine", correct: true }
-        - { text: "Pays nantais et Vignobles du Centre", correct: false }
-        - { text: "Sancerre et Pouilly-Fumé uniquement", correct: false }
-        - { text: "Vouvray et Savennières uniquement", correct: false }
+        - { text: "Anjou-Saumur et Pays nantais", correct: false }
+        - { text: "Touraine et Vignobles du Centre", correct: false }
+        - { text: "Pays nantais et Touraine", correct: false }
       explanation: |
         L’appellation couvre des secteurs agréés d’Anjou-Saumur et de Touraine ; elle est donc plus large que les appellations de rosé propres à l’Anjou.
   - id: loire-rose-de-loire-vol-001
@@ -2759,7 +2765,7 @@ cards:
         - { text: "Dry, fresh, with red-berry and sometimes floral notes", correct: true }
         - { text: "Medium-sweet, botrytised and honeyed", correct: false }
         - { text: "Full-bodied, tannic and matured in new oak", correct: false }
-        - { text: "Oxidative, nutty and matured under flor", correct: false }
+        - { text: "Off-dry, pale and lightly sparkling", correct: false }
       explanation: |
         The appellation produces dry rosé, commonly showing cherry, strawberry or raspberry notes and a fresh, supple palate.
     fr:
@@ -2768,7 +2774,7 @@ cards:
         - { text: "Sec et frais, avec des notes de petits fruits rouges et parfois florales", correct: true }
         - { text: "Demi-doux, botrytisé et miellé", correct: false }
         - { text: "Corsé, tannique et élevé en bois neuf", correct: false }
-        - { text: "Oxydatif, marqué par la noix et élevé sous voile", correct: false }
+        - { text: "Demi-sec, pâle et légèrement perlant", correct: false }
       explanation: |
         L’appellation produit un rosé sec, souvent marqué par la cerise, la fraise ou la framboise, avec une bouche fraîche et souple.
   - id: loire-rose-de-loire-dry-001
@@ -2808,21 +2814,21 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: "Which statement about Rosé de Loire grape varieties is correct?"
+      question: "Which grapes may be used for Rosé de Loire?"
       choices:
-        - { text: "Several local black grapes are permitted", correct: true }
-        - { text: "Only Cabernet Franc is permitted", correct: false }
-        - { text: "Only Grolleau is permitted", correct: false }
-        - { text: "Only Pinot Noir is permitted", correct: false }
+        - { text: "A range including the Cabernets, Gamay and Grolleau", correct: true }
+        - { text: "Cabernet Franc and Cabernet Sauvignon, as in Cabernet d’Anjou", correct: false }
+        - { text: "Grolleau and Gamay, with no Cabernet allowed", correct: false }
+        - { text: "Pinot Noir, as in Sancerre rosé", correct: false }
       explanation: |
         The broad permitted list reflects the appellation's reach across both Anjou-Saumur and Touraine.
     fr:
-      question: "Quelle affirmation sur les cépages du Rosé de Loire est juste ?"
+      question: "Quels cépages peuvent entrer dans le Rosé de Loire ?"
       choices:
-        - { text: "Plusieurs cépages noirs locaux sont autorisés", correct: true }
-        - { text: "Seul le Cabernet Franc est autorisé", correct: false }
-        - { text: "Seul le Grolleau est autorisé", correct: false }
-        - { text: "Seul le Pinot Noir est autorisé", correct: false }
+        - { text: "Une palette incluant les Cabernets, le Gamay et le Grolleau", correct: true }
+        - { text: "Cabernet Franc et Cabernet Sauvignon, comme en Cabernet d’Anjou", correct: false }
+        - { text: "Grolleau et Gamay, sans aucun Cabernet", correct: false }
+        - { text: "Pinot Noir, comme en Sancerre rosé", correct: false }
       explanation: |
         La large liste de cépages autorisés reflète l’étendue de l’appellation en Anjou-Saumur comme en Touraine.
   - id: loire-anjou-rose-aocs-001
@@ -2837,10 +2843,10 @@ cards:
     en:
       question: Besides Rosé de Loire, which two Anjou AOCs are specifically rosé appellations?
       choices:
-        - { text: "Chinon and Bourgueil", correct: false }
+        - { text: "Cabernet d’Anjou and Anjou-Villages", correct: false }
         - { text: "Cabernet d’Anjou and Rosé d’Anjou", correct: true }
-        - { text: "Muscadet and Gros Plant", correct: false }
-        - { text: "Quarts de Chaume and Bonnezeaux", correct: false }
+        - { text: "Rosé d’Anjou and Coteaux de l’Aubance", correct: false }
+        - { text: "Anjou-Villages and Saumur-Champigny", correct: false }
       explanation: |
         **Cabernet d’Anjou** and **Rosé d’Anjou** are both tender rosés,
         but their permitted grapes and minimum sugar levels differ.
@@ -2848,10 +2854,10 @@ cards:
     fr:
       question: "Outre Rosé de Loire, quelles deux AOC d’Anjou sont consacrées au rosé ?"
       choices:
-        - { text: "Chinon et Bourgueil", correct: false }
+        - { text: "Cabernet d’Anjou et Anjou-Villages", correct: false }
         - { text: "Cabernet d’Anjou et Rosé d’Anjou", correct: true }
-        - { text: "Muscadet et Gros Plant du Pays Nantais", correct: false }
-        - { text: "Bonnezeaux et Quarts de Chaume", correct: false }
+        - { text: "Rosé d’Anjou et Coteaux de l’Aubance", correct: false }
+        - { text: "Anjou-Villages et Saumur-Champigny", correct: false }
       explanation: |
         Cabernet d’Anjou et Rosé d’Anjou sont tous deux des rosés tendres, mais leurs règles d’encépagement et leurs seuils minimaux de sucre diffèrent.
   - id: loire-cabernet-anjou-001
@@ -2867,18 +2873,18 @@ cards:
       question: "Which grapes define Cabernet d’Anjou?"
       choices:
         - { text: "Cabernet Franc and Cabernet Sauvignon", correct: true }
-        - { text: "Grolleau Noir and Grolleau Gris only", correct: false }
-        - { text: "Pinot Noir and Gamay only", correct: false }
-        - { text: "Melon and Sauvignon Blanc", correct: false }
+        - { text: "Grolleau and Gamay", correct: false }
+        - { text: "Cabernet Franc and Grolleau", correct: false }
+        - { text: "Pinot Noir and Gamay", correct: false }
       explanation: |
         The appellation is based on the two Cabernets. This distinguishes it from Rosé d’Anjou, which is commonly led by Grolleau.
     fr:
       question: "Quels cépages définissent le Cabernet d’Anjou ?"
       choices:
         - { text: "Cabernet Franc et Cabernet Sauvignon", correct: true }
-        - { text: "Grolleau Noir et Grolleau Gris uniquement", correct: false }
-        - { text: "Pinot Noir et Gamay uniquement", correct: false }
-        - { text: "Melon et Sauvignon Blanc", correct: false }
+        - { text: "Grolleau et Gamay", correct: false }
+        - { text: "Cabernet Franc et Grolleau", correct: false }
+        - { text: "Pinot Noir et Gamay", correct: false }
       explanation: |
         L’appellation repose sur les deux Cabernets. Elle se distingue ainsi du Rosé d’Anjou, généralement dominé par le Grolleau.
   - id: loire-cabernet-anjou-sweet-001
@@ -2891,21 +2897,21 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: "Which statement best describes Cabernet d’Anjou's sweetness?"
+      question: "What minimum level of fermentable sugar applies to Cabernet d’Anjou?"
       choices:
-        - { text: "At least 10 g/L of fermentable sugar", correct: true }
-        - { text: "It must be bone-dry, below 3 g/L", correct: false }
-        - { text: "It must contain more than 100 g/L", correct: false }
-        - { text: "It may contain no residual sugar", correct: false }
+        - { text: "10 g/L", correct: true }
+        - { text: "4 g/L", correct: false }
+        - { text: "7 g/L", correct: false }
+        - { text: "45 g/L", correct: false }
       explanation: |
         Cabernet d’Anjou is a *rosé tendre*: its legal minimum is 10 g/L of fermentable sugar, though actual sweetness varies between wines.
     fr:
-      question: "Quelle affirmation décrit le mieux la douceur du Cabernet d’Anjou ?"
+      question: "Quel minimum de sucres fermentescibles s’applique au Cabernet d’Anjou ?"
       choices:
-        - { text: "Au moins 10 g/L de sucres fermentescibles", correct: true }
-        - { text: "Il doit être parfaitement sec, sous 3 g/L", correct: false }
-        - { text: "Il doit dépasser 100 g/L", correct: false }
-        - { text: "Il ne peut contenir aucun sucre résiduel", correct: false }
+        - { text: "10 g/L", correct: true }
+        - { text: "4 g/L", correct: false }
+        - { text: "7 g/L", correct: false }
+        - { text: "45 g/L", correct: false }
       explanation: |
         Le Cabernet d’Anjou est un *rosé tendre* : son minimum légal est de 10 g/L de sucres fermentescibles, mais la douceur réelle varie selon les vins.
   - id: loire-rose-anjou-001
@@ -2921,18 +2927,18 @@ cards:
       question: "How do the legal minimum sugar levels of Rosé d’Anjou and Cabernet d’Anjou compare?"
       choices:
         - { text: "Rosé d’Anjou starts lower: 7 g/L versus 10 g/L", correct: true }
-        - { text: "They are both required to be below 3 g/L", correct: false }
+        - { text: "Both start at the same level: 10 g/L", correct: false }
         - { text: "Rosé d’Anjou starts at 10 g/L and Cabernet d’Anjou at 7 g/L", correct: false }
-        - { text: "Both must exceed 100 g/L", correct: false }
+        - { text: "Rosé d’Anjou has no minimum; Cabernet d’Anjou 10 g/L", correct: false }
       explanation: |
         Both are tender, fruit-led rosés, but the lower minimum for Rosé d’Anjou generally allows a less sweet profile.
     fr:
       question: "Comment se comparent les seuils minimaux de sucre du Rosé d’Anjou et du Cabernet d’Anjou ?"
       choices:
         - { text: "Rosé d’Anjou commence plus bas : 7 g/L contre 10 g/L", correct: true }
-        - { text: "Tous deux doivent rester sous 3 g/L", correct: false }
+        - { text: "Tous deux commencent au même niveau : 10 g/L", correct: false }
         - { text: "Rosé d’Anjou commence à 10 g/L et Cabernet d’Anjou à 7 g/L", correct: false }
-        - { text: "Tous deux doivent dépasser 100 g/L", correct: false }
+        - { text: "Rosé d’Anjou n’a pas de minimum ; Cabernet d’Anjou 10 g/L", correct: false }
       explanation: |
         Les deux sont des rosés tendres et fruités, mais le minimum plus faible du Rosé d’Anjou permet généralement un profil moins doux.
   - id: loire-rose-anjou-grape-001
@@ -2948,18 +2954,18 @@ cards:
       question: "Which grape commonly leads Rosé d’Anjou?"
       choices:
         - { text: "Grolleau", correct: true }
+        - { text: "Cabernet Franc", correct: false }
+        - { text: "Gamay", correct: false }
         - { text: "Pinot Noir", correct: false }
-        - { text: "Melon", correct: false }
-        - { text: "Sauvignon Blanc", correct: false }
       explanation: |
         Grolleau, including its local forms, is central to the appellation, with other permitted Anjou black grapes available for blending.
     fr:
       question: "Quel cépage domine couramment le Rosé d’Anjou ?"
       choices:
         - { text: "Grolleau", correct: true }
+        - { text: "Cabernet Franc", correct: false }
+        - { text: "Gamay", correct: false }
         - { text: "Pinot Noir", correct: false }
-        - { text: "Melon", correct: false }
-        - { text: "Sauvignon Blanc", correct: false }
       explanation: |
         Le Grolleau, sous ses formes locales, joue un rôle central dans l’appellation ; d’autres cépages noirs autorisés en Anjou peuvent compléter l’assemblage.
   - id: loire-touraine-rose-001
@@ -2975,18 +2981,18 @@ cards:
       question: "Which profile is common for Touraine rosé?"
       choices:
         - { text: "Dry, fresh and fruity, from several possible black grapes", correct: true }
-        - { text: "Sweet and botrytised, from Chenin Blanc", correct: false }
-        - { text: "Full-bodied and tannic, from Cabernet Sauvignon only", correct: false }
-        - { text: "Oxidative and nutty, from Melon", correct: false }
+        - { text: "Medium-sweet and fruity, mainly from Grolleau", correct: false }
+        - { text: "Dry, pale and delicate, from Pinot Noir alone", correct: false }
+        - { text: "Medium-sweet and soft, from the two Cabernets", correct: false }
       explanation: |
         Touraine's broad black-grape palette allows fresh rosés, often based on Gamay, Côt, Cabernets, Pineau d’Aunis or Pinot Noir depending on the wine.
     fr:
       question: "Quel profil est courant pour un rosé de Touraine ?"
       choices:
         - { text: "Sec, frais et fruité, issu de plusieurs cépages noirs possibles", correct: true }
-        - { text: "Doux et botrytisé, issu de Chenin Blanc", correct: false }
-        - { text: "Corsé et tannique, issu uniquement de Cabernet Sauvignon", correct: false }
-        - { text: "Oxydatif et marqué par la noix, issu de Melon", correct: false }
+        - { text: "Demi-doux et fruité, surtout issu de Grolleau", correct: false }
+        - { text: "Sec, pâle et délicat, issu du seul Pinot Noir", correct: false }
+        - { text: "Demi-doux et souple, issu des deux Cabernets", correct: false }
       explanation: |
         La large palette de cépages noirs de Touraine permet des rosés frais, selon les vins à base de Gamay, Côt, Cabernets, Pineau d’Aunis ou Pinot Noir.
   - id: loire-sancerre-rose-001
@@ -3002,18 +3008,18 @@ cards:
       question: "Which combination best describes Sancerre rosé?"
       choices:
         - { text: "Pinot Noir; dry, pale and delicately red-fruited", correct: true }
-        - { text: "Grolleau; medium-sweet and deeply coloured", correct: false }
-        - { text: "Cabernet Franc; sweet and botrytised", correct: false }
-        - { text: "Melon; light and slightly sparkling", correct: false }
+        - { text: "Grolleau; medium-sweet and fruity", correct: false }
+        - { text: "Cabernet Franc; medium-sweet and deeper pink", correct: false }
+        - { text: "Gamay; dry, light and very fruity", correct: false }
       explanation: |
         Sancerre rosé is made from Pinot Noir and is typically dry, fresh and delicate.
     fr:
       question: "Quelle association décrit le mieux un Sancerre rosé ?"
       choices:
         - { text: "Pinot Noir ; sec, pâle et délicatement marqué par les fruits rouges", correct: true }
-        - { text: "Grolleau ; demi-doux et très coloré", correct: false }
-        - { text: "Cabernet Franc ; doux et botrytisé", correct: false }
-        - { text: "Melon ; léger et légèrement effervescent", correct: false }
+        - { text: "Grolleau ; demi-doux et fruité", correct: false }
+        - { text: "Cabernet Franc ; demi-doux et d’un rose plus soutenu", correct: false }
+        - { text: "Gamay ; sec, léger et très fruité", correct: false }
       explanation: |
         Le Sancerre rosé est issu du Pinot Noir et présente généralement un style sec, frais et délicat.
   - id: loire-rose-vinify-001
@@ -3030,8 +3036,8 @@ cards:
       choices:
         - { text: "Brief skin contact, then cool fermentation", correct: true }
         - { text: "Long extraction on skins followed by heavy new oak", correct: false }
-        - { text: "Fortification during fermentation and oxidative ageing", correct: false }
-        - { text: "Drying the grapes before a warm fermentation", correct: false }
+        - { text: "Blending finished red and white wines", correct: false }
+        - { text: "Warm fermentation on skins, then old oak", correct: false }
       explanation: |
         Limited skin contact controls colour and tannin, while cool fermentation and inert vessels retain fresh fruit aromas.
     fr:
@@ -3039,7 +3045,7 @@ cards:
       choices:
         - { text: "Bref contact pelliculaire, puis fermentation fraîche", correct: true }
         - { text: "Longue extraction sur les pellicules puis bois neuf très marqué", correct: false }
-        - { text: "Mutage pendant la fermentation puis élevage oxydatif", correct: false }
-        - { text: "Séchage des raisins avant une fermentation chaude", correct: false }
+        - { text: "Assemblage de vins rouges et blancs finis", correct: false }
+        - { text: "Fermentation chaude sur pellicules, puis vieux fûts", correct: false }
       explanation: |
         Un contact limité avec les pellicules maîtrise la couleur et les tanins, tandis qu’une fermentation fraîche en cuve inerte préserve les arômes de fruit frais.

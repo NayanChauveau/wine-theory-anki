@@ -381,8 +381,8 @@ cards:
       choices:
         - { text: "One or two days", correct: false }
         - { text: "Several weeks or even months", correct: true }
-        - { text: "Exactly one calendar week", correct: false }
-        - { text: "Only until the first rain", correct: false }
+        - { text: "About one week", correct: false }
+        - { text: "About ten days", correct: false }
       explanation: |
         **Several weeks or even months.** Early picks may supply lighter wines, while fruit for noble-sweet wine or Eiswein remains on the vine much longer.
     fr:
@@ -390,8 +390,8 @@ cards:
       choices:
         - { text: "Un ou deux jours", correct: false }
         - { text: "Plusieurs semaines, voire plusieurs mois", correct: true }
-        - { text: "Exactement une semaine", correct: false }
-        - { text: "Seulement jusqu'à la première pluie", correct: false }
+        - { text: "Environ une semaine", correct: false }
+        - { text: "Une dizaine de jours", correct: false }
       explanation: |
         **Plusieurs semaines, voire plusieurs mois.** Les premières tries peuvent fournir les vins les plus légers, tandis que les raisins destinés aux liquoreux ou à l'Eiswein restent beaucoup plus longtemps sur pied.
 
@@ -407,10 +407,10 @@ cards:
     en:
       question: "What can one German vineyard produce from a single vintage when its fruit is picked and sorted selectively?"
       choices:
-        - { text: "Only one Prädikat level", correct: false }
+        - { text: "A single Prädikat level", correct: false }
         - { text: "Several Qualität and Prädikat lots", correct: true }
-        - { text: "Only dry Qualitätswein", correct: false }
-        - { text: "Only botrytised Prädikatswein", correct: false }
+        - { text: "Qualitätswein but no Prädikatswein", correct: false }
+        - { text: "Prädikatswein but no Qualitätswein", correct: false }
       explanation: |
         **Several Qualität and Prädikat lots.** Differences in ripeness and berry condition allow one site to supply more than one legal category and style.
     fr:
@@ -418,8 +418,8 @@ cards:
       choices:
         - { text: "Un seul niveau de Prädikat", correct: false }
         - { text: "Plusieurs lots de Qualität et de Prädikat", correct: true }
-        - { text: "Uniquement du Qualitätswein sec", correct: false }
-        - { text: "Uniquement du Prädikatswein botrytisé", correct: false }
+        - { text: "Du Qualitätswein mais aucun Prädikatswein", correct: false }
+        - { text: "Du Prädikatswein mais aucun Qualitätswein", correct: false }
       explanation: |
         **Plusieurs lots de Qualität et de Prädikat.** Les écarts de maturité et d'état sanitaire permettent à un site d'alimenter plusieurs catégories légales et plusieurs styles.
 
@@ -545,23 +545,23 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: "Under which legal class may a German still wine be enriched to raise potential alcohol?"
+      question: "Which is the highest German quality class in which enrichment of the must is still permitted?"
       choices:
         - { text: "Landwein", correct: false }
         - { text: "Qualitätswein", correct: true }
         - { text: "Prädikatswein", correct: false }
-        - { text: "Deutscher Wein only", correct: false }
+        - { text: "Deutscher Wein", correct: false }
       explanation: |
-        **Qualitätswein.** Enrichment is permitted for this PDO class but prohibited for Prädikatswein, whose grapes must reach the required must weight naturally.
+        **Qualitätswein.** Enrichment is allowed for Deutscher Wein, Landwein and Qualitätswein, but prohibited for Prädikatswein, whose grapes must reach the required must weight naturally.
     fr:
-      question: "Dans quelle catégorie légale un vin tranquille allemand peut-il être enrichi afin d'augmenter son alcool potentiel ?"
+      question: "Quelle est la catégorie allemande la plus élevée pour laquelle l’enrichissement du moût reste autorisé ?"
       choices:
         - { text: "Landwein", correct: false }
         - { text: "Qualitätswein", correct: true }
         - { text: "Prädikatswein", correct: false }
-        - { text: "Deutscher Wein uniquement", correct: false }
+        - { text: "Deutscher Wein", correct: false }
       explanation: |
-        **Qualitätswein.** L'enrichissement est autorisé pour cette catégorie d'AOP, mais interdit pour le Prädikatswein, dont les raisins doivent naturellement atteindre le poids de moût requis.
+        **Qualitätswein.** L’enrichissement est autorisé pour le Deutscher Wein, le Landwein et le Qualitätswein, mais interdit pour le Prädikatswein, dont les raisins doivent atteindre naturellement le poids de moût requis.
 
   - id: germany-pradikat-whites-001
     type: mcq
@@ -631,19 +631,19 @@ cards:
     en:
       question: "Which statement about grape varieties for German Prädikatswein is correct?"
       choices:
-        - { text: "Only Riesling is permitted", correct: false }
+        - { text: "It is reserved for Riesling", correct: false }
         - { text: "Several varieties may qualify", correct: true }
-        - { text: "Only Spätburgunder is permitted", correct: false }
-        - { text: "Only crossings are permitted", correct: false }
+        - { text: "It is reserved for white varieties", correct: false }
+        - { text: "It excludes crossings such as Scheurebe", correct: false }
       explanation: |
         **Several varieties may qualify.** Riesling supplies many famous examples, but Prädikatswein is a ripeness category rather than a Riesling-only designation.
     fr:
       question: "Quelle affirmation sur les cépages du Prädikatswein allemand est correcte ?"
       choices:
-        - { text: "Seul le Riesling est autorisé", correct: false }
+        - { text: "Il est réservé au Riesling", correct: false }
         - { text: "Plusieurs cépages peuvent y prétendre", correct: true }
-        - { text: "Seul le Spätburgunder est autorisé", correct: false }
-        - { text: "Seuls les croisements sont autorisés", correct: false }
+        - { text: "Il est réservé aux cépages blancs", correct: false }
+        - { text: "Il exclut les croisements comme le Scheurebe", correct: false }
       explanation: |
         **Plusieurs cépages peuvent y prétendre.** Le Riesling fournit de nombreux exemples célèbres, mais le Prädikatswein est une catégorie de maturité et non une mention réservée à ce cépage.
 
@@ -857,7 +857,7 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: "What is the highest Prädikat level that can legally be made as a dry wine?"
+      question: "What is the highest Prädikat level at which a wine can be made dry?"
       choices:
         - { text: "Spätlese", correct: false }
         - { text: "Auslese", correct: true }
@@ -866,7 +866,7 @@ cards:
       explanation: |
         **Auslese.** Kabinett, Spätlese and Auslese can be fermented dry; Beerenauslese, Eiswein and Trockenbeerenauslese remain sweet.
     fr:
-      question: "Quel est le niveau de Prädikat le plus élevé pouvant légalement être élaboré en vin sec ?"
+      question: "Quel est le niveau de Prädikat le plus élevé auquel un vin peut être élaboré en sec ?"
       choices:
         - { text: "Spätlese", correct: false }
         - { text: "Auslese", correct: true }
@@ -1475,22 +1475,22 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: Which crossing still sits second among German whites by area, even after grubbing-up?
+      question: Which variety still ranks second among German white grapes by area, even after decades of grubbing-up?
       choices:
-        - { text: "Chardonnay", correct: false }
+        - { text: "Grauburgunder", correct: false }
         - { text: "Müller-Thurgau", correct: true }
-        - { text: "Elbling", correct: false }
-        - { text: "Sauvignon Blanc", correct: false }
+        - { text: "Silvaner", correct: false }
+        - { text: "Weißburgunder", correct: false }
       explanation: |
         **Müller-Thurgau.** Second white by hectares, even after
         decades of grubbing up.
     fr:
-      question: "Quel croisement occupe encore la deuxième superficie parmi les cépages blancs allemands malgré de nombreux arrachages ?"
+      question: "Quel cépage occupe encore la deuxième superficie parmi les cépages blancs allemands malgré de nombreux arrachages ?"
       choices:
-        - { text: "Chardonnay", correct: false }
+        - { text: "Grauburgunder", correct: false }
         - { text: "Müller-Thurgau", correct: true }
-        - { text: "Elbling", correct: false }
-        - { text: "Sauvignon Blanc", correct: false }
+        - { text: "Silvaner", correct: false }
+        - { text: "Weißburgunder", correct: false }
       explanation: |
         **Müller-Thurgau.** Il reste le deuxième cépage blanc par superficie, même après plusieurs décennies de recul.
 
@@ -1534,21 +1534,21 @@ cards:
     en:
       question: "What is the main market reason for the decline in German Müller-Thurgau plantings?"
       choices:
-        - { text: "Falling demand for inexpensive off-dry and medium-sweet wine", correct: false }
-        - { text: "Rising demand for inexpensive off-dry and medium-sweet wine", correct: true }
+        - { text: "Falling demand for inexpensive dry wine", correct: false }
+        - { text: "Falling demand for inexpensive medium-sweet wine", correct: true }
         - { text: "A shortage of sites warm enough for the variety", correct: false }
         - { text: "A legal requirement to replace it with Riesling", correct: false }
       explanation: |
-        **Falling demand for inexpensive off-dry and medium-sweet wine.** As drinkers turned toward dry and more distinctive styles, growers removed substantial areas of Müller-Thurgau.
+        **Falling demand for inexpensive medium-sweet wine.** As drinkers turned toward dry and more distinctive styles, growers removed substantial areas of Müller-Thurgau.
     fr:
       question: "Quelle raison commerciale explique principalement le recul des plantations allemandes de Müller-Thurgau ?"
       choices:
-        - { text: "La baisse de la demande pour les vins demi-secs et demi-doux bon marché", correct: false }
-        - { text: "La hausse de la demande pour les vins demi-secs et demi-doux bon marché", correct: true }
+        - { text: "La baisse de la demande pour les vins secs bon marché", correct: false }
+        - { text: "La baisse de la demande pour les vins demi-doux bon marché", correct: true }
         - { text: "Le manque de sites assez chauds pour ce cépage", correct: false }
         - { text: "L'obligation légale de le remplacer par du Riesling", correct: false }
       explanation: |
-        **La baisse de la demande pour les vins demi-secs et demi-doux bon marché.** Avec l'intérêt croissant pour les vins secs et plus distinctifs, les producteurs ont arraché des surfaces importantes de Müller-Thurgau.
+        **La baisse de la demande pour les vins demi-doux bon marché.** Avec l'intérêt croissant pour les vins secs et plus distinctifs, les producteurs ont arraché des surfaces importantes de Müller-Thurgau.
 
   - id: germany-grauburgunder-rank-001
     type: mcq
@@ -1674,19 +1674,19 @@ cards:
     en:
       question: "What quality can Silvaner achieve on warm, well-exposed sites in Franken?"
       choices:
-        - { text: "Only simple regional wine", correct: false }
+        - { text: "Simple wine for early drinking", correct: false }
         - { text: "High-quality, concentrated wine", correct: true }
-        - { text: "Only neutral base wine", correct: false }
-        - { text: "Only lightly sparkling wine", correct: false }
+        - { text: "Neutral base wine for Sekt", correct: false }
+        - { text: "Light, off-dry everyday wine", correct: false }
       explanation: |
         **High-quality, concentrated wine.** Franken's warm slopes allow Silvaner to ripen fully and produce the region's most prestigious dry wines.
     fr:
       question: "Quel niveau de qualité le Silvaner peut-il atteindre sur les sites chauds et bien exposés de Franken ?"
       choices:
-        - { text: "Seulement un vin régional simple", correct: false }
+        - { text: "Un vin simple à boire jeune", correct: false }
         - { text: "Un vin concentré de grande qualité", correct: true }
-        - { text: "Seulement un vin de base neutre", correct: false }
-        - { text: "Seulement un vin légèrement effervescent", correct: false }
+        - { text: "Un vin de base neutre pour Sekt", correct: false }
+        - { text: "Un vin courant léger et demi-sec", correct: false }
       explanation: |
         **Un vin concentré de grande qualité.** Les coteaux chauds de Franken permettent au Silvaner d'atteindre sa pleine maturité et de produire les vins secs les plus prestigieux de la région.
 
@@ -1886,7 +1886,7 @@ cards:
         - { text: "Mosel et Nahe", correct: false }
         - { text: "Franken et Sachsen", correct: false }
       explanation: |
-        **Pfalz et Baden.** Baden est le premier vignoble national et Pfalz possède également d'importantes plantations ; l'Ahr, bien plus petit, se distingue surtout par sa réputation et sa spécialisation.
+        **Pfalz et Baden.** Baden arrive en tête au niveau national pour ce cépage et Pfalz possède également d'importantes plantations ; l'Ahr, bien plus petit, se distingue surtout par sa réputation et sa spécialisation.
 
   - id: germany-spatburgunder-dry-001
     type: mcq
@@ -2013,7 +2013,7 @@ cards:
     en:
       question: "Which trio consists of other widely planted black grapes in Germany?"
       choices:
-        - { text: "Lemberger, Regent and Frühburgunder", correct: false }
+        - { text: "Frühburgunder, Domina and Sankt Laurent", correct: false }
         - { text: "Portugieser, Trollinger and Schwarzriesling", correct: true }
         - { text: "Cabernet Sauvignon, Merlot and Syrah", correct: false }
         - { text: "Gamay, Nebbiolo and Sangiovese", correct: false }
@@ -2022,7 +2022,7 @@ cards:
     fr:
       question: "Quel trio réunit d'autres cépages noirs largement plantés en Allemagne ?"
       choices:
-        - { text: "Lemberger, Regent et Frühburgunder", correct: false }
+        - { text: "Frühburgunder, Domina et Sankt Laurent", correct: false }
         - { text: "Portugieser, Trollinger et Schwarzriesling", correct: true }
         - { text: "Cabernet Sauvignon, Merlot et Syrah", correct: false }
         - { text: "Gamay, Nebbiolo et Sangiovese", correct: false }
@@ -2069,19 +2069,19 @@ cards:
     en:
       question: "Under which legal class are many everyday German red wines sold?"
       choices:
-        - { text: "Landwein only", correct: false }
+        - { text: "Landwein", correct: false }
         - { text: "Qualitätswein", correct: true }
-        - { text: "Prädikatswein only", correct: false }
-        - { text: "Großes Gewächs", correct: false }
+        - { text: "Prädikatswein", correct: false }
+        - { text: "Deutscher Wein", correct: false }
       explanation: |
         **Qualitätswein.** This broad PDO class accommodates many dry, accessible reds; Prädikat is encountered much more often on white wine.
     fr:
       question: "Dans quelle catégorie légale de nombreux rouges allemands courants sont-ils commercialisés ?"
       choices:
-        - { text: "Landwein uniquement", correct: false }
+        - { text: "Landwein", correct: false }
         - { text: "Qualitätswein", correct: true }
-        - { text: "Prädikatswein uniquement", correct: false }
-        - { text: "Großes Gewächs", correct: false }
+        - { text: "Prädikatswein", correct: false }
+        - { text: "Deutscher Wein", correct: false }
       explanation: |
         **Qualitätswein.** Cette large catégorie d'AOP accueille de nombreux rouges secs et accessibles ; les Prädikate se rencontrent bien plus souvent sur les blancs.
 
@@ -2234,7 +2234,7 @@ cards:
     source_id: c22-0063
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: [known-fact, official-vdp]
     en:
       question: "Which grapes may produce a VDP.GROSSES GEWÄCHS® in Mosel?"
       choices:
@@ -2768,7 +2768,7 @@ cards:
     source_id: c22-0076
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: [known-fact, official-vdp]
     en:
       question: "Which grape does the VDP authorise for Grosse Lage wines in Nahe?"
       choices:
@@ -3195,11 +3195,11 @@ cards:
       question: Rheingau Spätburgunder is classically tied to which village west of Rüdesheim?
       choices:
         - { text: "Nierstein", correct: false }
-        - { text: "Assmannhausen", correct: true }
+        - { text: "Assmannshausen", correct: true }
         - { text: "Piesport", correct: false }
         - { text: "Worms", correct: false }
       explanation: |
-        **Assmannhausen.** It is the western red-wine village,
+        **Assmannshausen.** It is the western red-wine village,
         just past Rüdesheim, on warmer slate.
     fr:
       question: "À quel village situé à l'ouest de Rüdesheim le Spätburgunder de Rheingau est-il traditionnellement associé ?"
@@ -3219,7 +3219,7 @@ cards:
     source_id: c22-0089
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: [known-fact, official-vdp]
     en:
       question: "Which grapes does the VDP authorise for Grosse Lage wines in Rheingau?"
       choices:
@@ -3251,20 +3251,20 @@ cards:
     en:
       question: Which Anbaugebiet has the most vineyard hectares in Germany?
       choices:
-        - { text: "The Ahr", correct: false }
+        - { text: "Pfalz", correct: false }
         - { text: "Rheinhessen", correct: true }
-        - { text: "Sachsen", correct: false }
-        - { text: "Mittelrhein", correct: false }
+        - { text: "Baden", correct: false }
+        - { text: "Mosel", correct: false }
       explanation: |
         **Rheinhessen.** Destatis and the DWI still list it first,
         ahead of Pfalz.
     fr:
       question: "Quel Anbaugebiet possède la plus grande superficie viticole d'Allemagne ?"
       choices:
-        - { text: "Ahr", correct: false }
+        - { text: "Pfalz", correct: false }
         - { text: "Rheinhessen", correct: true }
-        - { text: "Sachsen", correct: false }
-        - { text: "Mittelrhein", correct: false }
+        - { text: "Baden", correct: false }
+        - { text: "Mosel", correct: false }
       explanation: |
         **Rheinhessen.** Il reste le plus vaste vignoble allemand, devant Pfalz.
 
@@ -3388,7 +3388,7 @@ cards:
     source_id: c22-0094
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: [known-fact, official-vdp]
     en:
       question: "Which grapes does the VDP authorise for Grosse Lage wines in Rheinhessen?"
       choices:
@@ -3451,7 +3451,7 @@ cards:
         - { text: "The Mittelhaardt", correct: false }
         - { text: "The Rheinterrasse", correct: true }
         - { text: "The Kaiserstuhl", correct: false }
-        - { text: "The Roter Hang", correct: false }
+        - { text: "The Wonnegau", correct: false }
       explanation: |
         **The Rheinterrasse.** The name covers the Rhine-facing
         terraces from Nackenheim through Nierstein toward
@@ -3462,7 +3462,7 @@ cards:
         - { text: "Mittelhaardt", correct: false }
         - { text: "Rheinterrasse", correct: true }
         - { text: "Kaiserstuhl", correct: false }
-        - { text: "Roter Hang", correct: false }
+        - { text: "Wonnegau", correct: false }
       explanation: |
         **Rheinterrasse.** Ce nom couvre les terrasses tournées vers le Rhin de Nackenheim à Oppenheim en passant par Nierstein.
 
@@ -3480,8 +3480,8 @@ cards:
       choices:
         - { text: "Very light-bodied", correct: false }
         - { text: "Relatively full-bodied", correct: true }
-        - { text: "Always medium-bodied", correct: false }
-        - { text: "Always low in alcohol", correct: false }
+        - { text: "Light-bodied", correct: false }
+        - { text: "Medium-bodied", correct: false }
       explanation: |
         **Relatively full-bodied.** Warm, east-facing terraces around Nierstein give more weight and ripeness than the coolest Mosel sites.
     fr:
@@ -3489,8 +3489,8 @@ cards:
       choices:
         - { text: "Très léger", correct: false }
         - { text: "Relativement corsé", correct: true }
-        - { text: "Toujours moyennement corsé", correct: false }
-        - { text: "Toujours peu alcoolisé", correct: false }
+        - { text: "Léger", correct: false }
+        - { text: "Moyennement corsé", correct: false }
       explanation: |
         **Relativement corsé.** Les terrasses chaudes exposées à l'est autour de Nierstein donnent davantage de matière et de maturité que les sites les plus frais de Mosel.
 
@@ -3534,19 +3534,19 @@ cards:
     en:
       question: "What has emerged from previously less-renowned inland areas of southern Rheinhessen?"
       choices:
-        - { text: "Only inexpensive bulk wine", correct: false }
+        - { text: "Inexpensive bulk wine for export", correct: false }
         - { text: "Serious, high-quality estate wine", correct: true }
-        - { text: "Only neutral sparkling base wine", correct: false }
-        - { text: "Only sweet red wine", correct: false }
+        - { text: "Neutral base wine for Sekt", correct: false }
+        - { text: "Sweet late-harvest specialities", correct: false }
       explanation: |
         **Serious, high-quality estate wine.** Ambitious growers in the Wonnegau helped overturn Rheinhessen's old image as merely a source of volume wine.
     fr:
       question: "Qu'est-ce qui a émergé dans les secteurs intérieurs autrefois moins réputés du sud de Rheinhessen ?"
       choices:
-        - { text: "Uniquement du vin de masse bon marché", correct: false }
+        - { text: "Du vin de masse bon marché pour l’export", correct: false }
         - { text: "Des vins de domaine sérieux et de grande qualité", correct: true }
-        - { text: "Uniquement des vins de base neutres pour effervescents", correct: false }
-        - { text: "Uniquement des vins rouges doux", correct: false }
+        - { text: "Des vins de base neutres pour Sekt", correct: false }
+        - { text: "Des spécialités douces de vendange tardive", correct: false }
       explanation: |
         **Des vins de domaine sérieux et de grande qualité.** Les producteurs ambitieux du Wonnegau ont contribué à dépasser l'ancienne image de Rheinhessen limitée aux vins de volume.
 
@@ -3562,10 +3562,10 @@ cards:
     en:
       question: "Which modern reputation has Rheinhessen developed alongside its large-volume production?"
       choices:
-        - { text: "Traditional-only winemaking", correct: false }
+        - { text: "Traditional, volume-driven winemaking", correct: false }
         - { text: "Inventive, quality-focused winemaking", correct: true }
-        - { text: "Exclusive production of sweet wine", correct: false }
-        - { text: "Exclusive production of red wine", correct: false }
+        - { text: "Specialised sweet-wine production", correct: false }
+        - { text: "Specialised red-wine production", correct: false }
       explanation: |
         **Inventive, quality-focused winemaking.** Leading estates in Nierstein and the Wonnegau have shown that the region's scale does not preclude distinctive fine wine.
     fr:
@@ -3590,20 +3590,20 @@ cards:
     en:
       question: After Rheinhessen, which Anbaugebiet is Germany's next-largest by vineyard area?
       choices:
-        - { text: "The Ahr", correct: false }
+        - { text: "Baden", correct: false }
         - { text: "Pfalz", correct: true }
-        - { text: "Sachsen", correct: false }
-        - { text: "Hessische Bergstrasse", correct: false }
+        - { text: "Württemberg", correct: false }
+        - { text: "Mosel", correct: false }
       explanation: |
         **Pfalz.** Second by hectares after Rheinhessen; Baden is
         next.
     fr:
       question: "Après Rheinhessen, quel Anbaugebiet possède la deuxième plus grande superficie viticole d'Allemagne ?"
       choices:
-        - { text: "Ahr", correct: false }
+        - { text: "Baden", correct: false }
         - { text: "Pfalz", correct: true }
-        - { text: "Sachsen", correct: false }
-        - { text: "Hessische Bergstraße", correct: false }
+        - { text: "Württemberg", correct: false }
+        - { text: "Mosel", correct: false }
       explanation: |
         **Pfalz.** La région arrive en deuxième position par sa superficie, devant Baden.
 
@@ -3761,19 +3761,19 @@ cards:
     en:
       question: "Which reputation has Pfalz long held within Germany?"
       choices:
-        - { text: "A source only of inexpensive sweet wine", correct: false }
+        - { text: "A source of inexpensive sweet wine", correct: false }
         - { text: "A leading region for high-quality wine", correct: true }
-        - { text: "A region devoted only to sparkling base wine", correct: false }
-        - { text: "A region known only for botrytised wine", correct: false }
+        - { text: "A supplier of sparkling base wine", correct: false }
+        - { text: "A specialist in botrytised wine", correct: false }
       explanation: |
         **A leading region for high-quality wine.** The Mittelhaardt villages around Forst and Deidesheim established this reputation, especially for dry Riesling.
     fr:
       question: "Quelle réputation Pfalz possède-t-il de longue date en Allemagne ?"
       choices:
-        - { text: "Une source limitée aux vins doux bon marché", correct: false }
+        - { text: "Une source de vins doux bon marché", correct: false }
         - { text: "Une région majeure pour les vins de grande qualité", correct: true }
-        - { text: "Une région consacrée uniquement aux vins de base pour effervescents", correct: false }
-        - { text: "Une région connue seulement pour les vins botrytisés", correct: false }
+        - { text: "Un fournisseur de vins de base pour effervescents", correct: false }
+        - { text: "Un spécialiste des vins botrytisés", correct: false }
       explanation: |
         **Une région majeure pour les vins de grande qualité.** Les villages de Mittelhaardt autour de Forst et Deidesheim ont établi cette réputation, notamment pour le Riesling sec.
 
@@ -3953,7 +3953,7 @@ cards:
     source_id: c22-0110
     review:
       fact_check: pass
-      sources: [aoc-site]
+      sources: [aoc-site, official-vdp]
     en:
       question: "Which grapes does the VDP authorise for Grosse Lage wines in Pfalz?"
       choices:
@@ -4460,7 +4460,7 @@ cards:
     source_id: c22-0126
     review:
       fact_check: pass
-      sources: [aoc-site]
+      sources: [aoc-site, official-vdp]
     en:
       question: "Which set contains the principal grapes authorised by the VDP for Baden Grosse Lage wines?"
       choices:
@@ -4520,10 +4520,10 @@ cards:
     en:
       question: Which grape is Franken's prestige lead?
       choices:
-        - { text: "Elbling", correct: false }
+        - { text: "Riesling", correct: false }
         - { text: "Silvaner", correct: true }
-        - { text: "Trollinger", correct: false }
-        - { text: "Portugieser", correct: false }
+        - { text: "Müller-Thurgau", correct: false }
+        - { text: "Bacchus", correct: false }
       explanation: |
         **Silvaner.** It is the Franken flagship, and it now
         also leads the hectares. The German Silvaner heartland
@@ -4531,10 +4531,10 @@ cards:
     fr:
       question: "Quel cépage constitue l'emblème qualitatif de Franken ?"
       choices:
-        - { text: "Elbling", correct: false }
+        - { text: "Riesling", correct: false }
         - { text: "Silvaner", correct: true }
-        - { text: "Trollinger", correct: false }
-        - { text: "Portugieser", correct: false }
+        - { text: "Müller-Thurgau", correct: false }
+        - { text: "Bacchus", correct: false }
       explanation: |
         **Silvaner.** Il fournit les vins secs les plus caractéristiques de la région, en particulier sur les sites chauds autour de Wurtzbourg.
 
@@ -4742,7 +4742,7 @@ cards:
     source_id: c22-0135
     review:
       fact_check: pass
-      sources: [aoc-site]
+      sources: [aoc-site, official-vdp]
     en:
       question: "Which grapes does the VDP authorise for Grosse Lage wines in Franken?"
       choices:
@@ -4888,19 +4888,19 @@ cards:
     en:
       question: "Which additional identity is commonly stated alongside origin on a German wine label?"
       choices:
-        - { text: "The barrel cooper", correct: false }
+        - { text: "The soil type", correct: false }
         - { text: "The grape variety", correct: true }
-        - { text: "The vineyard worker", correct: false }
-        - { text: "The yeast strain", correct: false }
+        - { text: "The must weight in Oechsle", correct: false }
+        - { text: "The yield per hectare", correct: false }
       explanation: |
         **The grape variety.** Varietal labelling is common, although it is not compulsory on every German wine.
     fr:
       question: "Quelle identité supplémentaire est couramment indiquée avec l'origine sur une étiquette de vin allemand ?"
       choices:
-        - { text: "Le tonnelier", correct: false }
+        - { text: "Le type de sol", correct: false }
         - { text: "Le cépage", correct: true }
-        - { text: "L'ouvrier viticole", correct: false }
-        - { text: "La souche de levure", correct: false }
+        - { text: "Le poids du moût en degrés Oechsle", correct: false }
+        - { text: "Le rendement à l’hectare", correct: false }
       explanation: |
         **Le cépage.** L'étiquetage variétal est courant, même s'il n'est pas obligatoire sur tous les vins allemands.
 

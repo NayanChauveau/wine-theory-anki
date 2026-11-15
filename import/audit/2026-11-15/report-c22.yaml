@@ -1,0 +1,190 @@
+# Final audit — cards/c22-germany.yaml (192 cards)
+# Web check: vdp.de classification page (GG grape lists per region) and Franken area figures.
+cards:
+  - id: germany-mt-decline-why-001
+    verdict: wrong
+    issues: ["Key flag was on 'Rising demand…' while the explanation (and the facts) say falling demand, in EN and FR"]
+    change: "Key (index 1) is now 'Falling demand for inexpensive medium-sweet wine'; mirror foil replaced by 'Falling demand for inexpensive dry wine'; bold lead of both explanations aligned"
+    checked: [knowledge]
+  - id: germany-qba-colours-001
+    verdict: wrong
+    issues: ["Foils Landwein and Deutscher Wein are also correct: enrichment is allowed for every class except Prädikatswein", "cue word 'only'", "Why implied enrichment is specific to Qualitätswein"]
+    change: "Stem recast as 'highest quality class in which enrichment is still permitted'; 'only' dropped; Why lists the three classes that may be enriched (EN+FR)"
+    checked: [knowledge]
+  - id: germany-other-blacks-001
+    verdict: fix
+    issues: ["Foil 'Lemberger, Regent, Frühburgunder' half-true: Lemberger and Regent areas match or exceed Schwarzriesling"]
+    change: "Foil replaced by 'Frühburgunder, Domina and Sankt Laurent' (EN+FR)"
+    checked: [knowledge]
+  - id: germany-rheinterrasse-001
+    verdict: fix
+    issues: ["Foil 'Roter Hang' is itself a local name for the Nierstein riverside slope, so defensible as an answer"]
+    change: "Foil replaced by Wonnegau (EN+FR)"
+    checked: [knowledge]
+  - id: germany-assmannhausen-001
+    verdict: fix
+    issues: ["EN key and explanation misspelt 'Assmannhausen' (FR correct)"]
+    change: "Spelling corrected to Assmannshausen in EN choice and Why (id untouched)"
+    checked: [knowledge]
+  - id: germany-rheinhessen-largest-001
+    verdict: fix
+    issues: ["All three foils were tiny regions (Ahr, Sachsen, Mittelrhein); eliminated without knowing the fact"]
+    change: "Foils now Pfalz, Baden, Mosel (EN+FR)"
+    checked: [knowledge]
+  - id: germany-pfalz-second-001
+    verdict: fix
+    issues: ["Same defect: foils Ahr, Sachsen, Hessische Bergstraße"]
+    change: "Foils now Baden, Württemberg, Mosel (EN+FR)"
+    checked: [knowledge]
+  - id: germany-mt-hectares-001
+    verdict: fix
+    issues: ["Stem said 'which crossing' while no foil was a crossing, giving the key away", "weak foils (Elbling, Sauvignon Blanc)"]
+    change: "Stem now 'which variety'; foils Grauburgunder, Silvaner, Weißburgunder (EN+FR)"
+    checked: [knowledge]
+  - id: germany-varietal-label-001
+    verdict: fix
+    issues: ["Joke foils (barrel cooper, vineyard worker, yeast strain)"]
+    change: "Foils now soil type, must weight in Oechsle, yield per hectare (EN+FR)"
+    checked: [knowledge]
+  - id: germany-pradikat-grapes-001
+    verdict: fix
+    issues: ["Three 'Only …' foils single out the key"]
+    change: "Foils reworded without cue words (reserved for Riesling / reserved for white varieties / excludes crossings) EN+FR"
+    checked: [knowledge]
+  - id: germany-one-vineyard-range-001
+    verdict: fix
+    issues: ["Three 'Only …' foils single out the key"]
+    change: "Foils reworded (single Prädikat level / Qualitätswein but no Prädikatswein / the reverse) EN+FR"
+    checked: [knowledge]
+  - id: germany-silvaner-quality-001
+    verdict: fix
+    issues: ["Three 'Only …' foils single out the key"]
+    change: "Foils reworded as plausible quality levels without 'only' (EN+FR)"
+    checked: [knowledge]
+  - id: germany-rheinhessen-south-quality-001
+    verdict: fix
+    issues: ["Three 'Only …' foils, one a joke (sweet red wine)"]
+    change: "Foils reworded (bulk wine for export / Sekt base wine / sweet late-harvest specialities) EN+FR"
+    checked: [knowledge]
+  - id: germany-pfalz-reputation-001
+    verdict: fix
+    issues: ["Three 'only' foils single out the key"]
+    change: "Cue words removed and foils tightened (EN+FR)"
+    checked: [knowledge]
+  - id: germany-harvest-spread-001
+    verdict: fix
+    issues: ["Joke foils with cue words ('Exactly one calendar week', 'Only until the first rain')"]
+    change: "Foils now durations: about one week / about ten days (EN+FR)"
+    checked: [knowledge]
+  - id: germany-rheinhessen-reputation-001
+    verdict: fix
+    issues: ["EN foils ('Traditional-only', 'Exclusive production…') did not match FR foils and carried cue words"]
+    change: "EN foils aligned to the FR wording"
+    checked: [knowledge]
+  - id: germany-everyday-red-qba-001
+    verdict: minor
+    issues: ["'only' on two foils; 'Großes Gewächs' is not a legal class"]
+    change: "Foils now plain Landwein / Prädikatswein / Deutscher Wein (EN+FR)"
+    checked: [knowledge]
+  - id: germany-rheinterrasse-body-001
+    verdict: minor
+    issues: ["'Always …' foils; one foil about alcohol, not body"]
+    change: "Foils now Light-bodied / Medium-bodied (EN+FR)"
+    checked: [knowledge]
+  - id: germany-dry-to-auslese-001
+    verdict: minor
+    issues: ["'legally' overstates: the Auslese ceiling for dry wines is practice/teaching convention rather than a legal bar"]
+    change: "'legally' removed from EN and FR stems"
+    checked: [knowledge]
+  - id: germany-franken-silvaner-001
+    verdict: minor
+    issues: ["Foils (Elbling, Trollinger, Portugieser) not credible for Franken"]
+    change: "Foils now Riesling, Müller-Thurgau, Bacchus (EN+FR). Silvaner leading Franken by area confirmed (about 1,560 ha vs about 1,375 ha Müller-Thurgau)"
+    checked: [knowledge, web-franken-area-stats]
+  - id: germany-spatburgunder-regions-001
+    verdict: minor
+    issues: ["FR Why read as 'Baden is Germany's largest vineyard' (false; Rheinhessen is)"]
+    change: "FR Why now says Baden leads nationally for this grape"
+    checked: [knowledge]
+  - id: germany-dry-qba-001
+    verdict: minor
+    issues: ["Landwein may also be enriched; 'normally sold' keeps the key defensible", "near-duplicate of germany-qba-colours-001"]
+    change: none
+    checked: [knowledge]
+  - id: germany-auslese-botrytis-001
+    verdict: minor
+    issues: ["Foils 'prohibited' / 'allowed only in dry examples' are throwaways"]
+    change: none
+    checked: [knowledge]
+  - id: germany-ba-botrytis-001
+    verdict: minor
+    issues: ["Yes/no padded to four; 'Yes, but only for dry BA' is a joke foil"]
+    change: none
+    checked: [knowledge]
+  - id: germany-silvaner-styles-001
+    verdict: minor
+    issues: ["Three '… only' foils"]
+    change: none
+    checked: [knowledge]
+  - id: germany-mt-decline-001
+    verdict: minor
+    issues: ["Stem states the reason that is the key of germany-mt-decline-why-001"]
+    change: none
+    checked: [knowledge]
+  - id: germany-saar-ruwer-area-001
+    verdict: minor
+    issues: ["Foil 'Nearly all Riesling plantings' is off-frame"]
+    change: none
+    checked: [knowledge]
+  - id: germany-rheinhessen-red-share-001
+    verdict: minor
+    issues: ["74:26 split in the Why is slightly dated (black share now nearer 24%); key 'about one quarter' still right"]
+    change: none
+    checked: [knowledge]
+  - id: germany-pfalz-alsace-001
+    verdict: minor
+    issues: ["Foils Champagne/Burgundy/Jura do not border Germany"]
+    change: none
+    checked: [knowledge]
+  - id: germany-mittelhaardt-style-001
+    verdict: minor
+    issues: ["Foil 'Sweet and botrytised in every vintage' uses a cue phrase"]
+    change: none
+    checked: [knowledge]
+  - id: germany-franken-silvaner-ripe-001
+    verdict: minor
+    issues: ["Throwaway foils ('Compulsory noble rot', 'Persistently low ripeness'); overlaps germany-franken-warm-sites-001"]
+    change: none
+    checked: [knowledge]
+  - id: germany-baden-gg-001
+    verdict: minor
+    issues: ["Key lists five grapes, foils four; fact confirmed on vdp.de"]
+    change: "sources += official-vdp"
+    checked: [official-vdp]
+  - id: germany-pdo-one-region-001
+    verdict: minor
+    issues: ["Foils 'At least two' / 'Exactly three' are throwaways"]
+    change: none
+    checked: [knowledge]
+  - id: germany-feinherb-why-001
+    verdict: minor
+    issues: ["Two foils use 'guarantees'"]
+    change: none
+    checked: [knowledge]
+verified_ok_on_web:
+  - ids: [germany-mosel-gg-001, germany-nahe-gg-001, germany-rheingau-gg-001, germany-rheinhessen-gg-001, germany-pfalz-gg-001, germany-franken-gg-001, germany-baden-gg-001]
+    note: "VDP.GROSSE LAGE grape lists per region match vdp.de classification page; official-vdp added to review.sources"
+summary:
+  total: 192
+  wrong: 2
+  fix: 14
+  minor: 18
+  ok: 158
+  validate: "uv run wset3-anki validate -> 3517 card(s) OK; EN/FR correct index identical on all 192 cards"
+  law_topics: "2021 reform cards (origin pyramid, GG/EG statutory, Region prefix for Großlage/Bereich, binding from 2026 vintage), Prädikat order, PDO/PGI classes and sweetness terms judged correct. The file contains no Oechsle-by-region figures."
+  riskiest_patterns:
+    - "Key flag set on the mirrored foil (mt-decline-why): explanation and key disagreed; worth a deck-wide check that the bold lead of each Why equals the keyed choice"
+    - "Law cards where a foil is also true (enrichment allowed below Prädikatswein)"
+    - "'Only …' / 'Always …' foil triplets that single out the key without knowledge"
+    - "Ranking cards with foils from tiny regions or irrelevant grapes"
+    - "File uses straight apostrophes in most FR text; only newly written FR text uses ’ (no mass conversion done)"

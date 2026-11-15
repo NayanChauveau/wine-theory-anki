@@ -227,9 +227,9 @@ cards:
       question: "Despite its dry summers, which rainfall hazard can affect Mediterranean vineyards in Southern France?"
       choices:
         - { text: "Flash flooding after intense storms, especially in autumn", correct: true }
-        - { text: "Regular flooding from summer snowmelt", correct: false }
-        - { text: "Continuous drizzle throughout the growing season", correct: false }
-        - { text: "Daily tropical downpours during ripening", correct: false }
+        - { text: "Regular spring flooding from Pyrenean snowmelt", correct: false }
+        - { text: "Prolonged winter rain that waterlogs hillside sites", correct: false }
+        - { text: "Persistent drizzle during most September harvests", correct: false }
       explanation: |
         Mediterranean rain can fall in short, violent episodes, particularly in autumn. Parched or compacted
         ground absorbs water poorly, so runoff and flash floods may be severe.
@@ -237,9 +237,9 @@ cards:
       question: "Malgré ses étés secs, quel risque lié aux précipitations peut toucher les vignobles méditerranéens du sud de la France ?"
       choices:
         - { text: "Des crues soudaines après de violents orages, surtout en automne", correct: true }
-        - { text: "Des inondations régulières dues à la fonte estivale des neiges", correct: false }
-        - { text: "Une bruine continue pendant toute la saison de croissance", correct: false }
-        - { text: "Des pluies tropicales quotidiennes pendant la maturation", correct: false }
+        - { text: "Des crues printanières régulières dues à la fonte des neiges pyrénéennes", correct: false }
+        - { text: "De longues pluies hivernales qui engorgent les coteaux", correct: false }
+        - { text: "Une bruine persistante lors de la plupart des vendanges de septembre", correct: false }
       explanation: |
         Les pluies méditerranéennes peuvent tomber lors d’épisodes brefs et violents, surtout en automne.
         Les sols desséchés ou compactés absorbent mal l’eau, ce qui peut provoquer un ruissellement intense
@@ -287,8 +287,8 @@ cards:
       question: "Which planting pattern is characteristic of Southern France?"
       choices:
         - { text: "Mediterranean and international varieties are both widely planted", correct: true }
-        - { text: "Only traditional Mediterranean varieties may be planted", correct: false }
-        - { text: "International varieties dominate every AOC blend", correct: false }
+        - { text: "Traditional Mediterranean varieties account for almost all plantings", correct: false }
+        - { text: "International varieties dominate most AOC blends", correct: false }
         - { text: "White varieties greatly outnumber black varieties", correct: false }
       explanation: |
         Traditional grapes such as Grenache, Carignan and Cinsault coexist with varieties such as Merlot,
@@ -298,8 +298,8 @@ cards:
       question: "Quel profil d’encépagement caractérise le sud de la France ?"
       choices:
         - { text: "Les cépages méditerranéens et internationaux y sont tous deux largement plantés", correct: true }
-        - { text: "Seuls les cépages méditerranéens traditionnels peuvent y être plantés", correct: false }
-        - { text: "Les cépages internationaux dominent tous les assemblages d’AOC", correct: false }
+        - { text: "Les cépages méditerranéens traditionnels y représentent presque tout l’encépagement", correct: false }
+        - { text: "Les cépages internationaux dominent la plupart des assemblages d’AOC", correct: false }
         - { text: "Les cépages blancs sont beaucoup plus nombreux que les cépages noirs", correct: false }
       explanation: |
         Des cépages traditionnels comme le Grenache, le Carignan et le Cinsault coexistent avec le Merlot,
@@ -318,9 +318,9 @@ cards:
       question: "Which pair is central to many quality red blends in Languedoc?"
       choices:
         - { text: "Grenache and Syrah", correct: true }
-        - { text: "Cabernet Franc and Gamay", correct: false }
-        - { text: "Pinot Noir and Trousseau", correct: false }
-        - { text: "Malbec and Tannat", correct: false }
+        - { text: "Merlot and Cabernet Sauvignon", correct: false }
+        - { text: "Cinsault and Cabernet Franc", correct: false }
+        - { text: "Pinot Noir and Merlot", correct: false }
       explanation: |
         Grenache contributes ripe fruit, body and alcohol, while Syrah can bring colour, tannin and peppery
         or dark-fruit character. Carignan and Mourvèdre are also important blending partners.
@@ -328,9 +328,9 @@ cards:
       question: "Quel duo est au cœur de nombreux assemblages rouges de qualité en Languedoc ?"
       choices:
         - { text: "Grenache et Syrah", correct: true }
-        - { text: "Cabernet Franc et Gamay", correct: false }
-        - { text: "Pinot Noir et Trousseau", correct: false }
-        - { text: "Malbec et Tannat", correct: false }
+        - { text: "Merlot et Cabernet Sauvignon", correct: false }
+        - { text: "Cinsault et Cabernet Franc", correct: false }
+        - { text: "Pinot Noir et Merlot", correct: false }
       explanation: |
         Le Grenache apporte fruit mûr, corps et alcool, tandis que la Syrah peut fournir couleur, tanins et
         notes poivrées ou de fruits noirs. Le Carignan et le Mourvèdre sont également des partenaires
@@ -409,8 +409,8 @@ cards:
       choices:
         - { text: "Carignan", correct: true }
         - { text: "Mourvèdre", correct: false }
-        - { text: "Cabernet Franc", correct: false }
-        - { text: "Pinot Noir", correct: false }
+        - { text: "Syrah", correct: false }
+        - { text: "Merlot", correct: false }
       explanation: |
         Carignan once covered a very large area because it could crop heavily in warm conditions. Its
         plantings have fallen, but old vines on poor soils can give concentrated fruit for appellations such
@@ -420,8 +420,8 @@ cards:
       choices:
         - { text: "Carignan", correct: true }
         - { text: "Mourvèdre", correct: false }
-        - { text: "Cabernet Franc", correct: false }
-        - { text: "Pinot Noir", correct: false }
+        - { text: "Syrah", correct: false }
+        - { text: "Merlot", correct: false }
       explanation: |
         Le Carignan couvrait autrefois une immense surface, car il pouvait produire de forts rendements sous
         un climat chaud. Son vignoble a reculé, mais de vieilles vignes sur sols pauvres donnent des raisins
@@ -628,7 +628,7 @@ cards:
     fr:
       question: "Qu’apporte typiquement le Mourvèdre à un assemblage rouge issu d’un site chaud du sud de la France ?"
       choices:
-        - { text: "Couleur profonde, tanins fermes et complexité de fruits noirs ou d’arômes savoureux", correct: true }
+        - { text: "Couleur profonde, tanins fermes et notes de fruits noirs ou de gibier", correct: true }
         - { text: "Couleur pâle, peu de tanins et arômes floraux délicats", correct: false }
         - { text: "Forte acidité, faible alcool et simple fruit de pomme verte", correct: false }
         - { text: "Faible couleur, acidité souple et arômes nettement muscatés", correct: false }
@@ -679,9 +679,9 @@ cards:
       question: "Which development most improved the consistency of inexpensive Southern France wines from the late twentieth century onward?"
       choices:
         - { text: "Cleaner wineries, temperature control and better oxygen management", correct: true }
-        - { text: "Longer uncontrolled fermentation in warm concrete vats", correct: false }
-        - { text: "Systematic oxidation before bottling", correct: false }
-        - { text: "Mandatory maturation in new oak for all wines", correct: false }
+        - { text: "Wider use of new oak barriques for entry-level wines", correct: false }
+        - { text: "Higher yields from newly irrigated plain vineyards", correct: false }
+        - { text: "A move from stainless steel back to old wooden vats", correct: false }
       explanation: |
         Investment in hygiene, stainless steel, refrigeration and controlled handling reduced microbial
         faults and preserved fruit. Better vineyard selection and more judicious oak use also raised quality
@@ -690,9 +690,9 @@ cards:
       question: "Quelle évolution a le plus amélioré la régularité des vins bon marché du sud de la France à partir de la fin du XXe siècle ?"
       choices:
         - { text: "Des chais plus propres, le contrôle des températures et une meilleure gestion de l’oxygène", correct: true }
-        - { text: "Des fermentations incontrôlées plus longues dans des cuves chaudes en béton", correct: false }
-        - { text: "Une oxydation systématique avant la mise en bouteille", correct: false }
-        - { text: "Un élevage obligatoire en bois neuf pour tous les vins", correct: false }
+        - { text: "Un recours accru aux barriques neuves pour les entrées de gamme", correct: false }
+        - { text: "Des rendements plus élevés grâce à l’irrigation des plaines", correct: false }
+        - { text: "L’abandon de l’inox au profit de vieux foudres en bois", correct: false }
       explanation: |
         Les investissements dans l’hygiène, l’inox, le froid et la maîtrise des manipulations ont réduit les
         défauts microbiens et préservé le fruit. Une meilleure sélection parcellaire et un usage plus
@@ -799,22 +799,22 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: "Which international-style white variety is used in Southern France to make full-bodied, aromatic wines with stone-fruit character?"
+      question: "Which white variety, widely planted for IGP wines in Southern France, gives full-bodied, aromatic wines with stone-fruit character?"
       choices:
         - { text: "Viognier", correct: true }
-        - { text: "Melon", correct: false }
-        - { text: "Folle Blanche", correct: false }
-        - { text: "Aligoté", correct: false }
+        - { text: "Sauvignon Blanc", correct: false }
+        - { text: "Piquepoul Blanc", correct: false }
+        - { text: "Mauzac", correct: false }
       explanation: |
         Viognier can ripen reliably in the warm climate and produce full-bodied wines with peach, apricot
         and floral aromas. Careful picking is needed to retain acidity and avoid excessive alcohol.
     fr:
-      question: "Quel cépage blanc de style international est utilisé dans le sud de la France pour produire des vins corsés et aromatiques aux notes de fruits à noyau ?"
+      question: "Quel cépage blanc, largement planté pour les IGP du sud de la France, donne des vins amples et aromatiques aux notes de fruits à noyau ?"
       choices:
         - { text: "Viognier", correct: true }
-        - { text: "Melon", correct: false }
-        - { text: "Folle Blanche", correct: false }
-        - { text: "Aligoté", correct: false }
+        - { text: "Sauvignon Blanc", correct: false }
+        - { text: "Piquepoul Blanc", correct: false }
+        - { text: "Mauzac", correct: false }
       explanation: |
         Le Viognier mûrit aisément sous ce climat chaud et peut donner des vins corsés aux arômes de pêche,
         d’abricot et de fleurs. Une date de vendange soigneusement choisie aide à préserver l’acidité et à
@@ -1067,26 +1067,27 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: "In which two Southern France regions is Clairette a traditional white blending variety?"
+      question: "Which white grape is a traditional blending variety in both Languedoc and Provence, giving fairly full, low-acid wines?"
       choices:
-        - { text: "Languedoc and Provence", correct: true }
-        - { text: "Roussillon and Bordeaux", correct: false }
-        - { text: "Beaujolais and Jura", correct: false }
-        - { text: "Loire and Champagne", correct: false }
+        - { text: "Clairette", correct: true }
+        - { text: "Piquepoul Blanc", correct: false }
+        - { text: "Mauzac", correct: false }
+        - { text: "Macabeu", correct: false }
       explanation: |
-        Clairette is used in several Languedoc and Provence appellations. It can give relatively full,
-        low-acid wines and is often blended; Clairette du Languedoc also bears its name.
+        Clairette is used in several Languedoc and Provence appellations, usually in blends, and gives
+        its name to Clairette du Languedoc. Piquepoul Blanc and Mauzac are tied to Pinet and Limoux,
+        and Macabeu to Roussillon.
     fr:
-      question: "Dans quelles deux régions du sud de la France la Clairette est-elle un cépage blanc traditionnel d’assemblage ?"
+      question: "Quel cépage blanc est un cépage d’assemblage traditionnel à la fois en Languedoc et en Provence, donnant des vins assez amples et peu acides ?"
       choices:
-        - { text: "Languedoc et Provence", correct: true }
-        - { text: "Roussillon et Bordeaux", correct: false }
-        - { text: "Beaujolais et Jura", correct: false }
-        - { text: "Loire et Champagne", correct: false }
+        - { text: "Clairette", correct: true }
+        - { text: "Piquepoul Blanc", correct: false }
+        - { text: "Mauzac", correct: false }
+        - { text: "Macabeu", correct: false }
       explanation: |
-        La Clairette est utilisée dans plusieurs appellations du Languedoc et de Provence. Elle peut donner
-        des vins assez corsés et peu acides, souvent assemblés ; elle donne aussi son nom à Clairette du
-        Languedoc.
+        La Clairette entre dans plusieurs appellations du Languedoc et de Provence, le plus souvent en
+        assemblage, et donne son nom à Clairette du Languedoc. Le Piquepoul Blanc et le Mauzac sont liés
+        à Pinet et à Limoux, le Macabeu au Roussillon.
   - id: sfrance-picpoul-profile-001
     type: mcq
     deck: France::Southern France
@@ -1132,7 +1133,7 @@ cards:
         - { text: "Aude, Hérault and Gard", correct: true }
         - { text: "Aude, Pyrénées-Orientales and Ariège", correct: false }
         - { text: "Var, Vaucluse and Bouches-du-Rhône", correct: false }
-        - { text: "Gironde, Dordogne and Lot-et-Garonne", correct: false }
+        - { text: "Hérault, Gard and Pyrénées-Orientales", correct: false }
       explanation: |
         Aude, Hérault and Gard form the traditional Languedoc core. Roussillon lies mainly in
         Pyrénées-Orientales, although the broad regional Languedoc AOC extends into that département.
@@ -1142,7 +1143,7 @@ cards:
         - { text: "Aude, Hérault et Gard", correct: true }
         - { text: "Aude, Pyrénées-Orientales et Ariège", correct: false }
         - { text: "Var, Vaucluse et Bouches-du-Rhône", correct: false }
-        - { text: "Gironde, Dordogne et Lot-et-Garonne", correct: false }
+        - { text: "Hérault, Gard et Pyrénées-Orientales", correct: false }
       explanation: |
         L’Aude, l’Hérault et le Gard forment le cœur traditionnel du Languedoc. Le Roussillon se situe
         principalement dans les Pyrénées-Orientales, même si l’aire de la vaste AOC Languedoc s’étend aussi
@@ -1248,23 +1249,23 @@ cards:
     en:
       question: "How extensive is the regional Languedoc AOC?"
       choices:
-        - { text: "It follows the Gulf of Lion for about 200 km, from near Nîmes to the Spanish border", correct: true }
-        - { text: "It follows the Rhône valley from Lyon southward to the Mediterranean coast", correct: false }
-        - { text: "It crosses inland Provence from Avignon eastward to the Italian border", correct: false }
-        - { text: "It follows the Atlantic coast from Bordeaux southward to the Spanish border", correct: false }
+        - { text: "Along the Gulf of Lion, from near Nîmes to the Spanish border", correct: true }
+        - { text: "Across the Hérault alone, from Béziers to Montpellier", correct: false }
+        - { text: "Along the Aude valley, from Carcassonne to Narbonne", correct: false }
+        - { text: "Across Roussillon alone, from Perpignan to the Spanish border", correct: false }
       explanation: |
-        The regional appellation forms a broad arc along the Gulf of Lion. Its large area explains the
-        marked variation in climate, soils, grapes and wine styles.
+        The regional appellation forms a broad arc of about 200 km along the Gulf of Lion. Its large
+        area explains the marked variation in climate, soils, grapes and wine styles.
     fr:
       question: "Quelle est l’étendue de l’AOC régionale Languedoc ?"
       choices:
-        - { text: "Elle suit le golfe du Lion sur environ 200 km, des environs de Nîmes à la frontière espagnole", correct: true }
-        - { text: "Elle suit la vallée du Rhône depuis Lyon jusqu’au littoral méditerranéen", correct: false }
-        - { text: "Elle traverse la Provence intérieure d’Avignon jusqu’à la frontière italienne", correct: false }
-        - { text: "Elle suit la côte atlantique de Bordeaux jusqu’à la frontière espagnole", correct: false }
+        - { text: "Le long du golfe du Lion, des environs de Nîmes à la frontière espagnole", correct: true }
+        - { text: "Dans le seul Hérault, de Béziers à Montpellier", correct: false }
+        - { text: "Le long de la vallée de l’Aude, de Carcassonne à Narbonne", correct: false }
+        - { text: "Dans le seul Roussillon, de Perpignan à la frontière espagnole", correct: false }
       explanation: |
-        L’appellation régionale forme un vaste arc le long du golfe du Lion. Son étendue explique les fortes
-        variations de climat, de sols, de cépages et de styles de vins.
+        L’appellation régionale forme un vaste arc d’environ 200 km le long du golfe du Lion. Son étendue
+        explique les fortes variations de climat, de sols, de cépages et de styles de vins.
   - id: sfrance-named-zone-001
     type: mcq
     deck: France::Southern France
@@ -1369,7 +1370,7 @@ cards:
         - { text: "Terrasses du Larzac and Pic Saint-Loup", correct: true }
         - { text: "Corbières-Boutenac and La Livinière", correct: false }
         - { text: "Côtes du Roussillon and Minervois", correct: false }
-        - { text: "Picpoul de Pinet and Clairette du Languedoc", correct: false }
+        - { text: "Fitou and Clairette du Languedoc", correct: false }
       explanation: |
         Terrasses du Larzac became an independent AOC in 2014 and Pic Saint-Loup in 2017. Their histories
         show how the appellation map has evolved as distinctive areas sought separate recognition.
@@ -1379,7 +1380,7 @@ cards:
         - { text: "Terrasses du Larzac et Pic Saint-Loup", correct: true }
         - { text: "Corbières-Boutenac et La Livinière", correct: false }
         - { text: "Côtes du Roussillon et Minervois", correct: false }
-        - { text: "Picpoul de Pinet et Clairette du Languedoc", correct: false }
+        - { text: "Fitou et Clairette du Languedoc", correct: false }
       explanation: |
         Terrasses du Larzac est devenue une AOC indépendante en 2014 et Pic Saint-Loup en 2017. Leur
         parcours montre comment la carte des appellations a évolué lorsque des zones distinctives ont
@@ -1421,7 +1422,7 @@ cards:
     source_id: c21-0041
     review:
       fact_check: pass
-      sources: [known-fact]
+      sources: [known-fact, inao]
     en:
       question: "Which approximate colour split is currently reported for the regional Languedoc AOC?"
       choices:
@@ -1553,7 +1554,7 @@ cards:
         Mourvèdre is late budding and late ripening. Warm, sheltered sites allow it to develop ripe dark
         fruit, firm tannin and herbal, meaty or gamey notes without green flavours.
     fr:
-      question: "Quel cépage noir exige les sites les plus chauds du Languedoc pour mûrir pleinement et peut apporter tanins et complexité savoureuse ?"
+      question: "Quel cépage noir exige les sites les plus chauds du Languedoc pour mûrir pleinement et peut apporter tanins et notes giboyeuses ?"
       choices:
         - { text: "Mourvèdre", correct: true }
         - { text: "Syrah", correct: false }
@@ -1842,27 +1843,28 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: "Which statement best describes the internal geography of Corbières AOC?"
+      question: "How is the large Corbières AOC best described geographically?"
       choices:
-        - { text: "It contains numerous contrasting sectors rather than one uniform terroir", correct: true }
-        - { text: "It is a single flat coastal plain with uniform soils", correct: false }
-        - { text: "It consists of two legally identical islands of vines", correct: false }
-        - { text: "It follows one narrow river valley from source to sea", correct: false }
+        - { text: "A rugged hill massif with contrasting coastal and inland sectors", correct: true }
+        - { text: "A flat coastal plain around the Étang de Thau", correct: false }
+        - { text: "A single south-facing amphitheatre below the Montagne Noire", correct: false }
+        - { text: "A narrow river valley followed from source to sea", correct: false }
       explanation: |
-        Corbières is too large and varied to reduce to one exact terroir profile. Teaching materials have
-        grouped its landscapes in different ways, so understanding the coast-to-inland contrasts is more
-        useful than memorising a disputed count.
+        Corbières is too large and varied to reduce to one terroir profile: warm sites near the
+        Mediterranean contrast with higher, cooler and windier inland sectors. A south-facing
+        amphitheatre below the Montagne Noire describes Minervois instead.
     fr:
-      question: "Quelle affirmation décrit le mieux la géographie interne de l’AOC Corbières ?"
+      question: "Comment décrire au mieux la géographie de la vaste AOC Corbières ?"
       choices:
-        - { text: "Elle comprend de nombreux secteurs contrastés plutôt qu’un terroir uniforme", correct: true }
-        - { text: "Elle forme une unique plaine littorale plate aux sols uniformes", correct: false }
-        - { text: "Elle se compose de deux îlots de vignes légalement identiques", correct: false }
-        - { text: "Elle suit une seule vallée fluviale étroite de la source à la mer", correct: false }
+        - { text: "Un massif de collines accidenté aux secteurs littoraux et intérieurs contrastés", correct: true }
+        - { text: "Une plaine littorale plate autour de l’étang de Thau", correct: false }
+        - { text: "Un unique amphithéâtre exposé au sud au pied de la Montagne Noire", correct: false }
+        - { text: "Une étroite vallée fluviale suivie de la source à la mer", correct: false }
       explanation: |
-        Corbières est trop vaste et diverse pour être réduite à un seul profil de terroir. Les supports
-        pédagogiques regroupent ses paysages de différentes manières ; comprendre les contrastes entre
-        littoral et intérieur est donc plus utile que mémoriser un nombre contestable.
+        Corbières est trop vaste et diverse pour être réduite à un seul profil de terroir : les sites
+        chauds proches de la Méditerranée contrastent avec des secteurs intérieurs plus élevés, plus
+        frais et plus ventés. L’amphithéâtre exposé au sud au pied de la Montagne Noire décrit plutôt
+        le Minervois.
   - id: sfrance-boutenac-001
     type: mcq
     deck: France::Southern France
@@ -1875,10 +1877,10 @@ cards:
     en:
       question: "Which statement distinguishes Corbières-Boutenac from the broader Corbières AOC?"
       choices:
-        - { text: "It is a red-only AOC centred on low-yielding sites where Carignan has a required role", correct: true }
-        - { text: "It is a white-only coastal AOC based solely on Piquepoul Blanc", correct: false }
-        - { text: "It is a rosé-only sector whose wines must be released immediately", correct: false }
-        - { text: "It is an IGP for international single-variety wines", correct: false }
+        - { text: "A red-only AOC in which Carignan must be part of the blend", correct: true }
+        - { text: "A red and rosé AOC in which Syrah must dominate the blend", correct: false }
+        - { text: "A red-only AOC that excludes Carignan in favour of Syrah", correct: false }
+        - { text: "A white-only AOC for barrel-fermented Grenache Blanc", correct: false }
       explanation: |
         Corbières-Boutenac covers ten communes and permits only red wine from Carignan, Grenache, Syrah and
         Mourvèdre. Carignan is central to the blend, must be hand harvested, and the wines receive at least
@@ -1886,10 +1888,10 @@ cards:
     fr:
       question: "Quelle affirmation distingue Corbières-Boutenac de l’AOC Corbières plus vaste ?"
       choices:
-        - { text: "C’est une AOC uniquement rouge centrée sur des sites peu productifs où le Carignan joue un rôle obligatoire", correct: true }
-        - { text: "C’est une AOC côtière uniquement blanche fondée sur le seul Piquepoul Blanc", correct: false }
-        - { text: "C’est un secteur uniquement rosé dont les vins doivent être commercialisés immédiatement", correct: false }
-        - { text: "C’est une IGP destinée aux vins monocépages internationaux", correct: false }
+        - { text: "Une AOC uniquement rouge où le Carignan doit entrer dans l’assemblage", correct: true }
+        - { text: "Une AOC de rouges et de rosés où la Syrah doit dominer l’assemblage", correct: false }
+        - { text: "Une AOC uniquement rouge qui exclut le Carignan au profit de la Syrah", correct: false }
+        - { text: "Une AOC uniquement blanche de Grenache Blanc fermenté en barrique", correct: false }
       explanation: |
         Corbières-Boutenac couvre dix communes et ne produit que des rouges issus du Carignan, du Grenache,
         de la Syrah et du Mourvèdre. Le Carignan est central dans l’assemblage, doit être vendangé à la
@@ -1936,9 +1938,9 @@ cards:
       question: "Which geographical feature most strongly defines the northern side of Minervois?"
       choices:
         - { text: "The south-facing foothills of the Montagne Noire", correct: true }
-        - { text: "The sea cliffs around Cap Canaille", correct: false }
-        - { text: "The granite terraces of the northern Rhône", correct: false }
-        - { text: "The sand dunes of the Camargue", correct: false }
+        - { text: "The north-facing slopes of the Corbières massif", correct: false }
+        - { text: "The eastern foothills of the Pyrenees", correct: false }
+        - { text: "The limestone massif of La Clape", correct: false }
       explanation: |
         The appellation rises northward onto the Montagne Noire foothills. Altitude and cool night air can
         moderate the Mediterranean climate, while Atlantic influence increases toward the west.
@@ -1946,9 +1948,9 @@ cards:
       question: "Quel élément géographique définit le plus fortement la partie nord du Minervois ?"
       choices:
         - { text: "Les contreforts méridionaux de la Montagne Noire", correct: true }
-        - { text: "Les falaises maritimes autour du cap Canaille", correct: false }
-        - { text: "Les terrasses granitiques du Rhône septentrional", correct: false }
-        - { text: "Les dunes de sable de Camargue", correct: false }
+        - { text: "Les versants nord du massif des Corbières", correct: false }
+        - { text: "Les contreforts orientaux des Pyrénées", correct: false }
+        - { text: "Le massif calcaire de la Clape", correct: false }
       explanation: |
         L’appellation s’élève au nord sur les contreforts de la Montagne Noire. L’altitude et l’air frais
         nocturne peuvent modérer le climat méditerranéen, tandis que l’influence atlantique augmente vers
@@ -2147,7 +2149,7 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: "Which IGP covers the five départements of the former Languedoc-Roussillon region and is strongly associated with varietal wines?"
+      question: "Which IGP spans Languedoc-Roussillon from the Gard to Pyrénées-Orientales and is strongly associated with varietal wines?"
       choices:
         - { text: "Pays d’Oc", correct: true }
         - { text: "Méditerranée", correct: false }
@@ -2157,7 +2159,7 @@ cards:
         Pays d’Oc is the dominant regional IGP across the former Languedoc-Roussillon. It encompasses a wide
         range of varieties and styles, from high-volume brands to more ambitious wines.
     fr:
-      question: "Quelle IGP couvre les cinq départements de l’ancienne région Languedoc-Roussillon et est fortement associée aux vins variétaux ?"
+      question: "Quelle IGP couvre le Languedoc-Roussillon, du Gard aux Pyrénées-Orientales, et est fortement associée aux vins de cépage ?"
       choices:
         - { text: "Pays d’Oc", correct: true }
         - { text: "Méditerranée", correct: false }
@@ -2207,21 +2209,21 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: "What most strongly explains Provence's patchwork of vineyard mesoclimates?"
+      question: "Which landscape feature most explains Provence’s patchwork of vineyard mesoclimates?"
       choices:
-        - { text: "Broken ranges and basins that vary altitude, aspect and wind exposure", correct: true }
-        - { text: "A coastal-to-inland gradient where distance from the Mediterranean and rising elevation are the main controls", correct: false }
-        - { text: "A dominant south-facing mountain chain where altitude and exposure create the main contrasts", correct: false }
-        - { text: "River corridors where morning fog and cold-air drainage create the main local differences", correct: false }
+        - { text: "Hill ranges that break the region into sheltered and exposed sites", correct: true }
+        - { text: "A single broad coastal plain open to sea breezes", correct: false }
+        - { text: "One long river valley that channels the mistral", correct: false }
+        - { text: "A high inland plateau of uniform altitude", correct: false }
       explanation: |
         Ranges such as Sainte-Baume, Sainte-Victoire and the Maures break up the region, changing exposure, altitude, soils and wind protection.
     fr:
-      question: "Qu’est-ce qui explique surtout la mosaïque de mésoclimats viticoles en Provence ?"
+      question: "Quel trait du relief explique surtout la mosaïque de mésoclimats viticoles en Provence ?"
       choices:
-        - { text: "Des massifs et bassins morcelés qui font varier altitude, exposition et abri au vent", correct: true }
-        - { text: "Un gradient du littoral vers l’intérieur où distance à la Méditerranée et hausse de l’altitude sont déterminantes", correct: false }
-        - { text: "Une chaîne montagneuse dominante exposée au sud où altitude et exposition créent les principaux contrastes", correct: false }
-        - { text: "Des couloirs fluviaux où brouillards matinaux et écoulement d’air froid créent les principales différences locales", correct: false }
+        - { text: "Des massifs qui morcellent la région en sites abrités ou exposés", correct: true }
+        - { text: "Une seule vaste plaine littorale ouverte aux brises marines", correct: false }
+        - { text: "Une longue vallée fluviale qui canalise le mistral", correct: false }
+        - { text: "Un haut plateau intérieur d’altitude uniforme", correct: false }
       explanation: |
         Des massifs comme la Sainte-Baume, la Sainte-Victoire ou les Maures morcellent la région et font varier exposition, altitude, sols et protection contre les vents.
   - id: sfrance-provence-where-001
@@ -2236,19 +2238,19 @@ cards:
     en:
       question: "Where is the Provence wine region located?"
       choices:
-        - { text: "On the Mediterranean coast of south-eastern France", correct: true }
-        - { text: "Along the Atlantic coast south of Bordeaux", correct: false }
-        - { text: "Around the Loire estuary", correct: false }
-        - { text: "On the western side of the Pyrenees", correct: false }
+        - { text: "On the Mediterranean coast between the Rhône delta and Nice", correct: true }
+        - { text: "On the Mediterranean coast between the Rhône delta and Spain", correct: false }
+        - { text: "Inland along the Rhône between Lyon and Avignon", correct: false }
+        - { text: "In the Pyrenean foothills around Perpignan", correct: false }
       explanation: |
         The vineyards extend eastward from the lower Rhône toward Nice, with important areas around Aix, Marseille and the Var.
     fr:
       question: "Où se situe la région viticole de Provence ?"
       choices:
-        - { text: "Sur le littoral méditerranéen du sud-est de la France", correct: true }
-        - { text: "Sur la côte atlantique au sud de Bordeaux", correct: false }
-        - { text: "Autour de l’estuaire de la Loire", correct: false }
-        - { text: "Sur le versant occidental des Pyrénées", correct: false }
+        - { text: "Sur le littoral méditerranéen entre le delta du Rhône et Nice", correct: true }
+        - { text: "Sur le littoral méditerranéen entre le delta du Rhône et l’Espagne", correct: false }
+        - { text: "À l’intérieur des terres, le long du Rhône entre Lyon et Avignon", correct: false }
+        - { text: "Dans les contreforts pyrénéens autour de Perpignan", correct: false }
       explanation: |
         Le vignoble s’étend depuis le bas Rhône vers Nice, avec des zones importantes autour d’Aix, Marseille et dans le Var.
   - id: sfrance-provence-shelter-001
@@ -2372,18 +2374,18 @@ cards:
       question: "Which two white grapes are especially important in quality Provence whites?"
       choices:
         - { text: "Rolle and Clairette", correct: true }
-        - { text: "Riesling and Gewurztraminer", correct: false }
-        - { text: "Chenin Blanc and Melon", correct: false }
-        - { text: "Sauvignon Blanc and Muscadelle", correct: false }
+        - { text: "Mauzac and Piquepoul Blanc", correct: false }
+        - { text: "Macabeu and Muscat", correct: false }
+        - { text: "Chardonnay and Sauvignon Blanc", correct: false }
       explanation: |
         Rolle is the local name for Vermentino and brings aromatic fruit; Clairette is important in several appellations, including Palette and Bandol.
     fr:
       question: "Quels deux cépages blancs sont particulièrement importants dans les blancs provençaux de qualité ?"
       choices:
         - { text: "Rolle et Clairette", correct: true }
-        - { text: "Riesling et Gewurztraminer", correct: false }
-        - { text: "Chenin Blanc et Melon", correct: false }
-        - { text: "Sauvignon Blanc et Muscadelle", correct: false }
+        - { text: "Mauzac et Piquepoul Blanc", correct: false }
+        - { text: "Macabeu et Muscat", correct: false }
+        - { text: "Chardonnay et Sauvignon Blanc", correct: false }
       explanation: |
         Rolle est le nom local du Vermentino et apporte un fruit aromatique ; Clairette joue un rôle important dans plusieurs appellations, notamment Palette et Bandol.
   - id: sfrance-cdp-largest-001
@@ -2455,7 +2457,7 @@ cards:
         - { text: "They are separate AOCs", correct: true }
         - { text: "They are named terroirs within Côtes de Provence", correct: false }
         - { text: "They are IGP subzones", correct: false }
-        - { text: "They are village names within Bandol", correct: false }
+        - { text: "They are complementary names of Coteaux d’Aix-en-Provence", correct: false }
       explanation: |
         Côtes de Provence has its own named terroir designations, including Sainte-Victoire, Fréjus and La Londe. Bandol, Cassis and Palette have independent specifications.
     fr:
@@ -2464,7 +2466,7 @@ cards:
         - { text: "Ce sont des AOC distinctes", correct: true }
         - { text: "Ce sont des dénominations de terroir de Côtes de Provence", correct: false }
         - { text: "Ce sont des sous-zones d’IGP", correct: false }
-        - { text: "Ce sont des villages de l’AOC Bandol", correct: false }
+        - { text: "Ce sont des dénominations complémentaires de Coteaux d’Aix-en-Provence", correct: false }
       explanation: |
         Côtes de Provence possède ses propres dénominations de terroir, dont Sainte-Victoire, Fréjus et La Londe. Bandol, Cassis et Palette ont leurs propres cahiers des charges.
   - id: sfrance-bandol-rank-001
@@ -2535,8 +2537,8 @@ cards:
       choices:
         - { text: "Full-bodied and tannic, with Mourvèdre leading the blend", correct: true }
         - { text: "Medium-bodied and soft, with Cinsault leading the blend", correct: false }
-        - { text: "Light-bodied and high in acidity, with Pinot Noir leading the blend", correct: false }
-        - { text: "Full-bodied and low in tannin, with Grenache Blanc leading the blend", correct: false }
+        - { text: "Light-bodied and high in acidity, with Carignan leading the blend", correct: false }
+        - { text: "Full-bodied and low in tannin, with Grenache leading the blend", correct: false }
       explanation: |
         Mourvèdre provides colour, tannin and dark-fruit intensity; bottle age can develop leather, game, undergrowth and truffle complexity.
     fr:
@@ -2544,8 +2546,8 @@ cards:
       choices:
         - { text: "Corsé et tannique, avec le Mourvèdre dominant l’assemblage", correct: true }
         - { text: "Moyennement corsé et souple, avec le Cinsault dominant l’assemblage", correct: false }
-        - { text: "Léger et très acide, avec le Pinot Noir dominant l’assemblage", correct: false }
-        - { text: "Corsé et peu tannique, avec le Grenache Blanc dominant l’assemblage", correct: false }
+        - { text: "Léger et très acide, avec le Carignan dominant l’assemblage", correct: false }
+        - { text: "Corsé et peu tannique, avec le Grenache dominant l’assemblage", correct: false }
       explanation: |
         Le Mourvèdre apporte couleur, tanins et intensité de fruits noirs ; la garde peut développer des notes de cuir, de gibier, de sous-bois et de truffe.
 
@@ -2808,7 +2810,7 @@ cards:
         - { text: "In the hills north of Nice; red and rosé", correct: false }
         - { text: "On the Camargue plain; rosé and white", correct: false }
       explanation: |
-        The appellation covers eight communes on the slopes of the Alpilles, north-west of Aix-en-Provence, and has been independent from Coteaux d’Aix since 1995.
+        The appellation covers a handful of communes on the slopes of the Alpilles, north-west of Aix-en-Provence, and has been independent from Coteaux d’Aix since 1995.
     fr:
       question: "Où se situe l’AOC Les Baux de Provence et quelles couleurs peut-elle produire ?"
       choices:
@@ -2817,4 +2819,4 @@ cards:
         - { text: "Dans les collines au nord de Nice ; rouge et rosé", correct: false }
         - { text: "Dans la plaine de Camargue ; rosé et blanc", correct: false }
       explanation: |
-        L’appellation couvre huit communes sur les versants des Alpilles, au nord-ouest d’Aix-en-Provence, et est indépendante de Coteaux d’Aix depuis 1995.
+        L’appellation couvre quelques communes sur les versants des Alpilles, au nord-ouest d’Aix-en-Provence, et est indépendante de Coteaux d’Aix depuis 1995.

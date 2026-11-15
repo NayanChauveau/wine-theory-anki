@@ -1,0 +1,650 @@
+file: cards/c18-loire.yaml
+cards:
+- id: loire-no-generic-aoc-001
+  verdict: minor
+  issues:
+  - negative key is the longest choice; 'every' in one foil
+  change: none
+  checked:
+  - knowledge
+- id: loire-igp-001
+  verdict: fix
+  issues:
+  - FR foils (Pays d'Oc, Gascogne, Méditerranée) differ from EN and are ruled out by region; FR Why differs
+  change: FR stem, foils and Why aligned to EN
+  checked:
+  - knowledge
+- id: loire-igp-style-001
+  verdict: fix
+  issues:
+  - joke/out-of-frame foils; key found without the fact (fortified under flor, valley-wide grand cru)
+  change: EN+FR choices rewritten, same correct index
+  checked:
+  - knowledge
+- id: loire-climate-001
+  verdict: minor
+  issues:
+  - Mediterranean-to-alpine foil is weak; 'uniformly' cue
+  change: none
+  checked:
+  - knowledge
+- id: loire-anjou-climate-001
+  verdict: fix
+  issues:
+  - joke/out-of-frame foils; key found without the fact (above the tree line, Mediterranean sea)
+  change: EN+FR choices rewritten, same correct index
+  checked:
+  - knowledge
+- id: loire-vintage-001
+  verdict: fix
+  issues:
+  - joke/out-of-frame foils; key found without the fact (compulsory grape change, bottle shapes)
+  change: EN+FR stem recast to weather hazards, four hazard sets, same correct index
+  checked:
+  - knowledge
+- id: loire-fungal-001
+  verdict: fix
+  issues:
+  - foils (sunburn, drought, smoke) contradict the stem's wet season
+  change: EN+FR choices rewritten, same correct index (other real Loire hazards)
+  checked:
+  - knowledge
+- id: loire-best-sites-001
+  verdict: fix
+  issues:
+  - foils self-evidently bad (shaded, cold-air pooling, waterlogged)
+  change: EN+FR choices rewritten, same correct index
+  checked:
+  - knowledge
+- id: loire-main-grapes-001
+  verdict: fix
+  issues:
+  - foils are other regions' grape sets, ruled out by region alone
+  change: EN+FR choices rewritten, same correct index (near-miss Loire sets)
+  checked:
+  - knowledge
+- id: loire-central-size-001
+  verdict: minor
+  issues:
+  - FR stem dropped 'around Sancerre' present in EN
+  change: FR stem aligned to EN
+  checked:
+  - knowledge
+- id: loire-central-aocs-001
+  verdict: fix
+  issues:
+  - stem says Central Vineyards; all foils are outside the Central Vineyards
+  change: EN+FR choices rewritten, same correct index (Centre-Loire pairs)
+  checked:
+  - knowledge
+- id: loire-sancerre-soil-001
+  verdict: minor
+  issues:
+  - '''throughout'' cue in two foils; basalt foil out of frame'
+  change: EN+FR foils reworded
+  checked:
+  - knowledge
+- id: loire-central-style-001
+  verdict: minor
+  issues:
+  - key is the longest choice; foils are plain opposites
+  change: none
+  checked:
+  - knowledge
+- id: loire-sancerre-age-001
+  verdict: fix
+  issues:
+  - cue words (only/all/every/always) single out the key
+  - compulsory oxidative ageing foil
+  change: EN+FR choices rewritten, same correct index
+  checked:
+  - knowledge
+- id: loire-fresh-winemaking-001
+  verdict: minor
+  issues:
+  - fortification foil out of frame
+  change: one foil replaced EN+FR
+  checked:
+  - knowledge
+- id: loire-broader-texture-001
+  verdict: minor
+  issues:
+  - foils are plain opposites of the key
+  change: none
+  checked:
+  - knowledge
+- id: loire-new-oak-001
+  verdict: fix
+  issues:
+  - hedged key is the shortest; foils use all/every
+  change: EN+FR choices rewritten, same correct index
+  checked:
+  - knowledge
+- id: loire-mlf-001
+  verdict: fix
+  issues:
+  - hedged key is the shortest; foils use every/all, fortification foil
+  change: EN+FR choices rewritten, same correct index
+  checked:
+  - knowledge
+- id: loire-central-tributaries-001
+  verdict: minor
+  issues:
+  - Atlantic and Layon foils are far out of frame; key longest
+  change: none
+  checked:
+  - knowledge
+- id: loire-menetou-style-001
+  verdict: fix
+  issues:
+  - joke/out-of-frame foils; key found without the fact (flor, botrytised Chenin, Chardonnay)
+  change: EN+FR choices rewritten, same correct index
+  checked:
+  - knowledge
+- id: loire-west-of-menetou-001
+  verdict: minor
+  issues:
+  - Jura foil is not a Loire region
+  change: foil replaced EN+FR
+  checked:
+  - knowledge
+- id: loire-touraine-aoc-001
+  verdict: fix
+  issues:
+  - FR stem and foils (Loire, Val de Loire, Anjou) differ from EN
+  change: FR stem, foils and Why aligned to EN
+  checked:
+  - knowledge
+- id: loire-touraine-sb-style-001
+  verdict: minor
+  issues:
+  - flor foil out of frame
+  change: foil replaced EN+FR
+  checked:
+  - knowledge
+- id: loire-chenin-shape-001
+  verdict: fix
+  issues:
+  - FR stem and foils differ from EN; 'toujours' cue in FR
+  change: FR stem and choices aligned to EN
+  checked:
+  - knowledge
+- id: loire-chenin-uneven-001
+  verdict: minor
+  issues:
+  - two weak foils (mechanical only, acidity gone before veraison)
+  change: none
+  checked:
+  - knowledge
+- id: loire-chenin-styles-001
+  verdict: fix
+  issues:
+  - cue words (only/all/every/always) single out the key in all three foils
+  change: EN+FR choices rewritten, same correct index
+  checked:
+  - knowledge
+- id: loire-chenin-style-gate-001
+  verdict: fix
+  issues:
+  - joke/out-of-frame foils; key found without the fact (vessel colour, bottle shape)
+  change: EN+FR choices rewritten, same correct index
+  checked:
+  - knowledge
+- id: loire-chenin-sparkling-001
+  verdict: fix
+  issues:
+  - joke/out-of-frame foils; key found without the fact
+  - always/all cues
+  change: EN+FR choices rewritten, same correct index
+  checked:
+  - knowledge
+- id: loire-chenin-ripest-001
+  verdict: fix
+  issues:
+  - foils are not concentration methods (carbonic maceration, flor, saignée)
+  change: EN+FR choices rewritten, same correct index
+  checked:
+  - knowledge
+- id: loire-chenin-riper-trend-001
+  verdict: minor
+  issues:
+  - '''compulsory noble rot in every bunch'' joke foil'
+  change: foil replaced EN+FR
+  checked:
+  - knowledge
+- id: loire-chenin-alcohol-001
+  verdict: minor
+  issues:
+  - '''compulsory residual sugar'' joke foil'
+  change: foil replaced EN+FR
+  checked:
+  - knowledge
+- id: loire-chenin-young-001
+  verdict: fix
+  issues:
+  - two foils are red-wine profiles, ruled out by colour
+  change: EN+FR choices rewritten, same correct index (other white varieties)
+  checked:
+  - knowledge
+- id: loire-chenin-dry-001
+  verdict: fix
+  issues:
+  - stem asks non-fruit notes but foils are fruits; 'only' cues
+  change: EN+FR choices rewritten, same correct index
+  checked:
+  - knowledge
+- id: loire-chenin-sweet-001
+  verdict: fix
+  issues:
+  - foils are red-wine profiles, ruled out by colour
+  change: EN+FR choices rewritten, same correct index
+  checked:
+  - knowledge
+- id: loire-chenin-age-001
+  verdict: fix
+  issues:
+  - joke/out-of-frame foils; key found without the fact (exactly five years by law, until next harvest)
+  change: EN+FR choices rewritten, same correct index
+  checked:
+  - knowledge
+- id: loire-chenin-aged-001
+  verdict: fix
+  issues:
+  - no/only cues; cassis-and-tannin foil ruled out by colour
+  change: EN+FR choices rewritten, same correct index
+  checked:
+  - knowledge
+- id: loire-chenin-site-001
+  verdict: fix
+  issues:
+  - joke/out-of-frame foils; key found without the fact (grape changes colour, Vouvray fortified)
+  change: EN+FR choices rewritten, same correct index
+  checked:
+  - knowledge
+- id: loire-vouvray-where-001
+  verdict: fix
+  issues:
+  - stem 'Touraine city' gives Tours away; EN/FR foils differ (Lyon vs Orléans); EN Why garbled
+  change: EN+FR stem and foils aligned (Loire cities), EN Why rewritten
+  checked:
+  - knowledge
+- id: loire-vouvray-styles-001
+  verdict: fix
+  issues:
+  - cue words (only/all/every/always) single out the key in all three foils; red and fortified foils
+  change: EN+FR choices rewritten, same correct index
+  checked:
+  - knowledge
+- id: loire-vouvray-vintage-001
+  verdict: fix
+  issues:
+  - joke/out-of-frame foils; key found without the fact (colour of the barrels)
+  change: EN+FR choices rewritten, same correct index
+  checked:
+  - knowledge
+- id: loire-vouvray-site-001
+  verdict: fix
+  issues:
+  - foils out of the Loire frame (hot Mediterranean, high-altitude basalt)
+  change: EN+FR choices rewritten, same correct index (other Loire soil/climate pairs)
+  checked:
+  - knowledge
+- id: loire-vouvray-oak-001
+  verdict: fix
+  issues:
+  - one-word hedged key against every/all foils
+  change: EN+FR choices rewritten, same correct index
+  checked:
+  - knowledge
+- id: loire-west-of-vouvray-001
+  verdict: fix
+  issues:
+  - Jura foil; other foils lie east or are not regions
+  change: EN+FR choices rewritten, same correct index
+  checked:
+  - knowledge
+- id: loire-anjou-saumur-vs-vouvray-001
+  verdict: fix
+  issues:
+  - joke/out-of-frame foils; key found without the fact (fully Mediterranean, same conditions by law)
+  change: EN+FR choices rewritten, same correct index (warm/cool x dry/wet grid)
+  checked:
+  - knowledge
+- id: loire-saumur-sparkling-001
+  verdict: fix
+  issues:
+  - cue words (only/all/every/always) single out the key in all three foils
+  change: EN+FR choices rewritten, same correct index
+  checked:
+  - knowledge
+- id: loire-anjou-dry-oak-001
+  verdict: fix
+  issues:
+  - hedged key against all/every/only foils
+  change: EN+FR choices rewritten, same correct index
+  checked:
+  - knowledge
+- id: loire-savennieres-layon-where-001
+  verdict: fix
+  issues:
+  - foils place Anjou AOCs in Sancerre/Nantais/Touraine; ruled out by region
+  change: EN+FR choices rewritten, same correct index
+  checked:
+  - knowledge
+- id: loire-anjou-west-climate-001
+  verdict: fix
+  issues:
+  - Mediterranean foil; 'throughout' cue; near-duplicate of anjou-saumur-vs-vouvray
+  change: EN+FR choices rewritten, same correct index
+  checked:
+  - knowledge
+- id: loire-anjou-west-body-001
+  verdict: fix
+  issues:
+  - joke/out-of-frame foils; key found without the fact (tannic reds from Chenin, wines without fruit)
+  change: EN+FR choices rewritten, same correct index
+  checked:
+  - knowledge
+- id: loire-savennieres-001
+  verdict: fix
+  issues:
+  - foils ruled out by grape/category (Melon, Pinot Noir rosé)
+  change: EN+FR choices rewritten, same correct index
+  checked:
+  - knowledge
+- id: loire-savennieres-botrytis-001
+  verdict: fix
+  issues:
+  - joke/out-of-frame foils; key found without the fact (Chenin prohibited, permanently flooded, picked before veraison)
+  change: EN+FR choices rewritten, same correct index
+  checked:
+  - knowledge
+- id: loire-layon-sweet-001
+  verdict: minor
+  issues:
+  - foils ruled out by grape/region; stem is easy
+  change: none
+  checked:
+  - knowledge
+- id: loire-layon-where-001
+  verdict: fix
+  issues:
+  - 'stem names Coteaux du Layon and the key is ''The Layon'': self-answering'
+  change: EN+FR stem and choices recast to location, same correct index
+  checked:
+  - knowledge
+- id: loire-layon-rot-001
+  verdict: minor
+  issues:
+  - '''permanent frost'' joke foil'
+  change: foil replaced EN+FR
+  checked:
+  - knowledge
+- id: loire-layon-crus-001
+  verdict: fix
+  issues:
+  - EN stem unclear ('top of the map') and unlike FR; key text differs EN/FR; foils outside Anjou sweet wines
+  change: EN stem rewritten, EN+FR choices aligned (sweet/Chenin Anjou-Touraine pairs)
+  checked:
+  - knowledge
+- id: loire-qdc-bonn-001
+  verdict: fix
+  issues:
+  - stem has no comparator; foils ruled out by grape/colour
+  change: EN+FR stem recast against basic Coteaux du Layon, choices rewritten
+  checked:
+  - knowledge
+- id: loire-melon-names-001
+  verdict: fix
+  issues:
+  - joke/out-of-frame foils; key found without the fact (two red grapes, a winemaking method); key longest
+  change: EN+FR choices rewritten, same correct index (classic confusions)
+  checked:
+  - knowledge
+- id: loire-melon-fit-001
+  verdict: fix
+  issues:
+  - foils self-evidently wrong for a cool climate (hot autumn, drought, after winter frost)
+  change: EN+FR choices rewritten, same correct index; Why now adds winter-cold tolerance
+  checked:
+  - knowledge
+- id: loire-nantais-where-001
+  verdict: minor
+  issues:
+  - '''only'' cue in one foil; Nantais/Nantes makes the stem easy'
+  change: foil reworded EN+FR
+  checked:
+  - knowledge
+- id: loire-nantais-name-001
+  verdict: minor
+  issues:
+  - foils are other regions' AOCs; easy
+  change: none
+  checked:
+  - knowledge
+- id: loire-muscadet-vessels-001
+  verdict: fix
+  issues:
+  - '''only'' cues; solera foil'
+  change: EN+FR choices rewritten, same correct index
+  checked:
+  - knowledge
+- id: loire-muscadet-age-001
+  verdict: fix
+  issues:
+  - every/only/neither cues single out the hedged key
+  change: EN+FR choices rewritten, same correct index
+  checked:
+  - knowledge
+- id: loire-sur-lie-001
+  verdict: minor
+  issues:
+  - fortification and grape-drying foils are weak
+  change: none
+  checked:
+  - knowledge
+- id: loire-sur-lie-winter-001
+  verdict: minor
+  issues:
+  - foils weak (new-oak flavour, deliberate oxidation)
+  change: none
+  checked:
+  - knowledge
+- id: loire-lees-texture-001
+  verdict: minor
+  issues:
+  - fortification foil out of frame
+  change: foil replaced EN+FR
+  checked:
+  - knowledge
+- id: loire-sur-lie-handle-001
+  verdict: minor
+  issues:
+  - '''heating before every transfer'' joke foil'
+  change: foil replaced EN+FR
+  checked:
+  - knowledge
+- id: loire-cf-fit-001
+  verdict: minor
+  issues:
+  - '''every spring frost'' cue foil'
+  change: foil replaced EN+FR (budding trap)
+  checked:
+  - knowledge
+- id: loire-cf-style-gate-001
+  verdict: fix
+  issues:
+  - joke/out-of-frame foils; key found without the fact (bottle colour, cork length, label design)
+  change: EN+FR choices rewritten, same correct index
+  checked:
+  - knowledge
+- id: loire-bourgueil-001
+  verdict: minor
+  issues:
+  - two foils are not Cabernet Franc AOCs (stem rules them out)
+  change: two foils replaced EN+FR
+  checked:
+  - knowledge
+- id: loire-cf-soil-split-001
+  verdict: fix
+  issues:
+  - always/only/no cues; sweet-rosé joke foil
+  change: EN+FR choices rewritten, same correct index
+  checked:
+  - knowledge
+- id: loire-cf-oak-001
+  verdict: fix
+  issues:
+  - hedged key against all/every/only foils
+  change: EN+FR choices rewritten, same correct index
+  checked:
+  - knowledge
+- id: loire-cf-age-001
+  verdict: fix
+  issues:
+  - joke/out-of-frame foils; key found without the fact (exactly two years by law, all primeur)
+  change: EN+FR choices rewritten, same correct index
+  checked:
+  - knowledge
+- id: loire-saumur-reds-001
+  verdict: fix
+  issues:
+  - stem says red appellations; two foils are white-only/sweet AOCs, third far east
+  change: EN+FR choices rewritten, same correct index (red-wine pairs)
+  checked:
+  - knowledge
+- id: loire-saumur-red-style-001
+  verdict: minor
+  issues:
+  - noble-rot foil for a red wine
+  change: foil replaced EN+FR
+  checked:
+  - knowledge
+- id: loire-gamay-rank-001
+  verdict: minor
+  issues:
+  - '''only'' cue in one foil'
+  change: foil reworded EN+FR
+  checked:
+  - knowledge
+- id: loire-gamay-where-001
+  verdict: fix
+  issues:
+  - cue words (only/all/every/always) single out the key in two foils; Savennières foil
+  change: EN+FR choices rewritten, same correct index
+  checked:
+  - knowledge
+- id: loire-pn-rank-001
+  verdict: minor
+  issues:
+  - '''only'' cue in one foil'
+  change: foil reworded EN+FR
+  checked:
+  - knowledge
+- id: loire-pn-rare-001
+  verdict: fix
+  issues:
+  - joke/out-of-frame foils; key found without the fact (permanent waterlogging, hottest Mediterranean); key restates
+    the stem
+  change: EN+FR choices rewritten, same correct index
+  checked:
+  - knowledge
+- id: loire-pn-style-001
+  verdict: minor
+  issues:
+  - '''sweet, fortified and oxidative'' joke foil'
+  change: foil replaced EN+FR
+  checked:
+  - knowledge
+- id: loire-rose-de-loire-where-001
+  verdict: fix
+  issues:
+  - cue words (only/all/every/always) single out the key in two foils; AOC pairs are not regions
+  change: EN+FR choices rewritten, same correct index
+  checked:
+  - knowledge
+- id: loire-rose-de-loire-vol-001
+  verdict: minor
+  issues:
+  - flor foil out of frame
+  change: foil replaced EN+FR
+  checked:
+  - knowledge
+- id: loire-rose-de-loire-blend-001
+  verdict: fix
+  issues:
+  - '''Several'' key against three ''Only ...'' foils'
+  change: EN+FR stem and choices recast, same correct index
+  checked:
+  - knowledge
+- id: loire-anjou-rose-aocs-001
+  verdict: fix
+  issues:
+  - foils are non-Anjou or non-rosé AOCs, ruled out without the fact; EN/FR foil text differs
+  change: EN+FR choices rewritten, same correct index (Anjou pairs)
+  checked:
+  - knowledge
+- id: loire-cabernet-anjou-001
+  verdict: fix
+  issues:
+  - '''only'' cues; white-grape foil for a rosé'
+  change: EN+FR choices rewritten, same correct index
+  checked:
+  - knowledge
+- id: loire-cabernet-anjou-sweet-001
+  verdict: fix
+  issues:
+  - two foils say the same thing (bone-dry / no sugar); 100 g/L joke foil
+  change: EN+FR stem recast to the legal minimum, four figures, same correct index
+  checked:
+  - knowledge
+- id: loire-rose-anjou-001
+  verdict: fix
+  issues:
+  - joke/out-of-frame foils; key found without the fact (both above 100 g/L, both below 3 g/L)
+  change: EN+FR choices rewritten, same correct index
+  checked:
+  - knowledge
+- id: loire-rose-anjou-grape-001
+  verdict: fix
+  issues:
+  - two white-grape foils for a rosé, ruled out by colour
+  change: EN+FR choices rewritten, same correct index
+  checked:
+  - knowledge
+- id: loire-touraine-rose-001
+  verdict: fix
+  issues:
+  - joke/out-of-frame foils; key found without the fact (botrytised Chenin rosé, oxidative Melon)
+  change: EN+FR choices rewritten, same correct index
+  checked:
+  - knowledge
+- id: loire-sancerre-rose-001
+  verdict: fix
+  issues:
+  - Melon and botrytised-rosé foils are jokes
+  change: EN+FR choices rewritten, same correct index
+  checked:
+  - knowledge
+- id: loire-rose-vinify-001
+  verdict: fix
+  issues:
+  - fortification and grape-drying foils out of frame
+  change: two foils replaced EN+FR
+  checked:
+  - knowledge
+summary:
+  counts:
+    minor: 28
+    fix: 62
+    ok: 22
+    wrong: 0
+  riskiest_patterns:
+  - 'Joke or out-of-frame foils (flor, fortification, bottle shape, by-law figures, other regions or colours) on
+    roughly half the cards: key reachable without the fact'
+  - Hedged key (some/uncommon/selectively) against absolute foils with only/all/every/always
+  - 'EN and FR versions drifting apart: different stems or foil sets on igp, touraine-aoc, chenin-shape, vouvray-where,
+    layon-crus'
+  - Self-answering stems (Coteaux du Layon -> the Layon; Touraine city -> Tours)
+  - No factual key errors found; legal figures (12% abv, 1 March sur lie, 3/7/10 g/L rosé sugars) match current
+    specifications from knowledge, no web check needed

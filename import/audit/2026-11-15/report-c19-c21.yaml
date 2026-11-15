@@ -1,0 +1,338 @@
+# Final audit — cards/c19-northern-rhone.yaml (76) and cards/c21-southern-france.yaml (96)
+# Only cards that are NOT ok are listed.
+cards:
+  # ---------- c19 ----------
+  - id: nrhone-stjo-best-style-001
+    verdict: wrong
+    issues: ["Key said top Saint-Joseph is 'normally fuller, more tannic and longer-lived' than Hermitage; the true statement was marked false and the explanation contradicted the key", "foil with 'always'", "joke foil 'legally identical'"]
+    change: "Correct statement (approaches Hermitage's concentration, with less power) now at index 1 in EN and FR; old key kept as a foil; two foils rewritten"
+    checked: [knowledge]
+  - id: nrhone-mr-blend-001
+    verdict: fix
+    issues: ["Three foils all start with 'Only', key is the only hedged option"]
+    change: "Foils reworded (Mostly/Mainly ...) EN+FR"
+    checked: [knowledge]
+  - id: nrhone-mr-roles-001
+    verdict: fix
+    issues: ["Joke foils: 'Roussanne prevents fermentation', tannin/deep colour for white grapes"]
+    change: "Two foils replaced by reversed/plausible role pairs EN+FR"
+    checked: [knowledge]
+  - id: nrhone-mr-age-001
+    verdict: fix
+    issues: ["FR 'blancs mûrs' reads as ripe, not bottle-aged"]
+    change: "FR stem now 'arrivés à maturité'"
+    checked: [knowledge]
+  - id: nrhone-viognier-oak-001
+    verdict: fix
+    issues: ["Key far longer than foils", "foils with compulsory/every, prohibited/throughout, Only"]
+    change: "Recast as 'main risk of pronounced new oak'; four short same-frame choices, key index 1, EN+FR"
+    checked: [knowledge]
+  - id: nrhone-fullest-001
+    verdict: fix
+    issues: ["Foil Condrieu is white-only and Côtes du Rhône is not a cru: both drop without knowledge"]
+    change: "Foils now Côte-Rôtie and Crozes-Hermitage EN+FR"
+    checked: [knowledge]
+  - id: nrhone-syrah-profile-001
+    verdict: minor
+    issues: ["FR calque 'épices savoureuses'", "key is the longest choice"]
+    change: "FR explanation: 'des épices et des notes de gibier'"
+    checked: [knowledge]
+  - id: nrhone-white-in-red-001
+    verdict: minor
+    issues: ["Foil 'more tannin and darker colour' is half-true: co-fermentation is often credited with stabilising colour"]
+    change: "Foil now 'More tannin and firmer structure' EN+FR"
+    checked: [knowledge]
+  - id: nrhone-cr-north-001
+    verdict: minor
+    issues: ["Explanation called Côte-Rôtie the valley's northernmost appellation; regional Côtes du Rhône reaches as far north"]
+    change: "'appellation' -> 'cru' EN+FR"
+    checked: [knowledge]
+  - id: nrhone-stjo-best-001
+    verdict: minor
+    issues: ["FR key added 'du cœur historique', absent from EN and much longer than the foils"]
+    change: "FR key shortened to match EN"
+    checked: [knowledge]
+  - id: nrhone-hermitage-white-share-001
+    verdict: minor
+    issues: ["'roughly around one third' is at the top of published figures; white is usually quoted at a quarter to a third"]
+    change: "Key now 'roughly a quarter to a third' EN+FR"
+    checked: [knowledge, "web search (no official split found; Inter Rhône 2025 key figures give 137 ha)"]
+  - id: nrhone-crozes-relief-001
+    verdict: minor
+    issues: ["Joke foil 'north is coastal while the south is alpine'"]
+    change: "Foil replaced by a plateau description EN+FR"
+    checked: [knowledge]
+  - id: nrhone-best-aspect-001
+    verdict: minor
+    issues: ["Foils (north-facing, shaded, valley floor) drop without knowledge; overlaps valley-001 and lateral-001"]
+    change: none
+    checked: [knowledge]
+  - id: nrhone-syrah-oak-001
+    verdict: minor
+    issues: ["Foils carry 'every' and 'only'; key is the only sensible option"]
+    change: none
+    checked: [knowledge]
+  - id: nrhone-viognier-ripe-001
+    verdict: minor
+    issues: ["Foils about tannin and red colour are implausible for a white grape; key longest"]
+    change: none
+    checked: [knowledge]
+  - id: nrhone-viognier-handle-001
+    verdict: minor
+    issues: ["Foils 'compulsory second alcoholic fermentation' and 'red colour' are not credible"]
+    change: none
+    checked: [knowledge]
+  - id: nrhone-viognier-offdry-001
+    verdict: minor
+    issues: ["Foils (sweet sparkling, fortified) weak; id says offdry but card is about dry still white"]
+    change: none
+    checked: [knowledge]
+  - id: nrhone-grillet-001
+    verdict: minor
+    issues: ["Key longest; 'largest cooperative brand' foil weak"]
+    change: none
+    checked: [knowledge]
+  - id: nrhone-crozes-south-001
+    verdict: minor
+    issues: ["Two foils name sites outside Crozes-Hermitage (Hermitage lieux-dits, Tournon terraces)"]
+    change: none
+    checked: [knowledge]
+  - id: nrhone-crozes-oak-001
+    verdict: minor
+    issues: ["Foils 'All wines because the AOC requires it' / 'Only wines containing white grapes' weak"]
+    change: none
+    checked: [knowledge]
+  - id: nrhone-cornas-where-001
+    verdict: minor
+    issues: ["Key longest; foils excluded by geography alone; published aspect varies between south/south-east and east/south-east"]
+    change: none
+    checked: [knowledge]
+  - id: nrhone-cornas-style-001
+    verdict: minor
+    issues: ["Key clearly the longest; foil 'Viognier is compulsory'"]
+    change: none
+    checked: [knowledge]
+
+  # ---------- c21 ----------
+  - id: sfrance-floods-001
+    verdict: fix
+    issues: ["Joke foils: summer snowmelt, daily tropical downpours, continuous drizzle"]
+    change: "Three foils replaced by plausible rainfall hazards EN+FR"
+    checked: [knowledge]
+  - id: sfrance-local-pair-001
+    verdict: fix
+    issues: ["All foils are pairs from other regions (Gamay, Trousseau, Tannat): eliminated by region alone"]
+    change: "Foils now built from grapes grown in Languedoc EN+FR"
+    checked: [knowledge]
+  - id: sfrance-modern-cellar-001
+    verdict: fix
+    issues: ["Self-defeating foils (uncontrolled fermentation, systematic oxidation, mandatory new oak for all)"]
+    change: "Three foils replaced by plausible developments EN+FR"
+    checked: [knowledge]
+  - id: sfrance-mourvedre-blend-001
+    verdict: fix
+    issues: ["FR key 'complexité ... d’arômes savoureux' is a calque of savoury"]
+    change: "FR key: 'notes de fruits noirs ou de gibier'"
+    checked: [knowledge]
+  - id: sfrance-clairette-where-001
+    verdict: fix
+    issues: ["Stem asks for two Southern France regions; foils were Bordeaux, Beaujolais/Jura, Loire/Champagne"]
+    change: "Recast: which white grape is traditional in both Languedoc and Provence; choices Clairette (index 0) / Piquepoul Blanc / Mauzac / Macabeu; explanations rewritten EN+FR"
+    checked: [knowledge]
+  - id: sfrance-languedoc-aoc-span-001
+    verdict: fix
+    issues: ["Foils were other regions (Rhône valley, inland Provence, Atlantic coast); key the only detailed option"]
+    change: "Four same-frame extents inside Languedoc-Roussillon; 200 km figure moved to explanation EN+FR"
+    checked: [knowledge]
+  - id: sfrance-aoc-evolve-001
+    verdict: fix
+    issues: ["Foil paired Picpoul de Pinet, itself a former Languedoc designation promoted to AOC in 2013: half-true"]
+    change: "Foil now 'Fitou and Clairette du Languedoc' EN+FR"
+    checked: [knowledge]
+  - id: sfrance-corbieres-count-001
+    verdict: fix
+    issues: ["Key is a truism; joke foil 'two legally identical islands of vines'; explanation was a meta-comment about teaching materials and a disputed count"]
+    change: "Recast as a geographic description with four credible landscapes (one is Minervois); explanations rewritten EN+FR"
+    checked: [knowledge]
+  - id: sfrance-boutenac-001
+    verdict: fix
+    issues: ["Key about three times longer than foils; foils excluded by colour/category alone (white Piquepoul, rosé-only, IGP)"]
+    change: "Four parallel AOC descriptions of similar length, key index 0, EN+FR"
+    checked: [knowledge]
+  - id: sfrance-minervois-slopes-001
+    verdict: fix
+    issues: ["Foils from other regions: Cap Canaille, northern Rhône terraces, Camargue dunes"]
+    change: "Foils now nearby reliefs (Corbières massif, Pyrenean foothills, La Clape) EN+FR"
+    checked: [knowledge]
+  - id: sfrance-provence-hills-001
+    verdict: fix
+    issues: ["Foils were long and half-true (coast-to-inland gradient with altitude; mountain chain with altitude and exposure), not separable from the key; foils longer than key"]
+    change: "Stem and all four choices rewritten as distinct landscape features EN+FR"
+    checked: [knowledge]
+  - id: sfrance-provence-where-001
+    verdict: fix
+    issues: ["Joke foils: Atlantic coast, Loire estuary, western Pyrenees"]
+    change: "Four locations in southern/south-eastern France; key 'between the Rhône delta and Nice' EN+FR"
+    checked: [knowledge]
+  - id: sfrance-local-intl-001
+    verdict: minor
+    issues: ["Foils with 'Only' and 'every'"]
+    change: "Two foils softened EN+FR"
+    checked: [knowledge]
+  - id: sfrance-carignan-rank-001
+    verdict: minor
+    issues: ["Foils Cabernet Franc and Pinot Noir excluded by region"]
+    change: "Foils now Syrah and Merlot EN+FR"
+    checked: [knowledge]
+  - id: sfrance-warm-mourvedre-001
+    verdict: minor
+    issues: ["FR calque 'complexité savoureuse'"]
+    change: "FR stem: 'notes giboyeuses'"
+    checked: [knowledge]
+  - id: sfrance-viognier-001
+    verdict: minor
+    issues: ["'international-style' is odd; foils Melon, Folle Blanche, Aligoté excluded by region; FR 'corsés' for a white"]
+    change: "Stem reworded; foils now Sauvignon Blanc, Piquepoul Blanc, Mauzac EN+FR"
+    checked: [knowledge]
+  - id: sfrance-languedoc-depts-001
+    verdict: minor
+    issues: ["Gironde/Dordogne foil is another region"]
+    change: "Foil now 'Hérault, Gard and Pyrénées-Orientales' EN+FR"
+    checked: [knowledge]
+  - id: sfrance-pays-doc-001
+    verdict: minor
+    issues: ["'five départements': Pays d’Oc covers four plus a few Lozère communes"]
+    change: "Stem now 'from the Gard to Pyrénées-Orientales'; FR 'vins de cépage'"
+    checked: [knowledge]
+  - id: sfrance-provence-white-001
+    verdict: minor
+    issues: ["Foils (Riesling, Chenin, Muscadelle) excluded by region"]
+    change: "Foils replaced by southern French pairs EN+FR"
+    checked: [knowledge]
+  - id: sfrance-provence-crus-001
+    verdict: minor
+    issues: ["Foil 'village names within Bandol' is self-contradictory"]
+    change: "Foil now 'complementary names of Coteaux d’Aix-en-Provence' EN+FR"
+    checked: [knowledge]
+  - id: sfrance-bandol-style-001
+    verdict: minor
+    issues: ["Foils with Pinot Noir and Grenache Blanc leading a red blend"]
+    change: "Now Carignan and Grenache EN+FR"
+    checked: [knowledge]
+  - id: sfrance-baux-001
+    verdict: minor
+    issues: ["'eight communes': the 2024 specification lists seven, an INAO product page says eight"]
+    change: "Count removed from the explanation ('a handful of communes') EN+FR"
+    checked: ["inao (web search, conflicting 7 vs 8)"]
+  - id: sfrance-languedoc-red-001
+    verdict: minor
+    issues: ["40/40/20 split matches the INAO product sheet but differs from the 'mostly red' picture a WSET candidate learns; figure may date"]
+    change: "none to content; added 'inao' to review.sources"
+    checked: ["inao (web search)"]
+  - id: sfrance-terrain-001
+    verdict: minor
+    issues: ["Foils 'Atlantic dunes', 'chalk plains' not credible"]
+    change: none
+    checked: [knowledge]
+  - id: sfrance-drought-001
+    verdict: minor
+    issues: ["Foil 'snowmelt flooding throughout ripening'"]
+    change: none
+    checked: [knowledge]
+  - id: sfrance-syrah-sites-001
+    verdict: minor
+    issues: ["Self-defeating foils ('sheltered from every cooling influence', 'highest possible yields')"]
+    change: none
+    checked: [knowledge]
+  - id: sfrance-grenache-sites-001
+    verdict: minor
+    issues: ["Foil 'high risk of incomplete ripening' answers itself"]
+    change: none
+    checked: [knowledge]
+  - id: sfrance-carignan-legal-001
+    verdict: minor
+    issues: ["Stem says red AOCs; one foil is all-white appellations; key names Corbières twice"]
+    change: none
+    checked: [knowledge]
+  - id: sfrance-igp-bordeaux-001
+    verdict: minor
+    issues: ["Nebbiolo/Sangiovese foil not credible"]
+    change: none
+    checked: [knowledge]
+  - id: sfrance-semicarbonic-why-001
+    verdict: minor
+    issues: ["Foil 'increases extraction to make the wine more astringent' is self-defeating"]
+    change: none
+    checked: [knowledge]
+  - id: sfrance-languedoc-hard-001
+    verdict: minor
+    issues: ["Foils with 'every' / 'no legally defined areas'"]
+    change: none
+    checked: [knowledge]
+  - id: sfrance-large-aoc-best-001
+    verdict: minor
+    issues: ["Key longest; foils (sweet fortified, green apple) out of frame"]
+    change: none
+    checked: [knowledge]
+  - id: sfrance-rose-soft-001
+    verdict: minor
+    issues: ["Foils (fortified, flor-aged, highly tannic) out of frame for a dry rosé"]
+    change: none
+    checked: [knowledge]
+  - id: sfrance-liviniere-001
+    verdict: minor
+    issues: ["Foils are white, rosé and Muscat styles; colour alone gives the key"]
+    change: none
+    checked: [knowledge]
+  - id: sfrance-limoux-chard-001
+    verdict: minor
+    issues: ["Foil 'Mauzac is prohibited from every style'; fortified foil weak"]
+    change: none
+    checked: [knowledge]
+  - id: sfrance-igp-volume-001
+    verdict: minor
+    issues: ["Self-defeating foils ('small vineyard area', 'cannot qualify for any AOC')"]
+    change: none
+    checked: [knowledge]
+  - id: sfrance-pays-doc-why-001
+    verdict: minor
+    issues: ["Foils 'ban on naming the grape', 'only sweet fortified' not credible"]
+    change: none
+    checked: [knowledge]
+  - id: sfrance-provence-shelter-001
+    verdict: minor
+    issues: ["Foils with every/all/throughout; near-duplicate of provence-hills-001"]
+    change: none
+    checked: [knowledge]
+  - id: sfrance-provence-rose-style-001
+    verdict: minor
+    issues: ["Foils (sweet and tannic, oxidative, new oak) out of frame"]
+    change: none
+    checked: [knowledge]
+  - id: sfrance-provence-red-001
+    verdict: minor
+    issues: ["Foils describe botrytised, sparkling or fortified reds"]
+    change: none
+    checked: [knowledge]
+  - id: sfrance-cassis-style-001
+    verdict: minor
+    issues: ["Foils (botrytised, flor-aged) out of frame"]
+    change: none
+    checked: [knowledge]
+
+summary:
+  files:
+    c19-northern-rhone: { cards: 76, wrong: 1, fix: 5, minor: 16, ok: 54 }
+    c21-southern-france: { cards: 96, wrong: 0, fix: 12, minor: 29, ok: 55 }
+  total: { cards: 172, wrong: 1, fix: 17, minor: 45, ok: 109 }
+  validate: "uv run wset3-anki validate -> 3517 card(s) OK; EN/FR correct index and choice count match on all 172 cards"
+  riskiest_patterns:
+    - "c19 had one inverted key (Saint-Joseph vs Hermitage) whose own explanation contradicted it: keys that compare two appellations deserve a key-vs-explanation consistency check"
+    - "c21 foils taken from other regions or other wine categories (Atlantic coast, Loire, Riesling, botrytised or flor wines): the card is answered by region or colour alone"
+    - "Cue words concentrated in foils (Only/every/all/always/mandatory) while the key is the only hedged option"
+    - "Key visibly longer than the foils on description cards (Boutenac, Viognier oak, Cornas style)"
+    - "Over-engineered half-true foils (Provence mesoclimates) that cannot be separated from the key"
+    - "FR calques of 'savoury' (savoureux/savoureuse) and 'mature' (mûrs)"
+    - "Soft figures presented as fixed: Hermitage white share, Languedoc AOC 40/40/20, Les Baux commune count, Pays d’Oc 'five départements'"
+  notes:
+    - "Provence cards in c21 (from sfrance-provence-hills-001 on) keep long unwrapped explanation lines and straight apostrophes in EN; left as is"

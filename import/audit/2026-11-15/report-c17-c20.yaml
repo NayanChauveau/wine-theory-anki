@@ -1,0 +1,445 @@
+files:
+- cards/c17-alsace.yaml
+- cards/c20-southern-rhone.yaml
+cards:
+- id: alsace-dry-seasons-001
+  verdict: minor
+  issues:
+  - FR foil 3 not faithful to EN and used "toutes"
+  change: FR foil aligned with EN
+  checked:
+  - knowledge
+- id: alsace-drought-001
+  verdict: minor
+  issues:
+  - Joke foil (salt spray in Alsace)
+  change: foil replaced EN+FR (autumn fog)
+  checked:
+  - knowledge
+- id: alsace-style-geology-001
+  verdict: minor
+  issues:
+  - FR foil 4 differed from EN
+  change: FR foil aligned with EN
+  checked:
+  - knowledge
+- id: alsace-slope-hand-001
+  verdict: fix
+  issues:
+  - 'Foil half-true: Alsace Grand Cru does require hand harvesting'
+  change: foil replaced EN+FR (regional AOC machine ban, false)
+  checked:
+  - knowledge
+- id: alsace-organic-001
+  verdict: minor
+  issues:
+  - Implausible foil (irrigated farming under permanent cover)
+  change: foil reworded EN+FR
+  checked:
+  - knowledge
+- id: alsace-gc-grapes-001
+  verdict: fix
+  issues:
+  - Stem stated "51" grand cru AOCs, leaking alsace-gc-count-001 and alsace-aoc-count-001
+  change: '"51" removed from EN+FR stem'
+  checked:
+  - knowledge
+- id: alsace-tartrate-001
+  verdict: minor
+  issues:
+  - Joke foil (grape-seed oil sealant)
+  change: foil replaced EN+FR (paraffin coating)
+  checked:
+  - knowledge
+- id: alsace-spring-bottle-001
+  verdict: minor
+  issues:
+  - Key longest, with a justification clause
+  change: key shortened EN+FR
+  checked:
+  - knowledge
+- id: alsace-bottle-age-001
+  verdict: fix
+  issues:
+  - Foil 1 half-true (most Alsace wine is indeed drunk young)
+  change: foil rewritten EN+FR to a clearly false claim
+  checked:
+  - knowledge
+- id: alsace-gewurz-colour-001
+  verdict: fix
+  issues:
+  - Three joke foils (water-white, red wine, permanently cloudy)
+  change: EN+FR foils replaced with same-frame credible ones; key index unchanged; last Why sentence adjusted
+  checked:
+  - knowledge
+- id: alsace-gewurz-profile-001
+  verdict: minor
+  issues:
+  - Foil 4 described a red wine (tannin, colour)
+  change: foil replaced EN+FR
+  checked:
+  - knowledge
+- id: alsace-vt-sgn-mentions-001
+  verdict: fix
+  issues:
+  - Stem said "late-harvest mentions"; key literally "Vendanges Tardives"
+  change: EN+FR stem recast (regulated mentions with stricter sugar minimums)
+  checked:
+  - knowledge
+- id: alsace-vt-sgn-which-aoc-001
+  verdict: minor
+  issues:
+  - Foil leaked the 51 count
+  change: '"51" removed EN+FR'
+  checked:
+  - knowledge
+- id: alsace-village-name-001
+  verdict: fix
+  issues:
+  - Key was longest and opened with cue word Only/Seule
+  change: key reworded EN+FR
+  checked:
+  - knowledge
+- id: alsace-gc-label-001
+  verdict: fix
+  issues:
+  - 'Foil half-true: sweetness category is mandatory on still Alsace labels since 2021'
+  change: foil replaced EN+FR (bottling date)
+  checked:
+  - knowledge
+- id: alsace-gc-size-row-001
+  verdict: minor
+  issues:
+  - Joke foil (producer name banned on label)
+  change: foil replaced EN+FR
+  checked:
+  - knowledge
+- id: alsace-sgn-botrytis-001
+  verdict: minor
+  issues:
+  - EN stem ("What…") did not fit choices ("Mainly by…")
+  change: EN stem recast to match FR
+  checked:
+  - knowledge
+- id: alsace-sgn-rare-001
+  verdict: minor
+  issues:
+  - Key opened with cue word Only/Seulement
+  change: key reworded EN+FR
+  checked:
+  - knowledge
+- id: alsace-mlf-001
+  verdict: minor
+  issues:
+  - Only one option is a "conversion"; foils eliminable
+  change: none
+  checked:
+  - knowledge
+- id: alsace-only-black-001
+  verdict: minor
+  issues:
+  - Why lists Hengst and Kirchberg de Barr only; Vorbourg red grand cru reported since (not verified online)
+  change: none
+  checked:
+  - knowledge
+- id: srhone-syrah-trellis-001
+  verdict: wrong
+  issues:
+  - Key was on the absurd foil ("ripen only above two metres") in EN and FR; true answer (shoots need support) marked
+    false
+  change: correct flag now on the true answer at index 1 EN+FR; two foils reworded
+  checked:
+  - knowledge
+- id: srhone-mistral-why-001
+  verdict: fix
+  issues:
+  - Three joke foils (forest traps wind, sea reverses wind, humidity)
+  change: EN+FR foils replaced with same-frame credible ones; key index unchanged
+  checked:
+  - knowledge
+- id: srhone-winemaking-varied-001
+  verdict: fix
+  issues:
+  - Two absurd foils with all/only
+  change: EN+FR foils replaced with same-frame credible ones; key index unchanged
+  checked:
+  - knowledge
+- id: srhone-balance-001
+  verdict: fix
+  issues:
+  - Three self-contradictory foils; key the only sensible option
+  change: EN+FR foils replaced with same-frame credible ones; key index unchanged
+  checked:
+  - knowledge
+- id: srhone-blend-lots-001
+  verdict: fix
+  issues:
+  - Two absurd foils
+  change: EN+FR foils replaced with same-frame credible ones; key index unchanged
+  checked:
+  - knowledge
+- id: srhone-new-oak-001
+  verdict: fix
+  issues:
+  - Foils with always/all/cannot; key the only hedged option
+  change: EN+FR foils replaced with same-frame credible ones; key index unchanged
+  checked:
+  - knowledge
+- id: srhone-style-range-001
+  verdict: fix
+  issues:
+  - Foils with all/only/solely; key identifiable without the fact
+  change: EN+FR foils replaced with same-frame credible ones; key index unchanged
+  checked:
+  - knowledge
+- id: srhone-village-vs-cdr-001
+  verdict: fix
+  issues:
+  - Two joke foils (must be sweeter; only Syrah)
+  change: EN+FR foils replaced with same-frame credible ones; key index unchanged
+  checked:
+  - knowledge
+- id: srhone-cdp-first-aoc-001
+  verdict: fix
+  issues:
+  - Joke foils (IGP to DOCG; first to permit Syrah)
+  change: EN+FR foils replaced with same-frame credible ones; key index unchanged
+  checked:
+  - knowledge
+- id: srhone-cdp-aspect-001
+  verdict: fix
+  issues:
+  - Three non-site joke foils
+  change: EN+FR foils replaced with same-frame credible ones; key index unchanged
+  checked:
+  - knowledge
+- id: srhone-cdp-diversity-001
+  verdict: fix
+  issues:
+  - Two absurd foils
+  change: EN+FR foils replaced with same-frame credible ones; key index unchanged
+  checked:
+  - knowledge
+- id: srhone-cdp-lesser-001
+  verdict: fix
+  issues:
+  - All three foils described balanced wines; key found without the fact
+  change: EN+FR foils replaced with same-frame credible ones; key index unchanged
+  checked:
+  - knowledge
+- id: srhone-west-rose-001
+  verdict: fix
+  issues:
+  - Two out-of-category foils (fortified Muscat, sparkling); FR key weaker than EN
+  change: EN+FR foils replaced with same-frame credible ones; key index unchanged
+  checked:
+  - knowledge
+- id: srhone-other-cru-quality-001
+  verdict: fix
+  issues:
+  - Key was the only "can" among must/cannot foils
+  change: EN+FR stem and choices recast as style/quality comparison, same index
+  checked:
+  - knowledge
+- id: srhone-muscat-vdn-001
+  verdict: fix
+  issues:
+  - Stem named Muscat and key was the only option with Muscat; FR "fortifié"
+  change: 'recast EN+FR: asks the grape of the Beaumes-de-Venise VDN, four grape choices, same index'
+  checked:
+  - knowledge
+- id: srhone-stones-001
+  verdict: minor
+  issues:
+  - Joke foil (waterlogged peat)
+  change: foil(s) replaced EN+FR
+  checked:
+  - knowledge
+- id: srhone-stones-heat-001
+  verdict: minor
+  issues:
+  - Joke foil (stones increase rainfall)
+  change: foil(s) replaced EN+FR
+  checked:
+  - knowledge
+- id: srhone-climate-001
+  verdict: minor
+  issues:
+  - Joke foil (alpine, summer frost)
+  change: foil(s) replaced EN+FR
+  checked:
+  - knowledge
+- id: srhone-drought-001
+  verdict: minor
+  issues:
+  - Joke foil (no winter dormancy)
+  change: foil(s) replaced EN+FR
+  checked:
+  - knowledge
+- id: srhone-extract-path-001
+  verdict: minor
+  issues:
+  - Foil not a red-wine method (direct pressing)
+  change: foil(s) replaced EN+FR
+  checked:
+  - knowledge
+- id: srhone-white-profile-001
+  verdict: minor
+  issues:
+  - Foil described a red wine
+  change: foil(s) replaced EN+FR
+  checked:
+  - knowledge
+- id: srhone-white-share-001
+  verdict: minor
+  issues:
+  - Implausible foil (white prohibited below cru)
+  change: foil(s) replaced EN+FR
+  checked:
+  - knowledge
+- id: srhone-best-below-cru-001
+  verdict: minor
+  issues:
+  - Weak foils; unnamed Villages missing
+  change: foil(s) replaced EN+FR
+  checked:
+  - knowledge
+- id: srhone-cdp-bank-001
+  verdict: minor
+  issues:
+  - Joke foil (island in the river)
+  change: foil(s) replaced EN+FR
+  checked:
+  - knowledge
+- id: srhone-cdp-best-001
+  verdict: minor
+  issues:
+  - Two weak foils
+  change: foil(s) replaced EN+FR
+  checked:
+  - knowledge
+- id: srhone-tavel-lirac-fame-001
+  verdict: minor
+  issues:
+  - Two out-of-frame foils (sweet fortified red, sparkling)
+  change: foil(s) replaced EN+FR
+  checked:
+  - knowledge
+- id: srhone-east-crus-001
+  verdict: minor
+  issues:
+  - Joke foil (coast south of Marseille)
+  change: foil(s) replaced EN+FR
+  checked:
+  - knowledge
+- id: srhone-other-cru-style-001
+  verdict: minor
+  issues:
+  - Joke foil (Muscat aromas in a red)
+  change: foil(s) replaced EN+FR
+  checked:
+  - knowledge
+- id: srhone-grenache-flavour-001
+  verdict: minor
+  issues:
+  - Stray "only/uniquement" in a foil
+  change: removed EN+FR
+  checked:
+  - knowledge
+- id: srhone-mourvedre-profile-001
+  verdict: minor
+  issues:
+  - FR calque "notes savoureuses"
+  change: FR -> "notes carnées ou animales"
+  checked:
+  - knowledge
+- id: srhone-cinsault-001
+  verdict: minor
+  issues:
+  - FR calque "structure animale"
+  change: EN+FR -> gamey notes / notes animales
+  checked:
+  - knowledge
+- id: srhone-cinsault-rose-001
+  verdict: minor
+  issues:
+  - FR "fortifiés" for VDN
+  change: FR -> "mutés"
+  checked:
+  - knowledge
+- id: srhone-mourvedre-blend-001
+  verdict: minor
+  issues:
+  - FR calque "complexité savoureuse"
+  change: FR -> "complexité carnée et animale"
+  checked:
+  - knowledge
+- id: srhone-flatter-001
+  verdict: minor
+  issues:
+  - Weak foil (one continuous south-facing slope)
+  change: none
+  checked:
+  - knowledge
+- id: srhone-blends-001
+  verdict: minor
+  issues:
+  - Foil "exclude all secondary varieties" weak
+  change: none
+  checked:
+  - knowledge
+- id: srhone-dozen-001
+  verdict: minor
+  issues:
+  - Two rigid-rule foils easy to discard
+  change: none
+  checked:
+  - knowledge
+- id: srhone-syrah-hot-001
+  verdict: minor
+  issues:
+  - Foil "guarantee lower yields by law" weak
+  change: none
+  checked:
+  - knowledge
+- id: srhone-cdp-flat-001
+  verdict: minor
+  issues:
+  - Foil "high-altitude mountain vineyard" weak
+  change: none
+  checked:
+  - knowledge
+- id: srhone-cru-colours-001
+  verdict: minor
+  issues:
+  - Foils use Every; key hedged
+  change: none
+  checked:
+  - knowledge
+- id: srhone-old-crus-001
+  verdict: minor
+  issues:
+  - Stem ignores Tavel (1936) and Lirac (1947) as earlier crus; key still the only valid pair offered
+  change: none
+  checked:
+  - knowledge
+summary:
+  c17-alsace:
+    wrong: 0
+    fix: 7
+    minor: 13
+    ok: 62
+  c20-southern-rhone:
+    wrong: 1
+    fix: 14
+    minor: 25
+    ok: 28
+  riskiest_patterns:
+  - 'c20: one inverted key (srhone-syrah-trellis-001) that passed earlier review'
+  - 'c20: many joke/absurd foils and absolute cue words (all/only/always/cannot) leaving the key as the only sensible
+    option'
+  - 'c17: half-true foils built from real rules (grand cru hand harvest, 2021 sweetness labelling)'
+  - 'c17: the 51 grand cru count leaked through stems/foils of sibling cards'
+  - FR calques of savoury/gamey/fortified (savoureux, structure animale, fortifié)
+  web_checks: none needed; all judged from knowledge
+  validate: uv run wset3-anki validate -> 3517 card(s) OK; EN/FR correct indexes match on all 150 cards
