@@ -1,0 +1,91 @@
+# Final audit — cards/c32-usa-introduction.yaml (6) and cards/c33-california.yaml (182)
+# One web check (California variety acreage ranking); everything else from knowledge.
+cards:
+  - id: calif-mendocino-ava-grapes-001
+    verdict: fix
+    issues:
+      - "Two foils were Austrian and Iberian grape trios (Blaufränkisch/Zweigelt/St Laurent; Tempranillo/Touriga Nacional/Mencía): ruled out by country alone, no knowledge needed"
+    change: "EN+FR foils replaced by Californian trios: 'Rubired, Ruby Cabernet and Barbera' and 'Grenache, Mourvèdre and Cinsault'; key and index unchanged"
+    checked: [knowledge]
+  - id: calif-sonoma-coast-where-001
+    verdict: minor
+    issues:
+      - "Stem said Sonoma Coast 'borders' Alexander Valley on its western side; Dry Creek Valley lies between them, so the wording was geographically loose"
+    change: "EN+FR stem reworded to 'which large AVA lies to the west of the Dry Creek Valley and Alexander Valley AVAs'"
+    checked: [knowledge]
+  - id: calif-central-valley-hot-001
+    verdict: minor
+    issues:
+      - "Explanation placed Lodi at the Central Valley's 'northern end'; it sits midway, where the Sacramento and San Joaquin valleys meet (as calif-lodi-where-001 says)"
+    change: "EN 'midway along it' / FR 'à mi-longueur'"
+    checked: [knowledge]
+  - id: calif-napa-hill-aspect-001
+    verdict: minor
+    issues: ["EN stem awkward ('puts ... hillsides in warmer sites')"]
+    change: "EN stem: 'Which site factor makes Napa’s Vaca-side hillsides warmer than its Mayacamas-side hillsides?' (FR already clear)"
+    checked: [knowledge]
+  - id: calif-nc-breezes-001
+    verdict: minor
+    issues: ["FR gender of gap names inconsistent across the file (la Petaluma Gap / le Petaluma Gap, la Templeton Gap / le Templeton Gap)"]
+    change: "Normalised to masculine (le Petaluma Gap, le Templeton Gap) here and in calif-rrv-petaluma-001, calif-lodi-delta-breeze-001, calif-rrv-pinot-chard-001, calif-dry-creek-warmth-001"
+    checked: [knowledge]
+  - id: calif-starita-marine-001
+    verdict: minor
+    issues: ["EN question was unquoted YAML, unlike the rest of the file (10 cards: calif-starita-*, calif-cv-two-valleys, calif-cv-bred-grapes, calif-cv-whites, calif-cv-barbera, calif-lodi-*)"]
+    change: "Double-quoted the 10 EN questions; text unchanged"
+    checked: [knowledge]
+  - id: calif-starita-chard-001
+    verdict: minor
+    issues:
+      - "Foils (Chenin Blanc, Colombard, Muscat of Alexandria) are all hot-valley volume grapes, easy to drop for a cool AVA"
+      - "Explanation's Riesling/Grüner Veltliner plots in Sta. Rita Hills is a thin claim"
+    change: none
+    checked: [knowledge]
+  - id: calif-cv-whites-001
+    verdict: minor
+    issues: ["Foil pairs (Riesling/Gewurztraminer, Viognier/Roussanne, Pinot Gris/Grüner Veltliner) are weak for a hot volume region"]
+    change: none
+    checked: [knowledge]
+  - id: calif-anderson-sparkling-001
+    verdict: minor
+    issues: ["Foils (late-harvest Zinfandel, port-style reds, White Zinfandel) drop out once the stem says 'besides aromatic whites' in a cool valley"]
+    change: none
+    checked: [knowledge]
+  - id: calif-sb-white-001
+    verdict: minor
+    issues: ["Explanation ranks Sauvignon Blanc second white by area, narrowly ahead of Pinot Gris and Colombard; true on recent figures but the three are close and the order can flip between reports"]
+    change: none
+    checked: [cdfa-acreage, capstone-california]
+  - id: calif-length-001
+    verdict: minor
+    issues: ["'About 1,100 km' is the north–south span; along the state's length it is nearer 1,240 km. Key is still the only plausible option"]
+    change: none
+    checked: [knowledge]
+  - id: usa-state-county-label-001
+    verdict: minor
+    issues: ["Two foils are near-jokes with cue words ('simply translated', 'Only the winery address')"]
+    change: none
+    checked: [knowledge]
+  - id: usa-ava-size-001
+    verdict: minor
+    issues: ["All three foils carry absolute words (every / same / must), so the hedged key stands out"]
+    change: none
+    checked: [knowledge]
+  - id: usa-non-ava-lenient-001
+    verdict: minor
+    issues: ["Key is a noun phrase and the shortest; the three foils are full 'It ...' sentences"]
+    change: none
+    checked: [knowledge]
+summary:
+  counts: { wrong: 0, fix: 1, minor: 13, ok: 174 }
+  total_cards: 188
+  facts_spot_verified:
+    - "Federal label minimums 75% variety / 85% AVA / 95% vintage with AVA; 75% origin and 85% vintage for state or county: correct"
+    - "Paso Robles split into eleven sub-AVAs in 2014: correct"
+    - "Sauvignon Blanc second white by area: consistent with recent acreage figures"
+  riskiest_patterns:
+    - "Grape-list foils built from other countries' varieties (one fixed); several remaining foil sets use grapes from the wrong climate band and are easy to eliminate"
+    - "Many near-duplicate cards from one source note (e.g. Sta. Rita Hills cool/marine, Rutherford warmest/why) whose explanations give away the sibling card's key"
+    - "Climate-label cards ('very cool', 'moderate') rest on textbook labels rather than checkable figures"
+    - "Short keys beside longer, more elaborate foils in the climate section (key often the shortest option)"
+  validate: "uv run wset3-anki validate -> 3517 card(s) OK; EN/FR correct indexes match on all 188 cards"

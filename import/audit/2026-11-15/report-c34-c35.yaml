@@ -1,0 +1,142 @@
+files: [cards/c34-pacific-northwest.yaml, cards/c35-canada.yaml]
+cards:
+  - id: new-york-vinifera-reds-001
+    verdict: wrong
+    issues: ["key pair 'Cabernet Franc and Cabernet Sauvignon' not supportable: NYWGF 2024 report confirms Cabernet Franc first (~725 ac est.) but not Cabernet Sauvignon second (Merlot ~240 ac, Pinot Noir unranked)", "joke foils (Pinotage, Zinfandel, Nebbiolo)", "explanation was meta ('corrects an older ranking')"]
+    change: "Reframed to single variety: key Cabernet Franc, foils Merlot / Cabernet Sauvignon / Pinot Noir; new explanation; added source slug"
+    checked: [nywgf-vineyard-report-2024]
+  - id: canada-bc-location-001
+    verdict: fix
+    issues: ["explanation claimed an Okanogan AVA exists in Washington; no such AVA (21 WA AVAs, none named Okanogan)"]
+    change: "Removed the AVA claim, kept the Okanogan spelling note (EN+FR)"
+    checked: [ttb-ava-list, knowledge]
+  - id: oregon-regions-001
+    verdict: fix
+    issues: ["foil with Finger Lakes ruled out by state alone"]
+    change: "Foil -> Umpqua Valley north / Columbia Gorge south"
+    checked: [knowledge]
+  - id: oregon-pinot-gris-001
+    verdict: fix
+    issues: ["joke foils Palomino, Furmint"]
+    change: "Foils -> Sémillon, Viognier"
+    checked: [knowledge]
+  - id: oregon-southern-warm-grapes-001
+    verdict: fix
+    issues: ["joke foils (Concord/Catawba; Schiava/Poulsard)"]
+    change: "Foils -> Zinfandel/Petite Sirah/Carignan; Nebbiolo/Sangiovese/Barbera"
+    checked: [knowledge]
+  - id: washington-columbia-rivers-001
+    verdict: fix
+    issues: ["stem named Columbia Valley so key (Columbia River) was given away", "joke foils Hudson, Mississippi"]
+    change: "Stem no longer names the AVA; foils -> Skagit, Fraser, Willamette river systems"
+    checked: [knowledge]
+  - id: washington-yakima-walla-walla-001
+    verdict: fix
+    issues: ["foils from New York and California ruled out by state"]
+    change: "Foils -> Puget Sound/Columbia Gorge; Umpqua/Rogue"
+    checked: [knowledge]
+  - id: washington-columbia-freeze-crop-001
+    verdict: fix
+    issues: ["key clearly the longest choice"]
+    change: "Shortened key (EN+FR)"
+    checked: [knowledge]
+  - id: washington-reds-001
+    verdict: fix
+    issues: ["stem says 'Bordeaux' and no foil was a Bordeaux variety; Concord joke foil"]
+    change: "Foils -> other Bordeaux pairs (Cabernet Franc/Malbec, Malbec/Petit Verdot, Cabernet Franc/Carmenère)"
+    checked: [knowledge]
+  - id: washington-syrah-001
+    verdict: fix
+    issues: ["stem says 'Rhône' and no foil was a Rhône variety (Gamay, Poulsard, Schiava)"]
+    change: "Stem -> Rhône black variety among five core grapes; foils Grenache, Mourvèdre, Cinsault"
+    checked: [knowledge]
+  - id: washington-syrah-style-001
+    verdict: fix
+    issues: ["fortified and sparkling joke foils", "FR calque 'notes savoureuses' for savoury"]
+    change: "Two foils replaced by still-red profiles; FR -> 'viandées'"
+    checked: [knowledge]
+  - id: washington-chardonnay-001
+    verdict: fix
+    issues: ["'internationally important' vs Furmint/Palomino/Assyrtiko gives key away"]
+    change: "Neutral stem; foils Sauvignon Blanc, Pinot Gris, Sémillon"
+    checked: [knowledge]
+  - id: washington-riesling-001
+    verdict: fix
+    issues: ["non-aromatic, implausible foils (Trebbiano, Cortese, Palomino)"]
+    change: "Stem -> aromatic white among five core varieties; foils Gewürztraminer, Viognier, Muscat"
+    checked: [knowledge]
+  - id: new-york-juice-001
+    verdict: fix
+    issues: ["joke foils (olive oil, barrel staves, grain spirit)"]
+    change: "Foils -> table grapes, raisins, grape brandy"
+    checked: [knowledge]
+  - id: new-york-vinifera-whites-001
+    verdict: fix
+    issues: ["joke foils (Palomino/PX, Furmint/Hárslevelű)"]
+    change: "Foils -> Sauvignon Blanc/Pinot Gris, Gewürztraminer/Pinot Blanc"
+    checked: [nywgf-vineyard-report-2024]
+  - id: new-york-finger-lakes-others-001
+    verdict: fix
+    issues: ["joke foils (sherry and Portuguese grapes)"]
+    change: "Foils -> Sauvignon Blanc/Merlot/Cabernet Sauvignon; Viognier/Syrah/Grenache"
+    checked: [knowledge]
+  - id: oregon-willamette-pinot-style-001
+    verdict: minor
+    issues: ["fortified/oxidative joke foil"]
+    change: "Foil -> pale, low-acid, confected profile"
+    checked: [knowledge]
+  - id: oregon-pinot-gris-style-001
+    verdict: minor
+    issues: ["fortified joke foil"]
+    change: "Foil -> full, heavily oaked white"
+    checked: [knowledge]
+  - id: oregon-southern-cool-grapes-001
+    verdict: minor
+    issues: ["foil wording 'warm-site Tempranillo' excluded itself"]
+    change: "Foil -> Grenache, Syrah and Tempranillo"
+    checked: [knowledge]
+  - id: washington-columbia-arid-001
+    verdict: minor
+    issues: ["tropical-storm joke foil"]
+    change: "Foil -> moderate rain spread through the season"
+    checked: [knowledge]
+  - id: washington-chardonnay-style-001
+    verdict: minor
+    issues: ["FR calque 'fruits du verger'"]
+    change: "FR -> 'fruits blancs ou à noyau mûrs'"
+    checked: [knowledge]
+  - id: new-york-finger-lakes-riesling-001
+    verdict: minor
+    issues: ["awkward self-excluding foil wording"]
+    change: "Foil -> lusciously sweet Vidal Blanc ice wine"
+    checked: [knowledge]
+  - id: canada-bc-similkameen-001
+    verdict: minor
+    issues: ["three foils lie outside BC, so the key is found by province alone"]
+    change: none
+    checked: [knowledge]
+  - id: canada-niagara-black-grapes-001
+    verdict: minor
+    issues: ["foil groups are warm-climate sets, easy to eliminate"]
+    change: none
+    checked: [knowledge]
+  - id: canada-vqa-name-001
+    verdict: minor
+    issues: ["foils are other countries' systems (WO, AVA, AOC)"]
+    change: none
+    checked: [knowledge]
+summary:
+  total: 82
+  ok: 57
+  minor: 9
+  fix: 15
+  wrong: 1
+  validate: "3517 card(s) OK; EN/FR correct indexes match on all 82 cards"
+  notes:
+    - "No Oregon 90% varietal-labelling card and no Icewine-regulation card exist in these files; VQA cards (3 Ontario DVAs, 100% provincial grapes, vinifera + approved hybrids, Beamsville Bench hierarchy) are correct."
+    - "The second-ranked NY black vinifera could not be confirmed (report PDF unreadable here); the card now tests only the confirmed leader."
+  riskiest_patterns:
+    - "c34: joke foils from unrelated countries/categories (Palomino, Furmint, Poulsard, Concord, fortified/sparkling styles) in about a third of cards"
+    - "c34: stem qualifiers (Bordeaux, Rhône, aromatic, AVA name) that only the key satisfies"
+    - "Rankings stated as pairs from 'recent reporting' without a named source"
+    - "c35: unsourced side-claims in explanations (Okanogan AVA)"

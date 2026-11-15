@@ -1,0 +1,147 @@
+# Final audit — cards/c30-spain.yaml (228 cards). One web check (Rueda); rest from knowledge.
+cards:
+  - id: spain-rueda-blend-rule-001
+    verdict: wrong
+    issues:
+      - "Key 'Verdejo and Sauvignon Blanc combined >= 75%' no longer matches the specification: since the 2024 revision the 75% applies to the principal white varieties, which now also include Viura, Chardonnay and Viognier"
+      - "Foil 'Chardonnay and Viognier combined' names two principal varieties (half-true)"
+    change: "Recast to ask the minimum share of principal varieties (50/75/85/95%, key 75%); Why names the principal list and the 2024 revision; added trade-press to review.sources"
+    checked: [aoc-site, trade-press]
+  - id: spain-airen-heat-001
+    verdict: fix
+    issues: ["Key credited Airén with retaining 'workable acidity in heat'; the grape is low-to-moderate in acidity and card spain-airen-style-001 says it is less acidic than Verdejo/Albariño"]
+    change: "Key now 'tolerates drought and heat and still crops reliably' (EN+FR)"
+    checked: [knowledge]
+  - id: spain-priorat-cab-001
+    verdict: fix
+    issues: ["Foil Pinot Noir is, from memory, on DOQ Priorat's authorised list, so it is not cleanly wrong for 'found in some Priorat blends'"]
+    change: "Foil replaced by Sangiovese (EN+FR)"
+    checked: [knowledge]
+  - id: spain-navarra-style-range-001
+    verdict: fix
+    issues: ["Three joke foils with cue words (restricted to / must be / solely); key was the only non-absolute option"]
+    change: "Stem recast as 'which range'; four range-type options, same key index"
+    checked: [knowledge]
+  - id: spain-catalunya-do-why-001
+    verdict: fix
+    issues: ["Joke foils (all wines bottle-fermented; reserved for fortified sweet wine; single village vineyard)"]
+    change: "Four parallel 'It allows…' options; branded-wine point moved into the Why"
+    checked: [knowledge]
+  - id: spain-priorat-other-colours-001
+    verdict: fix
+    issues: ["Joke foils (white must be sparkling by law; rosado must be fortified) and cue word 'exclusively'"]
+    change: "Options now four colour combinations (red only / all three / no rosado / no white)"
+    checked: [knowledge]
+  - id: spain-penedes-zones-001
+    verdict: fix
+    issues: ["Foils contradicted the stem (uniform elevation, single flat plateau) so the key fell out without knowledge"]
+    change: "Four 'Variation in…' options (latitude, altitude and distance from sea, soil, Atlantic rainfall)"
+    checked: [knowledge]
+  - id: spain-penedes-style-range-001
+    verdict: fix
+    issues: ["Self-defeating foils (uniform climate, one neutral grape, same flat soil) for a 'why so broad' stem"]
+    change: "Foils replaced by plausible but false causes (Atlantic/Mediterranean meeting, mixed bedrock, irrigation)"
+    checked: [knowledge]
+  - id: spain-valencia-diversity-001
+    verdict: fix
+    issues: ["Two near-duplicate self-defeating foils (one climate/one grape); key was a short fragment"]
+    change: "Foils replaced by same-frame 'Its…' causes (bulk trade, fortified tradition, Moscatel); EN key aligned"
+    checked: [knowledge]
+  - id: spain-la-mancha-value-quality-001
+    verdict: fix
+    issues: ["Joke foils (lower cellar hygiene to encourage oxidation; return to warm open vats)"]
+    change: "Replaced by hand harvesting into small crates and a switch to low-yielding old bush vines"
+    checked: [knowledge]
+  - id: spain-dry-stress-001
+    verdict: minor
+    issues: ["Foil 'berries retain high acidity while sugar accumulation slows' is half-true under severe stress"]
+    change: "Foil now 'Sugar accumulates faster while acidity stays high'"
+    checked: [knowledge]
+  - id: spain-best-red-oak-001
+    verdict: minor
+    issues: ["Joke foil: oak to create carbonation"]
+    change: "Foil now 'To raise alcohol and deepen colour before bottling'"
+    checked: [knowledge]
+  - id: spain-oak-origin-001
+    verdict: minor
+    issues: ["Key was the only option in telegraphic 'X: … ; Y: …' form"]
+    change: "Key rewritten as a sentence like the foils"
+    checked: [knowledge]
+  - id: spain-tempranillo-aged-001
+    verdict: minor
+    issues: ["Joke foil: carbonation followed by early release"]
+    change: "Foil now semi-carbonic maceration followed by early release"
+    checked: [knowledge]
+  - id: spain-carinena-profile-001
+    verdict: minor
+    issues: ["FR Why added 'notes épicées et herbacées' not present in EN ('savoury fruit')"]
+    change: "FR Why now 'un fruit concentré et complexe'"
+    checked: [knowledge]
+  - id: spain-carinena-blend-001
+    verdict: minor
+    issues: ["EN key was a verbless fragment among full-sentence foils"]
+    change: "EN key rewritten as a sentence"
+    checked: [knowledge]
+  - id: spain-mencia-climate-001
+    verdict: minor
+    issues: ["FR Why used 'la Mencía' while the rest of the file uses 'le Mencía'"]
+    change: "Gender aligned"
+    checked: [knowledge]
+  - id: spain-mencia-profile-001
+    verdict: minor
+    issues: ["FR key 'notes végétales' reads as unripe/green for EN 'herbal notes'"]
+    change: "FR key now 'notes d’herbes fraîches'"
+    checked: [knowledge]
+  - id: spain-priorat-grapes-fit-001
+    verdict: minor
+    issues: ["Awkward key 'Both can ripen late in…'"]
+    change: "Key now 'Both ripen late and need a long, warm, dry season'"
+    checked: [knowledge]
+  - id: spain-ribera-colours-001
+    verdict: minor
+    issues: ["Foils off-frame (sparkling, fortified) with cue word 'exclusively'"]
+    change: "Foils now colour combinations (red only / no white / no rosado)"
+    checked: [knowledge]
+  - id: spain-toro-colours-001
+    verdict: minor
+    issues: ["Foils 'White wine' and 'Rosado wine' were true subsets of the key; 'sparkling' excluded by the stem itself"]
+    change: "Foils now 'White only', 'Rosado only', 'Neither; red alone'"
+    checked: [knowledge]
+  - id: spain-alavesa-area-001
+    verdict: minor
+    issues: ["Foil 'Rioja Baja' is the former name of Rioja Oriental, so only three real options (same pattern in spain-alavesa-map-001, spain-alta-map-001, spain-rioja-semicarb-001)"]
+    change: "none"
+    checked: [knowledge]
+  - id: spain-castilla-la-mancha-volume-001
+    verdict: minor
+    issues: ["Foils about small steep vineyards and premium long-aged wine contradict a 'high-volume' stem"]
+    change: "none"
+    checked: [knowledge]
+  - id: spain-do-specification-001
+    verdict: minor
+    issues: ["Weak foils (national tasting score, retail price)"]
+    change: "none"
+    checked: [knowledge]
+  - id: spain-ageing-regional-exceptions-001
+    verdict: minor
+    issues: ["Foils 'each producer chooses its own legal minima' and 'no legal meaning' are easy to discard"]
+    change: "none"
+    checked: [knowledge]
+  - id: spain-rioja-white-modern-001
+    verdict: minor
+    issues: ["Stem says 'protected'; the key is the only protective option"]
+    change: "none"
+    checked: [knowledge]
+summary:
+  counts: { wrong: 1, fix: 9, minor: 16, ok: 202 }
+  minor_changed: 11
+  minor_left: 5
+  web_checks: 1
+  validate: "uv run wset3-anki validate -> 3517 card(s) OK; EN/FR correct index match on 228/228"
+  riskiest_patterns:
+    - "Denomination rules that moved recently (Rueda 2024). Other legal figures checked from knowledge and held: national Crianza/Reserva/Gran Reserva minima red and white, Rioja and Ribera 24-month oak Gran Reserva, Ribera 75% Tempranillo and 2019 whites, DOCa ten-year rule, Rioja Oriental rename"
+    - "No card in this file covers Rioja's Viñedo Singular / Vino de Municipio terms or the Cava zones, so nothing to verify there"
+    - "'Why/which statement' cards with joke or self-contradicting foils and absolute cue words"
+    - "Colour-of-wine cards with off-frame foils (sparkling, fortified)"
+    - "FR consistency: Garnacha and Cariñena switch gender across the file (la Garnacha early, le Garnacha later); Castille-et-León vs Castilla y León; left alone"
+    - "The correct choice is the second option on every card of the file (harmless with shuffle)"
