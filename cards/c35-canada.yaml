@@ -23,6 +23,18 @@ cards:
         Both lie far from the moderating effect of an ocean, so the gap
         between the warmest and coldest months is wide. Vancouver Island, on the
         Pacific, is the main exception, with a milder, wetter maritime climate.
+    fr:
+      question: "Quel type de climat correspond aux principales régions viticoles du Canada, la péninsule du Niagara et la vallée de l’Okanagan ?"
+      choices:
+        - { text: "Maritime", correct: false }
+        - { text: "Continental", correct: true }
+        - { text: "Méditerranéen", correct: false }
+        - { text: "D’altitude", correct: false }
+      explanation: |
+        Toutes deux sont éloignées de l’influence modératrice d’un océan : l’écart
+        entre les mois les plus chauds et les plus froids y est donc important. L’île
+        de Vancouver, sur le Pacifique, est la principale exception, avec un climat
+        maritime plus doux et plus humide.
 
   - id: canada-annual-temperature-001
     type: mcq
@@ -43,9 +55,21 @@ cards:
       explanation: |
         An annual mean hides the shape of the year. Viticulture is possible
         because the vine only needs warmth from budburst to harvest; the
-        months of deep cold fall while it is dormant. Even so, Niagara growers
-        run wind machines on still winter nights to pull warmer air down from
-        a temperature inversion and protect dormant buds.
+        months of deep cold fall while it is dormant. Even then, Niagara
+        growers run wind machines on still winter nights to protect the buds.
+    fr:
+      question: "Comment la température moyenne annuelle des régions viticoles canadiennes se compare-t-elle à celle de Bordeaux ou de la Bourgogne ?"
+      choices:
+        - { text: "Plus élevée, grâce aux longues journées d’été", correct: false }
+        - { text: "Équivalente, car les plans d’eau la lissent", correct: false }
+        - { text: "Plus basse, à cause d’hivers longs et rigoureux", correct: true }
+        - { text: "Plus élevée, car la saison végétative est chaude", correct: false }
+      explanation: |
+        Une moyenne annuelle masque le profil de l’année. La viticulture reste
+        possible car la vigne n’a besoin de chaleur que du débourrement aux
+        vendanges ; les mois de grand froid tombent pendant sa dormance. Même
+        ainsi, les viticulteurs du Niagara font tourner des tours antigel par les
+        nuits d’hiver sans vent pour protéger les bourgeons.
 
   - id: canada-summer-heat-001
     type: mcq
@@ -67,6 +91,18 @@ cards:
         Inland continental sites heat up quickly once summer arrives. In the
         southern Okanagan, around Osoyoos, midsummer afternoons regularly pass
         30 °C, enough to ripen Merlot and even Syrah.
+    fr:
+      question: "Quelles sont en général les températures diurnes en juillet et en août dans les principales régions viticoles canadiennes ?"
+      choices:
+        - { text: "Fraîches, proches de celles de la Champagne", correct: false }
+        - { text: "Douces, dépassant rarement 20 °C", correct: false }
+        - { text: "Douces et nuageuses, comme dans le Muscadet", correct: false }
+        - { text: "Chaudes, parfois au-delà de 30 °C", correct: true }
+      explanation: |
+        Les sites continentaux de l’intérieur se réchauffent vite dès l’arrivée de
+        l’été. Dans le sud de l’Okanagan, autour d’Osoyoos, les après-midi du cœur de
+        l’été dépassent régulièrement 30 °C, assez pour mûrir le Merlot et même la
+        Syrah.
 
   - id: canada-ontario-appellation-count-001
     type: mcq
@@ -89,6 +125,18 @@ cards:
         County, which gained its status in 2007. Pelee Island, once listed on
         its own, now falls within the South Islands sub-appellation of Lake
         Erie North Shore.
+    fr:
+      question: "Combien de DVA (Designated Viticultural Areas, aires viticoles désignées) l’Ontario reconnaît-il ?"
+      choices:
+        - { text: "Deux", correct: false }
+        - { text: "Quatre", correct: false }
+        - { text: "Trois", correct: true }
+        - { text: "Cinq", correct: false }
+      explanation: |
+        Il s’agit de la péninsule du Niagara, de Lake Erie North Shore et de Prince
+        Edward County, qui a obtenu ce statut en 2007. Pelee Island, autrefois
+        distincte, fait désormais partie de la sous-appellation South Islands, au sein
+        de Lake Erie North Shore.
 
   - id: canada-ontario-niagara-lead-001
     type: mcq
@@ -110,6 +158,18 @@ cards:
         It holds the great majority of Ontario's vineyards and is split into
         many smaller appellations, from the flat lakeshore around
         Niagara-on-the-Lake to the benches along the Niagara Escarpment.
+    fr:
+      question: "Quelle région viticole de l’Ontario est la plus vaste et la plus importante de la province ?"
+      choices:
+        - { text: "Prince Edward County", correct: false }
+        - { text: "Lake Erie North Shore", correct: false }
+        - { text: "Pelee Island", correct: false }
+        - { text: "Péninsule du Niagara", correct: true }
+      explanation: |
+        Elle concentre la grande majorité du vignoble ontarien et se divise en de
+        nombreuses appellations plus petites, des terres plates du bord du lac autour
+        de Niagara-on-the-Lake jusqu’aux terrasses (benches) qui longent l’escarpement
+        du Niagara.
 
   - id: canada-niagara-location-001
     type: mcq
@@ -131,6 +191,17 @@ cards:
         The vines sit on a strip of land between the lake and the Niagara
         Escarpment, a ridge that runs east to the Niagara River and the US
         border at the falls.
+    fr:
+      question: "Où se situent les vignobles de la péninsule du Niagara, en Ontario ?"
+      choices:
+        - { text: "Sur la rive sud du lac Ontario, près de son extrémité ouest", correct: true }
+        - { text: "Sur la rive nord du lac Érié, à proximité de Windsor", correct: false }
+        - { text: "Sur une péninsule calcaire avançant dans l’est du lac Ontario", correct: false }
+        - { text: "Sur la rive sud de la baie Georgienne, sur le lac Huron", correct: false }
+      explanation: |
+        Les vignes occupent une bande de terre entre le lac et l’escarpement du
+        Niagara, une crête qui court vers l’est jusqu’à la rivière Niagara et à la
+        frontière américaine, au niveau des chutes.
 
   - id: canada-niagara-lake-effect-001
     type: mcq
@@ -144,14 +215,25 @@ cards:
     en:
       question: "How does the water of Lake Ontario affect air temperatures over the Niagara Peninsula vineyards?"
       choices:
-        - { text: "It warms faster than the land in spring", correct: false }
+        - { text: "It warms up faster than the land in spring", correct: false }
         - { text: "It traps cold air on the slopes in autumn", correct: false }
-        - { text: "It warms and cools more slowly than the land", correct: true }
+        - { text: "It warms and cools more slowly than land", correct: true }
         - { text: "It cools faster than the land in autumn", correct: false }
       explanation: |
         Water stores far more heat than soil. In spring the cold lake keeps
         the shore cool, and in autumn the warm lake keeps it mild, so the
         whole vine cycle is shifted later in the year.
+    fr:
+      question: "Comment les eaux du lac Ontario influencent-elles la température de l’air au-dessus des vignobles de la péninsule du Niagara ?"
+      choices:
+        - { text: "Elles se réchauffent plus vite que la terre au printemps", correct: false }
+        - { text: "Elles piègent l’air froid sur les pentes en automne", correct: false }
+        - { text: "Elles chauffent et refroidissent moins vite que la terre", correct: true }
+        - { text: "Elles se refroidissent plus vite que la terre en automne", correct: false }
+      explanation: |
+        L’eau stocke bien plus de chaleur que le sol. Au printemps, le lac encore
+        froid garde la rive fraîche ; en automne, le lac encore tiède la garde douce.
+        Tout le cycle de la vigne s’en trouve décalé plus tard dans l’année.
 
   - id: canada-niagara-late-budburst-001
     type: mcq
@@ -173,6 +255,17 @@ cards:
         Green shoots are far more vulnerable to frost than dormant buds. The
         later they emerge, the more likely the last cold nights of spring
         have already passed.
+    fr:
+      question: "Pourquoi un débourrement tardif est-il utile aux viticulteurs de la péninsule du Niagara ?"
+      choices:
+        - { text: "Il limite les dégâts du gel de printemps", correct: true }
+        - { text: "Il réduit le risque de gel des bourgeons en hiver", correct: false }
+        - { text: "Il raccourcit le délai jusqu’aux vendanges", correct: false }
+        - { text: "Il améliore la nouaison à la floraison", correct: false }
+      explanation: |
+        Les jeunes pousses craignent bien plus le gel que les bourgeons dormants. Plus
+        elles sortent tard, plus il est probable que les dernières nuits froides du
+        printemps soient passées.
 
   - id: canada-niagara-long-autumn-001
     type: mcq
@@ -194,6 +287,17 @@ cards:
         Extra weeks on the vine let sugar build, acidity soften and flavours
         develop. Late-ripening Cabernet Sauvignon depends most on this margin
         and struggles in a cool year.
+    fr:
+      question: "Que permet surtout un automne doux et prolongé aux viticulteurs de la péninsule du Niagara ?"
+      choices:
+        - { text: "Des rendements plus élevés par cep", correct: false }
+        - { text: "Une pourriture noble chaque année", correct: false }
+        - { text: "Une pleine maturité des raisins", correct: true }
+        - { text: "Des vendanges plus précoces", correct: false }
+      explanation: |
+        Ces semaines supplémentaires sur souche laissent les sucres s’accumuler,
+        l’acidité s’assouplir et les arômes se développer. Le Cabernet Sauvignon,
+        cépage tardif, dépend le plus de cette marge et peine les années fraîches.
 
   - id: canada-niagara-airflow-001
     type: mcq
@@ -214,6 +318,17 @@ cards:
       explanation: |
         Lake air moving inland is deflected by the Niagara Escarpment and
         circulates back over the vines, drying leaves and bunches after rain.
+    fr:
+      question: "Outre la modération des températures, quel avantage le lac Ontario apporte-t-il au vignoble de la péninsule du Niagara ?"
+      choices:
+        - { text: "Des brumes matinales favorables à la pourriture noble", correct: false }
+        - { text: "Des brises régulières qui freinent les maladies fongiques", correct: true }
+        - { text: "Une lumière réfléchie qui accélère la maturation", correct: false }
+        - { text: "Des sols sableux d’ancien lit lacustre hostiles au phylloxéra", correct: false }
+      explanation: |
+        L’air du lac qui avance vers l’intérieur est dévié par l’escarpement du
+        Niagara et revient circuler au-dessus des vignes, séchant feuilles et grappes
+        après la pluie.
 
   - id: canada-niagara-riesling-001
     type: mcq
@@ -234,6 +349,17 @@ cards:
       explanation: |
         It ripens reliably in Niagara's cool conditions and resists winter cold
         well. Cave Spring built its name on Riesling from its escarpment estate.
+    fr:
+      question: "Quel cépage blanc est généralement considéré comme le plus réussi dans la péninsule du Niagara, en Ontario ?"
+      choices:
+        - { text: "Pinot Gris", correct: false }
+        - { text: "Sauvignon Blanc", correct: false }
+        - { text: "Gewurztraminer", correct: false }
+        - { text: "Riesling", correct: true }
+      explanation: |
+        Il mûrit de façon fiable dans les conditions fraîches du Niagara et résiste
+        bien au froid hivernal. Cave Spring a bâti sa réputation sur le Riesling de
+        son domaine de l’escarpement.
 
   - id: canada-niagara-riesling-styles-001
     type: mcq
@@ -248,12 +374,23 @@ cards:
       question: "What style are most Niagara Peninsula Riesling table wines?"
       choices:
         - { text: "Rich and full-bodied, aged in new oak", correct: false }
-        - { text: "Dry to off-dry, unoaked, with high acidity", correct: true }
+        - { text: "Dry to off-dry, crisp and unoaked", correct: true }
         - { text: "Lusciously sweet, from botrytised grapes", correct: false }
         - { text: "Medium-dry, with soft acidity and oak", correct: false }
       explanation: |
         Cool nights keep the fruit fresh and citrusy. The best grapes also go
         into Icewine, where that acidity stops the sweetness tasting cloying.
+    fr:
+      question: "Quel est le style de la plupart des vins tranquilles de Riesling de la péninsule du Niagara ?"
+      choices:
+        - { text: "Riches et corsés, élevés en fût neuf", correct: false }
+        - { text: "Secs à demi-secs, vifs et non boisés", correct: true }
+        - { text: "Liquoreux, issus de raisins botrytisés", correct: false }
+        - { text: "Demi-secs, à l’acidité souple, boisés", correct: false }
+      explanation: |
+        Les nuits fraîches gardent au fruit sa fraîcheur et ses notes d’agrumes. Les
+        meilleurs raisins servent aussi à l’Icewine (vin de glace), où cette acidité
+        empêche la douceur de devenir écœurante.
 
   - id: canada-vidal-hybrid-001
     type: mcq
@@ -274,6 +411,16 @@ cards:
       explanation: |
         It comes from Ugni Blanc crossed with a French-American hybrid. As a
         dry wine it is rather neutral, so its value lies in sweet styles.
+    fr:
+      question: "Quel type de vigne est le Vidal, très planté en Ontario ?"
+      choices:
+        - { text: "Un croisement de *Vitis vinifera*", correct: false }
+        - { text: "Un hybride résistant à l’hiver", correct: true }
+        - { text: "Un cépage indigène de *Vitis labrusca*", correct: false }
+        - { text: "Un clone de Riesling résistant au froid", correct: false }
+      explanation: |
+        Il est issu d’un croisement entre l’Ugni Blanc et un hybride franco-américain.
+        En vin sec, il est plutôt neutre : son intérêt réside dans les styles doux.
 
   - id: canada-vidal-icewine-style-001
     type: mcq
@@ -295,6 +442,18 @@ cards:
         Vidal gives broad tropical and honeyed fruit, and its thick skins help
         it hang safely into winter. Inniskillin's 1989 Vidal Icewine put Canada
         on the map by winning the Grand Prix d'Honneur at Vinexpo in 1991.
+    fr:
+      question: "Comment l’Icewine de Vidal se compare-t-il en général à celui de Riesling ?"
+      choices:
+        - { text: "Plus d’acidité, mais moins de sucre", correct: false }
+        - { text: "Plus de tanins, grâce à une macération plus longue", correct: false }
+        - { text: "Plus d’alcool, mais moins de concentration", correct: false }
+        - { text: "Moins d’acidité et de complexité aromatique", correct: true }
+      explanation: |
+        Le Vidal donne un fruit ample, tropical et miellé, et sa peau épaisse l’aide à
+        rester sain sur souche jusqu’en hiver. L’Icewine (vin de glace) de Vidal 1989
+        d’Inniskillin a fait connaître le Canada en remportant le Grand Prix d’Honneur
+        à Vinexpo en 1991.
 
   - id: canada-niagara-chardonnay-001
     type: mcq
@@ -316,6 +475,17 @@ cards:
         Cool nights keep acidity bright, and many producers favour older
         barrels. Niagara hosts i4C, an annual celebration of cool-climate
         Chardonnay held each July.
+    fr:
+      question: "Quel style présentent en général les meilleurs Chardonnays de la péninsule du Niagara, en Ontario ?"
+      choices:
+        - { text: "Riches et beurrés, très marqués par le fût neuf", correct: false }
+        - { text: "Demi-secs, aromatiques et non boisés", correct: false }
+        - { text: "Secs, au fruit pur et au boisé discret", correct: true }
+        - { text: "Corsés, aux fruits tropicaux bien mûrs", correct: false }
+      explanation: |
+        Les nuits fraîches préservent une acidité vive, et de nombreux producteurs
+        privilégient des fûts usagés. Le Niagara accueille chaque juillet i4C, une
+        célébration annuelle du Chardonnay de climat frais.
 
   - id: canada-niagara-black-grapes-001
     type: mcq
@@ -330,13 +500,24 @@ cards:
       question: "Which group lists black grapes widely grown in the Niagara Peninsula?"
       choices:
         - { text: "Syrah, Grenache, Mourvèdre, Carignan", correct: false }
-        - { text: "Malbec, Tempranillo, Zinfandel, Sangiovese", correct: false }
+        - { text: "Malbec, Tempranillo, Zinfandel, Touriga Nacional", correct: false }
         - { text: "Pinot Noir, Cabernet Franc, Merlot, Cabernet Sauvignon", correct: true }
-        - { text: "Nebbiolo, Barbera, Aglianico, Nero d'Avola", correct: false }
+        - { text: "Nebbiolo, Montepulciano, Aglianico, Nero d'Avola", correct: false }
       explanation: |
         Early-ripening Pinot Noir suits the cooler sites, while Cabernet Franc
         ripens more reliably than Cabernet Sauvignon and is also used for red
         Icewine.
+    fr:
+      question: "Quel groupe réunit des cépages noirs très cultivés dans la péninsule du Niagara ?"
+      choices:
+        - { text: "Syrah, Grenache, Mourvèdre, Carignan", correct: false }
+        - { text: "Malbec, Tempranillo, Zinfandel, Touriga Nacional", correct: false }
+        - { text: "Pinot Noir, Cabernet Franc, Merlot, Cabernet Sauvignon", correct: true }
+        - { text: "Nebbiolo, Montepulciano, Aglianico, Nero d’Avola", correct: false }
+      explanation: |
+        Le Pinot Noir, précoce, convient aux sites les plus frais, tandis que le
+        Cabernet Franc mûrit plus sûrement que le Cabernet Sauvignon et sert aussi à
+        l’Icewine rouge.
 
   - id: canada-bc-location-001
     type: mcq
@@ -357,6 +538,16 @@ cards:
       explanation: |
         It borders Washington State, and the Okanagan Valley continues south
         across the border, where it is spelled Okanogan and has its own AVA.
+    fr:
+      question: "Où se trouve la Colombie-Britannique, deuxième grande province viticole du Canada ?"
+      choices:
+        - { text: "Sur la côte atlantique", correct: false }
+        - { text: "Dans les Prairies, au centre", correct: false }
+        - { text: "Sur la côte pacifique", correct: true }
+        - { text: "Autour des Grands Lacs", correct: false }
+      explanation: |
+        Elle borde l’État de Washington, et la vallée de l’Okanagan se prolonge au sud
+        de la frontière, où elle s’écrit Okanogan et possède sa propre AVA.
 
   - id: canada-bc-similkameen-001
     type: mcq
@@ -378,6 +569,18 @@ cards:
         BC long had five areas: Okanagan Valley, Similkameen Valley, Fraser
         Valley, Vancouver Island and the Gulf Islands. In 2018 it added Thompson
         Valley, Shuswap, Lillooet and Kootenays as geographical indications.
+    fr:
+      question: "Laquelle de ces régions est une région viticole officielle de la Colombie-Britannique ?"
+      choices:
+        - { text: "Prince Edward County", correct: false }
+        - { text: "Similkameen Valley", correct: true }
+        - { text: "Lake Erie North Shore", correct: false }
+        - { text: "Walla Walla Valley", correct: false }
+      explanation: |
+        La Colombie-Britannique a longtemps compté cinq zones : Okanagan Valley,
+        Similkameen Valley, Fraser Valley, Vancouver Island et Gulf Islands. En 2018,
+        elle a ajouté Thompson Valley, Shuswap, Lillooet et Kootenays comme
+        indications géographiques (IG).
 
   - id: canada-bc-okanagan-lead-001
     type: mcq
@@ -398,6 +601,16 @@ cards:
       explanation: |
         Since 2015 it has gained a series of sub-GIs, starting with Golden
         Mile Bench; Naramata Bench and Skaha Bench followed in 2019.
+    fr:
+      question: "Quelle région regroupe l’essentiel du vignoble de la Colombie-Britannique ?"
+      choices:
+        - { text: "Fraser Valley", correct: false }
+        - { text: "Vancouver Island", correct: false }
+        - { text: "Gulf Islands", correct: false }
+        - { text: "Okanagan Valley", correct: true }
+      explanation: |
+        Depuis 2015, elle s’est dotée d’une série de sous-IG, à commencer par Golden
+        Mile Bench ; Naramata Bench et Skaha Bench ont suivi en 2019.
 
   - id: canada-okanagan-rain-shadow-001
     type: mcq
@@ -418,6 +631,17 @@ cards:
       explanation: |
         Moist Pacific air drops most of its rain on the Coast and Cascade
         ranges. Vineyards in the valley therefore depend on irrigation.
+    fr:
+      question: "Pourquoi la vallée de l’Okanagan reçoit-elle si peu de pluie ?"
+      choices:
+        - { text: "Les courants froids du Pacifique empêchent les nuages de se former", correct: false }
+        - { text: "Les chaînes de montagnes à l’ouest l’arrêtent", correct: true }
+        - { text: "Des vents secs des Prairies soufflent de l’est", correct: false }
+        - { text: "Ses lacs profonds refroidissent l’air au-dessus", correct: false }
+      explanation: |
+        L’air humide du Pacifique déverse l’essentiel de sa pluie sur la chaîne
+        Côtière et la chaîne des Cascades. Les vignobles de la vallée dépendent donc
+        de l’irrigation.
 
   - id: canada-okanagan-semi-desert-001
     type: mcq
@@ -438,6 +662,16 @@ cards:
       explanation: |
         Around Osoyoos, annual rainfall is only about 300 mm; sagebrush and
         even cacti grow beside the vines.
+    fr:
+      question: "Quel paysage décrit le mieux l’extrémité sud de la vallée de l’Okanagan ?"
+      choices:
+        - { text: "Forêt pluviale tempérée", correct: false }
+        - { text: "Semi-désert", correct: true }
+        - { text: "Forêt mixte humide", correct: false }
+        - { text: "Garrigue méditerranéenne", correct: false }
+      explanation: |
+        Autour d’Osoyoos, les précipitations annuelles n’atteignent qu’environ
+        300 mm ; l’armoise et même des cactus poussent à côté des vignes.
 
   - id: canada-okanagan-daylength-001
     type: mcq
@@ -459,6 +693,17 @@ cards:
         In late June the sun is up for around 16 hours, longer than in
         Napa. The sun sits lower in the sky, so the gain comes from duration,
         not intensity.
+    fr:
+      question: "À la latitude de la vallée de l’Okanagan, environ 49–50° N, en quoi les longues journées d’été aident-elles le raisin à mûrir ?"
+      choices:
+        - { text: "Des nuits chaudes hâtent l’accumulation des sucres", correct: false }
+        - { text: "Le soleil de midi est plus intense", correct: false }
+        - { text: "La photosynthèse dure plus d’heures", correct: true }
+        - { text: "Le débourrement survient plus tôt au printemps", correct: false }
+      explanation: |
+        Fin juin, le soleil reste levé environ 16 heures, plus longtemps que dans la
+        Napa Valley. Il est plus bas sur l’horizon : le gain vient donc de la durée,
+        pas de l’intensité.
 
   - id: canada-okanagan-lakes-001
     type: mcq
@@ -479,6 +724,17 @@ cards:
       explanation: |
         Okanagan Lake is over 100 km long. Slopes close to the water escape
         the worst autumn frosts and winter lows.
+    fr:
+      question: "Quel est le principal effet des profonds lacs glaciaires de la vallée de l’Okanagan sur les vignobles voisins ?"
+      choices:
+        - { text: "Ils créent des brouillards qui ombragent les vignes l’été", correct: false }
+        - { text: "Ils accroissent l’humidité, favorisant la pourriture noble", correct: false }
+        - { text: "Ils modèrent les températures et allongent la saison", correct: true }
+        - { text: "Ils déposent du limon frais sur les vignes chaque printemps", correct: false }
+      explanation: |
+        Le lac Okanagan mesure plus de 100 km de long. Les coteaux proches de l’eau
+        échappent aux pires gelées d’automne et aux froids les plus intenses de
+        l’hiver.
 
   - id: canada-okanagan-north-south-001
     type: mcq
@@ -499,6 +755,17 @@ cards:
       explanation: |
         Near Kelowna, aromatic whites and Pinot Noir dominate. Around Oliver
         and Osoyoos, Bordeaux varieties and Syrah ripen fully.
+    fr:
+      question: "Comment l’encépagement évolue-t-il du nord, plus frais, au sud, plus chaud, de la vallée de l’Okanagan ?"
+      choices:
+        - { text: "Cépages noirs au nord, blancs au sud", correct: false }
+        - { text: "Blancs au nord, davantage de noirs au sud", correct: true }
+        - { text: "Hybrides au nord, vinifera au sud", correct: false }
+        - { text: "Bases de mousseux au nord, Icewine au sud", correct: false }
+      explanation: |
+        Près de Kelowna dominent les blancs aromatiques et le Pinot Noir. Autour
+        d’Oliver et d’Osoyoos, les cépages bordelais et la Syrah atteignent leur
+        pleine maturité.
 
   - id: canada-bc-merlot-001
     type: mcq
@@ -519,6 +786,17 @@ cards:
       explanation: |
         Grower acreage surveys have placed it top in the province for over a
         decade, with most plantings in the warm south of the valley.
+    fr:
+      question: "Quel cépage noir est le plus planté en Colombie-Britannique, surtout dans la vallée de l’Okanagan ?"
+      choices:
+        - { text: "Merlot", correct: true }
+        - { text: "Pinot Noir", correct: false }
+        - { text: "Cabernet Sauvignon", correct: false }
+        - { text: "Syrah", correct: false }
+      explanation: |
+        Les recensements des surfaces menés auprès des viticulteurs le placent en tête
+        dans la province depuis plus de dix ans, l’essentiel des plantations se
+        trouvant dans le sud chaud de la vallée.
 
   - id: canada-bc-pinot-gris-001
     type: mcq
@@ -539,6 +817,16 @@ cards:
       explanation: |
         Grower acreage surveys have put it ahead of Chardonnay among BC whites
         since at least 2014.
+    fr:
+      question: "Quel cépage blanc est le plus planté en Colombie-Britannique, surtout dans la vallée de l’Okanagan ?"
+      choices:
+        - { text: "Chardonnay", correct: false }
+        - { text: "Riesling", correct: false }
+        - { text: "Pinot Gris", correct: true }
+        - { text: "Gewurztraminer", correct: false }
+      explanation: |
+        D’après les recensements des surfaces menés auprès des viticulteurs, il
+        devance le Chardonnay parmi les blancs de la province depuis au moins 2014.
 
   - id: canada-vqa-name-001
     type: mcq
@@ -559,6 +847,16 @@ cards:
       explanation: |
         It began in Ontario as a voluntary producers' standard in the late
         1980s and was later written into provincial law.
+    fr:
+      question: "Comment s’appelle le système d’appellations canadien pour les vins de qualité ?"
+      choices:
+        - { text: "Wine of Origin (WO)", correct: false }
+        - { text: "American Viticultural Area (AVA)", correct: false }
+        - { text: "Appellation d’Origine Contrôlée (AOC)", correct: false }
+        - { text: "Vintners Quality Alliance (VQA)", correct: true }
+      explanation: |
+        Il est né en Ontario à la fin des années 1980 comme norme volontaire des
+        producteurs, avant d’être inscrit dans la loi provinciale.
 
   - id: canada-vqa-provinces-001
     type: mcq
@@ -577,9 +875,20 @@ cards:
         - { text: "British Columbia and Nova Scotia", correct: false }
         - { text: "Quebec and Nova Scotia", correct: false }
       explanation: |
-        Each runs it through its own body, the VQA Ontario authority and the
-        BC Wine Authority. Nova Scotia has its own Tidal Bay white-wine
-        standard instead.
+        Each runs it through its own body, VQA Ontario and the BC Wine
+        Authority. Nova Scotia has its own Tidal Bay white-wine standard
+        instead.
+    fr:
+      question: "Quelles sont les deux provinces canadiennes dotées d’un système d’appellations VQA (Vintners Quality Alliance) ?"
+      choices:
+        - { text: "L’Ontario et le Québec", correct: false }
+        - { text: "L’Ontario et la Colombie-Britannique", correct: true }
+        - { text: "La Colombie-Britannique et la Nouvelle-Écosse", correct: false }
+        - { text: "Le Québec et la Nouvelle-Écosse", correct: false }
+      explanation: |
+        Chacune le gère par son propre organisme : VQA Ontario et la BC Wine
+        Authority. La Nouvelle-Écosse applique plutôt sa propre norme de vin blanc,
+        Tidal Bay.
 
   - id: canada-vqa-dva-tier-001
     type: mcq
@@ -601,6 +910,17 @@ cards:
         These are broad regions defined by climate and soil, such as Niagara
         Peninsula. British Columbia now calls its equivalent units
         geographical indications.
+    fr:
+      question: "Selon les règles VQA de l’Ontario, quel type d’unité se situe juste en dessous de l’appellation provinciale ?"
+      choices:
+        - { text: "Des comtés suivant les limites municipales", correct: false }
+        - { text: "Des aires viticoles désignées (DVA)", correct: true }
+        - { text: "Des vignobles uniques enregistrés", correct: false }
+        - { text: "Des « wards » de type Wine of Origin", correct: false }
+      explanation: |
+        Ce sont de vastes régions délimitées selon le climat et le sol, comme la
+        péninsule du Niagara. La Colombie-Britannique appelle désormais ses unités
+        équivalentes des indications géographiques (IG).
 
   - id: canada-vqa-sub-appellation-001
     type: mcq
@@ -622,6 +942,17 @@ cards:
         Niagara Peninsula is first divided into two regional appellations,
         Niagara-on-the-Lake and Niagara Escarpment. Beamsville Bench is one of
         the sub-appellations within the latter.
+    fr:
+      question: "Quelle place occupe Beamsville Bench dans la hiérarchie VQA de l’Ontario ?"
+      choices:
+        - { text: "Une sous-appellation de la péninsule du Niagara", correct: true }
+        - { text: "Une DVA distincte, à côté de la péninsule du Niagara", correct: false }
+        - { text: "Une appellation provinciale à part entière", correct: false }
+        - { text: "Une désignation pour un vignoble unique nommé", correct: false }
+      explanation: |
+        La péninsule du Niagara se divise d’abord en deux appellations régionales,
+        Niagara-on-the-Lake et Niagara Escarpment. Beamsville Bench est l’une des
+        sous-appellations de la seconde.
 
   - id: canada-vqa-provincial-grapes-001
     type: mcq
@@ -643,6 +974,17 @@ cards:
         Wines bottled in Canada from imported grapes or juice may not carry the
         VQA mark. In Ontario they are sold as "International-Canadian
         Blends".
+    fr:
+      question: "Quelle part des raisins d’un vin VQA doit provenir de sa propre province ?"
+      choices:
+        - { text: "70 %", correct: false }
+        - { text: "80 %", correct: false }
+        - { text: "90 %", correct: false }
+        - { text: "100 %", correct: true }
+      explanation: |
+        Les vins mis en bouteille au Canada à partir de raisins ou de moûts importés
+        ne peuvent pas porter la mention VQA. En Ontario, ils sont vendus sous le nom
+        « International-Canadian Blends ».
 
   - id: canada-vqa-varieties-001
     type: mcq
@@ -663,3 +1005,14 @@ cards:
       explanation: |
         Ontario approves a short list of hybrids. Baco Noir, a dark, smoky red
         from a hybrid grape, is one that can be labelled VQA.
+    fr:
+      question: "Quels cépages peut-on utiliser pour élaborer un vin VQA ?"
+      choices:
+        - { text: "Vinifera, labrusca et tout hybride", correct: false }
+        - { text: "Hybrides et espèces américaines indigènes", correct: false }
+        - { text: "Vinifera et hybrides autorisés", correct: true }
+        - { text: "Vinifera et labrusca comme le Concord", correct: false }
+      explanation: |
+        L’Ontario autorise une courte liste d’hybrides. Le Baco Noir, un rouge sombre
+        et fumé issu d’un cépage hybride, fait partie de ceux qui peuvent porter la
+        mention VQA.
