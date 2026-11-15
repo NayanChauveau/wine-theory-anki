@@ -1,0 +1,100 @@
+- { id: c00-0001, verdict: REJECT_OK, reason: "Trivial physiology point (CO2 as a constant), not a Level 3 learning objective; photosynthesis inputs already in vine-photosynthesis-equation-001" }
+- { id: c00-0002, verdict: SKIP_OK, card: vm-variety-climate-001, chapter: c06-vineyard-management.yaml }
+- { id: c00-0003, verdict: NEW, chapter: c04-growing-environment.yaml, fact: "Black grapes need more warmth than whites to ripen their tannins; in cool conditions they can give astringent, herbaceous reds, while white grapes need no ripe tannin and suit the higher acidity of cool sites.", doubt: false }
+- { id: c00-0004, verdict: SKIP_OK, card: "same as NEW c00-0003", chapter: c04-growing-environment.yaml }
+- { id: c00-0005, verdict: SKIP_OK, card: vine-heat-sources-001, chapter: c03-the-vine.yaml }
+- { id: c00-0006, verdict: NEW, chapter: c04-growing-environment.yaml, fact: "Wet, water-retentive soils warm up slowly and draw heat away from the vine, so they tend to delay ripening compared with free-draining, stony soils.", doubt: false }
+- { id: c00-0007, verdict: NEW, chapter: c04-growing-environment.yaml, fact: "Proximity to a sea or large lake narrows the diurnal (day-night) temperature range, because water heats and cools slowly.", doubt: true }
+- { id: c00-0008, verdict: REJECT_OK, reason: "Garbled/vague (smaller bodies of water vs cloud cover); the usable point is covered by c00-0007 and c00-0023" }
+- { id: c00-0009, verdict: SKIP_OK, card: "same as NEW c00-0011", chapter: c04-growing-environment.yaml }
+- { id: c00-0010, verdict: SKIP_OK, card: "same as NEW c00-0012", chapter: c04-growing-environment.yaml }
+- { id: c00-0011, verdict: NEW, chapter: c04-growing-environment.yaml, fact: "A wide diurnal range (cool nights) slows ripening and the loss of acidity and volatile aromas, so such regions tend to give fresher, more aromatic wines.", doubt: false }
+- { id: c00-0012, verdict: NEW, chapter: c04-growing-environment.yaml, fact: "Warm nights (a narrow diurnal range) speed ripening, especially sugar accumulation, and tend to give fuller-bodied, riper, lower-acid wines.", doubt: false }
+- { id: c00-0013, verdict: NEW, chapter: c04-growing-environment.yaml, fact: "Winter freeze becomes a serious threat when temperatures drop below roughly -20 C, which can damage or kill dormant vines.", doubt: false }
+- { id: c00-0014, verdict: SKIP_OK, card: vine-spring-frost-001, chapter: c03-the-vine.yaml }
+- { id: c00-0015, verdict: SKIP_OK, card: "same as NEW c00-0016", chapter: c04-growing-environment.yaml }
+- { id: c00-0016, verdict: NEW, chapter: c04-growing-environment.yaml, fact: "Heaters and wind machines fight spring frost by warming and stirring the air so cold air cannot settle around the buds (wind machines pull down warmer air from above).", doubt: false }
+- { id: c00-0017, verdict: NEW, chapter: c04-growing-environment.yaml, fact: "Frost sprinklers work because water releases latent heat as it freezes, keeping the ice-coated buds at about 0 C instead of colder.", doubt: false }
+- { id: c00-0018, verdict: SKIP_OK, card: vm-training-high-001, chapter: c06-vineyard-management.yaml }
+- { id: c00-0019, verdict: NEW, chapter: c04-growing-environment.yaml, fact: "Mild winters let larger pest populations survive to attack vines the following season.", doubt: false }
+- { id: c00-0020, verdict: SKIP_OK, card: vine-photosynthesis-light-001, chapter: c03-the-vine.yaml }
+- { id: c00-0021, verdict: SKIP_OK, card: aus-hunter-heat-moderation-001, chapter: c39-australia.yaml }
+- { id: c00-0022, verdict: SKIP_OK, card: vm-bush-shade-001, chapter: c06-vineyard-management.yaml }
+- { id: c00-0023, verdict: SKIP_OK, card: aspect-mosel-001, chapter: c04-growing-environment.yaml }
+- { id: c00-0024, verdict: SKIP_OK, card: aspect-equator-001, chapter: c04-growing-environment.yaml }
+- { id: c00-0025, verdict: NEW, chapter: c03-the-vine.yaml, fact: "Buds that develop in shade are less fruitful, so poor light in one season can reduce the following year's crop.", doubt: false }
+- { id: c00-0026, verdict: SKIP_OK, card: vm-canopy-reasons-001, chapter: c06-vineyard-management.yaml }
+- { id: c00-0027, verdict: SKIP_OK, card: fog-cooling-001, chapter: c04-growing-environment.yaml }
+- { id: c00-0028, verdict: SKIP_OK, card: "same as NEW c00-0025", chapter: c03-the-vine.yaml }
+- { id: c00-0029, verdict: SKIP_OK, card: harvest-dry-001, chapter: c04-growing-environment.yaml }
+- { id: c00-0030, verdict: SKIP_OK, card: vine-drip-define-001, chapter: c03-the-vine.yaml }
+- { id: c00-0031, verdict: NEW, chapter: c04-growing-environment.yaml, fact: "Flood irrigation is cheap but only practical on flat or gently sloping vineyards with access to large volumes of water (traditionally Argentina and Chile).", doubt: false }
+- { id: c00-0032, verdict: SKIP_OK, card: argentina-mendoza-hail-001, chapter: c37-argentina.yaml }
+- { id: c00-0033, verdict: SKIP_OK, card: argentina-hail-netting-001, chapter: c37-argentina.yaml }
+- { id: c00-0034, verdict: SKIP_OK, card: vine-budburst-hemisphere-001, chapter: c03-the-vine.yaml }
+- { id: c00-0035, verdict: SKIP_OK, card: "same as NEW c00-0040", chapter: c04-growing-environment.yaml }
+- { id: c00-0036, verdict: REJECT_OK, reason: "Generic textbook list with no testable distinction; useful parts carried by NEW c00-0038 and c00-0040" }
+- { id: c00-0037, verdict: SKIP_OK, card: "same as NEW c00-0038", chapter: c04-growing-environment.yaml }
+- { id: c00-0038, verdict: NEW, chapter: c04-growing-environment.yaml, fact: "Clay particles are the smallest and hold water (and nutrients) well; sand particles are the largest and drain freely, so a mix of sizes usually gives the best balance.", doubt: false }
+- { id: c00-0039, verdict: SKIP_OK, card: "same as NEW c00-0038", chapter: c04-growing-environment.yaml }
+- { id: c00-0040, verdict: NEW, chapter: c04-growing-environment.yaml, fact: "Humus is decomposed organic matter in the soil; it is rich in plant nutrients and retains water well.", doubt: false }
+- { id: c00-0041, verdict: NEW, chapter: c03-the-vine.yaml, fact: "The three key vine nutrients are nitrogen, phosphorus and potassium.", doubt: false }
+- { id: c00-0042, verdict: SKIP_OK, card: vine-nutrient-sources-001, chapter: c03-the-vine.yaml }
+- { id: c00-0043, verdict: SKIP_OK, card: "same as NEW c00-0038", chapter: c04-growing-environment.yaml }
+- { id: c00-0044, verdict: SKIP_OK, card: vine-chlorosis-define-001, chapter: c03-the-vine.yaml }
+- { id: c00-0045, verdict: REJECT_OK, reason: "Loose list of regions; regional soils are carded per chapter and Barolo/Rioja are calcareous marl/clay rather than pure limestone" }
+- { id: c00-0046, verdict: NEW, chapter: c02-wine-with-food.yaml, fact: "Sweetness and umami in food make a wine taste harder: more bitter, astringent and acidic, and less fruity.", doubt: false }
+- { id: c00-0047, verdict: SKIP_OK, card: vine-vinifera-wine-001, chapter: c03-the-vine.yaml }
+- { id: c00-0048, verdict: REJECT_OK, reason: "Too vague to card" }
+- { id: c00-0049, verdict: SKIP_OK, card: continental-cool-varieties-001, chapter: c04-growing-environment.yaml }
+- { id: c00-0050, verdict: SKIP_OK, card: "same as NEW c00-0053", chapter: c03-the-vine.yaml }
+- { id: c00-0051, verdict: SKIP_OK, card: "same as NEW c00-0053", chapter: c03-the-vine.yaml }
+- { id: c00-0052, verdict: SKIP_OK, card: "same as NEW c00-0053", chapter: c03-the-vine.yaml }
+- { id: c00-0053, verdict: NEW, chapter: c03-the-vine.yaml, fact: "Layering propagates a vine in the vineyard by burying part of a cane from a neighbouring vine until it roots, then cutting the link; it gives an ungrafted vine exposed to phylloxera, so nursery cuttings (usually grafted) are the norm.", doubt: false }
+- { id: c00-0054, verdict: SKIP_OK, card: "same as NEW c00-0053", chapter: c03-the-vine.yaml }
+- { id: c00-0055, verdict: SKIP_OK, card: vine-cutting-001, chapter: c03-the-vine.yaml }
+- { id: c00-0056, verdict: SKIP_OK, card: vine-variety-name-001, chapter: c03-the-vine.yaml }
+- { id: c00-0057, verdict: SKIP_OK, card: vine-cutting-001, chapter: c03-the-vine.yaml }
+- { id: c00-0058, verdict: SKIP_OK, card: vine-clone-001, chapter: c03-the-vine.yaml }
+- { id: c00-0059, verdict: SKIP_OK, card: vine-clone-001, chapter: c03-the-vine.yaml }
+- { id: c00-0060, verdict: SKIP_OK, card: vine-clone-001, chapter: c03-the-vine.yaml }
+- { id: c00-0061, verdict: SKIP_OK, card: red-pinot-clones-001, chapter: c09-red-and-rose-winemaking.yaml }
+- { id: c00-0062, verdict: SKIP_OK, card: vine-crossing-how-001, chapter: c03-the-vine.yaml }
+- { id: c00-0063, verdict: SKIP_OK, card: vine-crossing-how-001, chapter: c03-the-vine.yaml }
+- { id: c00-0064, verdict: SKIP_OK, card: vine-crossing-define-001, chapter: c03-the-vine.yaml }
+- { id: c00-0065, verdict: SKIP_OK, card: vine-hybrid-001, chapter: c03-the-vine.yaml }
+- { id: c00-0066, verdict: SKIP_OK, card: vine-american-phylloxera-001, chapter: c03-the-vine.yaml }
+- { id: c00-0067, verdict: NEW, chapter: c03-the-vine.yaml, fact: "Phylloxera, accidentally introduced from North America, devastated European vineyards in the second half of the 19th century.", doubt: false }
+- { id: c00-0068, verdict: REJECT_OK, reason: "Not a testable fact (merely says the lifecycle is complex)" }
+- { id: c00-0069, verdict: NEW, chapter: c03-the-vine.yaml, fact: "Phylloxera's most damaging stage lives underground feeding on roots; the wounds let infections in, so vinifera roots weaken and the vine dies, whereas American species seal their feeding wounds.", doubt: false }
+- { id: c00-0070, verdict: SKIP_OK, card: "same as NEW c00-0069", chapter: c03-the-vine.yaml }
+- { id: c00-0071, verdict: SKIP_OK, card: vine-american-phylloxera-001, chapter: c03-the-vine.yaml }
+- { id: c00-0072, verdict: SKIP_OK, card: "same as NEW c00-0077", chapter: c03-the-vine.yaml }
+- { id: c00-0073, verdict: SKIP_OK, card: vine-flowering-weather-001, chapter: c03-the-vine.yaml }
+- { id: c00-0074, verdict: SKIP_OK, card: vine-fruit-set-define-001, chapter: c03-the-vine.yaml }
+- { id: c00-0075, verdict: SKIP_OK, card: vine-dormancy-transition-001, chapter: c03-the-vine.yaml }
+- { id: c00-0076, verdict: SKIP_OK, card: "same as NEW c00-0077", chapter: c03-the-vine.yaml }
+- { id: c00-0077, verdict: NEW, chapter: c03-the-vine.yaml, fact: "A bud forms where a leaf joins the shoot in one season, already holding a miniature shoot with flower clusters, and bursts the next spring; so fruit comes from shoots on one-year-old wood.", doubt: false }
+- { id: c00-0078, verdict: SKIP_OK, card: "same as NEW c00-0079", chapter: c06-vineyard-management.yaml }
+- { id: c00-0079, verdict: NEW, chapter: c06-vineyard-management.yaml, fact: "At winter pruning a spur keeps about 2-3 buds, whereas a replacement cane keeps roughly 8-20 buds.", doubt: false }
+- { id: c00-0080, verdict: SKIP_OK, card: vine-permanent-wood-001, chapter: c03-the-vine.yaml }
+- { id: c00-0081, verdict: SKIP_OK, card: vine-water-sources-001, chapter: c03-the-vine.yaml }
+- { id: c00-0082, verdict: SKIP_OK, card: vm-site-env-001, chapter: c06-vineyard-management.yaml }
+- { id: c00-0083, verdict: SKIP_OK, card: vm-site-utilities-001, chapter: c06-vineyard-management.yaml }
+- { id: c00-0084, verdict: SKIP_OK, card: vm-site-variety-001, chapter: c06-vineyard-management.yaml }
+- { id: c00-0085, verdict: SKIP_OK, card: vm-prep-clear-001, chapter: c06-vineyard-management.yaml }
+- { id: c00-0086, verdict: SKIP_OK, card: vm-prep-irrigate-001, chapter: c06-vineyard-management.yaml }
+- { id: c00-0087, verdict: SKIP_OK, card: vm-replant-age-001, chapter: c06-vineyard-management.yaml }
+- { id: c00-0088, verdict: SKIP_OK, card: vm-old-vine-flavour-001, chapter: c06-vineyard-management.yaml }
+- { id: c00-0089, verdict: SKIP_OK, card: vm-old-vine-downside-001, chapter: c06-vineyard-management.yaml }
+- { id: c00-0090, verdict: SKIP_OK, card: vm-manage-four-001, chapter: c06-vineyard-management.yaml }
+- { id: c00-0091, verdict: SKIP_OK, card: vm-adapt-resources-001, chapter: c06-vineyard-management.yaml }
+- { id: c00-0092, verdict: SKIP_OK, card: vm-machinery-plan-001, chapter: c06-vineyard-management.yaml }
+- { id: c00-0093, verdict: SKIP_OK, card: vm-grower-goal-001, chapter: c06-vineyard-management.yaml }
+- { id: c00-0094, verdict: SKIP_OK, card: vm-training-low-001, chapter: c06-vineyard-management.yaml }
+- { id: c00-0095, verdict: SKIP_OK, card: vm-pruning-define-001, chapter: c06-vineyard-management.yaml }
+- { id: c00-0096, verdict: SKIP_OK, card: vm-pruning-when-001, chapter: c06-vineyard-management.yaml }
+- { id: c00-0097, verdict: SKIP_OK, card: vm-winter-buds-001, chapter: c06-vineyard-management.yaml }
+- { id: c00-0098, verdict: SKIP_OK, card: vm-bud-spacing-001, chapter: c06-vineyard-management.yaml }
+- { id: c00-0099, verdict: SKIP_OK, card: vm-winter-styles-001, chapter: c06-vineyard-management.yaml }
+- { id: c00-0100, verdict: SKIP_OK, card: vm-spur-where-001, chapter: c06-vineyard-management.yaml }

@@ -2,4 +2,40 @@
 # source: C02 (import/inbox/c02-wine-with-food.yaml)
 # deck: Wine with Food
 
-cards: []
+cards:
+  - id: food-sweet-umami-hard-001
+    type: mcq
+    deck: Wine with Food
+    tags: [food, pairing]
+    status: reviewed
+    source_id: c00-0046
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which two food components tend to make a wine taste harder: more bitter, astringent and acidic, and less fruity?"
+      choices:
+        - { text: "Salt and acidity", correct: false }
+        - { text: "Sweetness and umami", correct: true }
+        - { text: "Fat and salt", correct: false }
+        - { text: "Acidity and fattiness", correct: false }
+      explanation: |
+        A sweet dessert can make a dry wine taste thin and sour, so the wine should
+        be at least as sweet as the food. Umami-rich, unsalted foods such as
+        mushrooms, asparagus or eggs strip fruit and bring out tannin. Salt and
+        acidity in food do the opposite and soften a wine, which is why salty
+        umami foods such as hard cheese or cured ham are easier to match.
+    fr:
+      question: "Quels deux composants d’un plat tendent à durcir un vin, le rendant plus amer, astringent et acide, et moins fruité ?"
+      choices:
+        - { text: "Le sel et l’acidité", correct: false }
+        - { text: "Le sucre et l’umami", correct: true }
+        - { text: "Le gras et le sel", correct: false }
+        - { text: "L’acidité et le gras", correct: false }
+      explanation: |
+        Un dessert sucré peut rendre un vin sec maigre et aigre : le vin doit être au
+        moins aussi doux que le plat. Les aliments riches en umami et peu salés,
+        comme les champignons, les asperges ou les œufs, effacent le fruit et font
+        ressortir les tanins. Le sel et l’acidité du plat font l’inverse et
+        assouplissent le vin : les aliments umami mais salés, comme les fromages à
+        pâte dure ou le jambon cru, s’accordent donc plus facilement.

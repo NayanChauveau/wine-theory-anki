@@ -981,3 +981,390 @@ cards:
         lorsque les raisins peuvent être ramassés en un seul passage rapide. Les terrasses raides
         peuvent être inaccessibles, tandis qu’une récolte sélective exige de choisir les grappes à
         la main.
+  - id: climate-cool-black-grapes-001
+    type: mcq
+    deck: The Growing Environment
+    tags: [climate, ripening]
+    status: reviewed
+    source_id: c00-0003
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "What is the typical quality risk when black grapes are grown in a region too cool for them?"
+      choices:
+        - { text: "Excess sugar giving hot, high-alcohol reds", correct: false }
+        - { text: "Unripe tannins giving astringent, herbaceous reds", correct: true }
+        - { text: "Thick skins giving very dark, heavily extracted reds", correct: false }
+        - { text: "Low acidity giving flat, short-lived reds", correct: false }
+      explanation: |
+        Black grapes need more warmth than whites, because a red wine depends on ripe skin tannins
+        and colour as well as sugar. When that warmth is lacking the tannins stay green and coarse.
+        White wines are rarely fermented on their skins, so tannin ripeness matters far less;
+        this is why cool regions such as the Mosel or Chablis favour whites.
+    fr:
+      question: "Quel est le risque qualitatif typique quand on cultive des raisins noirs dans une région trop fraîche pour eux ?"
+      choices:
+        - { text: "Un excès de sucre donnant des rouges capiteux et très alcooleux", correct: false }
+        - { text: "Des tanins verts donnant des rouges astringents et herbacés", correct: true }
+        - { text: "Des peaux épaisses donnant des rouges sombres et très extraits", correct: false }
+        - { text: "Une acidité faible donnant des rouges plats et peu durables", correct: false }
+      explanation: |
+        Les raisins noirs demandent plus de chaleur que les blancs, car un vin rouge dépend de tanins
+        et d’une couleur mûrs dans la pellicule, pas seulement du sucre. Faute de chaleur, les tanins
+        restent verts et rugueux. Les blancs fermentent rarement avec leurs pellicules, si bien que
+        la maturité des tanins y compte beaucoup moins : voilà pourquoi les régions fraîches comme
+        la Moselle ou Chablis privilégient le blanc.
+  - id: soil-wet-ripening-001
+    type: mcq
+    deck: The Growing Environment
+    tags: [soil, ripening]
+    status: reviewed
+    source_id: c00-0006
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Compared with free-draining stony soils, how do wet, water-retentive soils usually affect grape ripening?"
+      choices:
+        - { text: "They store daytime heat and so advance ripening", correct: false }
+        - { text: "They reflect sunlight into the canopy and hasten ripening", correct: false }
+        - { text: "They warm up slowly and so tend to delay ripening", correct: true }
+        - { text: "They cool the roots but leave ripening dates unchanged", correct: false }
+      explanation: |
+        Water takes a lot of energy to warm and draws heat away as it evaporates, so damp soils stay
+        cold in spring and give back little warmth. Dry, stony soils heat quickly and radiate heat
+        at night; the large pebbles of Châteauneuf-du-Pape are a classic example.
+    fr:
+      question: "Par rapport à des sols caillouteux et drainants, quel effet ont d’habitude des sols humides, qui retiennent l’eau, sur la maturation du raisin ?"
+      choices:
+        - { text: "Ils emmagasinent la chaleur du jour et avancent la maturation", correct: false }
+        - { text: "Ils renvoient la lumière vers le feuillage et hâtent la maturation", correct: false }
+        - { text: "Ils se réchauffent lentement et tendent à retarder la maturation", correct: true }
+        - { text: "Ils rafraîchissent les racines sans changer la date de maturité", correct: false }
+      explanation: |
+        Il faut beaucoup d’énergie pour réchauffer l’eau, et son évaporation emporte de la chaleur :
+        un sol humide reste froid au printemps et restitue peu de chaleur. Un sol sec et caillouteux
+        se réchauffe vite et rayonne la nuit ; les galets roulés de Châteauneuf-du-Pape en sont
+        l’exemple classique.
+  - id: water-diurnal-range-001
+    type: mcq
+    deck: The Growing Environment
+    tags: [climate, water]
+    status: reviewed
+    source_id: c00-0007
+    review:
+      fact_check: pass
+      sources: [known-fact, extension]
+    en:
+      question: "How does a nearby sea or large lake usually affect the day–night temperature range in a vineyard?"
+      choices:
+        - { text: "It narrows the range, because water warms and cools slowly", correct: true }
+        - { text: "It widens the range, because water reflects heat by day", correct: false }
+        - { text: "It widens the range, because cool breezes blow at night", correct: false }
+        - { text: "It leaves the range unchanged but lowers the annual mean", correct: false }
+      explanation: |
+        Water heats up and cools down far more slowly than land. By day it keeps nearby air cooler;
+        at night it releases stored heat, so the gap between day and night shrinks. The Finger
+        Lakes of New York and Lake Neusiedl in Austria both moderate their vineyards this way.
+    fr:
+      question: "Quel effet une mer ou un grand lac voisin a-t-il d’habitude sur l’écart de température entre le jour et la nuit dans un vignoble ?"
+      choices:
+        - { text: "Il réduit l’écart, car l’eau se réchauffe et se refroidit lentement", correct: true }
+        - { text: "Il accroît l’écart, car l’eau renvoie la chaleur pendant le jour", correct: false }
+        - { text: "Il accroît l’écart, car des brises fraîches soufflent pendant la nuit", correct: false }
+        - { text: "Il laisse l’écart inchangé mais abaisse la moyenne annuelle", correct: false }
+      explanation: |
+        L’eau se réchauffe et se refroidit bien plus lentement que la terre. Le jour, elle garde l’air
+        voisin plus frais ; la nuit, elle restitue la chaleur emmagasinée, si bien que l’écart entre
+        le jour et la nuit se resserre. Les Finger Lakes de l’État de New York et le lac de Neusiedl
+        en Autriche tempèrent ainsi leurs vignobles.
+  - id: diurnal-cool-nights-001
+    type: mcq
+    deck: The Growing Environment
+    tags: [climate, diurnal-range]
+    status: reviewed
+    source_id: c00-0011
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Why do cool nights during the ripening period help a region make fresher, more aromatic wines?"
+      choices:
+        - { text: "They thicken the skins, concentrating aroma compounds", correct: false }
+        - { text: "They turn part of the berry sugar back into acid overnight", correct: false }
+        - { text: "They halt sugar build-up so the grapes are picked earlier", correct: false }
+        - { text: "They slow ripening and the loss of acid and aromas", correct: true }
+      explanation: |
+        Warmth speeds the vine’s respiration of malic acid and the loss of volatile aroma compounds.
+        Cool nights put a brake on both while sugar continues to accumulate by day, so grapes reach
+        ripeness with acidity and aroma intact. High-altitude Salta in Argentina relies on this for
+        its fragrant Torrontés.
+    fr:
+      question: "Pourquoi des nuits fraîches pendant la maturation aident-elles une région à produire des vins plus frais et plus aromatiques ?"
+      choices:
+        - { text: "Elles épaississent les pellicules et concentrent les arômes", correct: false }
+        - { text: "Elles retransforment la nuit une partie du sucre en acide", correct: false }
+        - { text: "Elles bloquent l’accumulation de sucre et avancent la récolte", correct: false }
+        - { text: "Elles freinent la maturation et la perte d’acide et d’arômes", correct: true }
+      explanation: |
+        La chaleur accélère la combustion de l’acide malique par la vigne et la perte des composés
+        aromatiques volatils. Les nuits fraîches freinent les deux pendant que le sucre continue de
+        s’accumuler le jour : le raisin arrive à maturité en gardant acidité et arômes. Salta, en
+        altitude en Argentine, en tire ses Torrontés si parfumés.
+  - id: diurnal-warm-nights-001
+    type: mcq
+    deck: The Growing Environment
+    tags: [climate, diurnal-range]
+    status: reviewed
+    source_id: c00-0012
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Compared with a site with cool nights, which wine profile does a site with warm nights during ripening tend to give?"
+      choices:
+        - { text: "Lighter-bodied, leaner and higher in acidity", correct: false }
+        - { text: "Fuller-bodied, riper and lower in acidity", correct: true }
+        - { text: "Fuller-bodied, greener and higher in acidity", correct: false }
+        - { text: "Lighter-bodied, riper and lower in alcohol", correct: false }
+      explanation: |
+        With little cooling after sunset, ripening runs day and night: sugar builds quickly and acid
+        is respired faster. The result is riper fruit, more alcohol and body, and lower acidity, as
+        in the Barossa Valley, where winemakers often have to add acid.
+    fr:
+      question: "Par rapport à un site aux nuits fraîches, quel profil de vin donne en général un site aux nuits chaudes pendant la maturation ?"
+      choices:
+        - { text: "Plus léger, plus maigre et plus acide", correct: false }
+        - { text: "Plus corsé, plus mûr et moins acide", correct: true }
+        - { text: "Plus corsé, plus végétal et plus acide", correct: false }
+        - { text: "Plus léger, plus mûr et moins alcooleux", correct: false }
+      explanation: |
+        Sans rafraîchissement après le coucher du soleil, la maturation se poursuit jour et nuit : le
+        sucre s’accumule vite et l’acide se dégrade plus rapidement. On obtient des fruits plus mûrs,
+        plus d’alcool et de corps, et moins d’acidité, comme dans la Barossa Valley, où l’acidification
+        est fréquente.
+  - id: winter-freeze-threshold-001
+    type: mcq
+    deck: The Growing Environment
+    tags: [climate, winter-freeze]
+    status: reviewed
+    source_id: c00-0013
+    review:
+      fact_check: pass
+      sources: [extension]
+    en:
+      question: "Below roughly which winter air temperature does freeze damage to dormant *vinifera* vines become a serious risk?"
+      choices:
+        - { text: "About −5 °C", correct: false }
+        - { text: "About −10 °C", correct: false }
+        - { text: "About −20 °C", correct: true }
+        - { text: "About −35 °C", correct: false }
+      explanation: |
+        A well-hardened dormant *vinifera* vine tolerates moderate frost, but around −20 °C buds,
+        canes and trunks start to die; the exact point varies with variety and acclimatisation.
+        In parts of Washington State and Ontario, growers hill soil over graft unions for winter.
+    fr:
+      question: "En dessous de quelle température hivernale environ le gel devient-il un risque sérieux pour des vignes de *vinifera* en dormance ?"
+      choices:
+        - { text: "Environ −5 °C", correct: false }
+        - { text: "Environ −10 °C", correct: false }
+        - { text: "Environ −20 °C", correct: true }
+        - { text: "Environ −35 °C", correct: false }
+      explanation: |
+        Une vigne de *vinifera* bien aoûtée et en dormance supporte un gel modéré, mais vers −20 °C
+        les bourgeons, les sarments et les troncs commencent à mourir ; le seuil exact varie selon le
+        cépage et l’endurcissement. Dans une partie de l’État de Washington et de l’Ontario, on
+        butte les points de greffe pour l’hiver.
+  - id: frost-wind-machine-001
+    type: mcq
+    deck: The Growing Environment
+    tags: [climate, frost]
+    status: reviewed
+    source_id: c00-0016
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "On a still, clear spring night with frost forecast, how does a vineyard wind machine protect the buds?"
+      choices:
+        - { text: "It blows away moist air so that no frost can form", correct: false }
+        - { text: "It mixes warmer air from above down to the vines", correct: true }
+        - { text: "It dries the buds so ice cannot form inside them", correct: false }
+        - { text: "It pushes the cold air uphill, out of the vineyard", correct: false }
+      explanation: |
+        On calm, clear nights the ground loses heat and the coldest air pools at vine level under a
+        warmer layer (an inversion). A wind machine stirs that warmer air down; heaters work
+        alongside by warming the air directly. Wind machines are a common sight in Central Otago
+        and Marlborough.
+    fr:
+      question: "Par une nuit de printemps calme et claire avec du gel annoncé, comment une tour antigel (éolienne) protège-t-elle les bourgeons ?"
+      choices:
+        - { text: "Elle chasse l’air humide pour empêcher la gelée de se former", correct: false }
+        - { text: "Elle rabat vers les vignes l’air plus chaud situé au-dessus", correct: true }
+        - { text: "Elle sèche les bourgeons pour qu’aucune glace ne s’y forme", correct: false }
+        - { text: "Elle repousse l’air froid vers le haut, hors du vignoble", correct: false }
+      explanation: |
+        Par nuit calme et claire, le sol perd sa chaleur et l’air le plus froid stagne au niveau des
+        vignes, sous une couche plus chaude (inversion). L’éolienne brasse cet air chaud vers le bas ;
+        les chaufferettes complètent en réchauffant l’air directement. Les éoliennes sont courantes
+        dans le Central Otago et à Marlborough.
+  - id: frost-sprinkler-heat-001
+    type: mcq
+    deck: The Growing Environment
+    tags: [climate, frost]
+    status: reviewed
+    source_id: c00-0017
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Why does spraying water onto vines during a spring frost protect the buds?"
+      choices:
+        - { text: "The water is warmer than the air and lifts the buds above 0 °C", correct: false }
+        - { text: "The ice coating seals the buds off from the surrounding air", correct: false }
+        - { text: "Water releases heat as it freezes, holding the buds near 0 °C", correct: true }
+        - { text: "The spray raises humidity and stops heat escaping to the sky", correct: false }
+      explanation: |
+        As water turns to ice it gives off latent heat, so a bud inside a constantly renewed ice
+        film stays close to 0 °C even when the air is colder. Spraying must continue until the ice
+        melts, which needs a lot of water; Chablis is a well-known user of the method.
+    fr:
+      question: "Pourquoi l’aspersion d’eau sur les vignes pendant une gelée de printemps protège-t-elle les bourgeons ?"
+      choices:
+        - { text: "L’eau est plus chaude que l’air et fait passer les bourgeons au-dessus de 0 °C", correct: false }
+        - { text: "La gangue de glace isole les bourgeons de l’air ambiant", correct: false }
+        - { text: "L’eau libère de la chaleur en gelant et maintient les bourgeons vers 0 °C", correct: true }
+        - { text: "La pulvérisation humidifie l’air et retient la chaleur la nuit", correct: false }
+      explanation: |
+        En se transformant en glace, l’eau libère de la chaleur latente : un bourgeon pris dans une
+        pellicule de glace sans cesse renouvelée reste proche de 0 °C, même si l’air est plus froid.
+        L’aspersion doit durer jusqu’à la fonte, ce qui demande beaucoup d’eau ; Chablis est connu
+        pour y recourir.
+  - id: winter-mild-pests-001
+    type: mcq
+    deck: The Growing Environment
+    tags: [climate, pests]
+    status: reviewed
+    source_id: c00-0019
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Why can an unusually mild winter cause problems for vines in the following growing season?"
+      choices:
+        - { text: "The vines use up their stored reserves before budburst", correct: false }
+        - { text: "More insects and other pests survive to attack the vines", correct: true }
+        - { text: "Winter rain leaches nitrogen, leaving shoots weak", correct: false }
+        - { text: "The canes fail to ripen into wood, leaving fewer fruitful buds", correct: false }
+      explanation: |
+        Hard frosts kill many overwintering insects and mites. After a mild winter, larger
+        populations carry over and build up faster in spring, so growers may need more monitoring
+        or treatments.
+    fr:
+      question: "Pourquoi un hiver anormalement doux peut-il nuire à la vigne pendant la saison suivante ?"
+      choices:
+        - { text: "La vigne épuise ses réserves avant le débourrement", correct: false }
+        - { text: "Davantage d’insectes et de ravageurs survivent pour l’attaquer", correct: true }
+        - { text: "Les pluies d’hiver lessivent l’azote et affaiblissent les rameaux", correct: false }
+        - { text: "Les sarments s’aoûtent mal et portent moins d’yeux fertiles", correct: false }
+      explanation: |
+        Les fortes gelées tuent beaucoup d’insectes et d’acariens qui hivernent. Après un hiver doux,
+        des populations plus nombreuses passent la mauvaise saison et se développent plus vite au
+        printemps : il faut alors surveiller ou traiter davantage.
+  - id: irrigation-flood-001
+    type: mcq
+    deck: The Growing Environment
+    tags: [climate, irrigation]
+    status: reviewed
+    source_id: c00-0031
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which site conditions make flood irrigation of a vineyard practical?"
+      choices:
+        - { text: "Steep terraces with a reliable piped water supply", correct: false }
+        - { text: "Free-draining slopes where water is scarce and costly", correct: false }
+        - { text: "Small plots where each vine’s water must be rationed", correct: false }
+        - { text: "Flat or gently sloping land with abundant water", correct: true }
+      explanation: |
+        Flooding the rows is cheap but needs level ground and a large water supply, and it gives
+        little control over how much each vine receives. Mendoza’s vineyards were traditionally
+        watered this way from channels fed by Andes snowmelt; drip is now replacing it.
+    fr:
+      question: "Quelles conditions de site rendent praticable l’irrigation d’un vignoble par submersion ?"
+      choices:
+        - { text: "Des terrasses escarpées avec une eau courante fiable", correct: false }
+        - { text: "Des pentes drainantes où l’eau est rare et chère", correct: false }
+        - { text: "De petites parcelles où l’eau de chaque cep est rationnée", correct: false }
+        - { text: "Un terrain plat ou en pente douce avec beaucoup d’eau", correct: true }
+      explanation: |
+        Inonder les rangs coûte peu, mais exige un terrain plat et beaucoup d’eau, et laisse peu de
+        maîtrise sur la quantité reçue par chaque cep. Les vignobles de Mendoza étaient
+        traditionnellement irrigués ainsi par des canaux alimentés par la fonte des neiges des Andes ;
+        le goutte-à-goutte les remplace peu à peu.
+  - id: soil-particle-size-001
+    type: mcq
+    deck: The Growing Environment
+    tags: [soil]
+    status: reviewed
+    source_id: c00-0038
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "Which soil particle is the smallest and holds water most strongly?"
+      choices:
+        - { text: "Silt", correct: false }
+        - { text: "Sand", correct: false }
+        - { text: "Clay", correct: true }
+        - { text: "Gravel", correct: false }
+      explanation: |
+        Clay particles are tiny, with a huge surface area that binds water and nutrients; sand is
+        far coarser and drains freely, with silt in between, and gravel is larger still. A mix often
+        suits vines best: Pomerol’s clay keeps Merlot supplied in dry summers, while the Médoc’s
+        gravel drains fast.
+    fr:
+      question: "Quelle particule du sol est la plus fine et retient le plus fortement l’eau ?"
+      choices:
+        - { text: "Les limons", correct: false }
+        - { text: "Les sables", correct: false }
+        - { text: "Les argiles", correct: true }
+        - { text: "Les graviers", correct: false }
+      explanation: |
+        Les particules d’argile sont minuscules, avec une énorme surface qui fixe l’eau et les
+        éléments nutritifs ; le sable, bien plus grossier, draine librement, le limon se situe entre
+        les deux et les graviers sont plus gros encore. Un mélange convient souvent le mieux : l’argile de Pomerol
+        alimente le Merlot les étés secs, quand les graves du Médoc drainent vite.
+  - id: soil-humus-001
+    type: mcq
+    deck: The Growing Environment
+    tags: [soil]
+    status: reviewed
+    source_id: c00-0040
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "What is humus in a vineyard soil?"
+      choices:
+        - { text: "Decomposed organic matter that holds water and nutrients", correct: true }
+        - { text: "Fine mineral particles left by weathered limestone", correct: false }
+        - { text: "A compacted layer that forms beneath the topsoil", correct: false }
+        - { text: "Fresh, undecomposed plant debris lying on the soil surface", correct: false }
+      explanation: |
+        Humus forms when leaves, prunings, compost and roots are broken down by soil organisms. It
+        releases nutrients slowly and acts like a sponge, which is why organic and biodynamic
+        growers spread compost to build it up.
+    fr:
+      question: "Qu’est-ce que l’humus dans un sol de vignoble ?"
+      choices:
+        - { text: "De la matière organique décomposée qui retient eau et nutriments", correct: true }
+        - { text: "De fines particules minérales issues de l’altération du calcaire", correct: false }
+        - { text: "Une couche tassée qui se forme sous la terre de surface", correct: false }
+        - { text: "Des débris végétaux frais posés à la surface du sol", correct: false }
+      explanation: |
+        L’humus se forme quand les organismes du sol décomposent feuilles, bois de taille, compost et
+        racines. Il libère lentement les éléments nutritifs et agit comme une éponge : c’est pourquoi
+        les vignerons en bio et en biodynamie épandent du compost pour l’enrichir.

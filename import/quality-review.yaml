@@ -792,9 +792,9 @@ chapters:
     status: awaiting-human
     agent_wave: 2026-10-05
     counts:
-      cards: 31
+      cards: 43
       agent_fixed: 31
-      agent_pass: 0
+      agent_pass: 12
       human_ok: 0
     note: >
       Passe factuelle et adversariale complète, suivie de la traduction française.
@@ -833,6 +833,18 @@ chapters:
       harvest-dry-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
       harvest-early-weather-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
       harvest-method-factors-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      climate-cool-black-grapes-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-pass, human: pending }
+      soil-wet-ripening-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-pass, human: pending }
+      water-diurnal-range-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-pass, human: pending }
+      diurnal-cool-nights-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-pass, human: pending }
+      diurnal-warm-nights-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-pass, human: pending }
+      winter-freeze-threshold-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-pass, human: pending }
+      frost-wind-machine-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-pass, human: pending }
+      frost-sprinkler-heat-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-pass, human: pending }
+      winter-mild-pests-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-pass, human: pending }
+      irrigation-flood-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-pass, human: pending }
+      soil-particle-size-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-pass, human: pending }
+      soil-humus-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-pass, human: pending }
   c10-price-of-wine:
     file: cards/c10-price-of-wine.yaml
     status: awaiting-human
@@ -3252,9 +3264,9 @@ chapters:
     status: awaiting-human
     agent_wave: 2026-11-12
     counts:
-      cards: 102
+      cards: 108
       agent_fixed: 91
-      agent_pass: 11
+      agent_pass: 17
       human_ok: 0
     note: >
       Passe qualité complète en trois lots d’environ 34 cartes, chacun relu par un critic adverse jusqu’à acceptation, puis
@@ -3366,14 +3378,20 @@ chapters:
       vine-ripening-changes-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
       vine-dormancy-transition-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
       vine-machine-harvest-mechanism-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
+      vine-shade-bud-fruitfulness-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-pass, human: pending }
+      vine-key-nutrients-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-pass, human: pending }
+      vine-layering-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-pass, human: pending }
+      vine-phylloxera-history-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-pass, human: pending }
+      vine-phylloxera-roots-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-pass, human: pending }
+      vine-bud-one-year-wood-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-pass, human: pending }
   c06-vineyard-management:
     file: cards/c06-vineyard-management.yaml
     status: awaiting-human
     agent_wave: 2026-11-12
     counts:
-      cards: 100
+      cards: 101
       agent_fixed: 87
-      agent_pass: 13
+      agent_pass: 14
       hold: 0
       human_ok: 0
     note: >
@@ -3484,6 +3502,7 @@ chapters:
       vm-machine-harvest-mog-control-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
       vm-machine-harvest-speed-window-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
       vm-botrytised-fruit-handling-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-pass, human: pending }
+      vm-spur-cane-buds-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-pass, human: pending }
   c33-california:
     file: cards/c33-california.yaml
     status: awaiting-human
@@ -4817,3 +4836,17 @@ chapters:
       nz-central-otago-pinot-share-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-pass, human: pending }
       nz-central-otago-pinot-style-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-pass, human: pending }
       nz-central-otago-whites-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-pass, human: pending }
+
+  c02-wine-with-food:
+    file: cards/c02-wine-with-food.yaml
+    status: awaiting-human
+    agent_wave: 2026-11-15
+    counts:
+      cards: 1
+      agent_fixed: 0
+      agent_pass: 1
+      human_ok: 0
+    note: >
+      Première carte, issue du tri des notes non classées (c00).
+    cards:
+      food-sweet-umami-hard-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-pass, human: pending }
