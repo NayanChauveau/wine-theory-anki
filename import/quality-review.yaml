@@ -3093,10 +3093,10 @@ chapters:
     status: awaiting-human
     agent_wave: 2026-11-12
     counts:
-      cards: 140
-      agent_fixed: 105
+      cards: 139
+      agent_fixed: 106
       agent_pass: 33
-      hold: 2
+      hold: 0
       human_ok: 0
     note: >
       Passe qualité complète menée en quatre lots de 35 cartes, chacun relu par
@@ -3104,13 +3104,14 @@ chapters:
       (même nombre de choix, même index). Les leurres caricaturaux, absolus
       (« seulement », « toujours », « sans vérifier ») ou à moitié vrais ont été
       remplacés par des pratiques plausibles comportant une seule erreur ; clés
-      trop longues raccourcies. Deux brouillons restent en HOLD sans français :
-      wine-natural-001 et wine-barrique-two-years-001.
+      trop longues raccourcies. Brouillons réglés le 15/11 : wine-natural-001
+      réécrit, sourcé et traduit ; wine-barrique-two-years-001 supprimé (règle
+      des deux ans non vérifiable).
     cards:
       wine-after-harvest-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
       ferment-alcohol-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
       wine-after-ferment-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
-      wine-natural-001: { status: hold, human: pending }
+      wine-natural-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
       wine-seeds-stems-tannin-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
       wine-seeds-bitter-oils-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
       wine-stems-hand-harvest-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
@@ -3151,7 +3152,6 @@ chapters:
       wine-small-barrel-oxid-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
       wine-small-barrel-surface-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
       wine-barrique-225-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
-      wine-barrique-two-years-001: { status: hold, human: pending }
       wine-ullage-oxid-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
       wine-ullage-styles-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
       wine-oxidative-nuts-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
@@ -3371,10 +3371,10 @@ chapters:
     status: awaiting-human
     agent_wave: 2026-11-12
     counts:
-      cards: 101
+      cards: 100
       agent_fixed: 87
       agent_pass: 13
-      hold: 1
+      hold: 0
       human_ok: 0
     note: >
       Passe qualité complète en trois lots d’environ 34 cartes, chacun relu par un critic adverse jusqu’à acceptation, puis
@@ -3382,7 +3382,7 @@ chapters:
       caricaturaux, absolus ou à moitié vrais remplacés par des affirmations
       plausibles comportant une seule erreur ; motifs révélateurs (fourchettes
       emboîtées, leurres sur le même cadre) supprimés ; clés trop longues
-      raccourcies. Le brouillon vm-canopy-trellis-choice-001 reste en HOLD, sans français.
+      raccourcies. Brouillon vm-canopy-trellis-choice-001 supprimé le 15/11 (doublon des cartes gobelet / palissage).
     cards:
       vm-cordon-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
       vm-summer-pruning-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
@@ -3434,7 +3434,6 @@ chapters:
       vm-cane-skill-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
       vm-guyot-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
       vm-canopy-define-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
-      vm-canopy-trellis-choice-001: { status: hold, human: pending }
       vm-trellis-support-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
       vm-bush-define-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }
       vm-bush-climate-001: { isolation: pass, credibility: pass, length: pass, why: pass, sense: pass, status: agent-fixed, human: pending }

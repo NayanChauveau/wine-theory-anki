@@ -106,23 +106,38 @@ cards:
     type: mcq
     deck: Winemaking and Maturation
     tags: [winemaking]
-    status: draft
+    status: reviewed
     source_id: c07-0005
     review:
-      fact_check: unsure
-      sources: [dgccrf]
+      fact_check: pass
+      sources: [decanter, bkwine]
     en:
-      question: In loose cellar talk, what does “natural wine” usually point to?
+      question: "What does the term “natural wine” generally describe?"
       choices:
-        - { text: "Any wine that spent two years in new barriques", correct: false }
-        - { text: "Wine made with as little handling and addition as the maker will accept", correct: true }
-        - { text: "A legal grade above grand cru in every country", correct: false }
-        - { text: "Wine that must be sterile-filtered and heavily sulphited", correct: false }
+        - { text: "Any wine made from certified organic grapes", correct: false }
+        - { text: "Wine made with minimal intervention and additions", correct: true }
+        - { text: "Wine from old, ungrafted vines on their own roots", correct: false }
+        - { text: "Wine fermented and aged with no oak contact", correct: false }
       explanation: |
-        People use **natural wine** for bottles made with **as little handling
-        and addition as the maker will accept**. There is no single legal
-        definition, so the label is informal — not a guaranteed recipe, and
-        not the opposite of “all oak” or “all sulphur.”
+        There is no EU-wide legal definition. The term usually means organically
+        farmed, hand-picked grapes, native yeasts, nothing added in the cellar and
+        little or no added sulphur. Organic certification alone still allows many
+        additions. In France, a voluntary "Vin Méthode Nature" label, launched in
+        2020, sets such rules for the producers who sign up to it.
+    fr:
+      question: "Que désigne généralement l’expression « vin nature » ?"
+      choices:
+        - { text: "Tout vin issu de raisins certifiés en agriculture biologique", correct: false }
+        - { text: "Un vin fait avec un minimum d’interventions et d’intrants", correct: true }
+        - { text: "Un vin de vieilles vignes franches de pied", correct: false }
+        - { text: "Un vin fermenté et élevé sans contact avec le bois", correct: false }
+      explanation: |
+        Il n’existe pas de définition légale à l’échelle de l’UE. Le terme désigne
+        en général des raisins bio vendangés à la main, des levures indigènes,
+        aucun intrant en cave et peu ou pas de soufre ajouté. La seule
+        certification bio autorise encore de nombreux intrants. En France, le
+        label volontaire « Vin Méthode Nature », lancé en 2020, encadre ces
+        pratiques pour les vignerons qui y adhèrent.
 
   - id: wine-seeds-stems-tannin-001
     type: mcq
@@ -1443,29 +1458,6 @@ cards:
         La barrique bordelaise est le fût de référence de 225 L. La pièce
         bourguignonne contient 228 L et le hogshead environ 300 L : des
         volumes proches, à retenir ensemble.
-
-  - id: wine-barrique-two-years-001
-    type: mcq
-    deck: Winemaking and Maturation
-    tags: [winemaking, oak]
-    status: draft
-    source_id: c07-0033
-    review:
-      fact_check: unsure
-      sources: [known-fact]
-    en:
-      question: Beyond which stretch are wines seldom left sitting in a barrique?
-      choices:
-        - { text: "Two days", correct: false }
-        - { text: "Two years", correct: true }
-        - { text: "A legal minimum of ten years in every region", correct: false }
-        - { text: "One hour, or the wine is illegal", correct: false }
-      explanation: |
-        A 225 L barrique is a strong oak and air dose, so wines are
-        seldom left in one beyond **two years**. That is a working
-        rule of thumb for small new oak, not a statute — some
-        oxidative styles stay longer in older wood, and many wines
-        leave the barrique much sooner.
 
   - id: wine-ullage-oxid-001
     type: mcq
