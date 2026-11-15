@@ -124,9 +124,10 @@ cards:
         - { text: "Late budburst but early ripening", correct: false }
         - { text: "Early budburst and early ripening", correct: true }
       explanation: |
-        Like Pinot Noir, of which it is a colour mutation, Pinot Gris starts and finishes early. Early budburst
-        exposes the young shoots to spring frost, while early ripening lets it reach full
-        maturity in cool places such as Alsace, Oregon and Tasmania.
+        Like Pinot Noir, of which it is a colour mutation, Pinot Gris starts and
+        finishes early. Early budburst exposes the young shoots to spring frost, while
+        early ripening lets it reach full maturity in cool places such as Alsace,
+        Oregon and Tasmania.
     fr:
       question: "Comment le Pinot Gris se comporte-t-il au fil du cycle végétatif ?"
       choices:
@@ -190,8 +191,9 @@ cards:
         - { text: "It is picked later than other whites", correct: false }
         - { text: "Its pink-grey skins hold some pigment", correct: true }
       explanation: |
-        Pinot Gris is a colour mutation of Pinot Noir. Even a short skin contact before or during pressing can deepen the colour; with longer
-        skin contact the wine can turn coppery, as in Friuli's ramato style.
+        Pinot Gris is a colour mutation of Pinot Noir. Even a short skin contact
+        before or during pressing can deepen the colour; with longer skin contact the
+        wine can turn coppery, as in Friuli's ramato style.
     fr:
       question: "Pourquoi les vins de Pinot Gris peuvent-ils avoir une couleur plus soutenue et plus dorée que la plupart des blancs secs ?"
       choices:
@@ -484,22 +486,25 @@ cards:
         - { text: "They soak on their skins for several days", correct: false }
         - { text: "The free-run juice is drained off", correct: true }
         - { text: "They are inoculated with yeast on the skins", correct: false }
-        - { text: "The whole mass is cold-settled overnight", correct: false }
+        - { text: "The crushed mass is heated to extract colour", correct: false }
       explanation: |
         Free-run juice flows out by gravity once the skins are split. It is the
         gentlest, lowest-phenolic fraction, so many cellars keep it apart from the
-        press juice recovered afterwards.
+        press juice recovered afterwards. A few hours of cool skin contact is an
+        option for some aromatic varieties, but not days.
     fr:
       question: "Après le tri et le foulage, que fait-on des raisins blancs avant de les envoyer au pressoir ?"
       choices:
-        - { text: "On les laisse macérer plusieurs jours", correct: false }
+        - { text: "On les laisse macérer plusieurs jours sur leurs peaux", correct: false }
         - { text: "On écoule le jus de goutte", correct: true }
         - { text: "On les ensemence en levures sur peaux", correct: false }
-        - { text: "On laisse reposer la vendange foulée une nuit au froid", correct: false }
+        - { text: "On chauffe la vendange foulée pour extraire la couleur", correct: false }
       explanation: |
         Le jus de goutte s’écoule par gravité dès que les peaux sont fendues. C’est la
         fraction la plus délicate et la plus pauvre en composés phénoliques ; beaucoup de chais
-        la gardent à part du jus de presse obtenu ensuite.
+        la gardent à part du jus de presse obtenu ensuite. Quelques heures de macération
+        pelliculaire au frais sont une option pour certains cépages aromatiques, mais pas
+        plusieurs jours.
 
   - id: white-whole-bunch-press-aim-001
     type: mcq
@@ -1034,7 +1039,7 @@ cards:
     en:
       question: "Why do many cheap single-variety whites name the grape on the front label?"
       choices:
-        - { text: "Law requires it for every single-variety wine", correct: false }
+        - { text: "Law requires it on single-variety wines", correct: false }
         - { text: "It proves the wine contains no other grape", correct: false }
         - { text: "The grape name itself sells the wine", correct: true }
         - { text: "It replaces the region on the label", correct: false }
@@ -1045,7 +1050,7 @@ cards:
     fr:
       question: "Pourquoi beaucoup de blancs monocépages bon marché affichent-ils le cépage sur l’étiquette principale ?"
       choices:
-        - { text: "La loi l’impose pour tout vin monocépage", correct: false }
+        - { text: "La loi l’impose pour les vins monocépages", correct: false }
         - { text: "Il prouve que le vin ne contient aucun autre cépage", correct: false }
         - { text: "Le nom du cépage fait vendre le vin", correct: true }
         - { text: "Il remplace la région sur l’étiquette", correct: false }
@@ -1487,9 +1492,9 @@ cards:
         - { text: "Riesling", correct: false }
       explanation: |
         Grown hot, Chardonnay loses acidity fast and can taste flat and
-        flabby. Colombard and Riesling hold their acidity well in heat, which
-        is why Colombard is valued in warm regions such as South Africa and
-        Gascony.
+        flabby. Sauvignon Blanc, Colombard and Riesling are naturally higher in
+        acidity; Colombard holds it so well that it is widely planted in South
+        Africa's hot inland regions.
     fr:
       question: "Dans les régions chaudes de vins d’entrée de gamme, quel cépage blanc faut-il le plus souvent acidifier ?"
       choices:
@@ -1499,9 +1504,9 @@ cards:
         - { text: "Riesling", correct: false }
       explanation: |
         Cultivé au chaud, le Chardonnay perd vite son acidité et peut paraître plat
-        et mou. Le Colombard et le Riesling gardent bien leur acidité à la chaleur,
-        d’où l’intérêt du Colombard dans des régions chaudes comme l’Afrique du Sud
-        ou la Gascogne.
+        et mou. Le Sauvignon Blanc, le Colombard et le Riesling sont naturellement
+        plus acides ; le Colombard garde si bien son acidité qu’il est très planté
+        dans les régions chaudes de l’intérieur de l’Afrique du Sud.
 
   - id: white-bulk-commercial-yeast-001
     type: mcq
@@ -2160,7 +2165,7 @@ cards:
         - { text: "Trockenbeerenauslese", correct: false }
       explanation: |
         Les grappes, à dominante de Corvina, sèchent pendant des mois avant une
-        fermentation lente qui s’arrête en laissant du sucre. Le Sauternes et la
+        fermentation lente qui s’arrête en laissant du sucre. Le Sauternes et le
         Trockenbeerenauslese reposent sur la pourriture noble, l’Eiswein sur des
         raisins gelés sur pied.
 
@@ -2371,27 +2376,30 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: "Why is fruit for a fresh aromatic white such as Muscat handled gently and kept cool?"
+      question: "Why is fruit for a Muscat or a Riesling handled gently and kept cool on its way to the press?"
       choices:
-        - { text: "To keep its fresh fruit and floral aromas", correct: true }
-        - { text: "To extract more tannin from the skins", correct: false }
-        - { text: "To encourage early browning for texture", correct: false }
-        - { text: "To prepare the juice for malolactic conversion", correct: false }
+        - { text: "Its fruity, floral aromas are easily lost", correct: true }
+        - { text: "Its acidity drops quickly once it is picked", correct: false }
+        - { text: "Its sugar keeps rising in warm picking bins", correct: false }
+        - { text: "Its tartrates form crystals in warm juice", correct: false }
       explanation: |
         Volatile aroma compounds are lost to heat, oxygen and rough handling.
-        Night picking, chilled transport and handling under inert gas help a
-        Muscat or Riesling keep the smell of fresh grapes.
+        Night picking, chilled transport and handling under inert gas help an
+        aromatic variety keep the smell of fresh grapes. Acidity and sugar do not
+        change in picked fruit, and tartrates crystallise in the cold.
     fr:
-      question: "Pourquoi traite-t-on avec douceur, et au frais, la vendange destinée à un blanc aromatique et frais comme le Muscat ?"
+      question: "Pourquoi traite-t-on avec douceur, et au frais, une vendange de Muscat ou de Riesling jusqu’au pressoir ?"
       choices:
-        - { text: "Pour préserver ses arômes de fruit frais et de fleurs", correct: true }
-        - { text: "Pour extraire davantage de tanins des pellicules", correct: false }
-        - { text: "Pour favoriser un brunissement précoce qui donne de la texture", correct: false }
-        - { text: "Pour préparer le moût à la fermentation malolactique", correct: false }
+        - { text: "Ses arômes fruités et floraux se perdent facilement", correct: true }
+        - { text: "Son acidité chute vite une fois le raisin cueilli", correct: false }
+        - { text: "Son sucre continue de monter dans des caisses tièdes", correct: false }
+        - { text: "Son tartre cristallise dans un moût trop tiède", correct: false }
       explanation: |
         Les composés aromatiques volatils se perdent à la chaleur, à l’oxygène et aux
         manipulations brutales. Vendange de nuit, transport réfrigéré et travail sous
-        gaz inerte aident un Muscat ou un Riesling à garder son parfum de raisin frais.
+        gaz inerte aident un cépage aromatique à garder son parfum de raisin frais.
+        L’acidité et le sucre ne changent pas dans un raisin cueilli, et le tartre
+        cristallise au froid.
 
   - id: white-aromatic-gentle-settling-001
     type: mcq
@@ -2510,7 +2518,7 @@ cards:
         unfermented, which keeps these wines light in alcohol yet intensely sweet.
         A Sauternes, by contrast, usually ferments on to around 13–14%.
     fr:
-      question: "Quel degré d’alcool atteint en général une Trockenbeerenauslese allemande ?"
+      question: "Quel degré d’alcool atteint en général un Trockenbeerenauslese allemand ?"
       choices:
         - { text: "Environ 6 à 8 % vol.", correct: true }
         - { text: "Environ 10 à 11 % vol.", correct: false }
@@ -2644,10 +2652,10 @@ cards:
         - { text: "Il est plus crémeux et plus épicé", correct: true }
         - { text: "Il est plus tendu et plus herbacé", correct: false }
         - { text: "Il est plus doux et plus floral", correct: false }
-        - { text: "Il est plus léger et plus intense", correct: false }
+        - { text: "Il est plus léger et plus exubérant", correct: false }
       explanation: |
         Le chêne apporte des épices douces et du grillé, les lies arrondissent la
-        bouche, et les notes vertes et intenses s’effacent. Le Pessac-Léognan blanc et
+        bouche, et les notes vertes et exubérantes s’effacent. Le Pessac-Léognan blanc et
         le Fumé Blanc de Robert Mondavi en sont des exemples connus.
 
   - id: white-sauvignon-barrel-style-techniques-001
@@ -3336,8 +3344,9 @@ cards:
         - { text: "Heavy rainfall through autumn", correct: false }
         - { text: "Frequent summer sea fog", correct: false }
       explanation: |
-        Cool nights in the Wairau and Awatere valleys keep acidity high, so the bright
-        fruit comes without the wine turning flabby.
+        Long, sunny days build intense fruit flavour in the berries. Cool nights in
+        the Wairau and Awatere valleys keep acidity high, so the bright fruit comes
+        without the wine turning flabby.
     fr:
       question: "Quel trait du climat de Marlborough explique le mieux l’intensité du fruit de son Sauvignon Blanc ?"
       choices:
@@ -3346,8 +3355,9 @@ cards:
         - { text: "De fortes pluies tout l’automne", correct: false }
         - { text: "Des brouillards marins fréquents en été", correct: false }
       explanation: |
-        Les nuits fraîches des vallées de la Wairau et de l’Awatere maintiennent une acidité
-        élevée : le fruit éclatant ne rend pas le vin mou pour autant.
+        Les longues journées ensoleillées donnent aux baies un fruit intense. Les nuits
+        fraîches des vallées de la Wairau et de l’Awatere maintiennent une acidité élevée :
+        le fruit éclatant ne rend pas le vin mou pour autant.
 
   - id: white-sb-marlborough-aromas-001
     type: mcq
@@ -3778,7 +3788,7 @@ cards:
       question: "Quelle note de fruit signe un Riesling sec et jeune d’Australie-Méridionale ?"
       choices:
         - { text: "Citron vert", correct: true }
-        - { text: "Pêche blanche", correct: false }
+        - { text: "Pêche", correct: false }
         - { text: "Miel", correct: false }
         - { text: "Ananas", correct: false }
       explanation: |

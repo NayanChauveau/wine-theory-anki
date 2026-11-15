@@ -1,0 +1,111 @@
+# Final audit — cards/c08-white-and-sweet-winemaking.yaml (125 cards)
+# All facts checked from knowledge; import/inbox source notes consulted for intent on 9 cards. No web lookup needed.
+cards:
+  - id: white-reception-sequence-001
+    verdict: fix
+    issues:
+      - "FR foil 4 (crushed grapes rested cold overnight) describes a real practice, so half-true; EN 'cold-settled' only wrong through a misused term"
+      - "FR foil 1 dropped 'on their skins'"
+    change: "EN/FR foil 4 replaced by 'crushed mass is heated to extract colour'; FR foil 1 completed; Why gains one sentence on short cool skin contact (hours, not days)"
+    checked: [knowledge, import/inbox c08-0003]
+  - id: white-aromatic-careful-handling-001
+    verdict: fix
+    issues:
+      - "Stem ('fresh aromatic white') gave away the key ('fresh fruit and floral aromas')"
+      - "Joke foils nobody would want (early browning for texture, more tannin)"
+    change: "Stem reworded (Muscat or Riesling on the way to the press); key 'Its fruity, floral aromas are easily lost'; three same-frame foils (acidity drops after picking / sugar keeps rising / tartrates crystallise when warm); Why now refutes the foils. EN+FR, key index unchanged"
+    checked: [knowledge, import/inbox c08-0126]
+  - id: white-bulk-varietal-label-001
+    verdict: minor
+    issues: ["Cue word 'every' / 'tout' in foil 1"]
+    change: "Foil 1 reworded without the cue word (EN+FR)"
+    checked: [knowledge]
+  - id: white-bulk-chardonnay-acidify-001
+    verdict: minor
+    issues:
+      - "Sauvignon Blanc foil not addressed in the Why"
+      - "Gascony cited as a warm region"
+    change: "Why rewritten (EN+FR): Sauvignon Blanc, Colombard and Riesling naturally higher in acid; Gascony dropped, South Africa's hot inland regions kept"
+    checked: [knowledge, import/inbox c08-0043]
+  - id: white-sb-marlborough-sunlight-001
+    verdict: minor
+    issues: ["Why explained cool nights but never the keyed sunlight"]
+    change: "Added one sentence on long sunny days building fruit intensity (EN+FR)"
+    checked: [knowledge]
+  - id: white-sauvignon-barrel-style-profile-001
+    verdict: minor
+    issues: ["FR 'plus intense' for 'more pungent' is not a clear contrast; file uses 'exubérant' elsewhere"]
+    change: "FR foil 4 and FR Why: 'intense(s)' -> 'exubérant(es)'"
+    checked: [knowledge]
+  - id: white-riesling-clare-eden-lime-001
+    verdict: minor
+    issues: ["FR foil 'Pêche blanche' vs EN 'Peach'"]
+    change: "FR foil -> 'Pêche'"
+    checked: [knowledge]
+  - id: sweet-riesling-botrytis-ferment-end-001
+    verdict: minor
+    issues: ["FR gender of Trockenbeerenauslese inconsistent in the file (feminine here, masculine elsewhere)"]
+    change: "FR stem set to masculine"
+    checked: [knowledge]
+  - id: sweet-recioto-dried-grapes-001
+    verdict: minor
+    issues: ["Same FR gender inconsistency in the Why"]
+    change: "FR Why: 'la' -> 'le Trockenbeerenauslese'"
+    checked: [knowledge]
+  - id: white-pinot-gris-cycle-001
+    verdict: minor
+    issues: ["EN explanation line far over 80 chars"]
+    change: "Rewrapped only"
+    checked: [knowledge, import/inbox c08-0152]
+  - id: white-pinot-gris-colour-001
+    verdict: minor
+    issues: ["EN explanation line far over 80 chars"]
+    change: "Rewrapped only"
+    checked: [knowledge]
+  - id: white-barrel-ferment-temp-001
+    verdict: minor
+    issues: ["Source fact is only 'upper end of the white range'; 19-22 C vs adjacent foil 16-19 C is false precision"]
+    change: none
+    checked: [knowledge, import/inbox c08-0017]
+  - id: white-sb-margaret-river-style-001
+    verdict: minor
+    issues: ["Key ('less aromatic, fuller-bodied') matches the source, but Margaret River SBS is often grassy in practice, so foil 1 is not absurd; 'paler, lighter' keeps it wrong"]
+    change: none
+    checked: [knowledge, import/inbox c08-0065]
+  - id: white-fortification-balance-001
+    verdict: minor
+    issues: ["Key is the longest in EN; foil 'turns brown within weeks' is weak"]
+    change: none
+    checked: [knowledge]
+  - id: white-aromatic-definition-001
+    verdict: minor
+    issues: ["Near-tautology: 'aromatic' in stem, 'aroma compounds in the grape' as key"]
+    change: none
+    checked: [knowledge]
+  - id: white-bulk-blend-label-001
+    verdict: minor
+    issues: ["Cue word 'every' in EN foil 1 (not in FR)"]
+    change: none
+    checked: [knowledge]
+  - id: sweet-botrytis-grey-rot-001
+    verdict: minor
+    issues: ["Stem names noble rot and the key is the other 'rot'; easy by word association"]
+    change: none
+    checked: [knowledge]
+
+summary:
+  counts:
+    ok: 108
+    minor: 15
+    fix: 2
+    wrong: 0
+  edited_cards: 11
+  validate: "uv run wset3-anki validate -> 3517 card(s) OK; EN/FR correct index identical and single on all 125 cards"
+  facts:
+    - "No keyed answer wrong, no foil fully correct"
+    - "Named anecdotes and figures hold: Yquem no grand vin 1992/2012, Champagne cuvee 2,050 L per 4,000 kg, Canada -8 C, German 5.5% abv minimum, Hugel 1715 cask, Cloudy Bay 1985, Schlossberg 1975, Clare screwcap 2000, Torrontes parentage"
+  riskiest_patterns:
+    - "Why/reason cards where the stem already carries the key's words and the foils are things no winemaker wants (1 fix; a few milder cases left)"
+    - "Half-true foils that describe a real practice in the wrong context (reception sequence)"
+    - "Invented numeric bands built from a qualitative source fact (barrel ferment temperature)"
+    - "FR: small drifts only (gender of German terms, 'intense' for pungent, one extra adjective)"

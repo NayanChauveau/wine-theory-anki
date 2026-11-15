@@ -1,0 +1,374 @@
+# Audit pilot — 50-card sample. Auditor judged FACT / QUALITY / FR.
+# No web lookups were needed; all facts checked from knowledge (2 greps in cards/ for context).
+cards:
+  - id: sat-climate-001
+    file: cards/c01-sat.yaml
+    verdict: ok
+    issues: []
+    checked: [knowledge]
+  - id: vine-heat-respiration-001
+    file: cards/c03-the-vine.yaml
+    verdict: ok
+    issues: []
+    checked: [knowledge]
+  - id: aspect-steep-equator-001
+    file: cards/c04-growing-environment.yaml
+    verdict: ok
+    issues: []
+    checked: [knowledge]
+  - id: vm-harvest-hemisphere-001
+    file: cards/c06-vineyard-management.yaml
+    verdict: ok
+    issues: []
+    checked: [knowledge]
+  - id: wine-small-barrel-oxid-001
+    file: cards/c07-winemaking-and-maturation.yaml
+    verdict: minor
+    issues:
+      - "Binary question padded to four: 'Less oxidising' and 'Less oxidising, unless the barrel is new' are near-duplicates; only 2 real options"
+      - "Why says Barolo houses use botti for 'little oak influence' but the stem is about oxygen — slight mismatch"
+    checked: [knowledge]
+  - id: white-bulk-chardonnay-acidify-001
+    file: cards/c08-white-and-sweet-winemaking.yaml
+    verdict: minor
+    issues:
+      - "'Most often in need of added acid' is a contestable comparative; Sauvignon Blanc foil is not addressed in the Why"
+      - "Gascony cited as a 'warm region' example alongside South Africa is a stretch"
+    checked: [knowledge]
+  - id: red-post-ferment-maceration-texture-001
+    file: cards/c09-red-and-rose-winemaking.yaml
+    verdict: minor
+    issues:
+      - "Stem asks what winemakers 'seek'; two foils (coarser/drying, greener/bitter) are things nobody seeks, so they drop without knowledge"
+    checked: [knowledge]
+  - id: price-coop-europe-001
+    file: cards/c10-price-of-wine.yaml
+    verdict: minor
+    issues:
+      - "Foils 3 and 4 (pooling prohibited; too little vineyard for a shared winery) are self-defeating; only the key mentions Europe"
+    checked: [knowledge]
+  - id: law-bac-unit-001
+    file: cards/c11-wine-and-the-law.yaml
+    verdict: ok
+    issues: []
+    checked: [knowledge]
+  - id: france-nested-aoc-001
+    file: cards/c12-france-introduction.yaml
+    verdict: fix
+    issues:
+      - "Key just restates the stem (why can areas overlap? because areas can overlap)"
+      - "Joke foils with cue words: 'every vineyard automatically', 'must always', 'EU law requires every parcel to belong to France and another country'"
+      - "Key is the only sensible sentence; no knowledge needed"
+    proposed_fix: |
+      EN question: A parcel lies inside the Gevrey-Chambertin village area. Which broader appellation can its Pinot Noir also claim, provided it meets that appellation's rules?
+      EN choices: Bourgogne (correct, keep index 0) / Côte de Beaune-Villages / Mâcon / Beaujolais-Villages
+      EN explanation: French appellation areas are nested: a village or cru area sits inside a broader regional one. The wine may claim only a designation whose grape, yield and production rules it meets, which is how growers declassify a lot to the regional name.
+      FR question: Une parcelle se trouve dans l’aire villages de Gevrey-Chambertin. Quelle appellation plus large son Pinot Noir peut-il aussi revendiquer, s’il en respecte les règles ?
+      FR choices: Bourgogne (correct) / Côte de Beaune-Villages / Mâcon / Beaujolais-Villages
+      FR explanation: Les aires d’appellation françaises sont emboîtées : une aire communale ou de cru se situe dans une aire régionale plus large. Le vin ne peut revendiquer qu’une appellation dont il respecte les règles de cépage, de rendement et de production ; c’est ainsi qu’un lot est replié en appellation régionale.
+    checked: [knowledge]
+  - id: bordeaux-cf-style-001
+    file: cards/c13-bordeaux.yaml
+    verdict: fix
+    issues:
+      - "Joke foil with cue word: 'It only makes sweet wine'"
+      - "FR calques: 'l’épine tannique' (not wine French), 'fruit floral', 'légèreté' for 'lift'"
+    proposed_fix: |
+      EN foil 4: "More colour and a later ripening date"
+      FR foil 4: "Plus de couleur et une maturité plus tardive"
+      FR choice 2: "Moins de corps et de tanin, un fruit plus floral"
+      FR explanation: Le Cabernet Franc apporte **parfum et fraîcheur**, pas la charpente tannique. Vendangé trop tôt, il devient végétal — le même piège que le Cabernet Sauvignon, mais il mûrit plus tôt.
+      (EN Why: add 'It ripens earlier and gives less colour than Cabernet Sauvignon' to cover the new foil.)
+    checked: [knowledge]
+  - id: jurancon-flavours-001
+    file: cards/c14-south-west.yaml
+    verdict: minor
+    issues:
+      - "Foils belong to other wine classes (tannic red, flor wine) so they drop without knowing Jurançon; 'no capacity to develop' is an absolute"
+      - "Key is the longest choice"
+    checked: [knowledge]
+  - id: burgundy-hail-001
+    file: cards/c15-burgundy.yaml
+    verdict: fix
+    issues:
+      - "Stem gives the key away: 'shreds' / 'déchire' points to hail; foil 'Persistent rain without ice' / 'sans glace' points to it again"
+      - "Why: Burgundy's hail defence is mainly a network of silver-iodide cloud-seeding generators plus nets, not 'anti-hail cannon'"
+      - "FR: 'déchire les récoltes', 'ont tapé' are awkward/colloquial"
+    proposed_fix: |
+      EN question: Besides spring frost, which weather hazard most regularly cuts crops on the Côte d’Or in summer?
+      EN choices: A long drought / Hail (correct, index 1) / Sunburn on exposed bunches / Persistent summer rain
+      EN explanation: Storms track along the Côte. **2012–2014** battered Volnay and Meursault three years running; cloud-seeding generators and hail nets are now part of the landscape.
+      FR question: Outre le gel de printemps, quel aléa climatique ampute le plus régulièrement les récoltes de la Côte d’Or en été ?
+      FR choices: Une longue sécheresse / La grêle (correct) / L’échaudage des grappes exposées / Des pluies estivales persistantes
+      FR explanation: Les orages longent la Côte. De **2012 à 2014**, Volnay et Meursault ont été frappés trois années de suite ; générateurs à iodure d’argent et filets paragrêle font désormais partie du paysage.
+    checked: [knowledge]
+  - id: beaujolais-gamay-profile-001
+    file: cards/c16-beaujolais.yaml
+    verdict: ok
+    issues: []
+    checked: [knowledge]
+  - id: alsace-vt-sgn-mentions-001
+    file: cards/c17-alsace.yaml
+    verdict: fix
+    issues:
+      - "Stem contains the key: 'late-harvest mentions' / 'mentions de vendange tardive' -> 'Vendanges Tardives' (blatant in FR)"
+      - "Foils are other classes (blends, communal/lieu-dit names), none is a ripeness mention"
+      - "EN 'Besides the AOCs' vs FR 'En plus de l’AOC'; FR adds 'réglementées' absent from EN stem"
+    proposed_fix: |
+      EN question: Which two regulated mentions on an Alsace label indicate wine made from grapes picked at very high sugar ripeness?
+      EN choices: Réserve Personnelle and Cuvée Spéciale / Vendanges Tardives and Sélection de Grains Nobles (correct, index 1) / Edelzwicker and Gentil / Grand Cru and Crémant d’Alsace
+      FR question: Quelles deux mentions réglementées signalent, sur une étiquette d’Alsace, un vin issu de raisins récoltés à très haute richesse en sucre ?
+      FR choices: Réserve personnelle et Cuvée spéciale / Vendanges Tardives et Sélection de Grains Nobles (correct) / Edelzwicker et Gentil / Grand Cru et Crémant d’Alsace
+      (Explanations unchanged.)
+    checked: [knowledge]
+  - id: loire-bourgueil-001
+    file: cards/c18-loire.yaml
+    verdict: minor
+    issues:
+      - "Two foil pairs (Sancerre/Menetou-Salon, Quincy/Reuilly) are Sauvignon Blanc appellations, eliminated by 'Cabernet Franc' in the stem"
+      - "Why only restates the key; could add soils (gravel terraces vs tuffeau slopes) or style contrast with Chinon"
+    checked: [knowledge]
+  - id: nrhone-cdr-001
+    file: cards/c19-northern-rhone.yaml
+    verdict: ok
+    issues: []
+    checked: [knowledge]
+  - id: srhone-syrah-hot-001
+    file: cards/c20-southern-rhone.yaml
+    verdict: minor
+    issues:
+      - "Cue words in foils: 'cannot tolerate any wind', 'guarantee ... by law'; key is the only hedged choice"
+      - "FR 'arômes larges' is a calque of 'broad'; prefer 'lourds et confiturés'"
+    checked: [knowledge]
+  - id: sfrance-local-pair-001
+    file: cards/c21-southern-france.yaml
+    verdict: minor
+    issues:
+      - "Foil pairs are from other regions (Loire/Beaujolais, Jura, South West); no Languedoc knowledge needed"
+    checked: [knowledge]
+  - id: germany-pfalz-spatburgunder-001
+    file: cards/c22-germany.yaml
+    verdict: minor
+    issues:
+      - "Why opens by repeating the key"
+      - "FR 'de Pfalz' reads oddly; 'du Palatinat (Pfalz)' is natural French"
+    checked: [knowledge]
+  - id: austria-wein-label-001
+    file: cards/c23-austria.yaml
+    verdict: ok
+    issues: []
+    checked: [knowledge]
+  - id: tokaj-harslevelu-late-001
+    file: cards/c24-tokaj.yaml
+    verdict: ok
+    issues: []
+    checked: [knowledge]
+  - id: greece-aoqs-001
+    file: cards/c25-greece.yaml
+    verdict: minor
+    issues:
+      - "Gloss in the key ('superior-quality designation') spells out the QS of AOQS"
+      - "OPE also sits under PDO, so 'corresponds to PDO' alone is ambiguous; only the AOQS clue separates them"
+      - "FR drift: 'l’ancienne désignation' (former) vs EN 'traditional'"
+      - "Marginal for WSET Level 3"
+    checked: [knowledge]
+  - id: italy-igp-igt-001
+    file: cards/c26-italy-introduction.yaml
+    verdict: minor
+    issues:
+      - "FR Why is circular: 'IGP est la forme italienne actuelle de la catégorie européenne IGP' (write 'Indicazione Geografica Protetta ... indication géographique protégée')"
+      - "Foil 'Riserva and Superiore' is not a GI class"
+    checked: [knowledge]
+  - id: nitaly-passito-how-001
+    file: cards/c27-northern-italy.yaml
+    verdict: ok
+    issues: []
+    checked: [knowledge]
+  - id: citaly-umbria-where-001
+    file: cards/c28-central-italy.yaml
+    verdict: minor
+    issues:
+      - "Joke foils: 'island south of Sicily', 'Adriatic coast north of Veneto' (geographically impossible)"
+    checked: [knowledge]
+  - id: sitaly-campania-land-001
+    file: cards/c29-southern-italy.yaml
+    verdict: ok
+    issues: []
+    checked: [knowledge]
+  - id: spain-rioja-drought-001
+    file: cards/c30-spain.yaml
+    verdict: ok
+    issues: []
+    checked: [knowledge]
+  - id: portugal-alicante-bouschet-001
+    file: cards/c31-portugal.yaml
+    verdict: ok
+    issues: []
+    checked: [knowledge]
+  - id: usa-federal-label-001
+    file: cards/c32-usa-introduction.yaml
+    verdict: ok
+    issues: []
+    checked: [knowledge]
+  - id: calif-monterey-upvalley-grapes-001
+    file: cards/c33-california.yaml
+    verdict: ok
+    issues: []
+    checked: [knowledge]
+  - id: oregon-southern-location-001
+    file: cards/c34-pacific-northwest.yaml
+    verdict: fix
+    issues:
+      - "Name gives the answer: 'Southern Oregon' -> 'Farther south'"
+      - "Foil 'within Washington State' contradicts the AVA name"
+    proposed_fix: |
+      EN question: Which two valleys does the Southern Oregon AVA bring together under one name?
+      EN choices: Umpqua and Rogue (correct, index 0) / Willamette and Umpqua / Rogue and Columbia / Columbia and Walla Walla
+      FR question: Quelles deux vallées la Southern Oregon AVA réunit-elle sous un même nom ?
+      FR choices: Umpqua et Rogue (correct) / Willamette et Umpqua / Rogue et Columbia / Columbia et Walla Walla
+      (Explanations unchanged.)
+    checked: [knowledge]
+  - id: canada-summer-heat-001
+    file: cards/c35-canada.yaml
+    verdict: minor
+    issues:
+      - "Odd-one-out pattern: three cool/mild foils against one hot key"
+      - "Why covers only the Okanagan; a word on Niagara would support 'main wine regions'"
+    checked: [knowledge]
+  - id: chile-cachapoal-climate-001
+    file: cards/c36-chile.yaml
+    verdict: ok
+    issues: []
+    checked: [knowledge]
+  - id: argentina-vineyard-span-001
+    file: cards/c37-argentina.yaml
+    verdict: ok
+    issues: []
+    checked: [knowledge]
+  - id: za-chenin-barrel-001
+    file: cards/c38-south-africa.yaml
+    verdict: ok
+    issues: []
+    checked: [knowledge]
+  - id: aus-sauvignon-benchmark-style-001
+    file: cards/c39-australia.yaml
+    verdict: minor
+    issues:
+      - "Stem hides the region and the Why never names it; add 'Adelaide Hills' to the explanation (EN and FR)"
+    checked: [knowledge]
+  - id: nz-martinborough-climate-001
+    file: cards/c40-new-zealand.yaml
+    verdict: fix
+    issues:
+      - "Why states 'Acidity is lost mainly at night, through respiration'. Malic acid is respired faster the warmer it is, so most is lost in warm periods; cool nights matter because they slow the loss. The sentence teaches the wrong mechanism (EN and FR)."
+    proposed_fix: |
+      EN explanation: Malic acid is respired faster the warmer it is, so cold nights slow that loss while warm days build sugar and flavour. The ranges to the west also keep the area fairly dry, which limits rot.
+      FR explanation: L’acide malique est d’autant plus vite consommé par la respiration qu’il fait chaud : des nuits froides freinent cette perte, tandis que les journées chaudes accumulent sucres et arômes. Les chaînes de montagnes à l’ouest gardent aussi la zone assez sèche, ce qui limite la pourriture.
+    checked: [knowledge]
+  - id: sparkling-transfer-label-001
+    file: cards/c41-sparkling-production.yaml
+    verdict: ok
+    issues: []
+    checked: [knowledge]
+  - id: vouvray-sparkling-grape-001
+    file: cards/c42-sparkling-wines.yaml
+    verdict: ok
+    issues: []
+    checked: [knowledge]
+  - id: sherry-amontillado-ageing-length-001
+    file: cards/c43-sherry.yaml
+    verdict: minor
+    issues:
+      - "Awkward stem ('how long can it keep benefiting'); foil 'Much longer, as flor still protects it' contradicts 'oxidative ageing' in the stem"
+    checked: [knowledge]
+  - id: port-fino-spirit-share-001
+    file: cards/c44-port.yaml
+    verdict: minor
+    issues:
+      - "Card sits in the Port deck as a comparison, but the Why never gives the Port figure (about a fifth of the volume); add it"
+      - "FR 'alcool pur' vs EN 'pure grape spirit'; prefer 'eau-de-vie de vin'. FR stem drops 'Sherry/Xérès'"
+    checked: [knowledge, cards/c44-port.yaml]
+  - id: fmuscat-cooling-benefit-001
+    file: cards/c45-fortified-muscat.yaml
+    verdict: ok
+    issues: []
+    checked: [knowledge]
+  - id: jura-voile-role-001
+    file: cards/c46-jura.yaml
+    verdict: ok
+    issues: []
+    checked: [knowledge]
+  - id: savoie-mont-granier-001
+    file: cards/c47-savoie.yaml
+    verdict: ok
+    issues: []
+    checked: [knowledge]
+  - id: vm-vsp-vs-bush-001
+    file: cards/c06-vineyard-management.yaml
+    verdict: ok
+    issues: []
+    checked: [knowledge]
+  - id: austria-burgenland-dry-white-001
+    file: cards/c23-austria.yaml
+    verdict: fix
+    issues:
+      - "Cue-word pattern: all three foils say 'only' / 'uniquement' / 'seulement'; the key is the only choice without it"
+      - "Key is the longest choice"
+    proposed_fix: |
+      EN question: Which wines may be labelled Leithaberg DAC?
+      EN choices: Sweet botrytised whites / Dry whites and Blaufränkisch reds (correct, index 1) / Zweigelt reds and rosés / Dry whites and Zweigelt reds
+      FR question: Quels vins peuvent porter la mention Leithaberg DAC ?
+      FR choices: Des blancs liquoreux botrytisés / Des blancs secs et des rouges de Blaufränkisch (correct) / Des rouges et rosés de Zweigelt / Des blancs secs et des rouges de Zweigelt
+      (Explanations unchanged; optionally add that Zweigelt belongs to Neusiedlersee DAC.)
+    checked: [knowledge]
+  - id: canada-vqa-varieties-001
+    file: cards/c35-canada.yaml
+    verdict: ok
+    issues: []
+    checked: [knowledge]
+  - id: white-reception-sequence-001
+    file: cards/c08-white-and-sweet-winemaking.yaml
+    verdict: fix
+    issues:
+      - "FR foil 4 'On laisse reposer la vendange foulée une nuit au froid' describes a real practice (cold pre-fermentation skin contact), so it is half-true; EN 'cold-settled' is only wrong through a misused term"
+      - "FR foil 1 drops 'on their skins'"
+    proposed_fix: |
+      EN foil 4: "The crushed mass is heated to extract colour"
+      FR foil 4: "On chauffe la vendange foulée pour extraire la couleur"
+      FR foil 1: "On les laisse macérer plusieurs jours sur leurs peaux"
+      (Optionally add to the Why: a few hours of cool skin contact is an option for aromatic varieties, never days.)
+    checked: [knowledge]
+  - id: nitaly-teroldego-site-001
+    file: cards/c27-northern-italy.yaml
+    verdict: minor
+    issues:
+      - "Key is the only named place and the longest choice; two foils (Adriatic coast, east of Verona) are not in Trentino"
+    checked: [knowledge]
+
+summary:
+  counts:
+    ok: 25
+    minor: 17
+    fix: 8
+    wrong: 0
+  common_issue_types:
+    - "Foils eliminable without the fact: other-class or joke foils (about 12 cards)"
+    - "Stem or wording gives the key away, or key restates the stem (4 cards)"
+    - "Cue words in foils only: only / always / any / guarantee (4 cards)"
+    - "Explanation defects: wrong mechanism or detail (2), restates key or omits the named subject (4)"
+    - "FR: calques or small drifts (6 cards); only 1 changes meaning enough to matter"
+  facts:
+    - "No keyed answer was wrong and no foil was fully correct in 50 cards"
+    - "2 factual slips, both in explanations (malic acid 'lost at night'; 'anti-hail cannon'), plus 1 half-true FR foil"
+    - "No web lookup was needed; the sample had few doubtful figures or dates"
+  full_audit_estimate:
+    worthwhile: "Yes for quality, low yield for facts"
+    expected_change_rate: "About 15% of cards need a real fix (roughly 500 of 3,500; with n=50 the plausible range is about 7-28%), and a further 30-35% have optional style polish"
+    expected_wrong_rate: "Under 2% keyed-answer errors (0 of 50 seen; cannot rule out a few dozen deck-wide)"
+    riskiest:
+      - "Early-wave regional chapters with single-fact 'which/where' stems and other-region foils: c12 France intro, c13 Bordeaux, c15 Burgundy, c17 Alsace, c18 Loire, c21 Southern France, c28 Central Italy, c34 Pacific Northwest"
+      - "Law / classification cards (which statement, which category), where foils rely on 'only'"
+      - "Explanations that state a mechanism (respiration, oxidation, ripening); this is where factual slips appeared"
+      - "Older cards with a casual voice (c13, c15), which also carry the weakest French"
+    lowest_risk: "Structured profile cards (acid/body/tannin grids), numeric cards with ordered foils, and theory chapters c01-c06"
+    suggestion: "Prioritise fix-level defects (giveaways, cue words, mechanism claims in Why) with a cheap automated pre-filter for 'only/always/never/guarantee' in foils and key-longest-by-50%; skip minor-only polish"

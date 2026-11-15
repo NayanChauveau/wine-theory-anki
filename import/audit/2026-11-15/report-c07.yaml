@@ -1,0 +1,78 @@
+# Final audit — cards/c07-winemaking-and-maturation.yaml (139 cards, all read EN + FR)
+cards:
+  - id: wine-vertical-basket-press-001
+    verdict: fix
+    issues:
+      - "Why stated vertical presses are 'close to half' of the Champagne press fleet; figure not confirmable: the UMC pressing page implies horizontal presses are about a quarter of presses (so vertical ~three quarters), a secondary wiki says ~half"
+    change: "EN/FR Why: 'close to half of the press fleet' -> 'a large share of the press fleet' / 'une large part du parc' (true under either source). Key and foils untouched."
+    checked: [umc-champagne]
+  - id: wine-oak-programme-variables-001
+    verdict: minor
+    issues: ["Cue word: key was the only choice saying 'changing only toast' (foils 'changing toast')"]
+    change: "Key now 'changing toast' / 'en changeant la chauffe'; still the only option with no second variable."
+    checked: [knowledge]
+  - id: wine-screwcap-liner-comparison-001
+    verdict: minor
+    issues: ["Cue word: key 'vary only the liner' vs foil 'vary the liner'"]
+    change: "Key now 'vary the liner' / 'le joint change' (EN + FR)."
+    checked: [knowledge]
+  - id: wine-tannin-ripen-001
+    verdict: minor
+    issues: ["FR Why 'Le chai extrait toujours des tanins' ambiguous (toujours = always/still) and odd subject"]
+    change: "FR Why: 'Des tanins mûrs s’extraient eux aussi au chai, mais ils paraissent plus fins et moins durs.'"
+    checked: [knowledge]
+  - id: wine-small-barrel-oxid-001
+    verdict: minor
+    issues: ["Binary question padded to four (two 'less oxidising' variants); Why's Barolo example is about oak flavour, stem about oxygen"]
+    change: none
+    checked: [knowledge]
+  - id: wine-oxidation-define-001
+    verdict: minor
+    issues: ["Near-tautological key (oxidising = oxygen reacting with the wine)"]
+    change: none
+    checked: [knowledge]
+  - id: wine-ullage-styles-001
+    verdict: minor
+    issues: ["Foil sets are all obviously fresh/sparkling styles; eliminable by category"]
+    change: none
+    checked: [knowledge]
+  - id: wine-concrete-sanitation-001
+    verdict: minor
+    issues: ["Foils carry absolutes ('removes the need', 'cannot wear or crack') that drop without knowledge"]
+    change: none
+    checked: [knowledge]
+  - id: wine-so2-first-addition-001
+    verdict: minor
+    issues: ["Key is the 'assess everything' option; foil 4 has 'every red lot'; foil 3 (wait until crushing) is a common real practice, only wrong as a blanket rule"]
+    change: none
+    checked: [knowledge]
+  - id: wine-chemical-deacidification-001
+    verdict: minor
+    issues: ["Foil 3 (bench-trial then also run MLF) is not self-evidently wrong; only the Why explains the over-correction risk"]
+    change: none
+    checked: [knowledge]
+  - id: wine-clarification-proportional-treatment-001
+    verdict: minor
+    issues: ["Foil 4 flagged by 'alone ... assume'; key is the generic 'diagnose, trial, least intervention' answer"]
+    change: none
+    checked: [knowledge]
+  - id: wine-drink-young-kept-too-long-001
+    verdict: minor
+    issues: ["Foils 2 and 3 are near-duplicates; all three foils are 'it improved' against one 'it faded'"]
+    change: none
+    checked: [knowledge]
+
+summary:
+  total: 139
+  wrong: 0
+  fix: 1
+  minor: 11
+  ok: 127
+  edited: [wine-vertical-basket-press-001, wine-oak-programme-variables-001, wine-screwcap-liner-comparison-001, wine-tannin-ripen-001]
+  validate: "uv run wset3-anki validate -> 3517 card(s) OK; EN/FR correct-index check: 139 cards, 0 mismatches"
+  riskiest_patterns:
+    - "Unsourced-looking precise figures inside Why text (Champagne press fleet share) — keys are safe, anecdotes are where errors hide"
+    - "Second half of the file (source_id c07-0070+) uses 'most defensible plan' stems far above WSET 3 depth; the key is often the 'assess, trial, monitor' option, guessable by exam technique"
+    - "'Cleanest trial' cards (oak toast, bâtonnage, screwcap liner) share one template; 'only' in the key was a cue (removed in two)"
+    - "Cross-card leakage in clusters (SO2 antioxidant/antiseptic, inert vessel/oak storage, pulp constituents): a stem states a sibling card's key; acceptable but noticeable"
+    - "No factual error found in any key or foil; FR is faithful and idiomatic throughout"

@@ -1,0 +1,101 @@
+# Final audit — cards/c01-sat.yaml (6 cards) and cards/c03-the-vine.yaml (102 cards).
+# All facts judged from knowledge; no web lookup was needed. Only non-ok cards listed.
+cards:
+  - id: vine-hybrid-rootstock-001
+    file: cards/c03-the-vine.yaml
+    verdict: fix
+    issues:
+      - "Stem and Why called interspecific rootstock parents (riparia x rupestris, berlandieri x rupestris) 'crosses'; this contradicts vine-hybrid-001, which teaches that parents from different Vitis species make a hybrid"
+      - "Foil 4 (fruit for most European quality appellations) drops without knowledge (left alone)"
+    change: "EN stem + Why: 'crosses among' -> 'hybrids between' / 'Hybrids such as'; FR stem + Why: 'croisements' -> 'hybrides'. Choices and index unchanged."
+    checked: [knowledge]
+  - id: vine-head-graft-how-001
+    file: cards/c03-the-vine.yaml
+    verdict: fix
+    issues:
+      - "Why said shoots below the graft are rootstock shoots; on a top-worked vine the trunk below the new graft is the OLD scion variety, so those shoots are old-variety (or rootstock only if below the original union)"
+    change: "EN + FR Why: shoots below the new graft 'belong to the old variety or to the rootstock'. Choices unchanged."
+    checked: [knowledge]
+  - id: vine-training-purpose-001
+    file: cards/c03-the-vine.yaml
+    verdict: minor
+    issues:
+      - "Two foils (genetic identity of scion/rootstock; soil texture and depth) were out of frame and dropped by category alone, leaving a binary with the pruning foil"
+    change: "Replaced those two foils in EN and FR with in-frame vineyard decisions (summer trimming/leaf removal timing; row orientation and planting distance). Key and index unchanged."
+    checked: [knowledge]
+  - id: vine-chlorosis-define-001
+    file: cards/c03-the-vine.yaml
+    verdict: minor
+    issues:
+      - "Explanation block had a 130-character line in EN and FR (file style is ~95)"
+    change: "Rewrapped EN and FR explanation; wording unchanged."
+    checked: [knowledge]
+  - id: vine-nematode-virus-vector-001
+    file: cards/c03-the-vine.yaml
+    verdict: minor
+    issues:
+      - "FR Why said Xiphinema index is 'surtout' the fanleaf vector, where EN says 'not only ... but also'"
+    change: "FR: 'surtout' -> 'aussi'."
+    checked: [knowledge]
+  - id: vine-yield-estimate-risks-001
+    file: cards/c03-the-vine.yaml
+    verdict: minor
+    issues:
+      - "Key is the only choice worded as 'Losses from ...', which answers 'what makes the crop fall short' by itself; FR key lacks the article the foils carry"
+      - "Last explanation line is over 100 characters in EN and FR"
+    change: "none"
+    checked: [knowledge]
+  - id: vine-virus-no-field-cure-001
+    file: cards/c03-the-vine.yaml
+    verdict: minor
+    issues:
+      - "Key is the only choice with a 'No field cure exists:' header; fungicide and winter-pruning foils are weak for a Level 3 candidate"
+    change: "none"
+    checked: [knowledge]
+  - id: vine-water-jobs-001
+    file: cards/c03-the-vine.yaml
+    verdict: minor
+    issues:
+      - "'Warms the leaves' appears in two foils and is implausible, so the key can be reached by elimination"
+    change: "none"
+    checked: [knowledge]
+  - id: vine-drought-collapse-001
+    file: cards/c03-the-vine.yaml
+    verdict: minor
+    issues:
+      - "Key ('Stomata close ...') gives away the key of vine-drought-stomata-001 if both come up in one session"
+    change: "none"
+    checked: [knowledge]
+  - id: vine-budburst-temperature-001
+    file: cards/c03-the-vine.yaml
+    verdict: minor
+    issues:
+      - "Near-duplicate of vine-growth-warmth-001 (both test the 10 C base temperature, different foil sets)"
+    change: "none"
+    checked: [knowledge]
+  - id: sat-white-colour-001
+    file: cards/c01-sat.yaml
+    verdict: minor
+    issues:
+      - "Key wording 'a useful depth of wine' is vague; the upright-glass foil (judge the core from above) is close to accepted practice, though the tilted glass over white remains the standard answer"
+    change: "none"
+    checked: [knowledge]
+
+summary:
+  files:
+    cards/c01-sat.yaml: { cards: 6, wrong: 0, fix: 0, minor: 1, ok: 5 }
+    cards/c03-the-vine.yaml: { cards: 102, wrong: 0, fix: 2, minor: 8, ok: 92 }
+  totals: { wrong: 0, fix: 2, minor: 9, ok: 97 }
+  edited_cards:
+    - vine-hybrid-rootstock-001
+    - vine-head-graft-how-001
+    - vine-training-purpose-001
+    - vine-chlorosis-define-001
+    - vine-nematode-virus-vector-001
+  validation: "uv run wset3-anki validate -> 3517 card(s) OK; EN/FR correct index identical on all 106 mcq cards (2 cloze cards have no choices)"
+  riskiest_patterns:
+    - "Crossing vs hybrid terminology: the deck defines the distinction in one card, so any other card using 'cross' for interspecific rootstock parents contradicts it"
+    - "Explanations that add a mechanism beyond the key are where the factual slips sit (head-graft suckers); keys themselves were all correct"
+    - "Sibling cards that share one fact or one choice set (10 C base twice; three hemisphere-calendar cards; excess water vs excess nitrogen with the same key) can cue each other in a session"
+    - "Keys with a distinctive shape (a header clause, or the only 'losses' wording) among uniform foils"
+    - "Out-of-frame foils (genetics or soil in a training question) that drop by category"

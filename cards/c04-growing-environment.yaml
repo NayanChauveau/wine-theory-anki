@@ -33,7 +33,7 @@ cards:
         - { text: "Environ 10–30° au nord et au sud de l’équateur", correct: false }
       explanation: |
         Entre environ 30° et 50°, la saison de croissance est généralement assez chaude et longue
-        pour mûrir les raisins, tandis que l’hiver permet la dormance. L’altitude, les courants
+        pour faire mûrir les raisins, tandis que l’hiver permet la dormance. L’altitude, les courants
         océaniques et les techniques modernes autorisent d’importantes exceptions hors de ces
         bandes.
   - id: climate-definition-001
@@ -232,7 +232,7 @@ cards:
       fact_check: pass
       sources: [known-fact]
     en:
-      question: "Which pair of wine regions is notably cooled by Pacific fog or cool marine air?"
+      question: "Which pair of wine regions is notably cooled by fog or cool air from a cold ocean current?"
       choices:
         - { text: "Coastal California and Chile’s Casablanca Valley", correct: true }
         - { text: "Bordeaux’s Médoc and the Loire’s Muscadet area", correct: false }
@@ -240,20 +240,22 @@ cards:
         - { text: "Barossa Valley and South Australia’s Riverland", correct: false }
       explanation: |
         Cold Pacific currents help create fog and cool air along parts of California and coastal
-        Chile. The other pairs may have maritime, river or inland influences, but are not both
-        cooled by the Pacific.
+        Chile. The Médoc and Muscadet face the Atlantic, but the Gulf Stream warms rather than
+        cools them; the Mosel and the Wachau are river valleys far from the sea, and the Barossa
+        and Riverland get no such fog.
     fr:
-      question: "Quelle paire de régions viticoles est notamment rafraîchie par le brouillard ou l’air marin frais du Pacifique ?"
+      question: "Quelle paire de régions viticoles est notamment rafraîchie par le brouillard ou l’air frais d’un courant océanique froid ?"
       choices:
         - { text: "Le littoral californien et la vallée chilienne de Casablanca", correct: true }
         - { text: "Le Médoc bordelais et la région du Muscadet dans la Loire", correct: false }
         - { text: "La Moselle allemande et la Wachau autrichienne", correct: false }
-        - { text: "La Barossa Valley et la Riverland en Australie-Méridionale", correct: false }
+        - { text: "La Barossa Valley et le Riverland en Australie-Méridionale", correct: false }
       explanation: |
         Les courants froids du Pacifique contribuent à créer du brouillard et de l’air frais dans
-        certaines parties de la Californie et du Chili côtier. Les autres paires peuvent subir des
-        influences maritimes, fluviales ou continentales, mais ne sont pas toutes deux rafraîchies
-        par le Pacifique.
+        certaines parties de la Californie et du Chili côtier. Le Médoc et le Muscadet bordent
+        l’Atlantique, mais le Gulf Stream les réchauffe au lieu de les rafraîchir ; la Moselle et
+        la Wachau sont des vallées fluviales loin de la mer, et ni la Barossa ni le Riverland ne
+        reçoivent de tels brouillards.
   - id: aspect-equator-001
     type: mcq
     deck: The Growing Environment
@@ -425,7 +427,7 @@ cards:
         - { text: "Summer days lengthen and winter days shorten", correct: true }
         - { text: "Both summer and winter days become shorter", correct: false }
         - { text: "Day length stays closer to twelve hours all year", correct: false }
-        - { text: "Seasonal variation disappears in the southern hemisphere", correct: false }
+        - { text: "Summer days shorten and winter days lengthen", correct: false }
       explanation: |
         Farther from the equator, the contrast between summer and winter day length increases. Long
         summer days can partly compensate for the lower angle of the sun in high-latitude vineyards.
@@ -435,7 +437,7 @@ cards:
         - { text: "Les jours d’été s’allongent et les jours d’hiver raccourcissent", correct: true }
         - { text: "Les jours d’été comme les jours d’hiver deviennent plus courts", correct: false }
         - { text: "La durée du jour reste plus proche de douze heures toute l’année", correct: false }
-        - { text: "Les variations saisonnières disparaissent dans l’hémisphère Sud", correct: false }
+        - { text: "Les jours d’été raccourcissent et les jours d’hiver s’allongent", correct: false }
       explanation: |
         Plus on s’éloigne de l’équateur, plus le contraste entre la durée des jours d’été et d’hiver
         augmente. Les longues journées estivales peuvent compenser en partie l’angle solaire plus
@@ -609,23 +611,27 @@ cards:
       question: "Why can autumn be hazardous for late-ripening grapes in a continental climate?"
       choices:
         - { text: "Temperatures may fall rapidly and frost can end ripening", correct: true }
-        - { text: "Nearby oceans keep nights warm and extend the season", correct: false }
-        - { text: "Summer heat normally continues unchanged into winter", correct: false }
-        - { text: "Autumn rainfall always raises sugar concentration", correct: false }
+        - { text: "Autumn storms from the ocean may bring weeks of harvest rain", correct: false }
+        - { text: "Warm autumn nights may strip the grapes of their acidity", correct: false }
+        - { text: "Late heat spikes may shrivel the berries before picking", correct: false }
       explanation: |
         Without a large body of water to release stored heat, inland temperatures can decline
         quickly after summer. Late varieties may fail to ripen fully before frost or severe cold.
+        Weeks of ocean-borne rain are the maritime hazard, and lingering autumn warmth is a
+        warm-climate concern.
     fr:
       question: "Pourquoi l’automne peut-il menacer les raisins tardifs dans un climat continental ?"
       choices:
         - { text: "Les températures peuvent chuter rapidement et le gel interrompre la maturation", correct: true }
-        - { text: "Les océans voisins maintiennent les nuits chaudes et prolongent la saison", correct: false }
-        - { text: "La chaleur estivale se poursuit normalement sans changement jusqu’en hiver", correct: false }
-        - { text: "Les pluies automnales augmentent toujours la concentration en sucre", correct: false }
+        - { text: "Les tempêtes venues de l’océan peuvent apporter des semaines de pluie aux vendanges", correct: false }
+        - { text: "Des nuits d’automne chaudes peuvent faire chuter l’acidité des raisins", correct: false }
+        - { text: "Des pics de chaleur tardifs peuvent flétrir les baies avant la récolte", correct: false }
       explanation: |
         Sans grande étendue d’eau pour restituer la chaleur emmagasinée, les températures
         intérieures peuvent baisser rapidement après l’été. Les cépages tardifs risquent de ne pas
-        atteindre leur pleine maturité avant le gel ou le grand froid.
+        atteindre leur pleine maturité avant le gel ou le grand froid. Les semaines de pluie
+        venues de l’océan sont l’aléa des climats maritimes, et une chaleur d’automne persistante
+        concerne les climats chauds.
 
   - id: continental-cool-varieties-001
     type: mcq
@@ -705,22 +711,24 @@ cards:
       choices:
         - { text: "Across the year, including during the growing season", correct: true }
         - { text: "Almost entirely during a short summer wet season", correct: false }
-        - { text: "Only during winter, followed by a rainless growing season", correct: false }
-        - { text: "Mainly as snow after the harvest", correct: false }
+        - { text: "Mostly in winter, with a dry growing season", correct: false }
+        - { text: "Mostly in spring, with a dry summer and autumn", correct: false }
       explanation: |
         Maritime regions often receive rain in every season. Growing-season rainfall reduces drought
-        risk but can disrupt flowering or harvest and raise fungal-disease pressure.
+        risk but can disrupt flowering or harvest and raise fungal-disease pressure. Winter rain
+        followed by a dry growing season is the Mediterranean pattern.
     fr:
       question: "Comment les précipitations sont-elles couramment réparties dans un climat maritime ?"
       choices:
         - { text: "Tout au long de l’année, y compris pendant la saison de croissance", correct: true }
         - { text: "Presque entièrement pendant une courte saison humide estivale", correct: false }
-        - { text: "Uniquement en hiver, puis aucune pluie pendant la saison de croissance", correct: false }
-        - { text: "Principalement sous forme de neige après les vendanges", correct: false }
+        - { text: "Surtout en hiver, avec une saison de croissance sèche", correct: false }
+        - { text: "Surtout au printemps, avec un été et un automne secs", correct: false }
       explanation: |
         Les régions maritimes reçoivent souvent des pluies en toute saison. Les précipitations
         pendant la croissance réduisent le risque de sécheresse, mais peuvent perturber la floraison
-        ou les vendanges et accroître la pression des maladies fongiques.
+        ou les vendanges et accroître la pression des maladies fongiques. Des pluies d’hiver
+        suivies d’une saison de croissance sèche caractérisent le climat méditerranéen.
 
   - id: maritime-moderate-001
     type: mcq
@@ -767,7 +775,7 @@ cards:
       question: "Why can a maritime climate support a relatively long growing season?"
       choices:
         - { text: "Milder spring and autumn conditions reduce the risk of seasonal cold", correct: true }
-        - { text: "Hotter summer conditions make every grape variety ripen early", correct: false }
+        - { text: "Hotter summer conditions bring ripening forward for most varieties", correct: false }
         - { text: "A large annual temperature range delays both budburst and harvest", correct: false }
         - { text: "Low winter rainfall keeps vines growing without a dormant period", correct: false }
       explanation: |
@@ -777,7 +785,7 @@ cards:
       question: "Pourquoi un climat maritime peut-il permettre une saison de croissance relativement longue ?"
       choices:
         - { text: "La douceur du printemps et de l’automne réduit le risque de froid saisonnier", correct: true }
-        - { text: "La chaleur estivale fait mûrir précocement tous les cépages", correct: false }
+        - { text: "La chaleur estivale avance la maturité de la plupart des cépages", correct: false }
         - { text: "Une forte amplitude thermique annuelle retarde le débourrement et les vendanges", correct: false }
         - { text: "La faible pluviométrie hivernale maintient la vigne en croissance sans dormance", correct: false }
       explanation: |
@@ -812,8 +820,8 @@ cards:
         - { text: "Ensoleillement, droits sur l’eau, prix du raisin, fertilité et accès au marché", correct: false }
         - { text: "Précipitations, coût de plantation, capacité de la cave, pente et prix de la bouteille", correct: false }
       explanation: |
-        La chaleur, la lumière, l’eau et le sol du site déterminent si un cépage peut mûrir des
-        raisins équilibrés et avec quelle vigueur la vigne poussera. Les facteurs commerciaux et
+        La chaleur, la lumière, l’eau et le sol du site déterminent si un cépage peut donner des
+        raisins mûrs et équilibrés et avec quelle vigueur la vigne poussera. Les facteurs commerciaux et
         logistiques comptent pour l’entreprise, mais ne décrivent pas le milieu de culture lui-même.
   - id: vigour-rain-fertile-001
     type: mcq
@@ -893,7 +901,7 @@ cards:
         - { text: "It limits berry swelling, dilution and fungal rot", correct: true }
         - { text: "It increases water uptake and lowers sugar concentration", correct: false }
         - { text: "It stops phenolic ripening while preserving green flavours", correct: false }
-        - { text: "It guarantees that acidity will rise before picking", correct: false }
+        - { text: "It makes acidity rise again before picking", correct: false }
       explanation: |
         Heavy rain can swell ripe berries, dilute flavours and split skins, while humidity
         encourages rot. A dry period allows growers to wait for maturity with less pressure to pick
@@ -904,7 +912,7 @@ cards:
         - { text: "Il limite le gonflement des baies, la dilution et la pourriture fongique", correct: true }
         - { text: "Il augmente l’absorption d’eau et réduit la concentration en sucre", correct: false }
         - { text: "Il arrête la maturité phénolique tout en préservant les arômes végétaux", correct: false }
-        - { text: "Il garantit une hausse de l’acidité avant la récolte", correct: false }
+        - { text: "Il fait remonter l’acidité avant la récolte", correct: false }
       explanation: |
         De fortes pluies peuvent gonfler les baies mûres, diluer les arômes et fendre les
         pellicules, tandis que l’humidité favorise la pourriture. Une période sèche permet

@@ -1,0 +1,136 @@
+# Final audit — cards/c04-growing-environment.yaml (31) and cards/c06-vineyard-management.yaml (100)
+# All facts judged from knowledge; no web lookup was needed. Only non-ok cards are listed.
+cards:
+  # ---------- c04 ----------
+  - id: fog-examples-001
+    verdict: fix
+    issues:
+      - "Stem said 'Pacific': the Médoc/Muscadet and Mosel/Wachau foils dropped on geography alone"
+      - "FR gender: 'la Riverland'"
+    change: "Stem now asks about fog/cool air from a cold ocean current (EN+FR); Why explains each foil pair (Gulf Stream, river valleys, no fog); 'le Riverland'"
+    checked: [knowledge]
+  - id: continental-autumn-drop-001
+    verdict: fix
+    issues:
+      - "Three throwaway foils: 'nearby oceans' contradicts the continental stem, 'summer heat continues unchanged into winter' is a joke, 'always raises sugar' carries a cue word"
+    change: "Replaced the three foils with plausible autumn hazards from other climates (ocean storms and harvest rain, warm nights and acid loss, late heat spikes), EN+FR; one sentence added to the Why"
+    checked: [knowledge]
+  - id: maritime-rain-year-001
+    verdict: fix
+    issues:
+      - "Joke foil 'mainly as snow after the harvest'; cue words 'only' and 'rainless' in another foil"
+    change: "Foils now 'mostly in winter, dry growing season' (Mediterranean pattern) and 'mostly in spring, dry summer and autumn', EN+FR; Why names the Mediterranean pattern"
+    checked: [knowledge]
+  - id: latitude-daylength-001
+    verdict: minor
+    issues: ["Throwaway foil: 'seasonal variation disappears in the southern hemisphere'"]
+    change: "Foil replaced by the mirror of the key ('summer days shorten and winter days lengthen'), EN+FR"
+    checked: [knowledge]
+  - id: maritime-season-length-001
+    verdict: minor
+    issues: ["Cue word 'every' in a foil; 'no dormant period' foil is weak"]
+    change: "'every grape variety' foil reworded to 'most varieties', EN+FR; weak dormancy foil left"
+    checked: [knowledge]
+  - id: harvest-dry-001
+    verdict: minor
+    issues: ["Cue word 'guarantees' in a foil; 'increases water uptake' foil contradicts dry weather"]
+    change: "'guarantees' foil reworded ('makes acidity rise again before picking'), EN+FR; other foil left"
+    checked: [knowledge]
+  - id: climate-latitude-band-001
+    verdict: minor
+    issues: ["FR Why: transitive 'mûrir les raisins'"]
+    change: "'pour faire mûrir les raisins'"
+    checked: [knowledge]
+  - id: site-factors-producer-001
+    verdict: minor
+    issues:
+      - "Stem says 'environmental factors', so foils listing labour, price or winery capacity drop without knowledge"
+      - "FR Why: 'peut mûrir des raisins équilibrés'"
+    change: "FR Why reworded ('peut donner des raisins mûrs et équilibrés'); stem and foils left"
+    checked: [knowledge]
+  - id: altitude-lapse-001
+    verdict: minor
+    issues: ["Foil 'no measurable change' is weak"]
+    change: "none"
+    checked: [knowledge]
+  - id: continental-dry-summer-001
+    verdict: minor
+    issues: ["Foil 'the two terms are interchangeable' is weak; choices are long"]
+    change: "none"
+    checked: [knowledge]
+  - id: maritime-moderate-001
+    verdict: minor
+    issues: ["Foil 'affects rainfall but not temperature' is weak"]
+    change: "none"
+    checked: [knowledge]
+
+  # ---------- c06 ----------
+  - id: vm-training-high-001
+    verdict: minor
+    issues: ["FR key 'sortir bourgeons et pousses des gelées' reads awkwardly"]
+    change: "FR key: 'Pour mettre bourgeons et pousses hors d’atteinte des gelées de printemps'"
+    checked: [knowledge]
+  - id: vm-site-utilities-001
+    verdict: minor
+    issues: ["Stem lists 'labour and land cost', which is the key of vm-site-land-labour-001 (reciprocal sibling cards)"]
+    change: "none"
+    checked: [knowledge]
+  - id: vm-site-land-labour-001
+    verdict: minor
+    issues: ["Stem lists 'power, water and machine access', which is the key of vm-site-utilities-001"]
+    change: "none"
+    checked: [knowledge]
+  - id: vm-site-env-climate-001
+    verdict: minor
+    issues: ["Stem says 'climate averages', so the site, soil and vine foils drop on category alone"]
+    change: "none"
+    checked: [knowledge]
+  - id: vm-site-env-soil-001
+    verdict: minor
+    issues: ["Foil 'surface colour and fossil content' is near-joke"]
+    change: "none"
+    checked: [knowledge]
+  - id: vm-prep-plant-001
+    verdict: minor
+    issues: ["Low-value fact; key 'by hand or by machine' is the only non-specific choice"]
+    change: "none"
+    checked: [knowledge]
+  - id: vm-yield-estimate-purpose-001
+    verdict: minor
+    issues: ["Why cites Penn State Extension by name but review.sources is only 'known-fact'"]
+    change: "none"
+    checked: [knowledge]
+  - id: vm-vertebrate-exclusion-001
+    verdict: minor
+    issues: ["Stem asks for 'physical barriers'; foils such as raptor perches and shade cloth under each bunch are not credible barriers"]
+    change: "none"
+    checked: [knowledge]
+  - id: vm-noble-rot-conditions-001
+    verdict: minor
+    issues: ["EN key is the longest choice and the only one with a two-step structure"]
+    change: "none"
+    checked: [knowledge]
+
+summary:
+  cards_audited: 131
+  verdicts:
+    wrong: 0
+    fix: 3
+    minor: 17
+    ok: 111
+  by_file:
+    c04-growing-environment: { wrong: 0, fix: 3, minor: 8, ok: 20 }
+    c06-vineyard-management: { wrong: 0, fix: 0, minor: 9, ok: 91 }
+  formatting_only:
+    - "vm-variety-climate-001 and vm-winter-styles-001: over-long FR explanation lines rewrapped, no wording change"
+  validation:
+    validate: "uv run wset3-anki validate -> 3517 card(s) OK"
+    en_fr_index_check: "0 mismatches on 131 cards, exactly one correct choice each"
+  riskiest_patterns:
+    - "c04: throwaway foils with cue words (always, only, every, guarantees) or that contradict the stem's own climate"
+    - "c04: geography in the stem that eliminates foils without knowing the fact"
+    - "c06 site-selection cluster: sibling cards whose stems list each other's keys, and stems that name the category of the key"
+    - "c06 second half (c06-0065 onward): keys are long multi-clause sentences beyond core Level 3 detail (preharvest interval, virus sampling, MOG); factually sound, foils well matched in length"
+  not_done:
+    - "Reciprocal stems in vm-site-utilities-001 / vm-site-land-labour-001 left as is: a clean fix needs both cards recast together"
+    - "No web verification: no fact raised real doubt"
