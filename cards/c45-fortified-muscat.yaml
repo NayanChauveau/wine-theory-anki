@@ -15,14 +15,25 @@ cards:
     en:
       question: "Which pairing of acidity and aroma do the main Muscat grape varieties have in common?"
       choices:
-        - { text: "High acidity, with citrus and green-apple aromas", correct: false }
+        - { text: "Medium to high acidity, with citrus and green-apple aromas", correct: false }
         - { text: "Low to medium acidity, with orange-blossom and rose aromas", correct: true }
         - { text: "Low acidity, with lychee and sweet-spice aromas", correct: false }
-        - { text: "High acidity, with honey and petrol-like aromas", correct: false }
+        - { text: "Medium to high acidity, with honey and petrol-like aromas", correct: false }
       explanation: |
         The shared perfume comes from terpenes such as linalool and geraniol, which
         give Muscat wines their unmistakable smell of fresh grapes. Lychee and spice
         point to Gewurztraminer, petrol to aged Riesling.
+    fr:
+      question: "Quel couple acidité / arômes les principaux cépages Muscat ont-ils en commun ?"
+      choices:
+        - { text: "Acidité moyenne à élevée, arômes d’agrumes et de pomme verte", correct: false }
+        - { text: "Acidité faible à moyenne, fleur d’oranger et rose", correct: true }
+        - { text: "Acidité faible, arômes de litchi et d’épices douces", correct: false }
+        - { text: "Acidité moyenne à élevée, arômes de miel et d’hydrocarbure", correct: false }
+      explanation: |
+        Ce parfum commun vient de terpènes comme le linalol et le géraniol, qui donnent
+        aux Muscats leur odeur inimitable de raisin frais. Le litchi et les épices
+        évoquent plutôt le Gewurztraminer, l’hydrocarbure un vieux Riesling.
 
   - id: fmuscat-climate-001
     type: mcq
@@ -38,12 +49,23 @@ cards:
       choices:
         - { text: "Cool, with a long and slow ripening season", correct: false }
         - { text: "Cool maritime, with frequent cloud cover", correct: false }
-        - { text: "Warm to hot, tempered by some cooling influence", correct: true }
+        - { text: "Warm to hot, with some cooling influence", correct: true }
         - { text: "Hot and dry, with little relief at night", correct: false }
       explanation: |
         Plenty of warmth is needed to build the high sugar these wines are made from.
         In the Vaucluse, for example, the vines of Beaumes-de-Venise climb the
         terraced slopes below the Dentelles de Montmirail.
+    fr:
+      question: "Quelles conditions de culture conviennent en général au Muscat destiné aux vins doux fortifiés ?"
+      choices:
+        - { text: "Fraîches, avec une maturation longue et lente", correct: false }
+        - { text: "Maritimes et fraîches, souvent sous les nuages", correct: false }
+        - { text: "Chaudes, tempérées par une influence fraîche", correct: true }
+        - { text: "Très chaudes et sèches, sans répit la nuit", correct: false }
+      explanation: |
+        Il faut beaucoup de chaleur pour obtenir les fortes teneurs en sucre sur
+        lesquelles reposent ces vins. Dans le Vaucluse, par exemple, les vignes de
+        Beaumes-de-Venise grimpent sur les terrasses au pied des Dentelles de Montmirail.
 
   - id: fmuscat-cooling-benefit-001
     type: mcq
@@ -65,6 +87,18 @@ cards:
         Sustained heat burns off malic acid through respiration and drives off
         volatile aroma compounds. Cooler nights slow both losses, so the grape keeps
         its freshness while the warm days still build sugar.
+    fr:
+      question: "Qu’apporte surtout une influence rafraîchissante, comme l’altitude ou les brises nocturnes, aux raisins de Muscat en maturation ?"
+      choices:
+        - { text: "Elle les aide à garder acidité et arômes", correct: true }
+        - { text: "Elle accélère l’accumulation de leurs sucres", correct: false }
+        - { text: "Elle favorise la pourriture noble des grappes", correct: false }
+        - { text: "Elle retarde le débourrement après les gelées", correct: false }
+      explanation: |
+        Une chaleur continue consume l’acide malique par la respiration et fait s’échapper
+        les composés aromatiques volatils. Des nuits plus fraîches freinent ces deux
+        pertes : le raisin garde sa fraîcheur tandis que les journées chaudes continuent
+        de produire du sucre.
 
   - id: fmuscat-young-profile-001
     type: mcq
@@ -85,6 +119,17 @@ cards:
       explanation: |
         It is a vin doux naturel bottled for its fresh grape perfume. A small share is
         rosé or red, made from the red-berried form of the same Muscat à Petits Grains.
+    fr:
+      question: "Quel profil correspond le mieux à un Muscat de Beaumes-de-Venise jeune ?"
+      choices:
+        - { text: "Ambre profond, liquoreux, notes de raisin sec et de caramel", correct: false }
+        - { text: "Citron pâle, très sec, notes d’agrumes et de sel", correct: false }
+        - { text: "Or moyen, doux mais rarement liquoreux, floral", correct: true }
+        - { text: "Paille pâle, demi-sec, notes de levure et de pain", correct: false }
+      explanation: |
+        C’est un vin doux naturel (VDN) mis en bouteille pour son parfum de raisin frais.
+        Une petite part est rosée ou rouge, issue de la forme à baies noires du même
+        Muscat à petits grains.
 
   - id: fmuscat-young-aim-001
     type: mcq
@@ -105,6 +150,16 @@ cards:
       explanation: |
         Every step serves the grape's own perfume, which fades with time. These wines
         are generally at their best within a few years of the vintage.
+    fr:
+      question: "Quel est le but premier du vinificateur pour un Muscat fortifié jeune, sans élevage ?"
+      choices:
+        - { text: "Une complexité de fruits secs née d’une lente oxydation", correct: false }
+        - { text: "Une richesse toastée apportée par des fûts neufs", correct: false }
+        - { text: "Une texture savoureuse obtenue par bâtonnage", correct: false }
+        - { text: "Le caractère variétal le plus pur possible", correct: true }
+      explanation: |
+        Chaque étape sert le parfum propre du raisin, qui s’estompe avec le temps. Ces
+        vins s’apprécient en général dans les quelques années qui suivent le millésime.
 
   - id: fmuscat-young-harvest-001
     type: mcq
@@ -125,6 +180,16 @@ cards:
       explanation: |
         A warm site already delivers plenty of sugar at full ripeness, so there is no
         need to concentrate the berries further for this lighter, fresher style.
+    fr:
+      question: "Quand récolte-t-on d’ordinaire les raisins d’un Muscat fortifié jeune, sans élevage ?"
+      choices:
+        - { text: "Après un passerillage partiel sur pied", correct: false }
+        - { text: "Mûrs et sains, avant qu’ils ne flétrissent", correct: true }
+        - { text: "Une fois la pourriture noble installée", correct: false }
+        - { text: "Un peu tôt, quand l’acidité est encore élevée", correct: false }
+      explanation: |
+        Un site chaud donne déjà beaucoup de sucre à pleine maturité : inutile de
+        concentrer davantage les baies pour ce style plus léger et plus frais.
 
   - id: fmuscat-skin-contact-001
     type: mcq
@@ -139,13 +204,24 @@ cards:
       question: "Once the grapes reach the winery, how do makers of young fortified Muscat usually build aromatic intensity and richness?"
       choices:
         - { text: "Fermenting in new oak barrels", correct: false }
-        - { text: "Malolactic conversion before fortifying", correct: false }
+        - { text: "Full malolactic conversion before fortifying", correct: false }
         - { text: "Leaving the juice in contact with the skins", correct: true }
         - { text: "Stirring the lees after fortification", correct: false }
       explanation: |
         The skins also give a little phenolic texture to a wine that sees no oak. Some
         producers push the effect further by keeping the skins in through part of the
         fermentation.
+    fr:
+      question: "À la cave, comment les producteurs de Muscat fortifié jeune renforcent-ils en général l’intensité aromatique et la richesse ?"
+      choices:
+        - { text: "En fermentant en fûts de chêne neuf", correct: false }
+        - { text: "Par une malolactique complète avant le mutage", correct: false }
+        - { text: "Par une macération pelliculaire", correct: true }
+        - { text: "Par un bâtonnage après le mutage", correct: false }
+      explanation: |
+        Les pellicules apportent aussi un peu de texture phénolique à un vin qui ne voit
+        pas le bois. Certains producteurs vont plus loin en laissant les pellicules dans
+        le moût pendant une partie de la fermentation.
 
   - id: fmuscat-young-ferment-001
     type: mcq
@@ -167,6 +243,17 @@ cards:
         Low temperatures keep the volatile floral compounds in the wine instead of
         letting them escape with the carbon dioxide. The spirit goes in while much of
         the grape sugar is still unfermented.
+    fr:
+      question: "Quelle conduite de fermentation convient à un Muscat fortifié jeune ?"
+      choices:
+        - { text: "Chaude, puis mutage une fois le vin sec", correct: false }
+        - { text: "Fraîche, puis mutage une fois le vin sec", correct: false }
+        - { text: "Chaude, arrêtée tôt par ajout d’alcool", correct: false }
+        - { text: "Fraîche, arrêtée tôt par ajout d’alcool", correct: true }
+      explanation: |
+        Les basses températures retiennent dans le vin les composés floraux volatils au
+        lieu de les laisser partir avec le gaz carbonique. L’alcool est ajouté alors
+        qu’une grande partie du sucre du raisin n’a pas encore fermenté.
 
   - id: fmuscat-vdn-spirit-001
     type: mcq
@@ -181,12 +268,22 @@ cards:
       question: "What is added to fermenting Muscat to make a French vin doux naturel?"
       choices:
         - { text: "Aged grape brandy at about 40% abv", correct: false }
-        - { text: "Neutral grape spirit at about 96% abv", correct: true }
-        - { text: "Grape spirit at about 77% abv", correct: false }
-        - { text: "Distilled marc at about 60% abv", correct: false }
+        - { text: "Neutral grape spirit, about 96% abv", correct: true }
+        - { text: "Young grape spirit at about 77% abv", correct: false }
+        - { text: "Distilled grape marc at about 60% abv", correct: false }
       explanation: |
         Spirit this strong does the job in a small dose, so the aromatic must is
         hardly diluted, and being neutral it adds no flavour to compete with the grape.
+    fr:
+      question: "Qu’ajoute-t-on au Muscat en fermentation pour élaborer un vin doux naturel (VDN) français ?"
+      choices:
+        - { text: "Eau-de-vie de vin vieillie en fût, à environ 40 % vol.", correct: false }
+        - { text: "Alcool neutre de raisin, à environ 96 % vol.", correct: true }
+        - { text: "Eau-de-vie de raisin jeune à environ 77 % vol.", correct: false }
+        - { text: "Eau-de-vie de marc de raisin à environ 60 % vol.", correct: false }
+      explanation: |
+        Un alcool aussi fort agit à petite dose, ce qui dilue à peine le moût aromatique,
+        et sa neutralité n’ajoute aucun goût qui concurrencerait le raisin.
 
   - id: fmuscat-young-storage-001
     type: mcq
@@ -208,6 +305,17 @@ cards:
         Even brief air contact dulls the floral top notes, so tanks are kept full or
         blanketed with inert gas. Demijohns in the sun are the opposite approach, used
         in Roussillon to build rancio character.
+    fr:
+      question: "Où conserve-t-on un Muscat fortifié jeune entre le mutage et la mise en bouteille, pour préserver son fruit primaire ?"
+      choices:
+        - { text: "En barriques neuves, ouillées", correct: false }
+        - { text: "En bonbonnes de verre, en plein air", correct: false }
+        - { text: "En cuves inertes, à l’abri de l’air", correct: true }
+        - { text: "En amphores d’argile, à moitié vides", correct: false }
+      explanation: |
+        Même un bref contact avec l’air ternit les notes florales de tête : les cuves sont
+        donc tenues pleines ou inertées. Les bonbonnes au soleil relèvent de la démarche
+        inverse, pratiquée en Roussillon pour développer le rancio.
 
   - id: fmuscat-aged-profile-001
     type: mcq
@@ -228,6 +336,17 @@ cards:
       explanation: |
         Years in cask brown the wine and, through evaporation, concentrate it. The
         oldest, most luscious blends can hold well over 270 g/l of sugar.
+    fr:
+      question: "Quelle gamme de couleur et de sucrosité couvre les Muscats fortifiés de long élevage ?"
+      choices:
+        - { text: "De l’or à l’ambre, du demi-sec au doux", correct: false }
+        - { text: "De l’ambre au brun, du doux au liquoreux", correct: true }
+        - { text: "Du tuilé au brun, du sec au moelleux", correct: false }
+        - { text: "Du rubis au grenat, du doux au liquoreux", correct: false }
+      explanation: |
+        Les années passées en fût brunissent le vin et, par évaporation, le concentrent.
+        Les assemblages les plus vieux et les plus liquoreux peuvent dépasser largement
+        270 g/l de sucre.
 
   - id: fmuscat-aged-setubal-001
     type: mcq
@@ -249,6 +368,17 @@ cards:
         After fortification the wine is usually left on its skins for several months,
         which deepens its aroma, then aged in cask; some older bottlings carry an
         age statement.
+    fr:
+      question: "Lequel de ces Muscats fortifiés est souvent élevé de nombreuses années sous bois avant sa commercialisation ?"
+      choices:
+        - { text: "Muscat de Beaumes-de-Venise", correct: false }
+        - { text: "Moscatel de Valencia", correct: false }
+        - { text: "Muscat de Saint-Jean-de-Minervois", correct: false }
+        - { text: "Moscatel de Setúbal", correct: true }
+      explanation: |
+        Après le mutage, le vin reste en général plusieurs mois sur ses peaux, ce qui
+        intensifie ses arômes, puis il est élevé en fût ; certaines cuvées plus anciennes
+        portent une mention d’âge.
 
   - id: fmuscat-rutherglen-001
     type: mcq
@@ -269,6 +399,17 @@ cards:
       explanation: |
         It lies in north-east Victoria near the Murray River. Houses such as Chambers
         Rosewood, Morris and Campbells keep stocks of old wine going back decades.
+    fr:
+      question: "Quelle région australienne est la plus réputée pour ses Muscats fortifiés liquoreux de long élevage ?"
+      choices:
+        - { text: "Barossa Valley", correct: false }
+        - { text: "Rutherglen", correct: true }
+        - { text: "Hunter Valley", correct: false }
+        - { text: "Clare Valley", correct: false }
+      explanation: |
+        Elle se situe dans le nord-est du Victoria, près du fleuve Murray. Des maisons
+        comme Chambers Rosewood, Morris et Campbells conservent des stocks de vins anciens
+        remontant à plusieurs décennies.
 
   - id: fmuscat-rutherglen-style-levers-001
     type: mcq
@@ -282,14 +423,27 @@ cards:
     en:
       question: "Which set of decisions most shapes the style of a long-aged Australian fortified Muscat?"
       choices:
-        - { text: "Clone choice, trellis type and irrigation", correct: false }
+        - { text: "Clone choice, trellis type and irrigation regime", correct: false }
         - { text: "Yeast strain, oak origin and filtration", correct: false }
         - { text: "Pressing method, fining agent and closure", correct: false }
         - { text: "Picking date, fortification timing and ageing", correct: true }
       explanation: |
-        Average age is the clearest marker in the local ladder of Rutherglen,
-        Classic, Grand and Rare: the youngest tier averages roughly 3–5 years, the top
-        one 20 years or more.
+        Picking date sets how much sugar and grape character reach the winery, the
+        moment of fortification decides how much of that sugar stays in the wine, and
+        ageing builds colour, concentration and complexity. The Rutherglen, Classic,
+        Grand and Rare tiers then grade the result largely by average age.
+    fr:
+      question: "Quel ensemble de décisions façonne le plus le style d’un Muscat fortifié australien de long élevage ?"
+      choices:
+        - { text: "Choix du clone, mode de palissage et régime d’irrigation", correct: false }
+        - { text: "Souche de levure, origine du chêne et filtration", correct: false }
+        - { text: "Mode de pressurage, collage et type de bouchage", correct: false }
+        - { text: "Date de récolte, moment du mutage et élevage", correct: true }
+      explanation: |
+        La date de récolte fixe le sucre et le caractère du raisin qui arrivent au chai,
+        le moment du mutage décide de la part de ce sucre qui reste dans le vin, et
+        l’élevage construit couleur, concentration et complexité. Les niveaux Rutherglen,
+        Classic, Grand et Rare classent ensuite le résultat surtout selon l’âge moyen.
 
   - id: fmuscat-luscious-raisining-001
     type: mcq
@@ -310,6 +464,17 @@ cards:
       explanation: |
         Losing water concentrates sugar and flavour in the berry. Growers often wait
         until only a share of the crop has started to raisin before picking.
+    fr:
+      question: "En quoi la récolte des Muscats élevés les plus liquoreux diffère-t-elle en général de celle des styles plus légers ?"
+      choices:
+        - { text: "On cueille plus tôt pour garder l’acidité", correct: false }
+        - { text: "On laisse une partie des baies se flétrir sur pied", correct: true }
+        - { text: "On attend que la pourriture noble s’installe", correct: false }
+        - { text: "On congèle les raisins cueillis pour les concentrer", correct: false }
+      explanation: |
+        En perdant de l’eau, la baie concentre sucre et arômes. Les vignerons attendent
+        souvent qu’une partie seulement de la récolte ait commencé à passeriller avant de
+        vendanger.
 
   - id: fmuscat-raisining-risk-001
     type: mcq
@@ -330,6 +495,17 @@ cards:
       explanation: |
         Dried-fruit, cooked flavours take over from the floral grape notes. Producers
         aim for a balance, mixing shrivelled berries with plump ones.
+    fr:
+      question: "Qu’arrive-t-il à un Muscat fortifié quand les raisins sont fortement passerillés avant la récolte ?"
+      choices:
+        - { text: "Le moût finit trop pauvre en sucre", correct: false }
+        - { text: "Le vin perd beaucoup de son parfum de Muscat", correct: true }
+        - { text: "Le vin développe des notes vertes et herbacées", correct: false }
+        - { text: "La robe devient pâle et manque d’éclat", correct: false }
+      explanation: |
+        Les arômes de fruits secs et de cuit prennent le pas sur les notes florales du
+        raisin. Les producteurs cherchent l’équilibre en mêlant baies flétries et baies
+        charnues.
 
   - id: fmuscat-aged-skins-001
     type: mcq
@@ -350,6 +526,17 @@ cards:
       explanation: |
         The skins give extra flavour and colour; with a red-skinned form of Muscat à
         Petits Grains, this is where the young wine's reddish tint comes from.
+    fr:
+      question: "Comment conduit-on en général la courte fermentation d’un Muscat fortifié de long élevage ?"
+      choices:
+        - { text: "Sur les peaux, jusqu’au mutage", correct: true }
+        - { text: "En jus clair, pressé dès l’arrivée", correct: false }
+        - { text: "En grappes entières sous gaz carbonique", correct: false }
+        - { text: "En jus, après un long débourbage à froid", correct: false }
+      explanation: |
+        Les pellicules apportent davantage d’arômes et de couleur ; avec une forme à peau
+        rouge du Muscat à petits grains, c’est de là que vient la teinte rougeâtre du vin
+        jeune.
 
   - id: fmuscat-early-fortify-001
     type: mcq
@@ -370,6 +557,16 @@ cards:
       explanation: |
         Stopping so early keeps almost all the grape sugar. The neutral spirit then
         lifts the wine to a strength of roughly 17–18% abv.
+    fr:
+      question: "Pour les Muscats élevés les plus liquoreux, jusqu’où la fermentation peut-elle aller avant l’ajout d’alcool ?"
+      choices:
+        - { text: "Jusqu’à environ 6–7 % vol.", correct: false }
+        - { text: "Jusqu’à environ 9–10 % vol.", correct: false }
+        - { text: "Jusqu’à environ 1–2 % vol.", correct: true }
+        - { text: "Jusqu’à environ 12 % vol.", correct: false }
+      explanation: |
+        Un arrêt aussi précoce conserve la quasi-totalité du sucre du raisin. L’eau-de-vie
+        neutre porte ensuite le vin à environ 17–18 % vol.
 
   - id: fmuscat-aged-oxidative-001
     type: mcq
@@ -391,6 +588,17 @@ cards:
         Many houses run a solera-like system, drawing off part of the oldest casks and
         refilling them with younger wine, so a bottle can contain material far older
         than its average age.
+    fr:
+      question: "Après le mutage, quel type d’élevage suit un Muscat liquoreux destiné à un long vieillissement ?"
+      choices:
+        - { text: "Un élevage sous voile pendant quelques années", correct: false }
+        - { text: "Un vieillissement en bouteille peu après le mutage", correct: false }
+        - { text: "Un élevage oxydatif, parfois pendant des décennies", correct: true }
+        - { text: "Un élevage réducteur en cuves inox fermées", correct: false }
+      explanation: |
+        Beaucoup de maisons pratiquent un système proche de la solera : on soutire une
+        partie des fûts les plus vieux et on les complète avec du vin plus jeune, si bien
+        qu’une bouteille peut contenir des vins bien plus anciens que son âge moyen.
 
   - id: fmuscat-aged-vessels-001
     type: mcq
@@ -411,6 +619,16 @@ cards:
       explanation: |
         Seasoned wood lets air in slowly without adding vanilla or toast. Over time
         the wine picks up the dry, nutty tang often called rancio.
+    fr:
+      question: "Quels contenants sont typiques pour élever un Muscat fortifié liquoreux pendant de nombreuses années ?"
+      choices:
+        - { text: "Petites barriques de chêne neuf", correct: false }
+        - { text: "Cuves en béton revêtues d’époxy", correct: false }
+        - { text: "Amphores en terre cuite", correct: false }
+        - { text: "Fûts anciens, souvent grands", correct: true }
+      explanation: |
+        Le bois usagé laisse entrer l’air lentement sans apporter de vanille ni de toasté.
+        Avec le temps, le vin prend une note sèche de noix, souvent appelée rancio.
 
   - id: fmuscat-warm-ageing-001
     type: mcq
@@ -431,6 +649,17 @@ cards:
       explanation: |
         In Rutherglen many casks sit in tin-roofed sheds where summer temperatures can
         pass 40 °C. Heat speeds oxidation and evaporation, concentrating the wine.
+    fr:
+      question: "Quelle condition de stockage utilise-t-on pour certains Muscats fortifiés de long élevage afin d’accélérer leur évolution ?"
+      choices:
+        - { text: "Des caves souterraines fraîches et humides", correct: false }
+        - { text: "Des chais froids, à température contrôlée", correct: false }
+        - { text: "Des hangars qui chauffent fort en été", correct: true }
+        - { text: "Des chais côtiers rafraîchis par la brume", correct: false }
+      explanation: |
+        À Rutherglen, beaucoup de fûts reposent dans des hangars en tôle où la température
+        peut dépasser 40 °C en été. La chaleur accélère l’oxydation et l’évaporation, ce
+        qui concentre le vin.
 
   - id: fmuscat-old-perfume-001
     type: mcq
@@ -452,6 +681,17 @@ cards:
         Terpene-rich varieties are aromatic enough that a trace of their character
         survives decades in cask. That thread helps a taster tell an old Muscat from
         a tawny Port of similar age.
+    fr:
+      question: "Outre les notes de caramel et de fruits secs, que peut encore montrer un très vieux Muscat fortifié ?"
+      choices:
+        - { text: "Des tanins de raisin fermes et accrocheurs", correct: false }
+        - { text: "Son parfum de raisin propre au Muscat", correct: true }
+        - { text: "Une couleur or pâle et éclatante", correct: false }
+        - { text: "Une acidité d’agrumes fraîche et vive", correct: false }
+      explanation: |
+        Les cépages riches en terpènes sont assez aromatiques pour qu’une trace de leur
+        caractère survive à des décennies de fût. Ce fil conducteur aide le dégustateur à
+        distinguer un vieux Muscat d’un Tawny du même âge.
 
   - id: fmuscat-fresh-blend-lift-001
     type: mcq
@@ -472,3 +712,13 @@ cards:
       explanation: |
         A small proportion of fresher, more grapey wine brightens the nose of a
         heavily concentrated, older blend without changing its overall age profile.
+    fr:
+      question: "Juste avant la mise en bouteille, comment les producteurs donnent-ils souvent un regain aromatique à un vieux Muscat fortifié ?"
+      choices:
+        - { text: "Un bref passage final en chêne neuf", correct: false }
+        - { text: "Un peu de vin plus jeune dans l’assemblage", correct: true }
+        - { text: "Une stabilisation à froid et une filtration fine", correct: false }
+        - { text: "Quelques semaines de retour sur peaux fraîches", correct: false }
+      explanation: |
+        Une petite proportion de vin plus frais et plus marqué par le raisin éclaire le
+        nez d’un assemblage âgé très concentré, sans modifier son profil d’âge global.
