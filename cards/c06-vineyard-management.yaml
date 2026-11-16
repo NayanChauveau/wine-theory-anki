@@ -3463,3 +3463,38 @@ cards:
         Guyot. Le nombre exact dépend de la vigueur du cep et de la fertilité des
         yeux de la base : les cépages aux yeux de base peu fertiles, comme le
         Sauvignon Blanc à Marlborough, sont en général taillés à baguettes.
+
+  - id: vm-mildew-wine-faults-001
+    type: mcq
+    deck: Vineyard Management
+    tags: [vineyard, disease, mildew]
+    status: reviewed
+    source_id: c00-0131
+    review:
+      fact_check: pass
+      sources: [known-fact]
+    en:
+      question: "If bunches infected by powdery or downy mildew reach the winery, how is the wine typically affected?"
+      choices:
+        - { text: "Muted fruit with bitter, mouldy off-flavours", correct: true }
+        - { text: "Concentrated sugar with honeyed, dried-fruit notes", correct: false }
+        - { text: "Deeper colour with riper, softer tannins", correct: false }
+        - { text: "Brighter acidity with lifted floral aromas", correct: false }
+      explanation: |
+        Mildews damage berry skins and pulp, so fruit character fades and mouldy, bitter taints can
+        carry into the wine. Infected fruit therefore costs quality as well as yield, which is why
+        growers spray preventively and sort out affected bunches. Honeyed, dried-fruit notes belong
+        to noble rot, a different fungus in specific conditions.
+    fr:
+      question: "Si des grappes atteintes d’oïdium ou de mildiou arrivent au chai, quel effet ont-elles en général sur le vin ?"
+      choices:
+        - { text: "Un fruit éteint, avec des faux goûts amers et de moisi", correct: true }
+        - { text: "Un sucre concentré, avec des notes de miel et de fruits secs", correct: false }
+        - { text: "Une couleur plus profonde, avec des tanins plus mûrs et souples", correct: false }
+        - { text: "Une acidité plus vive, avec des arômes floraux expressifs", correct: false }
+      explanation: |
+        Les maladies cryptogamiques abîment pellicule et pulpe : le fruit s’efface et des goûts
+        amers ou de moisi peuvent passer dans le vin. Les raisins atteints coûtent donc en qualité
+        autant qu’en rendement, d’où les traitements préventifs et le tri des grappes touchées. Les
+        notes de miel et de fruits secs relèvent de la pourriture noble, un autre champignon dans
+        des conditions précises.
