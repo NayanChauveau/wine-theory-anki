@@ -9,7 +9,7 @@ the two machine-readable editorial ledgers:
   quality pass: isolation, credible distractors, balanced choice length, useful
   explanations and natural French.
 
-The figures below are a snapshot from **2026-11-15**. Source notes and finished cards are
+The figures below are a snapshot from **2026-11-16**. Source notes and finished cards are
 different units: one source note may be split into several cards, merged with another note
 or rejected.
 
@@ -17,11 +17,11 @@ or rejected.
 
 | Measure | Complete | Remaining | Progress |
 | --- | ---: | ---: | ---: |
-| Legacy source notes resolved | 3,890 / 4,075 | 185 | 95.5% |
-| Cards with French | 3,516 / 3,519 | 3 | 99.9% |
-| Release-eligible cards with French | 3,516 / 3,516 | 0 | 100% |
-| Draft cards | — | 3 | — |
-| Chapters with agent review complete | 45 | — | — |
+| Legacy source notes resolved | 4,075 / 4,075 | 0 | 100% |
+| Cards with French | 3,539 / 3,539 | 0 | 100% |
+| Draft cards | — | 0 | — |
+| Chapters with agent review complete | 46 | — | — |
+| Cards covered by the final Fable audit | 3,539 / 3,539 | 0 | 100% |
 
 To obtain the live migration count, run:
 
@@ -30,52 +30,54 @@ uv run wset3-anki import-status
 ```
 
 All translated MCQs have matching English and French choice counts and correct answer
-indexes. Every chapter that has been started is fully migrated, reviewed and bilingual;
-the 45 completed chapter passes are recorded as `awaiting-human` in the quality ledger.
+indexes. Every chapter is fully migrated, reviewed and bilingual. The 185 unclassified
+legacy notes were triaged on 2026-11-15/16: 147 duplicated existing cards, 16 were
+rejected and 22 became new cards (including the first card of Wine with Food).
 
 Since 2026-11-13, writers and critics verify fragile facts (dates, figures, rankings,
 legal rules, named anecdotes) against authoritative external sources and record them in
 `review.sources`; see "External fact-checking" in
-[`import/AGENT_PLAYBOOK.md`](import/AGENT_PLAYBOOK.md). Chapters completed before that
-rule (c07, c08, c09, c33, c38, c39, c43) received a dedicated sourced re-check.
+[`import/AGENT_PLAYBOOK.md`](import/AGENT_PLAYBOOK.md).
 
 Packages are built and published by CI (`.github/workflows/ci.yml`) on every push to
 `main`; there is no manual build step.
 
-## Immediate priorities
+## Final audit (2026-11-15/16)
 
-### 1. Triage the unclassified notes
+An independent final audit by Claude Fable read every card in English and French for
+factual accuracy, distractor quality and French sense, and fixed problems in place.
+Reports are in [`import/audit/2026-11-15/`](import/audit/2026-11-15/), and each chapter of
+the quality ledger carries `final_audit: 2026-11-15`.
 
-All named chapters are migrated. Only the 185 unclassified source notes remain
-(`c00-unclassified`). Many will duplicate facts already carded in their proper chapter
-and can be rejected or merged.
+- About 17 cards had a wrong key or a foil that was actually correct, and were fixed.
+  Examples: Entre-Deux-Mers rouge (2023) and Médoc blanc (2025), Rueda's 75%
+  principal-variety rule (2024), Champagne's 42 premier cru villages, the Cava zone now
+  named Requena, and the Beaujolais Nouveau bottling deadline.
+- About 280 cards received a quality fix: joke or half-true distractors, cue words
+  ("only", "always"), self-answering stems, and English/French drift. The early regional
+  chapters (Bordeaux, Loire) needed the most work.
+- The audit replaces the manual human pass; `human: ok` stays reserved for the maintainer.
 
-- [ ] Assign each note to its chapter, or reject it as a duplicate.
-- [ ] Convert the remaining notes into original English cards in their chapter files,
-  checking fragile facts against external sources, with a critic pass per lot.
-- [ ] Translate the new cards and update the chapters' quality-ledger entries.
+## Follow-ups worth checking
 
-### 2. Resolve the remaining drafts
-
-- [ ] `wine-natural-001` and `wine-barrique-two-years-001` (Winemaking and Maturation).
-- [ ] `vm-canopy-trellis-choice-001` (Vineyard Management).
-
-Each needs stronger distractors and a French block, or a deliberate rejection.
-
-### 3. Final audit (deferred)
-
-- [ ] Once every chapter is migrated, run a final independent audit with Claude Fable over
-  all chapters marked `awaiting-human`, in place of a manual human pass. Deferred until
-  migration is finished and token budget allows.
+- [ ] Tokaj: the specification was amended again in 2026 (EU 2026/1556). Release dates and
+  puttonyos optionality should be checked against the full text.
+- [ ] Saumur sparkling 60% Chenin / Cabernet Franc minimums and the Champagne Brut "more
+  than 90%" share could not be confirmed on an official page.
+- [ ] Vin Jaune ageing (about 6 years 3 months, 60 months under veil) rests on secondary
+  sources.
+- [ ] Minor cleanups noted by auditors: `vm-site-utilities-001` and
+  `vm-site-land-labour-001` leak each other's keys; a few older Whys in c08/c09 mention
+  New Zealand keys (Waipara Riesling, Gimblett Gravels).
 
 ## Completed chapters
 
 All chapters below have zero pending source notes, reviewed English cards, aligned
-French, and an `awaiting-human` entry in the quality ledger.
+French, an `awaiting-human` entry in the quality ledger and a final Fable audit.
 
-- Foundations: SAT, The Vine, Growing Environment, Vineyard Management, Winemaking and
-  Maturation, White and Sweet Winemaking, Red and Rosé Winemaking, Price of Wine, Wine
-  and the Law.
+- Foundations: SAT, Wine with Food, The Vine, Growing Environment, Vineyard Management,
+  Winemaking and Maturation, White and Sweet Winemaking, Red and Rosé Winemaking, Price of
+  Wine, Wine and the Law.
 - France: Introduction, Bordeaux, South West, Burgundy, Beaujolais, Alsace, Loire,
   Northern Rhône, Southern Rhône, Southern France, Jura, Savoie.
 - Rest of Europe: Germany, Austria, Tokaj, Greece, Italy (Introduction, Northern,
@@ -87,16 +89,15 @@ French, and an `awaiting-human` entry in the quality ledger.
 
 ## Quality and release checklist
 
-- [ ] Resolve the three remaining draft cards or deliberately reject them.
-- [x] Complete agent quality review for every started chapter.
-- [ ] Triage the 185 unclassified notes and review any cards they produce.
-- [ ] Run the final Fable audit on chapters marked `awaiting-human` (after migration).
+- [x] Migrate every legacy source note, including the unclassified ones.
+- [x] Resolve all draft cards.
+- [x] Complete agent quality review for every chapter.
+- [x] Run the final Fable audit on every chapter.
 - [ ] Run `make check` after every change.
 - [ ] Inspect representative MCQ, basic and cloze cards from the CI packages on desktop
   and mobile.
 - [ ] Keep the rolling GitHub release healthy after pushes to `main`.
-- [ ] Create a versioned release when migration, translation and final QA reach the desired
-  milestone.
+- [ ] Create a versioned release when the follow-ups above are settled.
 
 ## Definition of done for a chapter
 

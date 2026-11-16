@@ -19,16 +19,19 @@
 #
 # Comment relire : ouvrir cards/<file>.yaml, cocher human: ok carte par carte
 # ou chapter status: human-ok quand tout le chapitre est bon.
+# final_audit — date de l’audit final indépendant (Claude Fable) ; rapports dans
+#   import/audit/2026-11-15/. Ne remplace pas human: ok, que seul toi poses.
 # Agents : mettre à jour ce fichier après chaque lot (voir STUDY_CARD_QUALITY.md).
 # Lots ≤ 40 cartes. Un chapitre à la fois.
 
-updated: 2026-11-13
+updated: 2026-11-16
 
 chapters:
   c13-bordeaux:
     file: cards/c13-bordeaux.yaml
     status: awaiting-human
     agent_wave: 2026-09-20
+    final_audit: 2026-11-15
     counts:
       cards: 135
       agent_fixed: 119
@@ -771,6 +774,7 @@ chapters:
     file: cards/c01-sat.yaml
     status: awaiting-human
     agent_wave: 2026-10-05
+    final_audit: 2026-11-15
     counts:
       cards: 6
       agent_fixed: 6
@@ -791,6 +795,7 @@ chapters:
     file: cards/c04-growing-environment.yaml
     status: awaiting-human
     agent_wave: 2026-10-05
+    final_audit: 2026-11-15
     counts:
       cards: 43
       agent_fixed: 31
@@ -849,6 +854,7 @@ chapters:
     file: cards/c10-price-of-wine.yaml
     status: awaiting-human
     agent_wave: 2026-10-05
+    final_audit: 2026-11-15
     counts:
       cards: 44
       agent_fixed: 44
@@ -908,6 +914,7 @@ chapters:
     file: cards/c11-wine-and-the-law.yaml
     status: awaiting-human
     agent_wave: 2026-10-12
+    final_audit: 2026-11-15
     counts:
       cards: 46
       agent_fixed: 46
@@ -970,6 +977,7 @@ chapters:
     file: cards/c12-france-introduction.yaml
     status: awaiting-human
     agent_wave: 2026-09-29
+    final_audit: 2026-11-15
     counts:
       cards: 8
       agent_fixed: 8
@@ -993,6 +1001,7 @@ chapters:
     file: cards/c14-south-west.yaml
     status: awaiting-human
     agent_wave: 2026-09-29
+    final_audit: 2026-11-15
     counts:
       cards: 29
       agent_fixed: 29
@@ -1037,6 +1046,7 @@ chapters:
     file: cards/c15-burgundy.yaml
     status: awaiting-human
     agent_wave: 2026-09-29
+    final_audit: 2026-11-15
     counts:
       cards: 115
       agent_fixed: 115
@@ -1167,6 +1177,7 @@ chapters:
     file: cards/c16-beaujolais.yaml
     status: awaiting-human
     agent_wave: 2026-09-29
+    final_audit: 2026-11-15
     counts: { cards: 31, agent_fixed: 31, agent_pass: 0, human_ok: 0 }
     note: >
       Passe adversariale complète et traduction française intégrale. Correction du
@@ -1210,6 +1221,7 @@ chapters:
     file: cards/c17-alsace.yaml
     status: awaiting-human
     agent_wave: 2026-09-29
+    final_audit: 2026-11-15
     counts:
       cards: 82
       agent_fixed: 82
@@ -1309,6 +1321,7 @@ chapters:
     file: cards/c18-loire.yaml
     status: awaiting-human
     agent_wave: 2026-09-29
+    final_audit: 2026-11-15
     counts:
       cards: 112
       agent_fixed: 112
@@ -1437,6 +1450,7 @@ chapters:
     file: cards/c19-northern-rhone.yaml
     status: awaiting-human
     agent_wave: 2026-09-30
+    final_audit: 2026-11-15
     counts:
       cards: 76
       agent_fixed: 76
@@ -1527,6 +1541,7 @@ chapters:
     file: cards/c20-southern-rhone.yaml
     status: awaiting-human
     agent_wave: 2026-09-30
+    final_audit: 2026-11-15
     counts:
       cards: 68
       agent_fixed: 68
@@ -1609,6 +1624,7 @@ chapters:
     file: cards/c21-southern-france.yaml
     status: awaiting-human
     agent_wave: 2026-09-29
+    final_audit: 2026-11-15
     counts: { cards: 96, agent_fixed: 79, agent_pass: 17, human_ok: 0 }
     note: >
       Passe adversariale complète et traduction française intégrale. Les anciens
@@ -1718,6 +1734,7 @@ chapters:
     file: cards/c22-germany.yaml
     status: awaiting-human
     agent_wave: 2026-09-30
+    final_audit: 2026-11-15
     counts: { cards: 192, agent_fixed: 192, agent_pass: 0, human_ok: 0 }
     note: >
       Passe intégrale EN/FR avec actualisation du droit viticole allemand 2021–2026,
@@ -1920,6 +1937,7 @@ chapters:
     file: cards/c23-austria.yaml
     status: awaiting-human
     agent_wave: 2026-09-30
+    final_audit: 2026-11-15
     counts:
       cards: 76
       agent_fixed: 76
@@ -2013,6 +2031,7 @@ chapters:
     file: cards/c24-tokaj.yaml
     status: awaiting-human
     agent_wave: 2026-09-30
+    final_audit: 2026-11-15
     counts:
       cards: 62
       agent_fixed: 62
@@ -2092,6 +2111,7 @@ chapters:
     file: cards/c25-greece.yaml
     status: awaiting-human
     agent_wave: 2026-09-30
+    final_audit: 2026-11-15
     counts:
       cards: 29
       agent_fixed: 29
@@ -2137,6 +2157,7 @@ chapters:
     file: cards/c26-italy-introduction.yaml
     status: awaiting-human
     agent_wave: 2026-09-30
+    final_audit: 2026-11-15
     counts: { cards: 7, agent_fixed: 7, agent_pass: 0, human_ok: 0 }
     note: >
       Introduction générale revue et traduite intégralement ; classification, géographie et cépages recadrés avec des leurres plausibles.
@@ -2152,6 +2173,7 @@ chapters:
     file: cards/c27-northern-italy.yaml
     status: awaiting-human
     agent_wave: 2026-09-30
+    final_audit: 2026-11-15
     counts: { cards: 147, agent_fixed: 147, agent_pass: 0, human_ok: 0 }
     note: >
       Passe complète EN/FR sur le nord ; règles Barolo et Barbaresco actualisées, styles et facteurs de site reformulés sans indices de réponse.
@@ -2307,6 +2329,7 @@ chapters:
     file: cards/c28-central-italy.yaml
     status: awaiting-human
     agent_wave: 2026-09-30
+    final_audit: 2026-11-15
     counts: { cards: 67, agent_fixed: 67, agent_pass: 0, human_ok: 0 }
     note: >
       Passe complète EN/FR sur le centre ; règles Brunello, Vino Nobile et Chianti Classico vérifiées, noms Montefalco Sagrantino et Conero Riserva corrigés.
@@ -2382,6 +2405,7 @@ chapters:
     file: cards/c29-southern-italy.yaml
     status: awaiting-human
     agent_wave: 2026-09-30
+    final_audit: 2026-11-15
     counts: { cards: 47, agent_fixed: 47, agent_pass: 0, human_ok: 0 }
     note: >
       Passe complète EN/FR sur le sud ; couverture rééquilibrée, Aglianico del Vulture Superiore et Etna corrigés, leurres caricaturaux remplacés.
@@ -2437,6 +2461,7 @@ chapters:
     file: cards/c30-spain.yaml
     status: awaiting-human
     agent_wave: 2026-10-05
+    final_audit: 2026-11-15
     counts: { cards: 228, agent_fixed: 228, agent_pass: 0, human_ok: 0 }
     note: >
       Migration anglaise terminée, puis passe complète EN et traduction FR intégrale.
@@ -2677,6 +2702,7 @@ chapters:
     file: cards/c31-portugal.yaml
     status: awaiting-human
     agent_wave: 2026-10-05
+    final_audit: 2026-11-15
     counts: { cards: 78, agent_fixed: 78, agent_pass: 0, human_ok: 0 }
     note: >
       Reprise intégrale du chapitre migré avant traduction : suppression des leurres
@@ -2766,6 +2792,7 @@ chapters:
     file: cards/c32-usa-introduction.yaml
     status: awaiting-human
     agent_wave: 2026-10-12
+    final_audit: 2026-11-15
     counts:
       cards: 6
       agent_fixed: 6
@@ -2788,6 +2815,7 @@ chapters:
     file: cards/c34-pacific-northwest.yaml
     status: awaiting-human
     agent_wave: 2026-10-12
+    final_audit: 2026-11-15
     counts:
       cards: 50
       agent_fixed: 50
@@ -2856,6 +2884,7 @@ chapters:
     file: cards/c41-sparkling-production.yaml
     status: awaiting-human
     agent_wave: 2026-09-28
+    final_audit: 2026-11-15
     counts:
       cards: 57
       agent_fixed: 57
@@ -2930,6 +2959,7 @@ chapters:
     file: cards/c42-sparkling-wines.yaml
     status: awaiting-human
     agent_wave: 2026-09-29
+    final_audit: 2026-11-15
     counts:
       cards: 96
       agent_fixed: 96
@@ -3043,6 +3073,7 @@ chapters:
     file: cards/c46-jura.yaml
     status: awaiting-human
     agent_wave: 2026-09-29
+    final_audit: 2026-11-15
     counts: { cards: 20, agent_fixed: 20, agent_pass: 0, human_ok: 0 }
     note: >
       Chapitre supplémentaire créé sans source d’import puis traduit intégralement.
@@ -3074,6 +3105,7 @@ chapters:
     file: cards/c47-savoie.yaml
     status: awaiting-human
     agent_wave: 2026-09-29
+    final_audit: 2026-11-15
     counts: { cards: 20, agent_fixed: 20, agent_pass: 0, human_ok: 0 }
     note: >
       Chapitre supplémentaire créé sans source d’import puis traduit intégralement.
@@ -3104,6 +3136,7 @@ chapters:
     file: cards/c07-winemaking-and-maturation.yaml
     status: awaiting-human
     agent_wave: 2026-11-12
+    final_audit: 2026-11-15
     counts:
       cards: 139
       agent_fixed: 106
@@ -3263,6 +3296,7 @@ chapters:
     file: cards/c03-the-vine.yaml
     status: awaiting-human
     agent_wave: 2026-11-12
+    final_audit: 2026-11-15
     counts:
       cards: 109
       agent_fixed: 91
@@ -3389,6 +3423,7 @@ chapters:
     file: cards/c06-vineyard-management.yaml
     status: awaiting-human
     agent_wave: 2026-11-12
+    final_audit: 2026-11-15
     counts:
       cards: 102
       agent_fixed: 87
@@ -3509,6 +3544,7 @@ chapters:
     file: cards/c33-california.yaml
     status: awaiting-human
     agent_wave: 2026-11-12
+    final_audit: 2026-11-15
     counts:
       cards: 182
       agent_fixed: 114
@@ -3709,6 +3745,7 @@ chapters:
     file: cards/c08-white-and-sweet-winemaking.yaml
     status: awaiting-human
     agent_wave: 2026-11-12
+    final_audit: 2026-11-15
     counts:
       cards: 125
       agent_fixed: 1
@@ -3850,6 +3887,7 @@ chapters:
     file: cards/c09-red-and-rose-winemaking.yaml
     status: awaiting-human
     agent_wave: 2026-11-12
+    final_audit: 2026-11-15
     counts:
       cards: 104
       agent_fixed: 1
@@ -3969,6 +4007,7 @@ chapters:
     file: cards/c39-australia.yaml
     status: awaiting-human
     agent_wave: 2026-11-13
+    final_audit: 2026-11-15
     counts:
       cards: 132
       agent_fixed: 1
@@ -4118,6 +4157,7 @@ chapters:
     file: cards/c43-sherry.yaml
     status: awaiting-human
     agent_wave: 2026-11-13
+    final_audit: 2026-11-15
     counts:
       cards: 104
       agent_fixed: 2
@@ -4239,6 +4279,7 @@ chapters:
     file: cards/c38-south-africa.yaml
     status: awaiting-human
     agent_wave: 2026-11-13
+    final_audit: 2026-11-15
     counts:
       cards: 89
       agent_fixed: 0
@@ -4346,6 +4387,7 @@ chapters:
     file: cards/c36-chile.yaml
     status: awaiting-human
     agent_wave: 2026-11-13
+    final_audit: 2026-11-15
     counts:
       cards: 77
       agent_fixed: 0
@@ -4443,6 +4485,7 @@ chapters:
     file: cards/c44-port.yaml
     status: awaiting-human
     agent_wave: 2026-11-13
+    final_audit: 2026-11-15
     counts:
       cards: 89
       agent_fixed: 0
@@ -4552,6 +4595,7 @@ chapters:
     file: cards/c37-argentina.yaml
     status: awaiting-human
     agent_wave: 2026-11-13
+    final_audit: 2026-11-15
     counts:
       cards: 92
       agent_fixed: 0
@@ -4664,6 +4708,7 @@ chapters:
     file: cards/c35-canada.yaml
     status: awaiting-human
     agent_wave: 2026-11-15
+    final_audit: 2026-11-15
     counts:
       cards: 32
       agent_fixed: 0
@@ -4715,6 +4760,7 @@ chapters:
     file: cards/c45-fortified-muscat.yaml
     status: awaiting-human
     agent_wave: 2026-11-15
+    final_audit: 2026-11-15
     counts:
       cards: 23
       agent_fixed: 0
@@ -4757,6 +4803,7 @@ chapters:
     file: cards/c40-new-zealand.yaml
     status: awaiting-human
     agent_wave: 2026-11-15
+    final_audit: 2026-11-15
     counts:
       cards: 66
       agent_fixed: 0
@@ -4843,6 +4890,7 @@ chapters:
     file: cards/c02-wine-with-food.yaml
     status: awaiting-human
     agent_wave: 2026-11-15
+    final_audit: 2026-11-15
     counts:
       cards: 1
       agent_fixed: 0
