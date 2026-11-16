@@ -44,29 +44,32 @@ cards:
     source_id: c42-0003
     review:
       fact_check: pass
-      sources: [aoc-site]
+      sources: [aoc-site, dgccrf-champagne-labels]
     en:
       question: How many Champagne villages retain the historic Grand Cru and Premier Cru designations?
       choices:
-        - { text: "17 Grand Cru and 44 Premier Cru", correct: true }
-        - { text: "44 Grand Cru and 17 Premier Cru", correct: false }
+        - { text: "17 Grand Cru and 42 Premier Cru", correct: true }
+        - { text: "42 Grand Cru and 17 Premier Cru", correct: false }
         - { text: "17 Grand Cru and 319 Premier Cru", correct: false }
-        - { text: "34 Grand Cru and 44 Premier Cru", correct: false }
+        - { text: "34 Grand Cru and 42 Premier Cru", correct: false }
       explanation: |
         The old **échelle des crus** was abolished in 2010, but villages that
-        had earned Grand Cru or Premier Cru status may retain those terms.
+        had earned Grand Cru or Premier Cru status may retain those terms. The
+        current specification lists 42 Premier Cru communes; some older sources
+        quote 44.
 
     fr:
       question: Combien de villages champenois conservent les mentions historiques Grand Cru et Premier Cru ?
       choices:
-        - { text: "17 Grand Cru et 44 Premier Cru", correct: true }
-        - { text: "44 Grand Cru et 17 Premier Cru", correct: false }
+        - { text: "17 Grand Cru et 42 Premier Cru", correct: true }
+        - { text: "42 Grand Cru et 17 Premier Cru", correct: false }
         - { text: "17 Grand Cru et 319 Premier Cru", correct: false }
-        - { text: "34 Grand Cru et 44 Premier Cru", correct: false }
+        - { text: "34 Grand Cru et 42 Premier Cru", correct: false }
       explanation: |
         L’ancienne **échelle des crus** a été supprimée en 2010, mais les
         villages qui avaient obtenu le statut de Grand Cru ou de Premier Cru
-        peuvent conserver ces mentions.
+        peuvent conserver ces mentions. Le cahier des charges actuel compte
+        42 communes Premier Cru ; certaines sources plus anciennes en citent 44.
 
   - id: champagne-cru-commune-001
     type: mcq
@@ -418,8 +421,8 @@ cards:
         - { text: "Pinot Noir, Meunier and Arbane", correct: false }
       explanation: |
         Five other varieties are authorised but tiny in area: Arbane, Petit
-        Meslier, Pinot Blanc, Pinot Gris and **Chardonnay Rose**, restored to
-        the specification in 2025.
+        Meslier, Pinot Blanc, Pinot Gris and **Chardonnay Rose**, added to the
+        specification in 2025.
 
     fr:
       question: Quel trio représente la quasi-totalité des plantations en Champagne ?
@@ -431,7 +434,7 @@ cards:
       explanation: |
         Cinq autres cépages sont autorisés mais occupent une superficie infime :
         Arbane, Petit Meslier, Pinot Blanc, Pinot Gris et **Chardonnay Rose**,
-        réintégré au cahier des charges en 2025.
+        ajouté au cahier des charges en 2025.
 
   - id: champagne-chardonnay-sites-001
     type: mcq
@@ -1566,7 +1569,7 @@ cards:
     source_id: c42-0070
     review:
       fact_check: pass
-      sources: [aoc-site]
+      sources: [aoc-site, inao-vouvray-specification]
     en:
       question: How are the principal sparkling wines of Saumur and Vouvray made?
       choices:
@@ -1575,9 +1578,9 @@ cards:
         - { text: "By carbonation, followed by nine months in large oak vats", correct: false }
         - { text: "By one interrupted fermentation, completed only after disgorgement", correct: false }
       explanation: |
-        Both appellations use bottle fermentation and require a minimum ageing
-        period of nine months from tirage before sale. Longer lees ageing can
-        create more complex examples.
+        Both appellations require bottle fermentation. Saumur sets a minimum
+        of nine months from tirage before sale, and Vouvray is stricter at
+        12 months. Longer lees ageing can create more complex examples.
 
     fr:
       question: Comment sont élaborés les principaux vins effervescents de Saumur et de Vouvray ?
@@ -1587,9 +1590,10 @@ cards:
         - { text: "Gazéification, suivie de neuf mois d’élevage en grands foudres", correct: false }
         - { text: "Une seule fermentation interrompue, achevée seulement après le dégorgement", correct: false }
       explanation: |
-        Les deux appellations utilisent la fermentation en bouteille et
-        imposent au moins neuf mois d’élevage à compter du tirage avant la vente.
-        Un élevage plus long sur lies peut donner des exemples plus complexes.
+        Les deux appellations imposent la fermentation en bouteille. Saumur
+        exige au moins neuf mois à compter du tirage avant la vente ; Vouvray,
+        plus strict, en exige 12. Un élevage plus long sur lies peut donner des
+        exemples plus complexes.
 
   - id: cava-geography-001
     type: mcq
@@ -1665,30 +1669,33 @@ cards:
     source_id: c42-0074
     review:
       fact_check: pass
-      sources: [aoc-site]
+      sources: [aoc-site, do-cava-zones]
     en:
       question: Which list gives the four current Cava DO zones?
       choices:
-        - { text: "Comtats de Barcelona, Ebro Valley, Viñedos de Almendralejo and Levante Zone", correct: true }
-        - { text: "Comtats de Barcelona, Duero Valley, Viñedos de Almendralejo and Levante Zone", correct: false }
-        - { text: "Comtats de Barcelona, Ebro Valley, Viñedos de La Mancha and Levante Zone", correct: false }
-        - { text: "Comtats de Barcelona, Ebro Valley, Viñedos de Almendralejo and Galicia Zone", correct: false }
+        - { text: "Comtats de Barcelona, Ebro Valley, Viñedos de Almendralejo and Requena", correct: true }
+        - { text: "Comtats de Barcelona, Duero Valley, Viñedos de Almendralejo and Requena", correct: false }
+        - { text: "Comtats de Barcelona, Ebro Valley, Viñedos de La Mancha and Requena", correct: false }
+        - { text: "Comtats de Barcelona, Ebro Valley, Viñedos de Almendralejo and Jumilla", correct: false }
       explanation: |
         The new zoning is more precise than the old habit of naming scattered
         provinces. Comtats de Barcelona contains five sub-zones; Ebro Valley
-        contains Alto Ebro and Valle del Cierzo.
+        contains Alto Ebro and Valle del Cierzo. The fourth zone, first
+        announced as Levante, is now officially named Requena.
 
     fr:
       question: Quelle liste donne les quatre zones actuelles de la DO Cava ?
       choices:
-        - { text: "Comtats de Barcelona, Ebro Valley, Viñedos de Almendralejo et Levante Zone", correct: true }
-        - { text: "Comtats de Barcelona, Duero Valley, Viñedos de Almendralejo et Levante Zone", correct: false }
-        - { text: "Comtats de Barcelona, Ebro Valley, Viñedos de La Mancha et Levante Zone", correct: false }
-        - { text: "Comtats de Barcelona, Ebro Valley, Viñedos de Almendralejo et Galicia Zone", correct: false }
+        - { text: "Comtats de Barcelona, Ebro Valley, Viñedos de Almendralejo et Requena", correct: true }
+        - { text: "Comtats de Barcelona, Duero Valley, Viñedos de Almendralejo et Requena", correct: false }
+        - { text: "Comtats de Barcelona, Ebro Valley, Viñedos de La Mancha et Requena", correct: false }
+        - { text: "Comtats de Barcelona, Ebro Valley, Viñedos de Almendralejo et Jumilla", correct: false }
       explanation: |
         Le nouveau zonage est plus précis que l’ancienne habitude de citer des
         provinces dispersées. Comtats de Barcelona compte cinq sous-zones ;
-        Ebro Valley en compte deux, Alto Ebro et Valle del Cierzo.
+        Ebro Valley en compte deux, Alto Ebro et Valle del Cierzo. La quatrième
+        zone, d’abord annoncée sous le nom de Levante, s’appelle désormais
+        officiellement Requena.
 
   - id: cava-guarda-ageing-001
     type: mcq
@@ -2083,7 +2090,7 @@ cards:
         - { text: "Des coteaux escarpés répartis dans 15 communes entre Conegliano et Valdobbiadene", correct: true }
         - { text: "Des plaines alluviales couvrant les neuf provinces de la vaste Prosecco DOC", correct: false }
         - { text: "Des coteaux escarpés limités à Valdobbiadene et au seul vignoble de Cartizze", correct: false }
-        - { text: "Les collines d’Asolo et de Montello, à l’ouest du Piave, dans la DOCG voisine", correct: false }
+        - { text: "Les collines d’Asolo et de Montello, à l’ouest du Piave", correct: false }
       explanation: |
         La DOCG se trouve à environ 50 kilomètres au nord de Venise. Les fortes
         pentes favorisent le travail manuel et créent d’importantes variations
@@ -3180,7 +3187,7 @@ cards:
     fr:
       question: Quel profil correspond le mieux aux effervescents californiens de gros volume issus de régions chaudes et productives ?
       choices:
-        - { text: "Fruités, parfois doux, et produits à grande échelle en cuve close ou par gazéification", correct: true }
+        - { text: "Fruités, parfois doux, et élaborés en cuve close ou par gazéification", correct: true }
         - { text: "Secs, autolytiques, et élaborés par méthode traditionnelle avec des raisins côtiers frais", correct: false }
         - { text: "Aromatiques, demi-secs, et élaborés par transfert avec des raisins de région fraîche", correct: false }
         - { text: "Riches, marqués par les fruits rouges, et élaborés par méthode traditionnelle avec du Shiraz de l’intérieur", correct: false }

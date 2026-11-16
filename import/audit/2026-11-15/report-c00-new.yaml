@@ -1,0 +1,35 @@
+# Final audit — 22 cards with source_id c00-* in c02, c03, c04, c06
+cards:
+  - id: winter-freeze-threshold-001
+    verdict: minor
+    issues: ["known doubt (~−20 °C) checked: consistent with the usual teaching figure and with published bud-hardiness ranges for vinifera (about −15 to −25 °C by cultivar); Why already hedges by variety and acclimatisation"]
+    change: "added `research` to review.sources; no text change"
+    checked: [extension, research]
+  - id: vm-spur-cane-buds-001
+    verdict: minor
+    issues: ["known doubt (spur 2–3, cane 8–20) checked: university extension guides give spurs of 1–3 buds and canes of about 8–15, inside the keyed ranges", "FR Why: « chicot » suggests a dead stub"]
+    change: "FR Why: « court chicot » -> « court tronçon »"
+    checked: [extension]
+  - id: soil-particle-size-001
+    verdict: minor
+    issues: ["FR explanation had one over-long line (wrap)"]
+    change: "re-wrapped FR explanation, no wording change"
+    checked: [knowledge]
+  - id: vine-dormancy-hemisphere-001
+    verdict: minor
+    issues: ["straight apostrophe in EN stem"]
+    change: "vine's -> vine’s"
+    checked: [knowledge]
+  - id: vm-mildew-wine-faults-001
+    verdict: minor
+    issues: ["FR Why said « maladies cryptogamiques » (includes botrytis) then contrasted with noble rot; EN says mildews"]
+    change: "FR Why now starts « L’oïdium et le mildiou abîment… »"
+    checked: [knowledge]
+summary:
+  counts: { wrong: 0, fix: 0, minor: 5, ok: 17 }
+  duplicates_or_leaks: "none found against the other cards of c02/c03/c04/c06 (nearest neighbours: vm-winter-freeze-damage-001, sprinkler-tradeoff-001, vine-american-phylloxera-001, vm-winter-styles-001 test different points and do not give these keys away)"
+  riskiest_patterns:
+    - "figures taught as round numbers (−20 °C, 8–20 buds) that real-world sources give as ranges; stems already say 'roughly/about'"
+    - "FR explanations slightly broader than EN (generic term replacing the named disease)"
+    - "small formatting drift (line wrap, straight apostrophes) in the newest cards"
+  validate: pass

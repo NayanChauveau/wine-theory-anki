@@ -1,0 +1,126 @@
+# Final audit — cards/c41-sparkling-production.yaml (57) and cards/c42-sparkling-wines.yaml (96)
+# Facts checked from knowledge; web lookups on five real doubts (Champagne Premier Cru count,
+# Vouvray sparkling ageing, Cava fourth-zone name, Chardonnay Rose 2025, Brut share).
+cards:
+  # ---- c42 ----
+  - id: champagne-cru-counts-001
+    verdict: wrong
+    issues:
+      - "Key said 44 Premier Cru villages; the Champagne specification (as summarised by DGCCRF) lists 17 Grand Cru and 42 Premier Cru communes. 44 is an often-repeated older figure"
+    change: "Key and foils 44 -> 42 (EN+FR, same index); Why gains one sentence noting 42 is the current figure and that older sources quote 44; source dgccrf-champagne-labels added"
+    checked: [dgccrf-champagne-labels (economie.gouv.fr fiche 'Champagne: connaitre le langage des etiquettes'), knowledge]
+  - id: cava-four-zones-001
+    verdict: wrong
+    issues:
+      - "Key named the fourth zone 'Levante Zone'; that was the provisional 2020 name. The DO Cava site and the MAPA single document now name it Requena"
+      - "Foil 'Galicia Zone' was the only choice breaking the pattern"
+    change: "'Levante Zone' -> 'Requena' in key and two foils; fourth foil 'Galicia Zone' -> 'Jumilla'; Why gains a sentence on the Levante -> Requena name (EN+FR); source do-cava-zones added"
+    checked: [do-cava-zones (cava.wine '4 zones' page), mapa documento unico DOP Cava]
+  - id: loire-sparkling-method-001
+    verdict: fix
+    issues:
+      - "Why claimed both Saumur and Vouvray require nine months from tirage; the Vouvray specification requires 12 months from tirage for mousseux and petillant (Saumur is nine)"
+    change: "Why rewritten (EN+FR): Saumur nine months, Vouvray 12. Key left as 'at least nine months' (true for both). Source inao-vouvray-specification added"
+    checked: [inao-vouvray-specification (cahier des charges homologue 29 Nov 2023, BO MASA 7 Dec 2023), vinsvaldeloire Saumur fines bulles summary]
+  - id: prosecco-conegliano-valdobbiadene-001
+    verdict: fix
+    issues: ["FR foil 4 carried an extra clue absent from EN ('dans la DOCG voisine'), which disqualified it on sight"]
+    change: "FR foil 4 trimmed to match EN"
+    checked: [knowledge]
+  - id: california-value-sparkling-001
+    verdict: minor
+    issues: ["FR key added 'produits a grande echelle', echoing the stem and making the key the longest choice"]
+    change: "FR key aligned with EN ('elabores en cuve close ou par gazeification')"
+    checked: [knowledge]
+  - id: champagne-main-grapes-001
+    verdict: minor
+    issues: ["Why said Chardonnay Rose was 'restored' to the specification in 2025; sources describe it as entering the specification as the eighth variety"]
+    change: "'restored to' -> 'added to' / 'reintegre' -> 'ajoute' (EN+FR)"
+    checked: [trade-press (Oct 2025 reports of Chardonnay Rose approval), knowledge]
+  - id: champagne-brut-dominance-001
+    verdict: minor
+    issues: ["'More than 90%' could not be confirmed on an official page; trade figures (Brut NV about 78% of volume, low-dosage about 2%) are consistent with it once vintage, rose and prestige Brut are included"]
+    change: "none"
+    checked: [trade-press, knowledge]
+  - id: champagne-four-regions-001
+    verdict: minor
+    issues: ["Official grouping gives four regions, while many study texts teach five including Cote de Sezanne; the Why already explains this, but foil 2 is close to a taught answer"]
+    change: "none"
+    checked: [knowledge]
+  - id: loire-sparkling-aocs-001
+    verdict: minor
+    issues: ["Foil 2 (Muscadet, Sancerre, Chinon) has no sparkling association and is discarded without knowing the fact"]
+    change: "none"
+    checked: [knowledge]
+  - id: champagne-prestige-cellaring-001
+    verdict: minor
+    issues: ["Three foils are mechanically impossible (mousse without a cork, fermentation after release)"]
+    change: "none"
+    checked: [knowledge]
+  - id: cava-international-grapes-001
+    verdict: minor
+    issues: ["Foils rely on 'compulsory in every blend' / 'always' and one swaps method for grape; easy to discard"]
+    change: "none"
+    checked: [knowledge]
+  - id: cava-release-style-001
+    verdict: minor
+    issues: ["Foils 3 and 4 are implausible (carbonated before service); EN stem says 'consumed', FR says 'commercialises'"]
+    change: "none"
+    checked: [knowledge]
+  - id: california-value-sparkling-001-foil
+    verdict: minor
+    issues: ["Same card as above: foil 4 says 'inland Shiraz' where California usage is Syrah"]
+    change: "none"
+    checked: [knowledge]
+  # ---- c41 ----
+  - id: sparkling-champagne-vintage-premium-001
+    verdict: fix
+    issues: ["Key was a full sentence ('It is selected to express...') restating the stem, while the three foils were noun phrases; grammar alone singled out the key"]
+    change: "Key -> 'The distinctive character of one selected harvest' / 'Le caractere propre a une recolte selectionnee' (EN+FR, same index)"
+    checked: [knowledge]
+  - id: sparkling-reserve-wine-use-001
+    verdict: fix
+    issues: ["FR foil 2 did not translate EN foil 2 (EN: acidity raised by bottle pressure; FR: final pressure raised by ageing)"]
+    change: "FR foil 2 rewritten to match EN"
+    checked: [knowledge]
+  - id: sparkling-tirage-contents-001
+    verdict: minor
+    issues: ["Foil 4 ended with 'only', a cue word marking it as wrong"]
+    change: "'only' / 'uniquement' removed (EN+FR)"
+    checked: [knowledge]
+  - id: sparkling-five-methods-001
+    verdict: minor
+    issues: ["EN stem 'injecting carbon dioxide' nearly spells the key 'Carbonation'; overlaps with sparkling-carbonation-001"]
+    change: "none"
+    checked: [knowledge]
+  - id: sparkling-base-wine-options-001
+    verdict: minor
+    issues: ["All three foils are post-tirage steps, excluded by the stem's 'before blending and secondary fermentation'"]
+    change: "none"
+    checked: [knowledge]
+  - id: sparkling-second-fermentation-setup-001
+    verdict: minor
+    issues: ["Foil 3 (cork-sealed, horizontal, cool cellar) is a real practice at a few prestige producers; still not the standard setup at Level 3"]
+    change: "none"
+    checked: [knowledge]
+summary:
+  counts:
+    c41: { wrong: 0, fix: 2, minor: 4, ok: 51 }
+    c42: { wrong: 2, fix: 2, minor: 7, ok: 85 }
+    total: { wrong: 2, fix: 4, minor: 11, ok: 136 }
+  note: "california-value-sparkling-001 has two minor entries (second listed with a '-foil' suffix); it is counted once"
+  edited_cards: 9
+  validate: "uv run wset3-anki validate -> 3539 card(s) OK; EN/FR correct index identical on all 57 + 96 cards"
+  verified_ok_on_doubt:
+    - "Champagne NV 15 months (12 on lees), vintage 3 years; press 4,000 kg -> 20.5 hL cuvee + 5 hL taille"
+    - "Cremant nine months on lees; Cava Guarda 9 / Reserva 18 / Gran Reserva 30 / Paraje Calificado 36"
+    - "Cap Classique 12 months since 2021; Winzersekt nine months; Prosecco DOC 85% Glera, Brut Nature to Demi-Sec"
+    - "EU sweetness bands (Brut Nature under 3 g/L, Brut under 12, Extra Dry 12-17, Dry 17-32) and their order"
+  not_verified:
+    - "Saumur mousseux 60% Chenin / 60% Cabernet Franc minimums (INAO PDF blocked; consistent with memory, left as is)"
+    - "Champagne Brut 'more than 90%' (no official page reached)"
+  riskiest_patterns:
+    - "Regulatory names and counts that changed or are quoted inconsistently (Cava Levante -> Requena, 44 vs 42 Premier Cru)"
+    - "One explanation applying a single ageing minimum to two appellations with different rules (Saumur vs Vouvray)"
+    - "FR choices drifting from EN (extra clue or different content in a foil, padded key)"
+    - "A handful of 'why/how' cards with mechanically impossible foils; left alone as minor"

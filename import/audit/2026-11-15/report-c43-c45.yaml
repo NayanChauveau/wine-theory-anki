@@ -1,0 +1,97 @@
+# Final audit — c43 Sherry (104), c44 Port (89), c45 Fortified Muscat (23) = 216 cards
+# Only cards that are NOT ok are listed.
+cards:
+  - id: sherry-cream-base-001
+    file: cards/c43-sherry.yaml
+    verdict: fix
+    issues:
+      - "Explanation (EN+FR) said a few old sweetened Olorosos 'keep the name Oloroso Dulce, such as Matusalem VORS'. Wrong today: Oloroso Dulce is no longer an authorised label term; González Byass itself lists Matusalem VORS as a Cream."
+    change: "Rewrote the last sentence of the EN and FR explanations: sweetened Oloroso blends must now be sold as Cream, Matusalem VORS included. Key and choices untouched."
+    checked: [producer-site, consejo-jerez]
+  - id: sherry-criadera-count-001
+    file: cards/c43-sherry.yaml
+    verdict: minor
+    issues:
+      - "Cue words singled out the key: foils 'Always three…' and 'At least twenty in every solera' vs the only hedged range."
+    change: "Foil 1 -> 'Three, as fixed by the DO rules' / 'Trois, comme le fixe la DO'; foil 4 -> 'From twenty to thirty or more' / 'De vingt à trente, voire plus'. Same index."
+    checked: [knowledge]
+  - id: sherry-solera-direction-001
+    file: cards/c43-sherry.yaml
+    verdict: minor
+    issues: ["Foil 4 uses 'Every butt … each year' (absolute cue); still plausible to a beginner"]
+    change: none
+    checked: [knowledge]
+  - id: sherry-fino-drink-young-001
+    file: cards/c43-sherry.yaml
+    verdict: minor
+    issues: ["Foils 1 and 2 are near-duplicates (cellar several years / lay down a decade); effectively 3 options"]
+    change: none
+    checked: [knowledge]
+  - id: sherry-oxidative-length-001
+    file: cards/c43-sherry.yaml
+    verdict: minor
+    issues: ["Foil 'fades within a few years, like Fino' is ruled out by the stem's own contrast with Fino, and leaks the Fino drink-young fact"]
+    change: none
+    checked: [knowledge]
+  - id: sherry-cream-best-balance-001
+    file: cards/c43-sherry.yaml
+    verdict: minor
+    issues: ["Foil 4 (sweetness masking the dry wine) is not something that could 'mark the finest'; drops without knowledge"]
+    change: none
+    checked: [knowledge]
+  - id: sherry-aserpia-timing-001
+    file: cards/c43-sherry.yaml
+    verdict: minor
+    issues: ["FR explanation has an extra clause ('doivent être prêtes pour les pluies') absent from EN; harmless and correct"]
+    change: none
+    checked: [knowledge]
+  - id: port-robotic-lagar-verdict-001
+    file: cards/c44-port.yaml
+    verdict: minor
+    issues: ["FR foil 2 dropped the 'only' of EN ('Fit for basic Port only' -> 'Bons pour les Portos d’entrée de gamme'), making it half-true next to the key"]
+    change: "FR foil 2 -> 'Réservés aux Portos d’entrée de gamme'."
+    checked: [knowledge]
+  - id: port-fortify-timing-001
+    file: cards/c44-port.yaml
+    verdict: minor
+    issues: ["Two weak foils (age of the waiting casks; time of day of picking) are not credible drivers of fortification timing"]
+    change: none
+    checked: [knowledge]
+  - id: port-new-oak-avoided-001
+    file: cards/c44-port.yaml
+    verdict: minor
+    issues: ["Foil 'compulsory for Vintage Port' is a cue-word throwaway"]
+    change: none
+    checked: [knowledge]
+  - id: port-cima-corgo-top-001
+    file: cards/c44-port.yaml
+    verdict: minor
+    issues: ["Foil 'Spread evenly across all three sub-regions' contradicts the stem's 'concentrated'; 3 real options"]
+    change: none
+    checked: [knowledge]
+  - id: port-fino-spirit-share-001
+    file: cards/c44-port.yaml
+    verdict: minor
+    issues: ["Sherry fact filed in the Port deck (comparison card); figure checks out (about 4% of 96% spirit lifts 11.5% to 15%)"]
+    change: none
+    checked: [knowledge]
+
+watch_items_verified:
+  - "Sherry en rama: Consejo Regulador page on recent regulatory changes confirms the term is reserved for wines without clarification or cold stabilisation (sherry-en-rama-001 ok)."
+  - "Sherry VOS/VORS 20/30, 12/15 per solera vs VOS/VORS per batch, Fino Viejo and Manzanilla Pasada at 7 years, ageing zone widened beyond the triangle, readmitted old varieties: consistent with knowledge of the 2021-22 pliego changes."
+  - "Port: fortification 5-9%, 77% aguardente, LBV 4th-6th year, Vintage registered year 2 and bottled by July year 3, tawny ladder 10/20/30/40 plus 50 and VVO since 2022, 18% / 16.5% lower limits: all consistent."
+  - "Rutherglen: Rutherglen/Classic/Grand/Rare tiers, 1-2% abv before fortification, hot tin sheds, 270+ g/l for the richest: consistent."
+
+summary:
+  total: 216
+  wrong: 0
+  fix: 1
+  minor: 11
+  ok: 204
+  edited_cards: [sherry-cream-base-001, sherry-criadera-count-001, port-robotic-lagar-verdict-001]
+  web_lookups: 2
+  riskiest_patterns:
+    - "Named anecdotes in explanations ageing badly with regulation changes (Oloroso Dulce label term). Keys were sound; the risk sits in the Why."
+    - "Occasional absolute-word foils (always / every / compulsory / banned) that let the hedged key stand out."
+    - "A few binary questions padded with one throwaway foil, mostly in Port."
+    - "FR drift is rare: one dropped 'only', one extra clause; no key/index mismatch."

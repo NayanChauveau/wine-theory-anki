@@ -1,0 +1,60 @@
+# Final audit — cards/c36-chile.yaml (77) and cards/c37-argentina.yaml (92)
+# No web lookups needed: no card raised real doubt; all facts judged from knowledge.
+cards:
+  - id: chile-humboldt-direction-001
+    verdict: minor
+    issues: ["Why said 'offshore winds' drive the upwelling; the mechanism is alongshore (southerly) winds moving surface water out to sea"]
+    change: "EN/FR explanation first sentence reworded to winds blowing along the coast; key and choices untouched"
+    checked: [knowledge]
+  - id: chile-muscat-alexandria-001
+    verdict: minor
+    issues: ["Why cites the 2012 survey while sibling cards cite 2022; ranking still holds"]
+    change: none
+    checked: [knowledge]
+  - id: chile-san-antonio-chardonnay-001
+    verdict: minor
+    issues: ["Foils are all small-plot aromatics, so 'widely planted' in the stem narrows the answer"]
+    change: none
+    checked: [knowledge]
+  - id: chile-casablanca-san-antonio-position-001
+    verdict: minor
+    issues: ["Key says 'Pacific side of the Coastal Range' while the Why says 'in the coastal hills'; both acceptable, slightly different framing"]
+    change: none
+    checked: [knowledge]
+  - id: argentina-northern-limit-001
+    verdict: minor
+    issues: ["Why called 26° S 'close to' the Tropic of Capricorn (23.4° S), about 300 km away"]
+    change: "EN/FR explanation now says 'only a few degrees south of' the tropic"
+    checked: [knowledge]
+  - id: argentina-malbec-blend-partners-001
+    verdict: minor
+    issues: ["Foil groups (Rhône, Portuguese, Italian sets) drop out by origin alone"]
+    change: none
+    checked: [knowledge]
+  - id: argentina-other-whites-001
+    verdict: minor
+    issues: ["Foil groups (Spanish, Central European, Greek/Italian sets) drop out by origin alone"]
+    change: none
+    checked: [knowledge]
+  - id: argentina-sanjuan-white-grapes-001
+    verdict: minor
+    issues: ["Cool-climate and Iberian foil pairs are implausible for a hot province"]
+    change: none
+    checked: [knowledge]
+  - id: argentina-salta-malbec-area-001
+    verdict: minor
+    issues: ["'Roughly double the Torrontés Riojano area' is from memory nearer 1.6-2x; ranking itself is right. Torrontés foil is the intuitive trap, which is intended"]
+    change: none
+    checked: [knowledge]
+summary:
+  total: 169
+  ok: 160
+  minor: 9
+  fix: 0
+  wrong: 0
+  edited: [chile-humboldt-direction-001, argentina-northern-limit-001]
+  riskiest_patterns:
+    - "Grape-group MCQs whose foils are sets from other countries, answerable by elimination"
+    - "Statistics in explanations from mixed survey years (2012 vs 2022/2024 INV/SAG figures); rankings hold but figures will date"
+    - "Small mechanistic shortcuts in explanations (upwelling winds, 'close to the tropic')"
+  notes: "Chilean DO cards (Costa/Entre Cordilleras/Andes 2011, 85%, region/sub-region/zone/area, 13 sub-regions, Reserva/Gran Reserva alcohol rule, Secano Interior, Austral) and Argentine altitude/region cards (Salta 3,100 m, Luján ~1,000 m, Uco 900-1,500 m, San Rafael, Patagonia provinces, Mendoza five zones) all judged correct."

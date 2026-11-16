@@ -495,7 +495,7 @@ cards:
       question: Pourquoi un producteur conserve-t-il parfois une partie de son vin de base au-delà de l’année suivante ?
       choices:
         - { text: "Pour l’utiliser comme vin de réserve dans de futurs assemblages", correct: true }
-        - { text: "Pour augmenter la pression finale grâce au vieillissement", correct: false }
+        - { text: "Pour que la pression en bouteille augmente son acidité", correct: false }
         - { text: "Pour remplacer les levures lors de la prochaine première fermentation", correct: false }
         - { text: "Pour faire dépendre les assemblages futurs d’une seule récolte", correct: false }
       explanation: |
@@ -684,7 +684,7 @@ cards:
         - { text: "Wine, sugar, yeast, nutrients and a clarifying agent", correct: true }
         - { text: "Wine, dosage syrup, sulphur dioxide and oak extract", correct: false }
         - { text: "Grape spirit, sugar, tannin and a colouring agent", correct: false }
-        - { text: "Reserve wine, carbon dioxide, acid and bentonite only", correct: false }
+        - { text: "Reserve wine, carbon dioxide, acid and bentonite", correct: false }
       explanation: |
         The sugar and yeast initiate the bottle fermentation. The clarifying
         aid helps the resulting sediment move cleanly during riddling.
@@ -695,7 +695,7 @@ cards:
         - { text: "Du vin, du sucre, des levures, des nutriments et un agent de clarification", correct: true }
         - { text: "Du vin, une liqueur de dosage, du dioxyde de soufre et un extrait de chêne", correct: false }
         - { text: "De l’alcool vinique, du sucre, des tanins et un colorant", correct: false }
-        - { text: "Du vin de réserve, du dioxyde de carbone, de l’acide et uniquement de la bentonite", correct: false }
+        - { text: "Du vin de réserve, du dioxyde de carbone, de l’acide et de la bentonite", correct: false }
       explanation: |
         Le sucre et les levures déclenchent la prise de mousse en bouteille.
         L’agent de clarification aide ensuite le dépôt à se déplacer proprement
@@ -1733,7 +1733,7 @@ cards:
     en:
       question: What is a vintage Champagne intended to express?
       choices:
-        - { text: "It is selected to express the character of a particular harvest", correct: true }
+        - { text: "The distinctive character of one selected harvest", correct: true }
         - { text: "The house’s most consistent blend across several harvests", correct: false }
         - { text: "The identity of one village regardless of harvest year", correct: false }
         - { text: "A fixed dosage category used for the house’s standard wine", correct: false }
@@ -1745,7 +1745,7 @@ cards:
     fr:
       question: Qu’est-ce qu’un Champagne millésimé cherche à exprimer ?
       choices:
-        - { text: "Il est sélectionné pour exprimer le caractère d’une récolte particulière", correct: true }
+        - { text: "Le caractère propre à une récolte sélectionnée", correct: true }
         - { text: "L’assemblage le plus régulier de la maison sur plusieurs récoltes", correct: false }
         - { text: "L’identité d’un seul village, quelle que soit l’année de récolte", correct: false }
         - { text: "Une catégorie de dosage fixe utilisée pour la cuvée standard", correct: false }

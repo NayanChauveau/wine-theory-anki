@@ -1,0 +1,105 @@
+# Final audit — cards/c38-south-africa.yaml (89) and cards/c40-new-zealand.yaml (66)
+# Web checks: Wine and Spirit Board gazette notices (Cape Coastal, Boberg repeal),
+# NZ Winegrowers Vineyard Report 2024 (all NZ hectare figures re-read from the tables).
+cards:
+  - id: za-coastal-region-001
+    file: cards/c38-south-africa.yaml
+    verdict: fix
+    issues:
+      - "Why stated in the present tense that Boberg 'is a small region reserved for fortified wines'; the Boberg production area was repealed in 2019 (Board Notice 13 of 2019) and it was never small (it spanned several districts)"
+    change: "EN+FR Why now say Boberg was a name kept for fortified wines from a few inland districts, repealed in 2019. Foil kept (still clearly wrong). Added wine-and-spirit-board to review.sources."
+    checked: [wine-and-spirit-board, wosa]
+  - id: nz-martinborough-climate-001
+    file: cards/c40-new-zealand.yaml
+    verdict: fix
+    issues:
+      - "Why gave a wrong mechanism: 'acidity is lost mainly at night'. Malic acid respiration depends on temperature and is not mainly nocturnal; the point is that cold nights slow it"
+    change: "EN+FR first sentence of the Why rewritten: malic acid is burnt off faster the warmer it is, so cold nights slow the loss. Key and choices untouched."
+    checked: [knowledge]
+  - id: za-stellenbosch-rainfall-001
+    file: cards/c38-south-africa.yaml
+    verdict: minor
+    issues:
+      - "FR Why wrapped with a line starting on ' : ' (orphan colon)"
+    change: "FR Why re-wrapped, wording unchanged"
+    checked: [knowledge]
+  - id: nz-waipara-warmth-001
+    file: cards/c40-new-zealand.yaml
+    verdict: minor
+    issues:
+      - "FR Why had a broken wrap (line ending on a lone 'Dans')"
+    change: "FR Why re-wrapped, wording unchanged"
+    checked: [knowledge]
+  - id: nz-waiheke-reds-001
+    file: cards/c40-new-zealand.yaml
+    verdict: minor
+    issues:
+      - "FR Why first line over the ~80-char wrap"
+    change: "FR Why re-wrapped, wording unchanged"
+    checked: [knowledge]
+  - id: za-benguela-001
+    file: cards/c38-south-africa.yaml
+    verdict: minor
+    issues:
+      - "Humboldt foil drops on geography alone (Pacific, off Chile)"
+    change: none
+    checked: [knowledge]
+  - id: za-cape-doctor-001
+    file: cards/c38-south-africa.yaml
+    verdict: minor
+    issues:
+      - "Fremantle Doctor and Zonda foils belong to other countries; only Berg wind is a same-frame foil"
+    change: none
+    checked: [knowledge]
+  - id: za-mountain-shade-001
+    file: cards/c38-south-africa.yaml
+    verdict: minor
+    issues:
+      - "Summer snowcap foil is weak (also reused as a foil in za-mountain-wind-001)"
+    change: none
+    checked: [knowledge]
+  - id: za-estate-brand-range-001
+    file: cards/c38-south-africa.yaml
+    verdict: minor
+    issues:
+      - "Stem already says 'under its brand' while two choices turn on same vs separate brand name; slightly awkward but unambiguous"
+    change: none
+    checked: [knowledge]
+  - id: nz-island-warmth-001
+    file: cards/c40-new-zealand.yaml
+    verdict: minor
+    issues:
+      - "Effectively a binary question; 'central strait area is warmest' is a filler foil"
+    change: none
+    checked: [knowledge]
+
+verified_ok_on_real_doubt:
+  - id: za-wo-smallest-tier-001
+    note: "Overarching region name 'Cape Coastal' (Coastal Region + Cape South Coast) confirmed by the February 2019 Wine and Spirit Board notice; not 'Cape Coast'"
+  - id: nz-waipara-riesling-001
+    note: "North Canterbury Riesling 258 ha vs Marlborough 202-212 ha in the 2024 report; claim holds"
+  - id: nz-merlot-red-rank-001
+    note: "Merlot 938 ha in 2024, 844 ha in Hawke's Bay (about nine-tenths); holds"
+  - id: nz-auckland-varieties-001
+    note: "Chardonnay 64, Syrah 48, Merlot 32, Pinot Gris 30.5 ha; holds"
+  - id: nz-gisborne-gewurztraminer-001
+    note: "Gisborne Gewurztraminer 9.97 ha in 2024; holds"
+  - note: "All other NZ 2024 hectare figures and shares (national, Marlborough, Nelson, North Canterbury, Central Otago, Hawke's Bay, Auckland, Wairarapa) match the report tables"
+
+summary:
+  total: 155
+  counts:
+    wrong: 0
+    fix: 2
+    minor: 8
+    ok: 145
+  by_file:
+    cards/c38-south-africa.yaml: { wrong: 0, fix: 1, minor: 5, ok: 83 }
+    cards/c40-new-zealand.yaml: { wrong: 0, fix: 1, minor: 3, ok: 62 }
+  riskiest_patterns:
+    - "Wine of Origin structure changes over time (Boberg repealed 2019, Cape Coastal added 2019, Central Orange River upgraded, Cape Point/Tygerberg merged into Cape Town): Why texts that describe the scheme in the present tense go stale"
+    - "Loose physiological mechanisms in Why texts (acid lost 'mainly at night')"
+    - "NZ cards lean on dated 2024 hectare figures; all correct today but will age with each vineyard report"
+    - "Name-recall cards padded with foils from other countries (Humboldt, Zonda, Fremantle Doctor)"
+    - "Occasional broken FR line wrapping in explanation blocks"
+  validate: "uv run wset3-anki validate -> 3539 card(s) OK; EN/FR correct indexes match on all 155 cards"

@@ -1,0 +1,91 @@
+# Final audit — cards/c39-australia.yaml (132), cards/c46-jura.yaml (20), cards/c47-savoie.yaml (20)
+# Web checks: Vin de Savoie cahier des charges (2021 text, agriculture.gouv.fr BO Agri) for
+# Crémant de Savoie blend/lees, Ayze, Chasselas crus; search results for Vin Jaune ageing
+# (6 years 3 months, 60 months under voile). Everything else from knowledge.
+cards:
+  - id: savoie-chasselas-001
+    file: cards/c47-savoie.yaml
+    verdict: fix
+    issues:
+      - "Why (EN+FR) referred to 'the third option' / 'troisième choix'; choices are shuffled, so the pointer is wrong on most presentations"
+    change: "Why now names Frangy, Marestel, Monterminod and Monthoux explicitly (EN+FR)"
+    checked: [inao-vin-de-savoie-specification]
+  - id: jura-vin-jaune-ageing-001
+    file: cards/c46-jura.yaml
+    verdict: minor
+    issues:
+      - "Foil 'five years' is the 60-month under-veil minimum; Why did not disambiguate it from the six-year wood ageing"
+    change: "Why (EN+FR) now states at least 60 months under the veil, release more than six years after harvest"
+    checked: [inao-chateau-chalon-specification, knowledge]
+  - id: jura-macvin-production-001
+    file: cards/c46-jura.yaml
+    verdict: minor
+    issues:
+      - "FR key 'eau-de-vie de Marc du Jura élevée' reads as an unfinished phrase"
+    change: "FR key -> 'eau-de-vie de marc du Jura vieillie sous bois'"
+    checked: [knowledge]
+  - id: savoie-mondeuse-style-001
+    file: cards/c47-savoie.yaml
+    verdict: minor
+    issues:
+      - "FR foil calque 'bois de noix de coco marqué'"
+    change: "FR foil -> 'boisé marqué de noix de coco'"
+    checked: [knowledge]
+  - id: aus-nsw-cooler-regions-001
+    file: cards/c39-australia.yaml
+    verdict: minor
+    issues:
+      - "Why called Cowra 'somewhat cooler'; Cowra sits low (about 300-380 m) and is warm, not cooler than the Hunter"
+    change: "Why (EN+FR): Cowra described as a third region on the inland slopes, lower and warmer"
+    checked: [knowledge]
+  - id: aus-adelaide-hills-irrigation-001
+    file: cards/c39-australia.yaml
+    verdict: minor
+    issues:
+      - "Key 'soils that hold little water' is defensible, but the usual syllabus reason is winter-dominant rainfall (carried only in the Why, and in the stem's 'during the growing season')"
+    change: none
+    checked: [knowledge]
+  - id: aus-yarra-pinot-style-001
+    file: cards/c39-australia.yaml
+    verdict: minor
+    issues:
+      - "FR Why renders 'savoury complexity' with a heavy paraphrase ('notes plus épicées, moins axées sur le fruit')"
+    change: none
+    checked: [knowledge]
+  - id: aus-barossa-shiraz-ageing-001
+    file: cards/c39-australia.yaml
+    verdict: minor
+    issues:
+      - "FR Why 'notes tertiaires évoluées' is redundant"
+    change: none
+    checked: [knowledge]
+  - id: aus-tasmania-cool-plantings-001
+    file: cards/c39-australia.yaml
+    verdict: minor
+    issues:
+      - "'Fastest proportional vineyard growth' is plausible and consistent with the syllabus but not verified against Wine Australia area statistics"
+    change: none
+    checked: [knowledge]
+
+verified_ok_with_source:
+  - id: savoie-cremant-blend-001
+    note: "40% Jacquère, 60% Jacquère + Altesse in the cuvée, 9 months minimum on lees: confirmed in the Vin de Savoie specification"
+  - id: savoie-ayze-001
+    note: "Ayze: still and quality sparkling whites, Gringet principal grape: confirmed"
+  - id: jura-vin-jaune-ageing-001
+    note: "Wood ageing to mid-December of the sixth year after harvest (about 6 years 3 months), 60 months under veil"
+
+summary:
+  total: 172
+  wrong: 0
+  fix: 1
+  minor: 8
+  ok: 163
+  minor_edited: 4
+  minor_left: 4
+  validate: "uv run wset3-anki validate -> 3539 card(s) OK; EN/FR correct index match on all 172 cards"
+  riskiest_patterns:
+    - "Explanations that point at a choice by position ('third option') although choices are shuffled"
+    - "Side remarks in the Why about a neighbouring region (Cowra) that are looser than the keyed fact"
+    - "Occasional FR calques in foils and keys in the supplementary chapters (Jura/Savoie)"
+    - "Australia: no keyed answer or foil found wrong; GI hierarchy, 85% rule, zone/region/sub-region cards and producer dates all check out"
